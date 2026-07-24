@@ -87,6 +87,10 @@ def _source_url(firm: roster.Firm, records: list[dict]) -> Optional[str]:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--mode", choices=["all", "discover", "refresh"], default="all",
+                    help="discover = only add NEW firms (fast, routine); "
+                         "refresh = only re-scrape existing firms (heavy, monthly); "
+                         "all = both (default)")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only", type=str, default="")
     ap.add_argument("--dry-run", action="store_true")
@@ -97,6 +101,10 @@ def main() -> int:
                    else [p.name for p in _DATA.glob("*.json")])
 
     firms = roster.build(known_files)
+    if args.mode == "discover":       # only new firms (generic candidates)
+        firms = [f for f in firms if f.kind == "generic"]
+    elif args.mode == "refresh":      # only re-scrape firms we already have
+        firms = [f for f in firms if f.kind == "bespoke"]
     if args.only:
         want = {s.strip() for s in args.only.split(",")}
         firms = [f for f in firms if f.slug in want]

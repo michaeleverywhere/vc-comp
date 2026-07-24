@@ -8,9 +8,16 @@
 # A cron service must run its command and EXIT — the pipeline does. restartPolicy
 # "never" stops a failed run from looping; it just retries on the next schedule.
 
+# TWO cadences (see PIPELINE.md):
+#   - this service runs DISCOVERY (add new firms) on a routine schedule — cheap,
+#     does nothing on days with no new candidates.
+#   - add a SECOND Railway service from the same repo for the monthly full
+#     refresh: Start Command "python3 automation/pipeline.py --mode refresh",
+#     Cron Schedule "0 8 1 * *" (08:00 UTC on the 1st of each month).
+
 [build]
 builder = "nixpacks"
 
 [deploy]
-startCommand = "python3 automation/pipeline.py"
+startCommand = "python3 automation/pipeline.py --mode discover"
 restartPolicyType = "never"
