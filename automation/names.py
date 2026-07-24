@@ -45,7 +45,7 @@ def scraper_module(data_file: str) -> str:
 
 def notes_url(data_file: str) -> str:
     """Raw GitHub URL for the dataset (the refs/heads form used in Notes)."""
-    repo = os.environ.get("GITHUB_REPO", "ruszinn/vc-comp")
+    repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
     branch = os.environ.get("GITHUB_BRANCH", "main")
     ddir = os.environ.get("GITHUB_DATA_DIR", "data")
     return f"https://raw.githubusercontent.com/{repo}/refs/heads/{branch}/{ddir}/{data_file}"

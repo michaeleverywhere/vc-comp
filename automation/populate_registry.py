@@ -28,7 +28,7 @@ _SUFFIX = "_companies.json"
 
 
 def _raw_url(data_file: str) -> str:
-    repo = os.environ.get("GITHUB_REPO", "ruszinn/vc-comp")
+    repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
     branch = os.environ.get("GITHUB_BRANCH", "main")
     ddir = os.environ.get("GITHUB_DATA_DIR", "data")
     return f"https://raw.githubusercontent.com/{repo}/{branch}/{ddir}/{data_file}"

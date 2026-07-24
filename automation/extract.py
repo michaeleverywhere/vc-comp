@@ -26,7 +26,7 @@ from urllib.parse import urljoin, urlsplit
 import requests
 from bs4 import BeautifulSoup
 
-_UA = {"User-Agent": "vc-comps-pipeline/1.0 (+github.com/ruszinn/vc-comp)"}
+_UA = {"User-Agent": "vc-comps-pipeline/1.0 (+github.com/michaeleverywhere/vc-comp)"}
 
 _KEYWORDS = (
     "portfolio", "companies", "investments", "portfolio-companies",
