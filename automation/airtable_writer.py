@@ -84,7 +84,8 @@ def _derive(field: str, df: str, row: dict) -> str | None:
     if field == "Name":
         return names.display_name(df)
     if field == "Source URL":
-        return row.get("source_url")            # from the dataset's own source_url
+        # current run's value if present, else read it from the dataset (back-fill)
+        return row.get("source_url") or names.source_url(df)
     if field == "Notes":
         return names.notes_url(df)
     if field == "Source type":

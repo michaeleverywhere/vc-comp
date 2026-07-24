@@ -43,12 +43,41 @@ def scraper_module(data_file: str) -> str:
     return "generic_extractor.py"
 
 
+def source_url(data_file: str) -> str | None:
+    """The firm's portfolio URL, read from its dataset's `source_url` — persistent,
+    so it back-fills on any run (not just the firm's discovery run). Tries the local
+    checkout first, then the public raw GitHub copy."""
+    p = _HERE.parent / "data" / data_file
+    try:
+        for r in json.loads(p.read_text()):
+            if r.get("source_url"):
+                return r["source_url"]
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        import requests
+        repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
+        branch = os.environ.get("GITHUB_BRANCH", "main")
+        ddir = os.environ.get("GITHUB_DATA_DIR", "data")
+        resp = requests.get(
+            f"https://raw.githubusercontent.com/{repo}/{branch}/{ddir}/{data_file}",
+            timeout=15)
+        if resp.ok:
+            for r in resp.json():
+                if r.get("source_url"):
+                    return r["source_url"]
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def notes_url(data_file: str) -> str:
-    """Raw GitHub URL for the dataset (the refs/heads form used in Notes)."""
+    """GitHub blob URL for the dataset — works on a PRIVATE repo for anyone logged
+    in with access (a raw URL would need a token and can't be a stable link)."""
     repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
     branch = os.environ.get("GITHUB_BRANCH", "main")
     ddir = os.environ.get("GITHUB_DATA_DIR", "data")
-    return f"https://raw.githubusercontent.com/{repo}/refs/heads/{branch}/{ddir}/{data_file}"
+    return f"https://github.com/{repo}/blob/{branch}/{ddir}/{data_file}"
 
 
 def _candidate_names() -> dict:
