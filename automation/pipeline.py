@@ -166,6 +166,37 @@ def main() -> int:
         tag = "NEW" if health["is_new"] else f"{health['prev_count']}→{health['record_count']}"
         print(f"    +{len(d['added'])} -{len(d['dropped'])} ~{len(d['exited'])}  [{tag}]")
 
+    # --- scraper factory (discover mode only): give scraper-less firms a real,
+    # bespoke scraper via Claude API generation + guard + sandbox + validation.
+    if args.mode == "discover" and not args.dry_run \
+            and os.environ.get("ANTHROPIC_API_KEY"):
+        import gen_state
+        import scraper_factory
+        cap = int(os.environ.get("GEN_MAX_PER_RUN", "3"))
+        gstate = gen_state.load(store)          # attempt memory (repo-backed)
+        gen_targets = scraper_factory.targets(firms, gstate)[:cap]
+        gstate_dirty = False
+        for firm in gen_targets:
+            print(f"[factory] generating bespoke scraper for {firm.slug} …", flush=True)
+            r = scraper_factory.attempt(firm, store)
+            print(f"[factory] {firm.slug}: {r['reason']}")
+            if not r["ok"]:
+                gen_state.record_failure(gstate, firm.slug, r["reason"])
+                gstate_dirty = True
+            if r["ok"]:
+                gstate_dirty |= gen_state.clear(gstate, firm.slug)
+                # replace the firm's registry row with one built from the rich dataset
+                h = diff.registry_health(firm.slug, firm.data_file, [], r["records"])
+                h.update({"status": "active", "firm_name": firm.firm_name,
+                          "source_url": firm.portfolio_url,
+                          "output_url": store.raw_url(firm.data_file) if store else None})
+                h.update(tags.count_tags(r["records"]))
+                registry = [x for x in registry if x.get("data_file") != firm.data_file]
+                registry.append(h)
+                tally["generated"] = tally.get("generated", 0) + 1
+        if gstate_dirty:                        # one commit per run, max
+            gen_state.save(gstate, store)
+
     summary = {**tally, "firms_scanned": len(firms),
                "firms_changed": len(registry), "run_at": run_at}
     print("\n== summary ==\n" + json.dumps(summary, indent=2))

@@ -1,5 +1,11 @@
 # VC comps automation — one self-contained nightly pipeline
 
+> **PARTIALLY STALE (2026-07-24):** the Zapier/catch-hook sections below are retired —
+> the pipeline now writes **directly to Airtable** (`airtable_writer.py`), the sync target
+> is the **Private Comps** table (not "Portfolio Companies"), and a Claude-API **scraper
+> factory** auto-generates bespoke scrapers in discover mode. See **CLAUDE.md §Automation**
+> for the authoritative current design and session-handoff state.
+
 Discovery **and** refresh in a single pass, purpose-built for this repo. One
 service, one loop, no work done twice.
 
