@@ -105,7 +105,10 @@ def attempt(firm, store, tries: int = 1) -> dict:
     where `failures` lists every failed try, oldest first, for the caller to
     record in gen_state. An API-transport error aborts the burst (its
     "generation error: …" entry is uncounted there, so it retries next run).
-    Commits scraper+data on success."""
+    Commits scraper+data on success ONLY when `store` is passed — the pipeline
+    passes store=None and defers commits to end-of-run (a mid-run push triggers
+    a Railway redeploy that kills the running container; see
+    pipeline._flush_factory_commits)."""
     slug, data_file = firm.slug, firm.data_file
     res = {"slug": slug, "ok": False, "records": None, "reason": "",
            "failures": []}

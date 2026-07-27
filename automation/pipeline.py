@@ -168,6 +168,12 @@ def main() -> int:
 
     # --- scraper factory (discover mode only): give scraper-less firms a real,
     # bespoke scraper via Claude API generation + guard + sandbox + validation.
+    # Bursts write LOCALLY (store=None); GitHub commits are deferred to
+    # _flush_factory_commits at the very end of the run — a mid-run push
+    # triggers a Railway redeploy that stops this very container (felicis,
+    # 2026-07-27), so the push must land when there is nothing left to kill.
+    gen_done: list = []
+    gstate, gstate_dirty = None, False
     if args.mode == "discover" and not args.dry_run \
             and os.environ.get("ANTHROPIC_API_KEY"):
         import gen_state
@@ -175,14 +181,13 @@ def main() -> int:
         cap = int(os.environ.get("GEN_MAX_PER_RUN", "3"))
         gstate = gen_state.load(store)          # attempt memory (repo-backed)
         gen_targets = scraper_factory.targets(firms, gstate)[:cap]
-        gstate_dirty = False
         budget = gen_state.max_attempts()
         for firm in gen_targets:
             done = int((gstate.get(firm.slug) or {}).get("attempts") or 0)
             remaining = max(1, budget - done)   # burst: whole budget, this run
             print(f"[factory] {firm.slug}: up to {remaining} generation "
                   f"tries …", flush=True)
-            r = scraper_factory.attempt(firm, store, tries=remaining)
+            r = scraper_factory.attempt(firm, None, tries=remaining)
             print(f"[factory] {firm.slug}: {r['reason']}")
             for fail in r["failures"]:
                 gen_state.record_failure(gstate, firm.slug, fail)
@@ -192,6 +197,7 @@ def main() -> int:
                       f"(re-arm by editing data/gen_attempts.json)")
             if r["ok"]:
                 gstate_dirty |= gen_state.clear(gstate, firm.slug)
+                gen_done.append((firm, r["records"]))
                 # replace the firm's registry row with one built from the rich dataset
                 h = diff.registry_health(firm.slug, firm.data_file, [], r["records"])
                 h.update({"status": "active", "firm_name": firm.firm_name,
@@ -201,8 +207,6 @@ def main() -> int:
                 registry = [x for x in registry if x.get("data_file") != firm.data_file]
                 registry.append(h)
                 tally["generated"] = tally.get("generated", 0) + 1
-        if gstate_dirty:                        # one commit per run, max
-            gen_state.save(gstate, store)
 
     summary = {**tally, "firms_scanned": len(firms),
                "firms_changed": len(registry), "run_at": run_at}
@@ -215,7 +219,42 @@ def main() -> int:
               f"({len(registry)} firms would upsert)")
     else:
         airtable_writer.upsert_firms(registry, run_at)
+
+    if gen_done or gstate_dirty:                # factory pushes: LAST, on purpose
+        _flush_factory_commits(store, gen_done, gstate, gstate_dirty)
     return 0
+
+
+def _flush_factory_commits(store, gen_done: list, gstate, gstate_dirty: bool) -> None:
+    """Deferred factory persistence — the run's FINAL action, after Airtable.
+
+    The GitHub pushes here trigger a Railway redeploy of this very service; done
+    mid-run, that redeploy stops the running container (observed live: felicis's
+    success commit killed foundrygroup's burst, 2026-07-27). Deferring means the
+    redeploy lands on a container with nothing left to do. Scraper is committed
+    BEFORE dataset so a kill between the two self-heals: the firm is already
+    bespoke, and the next refresh rewrites its dataset. Per-firm failures are
+    printed, not raised — local artifacts survive and the next run heals."""
+    import gen_state
+    import scraper_factory
+    if store is not None:
+        for firm, records in gen_done:
+            try:
+                code = (_REPO / "scripts" / f"{firm.slug}_scraper.py").read_text()
+                scraper_factory._commit_text(
+                    store, f"scripts/{firm.slug}_scraper.py", code,
+                    f"Auto-generated scraper: {firm.slug} (guard+validation passed)")
+                store.commit_json(
+                    firm.data_file, records,
+                    f"Auto-generated rich dataset: {firm.slug} ({len(records)} companies)")
+                print(f"[factory] {firm.slug}: scraper + dataset committed")
+            except Exception as exc:  # noqa: BLE001 — keep local artifacts
+                print(f"[factory] {firm.slug}: deferred commit FAILED: {exc}")
+    if gstate_dirty:
+        try:
+            gen_state.save(gstate, store)
+        except Exception as exc:  # noqa: BLE001
+            print(f"[factory] attempt-log save FAILED: {exc}")
 
 
 def _local(firm: roster.Firm) -> Optional[list]:

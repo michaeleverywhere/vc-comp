@@ -11,9 +11,10 @@
 # TWO cadences (see PIPELINE.md):
 #   - this service runs DISCOVERY (add new firms) on a routine schedule — cheap,
 #     does nothing on days with no new candidates.
-#   - add a SECOND Railway service from the same repo for the monthly full
-#     refresh: Start Command "python3 automation/pipeline.py --mode refresh",
-#     Cron Schedule "0 8 1 * *" (08:00 UTC on the 1st of each month).
+#   - the monthly full refresh is a SECOND service from the same repo reading
+#     railway.refresh.toml (set its Settings -> Config-as-code file path to
+#     that file — config-as-code overrides dashboard Start Command, so a
+#     dashboard-only override would NOT work). Cron "0 8 1 * *" in its dashboard.
 
 [build]
 builder = "nixpacks"

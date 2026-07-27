@@ -234,6 +234,13 @@ runs use the file directly); retired/`"skip": true` firms are filtered out of `t
 `generation error:` API-transport flukes abort the burst uncounted (firm retries next
 run). Manual `"skip": true` = "legitimately thin, leave it alone"; success deletes the
 firm's entry; re-arm a retired firm by deleting/editing its entry.
+**Self-redeploy guard (2026-07-27):** a mid-run GitHub push makes Railway redeploy the
+service and STOP the running container (observed: felicis's success commit killed the
+foundrygroup burst). Factory commits are therefore deferred to end-of-run
+(`pipeline._flush_factory_commits`, after the Airtable upsert; scraper before dataset so
+a kill between them self-heals). Pair with **Watch Paths** on both Railway services
+(`automation/**`, `scripts/**`, `requirements.txt`, `railway*.toml`) so data-only
+commits — incl. the refresh service's per-firm `Nightly:` commits — never rebuild.
 
 **State at session end (2026-07-24):**
 - DONE: pipeline + direct Airtable write live; discovery service live & verified; Private
