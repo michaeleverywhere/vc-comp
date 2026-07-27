@@ -42,6 +42,9 @@ HARD REQUIREMENTS (violations make the code unusable):
   any file I/O — the caller handles persistence.
 - Site-tailored schema: include ONLY fields the site actually exposes. Missing
   scalar -> None; missing list -> []. NEVER fabricate or guess values.
+- Type integrity: list/dict-valued fields must be REAL JSON structures
+  ("founders": ["A", "B"]), never a string containing a list/dict
+  representation; years and counts as numbers, not strings.
 - Aim for RICH fields where the site exposes them: company_name, company_url,
   description, plus founders / sectors / stage / status / profile URL when present.
   If data lives on per-company detail pages, fetch them (politely: a shared
@@ -196,7 +199,7 @@ if __name__ == "__main__":
     with open(_out, "w") as _f:
         _json.dump(_records, _f, indent=2, ensure_ascii=False)
         _f.write("\\n")
-    print(f"wrote {{len(_records)}} records")
+    print(f"wrote {len(_records)} records")
 '''
 
 

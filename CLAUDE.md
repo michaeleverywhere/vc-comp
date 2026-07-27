@@ -213,7 +213,7 @@ laptop-only). Data commits from Railway land as `Nightly: <slug> …`.
 auto-generates BESPOKE rich scrapers via Claude API — user chose **no human approval**, so
 three machine gates replace review: AST allowlist (no env/subprocess/eval/open/getattr…),
 sandboxed run with token-scrubbed env, output validation (≥10 recs, ≥50% of generic
-baseline, ≥95% names, ≥60% urls, ≥30% descriptions). Pass → commit scraper (trusted
+baseline, ≥95% names, ≥60% urls, ≥30% descriptions, no stringified lists/dicts). Pass → commit scraper (trusted
 runnable footer) + rich dataset; the push triggers Railway rebuild so the firm becomes
 bespoke. Generate-once per firm; `GEN_MAX_PER_RUN=3`; targets = the 6 thin datasets first
 (proven scrapeable), then needs-scraper candidates. Accepted residual risk: subtly-wrong

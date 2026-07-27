@@ -114,4 +114,28 @@ def validate_output(records: list, baseline_count: int = 0) -> list[str]:
         fails.append("company_url coverage < 60%")
     if cov(("description", "tagline", "summary")) < 0.3:
         fails.append("description coverage < 30% (not rich)")
+
+    # type integrity: a string value that PARSES as a list/dict is a stringified
+    # structure ("['A', 'B']") — a real field the model flattened. Feeding the
+    # field names back makes the next burst try fix it.
+    bad_fields: set[str] = set()
+    for r in records:
+        for k, v in r.items():
+            if not isinstance(v, str):
+                continue
+            s = v.strip()
+            if len(s) < 2 or s[0] not in "[{" or s[-1] not in "]}":
+                continue
+            try:
+                parsed = ast.literal_eval(s)
+            except (ValueError, SyntaxError):
+                try:
+                    parsed = json.loads(s)
+                except json.JSONDecodeError:
+                    continue
+            if isinstance(parsed, (list, dict)):
+                bad_fields.add(k)
+    if bad_fields:
+        fails.append("stringified list/dict in field(s): "
+                     + ", ".join(sorted(bad_fields)[:4]))
     return fails
