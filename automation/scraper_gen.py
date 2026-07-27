@@ -12,6 +12,10 @@ same-domain links, and one sample same-domain profile page for detail-page sites
 
 Env: ANTHROPIC_API_KEY (required), GEN_MODEL (default claude-sonnet-4-5),
 GEN_MAX_TOKENS (default 8000).
+
+Burst tries use prompt caching (_build_content): the contract+context block is
+cache-marked, so retries within a burst re-read it at 0.1x input price instead
+of re-paying full freight; per-call token usage is printed for the Railway logs.
 """
 from __future__ import annotations
 
@@ -92,14 +96,59 @@ def build_context(firm_name: str, slug: str, portfolio_url: str) -> str | None:
     return "\n".join(parts)
 
 
-def generate(firm_name: str, slug: str, portfolio_url: str) -> str | None:
+def _feedback_block(failures: list) -> str:
+    """Prompt section describing this run's earlier failed tries, so the next
+    generation VARIES its approach instead of resampling the same one.
+    `failures`: [{"reason": str, "code": str|None}], oldest first."""
+    if not failures:
+        return ""
+    parts = ["\n\n===== PREVIOUS FAILED ATTEMPTS (same site, this run) ====="]
+    for i, f in enumerate(failures, 1):
+        parts.append(f"Attempt {i} failed: {f['reason']}")
+    last_code = next((f["code"] for f in reversed(failures) if f.get("code")), None)
+    if last_code:
+        parts.append("Most recent failed attempt's code:\n```python\n"
+                     + last_code[:5000] + "\n```")
+    parts.append(
+        "Take a MATERIALLY DIFFERENT approach this time: fix the stated failure, "
+        "and prefer a different on-page data source than before (embedded script "
+        "JSON vs. HTML cards vs. per-company detail pages). If fields were too "
+        "sparse, fetch the detail pages politely to enrich them.")
+    return "\n".join(parts)
+
+
+def _build_content(context: str, failures: list) -> list:
+    """Message content for one generation call, shaped for prompt caching.
+
+    Block 1 (contract + site context, the expensive 20-45K tokens) is marked
+    with cache_control: byte-identical across a burst's tries because the
+    context is fetched once and reused, so try 1 writes the cache (1.25x input
+    price on that block) and later tries read it at 0.1x. The feedback block
+    VARIES between tries, so it sits AFTER the cache boundary, uncached.
+    5-minute ephemeral TTL, refreshed on every hit; a sandbox run slower than
+    that between tries just means the next try re-writes the cache — bounded,
+    cents-level downside."""
+    content = [{"type": "text", "text": f"{_CONTRACT}\n\n{context}",
+                "cache_control": {"type": "ephemeral"}}]
+    fb = _feedback_block(failures)
+    if fb:
+        content.append({"type": "text", "text": fb})
+    return content
+
+
+def generate(firm_name: str, slug: str, portfolio_url: str,
+             context: str | None = None, failures: list | None = None) -> str | None:
     """Return the generated module source, or None (no key / site unreachable /
-    no code in the reply). Raises on API transport errors so the caller logs them."""
+    no code in the reply). Raises on API transport errors so the caller logs them.
+
+    `context` lets a burst of tries reuse one site fetch; `failures` carries the
+    burst's earlier failed tries (see _feedback_block)."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         print("[gen] ANTHROPIC_API_KEY not set — skipping generation")
         return None
-    context = build_context(firm_name, slug, portfolio_url)
+    if context is None:
+        context = build_context(firm_name, slug, portfolio_url)
     if not context:
         print(f"[gen] {slug}: portfolio page unreachable — cannot generate")
         return None
@@ -112,12 +161,18 @@ def generate(firm_name: str, slug: str, portfolio_url: str) -> str | None:
             "model": os.environ.get("GEN_MODEL", "claude-sonnet-4-5"),
             "max_tokens": int(os.environ.get("GEN_MAX_TOKENS", "8000")),
             "messages": [{"role": "user",
-                          "content": f"{_CONTRACT}\n\n{context}"}],
+                          "content": _build_content(context, failures or [])}],
         },
         timeout=180,
     )
     r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", []))
+    body = r.json()
+    u = body.get("usage", {})
+    print(f"[gen] {slug}: tokens in={u.get('input_tokens', '?')} "
+          f"cache_write={u.get('cache_creation_input_tokens', 0)} "
+          f"cache_read={u.get('cache_read_input_tokens', 0)} "
+          f"out={u.get('output_tokens', '?')}")
+    text = "".join(b.get("text", "") for b in body.get("content", []))
     m = re.search(r"```python\s*(.*?)```", text, re.S)
     return m.group(1).strip() if m else None
 

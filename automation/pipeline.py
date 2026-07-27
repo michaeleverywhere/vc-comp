@@ -176,13 +176,20 @@ def main() -> int:
         gstate = gen_state.load(store)          # attempt memory (repo-backed)
         gen_targets = scraper_factory.targets(firms, gstate)[:cap]
         gstate_dirty = False
+        budget = gen_state.max_attempts()
         for firm in gen_targets:
-            print(f"[factory] generating bespoke scraper for {firm.slug} …", flush=True)
-            r = scraper_factory.attempt(firm, store)
+            done = int((gstate.get(firm.slug) or {}).get("attempts") or 0)
+            remaining = max(1, budget - done)   # burst: whole budget, this run
+            print(f"[factory] {firm.slug}: up to {remaining} generation "
+                  f"tries …", flush=True)
+            r = scraper_factory.attempt(firm, store, tries=remaining)
             print(f"[factory] {firm.slug}: {r['reason']}")
-            if not r["ok"]:
-                gen_state.record_failure(gstate, firm.slug, r["reason"])
+            for fail in r["failures"]:
+                gen_state.record_failure(gstate, firm.slug, fail)
                 gstate_dirty = True
+            if not r["ok"] and not gen_state.eligible(gstate, firm.slug)[0]:
+                print(f"[factory] {firm.slug}: retired — won't be re-tried "
+                      f"(re-arm by editing data/gen_attempts.json)")
             if r["ok"]:
                 gstate_dirty |= gen_state.clear(gstate, firm.slug)
                 # replace the firm's registry row with one built from the rich dataset

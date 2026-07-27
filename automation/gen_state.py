@@ -22,8 +22,11 @@ Rules:
   * every failed attempt is recorded; it COUNTS toward exhaustion unless it was
     a pure API-transport failure ("generation error: ..."), which says nothing
     about the firm;
+  * pacing (2026-07-27): the factory spends a firm's whole budget as a BURST in
+    its first run (scraper_factory.attempt(tries=...)), so exhaustion — being
+    "retired" — normally happens the same night the firm is first tried;
   * a firm stops being targeted once attempts >= GEN_MAX_ATTEMPTS (default 3)
-    — "exhausted" — or when a human sets "skip": true, the explicit
+    — retired — or when a human sets "skip": true, the explicit
     "legitimately thin, leave it alone" flag;
   * success deletes the entry — the committed scraper is the durable state;
   * to re-arm an exhausted firm, delete (or edit) its entry and commit.

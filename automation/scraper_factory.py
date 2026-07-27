@@ -10,6 +10,13 @@ Orchestrates gen -> guard -> commit for the pipeline's discover mode:
       5. only then: write scripts/<slug>_scraper.py (with the trusted runnable
          footer), commit scraper + refreshed dataset to GitHub.
 
+Steps 1-4 run as a BURST: up to GEN_MAX_ATTEMPTS tries in the same run, each
+later try prompted with the burst's earlier failures so it varies its approach
+(different on-page data source, fixed validation gap). A firm therefore leaves
+the queue the night it is first tried — bespoke on success, retired (gen_state
+exhaustion) on failure — so no rolling backlog forms. API-transport errors are
+the exception: they abort the burst uncounted and the firm retries next run.
+
 A committed scraper makes the firm 'bespoke' from the next deploy on (Railway
 rebuilds on the push), so the monthly refresh re-scrapes it like the original 47.
 Attempts are capped per run (GEN_MAX_PER_RUN, default 3) to bound API cost, and
@@ -90,59 +97,88 @@ class _Target:
         self.__dict__.update(kw)
 
 
-def attempt(firm, store) -> dict:
-    """Try to build a bespoke scraper for one firm. Returns a result dict:
-    {slug, ok, records|None, reason}. Commits scraper+data on success."""
+def attempt(firm, store, tries: int = 1) -> dict:
+    """Burst-try one firm: up to `tries` generations in THIS run, each later try
+    shown the earlier failures (reason + last code) so it varies its approach
+    instead of resampling the same one. The site context is fetched once and
+    reused across the burst. Returns {slug, ok, records|None, reason, failures}
+    where `failures` lists every failed try, oldest first, for the caller to
+    record in gen_state. An API-transport error aborts the burst (its
+    "generation error: …" entry is uncounted there, so it retries next run).
+    Commits scraper+data on success."""
     slug, data_file = firm.slug, firm.data_file
-    res = {"slug": slug, "ok": False, "records": None, "reason": ""}
+    res = {"slug": slug, "ok": False, "records": None, "reason": "",
+           "failures": []}
+
+    def _fail(reason: str, code: str | None = None, abort: bool = False):
+        res["failures"].append(reason)
+        res["reason"] = reason
+        if not abort:
+            prior.append({"reason": reason, "code": code})
 
     url = firm.portfolio_url or (
         extract.resolve_portfolio_url(firm.homepage) if firm.homepage else None)
     if not url:
+        res["failures"].append("no portfolio url")
         res["reason"] = "no portfolio url"
         return res
 
-    # 1. generate
-    try:
-        code = scraper_gen.generate(firm.firm_name or slug, slug, url)
-    except Exception as exc:  # noqa: BLE001 — API/transport errors
-        res["reason"] = f"generation error: {exc}"
-        return res
-    if not code:
-        res["reason"] = "no code generated"
+    context = scraper_gen.build_context(firm.firm_name or slug, slug, url)
+    if not context:
+        res["failures"].append("portfolio page unreachable")
+        res["reason"] = "portfolio page unreachable"
         return res
 
-    # 2. static guard
-    problems = scraper_guard.static_check(code)
-    if problems:
-        res["reason"] = "static guard: " + "; ".join(problems[:4])
-        return res
-
-    # 3. sandboxed run (no tokens in env)
-    cand = _DATA.parent / "automation" / f".candidate_{slug}.py"
-    cand.write_text(code + "\n")
-    try:
-        records, err = scraper_guard.run_sandboxed(str(cand))
-    finally:
-        try:
-            cand.unlink()
-        except OSError:
-            pass
-    if records is None:
-        res["reason"] = f"sandbox: {err}"
-        return res
-
-    # 4. validate output (baseline = what the generic extractor got, if anything)
+    # baseline = what the generic extractor got, if anything (read once)
     baseline = 0
     if (_DATA / data_file).exists():
         try:
             baseline = len(json.loads((_DATA / data_file).read_text()))
         except Exception:  # noqa: BLE001
             baseline = 0
-    fails = scraper_guard.validate_output(records, baseline)
-    if fails:
-        res["reason"] = "validation: " + "; ".join(fails)
-        return res
+
+    prior: list = []                       # [{"reason", "code"}] for feedback
+    code = None
+    for _t in range(max(1, tries)):
+        # 1. generate (feedback from this burst's earlier tries, if any)
+        try:
+            code = scraper_gen.generate(firm.firm_name or slug, slug, url,
+                                        context=context, failures=prior)
+        except Exception as exc:  # noqa: BLE001 — API/transport: abort burst
+            _fail(f"generation error: {exc}", abort=True)
+            return res
+        if not code:
+            _fail("no code generated")
+            continue
+
+        # 2. static guard
+        problems = scraper_guard.static_check(code)
+        if problems:
+            _fail("static guard: " + "; ".join(problems[:4]), code)
+            continue
+
+        # 3. sandboxed run (no tokens in env)
+        cand = _DATA.parent / "automation" / f".candidate_{slug}.py"
+        cand.write_text(code + "\n")
+        try:
+            records, err = scraper_guard.run_sandboxed(str(cand))
+        finally:
+            try:
+                cand.unlink()
+            except OSError:
+                pass
+        if records is None:
+            _fail(f"sandbox: {err}", code)
+            continue
+
+        # 4. validate output
+        fails = scraper_guard.validate_output(records, baseline)
+        if fails:
+            _fail("validation: " + "; ".join(fails), code)
+            continue
+        break                              # all gates passed
+    else:
+        return res                         # burst exhausted without success
 
     # 5. persist: scraper file + dataset, committed to GitHub
     final_code = scraper_gen.with_footer(code, data_file)
@@ -162,7 +198,9 @@ def attempt(firm, store) -> dict:
         _commit_text(store, f"scripts/{slug}_scraper.py", final_code,
                      f"Auto-generated scraper: {slug} (guard+validation passed)")
 
-    res.update(ok=True, records=records, reason=f"OK ({len(records)} records)")
+    res.update(ok=True, records=records,
+               reason=(f"OK ({len(records)} records, "
+                       f"try {len(res['failures']) + 1}/{max(1, tries)})"))
     return res
 
 

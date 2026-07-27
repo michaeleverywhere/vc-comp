@@ -219,15 +219,21 @@ bespoke. Generate-once per firm; `GEN_MAX_PER_RUN=3`; targets = the 6 thin datas
 (proven scrapeable), then needs-scraper candidates. Accepted residual risk: subtly-wrong
 values can pass validation (revert the firm's commit if so). All gates verified offline;
 **never yet run live**.
-**Attempt memory (added 2026-07-26,** `automation/gen_state.py`**):** failed factory
-attempts are logged to `data/gen_attempts.json` (committed via the store like a dataset,
-so ephemeral Railway runs read it back; local runs use the file directly). Counted
-failures (anything except `generation error:` API-transport flukes) exhaust a firm after
-`GEN_MAX_ATTEMPTS` (default 3); exhausted firms are filtered out of `targets()` *before*
-the `[:GEN_MAX_PER_RUN]` slice, so an unpassable site (e.g. one publishing no
-descriptions — the ≥30%-description gate can then never pass) can't pin the nightly
-slots forever. Manual `"skip": true` on an entry = "legitimately thin, leave it alone";
-success deletes the firm's entry; to re-arm an exhausted firm, delete/edit its entry.
+**Attempt memory + burst retries (added 2026-07-26, burst 2026-07-27;**
+`automation/gen_state.py`**):** per user decision, a firm gets its WHOLE generation
+budget the first night it's tried: `attempt()` bursts up to `GEN_MAX_ATTEMPTS` (default 3)
+tries in one run — site context fetched once, each retry prompted with the burst's
+earlier failure reasons + last code so it varies its approach; the context block is
+cache-marked (prompt caching: retries pay ~10% input on it, usage printed per call)
+— and if none passes the
+gates the firm is **retired the same night** (no rolling backlog; every targeted firm
+leaves the queue as bespoke or retired). Failures are logged to `data/gen_attempts.json`
+(committed via the store like a dataset, so ephemeral Railway runs read it back; local
+runs use the file directly); retired/`"skip": true` firms are filtered out of `targets()`
+*before* the `[:GEN_MAX_PER_RUN]` slice (`GEN_MAX_PER_RUN` still caps FIRMS per run).
+`generation error:` API-transport flukes abort the burst uncounted (firm retries next
+run). Manual `"skip": true` = "legitimately thin, leave it alone"; success deletes the
+firm's entry; re-arm a retired firm by deleting/editing its entry.
 
 **State at session end (2026-07-24):**
 - DONE: pipeline + direct Airtable write live; discovery service live & verified; Private
