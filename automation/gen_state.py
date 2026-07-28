@@ -28,6 +28,11 @@ Rules:
   * a firm stops being targeted once attempts >= GEN_MAX_ATTEMPTS (default 4)
     — retired — or when a human sets "skip": true, the explicit
     "legitimately thin, leave it alone" flag;
+  * a failure the factory marks TERMINAL (currently only "no portfolio url":
+    there is no page to generate against, so a retry is a no-op) sets
+    "retired": true and exhausts the firm at once, whatever its attempt
+    count — recorded as a flag, not as attempts = max, so the entry stays
+    honest about how many tries actually ran (user decision 2026-07-27);
   * success deletes the entry — the committed scraper is the durable state;
   * to re-arm an exhausted firm, delete (or edit) its entry and commit.
 """
@@ -87,6 +92,9 @@ def eligible(state: dict, slug: str) -> tuple[bool, str]:
         return True, ""
     if e.get("skip"):
         return False, "manual skip flag in data/gen_attempts.json"
+    if e.get("retired"):
+        return False, (f"retired ({e.get('last_reason', '?')}) — "
+                       "clear its entry to retry")
     n = int(e.get("attempts") or 0)
     if n >= max_attempts():
         return False, (f"exhausted ({n} failed attempts, last: "
@@ -94,11 +102,16 @@ def eligible(state: dict, slug: str) -> tuple[bool, str]:
     return True, ""
 
 
-def record_failure(state: dict, slug: str, reason: str) -> None:
+def record_failure(state: dict, slug: str, reason: str,
+                   terminal: bool = False) -> None:
     e = state.setdefault(slug, {"slug": slug, "attempts": 0, "skip": False})
     counted = not reason.startswith(_UNCOUNTED_PREFIX)
     if counted:
         e["attempts"] = int(e.get("attempts") or 0) + 1
+        if terminal:
+            # No retry can change this outcome; retire at once. Guarded by
+            # `counted` so a transport fluke can never retire a firm.
+            e["retired"] = True
     e["last_attempt"] = _now()
     e["last_reason"] = reason
     e.setdefault("history", []).append(

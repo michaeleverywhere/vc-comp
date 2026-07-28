@@ -106,17 +106,19 @@ def attempt(firm, store, tries: int = 1) -> dict:
     """Burst-try one firm: up to `tries` generations in THIS run, each later try
     shown the earlier failures (reason + last code) so it varies its approach
     instead of resampling the same one. The site context is fetched once and
-    reused across the burst. Returns {slug, ok, records|None, reason, failures}
-    where `failures` lists every failed try, oldest first, for the caller to
-    record in gen_state. An API-transport error aborts the burst (its
+    reused across the burst. Returns {slug, ok, records|None, reason, failures,
+    terminal} where `failures` lists every failed try, oldest first, for the
+    caller to record in gen_state. An API-transport error aborts the burst (its
     "generation error: …" entry is uncounted there, so it retries next run).
+    `terminal` True means no retry can ever change the outcome — the caller
+    should retire the firm tonight rather than let it burn attempts.
     Commits scraper+data on success ONLY when `store` is passed — the pipeline
     passes store=None and defers commits to end-of-run (a mid-run push triggers
     a Railway redeploy that kills the running container; see
     pipeline._flush_factory_commits)."""
     slug, data_file = firm.slug, firm.data_file
     res = {"slug": slug, "ok": False, "records": None, "reason": "",
-           "failures": []}
+           "failures": [], "terminal": False}
 
     def _fail(reason: str, code: str | None = None, abort: bool = False,
               model: str | None = None):
@@ -131,8 +133,14 @@ def attempt(firm, store, tries: int = 1) -> dict:
     url = firm.portfolio_url or (
         extract.resolve_portfolio_url(firm.homepage) if firm.homepage else None)
     if not url:
+        # TERMINAL (user decision 2026-07-27): with no portfolio page there is
+        # nothing to hand the generator, so a "retry" is just the same URL
+        # resolution against the same JS shell — it cannot succeed where this
+        # one failed. Retire tonight instead of burning 4 counted no-ops
+        # across ~2 weeks while Airtable keeps saying "needs-scraper".
         res["failures"].append("no portfolio url")
         res["reason"] = "no portfolio url"
+        res["terminal"] = True
         return res
 
     context = scraper_gen.build_context(firm.firm_name or slug, slug, url)

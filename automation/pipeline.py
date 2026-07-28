@@ -270,7 +270,10 @@ def main() -> int:
             r = scraper_factory.attempt(firm, None, tries=tries_left)
             print(f"[factory] {firm.slug}: {r['reason']}")
             for fail in r["failures"]:
-                gen_state.record_failure(gstate, firm.slug, fail)
+                # A terminal result carries exactly one failure (attempt()
+                # returns immediately), so the flag cannot over-apply.
+                gen_state.record_failure(gstate, firm.slug, fail,
+                                         terminal=r.get("terminal", False))
                 gstate_dirty = True
             if not r["ok"] and not gen_state.eligible(gstate, firm.slug)[0]:
                 print(f"[factory] {firm.slug}: retired — won't be re-tried "
@@ -285,6 +288,20 @@ def main() -> int:
                     if (h.get("data_file") == firm.data_file
                             and h.get("status") == "needs-scraper"):
                         h["status"] = "retired"
+                if not any(h.get("data_file") == firm.data_file
+                           for h in registry):
+                    # Retirement on a night the scrape loop SKIPPED the firm
+                    # (scrape-memory backoff): no row was built above, so the
+                    # flip finds nothing and — since a retired firm never
+                    # writes a row again — Airtable would say "needs-scraper"
+                    # forever. Minimal row: absent keys are stripped by
+                    # airtable_writer._fields, so the existing count/health
+                    # cells are left untouched; only Status + Last run move.
+                    registry.append({"slug": firm.slug,
+                                     "data_file": firm.data_file,
+                                     "firm_name": firm.firm_name,
+                                     "source_url": firm.portfolio_url,
+                                     "status": "retired"})
             if r["ok"]:
                 gstate_dirty |= gen_state.clear(gstate, firm.slug)
                 # The firm now has a dataset, so it leaves the roster and the

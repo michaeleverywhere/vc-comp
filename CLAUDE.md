@@ -349,6 +349,30 @@ runs use the file directly); retired/`"skip": true` firms are filtered out of `t
 `generation error:` API-transport flukes abort the burst uncounted (firm retries next
 run). Manual `"skip": true` = "legitimately thin, leave it alone"; success deletes the
 firm's entry; re-arm a retired firm by deleting/editing its entry.
+**Terminal no-url retirement (2026-07-27, user decision "if no portfolio page resolves
+on step 1 — retire the firm"):** `attempt()` marks a "no portfolio url" result
+`terminal: True`, and `gen_state.record_failure(..., terminal=True)` sets
+`"retired": true` on the entry — the firm is retired the SAME night, whatever its
+attempt count. Rationale: the 4-try budget exists for generation failures, where
+feedback between tries helps; a no-url failure shares nothing with that — there is no
+page to generate against, so each "retry" was one counted no-op per night (~2 weeks of
+`needs-scraper` in Airtable for the 9 JS-heavy candidates). Recorded as a FLAG, not
+`attempts = max`, so the count stays honest; guarded by `counted`, so a transport fluke
+can never retire a firm. The flag lives inside `eligible()`, so it propagates to all
+three consumers at once: factory `targets()`, the scrape-loop skip, and the finder's
+`_pending` backlog count. `"portfolio page unreachable"` (URL resolved, fetch failed)
+stays NON-terminal on purpose — that shape is transient network, not structural.
+Fixing this exposed a latent Airtable hole, also fixed: a firm retiring on a night the
+scrape memory had SKIPPED it had no registry row, so the needs-scraper→retired status
+flip found nothing and — since a retired firm never writes a row again — the status
+stranded at `needs-scraper` forever, exactly what `retired` exists to prevent. The
+retire branch now synthesizes a minimal row (identity + Status only;
+`airtable_writer._fields` strips absent keys, so existing count/health cells are
+untouched). Net effect: the 9 stuck candidates retire on their next factory pass, ≤3
+per night — all gone in ~3 nights instead of ~12. Tests:
+`automation/test_factory_retire.py` (offline; includes a 30-night simulation proving
+exactly ONE attempt is ever recorded — a flag that looked right but left the firm in
+`targets()` would pass every unit test and fix nothing).
 **Self-redeploy guard (2026-07-27):** a mid-run GitHub push makes Railway redeploy the
 service and STOP the running container (observed: felicis's success commit killed the
 foundrygroup burst). Factory commits are therefore deferred to end-of-run
@@ -397,6 +421,18 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
   (it's a bytecode-compile error), so it passed `static_check` and died in the
   sandbox instead. Nothing shipped; defence in depth worked. `static_check` now also
   runs `compile()`, so it fails in milliseconds with a clear reason.
+- DONE (2026-07-27, later session): **terminal no-url retirement** (see the factory
+  section above): "no portfolio url" now retires a firm the same night via a
+  `"retired": true` flag in `gen_attempts.json`, instead of burning 4 counted no-ops
+  across ~2 weeks; the retire branch synthesizes a minimal Airtable row when the
+  scrape-skip meant none existed (latent stranded-at-needs-scraper bug). The 9 stuck
+  JS-heavy candidates should flip to `retired` in Airtable over the next ~3 nights
+  (≤3/night). Takes effect on Railway once pushed (the push rebuilds discovery via
+  Watch Paths on `automation/**`); sandbox commits work but the push runs from the
+  Mac terminal.
+  Wingvc + signalfire had already exhausted the 4-attempt path the old way; with both
+  retired, the factory queue is empty except emergencecapital (now retires on its next
+  pass) and whatever the finder adds. Tests: `automation/test_factory_retire.py`.
 - PENDING (next session picks up here):
   0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
      the queued firm is real and its site genuinely publishes a portfolio, and confirm
