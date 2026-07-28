@@ -385,13 +385,17 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      `data/discovered_candidates.json` was committed. If the model's suggestions skew
      junky, tighten `_PROMPT` or raise the bar in `verify()`. No new Railway var is
      required (`ANTHROPIC_API_KEY` is already on discovery).
-  1. Finish refresh service settings: config-as-code path = `railway.refresh.toml`
-     (DONE, verified 07-27 — LOAD-BEARING, file config overrides dashboard), cron
-     `0 8 * * 1` (WEEKLY, Mondays 08:00 UTC), Watch Paths (the 4 +
-     `railway.refresh.toml`), GitHub+Airtable vars, NO Anthropic key. NOTE: without a
-     cron schedule set, Railway runs the start command on EVERY deploy — the config-fix
-     redeploy likely launched the first refresh run on its own; supervise it
-     (~51 scrapers, 30-60 min, mostly `same`, guard `held back` lines = protection).
+  1. ~~Finish refresh service settings.~~ **RESOLVED 2026-07-27 (evidence, not a
+     dashboard check):** the repo received `Nightly:` commits for **32 firms that have
+     a bespoke scraper** — a16z, accel, bessemer, insight, nea, sequoia, norwest and the
+     rest. Discovery mode filters bespoke firms out before it starts, so only
+     `--mode refresh` can produce those; the service therefore ran a full pass and it
+     worked (small sensible deltas, no `held back` lines, no breakage). Config-as-code
+     path = `railway.refresh.toml` is LOAD-BEARING (file config overrides dashboard);
+     cron `0 8 * * 1` (WEEKLY, Mondays 08:00 UTC). Remaining caveat, unchanged: without
+     a cron schedule set Railway runs the start command on EVERY deploy, so any push
+     touching `automation/**` can launch an unscheduled ~30-60 min refresh. Harmless,
+     but that is why an unexpected run appears after a deploy.
   2. Factory queue drains at `GEN_MAX_PER_RUN=3`/night: wingvc + the 9 needs-scraper
      candidates, now topped up at 1 new firm/night by the finder. Skim `[factory]` lines;
      retirements land in `data/gen_attempts.json`.
