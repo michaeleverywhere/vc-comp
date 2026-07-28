@@ -39,6 +39,18 @@ def static_check(code: str) -> list[str]:
         tree = ast.parse(code)
     except SyntaxError as exc:
         return [f"syntax error: {exc}"]
+    # ast.parse is not the whole of "does this compile". Some errors are raised
+    # only when the tree is turned into bytecode — duplicate keyword arguments,
+    # for one, which is exactly what signalfire's generated scraper hit on
+    # 2026-07-27: it passed this gate and blew up inside the sandbox instead.
+    # The sandbox caught it, so nothing bad shipped, but failing here is faster
+    # and gives the next try a clearer reason than a subprocess traceback.
+    try:
+        compile(code, "<candidate>", "exec")
+    except SyntaxError as exc:
+        return [f"syntax error: {exc.msg}"]
+    except ValueError as exc:                 # e.g. source containing null bytes
+        return [f"uncompilable: {exc}"]
 
     has_scrape = False
     for node in ast.walk(tree):

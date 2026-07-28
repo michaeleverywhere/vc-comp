@@ -255,6 +255,42 @@ def test_unreachable_is_not_permanent() -> None:
           cf.verify("Cobalt Capital", "parked.vc")[1] != "homepage unreachable", True)
 
 
+def test_nickname_firms() -> None:
+    """Regression: the first live run queued "Andreessen Horowitz" as brand new,
+    though a16z_companies.json holds 852 of its companies. The slug is a
+    nickname, so neither gate connected the name to the file — is_known()
+    slugified to "andreessenhorowitz", and the exclude list carried only the
+    display name "a16z"."""
+    print("\nfirms whose slug is a nickname")
+    import identity as i
+    known = ["a16z_companies.json", "usv_companies.json", "companies.json"]
+    for name, want in [("Andreessen Horowitz", True), ("a16z", True),
+                       ("Union Square Ventures", True), ("usv", True),
+                       ("Lightspeed Venture Partners", True),
+                       ("Canaan Partners", False), ("Matrix Partners", False)]:
+        check(f"is_known({name!r})", i.is_known(name, known), want)
+    check("alt names are exposed for the exclude list",
+          i.alt_names_for("a16z"), ("Andreessen Horowitz",))
+    check("a firm with no nickname returns nothing",
+          i.alt_names_for("accel"), ())
+    check("the model is told both names",
+          all(n in cf._excludes(known, []) for n in ("a16z", "Andreessen Horowitz")),
+          True)
+
+    # and the end-to-end consequence: it can no longer be queued
+    extract.fetch, extract.resolve_portfolio_url = _fake_fetch, _fake_resolve
+    cf.propose = lambda e, n: [{"firm_name": "Andreessen Horowitz",
+                                "homepage": "a16z.com"},
+                               {"firm_name": "Real Ventures",
+                                "homepage": "realvc.com"}]
+    with tempfile.TemporaryDirectory() as tmp:
+        cf._DATA = pathlib.Path(tmp)
+        added = cf.find(store=None, known_files=known, limit=1,
+                        gstate={}, sstate={})
+    check("a16z is no longer queued as a new firm",
+          [a["firm_name"] for a in added], ["Real Ventures"])
+
+
 def test_wasteful_paths() -> None:
     """Three ways the finder used to spend something for nothing."""
     print("\nno wasted calls or commits")
@@ -396,6 +432,7 @@ if __name__ == "__main__":
     test_known_firm_dedup()
     test_standalone_default_sees_every_dataset()
     test_unreachable_is_not_permanent()
+    test_nickname_firms()
     test_wasteful_paths()
     test_backlog_excludes_finished_firms()
     test_roster_merge()

@@ -267,8 +267,16 @@ def _excludes(known_files: list[str], entries: list[dict]) -> list[str]:
     # "is this file a dataset?" is identity's rule, not a suffix test done here —
     # a local endswith() check missed companies.json (Lightspeed) and let the
     # model propose a firm the repo already has.
-    out: list[str] = [_names.display_name(f) for f in sorted(known_files)
-                      if identity.slug_from_file(f)]
+    out: list[str] = []
+    for f in sorted(known_files):
+        slug = identity.slug_from_file(f)
+        if not slug:
+            continue
+        out.append(_names.display_name(f))
+        # Also the names the firm is otherwise known by. firm_names.json holds
+        # ONE display name — "a16z" — so without this the model is never told
+        # about "Andreessen Horowitz" and duly proposes it.
+        out.extend(identity.alt_names_for(slug))
     out += _seed_names()
     out += [e["firm_name"] for e in entries]
     out += _NO_PORTFOLIO

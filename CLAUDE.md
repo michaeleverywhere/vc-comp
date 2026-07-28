@@ -377,8 +377,26 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
   candidate named Lightspeed would have been scraped into a competing
   `lightspeed_companies.json`. FIXED via `identity._FILE_ALIASES` (bidirectional
   file↔slug map) + `_excludes` now asking identity what counts as a dataset instead of
-  doing its own `endswith` test. Regression-tested. **First live non-dry run still needs
-  eyeballing** — item 0 below.
+  doing its own `endswith` test. Regression-tested.
+- DONE (2026-07-28): **first live run, and it worked** — `spend.json` created
+  ($0.3907 / 6 calls), 10 firms written to the scrape memory, 3 retirements logged,
+  10 Airtable rows upserted, run cost $0.39. Escalation confirmed in the logs
+  (wingvc: Haiku $0.0347 → Haiku $0.0113 → **Sonnet** $0.1154 → **Sonnet** $0.0476)
+  and with it the PER-MODEL cache: `cache_write` on try 1, `cache_read` on try 2,
+  then `cache_write` AGAIN on the switch to Sonnet — the cost model was right.
+  Two defects found and fixed:
+  (a) **the finder queued "Andreessen Horowitz"** though `a16z_companies.json` holds
+  852 of its companies. Lightspeed's bug in a new guise — the slug is a NICKNAME, so
+  `is_known()` slugified to "andreessenhorowitz" and never reached "a16z", AND
+  `firm_names.json`'s single display name is "a16z", so the model was never told the
+  full name. Fixed with `identity._ALT_NAMES` (a16z, usv, nea, crv, ivp, tcv, svangel,
+  8vc, lightspeed), which feeds BOTH the dedup gate and the exclude list. Self-heals:
+  the stale queue entry is now filtered out by the roster. **Add to `_ALT_NAMES`
+  whenever a dataset slug cannot be spelled out from the firm's name.**
+  (b) signalfire's generated code had a duplicate kwarg — `ast.parse` ACCEPTS that
+  (it's a bytecode-compile error), so it passed `static_check` and died in the
+  sandbox instead. Nothing shipped; defence in depth worked. `static_check` now also
+  runs `compile()`, so it fails in milliseconds with a clear reason.
 - PENDING (next session picks up here):
   0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
      the queued firm is real and its site genuinely publishes a portfolio, and confirm

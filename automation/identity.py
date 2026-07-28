@@ -28,6 +28,28 @@ _SUFFIX = "_companies.json"
 _FILE_ALIASES = {"companies.json": "lightspeed"}
 _SLUG_ALIASES = {v: k for k, v in _FILE_ALIASES.items()}
 
+# Firms whose dataset slug is a nickname or acronym that CANNOT be derived from
+# the firm's full name. Observed live 2026-07-27: the finder proposed "Andreessen
+# Horowitz", both gates missed it, and it was queued as a brand-new firm despite
+# a16z_companies.json holding 852 of its companies. Two separate failures, one
+# cause — the slug is a nickname:
+#   * is_known() slugifies the NAME ("andreessenhorowitz") and never reaches "a16z";
+#   * the exclude list sent to the model is built from display names, and
+#     firm_names.json calls that firm "a16z", so the model was never told.
+# Listing the alternative names fixes both: they become slug variants for the
+# dedup gate, and candidate_finder adds them to what the model must not propose.
+_ALT_NAMES: dict[str, tuple[str, ...]] = {
+    "a16z":       ("Andreessen Horowitz",),
+    "usv":        ("Union Square Ventures",),
+    "nea":        ("New Enterprise Associates",),
+    "crv":        ("Charles River Ventures",),
+    "ivp":        ("Institutional Venture Partners",),
+    "tcv":        ("Technology Crossover Ventures",),
+    "lightspeed": ("Lightspeed Venture Partners",),
+    "svangel":    ("SV Angel",),
+    "8vc":        ("Eight VC",),
+}
+
 # Trailing generic words dropped when matching a firm name to an existing slug
 # ('Bain Capital Ventures' -> baincapital). Matching only; never used to name files.
 _STRIP_TOKENS = {
@@ -66,9 +88,20 @@ def known_slugs(filenames: Iterable[str]) -> set[str]:
     return {s for s in (slug_from_file(f) for f in filenames) if s}
 
 
+# alternative-name slug -> canonical dataset slug, built once from _ALT_NAMES
+_ALT_SLUGS = {re.sub(r"[^a-z0-9]", "", n.lower()): canon
+              for canon, names in _ALT_NAMES.items() for n in names}
+
+
+def alt_names_for(slug: str) -> tuple[str, ...]:
+    """Other names this firm goes by — for telling the model what not to propose."""
+    return _ALT_NAMES.get(slug, ())
+
+
 def _slug_variants(firm_name: str) -> list[str]:
-    """Full slug plus versions with trailing generic tokens peeled off, so
-    'Bain Capital Ventures' matches the repo's 'baincapital'."""
+    """Full slug, versions with trailing generic tokens peeled off (so 'Bain
+    Capital Ventures' matches the repo's 'baincapital'), and the canonical slug
+    for any name the firm is also known by ('Andreessen Horowitz' -> 'a16z')."""
     tokens = re.sub(r"[^a-z0-9 ]", "", firm_name.lower()).split()
     out: list[str] = []
     while tokens:
@@ -77,6 +110,10 @@ def _slug_variants(firm_name: str) -> list[str]:
             tokens = tokens[:-1]
         else:
             break
+    for v in list(out):                       # nickname lookup, on every variant
+        canon = _ALT_SLUGS.get(v)
+        if canon and canon not in out:
+            out.append(canon)
     return out
 
 
