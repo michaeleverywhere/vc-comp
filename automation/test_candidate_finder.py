@@ -94,6 +94,9 @@ _SITES = {
     "https://parked.vc": page("Domain for sale", "this venture domain is for sale"),
     "https://realvc.com": page("Real Ventures"),
     "https://bakery.com": page("Joe's Bakery", "we bake bread"),
+    # a real VC whose portfolio only exists client-rendered: homepage verifies,
+    # but no portfolio page ever resolves — the hard-gate case
+    "https://shellvc.com": page("Shell Ventures"),
 }
 
 
@@ -105,7 +108,11 @@ cf._browser_fetch = lambda url: None   # never hit the real network
 
 
 def _fake_resolve(domain: str, **kw):
-    return "https://emcap.com/portfolio" if "emcap" in domain else None
+    if "emcap" in domain:
+        return "https://emcap.com/portfolio"
+    if "realvc" in domain:
+        return "https://realvc.com/portfolio"
+    return None
 
 
 def test_verify() -> None:
@@ -114,6 +121,12 @@ def test_verify() -> None:
     check("good firm -> queued with portfolio url",
           cf.verify("Emergence Capital", "emcap.com"),
           (True, "verified", "https://emcap.com/portfolio"))
+    # HARD gate since terminal no-url retirement: a null portfolio candidate is
+    # a guaranteed tombstone, so it is rejected here instead of queued
+    check("verified but no portfolio page -> rejected",
+          cf.verify("Shell Ventures", "shellvc.com"),
+          (False, "no portfolio page resolved — client-rendered or "
+                  "none published", None))
     check("unreachable homepage -> rejected",
           cf.verify("Ghost Fund", "nosuch.example")[:2],
           (False, "homepage unreachable"))
@@ -124,10 +137,6 @@ def test_verify() -> None:
           "site doesn't read like a VC firm")
     check("unusable homepage -> rejected",
           cf.verify("Bad Domain", "not a url")[0], False)
-    # SOFT gate: no portfolio page found is fine — that's the needs-scraper path
-    check("verified but no portfolio page still passes",
-          cf.verify("Real Ventures", "https://www.realvc.com/x"),
-          (True, "verified", None))
 
 
 # ---------------------------------------------------------------------- find()
@@ -228,6 +237,36 @@ def test_standalone_default_sees_every_dataset() -> None:
             cf._DATA = pathlib.Path(tmp)
     check("the model is told about Lightspeed",
           any("Lightspeed" in n for n in (calls[0] if calls else [])), True)
+
+
+def test_no_portfolio_is_hard_gate() -> None:
+    """Regression (LocalGlobe, first live post-fix run): a verified firm with no
+    resolvable portfolio page was queued under the soft gate and was dead within
+    one run — scrape one-strike, then terminal factory retirement. The night's
+    slot bought a tombstone instead of a firm. The gate is now hard, and the
+    loop must keep going and queue the NEXT viable proposal the same night."""
+    print("\nno-portfolio proposals are rejected, and the night still queues a firm")
+    extract.fetch, extract.resolve_portfolio_url = _fake_fetch, _fake_resolve
+    cf.propose = lambda exclude, n: [
+        {"firm_name": "Shell Ventures", "homepage": "shellvc.com"},   # verifies, no portfolio
+        {"firm_name": "Real Ventures", "homepage": "realvc.com"},     # viable
+    ]
+    data = pathlib.Path(__file__).resolve().parent.parent / "data"
+    known = [p.name for p in data.glob("*.json") if identity.slug_from_file(p.name)]
+    with tempfile.TemporaryDirectory() as tmp:
+        cf._DATA = pathlib.Path(tmp)
+        added = cf.find(store=None, known_files=known, limit=1,
+                        gstate={}, sstate={})
+        entries = json.loads((cf._DATA / cf.FILE).read_text())
+    by_name = {e["firm_name"]: e for e in entries}
+    check("the shell firm is rejected, not queued",
+          by_name["Shell Ventures"]["status"], "rejected")
+    check("…permanently (kept as memory for the exclude list)",
+          any("Shell Ventures" in n for n in cf._excludes(known, entries)), True)
+    check("the loop moved on and queued the viable firm",
+          [a["firm_name"] for a in added], ["Real Ventures"])
+    check("every queued entry carries a portfolio url",
+          all(e.get("portfolio_url") for e in cf.queued(entries)), True)
 
 
 def test_unreachable_is_not_permanent() -> None:
@@ -431,6 +470,7 @@ if __name__ == "__main__":
     test_find()
     test_known_firm_dedup()
     test_standalone_default_sees_every_dataset()
+    test_no_portfolio_is_hard_gate()
     test_unreachable_is_not_permanent()
     test_nickname_firms()
     test_wasteful_paths()

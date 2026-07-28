@@ -338,13 +338,17 @@ def propose(exclude: list[str], n: int) -> list[dict]:
 def verify(firm_name: str, homepage: str) -> tuple[bool, str, str | None]:
     """Check a proposal against the live web. -> (ok, reason, portfolio_url).
 
-    Deliberately two-tier. Reachability + identity are HARD gates: they are what
-    separate a real firm from a hallucinated one, and failing them means the
-    entry is rejected permanently. Finding the portfolio page is a SOFT gate —
-    a client-rendered site returns almost nothing to `requests`, and those are
-    exactly the firms the scraper factory exists to rescue, so an unresolved
-    portfolio URL still gets queued (as null) and reaches the pipeline's
-    needs-scraper path instead of being thrown away."""
+    Every gate is HARD now. Reachability + identity separate a real firm from a
+    hallucinated one. Portfolio-page resolution WAS a soft gate (queue as null,
+    let the factory rescue it) — but terminal no-url retirement (2026-07-27)
+    made that path a same-night death: the factory needs the same URL this
+    resolver couldn't find, so a null-portfolio candidate is a guaranteed
+    tombstone (observed: LocalGlobe, queued and dead within one run). Rejecting
+    it here instead lets the loop move on to the night's next proposal, so a
+    run queues a firm with a real path to a dataset, or nothing. Accepted cost,
+    same shape as the one-strike scrape rule: a real firm whose portfolio only
+    exists client-rendered is written off — it is unusable to this pipeline
+    either way. Re-arm by deleting its rejected entry."""
     domain = _norm_domain(homepage)
     if not domain:
         return False, f"unusable homepage {homepage!r}", None
@@ -359,6 +363,9 @@ def verify(firm_name: str, homepage: str) -> tuple[bool, str, str | None]:
         portfolio = extract.resolve_portfolio_url(domain)
     except Exception:  # noqa: BLE001
         portfolio = None
+    if not portfolio:
+        return False, ("no portfolio page resolved — client-rendered or "
+                       "none published"), None
     return True, "verified", portfolio
 
 
@@ -471,9 +478,8 @@ def find(store=None, known_files: list[str] | None = None,
         seen_slugs.add(slug)
         if ok:
             added.append(entry)
-            print(f"[find] {name} ({dom}): QUEUED"
-                  + (f" -> {portfolio}" if portfolio else " (no portfolio page "
-                     "resolved — will go to needs-scraper)"))
+            # the hard gate means a queued entry always has a portfolio url
+            print(f"[find] {name} ({dom}): QUEUED -> {portfolio}")
         else:
             print(f"[find] {name} ({home}): rejected — {reason}")
 

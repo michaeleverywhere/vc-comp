@@ -207,11 +207,16 @@ module — via `names.py`; nothing is ever entered by hand, existing values neve
 is legacy). Table = 1 row per firm: registry metadata + Record/Prev/Delta count, `Scraper
 health` (new/grew/same/shrank/count-drop/broke), Status (+`needs-scraper`,`broke`), Last
 run/commit, and **17 per-tag Number columns**
-(Status also gains `retired` — written ONCE, on the night the factory gives up, because
-from then on the firm is skipped before any network call and would never write a row
-again; its last word would otherwise stay `needs-scraper`, which reads as "someone
-should write one" rather than "we tried and gave up". `typecast: True` creates the
-select option safely.) (exact taxonomy names; note `Health` the tag
+(A firm that retires with NO dataset is DELETED from the table, not labelled — Airtable
+is "firms with data", not a graveyard of attempts; user decision 2026-07-27, replacing
+a needs-scraper→retired status flip that shipped and was superseded the same day.
+`airtable_writer.delete_firms` removes the row on retirement night, and a
+`delete_strays` reconcile pass on every discovery run backstops anything stranded —
+keep-set = repo datasets + tonight's graduates + still-eligible firms, guarded by
+`_MIN_KEEP` so an upstream glob bug can never empty the table. Firms WITH a dataset
+keep their rows whatever the factory decided: wingvc and signalfire are thin, not
+failed. Repo-side memory files are unaffected by all of this — they are what stops
+re-proposing/re-scraping.) (exact taxonomy names; note `Health` the tag
 ≠ `Scraper health`) holding how many portfolio companies carry each tag (double-counting
 across tags is intended). `create_at_fields.py` created the schema; `fix_dupes.py`/`audit_at.py`
 repaired a dup incident (trailing-whitespace Data-file keys — root cause fixed).
@@ -238,8 +243,13 @@ then **verifies every proposal against its live site before queueing it** — a 
 invent a firm or misattribute a domain, so a proposal is a LEAD, not data. Gates:
 homepage must serve HTML; the PAGE (not the domain — that would be circular, since a
 made-up firm gets a domain spun from its own name) must carry the firm name; the site must
-read like a VC firm. Portfolio-URL resolution is a SOFT gate: JS-heavy sites resolve to
-`null` and still queue, landing on the normal needs-scraper/factory path. Per user
+read like a VC firm. Portfolio-URL resolution is a HARD gate (2026-07-27 — it was soft
+for exactly one night, and the one firm the soft gate queued, LocalGlobe, was dead
+within a single run: terminal no-url retirement means the factory can never rescue a
+firm the resolver can't see, so a null-portfolio candidate is a guaranteed tombstone):
+no resolvable portfolio page → rejected permanently, and the loop keeps testing that
+night's remaining proposals, so a run queues a firm with a real path to a dataset or
+queues nothing. Every queued entry now carries a portfolio URL. Per user
 decision **`FIND_MAX_PER_RUN=1`** (one new firm per run), with `FIND_MAX_OPEN=25` pausing
 the finder while the backlog is deep; `FIND_MODEL` defaults to claude-sonnet-4-5.
 **That backlog count excludes FINISHED firms** (`_pending`): a factory-retired or
@@ -362,14 +372,15 @@ can never retire a firm. The flag lives inside `eligible()`, so it propagates to
 three consumers at once: factory `targets()`, the scrape-loop skip, and the finder's
 `_pending` backlog count. `"portfolio page unreachable"` (URL resolved, fetch failed)
 stays NON-terminal on purpose — that shape is transient network, not structural.
-Fixing this exposed a latent Airtable hole, also fixed: a firm retiring on a night the
+Fixing this exposed a latent Airtable hole: a firm retiring on a night the
 scrape memory had SKIPPED it had no registry row, so the needs-scraper→retired status
-flip found nothing and — since a retired firm never writes a row again — the status
-stranded at `needs-scraper` forever, exactly what `retired` exists to prevent. The
-retire branch now synthesizes a minimal row (identity + Status only;
-`airtable_writer._fields` strips absent keys, so existing count/health cells are
-untouched). Net effect: the 9 stuck candidates retire on their next factory pass, ≤3
-per night — all gone in ~3 nights instead of ~12. Tests:
+flip found nothing and the status stranded at `needs-scraper` forever. The first fix
+synthesized a minimal `retired` row; hours later the user chose deletion over
+labelling, so the retire branch now calls `pipeline._retire_from_airtable` instead —
+in-run row dropped before the upsert, prior nights' row deleted after it (see the
+Airtable section). Net effect as it actually played out: emergence/foundation/uncork
+retired on the first live run ($0), and the remaining six were pre-retired by hand
+the same evening rather than burning three more nights. Tests:
 `automation/test_factory_retire.py` (offline; includes a 30-night simulation proving
 exactly ONE attempt is ever recorded — a flag that looked right but left the firm in
 `targets()` would pass every unit test and fix nothing).
@@ -433,6 +444,25 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
   Wingvc + signalfire had already exhausted the 4-attempt path the old way; with both
   retired, the factory queue is empty except emergencecapital (now retires on its next
   pass) and whatever the finder adds. Tests: `automation/test_factory_retire.py`.
+- DONE (2026-07-27, same evening — first live run of the terminal path, plus user
+  feedback "no failed firms piling up in Airtable/GitHub; a day should add a REAL
+  firm"): the deploy-run retired emergence/foundation/uncork same-night at $0
+  (terminal path verified live) but also queued LocalGlobe — verified real, no
+  portfolio page — which was dead within the run: the soft finder gate was
+  manufacturing tombstones. Three changes, all offline-tested: (1) the finder's
+  portfolio gate is now HARD (see finder section; regression test
+  `test_no_portfolio_is_hard_gate`); (2) Airtable tombstones are deleted, not
+  labelled — delete-on-retire + per-run `delete_strays` reconcile (see Airtable
+  section; supersedes both the `retired` status flip and the synthesized-row fix
+  from earlier the same day); (3) one-time cleanup: the six never-factory-tried
+  JS-heavy firms pre-retired via `"retired": true` with `attempts: 0` (honest — no
+  try ran), and the LocalGlobe + stale a16z queue entries flipped to `rejected`.
+  The ~11 tombstone rows vanish on the next discovery run via the reconcile (the
+  Cowork sandbox cannot reach api.airtable.com; Railway does it). Factory queue is
+  now EMPTY; the finder starts clean, and every firm it queues carries a portfolio
+  URL. Watch the first hard-gate `[find]` lines for over-rejection: if too many
+  real firms bounce on "no portfolio page resolved", the resolver (not the gate)
+  is the thing to improve.
 - PENDING (next session picks up here):
   0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
      the queued firm is real and its site genuinely publishes a portfolio, and confirm
@@ -450,9 +480,10 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      a cron schedule set Railway runs the start command on EVERY deploy, so any push
      touching `automation/**` can launch an unscheduled ~30-60 min refresh. Harmless,
      but that is why an unexpected run appears after a deploy.
-  2. Factory queue drains at `GEN_MAX_PER_RUN=3`/night: wingvc + the 9 needs-scraper
-     candidates, now topped up at 1 new firm/night by the finder. Skim `[factory]` lines;
-     retirements land in `data/gen_attempts.json`.
+  2. ~~Factory queue drains at `GEN_MAX_PER_RUN=3`/night.~~ **RESOLVED 2026-07-27:**
+     wingvc + signalfire exhausted their bursts; the 9 JS-heavy candidates and
+     LocalGlobe are retired (terminal/manual). Queue is empty — from here it holds
+     only what the finder adds (1/night, portfolio URL guaranteed).
   3. `everywhere_tags` gap: auto-generated datasets ship `everywhere_tags: []`, so
      those firms' 17 Airtable tag columns read 0. Add a shared keyword tagger applied
      by the factory before persist (parity with hand-written scrapers).

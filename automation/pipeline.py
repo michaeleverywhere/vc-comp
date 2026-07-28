@@ -249,6 +249,7 @@ def main() -> int:
     # triggers a Railway redeploy that stops this very container (felicis,
     # 2026-07-27), so the push must land when there is nothing left to kill.
     gen_done: list = []
+    at_deletes: list = []                  # Data files whose Airtable row must go
     gstate_dirty = False
     if args.mode == "discover" and not args.dry_run \
             and os.environ.get("ANTHROPIC_API_KEY"):
@@ -278,30 +279,7 @@ def main() -> int:
             if not r["ok"] and not gen_state.eligible(gstate, firm.slug)[0]:
                 print(f"[factory] {firm.slug}: retired — won't be re-tried "
                       f"(re-arm by editing data/gen_attempts.json)")
-                # Say so in Airtable, once. From tonight this firm is skipped
-                # before any network call, so it will never write another row —
-                # and its last word would otherwise stay "needs-scraper", which
-                # reads as "someone should write one" rather than "we tried and
-                # gave up". Only firms with no dataset: a thin-but-real dataset
-                # (wingvc) is still active, whatever the factory decided.
-                for h in registry:
-                    if (h.get("data_file") == firm.data_file
-                            and h.get("status") == "needs-scraper"):
-                        h["status"] = "retired"
-                if not any(h.get("data_file") == firm.data_file
-                           for h in registry):
-                    # Retirement on a night the scrape loop SKIPPED the firm
-                    # (scrape-memory backoff): no row was built above, so the
-                    # flip finds nothing and — since a retired firm never
-                    # writes a row again — Airtable would say "needs-scraper"
-                    # forever. Minimal row: absent keys are stripped by
-                    # airtable_writer._fields, so the existing count/health
-                    # cells are left untouched; only Status + Last run move.
-                    registry.append({"slug": firm.slug,
-                                     "data_file": firm.data_file,
-                                     "firm_name": firm.firm_name,
-                                     "source_url": firm.portfolio_url,
-                                     "status": "retired"})
+                registry = _retire_from_airtable(firm, registry, at_deletes)
             if r["ok"]:
                 gstate_dirty |= gen_state.clear(gstate, firm.slug)
                 # The firm now has a dataset, so it leaves the roster and the
@@ -356,6 +334,21 @@ def main() -> int:
               f"({len(registry)} firms would upsert)")
     else:
         airtable_writer.upsert_firms(registry, run_at)
+        if at_deletes:
+            airtable_writer.delete_firms(at_deletes)
+        if args.mode == "discover":
+            # Reconcile (see airtable_writer.delete_strays): keep = every
+            # dataset the repo knows, plus anything that graduated tonight,
+            # plus any firm that may still produce one (bespoke, or a
+            # candidate the memories haven't closed the book on). Every other
+            # row with a Data file is a tombstone. This is what removes rows
+            # stranded before delete-on-retire existed — e.g. the pre-retired
+            # JS-heavy nine — without a hand-run cleanup script.
+            keep = set(known_files)
+            keep |= {f.data_file for f, _ in gen_done}
+            keep |= {f.data_file for f in firms
+                     if gen_state.eligible(gstate, f.slug)[0]}
+            airtable_writer.delete_strays(keep)
 
     if gen_done or gstate_dirty:                # factory pushes: LAST, on purpose
         _flush_factory_commits(store, gen_done, gstate, gstate_dirty)
@@ -391,6 +384,23 @@ def _flush_factory_commits(store, gen_done: list, gstate, gstate_dirty: bool) ->
             gen_state.save(gstate, store)
         except Exception as exc:  # noqa: BLE001
             print(f"[factory] attempt-log save FAILED: {exc}")
+
+
+def _retire_from_airtable(firm, registry: list, at_deletes: list) -> list:
+    """Airtable is "firms with data", not a graveyard of attempts (user
+    decision 2026-07-27, replacing the short-lived needs-scraper→retired status
+    flip): a firm retiring with NO dataset disappears from the registry
+    entirely — its in-run row is dropped before the upsert, and any row left
+    over from an earlier night is deleted right after it (`at_deletes` is
+    mutated; the caller feeds it to airtable_writer.delete_firms). A firm WITH
+    a dataset (wingvc, signalfire) keeps its row untouched: the data is real,
+    just thin. Repo-side memory is unaffected — gen_attempts/scrape_attempts
+    entries stay, so nothing gets re-proposed or re-scraped."""
+    if not (_DATA / firm.data_file).exists():
+        registry = [h for h in registry
+                    if h.get("data_file") != firm.data_file]
+        at_deletes.append(firm.data_file)
+    return registry
 
 
 def _local(firm: roster.Firm) -> Optional[list]:

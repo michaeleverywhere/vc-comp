@@ -95,6 +95,76 @@ def _derive(field: str, df: str, row: dict) -> str | None:
     return None
 
 
+_MIN_KEEP = 10   # a keep-set smaller than this means "the dataset glob broke",
+                 # not "the repo shrank to nine firms" — refuse to mass-delete
+
+
+def delete_firms(data_files: list[str], dry_run: bool = False) -> int:
+    """Delete the rows for these Data files (used when a firm retires with NO
+    dataset — Airtable is "firms with data", not a graveyard of attempts; user
+    decision 2026-07-27). Matching on Data file, same key the upsert merges on.
+    Tolerates rows that don't exist (a re-run or a pre-cleaned row is fine)."""
+    want = {d for d in data_files if d}
+    if not want:
+        return 0
+    return _delete_where(lambda df: df in want, dry_run, label="no-data")
+
+
+def delete_strays(keep_data_files, dry_run: bool = False) -> int:
+    """Reconcile: delete every row whose Data file is set but NOT in
+    `keep_data_files` (= repo datasets + candidates with pending work). The
+    delete-on-retire path handles the common case the same night; this pass is
+    the backstop that clears rows stranded by earlier designs, skipped runs, or
+    a delete that failed. Refuses a suspiciously small keep-set — a bug in the
+    caller's glob would otherwise empty the whole table."""
+    keep = {d for d in keep_data_files if d}
+    if len(keep) < _MIN_KEEP:
+        print(f"[airtable] reconcile SKIPPED: keep-set suspiciously small "
+              f"({len(keep)} < {_MIN_KEEP}) — refusing to mass-delete")
+        return 0
+    return _delete_where(lambda df: df not in keep, dry_run, label="stray")
+
+
+def _delete_where(pred, dry_run: bool, label: str) -> int:
+    """List rows, delete those whose non-blank Data file satisfies `pred`.
+    Blank Data files are never touched (could be a hand-made row). Never raises
+    into the pipeline: losing a delete costs one stale row, which the next
+    reconcile pass removes — not worth failing a run over."""
+    table = os.environ.get("AIRTABLE_TABLE", "Private Comps")
+    if dry_run:
+        print(f"[airtable] dry-run: not deleting {label} rows from {table!r}")
+        return 0
+    base = os.environ["AIRTABLE_BASE_ID"]
+    url = f"{_API}/{base}/{requests.utils.quote(table)}"
+    headers = {"Authorization": f"Bearer {os.environ['AIRTABLE_PAT']}"}
+    try:
+        ids, offset = [], None
+        while True:
+            params = {"pageSize": 100, "fields[]": ["Data file"]}
+            if offset:
+                params["offset"] = offset
+            r = requests.get(url, headers=headers, params=params, timeout=30)
+            r.raise_for_status()
+            d = r.json()
+            ids += [rec["id"] for rec in d["records"]
+                    if (df := (rec["fields"].get("Data file") or "").strip())
+                    and pred(df)]
+            offset = d.get("offset")
+            if not offset:
+                break
+        for i in range(0, len(ids), 10):
+            r = requests.delete(url, headers=headers, timeout=30,
+                                params={"records[]": ids[i:i + 10]})
+            r.raise_for_status()
+            time.sleep(0.2)
+        if ids:
+            print(f"[airtable] deleted {len(ids)} {label} row(s) from {table!r}")
+        return len(ids)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[airtable] delete FAILED (stale row remains): {exc}")
+        return 0
+
+
 def _fill_blank_meta(url: str, headers: dict, rows: list[dict]) -> int:
     """Fill every BLANK metadata cell (Name, Source URL, Notes, Source type,
     Scraper module) on firm rows — so a new firm needs zero manual entry. Never

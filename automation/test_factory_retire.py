@@ -12,9 +12,9 @@ What needs proving, last one most:
   2. one terminal failure retires the firm at once — honestly (attempts stays
      1, "retired": true; NOT attempts jammed to the max);
   3. a transport fluke can never retire a firm, terminal or not;
-  4. the minimal registry row the pipeline synthesizes for a scrape-skipped
-     retiree sends ONLY Status + identity to Airtable — counts/health cells
-     must be left untouched;
+  4. a firm retiring with NO dataset vanishes from Airtable (in-run row
+     dropped, old row queued for deletion), while a firm WITH a dataset keeps
+     its row — Airtable is "firms with data", not a graveyard of attempts;
   5. it actually stops the nightly burn: 30 simulated nights must record
      exactly ONE attempt. A flag that looked right but left the firm in
      targets() would pass every unit test above and fix nothing.
@@ -86,17 +86,44 @@ def test_transport_fluke_never_retires() -> None:
     check("still eligible", gen_state.eligible(st, "flaky")[0], True)
 
 
-def test_minimal_registry_row_touches_only_status() -> None:
-    print("\nairtable_writer: synthesized retiree row moves Status only")
-    row = {"slug": "nourlfirm", "data_file": "nourlfirm_companies.json",
-           "firm_name": "No URL Firm", "source_url": None,
-           "status": "retired"}
-    f = airtable_writer._fields(row, "2026-07-27T07:00:00+00:00")
-    check("sends Status", f.get("Status"), "retired")
-    check("sends Data file", f.get("Data file"), "nourlfirm_companies.json")
-    absent = [k for k in ("Record count", "Delta count", "Scraper health")
-              if k in f]
-    check("count/health cells untouched", absent, [])
+def test_no_dataset_retiree_vanishes_from_airtable() -> None:
+    print("\npipeline: a no-data retiree is deleted, a with-data one is kept")
+    import pipeline
+
+    # no dataset on disk -> row dropped from the upsert, delete queued
+    firm = _firm()
+    registry = [{"data_file": firm.data_file, "status": "needs-scraper"},
+                {"data_file": "other_companies.json", "status": "active"}]
+    at_deletes: list = []
+    registry = pipeline._retire_from_airtable(firm, registry, at_deletes)
+    check("its in-run row is dropped",
+          [h["data_file"] for h in registry], ["other_companies.json"])
+    check("its old row is queued for deletion", at_deletes,
+          [firm.data_file])
+
+    # a real dataset on disk (thin is still real) -> row untouched
+    wing = _firm("wingvc")            # data/wingvc_companies.json exists
+    registry = [{"data_file": wing.data_file, "status": "needs-scraper"}]
+    at_deletes = []
+    registry = pipeline._retire_from_airtable(wing, registry, at_deletes)
+    check("a with-data firm keeps its row",
+          [h["data_file"] for h in registry], [wing.data_file])
+    check("and is never deleted", at_deletes, [])
+
+    # the writer's guards: nothing to delete costs nothing, dry-run is inert
+    check("empty delete list is a no-op", airtable_writer.delete_firms([]), 0)
+    check("dry-run deletes nothing",
+          airtable_writer.delete_firms(["x_companies.json"], dry_run=True), 0)
+
+    # the reconcile pass refuses a broken keep-set: a glob bug upstream must
+    # never be amplified into emptying the whole table
+    check("empty keep-set refuses to mass-delete",
+          airtable_writer.delete_strays(set()), 0)
+    check("tiny keep-set refuses too",
+          airtable_writer.delete_strays({"a_companies.json"}), 0)
+    big_keep = {f"firm{i}_companies.json" for i in range(52)}
+    check("sane keep-set proceeds (dry-run)",
+          airtable_writer.delete_strays(big_keep, dry_run=True), 0)
 
 
 def test_thirty_nights_record_one_attempt() -> None:
@@ -122,7 +149,7 @@ if __name__ == "__main__":
     test_attempt_is_terminal_offline()
     test_terminal_retires_at_once_and_honestly()
     test_transport_fluke_never_retires()
-    test_minimal_registry_row_touches_only_status()
+    test_no_dataset_retiree_vanishes_from_airtable()
     test_thirty_nights_record_one_attempt()
     print()
     if _FAILS:
