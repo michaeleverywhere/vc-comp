@@ -25,7 +25,7 @@ Rules:
   * pacing (2026-07-27): the factory spends a firm's whole budget as a BURST in
     its first run (scraper_factory.attempt(tries=...)), so exhaustion — being
     "retired" — normally happens the same night the firm is first tried;
-  * a firm stops being targeted once attempts >= GEN_MAX_ATTEMPTS (default 3)
+  * a firm stops being targeted once attempts >= GEN_MAX_ATTEMPTS (default 4)
     — retired — or when a human sets "skip": true, the explicit
     "legitimately thin, leave it alone" flag;
   * success deletes the entry — the committed scraper is the durable state;
@@ -45,7 +45,13 @@ _UNCOUNTED_PREFIX = "generation error"   # API/transport — not the firm's faul
 
 
 def max_attempts() -> int:
-    return int(os.environ.get("GEN_MAX_ATTEMPTS", "3"))
+    """Tries per firm. 4, not 3, since model escalation arrived: the first two
+    go to the cheap model, so a budget of 3 would have left the strong model a
+    single attempt with no room to iterate on its own failure — a quality
+    regression smuggled in as a cost saving. 4 restores the strong model's
+    second try; at the observed success mix it costs nothing, because most
+    firms finish on try 1 and never reach it."""
+    return int(os.environ.get("GEN_MAX_ATTEMPTS", "4"))
 
 
 def _now() -> str:

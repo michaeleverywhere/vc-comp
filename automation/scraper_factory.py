@@ -10,8 +10,10 @@ Orchestrates gen -> guard -> commit for the pipeline's discover mode:
       5. only then: write scripts/<slug>_scraper.py (with the trusted runnable
          footer), commit scraper + refreshed dataset to GitHub.
 
-Steps 1-4 run as a BURST: up to GEN_MAX_ATTEMPTS tries in the same run, each
-later try prompted with the burst's earlier failures so it varies its approach
+Steps 1-4 run as a BURST: up to GEN_MAX_ATTEMPTS tries in the same run (default
+4), on an escalating model — cheap for the early tries, strong for the last two,
+see scraper_gen.model_for — each later try prompted with the burst's earlier
+failures (labelled with the model that produced them) so it varies its approach
 (different on-page data source, fixed validation gap). A firm therefore leaves
 the queue the night it is first tried — bespoke on success, retired (gen_state
 exhaustion) on failure — so no rolling backlog forms. API-transport errors are
@@ -61,7 +63,10 @@ def targets(roster_firms: list, state: dict | None = None) -> list:
 
     out, seen = [], set()
 
-    # 1. thin datasets already in the repo (portfolio URL read from the dataset)
+    # 1. thin datasets already in the repo (portfolio URL read from the dataset).
+    # The narrow glob is DELIBERATE here, unlike elsewhere: it excludes
+    # companies.json, and Lightspeed's 425 hand-built records must never be
+    # replaced by generated output. Don't "fix" this to use identity.
     for p in sorted(_DATA.glob("*_companies.json")):
         slug = p.name[: -len("_companies.json")]
         if (_SCRIPTS / f"{slug}_scraper.py").exists():
@@ -113,11 +118,15 @@ def attempt(firm, store, tries: int = 1) -> dict:
     res = {"slug": slug, "ok": False, "records": None, "reason": "",
            "failures": []}
 
-    def _fail(reason: str, code: str | None = None, abort: bool = False):
+    def _fail(reason: str, code: str | None = None, abort: bool = False,
+              model: str | None = None):
         res["failures"].append(reason)
         res["reason"] = reason
         if not abort:
-            prior.append({"reason": reason, "code": code})
+            # `model` is carried so the next try's prompt can say who wrote the
+            # code it is being shown — passed explicitly rather than captured
+            # from the loop, so a later reordering can't silently mislabel it.
+            prior.append({"reason": reason, "code": code, "model": model})
 
     url = firm.portfolio_url or (
         extract.resolve_portfolio_url(firm.homepage) if firm.homepage else None)
@@ -142,22 +151,27 @@ def attempt(firm, store, tries: int = 1) -> dict:
 
     prior: list = []                       # [{"reason", "code"}] for feedback
     code = None
-    for _t in range(max(1, tries)):
-        # 1. generate (feedback from this burst's earlier tries, if any)
+    tries = max(1, tries)
+    for _t in range(tries):
+        # 1. generate (feedback from this burst's earlier tries, if any).
+        # Model escalates: cheap early, strong for the last two, so a firm is
+        # never retired without the strong model having had a real go at it.
+        model = scraper_gen.model_for(_t, tries)
         try:
             code = scraper_gen.generate(firm.firm_name or slug, slug, url,
-                                        context=context, failures=prior)
+                                        context=context, failures=prior,
+                                        model=model)
         except Exception as exc:  # noqa: BLE001 — API/transport: abort burst
             _fail(f"generation error: {exc}", abort=True)
             return res
         if not code:
-            _fail("no code generated")
+            _fail("no code generated", model=model)
             continue
 
         # 2. static guard
         problems = scraper_guard.static_check(code)
         if problems:
-            _fail("static guard: " + "; ".join(problems[:4]), code)
+            _fail("static guard: " + "; ".join(problems[:4]), code, model=model)
             continue
 
         # 3. sandboxed run (no tokens in env)
@@ -171,13 +185,13 @@ def attempt(firm, store, tries: int = 1) -> dict:
             except OSError:
                 pass
         if records is None:
-            _fail(f"sandbox: {err}", code)
+            _fail(f"sandbox: {err}", code, model=model)
             continue
 
         # 4. validate output
         fails = scraper_guard.validate_output(records, baseline)
         if fails:
-            _fail("validation: " + "; ".join(fails), code)
+            _fail("validation: " + "; ".join(fails), code, model=model)
             continue
         break                              # all gates passed
     else:

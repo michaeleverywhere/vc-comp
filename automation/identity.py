@@ -18,6 +18,16 @@ from urllib.parse import urlsplit
 
 _SUFFIX = "_companies.json"
 
+# Datasets whose filename predates the <slug>_companies.json convention.
+# Lightspeed was built from a sitemap before the rule existed, so its file has no
+# slug prefix and slug_from_file() returned None for it — meaning the firm
+# produced NO slug, and is_known(), the system's only dedup gate, could not see
+# it. Anything proposing "Lightspeed" looked brand new and would have been
+# scraped into a second, competing lightspeed_companies.json. Mapped in both
+# directions so the file->slug and slug->file rules stay one fact, not two.
+_FILE_ALIASES = {"companies.json": "lightspeed"}
+_SLUG_ALIASES = {v: k for k, v in _FILE_ALIASES.items()}
+
 # Trailing generic words dropped when matching a firm name to an existing slug
 # ('Bain Capital Ventures' -> baincapital). Matching only; never used to name files.
 _STRIP_TOKENS = {
@@ -43,10 +53,12 @@ def slugify(firm_name: str) -> str:
 
 
 def data_file_for(slug: str) -> str:
-    return f"{slug}{_SUFFIX}"
+    return _SLUG_ALIASES.get(slug) or f"{slug}{_SUFFIX}"
 
 
 def slug_from_file(filename: str) -> Optional[str]:
+    if filename in _FILE_ALIASES:
+        return _FILE_ALIASES[filename]
     return filename[: -len(_SUFFIX)] if filename.endswith(_SUFFIX) else None
 
 

@@ -81,17 +81,25 @@ def notes_url(data_file: str) -> str:
 
 
 def _candidate_names() -> dict:
-    """slug -> firm_name from candidates.json (for discovered firms)."""
-    try:
-        raw = json.loads((_HERE / "candidates.json").read_text()).get("candidates", [])
-    except Exception:  # noqa: BLE001
-        return {}
+    """slug -> firm_name for discovered firms, from both candidate lists.
+
+    Both are needed: without the auto-discovered queue, a firm the finder added
+    would fall through to the slug fallback and land in Airtable as
+    'Emergencecapital' (slugs have no word boundaries to title-case)."""
+    import re
+    raw = []
+    for p in (_HERE / "candidates.json",
+              _HERE.parent / "data" / "discovered_candidates.json"):
+        try:
+            data = json.loads(p.read_text())
+        except Exception:  # noqa: BLE001
+            continue
+        raw += data.get("candidates", []) if isinstance(data, dict) else data
     out = {}
     for c in raw:
-        name = (c.get("firm_name") or "").strip()
+        name = (c.get("firm_name") or "").strip() if isinstance(c, dict) else ""
         if name:
-            import re
-            out[re.sub(r"[^a-z0-9]", "", name.lower())] = name
+            out.setdefault(re.sub(r"[^a-z0-9]", "", name.lower()), name)
     return out
 
 

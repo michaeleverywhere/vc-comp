@@ -58,6 +58,10 @@ Current datasets (in `data/`):
 | Lerer Hippeau | `lererhippeau_companies.json` | 305 | lererhippeau.com/portfolio (`lererhippeau_scraper.py`) |
 | 2048 Ventures | `2048_companies.json` | 75 | 2048.vc/companies (`2048_scraper.py`) |
 | Hustle Fund | `hustlefund_companies.json` | 335 | hustlefund.vc/founders (`hustlefund_scraper.py`) |
+| Amplify Partners | `amplifypartners_companies.json` | 114 | amplifypartners.com/portfolio/company (auto-gen `amplifypartners_scraper.py`) |
+| Felicis | `felicis_companies.json` | 275 | felicis.com/portfolio (auto-gen `felicis_scraper.py`) |
+| Foundry Group | `foundrygroup_companies.json` | 56 | foundrygroup.com/portfolio (auto-gen `foundrygroup_scraper.py`) |
+| Homebrew | `homebrew_companies.json` | 162 | homebrew.co (auto-gen `homebrew_scraper.py`) |
 
 **Firms verified to publish NO portfolio on their own site** (no dataset possible under the
 no-third-party-sources rule): Benchmark, Thrive Capital, DST Global, Tiger Global, Altimeter,
@@ -82,12 +86,18 @@ VC comps/
 ├── railway.toml              ← Railway build/cron config (repo root; see §Automation)
 ├── requirements.txt          ← repo-root deps for Railway (requests, bs4)
 ├── data/                     ← ALL JSON (datasets + reports)
-│   ├── companies.json + 47× <firm>_companies.json   (one per firm — see table above)
-│   ├── + 6 generic-discovered thin datasets (felicis, amplifypartners, homebrew,
-│   │     signalfire, foundrygroup, wingvc — name+url only, no bespoke scraper yet)
+│   ├── companies.json + 51× <firm>_companies.json   (one per firm — see table above)
+│   ├── + 2 thin datasets left: wingvc (next factory target) and signalfire
+│   │     (factory-RETIRED 2026-07-27 after 3 tries — site publishes no descriptions)
+│   ├── gen_attempts.json               ← factory attempt memory (see §Automation)
+│   ├── discovered_candidates.json      ← auto-found firm queue (see §Automation);
+│   │     in data/ NOT automation/ on purpose — Watch Paths would self-redeploy
+│   ├── scrape_attempts.json            ← generic-scrape memory (§Automation)
+│   ├── spend.json                      ← month-to-date API spend (§Automation)
 │   ├── enrichment_report.json          ← provenance for enrich.py fills
 │   └── everywhere_tagging_report.json  ← Lightspeed tagging report
-├── scripts/                  ← per-firm scrapers (47 bespoke; source in each docstring)
+├── scripts/                  ← per-firm scrapers (51 bespoke, 4 of them factory
+│                               auto-generated; source in each docstring)
 │   ├── enrich.py             ← Wikidata back-fill of empty fields
 │   └── PLAYBOOK.md           ← how to scrape a new firm / per-source cheat-sheet
 └── automation/               ← nightly Railway pipeline (see §Automation below)
@@ -168,9 +178,11 @@ from **Wikidata** (free + attributable):
 - Use `/tmp` (or the session scratchpad) for recon HTML/temp files, not the repo.
 
 ## Quickstart: add a new VC firm
-Preferred: add `{firm_name, homepage}` to `automation/candidates.json`, push, and let the
-discovery service handle it (finds the portfolio page, scrapes, adds to Airtable, and the
-scraper factory attempts a bespoke scraper). Manual path (for hard sites):
+Usually nobody has to: `candidate_finder.py` tops the queue up on every discovery run
+(§Automation). To force a specific firm, add `{firm_name, homepage}` to
+`automation/candidates.json`, push, and let the discovery service handle it (finds the
+portfolio page, scrapes, adds to Airtable, and the scraper factory attempts a bespoke
+scraper). Manual path (for hard sites):
 1. Recon the portfolio page (`curl` raw HTML; identify the data source). See PLAYBOOK §Recon.
 2. Write `scripts/<firm>_scraper.py` following the shared template (PLAYBOOK §Template);
    output `data/<firm>_companies.json` with a site-tailored schema + `everywhere_tags`.
@@ -182,7 +194,8 @@ One self-contained pipeline; **no Zapier anywhere** (evaluated, then removed). C
 a new firm is just a firm whose previous dataset is empty, so one loop handles both
 discovery and refresh. Modes: `python3 automation/pipeline.py --mode discover|refresh|all`.
 
-**Data flow:** roster (dedup once, keyed on `data/<slug>_companies.json` filenames) →
+**Data flow:** candidate finder (discover mode only — tops up the queue) → roster (dedup
+once, keyed on `data/<slug>_companies.json` filenames) →
 per firm: scrape (bespoke script | generic extractor) → diff vs GitHub (added/dropped/
 exited + health; `safe_to_commit` guard blocks empty/>20%-crater overwrites) → commit to
 GitHub → **direct Airtable upsert** (`airtable_writer.py`, matched on `Data file`) with
@@ -193,7 +206,12 @@ module — via `names.py`; nothing is ever entered by hand, existing values neve
 (NOT "Portfolio Companies" — that table exists but was cut from scope; `backfill_airtable.py`
 is legacy). Table = 1 row per firm: registry metadata + Record/Prev/Delta count, `Scraper
 health` (new/grew/same/shrank/count-drop/broke), Status (+`needs-scraper`,`broke`), Last
-run/commit, and **17 per-tag Number columns** (exact taxonomy names; note `Health` the tag
+run/commit, and **17 per-tag Number columns**
+(Status also gains `retired` — written ONCE, on the night the factory gives up, because
+from then on the firm is skipped before any network call and would never write a row
+again; its last word would otherwise stay `needs-scraper`, which reads as "someone
+should write one" rather than "we tried and gave up". `typecast: True` creates the
+select option safely.) (exact taxonomy names; note `Health` the tag
 ≠ `Scraper health`) holding how many portfolio companies carry each tag (double-counting
 across tags is intended). `create_at_fields.py` created the schema; `fix_dupes.py`/`audit_at.py`
 repaired a dup incident (trailing-whitespace Data-file keys — root cause fixed).
@@ -201,13 +219,106 @@ repaired a dup incident (trailing-whitespace Data-file keys — root cause fixed
 **Railway** (project on user's account, deploys from `michaeleverywhere/vc-comp`, root dir
 = repo root): service 1 "discovery" — `--mode discover`, cron daily `0 7 * * *`, LIVE and
 verified (added Amplify 124 / Homebrew 106 / SignalFire 103 / Foundry Group / Wing VC;
-6 JS-heavy sites correctly flagged needs-scraper: emergence, foundation, uncork, craft,
-boldstart, costanoa — they retry every run until scraped or removed from candidates.json).
+9 JS-heavy sites correctly flagged needs-scraper: emergence, foundation, uncork, craft,
+boldstart, costanoa, susa, bullpen, scaleventurepartners — as of the scrape memory they
+are scraped once, fail, and are never scraped again, instead of every run forever).
 Railway vars: GITHUB_TOKEN (fine-grained, **must be created on michaeleverywhere**,
 Contents r/w on the one repo), GITHUB_REPO=michaeleverywhere/vc-comp, GITHUB_BRANCH,
 GITHUB_DATA_DIR, AIRTABLE_PAT (data.records read+write), AIRTABLE_BASE_ID, AIRTABLE_TABLE.
 Local `automation/.env` mirrors these (git-ignored; Airtable schema-write PAT stays
 laptop-only). Data commits from Railway land as `Nightly: <slug> …`.
+
+**Candidate finder** (`candidate_finder.py`, added 2026-07-27; runs FIRST in discover/all
+mode, before the roster is built, so a firm found tonight is scraped — and possibly
+factory-generated — the same night). Fixes the queue's dead end: `candidates.json` was a
+hand-written starter list, so once the factory drained it discovery had nothing left to do.
+Each run asks the Claude API for VC firms not already covered (`FIND_PROPOSALS`, default 12
+per call; the exclude list is every repo firm + both candidate lists + the no-portfolio 7),
+then **verifies every proposal against its live site before queueing it** — a model can
+invent a firm or misattribute a domain, so a proposal is a LEAD, not data. Gates:
+homepage must serve HTML; the PAGE (not the domain — that would be circular, since a
+made-up firm gets a domain spun from its own name) must carry the firm name; the site must
+read like a VC firm. Portfolio-URL resolution is a SOFT gate: JS-heavy sites resolve to
+`null` and still queue, landing on the normal needs-scraper/factory path. Per user
+decision **`FIND_MAX_PER_RUN=1`** (one new firm per run), with `FIND_MAX_OPEN=25` pausing
+the finder while the backlog is deep; `FIND_MODEL` defaults to claude-sonnet-4-5.
+**That backlog count excludes FINISHED firms** (`_pending`): a factory-retired or
+scrape-dead firm never gains a dataset, so counting it as "unprocessed" made the number
+rise monotonically — measured, the finder shut itself off on night 16 and stayed off.
+Retired ≠ pending. Regression-tested with a 30-night simulation.
+State is `data/discovered_candidates.json` (a JSON list, repo-committed like
+`gen_attempts.json` so ephemeral containers read it back). **Rejected entries are kept on
+purpose** — they stop the model re-proposing and re-verifying the same dead domain nightly.
+`roster.py` reads both candidate lists as one; `names.py` reads the queue too, so
+discovered firms get real Airtable names instead of title-cased slugs. Failures are caught
+and printed — the finder must never break the run. Test locally:
+`python3 automation/candidate_finder.py --dry-run`.
+
+**Spend ceiling + model escalation** (`budget.py` + `data/spend.json`, added 2026-07-27,
+user requirement "under $5/month **with one firm per day**"). The only variable cost is
+the Claude API — the factory is ~97% of it, the finder ~$0.006/run. `GEN_MAX_PER_RUN`
+caps FIRMS per night, not dollars, so it cannot enforce a budget. Two changes:
+
+1. **Escalation** (`scraper_gen.model_for`): a burst runs the CHEAP model
+   (`GEN_MODEL_CHEAP`, default claude-haiku-4-5) for its early tries and the strong one
+   (`GEN_MODEL`, default claude-sonnet-4-5) for the last `GEN_STRONG_TRIES` (**2**).
+   Rationale: the guard rejects bad output rather than committing it, so a cheap first
+   attempt risks nothing but a retry. A 1-try burst goes straight to strong. Set the two
+   model vars equal to disable. Firm cost fell ~$0.21 → ~$0.10; **a firm a day now costs
+   ~$3.09/month**. TWO strong tries, not one, and `GEN_MAX_ATTEMPTS` default went 3 → 4
+   to pay for it: escalation initially left Sonnet a single shot where it previously had
+   the firm's whole budget with failure feedback between tries (the loop that got
+   foundrygroup through on try 2) — a quality regression smuggled in as a cost saving.
+   At the observed mix the extra try is free, since most firms finish on try 1.
+   Relatedly, `_feedback_block` now LABELS each attempt with the model that produced it
+   and, when the code being shown came from a different model, tells the reader it was a
+   smaller one and to discard rather than patch a wrong approach — unlabelled, Sonnet
+   read Haiku's broken code as its own prior reasoning.
+2. **Ledger**: every response's `usage` is priced (cache writes 1.25x, reads 0.1x —
+   folding those into base input would overstate a burst ~3x) and accumulated per
+   calendar month. `MONTHLY_BUDGET_USD` default **4.50**. NOTE the prompt cache is
+   PER-MODEL, so the escalated Sonnet try pays a fresh cache write, not a 0.1x read —
+   a worst-case 3-try burst is ~$0.24, not ~$0.11.
+
+`can_generate()` requires the burst estimate PLUS a `_FINDER_RESERVE` ($0.25): without
+it the factory spends to the line and the finder's remaining nights push the month over
+(observed in test: $4.53 against a $4.50 budget). The finder itself stops only when the
+budget is truly gone. Month rolls over on its own — a different `month` key loads a fresh
+ledger, no cron. Unknown model strings are charged at the dearest known rate, so a model
+swap throttles early rather than overspending silently. Ledger is repo-committed (data/,
+outside Watch Paths) and saved BEFORE the factory flush, like the scrape memory, for the
+same redeploy-kills-the-container reason. Measured over a simulated 30-night month:
+**observed mix = 30/30 firms for $3.09; worst case (every firm fails all 3 tries) =
+17/30 firms for $4.29** — throttles rather than overspends. Residual leak: a container
+killed mid-burst loses ≤$0.24 unrecorded. The Anthropic Console spend limit is still the
+real wall; this guard is cooperative. Tests: `automation/test_budget.py`.
+
+**Scrape memory** (`scrape_state.py` + `data/scrape_attempts.json`, added 2026-07-27).
+Closes the last memoryless stage: a candidate the generic extractor couldn't read was
+re-scraped IN FULL every night forever (homepage + ~15 guessed portfolio URLs ≈ 16
+fetches × 9 stuck candidates ≈ **144 requests/night** to reproduce 9 known failures,
+plus 9 `needs-scraper` Airtable writes). **Per user decision: one failure and the firm is
+never scraped again** (`next_attempt: null`). A widening 1→3→7→30-day retry was built
+first and rejected as too fiddly to reason about — it survives as the
+`SCRAPE_BACKOFF_DAYS="1,3,7,30"` env override, and deleting a firm's entry re-arms it.
+Accepted cost: a site that merely happened to be down that night is written off, and the
+way back is manual. A successful scrape deletes the entry. Kept SEPARATE from
+`gen_attempts.json` on purpose: different question ("can the extractor read this page?"
+vs "can Claude write a scraper?"), different retirement terms, and merging them would let
+a factory retry silently reset the scrape memory.
+**Factory retirement now also stops the scraping** — `gen_state.eligible()` is checked in
+the scrape loop, which is what CLAUDE.md always claimed but the code never did
+(`gen_state` was imported only inside the factory block). Measured over 30 simulated
+nights: 4320 → 144 fetches, **97% fewer** — one night's worth, then zero forever.
+Two implementation constraints, both load-bearing: the skip runs BEFORE any network call
+and does NOT remove the firm from `firms` (the factory iterates that list, so filtering
+it would delay generation); and the state is committed right after the scrape loop, not
+at the end — the factory's flush pushes to `scripts/` and redeploys Railway, killing the
+container before any later write lands. Bespoke firms are exempt — a broken hand-written
+scraper is real breakage and must never be silenced. Tests:
+`automation/test_scrape_backoff.py` (offline; includes the 30-night request-count
+simulation — a backoff that looks right but still fetches nightly would pass every unit
+test and fix nothing).
 
 **Scraper factory** (`scraper_gen/guard/runner/factory.py`, wired into discover mode):
 auto-generates BESPOKE rich scrapers via Claude API — user chose **no human approval**, so
@@ -217,8 +328,12 @@ baseline, ≥95% names, ≥60% urls, ≥30% descriptions, no stringified lists/d
 runnable footer) + rich dataset; the push triggers Railway rebuild so the firm becomes
 bespoke. Generate-once per firm; `GEN_MAX_PER_RUN=3`; targets = the 6 thin datasets first
 (proven scrapeable), then needs-scraper candidates. Accepted residual risk: subtly-wrong
-values can pass validation (revert the firm's commit if so). All gates verified offline;
-**never yet run live**.
+values can pass validation (revert the firm's commit if so). **Live since 2026-07-27**,
+first runs validated everything in production: amplify (114 recs, try 1), felicis (275,
+try 1), foundrygroup (56, try 2 — the feedback loop's first win), homebrew (162, try 1)
+graduated bespoke; signalfire retired after 3 tries all failing "description coverage
+< 30%" (the legitimately-thin case working as designed). Cache write→read visible in
+`[gen]` token log lines; a full 3-try burst ran ~$0.26.
 **Attempt memory + burst retries (added 2026-07-26, burst 2026-07-27;**
 `automation/gen_state.py`**):** per user decision, a firm gets its WHOLE generation
 budget the first night it's tried: `attempt()` bursts up to `GEN_MAX_ATTEMPTS` (default 3)
@@ -242,22 +357,61 @@ a kill between them self-heals). Pair with **Watch Paths** on both Railway servi
 (`automation/**`, `scripts/**`, `requirements.txt`, `railway*.toml`) so data-only
 commits — incl. the refresh service's per-firm `Nightly:` commits — never rebuild.
 
-**State at session end (2026-07-24):**
-- DONE: pipeline + direct Airtable write live; discovery service live & verified; Private
-  Comps fully populated (53 firm rows + auto-named/auto-filled); repo moved to
-  michaeleverywhere; Source-URL back-fill fix deployed.
+**State at session end (2026-07-27):**
+- DONE (2026-07-26/27 session): factory LIVE and validated end-to-end in production —
+  burst retries w/ failure feedback, prompt caching, type-integrity gate, attempt
+  memory + same-night retirement, deferred end-of-run commits (self-redeploy guard),
+  Watch Paths set on discovery. 4 firms graduated bespoke (amplify, felicis,
+  foundrygroup, homebrew — see table), signalfire retired. `ANTHROPIC_API_KEY` + spend
+  limit live on the discovery service. Refresh service CREATED (named "monthly refresh"
+  but cadence is WEEKLY per user decision; settings partially verified — item 1). Laptop `automation/.env` repaired (PAT was comment-mangled).
+- DONE (2026-07-27, later): **candidate finder** written + wired (see above), so the
+  discovery queue refills itself and `candidates.json` stops being a dead end. Gates are
+  covered by `automation/test_candidate_finder.py` (offline, no key/network/cost —
+  injected fetchers + stubbed proposals; run it after touching `_PROMPT`, `verify()` or
+  `identity.py`). First live `--dry-run` proposed Canaan + Matrix (genuinely new, good)
+  and **Lightspeed — a firm the repo already has**, which exposed a latent bug in the
+  system's only dedup gate: `companies.json` predates the `<slug>_companies.json`
+  convention, so `identity.slug_from_file()` returned None for it and Lightspeed had NO
+  slug — invisible to `is_known()` and absent from the finder's exclude list. Any
+  candidate named Lightspeed would have been scraped into a competing
+  `lightspeed_companies.json`. FIXED via `identity._FILE_ALIASES` (bidirectional
+  file↔slug map) + `_excludes` now asking identity what counts as a dataset instead of
+  doing its own `endswith` test. Regression-tested. **First live non-dry run still needs
+  eyeballing** — item 0 below.
 - PENDING (next session picks up here):
-  1. Push the scraper factory (`git add automation/ && git commit -m "Add scraper factory" 
-     && git pull --no-rebase && git push`) — may already be pushed; check `git log`.
-  2. Add `ANTHROPIC_API_KEY` (+ optional GEN_*) to the discovery service on Railway
-     (user sets a spend limit in the console), then Run Now and review `[factory]` log lines.
-  3. Create Railway service 2 "refresh": same repo/vars, Start Command override
-     `python3 automation/pipeline.py --mode refresh`, cron `0 8 1 * *` (monthly). NOT yet created.
-  4. Optional cleanup: retire `railway_service`-era leftovers (`backfill_airtable.py`,
-     "Portfolio Companies" table), decide fate of the 6 needs-scraper rows (factory may
-     convert some), prune stale candidates from `candidates.json`.
+  0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
+     the queued firm is real and its site genuinely publishes a portfolio, and confirm
+     `data/discovered_candidates.json` was committed. If the model's suggestions skew
+     junky, tighten `_PROMPT` or raise the bar in `verify()`. No new Railway var is
+     required (`ANTHROPIC_API_KEY` is already on discovery).
+  1. Finish refresh service settings: config-as-code path = `railway.refresh.toml`
+     (DONE, verified 07-27 — LOAD-BEARING, file config overrides dashboard), cron
+     `0 8 * * 1` (WEEKLY, Mondays 08:00 UTC), Watch Paths (the 4 +
+     `railway.refresh.toml`), GitHub+Airtable vars, NO Anthropic key. NOTE: without a
+     cron schedule set, Railway runs the start command on EVERY deploy — the config-fix
+     redeploy likely launched the first refresh run on its own; supervise it
+     (~51 scrapers, 30-60 min, mostly `same`, guard `held back` lines = protection).
+  2. Factory queue drains at `GEN_MAX_PER_RUN=3`/night: wingvc + the 9 needs-scraper
+     candidates, now topped up at 1 new firm/night by the finder. Skim `[factory]` lines;
+     retirements land in `data/gen_attempts.json`.
+  3. `everywhere_tags` gap: auto-generated datasets ship `everywhere_tags: []`, so
+     those firms' 17 Airtable tag columns read 0. Add a shared keyword tagger applied
+     by the factory before persist (parity with hand-written scrapers).
+  4. Eyeball signalfire.com: if it truly publishes no per-company descriptions,
+     retirement is correct and permanent (or hand-write a minimal scraper).
+  5. Laptop `.env` `GITHUB_TOKEN` is ruszinn-minted → cannot write to the
+     michaeleverywhere repo (fine-grained PATs are resource-owner-bound; push through
+     it fails "denied to ruszinn"). Replace with a michaeleverywhere-created PAT if
+     commit-capable local runs are wanted; Railway has the correct token.
+  6. Optional cleanup (carried over): retire `backfill_airtable.py` + "Portfolio
+     Companies" table; prune stale candidates from `candidates.json`.
 - Docs debt: `automation/PIPELINE.md`/`README.md` still describe the retired Zapier flow
   in places; this section is authoritative where they conflict.
+- Sandbox note (Cowork sessions): the sandbox mount can CREATE but not UNLINK files in
+  `.git`, so merges strand `*.lock` files (sweep them into `_git_lock_trash/`).
+  Commits from the sandbox work; `git pull` merges and pushes run on the Mac terminal
+  (`rm -f` the stranded locks first).
 - Context: repo stays **public** (dashboard agent reads raw.githubusercontent.com links
   tokenlessly; raw links + private repo are incompatible). The user's manager (Michael)
   owns the repo + a dashboard agent that consumes the raw JSON links.
