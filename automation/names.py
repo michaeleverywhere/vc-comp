@@ -72,12 +72,16 @@ def source_url(data_file: str) -> str | None:
 
 
 def notes_url(data_file: str) -> str:
-    """GitHub blob URL for the dataset — works on a PRIVATE repo for anyone logged
-    in with access (a raw URL would need a token and can't be a stable link)."""
+    """Raw-JSON URL for the dataset — the link the manager's dashboard agent
+    consumes directly. The repo is PUBLIC precisely so these work tokenlessly
+    (CLAUDE.md §Context); this used to return a github.com *blob* link from
+    when a private repo was assumed, which serves HTML and broke the
+    dashboard's JSON reads (first seen on matrixpartners, 2026-07-28).
+    `airtable_writer._fill_blank_meta` upgrades old blob values in place."""
     repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
     branch = os.environ.get("GITHUB_BRANCH", "main")
     ddir = os.environ.get("GITHUB_DATA_DIR", "data")
-    return f"https://github.com/{repo}/blob/{branch}/{ddir}/{data_file}"
+    return f"https://raw.githubusercontent.com/{repo}/{branch}/{ddir}/{data_file}"
 
 
 def _candidate_names() -> dict:

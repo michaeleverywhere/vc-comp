@@ -463,6 +463,22 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
   URL. Watch the first hard-gate `[find]` lines for over-rejection: if too many
   real firms bounce on "no portfolio page resolved", the resolver (not the gate)
   is the thing to improve.
+- DONE (2026-07-28): **Notes column now carries the RAW dataset URL.**
+  `names.notes_url` returned the github.com *blob* form from when a private repo
+  was assumed; blob serves HTML, so the manager's dashboard couldn't read it —
+  first seen on matrixpartners, the finder's first hard-gate graduate (queued →
+  generic 110 recs → bespoke 45 the same night; the 110 included footer junk like
+  "Matrix Press Kit", so the drop is a cleanup, not a crater). Rows seeded by
+  `populate_registry` already had raw links; only auto-filled rows were affected.
+  Fixed + `_fill_blank_meta` upgrades stale blob Notes in place (exact blob-prefix
+  match only — hand-written notes untouched). Data quirks in
+  `matrixpartners_companies.json` to revisit: the generated scraper pads
+  descriptions/founders from each company's OWN homepage (gate-gaming the ≥30%
+  description rule — founders caught junk like "Join Our" / "Claude Code");
+  sectors/stage/status/profile_url are all-null stubs; two names have trailing
+  commas. Consider a factory-prompt rule (firm's own pages only) + a founders
+  plausibility gate. Also note the ≥50%-of-baseline gate is vacuous for same-night
+  graduates (generic result isn't written locally, so baseline reads 0).
 - PENDING (next session picks up here):
   0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
      the queued firm is real and its site genuinely publishes a portfolio, and confirm

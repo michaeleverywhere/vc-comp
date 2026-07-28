@@ -126,6 +126,27 @@ def test_no_dataset_retiree_vanishes_from_airtable() -> None:
           airtable_writer.delete_strays(big_keep, dry_run=True), 0)
 
 
+def test_notes_link_is_raw_json() -> None:
+    """Regression (matrixpartners, 2026-07-28): auto-filled Notes carried a
+    github.com BLOB link — the pre-public-repo form — which serves HTML, so the
+    dashboard agent couldn't read the dataset. Notes must be the raw-JSON URL,
+    and the meta-fill must upgrade old blob values without ever touching a
+    hand-written note."""
+    print("\nnotes: raw-JSON link, blob form upgraded, hand notes untouched")
+    import names
+    url = names.notes_url("matrixpartners_companies.json")
+    check("raw host", url.startswith("https://raw.githubusercontent.com/"), True)
+    check("points at the dataset",
+          url.endswith("/data/matrixpartners_companies.json"), True)
+    blob = ("https://github.com/michaeleverywhere/vc-comp/blob/main/"
+            "data/matrixpartners_companies.json")
+    check("old blob form is flagged stale", airtable_writer._stale_note(blob),
+          True)
+    check("the raw form is not", airtable_writer._stale_note(url), False)
+    check("a hand-written note is not",
+          airtable_writer._stale_note("re-check selectors next run"), False)
+
+
 def test_thirty_nights_record_one_attempt() -> None:
     print("\nsimulation: 30 nights, exactly one attempt ever recorded")
     st: dict = {}
@@ -150,6 +171,7 @@ if __name__ == "__main__":
     test_terminal_retires_at_once_and_honestly()
     test_transport_fluke_never_retires()
     test_no_dataset_retiree_vanishes_from_airtable()
+    test_notes_link_is_raw_json()
     test_thirty_nights_record_one_attempt()
     print()
     if _FAILS:

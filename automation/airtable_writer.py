@@ -76,8 +76,19 @@ def upsert_firms(rows: list[dict], run_at: str, dry_run: bool = False) -> int:
 
 
 # Registry-metadata columns the automation auto-fills when BLANK, and how each is
-# derived. Existing (non-blank) values are never overwritten.
+# derived. Existing (non-blank) values are never overwritten — with ONE narrow
+# exception, `_stale_note` below.
 _META_FIELDS = ("Name", "Source URL", "Notes", "Source type", "Scraper module")
+
+
+def _stale_note(cur: str) -> bool:
+    """The one non-blank value the auto-fill DOES overwrite: a github.com blob
+    link in Notes, written by the old notes_url while a private repo was
+    assumed. Blob links serve HTML, so the dashboard agent can't read them; the
+    repo is public and the raw form is the point. Matching on the exact blob
+    prefix means hand-written notes are never touched."""
+    repo = os.environ.get("GITHUB_REPO", "michaeleverywhere/vc-comp")
+    return cur.startswith(f"https://github.com/{repo}/blob/")
 
 
 def _derive(field: str, df: str, row: dict) -> str | None:
@@ -196,9 +207,10 @@ def _fill_blank_meta(url: str, headers: dict, rows: list[dict]) -> int:
             continue
         fills = {}
         for field in _META_FIELDS:
-            if not (f.get(field) or "").strip():
+            cur = (f.get(field) or "").strip()
+            if not cur or (field == "Notes" and _stale_note(cur)):
                 val = _derive(field, df, by_df.get(df, {}))
-                if val:
+                if val and val != cur:
                     fills[field] = val
         if fills:
             updates.append({"id": rec["id"], "fields": fills})
