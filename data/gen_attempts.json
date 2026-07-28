@@ -1,10 +1,24 @@
 [
   {
-    "slug": "signalfire",
-    "attempts": 3,
+    "slug": "emergencecapital",
+    "attempts": 1,
     "skip": false,
-    "last_attempt": "2026-07-27T20:39:31+00:00",
-    "last_reason": "validation: description coverage < 30% (not rich)",
+    "last_attempt": "2026-07-28T01:48:14+00:00",
+    "last_reason": "no portfolio url",
+    "history": [
+      {
+        "at": "2026-07-28T01:48:14+00:00",
+        "reason": "no portfolio url",
+        "counted": true
+      }
+    ]
+  },
+  {
+    "slug": "signalfire",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-07-28T01:44:49+00:00",
+    "last_reason": "sandbox: sandbox exit 1: 1129, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1059, in source_to_code\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_signalfire.py\", line 115\n    class_=lambda c: c and 'text-weight-semibold' not in c)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: keyword argument repeated: class_",
     "history": [
       {
         "at": "2026-07-27T20:39:31+00:00",
@@ -19,6 +33,40 @@
       {
         "at": "2026-07-27T20:39:31+00:00",
         "reason": "validation: description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-07-28T01:44:49+00:00",
+        "reason": "sandbox: sandbox exit 1: 1129, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1059, in source_to_code\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_signalfire.py\", line 115\n    class_=lambda c: c and 'text-weight-semibold' not in c)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: keyword argument repeated: class_",
+        "counted": true
+      }
+    ]
+  },
+  {
+    "slug": "wingvc",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-07-28T01:48:11+00:00",
+    "last_reason": "validation: company_url coverage < 60%",
+    "history": [
+      {
+        "at": "2026-07-28T01:48:11+00:00",
+        "reason": "sandbox: sandbox exit 1: ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_wingvc.py\", line 6, in <module>\n    from typing import list, dict\nImportError: cannot import name 'list' from 'typing' (/root/.nix-profile/lib/python3.12/typing.py). Did you mean: 'List'?",
+        "counted": true
+      },
+      {
+        "at": "2026-07-28T01:48:11+00:00",
+        "reason": "validation: company_url coverage < 60%",
+        "counted": true
+      },
+      {
+        "at": "2026-07-28T01:48:11+00:00",
+        "reason": "validation: too few records (0); count 0 < 50% of generic baseline 81; company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-07-28T01:48:11+00:00",
+        "reason": "validation: company_url coverage < 60%",
         "counted": true
       }
     ]
