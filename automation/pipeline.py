@@ -184,6 +184,13 @@ def main() -> int:
         # fresh side
         new, err = (_run_bespoke(firm) if firm.kind == "bespoke"
                     else _run_generic(firm))
+        if new:
+            # Shared tagger — fills only EMPTY everywhere_tags, so a
+            # hand-written scraper's own tagging always wins. This is what
+            # keeps factory-generated scrapers' output tagged on every weekly
+            # refresh: the tags are the product (the dashboard agent builds
+            # comps from them; see tags.py).
+            tags.fill_empty(new)
 
         health = diff.registry_health(firm.slug, firm.data_file, old, new, err)
         health["output_url"] = store.raw_url(firm.data_file) if store else None

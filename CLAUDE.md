@@ -153,6 +153,12 @@ Rules:
 - Derive from the firm's own sector tags first (when present), else keyword-classify the
   name + description. Tagging is keyword-based (no LLM) and intentionally coarse — a few
   untagged stragglers / over-tags are acceptable.
+- **The tags are the product** (user, 2026-07-27): the manager's dashboard agent builds
+  comps by looking up `everywhere_tags`, so an untagged dataset is dead weight to the
+  system's main consumer. Shared implementation: `automation/tags.py`
+  (`classify`/`fill_empty`, keyword map lifted from `lererhippeau_scraper.py`), applied
+  by the pipeline to every scrape result and by the factory before persist — fills ONLY
+  empty tags, so a hand-written scraper's own tagging always wins.
 
 ## Enrichment (`scripts/enrich.py`)
 Back-fills empty fields in `companies.json`, `menlo_companies.json`, `usv_companies.json`
@@ -500,9 +506,20 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      wingvc + signalfire exhausted their bursts; the 9 JS-heavy candidates and
      LocalGlobe are retired (terminal/manual). Queue is empty — from here it holds
      only what the finder adds (1/night, portfolio URL guaranteed).
-  3. `everywhere_tags` gap: auto-generated datasets ship `everywhere_tags: []`, so
-     those firms' 17 Airtable tag columns read 0. Add a shared keyword tagger applied
-     by the factory before persist (parity with hand-written scrapers).
+  3. ~~`everywhere_tags` gap: auto-generated datasets ship `[]`.~~ **RESOLVED
+     2026-07-27 (user: "the tags are the main value — the dashboard agent builds
+     comps from them"):** shared keyword tagger in `automation/tags.py`, applied in
+     the pipeline scrape loop (covers weekly refreshes of factory scrapers) and in
+     the factory before persist; 7 untagged datasets backfilled in place
+     (415/836 companies tagged — matrix 68%, amplify 84%, felicis 65%, foundry 60%,
+     homebrew 40%; wingvc 0% and signalfire 8% are STRUCTURAL, no descriptions to
+     classify, which is why the factory retired them). Airtable tag counts refresh
+     per firm on its next scrape night (Monday refresh for bespoke firms); wingvc +
+     signalfire never scrape again, so their Airtable columns stay 0 — but the
+     dashboard reads the raw JSON, which now carries every tag that exists. If
+     their coverage matters, the options are a Wikidata sector fill (`enrich.py`)
+     or a one-off LLM pass (breaks the no-LLM convention; would stick, since both
+     datasets are frozen). Tests: `automation/test_tags.py`.
   4. Eyeball signalfire.com: if it truly publishes no per-company descriptions,
      retirement is correct and permanent (or hand-write a minimal scraper).
   5. Laptop `.env` `GITHUB_TOKEN` is ruszinn-minted → cannot write to the

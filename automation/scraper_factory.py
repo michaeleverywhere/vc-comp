@@ -35,6 +35,7 @@ from pathlib import Path
 import extract
 import scraper_gen
 import scraper_guard
+import tags
 
 _REPO = Path(__file__).resolve().parent.parent
 _SCRIPTS = _REPO / "scripts"
@@ -211,9 +212,14 @@ def attempt(firm, store, tries: int = 1) -> dict:
     from datetime import datetime, timezone
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     for r in records:
-        r.setdefault("everywhere_tags", [])
         r.setdefault("source_url", url)
         r.setdefault("scraped_at", now)
+    # Tag before persist — the tags are the product (the dashboard agent
+    # builds comps from everywhere_tags; see tags.py). Generated scrapers
+    # never tag, so this fill is what makes a graduate useful downstream.
+    tags.fill_empty(records)
+    for r in records:
+        r.setdefault("everywhere_tags", [])     # explicit [] for stragglers
     (_DATA / data_file).write_text(
         json.dumps(records, indent=2, ensure_ascii=False) + "\n")
 
