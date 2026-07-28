@@ -185,11 +185,13 @@ def main() -> int:
         new, err = (_run_bespoke(firm) if firm.kind == "bespoke"
                     else _run_generic(firm))
         if new:
-            # Shared tagger — fills only EMPTY everywhere_tags, so a
-            # hand-written scraper's own tagging always wins. This is what
-            # keeps factory-generated scrapers' output tagged on every weekly
-            # refresh: the tags are the product (the dashboard agent builds
-            # comps from them; see tags.py).
+            # Tags are the product (the dashboard agent builds comps from
+            # them). Order matters: inherit from the previous dataset first
+            # (carry_forward — keeps one-off enrichment like the LLM backfill
+            # alive across refreshes), then keyword-fill what's still empty.
+            # Both touch only EMPTY tags, so a hand-written scraper's own
+            # tagging always wins.
+            tags.carry_forward(old, new)
             tags.fill_empty(new)
 
         health = diff.registry_health(firm.slug, firm.data_file, old, new, err)

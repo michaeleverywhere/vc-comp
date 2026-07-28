@@ -16,6 +16,7 @@ Run:  python3 automation/test_tags.py     (exit 0 = all pass)
 """
 from __future__ import annotations
 
+import json
 import pathlib
 import sys
 
@@ -106,6 +107,56 @@ def test_fill_empty() -> None:
           counts["FinTech / Insurance"] >= 2, True)
 
 
+def test_carry_forward() -> None:
+    print("\ncarry_forward: enrichment survives a refresh")
+    old = [
+        {"company_name": "Stripe", "company_url": "https://stripe.com/",
+         "everywhere_tags": ["FinTech / Insurance"]},          # LLM-enriched
+        {"company_name": "Acme Robotics", "company_url": None,
+         "everywhere_tags": ["Deeptech / Robotics / AR/VR"]},  # name-only match
+        {"company_name": "Untagged Co", "company_url": "https://untag.io",
+         "everywhere_tags": []},
+    ]
+    # the weekly refresh rebuilds records from scratch: no tags, no text
+    new = [
+        {"company_name": "Stripe, Inc.", "company_url": "http://www.stripe.com",
+         "everywhere_tags": []},                    # url matches despite restyle
+        {"company_name": "Acme Robotics", "everywhere_tags": []},
+        {"company_name": "Untagged Co", "company_url": "https://untag.io",
+         "everywhere_tags": []},
+        {"company_name": "Brand New", "company_url": "https://new.io",
+         "everywhere_tags": ["CPG"]},               # fresh scraper tag: wins
+    ]
+    n = tags.carry_forward(old, new)
+    check("two records inherited", n, 2)
+    check("url-matched inheritance",
+          new[0]["everywhere_tags"], ["FinTech / Insurance"])
+    check("name-fallback inheritance",
+          new[1]["everywhere_tags"], ["Deeptech / Robotics / AR/VR"])
+    check("old empty tags are not inherited", new[2]["everywhere_tags"], [])
+    check("fresh non-empty tags untouched", new[3]["everywhere_tags"], ["CPG"])
+    # ...and fill_empty afterwards cannot undo an inheritance
+    tags.fill_empty(new)
+    check("keyword pass respects inherited tags",
+          new[0]["everywhere_tags"], ["FinTech / Insurance"])
+
+
+def test_llm_reply_parsing() -> None:
+    print("\nllm backfill: replies are validated, never trusted")
+    import llm_tag_backfill as ltb
+    good = ('Here you go:\n{"1": ["FinTech / Insurance", "Consumer"], '
+            '"2": [], "3": ["Fintech", "Health"], "9": ["Health"]}')
+    out = ltb.parse_reply(good, 3)
+    check("valid tags kept", out[1], ["FinTech / Insurance", "Consumer"])
+    check("empty answer kept as empty", out[2], [])
+    check("non-verbatim tag dropped, valid sibling kept", out[3], ["Health"])
+    check("out-of-range keys ignored", 9 in out, False)
+    check("garbage reply -> nothing", ltb.parse_reply("no json here", 3), {})
+    five = json.dumps({"1": ["Health", "BioTech", "Consumer", "CPG",
+                             "PropTech"]})
+    check("cap 4 enforced", len(ltb.parse_reply(five, 1)[1]), 4)
+
+
 def test_taxonomy_matches_claude_md() -> None:
     print("\ntaxonomy strings match CLAUDE.md verbatim")
     md = (pathlib.Path(__file__).resolve().parent.parent / "CLAUDE.md").read_text()
@@ -120,6 +171,8 @@ if __name__ == "__main__":
     test_output_discipline()
     test_ai_rule()
     test_fill_empty()
+    test_carry_forward()
+    test_llm_reply_parsing()
     test_taxonomy_matches_claude_md()
     print()
     if _FAILS:

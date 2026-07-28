@@ -158,7 +158,14 @@ Rules:
   system's main consumer. Shared implementation: `automation/tags.py`
   (`classify`/`fill_empty`, keyword map lifted from `lererhippeau_scraper.py`), applied
   by the pipeline to every scrape result and by the factory before persist — fills ONLY
-  empty tags, so a hand-written scraper's own tagging always wins.
+  empty tags, so a hand-written scraper's own tagging always wins. The pipeline also
+  runs `tags.carry_forward` first (fresh records with empty tags inherit the previous
+  dataset's tags, matched on company_url then name), so one-off enrichment survives
+  weekly refreshes instead of being silently wiped. ONE sanctioned exception to
+  "no LLM": `automation/llm_tag_backfill.py` (user decision 2026-07-27) — a one-off
+  Haiku pass over companies with NO text signal, unknown→[] (never guess), verbatim-tag
+  validation, provenance in `data/llm_tag_report.json`, spend booked to the ledger as
+  `tag-backfill`. Recurring tagging stays keyword-based.
 
 ## Enrichment (`scripts/enrich.py`)
 Back-fills empty fields in `companies.json`, `menlo_companies.json`, `usv_companies.json`
@@ -520,6 +527,14 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      their coverage matters, the options are a Wikidata sector fill (`enrich.py`)
      or a one-off LLM pass (breaks the no-LLM convention; would stick, since both
      datasets are frozen). Tests: `automation/test_tags.py`.
+     **Follow-up, same day:** keyword backfill extended to ALL datasets (+276 more
+     companies; hand-written scrapers' stragglers). The ~1,900 companies with no
+     text signal at all (coatue 322, generalcatalyst 187, ribbit 130…) → user
+     chose the one-off LLM pass: `automation/llm_tag_backfill.py` (see the
+     taxonomy section for its honesty rules) + `tags.carry_forward` in the
+     pipeline so the enrichment survives refreshes. The script must run on the
+     Mac (Cowork sandbox cannot reach api.anthropic.com); est. ~$0.2 of the
+     $3.94 July headroom. Re-runnable: touches only still-empty tags.
   4. Eyeball signalfire.com: if it truly publishes no per-company descriptions,
      retirement is correct and permanent (or hand-write a minimal scraper).
   5. Laptop `.env` `GITHUB_TOKEN` is ruszinn-minted → cannot write to the

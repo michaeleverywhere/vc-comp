@@ -168,6 +168,42 @@ def classify(name, description, sectors=None) -> list:
     return out[:4]
 
 
+def _match_key(rec: dict) -> str:
+    """Identity of a company across two scrapes of the same firm: normalized
+    company_url first (names get restyled; domains rarely do), else name."""
+    url = (rec.get("company_url") or rec.get("url") or "").lower()
+    url = url.split("//")[-1]
+    url = url[4:] if url.startswith("www.") else url
+    url = url.rstrip("/")
+    if url:
+        return "u:" + url
+    name = (rec.get("company_name") or rec.get("name") or "").strip().lower()
+    return ("n:" + name) if name else ""
+
+
+def carry_forward(old_records, new_records) -> int:
+    """Fresh records with EMPTY tags inherit the previous dataset's tags for
+    the same company. This is what makes one-off enrichment (the LLM backfill,
+    a Wikidata fill, a hand fix) durable: a weekly refresh rebuilds records
+    from scratch, so without inheritance every tag not re-derivable from that
+    night's scrape text would be silently wiped. A fresh record that already
+    carries tags wins — the scraper's own tagging is newer information.
+    Returns how many records inherited."""
+    prev = {}
+    for r in old_records or []:
+        k = _match_key(r)
+        if k and r.get("everywhere_tags"):
+            prev[k] = r["everywhere_tags"]
+    n = 0
+    for r in new_records or []:
+        if not r.get("everywhere_tags"):
+            t = prev.get(_match_key(r))
+            if t:
+                r["everywhere_tags"] = list(t)
+                n += 1
+    return n
+
+
 def fill_empty(records) -> int:
     """Fill everywhere_tags on records where it is empty or missing; NEVER
     overwrites a non-empty list, so a hand-written scraper's own (usually
