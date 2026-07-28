@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "slug": "signalfire",
+    "attempts": 3,
+    "skip": false,
+    "last_attempt": "2026-07-27T20:39:31+00:00",
+    "last_reason": "validation: description coverage < 30% (not rich)",
+    "history": [
+      {
+        "at": "2026-07-27T20:39:31+00:00",
+        "reason": "sandbox: sandbox exit 1: 1129, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1059, in source_to_code\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_signalfire.py\", line 106\n    class_=lambda c: c and 'text-weight-semibold' not in c)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: keyword argument repeated: class_",
+        "counted": true
+      },
+      {
+        "at": "2026-07-27T20:39:31+00:00",
+        "reason": "validation: description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-07-27T20:39:31+00:00",
+        "reason": "validation: description coverage < 30% (not rich)",
+        "counted": true
+      }
+    ]
+  }
+]
