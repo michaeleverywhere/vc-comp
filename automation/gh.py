@@ -80,6 +80,21 @@ class GitHubStore:
         r.raise_for_status()
         return r.json()["commit"]["sha"]
 
+    def delete_json(self, filename: str, message: str) -> bool:
+        """Delete data/<filename> from the repo (git history keeps it, so this
+        is always recoverable). Used by bespoke-or-nothing retirement: a firm
+        whose factory burst fails loses its thin dataset rather than freezing
+        it. Returns False if the file wasn't there — a re-run is a no-op."""
+        path = f"{self.data_dir}/{filename}"
+        sha = self._blob_sha(path)
+        if not sha:
+            return False
+        r = self._s.delete(f"{_API}/repos/{self.repo}/contents/{path}",
+                           json={"message": message, "sha": sha,
+                                 "branch": self.branch}, timeout=30)
+        r.raise_for_status()
+        return True
+
     # --- urls ----------------------------------------------------------------
     def raw_url(self, filename: str) -> str:
         return (f"https://raw.githubusercontent.com/{self.repo}/"

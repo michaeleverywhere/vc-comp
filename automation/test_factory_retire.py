@@ -12,9 +12,10 @@ What needs proving, last one most:
   2. one terminal failure retires the firm at once — honestly (attempts stays
      1, "retired": true; NOT attempts jammed to the max);
   3. a transport fluke can never retire a firm, terminal or not;
-  4. a firm retiring with NO dataset vanishes from Airtable (in-run row
-     dropped, old row queued for deletion), while a firm WITH a dataset keeps
-     its row — Airtable is "firms with data", not a graveyard of attempts;
+  4. bespoke-or-nothing (user decision 2026-07-28, superseding the earlier
+     keep-the-thin-dataset fallback): a factory-failed firm vanishes
+     COMPLETELY — registry row dropped, Airtable delete queued, and any thin
+     dataset it had queued for repo deletion (git history is the undo);
   5. it actually stops the nightly burn: 30 simulated nights must record
      exactly ONE attempt. A flag that looked right but left the firm in
      targets() would pass every unit test above and fix nothing.
@@ -86,29 +87,41 @@ def test_transport_fluke_never_retires() -> None:
     check("still eligible", gen_state.eligible(st, "flaky")[0], True)
 
 
-def test_no_dataset_retiree_vanishes_from_airtable() -> None:
-    print("\npipeline: a no-data retiree is deleted, a with-data one is kept")
+def test_retiree_vanishes_completely() -> None:
+    print("\npipeline: bespoke-or-nothing — a factory-failed firm leaves no trace")
+    import tempfile
+
     import pipeline
 
-    # no dataset on disk -> row dropped from the upsert, delete queued
+    # dataset-less candidate: row dropped, Airtable delete queued
     firm = _firm()
     registry = [{"data_file": firm.data_file, "status": "needs-scraper"},
                 {"data_file": "other_companies.json", "status": "active"}]
-    at_deletes: list = []
-    registry = pipeline._retire_from_airtable(firm, registry, at_deletes)
+    at_del: list = []
+    repo_del: list = []
+    registry = pipeline._retire_fully(firm, registry, at_del, repo_del)
     check("its in-run row is dropped",
           [h["data_file"] for h in registry], ["other_companies.json"])
-    check("its old row is queued for deletion", at_deletes,
-          [firm.data_file])
+    check("its Airtable row is queued for deletion", at_del, [firm.data_file])
 
-    # a real dataset on disk (thin is still real) -> row untouched
-    wing = _firm("wingvc")            # data/wingvc_companies.json exists
-    registry = [{"data_file": wing.data_file, "status": "needs-scraper"}]
-    at_deletes = []
-    registry = pipeline._retire_from_airtable(wing, registry, at_deletes)
-    check("a with-data firm keeps its row",
-          [h["data_file"] for h in registry], [wing.data_file])
-    check("and is never deleted", at_deletes, [])
+    # dataset-bearing generic firm (the wingvc class): the dataset goes too
+    old_data = pipeline._DATA
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline._DATA = pathlib.Path(tmp)
+            thin = _firm("thinfirm")
+            (pipeline._DATA / thin.data_file).write_text("[]")
+            at_del, repo_del = [], []
+            registry = pipeline._retire_fully(
+                thin, [{"data_file": thin.data_file}], at_del, repo_del)
+            check("registry row dropped", registry, [])
+            check("Airtable row queued", at_del, [thin.data_file])
+            check("repo dataset queued for deletion",
+                  thin.data_file in repo_del, True)
+            check("local dataset removed",
+                  (pipeline._DATA / thin.data_file).exists(), False)
+    finally:
+        pipeline._DATA = old_data
 
     # the writer's guards: nothing to delete costs nothing, dry-run is inert
     check("empty delete list is a no-op", airtable_writer.delete_firms([]), 0)
@@ -170,7 +183,7 @@ if __name__ == "__main__":
     test_attempt_is_terminal_offline()
     test_terminal_retires_at_once_and_honestly()
     test_transport_fluke_never_retires()
-    test_no_dataset_retiree_vanishes_from_airtable()
+    test_retiree_vanishes_completely()
     test_notes_link_is_raw_json()
     test_thirty_nights_record_one_attempt()
     print()

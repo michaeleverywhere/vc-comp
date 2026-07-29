@@ -87,8 +87,10 @@ VC comps/
 ├── requirements.txt          ← repo-root deps for Railway (requests, bs4)
 ├── data/                     ← ALL JSON (datasets + reports)
 │   ├── companies.json + 51× <firm>_companies.json   (one per firm — see table above)
-│   ├── + 2 thin datasets left: wingvc (next factory target) and signalfire
-│   │     (factory-RETIRED 2026-07-27 after 3 tries — site publishes no descriptions)
+│   ├── + 2 thin datasets left: wingvc + signalfire — both RE-ARMED 2026-07-28
+│   │     with a burst of 2 strong-model tries each (attempts set to 2 in
+│   │     gen_attempts.json); bespoke-or-nothing: if they fail again, dataset,
+│   │     Airtable row and all are deleted
 │   ├── gen_attempts.json               ← factory attempt memory (see §Automation)
 │   ├── discovered_candidates.json      ← auto-found firm queue (see §Automation);
 │   │     in data/ NOT automation/ on purpose — Watch Paths would self-redeploy
@@ -209,9 +211,14 @@ discovery and refresh. Modes: `python3 automation/pipeline.py --mode discover|re
 
 **Data flow:** candidate finder (discover mode only — tops up the queue) → roster (dedup
 once, keyed on `data/<slug>_companies.json` filenames) →
-per firm: scrape (bespoke script | generic extractor) → diff vs GitHub (added/dropped/
-exited + health; `safe_to_commit` guard blocks empty/>20%-crater overwrites) → commit to
-GitHub → **direct Airtable upsert** (`airtable_writer.py`, matched on `Data file`) with
+per firm: scrape (bespoke script | generic extractor — **but new firms are
+FACTORY-ONLY since 2026-07-28**, user decision: a dataset-less candidate is never
+generic-scraped; it waits for the factory, so its first dataset is bespoke. Accepted
+costs, chosen knowingly: no day-one data if the burst fails, and the
+≥50%-of-baseline validation gate has no reference for new firms — the generic
+extractor now only ever runs for dataset-bearing scraperless firms) → diff vs GitHub
+(added/dropped/exited + health; `safe_to_commit` guard blocks empty/>20%-crater
+overwrites) → commit to GitHub → **direct Airtable upsert** (`airtable_writer.py`, matched on `Data file`) with
 auto-fill of every blank metadata cell (Name, Source URL, Notes, Source type, Scraper
 module — via `names.py`; nothing is ever entered by hand, existing values never overwritten).
 
@@ -226,10 +233,15 @@ a needs-scraper→retired status flip that shipped and was superseded the same d
 `airtable_writer.delete_firms` removes the row on retirement night, and a
 `delete_strays` reconcile pass on every discovery run backstops anything stranded —
 keep-set = repo datasets + tonight's graduates + still-eligible firms, guarded by
-`_MIN_KEEP` so an upstream glob bug can never empty the table. Firms WITH a dataset
-keep their rows whatever the factory decided: wingvc and signalfire are thin, not
-failed. Repo-side memory files are unaffected by all of this — they are what stops
-re-proposing/re-scraping.) (exact taxonomy names; note `Health` the tag
+`_MIN_KEEP` so an upstream glob bug can never empty the table. **Bespoke-or-nothing
+(2026-07-28, user decision "I would like a bespoke script for every eligible firm"
++ "if the EV tags are missing, I do not need the data", superseding the previous
+day's thin-is-not-failed stance):** a factory-failed firm now loses its thin
+dataset too — `pipeline._retire_fully` drops the registry row, queues the Airtable
+delete AND deletes the dataset from the repo (`gh.delete_json`; git history is the
+undo). Lightspeed's hand-built `companies.json` can never get here — factory
+`targets()` excludes it by construction. Repo-side memory files are unaffected by
+all of this — they are what stops re-proposing/re-scraping.) (exact taxonomy names; note `Health` the tag
 ≠ `Scraper health`) holding how many portfolio companies carry each tag (double-counting
 across tags is intended). `create_at_fields.py` created the schema; `fix_dupes.py`/`audit_at.py`
 repaired a dup incident (trailing-whitespace Data-file keys — root cause fixed).
@@ -492,6 +504,23 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
   commas. Consider a factory-prompt rule (firm's own pages only) + a founders
   plausibility gate. Also note the ≥50%-of-baseline gate is vacuous for same-night
   graduates (generic result isn't written locally, so baseline reads 0).
+- DONE (2026-07-28, "I would like a bespoke script for every eligible firm"): three
+  user decisions, offline-tested: (1) **new firms are FACTORY-ONLY** — the scrape
+  loop skips dataset-less generic candidates entirely (no fetches, no needs-scraper
+  row, no scrape-memory entry); their first dataset is the bespoke one. The generic
+  extractor's remaining role is refreshing dataset-bearing scraperless firms, a
+  class that is now only wingvc/signalfire (transiently) + protected Lightspeed.
+  (2) **bespoke-or-nothing retirement** — `_retire_fully` (renamed from
+  `_retire_from_airtable`) also deletes a retiree's thin dataset from the repo via
+  new `gh.delete_json` (git-recoverable; data/ is outside Watch Paths so the
+  deletion never redeploys). (3) **wingvc + signalfire re-armed** with `attempts: 2`
+  in gen_attempts.json = a burst of exactly 2 strong-model (Sonnet) tries each on
+  the next discovery run, ~$0.50 worst case; if either fails both, it vanishes
+  fully per (2). Watch that run's `[factory]` lines. NOTE the ≥50%-of-baseline
+  validation gate is now permanently vacuous for new firms (no generic result to
+  compare against) — absolute thresholds (≥10 recs, ≥95% names, ≥60% urls,
+  ≥30% descriptions) are the whole gate; if a generated scraper ever ships a
+  suspiciously small portfolio, that's the hole it walked through.
 - PENDING (next session picks up here):
   0. Supervise the finder's first LIVE discovery run: check the `[find]` lines, confirm
      the queued firm is real and its site genuinely publishes a portfolio, and confirm

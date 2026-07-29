@@ -174,6 +174,18 @@ def main() -> int:
                       + ("factory gave up on this firm; not scraping it again"
                          if retired else why))
                 continue
+            if firm.data_file not in known_files:
+                # FACTORY-ONLY for new firms (user decision 2026-07-28): a
+                # brand-new firm is never generic-scraped — its first dataset
+                # is its bespoke one. No fetches, no needs-scraper row, no
+                # scrape-memory entry; it just waits in the factory queue
+                # below. Cost, accepted knowingly: no day-one data if the
+                # burst has a bad night, and the ≥50%-of-baseline validation
+                # gate loses its reference (absolute thresholds remain).
+                tally["skipped"] += 1
+                print(f"[{i}/{len(firms)}] {firm.slug}: factory-only — "
+                      f"awaiting bespoke scraper")
+                continue
 
         print(f"[{i}/{len(firms)}] {firm.slug} ({firm.kind}) …", flush=True)
 
@@ -259,6 +271,7 @@ def main() -> int:
     # 2026-07-27), so the push must land when there is nothing left to kill.
     gen_done: list = []
     at_deletes: list = []                  # Data files whose Airtable row must go
+    repo_deletes: list = []                # datasets removed with their firm
     gstate_dirty = False
     if args.mode == "discover" and not args.dry_run \
             and os.environ.get("ANTHROPIC_API_KEY"):
@@ -288,7 +301,8 @@ def main() -> int:
             if not r["ok"] and not gen_state.eligible(gstate, firm.slug)[0]:
                 print(f"[factory] {firm.slug}: retired — won't be re-tried "
                       f"(re-arm by editing data/gen_attempts.json)")
-                registry = _retire_from_airtable(firm, registry, at_deletes)
+                registry = _retire_fully(firm, registry, at_deletes,
+                                         repo_deletes)
             if r["ok"]:
                 gstate_dirty |= gen_state.clear(gstate, firm.slug)
                 # The firm now has a dataset, so it leaves the roster and the
@@ -345,6 +359,17 @@ def main() -> int:
         airtable_writer.upsert_firms(registry, run_at)
         if at_deletes:
             airtable_writer.delete_firms(at_deletes)
+        for df in repo_deletes:
+            # bespoke-or-nothing: the retiring firm's dataset leaves the repo
+            # too (data/ is outside Watch Paths, so this never redeploys; git
+            # history keeps the file). Failure just leaves a stray dataset —
+            # eligible() already blocks the firm everywhere, so log and move on.
+            try:
+                if store and store.delete_json(
+                        df, f"Retire {df}: factory exhausted, bespoke-or-nothing"):
+                    print(f"[retire] deleted {df} from the repo")
+            except Exception as exc:  # noqa: BLE001
+                print(f"[retire] repo delete FAILED for {df}: {exc}")
         if args.mode == "discover":
             # Reconcile (see airtable_writer.delete_strays): keep = every
             # dataset the repo knows, plus anything that graduated tonight,
@@ -395,20 +420,31 @@ def _flush_factory_commits(store, gen_done: list, gstate, gstate_dirty: bool) ->
             print(f"[factory] attempt-log save FAILED: {exc}")
 
 
-def _retire_from_airtable(firm, registry: list, at_deletes: list) -> list:
-    """Airtable is "firms with data", not a graveyard of attempts (user
-    decision 2026-07-27, replacing the short-lived needs-scraper→retired status
-    flip): a firm retiring with NO dataset disappears from the registry
-    entirely — its in-run row is dropped before the upsert, and any row left
-    over from an earlier night is deleted right after it (`at_deletes` is
-    mutated; the caller feeds it to airtable_writer.delete_firms). A firm WITH
-    a dataset (wingvc, signalfire) keeps its row untouched: the data is real,
-    just thin. Repo-side memory is unaffected — gen_attempts/scrape_attempts
-    entries stay, so nothing gets re-proposed or re-scraped."""
-    if not (_DATA / firm.data_file).exists():
-        registry = [h for h in registry
-                    if h.get("data_file") != firm.data_file]
-        at_deletes.append(firm.data_file)
+def _retire_fully(firm, registry: list, at_deletes: list,
+                  repo_deletes: list) -> list:
+    """Bespoke or nothing (user decisions 2026-07-27/28): a firm the factory
+    gives up on leaves no trace outside repo memory. Its in-run registry row
+    is dropped and its Airtable row queued for deletion (`at_deletes` →
+    airtable_writer.delete_firms); if it had a thin generic dataset (the
+    wingvc/signalfire class), that dataset is deleted too — locally
+    best-effort, and from the repo via `repo_deletes` → store.delete_json.
+    Git history keeps every deleted file, so this is always reversible. This
+    replaced the earlier keep-the-thin-dataset fallback the same day the user
+    ruled "if the EV tags are missing, I do not need the data". Lightspeed's
+    hand-built companies.json can never get here: factory targets()
+    deliberately excludes it. Repo-side memory is untouched —
+    gen_attempts/scrape_attempts entries are what stop anything being
+    re-proposed or re-scraped."""
+    registry = [h for h in registry
+                if h.get("data_file") != firm.data_file]
+    at_deletes.append(firm.data_file)
+    repo_deletes.append(firm.data_file)
+    p = _DATA / firm.data_file
+    if p.exists():
+        try:
+            p.unlink()
+        except OSError:
+            pass          # ephemeral container; the repo deletion is the real one
     return registry
 
 

@@ -111,10 +111,10 @@
   },
   {
     "slug": "signalfire",
-    "attempts": 4,
+    "attempts": 2,
     "skip": false,
     "last_attempt": "2026-07-28T01:44:49+00:00",
-    "last_reason": "sandbox: sandbox exit 1: 1129, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1059, in source_to_code\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_signalfire.py\", line 115\n    class_=lambda c: c and 'text-weight-semibold' not in c)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: keyword argument repeated: class_",
+    "last_reason": "re-armed 2026-07-28: burst of 2 strong-model tries per user decision (bespoke or nothing on failure); previously: sandbox: sandbox exit 1: 1129, in get_code\n  File \"<frozen importlib._",
     "history": [
       {
         "at": "2026-07-27T20:39:31+00:00",
@@ -170,10 +170,10 @@
   },
   {
     "slug": "wingvc",
-    "attempts": 4,
+    "attempts": 2,
     "skip": false,
     "last_attempt": "2026-07-28T01:48:11+00:00",
-    "last_reason": "validation: company_url coverage < 60%",
+    "last_reason": "re-armed 2026-07-28: burst of 2 strong-model tries per user decision (bespoke or nothing on failure); previously: validation: company_url coverage < 60%",
     "history": [
       {
         "at": "2026-07-28T01:48:11+00:00",
