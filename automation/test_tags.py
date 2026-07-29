@@ -141,6 +141,33 @@ def test_carry_forward() -> None:
           new[0]["everywhere_tags"], ["FinTech / Insurance"])
 
 
+def test_page_signal() -> None:
+    """The fetch stage's guards: a homepage may only classify a company if it
+    actually says something. A squatted domain or a JS shell must yield ""."""
+    print("\npage_signal: real text passes, parked domains and shells do not")
+    import llm_tag_backfill as ltb
+    real = ("<html><head><title>Stripe | Payments</title>"
+            '<meta name="description" content="Payments infrastructure for '
+            'the internet, used by millions of businesses."></head>'
+            "<body><h1>Financial infrastructure</h1></body></html>")
+    sig = ltb.page_signal(real)
+    check("title captured", "Stripe" in sig, True)
+    check("meta description captured", "Payments infrastructure" in sig, True)
+    check("classifies via keywords",
+          "FinTech / Insurance" in tags.classify("Stripe", sig), True)
+    parked = ("<html><head><title>stripe.com</title></head><body>"
+              "This premium domain is for sale! Buy this domain today "
+              "through our GoDaddy partner network and make it yours forever."
+              "</body></html>")
+    check("parked domain yields nothing", ltb.page_signal(parked), "")
+    shell = "<html><head><title>Home</title></head><body></body></html>"
+    check("JS shell yields nothing", ltb.page_signal(shell), "")
+    check("no HTML yields nothing", ltb.page_signal(None), "")
+    scripty = ("<html><body><script>var x = 'payments fintech banking loans "
+               "credit insurance'</script></body></html>")
+    check("script text is not signal", ltb.page_signal(scripty), "")
+
+
 def test_llm_reply_parsing() -> None:
     print("\nllm backfill: replies are validated, never trusted")
     import llm_tag_backfill as ltb
@@ -172,6 +199,7 @@ if __name__ == "__main__":
     test_ai_rule()
     test_fill_empty()
     test_carry_forward()
+    test_page_signal()
     test_llm_reply_parsing()
     test_taxonomy_matches_claude_md()
     print()

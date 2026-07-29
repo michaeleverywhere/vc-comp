@@ -535,6 +535,16 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      pipeline so the enrichment survives refreshes. The script must run on the
      Mac (Cowork sandbox cannot reach api.anthropic.com); est. ~$0.2 of the
      $3.94 July headroom. Re-runnable: touches only still-empty tags.
+     **Ran 2026-07-28 (name-only): 1,314 of 1,902 tagged, $0.14.** The 568 the
+     model didn't recognize → script upgraded to FETCH-FIRST (user decision
+     "if the EV tags are missing, I do not need the data"): each remaining
+     company's own homepage is fetched ($0, we already hold company_url),
+     parked-domain/JS-shell guards, keyword pass on the fetched text free,
+     and only the still-unresolved go to Haiku WITH the homepage snippet as
+     grounding. Fetched text is classification input + report provenance
+     ONLY — never written into `description` (the line matrixpartners
+     blurred). Keyword fills are banked to disk before any LLM spend.
+     Re-run the same command to finish the job.
   4. Eyeball signalfire.com: if it truly publishes no per-company descriptions,
      retirement is correct and permanent (or hand-write a minimal scraper).
   5. Laptop `.env` `GITHUB_TOKEN` is ruszinn-minted → cannot write to the
