@@ -262,8 +262,11 @@ all of this — they are what stops re-proposing/re-scraping.) (exact taxonomy n
 across tags is intended). `create_at_fields.py` created the schema; `fix_dupes.py`/`audit_at.py`
 repaired a dup incident (trailing-whitespace Data-file keys — root cause fixed).
 
-**Railway** (project on user's account, deploys from `michaeleverywhere/vc-comp`, root dir
-= repo root): service 1 "discovery" — `--mode discover`, cron daily `0 7 * * *`, LIVE and
+**Railway** (project on the MANAGER's account — corrected 2026-08-03; an earlier note here
+said "user's account", which was wrong and would have sent a leaving intern hunting for a
+project transfer that isn't needed. Michael owns the Railway org, the GitHub repo and the
+dashboard agent; the only things that were ever intern-side are API keys minted on intern
+accounts. Deploys from `michaeleverywhere/vc-comp`, root dir = repo root): service 1 "discovery" — `--mode discover`, cron daily `0 7 * * *`, LIVE and
 verified (added Amplify 124 / Homebrew 106 / SignalFire 103 / Foundry Group / Wing VC;
 9 JS-heavy sites correctly flagged needs-scraper: emergence, foundation, uncork, craft,
 boldstart, costanoa, susa, bullpen, scaleventurepartners — as of the scrape memory they
