@@ -120,6 +120,14 @@ _BOILERPLATE = re.compile(
     r"get started|download (the )?(logo|press|brand)|privacy policy|"
     r"all rights reserved|please reload this page|there was an error|"
     r"page not found|404)\b", re.I)
+# Words that appear in scraped page furniture but not in personal names. Kept
+# deliberately narrow — a surname denylist would misfire, so this only lists
+# business/navigation vocabulary ("Financial Calculators", "Join Our").
+_NON_PERSON = re.compile(
+    r"\b(join|our|your|the|platform|solutions?|calculators?|monitoring|"
+    r"management|teams?|discovery|experiences?|pricing|features?|products?|"
+    r"services?|company|about|contact|careers?|blog|login|demo|resources?|"
+    r"support|overview|inc|llc|ltd|gmbh)\b", re.I)
 
 
 def validate_output(records: list, baseline_count: int = 0) -> list[str]:
@@ -180,6 +188,55 @@ def validate_output(records: list, baseline_count: int = 0) -> list[str]:
             f"boilerplate descriptions on {boiler}/{n} records — these look "
             "scraped from the companies' own homepages; read only the firm's "
             "own pages")
+
+    # STUB FIELDS: keys present on every record but empty on ALL of them.
+    #
+    # ONE such field is usually legitimate and CLAUDE.md says so outright —
+    # ticker for a portfolio of private companies, acquirer/exit_year where
+    # nothing has exited, sectors where the firm never tags. Measured across the
+    # repo, single-field cases are exactly those honest ones (sequoia
+    # ticker_symbol, menlo sectors, stormventures founders). Failing them would
+    # retire a firm for the site's editorial choices — and under
+    # bespoke-or-nothing that deletes the dataset.
+    #
+    # THREE or more at once is a different animal: a schema the model padded to
+    # look thorough. Every dataset over the line is factory-generated
+    # (matrixpartners 4, mosaicventures 5, gradientventures 4, trueventures 4),
+    # and none of the hand-written ones reach it. Hence the threshold.
+    _STUB_LIMIT = 3
+    if n:
+        always_empty = sorted(
+            k for k in records[0]
+            if k not in ("everywhere_tags", "scraped_at")
+            and all(r.get(k) in (None, "", []) for r in records))
+        if len(always_empty) >= _STUB_LIMIT:
+            fails.append(
+                f"{len(always_empty)} fields empty on every record: "
+                + ", ".join(always_empty[:5])
+                + " — drop them from the schema or read them properly")
+
+    # FOUNDERS PLAUSIBILITY: person names, not page furniture. matrixpartners
+    # returned ['Join Our'], ['Financial Calculators'], ['Product Management']
+    # alongside real founders, because the scraper harvested headings off the
+    # companies' own sites. Structure alone cannot separate "Bea Patricia" from
+    # "Park Ave", so this tests vocabulary: business/navigation words that no
+    # one has as a personal name.
+    fnames = [f for r in records for f in (r.get("founders") or [])
+              if isinstance(f, str) and f.strip()]
+    if fnames:
+        junk = sum(1 for f in fnames if _NON_PERSON.search(f))
+        if junk > 0.2 * len(fnames):
+            fails.append(
+                f"founders look like page headings on {junk}/{len(fnames)} "
+                "entries (e.g. nav labels, product names) — read the firm's own "
+                "founder field or leave the list empty")
+
+    # Names carrying trailing punctuation are a slice that cut one character
+    # wide ("Rainforest,", "Lightmatter,").
+    ragged = sum(1 for x in names if x and x[-1] in ",;:·-–—|")
+    if ragged > 0.05 * n:
+        fails.append(f"trailing punctuation on {ragged}/{n} names "
+                     "— the name selector is capturing a delimiter")
 
     # type integrity: a string value that PARSES as a list/dict is a stringified
     # structure ("['A', 'B']") — a real field the model flattened. Feeding the

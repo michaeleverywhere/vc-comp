@@ -434,7 +434,22 @@ def test_roster_merge() -> None:
     # via identity, exactly as find() does — a narrow "*_companies.json"
     # glob silently drops companies.json and hides the Lightspeed bug
     known = [p.name for p in data.glob("*.json") if identity.slug_from_file(p.name)]
-    before = {f.slug for f in roster.build(known) if f.kind == "generic"}
+
+    # `before` must be the SEED list's contribution alone. Reading the real
+    # queue here mixed in discovered firms (observed: bcapitalgroup), and since
+    # the block below swaps that queue for a fake, those firms legitimately
+    # disappear and the subset check below failed. The assertion is about
+    # candidates.json surviving the merge, so the discovered side is stubbed
+    # empty to measure it. This passed only while the finder had queued nothing.
+    _real_discovered = roster._DISCOVERED
+    try:
+        with tempfile.TemporaryDirectory() as tmp0:
+            empty = pathlib.Path(tmp0) / "discovered_candidates.json"
+            empty.write_text("[]")
+            roster._DISCOVERED = empty
+            before = {f.slug for f in roster.build(known) if f.kind == "generic"}
+    finally:
+        roster._DISCOVERED = _real_discovered
 
     with tempfile.TemporaryDirectory() as tmp:
         fake = pathlib.Path(tmp) / "discovered_candidates.json"

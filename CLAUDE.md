@@ -62,6 +62,22 @@ Current datasets (in `data/`):
 | Felicis | `felicis_companies.json` | 275 | felicis.com/portfolio (auto-gen `felicis_scraper.py`) |
 | Foundry Group | `foundrygroup_companies.json` | 56 | foundrygroup.com/portfolio (auto-gen `foundrygroup_scraper.py`) |
 | Homebrew | `homebrew_companies.json` | 162 | homebrew.co (auto-gen `homebrew_scraper.py`) |
+| Wing VC | `wingvc_companies.json` | 99 | wing.vc (auto-gen `wingvc_scraper.py`) |
+| Matrix Partners | `matrixpartners_companies.json` | 45 | matrixpartners.com (auto-gen `matrixpartners_scraper.py`) |
+| True Ventures | `trueventures_companies.json` | 50 | trueventures.com (auto-gen `trueventures_scraper.py`) |
+| Notation Capital | `notationcapital_companies.json` | 77 | notation.vc (auto-gen `notationcapital_scraper.py`) |
+| Gradient Ventures | `gradientventures_companies.json` | 130 | gradientventures.com (auto-gen `gradientventures_scraper.py`) |
+| Mosaic Ventures | `mosaicventures_companies.json` | 79 | mosaicventures.com (auto-gen `mosaicventures_scraper.py`) |
+| Storm Ventures | `stormventures_companies.json` | 100 | stormventures.com (auto-gen `stormventures_scraper.py`) |
+| Primary Venture Partners | `primaryventurepartners_companies.json` | 25 | primary.vc (auto-gen `primaryventurepartners_scraper.py`) |
+| Point Nine Capital | `pointninecapital_companies.json` | 185 | pointnine.com/companies (`pointninecapital_scraper.py` — hand-written 2026-08-03, replacing a factory scraper whose 25 records were all junk) |
+
+**61 datasets, 14,001 companies, 98.0% carrying `everywhere_tags`** (2026-08-03).
+
+**Retired and DELETED** (bespoke-or-nothing): SignalFire — burned all 4 factory attempts on
+"description coverage < 30%", so `_retire_fully` removed the dataset on 2026-07-30. Do not
+re-add it without a hand-written scraper. Wing VC went the other way on the same re-armed
+burst and graduated bespoke.
 
 **Firms verified to publish NO portfolio on their own site** (no dataset possible under the
 no-third-party-sources rule): Benchmark, Thrive Capital, DST Global, Tiger Global, Altimeter,
@@ -574,14 +590,71 @@ commits — incl. the refresh service's per-firm `Nightly:` commits — never re
      ONLY — never written into `description` (the line matrixpartners
      blurred). Keyword fills are banked to disk before any LLM spend.
      Re-run the same command to finish the job.
-  4. Eyeball signalfire.com: if it truly publishes no per-company descriptions,
-     retirement is correct and permanent (or hand-write a minimal scraper).
+  4. ~~Eyeball signalfire.com.~~ **RESOLVED 2026-07-30:** it failed all 4 attempts on
+     description coverage and `_retire_fully` deleted the dataset. Permanent unless
+     someone hand-writes a scraper.
   5. Laptop `.env` `GITHUB_TOKEN` is ruszinn-minted → cannot write to the
      michaeleverywhere repo (fine-grained PATs are resource-owner-bound; push through
      it fails "denied to ruszinn"). Replace with a michaeleverywhere-created PAT if
      commit-capable local runs are wanted; Railway has the correct token.
   6. Optional cleanup (carried over): retire `backfill_airtable.py` + "Portfolio
      Companies" table; prune stale candidates from `candidates.json`.
+  7. Finish the tag backfill: 287 companies still carry `[]` after the keyword pass
+     (gradientventures 37, mosaicventures 26, coatue 22, homebrew 22, ribbit 22,
+     stormventures 21, nea 17…). 134 of them have no `company_url`, so the
+     fetch-first path can't ground them and they go to the model on name alone.
+     Run `python3 automation/llm_tag_backfill.py` FROM THE MAC (the Cowork sandbox
+     cannot reach api.anthropic.com). Re-runnable; touches only still-empty tags.
+- DONE (2026-08-03): **the working copy was 41 commits behind and 44 files dirty** —
+  the fetch-first tag backfill had been run locally and never committed, while Railway
+  kept committing nightly. Merged with `sync_and_push.sh` (deleted after use): remote
+  datasets won every collision, local tags were re-applied on top with
+  `tags.carry_forward`, which is precisely what that function exists for. Pushed as
+  `a3d2650`. **Watch for this pattern** — carry_forward can only inherit tags it can
+  SEE, and uncommitted enrichment is invisible to Railway, so a weekly refresh will
+  silently rebuild those records without them. Commit enrichment the day it is made.
+  The merge also surfaced a `modify/delete` on signalfire: `git checkout --theirs`
+  cannot take a version that no longer exists, so the file survived into the merge
+  commit and would have resurrected a deliberately-deleted dataset. Caught before the
+  push and removed in `593f0ff`. Any future merge-after-retirement has this same trap.
+- DONE (2026-08-03): **pointninecapital rewritten by hand, 25 junk records → 185 clean.**
+  The factory scraper called `get_text()` on a row whose name/year/flag/city/country/
+  status are SEPARATE elements, gluing them into `15Five2013🇺🇸San FranciscoUSAActive`;
+  when the listing gave it nothing it fell back to fetching each COMPANY'S OWN homepage
+  for description and sectors, which is where "Download logo pack" came from. It also
+  read 1 of 8 pages. The replacement reads `stripped_strings`, identifies fields by what
+  they ARE (year pattern, membership in Point Nine's own country/sector/stage filter
+  vocabularies) rather than by position, walks `?<hash>_page=N` by picking the next page
+  NUMBER (taking the first matching link grabbed the *previous*-page link and stopped the
+  walk at 49 records), and never leaves pointnine.com. 100% coverage on every field.
+  NOTE the stage label lives in the row, NOT the anchor — worth checking on other
+  Finsweet/Webflow sites.
+- DONE (2026-08-03): **four new factory gates** in `scraper_guard.validate_output`,
+  because every existing gate measured COVERAGE and the pointnine junk was 100% covered:
+  (a) name plausibility — flag emoji, a status word welded to the previous field
+  (`...USAActive`), or a year with letters both sides; verified not to fire on
+  ActiveCampaign / 15Five / 2048 Ventures / Studio 2049;
+  (b) self-sourcing — boilerplate like "request a demo" / "accept all cookies" in
+  descriptions, the signature of a scraper that wandered onto portfolio companies'
+  own sites to clear the ≥30% description bar;
+  (c) stub fields — **3 or more** fields empty on every record. The threshold is
+  load-bearing: ONE all-empty field is the legitimate N/A case this file already
+  describes (sequoia `ticker_symbol`, menlo `sectors`, arch `acquirer`), and failing
+  it would retire a firm over the site's editorial choices — which under
+  bespoke-or-nothing DELETES the dataset. Measured: every dataset at 3+ is
+  factory-generated, no hand-written one reaches it;
+  (d) founders plausibility — a vocabulary test, not a structural one, since nothing
+  structural separates "Bea Patricia" from "Park Ave".
+  Six datasets were cleaned to match (matrixpartners, gradientventures, mosaicventures,
+  trueventures, notationcapital, foundrygroup): stub fields dropped, 11 junk founder
+  entries removed, 2 trailing-comma names fixed. All now pass.
+- DONE (2026-08-03): `test_candidate_finder.py` "seed list still intact" fixed. Its
+  `before` set was built from the REAL discovered queue, so it mixed seed-list firms
+  with discovered ones (bcapitalgroup); the test then swaps that queue for a fake and
+  the discovered firms legitimately vanish. The assertion is about `candidates.json`
+  surviving the merge, so the discovered side is now stubbed empty while measuring it.
+  A test bug that passed only while the finder had queued nothing — it broke the moment
+  the finder started working.
 - Docs debt: `automation/PIPELINE.md`/`README.md` still describe the retired Zapier flow
   in places; this section is authoritative where they conflict.
 - Sandbox note (Cowork sessions): the sandbox mount can CREATE but not UNLINK files in
