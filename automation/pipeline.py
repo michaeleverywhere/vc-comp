@@ -38,6 +38,7 @@ import budget
 import diff
 import extract
 import gen_state
+import master_builder
 import roster
 import scrape_state
 import tags
@@ -384,6 +385,11 @@ def main() -> int:
                      if gen_state.eligible(gstate, f.slug)[0]}
             airtable_writer.delete_strays(keep)
 
+    # Runs unconditionally (both discover and refresh modes) — after the factory's
+    # LOCAL writes above but before its deferred GitHub push, so the combined file
+    # reflects tonight's full result either way.
+    _build_all_companies(store, args.dry_run)
+
     if gen_done or gstate_dirty:                # factory pushes: LAST, on purpose
         _flush_factory_commits(store, gen_done, gstate, gstate_dirty)
     return 0
@@ -418,6 +424,35 @@ def _flush_factory_commits(store, gen_done: list, gstate, gstate_dirty: bool) ->
             gen_state.save(gstate, store)
         except Exception as exc:  # noqa: BLE001
             print(f"[factory] attempt-log save FAILED: {exc}")
+
+
+def _build_all_companies(store: Optional[GitHubStore], dry_run: bool) -> None:
+    """Rebuild data/all_companies.json — every firm's data combined and normalized
+    (see master_builder.py). Reads from LOCAL disk, so at this point in the run it
+    already reflects tonight's factory-generated firms too (written locally before
+    their own deferred commit above). data/ is outside Railway's Watch Paths, same as
+    every other data/ commit this pipeline makes, so this cannot trigger the mid-run
+    redeploy-kills-container failure mode _flush_factory_commits exists to avoid.
+
+    Convenience file for downstream consumers (dashboards that today stitch 60+
+    per-firm files together client-side) — must never cost the run its real work if
+    it breaks, so failures are printed, not raised."""
+    try:
+        rows = master_builder.build()
+        if dry_run or store is None:
+            print(f"[all_companies] dry-run: would combine {len(rows)} companies")
+            return
+        firms = len({r["firm_slug"] for r in rows})
+        existing = store.read_json("all_companies.json")
+        if existing == rows:
+            print(f"[all_companies] unchanged ({len(rows)} companies, {firms} firms) — no commit")
+            return
+        store.commit_json(
+            "all_companies.json", rows,
+            f"Rebuild all_companies.json: {len(rows)} companies across {firms} firms")
+        print(f"[all_companies] committed: {len(rows)} companies across {firms} firms")
+    except Exception as exc:  # noqa: BLE001 — never break the run over this
+        print(f"[all_companies] build FAILED: {exc}")
 
 
 def _retire_fully(firm, registry: list, at_deletes: list,
