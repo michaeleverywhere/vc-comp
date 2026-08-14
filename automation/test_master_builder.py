@@ -108,6 +108,22 @@ def test_malformed_file_does_not_crash_build() -> None:
         check("it's the good one", rows[0]["name"], "StillWorks")
 
 
+def test_own_output_file_excluded_from_input() -> None:
+    print("\nall_companies.json (own prior output) is never re-ingested as a firm")
+    with tempfile.TemporaryDirectory() as td:
+        d = pathlib.Path(td)
+        _write(d, "real_companies.json", [{"company_name": "RealCo"}])
+        # simulate a prior run's committed output sitting in data/ on disk
+        _write(d, "all_companies.json", [
+            {"firm": "SomeFirm", "firm_slug": "somefirm", "name": "StaleCo",
+             "url": None, "description": None, "everywhere_tags": [], "exited": False},
+        ])
+        rows = master_builder.build(d)
+        check("only the real firm contributed", len(rows), 1)
+        check("no bogus 'all' firm_slug", "all" in {r["firm_slug"] for r in rows}, False)
+        check("stale re-ingested company absent", rows[0]["name"], "RealCo")
+
+
 def test_exited_flag() -> None:
     print("\nexited status is detected from status-ish fields")
     with tempfile.TemporaryDirectory() as td:
@@ -128,6 +144,7 @@ if __name__ == "__main__":
     test_non_dataset_files_excluded()
     test_missing_description_is_null_not_fabricated()
     test_malformed_file_does_not_crash_build()
+    test_own_output_file_excluded_from_input()
     test_exited_flag()
     print()
     if _FAILS:

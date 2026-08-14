@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import pathlib
 import sys
+import tempfile
 from types import SimpleNamespace
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -160,6 +161,33 @@ def test_notes_link_is_raw_json() -> None:
           airtable_writer._stale_note("re-check selectors next run"), False)
 
 
+def test_all_companies_json_never_a_target() -> None:
+    """Regression (2026-08-14, live): targets()'s glob is `*_companies.json`,
+    which also matches master_builder's own output file all_companies.json
+    (slug "all"). Left in, it was picked up as a scraperless firm, "generated"
+    a scraper for it, failed, exhausted its attempts, and bespoke-or-nothing
+    retirement deleted the real 174,811-line file from the repo — survived only
+    because master_builder unconditionally rebuilds it later the same run."""
+    print("\nall_companies.json is never proposed as a generation target")
+    old_data, old_scripts = scraper_factory._DATA, scraper_factory._SCRIPTS
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            d = pathlib.Path(tmp)
+            (d / "scripts").mkdir()
+            (d / "data").mkdir()
+            scraper_factory._SCRIPTS = d / "scripts"
+            scraper_factory._DATA = d / "data"
+            (scraper_factory._DATA / "real_companies.json").write_text("[]")
+            (scraper_factory._DATA / "all_companies.json").write_text("[]")
+            out = scraper_factory.targets([], {})
+            slugs = {f.slug for f in out}
+            check("real firm is a target", "real" in slugs, True)
+            check("all_companies.json is not", "all" in slugs, False)
+    finally:
+        scraper_factory._DATA = old_data
+        scraper_factory._SCRIPTS = old_scripts
+
+
 def test_thirty_nights_record_one_attempt() -> None:
     print("\nsimulation: 30 nights, exactly one attempt ever recorded")
     st: dict = {}
@@ -185,6 +213,7 @@ if __name__ == "__main__":
     test_transport_fluke_never_retires()
     test_retiree_vanishes_completely()
     test_notes_link_is_raw_json()
+    test_all_companies_json_never_a_target()
     test_thirty_nights_record_one_attempt()
     print()
     if _FAILS:

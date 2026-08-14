@@ -22,6 +22,7 @@ import names
 
 _HERE = Path(__file__).resolve().parent
 _DEFAULT_DATA_DIR = _HERE.parent / "data"
+_OUTPUT_FILENAME = "all_companies.json"
 
 
 def _load_dataset(path: Path) -> list[dict]:
@@ -40,12 +41,18 @@ def build(data_dir: Path | None = None) -> list[dict]:
     reports, etc.) are excluded via identity.slug_from_file() — the same filter
     candidate_finder.py already uses to tell "is this a company dataset" from
     "is this pipeline memory", so this stays one fact, not two competing checks.
+
+    _OUTPUT_FILENAME itself is also excluded: it ends in "_companies.json" like any
+    real per-firm dataset, so identity.slug_from_file() happily assigns it a bogus
+    slug ("all") and, left in, this function would re-ingest its own prior output as
+    a fake firm on every run after the first — silently doubling the file.
     """
     data_dir = data_dir or _DEFAULT_DATA_DIR
     combined: list[dict] = []
 
     dataset_files = sorted(
-        p for p in data_dir.glob("*.json") if identity.slug_from_file(p.name)
+        p for p in data_dir.glob("*.json")
+        if p.name != _OUTPUT_FILENAME and identity.slug_from_file(p.name)
     )
 
     for path in dataset_files:

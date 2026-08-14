@@ -69,6 +69,16 @@ def targets(roster_firms: list, state: dict | None = None) -> list:
     # companies.json, and Lightspeed's 425 hand-built records must never be
     # replaced by generated output. Don't "fix" this to use identity.
     for p in sorted(_DATA.glob("*_companies.json")):
+        if p.name == "all_companies.json":
+            # master_builder's own combined-output file, not a firm — it also
+            # matches *_companies.json (slug "all"). Left in, this treated the
+            # master file as a scraperless firm, generation "failed", and
+            # bespoke-or-nothing retirement deleted the real file from the repo
+            # (observed live 2026-08-14: "Retire all_companies.json: factory
+            # exhausted, bespoke-or-nothing" — 174,811 lines deleted in one
+            # commit, only survived because master_builder unconditionally
+            # rebuilds it later the same run).
+            continue
         slug = p.name[: -len("_companies.json")]
         if (_SCRIPTS / f"{slug}_scraper.py").exists():
             continue
