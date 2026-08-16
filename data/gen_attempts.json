@@ -348,6 +348,35 @@
     ]
   },
   {
+    "slug": "telstraventures",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-08-16T07:07:36+00:00",
+    "last_reason": "validation: description coverage < 30% (not rich)",
+    "history": [
+      {
+        "at": "2026-08-16T07:07:36+00:00",
+        "reason": "sandbox: sandbox exit 1: ^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_telstraventures.py\", line 5, in <module>\n    from typing import list, dict\nImportError: cannot import name 'list' from 'typing' (/root/.nix-profile/lib/python3.12/typing.py). Did you mean: 'List'?",
+        "counted": true
+      },
+      {
+        "at": "2026-08-16T07:07:36+00:00",
+        "reason": "validation: founders look like page headings on 1/1 entries (e.g. nav labels, product names) — read the firm's own founder field or leave the list empty",
+        "counted": true
+      },
+      {
+        "at": "2026-08-16T07:07:36+00:00",
+        "reason": "validation: description coverage < 30% (not rich); 4 fields empty on every record: description, founders, profile_url, stage — drop them from the schema or read them properly",
+        "counted": true
+      },
+      {
+        "at": "2026-08-16T07:07:36+00:00",
+        "reason": "validation: description coverage < 30% (not rich)",
+        "counted": true
+      }
+    ]
+  },
+  {
     "slug": "uncorkcapital",
     "attempts": 1,
     "skip": false,
