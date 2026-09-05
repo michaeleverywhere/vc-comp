@@ -342,6 +342,93 @@
     ]
   },
   {
+    "slug": "resoluteventures",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-09-05T07:05:39+00:00",
+    "last_reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+    "history": [
+      {
+        "at": "2026-09-05T07:05:39+00:00",
+        "reason": "sandbox: sandbox exit 1: ^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_resoluteventures.py\", line 6, in <module>\n    from typing import list, dict\nImportError: cannot import name 'list' from 'typing' (/root/.nix-profile/lib/python3.12/typing.py). Did you mean: 'List'?",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:05:39+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:05:39+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:05:39+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      }
+    ]
+  },
+  {
+    "slug": "ridgeventures",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-09-05T07:06:38+00:00",
+    "last_reason": "validation: description coverage < 30% (not rich); 5 fields empty on every record: description, founders, profile_url, sectors, stage — drop them from the schema or read them properly",
+    "history": [
+      {
+        "at": "2026-09-05T07:06:38+00:00",
+        "reason": "sandbox: sandbox exit 1: ^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_ridgeventures.py\", line 6, in <module>\n    from typing import list, dict\nImportError: cannot import name 'list' from 'typing' (/root/.nix-profile/lib/python3.12/typing.py). Did you mean: 'List'?",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:06:38+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:06:38+00:00",
+        "reason": "validation: description coverage < 30% (not rich); 5 fields empty on every record: description, founders, profile_url, sectors, stage — drop them from the schema or read them properly",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:06:38+00:00",
+        "reason": "validation: description coverage < 30% (not rich); 5 fields empty on every record: description, founders, profile_url, sectors, stage — drop them from the schema or read them properly",
+        "counted": true
+      }
+    ]
+  },
+  {
+    "slug": "rocketinternet",
+    "attempts": 4,
+    "skip": false,
+    "last_attempt": "2026-09-05T07:07:37+00:00",
+    "last_reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+    "history": [
+      {
+        "at": "2026-09-05T07:07:37+00:00",
+        "reason": "sandbox: sandbox exit 1: ^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/app/automation/.candidate_rocketinternet.py\", line 1, in <module>\n    from typing import list, dict\nImportError: cannot import name 'list' from 'typing' (/root/.nix-profile/lib/python3.12/typing.py). Did you mean: 'List'?",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:07:37+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:07:37+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      },
+      {
+        "at": "2026-09-05T07:07:37+00:00",
+        "reason": "validation: too few records (0); company_url coverage < 60%; description coverage < 30% (not rich)",
+        "counted": true
+      }
+    ]
+  },
+  {
     "slug": "rtpglobal",
     "attempts": 4,
     "skip": false,
