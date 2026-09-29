@@ -73,7 +73,17 @@ Current datasets (in `data/`):
 | Primary Venture Partners | `primaryventurepartners_companies.json` | 25 | primary.vc (auto-gen `primaryventurepartners_scraper.py`) |
 | Point Nine Capital | `pointninecapital_companies.json` | 185 | pointnine.com/companies (`pointninecapital_scraper.py` — hand-written 2026-08-03, replacing a factory scraper whose 25 records were all junk) |
 
-**61 datasets, 14,001 companies, 98.0% carrying `everywhere_tags`** (2026-08-03).
+| Redpoint Ventures | `redpoint_companies.json` | 234 | redpoint.com/companies — Gatsby page-data (`redpoint_scraper.py`) |
+| Scale Venture Partners | `scalevp_companies.json` | 117 | scalevp.com/portfolio (`scalevp_scraper.py`) |
+| Emergence Capital | `emergence_companies.json` | 86 | emcap.com/portfolio (`emergence_scraper.py`) |
+| Initialized Capital | `initialized_companies.json` | 184 | initialized.com/companies — __NEXT_DATA__ (`initialized_scraper.py`) |
+| Craft Ventures | `craft_companies.json` | 40 | craftventures.com/portfolio (`craft_scraper.py`) |
+| Uncork Capital | `uncork_companies.json` | 175 | uncorkcapital.com/companies — Framer (`uncork_scraper.py`) |
+| Pear VC | `pear_companies.json` | 211 | pear.vc/company (`pear_scraper.py`) |
+| Balderton Capital | `balderton_companies.json` | 205 | balderton.com/companies — FacetWP via Chrome (`balderton_scraper.py`) |
+| Lowercarbon Capital | `lowercarbon_companies.json` | 101 | lowercarbon.com — WP REST (`lowercarbon_scraper.py`) |
+| Canaan | `canaan_companies.json` | 345 | canaan.com/companies — Rails modal API (`canaan_scraper.py`; substitute for Atomico — atomico.com HTTP 429) |
+**99 datasets, 18,637 companies, 93.6% carrying `everywhere_tags`** (2026-09-29).
 
 **Retired and DELETED** (bespoke-or-nothing): SignalFire — burned all 4 factory attempts on
 "description coverage < 30%", so `_retire_fully` removed the dataset on 2026-07-30. Do not

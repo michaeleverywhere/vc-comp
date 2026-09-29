@@ -2,6 +2,16 @@
   "_comment": "Per-firm metadata that isn't derivable from the datasets, used ONLY to fill BLANK cells. Right now that's just Source type (a hand classification). Everything else \u2014 Name, Source URL, Notes, Scraper module \u2014 is derived automatically. Add a firm here only if it needs a non-default Source type; discovered firms default to 'generic-extractor'.",
   "source_type": {
     "inflection_companies.json": "raw-html",
-    "eclipseventures_companies.json": "sanity-api"
+    "eclipseventures_companies.json": "sanity-api",
+    "redpoint_companies.json": "gatsby-page-data",
+    "initialized_companies.json": "next-data",
+    "pear_companies.json": "raw-html",
+    "lowercarbon_companies.json": "wp-json",
+    "balderton_companies.json": "facetwp-chrome",
+    "uncork_companies.json": "framer-html",
+    "canaan_companies.json": "rails-modal",
+    "scalevp_companies.json": "raw-html",
+    "emergence_companies.json": "raw-html",
+    "craft_companies.json": "raw-html"
   }
 }
