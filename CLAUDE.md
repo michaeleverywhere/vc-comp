@@ -58,6 +58,7 @@ Current datasets (in `data/`):
 | Lerer Hippeau | `lererhippeau_companies.json` | 305 | lererhippeau.com/portfolio (`lererhippeau_scraper.py`) |
 | 2048 Ventures | `2048_companies.json` | 75 | 2048.vc/companies (`2048_scraper.py`) |
 | Hustle Fund | `hustlefund_companies.json` | 335 | hustlefund.vc/founders (`hustlefund_scraper.py`) |
+| Eclipse Ventures | `eclipseventures_companies.json` | 53 | eclipse.capital — own Sanity CMS (`eclipseventures_scraper.py`) |
 | Amplify Partners | `amplifypartners_companies.json` | 114 | amplifypartners.com/portfolio/company (auto-gen `amplifypartners_scraper.py`) |
 | Felicis | `felicis_companies.json` | 275 | felicis.com/portfolio (auto-gen `felicis_scraper.py`) |
 | Foundry Group | `foundrygroup_companies.json` | 56 | foundrygroup.com/portfolio (auto-gen `foundrygroup_scraper.py`) |
