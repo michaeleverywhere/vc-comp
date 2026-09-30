@@ -1,6 +1,8 @@
 # Private Comps company field fill — 2026-09-30
 
 **Repo:** michaeleverywhere/vc-comp  
+**Commit SHA:** `bf568380ee02f056eca29758a95540129736a1db` (short `bf56838`)  
+**Pushed:** yes → origin/main  
 **Scope:** fill empty company fields in firm `*_companies.json` + rebuild `all_companies.json`  
 **Sources used:** existing scrape fields (harvest), firm portfolio re-scrape (Accel Sanity API), Wikidata via `scripts/enrich.py` helpers (`enrich_location.py`, `enrich_sectors.py`)  
 **Not used:** Crunchbase, LinkedIn, PitchBook; no fabricated LAST FINANCING / TOTAL RAISED / ARR / VALUATION / TEAM SIZE / TRACKED BY
