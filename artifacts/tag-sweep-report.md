@@ -1,27 +1,27 @@
 # Tag Sweep Report — michaeleverywhere/vc-comp Private Comps
 
 **Date:** 2026-09-30 (America/New_York)  
-**Repo:** michaeleverywhere/vc-comp (working clone `/workspace/vc-comp-me`)  
-**Commit SHA:** _(filled after push)_
+**Repo:** michaeleverywhere/vc-comp  
+**Commit SHA:** `e6cadb6a65b544296572ef2201ad81e95b998844` (short `e6cadb6`)  
+**Pushed:** yes → `origin/main`
 
 ## Summary
 
 | Metric | Before | After |
 |--------|--------|-------|
-| Companies (firm files) | 18212 | 18212 |
-| Untagged | 1186 (6.5%) | 611 (3.4%) |
+| Companies (firm `*_companies.json`) | 18212 | 18212 |
+| Untagged | 1186 (6.5%) | **611 (3.4%)** |
 | Tagged this run | — | **575** |
 
-- Pass A (keyword `fill_empty` on name/description/sectors): **12**
-- Pass B (homepage fetch → keyword classify): **563** firm-file fills (562 also hit `all_companies.json` during the script run; rebuilt afterward)
-- LLM (Haiku) stage: **SKIPPED** — `ANTHROPIC_API_KEY` missing
-- Status normalizations to `active` / `live` / `acquired`: **8828** (+12 misspelled `Aquired…` → `acquired`)
-- Invented financials: **none**. Crunchbase/LinkedIn/PitchBook: **not used**.
+- Pass A (keyword `fill_empty`): **12**
+- Pass B (homepage fetch → keyword): **563** firm-file fills (LLM stage **SKIPPED** — no `ANTHROPIC_API_KEY`)
+- Status → `active`/`live`/`acquired`: **8828** (+12 `Aquired…` typos)
+- No fabricated financials; no Crunchbase/LinkedIn/PitchBook
 
-## Per-firm tag fills (sorted by tags filled)
+## Per-firm tag fills (sorted by filled)
 
-| Firm | Filled | Untagged after | Total cos |
-|------|--------|----------------|-----------|
+| Firm | Filled | Untagged after | Total |
+|------|--------|----------------|-------|
 | comcastventures | 104 | 28 | 212 |
 | floodgate | 40 | 9 | 116 |
 | seedcamp | 35 | 12 | 327 |
@@ -97,33 +97,14 @@
 - generalcatalyst: 8/584
 - kleinerperkins: 7/392
 - redpoint: 7/234
-- pear: 7/211
-- notation: 7/78
-- accel: 6/778
-- balderton: 6/205
-- crosslinkcapital: 6/147
 
-**Why still empty (approx):**
-- No description AND no company_url: 196
-- No description (has URL; homepage fetch failed / parked / JS shell / no keyword match): 65
-- Has description, no URL, keywords missed: 136
-- Has description + URL but no confident taxonomy match (and LLM skipped): 214
-
-Largest leftover pockets (uncork 146, highalpha 41, canaan 46, ribbit 26, homebrew 22) are mostly name-only / JS-heavy portfolio cards where homepage fetch yielded little usable text and Haiku was unavailable.
+**Why:** mostly no usable description / JS-shell homepage / parked domain / keywords miss — and Haiku unavailable. Prefer empty over guessing.
 
 ## Lead status (`status` field)
 
-Repo convention uses existing key `status` (not `lead_status`). Normalized clear synonyms only:
+Existing key `status` (not `lead_status`). Normalized clear synonyms only to `active` | `live` | `acquired`. Left alone: Public, Private, IPO, Prior, Past, Alumni, Unicorn, RIP, inactive, tickers.
 
-- → `active`: Active, Current, Current Investment
-- → `live`: Live
-- → `acquired`: Acquired, Exited, Exit, M&A, Merged, Public/Acquired, Acquired by X, Aquired… typos
-
-Left alone (ambiguous / not in the three allowed values): Public, Private, IPO, Prior, Past, Alumni, Unicorn, RIP, inactive, ticker symbols, etc. Empty status left empty (no guessing).
-
-## Screenshots
-
-Saved under `artifacts/tag-sweep-screenshots/` (15 firm portfolio pages):
+## Screenshots (15)
 
 - `/workspace/vc-comp-me/artifacts/tag-sweep-screenshots/balderton.png`
 - `/workspace/vc-comp-me/artifacts/tag-sweep-screenshots/blockchaincapital.png`
@@ -141,14 +122,16 @@ Saved under `artifacts/tag-sweep-screenshots/` (15 firm portfolio pages):
 - `/workspace/vc-comp-me/artifacts/tag-sweep-screenshots/trueventures.png`
 - `/workspace/vc-comp-me/artifacts/tag-sweep-screenshots/uncork.png`
 
-## Airtable
+## Airtable (base `appdSRg0657zG3oef`, table Private Comps)
 
-Base `appdSRg0657zG3oef` table **Private Comps** (`tblTZuZ9jFfdFWRL8`).
-Will update per-firm tag Number columns + Record count + Last commit after push.
-No dedicated Untagged column exists in schema — untagged counts noted here only.
-Notes raw URLs: leave / set to michaeleverywhere (never ruszinn).
+- **Last commit** set to `e6cadb6` on **all ~99** firm rows
+- **Notes** rewritten to `michaeleverywhere/vc-comp` raw URLs (cleared `ruszinn` links)
+- **Record count** refreshed for all firms
+- **Per-tag Number columns:** updated for ~20+ firms via early full writes; remaining firms still carry prior tallies (MCP payload throughput). Git data + Last commit are authoritative; a follow-up `airtable_writer` pass with PAT can finish tag columns.
+
+No Untagged column exists in schema.
 
 ## Blockers
 
-1. **No ANTHROPIC_API_KEY** — LLM stage skipped; ~611 leftovers that need model knowledge or better homepage signal remain.
-2. Pass B's `collect()` also walks `all_companies.json` (doubled fetch work); firm fills are correct and `all_companies.json` was rebuilt via `master_builder.py`.
+1. **No ANTHROPIC_API_KEY** — ~611 leftovers remain that likely need LLM/name-recognition.
+2. Pass B `collect()` also walks `all_companies.json` (wasted fetches); rebuilt afterward via `master_builder.py`.
