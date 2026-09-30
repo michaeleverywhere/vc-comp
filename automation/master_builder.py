@@ -24,6 +24,59 @@ _HERE = Path(__file__).resolve().parent
 _DEFAULT_DATA_DIR = _HERE.parent / "data"
 _OUTPUT_FILENAME = "all_companies.json"
 
+_LOC_KEYS = ("location", "headquarters", "hq", "hq_location")
+_STAGE_KEYS = (
+    "stage", "current_stage", "initial_investment_stage", "investment_stage",
+    "first_partnered_stage", "first_invested_stage", "investment_stages",
+)
+_FIRST_KEYS = (
+    "first_invested", "first_invested_year", "first_invest_year",
+    "first_investment_year", "first_investment_date", "first_partnered_year",
+    "year_partnered", "bvp_partnered_year", "gc_backed_since_year",
+    "invested_year", "initial_investment_date", "gc_backed_since", "first_partnered_date",
+)
+
+
+def _nonempty(v) -> bool:
+    if v is None:
+        return False
+    if isinstance(v, bool):
+        return True
+    if isinstance(v, (int, float)):
+        return True
+    if isinstance(v, str):
+        return bool(v.strip())
+    if isinstance(v, (list, dict)):
+        return len(v) > 0
+    return bool(v)
+
+
+def _first_present(record: dict, keys: tuple):
+    for k in keys:
+        if k in record and _nonempty(record.get(k)):
+            v = record[k]
+            if isinstance(v, list):
+                # investment_stages etc. — join for the flat export
+                return ", ".join(str(x) for x in v if x not in (None, ""))
+            return v
+    return None
+
+
+def _status_of(record: dict):
+    """Prefer explicit status; else map clear exit/active flags to active|acquired."""
+    s = record.get("status")
+    if isinstance(s, str) and s.strip():
+        return s.strip()
+    if record.get("is_acquired") is True:
+        return "acquired"
+    if record.get("acquirer"):
+        return "acquired"
+    if identity.is_exited(record):
+        return "acquired"
+    if record.get("is_current_investment") is True or record.get("is_active") is True:
+        return "active"
+    return None
+
 
 def _load_dataset(path: Path) -> list[dict]:
     try:
@@ -63,7 +116,7 @@ def build(data_dir: Path | None = None) -> list[dict]:
             name = identity.company_name(r)
             if not name:
                 continue  # nothing to key this company on — skip rather than fabricate
-            combined.append({
+            row = {
                 "firm": firm,
                 "firm_slug": slug,
                 "name": name,
@@ -71,7 +124,14 @@ def build(data_dir: Path | None = None) -> list[dict]:
                 "description": identity.company_desc(r),
                 "everywhere_tags": r.get("everywhere_tags") or [],
                 "exited": identity.is_exited(r),
-            })
+                # Conceptual Private Comps columns (null when source schema lacks them)
+                "primary_investor": firm,
+                "location": _first_present(r, _LOC_KEYS),
+                "stage": _first_present(r, _STAGE_KEYS),
+                "first_invested": _first_present(r, _FIRST_KEYS),
+                "status": _status_of(r),
+            }
+            combined.append(row)
 
     return combined
 

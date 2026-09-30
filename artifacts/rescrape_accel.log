@@ -1,0 +1,39 @@
+Querying Accel's public Sanity dataset (project 458oembh/production)...
+  fetched 778 non-archived companies
+
+Wrote 778 companies -> /workspace/vc-comp-me/scripts/../data/accel_companies.json
+  description                missing: 0/778
+  company_url                missing: 32/778
+  twitter_url                missing: 337/778
+  logo_url                   missing: 1/778
+  headquarters               missing: 23/778
+  region                     missing: 254/778
+  first_invest_year          missing: 27/778
+  initial_investment_stage   missing: 79/778
+  initial_investment_type    missing: 208/778
+  exit_type                  missing: 558/778
+  exit_detail                missing: 559/778
+  sectors empty:              46/778
+  founders empty:             17/778
+  partners empty:             46/778
+  by exit_type: {'Acquired': 148, 'IPO': 71, 'SPAC': 1}
+  is_current_investment True: 554 | False: 224
+  untagged:                   84/778 -> ['ANSR', 'Aavenir', 'Agile Software', 'AirKit', 'Airmeet', 'ArrowPoint Communications', 'Atira', 'Beek', 'Brik', 'BrowserStack', 'CaptivateIQ', 'Cartwheel', 'Catalyst', 'Cdata', 'Celonis']...
+  by everywhere_tag:
+    283  Consumer
+    235  Dev Tools / Cloud
+    138  FinTech / Insurance
+     92  Cybersecurity
+     73  Gaming / Media / Entertainment
+     64  Future of Work
+     55  Health
+     54  Deeptech / Robotics / AR/VR
+     50  Data & Analytics
+     38  Transportation / Mobility
+     26  Logistics / Supply Chain
+     20  Web3 / Crypto
+     14  PropTech
+     10  Climate / Sustainability
+      9  RegTech/Gov/Legal
+      7  BioTech
+      6  CPG

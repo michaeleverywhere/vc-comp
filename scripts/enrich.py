@@ -8,7 +8,8 @@ Two sources, both faithful (never overwrite a non-empty value, never fabricate):
   2. External enrichment via Wikidata (free + attributable): for each company that
      has a website, find its Wikidata item, VERIFY by matching the official-website
      (P856) domain, then backfill only EMPTY fields:
-        founders (P112), year_founded (P571), sectors (P452 industry), ticker_symbol (P414/P249)
+        founders (P112), year_founded/founded_year (P571), sectors (P452 industry),
+        location/headquarters (P159), ticker_symbol (P414/P249)
      Ambiguous name-only matches (no website match) are skipped -> no wrong data.
 
 Writes the updated JSONs in place and an enrichment_report.json (provenance).
@@ -36,8 +37,21 @@ WD_API = "https://www.wikidata.org/w/api.php"
 HEADERS = {"User-Agent": "vc-comps-enrich/1.0 (https://github.com/ruszinn/vc-comp; ruszinfilay@gmail.com)"}
 SLEEP = 0.15
 
-FILES = ["companies.json", "menlo_companies.json", "usv_companies.json",
-         "lererhippeau_companies.json", "2048_companies.json", "hustlefund_companies.json"]
+FILES = [
+    # original set
+    "companies.json", "menlo_companies.json", "usv_companies.json",
+    "lererhippeau_companies.json", "2048_companies.json", "hustlefund_companies.json",
+    # location-schema firms (empty HQ/location backfill via Wikidata P159)
+    "accel_companies.json", "insight_companies.json", "felicis_companies.json",
+    "rre_companies.json", "eclipseventures_companies.json", "greylock_companies.json",
+    "draperassociates_companies.json", "arch_companies.json", "eniacventures_companies.json",
+    "balderton_companies.json", "lowercarbon_companies.json",
+    # heavy empty-sectors (Wikidata P452)
+    "trueventures_companies.json", "uncork_companies.json", "gradientventures_companies.json",
+    "afore_companies.json", "foundrygroup_companies.json", "meritech_companies.json",
+    "a16z_companies.json", "greatoaksventurecapital_companies.json", "index_companies.json",
+    "floodgate_companies.json", "tmtinvestments_companies.json",
+]
 
 GENERIC_SECTORS = {"technology", "technology industry", "software", "software industry",
                    "software company", "business", "company", "internet", "service industry"}
@@ -223,10 +237,20 @@ def main():
             # field that the record actually defines -- never introduce a new column.
             has_founders = "founders" in o
             has_year = "year_founded" in o
+            has_founded_year = "founded_year" in o  # sequoia-style alias
             has_sectors = "sectors" in o
-            need = ((has_founders and not o["founders"]) or (has_year and not o["year_founded"])
-                    or (has_sectors and not o["sectors"])
-                    or ("ticker_symbol" in o and not o["ticker_symbol"]))
+            loc_key = next((k for k in ("location", "headquarters") if k in o), None)
+            def _empty(v):
+                if v is None: return True
+                if isinstance(v, str): return not v.strip()
+                if isinstance(v, list): return len(v) == 0
+                return False
+            need = ((has_founders and _empty(o.get("founders")))
+                    or (has_year and _empty(o.get("year_founded")))
+                    or (has_founded_year and _empty(o.get("founded_year")))
+                    or (has_sectors and _empty(o.get("sectors")))
+                    or (loc_key and _empty(o.get(loc_key)))
+                    or ("ticker_symbol" in o and _empty(o.get("ticker_symbol"))))
             if not need:
                 continue
             qid, claims = wd_match(o["company_name"], dom)
@@ -235,13 +259,16 @@ def main():
                 continue
             founders = ent_ids(claims, "P112")
             industries = ent_ids(claims, "P452")
+            hq_ids = ent_ids(claims, "P159")  # headquarters location
             exch, tk = ticker_pair(claims)
             yr = inception_year(claims)
             pending.append({"o": o, "fname": fname, "qid": qid, "founders": founders,
-                            "industries": industries, "exch": exch, "ticker": tk, "year": yr,
+                            "industries": industries, "hq_ids": hq_ids,
+                            "exch": exch, "ticker": tk, "year": yr,
                             "has_founders": has_founders, "has_year": has_year,
-                            "has_sectors": has_sectors})
-            pending_label_ids += founders + industries + ([exch] if exch else [])
+                            "has_founded_year": has_founded_year,
+                            "has_sectors": has_sectors, "loc_key": loc_key})
+            pending_label_ids += founders + industries + hq_ids + ([exch] if exch else [])
             if i % 50 == 0:
                 print(f"  matched-scan {i}/{len(rows)}")
 
@@ -249,21 +276,39 @@ def main():
 
         for p in pending:
             o, filled = p["o"], {}
-            if p["has_founders"] and not o["founders"] and p["founders"]:
+            def _empty(v):
+                if v is None: return True
+                if isinstance(v, str): return not v.strip()
+                if isinstance(v, list): return len(v) == 0
+                return False
+            if p["has_founders"] and _empty(o.get("founders")) and p["founders"]:
                 names = [labels.get(q) for q in p["founders"] if labels.get(q)]
                 if names:
                     o["founders"] = names
                     filled["founders"] = names
-            if p["has_year"] and not o["year_founded"] and p["year"]:
+            if p["has_year"] and _empty(o.get("year_founded")) and p["year"]:
                 o["year_founded"] = p["year"]
                 filled["year_founded"] = p["year"]
-            if p["has_sectors"] and not o["sectors"] and p["industries"]:
+            if p.get("has_founded_year") and _empty(o.get("founded_year")) and p["year"]:
+                o["founded_year"] = p["year"]
+                filled["founded_year"] = p["year"]
+            if p["has_sectors"] and _empty(o.get("sectors")) and p["industries"]:
                 secs = [labels.get(q) for q in p["industries"]
                         if labels.get(q) and labels[q].lower() not in GENERIC_SECTORS]
                 if secs:
                     o["sectors"] = secs
                     filled["sectors"] = secs
-            if "ticker_symbol" in o and not o["ticker_symbol"] and p["ticker"]:
+            if p.get("loc_key") and _empty(o.get(p["loc_key"])) and p.get("hq_ids"):
+                # Prefer city/region labels; join uniquely
+                places = []
+                for q in p["hq_ids"]:
+                    lab = labels.get(q)
+                    if lab and lab not in places:
+                        places.append(lab)
+                if places:
+                    o[p["loc_key"]] = ", ".join(places)
+                    filled[p["loc_key"]] = o[p["loc_key"]]
+            if "ticker_symbol" in o and _empty(o.get("ticker_symbol")) and p["ticker"]:
                 exch_lbl = labels.get(p["exch"]) or ""
                 short = EXCH_SHORT.get(exch_lbl, exch_lbl)
                 o["ticker_symbol"] = f"{short}: {p['ticker']}".strip(": ").strip()
