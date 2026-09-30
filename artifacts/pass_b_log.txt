@@ -1,0 +1,30 @@
+[tag-backfill] 2361 untagged companies
+[tag-backfill] fetched 100/2361, 55 keyword-tagged
+[tag-backfill] fetched 200/2361, 102 keyword-tagged
+[tag-backfill] fetched 300/2361, 164 keyword-tagged
+[tag-backfill] fetched 400/2361, 239 keyword-tagged
+[tag-backfill] fetched 500/2361, 308 keyword-tagged
+[tag-backfill] fetched 600/2361, 338 keyword-tagged
+[tag-backfill] fetched 700/2361, 382 keyword-tagged
+[tag-backfill] fetched 800/2361, 432 keyword-tagged
+[tag-backfill] fetched 900/2361, 485 keyword-tagged
+[tag-backfill] fetched 1000/2361, 544 keyword-tagged
+[tag-backfill] fetched 1100/2361, 572 keyword-tagged
+[tag-backfill] fetched 1200/2361, 578 keyword-tagged
+[tag-backfill] fetched 1300/2361, 635 keyword-tagged
+[tag-backfill] fetched 1400/2361, 685 keyword-tagged
+[tag-backfill] fetched 1500/2361, 755 keyword-tagged
+[tag-backfill] fetched 1600/2361, 830 keyword-tagged
+[tag-backfill] fetched 1700/2361, 892 keyword-tagged
+[tag-backfill] fetched 1800/2361, 910 keyword-tagged
+[tag-backfill] fetched 1900/2361, 965 keyword-tagged
+[tag-backfill] fetched 2000/2361, 1018 keyword-tagged
+[tag-backfill] fetched 2100/2361, 1073 keyword-tagged
+[tag-backfill] fetched 2200/2361, 1130 keyword-tagged
+[tag-backfill] fetched 2300/2361, 1131 keyword-tagged
+[tag-backfill] fetch stage done: 1137 tagged from homepages, 1317 homepages readable
+[tag-backfill] 1224 left for the LLM stage
+[tag-backfill] no ANTHROPIC_API_KEY — keyword fills kept, LLM stage skipped
+
+[tag-backfill] tagged 1137 companies in 50 files; LLM cost $0.0000; report -> data/llm_tag_report.json
+next:  git add data/ && git commit -m 'Tag backfill: homepage fetch + LLM (1137 companies)' && git push origin main
