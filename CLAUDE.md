@@ -93,7 +93,7 @@ Current datasets (in `data/`):
 | Project A | `projecta_companies.json` | 114 | project-a.vc — Sanity API (`projecta_scraper.py`) |
 | Northzone | `northzone_companies.json` | 112 | northzone.com/portfolio — Webflow (`northzone_scraper.py`) |
 | Costanoa Ventures | `costanoa_companies.json` | 97 | costanoa.vc — Prismic API (`costanoa_scraper.py`) |
-**119 datasets after 2026-10-02 Daily 10 (Sapphire/Threshold/Unusual/Earlybird/Boldstart/Tribe/SignalFire/Project A/Northzone/Costanoa); see all_companies.json for live totals.**
+**129 datasets after 2026-10-02 extra batch (Bullpen/Hyde Park/White Star/Resolute/Lunar/Titanium/Serena/BoxGroup/M12/Entrée; + morning Daily 10); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
 
