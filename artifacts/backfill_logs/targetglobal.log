@@ -1,0 +1,23 @@
+  [OK] rre: {'slug': 'rre', 'ok': True, 'n': 252, 'with_desc': 251, 'sec': 15.0}
+[163/329] Jump -> https://www.indexventures.com/companies/jump/
+  using _next/data route (buildId=IOUaFMUzJdPVvZ63mW_8o)
+  found 158 raw investment items
+
+Wrote 158 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/svangel_companies.json
+  company_url      missing: 3/158
+  logo_url         missing: 0/158
+  sectors empty:   0/158
+  stage empty:     0/158
+  by sector: {'AI': 62, 'Enterprise': 56, 'Consumer': 30, 'Fintech': 22, 'Healthcare + Bio': 17, 'Crypto': 11, 'Marketplaces': 9, 'Energy': 2, 'Robotics': 1, 'Infrastructure': 1, 'Hardware': 1}
+  by stage: {'Seed': 145, 'Growth': 44}
+  untagged:        85/158 -> ['Airbyte', 'Amplitude', 'Anduril', 'Anthropic', 'Apollo.io', 'Applied Intuition', 'Armada', 'Asana', 'Astranis', 'Atoms', 'Augment Code', 'Base Power Company', 'BetterUp', 'Black Forest Labs', 'Boom', 'Cerebras', 'Coactive', 'Cockroach Labs', 'Covariant', 'Cruise', 'Databricks', 'Decagon', 'Drata', 'Dropbox', 'Elastic', 'Factory', 'Faire', 'Figma', 'Flexport', 'General Matter', 'GitHub', 'Gusto', 'Harvey', 'HeyGen', 'Hugging Face', 'humans&', 'IO', 'Ironclad', 'Iru', 'Kumo', 'Lattice', 'Legora', 'Lightning AI', 'Mach Industries', 'Magical', 'Mandolin', 'MatX', 'Mercor', 'Mistral AI', 'Modular', 'Mux', 'Netic', 'Notion', 'Okta', 'PagerDuty', 'Parallel', 'Periodic Labs', 'Reflection', 'Replit', 'Retool', 'Rippling', 'Segment', 'Sesame', 'ShipBob', 'Sierra', 'Skild AI', 'Slack', 'Snorkel', 'SSI', 'Standard AI', 'Tabular', 'Tecton', 'The Bot Company', 'The Trade Desk', 'Together AI', 'Traversal', 'Twilio', 'Vercel', 'Veriff', 'Vetcove', 'Watershed', 'Waymo', 'World Labs', 'Zapier', 'Zip']
+  by everywhere_tag:
+      30  Consumer
+      22  FinTech / Insurance
+      17  Health
+      11  Web3 / Crypto
+       2  Dev Tools / Cloud
+       1  Cybersecurity
+       1  BioTech
+       1  Deeptech / Robotics / AR/VR
+       1  PropTech

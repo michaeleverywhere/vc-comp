@@ -1,0 +1,34 @@
+  [OK] bullpencapital: {'slug': 'bullpencapital', 'ok': True, 'n': 99, 'with_desc': 98, 'sec': 0.4}
+wrote 863 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/a16z_companies.json
+  description              missing: 122/863
+  company_url              missing: 17/863
+  logo_url                 missing: 0/863
+  year_founded             missing: 772/863
+  initial_investment_date  missing: 4/863
+  status                   missing: 0/863
+  acquirer                 missing: 703/863
+  ticker_symbol            missing: 818/863
+  exit_year                missing: 857/863
+  sectors empty:            49/863
+  founders empty:           556/863
+  socials empty:            59/863
+  status breakdown: {'Active': 652, 'Acquired': 167, 'Public (IPO)': 34, 'Public (DPO)': 2, 'Public (SPAC)': 4, 'Exited': 2, 'Public': 2}
+  untagged:                 57/863 -> ['The Horowitz Andreessen Academy (HAA)', 'Blockspring', 'Cazena', 'Delphix', 'DigitalOcean', 'Firstbase', 'greply', 'Limitless', 'Nicira Networks', 'Pixate', 'Platfora', 'SigOpt', 'Slack', 'Swiftype', 'Talaria', 'Tomfoolery', 'Usermind', 'xAI', '11x', 'Atoms']
+  by everywhere_tag:
+    289  Dev Tools / Cloud
+    241  Consumer
+    160  FinTech / Insurance
+    143  Web3 / Crypto
+    131  Gaming / Media / Entertainment
+    126  Health
+    117  BioTech
+    101  Deeptech / Robotics / AR/VR
+     93  Future of Work
+     85  Cybersecurity
+     48  Data & Analytics
+     35  Logistics / Supply Chain
+     34  Transportation / Mobility
+     24  RegTech/Gov/Legal
+     21  PropTech
+     10  Climate / Sustainability
+      8  CPG

@@ -1,0 +1,37 @@
+  [FAIL] foundrygroup: {'slug': 'foundrygroup', 'ok': False, 'error': 'no main', 'sec': 0}
+Portfolio page reachable via: direct
+  [9/174] Altos Labs -> industries=['Life Sciences'] stage=None
+  ! direct fetch failed (404 Client Error: Not Found for url: https://www.dragoneer.com/companies)
+  [10/174] American Operator -> industries=['Financial Services'] stage=None
+  [11/174] AMP -> industries=['Consumer'] stage='Exited'
+  Algolia query: direct (gc_primary, type:Portfolio)
+Algolia returned 584 portfolio hits (nbHits=584)
+
+Wrote 584 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/generalcatalyst_companies.json
+  description        missing: 523/584
+  company_url        missing: 3/584
+  logo_url           missing: 160/584
+  investors          missing: 22/584
+  primary_sector     missing: 4/584
+  gc_backed_since    missing: 34/584
+  is_ipo True:      20/584
+  is_acquired True: 42/584
+  is_active True:   513/584
+  untagged:         189/584 -> ['1001 AI', 'Aaru', 'Aatmunn', 'Accordance', 'AgentMail', 'AirSlate', 'Allego', 'Almanac Labs', 'Alyce', 'Amigo', 'Amperity', 'Anomali', 'Anthropic', 'Apiiro', 'Argmax', 'Arphie', 'Arrcus', 'Artie', 'AuthZed', 'autone', 'Autoscience', 'Aviatrix', 'Avoca', 'Awardco', 'B12', 'BBN', 'Beacon', 'beautiful.ai', 'BigCommerce', 'Black Duck', 'Black Forest Labs', 'Bolna', 'Bugcrowd', 'Buildkite', 'Cambridge Mobile Telematics', 'Cartesia', 'Catalant', 'Chainguard', 'Chalk', 'ChannelEngine', 'Civic Roundtable', 'Clarabridge', 'Club Feast', 'Coda', 'Conntour', 'Corelight', 'Crescendo', 'Datalogix', 'Datavolo', 'Datto', 'Deel', 'Disclo', 'Drift', 'Dwelly', 'Elemental', 'Elevate K-12', 'Empathy', 'Espressive', 'Ethos AI', 'Eudia', 'Evolv', 'Expanso', 'Feedvisor', 'Fig', 'Figma', 'Finch', 'General Intuition', 'Geordie', 'Gitpod', 'Glean', 'GoodData', 'GoodStack', 'Guardhat', 'Guild', 'Heyday', 'Highlight', 'Highway9', 'Housecall Pro', 'HubSpot', 'Human Behavior', 'Ionic', 'Iru', 'ITA Software', 'Jigso', 'JuliaHub', 'JumpTap', 'Kite', 'L2', 'Lacework', 'Langdock', 'Legora', 'Lessen', 'Lila Sciences', 'Localyze', 'Loci', 'Logz.io', 'Long Lake', 'Loom', 'Lume', 'Luminai', 'm-Qube', 'Magma', 'Martian', 'Menlo', 'Mercor', 'Meter', 'Metronome', 'Minio', 'Mistral AI', 'Moonvalley', 'Multiverse', 'Nace.AI', 'Neon', 'NewStore', 'Nexus', 'Nirvana', 'Numos', 'Nurix', 'Octane AI', 'OGSystems', 'OneSchema', 'OpenStore', 'Pallet', 'Pantomath', 'Paradigm', 'Parloa', 'Percent', 'Perk', 'Physical Intelligence', 'Ping', 'Please', 'Podqi', 'PowerUs', 'Prelay', 'Prosimo', 'Pylon', 'Quo', 'R2', 'Ranger', 'Refuel', 'Remesh', 'RemNote', 'Render', 'Resilience', 'Reveal Imaging', 'Rezonant', 'Rossum', 'Rox', 'Safari AI', 'Sanas', 'Scalar', 'Securiti', 'Semantic', 'Serval', 'Shelf Engine', 'Shift', 'Singular', 'Skild AI', 'Slide', 'Soff', 'Spiral', 'Standard Kernel', 'Stilla', 'Strawberry', 'SunBorne', 'SupportLogic', 'Symbolica', 'Tabs', 'Teamworks', 'TellTail', 'Tempus Ex', 'Terragia', 'The Interaction Company of California', 'The Predictive Index', 'ThoughtSpot', 'Tidelift', 'Tigris', 'Titan', 'Tiyaro', 'Together AI', 'Vercel', 'Verkada', 'Verta', 'Visor', 'Viva Translate', 'Vivere', 'Wordsmith', 'Zerigo', 'ZET']
+  by everywhere_tag:
+    144  Health
+    110  Consumer
+     74  FinTech / Insurance
+     24  RegTech/Gov/Legal
+     19  Deeptech / Robotics / AR/VR
+     19  Climate / Sustainability
+     11  Dev Tools / Cloud
+     10  Cybersecurity
+      8  BioTech
+      8  Future of Work
+      5  Data & Analytics
+      5  Gaming / Media / Entertainment
+      4  CPG
+      3  Transportation / Mobility
+      2  PropTech
+      2  Logistics / Supply Chain

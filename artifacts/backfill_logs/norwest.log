@@ -1,0 +1,118 @@
+Fetching page 1 -> https://www.norwest.com/companies/
+  ... 50/156
+[107/329] Duna -> https://www.indexventures.com/companies/duna/
+  +50 companies (total 50)
+  [141/174] Saronic -> industries=['Government & Defense'] stage='Series C+'
+[108/329] duvo.ai -> https://www.indexventures.com/companies/duvoai/
+  [142/174] Sequence Holdings -> industries=[] stage=None
+Fetching page 2 -> https://www.norwest.com/companies/?sf_paged=2
+[109/329] Eisen -> https://www.indexventures.com/companies/eisen/
+  [143/174] Sesh -> industries=[] stage=None
+  [144/174] SILA Nanotechnologies -> industries=['Consumer'] stage='Series C+'
+[110/329] Elementl -> https://www.indexventures.com/companies/elementl/
+  [145/174] Sirona -> industries=['AI'] stage='Series B'
+[111/329] Empathy -> https://www.indexventures.com/companies/empathy/
+  [146/174] Socotra -> industries=['Financial Services'] stage='Series C+'
+  +50 companies (total 100)
+[112/329] Enigma -> https://www.indexventures.com/companies/enigma/
+  [147/174] Software -> industries=['Smart Enterprise'] stage='Series A'
+[113/329] EthonAI -> https://www.indexventures.com/companies/ethonai/
+Fetching page 3 -> https://www.norwest.com/companies/?sf_paged=3
+  [148/174] Sonoma Biotherapeutics -> industries=['Life Sciences'] stage='Series B'
+  [149/174] Spotnana -> industries=['Smart Enterprise'] stage=None
+[114/329] evervault -> https://www.indexventures.com/companies/evervault/
+  [150/174] Stack Health -> industries=[] stage=None
+[115/329] Expel -> https://www.indexventures.com/companies/expel/
+  [151/174] Standard Metrics -> industries=['Smart Enterprise'] stage='Series A'
+[116/329] Factual -> https://www.indexventures.com/companies/factual/
+  +50 companies (total 150)
+  [152/174] Structify -> industries=[] stage=None
+[117/329] Feathery -> https://www.indexventures.com/companies/feathery/
+  [153/174] TAP -> industries=[] stage='Seed'
+Fetching page 4 -> https://www.norwest.com/companies/?sf_paged=4
+[118/329] Ferry Health -> https://www.indexventures.com/companies/ferry-health/
+  [154/174] Tasca Therapeutics -> industries=[] stage=None
+  [155/174] Terminal -> industries=['Smart Enterprise'] stage=None
+[119/329] Figma -> https://www.indexventures.com/companies/figma/
+  [156/174] Terminal Logistics -> industries=['Logistics'] stage=None
+[120/329] Fireblocks -> https://www.indexventures.com/companies/fireblocks/
+  [157/174] Terra Industries -> industries=[] stage=None
+  +50 companies (total 200)
+[121/329] Fireworks -> https://www.indexventures.com/companies/fireworks-ai/
+  [158/174] The Boring Company -> industries=['Logistics'] stage='Series C+'
+[122/329] Flagship -> https://www.indexventures.com/companies/flagship/
+  [159/174] Thorin -> industries=['AI'] stage=None
+Fetching page 5 -> https://www.norwest.com/companies/?sf_paged=5
+[123/329] Flapping Airplanes -> https://www.indexventures.com/companies/flapping-airplanes/
+  [160/174] Tilda -> industries=['Life Sciences'] stage='Series A'
+  [161/174] Trackonomy -> industries=['Logistics'] stage='Series C+'
+[124/329] flatfair -> https://www.indexventures.com/companies/flatfair/
+  [162/174] TUL -> industries=['Logistics'] stage='Series B'
+  modals 200/345
+[125/329] Flipboard -> https://www.indexventures.com/companies/flipboard/
+  +50 companies (total 250)
+  [163/174] Twingate -> industries=['IT Infrastructure'] stage='Series B'
+[126/329] fomo -> https://www.indexventures.com/companies/fomo/
+  [164/174] Unlearn -> industries=['Life Sciences'] stage='Series B'
+[127/329] Fonoa -> https://www.indexventures.com/companies/fonoa/
+Fetching page 6 -> https://www.norwest.com/companies/?sf_paged=6
+  [165/174] Ushur -> industries=['AI'] stage='Series C+'
+[128/329] Footprint -> https://www.indexventures.com/companies/footprint/
+  [166/174] Vals AI -> industries=[] stage=None
+  [167/174] Vector -> industries=['Logistics'] stage='Series A'
+[129/329] Frame Security -> https://www.indexventures.com/companies/frame-security/
+  [168/174] Vercel -> industries=['IT Infrastructure'] stage='Series C+'
+[130/329] Funding Circle -> https://www.indexventures.com/companies/funding-circle/
+  +50 companies (total 300)
+  [169/174] Waabi -> industries=['Logistics', 'AI'] stage=None
+[131/329] Garner Health -> https://www.indexventures.com/companies/garner-health/
+  [170/174] Wish -> industries=['Consumer'] stage=None
+Fetching page 7 -> https://www.norwest.com/companies/?sf_paged=7
+  +50 companies (total 350)
+  [171/174] Wispr Flow -> industries=['Consumer', 'AI'] stage=None
+[132/329] Gather -> https://www.indexventures.com/companies/gather/
+  [172/174] WithCoverage -> industries=[] stage=None
+[133/329] Gatsby -> https://www.indexventures.com/companies/gatsby/
+Fetching page 8 -> https://www.norwest.com/companies/?sf_paged=8
+  [173/174] Worktrace AI -> industries=[] stage=None
+[134/329] GetHarley -> https://www.indexventures.com/companies/getharley/
+  [174/174] Yugabyte -> industries=['IT Infrastructure'] stage='Series C+'
+
+wrote 174 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/8vc_companies.json
+  description    missing: 5/174
+  company_url    missing: 3/174
+  logo_url       missing: 0/174
+  stage          missing: 88/174
+  twitter_url    missing: 70/174
+  linkedin_url   missing: 15/174
+  ticker_symbol  missing: 173/174
+  industries empty: 40/174
+  untagged:      19/174 -> ['AgVend', 'AI21 Labs', 'Arcos Labs', 'Asana', 'Cognition', 'Edra', 'Fabrion', 'Fractal', 'Luminary', 'MeritFirst', 'Outset', 'PointOne', 'Sequence Holdings', 'Sesh', 'Structify', 'TAP', 'Terra Industries', 'Thorin', 'Worktrace AI']
+  by stage: {'Series C+': 29, 'Series A': 22, 'Series B': 19, 'Exited': 10, 'Seed': 5, 'Growth': 1}
+  by industry:
+     19  Life Sciences
+     19  Healthcare
+     17  Financial Services
+     17  AI
+     16  Logistics
+     14  Smart Enterprise
+     13  Government & Defense
+     12  IT Infrastructure
+     10  Consumer
+  by everywhere_tag:
+     42  Health
+     41  Dev Tools / Cloud
+     29  FinTech / Insurance
+     28  BioTech
+     26  Future of Work
+     26  Logistics / Supply Chain
+     24  Data & Analytics
+     24  Consumer
+     18  Transportation / Mobility
+     17  RegTech/Gov/Legal
+     13  Cybersecurity
+     13  Deeptech / Robotics / AR/VR
+      7  Climate / Sustainability
+      6  PropTech
+      4  Gaming / Media / Entertainment
+      3  CPG

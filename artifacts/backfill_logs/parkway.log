@@ -1,0 +1,65 @@
+Fetching https://www.parkway.vc/portfolio
+  [OK] notioncapital: {'slug': 'notioncapital', 'ok': True, 'n': 100, 'with_desc': 98, 'sec': 0.3}
+  found 27 portfolio grid entries
+[135/329] Glossier -> https://www.indexventures.com/companies/glossier/
+[136/329] Glow -> https://www.indexventures.com/companies/glow/
+  +50 companies (total 400)
+[137/329] GOAT -> https://www.indexventures.com/companies/goat/
+[138/329] Gong -> https://www.indexventures.com/companies/gong/
+Fetching page 9 -> https://www.norwest.com/companies/?sf_paged=9
+  +50 companies (total 450)
+[139/329] Good Eggs -> https://www.indexventures.com/companies/good-eggs/
+Fetching page 10 -> https://www.norwest.com/companies/?sf_paged=10
+[140/329] Goody -> https://www.indexventures.com/companies/goody/
+  +50 companies (total 500)
+[141/329] Grailed -> https://www.indexventures.com/companies/grailed/
+Fetching page 11 -> https://www.norwest.com/companies/?sf_paged=11
+  +9 companies (total 509)
+
+Wrote 509 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/norwest_companies.json
+By status: {'Acquired': 223, 'Active': 215, 'Alumni': 29, 'Public': 40, None: 2}
+With acquirer: 223 | with ticker: 40
+With website: 465 | with description: 214 | with partner(s): 333 | with advisor(s): 46 | with stage: 504 | with sector: 499 | with region: 507
+
+By Norwest sector:
+   294  enterprise
+   153  consumer
+    71  healthcare
+
+By Norwest tag (raw taxonomy, top 15):
+   195  saas
+   133  infra-tech
+   106  consumer-products-services
+    76  ai
+    74  tech-enabled-services
+    55  fintech
+    46  e-commerce-retail
+    44  security
+    40  mobile
+    33  software
+    30  marketplaces
+    30  data
+    29  healthcare-services
+    26  media
+    24  healthcare-it
+
+By everywhere_tag:
+   177  Dev Tools / Cloud
+   134  Consumer
+    78  Health
+    56  FinTech / Insurance
+    47  Cybersecurity
+    42  Data & Analytics
+    38  Gaming / Media / Entertainment
+    26  BioTech
+    22  Deeptech / Robotics / AR/VR
+    15  Future of Work
+    12  PropTech
+    11  CPG
+     9  Transportation / Mobility
+     8  Logistics / Supply Chain
+     1  Web3 / Crypto
+     1  Climate / Sustainability
+
+Untagged: 65/509
+  ['AbsenceSoft', 'Aisera', 'Allied Riser Comms.', 'Appriss', 'Atlantic Cellular', 'Azuria', 'Banyan Software', 'Bluecore', 'Brooks Fiber Properties', 'Chordiant Software', 'Copper', 'Corio', 'Cority', 'Datacor', 'Demandbase', 'Diligent', 'East Range Group', 'Elite Business Ventures', 'Engagio', 'Fam'] ...

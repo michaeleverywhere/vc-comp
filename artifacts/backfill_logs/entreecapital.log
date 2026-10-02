@@ -1,0 +1,27 @@
+  [OK] earlybird: {'slug': 'earlybird', 'ok': True, 'n': 118, 'with_desc': 0, 'sec': 0.5}
+  ! jina-proxy fetch failed (403 Client Error: Forbidden for url: https://r.jina.ai/https://www.dragoneer.com/companies)
+  [5/174] AI21 Labs -> industries=['AI'] stage=None
+  [6/174] Airbyte -> industries=['IT Infrastructure'] stage=None
+  ! all fetch strategies failed; retry 1/3 in 1.5s
+  [7/174] Alloy -> industries=['Smart Enterprise'] stage='Series A'
+  [8/174] Alloy Therapeutics -> industries=['Life Sciences'] stage='Series C+'
+wrote 372 companies -> /workspace/vc-comp-me/artifacts/rescrape_tmp/coatue_companies.json
+  company_url  missing: 19/372
+  logo_url     missing: 0/372
+  fund_type    missing: 0/372
+  status       missing: 0/372
+  by fund_type: {'Growth': 237, 'Venture': 135}
+  by status: {'Active': 336, 'Exit': 36}
+  untagged:      329/372 -> ['Abacus.AI', 'AbogenBio', 'Agora', 'Airbyte', 'Airtable', 'AI Rudder', 'Akasa', 'Alan', 'Albert', 'Alchemy Insights', 'Amo', 'Anaplan', 'Anduril Industries', 'Ankorstore', 'Ant Group', 'Anthropic', 'Applied Intuition', 'AppZen', 'Ara', 'Arch', 'Artera', 'Artsy', 'Atma Sciences', 'ATTAbotics', 'Attentive', 'Avail', 'Aven', 'Avvo', 'Axoni', 'BeReal', 'BharatPe', 'Bigeye', 'BitDeer', 'Bitso', 'Blend', 'Bond', 'BondLink', 'BOSS Zhipin', 'Box', 'Braintrust', 'Brud', 'Bungalow', 'Butterflies AI', 'By Mason', 'ByteDance', 'Cadence', 'Calendly', 'Canal', 'Canva', 'Careem', 'Causal', 'CertiK', 'CHAGEE Singapore', 'Chainalysis', 'Checkout.com', 'Checkr', 'Chime', 'Choco', 'Choosy', 'CityMaps', 'Clara', 'Classin', 'ClickHouse', 'Clockwise', 'Codi', 'Cohesity', 'CommonStock', 'Confluent', 'Coreweave', 'Coursedog', 'Covariant', 'Cove.Tool', 'CRED', 'Cursor', 'Cyera', 'Databricks', 'DayOne', 'Dcbel', 'Decagon', 'Decidehq', 'Deel', 'Deep Instinct', 'DeepJudge', 'Deepnote', 'Deliverect', 'Deliverr', 'Device Plane', 'Dialect', 'Didi Global', 'Dingdong Maicai', 'Dirac', 'Discord', 'Distyl', 'DNA Script', 'Docker', 'DoNotPay', 'DoorDash', 'Dune', 'EarnIn', 'Edge Impulse', 'Endeavor Group Holdings', 'Enter', 'Evernote', 'FanCraze', 'Fero', 'Figma', 'Figure AI', 'Fireblocks', 'Fiture', 'Flex', 'Flipboard', 'Flockjay', 'Fonoa', 'Form Energy', 'Front', 'Gantry', 'Geneva', 'Ghost', 'Gif Your Game', 'Glean', 'GitLab', 'Gong', 'Gorillas', 'GoStudent', 'Grab', 'Graphy', 'GuMing', 'Handshake', 'Harvey', 'Haystack', 'HeyTea', 'Hopin', 'HotelTonight', 'HTTPie', 'Hugging Face', 'Hut 8', 'Iambic', 'Iconic Hearts', 'Impira', 'Impossible Foods', 'Instacart', 'Instant Design', 'Inxeption', 'iQIYI', 'Island', 'Jasper', 'Jet', 'Jetify', 'Jetpack.io', 'Keep', 'Kikoff', 'Knowde', 'Komodo', 'Kuaikan Comics', 'Kubecost', 'Kujiale', 'Kurtosis', 'Kustomer', 'Kyligence', 'Lacework', 'LatchBio', 'Lighter', 'Lightning AI', 'Lightspark', 'Lime', 'Lindy', 'Linktree', 'Little Freddie', 'LiveControl', 'Loom', 'Lunchbox', 'Lutra AI', 'Lyft', 'Lyra', 'M1', 'Mafengwo', 'Magical', 'Manner Coffee', 'Marqeta', 'Mech-Mind', 'Mei tuan', 'Meld', 'Melio', 'Mercury', 'Meticulous Ai', 'Miter', 'Monzo', 'Moonpay', 'Mux', 'N26', 'Nate', 'Navan', 'NDEA', 'Nextdoor', 'ngrok', 'Niantic', 'Nice', 'NinjaOne', 'Niutron', 'Nomic AI', 'Norm Ai', 'Notion', 'OfferUp', 'Onaroll', 'OneText', 'OneTrust', 'Open', 'OpenAI', 'Opendoor Technologies', 'OpenEvidence', 'OpenSea', 'Orbit', 'Origin', 'Oscar', 'Our Next Energy', 'Outschool', 'Panther', 'Patch', 'Patreon', 'Peloton', 'Persona Identities', 'PingCap', 'PingPong', 'Pinwheel', 'Placement', 'Plaid', 'PlayVS', 'Pleo', 'Pocus', 'PortalOne', 'Portofino Technologies', 'Postman', 'Product Science', 'Quikr', 'Quilter', 'RadPod', 'Ramp', 'Rapyd', 'Raycast', 'Rebel Foods', 'Rec Room', 'Reddit', 'Redwood Materials', 'Relativity', 'Replit', 'Retool', 'Revolut', 'RevOps', 'Rippling', 'Rivian', 'Rootline', 'Rox', 'Runway', 'Satispay', 'Saturn', 'Scala', 'Scale AI', 'ServiceTitan', 'ShadowBot', 'Side', 'Sierra Space', 'SiFive', 'Sila', 'Silverflow', 'Skild AI', 'SkyPilot', 'Slack', 'Snap Group', 'Snowflake', 'Snyk', 'Sourceful', 'Sourcegraph', 'SpaceX', 'Spotify', 'SpotOn', 'Stability', 'Starburst', 'StarkWare', 'Stash', 'Step', 'Stratify', 'Stripe', 'Stytch', 'Sumble', 'Sunday', 'Sundeck', 'Supabase', 'Superhuman', 'Swarm Aero', 'Sweep', 'Swiggy', 'Tackle.io', 'Take Take Take', 'Tamara', 'Teamflow', 'The Boring Company', 'The Supplant Company', 'Titan', 'Together AI', 'Tome', 'Tul', 'Twaice', 'Uber', 'UiPath', 'Unsupervised', 'Upgrade', 'Uplight', 'UpStream', 'Valsoft Corporation', 'Vay', 'Vedantu', 'Vercel', 'Verse', 'VIPkid', 'WeaveGrid', 'Webull', 'Weidan', 'Weights & Biases', 'Wheel', 'Wisdom AI', 'Wish', 'Workstream', 'xAI', 'Xendit', 'Xpeng', 'Youxinpai', 'YQN', 'Zuiyou', 'Zuoyebang']
+  by everywhere_tag:
+     12  Dev Tools / Cloud
+      7  FinTech / Insurance
+      6  Deeptech / Robotics / AR/VR
+      5  BioTech
+      5  Health
+      3  Data & Analytics
+      2  Climate / Sustainability
+      2  Gaming / Media / Entertainment
+      2  Cybersecurity
+      1  Consumer
+      1  RegTech/Gov/Legal

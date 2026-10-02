@@ -128,6 +128,306 @@ VC_SELF = re.compile(
     r"(investment|venture)|seed fund|growth equity fund)\b"
 )
 
+
+# Firm slug -> display name for name-only context searches
+_FIRM_NAMES = {}
+try:
+    _fn = json.loads((ROOT / "automation" / "firm_names.json").read_text())
+    for fname, dname in (_fn.get("names") or {}).items():
+        slug = fname.replace("_companies.json", "").replace("companies.json", "lightspeed")
+        _FIRM_NAMES[slug] = dname
+except Exception:
+    pass
+
+CLEARBIT = "https://autocomplete.clearbit.com/v1/companies/suggest"
+DDG_IA = "https://api.duckduckgo.com/"
+PREFERRED_TLD = {
+    "com", "io", "ai", "co", "so", "app", "dev", "tech", "net", "org", "us",
+    "uk", "de", "fr", "ch", "ca", "au", "nl", "se", "fi", "no", "es", "it",
+    "xyz", "gg", "me", "health", "care", "bio", "finance", "capital",
+}
+DOMAIN_SUFFIXES = {
+    "", "hq", "app", "labs", "lab", "bio", "tx", "ai", "io", "inc", "co",
+    "tech", "health", "care", "capital", "finance", "pay", "dev", "energy",
+    "ventures", "vc", "get", "try", "use", "go", "team", "api", "hq",
+}
+
+
+def norm_alnum(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def sig_tokens(name: str) -> list[str]:
+    raw = re.findall(r"[A-Za-z0-9][A-Za-z0-9+.-]*", name or "")
+    stop = {
+        "inc", "llc", "ltd", "gmbh", "ag", "corp", "co", "the", "and", "of",
+        "company", "technologies", "therapeutics", "labs", "lab", "systems",
+        "group", "ai", "biosciences", "therapeutics", "ventures",
+    }
+    return [t for t in raw if t.lower() not in stop]
+
+
+def domain_aligned(name: str, domain: str) -> bool:
+    """Require domain base to match company name tightly (blocks Alan→alanba, Amper→amperevehicles)."""
+    n = norm_alnum(name)
+    if not n or not domain:
+        return False
+    host = domain.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    parts = host.split(".")
+    base = parts[0]
+    # strip common marketing prefixes
+    # Only strip marketing prefixes that are unlikely to be part of the brand
+    # (never strip "go"/"hi" — they mangle goodbill, gong, hive, etc.)
+    for p in ("get", "try", "use", "ask", "join", "with"):
+        if base.startswith(p) and len(base) > len(p) + 3:
+            base = base[len(p):]
+            break
+    if base == n:
+        return True
+    for suf in DOMAIN_SUFFIXES:
+        if base == n + suf:
+            return True
+    # multi-word collapsed: antoraenergy
+    if n == base:
+        return True
+    # name starts with domain base (Affinia Therapeutics → affiniatx / affinia)
+    if len(base) >= 4 and n.startswith(base):
+        return True
+    # domain base starts with full name + short suffix (accenttx)
+    if len(n) >= 5 and base.startswith(n) and len(base) - len(n) <= 4:
+        return True
+    # any significant token (≥4) equals base or base startswith token + short suffix
+    # (Bank Jago → jago.com; AMP Robotics → amprobotics)
+    toks = sig_tokens(name)
+    for tok in toks:
+        t0 = norm_alnum(tok)
+        if len(t0) < 4:
+            continue
+        if base == t0:
+            return True
+        for suf in DOMAIN_SUFFIXES:
+            if base == t0 + suf:
+                return True
+        if base.startswith(t0) and len(base) - len(t0) <= 3:
+            return True
+    # short names (<5): only exact base match (already handled) — reject substring friends
+    if len(n) < 5:
+        return False
+    return False
+
+
+
+def tld_rank(domain: str) -> int:
+    """Lower is better. Prefer global product TLDs over random ccTLDs."""
+    host = domain.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    parts = host.split(".")
+    tld = parts[-1]
+    if len(parts) >= 3 and parts[-2] in {"co", "com", "org", "net"}:
+        # co.uk / com.au / co.za — treat as the compound
+        compound = parts[-2] + "." + tld
+        order = {
+            "co.uk": 15, "com.au": 40, "co.za": 45, "co.nz": 20, "com.br": 40,
+            "co.id": 25, "co.jp": 20, "com.mx": 30, "co.in": 30,
+        }
+        return order.get(compound, 35)
+    order = {
+        "com": 0, "io": 1, "ai": 2, "app": 3, "co": 4, "so": 5, "dev": 6,
+        "tech": 7, "net": 8, "org": 9, "us": 10, "gg": 11, "me": 12,
+        "health": 8, "care": 8, "bio": 8, "finance": 8, "capital": 12,
+        "uk": 15, "de": 18, "fr": 18, "ch": 18, "ca": 16, "au": 40,
+        "nl": 20, "se": 18, "fi": 18, "no": 18, "es": 20, "it": 20,
+        "xyz": 25, "id": 25, "za": 45, "br": 40, "il": 35, "ru": 50,
+        "cn": 50,
+    }
+    return order.get(tld, 60)
+
+
+def tld_ok(domain: str) -> bool:
+    host = domain.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    parts = host.split(".")
+    if len(parts) < 2:
+        return False
+    tld = parts[-1]
+    if tld in PREFERRED_TLD:
+        return True
+    # co.uk etc
+    if len(parts) >= 3 and parts[-2] in {"co", "com", "org", "net"} and tld.isalpha():
+        return True
+    return False
+
+
+def extract_title(html: str) -> str | None:
+    m = re.search(r"<title[^>]*>(.*?)</title>", html or "", re.I | re.S)
+    if not m:
+        return None
+    return clean_text(re.sub(r"<[^>]+>", "", m.group(1)))
+
+
+def name_in_text(name: str, *texts: str | None) -> bool:
+    """Require company name (or a significant token) as a word, not a substring
+    (blocks Rocket⊂WebRocket)."""
+    if not name:
+        return False
+    blob = " ".join(t or "" for t in texts).lower()
+    if not blob:
+        return False
+    # Full name as phrase
+    if name.strip().lower() in blob:
+        return True
+    n = norm_alnum(name)
+    if len(n) >= 5 and n in norm_alnum(blob):
+        return True
+    for t in sig_tokens(name):
+        if len(t) < 4:
+            continue
+        if re.search(rf"(?<![a-z0-9]){re.escape(t.lower())}(?![a-z0-9])", blob):
+            return True
+    return False
+
+
+def clearbit_domain(name: str) -> tuple[str | None, str]:
+    if not name or len(name.strip()) < 2:
+        return None, "cb_no_name"
+    if len(norm_alnum(name)) < 5:
+        return None, "cb_short_name"
+    try:
+        r = requests.get(CLEARBIT, params={"query": name.strip()}, headers=UA, timeout=12)
+    except requests.RequestException as e:
+        return None, f"cb_err:{type(e).__name__}"
+    if r.status_code >= 400:
+        return None, f"cb_http_{r.status_code}"
+    hits = r.json() or []
+    if not hits:
+        return None, "cb_empty"
+    n = norm_alnum(name)
+    # Prefer exact Clearbit name matches with aligned preferred-TLD domains
+    exact = [h for h in hits if norm_alnum(h.get("name") or "") == n]
+    # Exact Clearbit name matches ONLY; prefer strong TLDs (.com/.io/.ai over .co.za)
+    if not exact:
+        return None, "cb_no_exact"
+    candidates = []
+    for h in exact:
+        dom = (h.get("domain") or "").lower().strip()
+        if not dom or FORBIDDEN_HOST.search(dom):
+            continue
+        if not tld_ok(dom):
+            continue
+        if not domain_aligned(name, dom):
+            continue
+        candidates.append(dom)
+    if not candidates:
+        return None, "cb_no_aligned"
+    candidates.sort(key=tld_rank)
+    best = candidates[0]
+    # Single-token short names on weak ccTLDs only → too uncertain
+    if tld_rank(best) >= 40 and len(n) < 8 and len(sig_tokens(name)) <= 1:
+        return None, "cb_weak_tld_uncertain"
+    return best, "clearbit"
+
+
+def ddg_ia_blurb(name: str, firm_name: str | None) -> tuple[str | None, str]:
+    """DuckDuckGo Instant Answer (usually Wikipedia abstract).
+
+    Short/ambiguous names are skipped (leave empty if uncertain). Firm display
+    name is folded into the query as weak context; abstract must still look like
+    a company and be name-grounded.
+    """
+    n = norm_alnum(name or "")
+    # Short names are too ambiguous (Alan→bike brand, Amper→river)
+    if not name or len(n) < 6:
+        return None, "ddg_short_name"
+    # Prefer "Name company" / "Name firm" to bias toward orgs
+    queries = [name.strip()]
+    if firm_name:
+        queries.insert(0, f'{name.strip()} {firm_name}')
+    queries.append(f"{name.strip()} company")
+
+    best_reject = "ddg_no_abstract"
+    for q in queries:
+        try:
+            r = requests.get(
+                DDG_IA,
+                params={"q": q, "format": "json", "no_html": 1, "skip_disambig": 1},
+                headers=UA,
+                timeout=15,
+            )
+        except requests.RequestException as e:
+            best_reject = f"ddg_err:{type(e).__name__}"
+            continue
+        if r.status_code >= 400:
+            best_reject = f"ddg_http_{r.status_code}"
+            continue
+        try:
+            j = r.json()
+        except ValueError:
+            best_reject = "ddg_bad_json"
+            continue
+        abstract = (j.get("Abstract") or "").strip()
+        heading = (j.get("Heading") or "").strip()
+        abs_url = (j.get("AbstractURL") or "")
+        if not abstract:
+            best_reject = "ddg_no_abstract"
+            continue
+        if abs_url:
+            host = domain_of(abs_url) or ""
+            if FORBIDDEN_HOST.search(host) and "wikipedia.org" not in host:
+                best_reject = "ddg_forbidden_src"
+                continue
+        if not name_in_text(name, abstract, heading):
+            best_reject = "ddg_ungrounded"
+            continue
+        if re.search(
+            r"(?i)\b(medal|award|decoration|video game|song|album|film\b|movie|"
+            r"municipality|village|river|lake|mountain|asteroid|family name|"
+            r"given name|disambiguation|bicycle manufacturer|football club|"
+            r"cricket|species of|genus of)\b",
+            abstract + " " + heading,
+        ):
+            best_reject = "ddg_non_company"
+            continue
+        # Must look company-ish
+        if not COMPANYISH_DESC.search(abstract):
+            best_reject = "ddg_not_companyish"
+            continue
+        blurb = acceptable_blurb(abstract, name)
+        if not blurb:
+            trim = re.split(r"(?<=[.!?])\s+", abstract)
+            cand = " ".join(trim[:2])[:400].strip()
+            blurb = acceptable_blurb(cand, name)
+        if not blurb:
+            best_reject = "ddg_unusable"
+            continue
+        src_tag = "ddg_ia:wikipedia" if "wikipedia.org" in abs_url else "ddg_ia"
+        return blurb, src_tag
+    return None, best_reject
+
+
+def fetch_site_blurb_grounded(url: str, company_name: str | None) -> tuple[str | None, str]:
+    """Like fetch_site_blurb but requires name grounding vs title/meta/final domain."""
+    blurb, note = fetch_site_blurb(url, company_name)
+    if not blurb:
+        return None, note
+    # Re-fetch is expensive; parse domain from note site_meta:host
+    host = None
+    if note.startswith("site_meta:"):
+        host = note.split(":", 1)[1]
+    if company_name and host and not domain_aligned(company_name, host):
+        # Allow if company name clearly appears in blurb (official site restated)
+        if not name_in_text(company_name, blurb):
+            return None, "ungrounded_domain"
+    if company_name and not name_in_text(company_name, blurb, host or ""):
+        # soft: domain alignment alone can suffice when domain tightly matches
+        if not (host and domain_aligned(company_name, host)):
+            return None, "ungrounded_meta"
+    return blurb, note
+
+
 META_PATS = [
     re.compile(r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)', re.I),
     re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description', re.I),
@@ -258,6 +558,18 @@ def wd_api(params: dict) -> dict:
     return {}
 
 
+
+def wd_is_false_friend(blurb: str) -> bool:
+    return bool(re.search(
+        r"(?i)\b(collaborative research network|economic project developed|"
+        r"packet switching to forward data|syntax highlighter|"
+        r"venture capital firm|journal of open source|software described in|"
+        r"one main component of the|disambiguation|wikimedia|"
+        r"family name|given name|river in|mountain in|"
+        r"research network for the study)\b",
+        blurb or "",
+    ))
+
 def wd_blurb_for(name: str, target_domain: str | None) -> tuple[str | None, str]:
     """Find Wikidata description, verifying via P856 domain when we have a URL."""
     if not name or len(name.strip()) < 2:
@@ -306,6 +618,8 @@ def wd_blurb_for(name: str, target_domain: str | None) -> tuple[str | None, str]
                     desc = (e.get("descriptions", {}).get("en") or {}).get("value")
                     blurb = acceptable_blurb(desc, name)
                     if blurb:
+                        if wd_is_false_friend(blurb):
+                            continue
                         return blurb, f"wikidata:{qid}:P856"
                     # domain matched but WD desc useless — still trusted site
                     return None, f"wd_domain_ok_no_desc:{qid}"
@@ -362,8 +676,13 @@ def wd_blurb_for(name: str, target_domain: str | None) -> tuple[str | None, str]
                 continue
             if not ORG_P31.intersection(p31):
                 continue
-            if len(re.sub(r"[^a-z0-9]", "", name.lower())) < 5:
-                continue  # short names too ambiguous without URL
+            # Tighten: short / single-token names without URL are too ambiguous
+            if len(re.sub(r"[^a-z0-9]", "", name.lower())) < 6:
+                continue
+            if len(sig_tokens(name)) <= 1 and len(re.sub(r"[^a-z0-9]", "", name.lower())) < 8:
+                continue
+        if wd_is_false_friend(blurb):
+            continue
         return blurb, f"wikidata:{qid}"
     return None, "wd_no_match"
 
@@ -407,41 +726,161 @@ def inventory(files):
     }
 
 
-def resolve_one(o: dict) -> dict:
-    """Attempt to find a description for one empty company record."""
+def resolve_one(o: dict, firm_slug: str | None = None) -> dict:
+    """Attempt to find a description for one empty company record.
+
+    Safety:
+      - Existing company_url: ONLY that site's meta, else domain-verified Wikidata.
+        Never fall through to Clearbit/DDG (dead URLs must not invent new domains).
+      - No URL: Clearbit exact-name + domain-aligned + name grounded in meta/title;
+        else DDG IA (strict companyish, name len>=6); else Wikidata strict.
+      - Leave empty if uncertain.
+    """
     name = identity.company_name(o)
     url = company_url_of(o)
+    firm_name = _FIRM_NAMES.get(firm_slug or "", firm_slug)
     result = {
         "company": name,
         "url": url,
         "description": None,
         "source": None,
         "reject": None,
+        "firm": firm_slug,
     }
-    # 1) Official site meta
+    rejects: list[str] = []
+
+    # --- Path A: known URL from firm scrape (trusted host) ---
     if url:
         blurb, note = fetch_site_blurb(url, name)
         if blurb:
-            result["description"] = blurb
-            result["source"] = note
-            return result
-        result["reject"] = note
-        # 2) Wikidata verified by domain
+            # Reject aged-domain / marketplace junk even on "official" URL
+            if re.search(r"(?i)premium aged domain|buy this domain|domain for sale|verified backlinks", blurb):
+                rejects.append("junk_meta")
+            else:
+                result["description"] = blurb
+                result["source"] = note
+                return result
+        else:
+            rejects.append(note)
         blurb, note = wd_blurb_for(name or "", domain_of(url))
         if blurb:
             result["description"] = blurb
             result["source"] = note
-            result["reject"] = None
             return result
-        result["reject"] = (result.get("reject") or "") + "|" + note
+        rejects.append(note)
+        result["reject"] = "|".join(rejects)[:300]
         return result
-    # 3) No URL — Wikidata only (strict)
+
+    # --- Path B: name-only (no URL) — discovery with strict grounding ---
+    if name:
+        dom, note = clearbit_domain(name)
+        if dom:
+            # Fetch title+meta; require name grounding in title or blurb
+            try:
+                r = requests.get(
+                    "https://" + dom,
+                    headers=UA,
+                    timeout=14,
+                    allow_redirects=True,
+                )
+            except requests.RequestException as e:
+                rejects.append(f"{note}|fetch_err:{type(e).__name__}")
+                r = None
+            if r is not None and r.status_code < 400:
+                final = domain_of(r.url) or dom
+                if FORBIDDEN_HOST.search(final or ""):
+                    rejects.append(f"{note}|redirect_forbidden")
+                elif not domain_aligned(name, final):
+                    rejects.append(f"{note}|redirect_unaligned:{final}")
+                elif tld_rank(final) >= 40 and len(norm_alnum(name)) < 8 and len(sig_tokens(name)) <= 1:
+                    rejects.append(f"{note}|weak_tld_final:{final}")
+                else:
+                    body = r.text or ""
+                    if PARKED.search(body[:12000]):
+                        rejects.append(f"{note}|parked")
+                    else:
+                        title = extract_title(body)
+                        meta = extract_meta(body)
+                        blurb = acceptable_blurb(meta, name)
+                        if blurb and re.search(
+                            r"(?i)premium aged domain|buy this domain|domain for sale|"
+                            r"verified backlinks|related searches|"
+                            r"#1 real estate|real estate agent|thank you for supporting|"
+                            r"laguna niguel|personal branding|"
+                            r"we want to express our heartfelt|"
+                            r"avaya professional services|perfect domain name for your idea|"
+                            r"synthesia is your piano tutor|"
+                            r"retail operations software from zipline|"
+                            r"commercial real estate finance and lending|"
+                            r"team behind mosaic ventures|"
+                            r"find quality manufacturers|"
+                            r"paylocity, a leader in cloud-based|"
+                            r"cellular iot management from cisco|"
+                            r"map multiple locations, get transit|"
+                            r"trusted by the world.s leading companies\s*$",
+                            blurb,
+                        ):
+                            rejects.append(f"{note}|junk_meta")
+                            blurb = None
+                        # Name must appear in title or blurb (blocks Seatme→SA tickets,
+                        # Sense360→Sense home, Berry Health→symposium, etc.)
+                        # Grounding: prefer name in blurb. If domain tightly matches
+                        # the company name (cameo.com / classpass.com), allow meta
+                        # that omits the brand (common for consumer apps).
+                        if blurb and not name_in_text(name, blurb):
+                            tight = domain_aligned(name, final) and tld_rank(final) <= 12
+                            title_ok = (
+                                tld_rank(final) <= 12
+                                and title
+                                and name_in_text(name, title)
+                            )
+                            if not (tight or title_ok):
+                                rejects.append(f"{note}|ungrounded_meta")
+                                blurb = None
+                        # Reject VC-fund self pages for portfolio companies
+                        if blurb and VC_SELF.search(blurb) and "ventures" not in (name or "").lower():
+                            if not name_in_text(name, blurb):
+                                rejects.append(f"{note}|vc_self")
+                                blurb = None
+                        if blurb:
+                            result["description"] = blurb
+                            result["source"] = f"clearbit:site_meta:{final}"
+                            return result
+                        if not blurb:
+                            rejects.append(f"{note}|no_usable_meta")
+            elif r is not None:
+                rejects.append(f"{note}|http_{r.status_code}")
+        else:
+            rejects.append(note)
+
+        blurb, note = ddg_ia_blurb(name, firm_name)
+        if blurb:
+            # Extra: heading should roughly match company name
+            result["description"] = blurb
+            result["source"] = note
+            return result
+        rejects.append(note)
+
     blurb, note = wd_blurb_for(name or "", None)
     if blurb:
-        result["description"] = blurb
-        result["source"] = note
-        return result
-    result["reject"] = note
+        # Extra reject: pure research-network / historical project false friends
+        if re.search(
+            r"(?i)\b(collaborative research network|economic project developed|"
+            r"packet switching to forward data|syntax highlighter|"
+            r"venture capital firm|journal of open source|software described in|"
+            r"one main component of the|disambiguation|wikimedia|"
+            r"family name|given name|river in|mountain in)\b",
+            blurb,
+        ):
+            rejects.append("wd_false_friend")
+        else:
+            result["description"] = blurb
+            result["source"] = note
+            return result
+    else:
+        rejects.append(note)
+
+    result["reject"] = "|".join(rejects)[:300]
     return result
 
 
@@ -463,7 +902,7 @@ def process_firm(path: Path, limit: int | None, workers: int, dry_run: bool) -> 
     def work(item):
         i, o = item
         try:
-            r = resolve_one(o)
+            r = resolve_one(o, firm_slug=slug)
             r["index"] = i
             return r
         except Exception as e:

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<stdin>", line 41, in <module>
+  File "/workspace/vc-comp-me/scripts/dragoneer_scraper.py", line 248, in main
+    html_text = fetch(BASE_URL)
+  File "/workspace/vc-comp-me/scripts/dragoneer_scraper.py", line 161, in fetch
+    raise SystemExit(f"FATAL: could not fetch {url}: {last}")
+SystemExit: FATAL: could not fetch https://www.dragoneer.com/companies: 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.dragoneer.com/companies
