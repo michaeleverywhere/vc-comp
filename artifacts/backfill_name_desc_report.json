@@ -1,0 +1,209 @@
+{
+  "scope": "data/*_companies.json excluding all_companies.json",
+  "sources": "firm portfolio/detail pages and firm CMS/APIs only; rejected company-homepage meta descriptions from factory scrapers",
+  "before": {
+    "total": 22126,
+    "company_name_coverage_pct": 100.0,
+    "description_coverage_pct": 79.33,
+    "miss_company_name": 0,
+    "miss_description": 4574
+  },
+  "after": {
+    "total": 22126,
+    "company_name_coverage_pct": 100.0,
+    "description_coverage_pct": 79.33,
+    "miss_company_name": 0,
+    "miss_description": 4574
+  },
+  "delta": {
+    "company_name_filled": 0,
+    "description_filled": 0
+  },
+  "rescrape": {
+    "firms_attempted": 52,
+    "firm_site_rescrapes_ok": 37,
+    "factory_scrape_ok": 13,
+    "failed": [
+      "dragoneer (site 404/403)",
+      "bessemer/greylock/iconiq/hustlefund live parse returned 0 (selectors stale; existing data retained)",
+      "wingvc scrape returned 0"
+    ],
+    "company_site_fills_rejected": 18,
+    "firm_site_fills_accepted": 0
+  },
+  "still_missing_top_firms": [
+    {
+      "firm": "gv",
+      "missing": 646,
+      "n": 646,
+      "pct": 100
+    },
+    {
+      "firm": "generalcatalyst",
+      "missing": 523,
+      "n": 584,
+      "pct": 90
+    },
+    {
+      "firm": "coatue",
+      "missing": 372,
+      "n": 372,
+      "pct": 100
+    },
+    {
+      "firm": "hustlefund",
+      "missing": 335,
+      "n": 335,
+      "pct": 100
+    },
+    {
+      "firm": "slowventures",
+      "missing": 328,
+      "n": 328,
+      "pct": 100
+    },
+    {
+      "firm": "norwest",
+      "missing": 297,
+      "n": 511,
+      "pct": 58
+    },
+    {
+      "firm": "boxgroup",
+      "missing": 294,
+      "n": 294,
+      "pct": 100
+    },
+    {
+      "firm": "svangel",
+      "missing": 158,
+      "n": 158,
+      "pct": 100
+    },
+    {
+      "firm": "ribbit",
+      "missing": 155,
+      "n": 155,
+      "pct": 100
+    },
+    {
+      "firm": "uncork",
+      "missing": 154,
+      "n": 175,
+      "pct": 88
+    },
+    {
+      "firm": "m12",
+      "missing": 141,
+      "n": 141,
+      "pct": 100
+    },
+    {
+      "firm": "entreecapital",
+      "missing": 123,
+      "n": 156,
+      "pct": 79
+    },
+    {
+      "firm": "a16z",
+      "missing": 122,
+      "n": 860,
+      "pct": 14
+    },
+    {
+      "firm": "earlybird",
+      "missing": 118,
+      "n": 118,
+      "pct": 100
+    },
+    {
+      "firm": "reachcapital",
+      "missing": 117,
+      "n": 133,
+      "pct": 88
+    },
+    {
+      "firm": "resoluteventures",
+      "missing": 112,
+      "n": 112,
+      "pct": 100
+    },
+    {
+      "firm": "titaniumventures",
+      "missing": 101,
+      "n": 101,
+      "pct": 100
+    },
+    {
+      "firm": "signalfire",
+      "missing": 100,
+      "n": 100,
+      "pct": 100
+    },
+    {
+      "firm": "meritech",
+      "missing": 50,
+      "n": 50,
+      "pct": 100
+    },
+    {
+      "firm": "capitalg",
+      "missing": 45,
+      "n": 96,
+      "pct": 47
+    },
+    {
+      "firm": "whitestarcapital",
+      "missing": 39,
+      "n": 98,
+      "pct": 40
+    },
+    {
+      "firm": "blockchaincapital",
+      "missing": 33,
+      "n": 100,
+      "pct": 33
+    },
+    {
+      "firm": "dragoneer",
+      "missing": 29,
+      "n": 29,
+      "pct": 100
+    },
+    {
+      "firm": "greatoaksventurecapital",
+      "missing": 26,
+      "n": 100,
+      "pct": 26
+    },
+    {
+      "firm": "trueventures",
+      "missing": 19,
+      "n": 177,
+      "pct": 11
+    }
+  ],
+  "structural_zero_desc_firms": [
+    "boxgroup",
+    "coatue",
+    "dragoneer",
+    "earlybird",
+    "gv",
+    "hustlefund",
+    "m12",
+    "meritech",
+    "resoluteventures",
+    "ribbit",
+    "signalfire",
+    "slowventures",
+    "svangel",
+    "titaniumventures"
+  ],
+  "notes": [
+    "company_name already 100% complete across all firm files",
+    "Re-scraped firm sources; Algolia/list/API coverage unchanged for GC/Norwest/a16z/etc.",
+    "18 candidate description fills from factory scrapers were REJECTED \u2014 they came from portfolio companies' own homepages (meta/og:description), not firm sites; some were also mis-attributed (Paradex/Routefire\u2190Coinbase)",
+    "Prefer empty description over guessed or third-party copy",
+    "all_companies.json rebuilt via master_builder: 22551 across 129 firms (includes Lightspeed companies.json)"
+  ]
+}
