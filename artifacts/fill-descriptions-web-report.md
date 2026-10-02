@@ -1,7 +1,7 @@
 # Description web backfill — 2026-10-02
 
 **Repo:** michaeleverywhere/vc-comp  
-**Commit SHA:** `5983fae7a00961ed26d7e97a7bb9ca427d0fdb22` (short `5983fae`)  
+**Commit SHA:** `536deed4ed023590f9503ef1531f0c3f3b993064` (short `536deed`)  
 **Pushed:** yes → origin/main  
 **Scope:** empty `description` (and missing `company_name` if any) across `data/*_companies.json`  
 **Sources ALLOWED:** official company websites (og/meta description), Wikidata (domain-verified or strict exact-label+org), other public non-paywalled pages  
