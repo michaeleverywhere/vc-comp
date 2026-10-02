@@ -1,6 +1,8 @@
 # Description web backfill — 2026-10-02
 
 **Repo:** michaeleverywhere/vc-comp  
+**Commit SHA:** `5983fae7a00961ed26d7e97a7bb9ca427d0fdb22` (short `5983fae`)  
+**Pushed:** yes → origin/main  
 **Scope:** empty `description` (and missing `company_name` if any) across `data/*_companies.json`  
 **Sources ALLOWED:** official company websites (og/meta description), Wikidata (domain-verified or strict exact-label+org), other public non-paywalled pages  
 **FORBIDDEN:** Crunchbase, LinkedIn, PitchBook; inventing copy; overwriting non-empty descriptions  
