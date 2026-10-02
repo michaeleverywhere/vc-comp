@@ -1,10 +1,8 @@
 # Private Comps backfill (resume) — 2026-10-02
 
 **Repo:** michaeleverywhere/vc-comp  
-**Commit SHA:** `536deed4ed023590f9503ef1531f0c3f3b993064` (short `536deed`)  
-**Pushed:** yes → origin/main  
-**Commit SHA:**  (short )  
-**Pushed:** yes → origin/main  
+**Commit SHA:** `536deed4ed023590f9503ef1531f0c3f3b993064` (short `536deed`; tip `5aa96ea`)  
+**Pushed:** yes → origin/main (`michaeleverywhere/vc-comp`)  
 **Scope:** blank `description` + empty `everywhere_tags` across firm `data/*_companies.json`  
 **Sources ALLOWED:** company sites, Wikidata, Clearbit domain suggest, DuckDuckGo IA, public pages  
 **FORBIDDEN:** Crunchbase, LinkedIn, PitchBook; inventing; overwriting non-empty; Anthropic/Haiku for tags  
