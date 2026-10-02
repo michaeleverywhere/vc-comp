@@ -168,8 +168,10 @@ if __name__ == "__main__":
 
     data_dir = Path(args.data_dir) if args.data_dir else _DEFAULT_DATA_DIR
     rows = build(data_dir)
+    out = data_dir / _OUTPUT_FILENAME
+    out.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     firms = {r["firm_slug"] for r in rows}
-    print(f"[master_builder] {len(rows)} companies across {len(firms)} firms")
+    print(f"[master_builder] wrote {out} — {len(rows)} companies across {len(firms)} firms")
     print(f"[master_builder] sample:")
     for r in rows[:3]:
         print(f"  {r['firm']:<20} {r['name']}")
