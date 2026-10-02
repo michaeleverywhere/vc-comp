@@ -1,6 +1,9 @@
 # Backfill company_name + description — 2026-10-02
 
 **Repo:** michaeleverywhere/vc-comp  
+**Commit SHA:** `1753c88be9cf504441a4be543816d276fe680f68` (short `1753c88`)  
+**Pushed:** yes → origin/main  
+**Airtable:** Private Comps Last commit → `1753c88` on all 129 firm rows  
 **Scope:** `data/*_companies.json` (exclude `all_companies.json`)  
 **Rule:** firm sites only; never invent; never Crunchbase/LinkedIn/PitchBook; prefer empty over guessed copy.
 
