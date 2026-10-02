@@ -83,12 +83,19 @@ Current datasets (in `data/`):
 | Balderton Capital | `balderton_companies.json` | 205 | balderton.com/companies — FacetWP via Chrome (`balderton_scraper.py`) |
 | Lowercarbon Capital | `lowercarbon_companies.json` | 101 | lowercarbon.com — WP REST (`lowercarbon_scraper.py`) |
 | Canaan | `canaan_companies.json` | 345 | canaan.com/companies — Rails modal API (`canaan_scraper.py`; substitute for Atomico — atomico.com HTTP 429) |
-**99 datasets, 18,637 companies, 93.6% carrying `everywhere_tags`** (2026-09-29).
+| Sapphire Ventures | `sapphire_companies.json` | 196 | sapphireventures.com/companies (`sapphire_scraper.py`) |
+| Threshold Ventures | `threshold_companies.json` | 90 | threshold.vc/companies — Webflow (`threshold_scraper.py`) |
+| Unusual Ventures | `unusual_companies.json` | 63 | unusual.vc/portfolio (`unusual_scraper.py`) |
+| Earlybird | `earlybird_companies.json` | 118 | earlybird.com/companies — Framer (`earlybird_scraper.py`) |
+| Boldstart Ventures | `boldstart_companies.json` | 26 | boldstart.vc/companies (`boldstart_scraper.py`) |
+| Tribe Capital | `tribe_companies.json` | 68 | tribecap.co/portfolio — Webflow (`tribe_scraper.py`) |
+| SignalFire | `signalfire_companies.json` | 100 | signalfire.com/portfolio — Webflow (`signalfire_scraper.py`; re-armed 2026-10-02) |
+| Project A | `projecta_companies.json` | 114 | project-a.vc — Sanity API (`projecta_scraper.py`) |
+| Northzone | `northzone_companies.json` | 112 | northzone.com/portfolio — Webflow (`northzone_scraper.py`) |
+| Costanoa Ventures | `costanoa_companies.json` | 97 | costanoa.vc — Prismic API (`costanoa_scraper.py`) |
+**119 datasets after 2026-10-02 Daily 10 (Sapphire/Threshold/Unusual/Earlybird/Boldstart/Tribe/SignalFire/Project A/Northzone/Costanoa); see all_companies.json for live totals.**
 
-**Retired and DELETED** (bespoke-or-nothing): SignalFire — burned all 4 factory attempts on
-"description coverage < 30%", so `_retire_fully` removed the dataset on 2026-07-30. Do not
-re-add it without a hand-written scraper. Wing VC went the other way on the same re-armed
-burst and graduated bespoke.
+**Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
 
 **Firms verified to publish NO portfolio on their own site** (no dataset possible under the
 no-third-party-sources rule): Benchmark, Thrive Capital, DST Global, Tiger Global, Altimeter,
