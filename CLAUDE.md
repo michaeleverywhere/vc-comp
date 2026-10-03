@@ -93,6 +93,16 @@ Current datasets (in `data/`):
 | Project A | `projecta_companies.json` | 114 | project-a.vc — Sanity API (`projecta_scraper.py`) |
 | Northzone | `northzone_companies.json` | 112 | northzone.com/portfolio — Webflow (`northzone_scraper.py`) |
 | Costanoa Ventures | `costanoa_companies.json` | 97 | costanoa.vc — Prismic API (`costanoa_scraper.py`) |
+| BITKRAFT | `bitkraft_companies.json` | 144 | bitkraft.vc/portfolio — __NEXT_DATA__ (`bitkraft_scraper.py`) |
+| DCVC | `dcvc_companies.json` | 297 | dcvc.com/companies (`dcvc_scraper.py`) |
+| FirstMark | `firstmark_companies.json` | 149 | firstmark.com/portfolio (`firstmark_scraper.py`) |
+| Healthy Ventures | `healthyventures_companies.json` | 26 | healthy.vc/portfolio — Webflow (`healthyventures_scraper.py`) |
+| Left Lane Capital | `leftlane_companies.json` | 110 | leftlane.com/companies — Webflow (`leftlane_scraper.py`) |
+| Westly Group | `westlygroup_companies.json` | 41 | westlygroup.com — WP REST (`westlygroup_scraper.py`) |
+| Heavybit | `heavybit_companies.json` | 114 | heavybit.com — Sanity API (`heavybit_scraper.py`) |
+| Nyca Partners | `nyca_companies.json` | 115 | nyca.com/companies (`nyca_scraper.py`) |
+| Konvoy | `konvoy_companies.json` | 51 | konvoy.vc/portfolio — Webflow (`konvoy_scraper.py`) |
+| Inspired Capital | `inspiredcapital_companies.json` | 51 | inspiredcapital.com/portfolio — Webflow+JSON-LD (`inspiredcapital_scraper.py`) |
 **129 datasets after 2026-10-02 extra batch (Bullpen/Hyde Park/White Star/Resolute/Lunar/Titanium/Serena/BoxGroup/M12/Entrée; + morning Daily 10); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.

@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-firm metadata that isn't derivable from the datasets, used ONLY to fill BLANK cells. Right now that's just Source type (a hand classification). Everything else \u2014 Name, Source URL, Notes, Scraper module \u2014 is derived automatically. Add a firm here only if it needs a non-default Source type; discovered firms default to 'generic-extractor'.",
+  "_comment": "Per-firm metadata that isn't derivable from the datasets, used ONLY to fill BLANK cells. Right now that's just Source type (a hand classification). Everything else — Name, Source URL, Notes, Scraper module — is derived automatically. Add a firm here only if it needs a non-default Source type; discovered firms default to 'generic-extractor'.",
   "source_type": {
     "inflection_companies.json": "raw-html",
     "eclipseventures_companies.json": "sanity-api",
@@ -42,6 +42,16 @@
     "serenaventures_companies.json": "raw-html",
     "boxgroup_companies.json": "webflow",
     "m12_companies.json": "wp-json",
-    "entreecapital_companies.json": "raw-html"
+    "entreecapital_companies.json": "raw-html",
+    "bitkraft_companies.json": "next-data",
+    "dcvc_companies.json": "raw-html",
+    "firstmark_companies.json": "raw-html",
+    "healthyventures_companies.json": "webflow",
+    "leftlane_companies.json": "webflow",
+    "westlygroup_companies.json": "wp-json",
+    "heavybit_companies.json": "sanity-api",
+    "nyca_companies.json": "raw-html",
+    "konvoy_companies.json": "webflow",
+    "inspiredcapital_companies.json": "webflow"
   }
 }
