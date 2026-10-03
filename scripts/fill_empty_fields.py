@@ -35,8 +35,7 @@ STATUS_MAP = {
     "live": LIVE_STATUS,
     "acquired": ACQUIRED_STATUS,
     "acquisition": ACQUIRED_STATUS,
-    "exited": ACQUIRED_STATUS,
-    "exit": ACQUIRED_STATUS,
+    # "exited"/"exit" are NOT acquired — IPO and other exits are not acquisitions.
     "m&a": ACQUIRED_STATUS,
     "merged": ACQUIRED_STATUS,
     "aquired": ACQUIRED_STATUS,  # typo
@@ -47,7 +46,7 @@ ACQUIRED_IN_STATUS = re.compile(
     r"(?i)\b(acquired|acquisition|merged with|sold to)\b"
 )
 TICKER_ACQUIRED = re.compile(r"(?i)acquired by")
-NAME_EXIT = re.compile(r"\((?i:Acquired|Exited|Merged)[^)]*\)")
+NAME_EXIT = re.compile(r"\((?i:Acquired|Merged)[^)]*\)")
 DESC_ACQUIRED = re.compile(
     r"(?i)\b(?:was\s+)?acquired by\b|\bmerged with\b|\bacquisition by\b"
 )
@@ -98,7 +97,7 @@ def derive_status(o: dict) -> str | None:
     et = o.get("exit_type")
     if isinstance(et, str) and et.strip():
         low = et.lower()
-        if any(w in low for w in ("acquir", "merger", "merged", "exit")):
+        if any(w in low for w in ("acquir", "merger", "merged")):
             return ACQUIRED_STATUS
     if o.get("is_acquired") is True:
         return ACQUIRED_STATUS

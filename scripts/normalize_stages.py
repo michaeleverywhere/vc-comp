@@ -63,7 +63,10 @@ _NON_ROUND_EXACT = {
 # Year-only / date-like — leave first_invested alone; clear if in a stage field.
 _YEAR_RE = re.compile(r"^\d{4}$")
 _DATE_RE = re.compile(
-    r"^(\d{1,2}/\d{1,2}/\d{2,4}|\d{4}-\d{2}-\d{2}|[A-Za-z]+\s+\d{4})$"
+    r"^(\d{1,2}/\d{1,2}/\d{2,4}|\d{4}-\d{2}-\d{2}|"
+    r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{1,2},?\s+\d{4}|"
+    r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{4})$",
+    re.I,
 )
 
 
@@ -98,6 +101,27 @@ def _canon_series(letter: str, plus: bool = False) -> str:
     return f"Series {letter}+" if plus else f"Series {letter}"
 
 
+def _expand_series_lists(s: str) -> str:
+    """Turn 'Series A, B' / 'Series A & B' into separate Series labels.
+
+    Comma-splitting otherwise leaves a bare 'B', which is not a round.
+    """
+    def repl(m: re.Match) -> str:
+        found = re.findall(
+            r"(?:series[\s\-]*)([a-h])|[,&]\s*([a-h])\b",
+            m.group(0),
+            re.I,
+        )
+        letters = [(a or b).upper() for a, b in found if (a or b)]
+        return " / ".join(f"Series {L}" for L in letters)
+    return re.sub(
+        r"series[\s\-]*[a-h](?:\s*[,&]\s*[a-h])+",
+        repl,
+        s,
+        flags=re.I,
+    )
+
+
 def extract_rounds(raw) -> list[str]:
     """Extract ordered unique canonical round labels from a raw field value."""
     if raw is None:
@@ -111,7 +135,7 @@ def extract_rounds(raw) -> list[str]:
         return _dedupe(parts)
     if not isinstance(raw, str):
         raw = str(raw)
-    s = raw.strip()
+    s = _expand_series_lists(raw.strip())
     if not s:
         return []
 

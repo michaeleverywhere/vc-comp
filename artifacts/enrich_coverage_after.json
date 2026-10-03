@@ -1,0 +1,487 @@
+{
+  "n": 23648,
+  "firms": 139,
+  "fields": {
+    "name": {
+      "nonempty": 23648,
+      "pct": 100.0
+    },
+    "description": {
+      "nonempty": 22003,
+      "pct": 93.04
+    },
+    "url": {
+      "nonempty": 19542,
+      "pct": 82.64
+    },
+    "primary_investor": {
+      "nonempty": 23648,
+      "pct": 100.0
+    },
+    "everywhere_tags": {
+      "nonempty": 22421,
+      "pct": 94.81
+    },
+    "location": {
+      "nonempty": 8127,
+      "pct": 34.37
+    },
+    "stage": {
+      "nonempty": 4163,
+      "pct": 17.6
+    },
+    "first_invested": {
+      "nonempty": 7508,
+      "pct": 31.75
+    },
+    "status": {
+      "nonempty": 17565,
+      "pct": 74.28
+    },
+    "last_financing": {
+      "nonempty": 0,
+      "pct": 0.0
+    },
+    "total_raised": {
+      "nonempty": 0,
+      "pct": 0.0
+    },
+    "arr": {
+      "nonempty": 0,
+      "pct": 0.0
+    },
+    "valuation": {
+      "nonempty": 0,
+      "pct": 0.0
+    },
+    "team_size": {
+      "nonempty": 0,
+      "pct": 0.0
+    },
+    "tracked_by": {
+      "nonempty": 0,
+      "pct": 0.0
+    }
+  },
+  "delta_vs_before": {
+    "name": {
+      "before": 23648,
+      "after": 23648,
+      "delta": 0,
+      "before_pct": 100.0,
+      "after_pct": 100.0
+    },
+    "description": {
+      "before": 21407,
+      "after": 22003,
+      "delta": 596,
+      "before_pct": 90.52,
+      "after_pct": 93.04
+    },
+    "url": {
+      "before": 19542,
+      "after": 19542,
+      "delta": 0,
+      "before_pct": 82.64,
+      "after_pct": 82.64
+    },
+    "primary_investor": {
+      "before": 23648,
+      "after": 23648,
+      "delta": 0,
+      "before_pct": 100.0,
+      "after_pct": 100.0
+    },
+    "everywhere_tags": {
+      "before": 22098,
+      "after": 22421,
+      "delta": 323,
+      "before_pct": 93.45,
+      "after_pct": 94.81
+    },
+    "location": {
+      "before": 4270,
+      "after": 8127,
+      "delta": 3857,
+      "before_pct": 18.06,
+      "after_pct": 34.37
+    },
+    "stage": {
+      "before": 4161,
+      "after": 4163,
+      "delta": 2,
+      "before_pct": 17.6,
+      "after_pct": 17.6
+    },
+    "first_invested": {
+      "before": 7328,
+      "after": 7508,
+      "delta": 180,
+      "before_pct": 30.99,
+      "after_pct": 31.75
+    },
+    "status": {
+      "before": 17565,
+      "after": 17565,
+      "delta": 0,
+      "before_pct": 74.28,
+      "after_pct": 74.28
+    },
+    "last_financing": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    },
+    "total_raised": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    },
+    "arr": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    },
+    "valuation": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    },
+    "team_size": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    },
+    "tracked_by": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "before_pct": 0.0,
+      "after_pct": 0.0
+    }
+  },
+  "watched": {
+    "BoxGroup": {
+      "n": 294,
+      "description": 265,
+      "everywhere_tags": 242,
+      "location_blank": 273,
+      "stage_blank": 294,
+      "url": 294,
+      "status": 294,
+      "first_invested_blank": 294,
+      "everywhere_tags_blank": 52,
+      "description_blank": 29,
+      "location": 21
+    },
+    "FirstMark": {
+      "n": 149,
+      "description": 108,
+      "everywhere_tags_blank": 66,
+      "location": 14,
+      "stage_blank": 149,
+      "url": 99,
+      "status": 149,
+      "first_invested_blank": 149,
+      "everywhere_tags": 83,
+      "location_blank": 135,
+      "description_blank": 41,
+      "url_blank": 50
+    },
+    "First Round Capital": {
+      "n": 195,
+      "description": 195,
+      "everywhere_tags": 195,
+      "location": 177,
+      "stage": 194,
+      "url": 191,
+      "status": 195,
+      "first_invested_blank": 195,
+      "location_blank": 18,
+      "url_blank": 4,
+      "stage_blank": 1
+    },
+    "GV": {
+      "n": 646,
+      "description": 289,
+      "everywhere_tags_blank": 333,
+      "location_blank": 646,
+      "stage_blank": 646,
+      "url_blank": 646,
+      "status": 646,
+      "first_invested_blank": 646,
+      "description_blank": 357,
+      "everywhere_tags": 313
+    },
+    "Hustle Fund": {
+      "n": 335,
+      "description_blank": 177,
+      "everywhere_tags": 335,
+      "location": 335,
+      "stage_blank": 335,
+      "url": 260,
+      "status_blank": 335,
+      "first_invested_blank": 335,
+      "description": 158,
+      "url_blank": 75
+    },
+    "Nyca Partners": {
+      "n": 115,
+      "description": 97,
+      "everywhere_tags": 91,
+      "location_blank": 108,
+      "stage_blank": 115,
+      "url": 106,
+      "status": 115,
+      "first_invested_blank": 115,
+      "location": 7,
+      "description_blank": 18,
+      "everywhere_tags_blank": 24,
+      "url_blank": 9
+    },
+    "Slow Ventures": {
+      "n": 328,
+      "description": 113,
+      "everywhere_tags": 98,
+      "location_blank": 328,
+      "stage_blank": 328,
+      "url_blank": 328,
+      "status": 328,
+      "first_invested_blank": 328,
+      "description_blank": 215,
+      "everywhere_tags_blank": 230
+    }
+  },
+  "worst_desc_blank": [
+    {
+      "firm": "GV",
+      "n": 646,
+      "description_blank": 357,
+      "tags_blank": 333,
+      "location_blank": 646,
+      "url_blank": 646,
+      "stage_blank": 646
+    },
+    {
+      "firm": "Slow Ventures",
+      "n": 328,
+      "description_blank": 215,
+      "tags_blank": 230,
+      "location_blank": 328,
+      "url_blank": 328,
+      "stage_blank": 328
+    },
+    {
+      "firm": "Hustle Fund",
+      "n": 335,
+      "description_blank": 177,
+      "tags_blank": 0,
+      "location_blank": 0,
+      "url_blank": 75,
+      "stage_blank": 335
+    },
+    {
+      "firm": "Uncork Capital",
+      "n": 175,
+      "description_blank": 95,
+      "tags_blank": 0,
+      "location_blank": 167,
+      "url_blank": 154,
+      "stage_blank": 175
+    },
+    {
+      "firm": "Ribbit Capital",
+      "n": 155,
+      "description_blank": 84,
+      "tags_blank": 0,
+      "location_blank": 155,
+      "url_blank": 155,
+      "stage_blank": 155
+    },
+    {
+      "firm": "Earlybird",
+      "n": 118,
+      "description_blank": 83,
+      "tags_blank": 53,
+      "location_blank": 0,
+      "url_blank": 118,
+      "stage_blank": 23
+    },
+    {
+      "firm": "General Catalyst",
+      "n": 584,
+      "description_blank": 80,
+      "tags_blank": 0,
+      "location_blank": 528,
+      "url_blank": 3,
+      "stage_blank": 584
+    },
+    {
+      "firm": "Norwest",
+      "n": 511,
+      "description_blank": 64,
+      "tags_blank": 0,
+      "location_blank": 1,
+      "url_blank": 44,
+      "stage_blank": 511
+    },
+    {
+      "firm": "Reach Capital",
+      "n": 133,
+      "description_blank": 62,
+      "tags_blank": 0,
+      "location_blank": 133,
+      "url_blank": 133,
+      "stage_blank": 133
+    },
+    {
+      "firm": "Coatue",
+      "n": 372,
+      "description_blank": 57,
+      "tags_blank": 0,
+      "location_blank": 295,
+      "url_blank": 19,
+      "stage_blank": 372
+    },
+    {
+      "firm": "FirstMark",
+      "n": 149,
+      "description_blank": 41,
+      "tags_blank": 66,
+      "location_blank": 135,
+      "url_blank": 50,
+      "stage_blank": 149
+    },
+    {
+      "firm": "DCVC",
+      "n": 297,
+      "description_blank": 31,
+      "tags_blank": 76,
+      "location_blank": 297,
+      "url_blank": 297,
+      "stage_blank": 297
+    },
+    {
+      "firm": "BoxGroup",
+      "n": 294,
+      "description_blank": 29,
+      "tags_blank": 52,
+      "location_blank": 273,
+      "url_blank": 0,
+      "stage_blank": 294
+    },
+    {
+      "firm": "Resolute Ventures",
+      "n": 112,
+      "description_blank": 25,
+      "tags_blank": 9,
+      "location_blank": 10,
+      "url_blank": 12,
+      "stage_blank": 112
+    },
+    {
+      "firm": "Titanium Ventures",
+      "n": 101,
+      "description_blank": 22,
+      "tags_blank": 0,
+      "location_blank": 90,
+      "url_blank": 0,
+      "stage_blank": 101
+    }
+  ],
+  "status_top": [
+    [
+      "active",
+      11472
+    ],
+    [
+      "",
+      6083
+    ],
+    [
+      "acquired",
+      3255
+    ],
+    [
+      "Public",
+      662
+    ],
+    [
+      "Exited",
+      657
+    ],
+    [
+      "Private",
+      567
+    ],
+    [
+      "Prior Investment",
+      296
+    ],
+    [
+      "Past",
+      169
+    ],
+    [
+      "live",
+      128
+    ],
+    [
+      "inactive",
+      89
+    ],
+    [
+      "Prior",
+      62
+    ],
+    [
+      "Public (IPO)",
+      34
+    ]
+  ],
+  "stage_top": [
+    [
+      "",
+      19485
+    ],
+    [
+      "Seed",
+      1888
+    ],
+    [
+      "Series A",
+      1336
+    ],
+    [
+      "Series B",
+      422
+    ],
+    [
+      "Pre-Seed",
+      168
+    ],
+    [
+      "Series C",
+      116
+    ],
+    [
+      "Series C+",
+      70
+    ],
+    [
+      "Pre-Seed / Seed",
+      45
+    ]
+  ],
+  "summary": "Resumed the interrupted Wikidata location pass from the on-disk cache and finished all 10846 remaining domain lookups (no re-query of cached names). Wrote 1,748 locations that Wikidata P159 published for a domain-verified entity; left the rest blank. Keyword tagger (automation/tags.py) found 0 additional tags on still-untagged rows that have text \u2014 the classifier already ran on this tree. Stage labels were already normalized in this dirty tree and were not run again. No scraped payload contains last financing, total raised, ARR, valuation, team size, or tracked-by, so those stay empty. all_companies.json rebuilt with automation/master_builder.py (23648 companies / 139 firms). The description script's 23,223 count excludes data/companies.json (Lightspeed, 425 rows); that file is in the rebuild and was not dropped."
+}

@@ -1,58 +1,18 @@
 {
   "dry_run": false,
-  "records_scanned": 18637,
-  "files_touched": 31,
-  "rewritten": 1714,
-  "cleared_non_round": 4213,
-  "already_good": 2765,
+  "records_scanned": 23648,
+  "files_touched": 7,
+  "rewritten": 284,
+  "cleared_non_round": 139,
+  "already_good": 4452,
   "top_rewrites": [
-    [
-      "series-a->Series A",
-      620
-    ],
-    [
-      "seed->Seed",
-      480
-    ],
-    [
-      "series-b->Series B",
-      143
-    ],
-    [
-      "series-c->Series C",
-      66
-    ],
     [
       "['Series C or Later']->['Series C+']",
       39
     ],
     [
-      "Pre-seed->Pre-Seed",
-      38
-    ],
-    [
-      "['Seed', 'Growth']->['Seed']",
-      25
-    ],
-    [
-      "series-d->Series D",
-      19
-    ],
-    [
-      "series-e->Series E",
-      11
-    ],
-    [
       "Led Seed->Seed",
       9
-    ],
-    [
-      "StageSeries A->Series A",
-      9
-    ],
-    [
-      "['Seed', 'Acquired']->['Seed']",
-      8
     ],
     [
       "Series A in 2018->Series A",
@@ -67,19 +27,19 @@
       7
     ],
     [
-      "StageSeed->Seed",
+      "Early Growth (Series A, B)->Series A / Series B",
       7
     ],
     [
-      "['Seed', 'Early']->['Seed']",
-      6
+      "Pre-Seed & Seed->Pre-Seed / Seed",
+      7
     ],
     [
       "Series A in 2020->Series A",
       6
     ],
     [
-      "['Growth', 'Seed']->['Seed']",
+      "Pre-Seed & Seed, Early Growth (Series A, B)->Pre-Seed / Seed / Series A / Series B",
       6
     ],
     [
@@ -103,12 +63,8 @@
       4
     ],
     [
-      "Seed/Early->Seed",
+      "Pre-Seed & Seed, Early Growth (Series A, B), IPO/EXIT->Pre-Seed / Seed / Series A / Series B",
       4
-    ],
-    [
-      "Seed+->Seed",
-      3
     ],
     [
       "Series B in 2024->Series B",
@@ -143,11 +99,11 @@
       3
     ],
     [
-      "['Seed', 'Venture']->['Seed']",
+      "Series C in 2025->Series C",
       2
     ],
     [
-      "Series C in 2025->Series C",
+      "Seed 2023->Seed",
       2
     ],
     [
@@ -165,168 +121,132 @@
     [
       "Series B in 2015->Series B",
       2
+    ],
+    [
+      "Pre-Seed in 2026->Pre-Seed",
+      2
+    ],
+    [
+      "Series A 2023->Series A",
+      2
+    ],
+    [
+      "Series E in 2024->Series E",
+      2
+    ],
+    [
+      "Secondary in 2019->Secondary",
+      2
+    ],
+    [
+      "Series A in 2022->Series A",
+      2
+    ],
+    [
+      "Series A in 2014 Exited in 2023->Series A",
+      2
+    ],
+    [
+      "Seed in 2024->Seed",
+      2
+    ],
+    [
+      "Seed in 2023->Seed",
+      2
+    ],
+    [
+      "Pre-Seed & Seed, IPO/EXIT->Pre-Seed / Seed",
+      2
+    ],
+    [
+      "Early Growth (Series A, B), IPO/EXIT->Series A / Series B",
+      2
+    ],
+    [
+      "Seed in 2015->Seed",
+      1
     ]
   ],
   "top_clears": [
     [
       "Early",
-      1240
-    ],
-    [
-      "Early Stage",
-      653
+      75
     ],
     [
       "Growth",
-      483
+      43
     ],
     [
-      "Private",
-      313
-    ],
-    [
-      "Venture",
-      290
-    ],
-    [
-      "Acquired",
-      194
-    ],
-    [
-      "M&A",
-      148
+      "2007",
+      2
     ],
     [
       "Late Stage",
-      74
+      2
     ],
     [
-      "Buyout",
-      73
+      "IPO/EXIT",
+      2
     ],
     [
-      "IPO",
-      72
+      "2008 Acquired by Churchill Downs in 2014",
+      1
     ],
     [
-      "Public/PIPES",
-      52
+      "2008",
+      1
     ],
     [
-      "Venture Capital",
-      49
+      "Initial investment in 2011",
+      1
+    ],
+    [
+      "Initial investment in 2008 Acquired by Francisco Partners in 2022",
+      1
+    ],
+    [
+      "2010 Acquired by Beats Electrics in 2014.",
+      1
+    ],
+    [
+      "Acquired by Carrier Global Corporation in 2021",
+      1
+    ],
+    [
+      "Acquired Rahko in 2022",
+      1
     ],
     [
       "Exited",
-      28
+      1
     ],
     [
-      "Private Equity",
-      23
+      "Investment in 2021",
+      1
     ],
     [
-      "Roelof Botha",
-      22
+      "2006 Exited in Dec 2020",
+      1
     ],
     [
-      "Alfred Lin",
-      21
+      "2006",
+      1
     ],
     [
-      "Early Stage|Growth Stage",
-      20
+      "2000 IPO in 2009",
+      1
     ],
     [
-      "early",
-      19
+      "Series MM (M&A)",
+      1
     ],
     [
-      "Shaun Maguire",
-      19
+      "Common (spin-out)",
+      1
     ],
     [
-      "Andrew Reed",
-      17
-    ],
-    [
-      "Completed",
-      16
-    ],
-    [
-      "Bill Coughran",
-      16
-    ],
-    [
-      "Jess Lee",
-      13
-    ],
-    [
-      "Special Opportunities - Brazil",
-      12
-    ],
-    [
-      "Jim Goetz",
-      12
-    ],
-    [
-      "Fund III",
-      11
-    ],
-    [
-      "Bryan Schreier",
-      11
-    ],
-    [
-      "Pat Grady",
-      10
-    ],
-    [
-      "Fund IV",
-      9
-    ],
-    [
-      "Michael Moritz",
-      9
-    ],
-    [
-      "Early|Acquired",
-      8
-    ],
-    [
-      "Bogomil Balkansky",
-      8
-    ],
-    [
-      "Sonya Huang",
-      8
-    ],
-    [
-      "Growth|Venture",
-      7
-    ],
-    [
-      "George Robson",
-      7
-    ],
-    [
-      "SPAC",
-      6
-    ],
-    [
-      "Growth|Acquired",
-      6
-    ],
-    [
-      "common",
-      5
-    ],
-    [
-      "Growth Stage",
-      5
-    ],
-    [
-      "Konstantine Buhler",
-      5
+      "Other",
+      1
     ]
   ]
 }
