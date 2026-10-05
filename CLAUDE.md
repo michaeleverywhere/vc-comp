@@ -103,6 +103,16 @@ Current datasets (in `data/`):
 | Nyca Partners | `nyca_companies.json` | 115 | nyca.com/companies (`nyca_scraper.py`) |
 | Konvoy | `konvoy_companies.json` | 51 | konvoy.vc/portfolio — Webflow (`konvoy_scraper.py`) |
 | Inspired Capital | `inspiredcapital_companies.json` | 51 | inspiredcapital.com/portfolio — Webflow+JSON-LD (`inspiredcapital_scraper.py`) |
+| MaC Venture Capital | `mac_companies.json` | 175 | macventurecapital.com/portfolio — HTML + WP REST status (`mac_scraper.py`) |
+| .406 Ventures | `406ventures_companies.json` | 92 | 406ventures.com/companies (`406ventures_scraper.py`) |
+| Kalaari Capital | `kalaari_companies.json` | 71 | kalaari.com/portfolio — Webflow + detail pages (`kalaari_scraper.py`) |
+| Congruent Ventures | `congruent_companies.json` | 61 | congruentvc.com/portfolio — Webflow + detail pages (`congruent_scraper.py`) |
+| Golden Gate Ventures | `goldengate_companies.json` | 110 | goldengate.vc/portfolio — Webflow + detail pages (`goldengate_scraper.py`) |
+| Picus Capital | `picus_companies.json` | 168 | picuscap.com/portfolio (`picus_scraper.py`) |
+| Prelude Ventures | `prelude_companies.json` | 61 | preludeventures.com/portfolio — Craft CMS + detail pages (`prelude_scraper.py`) |
+| Daphni | `daphni_companies.json` | 101 | daphni.com/portfolio — Webflow paginated (`daphni_scraper.py`) |
+| Jungle Ventures | `jungle_companies.json` | 71 | jungle.vc/portfolio — Webflow (`jungle_scraper.py`) |
+| Openspace Ventures | `openspace_companies.json` | 48 | openspacecapital.com/companies — Webflow + detail pages (`openspace_scraper.py`) |
 **129 datasets after 2026-10-02 extra batch (Bullpen/Hyde Park/White Star/Resolute/Lunar/Titanium/Serena/BoxGroup/M12/Entrée; + morning Daily 10); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
