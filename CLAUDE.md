@@ -10,7 +10,7 @@ scrapers that produce them. Each dataset is one JSON array, one object per compa
 Current datasets (in `data/`):
 | firm | file | records | source |
 |---|---|---|---|
-| Lightspeed | `companies.json` | 425 | lsvp.com (built from sitemap; no script) |
+| Lightspeed | `companies.json` | 672 | lsvp.com/companies — `lightspeed_scraper.py` (listing + detail pages; includes LSIP rows flagged `lsvp_investor_flag`) |
 | USV | `usv_companies.json` | 214 | usv.com/companies (`usv_scraper.py`) |
 | Menlo Ventures | `menlo_companies.json` | 239 | menlovc.com/portfolio (`menlo_scraper.py`) |
 | Insight Partners | `insight_companies.json` | 847 | insightpartners.com/portfolio (`insight_scraper.py`) |
