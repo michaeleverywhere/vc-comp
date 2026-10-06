@@ -48,6 +48,13 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "lightspeed": ("Lightspeed Venture Partners",),
     "svangel":    ("SV Angel",),
     "8vc":        ("Eight VC",),
+    "cranevp":    ("Crane Venture Partners", "Crane"),
+    "fprimecapital": ("F-Prime",),
+    "pillarvc":   ("Pillar",),
+    "underscorevc": ("Underscore",),
+    "backedvc":   ("Backed",),
+    "headline":   ("e.ventures", "Headline Ventures"),
+    "collaborativefund": ("Collab Fund",),
 }
 
 # Trailing generic words dropped when matching a firm name to an existing slug

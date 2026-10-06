@@ -112,3 +112,34 @@ def fetch_many(urls, workers: int = 4, pause: float = 0.2) -> dict:
 
     with ThreadPoolExecutor(max_workers=workers) as ex:
         return dict(ex.map(one, urls))
+
+
+# --- helpers added for the 2026-10-06 Daily 20 batch (additive) -------------
+
+def label_after(strings, *labels):
+    """In a list of text fragments (e.g. soup.stripped_strings), return the
+    fragment that follows the first fragment equal to one of `labels`
+    (case-insensitive, trailing ':' ignored). None when the label is absent."""
+    want = {l.lower().rstrip(":").strip() for l in labels}
+    strings = [clean(s) for s in strings]
+    strings = [s for s in strings if s]
+    for i, s in enumerate(strings[:-1]):
+        if s.lower().rstrip(":").strip() in want:
+            nxt = strings[i + 1]
+            if nxt.lower().rstrip(":").strip() in want:
+                continue
+            return nxt
+    return None
+
+
+def year_of(s):
+    """First 4-digit year in a string, as int; None otherwise."""
+    m = re.search(r"\b(19|20)\d{2}\b", str(s or ""))
+    return int(m.group(0)) if m else None
+
+
+def is_social(url) -> bool:
+    u = (url or "").lower()
+    return any(d in u for d in ("linkedin.com", "twitter.com", "x.com/", "facebook.com", "instagram.com",
+                                "youtube.com", "medium.com", "tiktok.com", "crunchbase.com", "angel.co",
+                                "wellfound.com", "github.com", "apple.com/app", "play.google.com"))
