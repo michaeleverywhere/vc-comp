@@ -113,7 +113,84 @@ Current datasets (in `data/`):
 | Daphni | `daphni_companies.json` | 101 | daphni.com/portfolio — Webflow paginated (`daphni_scraper.py`) |
 | Jungle Ventures | `jungle_companies.json` | 71 | jungle.vc/portfolio — Webflow (`jungle_scraper.py`) |
 | Openspace Ventures | `openspace_companies.json` | 48 | openspacecapital.com/companies — Webflow + detail pages (`openspace_scraper.py`) |
-**129 datasets after 2026-10-02 extra batch (Bullpen/Hyde Park/White Star/Resolute/Lunar/Titanium/Serena/BoxGroup/M12/Entrée; + morning Daily 10); see all_companies.json for live totals.**
+| 83North | `83north_companies.json` | 74 | 83north.com/companies (`83north_scraper.py`) |
+| Abstract Ventures | `abstractventures_companies.json` | 262 | abstract.com/companies-list (`abstractventures_scraper.py`) |
+| Air Street Capital | `airstreetcapital_companies.json` | 66 | airstreet.com/portfolio (`airstreetcapital_scraper.py`) |
+| Albion VC | `albionvc_companies.json` | 12 | albion.vc/companies (`albionvc_scraper.py`) |
+| Backed VC | `backedvc_companies.json` | 93 | backed.vc/portfolio (`backedvc_scraper.py`) |
+| Basis Set Ventures | `basisset_companies.json` | 68 | basisset.com/portfolio (`basisset_scraper.py`) |
+| Blockchain Capital | `blockchaincapital_companies.json` | 100 | blockchain.capital/portfolio (`blockchaincapital_scraper.py`) |
+| Blossom Capital | `blossomcapital_companies.json` | 38 | blossomcap.com/portfolio (`blossomcapital_scraper.py`) |
+| Bowery Capital | `bowerycapital_companies.json` | 47 | bowerycap.com/portfolio (`bowerycapital_scraper.py`) |
+| BoxGroup | `boxgroup_companies.json` | 294 | boxgroup.com/portfolio (`boxgroup_scraper.py`) |
+| Brighteye Ventures | `brighteye_companies.json` | 53 | brighteyevc.com/portfolio (`brighteye_scraper.py`) |
+| Bullpen Capital | `bullpencapital_companies.json` | 99 | bullpencap.com/companies (`bullpencapital_scraper.py`) |
+| Cambridge Innovation Capital | `cambridgeinnovationcapital_companies.json` | 24 | cic.vc/portfolio (`cambridgeinnovationcapital_scraper.py`) |
+| CapitalG | `capitalg_companies.json` | 96 | capitalg.com/portfolio/stripe (`capitalg_scraper.py`) |
+| Collaborative Fund | `collaborativefund_companies.json` | 615 | collabfund.com/portfolio (`collaborativefund_scraper.py`) |
+| Colle Capital | `collecapital_companies.json` | 58 | collecapital.com/portfolio (`collecapital_scraper.py`) |
+| Comcast Ventures | `comcastventures_companies.json` | 212 | comcastventures.com/portfolio (`comcastventures_scraper.py`) |
+| Cowboy Ventures | `cowboyventures_companies.json` | 17 | cowboy.vc/portfolio (`cowboyventures_scraper.py`) |
+| Crane Venture Partners | `cranevp_companies.json` | 108 | crane.vc/portfolio (`cranevp_scraper.py`) |
+| Crosslink Capital | `crosslinkcapital_companies.json` | 147 | crosslinkcapital.com/portfolio (`crosslinkcapital_scraper.py`) |
+| Draper Associates | `draperassociates_companies.json` | 100 | draper.vc/portfolio (`draperassociates_scraper.py`) |
+| Eniac Ventures | `eniacventures_companies.json` | 100 | eniac.vc/companies (`eniacventures_scraper.py`) |
+| Entrée Capital | `entreecapital_companies.json` | 155 | entreecap.com/companies (`entreecapital_scraper.py`) |
+| Episode 1 Ventures | `episode1ventures_companies.json` | 84 | episode1.com/portfolio (`episode1ventures_scraper.py`) |
+| Fika Ventures | `fikaventures_companies.json` | 94 | fika.vc/portfolio (`fikaventures_scraper.py`) |
+| Floodgate | `floodgate_companies.json` | 116 | floodgate.com/companies (`floodgate_scraper.py`) |
+| Forerunner Ventures | `forerunnerventures_companies.json` | 81 | forerunnerventures.com/investments (`forerunnerventures_scraper.py`) |
+| Founder Collective | `foundercollective_companies.json` | 225 | foundercollective.com/portfolio (`foundercollective_scraper.py`) |
+| F-Prime Capital | `fprimecapital_companies.json` | 371 | fprimecapital.com/portfolio (`fprimecapital_scraper.py`) |
+| Frontline Ventures | `frontlineventures_companies.json` | 111 | frontline.vc/companies (`frontlineventures_scraper.py`) |
+| Global Brain | `globalbrain_companies.json` | 539 | globalbrains.com/en/portfolio (`globalbrain_scraper.py`) |
+| Great Oaks Venture Capital | `greatoaksventurecapital_companies.json` | 100 | greatoaksvc.com/portfolio (`greatoaksventurecapital_scraper.py`) |
+| Greycroft | `greycroft_companies.json` | 245 | greycroft.com/portfolio (`greycroft_scraper.py`) |
+| GV | `gv_companies.json` | 646 | gv.com/portfolio (`gv_scraper.py`) |
+| Headline | `headline_companies.json` | 177 | headline.com/portfolio (`headline_scraper.py`) |
+| High Alpha | `highalpha_companies.json` | 93 | highalpha.com/companies (`highalpha_scraper.py`) |
+| Hoxton Ventures | `hoxtonventures_companies.json` | 95 | hoxtonventures.com/portfolio (`hoxtonventures_scraper.py`) |
+| Hummingbird VC | `hummingbirdvc_companies.json` | 69 | hummingbird.vc/portfolio (`hummingbirdvc_scraper.py`) |
+| Hyde Park Venture Partners | `hydeparkventurepartners_companies.json` | 53 | hydeparkvp.com/companies.html (`hydeparkventurepartners_scraper.py`) |
+| Iris Capital | `iriscapital_companies.json` | 52 | iriscapital.com/portfolio (`iriscapital_scraper.py`) |
+| Kindred Capital | `kindredcapital_companies.json` | 73 | kindredcapital.vc/portfolio (`kindredcapital_scraper.py`) |
+| Kindred Ventures | `kindredventures_companies.json` | 129 | kindredventures.com/portfolio (`kindredventures_scraper.py`) |
+| Lunar Ventures | `lunarventures_companies.json` | 23 | lunar.vc/portfolio (`lunarventures_scraper.py`) |
+| M12 | `m12_companies.json` | 141 | m12.vc/portfolio (`m12_scraper.py`) |
+| Madrona Venture Group | `madronaventuregroup_companies.json` | 213 | madrona.com/companies (`madronaventuregroup_scraper.py`) |
+| Mubadala Capital | `mubadalacapital_companies.json` | 85 | mubadalacapital.com/portfolio (`mubadalacapital_scraper.py`) |
+| Mucker Capital | `mucker_companies.json` | 107 | mucker.com/companies (`mucker_scraper.py`) |
+| NFX | `nfx_companies.json` | 235 | nfx.com/companies (`nfx_scraper.py`) |
+| Notation | `notation_companies.json` | 78 | notation.vc/companies (`notation_scraper.py`) |
+| Notion Capital | `notioncapital_companies.json` | 100 | notion.vc/portfolio (`notioncapital_scraper.py`) |
+| Obvious Ventures | `obviousventures_companies.json` | 91 | obvious.com/portfolio (`obviousventures_scraper.py`) |
+| Partech | `partech_companies.json` | 274 | partechpartners.com/companies (`partech_scraper.py`) |
+| Pillar VC | `pillarvc_companies.json` | 78 | pillar.vc/companies (`pillarvc_scraper.py`) |
+| Propel Venture Partners | `propelventurepartners_companies.json` | 44 | propel.vc/portfolio (`propelventurepartners_scraper.py`) |
+| Prosus Ventures | `prosusventures_companies.json` | 125 | prosus.com/portfolio (`prosusventures_scraper.py`) |
+| Quest Venture Partners | `questventurepartners_companies.json` | 29 | questvp.com/portfolio.html (`questventurepartners_scraper.py`) |
+| Radical Ventures | `radicalventures_companies.json` | 59 | radical.vc/portfolio (`radicalventures_scraper.py`) |
+| Reach Capital | `reachcapital_companies.json` | 133 | reachcapital.com/companies (`reachcapital_scraper.py`) |
+| Redalpine | `redalpine_companies.json` | 92 | redalpine.com/portfolio (`redalpine_scraper.py`) |
+| Renegade Partners | `renegadepartners_companies.json` | 25 | renegadepartners.com/companies (`renegadepartners_scraper.py`) |
+| Resolute Ventures | `resoluteventures_companies.json` | 112 | resolute.vc/companies (`resoluteventures_scraper.py`) |
+| Ridge Ventures | `ridge_companies.json` | 39 | ridge.vc/ridge-portfolio (`ridge_scraper.py`) |
+| Rocket Internet | `rocketinternet_companies.json` | 18 | rocket-internet.com/companies (`rocketinternet_scraper.py`) |
+| RTP Global | `rtpglobal_companies.json` | 122 | rtp.vc/our-companies (`rtpglobal_scraper.py`) |
+| Seedcamp | `seedcamp_companies.json` | 327 | seedcamp.com/our-companies (`seedcamp_scraper.py`) |
+| Serena Ventures | `serenaventures_companies.json` | 42 | serenaventures.com/portfolio (`serenaventures_scraper.py`) |
+| Slow Ventures | `slowventures_companies.json` | 328 | slow.co/portfolio (`slowventures_scraper.py`) |
+| Speedinvest | `speedinvest_companies.json` | 56 | speedinvest.com/portfolio (`speedinvest_scraper.py`) |
+| Target Global | `targetglobal_companies.json` | 119 | targetglobal.vc/portfolio (`targetglobal_scraper.py`) |
+| Third Prime | `thirdprime_companies.json` | 78 | thirdprime.vc/portfolio (`thirdprime_scraper.py`) |
+| Titanium Ventures | `titaniumventures_companies.json` | 101 | ti.vc/portfolio (`titaniumventures_scraper.py`) |
+| TMT Investments | `tmtinvestments_companies.json` | 56 | tmtinvestments.com (`tmtinvestments_scraper.py`) |
+| Underscore VC | `underscorevc_companies.json` | 56 | underscore.vc/portfolio (`underscorevc_scraper.py`) |
+| Upwest | `upwest_companies.json` | 48 | upwest.vc/portfolio (`upwest_scraper.py`) |
+| Village Global | `villageglobal_companies.json` | 54 | villageglobal.com/portfolio (`villageglobal_scraper.py`) |
+| White Star Capital | `whitestarcapital_companies.json` | 98 | whitestarcapital.com/portfolio (`whitestarcapital_scraper.py`) |
+| Work-Bench | `workbench_companies.json` | 39 | work-bench.com/portfolio (`workbench_scraper.py`) |
+**179 firm datasets (28,833 companies in all_companies.json) after the 2026-10-06 Daily 20 (Founder Collective/F-Prime/Backed/Basis Set/Hoxton/Blossom/Work-Bench/Village Global/Obvious/Collab Fund/Bowery/Crane/Renegade/Headline/Redalpine/Partech/Kindred Ventures/Pillar/Third Prime/Underscore); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
 
