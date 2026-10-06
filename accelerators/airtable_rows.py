@@ -25,7 +25,10 @@ FIELD_IDS = {"Name": "fldFLQtq9YzcCRN8S", "Amount Raised": "fldUsjLahrjtnzAi8",
              "Round": "fldvX8BL6fMbAriwS", "Description": "fldNvFOIbUYq5MNvF",
              "Everywhere Sectors": "fldKNVrs4Teboh0pD", "Verticles": "fldNj3OAWrKGmq2HK",
              "Team": "fldMpAnb0Fow70UC7", "Investors": "fldL1HvlVQXcMoXfd",
-             "Date of Announcement": "fldHhi9c9Oika0lSj", "Source": "fld2kaKXbbMFAJ8uE"}
+             "Date of Announcement": "fldHhi9c9Oika0lSj", "Source": "fld2kaKXbbMFAJ8uE",
+             "Website / Linkedin": "fldK9Co1ADuoHpcIa"}
+# Michael added a single URL field "Website / Linkedin" (2026-10-06): website, else LinkedIn.
+COMBINED_URL = os.environ.get("COMBINED_URL", "1") == "1"
 ROUND_OK = {"Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series D", "Series E", "Growth"}
 
 
@@ -49,6 +52,8 @@ def rows(slug, csv_mode=False):
              "Verticles": r.get("verticals") or "", "Team": r.get("team") or "",
              "Investors": r["investors"], "Date of Announcement": r.get("date") or "",
              "Source": r["source"]}
+        if COMBINED_URL and not csv_mode:
+            f["Website / Linkedin"] = r.get("website") or r.get("linkedin_url") or ""
         if URL_FIELDS or csv_mode:
             f["Website"] = r.get("website") or ""
             f["LinkedIn"] = r.get("linkedin_url") or ""
