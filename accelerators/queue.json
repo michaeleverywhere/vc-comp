@@ -23,7 +23,8 @@
     "queued",
     "tracked",
     "no-public-output",
-    "unresolved"
+    "unresolved",
+    "scraped-airtable-pending"
   ],
   "accelerators": [
     {
@@ -32,12 +33,16 @@
       "official_site": "https://www.ycombinator.com/",
       "portfolio_url": "https://www.ycombinator.com/companies",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 6167,
       "notes": "Also on list 2. Directory filterable by batch back to S05; backfill all past batches.",
       "input_name": "YC",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/ycombinator_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/ycombinator.csv"
     },
     {
       "name": "Techstars",
@@ -45,12 +50,16 @@
       "official_site": "https://www.techstars.com/",
       "portfolio_url": "https://www.techstars.com/portfolio",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 5662,
       "notes": "Also on list 2. User wants past years too ('even like past years'); backfill all programs/cohorts since 2007.",
       "input_name": "Techstars",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/techstars_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/techstars.csv"
     },
     {
       "name": "SOSV",
@@ -58,12 +67,16 @@
       "official_site": "https://sosv.com/",
       "portfolio_url": "https://sosv.com/portfolio/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 781,
       "notes": "Also on list 2. Parent of HAX and SOSV NY/SF (formerly IndieBio); dedupe sub-program rows against SOSV portfolio.",
       "input_name": "SOSV",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/sosv_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/sosv.csv"
     },
     {
       "name": "HAX (SOSV)",
@@ -71,12 +84,15 @@
       "official_site": "https://hax.co/",
       "portfolio_url": "https://hax.co/startups/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "SOSV hard-tech program. Dedupe against SOSV portfolio.",
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 211,
+      "notes": "SOSV hard-tech program. Dedupe against SOSV portfolio. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows.",
       "region": "US",
-      "parent": "sosv"
+      "parent": "sosv",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/hax_companies.json"
     },
     {
       "name": "IndieBio / SOSV NY & SOSV SF",
@@ -84,12 +100,15 @@
       "official_site": "https://indiebio.co/",
       "portfolio_url": "https://sosv.com/portfolio/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "IndieBio was renamed SOSV NY and SOSV SF at the start of 2026 (per indiebio.co). Companies appear in SOSV portfolio; dedupe.",
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 240,
+      "notes": "IndieBio was renamed SOSV NY and SOSV SF at the start of 2026 (per indiebio.co). Companies appear in SOSV portfolio; dedupe. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows.",
       "region": "US",
-      "parent": "sosv"
+      "parent": "sosv",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/indiebio_companies.json"
     },
     {
       "name": "HF0",
@@ -97,12 +116,15 @@
       "official_site": "https://www.hf0.com/",
       "portfolio_url": "https://www.hf0.com/facts",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "tracked",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 2,
       "notes": "Also on list 2. 12-week SF residency (Hacker Fellowship Zero). Batch companies shown on JS-rendered /facts page; may need headless browser.",
       "input_name": "HF0",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 2,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/hf0_companies.json"
     },
     {
       "name": "South Park Commons",
@@ -110,12 +132,16 @@
       "official_site": "https://www.southparkcommons.com/",
       "portfolio_url": "https://www.southparkcommons.com/companies",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 202,
       "notes": "Also on list 2. Founder Fellowship cohort posts on southparkcommons.com/news and blog.southparkcommons.com cover past years.",
       "input_name": "South Park Commons",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/southparkcommons_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/southparkcommons.csv"
     },
     {
       "name": "Z Fellows",
@@ -123,12 +149,15 @@
       "official_site": "https://www.zfellows.com/",
       "portfolio_url": "https://www.zfellows.com/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "tracked",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 19,
       "notes": "Also on list 2. Only selected alumni shown on homepage (JS); no full public cohort list. Partial output.",
       "input_name": "Z fellows",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 19,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/zfellows_companies.json"
     },
     {
       "name": "Thiel Fellowship",
@@ -149,12 +178,16 @@
       "official_site": "https://pear.vc/",
       "portfolio_url": "https://pear.vc/companies/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 212,
       "notes": "Also on list 2. 'Pear fellows' resolved to Pear VC: PearX (pear.vc/pearx) is the accelerator and outputs companies; Pear Fellows (pear.vc/fellows) is a student VC apprenticeship with no company output.",
       "input_name": "Pear fellows",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/pearvc_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/pearvc.csv"
     },
     {
       "name": "Seraphim Space Accelerator (Seraphim Space Camp)",
@@ -162,12 +195,15 @@
       "official_site": "https://seraphim.vc/",
       "portfolio_url": "https://seraphim.vc/portfolio/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "tracked",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 92,
       "notes": "'Seraphim Space Camp' = Seraphim Space Accelerator (legal entity Seraphim Space Camp Accelerator Limited). Accelerator page seraphim.vc/accelerator/. Portfolio mixes fund + accelerator companies.",
       "input_name": "Seraphim Space Camp",
-      "region": "UK"
+      "region": "UK",
+      "airtable_rows": 92,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/seraphimspace_companies.json"
     },
     {
       "name": "Catalyst Accelerator",
@@ -175,12 +211,16 @@
       "official_site": "https://catalystaccelerator.space/",
       "portfolio_url": "https://catalystaccelerator.space/company-directory/",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 179,
       "notes": "Colorado Springs (Catalyst Campus), defense/space, AFRL-backed, equity-free cohorts.",
       "input_name": "Catalyst Accelerator",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/catalystaccelerator_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/catalystaccelerator.csv"
     },
     {
       "name": "Betaworks (Camp)",
@@ -188,12 +228,16 @@
       "official_site": "https://www.betaworks.com/",
       "portfolio_url": "https://www.betaworks.com/companies",
       "priority_tier": "list1",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T08:38:55-04:00",
+      "count": 101,
       "notes": "Also on list 2. Betaworks Camp thematic accelerator (AI Camps).",
       "input_name": "Betaworks",
-      "region": "US"
+      "region": "US",
+      "airtable_rows": 0,
+      "commit": "2806e01",
+      "data_file": "data/accelerators/betaworks_companies.json",
+      "airtable_csv": "accelerators/airtable_csv/betaworks.csv"
     },
     {
       "name": "UNRESOLVED: \"Let's add the\" / \"Let's add the Kira's too\"",

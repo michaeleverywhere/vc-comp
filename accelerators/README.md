@@ -11,8 +11,9 @@ went through an accelerator).
 | official_site | the accelerator's own site (verified live 2026-10-05) |
 | portfolio_url | public portfolio / cohort / company directory, or `null` |
 | priority_tier | `list1` (priority; deep history incl. past years), `list2`, `abroad` |
-| status | `queued` -> not scraped yet; `tracked` -> rows in Airtable; `no-public-output` -> no public portfolio (demo-day / announcement view); `unresolved` -> name from Michael's list not confidently identified (see `candidates`) |
-| last_run, count | set by the routines (ISO timestamp, rows written) |
+| status | `queued` -> not scraped yet; `tracked` -> rows in Airtable; `no-public-output` -> no public portfolio (demo-day / announcement view); `unresolved` -> name from Michael's list not confidently identified (see `candidates`); `scraped-airtable-pending` -> scraped and committed (`data_file`, `airtable_csv`) but not yet in Airtable; import the CSV or run `airtable_upsert.py` with a base-scoped PAT, then flip to `tracked` (daily add skips it) |
+| last_run, count | set by the routines (ISO timestamp, companies scraped) |
+| airtable_rows, commit, data_file, airtable_csv | rows currently in Airtable, repo commit of the data, JSON / CSV paths |
 | notes, input_name, region, parent, candidates | context; `input_name` is Michael's original spelling |
 
 ## Routines (start 2026-10-06)
@@ -33,3 +34,9 @@ the system of record until it is imported (Airtable > Add table > Import CSV; se
 URL columns=url). Sources: accelerators' own sites and
 official announcements only (no LinkedIn/Crunchbase/PitchBook). Emails are recorded only when
 published verbatim; never guessed.
+
+## Website / LinkedIn (2026-10-06)
+JSON and CSVs carry `website` and `linkedin_url`. LinkedIn URLs come only from the accelerator's
+listing (YC, Techstars, SOSV/HAX) or a link on the company's own site (`linkedin_source`); LinkedIn
+itself is never fetched. The Airtable fields **Website** and **LinkedIn** (type URL) still need to be
+created (create_field returned "requires authentication"); then run `URL_FIELDS=1 airtable_upsert.py`.
