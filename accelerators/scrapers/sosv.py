@@ -14,7 +14,7 @@ import time
 
 import requests
 
-from common import UA, clean, dedupe, norm_name, save, tag
+from common import UA, clean, dedupe, enrich_from_sites, norm_name, save, tag
 
 STAGE_TO_ROUND = {"Pre-Seed": "Pre-Seed", "Seed": "Seed", "Series A(+)": "Series A",
                   "Series A": "Series A", "Series B": "Series B", "Growth": "Growth"}
@@ -86,6 +86,7 @@ def scrape_site(base, label):
         dd_tags = [clean(t) for t in (a.get("demo_day_tags") or "").split(",") if clean(t)]
         recs.append({
             "name": name, "description": desc, "website": clean(a.get("website")),
+            "linkedin_url": clean(a.get("linked_in")),
             "team": ", ".join(dict.fromkeys(team)), "round": rnd, "amount_raised": amt,
             "date": "; ".join(f"SOSV {x}" if not x.lower().startswith(("sosv", "hax", "indiebio")) else x
                               for x in cohorts if x),
@@ -109,7 +110,7 @@ def main():
     for r in sosv:
         h = hx.get(norm_name(r["name"]))
         if h:
-            for f in ("description", "team", "round", "amount_raised", "verticals", "website", "date"):
+            for f in ("description", "team", "round", "amount_raised", "verticals", "website", "date", "linkedin_url"):
                 if not r.get(f) and h.get(f):
                     r[f] = h[f]
     for r in hax_only:
@@ -121,6 +122,7 @@ def main():
         r["investors"] = f"SOSV ({sub})" if sub else "SOSV"
         r["source"] = "SOSV"
     allr = dedupe(allr)
+    enrich_from_sites(allr)      # LinkedIn link published on the company's own site, if SOSV lists none
     save("sosv", allr, {"source": "https://sosv.com/portfolio/ + https://hax.co/startups/",
                         "method": "WordPress REST API (company + founder post types)",
                         "hax_only_added": len(hax_only)})

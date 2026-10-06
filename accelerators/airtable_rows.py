@@ -16,7 +16,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(os.path.dirname(HERE), "data", "accelerators")
 DESC_CAP = 250
 COLS = ["Name", "Amount Raised", "Round", "Description", "Everywhere Sectors", "Verticles",
-        "Team", "Investors", "Date of Announcement", "Source"]
+        "Team", "Investors", "Date of Announcement", "Source", "Website", "LinkedIn"]
+# Website / LinkedIn (url fields) were requested 2026-10-06 but could not be created:
+# the Airtable connector returned "requires authentication" on create_field. They are
+# in the JSON + CSV; create them in Airtable (type URL) and set URL_FIELDS=1 for REST.
+URL_FIELDS = os.environ.get("URL_FIELDS") == "1"
 FIELD_IDS = {"Name": "fldFLQtq9YzcCRN8S", "Amount Raised": "fldUsjLahrjtnzAi8",
              "Round": "fldvX8BL6fMbAriwS", "Description": "fldNvFOIbUYq5MNvF",
              "Everywhere Sectors": "fldKNVrs4Teboh0pD", "Verticles": "fldNj3OAWrKGmq2HK",
@@ -34,7 +38,7 @@ def cap(s, n=DESC_CAP):
     return (cut[:k + 1] if k > n * 0.5 else cut.rsplit(" ", 1)[0] + "…")
 
 
-def rows(slug):
+def rows(slug, csv_mode=False):
     d = json.load(open(os.path.join(DATA, f"{slug}_companies.json")))
     out = []
     for r in d["companies"]:
@@ -45,6 +49,9 @@ def rows(slug):
              "Verticles": r.get("verticals") or "", "Team": r.get("team") or "",
              "Investors": r["investors"], "Date of Announcement": r.get("date") or "",
              "Source": r["source"]}
+        if URL_FIELDS or csv_mode:
+            f["Website"] = r.get("website") or ""
+            f["LinkedIn"] = r.get("linkedin_url") or ""
         out.append({k: v for k, v in f.items() if v})
     return out
 
@@ -56,7 +63,7 @@ def by_id(row):
 if __name__ == "__main__":
     os.makedirs(os.path.join(HERE, "airtable_csv"), exist_ok=True)
     for slug in sys.argv[1:]:
-        rs = rows(slug)
+        rs = rows(slug, csv_mode=True)
         with open(os.path.join(HERE, "airtable_csv", f"{slug}.csv"), "w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=COLS)
             w.writeheader()

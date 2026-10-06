@@ -5,7 +5,7 @@ config (url, collection, key) is served by techstars.com/api/search/config/compa
 Fields used: company_name, brief_description, industry_vertical (Techstars' own
 labels -> Verticles), program_names + first_session_year (-> Date of Announcement),
 website. Techstars does not publish founders, round, or amount in the directory.
-crunchbase_url/linkedin_url in the index are deliberately dropped (banned sources).
+crunchbase_url is dropped; linkedin_url is kept only as the URL Techstars itself lists (LinkedIn is never fetched).
 """
 import requests
 
@@ -45,6 +45,7 @@ def main():
             "team": "", "round": "", "amount_raised": "",
             "date": date,
             "verticals": "; ".join(labels),
+            "linkedin_url": x.get("linkedin_url") or "",
             "investors": "Techstars",
             "source": "Techstars",
             "everywhere_tags": tag(x["company_name"], x.get("brief_description"), labels),

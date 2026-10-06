@@ -9,7 +9,7 @@ import sys
 
 import requests
 
-from common import UA, clean, dedupe, save, tag
+from common import UA, clean, dedupe, enrich_from_sites, save, tag
 
 SPACE = "Deeptech / Robotics / AR/VR"
 
@@ -124,6 +124,7 @@ def pearvc():
                        status=strip(cur.group(1)) if cur else "",
                        website=link.group(1) if link else "", source_url=url,
                        everywhere_tags=tag(name, desc, verts)))
+    enrich_from_sites(out)
     return out
 
 
@@ -144,9 +145,15 @@ def seraphimspace():
         t = tag(name, desc) or [SPACE]
         if SPACE not in t:
             t = ([SPACE] + t)[:4]
-        out.append(rec(name, "Seraphim Space Accelerator", "Seraphim", description=desc,
+        out.append(rec(name, "Seraphim Space Accelerator", "Seraphim",
+                       description=desc if not desc.endswith(tuple("abcdefghijklmnopqrstuvwxyz")) or len(desc) < 70 else "",
                        website=m.group(2), date="Seraphim Space Accelerator",
                        verticals="SpaceTech", everywhere_tags=t, source_url=url))
+    enrich_from_sites(out)
+    for r in out:
+        if r.get("description"):
+            t = tag(r["name"], r["description"])
+            r["everywhere_tags"] = ([SPACE] + [x for x in t if x != SPACE])[:4]
     return out
 
 
@@ -170,12 +177,22 @@ def catalystaccelerator():
                        website=site.group(1) if site else "",
                        date="; ".join(f"Catalyst {c.strip()}" for c in cohort.split(";") if c.strip()),
                        verticals="; ".join(labels), everywhere_tags=t, source_url=url))
+    enrich_from_sites(out)
     return out
 
 
 def betaworks():
     url = "https://www.betaworks.com/camp"
-    t = _h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", "", get(url), flags=re.S))
+    raw = get(url)
+    # camp cards link each company name to its own website
+    links = {}
+    for attrs, inner in re.findall(r'<a\b([^>]*class="feed-div camp[^"]*"[^>]*)>(.*?)</a>', raw, re.S):
+        hm = re.search(r'href="(https?://[^"]+)"', attrs)
+        nm = clean(_h.unescape(re.sub(r"<[^>]+>", " ", inner)))
+        if hm and nm:
+            href = hm.group(1)
+            links.setdefault(nm, href)
+    t = _h.unescape(re.sub(r"<script.*?</script>|<style.*?</style>", "", raw, flags=re.S))
     lines = [clean(x) for x in re.sub(r"<[^>]+>", "\n", t).split("\n") if clean(x)]
     i = lines.index("Past Camps")
     out, camp = [], ""
@@ -186,11 +203,19 @@ def betaworks():
             continue
         if ln == "Learn more":
             continue
-        if ln in ("Apply", "Companies", "Team", "Events", "Writing", "News", "Connect") or ln.startswith("©"):
+        if ln in ("Apply", "Companies", "Team", "Events", "Writing", "News", "Connect") or ln.startswith("©") \
+                or ln.startswith("Camp companies have gone on"):
             break
+        if ln in ("Applt Now", "Apply Now", "Deadline Extended", "Camp is open", "Contact",
+                  "Event Inquiries", "Privacy Policy"):
+            continue
         if camp:
             out.append(rec(ln, "Betaworks", "Betaworks", date=f"Betaworks {camp}",
-                           verticals=camp, source_url=url))
+                           verticals=camp, source_url=url, website=links.get(ln, "")))
+    enrich_from_sites(out)
+    for r in out:
+        if not r.get("everywhere_tags"):
+            r["everywhere_tags"] = tag(r["name"], r.get("description"), [])
     return out
 
 

@@ -51,7 +51,8 @@ def founders(slug):
                 continue
             c = json.loads(_html.unescape(m.group(1)))["props"]["company"]
             fs = [clean(f.get("full_name")) for f in (c.get("founders") or []) if f.get("full_name")]
-            return fs
+            return {"founders": fs, "linkedin_url": c.get("linkedin_url") or "",
+                    "website": c.get("website") or ""}
         except Exception:
             time.sleep(2 + attempt * 3)
     return None
@@ -77,7 +78,8 @@ def main(limit=None):
     with ThreadPoolExecutor(8) as ex:
         fl = list(ex.map(lambda h: founders(h["slug"]), hits))
     recs = []
-    for h, fs in zip(hits, fl):
+    for h, info in zip(hits, fl):
+        fs = (info or {}).get("founders")
         labels = [x for x in (h.get("industries") or [])] + (h.get("tags") or [])
         desc = clean(h.get("one_liner"))
         long = clean(h.get("long_description"))
@@ -88,7 +90,8 @@ def main(limit=None):
         recs.append({
             "name": clean(h["name"]),
             "description": desc,
-            "website": clean(h.get("website")),
+            "website": clean(h.get("website")) or clean((info or {}).get("website")),
+            "linkedin_url": (info or {}).get("linkedin_url", ""),
             "team": ", ".join(fs or []),
             "round": "",
             "amount_raised": "",
