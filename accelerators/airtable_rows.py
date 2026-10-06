@@ -16,7 +16,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(os.path.dirname(HERE), "data", "accelerators")
 DESC_CAP = 250
 COLS = ["Name", "Amount Raised", "Round", "Description", "Everywhere Sectors", "Verticles",
-        "Team", "Investors", "Date of Announcement", "Source", "Website", "LinkedIn"]
+        "Team", "Investors", "Date of Announcement", "Source", "Website", "LinkedIn",
+        "Location", "Batch Date", "Batch Date Precision", "Most Recent Batch"]
 # Website / LinkedIn (url fields) were requested 2026-10-06 but could not be created:
 # the Airtable connector returned "requires authentication" on create_field. They are
 # in the JSON + CSV; create them in Airtable (type URL) and set URL_FIELDS=1 for REST.
@@ -26,7 +27,10 @@ FIELD_IDS = {"Name": "fldFLQtq9YzcCRN8S", "Amount Raised": "fldUsjLahrjtnzAi8",
              "Everywhere Sectors": "fldKNVrs4Teboh0pD", "Verticles": "fldNj3OAWrKGmq2HK",
              "Team": "fldMpAnb0Fow70UC7", "Investors": "fldL1HvlVQXcMoXfd",
              "Date of Announcement": "fldHhi9c9Oika0lSj", "Source": "fld2kaKXbbMFAJ8uE",
-             "Website / Linkedin": "fldK9Co1ADuoHpcIa"}
+             "Website / Linkedin": "fldK9Co1ADuoHpcIa",
+             # added by Michael 2026-10-06
+             "Location": "fldaf81GFqWgSnaEr", "Most Recent Batch": "fldFTbQzOQwUKUw6O",
+             "Batch Date": "fldg7n7HnSLcMQysC"}
 # Michael added a single URL field "Website / Linkedin" (2026-10-06): website, else LinkedIn.
 COMBINED_URL = os.environ.get("COMBINED_URL", "1") == "1"
 ROUND_OK = {"Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series D", "Series E", "Growth"}
@@ -51,9 +55,14 @@ def rows(slug, csv_mode=False):
              "Everywhere Sectors": r.get("everywhere_tags") or [],
              "Verticles": r.get("verticals") or "", "Team": r.get("team") or "",
              "Investors": r["investors"], "Date of Announcement": r.get("date") or "",
-             "Source": r["source"]}
+             "Source": r["source"], "Location": r.get("location") or "",
+             "Batch Date": r.get("batch_date") or "",
+             "Most Recent Batch": bool(r.get("most_recent_batch"))}
+        if csv_mode:
+            f["Batch Date Precision"] = r.get("batch_date_precision") or ""
         if COMBINED_URL and not csv_mode:
-            f["Website / Linkedin"] = r.get("website") or r.get("linkedin_url") or ""
+            u = r.get("website") or r.get("linkedin_url") or ""
+            f["Website / Linkedin"] = ("https://" + u) if u and not u.startswith("http") else u
         if URL_FIELDS or csv_mode:
             f["Website"] = r.get("website") or ""
             f["LinkedIn"] = r.get("linkedin_url") or ""
