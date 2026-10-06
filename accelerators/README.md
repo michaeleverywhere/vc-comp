@@ -25,7 +25,11 @@ went through an accelerator).
 - Sub-programs (`parent` set, e.g. HAX under SOSV) must be de-duplicated against the parent portfolio.
 
 ## Contacts
-Key people / official contact pages per accelerator live in Airtable **Accelerator Contacts**
-or, if that table is unavailable, `contacts.csv` here. Sources: accelerators' own sites and
+Key people / official contact pages per accelerator are in `contacts.csv` (columns match the
+planned Airtable table **Accelerator Contacts**: Name, Title or Role, Accelerator, Email,
+Contact Page URL, Source URL, Notes). On 2026-10-05 the Airtable table could not be created
+(the Airtable connector returned "requires authentication" on table creation), so the CSV is
+the system of record until it is imported (Airtable > Add table > Import CSV; set Email=email,
+URL columns=url). Sources: accelerators' own sites and
 official announcements only (no LinkedIn/Crunchbase/PitchBook). Emails are recorded only when
 published verbatim; never guessed.
