@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "airtable": {
     "base": "appdSRg0657zG3oef",
     "data_table": "tblM2JO3HToYoV1Bi",
@@ -416,6 +416,21 @@
       "notes": "Economic development agency; IO Accelerator launched 2018. No public cohort/portfolio list found (program page only).",
       "input_name": "Invest Ottawa",
       "region": "Canada"
+    },
+    {
+      "name": "Emerson Collective",
+      "slug": "emersoncollective",
+      "official_site": "https://www.emersoncollective.com/",
+      "portfolio_url": "https://www.emersoncollective.com/our-work/venture-capital",
+      "priority_tier": "list2",
+      "status": "scraped-airtable-pending",
+      "last_run": "2026-10-06T12:30:00-04:00",
+      "count": 67,
+      "notes": "Multi-stage impact VC (not a classic accelerator). Also runs Emerson Collective Fellowship (individuals) and Emerson Consequential Scholars (PhD/postdoc). Public portfolio is a selection of consequential companies on /our-work/venture-capital (AI, Digital Health, Education, Energy+Environment, FinTech, Future of Work, Media & Journalism). Annual Demo Day showcases portfolio leaders. Company JSON is the published selection only.",
+      "input_name": "Emerson Collective",
+      "region": "US",
+      "airtable_rows": 0,
+      "data_file": "data/accelerators/emersoncollective_companies.json"
     },
     {
       "name": "Seedcamp",
