@@ -1,0 +1,147 @@
+{
+  "base": "appdSRg0657zG3oef",
+  "table": "tblM2JO3HToYoV1Bi",
+  "note": "AIRTABLE_PAT_COMPS can READ but PATCH/create_field return 403 \u2014 needs data.records:write (+ schema.bases:write for new fields). Do NOT touch Team fldMpAnb0Fow70UC7 or MASTER LIST recglCKTExdixmNV5.",
+  "create_fields_failed": [
+    {
+      "name": "Junior Title",
+      "type": "singleLineText",
+      "error": "403 INVALID_PERMISSIONS"
+    },
+    {
+      "name": "Junior Name",
+      "type": "singleLineText",
+      "error": "403 INVALID_PERMISSIONS"
+    }
+  ],
+  "records": [
+    {
+      "id": "recJVhSlc2dUr3aK0",
+      "name": "Jon Levy",
+      "accel": "YC",
+      "Junior POC": "jlevy@ycombinator.com",
+      "Junior Name": "Jon Levy",
+      "Junior Title": "Managing Director, Partnerships",
+      "email_kind": "work"
+    },
+    {
+      "id": "recHqYaLBiBlOrwkh",
+      "name": "Katie Smith",
+      "accel": "Techstars",
+      "Junior POC": "katie.smith@techstars.com",
+      "Junior Name": "Katie Smith",
+      "Junior Title": "Head of Startup Community",
+      "email_kind": "work"
+    },
+    {
+      "id": "recq7CHBSHwFddOp8",
+      "name": "Kira Colburn",
+      "accel": "SOSV",
+      "Junior POC": "kira.colburn@sosv.com",
+      "Junior Name": "Kira Colburn",
+      "Junior Title": "Director of Comms",
+      "email_kind": "work"
+    },
+    {
+      "id": "recDp4VsHOLBp3Oii",
+      "name": "Woojung Lee",
+      "accel": "HAX",
+      "Junior POC": "woojung.lee@sosv.com",
+      "Junior Name": "Woojung Lee",
+      "Junior Title": "Associate",
+      "email_kind": "work"
+    },
+    {
+      "id": "recL5RyO6NQiVLZIT",
+      "name": "Bethany Watson",
+      "accel": "IndieBio",
+      "Junior POC": "bethany.schwartz@sosv.com",
+      "Junior Name": "Bethany Watson",
+      "Junior Title": "Program Manager",
+      "email_kind": "work"
+    },
+    {
+      "id": "recGVJZ2ne6zlOL8w",
+      "name": "Emma Krivoshein",
+      "accel": "PearX",
+      "Junior POC": "emma@pear.vc",
+      "Junior Name": "Emma Krivoshein",
+      "Junior Title": "Senior Operations Associate, PearX",
+      "email_kind": "work"
+    },
+    {
+      "id": "recJfkr69PAC1JJDV",
+      "name": "Finn Meeks",
+      "accel": "SPC",
+      "Junior POC": "finn@southparkcommons.com",
+      "Junior Name": "Finn Meeks",
+      "Junior Title": "Investor; Founder Fellowship team",
+      "email_kind": "work",
+      "apollo_title_alt": "General Partner"
+    },
+    {
+      "id": "reczwOUYEafwGKP66",
+      "name": "Lauren Olson",
+      "accel": "Betaworks",
+      "Junior POC": "lauren@betaworks.com",
+      "Junior Name": "Lauren Olson",
+      "Junior Title": "Fund Operations Manager",
+      "email_kind": "work"
+    },
+    {
+      "id": "rec7tBypOGA2DyzgC",
+      "name": "Alessandro Braglia",
+      "accel": "Seraphim",
+      "Junior POC": "alessandro@seraphim.vc",
+      "Junior Name": "Alessandro Braglia",
+      "Junior Title": "Accelerator Programme Manager",
+      "email_kind": "work"
+    },
+    {
+      "id": "recRBfiAGRf6XXWZS",
+      "name": "Baylor Adams",
+      "accel": "Z Fellows",
+      "Junior POC": "baylor@zfellows.com",
+      "Junior Name": "Baylor Adams",
+      "Junior Title": "Early Stage Investor",
+      "email_kind": "work",
+      "csv_title_prev": "Chief of Staff"
+    },
+    {
+      "id": "rec9a6ELNCwkf8dlf",
+      "name": "Rachel Silverman",
+      "accel": "HF0",
+      "Junior POC": "rachel@hf0.com",
+      "Junior Name": "Rachel Silverman",
+      "Junior Title": "Director of Program",
+      "email_kind": "work",
+      "apollo_title_alt": "Director"
+    },
+    {
+      "id": "reccz9lz4B02ySYaS",
+      "name": "Elka Chamberlin",
+      "accel": "Emerson",
+      "Junior POC": "elka@emersoncollective.com",
+      "Junior Name": "Elka Chamberlin",
+      "Junior Title": "Director, Venture Success, Venture Investing",
+      "email_kind": "work"
+    },
+    {
+      "id": "rec2DYEwvS0lpzFYA",
+      "name": "Allison Boothe",
+      "accel": "Catalyst",
+      "Junior POC": "allison.boothe@catalystcampus.org",
+      "Junior Name": "Allison Boothe",
+      "Junior Title": "Program Manager for The Catalyst Accelerator",
+      "email_kind": "work",
+      "note": "email already in Airtable; title only needed"
+    }
+  ],
+  "Last Updated": "2026-10-06",
+  "fields": {
+    "Junior POC": "fld69KvzbuDBW4ncP",
+    "Last Updated": "fldyUJc3tBBqZMBKG",
+    "Team DO_NOT_TOUCH": "fldMpAnb0Fow70UC7",
+    "Team Linkedin": "fldaf81GFqWgSnaEr"
+  }
+}
