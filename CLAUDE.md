@@ -191,7 +191,7 @@ Current datasets (in `data/`):
 | White Star Capital | `whitestarcapital_companies.json` | 98 | whitestarcapital.com/portfolio (`whitestarcapital_scraper.py`) |
 | Work-Bench | `workbench_companies.json` | 39 | work-bench.com/portfolio (`workbench_scraper.py`) |
 | 3one4 Capital | `3one4capital_companies.json` | 63 | 3one4capital.com/portfolio — Webflow (Finsweet) + detail pages (`3one4capital_scraper.py`) |
-| AirTree Ventures | `airtree_companies.json` | 118 | airtree.vc/portfolio — Webflow (Finsweet) + detail pages (`airtree_scraper.py`) |
+| AirTree Ventures | `airtree_companies.json` | 118 | airtree.vc/companies — Webflow (Finsweet) + detail pages (`airtree_scraper.py`) |
 | Blackbird Ventures | `blackbird_companies.json` | 142 | blackbird.vc/portfolio — Webflow paginated + detail pages (`blackbird_scraper.py`) |
 | byFounders | `byfounders_companies.json` | 79 | byfounders.vc/portfolio — embedded serialized data (no site descriptions; filled from company sites) (`byfounders_scraper.py`) |
 | Capnamic | `capnamic_companies.json` | 71 | capnamic.com/portfolio — Webflow rows (`capnamic_scraper.py`) |
