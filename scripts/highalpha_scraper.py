@@ -35,6 +35,10 @@ def scrape() -> List[Dict]:
     
     # Find all company items in the portfolio list
     co_items = soup.find_all("div", class_="co-item", attrs={"role": "listitem"})
+    panels = {}
+    for _p in soup.find_all("div", class_="co-content-item"):
+        if _p.get("index"):
+            panels.setdefault(_p["index"].strip(), _p)
     
     for item in co_items:
         try:
@@ -92,22 +96,52 @@ def scrape() -> List[Dict]:
                     company_slug = hidden_input.get("value", "").strip()
             
             # Build company URL from slug
+            # /companies/{slug} pages 404; real detail lives in the on-page
+            # co-content-item panel keyed by index=<name> (2026-10-07 fix).
             company_url = None
-            if company_slug:
-                # The site structure suggests detail pages exist at /companies/{slug}
-                company_url = f"https://highalpha.com/companies/{company_slug}"
-            
-            # Create record with only fields that are actually present on the site
             record = {
                 "company_name": company_name,
                 "company_url": company_url,
+                "tagline": description,
                 "description": description,
                 "investment_type": investment_type,
                 "status": status,
-                "profile_url": company_url,
                 "everywhere_tags": [],
                 "source_url": portfolio_url
             }
+            panel = panels.get(company_name)
+            if panel is not None:
+                body = panel.find("div", class_="cc-body-content") or panel
+                paras = [p.get_text(" ", strip=True) for p in body.find_all("p")]
+                paras = [t for t in paras if t and t != "\u200d"]
+                long_desc = [t for t in paras if t != description and not re.search(r"\bwas acquired by\b", t)]
+                if long_desc:
+                    record["description"] = long_desc[0]
+                for t in paras:
+                    m = re.search(r"was acquired by (.+?)(?: in (\d{4}))?$", t.strip().rstrip(" ."))
+                    if m:
+                        record["acquirer"] = m.group(1).strip()
+                        if m.group(2):
+                            record["exit_year"] = m.group(2)
+                        record["status"] = "acquired"
+                for li in panel.find_all("li", class_="co-info-item"):
+                    if "w-condition-invisible" in (li.get("class") or []):
+                        continue
+                    h = li.find("h4")
+                    label = h.get_text(strip=True) if h else ""
+                    a = li.find("a", href=True)
+                    val_el = li.find(["div", "a"], class_=re.compile("paragraph"))
+                    val = val_el.get_text(strip=True) if val_el else ""
+                    if label == "Website" and a and a["href"].startswith("http"):
+                        record["company_url"] = a["href"].strip()
+                    elif label == "Year Founded" and val:
+                        record["year_founded"] = val
+                    elif label == "Fund" and val:
+                        record["fund"] = val
+                    elif label.startswith("CEO") and val:
+                        record["ceo"] = val
+                        if "Founder" in label:
+                            record["founders"] = [val]
             
             companies.append(record)
             
