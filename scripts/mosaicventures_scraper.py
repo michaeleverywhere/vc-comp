@@ -1,161 +1,89 @@
-# AUTO-GENERATED scraper (Claude API) — passed static guard + sandboxed
-# validation before commit. Regenerate rather than hand-edit heavily.
-import requests
-from bs4 import BeautifulSoup
-import json
+# Mosaic Ventures portfolio scraper (rewritten 2026-10-07).
+# Source: https://mosaicventures.com/portfolio (Squarespace user-items lists).
+# Each card: <a><strong>Name</strong></a> (company site) / tagline / "Founded, YYYY" /
+# "Partnered, YYYY" / optional "Acquired by X, YYYY" or "IPO, YYYY" / "<u>sectors..., Status</u>".
+# Cards under "Companies we backed prior to Mosaic" are partners' pre-Mosaic deals and are skipped.
 import re
-import time
-from typing import List, Dict
-from urllib.parse import urljoin
+import requests
+import bs4
 
-def scrape() -> List[Dict]:
-    """
-    Scrape Mosaic Ventures portfolio companies from https://mosaicventures.com/portfolio
-    """
-    portfolio_url = "https://mosaicventures.com/portfolio"
-    session = requests.Session()
-    
-    companies = []
-    seen = set()
-    
-    try:
-        resp = session.get(portfolio_url, timeout=20)
-        resp.raise_for_status()
-    except Exception:
-        return []
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    
-    # Extract portfolio items from the HTML structure
-    # Looking for list items in portfolio lists
-    portfolio_lists = soup.find_all('ul', id=re.compile(r'portfolio'))
-    
-    for ul in portfolio_lists:
-        list_items = ul.find_all('li', recursive=False)
-        
-        for li in list_items:
-            try:
-                # Extract company name from heading or text
-                name_elem = li.find(['h1', 'h2', 'h3', 'h4'])
-                company_name = None
-                company_url = None
-                
-                if name_elem:
-                    company_name = name_elem.get_text(strip=True)
-                    # Look for link in the list item
-                    link_elem = li.find('a', href=True)
-                    if link_elem:
-                        company_url = link_elem.get('href')
-                        if company_url and not company_url.startswith('http'):
-                            company_url = urljoin(portfolio_url, company_url)
-                
-                if not company_name:
-                    # Fallback: get first text
-                    text = li.get_text(strip=True)
-                    if text:
-                        company_name = text.split('\n')[0][:100]
-                
-                if not company_name or company_name in seen:
-                    continue
-                
-                seen.add(company_name)
-                
-                # Extract description
-                desc_elem = li.find(['p', 'div'], class_=re.compile(r'description|content', re.I))
-                description = None
-                if desc_elem:
-                    description = desc_elem.get_text(strip=True)
-                
-                # Extract status and sectors from data attributes
-                status = li.get('data-status')
-                tags_str = li.get('data-tag', '')
-                
-                # Parse sectors from tags string
-                sectors = []
-                if tags_str:
-                    sectors = [t.strip() for t in tags_str.split() if t.strip()]
-                
-                # Look for underlined text (sectors/tags)
-                underlined = li.find_all('u')
-                for u_elem in underlined:
-                    text = u_elem.get_text(strip=True)
-                    # Split by comma
-                    parts = [p.strip() for p in text.split(',')]
-                    for part in parts:
-                        normalized = part.lower().strip()
-                        if normalized not in ['active', 'exited'] and normalized:
-                            if part not in sectors:
-                                sectors.append(part)
-                
-                company_record = {
-                    "company_name": company_name,
-                    "company_url": company_url,
-                    "description": description,
-                    "founders": [],
-                    "sectors": sectors,
-                    "stage": None,
-                    "status": status,
-                    "profile_url": None,
-                    "everywhere_tags": [],
-                    "source_url": portfolio_url
-                }
-                
-                companies.append(company_record)
-                time.sleep(0.3)
-                
-            except Exception:
-                continue
-    
-    # If no companies found, try alternative parsing
-    if not companies:
-        # Look for any portfolio-related content blocks
-        content_blocks = soup.find_all(['article', 'div'], class_=re.compile(r'item|card|block', re.I))
-        
-        for block in content_blocks:
-            try:
-                # Try to extract name and link
-                name_elem = block.find(['h1', 'h2', 'h3', 'h4', 'a'])
-                if not name_elem:
-                    continue
-                
-                company_name = name_elem.get_text(strip=True)
-                if not company_name or company_name in seen:
-                    continue
-                
-                seen.add(company_name)
-                
-                company_url = None
-                link = block.find('a', href=True)
-                if link:
-                    company_url = link.get('href')
-                    if company_url and not company_url.startswith('http'):
-                        company_url = urljoin(portfolio_url, company_url)
-                
-                description = None
-                desc = block.find(['p', 'div'])
-                if desc:
-                    description = desc.get_text(strip=True)[:500]
-                
-                company_record = {
-                    "company_name": company_name,
-                    "company_url": company_url,
-                    "description": description,
-                    "founders": [],
-                    "sectors": [],
-                    "stage": None,
-                    "status": None,
-                    "profile_url": None,
-                    "everywhere_tags": [],
-                    "source_url": portfolio_url
-                }
-                
-                companies.append(company_record)
-                time.sleep(0.3)
-                
-            except Exception:
-                continue
-    
-    return companies
+SOURCE = "https://mosaicventures.com/portfolio"
+STATUS_WORDS = {"active": "active", "exited": "exited", "acquired": "acquired", "ipo": "IPO", "public": "IPO"}
+
+
+def _parse_card(desc):
+    ps = desc.find_all("p")
+    if not ps:
+        return None
+    a = ps[0].find("a")
+    name = ps[0].get_text(" ", strip=True)
+    if not name:
+        return None
+    rec = {
+        "company_name": name,
+        "company_url": a.get("href").strip() if a and a.get("href", "").startswith("http") else None,
+        "description": None,
+        "year_founded": None,
+        "year_partnered": None,
+        "sectors": [],
+        "status": None,
+        "acquirer": None,
+        "exit_year": None,
+        "exit_note": None,
+        "source_url": SOURCE,
+    }
+    lines = []
+    for p in ps[1:]:
+        for br in p.find_all("br"):
+            br.replace_with("\n")
+        lines += [l.strip() for l in p.get_text().split("\n") if l.strip()]
+    tagline = []
+    for l in lines:
+        m = re.match(r"^Founded,?\s*(\d{4})", l)
+        if m:
+            rec["year_founded"] = m.group(1); continue
+        m = re.match(r"^Partnered,?\s*(\d{4})", l)
+        if m:
+            rec["year_partnered"] = m.group(1); continue
+        m = re.match(r"^(Acquired by .+?|IPO|Merged with .+?|Listed .+?)(?:,\s*(\d{4}))?$", l)
+        if m and (l.lower().startswith(("acquired by", "ipo", "merged with", "listed"))):
+            rec["exit_note"] = l
+            rec["exit_year"] = m.group(2)
+            if l.lower().startswith("acquired by"):
+                rec["acquirer"] = re.sub(r"^Acquired by\s+", "", m.group(1)).strip()
+            continue
+        parts = [x.strip() for x in l.split(",") if x.strip()]
+        if parts and parts[-1].lower() in STATUS_WORDS and all(len(x) < 40 for x in parts):
+            st = parts[-1].lower()
+            rec["status"] = STATUS_WORDS[st]
+            rec["sectors"] = [x for x in parts if x.lower() not in STATUS_WORDS]
+            continue
+        tagline.append(l)
+    rec["description"] = " ".join(tagline) or None
+    if rec["acquirer"]:
+        rec["status"] = "acquired"
+    elif rec["exit_note"] and rec["exit_note"].lower().startswith("ipo"):
+        rec["status"] = "IPO"
+    return rec
+
+
+def scrape() -> list[dict]:
+    r = requests.get(SOURCE, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}, timeout=30)
+    r.raise_for_status()
+    soup = bs4.BeautifulSoup(r.text, "html.parser")
+    out, seen = [], set()
+    prior = False
+    for el in soup.find_all(True):
+        if el.name in ("h1", "h2", "h3", "h4", "p") and "prior to mosaic" in el.get_text(" ", strip=True).lower() and len(el.get_text()) < 120:
+            prior = True
+        if prior:
+            continue
+        if el.name == "div" and "list-item-content__description" in (el.get("class") or []):
+            rec = _parse_card(el)
+            if rec and rec["company_name"].lower() not in seen and (rec["year_partnered"] or rec["status"]):
+                seen.add(rec["company_name"].lower())
+                out.append(rec)
+    return out
 
 
 # --- auto-appended runner (trusted template, not LLM output) -----------------
