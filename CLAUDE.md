@@ -190,7 +190,27 @@ Current datasets (in `data/`):
 | Village Global | `villageglobal_companies.json` | 54 | villageglobal.com/portfolio (`villageglobal_scraper.py`) |
 | White Star Capital | `whitestarcapital_companies.json` | 98 | whitestarcapital.com/portfolio (`whitestarcapital_scraper.py`) |
 | Work-Bench | `workbench_companies.json` | 39 | work-bench.com/portfolio (`workbench_scraper.py`) |
-**179 firm datasets (28,833 companies in all_companies.json) after the 2026-10-06 Daily 20 (Founder Collective/F-Prime/Backed/Basis Set/Hoxton/Blossom/Work-Bench/Village Global/Obvious/Collab Fund/Bowery/Crane/Renegade/Headline/Redalpine/Partech/Kindred Ventures/Pillar/Third Prime/Underscore); see all_companies.json for live totals.**
+| 3one4 Capital | `3one4capital_companies.json` | 63 | 3one4capital.com/portfolio — Webflow (Finsweet) + detail pages (`3one4capital_scraper.py`) |
+| AirTree Ventures | `airtree_companies.json` | 118 | airtree.vc/portfolio — Webflow (Finsweet) + detail pages (`airtree_scraper.py`) |
+| Blackbird Ventures | `blackbird_companies.json` | 142 | blackbird.vc/portfolio — Webflow paginated + detail pages (`blackbird_scraper.py`) |
+| byFounders | `byfounders_companies.json` | 79 | byfounders.vc/portfolio — embedded serialized data (no site descriptions; filled from company sites) (`byfounders_scraper.py`) |
+| Capnamic | `capnamic_companies.json` | 71 | capnamic.com/portfolio — Webflow rows (`capnamic_scraper.py`) |
+| Elevation Capital | `elevationcapital_companies.json` | 114 | elevationcapital.com/portfolio — __NEXT_DATA__ (`elevationcapital_scraper.py`) |
+| Fabric Ventures | `fabricventures_companies.json` | 156 | fabric.vc/portfolio — Webflow (Finsweet) paginated + detail pages (`fabricventures_scraper.py`) |
+| Golden Ventures | `goldenventures_companies.json` | 121 | golden.ventures/portfolio — Webflow paginated + detail pages (`goldenventures_scraper.py`) |
+| Mercury Fund | `mercuryfund_companies.json` | 80 | mercuryfund.com/portfolio — Webflow lists + modals (`mercuryfund_scraper.py`) |
+| MMC Ventures | `mmcventures_companies.json` | 93 | mmc.vc/portfolio — WP + detail pages (`mmcventures_scraper.py`) |
+| Nauta Capital | `nautacapital_companies.json` | 92 | nautacapital.com/portfolio — Webflow paginated (`nautacapital_scraper.py`) |
+| Next47 | `next47_companies.json` | 58 | n47.com/portfolio — Webflow + detail pages (`next47_scraper.py`) |
+| Qualcomm Ventures | `qualcommventures_companies.json` | 257 | qualcommventures.com — WP REST companies + taxonomies (`qualcommventures_scraper.py`) |
+| Real Ventures | `realventures_companies.json` | 117 | realventures.com/portfolio — WP grid + modals (`realventures_scraper.py`) |
+| Samaipata | `samaipata_companies.json` | 42 | samaipata.vc/our-portfolio — Webflow (Finsweet) + detail pages (`samaipata_scraper.py`) |
+| Spero Ventures | `spero_companies.json` | 28 | spero.vc/portfolio — WP cards (displayed companies only) (`spero_scraper.py`) |
+| Square Peg | `squarepeg_companies.json` | 81 | squarepeg.vc/portfolio — Webflow (Finsweet) + detail pages (`squarepeg_scraper.py`) |
+| Stellaris Venture Partners | `stellaris_companies.json` | 53 | stellarisvp.com/portfolio — Webflow (Finsweet) + detail pages (`stellaris_scraper.py`) |
+| Volition Capital | `volitioncapital_companies.json` | 57 | volitioncapital.com/portfolio — WP HTML + detail pages (`volitioncapital_scraper.py`) |
+| XAnge | `xange_companies.json` | 147 | xange.vc — Prismic API (`xange_scraper.py`) |
+**199 firm datasets (31,049 companies in all_companies.json) after the 2026-10-07 Daily 20 (Next47/Volition/Golden Ventures/Real Ventures/MMC/Stellaris/3one4/Nauta/XAnge/Elevation/Square Peg/Blackbird/AirTree/Qualcomm Ventures/byFounders/Mercury Fund/Capnamic/Fabric/Spero/Samaipata); previous: 179 firms / 29,080 after the 2026-10-06 Daily 20 (Founder Collective/F-Prime/Backed/Basis Set/Hoxton/Blossom/Work-Bench/Village Global/Obvious/Collab Fund/Bowery/Crane/Renegade/Headline/Redalpine/Partech/Kindred Ventures/Pillar/Third Prime/Underscore); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
 
