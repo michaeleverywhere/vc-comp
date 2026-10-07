@@ -34,8 +34,21 @@ def scrape() -> list[dict]:
     
     soup = bs4.BeautifulSoup(response.text, "html.parser")
     
-    # Find all company item containers
+    # Find all company items in the CMS list (Webflow paginates at 100/page)
     company_items = soup.find_all("div", {"class": "companies-item"})
+    for _ in range(20):
+        nxt = soup.find("a", class_="w-pagination-next")
+        if not nxt or not nxt.get("href"):
+            break
+        try:
+            r2 = session.get(portfolio_url + nxt["href"] if nxt["href"].startswith("?") else nxt["href"], timeout=20)
+            r2.raise_for_status()
+        except Exception:
+            break
+        soup = bs4.BeautifulSoup(r2.text, "html.parser")
+        company_items.extend(soup.find_all("div", {"class": "companies-item"}))
+        time.sleep(0.5)
+
     
     for item in company_items:
         try:
@@ -91,8 +104,23 @@ def scrape() -> list[dict]:
                     sectors.append(cat_text)
             
             # Determine status (Exited or Active)
+            # Webflow renders the badge on every card; hidden ones carry w-condition-invisible
             exited_badge = item.find("div", {"class": "companies-exited"})
-            if exited_badge and "Exited" in exited_badge.get_text(strip=True):
+            exited = bool(exited_badge and "w-condition-invisible" not in (exited_badge.get("class") or [])
+                          and "Exited" in exited_badge.get_text(strip=True))
+            acquirer = None
+            exit_note = None
+            # Names/descriptions carry the exit detail, e.g. "Anchor - Acquired by Spotify", "Airbnb - Exited via IPO"
+            m = re.match(r"^(.*?)\s+-\s+((?:Acquired by|Exited via|Merged with)\s.*)$", company_name)
+            if m:
+                company_name, exit_note = m.group(1).strip(), m.group(2).strip()
+                exited = True
+            if exit_note and exit_note.lower().startswith("acquired by"):
+                status = "acquired"
+                acquirer = exit_note[len("Acquired by "):].split(" - ")[0].strip()
+            elif exit_note and "ipo" in exit_note.lower():
+                status = "IPO"
+            elif exited:
                 status = "exited"
             else:
                 status = "active"
@@ -106,6 +134,8 @@ def scrape() -> list[dict]:
                 "sectors": sectors,
                 "location": location,
                 "status": status,
+                "acquirer": acquirer,
+                "exit_note": exit_note,
                 "everywhere_tags": [],
                 "source_url": portfolio_url,
             }
