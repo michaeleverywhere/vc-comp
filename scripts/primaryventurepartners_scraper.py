@@ -24,12 +24,19 @@ def scrape() -> list[dict]:
     seen = set()
     
     try:
-        resp = session.get(source_url, timeout=20)
-        resp.raise_for_status()
-        soup = bs4.BeautifulSoup(resp.text, "html.parser")
-        
-        # Find all company items in the CMS list
-        company_items = soup.find_all("div", class_="companies_cms_item")
+        # Webflow CMS list is paginated (25/page) via ?<id>_page=N "Next Page" links
+        company_items = []
+        page_url = source_url
+        for _ in range(20):
+            resp = session.get(page_url, timeout=20)
+            resp.raise_for_status()
+            soup = bs4.BeautifulSoup(resp.text, "html.parser")
+            company_items.extend(soup.find_all("div", class_="companies_cms_item"))
+            nxt = soup.find("a", class_="w-pagination-next")
+            if not nxt or not nxt.get("href"):
+                break
+            page_url = source_url + nxt["href"] if nxt["href"].startswith("?") else nxt["href"]
+            time.sleep(0.5)
         
         for item in company_items:
             try:
@@ -234,6 +241,35 @@ def _parse_company_item(item: bs4.element.Tag, source_url: str, session: request
                 company["company_url"] = href
                 break
     
+    # --- 2026-10-07 fixes: listing has no name (logo alt is empty) — the bold
+    # heading is a tagline. Take the real name from the company page <title>,
+    # keep the tagline separately, and use the long expand paragraph as description.
+    st = (company.get("stage") or "").strip()
+    if st.lower().startswith("stage"):
+        st = st[5:].strip()
+    company["stage"] = st or None
+    if st.lower() == "exited":
+        company["status"] = "exited"
+        company["stage"] = None
+    if company.get("headquarters") and not company.get("location"):
+        company["location"] = company["headquarters"]
+    if expand_section:
+        title_div = expand_section.find("div", class_="companies_expand_title")
+        ps = title_div.find_all("p") if title_div else []
+        if ps:
+            company["tagline"] = ps[0].get_text(strip=True) or None
+        if len(ps) > 1 and ps[1].get_text(strip=True):
+            company["description"] = ps[1].get_text(strip=True)
+    if company.get("profile_url"):
+        try:
+            pr = session.get(company["profile_url"], timeout=20)
+            if pr.ok:
+                t = bs4.BeautifulSoup(pr.text, "html.parser").find("title")
+                nm = t.get_text(strip=True) if t else ""
+                if nm and "primary" not in nm.lower():
+                    company["company_name"] = nm
+        except Exception:
+            pass
     return company if company.get("company_name") else None
 
 
