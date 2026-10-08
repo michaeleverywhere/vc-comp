@@ -33,16 +33,17 @@
       "official_site": "https://www.ycombinator.com/",
       "portfolio_url": "https://www.ycombinator.com/companies",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 6167,
-      "notes": "Also on list 2. Directory filterable by batch back to S05; backfill all past batches.",
+      "notes": "Also on list 2. Directory filterable by batch back to S05; backfill all past batches. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recJVhSlc2dUr3aK0); status -> tracked.",
       "input_name": "YC",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/ycombinator_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/ycombinator.csv"
+      "airtable_csv": "accelerators/airtable_csv/ycombinator.csv",
+      "airtable_record": "recJVhSlc2dUr3aK0"
     },
     {
       "name": "Techstars",
@@ -50,16 +51,17 @@
       "official_site": "https://www.techstars.com/",
       "portfolio_url": "https://www.techstars.com/portfolio",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 5662,
-      "notes": "Also on list 2. User wants past years too ('even like past years'); backfill all programs/cohorts since 2007.",
+      "notes": "Also on list 2. User wants past years too ('even like past years'); backfill all programs/cohorts since 2007. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recHqYaLBiBlOrwkh); status -> tracked.",
       "input_name": "Techstars",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/techstars_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/techstars.csv"
+      "airtable_csv": "accelerators/airtable_csv/techstars.csv",
+      "airtable_record": "recHqYaLBiBlOrwkh"
     },
     {
       "name": "SOSV",
@@ -67,16 +69,17 @@
       "official_site": "https://sosv.com/",
       "portfolio_url": "https://sosv.com/portfolio/",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 781,
-      "notes": "Also on list 2. Parent of HAX and SOSV NY/SF (formerly IndieBio); dedupe sub-program rows against SOSV portfolio.",
+      "notes": "Also on list 2. Parent of HAX and SOSV NY/SF (formerly IndieBio); dedupe sub-program rows against SOSV portfolio. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recq7CHBSHwFddOp8); status -> tracked.",
       "input_name": "SOSV",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/sosv_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/sosv.csv"
+      "airtable_csv": "accelerators/airtable_csv/sosv.csv",
+      "airtable_record": "recq7CHBSHwFddOp8"
     },
     {
       "name": "HAX (SOSV)",
@@ -84,15 +87,16 @@
       "official_site": "https://hax.co/",
       "portfolio_url": "https://hax.co/startups/",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 211,
-      "notes": "SOSV hard-tech program. Dedupe against SOSV portfolio. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows.",
+      "notes": "SOSV hard-tech program. Dedupe against SOSV portfolio. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recDp4VsHOLBp3Oii); status -> tracked.",
       "region": "US",
       "parent": "sosv",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
-      "data_file": "data/accelerators/hax_companies.json"
+      "data_file": "data/accelerators/hax_companies.json",
+      "airtable_record": "recDp4VsHOLBp3Oii"
     },
     {
       "name": "IndieBio / SOSV NY & SOSV SF",
@@ -100,15 +104,16 @@
       "official_site": "https://indiebio.co/",
       "portfolio_url": "https://sosv.com/portfolio/",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 240,
-      "notes": "IndieBio was renamed SOSV NY and SOSV SF at the start of 2026 (per indiebio.co). Companies appear in SOSV portfolio; dedupe. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows.",
+      "notes": "IndieBio was renamed SOSV NY and SOSV SF at the start of 2026 (per indiebio.co). Companies appear in SOSV portfolio; dedupe. 2026-10-06: deduped into sosv rows (Investors 'SOSV (HAX)'/'SOSV (IndieBio)'); subset file only, no separate Airtable rows. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recL5RyO6NQiVLZIT); status -> tracked.",
       "region": "US",
       "parent": "sosv",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
-      "data_file": "data/accelerators/indiebio_companies.json"
+      "data_file": "data/accelerators/indiebio_companies.json",
+      "airtable_record": "recL5RyO6NQiVLZIT"
     },
     {
       "name": "HF0",
@@ -118,13 +123,14 @@
       "priority_tier": "list1",
       "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
-      "count": 2,
+      "count": 3,
       "notes": "Also on list 2. 12-week SF residency (Hacker Fellowship Zero). Batch companies shown on JS-rendered /facts page; may need headless browser.",
       "input_name": "HF0",
       "region": "US",
-      "airtable_rows": 2,
+      "airtable_rows": 1,
       "commit": "2806e01",
-      "data_file": "data/accelerators/hf0_companies.json"
+      "data_file": "data/accelerators/hf0_companies.json",
+      "airtable_record": "rec9a6ELNCwkf8dlf"
     },
     {
       "name": "South Park Commons",
@@ -132,16 +138,17 @@
       "official_site": "https://www.southparkcommons.com/",
       "portfolio_url": "https://www.southparkcommons.com/companies",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 202,
-      "notes": "Also on list 2. Founder Fellowship cohort posts on southparkcommons.com/news and blog.southparkcommons.com cover past years.",
+      "notes": "Also on list 2. Founder Fellowship cohort posts on southparkcommons.com/news and blog.southparkcommons.com cover past years. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recJfkr69PAC1JJDV); status -> tracked.",
       "input_name": "South Park Commons",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/southparkcommons_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/southparkcommons.csv"
+      "airtable_csv": "accelerators/airtable_csv/southparkcommons.csv",
+      "airtable_record": "recJfkr69PAC1JJDV"
     },
     {
       "name": "Z Fellows",
@@ -155,9 +162,10 @@
       "notes": "Also on list 2. Only selected alumni shown on homepage (JS); no full public cohort list. Partial output.",
       "input_name": "Z fellows",
       "region": "US",
-      "airtable_rows": 19,
+      "airtable_rows": 1,
       "commit": "2806e01",
-      "data_file": "data/accelerators/zfellows_companies.json"
+      "data_file": "data/accelerators/zfellows_companies.json",
+      "airtable_record": "recRBfiAGRf6XXWZS"
     },
     {
       "name": "Thiel Fellowship",
@@ -168,7 +176,7 @@
       "status": "no-public-output",
       "last_run": null,
       "count": 0,
-      "notes": "Also on list 2. Site no longer publishes a fellows list (thielfellowship.org/fellows 404). Use press announcements of classes; demo-day view candidate.",
+      "notes": "Also on list 2. Site no longer publishes a fellows list (thielfellowship.org/fellows 404). Use press announcements of classes; demo-day view candidate. 2026-10-08 recheck: thielfellowship.org still only has home/FAQ/jobs; /fellows 404; no public fellows list. No Airtable row (convention: none for no-public-output).",
       "input_name": "Thiel fellow",
       "region": "US"
     },
@@ -178,16 +186,17 @@
       "official_site": "https://pear.vc/",
       "portfolio_url": "https://pear.vc/companies/",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 212,
-      "notes": "Also on list 2. 'Pear fellows' resolved to Pear VC: PearX (pear.vc/pearx) is the accelerator and outputs companies; Pear Fellows (pear.vc/fellows) is a student VC apprenticeship with no company output.",
+      "notes": "Also on list 2. 'Pear fellows' resolved to Pear VC: PearX (pear.vc/pearx) is the accelerator and outputs companies; Pear Fellows (pear.vc/fellows) is a student VC apprenticeship with no company output. 2026-10-08: one-row-per-accelerator Airtable row confirmed (recGVJZ2ne6zlOL8w); status -> tracked.",
       "input_name": "Pear fellows",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/pearvc_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/pearvc.csv"
+      "airtable_csv": "accelerators/airtable_csv/pearvc.csv",
+      "airtable_record": "recGVJZ2ne6zlOL8w"
     },
     {
       "name": "Seraphim Space Accelerator (Seraphim Space Camp)",
@@ -201,9 +210,10 @@
       "notes": "'Seraphim Space Camp' = Seraphim Space Accelerator (legal entity Seraphim Space Camp Accelerator Limited). Accelerator page seraphim.vc/accelerator/. Portfolio mixes fund + accelerator companies.",
       "input_name": "Seraphim Space Camp",
       "region": "UK",
-      "airtable_rows": 92,
+      "airtable_rows": 1,
       "commit": "2806e01",
-      "data_file": "data/accelerators/seraphimspace_companies.json"
+      "data_file": "data/accelerators/seraphimspace_companies.json",
+      "airtable_record": "rec7tBypOGA2DyzgC"
     },
     {
       "name": "Catalyst Accelerator",
@@ -211,16 +221,17 @@
       "official_site": "https://catalystaccelerator.space/",
       "portfolio_url": "https://catalystaccelerator.space/company-directory/",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 179,
-      "notes": "Colorado Springs (Catalyst Campus), defense/space, AFRL-backed, equity-free cohorts.",
+      "notes": "Colorado Springs (Catalyst Campus), defense/space, AFRL-backed, equity-free cohorts. 2026-10-08: one-row-per-accelerator Airtable row confirmed (rec2DYEwvS0lpzFYA); status -> tracked.",
       "input_name": "Catalyst Accelerator",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/catalystaccelerator_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/catalystaccelerator.csv"
+      "airtable_csv": "accelerators/airtable_csv/catalystaccelerator.csv",
+      "airtable_record": "rec2DYEwvS0lpzFYA"
     },
     {
       "name": "Betaworks (Camp)",
@@ -228,16 +239,17 @@
       "official_site": "https://www.betaworks.com/",
       "portfolio_url": "https://www.betaworks.com/companies",
       "priority_tier": "list1",
-      "status": "scraped-airtable-pending",
+      "status": "tracked",
       "last_run": "2026-10-06T08:38:55-04:00",
       "count": 101,
-      "notes": "Also on list 2. Betaworks Camp thematic accelerator (AI Camps).",
+      "notes": "Also on list 2. Betaworks Camp thematic accelerator (AI Camps). 2026-10-08: one-row-per-accelerator Airtable row confirmed (reczwOUYEafwGKP66); status -> tracked.",
       "input_name": "Betaworks",
       "region": "US",
-      "airtable_rows": 0,
+      "airtable_rows": 1,
       "commit": "2806e01",
       "data_file": "data/accelerators/betaworks_companies.json",
-      "airtable_csv": "accelerators/airtable_csv/betaworks.csv"
+      "airtable_csv": "accelerators/airtable_csv/betaworks.csv",
+      "airtable_record": "reczwOUYEafwGKP66"
     },
     {
       "name": "UNRESOLVED: \"Let's add the\" / \"Let's add the Kira's too\"",
@@ -248,30 +260,32 @@
       "status": "unresolved",
       "last_run": null,
       "count": 0,
-      "notes": "List 1 entry is truncated; it sits in the same position as list 2's \"Let's add the Kira's too\", so treated as one item. Could not confidently resolve. Ask Michael.",
+      "notes": "List 1 entry is truncated; it sits in the same position as list 2's \"Let's add the Kira's too\", so treated as one item. Could not confidently resolve. Ask Michael. 2026-10-08 recheck: still not confident; nothing added.",
       "input_name": "Let's add the / Let's add the Kira's too",
       "region": "US",
       "candidates": [
         "Kairos (kairos-project.org) - AI-safety talent nonprofit; launching Kairos Labs incubator early 2027",
         "Kairos Society / Kairos HQ - student entrepreneur fellowship",
-        "Kauffman Fellows (kauffmanfellows.org) - VC fellowship"
+        "Kauffman Fellows (kauffmanfellows.org) - VC fellowship",
+        "Kira Studio (kirastudio.xyz) - Dubai web3/fintech startup studio ('Incubate. Invest. Scale.'), ~14 portfolio cos; weak fit for a US list"
       ]
     },
     {
       "name": "LAUNCH Accelerator",
       "slug": "launch",
       "official_site": "https://launch.co/",
-      "portfolio_url": "https://launch.co/",
+      "portfolio_url": "https://launchaccelerator.co/companies",
       "priority_tier": "list2",
       "status": "tracked",
-      "last_run": "2026-10-06T14:46:26-04:00",
-      "count": 19,
-      "notes": "Jason Calacanis's LAUNCH. Also launchaccelerator.co. No standalone public portfolio page found; homepage logo wall only. Programs: LAUNCH Accelerator, Founder University.",
+      "last_run": "2026-10-08T14:50:00-04:00",
+      "count": 107,
+      "notes": "Jason Calacanis's LAUNCH. Also launchaccelerator.co. No standalone public portfolio page found; homepage logo wall only. Programs: LAUNCH Accelerator, Founder University. 2026-10-08: added 88 cohort companies LA26-LA36 from launchaccelerator.co (cohort data in site bundle; /companies, /36 yearbook); 19 launch.co logos kept. LA37 (Sept 2026) companies not yet published.",
       "input_name": "Launch",
       "region": "US",
       "data_file": "data/accelerators/launch_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "recm3idhtq3YZ08vh"
     },
     {
       "name": "Gravity Labs",
@@ -287,7 +301,8 @@
       "region": "US",
       "data_file": "data/accelerators/gravitylabs_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "recmnHvrLCUzNlMR2"
     },
     {
       "name": "Defy VC",
@@ -303,7 +318,8 @@
       "region": "US",
       "data_file": "data/accelerators/defy_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "recaJTLFLsDW5MHKX"
     },
     {
       "name": "UNRESOLVED: \"James be sucesful\"",
@@ -314,7 +330,7 @@
       "status": "unresolved",
       "last_run": null,
       "count": 0,
-      "notes": "Could not confidently resolve. Ask Michael.",
+      "notes": "Could not confidently resolve. Ask Michael. 2026-10-08 recheck: only beSUCCESS (James Jung, Korean startup media; co-founded 1Billion Partners VC) matches; not an accelerator with a portfolio. Still unresolved.",
       "input_name": "James be sucesful",
       "region": "US",
       "candidates": [
@@ -331,7 +347,7 @@
       "status": "no-public-output",
       "last_run": null,
       "count": 0,
-      "notes": "Venture platform/member studio (Brooklyn, Detroit, New Orleans, Montevideo, Riyadh). No public member/portfolio list found. Demo-day/announcement view.",
+      "notes": "Venture platform/member studio (Brooklyn, Detroit, New Orleans, Montevideo, Riyadh). No public member/portfolio list found. Demo-day/announcement view. 2026-10-08 recheck: no member/portfolio list (/companies, /members 404). Founder Fellowship 2026 post names no fellows; blog posts name only a handful of exhibiting member startups (e.g. 9 at Critical Mass Jul 2026). Left as no-public-output; no Airtable row.",
       "input_name": "Newlab",
       "region": "US"
     },
@@ -349,7 +365,8 @@
       "region": "US",
       "data_file": "data/accelerators/grishinrobotics_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "reclQuqWeT4gFCa4h"
     },
     {
       "name": "AGI House (tentative match for \"Hacker hource\")",
@@ -365,7 +382,8 @@
       "region": "US",
       "data_file": "data/accelerators/agihouse_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "rect7R5O8RMtBpqrK"
     },
     {
       "name": "Long Beach Accelerator",
@@ -381,20 +399,24 @@
       "region": "US",
       "data_file": "data/accelerators/longbeachaccelerator_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "recN9wLVURNFgZKaV"
     },
     {
       "name": "Astera Institute (Residency)",
       "slug": "astera",
       "official_site": "https://astera.org/",
-      "portfolio_url": null,
+      "portfolio_url": "https://astera.org/residency/",
       "priority_tier": "list2",
-      "status": "no-public-output",
-      "last_run": null,
-      "count": 0,
-      "notes": "Resolved 'Aestera institute'. Fully funded 12-18 month residency for open public-goods projects (Emeryville). No company portfolio; residents/projects announced ad hoc.",
+      "status": "tracked",
+      "last_run": "2026-10-08T14:50:00-04:00",
+      "count": 15,
+      "notes": "Resolved 'Aestera institute'. Fully funded 12-18 month residency for open public-goods projects (Emeryville). No company portfolio; residents/projects announced ad hoc. 2026-10-08 recheck: astera.org/residency/ lists 10 current residents + 6 alumni (15 projects; 2 residents share 'Atoms for humanity'); rows are resident projects, not necessarily companies. Airtable row created.",
       "input_name": "Aestera institute",
-      "region": "US"
+      "region": "US",
+      "airtable_record": "recLhuFzj6sYyQdnc",
+      "airtable_rows": 1,
+      "data_file": "data/accelerators/astera_companies.json"
     },
     {
       "name": "Alchemist Accelerator",
@@ -410,7 +432,8 @@
       "region": "US",
       "data_file": "data/accelerators/alchemist_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "recrQoKrIWxvf3yzg"
     },
     {
       "name": "Entrepreneurs First",
@@ -426,20 +449,24 @@
       "region": "UK/Global",
       "data_file": "data/accelerators/entrepreneursfirst_companies.json",
       "airtable_rows": 1,
-      "commit": "bba9ab6"
+      "commit": "bba9ab6",
+      "airtable_record": "rec48XqsGDgWWIqJx"
     },
     {
       "name": "Invest Ottawa (IO Accelerator)",
       "slug": "investottawa",
       "official_site": "https://www.investottawa.ca/",
-      "portfolio_url": "https://www.investottawa.ca/venture-path/accelerator/",
+      "portfolio_url": "https://www.investottawa.ca/io-accelerator-companies/",
       "priority_tier": "list2",
-      "status": "no-public-output",
-      "last_run": null,
-      "count": 0,
-      "notes": "Economic development agency; IO Accelerator launched 2018. No public cohort/portfolio list found (program page only).",
+      "status": "tracked",
+      "last_run": "2026-10-08T14:50:00-04:00",
+      "count": 41,
+      "notes": "Economic development agency; IO Accelerator launched 2018. No public cohort/portfolio list found (program page only). 2026-10-08 recheck: public list found at /io-accelerator-companies/ (29 current + 12 graduates); scraped, Airtable row created.",
       "input_name": "Invest Ottawa",
-      "region": "Canada"
+      "region": "Canada",
+      "airtable_record": "recSo6OUpMmZJXBZp",
+      "airtable_rows": 1,
+      "data_file": "data/accelerators/investottawa_companies.json"
     },
     {
       "name": "Emerson Collective",
@@ -455,7 +482,8 @@
       "region": "US",
       "airtable_rows": 1,
       "data_file": "data/accelerators/emersoncollective_companies.json",
-      "commit": "f607df0"
+      "commit": "f607df0",
+      "airtable_record": "reccz9lz4B02ySYaS"
     },
     {
       "name": "Seedcamp",
