@@ -236,3 +236,42 @@ def apply_tag_overrides(records, overrides) -> int:
             r["everywhere_tags"] = list(t)[:4]
             n += 1
     return n
+
+
+# --- helpers added for the 2026-10-08 Daily 20 batch (additive) -------------
+
+def prune_substring_tags(records, sector_map=None) -> int:
+    """Drop keyword-derived everywhere_tags whose ONLY trigger in the record's
+    own text is a mid-word substring hit of an automation/tags.py keyword
+    (e.g. PropTech from "rent" inside "current"/"different", Transportation
+    from "travel" inside nothing real, Cybersecurity from "secure" inside
+    "insecure"). Re-checks each tag's keywords with a word-start boundary over
+    name + description + tagline + sectors + focus_areas. Tags implied by the
+    firm's own sector labels (sector_map) are always kept. Deterministic,
+    keyword-only (no LLM). Returns the number of tags removed."""
+    import os as _os, sys as _sys
+    _auto = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), _os.pardir, "automation")
+    if _auto not in _sys.path:
+        _sys.path.insert(0, _auto)
+    from tags import _KEYWORD_TAGS
+    kw_of = dict(_KEYWORD_TAGS)
+    smap = {k.strip().lower(): v for k, v in (sector_map or {}).items()}
+    removed = 0
+    for r in records:
+        tags = r.get("everywhere_tags") or []
+        if not tags:
+            continue
+        labels = [x for k in ("sectors", "focus_areas") for x in (r.get(k) or []) if isinstance(x, str)]
+        from_sector = {t for lab in labels for t in smap.get(lab.strip().lower(), [])}
+        text = " ".join(str(x) for x in [r.get("company_name"), r.get("description"), r.get("tagline"), *labels] if x).lower()
+        text = text.replace("machine learning", "ai").replace("deep learning", "ai")
+        keep = []
+        for t in tags:
+            kws = kw_of.get(t)
+            if t in from_sector or not kws or any(
+                    re.search(r"(?<![a-z0-9])" + re.escape(kw.strip()), text) for kw in kws if kw.strip()):
+                keep.append(t)
+            else:
+                removed += 1
+        r["everywhere_tags"] = keep
+    return removed
