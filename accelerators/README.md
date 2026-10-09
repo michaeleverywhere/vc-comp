@@ -40,3 +40,11 @@ JSON and CSVs carry `website` and `linkedin_url`. LinkedIn URLs come only from t
 listing (YC, Techstars, SOSV/HAX) or a link on the company's own site (`linkedin_source`); LinkedIn
 itself is never fetched. The Airtable fields **Website** and **LinkedIn** (type URL) still need to be
 created (create_field returned "requires authentication"); then run `URL_FIELDS=1 airtable_upsert.py`.
+
+## Run log
+- **2026-10-09 daily add** (`scrapers/batch_oct9.py`): Startup Wise Guys 311, Antler 1,087, EWOR 50,
+  Accelerace 32 (public selection), Norrsken Evolve (formerly Norrsken Accelerator) 87, 8200 EISP 220
+  (names only), UpWest 47, SOSA 10 (ILPN dealbook), Surge (Peak XV) 154, Axilor Ventures 58 = 2,056 rows.
+  APX -> `no-public-output` (portfolio app gone); Rockstart left queued (sgcaptcha, not bypassed).
+  Master `all_accelerator_companies.json`: 18,082 -> 20,138 rows. Junior-POC emails not published on
+  sites were taken from Apollo (verified) and are flagged as such in `contacts.csv` Notes.
