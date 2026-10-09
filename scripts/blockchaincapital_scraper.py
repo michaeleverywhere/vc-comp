@@ -10,10 +10,10 @@ from urllib.parse import urljoin
 
 def scrape() -> List[dict]:
     """
-    Scrapes Blockchain Capital's portfolio from https://blockchain.capital/portfolio
+    Scrapes Blockchain Capital's portfolio from https://www.blockchaincapital.com/portfolio
     Returns a list of portfolio company dicts.
     """
-    portfolio_url = "https://blockchain.capital/portfolio"
+    portfolio_url = "https://www.blockchaincapital.com/portfolio"
     session = requests.Session()
     companies = []
     seen = set()
