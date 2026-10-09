@@ -230,7 +230,27 @@ Current datasets (in `data/`):
 | Viola Group | `viola_companies.json` | 118 | viola-group.com/portfolio — site JSON endpoint (portfolio-filter.php) (`viola_scraper.py`) |
 | Vsquared Ventures | `vsquared_companies.json` | 38 | vsquared.vc/portfolio — WP + Search & Filter Pro cards (`vsquared_scraper.py`) |
 | Wavemaker Ventures | `wavemaker_companies.json` | 219 | wavemaker.vc/portfolio — WP REST portfolio CPT + detail pages (`wavemaker_scraper.py`) |
-**219 firm datasets (33,661 companies in all_companies.json) after the 2026-10-08 Daily 20 (4DX/Aleph/BEENEXT/Cyberstarts/East Ventures/Elaia/Folklore/Heartcore/Kapor/Kaszek/Maveron/Octopus/Panache/Pitango/Seaya/Sierra/TLcom/Viola/Vsquared/Wavemaker); previous: 199 firms / 31,115 after the 2026-10-07 5 PM refresh (31,049 right after the 2026-10-07 Daily 20: Next47/Volition/Golden Ventures/Real Ventures/MMC/Stellaris/3one4/Nauta/XAnge/Elevation/Square Peg/Blackbird/AirTree/Qualcomm Ventures/byFounders/Mercury Fund/Capnamic/Fabric/Spero/Samaipata); see all_companies.json for live totals.**
+| YL Ventures | `ylventures_companies.json` | 32 | ylventures.com/portfolio — WP HTML cards (HQ, founded, acquirer text) (`ylventures_scraper.py`) |
+| Expa | `expa_companies.json` | 96 | expa.com/companies — HTML list; acquirer parsed from "Acquired by X" text (`expa_scraper.py`) |
+| Ventures Platform | `venturesplatform_companies.json` | 80 | venturesplatform.com/portfolio — Webflow (Finsweet); Initial Investment -> stage (`venturesplatform_scraper.py`) |
+| lool ventures | `lool_companies.json` | 38 | lool.vc/portfolio — WP HTML cards (invested-in year, acquirer, exit year) (`lool_scraper.py`) |
+| Giant Leap | `giantleap_companies.json` | 36 | giantleap.com.au/portfolio — Webflow (Finsweet) list (`giantleap_scraper.py`) |
+| Industrifonden | `industrifonden_companies.json` | 90 | industrifonden.com/portfolio — Webflow list (Active / Selected exits) (`industrifonden_scraper.py`) |
+| Concept Ventures | `concept_companies.json` | 36 | concept.vc/portfolio — Webflow (Finsweet) + detail pages (`concept_scraper.py`) |
+| Beringea | `beringea_companies.json` | 138 | beringea.com/portfolio — Next.js `__NEXT_DATA__` investments (UK/US fund kept as `fund`, not location) (`beringea_scraper.py`) |
+| Visionaries Club | `visionaries_companies.json` | 59 | visionaries.vc — single-page HTML (thesis, published ARR / acquisitions only) (`visionaries_scraper.py`) |
+| M13 | `m13_companies.json` | 163 | m13.co/portfolio — Webflow paginated list (no company websites on-site) (`m13_scraper.py`) |
+| Luminar Ventures | `luminar_companies.json` | 39 | luminarventures.com/portfolio — Webflow (Finsweet) + detail pages (`luminar_scraper.py`) |
+| B Capital | `bcapital_companies.json` | 135 | b.capital/portfolio — WP page's embedded `orig_data` JS array (region, status, website) (`bcapital_scraper.py`) |
+| Novastar Ventures | `novastar_companies.json` | 24 | novastarventures.com/portfolio — WP grid + case-study pages (timeline -> first_invested / entry round) (`novastar_scraper.py`) |
+| b2venture | `b2venture_companies.json` | 193 | b2venture.vc/portfolio (btov) — Webflow (Finsweet) paginated table (Since, Region; Trade Sale/IPO labels) (`b2venture_scraper.py`) |
+| Grove Ventures | `grove_companies.json` | 35 | grovevc.com/grove-portfolio-companies — WP grid (names from card classes; detail pages WAF-blocked; stealth cards skipped) (`grove_scraper.py`) |
+| Vertex Ventures US | `vertexus_companies.json` | 60 | vvus.com/portfolio — Gatsby page-data static query (Storyblok projects) (`vertexus_scraper.py`) |
+| NordicNinja | `nordicninja_companies.json` | 27 | nordicninja.com/portfolio — WP cards (industry, series) + detail pages (`nordicninja_scraper.py`) |
+| Bling Capital | `bling_companies.json` | 213 | blingcap.com/portfolio — Next.js SSR cards (Acquired by X / Public: TICKER) (`bling_scraper.py`) |
+| Newion | `newion_companies.json` | 58 | newion.com/portfolio — Webflow rows + popups (city, investment year, active/exited) (`newion_scraper.py`) |
+| GroundUp Ventures | `groundup_companies.json` | 58 | groundup.vc/portfolio — Webflow lightboxes (current stage, stage invested, location, acquirer) (`groundup_scraper.py`) |
+**239 firm datasets (35,273 companies in all_companies.json) after the 2026-10-09 Daily 20 (YL Ventures/Expa/Ventures Platform/lool/Giant Leap/Industrifonden/Concept/Beringea/Visionaries/M13/Luminar/B Capital/Novastar/b2venture/Grove/Vertex US/NordicNinja/Bling/Newion/GroundUp); previous: 219 firms / 33,663 after the 2026-10-08 Daily 20 (4DX/Aleph/BEENEXT/Cyberstarts/East Ventures/Elaia/Folklore/Heartcore/Kapor/Kaszek/Maveron/Octopus/Panache/Pitango/Seaya/Sierra/TLcom/Viola/Vsquared/Wavemaker); before that: 199 firms / 31,115 after the 2026-10-07 5 PM refresh (31,049 right after the 2026-10-07 Daily 20: Next47/Volition/Golden Ventures/Real Ventures/MMC/Stellaris/3one4/Nauta/XAnge/Elevation/Square Peg/Blackbird/AirTree/Qualcomm Ventures/byFounders/Mercury Fund/Capnamic/Fabric/Spero/Samaipata); see all_companies.json for live totals.**
 
 **Previously retired, now re-armed (2026-10-02):** SignalFire — factory attempts failed on description coverage in 2026-07; re-added with hand-written Webflow scraper (`signalfire_scraper.py`). Wing VC graduated bespoke on the same 2026-07 re-armed burst.
 
