@@ -48,3 +48,6 @@ created (create_field returned "requires authentication"); then run `URL_FIELDS=
   APX -> `no-public-output` (portfolio app gone); Rockstart left queued (sgcaptcha, not bypassed).
   Master `all_accelerator_companies.json`: 18,082 -> 20,138 rows. Junior-POC emails not published on
   sites were taken from Apollo (verified) and are flagged as such in `contacts.csv` Notes.
+- **2026-10-09 refresh** (`scrapers/techstars_refresh.py`): Techstars 5,662 -> 5,663 (+Tessera Defense Systems,
+  Techstars Space 2026; BeautyGoGO -> Vylvet and TawkitAI -> CopilotKit renamed in Techstars' index, `former_name` kept).
+  Master `all_accelerator_companies.json`: 20,138 -> 20,139 rows.
