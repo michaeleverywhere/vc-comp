@@ -375,7 +375,7 @@ def main():
                 "company_name": name,
                 "description": desc,
                 "company_url": clean_url(link["href"]) if link else None,
-                "first_invested": str(since) if since else None,
+                "first_invested": since,
                 "location": f("region"),
                 "status": "acquired" if any(x.lower() in ("trade sale", "exited") for x in exits) else None,
                 "exit_route": exits[0] if exits else None,

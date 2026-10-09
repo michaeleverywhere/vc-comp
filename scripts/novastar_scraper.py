@@ -153,12 +153,12 @@ def parse_detail(html, name):
         "description": desc,
         "company_url": clean_url(site) if site else None,
         "founders": list(dict.fromkeys(founders)),
-        "first_invested": str(first[0]) if first else None,
+        "first_invested": first[0] if first else None,
         "stage": (round_label(first[1]) or "").split(" / ")[0] or None if first else None,
         "timeline": [{"year": y, "event": e} for y, e in events],
         "status": "acquired" if acq else None,
         "acquirer": acquirer,
-        "exit_year": str(acq[0]) if acq else None,
+        "exit_year": acq[0] if acq else None,
     }
 
 

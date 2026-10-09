@@ -195,7 +195,7 @@ def main():
             "company_url": clean_url(site) if site else None,
             "status": STATUS.get((raw_status or "").lower()),
             "site_status": raw_status,
-            "first_invested": str(year) if year else None,
+            "first_invested": year,
             "location": ", ".join(x for x in (city, country) if x) or None,
             "investor_team": team,
             "everywhere_tags": tags_for(name, desc or "", [], SECTOR_TAG_MAP),
