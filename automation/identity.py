@@ -66,6 +66,12 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "lool":       ("lool", "lool vc"),
     "visionaries": ("Visionaries", "Visionaries Club VC"),
     "groundup":   ("GroundUp", "GroundUp VC"),
+    "cathay":     ("Cathay Innovation",),
+    "maki":       ("Maki.vc", "Maki VC"),
+    "nexus":      ("Nexus VP", "Nexus Venture Partners"),
+    "threevc":    ("3VC", "Three VC"),
+    "samsungnext": ("Samsung NEXT", "Samsung Next Ventures"),
+    "chrysalix":  ("Chrysalix VC", "Chrysalix Venture Capital"),
 }
 
 # Trailing generic words dropped when matching a firm name to an existing slug
