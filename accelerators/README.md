@@ -55,3 +55,7 @@ created (create_field returned "requires authentication"); then run `URL_FIELDS=
   Venture Catalysts 233, Iterative 191, AppWorks 115, SparkLabs 185, Open Network Lab 205, Brinc 94, Startmate 317,
   Cicada Innovations 77, Creative HQ (Lightning Lab) 402 = 2,066 rows. T-Hub and MiraclePlus -> `no-public-output`
   (no public company list / only 12 representative names). Master `all_accelerator_companies.json`: 20,139 -> 22,205 rows.
+- **2026-10-10 refresh** (`scrapers/sosv_refresh.py`, merges a fresh `sosv.py` pull onto the existing file, keeping
+  earlier enrichment): SOSV 781 -> 781 (HAX 211, IndieBio 240 unchanged); no new companies (newest cohorts HAX Seed 2026,
+  IBSF 25H2, IndieBio NY 2025 H2 already loaded). Field updates: Upright and Allied Microbiota `founded_year`, Neurode website.
+  Master `all_accelerator_companies.json`: 22,205 rows (unchanged).
