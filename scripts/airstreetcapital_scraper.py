@@ -8,6 +8,14 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
 from urllib.parse import urljoin
 
+_COUNTRY = {"USA": "United States", "US": "United States", "UK": "United Kingdom",
+            "FR": "France", "EU": "Europe", "DE": "Germany", "CA": "Canada",
+            "AUT": "Austria", "AT": "Austria", "FI": "Finland", "CH": "Switzerland",
+            "TR": "Turkey", "SE": "Sweden", "NL": "Netherlands", "ES": "Spain",
+            "IT": "Italy", "IE": "Ireland", "DK": "Denmark", "NO": "Norway",
+            "IL": "Israel", "PL": "Poland", "BE": "Belgium", "PT": "Portugal"}
+
+
 def scrape() -> List[Dict]:
     """
     Scrape Air Street Capital portfolio companies from https://airstreet.com/portfolio
@@ -101,24 +109,25 @@ def scrape() -> List[Dict]:
                     # Clean up trailing punctuation
                     description = description.rstrip(".;,").strip()
             
-            # Extract location/tags from parentheses
-            tags = []
-            if epoch:
-                tags.append(epoch)
-            
-            # Find location tags in parentheses at the end
+            # Country codes in parentheses -> location (site-provided); the
+            # portfolio epoch header -> investment_period. everywhere_tags is
+            # reserved for the fixed 17-tag taxonomy (filled by post-processing).
+            countries = []
             location_matches = re.findall(r'\(([A-Z]{2,3}(?:/[A-Z]{2,3})*)\)', after_link)
             for loc in location_matches:
-                # Split combined locations like USA/UK
                 for single_loc in loc.split('/'):
-                    tags.append(single_loc.strip())
-            
+                    c = _COUNTRY.get(single_loc.strip(), single_loc.strip())
+                    if c and c not in countries:
+                        countries.append(c)
+
             company_record = {
                 "company_name": company_name,
                 "company_url": company_url,
                 "description": description if description else None,
                 "status": status,
-                "everywhere_tags": tags,
+                "location": ", ".join(countries) if countries else None,
+                "investment_period": epoch,
+                "everywhere_tags": [],
                 "source_url": portfolio_url,
             }
             
