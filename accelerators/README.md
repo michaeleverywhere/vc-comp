@@ -51,3 +51,7 @@ created (create_field returned "requires authentication"); then run `URL_FIELDS=
 - **2026-10-09 refresh** (`scrapers/techstars_refresh.py`): Techstars 5,662 -> 5,663 (+Tessera Defense Systems,
   Techstars Space 2026; BeautyGoGO -> Vylvet and TawkitAI -> CopilotKit renamed in Techstars' index, `former_name` kept).
   Master `all_accelerator_companies.json`: 20,138 -> 20,139 rows.
+- **2026-10-10 daily add** (`scrapers/batch_oct10.py`, headless-Chrome helper `scrapers/cdp.py`): Rockstart 247,
+  Venture Catalysts 233, Iterative 191, AppWorks 115, SparkLabs 185, Open Network Lab 205, Brinc 94, Startmate 317,
+  Cicada Innovations 77, Creative HQ (Lightning Lab) 402 = 2,066 rows. T-Hub and MiraclePlus -> `no-public-output`
+  (no public company list / only 12 representative names). Master `all_accelerator_companies.json`: 20,139 -> 22,205 rows.
