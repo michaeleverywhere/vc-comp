@@ -72,6 +72,22 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "threevc":    ("3VC", "Three VC"),
     "samsungnext": ("Samsung NEXT", "Samsung Next Ventures"),
     "chrysalix":  ("Chrysalix VC", "Chrysalix Venture Capital"),
+    "stage2": ("Stage 2 Capital", "Stage 2",),
+    "fiveam": ("5AM Ventures", "5AM",),
+    "nextcoast": ("Next Coast Ventures", "Next Coast",),
+    "converge": ("Converge VC", "Converge Venture Partners",),
+    "onekx": ("1kx", "1kx Capital", "One KX",),
+    "variant": ("Variant Fund",),
+    "mantis": ("Mantis VC", "Mantis Venture Capital",),
+    "htgf": ("HTGF", "High-Tech Grunderfonds", "High-Tech Gruenderfonds", "High Tech Gründerfonds",),
+    "psl": ("PSL", "PSL Ventures", "Pioneer Square Labs",),
+    "qiming": ("Qiming Venture Partners", "Qiming VC",),
+    "samsara": ("Samsara BioCapital", "Samsara Bio Capital",),
+    "foresite": ("Foresite Capital", "Foresite",),
+    "revolution": ("Revolution LLC", "Revolution Ventures", "Revolution Growth", "Rise of the Rest",),
+    "trinity": ("Trinity Ventures",),
+    "endiya": ("Endiya Partners", "Endiya",),
+    "agfunder": ("AgFunder Ventures",),
 }
 
 # Trailing generic words dropped when matching a firm name to an existing slug
