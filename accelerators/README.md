@@ -59,3 +59,9 @@ created (create_field returned "requires authentication"); then run `URL_FIELDS=
   earlier enrichment): SOSV 781 -> 781 (HAX 211, IndieBio 240 unchanged); no new companies (newest cohorts HAX Seed 2026,
   IBSF 25H2, IndieBio NY 2025 H2 already loaded). Field updates: Upright and Allied Microbiota `founded_year`, Neurode website.
   Master `all_accelerator_companies.json`: 22,205 rows (unchanged).
+- **2026-10-11 daily add** (`scrapers/batch_oct11.py`): Start-Up Chile 516 (BIG/generation announcement posts +
+  featured portfolio; listed `todas-las-startups` URL is 404), Platanus 93, NXTP Ventures 56 (names from company sites),
+  Parallel18 531, Cubo Itaú 511 (Cubo's own startup API), Flat6Labs 133 (portfolio now published by F6 Ventures, f6.vc,
+  + 9 Riyadh Seed Program startups on flat6labs.com), MEST Africa 36, CcHUB 45, Founders Factory Africa 40, Hub71 316
+  = 2,277 rows. QBO Innovation Hub -> `no-public-output` (only 8 INQBATION 2020 pitch winners listed). Master
+  `all_accelerator_companies.json`: 22,205 -> 24,482 rows. Junior-POC emails not on sites came from Apollo (verified).
