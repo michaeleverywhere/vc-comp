@@ -1,4 +1,4 @@
-"""Small shared tail for the 2026-10-11 Daily 20 scrapers (write + coverage print)."""
+"""Small shared tail for Daily 20 scrapers (write + coverage print)."""
 import json
 
 
