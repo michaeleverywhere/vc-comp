@@ -65,3 +65,9 @@ created (create_field returned "requires authentication"); then run `URL_FIELDS=
   + 9 Riyadh Seed Program startups on flat6labs.com), MEST Africa 36, CcHUB 45, Founders Factory Africa 40, Hub71 316
   = 2,277 rows. QBO Innovation Hub -> `no-public-output` (only 8 INQBATION 2020 pitch winners listed). Master
   `all_accelerator_companies.json`: 22,205 -> 24,482 rows. Junior-POC emails not on sites came from Apollo (verified).
+- **2026-10-12 daily add** (`scrapers/batch_oct12.py`): Creative Destruction Lab 1,907, DMZ 279,
+  Velocity (University of Waterloo) 89, Next Canada 484, Centech 9 (Été 2026 featured cohort only),
+  Accelerator Centre 634, District 3 149 = 3,551 rows. Communitech -> `no-public-output` (no public
+  company portfolio on communitech.ca). Queue emptied (0 remaining queued). Master
+  `all_accelerator_companies.json`: 24,482 -> 28,033 rows. Junior-POC emails not on sites came from
+  Apollo (verified) and are flagged in `contacts.csv` Notes.

@@ -1200,23 +1200,29 @@
       "official_site": "https://creativedestructionlab.com/",
       "portfolio_url": "https://creativedestructionlab.com/companies/",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "",
-      "region": "Canada/Global"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 1907,
+      "notes": "Scraped CDL companies directory + detail pages (name, stream, site, cohort year, description, website).",
+      "region": "Canada/Global",
+      "data_file": "data/accelerators/creativedestructionlab_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "recCR1kl2Mm1We6T8"
     },
     {
       "name": "DMZ",
       "slug": "dmz",
       "official_site": "https://dmz.torontomu.ca/",
-      "portfolio_url": null,
+      "portfolio_url": "https://dmz.torontomu.ca/startup-directory",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output.",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 279,
+      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output. Scraped DMZ startup-directory (14 pages). Portfolio URL set to https://dmz.torontomu.ca/startup-directory.",
+      "region": "Canada",
+      "data_file": "data/accelerators/dmz_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "recmmNBDNo73YDp7D"
     },
     {
       "name": "Velocity (University of Waterloo)",
@@ -1224,11 +1230,14 @@
       "official_site": "https://www.velocityincubator.com/",
       "portfolio_url": "https://www.velocityincubator.com/companies",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 89,
+      "notes": "Scraped Velocity companies listing + company detail pages.",
+      "region": "Canada",
+      "data_file": "data/accelerators/velocityuniversityofwaterloo_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "reci3DunB7ntxzgpc"
     },
     {
       "name": "Communitech",
@@ -1236,11 +1245,12 @@
       "official_site": "https://www.communitech.ca/",
       "portfolio_url": null,
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
+      "status": "no-public-output",
+      "last_run": "2026-10-12T11:30:00-04:00",
       "count": 0,
-      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output.",
-      "region": "Canada"
+      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output. No public portfolio/companies directory found on communitech.ca (homepage, founders, members paths; CDN/403 without CDP and CDP still shows no company list). Marked no-public-output.",
+      "region": "Canada",
+      "airtable_rows": 0
     },
     {
       "name": "Next Canada",
@@ -1248,11 +1258,14 @@
       "official_site": "https://www.nextcanada.com/",
       "portfolio_url": "https://www.nextcanada.com/alumni/",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 484,
+      "notes": "Scraped directory.nextcanada.com/directory/ventures/ (484 ventures with founders/cohort).",
+      "region": "Canada",
+      "data_file": "data/accelerators/nextcanada_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "recwbLld4TU53tqGd"
     },
     {
       "name": "Centech",
@@ -1260,23 +1273,29 @@
       "official_site": "https://centech.co/",
       "portfolio_url": "https://centech.co/startups-centech/",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 9,
+      "notes": "Public startups page lists Été 2026 featured cohort only (9 companies); full alumni list not published on page.",
+      "region": "Canada",
+      "data_file": "data/accelerators/centech_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "rechtIg3pQMvJ5B0O"
     },
     {
       "name": "Accelerator Centre",
       "slug": "acceleratorcentre",
       "official_site": "https://www.acceleratorcentre.com/",
-      "portfolio_url": null,
+      "portfolio_url": "https://www.acceleratorcentre.com/our-startups/",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output.",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 634,
+      "notes": "Portfolio/cohort URL not found on homepage scan; daily routine should locate or mark no-public-output. Scraped our-startups alumni/roster (Visit NAME Website image alts + hrefs).",
+      "region": "Canada",
+      "data_file": "data/accelerators/acceleratorcentre_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "recsbOz1YHg7MV5gG"
     },
     {
       "name": "District 3",
@@ -1284,11 +1303,14 @@
       "official_site": "https://www.district3.co/",
       "portfolio_url": "https://www.district3.co/startups",
       "priority_tier": "abroad",
-      "status": "queued",
-      "last_run": null,
-      "count": 0,
-      "notes": "",
-      "region": "Canada"
+      "status": "tracked",
+      "last_run": "2026-10-12T11:30:00-04:00",
+      "count": 149,
+      "notes": "Scraped startups directory (8 pages).",
+      "region": "Canada",
+      "data_file": "data/accelerators/district3_companies.json",
+      "airtable_rows": 1,
+      "airtable_record": "recpB7APsBYGiAbiB"
     }
   ]
 }
