@@ -41,7 +41,8 @@ def scrape() -> list[dict[str, Any]]:
     seen_names = set()
     
     # Find all portfolio cards with data-bucket="company"
-    cards = soup.select('#pf-cards .card[data-bucket="company"]')
+    # data-bucket: company (active) | exit (acquired / public) | fund (partner funds, skipped)
+    cards = soup.select('#pf-cards .card[data-bucket="company"], #pf-cards .card[data-bucket="exit"]')
     
     for idx, card in enumerate(cards):
         try:
@@ -170,6 +171,18 @@ def scrape() -> list[dict[str, Any]]:
                 except:
                     pass
             
+            # Exit cards carry "Acquired by X" or "EXCHANGE:TICKER" (manual fix 2026-10-12)
+            status, acquirer, ticker = 'Active', None, None
+            if card.get('data-bucket') == 'exit':
+                status = 'Exited'
+                ex = card.select_one('.exit-text')
+                ex = ex.get_text(' ', strip=True) if ex else ''
+                m = re.match(r'Acquired by\s+(.+)', ex, re.I)
+                if m:
+                    status, acquirer = 'Acquired', m.group(1).strip()
+                elif re.match(r'^[A-Z]+:[A-Z.]+$', ex):
+                    status, ticker = 'Public', ex
+
             # Build company record
             company = {
                 'company_name': company_name,
@@ -179,7 +192,9 @@ def scrape() -> list[dict[str, Any]]:
                 'founders': [],
                 'sectors': [],
                 'stage': None,
-                'status': 'Active',
+                'status': status,
+                'acquirer': acquirer,
+                'ticker': ticker,
                 'everywhere_tags': [],
                 'source_url': portfolio_url
             }
