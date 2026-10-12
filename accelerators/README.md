@@ -42,6 +42,7 @@ itself is never fetched. The Airtable fields **Website** and **LinkedIn** (type 
 created (create_field returned "requires authentication"); then run `URL_FIELDS=1 airtable_upsert.py`.
 
 ## Run log
+- **2026-10-12 refresh** (`scrapers/small.py southparkcommons`): South Park Commons 202 -> 202 (Preference Models renamed to Preference Model, `former_name` kept; no new companies; founded-2026 cohort of 10 already loaded). Master `all_accelerator_companies.json`: 28,033 rows (unchanged).
 - **2026-10-09 daily add** (`scrapers/batch_oct9.py`): Startup Wise Guys 311, Antler 1,087, EWOR 50,
   Accelerace 32 (public selection), Norrsken Evolve (formerly Norrsken Accelerator) 87, 8200 EISP 220
   (names only), UpWest 47, SOSA 10 (ILPN dealbook), Surge (Peak XV) 154, Axilor Ventures 58 = 2,056 rows.
