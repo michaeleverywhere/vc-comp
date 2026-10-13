@@ -321,10 +321,86 @@ def parse_card(card, scraped_at):
     }
 
 
+VERTICALS = {"ai": "AI", "deeptech": "Deep Tech", "health": "Health", "bio": "Bio", "other": "Other"}
+
+
+def _abs(u):
+    u = clean(u)
+    if not u or u == "#":
+        return None
+    if not u.startswith(("http://", "https://")):
+        u = f"https://2048.vc/{u.lstrip('/')}"
+    return norm_url(u)
+
+
+def scrape_v2(soup, scraped_at, limit=None):
+    """2026-10 redesign (static HTML, no Webflow): every company is an
+    `a.company-row` in `#company-list` (href = company site, `.row-name`,
+    `.row-desc`, `.row-stage`, `data-vertical` = the site's sector filter).
+    The 14 `article.featured-card` "Select investments" add founders
+    (`.ceo-chip`) and a CO-INVESTORS list; they are joined by company URL.
+    Location / latest news / why-we-invested posts are no longer on the page,
+    so the refresh merge carries the earlier values forward."""
+    featured = {}
+    for art in soup.select("article.featured-card"):
+        a = art.select_one("a.co-name")
+        if not a:
+            continue
+        team = []
+        for chip in art.select(".ceo-chip"):
+            nm = chip.select_one(".ceo-name")
+            if not nm or not clean(nm.get_text()):
+                continue
+            rl = chip.select_one(".ceo-role")
+            img = chip.select_one("img")
+            team.append({"name": clean(nm.get_text()),
+                         "title": clean(rl.get_text()) if rl else None,
+                         "photo_url": _abs(img.get("src")) if img else None})
+        co = art.select_one(".co-with b")
+        coinv = [clean(x.lstrip("-")) for x in (co.get_text("\n") if co else "").split("\n")]
+        featured[norm_url(a.get("href"))] = {"team": team, "co_investors": [c for c in coinv if c]}
+    rows = soup.select("a.company-row")
+    print(f"  found {len(rows)} company rows (v2 layout), {len(featured)} featured cards")
+    out, seen = [], set()
+    for row in rows:
+        nm = row.select_one(".row-name")
+        name = clean(nm.get_text()) if nm else None
+        if not name or name in seen:
+            continue
+        seen.add(name)
+        de = row.select_one(".row-desc"); st = row.select_one(".row-stage")
+        description = clean(de.get_text()) if de else None
+        url = norm_url(row.get("href"))
+        f = featured.get(url, {})
+        vert = VERTICALS.get((row.get("data-vertical") or "").strip().lower())
+        rec = {
+            "company_name": name,
+            "description": description,
+            "company_url": url,
+            "stage": clean(st.get_text()) if st else None,
+            "location": None,
+            "team": f.get("team", []),
+            "latest_news": None,
+            "why_we_invested_url": None,
+            "sectors": [vert] if vert else [],
+            "everywhere_tags": everywhere_tags(name, description),
+            "source_url": SOURCE_URL,
+            "scraped_at": scraped_at,
+        }
+        if f.get("co_investors"):
+            rec["co_investors"] = f["co_investors"]
+        out.append(rec)
+        if limit and len(out) >= limit:
+            break
+    return out
+
+
 def scrape(scraped_at, limit=None):
     soup = BeautifulSoup(fetch(COMPANIES_URL), "html.parser")
     cards = soup.select(".card-investment")
     print(f"  found {len(cards)} cards")
+    if not cards and soup.select("a.company-row"):
+        return scrape_v2(soup, scraped_at, limit)
     out, seen = [], set()
     for card in cards:
         rec = parse_card(card, scraped_at)
