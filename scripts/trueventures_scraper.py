@@ -31,10 +31,26 @@ def scrape() -> List[Dict]:
         for script in scripts:
             if script.string:
                 script_text = script.string
+                # 2026-10: Next.js now ships the portfolio JSON inside an RSC
+                # self.__next_f.push([1,"..."]) string, i.e. JSON-escaped.
+                # Decode that string literal first so the match below still works.
+                if '\\"highlights\\":' in script_text:
+                    m_rsc = re.search(r'push\(\[1,(".*")\]\)', script_text, re.DOTALL)
+                    if m_rsc:
+                        try:
+                            script_text = json.loads(m_rsc.group(1))
+                        except json.JSONDecodeError:
+                            pass
                 # Look for the embedded JSON with company data
                 if '"highlights":' in script_text and '"exits":' in script_text and '"all":' in script_text:
                     try:
                         # Extract JSON object containing highlights, exits, and all
+                        # raw_decode from the object start: the old non-greedy regex
+                        # stopped at the first ']}' inside a company's sectors array.
+                        start = script_text.find('{"highlights":')
+                        if start >= 0:
+                            portfolio_data, _ = json.JSONDecoder().raw_decode(script_text, start)
+                            break
                         match = re.search(r'\{"highlights":\[(.*?)\],"exits":\[(.*?)\],"all":\[(.*?)\]\}', script_text, re.DOTALL)
                         if match:
                             json_str = '{"highlights":[' + match.group(1) + '],"exits":[' + match.group(2) + '],"all":[' + match.group(3) + ']}'
@@ -46,6 +62,9 @@ def scrape() -> List[Dict]:
         # If we found portfolio data in scripts, process it
         if portfolio_data:
             all_companies = portfolio_data.get('highlights', []) + portfolio_data.get('exits', []) + portfolio_data.get('all', [])
+            # True lists exited companies in their own "exits" array; keep that
+            # site label as status (no acquirer/IPO split is published).
+            exit_names = {(c.get('name') or '').lower() for c in portfolio_data.get('exits', [])}
             
             for company in all_companies:
                 name = company.get('name')
@@ -61,7 +80,7 @@ def scrape() -> List[Dict]:
                         "founders": [],
                         "sectors": company.get('sectors', []),
                         "stage": None,
-                        "status": None,
+                        "status": "Exited" if name.lower() in exit_names else None,
                         "profile_url": None,
                         "everywhere_tags": [],
                         "source_url": portfolio_url
