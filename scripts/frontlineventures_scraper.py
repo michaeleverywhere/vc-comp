@@ -84,11 +84,12 @@ def scrape() -> List[dict]:
                 "source_url": portfolio_url,
             }
             
-            # Add location and fund tags
+            # Location (country) and fund are site fields, not everywhere_tags
+            # (everywhere_tags is the fixed 17-tag taxonomy; filled downstream).
             if location:
-                company_dict["everywhere_tags"].append(location)
+                company_dict["location"] = location
             if fund_type:
-                company_dict["everywhere_tags"].append(fund_type)
+                company_dict["fund"] = fund_type
             
             # Fetch detail page to get company website URL
             time.sleep(0.3)
