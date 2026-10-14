@@ -80,6 +80,63 @@ def scrape() -> List[Dict]:
     return companies
 
 
+
+# --- 2026-10 site move: cic.vc/portfolio now redirects to a news post; the
+# portfolio lives at https://www.cic.vc/companies/ (WordPress grid with
+# company_type-private/-acquired/-ipo classes) + /company/<slug>/ detail pages.
+def scrape_v2() -> List[Dict]:
+    import re
+    session = requests.Session()
+    session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'})
+    base = "https://www.cic.vc/companies/"
+    soup = None
+    for attempt in range(6):  # the WP cache intermittently serves a grid-less page
+        soup = BeautifulSoup(session.get(base, timeout=30).content, 'html.parser')
+        if soup.select('div.grid-item.type-company'):
+            break
+        time.sleep(3 * (attempt + 1))
+    if not soup.select('div.grid-item.type-company'):
+        raise SystemExit("cic.vc/companies served no company grid (cache/bot variant) -- keeping previous data")
+    out, seen = [], set()
+    for item in soup.select('div.grid-item.type-company'):
+        a = item.select_one('h4 a[href]')
+        if not a:
+            continue
+        name = a.get_text(" ", strip=True)
+        if not name or name.lower() in seen:
+            continue
+        seen.add(name.lower())
+        cls = item.get('class', [])
+        ctype = next((c.split('company_type-', 1)[1] for c in cls if c.startswith('company_type-')), None)
+        status = {'private': 'active', 'current-companies': 'active', 'acquired': 'acquired', 'ipo': 'Public'}.get(ctype, ctype)
+        tagline_el = item.select_one('h4 + p')
+        tagline = tagline_el.get_text(" ", strip=True) if tagline_el else None
+        img = item.select_one('img')
+        rec = {'company_name': name, 'company_url': None, 'description': tagline, 'tagline': tagline,
+               'status': status, 'company_profile_url': a['href'],
+               'logo_url': img.get('src') if img else None, 'source_url': base}
+        try:
+            d = BeautifulSoup(session.get(a['href'], timeout=30).content, 'html.parser')
+            vw = next((x for x in d.select('a[href]') if x.get_text(strip=True).lower() == 'visit website'), None)
+            if vw and vw['href'].startswith('http'):
+                rec['company_url'] = vw['href']
+                box = vw.find_parent(lambda t: t.name in ('div', 'section') and len(t.find_all('p')) >= 1)
+                paras = [re.sub(r"\s+", " ", p.get_text(" ", strip=True)) for p in (box.find_all('p') if box else [])]
+                paras = [p for p in paras if p and p.lower() != 'visit website']
+                if paras:
+                    rec['description'] = " ".join(paras)
+        except requests.RequestException:
+            pass
+        if rec['status'] == 'acquired' and rec['company_url']:
+            # for exited companies CIC's "Visit Website" often points at the acquirer
+            rec['visit_website_url'] = rec.pop('company_url'); rec['company_url'] = None
+        out.append(rec)
+        time.sleep(0.3)
+    return out
+
+
+scrape = scrape_v2
+
 # --- auto-appended runner (trusted template, not LLM output) -----------------
 if __name__ == "__main__":
     import json as _json, os as _os, sys as _sys
