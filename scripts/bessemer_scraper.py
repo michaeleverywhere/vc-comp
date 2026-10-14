@@ -349,5 +349,113 @@ def main():
         print(f"  {c:>4}  {t}")
 
 
+# ---- 2026-10 site rebuild: bvp.com/companies -> /portfolio (Next.js + Sanity).
+# The list page's RSC payload carries one JSON object per company (name, slug,
+# sectors, stages, status, stockTicker, investors, location); each
+# /portfolio/<slug> detail page adds shortDescription/longDescription, website
+# and a Details <dl> (Founded, Partnered, Status, Acquired by, Ticker symbol).
+PORTFOLIO_V2 = "https://www.bvp.com/portfolio"
+SECTOR_TAG_MAP.update({
+    "Healthcare": "Health", "Data & Cloud": None, "Deep Tech & Defense": "Deeptech / Robotics / AR/VR",
+    "Physical AI & Robotics": "Deeptech / Robotics / AR/VR",
+})
+
+
+def rsc_text(html):
+    parts = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)</script>', html, re.S)
+    return "".join(json.loads('"' + p + '"') for p in parts)
+
+
+def parse_detail_v2(slug):
+    t = rsc_text(get(f"{PORTFOLIO_V2}/{slug}"))
+    d = {}
+    i = t.find('"shortDescription"')
+    if i >= 0:
+        j = t.rfind('{"_id"', 0, i)
+        try:
+            o, _ = json.JSONDecoder().raw_decode(t, j)
+            d["description"] = clean(o.get("longDescription") or o.get("shortDescription"))
+            d["short_description"] = clean(o.get("shortDescription"))
+            d["company_url"] = clean(o.get("website"))
+        except ValueError:
+            pass
+    dl = {}
+    for lab, val in re.findall(r'"children":"([^"]{1,40})"\}\],\["\$","dd",null,\{"className":"[^"]*","children":("(?:[^"\\]|\\.)*")', t):
+        dl[lab.strip().lower()] = clean(json.loads(val))
+    d["dl"] = dl
+    return d
+
+
+def main_v2():
+    from concurrent.futures import ThreadPoolExecutor
+    print(f"Fetching {PORTFOLIO_V2}")
+    t = rsc_text(get(PORTFOLIO_V2))
+    dec = json.JSONDecoder()
+    objs = {}
+    for m in re.finditer(r'\{"_id":"[0-9a-f-]+","featureImage"', t):
+        try:
+            o, _ = dec.raw_decode(t, m.start())
+        except ValueError:
+            continue
+        if o.get("name") and o.get("slug"):
+            objs.setdefault(o["_id"], o)
+    rows = list(objs.values())
+    print(f"Found {len(rows)} companies on list page; fetching detail pages ...")
+
+    def det(o):
+        try:
+            return parse_detail_v2(o["slug"])
+        except SystemExit as e:
+            print(f"  ! detail failed {o['slug']}: {e}", file=sys.stderr)
+            return {}
+    with ThreadPoolExecutor(8) as ex:
+        dets = list(ex.map(det, rows))
+    scraped_at = datetime.now(timezone.utc).isoformat()
+    companies = []
+    for o, d in zip(rows, dets):
+        dl = d.get("dl", {})
+        sectors = [s["label"] for s in (o.get("sectors") or []) if s.get("label")]
+        st = (dl.get("status") or o.get("status") or "")
+        st_l = st.lower()
+        status = {"active": "active", "acquired": "acquired", "public": "Public"}.get(st_l, st or None)
+        if st_l.startswith("public"):
+            status = "Public"
+        acquirer = dl.get("acquired by") or dl.get("merged with")
+        if acquirer and acquirer.isupper() and len(acquirer) > 4:
+            acquirer = acquirer.title()
+        ticker = dl.get("ticker symbol") or clean(o.get("stockTicker"))
+        desc = d.get("description")
+        name = clean(o["name"])
+        companies.append({
+            "company_name": name,
+            "description": desc,
+            "company_url": d.get("company_url"),
+            "company_profile_url": f"{PORTFOLIO_V2}/{o['slug']}",
+            "logo_url": o.get("logo"),
+            "investors": [i["name"] for i in (o.get("investors") or []) if i.get("name")],
+            "year_founded": to_year(dl.get("founded")),
+            "bvp_partnered_year": to_year(dl.get("partnered")),
+            "sectors": sectors,
+            "regions": [],
+            "bvp_stages": o.get("stages") or [],
+            "status": status,
+            "acquirer": acquirer,
+            "ticker_symbol": ticker,
+            "location": clean(o.get("location")) or dl.get("location") or dl.get("headquarters"),
+            "everywhere_tags": everywhere_tags(name, desc, sectors),
+            "source_url": PORTFOLIO_V2,
+            "scraped_at": scraped_at,
+        })
+    companies.sort(key=lambda c: c["company_name"].lower())
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(companies, f, ensure_ascii=False, indent=2)
+    from collections import Counter
+    print(f"\nWrote {len(companies)} companies -> {OUT}")
+    print("By status:", dict(Counter(c["status"] for c in companies)))
+    for k in ("description", "company_url", "year_founded", "bvp_partnered_year", "acquirer", "ticker_symbol", "location", "investors"):
+        print(f"  with {k}: {sum(1 for c in companies if c[k])}")
+    print("  untagged:", sum(1 for c in companies if not c["everywhere_tags"]))
+
+
 if __name__ == "__main__":
-    main()
+    main_v2()
