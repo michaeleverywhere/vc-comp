@@ -59,6 +59,8 @@ SLEEP_BETWEEN = 0.5
 # multiple of the 17 tags depending on what the company actually does.
 SECTOR_TAG_MAP = {
     "cybersecurity": ["Cybersecurity"],
+    "fintech": ["FinTech / Insurance"],
+    "crypto": ["Web3 / Crypto"],
     "fintech & crypto": ["FinTech / Insurance", "Web3 / Crypto"],
     "consumer": ["Consumer"],
 }
@@ -257,7 +259,159 @@ def everywhere_tags(name, tagline, description, sectors):
     return tags[:4]
 
 
+# ---- 2026-10 site rebuild (Next.js + Sanity): list page carries a JSON
+# "company" object per row; each /portfolio/<slug>/ detail page server-renders
+# description, website, socials, Leadership and HQ in its RSC flight payload.
+SANITY_IMG = "https://cdn.sanity.io/images/uz672vkd/production/"
+
+
+def rsc_text(html):
+    parts = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)</script>', html, re.S)
+    return "".join(json.loads('"' + p + '"') for p in parts)
+
+
+def rsc_nodes(text):
+    """Yield every decoded JSON row of the RSC flight payload."""
+    for line in text.split("\n"):
+        m = re.match(r"^[0-9a-f]+:(\[.*)$", line)
+        if not m:
+            continue
+        try:
+            yield json.loads(m.group(1))
+        except ValueError:
+            continue
+
+
+def node_text(n):
+    if isinstance(n, str):
+        return [] if n.startswith("$") else [n]
+    if isinstance(n, list):
+        if len(n) == 4 and n[0] == "$" and isinstance(n[3], dict):
+            return node_text(n[3].get("children"))
+        out = []
+        for x in n:
+            out += node_text(x)
+        return out
+    return []
+
+
+def walk(n):
+    if isinstance(n, list):
+        if len(n) == 4 and n[0] == "$" and isinstance(n[3], dict):
+            yield n
+            yield from walk(n[3].get("children"))
+        else:
+            for x in n:
+                yield from walk(x)
+
+
+def logo_from_ref(logo):
+    ref = ((logo or {}).get("asset") or {}).get("_ref") or ""
+    m = re.match(r"image-([0-9a-f]+-\d+x\d+)-(\w+)$", ref)
+    return f"{SANITY_IMG}{m.group(1)}.{m.group(2)}" if m else None
+
+
+def parse_list(html):
+    t = rsc_text(html)
+    dec = json.JSONDecoder()
+    out, seen = [], set()
+    for m in re.finditer(r'\{"company":', t):
+        try:
+            o, _ = dec.raw_decode(t, m.start())
+        except ValueError:
+            continue
+        c = o.get("company") or {}
+        if c.get("_id") in seen or not c.get("name"):
+            continue
+        seen.add(c["_id"])
+        out.append(c)
+    return out
+
+
+def parse_detail(html):
+    t = rsc_text(html)
+    d = {"description": None, "company_url": None, "social_urls": {}, "fields": {}}
+    for row in rsc_nodes(t):
+        for n in walk(row):
+            tag, props = n[1], n[3]
+            cls = props.get("className") or ""
+            if tag == "p" and "body-m" in cls and isinstance(props.get("children"), str) and not d["description"]:
+                d["description"] = clean(props["children"])
+            label = props.get("aria-label") or ""
+            href = props.get("href") or ""
+            if href.startswith("http") and label:
+                if label.endswith(" website"):
+                    d["company_url"] = href
+                else:
+                    host = domain_of(href)
+                    for needle, key in SOCIAL_HOST_MAP:
+                        if needle in host:
+                            d["social_urls"][key] = href
+                            break
+            ch = props.get("children")
+            if tag == "div" and isinstance(ch, list) and len(ch) == 2 and isinstance(ch[0], list) and len(ch[0]) == 4 \
+                    and isinstance(ch[0][3], dict) and "captions" in (ch[0][3].get("className") or ""):
+                lab = " ".join(node_text(ch[0])).strip().upper()
+                vals = [clean(x) for x in node_text(ch[1]) if clean(x)]
+                if lab and vals:
+                    d["fields"][lab] = vals
+    return d
+
+
+def build(c, d):
+    slug = c.get("slug")
+    f = d["fields"] if d else {}
+    sectors = f.get("DOMAIN") or ([c["domain"]] if c.get("domain") else [])
+    leadership = []
+    for txt in f.get("LEADERSHIP", []):
+        if "," in txt:
+            nm, ti = txt.split(",", 1)
+            leadership.append({"name": clean(nm), "title": clean(ti)})
+        else:
+            leadership.append({"name": txt, "title": None})
+    investors = f.get("INVESTORS") or [i.get("name") for i in (c.get("investors") or []) if i.get("name")]
+    name = clean(c.get("name"))
+    tagline = clean(c.get("tagline"))
+    description = d.get("description") if d else None
+    return {
+        "company_name": name,
+        "tagline": tagline,
+        "description": description,
+        "company_url": d.get("company_url") if d else None,
+        "company_profile_url": f"https://greylock.com/portfolio/{slug}/" if slug else None,
+        "logo_url": logo_from_ref(c.get("logo")),
+        "location": (f.get("HQ") or [None])[0],
+        "sectors": sectors,
+        "first_partnered_stage": (f.get("FIRST PARTNERED") or [c.get("firstPartnered")])[0],
+        "status": (f.get("CURRENT STATUS") or [c.get("status")])[0],
+        "leadership": leadership,
+        "greylock_investors": investors,
+        "social_urls": d.get("social_urls", {}) if d else {},
+        "everywhere_tags": everywhere_tags(name, tagline, description, sectors),
+        "source_url": SOURCE_URL,
+        "scraped_at": None,
+    }
+
+
 def parse(html):
+    companies = []
+    rows = parse_list(html)
+    print(f"  list page: {len(rows)} company objects")
+    for i, c in enumerate(rows, 1):
+        d = None
+        if c.get("slug"):
+            try:
+                d = parse_detail(fetch(f"https://greylock.com/portfolio/{c['slug']}/"))
+            except SystemExit as e:
+                print(f"  ! detail failed for {c['slug']}: {e}", file=sys.stderr)
+            time.sleep(0.2)
+        companies.append(build(c, d))
+        if i % 25 == 0:
+            print(f"  [{i}/{len(rows)}] details fetched")
+    return companies
+
+
+def parse_legacy(html):
     soup = BeautifulSoup(html, "html.parser")
     boxes = soup.select(".portfolio-modal-box.cropped_modal")
     companies = []
