@@ -171,6 +171,57 @@ def parse_company(container, source_url: str) -> Dict:
     return company
 
 
+# --- 2026-10 site rebuild (Webflow CMS list, 25/page via ?9a5de69c_page=N) ---
+def scrape_v2() -> List[Dict]:
+    session = requests.Session()
+    session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'})
+    base = "https://www.wing.vc/companies"
+    out, seen = [], set()
+    for page in range(1, 40):
+        url = base if page == 1 else f"{base}?9a5de69c_page={page}"
+        r = session.get(url, timeout=30)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'html.parser')
+        items = soup.select('.portfolio_main_cms_item.w-dyn-item')
+        new = 0
+        for it in items:
+            def fld(name):
+                el = it.select_one(f'[fs-list-field="{name}"]')
+                t = el.get_text(" ", strip=True) if el else ''
+                return re.sub(r"\s+", " ", t).strip() or None
+            name = fld('name')
+            if not name:
+                img = it.select_one('img.portfolio_main_cms_logo')
+                name = (img.get('alt') or '').strip() if img else None
+            if not name or name.lower() in seen:
+                continue
+            seen.add(name.lower()); new += 1
+            a = it.select_one('a.portfolio_main_cms_link[href]')
+            img = it.select_one('img.portfolio_main_cms_logo')
+            cats = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)) for c in it.select('[fs-list-field="category"]')]
+            out.append({
+                'company_name': name,
+                'company_url': a.get('href') if a and a.get('href', '').startswith('http') else None,
+                'description': None,
+                'stage': fld('invest'),
+                'status': fld('status'),
+                'year': None,
+                'logo_url': img.get('src') if img else None,
+                'founders': [],
+                'domains': [c for c in cats if c],
+                'prior_work': fld('type'),
+                'source_url': base,
+            })
+        print(f"  page {page}: {len(items)} items, {new} new")
+        if not items or new == 0:
+            break
+        time.sleep(0.5)
+    return out
+
+
+scrape = scrape_v2
+
+
 # --- auto-appended runner (trusted template, not LLM output) -----------------
 if __name__ == "__main__":
     import json as _json, os as _os, sys as _sys
