@@ -43,9 +43,9 @@ STATUS_MAP = {
 
 # Patterns that clearly imply acquired (applied to status string / name / desc)
 ACQUIRED_IN_STATUS = re.compile(
-    r"(?i)\b(acquired|acquisition|merged with|sold to)\b"
+    r"(?i)\b(acquired|aquired|acquisition|merged with|sold to)\b"
 )
-TICKER_ACQUIRED = re.compile(r"(?i)acquired by")
+TICKER_ACQUIRED = re.compile(r"(?i)ac?quired by")
 NAME_EXIT = re.compile(r"\((?i:Acquired|Merged)[^)]*\)")
 DESC_ACQUIRED = re.compile(
     r"(?i)\b(?:was\s+)?acquired by\b|\bmerged with\b|\bacquisition by\b"
