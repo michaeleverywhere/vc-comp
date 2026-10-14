@@ -172,7 +172,7 @@ def everywhere_tags(name, description, sectors):
 
 
 def parse_item(it):
-    h2 = it.select_one("h2.heading-style-h3")
+    h2 = it.select_one("h2.heading-style-h3") or it.select_one(".heading-style-h3.is-companies")  # 2026-10: h2 -> h3
     name = clean(h2.get_text()) if h2 else None
     if not name:
         return None
@@ -180,7 +180,7 @@ def parse_item(it):
     desc_el = it.select_one(".text-size-medium.is-companies")
     description = clean(desc_el.get_text()) if desc_el else None
 
-    a = it.select_one("a.companies-list_grid-item-reveal-wrap")
+    a = it.select_one("a.companies-list_grid-item-reveal-wrap") or it.select_one("a.button-new.is-companies[href]")
     company_url = clean(a.get("href")) if a and a.get("href") else None
 
     img = it.select_one("img.companies-list_logo")
@@ -195,7 +195,7 @@ def parse_item(it):
                 sec.add(disp)
     except (ValueError, TypeError):
         pass
-    for p in it.select('p[fs-cmsfilter-field="category"]'):
+    for p in it.select('p[fs-cmsfilter-field="category"], [fs-list-field="category"]'):
         v = clean(p.get_text())
         if v and v.lower() != "all":
             sec.add(v)
