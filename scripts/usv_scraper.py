@@ -336,5 +336,72 @@ def main():
         print(f"  {c:>4}  {t}")
 
 
+# ---- 2026-10 site rebuild: https://www.usv.com/portfolio is Next.js + Sanity;
+# every company is a JSON object in the RSC flight payload (name, description,
+# website, investmentRound, investmentYear, currentStage, statusNote, tokenTicker).
+PORTFOLIO_V2 = "https://www.usv.com/portfolio"
+STAGE_STATUS = {"early": "Current", "growth": "Current", "acquired": "Acquired",
+                "public": "Public", "inactive": "Inactive"}
+
+
+def rsc_text(html):
+    parts = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)</script>', html, re.S)
+    return "".join(json.loads('"' + p + '"') for p in parts)
+
+
+def main_v2():
+    print(f"Fetching portfolio: {PORTFOLIO_V2}")
+    t = rsc_text(get(PORTFOLIO_V2))
+    dec = json.JSONDecoder()
+    objs = {}
+    for m in re.finditer(r'\{"_id":"company-', t):
+        try:
+            o, _ = dec.raw_decode(t, m.start())
+        except ValueError:
+            continue
+        if "investmentRound" in o and o.get("name"):
+            objs.setdefault(o["_id"], o)
+    print(f"  parsed {len(objs)} companies")
+    scraped_at = datetime.now(timezone.utc).isoformat()
+    out = []
+    for o in objs.values():
+        stage = (o.get("investmentRound") or "").strip() or None
+        year = o.get("investmentYear") if isinstance(o.get("investmentYear"), int) else None
+        status = STAGE_STATUS.get((o.get("currentStage") or "").lower())
+        note = (o.get("statusNote") or "").strip() or None
+        exit_type, acquirer, ticker = derive_exit(status, note)
+        if not ticker and o.get("tokenTicker"):
+            ticker = o["tokenTicker"].strip() or None
+        name = re.sub(r"\s+", " ", o["name"]).strip()
+        desc = re.sub(r"\s+", " ", o.get("description") or "").strip() or None
+        out.append({
+            "company_name": name,
+            "description": desc,
+            "company_url": (o.get("website") or "").strip() or None,
+            "usv_profile_url": f"https://www.usv.com/portfolio/company/{o['slug']}" if o.get("slug") else None,
+            "logo_url": o.get("logoUrl") or None,
+            "first_investment_stage": stage,
+            "first_investment_year": year,
+            "initial_investment_type": stage_to_type(stage),
+            "status": status,
+            "usv_current_stage": (o.get("currentStage") or None),
+            "exit_type": exit_type,
+            "exit_detail": note,
+            "acquirer": acquirer,
+            "ticker_symbol": ticker,
+            "sectors": [],
+            "everywhere_tags": everywhere_tags([], name, desc),
+            "source_url": PORTFOLIO_V2,
+            "scraped_at": scraped_at,
+        })
+    out.sort(key=lambda o: (-(o["first_investment_year"] or 0), o["company_name"].lower()))
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    from collections import Counter
+    print(f"\nWrote {len(out)} companies -> {OUT}")
+    print("By status:", dict(Counter(o["status"] or "Unknown" for o in out)))
+    print("Untagged:", sum(1 for o in out if not o["everywhere_tags"]))
+
+
 if __name__ == "__main__":
-    main()
+    main_v2()
