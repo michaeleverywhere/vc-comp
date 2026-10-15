@@ -292,28 +292,46 @@ def everywhere_tags(name, description, sectors):
 
 
 def parse_category_page(html):
-    """Return list of {name, description, company_url, logo_url} for one
-    /category/<slug> page's `.company-card-item` grid."""
+    """Return list of {name, description, company_url, logo_url, stage, ticker}
+    for one /category/<slug> page's `.company-card-item` grid.
+
+    Site rebuilt card markup (2026): `a.company-card-wrapper` (was
+    `a.company-slide`), name in `img[alt]` / `.back-company-title`, thesis in
+    `.back-text`, stage in `.fund-round-text`, ticker in `.stock-ticker-text`.
+    """
     soup = BeautifulSoup(html, "html.parser")
     out = []
-    for item in soup.select(".company-cards.w-dyn-list .company-card-item"):
-        a = item.select_one("a.company-slide")
+    for item in soup.select(".company-cards.w-dyn-list .company-card-item, .company-card-item.w-dyn-item"):
+        a = item.select_one("a.company-card-wrapper") or item.select_one("a.company-slide") or item.select_one("a[href]")
         if not a:
             continue
         company_url = clean(a.get("href"))
-        img = a.select_one("img")
-        name = clean(img.get("alt")) if img else None
+        img = item.select_one("img.company-card-image") or item.select_one("img")
+        name_el = item.select_one(".back-company-title")
+        name = clean(name_el.get_text()) if name_el else None
+        if not name and img:
+            name = clean(img.get("alt"))
         logo_url = clean(img.get("src")) if img else None
-        desc_el = a.select_one(".text-block-17")
+        # Prefer Investment Thesis (.back-text); fall back to front tagline
+        desc_el = item.select_one(".back-company-text-wrapper .back-text") or item.select_one(".company-card-title") or item.select_one(".text-block-17")
         description = clean(desc_el.get_text()) if desc_el else None
+        stage_el = item.select_one(".fund-round-text")
+        stage = clean(stage_el.get_text()) if stage_el else None
+        tick_el = item.select_one(".stock-ticker-text")
+        ticker = clean(tick_el.get_text()) if tick_el else None
         if not name:
             continue
-        out.append({
+        rec = {
             "company_name": name,
             "description": description,
             "company_url": company_url,
             "logo_url": logo_url,
-        })
+        }
+        if stage:
+            rec["stage"] = stage
+        if ticker:
+            rec["ticker_symbol"] = ticker
+        out.append(rec)
     return out
 
 
@@ -357,7 +375,7 @@ def main():
     names = order[:limit] if limit else order
     for name in names:
         c = by_name[name]
-        out.append({
+        rec = {
             "company_name": c["company_name"],
             "description": c["description"],
             "company_url": c["company_url"],
@@ -367,7 +385,12 @@ def main():
             "everywhere_tags": everywhere_tags(c["company_name"], c["description"], c["sectors"]),
             "source_url": f"{BASE}/portfolio",
             "scraped_at": scraped_at,
-        })
+        }
+        if c.get("stage"):
+            rec["stage"] = c["stage"]
+        if c.get("ticker_symbol"):
+            rec["ticker_symbol"] = c["ticker_symbol"]
+        out.append(rec)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
