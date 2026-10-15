@@ -53,6 +53,11 @@ from bs4 import BeautifulSoup
 BASE = "https://www.sequoiacap.com/our-companies/"
 AJAX_URL = "https://sequoiacap.com/wp-admin/admin-ajax.php"
 SOURCE_URL = "https://www.sequoiacap.com/our-companies/"
+SEARCH_INDEX_URL = (
+    "https://framerusercontent.com/sites/1b1QJ6Gr5B06KwaurpRpvu/"
+    "searchIndex-AkDTj8w0wyx8.json"
+)
+SITE = "https://www.sequoiacap.com"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "data", "sequoia_companies.json")
 
 HEADERS = {
@@ -161,35 +166,23 @@ KEYWORD_TAGS = [
 ]
 
 
-def get(url):
+
+import gzip
+
+
+def get_bytes(url):
     last = None
     for attempt in range(1, RETRIES + 1):
         try:
             r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
             r.raise_for_status()
-            return r.text
+            return r.content
         except requests.RequestException as e:  # noqa
             last = e
             wait = 1.5 * attempt
             print(f"  ! request failed ({e}); retry {attempt}/{RETRIES} in {wait:.1f}s", file=sys.stderr)
             time.sleep(wait)
     raise SystemExit(f"FATAL: could not fetch {url}: {last}")
-
-
-def post(url, data):
-    last = None
-    for attempt in range(1, RETRIES + 1):
-        try:
-            r = requests.post(url, data=data, headers=HEADERS, timeout=TIMEOUT)
-            r.raise_for_status()
-            return r.text
-        except requests.RequestException as e:  # noqa
-            last = e
-            wait = 1.5 * attempt
-            print(f"  ! ajax post failed ({e}); retry {attempt}/{RETRIES} in {wait:.1f}s", file=sys.stderr)
-            time.sleep(wait)
-    print(f"  ! FAILED to fetch detail (post_id={data.get('post_id')}): {last}", file=sys.stderr)
-    return None
 
 
 def clean(s):
@@ -228,9 +221,6 @@ def derive_acquirer(text):
 
 
 def everywhere_tags(name, description, categories):
-    """Sequoia categories first (mapped via SECTOR_TAG_MAP), then keyword
-    fallback on name + description to add/refine. Order most->least
-    relevant, cap at 4."""
     tags = []
     for cat in categories:
         for mapped in SECTOR_TAG_MAP.get(cat, []):
@@ -245,261 +235,154 @@ def everywhere_tags(name, description, categories):
     return tags[:4]
 
 
-def parse_listing_row(tr):
-    m = re.search(r"#company_listing-(\d+)", tr.get("data-target") or "")
-    post_id = m.group(1) if m else None
+NAV_SKIP = {
+    "our founders", "our companies", "our team", "stories", "podcasts", "arc",
+    "about", "our ethos", "our history", "jobs", "legal", "business entities",
+    "sequoia capital", "sequoia global equities", "login", "lp login",
+    "sequoia ampersand login", "motion", "on", "off", "partners", "partner",
+    "milestones", "team", "press & media", "why we partnered",
+}
 
-    th = tr.select_one("th.company-listing__head")
-    name = clean(th.get_text()) if th else None
-    if not name or not post_id:
+
+def looks_like_domain(s):
+    s = (s or "").strip().lower()
+    if not s or " " in s or s.startswith("http"):
+        return False
+    if s.count(".") < 1:
+        return False
+    # anthropic.com / n.xyz / 247.ai
+    return bool(re.fullmatch(r"[a-z0-9][a-z0-9.-]+\.[a-z]{2,}(/)?", s.rstrip("/")))
+
+
+def parse_company_entry(path, entry):
+    """Turn one Framer searchIndex /companies/<slug> record into a portfolio row."""
+    title = clean(entry.get("title") or "")
+    name = title.split("|")[0].strip() if title else None
+    if not name:
         return None
+    ps = [clean(x) for x in (entry.get("p") or []) if clean(x)]
+    meta_desc = clean(entry.get("description") or "")
+    # Prefer the long company blurb in p[] over generic site meta
+    blurb = None
+    for p in ps:
+        if p.lower() in NAV_SKIP:
+            continue
+        if looks_like_domain(p):
+            continue
+        if re.match(r"^(Founded|Partnered|Acquired|IPO)\s+\d{4}$", p, re.I):
+            continue
+        if p.startswith("©"):
+            continue
+        if len(p) >= 40:
+            blurb = p
+            break
+    description = blurb or (meta_desc if meta_desc and "daring build legendary" not in meta_desc.lower() else None)
 
-    tds = tr.find_all("td")
-    # tds[0] = hidden post id, tds[1] = short description, tds[2] = current
-    # stage, tds[3] = abbreviated partner list, tds[4] = "First Partnered"
-    # stage (year), tds[5] = toggle button.
-    short_description = clean(tds[1].get_text()) if len(tds) > 1 else None
-    current_stage = clean(tds[2].get_text()) if len(tds) > 2 else None
-    first_partnered_year = to_year((tds[4].get("data-order") if len(tds) > 4 else None))
-    first_partnered_stage = clean(tds[4].get_text()) if len(tds) > 4 else None
-    # tds[4] text is like "Early (2018)" -- strip the trailing "(YYYY)"
-    if first_partnered_stage:
-        first_partnered_stage = clean(re.sub(r"\(\d{4}\)\s*$", "", first_partnered_stage))
-
-    return {
-        "post_id": post_id,
-        "company_name": name,
-        "short_description": short_description,
-        "current_stage": current_stage,
-        "first_partnered_stage": first_partnered_stage,
-        "first_partnered_year": first_partnered_year,
-    }
-
-
-def parse_detail(html, row):
-    if not html:
-        return None
-    soup = BeautifulSoup(html, "html.parser")
-
-    logo_a = soup.select_one("a img.company__logo-image")
     company_url = None
-    logo_url = None
-    if logo_a:
-        logo_url = clean(logo_a.get("src"))
-        parent_a = logo_a.find_parent("a")
-        if parent_a:
-            company_url = clean(parent_a.get("href"))
-
-    desc_el = soup.select_one(".wysiwyg.wysiwyg--fs-lg")
-    description = clean(desc_el.get_text()) if desc_el else None
-
-    social_urls = {}
-    for a in soup.select(".social-sharing__options a[href]"):
-        cls = " ".join(a.get("class") or [])
-        m = re.search(r"ico--([a-z0-9\-]+)", cls)
-        if m:
-            social_urls[m.group(1)] = clean(a.get("href"))
-
-    categories = []
-    for pill in soup.select('a[data-bs-toggle="facet"][data-bs-target="categories"]'):
-        slug = pill.get("data-bs-value")
-        disp = CATEGORY_SLUG_DISPLAY.get(slug) or clean(pill.get_text())
-        if disp and disp not in categories:
-            categories.append(disp)
-
-    # clist sections keyed by heading text: Milestones, Team (=founders),
-    # Partner/Partners, Why we Partnered. Headings vary (singular/plural), so
-    # match by normalized title rather than a fixed class.
-    founded_year = partnered_year = None
-    exit_type = None   # "Acquired" | "IPO" | None
-    exit_year = None
+    founded_year = partnered_year = exit_year = None
+    status = "active"
     founders = []
     partners = []
-    why_we_partnered = None
+    mode = "founders"  # after domain/years, names are founders until "Partners"
+    for p in ps:
+        pl = p.lower()
+        if pl in NAV_SKIP or p.startswith("©"):
+            if pl == "partners":
+                mode = "partners"
+            continue
+        if looks_like_domain(p):
+            company_url = "https://" + p.rstrip("/")
+            continue
+        m = re.match(r"^Founded\s+(\d{4})$", p, re.I)
+        if m:
+            founded_year = to_year(m.group(1)); continue
+        m = re.match(r"^Partnered\s+(\d{4})$", p, re.I)
+        if m:
+            partnered_year = to_year(m.group(1)); continue
+        m = re.match(r"^Acquired\s+(\d{4})$", p, re.I)
+        if m:
+            status = "acquired"; exit_year = to_year(m.group(1)); continue
+        m = re.match(r"^IPO\s+(\d{4})$", p, re.I)
+        if m:
+            status = "public"; exit_year = to_year(m.group(1)); continue
+        # person names: Title Case, short, no URL-ish
+        if re.fullmatch(r"[A-Z][A-Za-zÀ-ÿ'’.\-]+(?:\s+[A-Z][A-Za-zÀ-ÿ'’.\-]+){0,3}", p) and len(p) < 60:
+            if mode == "partners":
+                partners.append(p)
+            else:
+                # avoid treating milestones headers etc.
+                if p not in founders and p not in partners:
+                    founders.append(p)
 
-    for clist in soup.select(".clist"):
-        title_el = clist.select_one(".clist__title")
-        title = clean(title_el.get_text()) if title_el else ""
-        title_norm = (title or "").lower()
-
-        if title_norm == "milestones":
-            for li in clist.select(".clist__item"):
-                txt = clean(li.get_text())
-                if not txt:
-                    continue
-                mm = re.match(r"(Founded|Partnered|Acquired|IPO)\s+(\d{4})", txt)
-                if not mm:
-                    continue
-                label, year = mm.group(1), int(mm.group(2))
-                if label == "Founded":
-                    founded_year = year
-                elif label == "Partnered":
-                    partnered_year = year
-                elif label in ("Acquired", "IPO"):
-                    exit_type = label
-                    exit_year = year
-        elif title_norm == "team":
-            for li in clist.select(".clist__item"):
-                txt = clean(li.get_text())
-                if txt:
-                    founders.append(txt)
-        elif title_norm in ("partner", "partners"):
-            for li in clist.select(".clist__item"):
-                txt = clean(li.get_text())
-                if txt:
-                    partners.append(txt)
-        elif title_norm == "why we partnered":
-            content_el = clist.select_one(".clist__content")
-            why_we_partnered = clean(content_el.get_text()) if content_el else None
-
-    # status: derive from current_stage (row) primarily, fall back to
-    # exit_type from milestones.
-    stage = (row.get("current_stage") or "").strip()
-    if stage == "Acquired" or exit_type == "Acquired":
-        status = "Acquired"
-    elif stage == "IPO" or exit_type == "IPO":
-        status = "Public"
-    elif stage:
-        status = "Active"
-    else:
-        status = None
-
-    acquirer = derive_acquirer(description) if status == "Acquired" else None
-
-    return {
-        "company_url": company_url,
-        "logo_url": logo_url,
+    acquirer = derive_acquirer(description or "")
+    categories = []  # Framer index does not expose Sequoia category chips
+    rec = {
+        "company_name": name,
         "description": description,
-        "social_urls": social_urls,
+        "company_url": company_url,
+        "logo_url": None,
+        "social_urls": {},
         "categories": categories,
-        "founders": founders,
-        "partners": partners,
-        "why_we_partnered": why_we_partnered,
+        "founders": founders or None,
+        "sequoia_partners": partners or None,
+        "why_we_partnered": None,
         "founded_year": founded_year,
-        "partnered_year": partnered_year,
+        "first_partnered_year": partnered_year,
+        "first_partnered_stage": None,
         "status": status,
-        "exit_year": exit_year,
         "acquirer": acquirer,
+        "exit_year": exit_year,
+        "ticker_symbol": None,
+        "location": None,
+        "everywhere_tags": everywhere_tags(name, description, categories),
+        "source_url": SITE + path,
+        "scraped_at": None,  # filled in main
     }
-
-
-def fetch_nonce():
-    html = get(BASE)
-    m = re.search(r'var vars = \{"nonce":"([a-f0-9]+)"', html)
-    nonce = m.group(1) if m else None
-    if not nonce:
-        raise SystemExit("FATAL: could not find ajax nonce on listing page")
-    return html, nonce
+    return rec
 
 
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
-
-    print("Fetching listing page 1 (+ nonce) ...")
-    first_html, nonce = fetch_nonce()
-
-    rows = []
-    seen_ids = set()
-
-    def collect(html):
-        soup = BeautifulSoup(html, "html.parser")
-        trs = soup.select('tr[data-toggle="collapse"]')
-        n = 0
-        for tr in trs:
-            rec = parse_listing_row(tr)
-            if not rec or rec["post_id"] in seen_ids:
-                continue
-            seen_ids.add(rec["post_id"])
-            rows.append(rec)
-            n += 1
-        return n
-
-    n = collect(first_html)
-    print(f"  page 1: {n} companies (running total {len(rows)})")
-    page = 2
-    while not (limit and len(rows) >= limit):
-        url = f"{BASE}?_paged={page}"
-        html = get(url)
-        n = collect(html)
-        print(f"  page {page}: {n} companies (running total {len(rows)})")
-        if n == 0:
-            break
-        page += 1
-        time.sleep(SLEEP)
-
+    print(f"Fetching Framer searchIndex: {SEARCH_INDEX_URL}")
+    raw = get_bytes(SEARCH_INDEX_URL)
+    try:
+        data = gzip.decompress(raw)
+    except OSError:
+        data = raw
+    index = json.loads(data)
+    paths = sorted(k for k in index if isinstance(k, str) and k.startswith("/companies/"))
+    print(f"  {len(paths)} company pages in index")
     if limit:
-        rows = rows[:limit]
-
-    print(f"\nListing collected: {len(rows)} companies. Fetching per-company detail ...")
+        paths = paths[:limit]
+        print(f"  --limit {limit}")
 
     scraped_at = datetime.now(timezone.utc).isoformat()
     out = []
-    for i, row in enumerate(rows, 1):
-        detail_html = post(AJAX_URL, {
-            "action": "load_company_content",
-            "post_id": row["post_id"],
-            "nonce": nonce,
-        })
-        detail = parse_detail(detail_html, row) or {}
-
-        description = detail.get("description") or row["short_description"]
-        categories = detail.get("categories") or []
-
-        rec = {
-            "company_name": row["company_name"],
-            "description": description,
-            "company_url": detail.get("company_url"),
-            "logo_url": detail.get("logo_url"),
-            "social_urls": detail.get("social_urls") or {},
-            "categories": categories,
-            "founders": detail.get("founders") or [],
-            "sequoia_partners": detail.get("partners") or [],
-            "why_we_partnered": detail.get("why_we_partnered"),
-            "founded_year": detail.get("founded_year"),
-            "first_partnered_year": detail.get("partnered_year") or row["first_partnered_year"],
-            "first_partnered_stage": row["first_partnered_stage"],
-            "status": detail.get("status"),
-            "acquirer": detail.get("acquirer"),
-            "exit_year": detail.get("exit_year"),
-            "ticker_symbol": None,   # Sequoia publishes no ticker anywhere (checked names/descriptions/milestones)
-            "everywhere_tags": everywhere_tags(row["company_name"], description, categories),
-            "source_url": SOURCE_URL,
-            "scraped_at": scraped_at,
-        }
+    for path in paths:
+        rec = parse_company_entry(path, index[path])
+        if not rec:
+            continue
+        rec["scraped_at"] = scraped_at
         out.append(rec)
 
-        if i % 25 == 0 or i == len(rows):
-            print(f"  detail {i}/{len(rows)}: {row['company_name']}")
-        time.sleep(SLEEP)
+    # stable sort by name
+    out.sort(key=lambda r: (r.get("company_name") or "").lower())
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=2)
 
-    # ---- summary ----
-    from collections import Counter
     n = len(out)
-    print(f"\nWrote {n} companies -> {OUT}")
-    by_status = Counter(o["status"] for o in out)
-    print("By status:", dict(by_status),
-          "| with acquirer:", sum(1 for o in out if o["acquirer"]),
-          "| with ticker:", sum(1 for o in out if o["ticker_symbol"]))
-    for field in ("description", "company_url", "logo_url", "founded_year", "first_partnered_year", "why_we_partnered"):
-        miss = sum(1 for o in out if not o[field])
+    print(f"wrote {n} companies -> {OUT}")
+    for field in ("description", "company_url", "founders", "founded_year", "first_partnered_year", "status"):
+        miss = sum(1 for r in out if not r.get(field))
         print(f"  {field:22s} missing: {miss}/{n}")
-    print("  founders empty:", sum(1 for o in out if not o["founders"]))
-    print("  sequoia_partners empty:", sum(1 for o in out if not o["sequoia_partners"]))
-    print("  categories empty:", sum(1 for o in out if not o["categories"]))
-    untagged = [o["company_name"] for o in out if not o["everywhere_tags"]]
-    print(f"  untagged: {len(untagged)}/{n}" + (f" -> {untagged}" if untagged else ""))
-    by_tag = Counter(t for o in out for t in o["everywhere_tags"])
-    print("By everywhere_tag:")
-    for t, c in by_tag.most_common():
-        print(f"  {c:>4}  {t}")
-    by_cat = Counter(c for o in out for c in o["categories"])
-    print("By Sequoia category:")
-    for t, c in by_cat.most_common():
-        print(f"  {c:>4}  {t}")
+    by_status = {}
+    for r in out:
+        by_status[r.get("status")] = by_status.get(r.get("status"), 0) + 1
+    print(f"  status breakdown: {by_status}")
+    untagged = sum(1 for r in out if not r.get("everywhere_tags"))
+    print(f"  untagged: {untagged}/{n}")
 
 
 if __name__ == "__main__":
