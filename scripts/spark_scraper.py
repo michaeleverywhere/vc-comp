@@ -83,7 +83,7 @@ JINA_PROXY = "https://r.jina.ai/"
 
 # Tab panes to scrape. "All" is skipped -- it's the union/dedupe of these 5,
 # confirmed by comparing name sets during recon (48 == 48, no extra names).
-SECTOR_PANES = ["Consumer", "Enterprise", "AI", "Frontier", "Fintech"]
+SECTOR_PANES = ["Software", "Enterprise", "AI", "Frontier", "Fintech"]
 CANON_ORDER = SECTOR_PANES
 
 
@@ -256,81 +256,51 @@ def everywhere_tags(name, description, sectors):
     return tags[:4]
 
 
-ITEM_RE = re.compile(
-    r'<div (?:id="w-node-[^"]*" )?role="listitem" class="collection-item w-dyn-item">(.*?)'
-    r'<div class="modal-bg-close">',
-    re.S,
-)
-PANE_ID = {
-    "All": "w-tabs-0-data-w-pane-0",
-    "Consumer": "w-tabs-0-data-w-pane-1",
-    "Enterprise": "w-tabs-0-data-w-pane-2",
-    "AI": "w-tabs-0-data-w-pane-3",
-    "Frontier": "w-tabs-0-data-w-pane-4",
-    "Fintech": "w-tabs-0-data-w-pane-5",
-}
 
-
-def parse_pane(html_text, pane_name):
-    """Slice out one tab pane's HTML (from its pane id to the next pane's, or
-    end of doc) and regex out each `.collection-item.w-dyn-item` company card."""
-    ids_in_order = ["All", "Consumer", "Enterprise", "AI", "Frontier", "Fintech"]
-    idx = ids_in_order.index(pane_name)
-    start_marker = f'id="{PANE_ID[pane_name]}"'
-    start = html_text.find(start_marker)
-    if start == -1:
-        return []
-    if idx + 1 < len(ids_in_order):
-        end_marker = f'id="{PANE_ID[ids_in_order[idx + 1]]}"'
-        end = html_text.find(end_marker, start)
-        if end == -1:
-            end = len(html_text)
-    else:
-        end = len(html_text)
-    chunk = html_text[start:end]
-
-    items = []
-    for it in ITEM_RE.findall(chunk):
-        h3 = re.search(r'<h3 class="h3 margin-top---0">([^<]*)</h3>', it)
-        name = clean(h3.group(1)) if h3 else None
-        if not name:
+def parse_panes(html_text):
+    """Parse Webflow tab panes via data-w-tab (site rebuilt: All/Software/
+    Enterprise/AI/Frontier/Fintech; old hardcoded w-tabs-0-data-w-pane-* ids gone)."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    companies = {}
+    for pane_name in SECTOR_PANES:
+        pane = None
+        for p in soup.select(".w-tab-pane, [role=tabpanel]"):
+            if (p.get("data-w-tab") or "").strip() == pane_name:
+                pane = p
+                break
+        if pane is None:
+            print(f"  ! pane {pane_name!r} not found", file=sys.stderr)
             continue
-        desc = re.search(r'class="company-specs spacing---extra-small">([^<]*)</div>', it)
-        acq = re.search(r'class="acquisition-spec[^"]*">([^<]*)</div>', it)
-        website = re.search(r'class="website-link"><a href="([^"]*)"', it)
-        logo = re.search(r'class="modal-image-wrap"><img[^>]*\s+src="([^"]*)"', it)
-        items.append({
-            "name": name,
-            "desc": clean(desc.group(1)) if desc else None,
-            "acq": clean(acq.group(1)) if acq else None,
-            "website": clean(website.group(1)) if website else None,
-            "logo": clean(logo.group(1)) if logo else None,
-        })
-    return items
+        for item in pane.select(".collection-item.w-dyn-item"):
+            h3 = item.select_one("h3.h3")
+            name = clean(h3.get_text()) if h3 else None
+            if not name:
+                continue
+            desc_el = item.select_one(".company-specs.spacing---extra-small")
+            acq_el = item.select_one(".acquisition-spec")
+            a = item.select_one("a.company-link")
+            logo_el = item.select_one(".modal-image-wrap img")
+            if name not in companies:
+                companies[name] = {
+                    "name": name,
+                    "desc": clean(desc_el.get_text()) if desc_el else None,
+                    "website": clean(a.get("href")) if a else None,
+                    "logo": clean(logo_el.get("src")) if logo_el else None,
+                    "acq": clean(acq_el.get_text()) if acq_el else None,
+                    "sectors": [],
+                }
+            if pane_name not in companies[name]["sectors"]:
+                companies[name]["sectors"].append(pane_name)
+    return companies
+
+
 
 
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
 
     html_text = fetch(BASE_URL)
-
-    companies = {}
-    for pane in SECTOR_PANES:
-        items = parse_pane(html_text, pane)
-        for it in items:
-            name = it["name"]
-            if name not in companies:
-                companies[name] = {
-                    "name": name,
-                    "desc": it["desc"],
-                    "website": it["website"],
-                    "logo": it["logo"],
-                    "acq": it["acq"],
-                    "sectors": [],
-                }
-            if pane not in companies[name]["sectors"]:
-                companies[name]["sectors"].append(pane)
-        time.sleep(0.3)
+    companies = parse_panes(html_text)
 
     scraped_at = datetime.now(timezone.utc).isoformat()
     out = []
