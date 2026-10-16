@@ -39,6 +39,21 @@ _SLUG_ALIASES = {v: k for k, v in _FILE_ALIASES.items()}
 # Listing the alternative names fixes both: they become slug variants for the
 # dedup gate, and candidate_finder adds them to what the model must not propose.
 _ALT_NAMES: dict[str, tuple[str, ...]] = {
+    "ose":     ('OSE', 'Oxford Sciences Innovation'),
+    "evp":     ('EVP',),
+    "hofcapital":     ('HOF',),
+    "baincapitalls":     ('BCLS',),
+    "mventures":     ('Merck Ventures', 'MS Ventures'),
+    "portage":     ('Portage Ventures',),
+    "augmentum":     ('Augmentum Fintech plc',),
+    "racapital":     ('RA Capital',),
+    "dcg":     ('DCG',),
+    "kfund":     ('Kfund',),
+    "f2":     ('F2 Venture Capital',),
+    "eightroads":     ('Eight Roads Ventures',),
+    "extantia":     ('Extantia',),
+    "lafamiglia":     ('La Famiglia VC',),
+    "p101":     ('P101 SGR',),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
