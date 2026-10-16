@@ -2,41 +2,45 @@
 """
 Hustle Fund portfolio scraper -> hustlefund_companies.json
 
-Source: https://www.hustlefund.vc/founders (Webflow + Finsweet CMS).
+Source: https://www.hustlefund.vc/founders ("Meet the Portfolio").
 
-Hustle Fund has NO /portfolio path (it 404s) and the portfolio page is absent
-from sitemap.xml -- the company list lives on the "founders" page, inside a
-`.founder-list-wrapper` Finsweet collection list that is paginated server-side
-at 9 items/page via `?5d649f4d_page=N` (~40 pages). The big logo collages higher
-up that page (`.portfolio-image*`) are decorative marketing images, not the data.
+2026-10-16 rebuild: the site was re-platformed (Webflow + Finsweet CMS -> an
+Astro/ploy build). The old `.founder-list-wrapper` CMS list and its
+`?5d649f4d_page=N` pagination are gone; the "THE FULL ROSTER" panel on
+/founders is now an iframe embedding Hustle Fund's own public Airtable shared
+view (title "Hustle Fund portfolio directory"):
 
-Per `.company-info`:
-  - company_name -> `.company-title`
-  - company_url  -> `a.company-link-with-arrow[href]` (the company's own site;
-                    Hustle Fund publishes no per-company detail page)
-  - region       -> the desktop `.text-block-25[fs-cmsfilter-field="location"]`
-                    chip: the COARSE bucket the filter dropdown offers
-                    (US / Asia / Africa / Europe / Canada / Australia /
-                    Latin America / Remote)
-  - location     -> the unattributed `.filter-label` next to it: the FINER value
-                    ("US - Bay Area", "Asia - Philippines"). The mobile duplicate
-                    block confusingly tags this finer value as
-                    `fs-cmsfilter-field="location"` while the desktop block tags
-                    the coarse one, so both are captured under distinct names and
-                    the desktop block is parsed to avoid double-counting.
-  - sectors      -> `[fs-cmsfilter-field="sectors"]` (one per company)
-  - funds        -> `[fs-cmsfilter-field="funds"]` ("fund I" / "fund II")
+    https://airtable.com/embed/appjgQzUSfuMCb5pO/shrL7YrMPwpeky9ck
 
-Every card is rendered twice per company (a desktop layout plus a
-`.company-info-mobile` duplicate); this parser reads only the non-mobile nodes.
+That shared view IS the firm's published portfolio directory -- the same data a
+visitor scrolls on hustlefund.vc -- so it is read directly (not a third-party
+source). The scraper first loads /founders and pulls the iframe src off the
+page (so a re-pointed embed is followed automatically), then loads the embed
+page, extracts the `readSharedViewData` URL + page-load id that the embed's own
+JS uses, and requests that JSON (one call, all rows; no auth, no PAT).
 
-"Empty != absent" checked: Hustle Fund publishes NO description, founder names,
-founded year, funding stage or exit/status anywhere on the card, and there is no
-detail page to crawl -- so those columns are omitted rather than emitted as
-always-null. Nothing is denormalized into the company names (no "(Acquired)" /
-"(NASDAQ: X)" suffixes). Because there is no description, `everywhere_tags` is
-derived from the company's single sector plus its name only, which is coarser
-than for firms that publish blurbs.
+Hustle Fund's own note on the page: "we only list founders from previous funds
+that are fully deployed. We'll share more family members once we're done
+deploying the current fund." -- so the list is the fully-deployed funds only.
+
+Columns in the view (view "View - ALL PORTCOS for FOUNDER PAGE"):
+  - Portco Name          -> company_name (verbatim; ~120 names are pipe-joined
+                            "A | B" entity/rename strings and a few carry an
+                            "(IVS)" suffix -- kept exactly as published;
+                            `name_variants` holds the pipe-split parts)
+  - Company Description  -> description (NEW: the old Webflow cards had none)
+  - Industry - Master    -> sectors (multi-select, Hustle Fund's own taxonomy)
+  - Geography - Category -> location (e.g. "US - Bay Area", "Asia - Singapore");
+                            region = the coarse prefix (US / Asia / Africa /
+                            Europe / Canada / Australia / Latin America /
+                            Middle East / Remote) to stay comparable with the
+                            pre-2026-10 region buckets
+  - Company URL          -> company_url
+
+Not published anywhere on the site: founders, founded year, funding stage,
+first-invested date, financing, valuation, team size, exit/status. Fund I/II
+membership was on the old cards but is no longer shown; post-processing
+carries it (and nothing invented) from the previous dataset for matched rows.
 
 requirements:
     pip install requests beautifulsoup4
@@ -61,7 +65,7 @@ from bs4 import BeautifulSoup
 HOST = "www.hustlefund.vc"
 FOUNDERS_URL = f"https://{HOST}/founders"
 SOURCE_URL = FOUNDERS_URL
-PAGE_PARAM = "5d649f4d_page"
+DEFAULT_EMBED = "https://airtable.com/embed/appjgQzUSfuMCb5pO/shrL7YrMPwpeky9ck"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir,
                    "data", "hustlefund_companies.json")
 
@@ -73,48 +77,52 @@ HEADERS = {
 }
 TIMEOUT = 45
 RETRIES = 3
-SLEEP = 0.8
-MAX_PAGES = 120  # guard rail; the list is ~40 pages at 9/page today
-LEGACY_WEBFLOW_IPS = ["75.2.70.75", "99.83.190.102"]
 
-# ---- Hustle Fund's own 31 sectors -> the 17-tag everywhere_tags set ----------
-# Harvested from the live list (see the module docstring); the labels are
-# slash-joined multi-concept buckets and a handful of companies carry two,
-# comma-joined, in the one cell -- `split_sectors()` splits on the comma (no
-# individual label contains one).
-# Deliberately unmapped, left to the keyword classifier: "Data / Analytics / AI /
-# ML" maps to Data & Analytics only (AI alone is not a category); "Manufacturing"
-# has no clean equivalent among the 17; "General / Industry Agnostic" and
-# "Personal & Professional Services" are explicitly not sectors.
+# ---- Hustle Fund "Industry - Master" -> the 17-tag everywhere_tags set ------
+# Deliberately unmapped (left to the keyword classifier over the description):
+# "Artificial intelligence and machine learning (AI/ML)" (AI alone is not a
+# category), "Software as a service (SaaS)", "Manufacturing", "Industrials",
+# "Infrastructure", "Oil and gas", "Other".
 SECTOR_TAG_MAP = {
-    "Advertising / Marketing": ["Gaming / Media / Entertainment"],  # adtech sits in media
-    "AR / VR / Machine Vision": ["Deeptech / Robotics / AR/VR"],
-    "Arts / Entertainment / Media / Sports & Gaming": ["Gaming / Media / Entertainment"],
-    "Blockchain / Crypto / NFT / Web 3.0": ["Web3 / Crypto"],
-    "Communication / Collaboration / Productivity": ["Future of Work"],
-    "Construction / Materials": ["PropTech"],
-    "Data / Analytics / AI / ML": ["Data & Analytics"],
-    "Development Tools & Infrastructure": ["Dev Tools / Cloud"],
-    "Education / Personal & Professional Development": ["Consumer"],
-    "Finance - Banking / Payments / Lending": ["FinTech / Insurance"],
-    "Finance - Insurance": ["FinTech / Insurance"],
-    "Finance - Investing": ["FinTech / Insurance"],
-    "Finance - Other": ["FinTech / Insurance"],
-    "Food / Agriculture": ["CPG"],
-    "HR / Hiring / Employment": ["Future of Work"],
-    "Health & Wellness": ["Health"],
-    "Health / Fitness / Wellness": ["Health"],
-    "Legal / Government / Regulation": ["RegTech/Gov/Legal"],
-    "Logistics / Shipping": ["Logistics / Supply Chain"],
-    "Mobility / Transportation": ["Transportation / Mobility"],
-    "Pets / Animals": ["Consumer"],
-    "Real Estate / Housing": ["PropTech"],
-    "Retail / E-commerce": ["Consumer"],
-    "Robotics": ["Deeptech / Robotics / AR/VR"],
+    "Foodtech": ["CPG"],
+    "Restaurant tech": ["Consumer"],
+    "Agtech": ["Climate / Sustainability"],
+    "Cloudtech and DevOps": ["Dev Tools / Cloud"],
+    "Digital health": ["Health"],
+    "Healthtech": ["Health"],
+    "Lifestyles of Health and Sustainability (LOHAS) and wellness": ["Health"],
+    "Life sciences": ["BioTech"],
+    "Fintech": ["FinTech / Insurance"],
+    "Insurtech": ["FinTech / Insurance"],
+    "B2B payments": ["FinTech / Insurance"],
     "Sales / Operations / Customer Service": ["Future of Work"],
-    "Security / Cybersecurity": ["Cybersecurity"],
-    "Social Media / Networking": ["Gaming / Media / Entertainment", "Consumer"],
-    "Travel / Hospitality": ["Consumer"],
+    "Future of Work": ["Future of Work"],
+    "HR tech": ["Future of Work"],
+    "Robotics and drones": ["Deeptech / Robotics / AR/VR"],
+    "Hardware": ["Deeptech / Robotics / AR/VR"],
+    "Space tech": ["Deeptech / Robotics / AR/VR"],
+    "Virtual reality (VR)": ["Deeptech / Robotics / AR/VR"],
+    "Augmented reality (AR)": ["Deeptech / Robotics / AR/VR"],
+    "Adtech": ["Gaming / Media / Entertainment"],       # adtech sits in media
+    "Marketing tech": ["Gaming / Media / Entertainment"],
+    "Gaming and eSports": ["Gaming / Media / Entertainment"],
+    "Audiotech": ["Gaming / Media / Entertainment"],
+    "Social Media / Community / Networking": ["Gaming / Media / Entertainment", "Consumer"],
+    "Legal tech": ["RegTech/Gov/Legal"],
+    "Cryptocurrency and blockchain": ["Web3 / Crypto"],
+    "Real estate tech": ["PropTech"],
+    "Construction technology": ["PropTech"],
+    "Cleantech and Climate tech": ["Climate / Sustainability"],
+    "Supply chain and logistics": ["Logistics / Supply Chain"],
+    "Cybersecurity": ["Cybersecurity"],
+    "Ecommerce": ["Consumer"],
+    "Edtech": ["Consumer"],
+    "Pet tech": ["Consumer"],
+    "Travel and hospitality": ["Consumer"],
+    "Beauty / Fashion": ["CPG"],
+    "Mobility tech": ["Transportation / Mobility"],
+    "Carsharing": ["Transportation / Mobility"],
+    "Big Data": ["Data & Analytics"],
 }
 
 # everywhere_tags keyword classifier (substrings, lowercased) -- copied verbatim
@@ -181,49 +189,28 @@ KEYWORD_TAGS = [
 ]
 
 
-def _mk_session():
-    s = requests.Session()
-    s.headers.update(HEADERS)
-    return s
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
-SESSION = _mk_session()
-
-
-def fetch(url):
-    """Fallback chain (see CLAUDE.md network note): (1) direct HTTPS,
-    (2) legacy Webflow IPs pinned via SNI, (3) r.jina.ai read-only relay."""
+def get(url, **kw):
+    last = None
     for attempt in range(1, RETRIES + 1):
         try:
-            r = SESSION.get(url, timeout=TIMEOUT)
+            r = SESSION.get(url, timeout=TIMEOUT, **kw)
             r.raise_for_status()
-            return r.text
+            return r
         except requests.RequestException as e:
-            print(f"  ! direct failed ({e}); retry {attempt}/{RETRIES}", file=sys.stderr)
+            last = e
+            print(f"  ! fetch failed {url[:90]} ({e}); retry {attempt}/{RETRIES}", file=sys.stderr)
             time.sleep(1.5 * attempt)
-    parts = urlsplit(url)
-    host = parts.netloc
-    for ip in LEGACY_WEBFLOW_IPS:
-        try:
-            pinned = urlunsplit((parts.scheme, ip, parts.path, parts.query, parts.fragment))
-            r = SESSION.get(pinned, headers={**HEADERS, "Host": host}, timeout=TIMEOUT, verify=False)
-            r.raise_for_status()
-            return r.text
-        except requests.RequestException as e:
-            print(f"  ! legacy-IP {ip} failed ({e})", file=sys.stderr)
-    try:
-        r = SESSION.get(f"https://r.jina.ai/{url}",
-                        headers={**HEADERS, "x-respond-with": "html"}, timeout=TIMEOUT)
-        r.raise_for_status()
-        return r.text
-    except requests.RequestException as e:
-        raise SystemExit(f"FATAL: all fetch routes failed for {url}: {e}")
+    raise SystemExit(f"FATAL: could not fetch {url}: {last}")
 
 
 def clean(s):
     if s is None:
         return None
-    s = re.sub(r"\s+", " ", s.replace("\xa0", " ")).strip()
+    s = re.sub(r"\s+", " ", str(s).replace("\xa0", " ")).strip()
     return s or None
 
 
@@ -231,39 +218,68 @@ def norm_url(u):
     u = clean(u)
     if not u or u == "#":
         return None
-    u = u.replace("http:///", "http://").replace("https:///", "https://")
-    if not u.startswith(("http://", "https://")):
-        return u
+    if not re.match(r"https?://", u, re.I):
+        u = "https://" + u.lstrip("/")
     parts = urlsplit(u)
     q = "&".join(p for p in parts.query.split("&")
-                 if p and not re.match(r"(ref|utm_[a-z]+|utm_souce)=", p, re.I))
+                 if p and not re.match(r"(ref|utm_[a-z]+)=", p, re.I))
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, q, ""))
 
 
-def split_sectors(raw):
-    """A few companies carry two sectors comma-joined in the one CMS cell
-    ("Finance - Other,Blockchain / Crypto / NFT / Web 3.0"). No individual
-    Hustle Fund sector label contains a comma, so the split is unambiguous."""
-    out = []
-    for part in (clean(raw) or "").split(","):
-        part = clean(part)
-        if part:
-            out.append(part)
-    return out
+def find_embed_url():
+    """The Airtable iframe on /founders; fall back to the known share if the
+    page markup moves (logged so a change is visible)."""
+    html = get(FOUNDERS_URL).text
+    soup = BeautifulSoup(html, "html.parser")
+    for ifr in soup.find_all("iframe"):
+        src = ifr.get("src") or ""
+        if "airtable.com/embed/" in src:
+            return src
+    print("  ! no airtable iframe on /founders -- using DEFAULT_EMBED", file=sys.stderr)
+    return DEFAULT_EMBED
 
 
-def everywhere_tags(name, sectors):
-    """Hustle Fund's own sector first (mapped via SECTOR_TAG_MAP), then a keyword
-    fallback over the name + the raw sector label (there is no description on the
-    card). Order most->least relevant, cap at 4."""
+def read_shared_view(embed_url):
+    m = re.search(r"/embed/(app\w+)/(shr\w+)", embed_url)
+    if not m:
+        raise SystemExit(f"FATAL: unexpected embed url {embed_url}")
+    app_id = m.group(1)
+    page = get(embed_url).text
+    mu = re.search(r'urlWithParams:\s*"([^"]+)"', page)
+    mp = re.search(r'"x-airtable-page-load-id":"(\w+)"', page)
+    if not mu:
+        raise SystemExit("FATAL: readSharedViewData url not found on embed page")
+    path = json.loads('"' + mu.group(1) + '"')  # undo \u002F escaping
+    headers = {
+        "x-airtable-application-id": app_id,
+        "x-airtable-inter-service-client": "webClient",
+        "x-requested-with": "XMLHttpRequest",
+        "x-time-zone": "America/New_York",
+        "x-user-locale": "en",
+        "accept": "application/json",
+    }
+    if mp:
+        headers["x-airtable-page-load-id"] = mp.group(1)
+    data = get("https://airtable.com" + path, headers=headers).json()
+    return data["data"]["table"]
+
+
+def region_of(location):
+    if not location:
+        return None
+    head = location.split(" - ")[0].strip()
+    return {"LatAm": "Latin America"}.get(head, head)
+
+
+def everywhere_tags(name, description, sectors):
+    """Hustle Fund's own industries first (SECTOR_TAG_MAP), then the shared
+    keyword classifier over name + description + industry labels. Cap 4."""
     tags = []
     for sec in sectors:
         for mapped in SECTOR_TAG_MAP.get(sec, []):
             if mapped not in tags:
                 tags.append(mapped)
-    text = f"{name or ''} {' '.join(sectors)}".lower()
-    # substring-trap guard (see PLAYBOOK): "machine/deep learning" must NOT trip
-    # the education "learning"/"learning platform" keywords -> neutralize to "ai".
+    text = f" {name or ''} {description or ''} {' '.join(sectors)} ".lower()
     text = text.replace("machine learning", "ai").replace("deep learning", "ai")
     for tag, kws in KEYWORD_TAGS:
         if tag in tags:
@@ -273,109 +289,74 @@ def everywhere_tags(name, sectors):
     return tags[:4]
 
 
-def parse_item(it, scraped_at):
-    name_el = it.select_one(".company-title")
-    name = clean(name_el.get_text()) if name_el else None
-    if not name:
-        return None
-
-    # Read the DESKTOP block only -- `.company-info-mobile` repeats every value.
-    mobile = it.select_one(".company-info-mobile")
-    if mobile:
-        mobile.decompose()
-
-    region_el = it.select_one('[fs-cmsfilter-field="location"]')
-    region = clean(region_el.get_text()) if region_el else None
-
-    # The finer location sits in the one `.filter-label` that carries no
-    # fs-cmsfilter-field attribute (Hustle Fund never tagged it for filtering).
-    location = None
-    for lab in it.select(".filter-label"):
-        if not lab.has_attr("fs-cmsfilter-field"):
-            location = clean(lab.get_text())
-            break
-
-    sectors, seen = [], set()
-    for el in it.select('[fs-cmsfilter-field="sectors"]'):
-        for s in split_sectors(el.get_text()):
-            if s not in seen:
-                seen.add(s)
-                sectors.append(s)
-
-    funds, seenf = [], set()
-    for el in it.select('[fs-cmsfilter-field="funds"]'):
-        f = clean(el.get_text())
-        if f and f not in seenf:
-            seenf.add(f)
-            funds.append(f)
-
-    link = it.select_one("a.company-link-with-arrow[href]")
-
-    return {
-        "company_name": name,
-        "company_url": norm_url(link.get("href")) if link else None,
-        "region": region,
-        "location": location,
-        "sectors": sectors,
-        "funds": funds,
-        "everywhere_tags": everywhere_tags(name, sectors),
-        "source_url": SOURCE_URL,
-        "scraped_at": scraped_at,
-    }
-
-
-def scrape(scraped_at, limit=None):
-    out, seen = [], set()
-    page = 1
-    while page <= MAX_PAGES:
-        url = FOUNDERS_URL if page == 1 else f"{FOUNDERS_URL}?{PAGE_PARAM}={page}"
-        soup = BeautifulSoup(fetch(url), "html.parser")
-        items = soup.select(".company-info")
-        if not items:
-            print(f"  page {page}: empty -> stop")
-            break
-        for it in items:
-            rec = parse_item(it, scraped_at)
-            if not rec or rec["company_name"] in seen:
-                continue
-            seen.add(rec["company_name"])
-            out.append(rec)
-            if limit and len(out) >= limit:
-                print(f"  page {page}: reached --limit {limit}")
-                return out
-        if page % 5 == 0 or page == 1:
-            print(f"  page {page}: {len(items)} items ({len(out)} total)")
-        page += 1
-        time.sleep(SLEEP)
-    return out
-
-
 def main():
-    argv = sys.argv
-    limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else None
-    scraped_at = datetime.now(timezone.utc).isoformat()
+    limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
+    embed = find_embed_url()
+    print(f"  embed: {embed}", file=sys.stderr)
+    table = read_shared_view(embed)
 
-    out = scrape(scraped_at, limit)
+    cols = {c["name"]: c for c in table["columns"]}
+    def cid(name):
+        c = cols.get(name)
+        if not c:
+            raise SystemExit(f"FATAL: column {name!r} missing; have {list(cols)}")
+        return c["id"]
+    C_NAME, C_DESC = cid("Portco Name"), cid("Company Description")
+    C_IND, C_GEO, C_URL = cid("Industry - Master"), cid("Geography - Category"), cid("Company URL")
+    ind_choices = {k: v["name"] for k, v in (cols["Industry - Master"].get("typeOptions") or {}).get("choices", {}).items()}
+    geo_choices = {k: v["name"] for k, v in (cols["Geography - Category"].get("typeOptions") or {}).get("choices", {}).items()}
+
+    rows = {r["id"]: r for r in table["rows"]}
+    order = []
+    for v in table.get("views") or []:
+        for ro in v.get("rowOrder") or []:
+            if ro.get("visibility", True) and ro["rowId"] in rows:
+                order.append(ro["rowId"])
+        break
+    order += [rid for rid in rows if rid not in set(order)]
+
+    scraped_at = datetime.now(timezone.utc).isoformat()
+    out, seen = [], set()
+    for rid in order:
+        c = rows[rid].get("cellValuesByColumnId") or {}
+        name = clean(c.get(C_NAME))
+        if not name or name.lower() in seen:
+            continue
+        seen.add(name.lower())
+        desc = clean(c.get(C_DESC))
+        sectors = [ind_choices.get(x, x) for x in (c.get(C_IND) or [])]
+        geo = c.get(C_GEO)
+        location = clean(geo_choices.get(geo, geo)) if geo else None
+        variants = [p for p in (clean(x) for x in name.split("|")) if p]
+        rec = {
+            "company_name": name,
+            "description": desc,
+            "company_url": norm_url(c.get(C_URL)),
+            "region": region_of(location),
+            "location": location,
+            "sectors": sectors,
+            "everywhere_tags": everywhere_tags(name, desc, sectors),
+            "source_url": SOURCE_URL,
+            "source_note": "Hustle Fund portfolio directory (Airtable embed on hustlefund.vc/founders); previous, fully deployed funds only",
+            "scraped_at": scraped_at,
+        }
+        if len(variants) > 1:
+            rec["name_variants"] = variants
+        out.append(rec)
+        if limit and len(out) >= limit:
+            break
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=2)
 
     n = len(out)
-    print(f"\nwrote {n} companies -> {OUT}")
-    for field in ("company_url", "region", "location"):
-        present = sum(1 for r in out if r[field])
-        print(f"  {field}: {present}/{n} present")
-    print(f"  sectors: {sum(1 for r in out if r['sectors'])}/{n} present")
-    print(f"  funds: {dict(Counter(f for r in out for f in r['funds']))}")
-    print(f"  regions: {dict(Counter(r['region'] for r in out))}")
-    untagged = sum(1 for r in out if not r["everywhere_tags"])
-    print(f"  everywhere_tags: {n - untagged}/{n} tagged ({untagged} untagged)")
-    for tag, cnt in Counter(t for r in out for t in r["everywhere_tags"]).most_common():
-        print(f"    {tag}: {cnt}")
-    unmapped = Counter(s for r in out for s in r["sectors"] if s not in SECTOR_TAG_MAP)
-    if unmapped:
-        print(f"  sectors NOT in SECTOR_TAG_MAP: {dict(unmapped)}")
+    print(f"wrote {n} companies -> {OUT}")
+    for f in ("description", "company_url", "region", "location", "sectors", "everywhere_tags"):
+        print(f"  {f}: {sum(1 for r in out if r.get(f))}/{n} present")
+    print("  regions:", dict(Counter(r["region"] for r in out)))
+    tc = Counter(t for r in out for t in r["everywhere_tags"])
+    print("  by everywhere_tag:", dict(tc.most_common()))
 
 
 if __name__ == "__main__":
