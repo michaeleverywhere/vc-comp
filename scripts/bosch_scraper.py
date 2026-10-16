@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _scraper_common import fetch, clean
+from _scraper_common import fetch_response, clean
 from _d50_common import rec, finish
 
 SOURCE_URL = "https://bosch.ventures/portfolio/"
@@ -17,7 +17,7 @@ PRIMARY = "Bosch Ventures"
 
 def main():
     scraped_at = datetime.now(timezone.utc).isoformat()
-    soup = BeautifulSoup(fetch(SOURCE_URL), "html.parser")
+    soup = BeautifulSoup(fetch_response(SOURCE_URL).content, "html.parser")  # bytes: server omits charset
     out = []
     for t in soup.select("div.A-ItemTeaser"):
         h = t.select_one(".A-ItemTeaser__title")
