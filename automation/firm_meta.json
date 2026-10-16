@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-firm metadata that isn't derivable from the datasets, used ONLY to fill BLANK cells. Right now that's just Source type (a hand classification). Everything else — Name, Source URL, Notes, Scraper module — is derived automatically. Add a firm here only if it needs a non-default Source type; discovered firms default to 'generic-extractor'.",
+  "_comment": "Per-firm metadata that isn't derivable from the datasets, used ONLY to fill BLANK cells. Right now that's just Source type (a hand classification). Everything else \u2014 Name, Source URL, Notes, Scraper module \u2014 is derived automatically. Add a firm here only if it needs a non-default Source type; discovered firms default to 'generic-extractor'.",
   "source_type": {
     "inflection_companies.json": "raw-html",
     "eclipseventures_companies.json": "sanity-api",
@@ -272,6 +272,26 @@
     "thirdrock_companies.json": "raw-html",
     "flarecapital_companies.json": "wp-rest",
     "hetz_companies.json": "webflow",
-    "peakxv_companies.json": "webflow"
+    "peakxv_companies.json": "webflow",
+    "boostvc_companies.json": "json-api",
+    "dragonfly_companies.json": "nuxt-data",
+    "multicoin_companies.json": "gatsby-page-data",
+    "betaworks_companies.json": "webflow",
+    "cherry_companies.json": "webflow",
+    "chiratae_companies.json": "raw-html",
+    "iqcapital_companies.json": "webflow",
+    "flybridge_companies.json": "squarespace",
+    "longjourney_companies.json": "squarespace",
+    "ada_companies.json": "webflow",
+    "section32_companies.json": "webflow",
+    "accomplice_companies.json": "raw-html",
+    "character_companies.json": "webflow",
+    "weekend_companies.json": "raw-html",
+    "hiro_companies.json": "raw-html",
+    "coinfund_companies.json": "raw-html",
+    "monashees_companies.json": "framer-html",
+    "electric_companies.json": "next-data",
+    "breega_companies.json": "webflow",
+    "griffin_companies.json": "raw-html"
   }
 }
