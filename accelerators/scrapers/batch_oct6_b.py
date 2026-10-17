@@ -164,7 +164,8 @@ def defy():
         cands = re.findall(r'href="(https?://(?!defy\.vc)[^"]+)"', html)
         skip = ("reuters.com", "forbes.com", "techcrunch", "fonts.", "google", "arkpes",
                 "facebook.com", "twitter.com", "linkedin.com", "crunchbase", "pitchbook",
-                "prnewswire", "finsmes", "fastcompany", "gmpg.org", "wp.com", "gravatar")
+                "prnewswire", "finsmes", "fastcompany", "gmpg.org", "wp.com", "gravatar",
+                "x.com/", "youtube.com", "venturecapitaljournal")
         for u in cands:
             low = u.lower()
             if any(x in low for x in skip):
