@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1972,
-  "total_companies": 132551,
+  "total_firms": 1980,
+  "total_companies": 132834,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1196,
-      "companies": 85484,
-      "bytes": 39992421,
+      "firms": 1198,
+      "companies": 85490,
+      "bytes": 39985568,
       "first_firm": "0BS",
-      "last_firm": "Mythos Ventures"
+      "last_firm": "M Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 776,
-      "companies": 47067,
-      "bytes": 22207458,
-      "first_firm": "N49P",
+      "firms": 782,
+      "companies": 47344,
+      "bytes": 22303674,
+      "first_firm": "Manhattan Venture Partners",
       "last_firm": "Z Venture Capital"
     }
   ]
