@@ -153,3 +153,40 @@ if __name__ == "__main__":
             print(" -", f)
         sys.exit(1)
     print("all tests passed")
+
+
+def test_split_parts_on_firm_boundaries_and_roundtrip(tmp_path):
+    import json as _json
+    import master_builder as mb
+    rows = []
+    for f in range(30):
+        for c in range(20):
+            rows.append({"firm": f"F{f}", "firm_slug": f"f{f:02d}", "name": f"C{f}-{c}",
+                         "url": "", "description": "x" * 200})
+    limit = len(mb._dumps(rows).encode()) // 3
+    parts = mb.split_parts(rows, limit)
+    assert len(parts) >= 3
+    assert [r for p in parts for r in p] == rows
+    seen = set()
+    for p in parts:
+        slugs = {r["firm_slug"] for r in p}
+        assert not (slugs & seen)  # no firm split across parts
+        seen |= slugs
+        assert len(mb._dumps(p).encode()) <= limit
+    (tmp_path / "all_companies_9.json").write_text("[]\n")  # stale part
+    mb.write_parts(rows, tmp_path, limit=limit)
+    assert not (tmp_path / "all_companies_9.json").exists()
+    idx = _json.loads((tmp_path / mb.INDEX_FILENAME).read_text())
+    assert idx["total_companies"] == len(rows)
+    assert mb.load_all(tmp_path) == rows
+    for e in idx["parts"]:
+        assert (tmp_path / e["file"]).stat().st_size == e["bytes"]
+
+
+def test_part_filenames_and_master_detection():
+    import master_builder as mb
+    assert mb.part_filename(0) == "all_companies.json"
+    assert mb.part_filename(1) == "all_companies_2.json"
+    assert mb.is_master_file("all_companies_3.json")
+    assert mb.is_master_file("all_companies_index.json")
+    assert not mb.is_master_file("a16z_companies.json")

@@ -1,4 +1,5 @@
-"""Builds data/all_companies.json — every firm's dataset combined into one file,
+"""Builds data/all_companies.json (+ all_companies_2.json, _3 … overflow parts) —
+every firm's dataset combined, split across part files of at most ~40 MB each,
 each record tagged with which firm it came from and normalized through identity.py's
 field-alias rules (site-tailored schemas mean "company name" comes in under a dozen
 different keys across the 61+ bespoke scrapers; identity.py already solves this, this
@@ -9,7 +10,15 @@ calls it after the nightly scrape loop (see pipeline.py._build_all_companies) so
 combined file reflects that run's freshest per-firm data, including firms the scraper
 factory just generated tonight (written to local disk before their own deferred commit).
 
-Run standalone (prints a summary instead of committing anything):
+Split into parts (2026-10-18): GitHub/raw consumers choke on one 50+ MB file, so the
+combined list is written in order across part files, splitting only on whole-firm
+boundaries: all_companies.json is filled up to PART_LIMIT_BYTES (~40 MB), then the
+overflow spills into all_companies_2.json, all_companies_3.json, … Every part keeps
+the same structure (a JSON list of company rows). data/all_companies_index.json lists
+the parts with firm/company counts. Readers should use load_all() (or read the index
+and concatenate every part) — never assume all_companies.json alone is the full set.
+
+Run standalone (writes the part files + index locally; commits nothing):
     python3 automation/master_builder.py [--data-dir PATH]
 """
 from __future__ import annotations
@@ -32,7 +41,24 @@ except ImportError:  # pragma: no cover
 
 _HERE = Path(__file__).resolve().parent
 _DEFAULT_DATA_DIR = _HERE.parent / "data"
-_OUTPUT_FILENAME = "all_companies.json"
+_OUTPUT_FILENAME = "all_companies.json"          # part 1 (kept for compatibility)
+INDEX_FILENAME = "all_companies_index.json"
+PART_LIMIT_BYTES = 40_000_000                    # ~40 MB per part file
+_PART_RE = __import__("re").compile(r"^all_companies(?:_(\d+))?\.json$")
+
+
+def part_filename(i: int) -> str:
+    """0-based part index -> file name: all_companies.json, all_companies_2.json, …"""
+    return _OUTPUT_FILENAME if i == 0 else f"all_companies_{i + 1}.json"
+
+
+def is_master_file(name: str) -> bool:
+    """True for any combined-output part file or the index (never a firm dataset)."""
+    return bool(_PART_RE.match(name)) or name == INDEX_FILENAME
+
+
+def _dumps(rows) -> str:
+    return json.dumps(rows, indent=2, ensure_ascii=False) + "\n"
 
 _LOC_KEYS = ("location", "headquarters", "hq", "hq_location")
 _STAGE_KEYS = (
@@ -128,7 +154,7 @@ def build(data_dir: Path | None = None) -> list[dict]:
 
     dataset_files = sorted(
         p for p in data_dir.glob("*.json")
-        if p.name != _OUTPUT_FILENAME and identity.slug_from_file(p.name)
+        if not is_master_file(p.name) and identity.slug_from_file(p.name)
     )
 
     for path in dataset_files:
@@ -159,6 +185,110 @@ def build(data_dir: Path | None = None) -> list[dict]:
     return combined
 
 
+def split_parts(rows: list[dict], limit: int = PART_LIMIT_BYTES) -> list[list[dict]]:
+    """Split rows (in order) into parts on whole-firm boundaries, filling each part
+    up to `limit` bytes of serialized JSON before spilling into the next. A single
+    firm larger than `limit` gets a part of its own (never split across files)."""
+    # contiguous firm blocks in existing order
+    blocks: list[list[dict]] = []
+    for r in rows:
+        if blocks and blocks[-1][0]["firm_slug"] == r["firm_slug"]:
+            blocks[-1].append(r)
+        else:
+            blocks.append([r])
+
+    def row_bytes(r: dict) -> int:
+        # size of one element inside the indent=2 list: every line gains 2 spaces,
+        # plus ",\n" separator
+        txt = json.dumps(r, indent=2, ensure_ascii=False)
+        return len(txt.encode("utf-8")) + 2 * (txt.count("\n") + 1) + 2
+
+    parts: list[list[dict]] = []
+    cur: list[dict] = []
+    cur_bytes = 4  # "[\n" + "]\n"
+    for b in blocks:
+        bb = sum(row_bytes(r) for r in b)
+        if cur and cur_bytes + bb > limit:
+            parts.append(cur)
+            cur, cur_bytes = [], 4
+        cur.extend(b)
+        cur_bytes += bb
+    if cur or not parts:
+        parts.append(cur)
+    return parts
+
+
+def build_index(parts: list[list[dict]]) -> dict:
+    entries = []
+    for i, p in enumerate(parts):
+        firms = []
+        for r in p:
+            if not firms or firms[-1] != r["firm_slug"]:
+                firms.append(r["firm_slug"])
+        entries.append({
+            "file": part_filename(i),
+            "firms": len(set(firms)),
+            "companies": len(p),
+            "bytes": len(_dumps(p).encode("utf-8")),
+            "first_firm": p[0]["firm"] if p else None,
+            "last_firm": p[-1]["firm"] if p else None,
+        })
+    return {
+        "_comment": "Combined company master, split on whole-firm boundaries into "
+                    "parts of <= ~40 MB. Concatenate every part (in this order) for "
+                    "the full list. Built by automation/master_builder.py.",
+        "part_limit_bytes": PART_LIMIT_BYTES,
+        "total_firms": len({r["firm_slug"] for p in parts for r in p}),
+        "total_companies": sum(len(p) for p in parts),
+        "parts": entries,
+    }
+
+
+def write_parts(rows: list[dict], data_dir: Path | None = None,
+                limit: int = PART_LIMIT_BYTES) -> dict:
+    """Write all part files + index to data_dir; remove stale higher-numbered parts.
+    Returns the index dict."""
+    data_dir = data_dir or _DEFAULT_DATA_DIR
+    parts = split_parts(rows, limit)
+    for i, p in enumerate(parts):
+        (data_dir / part_filename(i)).write_text(_dumps(p), encoding="utf-8")
+    keep = {part_filename(i) for i in range(len(parts))}
+    for f in data_dir.glob("all_companies*.json"):
+        if _PART_RE.match(f.name) and f.name not in keep:
+            f.unlink()
+    idx = build_index(parts)
+    (data_dir / INDEX_FILENAME).write_text(
+        json.dumps(idx, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return idx
+
+
+def part_files(data_dir: Path | None = None) -> list[Path]:
+    """Existing part files in order (from the index when present)."""
+    data_dir = data_dir or _DEFAULT_DATA_DIR
+    idx_path = data_dir / INDEX_FILENAME
+    if idx_path.exists():
+        try:
+            idx = json.loads(idx_path.read_text(encoding="utf-8"))
+            return [data_dir / e["file"] for e in idx.get("parts", [])]
+        except Exception:  # noqa: BLE001 — fall back to globbing
+            pass
+    found = []
+    for f in data_dir.glob("all_companies*.json"):
+        m = _PART_RE.match(f.name)
+        if m:
+            found.append((int(m.group(1) or 1), f))
+    return [f for _, f in sorted(found)]
+
+
+def load_all(data_dir: Path | None = None) -> list[dict]:
+    """Read every part and return the full combined company list (in order)."""
+    rows: list[dict] = []
+    for f in part_files(data_dir):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        rows.extend(data if isinstance(data, list) else [])
+    return rows
+
+
 if __name__ == "__main__":
     import argparse
 
@@ -168,10 +298,13 @@ if __name__ == "__main__":
 
     data_dir = Path(args.data_dir) if args.data_dir else _DEFAULT_DATA_DIR
     rows = build(data_dir)
-    out = data_dir / _OUTPUT_FILENAME
-    out.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    idx = write_parts(rows, data_dir)
     firms = {r["firm_slug"] for r in rows}
-    print(f"[master_builder] wrote {out} — {len(rows)} companies across {len(firms)} firms")
+    for e in idx["parts"]:
+        print(f"[master_builder] wrote {data_dir / e['file']} — {e['companies']} companies, "
+              f"{e['firms']} firms, {e['bytes']:,} bytes")
+    print(f"[master_builder] total {len(rows)} companies across {len(firms)} firms "
+          f"in {len(idx['parts'])} part(s); index {data_dir / INDEX_FILENAME}")
     print(f"[master_builder] sample:")
     for r in rows[:3]:
         print(f"  {r['firm']:<20} {r['name']}")

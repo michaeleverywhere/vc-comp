@@ -427,30 +427,59 @@ def _flush_factory_commits(store, gen_done: list, gstate, gstate_dirty: bool) ->
 
 
 def _build_all_companies(store: Optional[GitHubStore], dry_run: bool) -> None:
-    """Rebuild data/all_companies.json — every firm's data combined and normalized
-    (see master_builder.py). Reads from LOCAL disk, so at this point in the run it
-    already reflects tonight's factory-generated firms too (written locally before
-    their own deferred commit above). data/ is outside Railway's Watch Paths, same as
-    every other data/ commit this pipeline makes, so this cannot trigger the mid-run
-    redeploy-kills-container failure mode _flush_factory_commits exists to avoid.
+    """Rebuild the combined company master — every firm's data combined and normalized
+    (see master_builder.py) — split on whole-firm boundaries into part files of at most
+    ~40 MB: data/all_companies.json, then all_companies_2.json, _3 … as needed, plus
+    data/all_companies_index.json listing the parts. Reads from LOCAL disk, so at this
+    point in the run it already reflects tonight's factory-generated firms too (written
+    locally before their own deferred commit above). data/ is outside Railway's Watch
+    Paths, same as every other data/ commit this pipeline makes, so this cannot trigger
+    the mid-run redeploy-kills-container failure mode _flush_factory_commits exists to
+    avoid.
 
-    Convenience file for downstream consumers (dashboards that today stitch 60+
+    Convenience files for downstream consumers (dashboards that today stitch 60+
     per-firm files together client-side) — must never cost the run its real work if
     it breaks, so failures are printed, not raised."""
     try:
         rows = master_builder.build()
-        if dry_run or store is None:
-            print(f"[all_companies] dry-run: would combine {len(rows)} companies")
-            return
+        parts = master_builder.split_parts(rows)
         firms = len({r["firm_slug"] for r in rows})
-        existing = store.read_json("all_companies.json")
-        if existing == rows:
-            print(f"[all_companies] unchanged ({len(rows)} companies, {firms} firms) — no commit")
+        if dry_run or store is None:
+            print(f"[all_companies] dry-run: would combine {len(rows)} companies "
+                  f"into {len(parts)} part file(s)")
             return
-        store.commit_json(
-            "all_companies.json", rows,
-            f"Rebuild all_companies.json: {len(rows)} companies across {firms} firms")
-        print(f"[all_companies] committed: {len(rows)} companies across {firms} firms")
+        changed = 0
+        for i, part in enumerate(parts):
+            fname = master_builder.part_filename(i)
+            if store.read_json(fname) == part:
+                continue
+            store.commit_json(
+                fname, part,
+                f"Rebuild {fname} (part {i + 1}/{len(parts)}): {len(part)} companies; "
+                f"master {len(rows)} companies across {firms} firms")
+            changed += 1
+        # drop stale higher-numbered parts left over from a bigger previous build
+        # (probe the next few names directly: the contents listing caps at 1,000
+        # entries and data/ is bigger than that)
+        for i in range(len(parts), len(parts) + 3):
+            if store.delete_json(master_builder.part_filename(i),
+                                 f"Remove stale master part {master_builder.part_filename(i)}"):
+                changed += 1
+        index_missing = False
+        try:
+            index_missing = store._blob_sha(
+                f"{store.data_dir}/{master_builder.INDEX_FILENAME}") is None
+        except Exception:  # noqa: BLE001
+            index_missing = True
+        if changed or index_missing:
+            store.commit_json(
+                master_builder.INDEX_FILENAME, master_builder.build_index(parts),
+                f"Update all_companies_index.json: {len(parts)} part(s), "
+                f"{len(rows)} companies across {firms} firms")
+            print(f"[all_companies] committed {changed} part change(s): {len(rows)} "
+                  f"companies across {firms} firms in {len(parts)} part(s)")
+        else:
+            print(f"[all_companies] unchanged ({len(rows)} companies, {firms} firms) — no commit")
     except Exception as exc:  # noqa: BLE001 — never break the run over this
         print(f"[all_companies] build FAILED: {exc}")
 

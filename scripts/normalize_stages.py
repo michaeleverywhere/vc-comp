@@ -407,8 +407,8 @@ def iter_dataset_files(data_dir: Path):
     for path in sorted(data_dir.glob("*.json")):
         # per-firm datasets only
         name = path.name
-        if name == "all_companies.json":
-            continue
+        if name == "all_companies.json" or name.startswith("all_companies_"):
+            continue  # combined master parts / index, not per-firm datasets
         if name.endswith("_companies.json") or name == "companies.json":
             yield path
 
