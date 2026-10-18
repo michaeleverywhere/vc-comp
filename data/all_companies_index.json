@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1209,
-  "total_companies": 108423,
+  "total_firms": 1259,
+  "total_companies": 111123,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 857,
-      "companies": 80616,
-      "bytes": 39997523,
+      "firms": 877,
+      "companies": 81282,
+      "bytes": 39915814,
       "first_firm": "137 Ventures",
-      "last_firm": "Practica Capital"
+      "last_firm": "Pillar VC"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 352,
-      "companies": 27807,
-      "bytes": 14121816,
-      "first_firm": "Precursor Ventures",
+      "firms": 382,
+      "companies": 29841,
+      "bytes": 15111260,
+      "first_firm": "Pitango",
       "last_firm": "Z Venture Capital"
     }
   ]
