@@ -7,7 +7,7 @@ Sigma Ventures,queued,TLS reset from scraper box — retry
 4DX Ventures,tracked,4DX Ventures
 5Eyes,queued,
 6th Man Ventures,added 2026-10-16,6th Man Ventures (sixthman_companies.json)
-7 Global Capital,queued,
+7 Global Capital,queued,TLS reset / connection error from scraper box — retry
 8-Bit Capital,no usable portfolio,portfolio page has no company cards in HTML
 8VC,tracked,8VC
 10x Capital,queued,
@@ -23,7 +23,7 @@ Sigma Ventures,queued,TLS reset from scraper box — retry
 468 Capital,no usable portfolio,"site is a placeholder page, no portfolio"
 500 Global,accelerator,accelerator-type program; NOT in accelerators/queue.json or firm datasets (excluded from VC queue)
 645 ventures,added 2026-10-17,645 Ventures -> data/645ventures_companies.json
-648 Capital,queued,
+648 Capital,queued,TLS reset / connection error from scraper box — retry
 776 Ventures,queued,
 1517 Fund,no usable portfolio,portfolio cards carry no company names (logos only)
 1955 Capital,added 2026-10-17,1955 Capital -> data/capital1955_companies.json
@@ -32,7 +32,7 @@ Sigma Ventures,queued,TLS reset from scraper box — retry
 2048 Ventures,tracked,2048 Ventures
 2100 VC,queued,
 97212 Ventures,no usable portfolio,portfolio rows carry no company names
-A* Capital,queued,
+A* Capital,queued,guessed domain is parked/for sale — find real site
 Abstract Ventures,tracked,Abstract Ventures
 Abstraction Capital,added 2026-10-17,Abstraction Capital -> data/abstraction_companies.json
 AC VENTURES,queued,TLS reset from scraper box — retry
@@ -51,7 +51,7 @@ Advancit,no usable portfolio,logo-only grid (no names)
 Adventure Fund,queued,
 Afore,tracked,Afore Capital
 AfriKairos GmbH,queued,
-AfterWork Ventures,queued,
+AfterWork Ventures,added 2026-10-18,AfterWork Ventures -> data/afterwork_companies.json
 Aim High,queued,
 Airtree,tracked,AirTree Ventures
 Airwing,added 2026-10-17,Airwing -> data/airwing_companies.json
@@ -64,13 +64,13 @@ AlleyCorp,tracked,AlleyCorp
 Alpaca VC,no usable portfolio,logo-only (links only)
 Alpha Edison,added 2026-10-17,Alpha Edison -> data/alphaedison_companies.json
 Alpha Partners,tracked,Alpha Partners
-Alpha Startup Fund,queued,
+Alpha Startup Fund,queued,TLS reset / connection error from scraper box — retry
 Alpine Meridian Ventures,no usable portfolio,logo alt text is image filenames only (no company names)
 Alt Capital,no usable portfolio,"altvc.com is Altitude Ventures (real estate / healthcare), not a VC portfolio"
 Altari,added 2026-10-17,Altari Ventures -> data/altari_companies.json
 Althing Ventures,queued,
 Altitude Ventures,no usable portfolio,"site serves a bot-check interstitial (""One moment, please…""); not bypassed"
-Alumni Ventures,no usable portfolio,JS-only (only APEX highlight list)
+Alumni Ventures,added 2026-10-18,Alumni Ventures -> data/alumniventures_companies.json
 Amplifica Capital,queued,
 Amplify.LA Capital,queued,TLS certificate error from scraper box — retry
 Amplifyher Ventures,queued,
@@ -78,7 +78,7 @@ Amplo,queued,TLS reset from scraper box — retry
 Anchor Capital,queued,
 Andover Ventures,no usable portfolio,"andoverventures.com is a blog (""Andover Daily""), no VC portfolio"
 Andreessen Horowitz (a16z),tracked,a16z
-Angel Invest,queued,
+Angel Invest,added 2026-10-18,Angel Invest -> data/angelinvest_companies.json
 Angular Ventures,no usable portfolio,JS-only
 ANIM,queued,
 Animo,no usable portfolio,logo-only portfolio (no company names on the site)
@@ -88,13 +88,13 @@ Anthos Capital,queued,
 Anthos Fund & Asset Management,queued,
 Antler,accelerator,in accelerators/queue.json as Antler
 Antler Elevate,accelerator,in accelerators/queue.json as Antler
-Apeture,queued,
+Apeture,queued,TLS reset / connection error from scraper box — retry
 Arab Angel,queued,
 Arbor Ventures,added 2026-10-16,Arbor Ventures (arbor_companies.json)
 Archangel Ventures,added 2026-10-17,Archangel Ventures -> data/archangel_companies.json
 Argon Ventures,added 2026-10-17,Argon Ventures -> data/argon_companies.json
 Arieli Group,queued,
-Arkitekt Ventures,queued,
+Arkitekt Ventures,queued,TLS reset / connection error from scraper box — retry
 Armory Square,no usable portfolio,portfolio descriptions only (no company names)
 Armyn Capital,no usable portfolio,portfolio rows carry no company names
 Array Ventures,added 2026-10-17,Array Ventures -> data/arrayvc_companies.json
@@ -111,10 +111,10 @@ Asymmetry Ventures,no usable portfolio,portfolio page has no company content in 
 Atlantica,queued,
 Atomico,no usable portfolio,on skip list
 Atypical Ventures,no usable portfolio,JS-only
-August One,queued,
+August One,queued,TLS reset / connection error from scraper box — retry
 Av8 Ventures,no usable portfolio,logo-only grid (no names)
 Avalanche VC,added 2026-10-16,Avalanche VC -> data/avalanche_companies.json
-AVG Basecamp Fund,queued,
+AVG Basecamp Fund,added 2026-10-18,Alumni Ventures fund; added as Alumni Ventures -> data/alumniventures_companies.json
 Avid Ventures,added 2026-10-17,Avid Ventures -> data/avid_companies.json
 Avivar Capital,queued,
 Azimut,queued,
@@ -172,14 +172,14 @@ Boutique VC,added 2026-10-17,BoutiqueVC -> data/boutiquevc_companies.json
 Bowery Capital,tracked,Bowery Capital
 Box Group,tracked,BoxGroup
 Bragiel Brothers,not a firm,angel investors
-Brand Foundry Ventures,queued,
+Brand Foundry Ventures,queued,TLS reset / connection error from scraper box — retry
 Brand Project,queued,
 Branded Hospitality Ventures,queued,
 Bravo Ventures,queued,
 Bread and Butter Ventures,no usable portfolio,no portfolio list rendered
 BreakawayGrowth Fund,queued,
 Breakout Ventures,added 2026-10-16,Breakout Ventures (breakout_companies.json)
-Breakwater VC,queued,
+Breakwater VC,no usable portfolio,"logo-only portfolio (exit labels, no company names)"
 Brick & Mortar VC,added 2026-10-17,Brick & Mortar Ventures -> data/brickmortar_companies.json
 Bridge Investment Fund,queued,
 Brighteye Ventures,tracked,Brighteye Ventures
@@ -197,8 +197,8 @@ Bynd,no usable portfolio,logo-only portfolio (no company names)
 C2 Ventures,queued,
 C4 Ventures,added 2026-10-17,C4 Ventures -> data/c4ventures_companies.json
 Caballeros Capital,queued,
-Cake,queued,
-Camp Ventures,queued,
+Cake,added 2026-10-18,Cake Ventures -> data/cakeventures_companies.json
+Camp Ventures,queued,TLS reset / connection error from scraper box — retry
 Canaan Partners,tracked,Canaan
 Canapi Ventures,added 2026-10-16,Canapi Ventures (canapi_companies.json)
 Canary,queued,
@@ -212,7 +212,7 @@ CapitalG,tracked,CapitalG
 CapitalX,queued,
 Cartography Capital,added 2026-10-17,Cartography Capital -> data/cartography_companies.json
 Catalyst Fund,queued,not Catalyst Accelerator
-Catalyst Investors,queued,
+Catalyst Investors,added 2026-10-18,Catalyst Investors -> data/catalystinvestors_companies.json
 Cathay Innovation,tracked,Cathay Innovation
 Centre Street Partners,queued,
 Ceres Ventures Limited,queued,
@@ -259,7 +259,7 @@ Congress Avenue Ventures,no usable portfolio,no site found for this firm (guesse
 Congruent Ventures,tracked,Congruent Ventures
 Connect Ventures,tracked,Connect Ventures
 Connetic Ventures,added 2026-10-17,Connetic Ventures -> data/connetic_companies.json
-Conscious Capital,queued,
+Conscious Capital,queued,guessed domain is parked/for sale — find real site
 Conscious Equity Ventures,queued,
 Consonant VC,queued,
 Construct Capital,added 2026-10-17,Construct Capital -> data/constructcapital_companies.json
@@ -278,10 +278,10 @@ Coughdrop Capital,no usable portfolio,"site shows founder testimonials only, no 
 Courtside Ventures,added 2026-10-16,Courtside Ventures (courtside_companies.json)
 CoVentures,added 2026-10-17,CoVentures -> data/coventures_companies.json
 Cowboy Ventures,tracked,Cowboy Ventures
-Coyote Ventures,queued,
+Coyote Ventures,no usable portfolio,"logo-only portfolio (one-line blurbs, no company names)"
 Craft Ventures,tracked,Craft Ventures
 CREANDUM,tracked,Creandum
-Crossbeam,queued,
+Crossbeam,queued,TLS reset / connection error from scraper box — retry
 CrossCut,tracked,Crosscut Ventures
 Crosslink,tracked,Crosslink Capital
 Crossover,queued,TLS reset from scraper box — retry
@@ -305,8 +305,8 @@ DFS Labs,added 2026-10-17,DFS Lab -> data/dfslab_companies.json
 Differential Ventures,added 2026-10-17,Differential Ventures -> data/differential_companies.json
 Digital Currency Group,tracked,Digital Currency Group
 Digital Health Venture Partners (DHVC),no usable portfolio,domain parked
-Distributed Ventures,queued,
-Divergent,queued,
+Distributed Ventures,added 2026-10-18,Distributed Ventures -> data/distributedventures_companies.json
+Divergent,queued,guessed domain is parked/for sale — find real site
 DN Capital,no usable portfolio,JS-only
 Dorm Room Fund,added 2026-10-16,Dorm Room Fund (dormroom_companies.json)
 Draft Ventures,added 2026-10-16,Draft Ventures (draft_companies.json)
@@ -321,7 +321,7 @@ East Ventures,tracked,East Ventures
 Eberg capital,no usable portfolio,"logo alt text is placeholder, no company names"
 Echo Health Ventures,added 2026-10-17,Echo Health Ventures -> data/echohealth_companies.json
 Eclipse Ventures,tracked,Eclipse Ventures
-Ecotone,queued,
+Ecotone,queued,TLS reset / connection error from scraper box — retry
 Mbue,queued,
 EdTech Fund,queued,
 Education Growth Partners,queued,
@@ -349,7 +349,7 @@ Engineering Capital,no usable portfolio,logo images only (no names)
 Enhance Ventures,queued,
 Eniac Ventures,tracked,Eniac Ventures
 Ensemble VC,no usable portfolio,"names-only, small"
-Epoch Capital,queued,
+Epoch Capital,queued,guessed domain is parked/for sale — find real site
 EQT,tracked,EQT
 Equal VC,tracked,Equal Ventures
 Equipment Share,not a firm,operating company
@@ -359,7 +359,7 @@ Euclid Ventures,queued,
 Eutopia Ventures,added 2026-10-17,Eutopia Ventures -> data/eutopia_companies.json
 Expa,tracked,Expa
 Expansion,added 2026-10-17,Expansion VC -> data/expansionvc_companies.json
-Experior VC,queued,
+Experior VC,queued,TLS reset / connection error from scraper box — retry
 F-Prime,tracked,F-Prime Capital
 Factorial,queued,portfolio URL not found (probe hit a different firm) — needs correct URL
 Falcon Ventures,queued,
@@ -373,7 +373,7 @@ ffVC,tracked,ff Venture Capital
 Field Ventures,no usable portfolio,"logo alt text is placeholder, no company names"
 Fifth Wall,tracked,Fifth Wall
 Fika,tracked,Fika Ventures
-Fintech Collective,no usable portfolio,JS-only portfolio
+Fintech Collective,added 2026-10-18,FinTech Collective -> data/fintechcollective_companies.json
 Firebrand,no usable portfolio,portfolio cards have descriptions/links but no company names (empty logo alt)
 First Check VC,no usable portfolio,domain redirects to boldstart ventures; no separate portfolio
 First In Capital,no usable portfolio,"site serves a bot-check interstitial (""One moment, please…""); not bypassed"
@@ -382,7 +382,7 @@ Firsthand Alliance,queued,
 Firsthand VC,added 2026-10-17,Firsthand VC -> data/firsthand_companies.json
 Firstmark,tracked,FirstMark
 FirstMile Ventures,added 2026-10-17,FirstMile Ventures -> data/firstmile_companies.json
-firstminute Capital,no usable portfolio,JS-only
+firstminute Capital,added 2026-10-18,firstminute capital -> data/firstminute_companies.json
 Five Four Ventures,added 2026-10-17,Five Four Ventures -> data/fivefour_companies.json
 FJlabs,tracked,FJ Labs
 Fjor,added 2026-10-17,Fjor Founders Fund -> data/fjor_companies.json
@@ -390,7 +390,7 @@ Flair Ventures,added 2026-10-17,Flair Ventures -> data/flairventures_companies.j
 Flash Ventures,queued,
 Flex Capital,no usable portfolio,no portfolio list on site
 Flint Capital,no usable portfolio,JS-only
-Flipkart Ventures,queued,
+Flipkart Ventures,queued,TLS reset / connection error from scraper box — retry
 Floating Point Group,queued,
 Floodgate,tracked,Floodgate
 Flourish,tracked,Flourish Ventures
@@ -405,11 +405,11 @@ Footwork,added 2026-10-17,Footwork -> data/footwork_companies.json
 Forerunner Ventures,tracked,Forerunner Ventures
 FORGE Capital,queued,
 Forge VC,added 2026-10-17,Forge VC -> data/forgevc_companies.json
-Form Ventures,queued,
+Form Ventures,queued,"scraper staged 2026-10-18 (29 names + websites, no descriptions) — spare"
 Fortified Ventures,queued,
 Fortino,queued,
 Forum,no usable portfolio,no portfolio list on site
-Forward Venture Capital,queued,
+Forward Venture Capital,added 2026-10-18,Forward Venture Capital -> data/forwardvc_companies.json
 Foundamental,added 2026-10-16,Foundamental -> data/foundamental_companies.json
 Foundation Capital,no usable portfolio,"Framer, partial render"
 Founder Collective,tracked,Founder Collective
@@ -420,7 +420,7 @@ Four Acres Capital,no usable portfolio,logo-only portfolio (no company names on 
 Foxmont Capital Partners,tracked,Foxmont Capital Partners
 FPV Ventures,no usable portfolio,descriptions + domains only (no company names)
 Framework Ventures,tracked,Framework Ventures
-Freestyle,no usable portfolio,JS-only portfolio (no server-rendered data)
+Freestyle,added 2026-10-18,Freestyle Capital -> data/freestyle_companies.json
 Fresco Capital,added 2026-10-16,Fresco Capital -> data/fresco_companies.json
 Fresh VC,no usable portfolio,"no site found for this firm (fresh.fund is Fresh Fund, a different firm)"
 Friends & Family Capital,no usable portfolio,portfolio cards carry no company names (logos only)
@@ -429,7 +429,7 @@ FTV Capital,tracked,FTV Capital
 Fuel Capital,tracked,Fuel Capital
 Fulcrum Venture Group,queued,
 Full Circle,queued,
-Further Ventures,queued,
+Further Ventures,queued,guessed domain is parked/for sale — find real site
 Future Africa,tracked,Future Africa
 Future Now Ventures,queued,
 Future Perfect Ventures,no usable portfolio,no portfolio list on site (Wix homepage only)
@@ -447,7 +447,7 @@ George Shultz Innovation Fund,queued,
 GFR Fund,added 2026-10-17,GFR Fund -> data/gfr_companies.json
 Gilgamesh Ventures,no usable portfolio,logo images only (no names)
 Gingerbread Capital,queued,
-Glass Cube Investments,queued,
+Glass Cube Investments,queued,TLS reset / connection error from scraper box — retry
 Glasswing,tracked,Glasswing Ventures
 Global Founders Capital (GFC),no usable portfolio,no portfolio list on site
 Global Millennial Capital,queued,
@@ -476,8 +476,8 @@ Half Court Ventures,no usable portfolio,logo-only gallery (no names)
 Halogen,no usable portfolio,logo-only (no names)
 Hannah Grey,no usable portfolio,logo-only Squarespace grid (no names/alts) — must-add not possible
 Harizury,queued,
-Harlem Capital,no usable portfolio,JS-only
-Harmonic Growth Partners,queued,
+Harlem Capital,added 2026-10-18,Harlem Capital -> data/harlem_companies.json
+Harmonic Growth Partners,queued,TLS reset / connection error from scraper box — retry
 Hatchet Ventures,no usable portfolio,"site serves a bot-check interstitial (""One moment, please…""); not bypassed"
 Haven Ventures,queued,
 Hawke Ventures,no usable portfolio,JS-rendered; no company cards in HTML
@@ -514,7 +514,7 @@ IA Ventures,no usable portfolio,JS-only
 Icehouse Ventures,no usable portfolio,logo-only (names only in URLs)
 Idealab,no usable portfolio,logo alts only (incubator)
 Ideaspring Capital,tracked,Ideaspring Capital -> data/ideaspring_companies.json
-Igah Ventures,queued,
+Igah Ventures,queued,TLS reset / connection error from scraper box — retry
 IGNIA Partners,added 2026-10-17,IGNIA -> data/ignia_companies.json
 IKJ Capital,no usable portfolio,"site gallery is news items, not a portfolio list"
 Iliad Partners,queued,
@@ -532,7 +532,7 @@ Index Ventures,tracked,Index Ventures
 Indicator Ventures,no usable portfolio,no portfolio list
 Industrious Ventures,added 2026-10-16,Industrious Ventures -> data/industrious_companies.json
 Infinity VC,queued,
-Inflect Capital,queued,
+Inflect Capital,queued,guessed domain is parked/for sale — find real site
 Ingeboard,queued,
 Ingressive Capital,added 2026-10-17,Ingressive Capital -> data/ingressive_companies.json
 Initialized Capital,tracked,Initialized Capital
@@ -547,12 +547,12 @@ Intrepid Ventures,queued,
 Invariantes Fund,no usable portfolio,portfolio lists fund investments (fund-of-funds)
 Inventus Capital Partners,no usable portfolio,Wix JS-only portfolio
 Inverted Cap,queued,
-Inverted Ventures,queued,
+Inverted Ventures,queued,TLS reset / connection error from scraper box — retry
 Investible,added 2026-10-17,Investible -> data/investible_companies.json
 IQT,tracked,In-Q-Tel
 Irregular Expressions,added 2026-10-17,Irregular Expressions -> data/irregex_companies.json
-irrvrntVC,queued,
-iSeed,queued,
+irrvrntVC,queued,TLS reset / connection error from scraper box — retry
+iSeed,queued,TLS reset / connection error from scraper box — retry
 Italian Founders Fund,added 2026-10-17,Italian Founders Fund -> data/italianfounders_companies.json
 Ithaca Investments,queued,
 IVP,tracked,IVP
@@ -566,7 +566,7 @@ JCJ Capital,queued,
 Jelix Ventures,queued,
 Jeneration Capital,queued,
 Jet Blue Ventures,added 2026-10-16,SKY VC (skyvc_companies.json) — formerly JetBlue Ventures
-Jetstream,queued,
+Jetstream,added 2026-10-18,Jetstream -> data/jetstream_companies.json
 JFF Ventures,queued,
 JLL Spark,added 2026-10-16,JLL Spark (jllspark_companies.json)
 Joyance Partners,tracked,Joyance Partners
@@ -607,7 +607,7 @@ Lateral Frontiers VC,no usable portfolio,site returns HTTP 502 (retried 2026-10-
 Latitud,no usable portfolio,logo-only portfolio (no company names)
 Launch Fund,accelerator,in accelerators/queue.json as LAUNCH Accelerator
 Launchpad Capital,no usable portfolio,portfolio page has no company entries in HTML (JS-rendered)
-Lavrock Ventures,queued,
+Lavrock Ventures,queued,TLS reset / connection error from scraper box — retry
 LDV Capital,added 2026-10-17,LDV Capital -> data/ldv_companies.json
 Lead Edge Capital,added 2026-10-16,Lead Edge Capital (leadedge_companies.json)
 Leadout Capital,added 2026-10-16,Leadout Capital -> data/leadout_companies.json
@@ -646,7 +646,7 @@ Lytical Ventures,added 2026-10-17,Lytical Ventures -> data/lytical_companies.jso
 M13,tracked,M13
 M25,added 2026-10-16,M25 (m25_companies.json)
 MAC,tracked,MaC Venture Capital
-Machina Ventures,queued,
+Machina Ventures,no usable portfolio,logo-only portfolio (no company names)
 Magic Fund,no usable portfolio,portfolio page empty
 Magma,tracked,Magma Partners
 Magnetar Capital,queued,
@@ -665,7 +665,7 @@ Mars Petcare,not a firm,"corporate, not a VC firm"
 Masia VC,no usable portfolio,angel fund; portfolio names unannounced
 Massive,not a firm,ambiguous — cannot identify a single firm
 MassMutual,no usable portfolio,no venture portfolio list found
-Matbook,queued,
+Matbook,queued,TLS reset / connection error from scraper box — retry
 Matchstick Ventures,added 2026-10-16,Matchstick Ventures (matchstick_companies.json)
 Material Impact,tracked,Material Impact
 Matterscale Ventures,added 2026-10-16,Matterscale Ventures -> data/matterscale_companies.json
@@ -680,11 +680,11 @@ Melitas Ventures,no usable portfolio,logo-only portfolio (no company names on th
 Menlo,tracked,Menlo Ventures
 Mercato Partners,added 2026-10-16,Mercato Partners (mercato_companies.json)
 Meridian Capital,no usable portfolio,"no site found for this firm (meridianvc.com is Meridian Ventures, a different firm)"
-Meridian Street Capital,queued,
+Meridian Street Capital,queued,TLS reset / connection error from scraper box — retry
 Meta4 Capital,queued,
 MetaProp Ventures,no usable portfolio,logo-only
 Millennium Technology Value Partners,added 2026-10-17,Millennium Technology Value Partners -> data/mtvp_companies.json
-Mischief,queued,
+Mischief,queued,TLS reset / connection error from scraper box — retry
 Mission Capital Investors,queued,
 Mission One Capital,added 2026-10-17,Mission One Capital -> data/m1c_companies.json
 MIST Ventures,queued,
@@ -697,14 +697,14 @@ Monashees,tracked,Monashees
 Monk's Hill Ventures,tracked,Monk's Hill Ventures
 Monte Carlo Capital,queued,
 Montis Financial,queued,
-Moonfire Ventures,no usable portfolio,JS-only
+Moonfire Ventures,added 2026-10-18,Moonfire Ventures -> data/moonfire_companies.json
 Moonshots,added 2026-10-16,Moonshots Capital -> data/moonshots_companies.json
 Morado Venture Partners,no usable portfolio,JS-only
 Morgan Creek,queued,TLS reset from scraper box — retry
 Morgan Stanley,not a firm,"bank, not a VC firm"
 Morningside Venture,added 2026-10-17,Morningside Ventures -> data/morningside_companies.json
 Morpheus Ventures,no usable portfolio,"site serves an intermittent bot-check interstitial (""One moment, please…""); not bypassed"
-Mother Ventures,queued,
+Mother Ventures,queued,TLS reset / connection error from scraper box — retry
 Motivate Ventures,added 2026-10-17,Motivate Ventures -> data/motivate_companies.json
 Moxxie Ventures,tracked,Moxxie Ventures
 Mozilla Ventures,added 2026-10-16,Mozilla Ventures (mozilla_companies.json)
@@ -727,7 +727,7 @@ Nebular,no usable portfolio,no portfolio list on site
 Necessary Ventures,added 2026-10-16,Necessary Ventures (necessary_companies.json)
 Neo Ventures,queued,
 Neon,queued,
-Neu Venture Capital,queued,
+Neu Venture Capital,queued,TLS reset / connection error from scraper box — retry
 New Majority Ventures,queued,
 New Stack Ventures,no usable portfolio,portfolio is logo images only
 Newtopia VC,added 2026-10-17,Newtopia VC -> data/newtopia_companies.json
@@ -746,7 +746,7 @@ Night,not a firm,ambiguous — cannot identify a single firm
 Nina Capital,no usable portfolio,logo-only Wix grid
 Noetic Fund,added 2026-10-17,Noetic Fund -> data/noetic_companies.json
 Nomad Ventures,queued,
-NOMO Ventures,queued,
+NOMO Ventures,queued,guessed domain is parked/for sale — find real site
 Norrsken,tracked,Norrsken VC
 Northstar,not a firm,ambiguous — cannot identify a single firm
 Northwest,not a firm,ambiguous — cannot identify a single firm
@@ -766,9 +766,9 @@ OCA Ventures,tracked,OCA Ventures
 Oceans,queued,
 Octopus Ventures,tracked,Octopus Ventures
 OCV Partners,added 2026-10-17,OCV Partners -> data/ocvpartners_companies.json
-Offline Ventures,no usable portfolio,JS-only
+Offline Ventures,added 2026-10-18,Offline Ventures -> data/offlineventures_companies.json
 OKTA Ventures,no usable portfolio,no portfolio list on site
-Oman Technology Fund,queued,
+Oman Technology Fund,queued,TLS reset / connection error from scraper box — retry
 OMERS Ventures,tracked,OMERS Ventures
 OnePrime Capital,queued,
 OpenSky Ventures,added 2026-10-17,OpenSky Ventures -> data/opensky_companies.json
@@ -781,23 +781,23 @@ Outerlands Capital,queued,
 Outlierz Ventures,no usable portfolio,company names only derivable from domains (not used)
 Outrun VC,added 2026-10-17,Outrun Ventures -> data/outrun_companies.json
 Outward VC,added 2026-10-17,Outward VC -> data/outwardvc_companies.json
-Overlook VC,no usable portfolio,JS-only
+Overlook VC,added 2026-10-18,Overlook Ventures -> data/overlook_companies.json
 Overmatch,no usable portfolio,bot block; not bypassed
-Overton,queued,
+Overton,queued,portfolio has descriptions + websites but logo-only names — spare (name heuristic needed)
 OVO Fund,no usable portfolio,JS-only
 P1 Ventures,no usable portfolio,logo-only gallery (no names)
 Pace capital,no usable portfolio,empty shell page (JS-only)
 Pack Ventures,no usable portfolio,empty shell page (JS-only)
 Pale Blue Dot,queued,TLS reset from scraper box — retry
 Palette Ventures,no usable portfolio,no portfolio list
-Palisades Growth Capital,queued,
+Palisades Growth Capital,no usable portfolio,growth-equity investor taking majority/minority stakes in bootstrapped software cos (not VC); no portfolio list parsed
 Panache Ventures,tracked,Panache Ventures
 Pantera,no usable portfolio,on skip list
 Parade Ventures,no usable portfolio,logo-only portfolio (no company names on the site); Squarespace gallery with empty alt text
 Parameter Ventures,added 2026-10-16,Parameter Ventures -> data/parameter_companies.json
 Pareto Holdings,no usable portfolio,Framer site lists no portfolio
 Patamar Capital,no usable portfolio,"site serves an intermittent bot-check interstitial (""One moment, please..."") - not bypassed"
-Path Ahead Ventures,queued,
+Path Ahead Ventures,queued,TLS reset / connection error from scraper box — retry
 Path Ventures,added 2026-10-16,Path Ventures (pathventures_companies.json)
 Pathbreaker Ventures,added 2026-10-17,Pathbreaker Ventures -> data/pathbreaker_companies.json
 Pathlight Ventures,added 2026-10-16,Pathlight Ventures -> data/pathlight_companies.json
@@ -819,20 +819,20 @@ Potentia Capital,queued,
 POV Ventures,queued,
 powerHouse Ventures,no usable portfolio,portfolio rows carry no company names
 Practical Ventures,queued,
-Precursor,no usable portfolio,JS-only
+Precursor,added 2026-10-18,Precursor Ventures -> data/precursor_companies.json
 Primary,tracked,Primary Venture Partners
 Prime Time Partners,added 2026-10-17,Primetime Partners -> data/primetime_companies.json
 Primo Capital,added 2026-10-17,Primo Capital -> data/primocapital_companies.json
 Primo Ventures,tracked,Primo Capital
 Pritzker,queued,TLS reset from scraper box — retry
-Proeza Ventures,queued,
+Proeza Ventures,queued,TLS reset / connection error from scraper box — retry
 Project A,tracked,Project A
-Promus Ventures,no usable portfolio,JS-only
+Promus Ventures,added 2026-10-18,Promus Ventures -> data/promus_companies.json
 Propeller,added 2026-10-17,Propeller -> data/propellervc_companies.json
 Prosus Ventures,tracked,Prosus Ventures
 Prototype Capital,added 2026-10-16,Prototype Capital -> data/prototype_companies.json
 Prudence ventures,no usable portfolio,"portfolio cards show descriptions and websites only, no company names"
-PruVen Capital,queued,
+PruVen Capital,queued,TLS reset / connection error from scraper box — retry
 Prysm Capital,no usable portfolio,growth-equity firm (VC-only rule)
 Pure Imagination Brands,no usable portfolio,"brand incubator, not a VC firm"
 QBIT Capital,queued,
@@ -840,7 +840,7 @@ QED,tracked,QED Investors
 Quiet Capital,no usable portfolio,logo-only
 Quona Capital,tracked,Quona Capital
 R-Squared,no usable portfolio,logo-only portfolio (no company names on the site); Squarespace gallery with empty alt text
-Race VC,queued,
+Race VC,queued,TLS reset / connection error from scraper box — retry
 Radical Impact,queued,
 Rally Cap,queued,
 Rampersand,added 2026-10-17,Rampersand -> data/rampersand_companies.json
@@ -868,7 +868,7 @@ Reseda Group,queued,
 Reshape,added 2026-10-17,Reshape Ventures -> data/reshape_companies.json
 Resilience VC,added 2026-10-16,Resilience Reserve -> data/resilience_companies.json
 Resolute,tracked,Resolute Ventures
-Resonant Venture Partners,queued,
+Resonant Venture Partners,queued,TLS reset / connection error from scraper box — retry
 Rev 1 Ventures,added 2026-10-17,Rev1 Ventures -> data/rev1_companies.json
 Revel Partners,added 2026-10-16,Revel Partners (revel_companies.json)
 Revere,queued,
@@ -916,7 +916,7 @@ Scout,added 2026-10-17,Scout Ventures -> data/scout_companies.json
 Script Capital,added 2026-10-16,Script Capital -> data/script_companies.json
 Scrub Capital,added 2026-10-17,Scrub Capital -> data/scrub_companies.json
 SDAC Ventures,no usable portfolio,"angel collective, not a VC firm"
-Seafire Capital,queued,
+Seafire Capital,queued,TLS reset / connection error from scraper box — retry
 Seaside Ventures,added 2026-10-16,Seaside Ventures -> data/seaside_companies.json
 Seaya Ventures,tracked,Seaya
 Secocha Ventures,added 2026-10-17,Secocha Ventures -> data/secocha_companies.json
@@ -958,23 +958,23 @@ Snocap VC,added 2026-10-16,SNÖCAP -> data/snocap_companies.json
 Social Impact Capital,no usable portfolio,"portfolio lists advisory projects, not VC investments"
 Social Leverage,no usable portfolio,logo marquee only
 Social Starts,added 2026-10-17,Social Starts -> data/socialstarts_companies.json
-SOFTBANK Capital NY,queued,
+SOFTBANK Capital NY,queued,TLS reset / connection error from scraper box — retry
 SoGal Ventures,added 2026-10-16,SoGal Ventures -> data/sogal_companies.json
 SoHo Ventures,queued,
 Soma Capital,no usable portfolio,JS-only
-Sound,queued,
+Sound,queued,guessed domain is parked/for sale — find real site
 South Central Ventures,added 2026-10-17,South Central Ventures -> data/southcentral_companies.json
 Southbox Capital,queued,
 Sovereign's Capital,no usable portfolio,no portfolio list on site
 Spark Capital,tracked,Spark Capital
 SparkLabs Group,accelerator,in accelerators/queue.json as SparkLabs
 Spatial Capital,no usable portfolio,no portfolio list on site
-SPDG Ventures,queued,
+SPDG Ventures,queued,TLS reset / connection error from scraper box — retry
 Speedinvest,tracked,Speedinvest
 Spero Ventures,tracked,Spero Ventures
 Spin Ventures,queued,
 Springbank Collective,no usable portfolio,no portfolio list on site
-Springtide Ventures,queued,
+Springtide Ventures,queued,guessed domain is parked/for sale — find real site
 Springtime,queued,
 Stage 2 Capital,tracked,Stage 2 Capital
 Stage Venture Partners,added 2026-10-17,Stage Venture Partners -> data/stagevp_companies.json
@@ -982,7 +982,7 @@ Starbase Holdings,queued,
 Starting Line,no usable portfolio,captions without names
 Startmate,accelerator,in accelerators/queue.json as Startmate
 Startup Istanbul,queued,
-Steadfast Capital,queued,
+Steadfast Capital,queued,TLS reset / connection error from scraper box — retry
 SteelSky Ventures,no usable portfolio,SiteGround captcha (HTTP 202) bot challenge; not bypassed
 Stella Capital,no usable portfolio,"growth / private equity, not VC"
 Stellation Capital,queued,
@@ -1007,7 +1007,7 @@ Swadharma Source Ventures - SSV,queued,
 Swell VC,added 2026-10-16,Swell VC (swell_companies.json)
 Swizzle Ventures,added 2026-10-17,Swizzle Ventures -> data/swizzle_companies.json
 Symphonic Capital,added 2026-10-17,Symphonic Capital -> data/symphonic_companies.json
-Tallwood Venture Capital,queued,
+Tallwood Venture Capital,queued,TLS reset / connection error from scraper box — retry
 Tamaa Capital,queued,
 Tantauco Ventures,added 2026-10-17,Tantauco Ventures -> data/tantauco_companies.json
 Taram Capital,added 2026-10-17,Taram Capital -> data/taramcapital_companies.json
@@ -1028,7 +1028,7 @@ TenOneTen Ventures,tracked,TenOneTen
 Tera Ventures,added 2026-10-17,Tera Ventures -> data/tera_companies.json
 Terra Nova,queued,
 Tet Ventures,no usable portfolio,"logo alt text is image filenames only, no company names"
-TFX Capital,queued,
+TFX Capital,added 2026-10-18,TFX Capital -> data/tfxcapital_companies.json
 The Artemis Fund,added 2026-10-17,The Artemis Fund -> data/artemis_companies.json
 The Council,no usable portfolio,"no site found for this firm (councilcapital.com is Council Capital, a different firm)"
 The General Partnership,queued,
@@ -1069,7 +1069,7 @@ Trinity Ventures,tracked,Trinity Ventures
 Trousdale Ventures,added 2026-10-16,Trousdale Ventures -> data/trousdale_companies.json
 Trucks,added 2026-10-16,Trucks VC -> data/trucks_companies.json
 True Global Ventures,added 2026-10-17,True Global Ventures -> data/trueglobal_companies.json
-True North Capital,queued,
+True North Capital,queued,TLS reset / connection error from scraper box — retry
 True Ventures,tracked,True Ventures
 True Wealth Ventures,added 2026-10-16,True Wealth Ventures -> data/truewealth_companies.json
 TrueStage VC,tracked,TruStage Ventures (formerly CMFG Ventures) -> data/trustageventures_companies.json
@@ -1097,7 +1097,7 @@ Untapped Capital,added 2026-10-16,Untapped Capital (untapped_companies.json)
 Untitled Ventures,queued,
 Unusual Ventures,tracked,Unusual Ventures
 Upekkha,no usable portfolio,"SaaS accelerator program, not a VC firm"
-Upfront Ventures,no usable portfolio,JS-only
+Upfront Ventures,added 2026-10-18,Upfront Ventures -> data/upfront_companies.json
 Upload Ventures,queued,
 Upshot Ventures/ CSC Upshot,added 2026-10-17,CSC Upshot Ventures -> data/upshot_companies.json
 Urban Innovation Fund,added 2026-10-16,Urban Innovation Fund -> data/urbaninnovation_companies.json
@@ -1108,7 +1108,7 @@ Valor Capital Group,tracked,Valor Equity Partners
 Valor Ventures,added 2026-10-17,Valor Ventures -> data/valorventures_companies.json (not Valor Equity Partners / Valor Capital Group)
 Valuestream Labs,added 2026-10-17,Valuestream Labs -> data/valuestreamlabs_companies.json
 Vamos Ventures,no usable portfolio,SiteGround captcha (HTTP 202) bot challenge; not bypassed
-VantagePoint Venture Partners,queued,
+VantagePoint Venture Partners,queued,TLS reset / connection error from scraper box — retry
 Vanterra Capital,no usable portfolio,"PE seeding, not VC"
 Vast Ventures,no usable portfolio,portfolio rows carry no company names
 Venrock,tracked,Venrock
@@ -1140,7 +1140,7 @@ Vulpes Ventures,no usable portfolio,portfolio page has no company entries in HTM
 Vynn Capital,no usable portfolio,SiteGround captcha (HTTP 202) bot challenge; not bypassed
 Waarde Capital,added 2026-10-17,Waarde Capital -> data/waardecapital_companies.json
 Walden Venture Capital,no usable portfolio,no portfolio list on site
-Waldo Ventures,queued,
+Waldo Ventures,queued,TLS reset / connection error from scraper box — retry
 Watershed Ventures,queued,
 Wavemaker,tracked,Wavemaker Ventures
 Wavemaker 360,added 2026-10-17,Wavemaker 360 -> data/wavemaker360_companies.json (not Wavemaker Partners)
@@ -1152,8 +1152,8 @@ Westchester Angels,no usable portfolio,"angel group, not a VC firm"
 Westly Group,tracked,Westly Group
 Westway Capital,no usable portfolio,portfolio captions only (no company names)
 Whitestar,tracked,White Star Capital
-WiggleRoom,queued,
-Wildbasin,queued,
+WiggleRoom,queued,TLS reset / connection error from scraper box — retry
+Wildbasin,queued,TLS reset / connection error from scraper box — retry
 Wildcard Ventures,queued,
 Wildcat Venture Partners,no usable portfolio,JS-only
 Willow Growth Partners,queued,
@@ -1176,7 +1176,7 @@ Yolo Investments,added 2026-10-17,Yolo Investments -> data/yoloinvestments_compa
 Z Venture Capital,added 2026-10-16,Z Venture Capital (zvc_companies.json)
 Zeal Capital Partners,added 2026-10-17,Zeal Capital Partners -> data/zeal_companies.json
 Zelkova,queued,
-Zenda,queued,
+Zenda,added 2026-10-18,Zenda -> data/zenda_companies.json
 Zero Capital,queued,
 Zero Emissions Fund,queued,
 Zetta Ventures,added 2026-10-16,Zetta Ventures (zetta_companies.json)
