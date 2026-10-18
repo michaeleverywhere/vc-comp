@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1708,
-  "total_companies": 124404,
+  "total_firms": 1758,
+  "total_companies": 125781,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1081,
-      "companies": 83574,
-      "bytes": 39846307,
+      "firms": 1103,
+      "companies": 84052,
+      "bytes": 39997195,
       "first_firm": "0BS",
-      "last_firm": "Northzone"
+      "last_firm": "Nido Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 627,
-      "companies": 40830,
-      "bytes": 19634050,
-      "first_firm": "Norwest",
+      "firms": 655,
+      "companies": 41729,
+      "bytes": 19951741,
+      "first_firm": "NightDragon",
       "last_firm": "Z Venture Capital"
     }
   ]
