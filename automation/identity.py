@@ -383,6 +383,7 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "aaf":     ('AAF',),
     "unovis":     ('Unovis',),
     "texashalofund":     ('HALO Fund',),
+    "infinityventures":     ('Infinity VC',),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
