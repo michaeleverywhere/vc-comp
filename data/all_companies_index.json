@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1608,
-  "total_companies": 120782,
+  "total_firms": 1658,
+  "total_companies": 123496,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1039,
-      "companies": 83183,
-      "bytes": 39976333,
-      "first_firm": "11.2 Capital",
-      "last_firm": "Ocean Azul Partners"
+      "firms": 1056,
+      "companies": 83742,
+      "bytes": 39994711,
+      "first_firm": "0BS",
+      "last_firm": "Notable Capital"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 569,
-      "companies": 37599,
-      "bytes": 18296754,
-      "first_firm": "Octopus Ventures",
+      "firms": 602,
+      "companies": 39754,
+      "bytes": 19180595,
+      "first_firm": "Notation",
       "last_firm": "Z Venture Capital"
     }
   ]
