@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1952,
-  "total_companies": 131773,
+  "total_firms": 1960,
+  "total_companies": 131962,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1191,
-      "companies": 85305,
-      "bytes": 39965355,
+      "firms": 1196,
+      "companies": 85379,
+      "bytes": 39995550,
       "first_firm": "0BS",
-      "last_firm": "Nazca"
+      "last_firm": "Nazare Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 761,
-      "companies": 46468,
-      "bytes": 21981578,
-      "first_firm": "NEA",
+      "firms": 764,
+      "companies": 46583,
+      "bytes": 22016604,
+      "first_firm": "Nazca",
       "last_firm": "Z Venture Capital"
     }
   ]
