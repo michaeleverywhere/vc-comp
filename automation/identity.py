@@ -398,6 +398,8 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "correlationventures":     ('Correlation', 'correlationvc.com'),
     "unshackledventures":     ('Unshackled', 'unshackledvc.com'),
     "foundationcapital":     ('foundationcap.com', 'foundationcapital.com'),
+    "s28capital":     ('S28', 's28capital.com'),
+    "deepworkcapital":     ('DeepWork', 'deepworkcapital.com'),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
