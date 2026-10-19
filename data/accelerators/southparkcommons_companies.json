@@ -6355,7 +6355,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/vmax/",
+    "https://vmax.ai/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Vmax (vmax.ai, matches input and its SPC page), San Francisco; reinforcement-learning environments and self-play task generation ('Campaign') for long-horizon agent tasks. Founders Matthew Sargent and Augustine Mavor-Parker; founded 2025. Apart from the SPC Founder Fellowship check (accelerator-style, not a priced round), no press release or reputable news of a round found. Search-index copies of a Radical Ventures post (Jan 2025; the radical.vc page now returns 404, so unverified live) name Vmax in the inaugural Radical AI Founders compute cohort, i.e. in-kind Google Cloud infrastructure reported as worth over $250K; these are cloud credits, not cash or equity, so not counted as a grant or round. Trackers only (Caplight/Crunchbase, not used as sources) list an undisclosed 'seed' with SPC as sole investor (Caplight dates it Jun 12, 2025, with $250K total that appears to be the compute credits). SPC's 'Seed' label is not evidence of a priced round.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Maxinsights",
@@ -6381,7 +6390,18 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/maxinsights/",
+    "https://www.maxinsights.ai/",
+    "https://www.sec.gov/Archives/edgar/data/2100231/0002100231-25-000001.txt",
+    "https://robottoday.com/suppliers-discovery/maxinsights"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Maxinsights (maxinsights.ai, matches input; legal name reported as Maxinsights Corporation), San Francisco; human egocentric video, motion-capture and tactile training/evaluation data for physical AI and robotics. Founders Yuguang (YG) Yuan (CEO) and Kun Wang (CTO); founded 2024. Outside money is evidenced by an SEC Form D for 'AVSF - Maxinsights 2025, LLC', an Alumni Ventures single-company SPV (filed Dec 18, 2025, first sale Dec 4, 2025, $110,000 sold), but no press release or reputable news states the company's round type or amount. Trackers/directories only (PitchBook snippet, RobotToday, 1lux; not used as primary sources) report seed rounds dated Mar 21, 2025 and Nov 25, 2025 with investors including Tola Capital, Alumni Ventures, Top Harvest Capital, HSG, Plug and Play and SPC; amounts undisclosed and unverified.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Apero Health",
@@ -6405,7 +6425,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/apero-health/",
+    "https://www.aperohealth.com/",
+    "https://www.ycombinator.com/companies/apero-health"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Apero Health (aperohealth.com, linked from its SPC page), San Francisco; practice-management/medical billing (RCM) API and software for medical practices. Founders Nick Shelly and Jacinda Shelly; founded 2019; Y Combinator Summer 2019 (SPC lists YC as another investor). Its YC profile says it raised from investors including Paul Buchheit and the founders of Doctor on Demand, Gusto and Reddit, but no press release or reputable news gives a round type, amount or lead. Trackers only (CB Insights/Seedtable/Crunchbase, not used) report about $800K raised: an Aug 2019 'seed' (YC, Soma Capital, MAGIC Fund, Initialized, UpHonest and angels) and a $400K convertible note from the SPC Founder Fellowship in Jul 2022 (accelerator check), plus a 2020 PPP loan (debt). No priced round confirmed, so amount left blank.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Fairground",
@@ -6427,7 +6457,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/orbital/",
+    "https://www.withorbital.com/",
+    "https://jobs.uncorkcapital.com/companies/orbital"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "SPC lists this company under the slug 'orbital' and describes it as Fairground; its SPC page links withorbital.com, which currently operates as Orbital (SMB owner contact data, AI prospecting and enrichment for sales teams 'underserved by ZoomInfo'). San Francisco; founders Ani Kunaparaju and Riley Soward (co-CEOs); founded 2021. SPC's page lists Uncork Capital as a co-investor (Orbital also appears on Uncork's portfolio job board), so outside VC money was raised, but no press release or reputable news gives round type, amount or date. Trackers only (Caplight/PitchBook, not used) report about $4.5M total in seed funding from Uncork and SPC; unverified, so amount left blank.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Bauplan",
@@ -6435,7 +6475,7 @@
    "website": "https://bauplanlabs.com/",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$7,500,000",
    "date": "SPC (founded 2022)",
    "verticals": "Infrastructure; San Francisco",
    "investors": "South Park Commons",
@@ -6452,7 +6492,38 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 7500000,
+     "currency": "USD",
+     "date": "2025-04-16",
+     "investors": [
+      "Innovation Endeavors (lead)",
+      "South Park Commons",
+      "Wes McKinney",
+      "Aditya Agarwal",
+      "Chris Ré",
+      "Ihab Ilyas",
+      "Jeffrey J. Rothschild",
+      "Spencer Kimball",
+      "Firsthand VC"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20250416046561/en/Bauplan-Launches-With-%247.5-Million-in-Seed-to-Bring-AI-Data-Infrastructure-Into-Software-Engineering"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.bauplanlabs.com/post/ai-needs-better-data-infrastructure",
+    "https://www.innovationendeavors.com/insights/meet-bauplan-making-all-software-engineers-data-engineers",
+    "https://siliconangle.com/2025/04/16/bauplan-raises-7-5m-automate-data-infrastructure-code-ai-software-developers/",
+    "https://www.southparkcommons.com/companies/bauplan/",
+    "https://www.businesswire.com/news/home/20250416046561/en/Bauplan-Launches-With-%247.5-Million-in-Seed-to-Bring-AI-Data-Infrastructure-Into-Software-Engineering"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Bauplan (bauplanlabs.com, matches input), San Francisco; Python-first serverless lakehouse/data infrastructure with Git-style branching for AI agents. Founders Ciro Greco, Jacopo Tagliabue and Mattia Pavoni (previously Tooso, acquired by Coveo). BusinessWire release (Apr 16, 2025) announced a $7.5M seed led by Innovation Endeavors; the company blog says it was led by Innovation Endeavors and South Park Commons, with angels Wes McKinney, Aditya Agarwal, Chris Ré, Ihab Ilyas, Jeffrey J. Rothschild, Spencer Kimball and Firsthand VC. Innovation Endeavors' own post calls it a $7.3M seed (minor discrepancy; $7.5M used). No later round found; total equity raised $7.5M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Particle",
@@ -6475,7 +6546,41 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024-01-11",
+     "investors": [
+      "Polychain Capital (lead)",
+      "Nascent",
+      "Inflection",
+      "Neon DAO",
+      "Naveen Jain",
+      "Arthur Hayes",
+      "DCF God",
+      "Sam Williams",
+      "Kalos",
+      "Richard Ma",
+      "Palmer",
+      "vxCozy"
+     ],
+     "source_url": "https://medium.com/@ParticleLabs/initializing-particle-bd7ebc1f5bcc"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/particle/",
+    "https://www.particle.trade/",
+    "https://defillama.com/protocol/particle",
+    "https://www.coincarp.com/fundraising/particle-strategic/",
+    "https://medium.com/@ParticleLabs/initializing-particle-bd7ebc1f5bcc"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Particle (particle.trade, linked from its SPC page; Particle Labs), San Francisco; permissionless leverage-trading protocol (Leverage AMM, no price oracle). SPC lists Polychain Capital and Inflection as co-investors. The company's official blog (Jan 11, 2024) announced a seed round led by Polychain Capital with Nascent, Inflection, Neon DAO, Naveen Jain, Arthur Hayes and others; amount undisclosed, so equity total left blank. Crypto trackers (CoinCarp/RootData, not primary sources) also list an undisclosed Jun 12, 2024 'strategic' round (Spirit DAO, XDeGods, dingaling and angels), not counted. Caveat: a Dealroom record attributing a $10.9M Series A (Lightspeed, Axel Springer) to 'Particle' refers to a different company (the Particle news app) and was excluded.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Nyne.AI",
@@ -6483,7 +6588,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,300,000",
    "date": "SPC (founded 2025)",
    "verticals": "Enterprise; San Francisco",
    "investors": "South Park Commons",
@@ -6496,7 +6601,31 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5300000,
+     "currency": "USD",
+     "date": "2026-03-13",
+     "investors": [
+      "Wischoff Ventures (co-lead)",
+      "South Park Commons (co-lead)",
+      "Gil Elbaz"
+     ],
+     "source_url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://nyne.ai/",
+    "https://www.southparkcommons.com/companies/nyneai/",
+    "https://blog.southparkcommons.com/p/march-2026-update",
+    "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Nyne (nyne.ai, linked from its SPC page), San Francisco; people-data/identity-resolution layer that gives AI agents context about individuals across public digital footprints. Founders Michael Fanous (CEO) and his father Emad Fanous (CTO); founded 2025. TechCrunch (Mar 13, 2026) reported a $5.3M seed led by Wischoff Ventures and South Park Commons with angels including Gil Elbaz. Other names (Karman Ventures, Soleio) appear only in summaries and were not verified. Total equity raised $5.3M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "InstaBooks",
@@ -6519,7 +6648,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "New York",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/instabooks/",
+    "https://instabooks.io/about",
+    "https://quiet.com/essays/portfolio/lightweight-labs-2/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "InstaBooks (instabooks.io, built by Lightweight Labs LLC, 17 E 13th St, New York), accounting software for US small businesses that works with QuickBooks Online. Founders Aaron Iba and David Yang (both listed on SPC's page and instabooks.io). Caveat: SPC's page links instabooks.co, which appears to be a separate 'Instabooks US' accounting site; instabooks.io is the domain that matches the founders. SPC lists Quiet Capital as a co-investor and Quiet Capital's portfolio includes Lightweight Labs (Jun 2025), so outside VC money was raised, but no press release or reputable news gives round type, amount or date. Trackers (Dealroom/Tracxn) show no known external funding.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Vamana AI",
@@ -6543,7 +6682,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/vamana-ai/",
+    "https://www.vamana.ai/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Vamana AI (vamana.ai, linked from its SPC page; site is a holding page), San Francisco; AI-native video infrastructure for processing, analyzing and serving video. Founders Shishira Maiya and Abhinav Shrivastava; founded 2024. Apart from the SPC Founder Fellowship check (accelerator-style), no press release, SEC filing or reputable news of a round found. Aggregators only (PrivateMarketView/PremierAlts, not used) list an undisclosed May 2025 'seed' with SPC, Alumni Ventures, Transpose Platform Management and Anorak Ventures; unverified.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Noto",
@@ -6551,7 +6699,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$3,800,000",
    "date": "SPC (founded 2024)",
    "verticals": "Enterprise; New York",
    "investors": "South Park Commons",
@@ -6564,7 +6712,29 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "New York",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3800000,
+     "currency": "USD",
+     "date": "2025-04-11",
+     "investors": [
+      "Base10 Partners (lead)"
+     ],
+     "source_url": "https://www.businessinsider.com/noto-funding-pitch-deck-ai-tutoring-software-2025-4"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://withnoto.com/",
+    "https://www.southparkcommons.com/companies/noto/",
+    "https://www.finsmes.com/2025/04/noto-raises-3-8m-in-seed-funding.html",
+    "https://www.businessinsider.com/noto-funding-pitch-deck-ai-tutoring-software-2025-4"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Noto (withnoto.com, linked from its SPC page; Noto Technologies), New York; AI-powered management software for lesson-based businesses (tutoring centers, music and driving schools). Founders AJ Ding (CEO) and Steve Wang. Business Insider (Apr 11, 2025) reported a $3.8M seed led by Base10 Partners; SPC is also an investor (SPC page lists Base10 as co-investor). No later round found; total equity raised $3.8M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Breezy",
@@ -6586,7 +6756,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/breezy/",
+    "https://www.getbreezy.app/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Breezy (getbreezy.app, linked from its SPC page), San Francisco; AI front office (calls, texts, lead capture, booking) for home-services businesses such as HVAC and plumbing. Founders Kevin Shi (CEO) and Saul Fuhrmann; founded 2023. SPC lists Kearny Jackson as a co-investor, so outside VC money was raised, but no press release or reputable news gives round type, amount or date (a Caplight tracker figure of about $1.4M could not be verified). Caveats: getbreezy.app returned a Vercel 'deployment disabled' page on 2026-10-19, so the company may be inactive; the Breezy that raised a $10M pre-seed in Feb 2026 (Axios/PR Newswire, residential real-estate AI) is a different company and was excluded.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Notch",
@@ -6594,7 +6773,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$8,000,000",
    "date": "SPC (founded 2022)",
    "verticals": "Enterprise; San Francisco",
    "investors": "South Park Commons",
@@ -6607,7 +6786,47 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4500000,
+     "currency": "USD",
+     "date": "2023-02-08",
+     "investors": [
+      "Wing Venture Capital (co-lead)",
+      "Patron (co-lead)",
+      "Samsung",
+      "DoubleJump",
+      "Forte",
+      "Moonfire",
+      "Twin Ventures",
+      "Balaji Srinivasan",
+      "Robin Chan",
+      "Ryan Spoon"
+     ],
+     "source_url": "https://techcrunch.com/2023/02/08/sesame-labs-raises-4-5m-to-help-improve-web3-marketing-tools/"
+    },
+    {
+     "stage": "Pre-Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024",
+     "investors": [],
+     "source_url": "https://www.usenotch.ai/about-us"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.einpresswire.com/article/860397074/notch-cuts-ad-creation-time-by-90-with-new-url-to-animated-ads-feature",
+    "https://www.southparkcommons.com/companies/notch-2059f/",
+    "https://www.usenotch.ai/",
+    "https://techcrunch.com/2023/02/08/sesame-labs-raises-4-5m-to-help-improve-web3-marketing-tools/",
+    "https://www.usenotch.ai/about-us"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Notch (usenotch.ai, linked from its SPC page; formerly MadMen AI and before that Sesame Labs), Burlingame/San Francisco Bay Area; AI agents that create, test and optimize ads. Founders Vinay Jain (CEO) and Aman Jain (ex-Meta/WhatsApp/Twitter); SPC lists Patron as co-investor. TechCrunch (Feb 8, 2023) reported a $4.5M seed for Sesame Labs (same founders) co-led by Wing VC and Patron. A founder year-end post reproduced on the company site says it 'raised a Pre-Series A round' in 2024 (amount, investors undisclosed), and the company's Oct 23, 2025 press release (EIN Presswire) and site say it has raised $8M in total; that $8M company-stated total is used for amount_raised. Tracker pages mixing this Notch with an older, unrelated Notch (Accomplice-led Series A) were ignored.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Preseen",
@@ -6615,7 +6834,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,600,000",
    "date": "SPC (founded 2026)",
    "verticals": "Frontier AI; San Francisco",
    "investors": "South Park Commons",
@@ -6630,7 +6849,30 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5600000,
+     "currency": "USD",
+     "date": "2026-07",
+     "investors": [
+      "South Park Commons (lead)"
+     ],
+     "source_url": "https://blog.southparkcommons.com/p/july-2026-update"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/news/preseen-why-we-invested/",
+    "https://www.southparkcommons.com/companies/preseen/",
+    "https://preseen.com/",
+    "https://www.ycombinator.com/companies/preseen",
+    "https://blog.southparkcommons.com/p/july-2026-update"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Preseen (preseen.com, linked from its SPC page), San Francisco; AI forecasting agents for global macro events and financial markets. Founders Veniamin Veselovsky and Theo Summer; Y Combinator Summer 2025 (YC accelerator check not counted). SPC's July 2026 update (Jul 31, 2026) says Preseen raised a $5.6M seed round led by SPC, and SPC's 'why we invested' post by Aditya Agarwal (Jul 30, 2026) describes leading the seed; this is a stated seed round, distinct from SPC's Founder Fellowship check. No other investors named in public sources. Total equity raised $5.6M (excluding YC's standard investment, amount not published).",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Mesa",
@@ -6654,7 +6896,28 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2025-11-03",
+     "investors": [
+      "Innovation Endeavors (lead)"
+     ],
+     "source_url": "https://www.innovationendeavors.com/insights/mesa-code-verification"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.mesa.dev/about",
+    "https://www.southparkcommons.com/companies/mesa/",
+    "https://www.innovationendeavors.com/insights/mesa-code-verification"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Mesa (mesa.dev, matches input), San Francisco; versioned, Git-compatible filesystem and AI code review for coding agents. Founders Oliver Gilan (CEO, ex-Antimetal co-founder) and Ben Warren (CTO). Innovation Endeavors announced (Nov 3, 2025) its lead investment in Mesa's seed round at launch; mesa.dev lists Innovation Endeavors, Essence VC, South Park Commons, Thomas Wolf and Soleio as investors. A $5M seed amount appears only in SPC's LinkedIn post (not usable as a source), so the amount is left blank.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Lica",
@@ -6662,7 +6925,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,000,000",
    "date": "SPC (founded 2023)",
    "verticals": "Enterprise; San Francisco",
    "investors": "South Park Commons",
@@ -6675,7 +6938,34 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4000000,
+     "currency": "USD",
+     "date": "2024-12-03",
+     "investors": [
+      "Accel (lead)",
+      "South Park Commons",
+      "Village Global",
+      "Amjad Masad",
+      "Balaji Srinivasan",
+      "Michele Catasta"
+     ],
+     "source_url": "https://techcrunch.com/2024/12/03/ex-microsoft-employees-get-4m-from-accel-to-build-an-ai-tool-for-product-presentations/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.lica.world/",
+    "https://www.accel.com/companies/lica-world",
+    "https://www.southparkcommons.com/companies/lica/",
+    "https://techcrunch.com/2024/12/03/ex-microsoft-employees-get-4m-from-accel-to-build-an-ai-tool-for-product-presentations/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Lica (lica.world, linked from its SPC page; also Lica World), San Francisco; AI design/video agent turning screen recordings and assets into brand-aware videos and presentations. Founders Priyaa Kalyanaraman and Purvanshi Mehta (ex-Microsoft); founded 2023. TechCrunch (Dec 3, 2024) reported a $4M seed led by Accel with South Park Commons, Village Global and angels Amjad Masad, Balaji Srinivasan and Michele Catasta. No later round found; total equity raised $4M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Tezi",
@@ -6683,7 +6973,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$9,000,000",
    "date": "SPC (founded 2023)",
    "verticals": "Enterprise; San Francisco",
    "investors": "South Park Commons",
@@ -6699,7 +6989,35 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 9000000,
+     "currency": "USD",
+     "date": "2024-07-31",
+     "investors": [
+      "8VC (co-lead)",
+      "Audacious Ventures (co-lead)",
+      "Liquid 2",
+      "Afore",
+      "Prime Set",
+      "South Park Commons"
+     ],
+     "source_url": "https://blog.tezi.ai/p/tezi-raises-9m-to-launch-max-the"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://8vc.com/resources/ready-ai-hire-announcing-our-investment-in-tezi",
+    "https://www.prnewswire.com/news-releases/headway-acquires-team-behind-tezi-to-advance-human-centered-ai-in-mental-health-care-302729806.html",
+    "https://www.finsmes.com/2024/08/tezi-raises-9m-in-seed-funding.html",
+    "https://www.southparkcommons.com/companies/tezi/",
+    "https://blog.tezi.ai/p/tezi-raises-9m-to-launch-max-the"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Tezi (tezi.ai, linked from its SPC page), San Francisco; autonomous AI recruiter 'Max'. Founders Raghavendra Prabhu (ex-Thumbtack CTO) and Jason James. Company blog and 8VC (Jul 31, 2024): $9M seed led by 8VC and Audacious Ventures with Liquid 2, Afore, Prime Set, South Park Commons and angels (founding CEOs of Instacart and Thumbtack). Headway announced the acquisition of the team behind Tezi (acqui-hire, terms undisclosed) on Mar 31, 2026 (PR Newswire); Prabhu became Headway's VP of Engineering, and Tezi's help center says the recruiting product was shut down (reported Apr 12, 2026). Total equity raised $9M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Cadel AI",
@@ -6723,7 +7041,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/cadel-ai/",
+    "https://cadel.ai/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Cadel AI (cadel.ai, linked from its SPC page), San Francisco; autonomous accounting software (AP automation, AR, reconciliation, revenue recognition). Founders Nikhil Ramesh, Anil Katti, Harsha Shastry and Arun Devarajan; founded 2025. The company site names only South Park Commons as a backer. A founder social post (LinkedIn, not usable as a source) mentions SPC, Tanglin Venture Partners and angels, and trackers (Crunchbase, not used) list an undisclosed seed; no press release or reputable news of a round found. SPC's 'Seed' label is not evidence of a priced round.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "VLM Run",
@@ -6748,7 +7075,18 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/vlm-run/",
+    "https://www.vlmrun.com/",
+    "https://theventurecodex.com/companies/vlm",
+    "https://f4.fund/startups/vlmrun"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "VLM Run (vlmrun.com, input website; also vlm.run), San Francisco/Palo Alto; infrastructure/API gateway for vision-language models (structured extraction from images, video, documents). Founders Sudeep Pillai (CEO) and Scott Loftin (CTO); founded 2023. No press release or reputable news of a round was found. Trackers only (The Venture Codex, not a citable source) list a seed of about $4.28M in March 2026 with no investors named; F4 lists it as seed-stage with one backer (York IE, mentioned only in a LinkedIn post, not used). Amount, date and round type unverified, so no priced seed is counted. SPC's 'Seed' label is not evidence of a priced round.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Rooted",
@@ -6769,7 +7107,18 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "New York",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/rooted/",
+    "https://rooted.ag/",
+    "https://www.farmtalknews.com/news/tech-start-up-aims-to-combine-data-solutions-with-land-access/article_3f65c5a0-e316-11ef-ab84-d36f324b6ff9.html",
+    "https://www.trysignalbase.com/news/funding/rooted-ag-raises-100k-funding"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Rooted / Rooted Agriculture (rooted.ag, linked from its SPC page; rootedag.com now shows a 'precision ranching' collars/drones product under the same name), New York and Kansas; farm and land-management data for regenerative agriculture. Co-founded Feb 2024 by Rhys Algar and Dakota Welch (Farm Talk, Feb 4 2025, which says Algar was raising venture capital). SPC lists Slow Ventures as another investor. Only a tracker (Signalbase, Mar 24 2026) reports a $100K raise of unknown type; no press release or reputable news of a priced round found. Amount left blank because it is tracker-only.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Epana Bio",
@@ -6793,7 +7142,20 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/epana-bio/",
+    "https://www.epana.bio/",
+    "https://breakout.vc/portfolio",
+    "https://hummingbird.vc/portfolio",
+    "http://biobase.whitefordresearch.com/companies/epana-bio",
+    "https://www.caplight.com/company/epana"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Epana Bio (epana.bio, input website), San Francisco Bay Area (trackers say Berkeley, CA); precision therapies for autoimmune disease using genomics, AI and immune cell atlases; CEO/co-founder Danny Wells; founded 2025. Investor-run portfolio pages confirm backing by Breakout Ventures and Hummingbird (which labels it 'Pre-Seed / Seed', 2025), plus SPC. No company press release or reputable news of the round was found. Trackers only (Caplight; PitchBook snippet via Whiteford Research, not used as a source) report an $11M seed dated Mar 1 2025 with SPC, Breakout Ventures, 82VS, Dimension, KdT Ventures, Hummingbird, Hawktail, Nomads and Refactor (one tracker says $14M total). Money was clearly raised, but the amount and priced-seed status rely only on trackers, so it is marked unclear-round-type and amount left blank. Would become seed+ ($11M seed) if tracker figures are accepted.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "DealLoop",
@@ -6815,7 +7177,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/dealloop/",
+    "https://www.dealloop.ai/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "DealLoop (dealloop.ai, linked from its SPC page; product now branded 'poncho'), San Francisco; real-time AI meeting intelligence that records locally, transcribes and takes live actions (CRM updates, tickets, Slack). Founders include Suraj Srivats and William Czubakowski; founded 2025. Apart from SPC's early check (Founder Fellowship-style, not a priced round), no press release or reputable news of a round was found. Trackers (CB Insights/Caplight, not used) mention only an undisclosed pre-seed with SPC.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Convogo",
@@ -6837,7 +7208,18 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/convogo/",
+    "https://convogo.com/",
+    "https://techcrunch.com/2026/01/08/openai-to-acquire-the-team-behind-executive-coaching-ai-tool-convogo/",
+    "https://finance.yahoo.com/news/openai-acquire-team-behind-executive-181114830.html"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Convogo (convogo.com, input website; formerly Encore AI / encore.ai, renamed mid-2025), San Francisco; AI that automated leadership-assessment and feedback reporting for executive coaches and talent teams. Co-founders Matt Cooper, Evan Cater and Mike Gillett; founded 2023. TechCrunch (Jan 8 2026) reported OpenAI acqui-hired the three founders in what a source called an all-stock deal; OpenAI did not acquire the IP and the product was wound down. No priced round was publicly reported; a founder profile (LinkedIn, not used) names SPC and OVO Fund as backers with no amount.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "New Generation",
@@ -6845,7 +7227,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,500,000",
    "date": "SPC (founded 2024)",
    "verticals": "Enterprise; San Francisco",
    "investors": "South Park Commons",
@@ -6858,7 +7240,32 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4500000,
+     "currency": "USD",
+     "date": "2025-05-20",
+     "investors": [
+      "South Park Commons (lead)",
+      "Matrix",
+      "Designer Fund",
+      "Slow Ventures",
+      "Beat Ventures"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/new-gen-launches-to-power-ai-native-commerce-equipping-brands-with-conversational-digital-storefronts-302459784.html"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/new-generation/",
+    "https://www.pymnts.com/news/artificial-intelligence/2025/startup-new-generation-builds-agent-friendly-storefronts-for-brands/",
+    "https://www.prnewswire.com/news-releases/new-gen-launches-to-power-ai-native-commerce-equipping-brands-with-conversational-digital-storefronts-302459784.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "New Generation / New Gen (new-gen.ai, per its press release), San Francisco; AI-native, conversational storefronts and AI-readable catalogs for brands and shopping agents. Founded by Adam Behrens and Jonathan Arena (HBS alumni). PR Newswire (May 20 2025) announced the public launch with $4.5M seed funding led by South Park Commons with Matrix, Designer Fund, Slow Ventures, Beat Ventures and angels (Pinterest co-founder, ex-Stripe COO, Meta's Head of Llama); the round closed earlier in 2025 (date shown is the announcement). No later round found; total equity $4.5M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Corveris",
@@ -6882,7 +7289,16 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/casex/",
+    "https://www.corveris.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Corveris (corveris.com, linked from its SPC page; formerly Case X), San Francisco; crime-reporting and case-management infrastructure for law enforcement. Founder Daniel Tatenko; founded 2024. Apart from SPC's early check (Founder Fellowship-style, not a priced round), no press release or reputable news of a round was found. Trackers (PitchBook snippet, not used) list only an undisclosed early deal with SPC as sole investor around Feb 2024.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "PixelTable",
@@ -6890,7 +7306,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,500,000",
    "date": "SPC (founded 2024)",
    "verticals": "Infrastructure; San Francisco",
    "investors": "South Park Commons",
@@ -6907,7 +7323,35 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5500000,
+     "currency": "USD",
+     "date": "2024-12-04",
+     "investors": [
+      "The General Partnership (lead)",
+      "Exceptional Capital",
+      "South Park Commons",
+      "Liquid 2",
+      "Serena Data Ventures",
+      "Michael Stoppelman",
+      "Wes McKinney"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20241204452772/en/Pixeltable-Launches-AI-Data-Infrastructure-Providing-a-Declarative-Incremental-Approach-for-Multimodal-Workloads-Transforming-How-Teams-Build-AI-Applications"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/pixeltable/",
+    "https://www.pixeltable.com/blog/pixeltable-launch",
+    "https://www.finsmes.com/2024/12/pixeltable-raises-5-5m-in-seed-funding.html",
+    "https://www.businesswire.com/news/home/20241204452772/en/Pixeltable-Launches-AI-Data-Infrastructure-Providing-a-Declarative-Incremental-Approach-for-Multimodal-Workloads-Transforming-How-Teams-Build-AI-Applications"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Pixeltable (pixeltable.com), San Francisco; open-source declarative data infrastructure for multimodal AI. Co-founders Pierre Brunelle (CEO, ex-Noteable), Marcel Kornacker (CTO, Apache Impala creator / Parquet co-creator) and Aaron Siegel. BusinessWire (Dec 4 2024) announced a $5.5M seed led by The General Partnership with Exceptional Capital, South Park Commons, Liquid 2, Serena Data Ventures and angels. No later round found; total equity $5.5M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Benbase",
@@ -6930,7 +7374,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/benbase/",
+    "https://benbase.com/",
+    "https://jobs.freestyle.vc/companies/benbase"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Benbase (benbase.com, linked from its SPC page), San Francisco; AI-native employee-benefits brokerage combining AI agents with licensed advisors. Founders Mike Wadhera and Brad Vaccaro; founded 2023 (incubated at SPC). Freestyle Capital's portfolio job board lists it at Seed stage. The $5.3M seed (Jun 17 2025, led by Freestyle Capital with SPC and Upside Partnership) appears only in LinkedIn posts by the company, SPC and investors, plus trackers; no press release or reputable news coverage was found, so the amount and round are not counted under the sourcing rules. Would be seed+ ($5.3M seed) if the company's own LinkedIn announcement were acceptable.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Mindscribe",
@@ -6938,7 +7392,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,084,998",
    "date": "SPC (founded 2019)",
    "verticals": "Consumer; Miami",
    "investors": "South Park Commons",
@@ -6953,7 +7407,26 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Miami",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Unknown (Form D equity)",
+     "amount": 1084998,
+     "currency": "USD",
+     "date": "2019-07-10",
+     "investors": [],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1782528/000178252819000001/primary_doc.xml"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/mindscribe/",
+    "https://www.symbioseinc.com/",
+    "https://www.sec.gov/Archives/edgar/data/1782528/000178252819000001/primary_doc.xml"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Mindscribe, legal entity Symbiose Technologies, Inc. (symbioseinc.com, linked from its SPC page), Miami per SPC (Form D address San Francisco); AI communication products (Fractal spatial-audio messaging, InWords AI companion). Founder Ryan McKinney; founded 2019. SEC Form D (filed Jul 15 2019, Rule 506(b)) reports $1,084,998 of equity sold, first sale Jul 10 2019, to 6 investors; round type not stated (likely pre-seed incl. SPC and Slow Ventures, which SPC lists as another investor). No press release or reputable news of a priced seed found.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Longshot",
@@ -6976,7 +7449,63 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 1500000,
+     "currency": "USD",
+     "date": "2023-04",
+     "investors": [
+      "Sam Altman",
+      "Draper (Tim Draper)",
+      "SpaceFund"
+     ],
+     "source_url": "https://techcrunch.com/2024/09/25/longshot-space-closes-over-5m-in-new-funding-to-build-space-gun-in-the-desert/"
+    },
+    {
+     "stage": "Unknown (venture, combined with non-dilutive)",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2024-09-25",
+     "investors": [
+      "Starship Ventures (lead)",
+      "Myelin VC",
+      "AngelList"
+     ],
+     "source_url": "https://spacewatch.global/2024/10/spacewatchgl-venture-space-september-2024/"
+    },
+    {
+     "stage": "Unknown (strategic investment)",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2026-06-23",
+     "investors": [
+      "South Park Commons"
+     ],
+     "source_url": "https://longshotspace.com/newsroom/longshot-secures-5-million-investment-from-south-park-commons-bringing-total-funding-to-20-million"
+    }
+   ],
+   "grants": [
+    {
+     "name": "U.S. Air Force TACFI (non-dilutive, part of the Sep 2024 ~$5M total)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024-09",
+     "source_url": "https://techcrunch.com/2024/09/25/longshot-space-closes-over-5m-in-new-funding-to-build-space-gun-in-the-desert/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/longshot/",
+    "https://www.longshotspace.com/",
+    "https://techcrunch.com/2023/07/10/longshot-space-wants-to-make-space-launch-dumb-and-really-cheap-too/",
+    "https://techcrunch.com/2024/09/25/longshot-space-closes-over-5m-in-new-funding-to-build-space-gun-in-the-desert/",
+    "https://spacewatch.global/2024/10/spacewatchgl-venture-space-september-2024/",
+    "https://longshotspace.com/newsroom/longshot-secures-5-million-investment-from-south-park-commons-bringing-total-funding-to-20-million"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Longshot / Longshot Space Technologies (longshotspace.com, linked from its SPC page), Oakland/Alameda, CA; ground-based kinetic 'space gun' for hypersonic testing and launch. CEO Mike Grace. TechCrunch: $1.5M pre-seed (Apr 2023; Sam Altman, Draper, SpaceFund per SpaceWatch) and, in Sep 2024, a little over $5M combined venture plus non-dilutive U.S. Air Force TACFI funding; SpaceWatch.Global says $5M led by Starship Ventures with Myelin VC and AngelList (split between equity and TACFI not disclosed, round not labeled). GlobeNewswire/company newsroom (Jun 23 2026): new $5M investment from South Park Commons, bringing total funding to $20M (includes government funding; equity-only total not disclosed, so amount_raised left blank). No source names a priced seed or Series round, hence unclear-round-type; trackers call the 2024 raise a seed.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Holloway",
@@ -6984,7 +7513,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,600,000",
    "date": "SPC (founded 2018)",
    "verticals": "Consumer; San Francisco",
    "investors": "South Park Commons",
@@ -6999,7 +7528,40 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4600000,
+     "currency": "USD",
+     "date": "2019-08-01",
+     "investors": [
+      "NEA",
+      "South Park Commons",
+      "The New York Times Co.",
+      "Precursor Ventures",
+      "Comcast Ventures",
+      "Day One Ventures",
+      "Social Capital",
+      "Abstract Ventures",
+      "415",
+      "Royal Bank of Canada",
+      "Lightspeed",
+      "Full Tilt Capital"
+     ],
+     "source_url": "https://techcrunch.com/2019/08/01/holloway-launches-in-depth-startup-guides-aims-to-rewrite-publishing-with-4-6m-from-nyt-top-tech-investors/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/holloway/",
+    "https://www.holloway.com/",
+    "https://www.businessinsider.com/holloway-seed-funding-pitch-deck-nea-2019-7",
+    "https://techcrunch.com/2019/08/01/holloway-launches-in-depth-startup-guides-aims-to-rewrite-publishing-with-4-6m-from-nyt-top-tech-investors/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Holloway (holloway.com, linked from its SPC page), San Francisco; publisher of book-length practical online guides (e.g. Raising Venture Capital). Co-founders Andy Sparks (CEO, ex-Mattermark) and Joshua Levy. TechCrunch (Aug 1 2019) reported $4.6M in seed funding from NEA, The New York Times Co., South Park Commons, Precursor, Comcast Ventures and others; Business Insider says NEA backed it (lead not explicitly stated by TechCrunch, so no lead marked). No later round found; total equity $4.6M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Levit",
@@ -7023,7 +7585,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/levit/",
+    "https://www.levit.ai/",
+    "https://rockyardventures.substack.com/p/yard-call-september-25"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Levit (levit.ai, linked from its SPC page), San Francisco; AI-powered observability for critical physical infrastructure using always-on autonomous drones. Founders Ram Jayaraman and Ram Periathiruvadi; founded 2024. SPC lists Initialized Capital as another investor, and Rock Yard Ventures announced an investment in its Sep 3 2025 newsletter. Money was raised, but no amount, date or round type is public (trackers only label it seed-stage), so no priced round is counted.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Eureka",
@@ -7031,7 +7603,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$7,000,000",
    "date": "SPC (founded 2021)",
    "verticals": "Healthcare & Bio; San Francisco",
    "investors": "South Park Commons",
@@ -7048,7 +7620,38 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 7000000,
+     "currency": "USD",
+     "date": "2023-07-12",
+     "investors": [
+      "Khosla Ventures (lead)",
+      "South Park Commons",
+      "Bling Capital",
+      "SciFi VC",
+      "Able Partners",
+      "Bow Capital",
+      "Anne Wojcicki",
+      "Susan Wojcicki",
+      "Marty Tenenbaum"
+     ],
+     "source_url": "https://www.prweb.com/releases/Eureka_Health_Launches_with_7_million_For_Patient_Led_Platform_To_Share_and_Discover_Better_Treatments/prweb19437147.htm"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/eureka/",
+    "https://www.eurekahealth.com/",
+    "https://eureka.md/",
+    "https://www.businessinsider.com/eureka-health-pitch-deck-raise-7-million-seed-khosla-ventures-2023-8",
+    "https://www.prweb.com/releases/Eureka_Health_Launches_with_7_million_For_Patient_Led_Platform_To_Share_and_Discover_Better_Treatments/prweb19437147.htm"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Eureka / Eureka Health (eurekahealth.com, linked from its SPC page; current site eureka.md describes telehealth tooling for independent physicians), San Francisco/San Mateo; co-founders Zain Memon (CEO) and Noah MacCallum. Press release (PRWeb/Cision, Jul 12 2023) announced a $7M seed led by Khosla Ventures with South Park Commons, Bling Capital, SciFi VC, Able Partners, Bow Capital and angels incl. Anne and Susan Wojcicki; Business Insider also covered it. Product has pivoted from a patient community/'AI doctor' to telehealth for physician creators. No later round found; total equity $7M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Hologram",
@@ -7056,7 +7659,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$6,500,000",
    "date": "SPC (founded 2021)",
    "verticals": "Crypto; San Francisco",
    "investors": "South Park Commons",
@@ -7072,7 +7675,38 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 6500000,
+     "currency": "USD",
+     "date": "2022-07-14",
+     "investors": [
+      "Polychain Capital (lead)",
+      "Nascent",
+      "Inflection",
+      "The Operating Group",
+      "Quantstamp",
+      "Neon DAO",
+      "Foothill Ventures",
+      "South Park Commons",
+      "Mike Shinoda"
+     ],
+     "source_url": "https://techcrunch.com/2022/07/14/hologram-fundraising-nft-avatar/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/hologram/",
+    "https://www.hologram.xyz/",
+    "https://www.coindesk.com/business/2022/07/14/virtual-avatar-firm-hologram-raises-65m-seed-round",
+    "https://venturebeat.com/games/hologram-raises-6-5m-for-blockchain-based-avatars-that-you-can-use-in-video-calls/",
+    "https://techcrunch.com/2022/07/14/hologram-fundraising-nft-avatar/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Hologram Labs (hologram.xyz, linked from its SPC page), San Francisco; ML-animated avatars for NFT/PFP characters in video calls and streams. Co-founders Tong Pow (CEO) and Hongzi Mao (CTO). TechCrunch and CoinDesk (Jul 14 2022) reported a $6.5M seed led by Polychain Capital with Nascent, Inflection, The Operating Group, Quantstamp, Neon DAO, Foothill Ventures, South Park Commons and angels incl. Mike Shinoda. No later priced round found; any later token-related activity (crypto press links the team to Holoworld AI) is not verified here and excluded. Total equity $6.5M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Dataland",
@@ -7094,7 +7728,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "New York",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/dataland/",
+    "https://dataland.io/",
+    "https://www.ycombinator.com/companies/dataland"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Dataland (dataland.io, input website), New York; AI agents for complex customer support and operations (earlier a data-engineering tool). Founders Arthur Wu (ex-Palantir) and Howard Zuo; Y Combinator Summer 2020 (YC page; YC's standard check is an accelerator investment, not a priced round). YC page says it reached multi-million-dollar ARR as two founders and is highly profitable. Trackers only (aVenture, CB Insights, not used) report a $150K YC investment (Aug 2020) and a ~$500K convertible note (Jan 2020) with YC, Switch Ventures and SPC. No press release or reputable news of a priced seed found.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "RallyBoard",
@@ -7102,7 +7746,7 @@
    "website": "https://www.rallyboard.com/",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$2,400,000",
    "date": "SPC (founded 2025)",
    "verticals": "Enterprise; New York",
    "investors": "South Park Commons",
@@ -7118,7 +7762,30 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "New York",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 2400000,
+     "currency": "USD",
+     "date": "2025-10",
+     "investors": [
+      "Rethink Education",
+      "South Park Commons"
+     ],
+     "source_url": "https://rethink-capital.com/rethink-education-october-2025-newsletter/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/rallyboard/",
+    "https://www.rallyboard.com/company/about",
+    "https://edsheet.whiteboardadvisors.com/p/the-edsheet-vol-22",
+    "https://rethink-capital.com/rethink-education-october-2025-newsletter/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "RallyBoard (rallyboard.com, input website), New York; AI-powered peer-learning/cohort platform for professional and trade associations. Founders Jackson Boyar (co-founder of Mentor Collective) and Mike Kuo; founded 2025. Company About page: '$2.4M raised from South Park Commons and Rethink Education'; Whiteboard Advisors' EdSheet (Oct 24 2025) lists 'RallyBoard raises $2.4M'. Rethink Education's Oct 2025 newsletter says it backed RallyBoard 'in its pre-seed round'; a founder LinkedIn post (not used) calls it a seed round. Classified pre-seed per the lead investor's own description; would be seed+ if the founder's 'seed' label were accepted.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Weave",
@@ -7141,7 +7808,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://antigravity.capital/portfolio/weave",
+    "https://www.southparkcommons.com/companies/weave-technologies/",
+    "https://weave.gl/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Weave (weave.gl, linked from its SPC page and from Antigravity Capital's portfolio page), San Francisco; AI-assisted fashion design, 3D digital fit and on-demand garment manufacturing for creators and apparel brands. Founder Jeff Shaw; founded 2024. Antigravity Capital lists Weave as a portfolio company, so outside VC money was raised beyond the SPC Founder Fellowship check, but no press release or reputable news gives the round type, amount or date. Social posts (BlueWalker Ventures on LinkedIn, not used as a source) and a tracker (Caplight) indicate an investment around Oct 2024 alongside Antigravity Capital, South Park Commons, New Era Ventures and BlueWalker Ventures; unverified. SPC's 'Seed' label is not evidence of a priced round.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Pascal",
@@ -7163,7 +7840,16 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/pascal/",
+    "https://www.pascal.app/about"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Pascal (pascal.app, linked from its SPC page; legal name reported as Pascal Group Inc.); AI platform for on-demand building maintenance and repairs that builds a digital twin of each property and dispatches vetted pros. Founders Julien Brissonneau (CEO) and Aymeric Rabot (CTO); founded 2025; SPC lists no city. Apart from the SPC Founder Fellowship check (accelerator-style, not a priced round), no press release or reputable news of a round was found. A tracker (Crunchbase snippet, not used) shows a seed-stage record with no amount or investors; unverified. Not to be confused with Pascal AI Labs (investment research AI), which announced a separate $3.1M seed.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "CodeYam",
@@ -7171,7 +7857,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,200,000",
    "date": "SPC (founded 2021)",
    "verticals": "Infrastructure; Denver",
    "investors": "South Park Commons",
@@ -7187,7 +7873,39 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Denver",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4200000,
+     "currency": "USD",
+     "date": "2023-01-26",
+     "investors": [
+      "boldstart ventures (co-lead)",
+      "gumi Cryptos Capital (co-lead)",
+      "Mysten Labs",
+      "Tribe Capital",
+      "Matrixport",
+      "Charge Ventures",
+      "Builder Capital",
+      "Alliance DAO",
+      "Meltem Demirors"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/boldstart-and-gumi-cryptos-capital-co-lead-seed-round-in-ethos-sui-blockchains-first-experiential-digital-asset-wallet-301731166.html"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.coindesk.com/business/2023/01/26/sui-based-ethos-wallet-raises-42m-in-seed-round",
+    "https://boldstart.vc/companies/ethos/",
+    "https://blog.codeyam.com/p/introducing-codeyam-the-software",
+    "https://www.southparkcommons.com/companies/codeyam/",
+    "https://codeyam.com/",
+    "https://www.prnewswire.com/news-releases/boldstart-and-gumi-cryptos-capital-co-lead-seed-round-in-ethos-sui-blockchains-first-experiential-digital-asset-wallet-301731166.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "CodeYam (codeyam.com, linked from its SPC page), Denver; developer tools/'software simulator' for the AI coding era. Founders Nadia Eldeib (CEO) and Jared Cosulich (CTO). The company was formerly Ethos Wallet (a Sui blockchain wallet) and pivoted to CodeYam; boldstart's portfolio page for Ethos now shows CodeYam. PR Newswire (Jan 26, 2023) and CoinDesk: $4.2M seed co-led by boldstart ventures and gumi Cryptos Capital with Mysten Labs, Tribe Capital, Matrixport, Charge Ventures, Builder Capital, Alliance DAO, Meltem Demirors and others (SPC's page lists boldstart as co-investor). No later round found in public sources; total equity raised $4.2M (excludes any undisclosed SPC/pre-seed money). Crypto-era round may have included token rights; none disclosed.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Hatsu Labs",
@@ -7195,7 +7913,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,000,000",
    "date": "SPC (founded 2024)",
    "verticals": "Consumer; Los Angeles",
    "investors": "South Park Commons",
@@ -7211,7 +7929,31 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Los Angeles",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed (SEC Form D equity; trackers call it seed)",
+     "amount": 4000000,
+     "currency": "USD",
+     "date": "2024-08-12",
+     "investors": [
+      "Andreessen Horowitz (a16z speedrun)",
+      "Patron",
+      "South Park Commons"
+     ],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/2034839/000203483924000001/0002034839-24-000001.txt"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://speedrun.a16z.com/companies/hatsu-labs",
+    "https://www.southparkcommons.com/companies/hatsu-labs/",
+    "https://hatsulabs.com/",
+    "https://www.sec.gov/Archives/edgar/data/2034839/000203483924000001/0002034839-24-000001.txt"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Hatsu Labs (hatsulabs.com, linked from its SPC page), Los Angeles; international game studio building AI-powered games. Founders Brandon Saw and Damon Rocco; founded 2024; a16z speedrun cohort 003. SEC Form D (Hatsu Labs, Inc., filed Aug 27, 2024): $4.0M of equity sold out of a $4.03M offering to 3 investors, first sale Aug 12, 2024. SPC's page lists Andreessen Horowitz and Patron as co-investors (investor names in the round entry are from SPC's page, not the filing). Only trackers label it a seed round and no press release or reputable news names the round type, so it is marked unclear-round-type; part of the money may be the a16z speedrun accelerator check and SPC Founder Fellowship check.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Surfboard",
@@ -7232,7 +7974,30 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "Social Leverage (Fund IV)",
+      "South Park Commons"
+     ],
+     "source_url": "https://socialleverage.com/stories/founder-focus-chuhan-wang-founder-ceo-surfboard"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.southparkcommons.com/companies/surfboard/",
+    "https://www.surfboard.team/",
+    "https://perspectives.beehiiv.com/p/surfboard-live",
+    "https://socialleverage.com/stories/founder-focus-chuhan-wang-founder-ceo-surfboard"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Surfboard (surfboard.team, linked from its SPC page; site footer shows legal entity Daommo Inc), San Francisco; board-management SaaS for founders, nonprofits and investors. Founder and CEO Chuhan Wang (ex-Morgan Stanley, VC). Social Leverage's own Founder in Focus post (Dec 14, 2022) says Wang raised seed capital from Social Leverage (Fund IV) and Social Leverage partner Gary Benitt sits on the board. Amount, date and other participants are not public (SPC investment presumably earlier via its fellowship). Caveat: the only source is the investor's own blog, with no press release or news; seed+ rests on that disclosure. No later round found.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Confident Security",
@@ -7240,7 +8005,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,200,000",
    "date": "SPC (founded 2024)",
    "verticals": "Infrastructure; San Francisco",
    "investors": "South Park Commons",
@@ -7257,7 +8022,32 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4200000,
+     "currency": "USD",
+     "date": "2025-07-17",
+     "investors": [
+      "Decibel",
+      "South Park Commons",
+      "Ex Ante",
+      "Swyx"
+     ],
+     "source_url": "https://techcrunch.com/2025/07/17/confident-security-the-signal-for-ai-comes-out-of-stealth-with-4-2m/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.businesswire.com/news/home/20250717403863/en/Confident-Security-Launches-The-First-Enterprise-Grade-System-for-Provably-Private-AI-Interactions",
+    "https://www.southparkcommons.com/companies/confident-security/",
+    "https://confident.security/",
+    "https://techcrunch.com/2025/07/17/confident-security-the-signal-for-ai-comes-out-of-stealth-with-4-2m/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Confident Security (confident.security, linked from its SPC page), San Francisco; CONFSEC, a provably private AI inference system modeled on Apple's Private Cloud Compute. Founder and CEO Jonathan Mortensen; founded 2024. TechCrunch (Jul 17, 2025) and a BusinessWire release: came out of stealth with $4.2M seed funding from Decibel, South Park Commons, Ex Ante and Swyx (no lead named; SPC's page lists Decibel as co-investor). No later round found; total equity raised $4.2M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Nuance Labs",
@@ -7265,7 +8055,7 @@
    "website": "https://www.nuancelabs.ai/",
    "team": "Fangchang, Edward",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$60,000,000",
    "date": "SPC (founded 2024)",
    "verticals": "Frontier AI; Seattle",
    "investors": "South Park Commons",
@@ -7282,7 +8072,49 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Seattle",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2025-09",
+     "investors": [
+      "Accel (lead)",
+      "Lightspeed Venture Partners",
+      "South Park Commons"
+     ],
+     "source_url": "https://www.geekwire.com/2025/ex-apple-phds-raise-10m-choose-seattle-to-build-an-ai-foundation-model-that-understands-emotion/"
+    },
+    {
+     "stage": "Series A",
+     "amount": 50000000,
+     "currency": "USD",
+     "date": "2026-09-14",
+     "investors": [
+      "Lightspeed Venture Partners (lead)",
+      "Accel",
+      "South Park Commons",
+      "NVIDIA (NVentures)",
+      "Define Ventures"
+     ],
+     "source_url": "https://www.nuancelabs.ai/nuance-labs-series-a-release"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/",
+    "https://www.businessinsider.com/former-apple-researchers-raise-50-million-to-build-foundational-model-2026-9",
+    "https://siliconangle.com/2026/09/14/nuance-labs-bags-50m-in-funding-to-fix-the-awkwardness-of-ai-avatars/",
+    "https://www.accel.com/noteworthies/nuance",
+    "https://lsvp.com/stories/the-missing-emotional-layer-in-ai-our-investment-in-nuance-labs/",
+    "https://www.southparkcommons.com/companies/nuance-labs/",
+    "https://www.geekwire.com/2025/ex-apple-phds-raise-10m-choose-seattle-to-build-an-ai-foundation-model-that-understands-emotion/",
+    "https://www.nuancelabs.ai/nuance-labs-series-a-release"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Nuance Labs (nuancelabs.ai, matches input), Seattle; AI research lab building a full-duplex audiovisual 'human foundation model' that perceives and expresses emotion in real time. Founded early 2025 by ex-Apple PhD researchers Fangchang Ma (CEO), Edward Zhang (CTO) and Karren Yang. Seed: $10M led by Accel with Lightspeed and South Park Commons (GeekWire, Sep 9, 2025; first reported by Upstarts Media; SEC Form D filed Jul 2025 shows $9.75M sold). Series A: $50M led by returning investor Lightspeed with Accel, SPC and new investors NVIDIA and Define Ventures (company release Sep 14, 2026; GeekWire, Business Insider, SiliconANGLE). GeekWire states total raised is $60M, which matches the sum of the two sourced rounds.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Gradient Robotics",
@@ -7307,7 +8139,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://mikekalil.com/blog/gradient-robots-k-scale/",
+    "https://gradientrobotics.ai/",
+    "https://www.southparkcommons.com/companies/gradient-robotics/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Gradient Robotics (gradientrobotics.ai; SPC's page links no website, domain matched by name and data-center robotics mission; earlier branded Gradient Robots), San Francisco; modular robots for data-center build-out, installation and maintenance. Co-founder Jingxiang (JX) Mo, a founding engineer of K-Scale Labs; the startup was formed by K-Scale's core engineering team in late 2025 and initially pitched as an 'open-source Unitree for America' humanoid maker before focusing on data centers. Mo stated publicly (quoted by Mike Kalil's robotics blog, Nov 2025) that the company closed a pre-seed round in Sep 2025; amount and investors undisclosed. No priced seed or later round found.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Mirage Security",
@@ -7333,7 +8175,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.miragesecurity.ai/",
+    "https://intros.afore.vc/showcase/67272db1-2d26-45f5-954f-6b4d821811c8",
+    "https://www.southparkcommons.com/companies/mirage-security/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Mirage Security (miragesecurity.ai, linked from its SPC page), San Francisco; AI vishing/deepfake social-engineering simulations and training for enterprises. Founders Ross Lazerowitz (CEO, ex-Observe, ex-Splunk) and Nick DiRienzo; founded 2023. SPC's page lists Afore Capital (a pre-seed fund) as co-investor. Only social posts and trackers (LinkedIn/PitchBook, not used as sources) describe the funding: a pre-seed of about $400K around late 2023/early 2024 with South Park Commons and Afore. Afore's investor-intro showcase lists Mirage at 'Seed' stage, which appears to describe its current raise rather than a closed round. No press release or reputable news of a priced round; amount left blank because it is not publicly sourced.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Preference Model",
@@ -7341,7 +8193,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$16,000,000",
    "date": "SPC (founded 2025)",
    "verticals": "Infrastructure; San Francisco",
    "investors": "South Park Commons",
@@ -7358,7 +8210,36 @@
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
    "most_recent_batch": false,
-   "former_name": "Preference Models"
+   "former_name": "Preference Models",
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 16000000,
+     "currency": "USD",
+     "date": "2026-10-07",
+     "investors": [
+      "Andreessen Horowitz (lead)",
+      "SignalFire",
+      "South Park Commons",
+      "Scale Angels",
+      "Fei-Fei Li",
+      "Ian Goodfellow",
+      "Julian Schrittwieser"
+     ],
+     "source_url": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-preference-model-on-dollar16-million-seed-funding-as-it-emerges-from-stealth.html"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://a16z.com/announcement/investing-in-preference-model/",
+    "https://www.preferencemodel.com/blog/introducing-karotte",
+    "https://www.southparkcommons.com/companies/preference-model/",
+    "https://preferencemodel.com",
+    "https://www.wsgr.com/en/insights/wilson-sonsini-advises-preference-model-on-dollar16-million-seed-funding-as-it-emerges-from-stealth.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Preference Model (preferencemodel.com, linked from its SPC page), San Francisco; reinforcement-learning environments for frontier AI labs, focused on AI research/ML-engineering tasks; open-sourced its Karotte RL-environment framework. Founders Jennifer Zhou (CEO, early Anthropic pretraining data team) and Ning Cao (ex-DatologyAI); founded 2025. Emerged from stealth Oct 7, 2026 with a $16M seed led by a16z, with SignalFire, South Park Commons, Scale Angels and angels Fei-Fei Li, Ian Goodfellow and Julian Schrittwieser (Wilson Sonsini client note; a16z investment post). Total equity raised $16M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "AXION",
@@ -7381,7 +8262,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://axion.sh/",
+    "https://www.southparkcommons.com/companies/axion/",
+    "https://www.southparkcommons.com/news/f26-founder-fellowship/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "AXION (axion.sh, linked from its SPC page; Axion Labs, Inc.), San Francisco; non-invasive brain-computer interface, a headband combining EEG and eye tracking so people with motor impairments can control devices. Founders Tin Tunjic and Rajshekar Reddy (ex-Intuitive Surgical); founded 2025. A founder's social post (LinkedIn, not used as a source) says they 'raised $1M' and joined SPC, which matches SPC's current Founder Fellowship terms ($1M: $400K for 7% on a SAFE upfront plus $600K guaranteed in the next external round), i.e. an accelerator check, not a priced round. No press release or reputable news of any other round found.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Echo Chunk",
@@ -7389,7 +8280,7 @@
    "website": "https://www.echochunk.com/",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,400,000",
    "date": "SPC (founded 2024)",
    "verticals": "Consumer; San Francisco",
    "investors": "South Park Commons",
@@ -7406,7 +8297,34 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 1400000,
+     "currency": "USD",
+     "date": "2024-07-16",
+     "investors": [
+      "a16z speedrun (lead)",
+      "Mark Pincus",
+      "South Park Commons",
+      "Eric Wu",
+      "Stef Corazza"
+     ],
+     "source_url": "https://techcrunch.com/2024/07/16/a-company-building-wordle-for-chess-raises-money-from-a16z-speedrun-mark-pincus-and-eric-wu/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.gamesindustry.biz/echo-chunk-raises-14-million-in-funding-round-1",
+    "https://www.gamedeveloper.com/business/echo-chunk-raises-1-4-million-to-keep-making-ai-powered-puzzle-games",
+    "https://speedrun.a16z.com/companies/echo-chunk",
+    "https://www.southparkcommons.com/companies/echo-chunk/",
+    "https://techcrunch.com/2024/07/16/a-company-building-wordle-for-chess-raises-money-from-a16z-speedrun-mark-pincus-and-eric-wu/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Echo Chunk (echochunk.com, matches input), San Francisco; AI-assisted self-generating strategy/puzzle games, starting with Echo Chess. Founder and CEO Sami Ramly (ex-Wevr head of product). TechCrunch (Jul 16, 2024), GamesIndustry.biz and Game Developer: oversubscribed $1.4M pre-seed led by a16z speedrun (an accelerator) with Mark Pincus, South Park Commons, Eric Wu and Stef Corazza. Pre-seed only; no priced seed or later round found. The round is listed in rounds for reference but does not count toward seed+.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Rivo",
@@ -7414,7 +8332,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$3,100,000",
    "date": "SPC (founded 2025)",
    "verticals": "Fintech; San Francisco",
    "investors": "South Park Commons",
@@ -7432,7 +8350,35 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2700000,
+     "currency": "USD",
+     "date": "2026-08",
+     "investors": [
+      "South Park Commons",
+      "Wisdom Ventures",
+      "Script Capital",
+      "645 Ventures",
+      "20VC",
+      "Jag Duggal"
+     ],
+     "source_url": "https://www.rivofi.com/blog/funding-announcement"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.finsmes.com/2026/08/rivo-raises-2-7m-in-seed-funding.html",
+    "https://www.thisweekinfintech.com/p/exclusive-from-self-driving-cars-to-self-driving-money-inside-rivo-s-bet-on-idle-cash",
+    "https://www.southparkcommons.com/companies/rivo/",
+    "https://www.rivofi.com/",
+    "https://www.rivofi.com/blog/funding-announcement"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Rivo (rivofi.com, linked from its SPC page), San Francisco; autonomous cash management that moves idle checking balances into short-term US Treasuries (via Jiko) and back before bills are due. Founder and CEO Ambrish Tyagi (ex-Cruise AI lead); Head of Product Vince Maniago (ex-Personal Capital CPO). Company blog and This Week in Fintech/FinSMEs (Aug 2026): $2.7M seed with South Park Commons, Wisdom Ventures, Script Capital, 645 Ventures, 20VC and angel Jag Duggal (no lead named), bringing total funding to $3.1M (the extra ~$0.4M is presumably the earlier SPC Founder Fellowship/pre-seed money, not itemized). amount_raised uses the company-stated $3.1M total. The company blog post is dated Sep 7, 2026 while FinSMEs reported it Aug 5, 2026.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Tribes",
@@ -7440,7 +8386,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$3,300,000",
    "date": "SPC (founded 2021)",
    "verticals": "Crypto; San Francisco",
    "investors": "South Park Commons",
@@ -7456,7 +8402,33 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "San Francisco",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 3300000,
+     "currency": "USD",
+     "date": "2022-10",
+     "investors": [
+      "Kindred Ventures (lead)",
+      "South Park Commons",
+      "Script Capital",
+      "Solana Foundation"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/web3-messenger-tribes-raises-3-3-million-and-launches-social-wallets-allowing-people-to-co-own-and-manage-digital-assets-301728868.html"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.coindesk.com/business/2023/01/23/web3-social-wallet-tribes-launches-with-33m-in-funding",
+    "https://tribes.xyz/",
+    "https://kindredventures.com/portfolio-news/web3-social-wallet-tribes-launches-with-3-3m-in-funding/",
+    "https://www.southparkcommons.com/companies/tribes/",
+    "https://www.prnewswire.com/news-releases/web3-messenger-tribes-raises-3-3-million-and-launches-social-wallets-allowing-people-to-co-own-and-manage-digital-assets-301728868.html"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Tribes Inc. (tribes.xyz, linked from its SPC page), California/San Francisco; started in 2021 as a Web3 messaging and social-wallet app and now builds agent infrastructure (Zipbox disposable cloud computers for AI coding agents, Chief). Founder and CEO Hish Bouabdallah (ex-Coinbase Wallet). PR Newswire (Jan 24, 2023) and CoinDesk: $3.3M pre-seed (the release says led by Kindred Ventures, South Park Commons and Script Capital); the company's site says it closed in Oct 2022 and adds Solana Foundation. No seed or later round found (one third-party listing's ~$6.6M total is unverified and conflicts with the company's own disclosure). Crypto-era round may include token rights; none disclosed.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Anaira",
@@ -7479,7 +8451,17 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Bengaluru",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.anaira.ai/about-us",
+    "https://www.southparkcommons.com/companies/anaira/",
+    "https://newzchain.com/premji-invest-platform-strategy-early-ai-bet-on-anaira-ai/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Anaira AI (anaira.ai, linked from its SPC page), Bengaluru/Mumbai; AI-native risk operating system for insurers (underwriting, claims, monitoring, controls). Founders Sanjeev Srinivasan (ex-MD & CEO of Acko General Insurance), Devang Mundhra and Sidharth Suresh; founded 2025. The company's own site lists Premji Invest, South Park Commons and Bessemer Venture Partners as investors, so outside institutional money was raised, but no press release or reputable news gives round type, amount or date. A tracker (PitchBook snippet, not used) reports a ~$5.65M seed in Jan 2026; unverified. Oct 2026 Indian media reports say Premji Invest is in talks to invest about $25M in Anaira; not closed, not counted.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Maya Research",
@@ -7487,7 +8469,7 @@
    "website": "",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,900,000",
    "date": "SPC (founded 2025)",
    "verticals": "Frontier AI; Bengaluru",
    "investors": "South Park Commons",
@@ -7500,7 +8482,29 @@
    "batch_date_precision": "",
    "location_source": "South Park Commons companies page",
    "location": "Bengaluru",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1900000,
+     "currency": "USD",
+     "date": "2026-06-15",
+     "investors": [
+      "South Park Commons (lead)"
+     ],
+     "source_url": "https://indianstartupnews.com/funding/maya-research-raises-19-million-to-build-voice-interface-for-people-who-do-not-use-technology-through-text-12040717"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://news.ventureintelligence.com/private-equity/voice-first-ai-interface-builder-maya-research-raises-$1.9-m-led-by-south-park-commons",
+    "https://www.mayaresearch.ai/",
+    "https://www.southparkcommons.com/companies/maya/",
+    "https://indianstartupnews.com/funding/maya-research-raises-19-million-to-build-voice-interface-for-people-who-do-not-use-technology-through-text-12040717"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Maya Research (mayaresearch.ai, linked from its SPC page), Bengaluru; voice-first conversational AI for multilingual users; open-source Maya 1 voice model (Apache 2.0, 440K+ Hugging Face downloads) and a consumer app with 3M+ downloads. Founders BS Dheemanth Reddy (CEO) and Bharath Kumar Kakumani (CTO); founded 2025. Indian Startup News and Venture Intelligence (Jun 15, 2026): $1.9M seed led by South Park Commons; other participants not named. Caveat: SPC is the only named investor, so part of this may be SPC's Founder Fellowship money ($400K SAFE plus $600K in the next round); it is counted as seed+ because reputable Indian startup press reports it as a seed round. Total equity raised $1.9M.",
+   "funding_checked": "2026-10-19"
   },
   {
    "name": "Swoop",
