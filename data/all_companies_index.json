@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 1998,
-  "total_companies": 133854,
+  "total_firms": 2000,
+  "total_companies": 133959,
   "parts": [
     {
       "file": "all_companies.json",
       "firms": 1200,
-      "companies": 85561,
-      "bytes": 39986836,
+      "companies": 85502,
+      "bytes": 39948521,
       "first_firm": "0BS",
-      "last_firm": "Mucker Capital"
+      "last_firm": "Mubadala Capital"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 798,
-      "companies": 48293,
-      "bytes": 22747111,
-      "first_firm": "Muirwoods Ventures",
+      "firms": 800,
+      "companies": 48457,
+      "bytes": 22854462,
+      "first_firm": "Mucker Capital",
       "last_firm": "Z Venture Capital"
     }
   ]
