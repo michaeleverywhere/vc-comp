@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2230,
-  "total_companies": 142519,
+  "total_firms": 2250,
+  "total_companies": 142875,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1238,
-      "companies": 85809,
-      "bytes": 39982348,
+      "firms": 1243,
+      "companies": 85670,
+      "bytes": 39948051,
       "first_firm": "0BS",
-      "last_firm": "Martin Ventures"
+      "last_firm": "Manta Ray Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 992,
-      "companies": 56710,
-      "bytes": 26247209,
-      "first_firm": "Mashup Ventures",
+      "firms": 1007,
+      "companies": 57205,
+      "bytes": 26457142,
+      "first_firm": "Mantis VC",
       "last_firm": "Z Venture Capital"
     }
   ]
