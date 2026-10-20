@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2165,
-  "total_companies": 139979,
+  "total_firms": 2185,
+  "total_companies": 140706,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1232,
-      "companies": 86064,
-      "bytes": 39990223,
+      "firms": 1233,
+      "companies": 85926,
+      "bytes": 39897483,
       "first_firm": "0BS",
-      "last_firm": "Merus Capital"
+      "last_firm": "Melt Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 933,
-      "companies": 53915,
-      "bytes": 25043117,
-      "first_firm": "MESH",
+      "firms": 952,
+      "companies": 54780,
+      "bytes": 25431388,
+      "first_firm": "Menlo Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
