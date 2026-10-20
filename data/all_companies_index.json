@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2020,
-  "total_companies": 134946,
+  "total_firms": 2040,
+  "total_companies": 135750,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1204,
-      "companies": 85615,
-      "bytes": 39996328,
+      "firms": 1203,
+      "companies": 85664,
+      "bytes": 39956612,
       "first_firm": "0BS",
-      "last_firm": "MSW Ventures"
+      "last_firm": "MoreVC"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 816,
-      "companies": 49331,
-      "bytes": 23272959,
-      "first_firm": "Mtvp",
+      "firms": 837,
+      "companies": 50086,
+      "bytes": 23586241,
+      "first_firm": "Morningside Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
