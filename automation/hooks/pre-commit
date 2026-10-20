@@ -1,0 +1,9 @@
+#!/bin/sh
+# Never-remove guard (Michael, 2026-10-20). Installed with:
+#   git config core.hooksPath automation/hooks
+# Blocks commits that would drop companies from any data/**/<slug>_companies.json;
+# merges the HEAD companies back in (with delisted dates) and re-stages the file.
+# Deliberate removals only: ALLOW_COMPANY_REMOVAL=1 git commit ...
+ROOT=$(git rev-parse --show-toplevel) || exit 0
+[ -f "$ROOT/automation/keep_merge.py" ] || exit 0
+cd "$ROOT" && exec python3 automation/keep_merge.py guard-staged

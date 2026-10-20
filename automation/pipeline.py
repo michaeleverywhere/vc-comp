@@ -38,6 +38,7 @@ import budget
 import diff
 import extract
 import gen_state
+import keep_merge
 import master_builder
 import roster
 import scrape_state
@@ -242,10 +243,15 @@ def main() -> int:
             registry.append(health)
 
         if store and health["safe_to_commit"] and (changed or health["is_new"]):
+            # Never-remove rule (Michael, 2026-10-20): "dropped" companies stay in the
+            # dataset, marked listed_on_site=false + delisted_date (keep_merge). The
+            # health gate above still judges the RAW scrape, so a broken scrape can't
+            # mass-delist anything.
+            keep, kst = keep_merge.merge(old, new)
             sha = store.commit_json(
-                firm.data_file, new,
-                f"Nightly: {firm.slug} +{len(d['added'])}/-{len(d['dropped'])} "
-                f"({health['record_count']} total)")
+                firm.data_file, keep,
+                f"Nightly: {firm.slug} +{len(d['added'])}/-{len(d['dropped'])} delisted-kept "
+                f"({len(keep)} total, {health['record_count']} listed)")
             health["commit_sha"] = sha
             tally["committed"] += 1
         elif not health["safe_to_commit"]:

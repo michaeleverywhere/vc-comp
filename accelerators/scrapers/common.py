@@ -128,6 +128,18 @@ def save(slug, records, meta=None):
         r["linkedin_url"] = norm_linkedin(r.get("linkedin_url"))
     os.makedirs(DATA_DIR, exist_ok=True)
     path = os.path.join(DATA_DIR, f"{slug}_companies.json")
+    # Never-remove rule (Michael, 2026-10-20): if a dataset already exists, keep every
+    # company in it. Ones this scrape no longer returns stay, marked listed_on_site=false
+    # + delisted_date; fields are supplemented. ALLOW_COMPANY_REMOVAL=1 only for
+    # deliberate junk/dedupe cleanups Michael asked for.
+    if os.path.exists(path) and os.environ.get("ALLOW_COMPANY_REMOVAL") != "1":
+        import sys as _sys
+        _sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__)))), "automation"))
+        import keep_merge
+        prev = json.load(open(path)).get("companies") or []
+        records, kst = keep_merge.merge(prev, records)
+        print(f"[{slug}] keep_merge: {kst}")
     payload = {"accelerator": slug, "count": len(records), **(meta or {}),
                "companies": records}
     with open(path, "w") as f:

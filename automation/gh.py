@@ -64,8 +64,24 @@ class GitHubStore:
 
     # --- write ---------------------------------------------------------------
     def commit_json(self, filename: str, records: list, message: str) -> str:
-        """Create or overwrite data/<filename> with `records`. Returns commit sha."""
+        """Create or overwrite data/<filename> with `records`. Returns commit sha.
+
+        Never-remove rule (Michael, 2026-10-20): for a per-firm dataset the current
+        GitHub version is merged in first (keep_merge.merge), so a company the fresh
+        scrape no longer returns is kept with listed_on_site=false + delisted_date
+        instead of being dropped. ALLOW_COMPANY_REMOVAL=1 is the only bypass."""
         path = f"{self.data_dir}/{filename}"
+        if (filename.endswith("_companies.json") and not filename.startswith("all_companies")
+                and os.environ.get("ALLOW_COMPANY_REMOVAL") != "1"):
+            import keep_merge
+            prev = self.read_json(filename)
+            if prev:
+                records, st = keep_merge.merge(prev, records)
+                if st["newly_delisted"]:
+                    message += f" [kept {st['newly_delisted']} no-longer-listed, delisted {keep_merge.today_et()}]"
+                if len(records) < len(prev):
+                    raise RuntimeError(f"{filename}: refusing to drop companies "
+                                       f"({len(prev)} -> {len(records)})")
         content = json.dumps(records, indent=2, ensure_ascii=False) + "\n"
         payload = {
             "message": message,

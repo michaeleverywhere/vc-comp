@@ -180,6 +180,10 @@ def build(data_dir: Path | None = None) -> list[dict]:
                 "first_invested": _first_present(r, _FIRST_KEYS),
                 "status": _status_of(r),
             }
+            # Never-remove rule (2026-10-20): carry listing dates when the dataset has them.
+            for k in ("listed_on_site", "first_seen", "last_seen", "delisted_date"):
+                if k in r:
+                    row[k] = r[k]
             combined.append(row)
 
     return combined
