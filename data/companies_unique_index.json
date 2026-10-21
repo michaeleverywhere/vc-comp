@@ -1,56 +1,56 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 187893,
+  "total_source_rows": 187911,
   "vc_source_rows": 149425,
-  "accelerator_source_rows": 38468,
+  "accelerator_source_rows": 38486,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 108655,
-  "companies_with_2plus_backers": 35161,
-  "companies_with_vc_and_accelerator": 10273,
-  "companies_keyed_by_domain": 75253,
-  "companies_keyed_by_name": 33402,
-  "name_rows_joined_to_domain_company": 23676,
-  "companies_with_possible_matches": 14340,
+  "unique_companies": 108669,
+  "companies_with_2plus_backers": 35162,
+  "companies_with_vc_and_accelerator": 10275,
+  "companies_keyed_by_domain": 75266,
+  "companies_keyed_by_name": 33403,
+  "name_rows_joined_to_domain_company": 23675,
+  "companies_with_possible_matches": 14345,
   "shared_hosts_treated_as_junk": 219,
-  "companies_with_funding_rounds": 6464,
-  "companies_funding_checked": 36732,
-  "funding_rounds_total": 9987,
-  "research_records_available": 36774,
+  "companies_with_funding_rounds": 11506,
+  "companies_funding_checked": 52928,
+  "funding_rounds_total": 19766,
+  "research_records_available": 52960,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 25125,
-      "bytes": 39998265,
+      "companies": 21874,
+      "bytes": 39994816,
       "first_company": "!K7",
-      "last_company": "Delegasi"
+      "last_company": "Corelayer"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 25801,
-      "bytes": 39999529,
-      "first_company": "Delegate",
-      "last_company": "Lacquerbar"
+      "companies": 23424,
+      "bytes": 39999943,
+      "first_company": "Corelight",
+      "last_company": "Inktomi Corporation"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 25551,
-      "bytes": 39999719,
-      "first_company": "Lactation Lab",
-      "last_company": "Re:course"
+      "companies": 24197,
+      "bytes": 39999160,
+      "first_company": "InkVivo Technologies SA",
+      "last_company": "PCs Compleat"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 26783,
-      "bytes": 39996650,
-      "first_company": "Re:course AI",
-      "last_company": "Winx"
+      "companies": 24071,
+      "bytes": 39996736,
+      "first_company": "PCT Systems",
+      "last_company": "The Realest"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 5395,
-      "bytes": 6140452,
-      "first_company": "Winx Health",
+      "companies": 15103,
+      "bytes": 23544289,
+      "first_company": "The RealReal",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
