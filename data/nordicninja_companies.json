@@ -604,7 +604,21 @@
     ],
     "primary_investor": "NordicNinja",
     "source_url": "https://nordicninja.com/portfolio/",
-    "scraped_at": "2026-10-09T13:53:47.536979+00:00"
+    "scraped_at": "2026-10-09T13:53:47.536979+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.mavenoid.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Onego",
@@ -622,7 +636,33 @@
     ],
     "primary_investor": "NordicNinja",
     "source_url": "https://nordicninja.com/portfolio/",
-    "scraped_at": "2026-10-09T13:53:47.536979+00:00"
+    "scraped_at": "2026-10-09T13:53:47.536979+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "EUR",
+        "date": "2022-09-07",
+        "investors": [],
+        "source_url": "https://www.onego.bio/press/our-news/additional-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.onego.bio/",
+      "https://www.onego.bio/press/our-news/additional-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2022-09-07",
+    "total_raised": 10000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pactum",

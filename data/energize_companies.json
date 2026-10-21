@@ -1203,7 +1203,21 @@
     ],
     "primary_investor": "Energize Capital",
     "source_url": "https://www.energize.vc/portfolio",
-    "scraped_at": "2026-10-14T13:15:30.114086+00:00"
+    "scraped_at": "2026-10-14T13:15:30.114086+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.magna.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Patch",
@@ -1273,7 +1287,32 @@
     ],
     "primary_investor": "Energize Capital",
     "source_url": "https://www.energize.vc/portfolio",
-    "scraped_at": "2026-10-14T13:15:30.114086+00:00"
+    "scraped_at": "2026-10-14T13:15:30.114086+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pvcase.com/blog/pvcase-secures-100m-investment-to-support-its-mission-cut-solars-growing-data-risk-challenge"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pvcase.com/",
+      "https://pvcase.com/blog/pvcase-secures-100m-investment-to-support-its-mission-cut-solars-growing-data-risk-challenge"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sinai",
@@ -1376,7 +1415,40 @@
     ],
     "primary_investor": "Energize Capital",
     "source_url": "https://www.energize.vc/portfolio",
-    "scraped_at": "2026-10-14T13:15:30.114086+00:00"
+    "scraped_at": "2026-10-14T13:15:30.114086+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2023-12-05",
+        "investors": [],
+        "source_url": "https://smartcar.com/blog/smartcar-series-b-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://smartcar.com/",
+      "https://smartcar.com/press",
+      "https://smartcar.com/blog/smartcar-series-b-funding",
+      "https://smartcar.com/de/blog/smartcar-series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "stated_total_raised": {
+      "amount": 36000000.0,
+      "currency": "USD",
+      "source_url": "https://smartcar.com/press"
+    },
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-05",
+    "total_raised": 36000000.0,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "stated"
   },
   {
     "company_name": "Sourcemap",

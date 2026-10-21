@@ -167,7 +167,21 @@
     "everywhere_tags": [],
     "primary_investor": "Homegrown Capital",
     "source_url": "https://homegrown.capital/",
-    "scraped_at": "2026-10-20T23:45:24.059708+00:00"
+    "scraped_at": "2026-10-20T23:45:24.059708+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pointspath.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Prismatic",
@@ -176,7 +190,53 @@
     "everywhere_tags": [],
     "primary_investor": "Homegrown Capital",
     "source_url": "https://homegrown.capital/",
-    "scraped_at": "2026-10-20T23:45:24.059708+00:00"
+    "scraped_at": "2026-10-20T23:45:24.059708+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3250000.0,
+        "currency": "USD",
+        "date": "2021-04-28",
+        "investors": [],
+        "source_url": "https://prismatic.io/press/seed-raise-announcement/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2023-02-21",
+        "investors": [],
+        "source_url": "https://prismatic.io/press/prismatic-announces-9-million-in-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2024-01-17",
+        "investors": [],
+        "source_url": "https://prismatic.io/press/prismatic-raises-22-million-in-series-b-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://prismatic.io/",
+      "https://prismatic.io/press/prismatic-raises-22-million-in-series-b-funding/",
+      "https://prismatic.io/press/prismatic-announces-9-million-in-funding/",
+      "https://prismatic.io/press/seed-raise-announcement/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-17",
+    "total_raised": 34250000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ProsperStack",
@@ -185,7 +245,34 @@
     "everywhere_tags": [],
     "primary_investor": "Homegrown Capital",
     "source_url": "https://homegrown.capital/",
-    "scraped_at": "2026-10-20T23:45:24.059708+00:00"
+    "scraped_at": "2026-10-20T23:45:24.059708+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://prosperstack.com/press/seed-round-sandalphon-capital/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://prosperstack.com/",
+      "https://prosperstack.com/about-us/",
+      "https://prosperstack.com/about-us/#press",
+      "https://prosperstack.com/press/seed-round-sandalphon-capital/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rosie AI",
