@@ -4896,7 +4896,71 @@
    "linkedin_source": "company website",
    "batch_date": "2019-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 7435616,
+     "currency": "USD",
+     "date": "2021-10-13",
+     "investors": [
+      "24 investors (not named in Form D)"
+     ],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-21-000003.txt"
+    },
+    {
+     "stage": "Series B",
+     "amount": 33000000,
+     "currency": "USD",
+     "date": "2023-08-08",
+     "investors": [
+      "SP Catamount (lead)",
+      "JH Capital",
+      "The Fund at Hula",
+      "FreshTracks Capital",
+      "Existing investors"
+     ],
+     "source_url": "https://payloadspace.com/benchmark-clinches-33m-launches-autopilot-for-satellites/"
+    },
+    {
+     "stage": "Undisclosed (2025 round)",
+     "amount": 2402041,
+     "currency": "USD",
+     "date": "2025-06-09",
+     "investors": [
+      "15 investors (not named in Form D)"
+     ],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-25-000003.txt"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.benchmarkspacesystems.com/news/post/press-release-benchmark-space-systems-triples-propulsion-system-production-capacity-doubles-personnel-to-meet-thruster-and-in-space-mobility-demand",
+    "https://www.benchmarkspacesystems.com/news/press-release-leadership-transition-2025",
+    "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-21-000003.txt",
+    "https://payloadspace.com/benchmark-clinches-33m-launches-autopilot-for-satellites/",
+    "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-25-000003.txt"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Verified domain benchmarkspacesystems.com (Burlington, VT; green/HTP and electric in-space propulsion). Series A (company called it 'major Series A funding' in April 2022) = Oct 2021 Form D: $8,277,141 offering, $7,435,616 sold, including conversion of outstanding indebtedness; $33M Series B (Aug 2023) led by SP Catamount with JH Capital, The Fund at Hula, FreshTracks; June 2025 round (company said it closed a new round alongside CEO transition) - Form D shows $2,402,041 sold, stage unnamed. Total $42.84M = sum of SEC/press-sourced amounts. A May 2026 Form D shows a $10M offering with $0 sold at filing (not counted). Has AFRL contracts (contracts, not grants; not itemized).",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Undisclosed (2025 round)",
+   "last_round_amount": 2402041,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-06-09",
+   "total_raised": 42837657,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "24 investors (not named in Form D)",
+    "SP Catamount (lead)",
+    "JH Capital",
+    "The Fund at Hula",
+    "FreshTracks Capital",
+    "Existing investors",
+    "15 investors (not named in Form D)"
+   ]
   },
   {
    "name": "BenchSci",
@@ -8358,7 +8422,60 @@
    "cohort_year": "2025/26",
    "batch_date": "2025-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": true
+   "most_recent_batch": true,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2600000,
+     "currency": "USD",
+     "date": "2026-03-23",
+     "investors": [
+      "Colorado ONE Fund",
+      "Stout Street Capital",
+      "RIT Venture Fund",
+      "Deming Center Venture Fund"
+     ],
+     "source_url": "https://www.cislunarindustries.com/post/cislunar-industries-raises-2-6m-in-oversubscribed-seed-round"
+    }
+   ],
+   "grants": [
+    {
+     "name": "NASA SBIR Phase II",
+     "amount": 799991,
+     "currency": "USD",
+     "date": "2022-05",
+     "source_url": "https://www.sbir.gov/awards/196212"
+    },
+    {
+     "name": "AFWERX Direct-to-Phase II SBIR",
+     "amount": 1899918,
+     "currency": "USD",
+     "date": "2025-05",
+     "source_url": "https://www.sbir.gov/awards/216671"
+    }
+   ],
+   "funding_source_urls": [
+    "https://payloadspace.com/cislunar-industries-raises-1m-seed-to-scale-production/",
+    "https://www.cislunarindustries.com/post/cislunar-industries-raises-2-6m-in-oversubscribed-seed-round",
+    "https://www.sbir.gov/awards/196212",
+    "https://www.sbir.gov/awards/216671"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Jul 2025 US$1M first close appears to be part of the US$2.6M seed.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed",
+   "last_round_amount": 2600000,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-03-23",
+   "total_raised": 2600000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Colorado ONE Fund",
+    "Stout Street Capital",
+    "RIT Venture Fund",
+    "Deming Center Venture Fund"
+   ]
   },
   {
    "name": "Citizen Hex",
@@ -14530,7 +14647,62 @@
    "cohort_year": "2021/22",
    "batch_date": "2021-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Angel",
+     "amount": 80000,
+     "currency": "USD",
+     "date": "2021-01",
+     "investors": [],
+     "source_url": "https://entrevestor.com/home/entry/frenter-raises-another-350k"
+    },
+    {
+     "stage": "Pre-Seed",
+     "amount": 270000,
+     "currency": "USD",
+     "date": "2021-12",
+     "investors": [],
+     "source_url": "https://entrevestor.com/home/entry/frenter-raises-another-350k"
+    },
+    {
+     "stage": "Pre-Seed (2nd tranche)",
+     "amount": 350000,
+     "currency": "USD",
+     "date": "2022-05",
+     "investors": [],
+     "source_url": "https://entrevestor.com/home/entry/frenter-raises-another-350k"
+    },
+    {
+     "stage": "Seed",
+     "amount": 1000000,
+     "currency": "USD",
+     "date": "2023-05",
+     "investors": [
+      "1517 Fund"
+     ],
+     "source_url": "https://thetechfactor.ca/rental-industry-startup-by-school-kid-gets-us1m-funding-now/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://siliconvalleyjournals.com/frenter-secures-1-million-in-seed-funding-round-to-revolutionize-the-rental-industry/",
+    "https://entrevestor.com/home/entry/frenter-raises-another-350k",
+    "https://thetechfactor.ca/rental-industry-startup-by-school-kid-gets-us1m-funding-now/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Halifax-founded. ~$1.7M total from reported rounds; $1M seed (May 2023) led by 1517 Fund.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed",
+   "last_round_amount": 1000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-05",
+   "total_raised": 1700000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "1517 Fund"
+   ]
   },
   {
    "name": "Frio",
@@ -19522,7 +19694,76 @@
    "cohort_year": "2022/23",
    "batch_date": "2022-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021",
+     "investors": [
+      "Michigan Rise Pre-Seed Fund III (lead)"
+     ],
+     "source_url": "https://spaceinsider.tech/2023/11/06/kall-morris-inc-kmi-advances-space-debris-remediation-efforts-with-us-5-million-in-funding/"
+    },
+    {
+     "stage": "Seed (SAFE)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2023",
+     "investors": [],
+     "source_url": "https://payloadspace.com/kmi-pulls-in-5m-for-debris-removal/"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USSF SpaceWERX Orbital Prime STTR Phase I (3 awards)",
+     "amount": 750000,
+     "currency": "USD",
+     "date": "2022",
+     "source_url": "https://spaceinsider.tech/2023/11/06/kall-morris-inc-kmi-advances-space-debris-remediation-efforts-with-us-5-million-in-funding/"
+    },
+    {
+     "name": "SpaceWERX STTR Phase II - REACCH in-space grappling",
+     "amount": 1500000,
+     "currency": "USD",
+     "date": "2023-11",
+     "source_url": "https://payloadspace.com/kmi-pulls-in-5m-for-debris-removal/"
+    },
+    {
+     "name": "SpaceWERX STTR Phase II - Asteria secondary payload attachments",
+     "amount": 1500000,
+     "currency": "USD",
+     "date": "2023-11",
+     "source_url": "https://payloadspace.com/kmi-pulls-in-5m-for-debris-removal/"
+    },
+    {
+     "name": "Department of the Air Force Direct-to-Phase II SBIR - Laelaps spacecraft",
+     "amount": 1250000,
+     "currency": "USD",
+     "date": "2023-11",
+     "source_url": "https://payloadspace.com/kmi-pulls-in-5m-for-debris-removal/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://msufoundation.org/kmi-gears-up-for-milestone-launch-to-the-international-space-station-aboard-spacex-crs-31/",
+    "https://michiganrise.com/2022/09/08/kmi-awarded-three-orbital-prime-contracts/",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001877509&type=D",
+    "https://spaceinsider.tech/2023/11/06/kall-morris-inc-kmi-advances-space-debris-remediation-efforts-with-us-5-million-in-funding/",
+    "https://payloadspace.com/kmi-pulls-in-5m-for-debris-removal/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Verified domain kallmorris.com; Kall Morris Inc (KMI), Marquette, Michigan, founded 2019, works on space-debris removal and relocation (REACCH grappler, Laelaps spacecraft; REACCH flew to the ISS on SpaceX CRS-31 in Nov 2024). In Nov 2023 KMI announced $5M in combined funding. Payload breaks this down as about $4.25M in SpaceWERX/AFWERX STTR/SBIR Phase II awards plus $750,000 from a closed pre-seed and seed round. Michigan Rise Pre-Seed Fund III led the pre-seed (first invested in 2021), and MSU Research Foundation's Red Cedar Ventures is also a backer. SEC Form D filings show the private money was raised through non-priced instruments: about $258K of debt-type securities (Jul 2021) and SAFEs of $215K (Mar 2023), $180K (Jul 2023) and $140K (Dec 2024), roughly $793K in total. The 'seed' was SAFE-based with no public priced seed round, so status is pre-seed/angel-only. amount_raised uses the company-reported $750K. Grants listed are SBIR/STTR (non-dilutive), and KMI also cites a partnered NASA SBIR Phase II.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed (SAFE)",
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": "2023",
+   "notable_investors": [
+    "Michigan Rise Pre-Seed Fund III (lead)"
+   ],
+   "total_raised": null,
+   "total_raised_currency": null
   },
   {
    "name": "Kapta Space",
@@ -19794,7 +20035,41 @@
    "cohort_year": "2019/20",
    "batch_date": "2019-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed follow-on",
+     "amount": 3100000,
+     "currency": "GBP",
+     "date": "2021-06-08",
+     "investors": [
+      "Quantonation",
+      "Speedinvest",
+      "Mustard Seed MAZE"
+     ],
+     "source_url": "https://tech.eu/2021/06/08/bristol-based-quantum-security-firm-kets-raises-3-1-million-aims-to-protect-data-from-a-new-generation-of-cyberattacks/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://tech.eu/2021/06/08/bristol-based-quantum-security-firm-kets-raises-3-1-million-aims-to-protect-data-from-a-new-generation-of-cyberattacks/",
+    "https://www.quantonation.com/2021/06/09/%F0%9F%9A%80-kets-quantum-security-raises-3-1-million/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Earlier seed amount not found.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed follow-on",
+   "last_round_amount": 3100000,
+   "last_round_currency": "GBP",
+   "last_round_date": "2021-06-08",
+   "total_raised": 3100000,
+   "total_raised_currency": "GBP",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Quantonation",
+    "Speedinvest",
+    "Mustard Seed MAZE"
+   ]
   },
   {
    "name": "Kheiron Medical Technologies",
@@ -22209,7 +22484,71 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 1800000,
+     "currency": "USD",
+     "date": "2020",
+     "investors": [
+      "Founders Fund (lead)"
+     ],
+     "source_url": "https://techcrunch.com/2025/02/25/redalpine-founders-fund-back-magdrives-electric-thruster-business/"
+    },
+    {
+     "stage": "Seed",
+     "amount": 10500000,
+     "currency": "USD",
+     "date": "2025-02-25",
+     "investors": [
+      "Redalpine (lead)",
+      "Balerion Space Ventures",
+      "Founders Fund",
+      "Alumni Ventures",
+      "Outsized Ventures",
+      "7percent Ventures",
+      "Entrepreneur First"
+     ],
+     "source_url": "https://spacenews.com/magdrive-raises-10-5-million-and-opens-u-s-office/"
+    }
+   ],
+   "grants": [
+    {
+     "name": "Non-dilutive grants from UK Space Agency, European Space Agency and other government agencies (aggregate)",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": null,
+     "source_url": "https://spacenews.com/magdrive-raises-10-5-million-and-opens-u-s-office/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://europeanspaceflight.com/magdrive-raises-10-5m-to-advance-satellite-propulsion-systems/",
+    "https://tech.eu/2025/02/25/spacetech-magdrive-secures-10-5m-for-sustainable-space-exploration/",
+    "https://fortune.com/2025/02/25/space-startup-magdrive-satellites-navigation-entreprenuership/",
+    "https://techcrunch.com/2025/02/25/redalpine-founders-fund-back-magdrives-electric-thruster-business/",
+    "https://spacenews.com/magdrive-raises-10-5-million-and-opens-u-s-office/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "magdrive.space (UK electric plasma thrusters for small satellites). ~US$12.3M equity: 2020 round led by Founders Fund (TechCrunch: US$1.8M/£1.4M 'seed'; SpaceNews: US$2M 'pre-seed') and a US$10.5M seed led by Redalpine (Feb 2025); plus 'more than $10M' in UKSA/ESA and other government grants. Round label and amount for 2020 conflict between sources.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed",
+   "last_round_amount": 10500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-02-25",
+   "total_raised": 12300000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Founders Fund (lead)",
+    "Redalpine (lead)",
+    "Balerion Space Ventures",
+    "Founders Fund",
+    "Alumni Ventures",
+    "Outsized Ventures",
+    "7percent Ventures",
+    "Entrepreneur First"
+   ]
   },
   {
    "name": "Magellan Biomedical",
@@ -26544,7 +26883,119 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2700000,
+     "currency": "GBP",
+     "date": "2018-06",
+     "investors": [
+      "LocalGlobe",
+      "Pentech Ventures",
+      "Entrepreneurs First"
+     ],
+     "source_url": "https://www.uktechnews.info/2021/03/23/nplan-secures-13-43-million-series-a-investment-led-by-gv/"
+    },
+    {
+     "stage": "Series A",
+     "amount": 18500000,
+     "currency": "USD",
+     "date": "2021-03-23",
+     "investors": [
+      "GV (lead)",
+      "LocalGlobe",
+      "Pentech Ventures",
+      "Entrepreneurs First",
+      "Sir Ian Davis"
+     ],
+     "source_url": "https://www.uktechnews.info/2021/03/23/nplan-secures-13-43-million-series-a-investment-led-by-gv/"
+    },
+    {
+     "stage": "Series B",
+     "amount": 16000000,
+     "currency": "USD",
+     "date": "2025-10-17",
+     "investors": [
+      "CapHorn (lead)",
+      "Chevron Technology Ventures (co-lead)",
+      "Suffolk Technologies (co-lead)",
+      "GV",
+      "Pentech Ventures",
+      "LocalGlobe"
+     ],
+     "source_url": "https://www.nplan.io/press-releases/nplan-raises-16m-series-b-to-scale-its-ai-led-transformation-of-capital-project-delivery"
+    }
+   ],
+   "grants": [
+    {
+     "name": "Innovate UK – AI-Optimised Pathways for Schedule Execution (nPlan share)",
+     "amount": 324955,
+     "currency": "GBP",
+     "date": "2019-03",
+     "source_url": "https://gtr.ukri.org/projects?ref=104795"
+    },
+    {
+     "name": "Innovate UK – PLASMA digital planning & supply chain toolbox (nPlan share)",
+     "amount": 134166,
+     "currency": "GBP",
+     "date": "2019-03",
+     "source_url": "https://gtr.ukri.org/projects?ref=104801"
+    },
+    {
+     "name": "Innovate UK – AI for managing risk and execution contracts (nPlan share)",
+     "amount": 257849,
+     "currency": "GBP",
+     "date": "2020-03",
+     "source_url": "https://gtr.ukri.org/projects?ref=105877"
+    },
+    {
+     "name": "Innovate UK – Project 105877 Continuity Grant",
+     "amount": 110506,
+     "currency": "GBP",
+     "date": "2020-05",
+     "source_url": "https://gtr.ukri.org/projects?ref=74248"
+    },
+    {
+     "name": "Innovate UK – Data & AI for construction project slow-downs and restarts",
+     "amount": 74819,
+     "currency": "GBP",
+     "date": "2020-05",
+     "source_url": "https://gtr.ukri.org/projects?ref=70629"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.pillsburylaw.com/en/news-and-insights/pillsbury-chevron-technology-ventures-co-leading-16m-series-b-nplan.html",
+    "https://news.sky.com/story/alphabet-venture-arm-gv-backs-uk-machine-learning-start-up-nplan-12254422",
+    "https://digitalconstructionplus.com/nplan-secures-16m-to-scale-ai-project-de-risking-tech/",
+    "https://www.uktechnews.info/2021/03/23/nplan-secures-13-43-million-series-a-investment-led-by-gv/",
+    "https://www.nplan.io/press-releases/nplan-raises-16m-series-b-to-scale-its-ai-led-transformation-of-capital-project-delivery",
+    "https://gtr.ukri.org/projects?ref=104795",
+    "https://gtr.ukri.org/projects?ref=104801",
+    "https://gtr.ukri.org/projects?ref=105877",
+    "https://gtr.ukri.org/projects?ref=74248",
+    "https://gtr.ukri.org/projects?ref=70629"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "nPlan (nplan.io), London AI schedule-risk forecasting for construction/capital projects, founded 2017 by Dev Amratia and Alan Mosca at EF. ≈ $38.3M equity: £2.7M seed (Jun 2018), $18.5M (£13.43M) Series A led by GV (Mar 2021; company said $22.3M raised to date), $16M Series B led by CapHorn with Chevron Technology Ventures and Suffolk Technologies (Oct 2025). Also ~£900K Innovate UK grants. Seed investors listed are those reported in the Series A release, not confirmed as seed participants individually.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Series B",
+   "last_round_amount": 16000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-10-17",
+   "notable_investors": [
+    "LocalGlobe",
+    "Pentech Ventures",
+    "Entrepreneurs First",
+    "GV (lead)",
+    "Sir Ian Davis",
+    "CapHorn (lead)",
+    "Chevron Technology Ventures (co-lead)",
+    "Suffolk Technologies (co-lead)",
+    "GV"
+   ],
+   "total_raised": null,
+   "total_raised_currency": null
   },
   {
    "name": "NSave (pka Masref)",
@@ -36531,7 +36982,51 @@
    "cohort_year": "2022/23",
    "batch_date": "2022-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5400000,
+     "currency": "GBP",
+     "date": "2025-07-25",
+     "investors": [
+      "UK Innovation & Science Seed Fund",
+      "Foresight Group",
+      "Blackfinch Ventures",
+      "Seraphim Space"
+     ],
+     "source_url": "https://foresight.group/news-insights/news/2025/spaceflux-raises-54-million-in-seed-funding/"
+    },
+    {
+     "stage": "Seed extension",
+     "amount": 3500000,
+     "currency": "GBP",
+     "date": "2026-04",
+     "investors": [],
+     "source_url": "https://spaceflux.io/spaceflux-raises-9-million-to-expand-space-intelligence-globally/"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://foresight.group/news-insights/news/2025/spaceflux-raises-54-million-in-seed-funding/",
+    "https://spaceflux.io/spaceflux-raises-9-million-to-expand-space-intelligence-globally/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Total seed £9M per company.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Seed extension",
+   "last_round_amount": 3500000,
+   "last_round_currency": "GBP",
+   "last_round_date": "2026-04",
+   "total_raised": 8900000,
+   "total_raised_currency": "GBP",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "UK Innovation & Science Seed Fund",
+    "Foresight Group",
+    "Blackfinch Ventures",
+    "Seraphim Space"
+   ]
   },
   {
    "name": "SpaceRake",
@@ -40549,7 +41044,96 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1350000,
+     "currency": "GBP",
+     "date": "2020-03",
+     "investors": [
+      "Global Founders Capital (lead)",
+      "Jane VC",
+      "SGH Capital",
+      "angels"
+     ],
+     "source_url": "https://techcrunch.com/2020/03/12/unitary/"
+    },
+    {
+     "stage": "Seed",
+     "amount": 8000000,
+     "currency": "USD",
+     "date": "2023-03-07",
+     "investors": [
+      "Plural (lead)",
+      "Matt Robinson",
+      "Chris Mairs",
+      "Carolyn Everson"
+     ],
+     "source_url": "https://www.unitary.ai/articles/unitary-raises-8m-our-story"
+    },
+    {
+     "stage": "Series A",
+     "amount": 15000000,
+     "currency": "USD",
+     "date": "2023-10-03",
+     "investors": [
+      "Creandum (lead)",
+      "Paladin Capital Group",
+      "Plural"
+     ],
+     "source_url": "https://www.unitary.ai/articles/unitary-raises-15m-series-a-to-keep-digital-communities-safe-by-classifying-the-internets-information"
+    }
+   ],
+   "grants": [
+    {
+     "name": "Innovate UK – Shear: video understanding to automate content moderation (Unitary share)",
+     "amount": 265840,
+     "currency": "GBP",
+     "date": "2020-11",
+     "source_url": "https://gtr.ukri.org/projects?ref=71653"
+    },
+    {
+     "name": "Innovate UK – Spinor: algorithms to identify abuse in online text",
+     "amount": 50000,
+     "currency": "GBP",
+     "date": "2021-03",
+     "source_url": "https://gtr.ukri.org/projects?ref=96773"
+    }
+   ],
+   "funding_source_urls": [
+    "https://sifted.eu/articles/ai-unitary-raises-8m-plural-news",
+    "https://techcrunch.com/2023/10/02/unitary-ai-picks-up-15m-for-its-multimodal-approach-to-video-content-moderation/",
+    "https://creandum.com/stories/welcome-unitary-ai/",
+    "https://www.unitary.ai/",
+    "https://techcrunch.com/2020/03/12/unitary/",
+    "https://www.unitary.ai/articles/unitary-raises-8m-our-story",
+    "https://www.unitary.ai/articles/unitary-raises-15m-series-a-to-keep-digital-communities-safe-by-classifying-the-internets-information",
+    "https://gtr.ukri.org/projects?ref=71653",
+    "https://gtr.ukri.org/projects?ref=96773"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Unitary (unitary.ai), London company founded 2019 at EF by Sasha Haco and James Thewlis; began in AI video content moderation and has since pivoted to 'Virtual Agents' automating operations work (matches EF description). Raised ≈ $24.7M equity: £1.35M seed led by GFC (2020), $8M led by Plural (Mar 2023; Plural's Ian Hogarth described it as a $10M seed), $15M Series A led by Creandum (Oct 2023). Total uses ~$1.7M for the £1.35M round.",
+   "funding_checked": "2026-10-20",
+   "last_round_type": "Series A",
+   "last_round_amount": 15000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-10-03",
+   "notable_investors": [
+    "Global Founders Capital (lead)",
+    "Jane VC",
+    "SGH Capital",
+    "angels",
+    "Plural (lead)",
+    "Matt Robinson",
+    "Chris Mairs",
+    "Carolyn Everson",
+    "Creandum (lead)",
+    "Paladin Capital Group",
+    "Plural"
+   ],
+   "total_raised": null,
+   "total_raised_currency": null
   },
   {
    "name": "Unravel Biosciences",
