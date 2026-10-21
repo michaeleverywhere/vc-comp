@@ -60,6 +60,13 @@ def is_master_file(name: str) -> bool:
 def _dumps(rows) -> str:
     return json.dumps(rows, indent=2, ensure_ascii=False) + "\n"
 
+FUNDING_KEYS = (
+    "total_raised", "total_raised_currency", "total_raised_basis",
+    "last_round_type", "last_round_amount", "last_round_currency", "last_round_date",
+    "funding_rounds", "grants", "notable_investors", "funding_status",
+    "funding_source_urls", "funding_notes", "funding_checked",
+)
+
 _LOC_KEYS = ("location", "headquarters", "hq", "hq_location")
 _STAGE_KEYS = (
     "stage", "current_stage", "initial_investment_stage", "investment_stage",
@@ -182,6 +189,11 @@ def build(data_dir: Path | None = None) -> list[dict]:
             }
             # Never-remove rule (2026-10-20): carry listing dates when the dataset has them.
             for k in ("listed_on_site", "first_seen", "last_seen", "delisted_date"):
+                if k in r:
+                    row[k] = r[k]
+            # Funding enrichment (2026-10-20, funding_all routine): carry public-source
+            # fundraising fields when the firm dataset has them (never invented here).
+            for k in FUNDING_KEYS:
                 if k in r:
                     row[k] = r[k]
             combined.append(row)
