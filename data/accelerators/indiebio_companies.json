@@ -859,20 +859,35 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": true,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rODNzLTI1S0dKaGtCeExHZkpMUnF5bVgxZWhyWFlUVW5JODZCQTB5OVlHVUVaa2VINW9ORVctbENlR0liaHZmdUJaYUpfV2F6LW9leFpHSQ?oc=5"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://hyivy.com/"
+    "https://hyivy.com/",
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rODNzLTI1S0dKaGtCeExHZkpMUnF5bVgxZWhyWFlUVW5JODZCQTB5OVlHVUVaa2VINW9ORVctbENlR0liaHZmdUJaYUpfV2F6LW9leFpHSQ?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSVJvcUx4VEVwT2tXN2tqaWV6V0c0aUFxV29XSVBSbG5BM2xUOFRQRGZKUTVtSDJjai1RTTkxdWI5bkVlbmZlQzh0Qk0yRHJZbWs5NjZZVDBzUFpYcVRnOGRYRHdFbFpiZmRhbk9Lakh6XzlPc083a1VXQUZKRVR5U3FTZTlrU0JyanZLbG5lWXAwNm1TOEwwTjNFeEhqS2pIOTJVZF9SSms1UXZYbzNsUw?oc=5",
+    "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xSkNMZ05VV21zeXZqa2RHeW5KYlFEVWgxUXNRUDZXN2hDRlFIZ2hsOEQ3Q3djS0hJeEIwVGRBaTBlTDRyamFuVF9sSTNHbElCRG1FT3JSdU9ZQWxscUE?oc=5",
+    "https://www.newswire.com/view/content/hyivy-health-secures-2m-seed-to-unlock-new-model-for-treating-pelvic-22429247",
+    "https://markets.financialcontent.com/wral/article/accwirecq-2024-9-27-hyivy-health-secures-2m-seed-to-unlock-new-model-for-treating-pelvic-pain"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 2000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Gilly",
@@ -2179,9 +2194,12 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
+   "funding_source_urls": [
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVnV4NFhPckd4OHRod2VhWENnOENpTmpJaFNXNlJhOVI2dm9ROGF4YXVWS0hhT0xydUkxTEpWOVM1LWZ0bGs5c1B1ZUw5aEdKeHVrcHEzMDR0Sm5adXZmUjJGd3VtMkQ1UkpCOFoycHhJTDZBd2FKQzZ5OHlmaDRPUlV2RE40Rm1Tajcyd2s3ZFdzR3ZhWXVjZENwWDBkd2pYQkNCMDhLZGtYTV9uMzF4WndNazhxOUZicmhJb3BQUzBTVFVvMEhwdjh5U2RvQ3RBNnNqaHNoMA?oc=5",
+    "https://wwd.com/sourcing-journal/industry-news/athos-racks-up-35-5m-in-funding-for-smart-apparel-1238702417/"
+   ],
    "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3379,9 +3397,15 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
+   "funding_source_urls": [
+    "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPN3RNNXJxRDlKd0NHVk43Qk5DalRYaXhuNTQ0MHoxQVBld19Fc0s1R1VqWld2d1g1ZnQtVWhTc1VGS1owLU9OZWFQOFdZeVNERS1FeFM0a00zNnM5Qi1ueWZseDBBRWkxeVBySkwwOE1JMkxDWWNhM1IwWHVFMU1WVi1mSk80RTZnMTVOQUI0YmVEbkNlandUa2NqdnZIeDBzNTNSZlNCLVZHd2p3ZUxkZUpVUjRXMms3cEFnOENYOTRmV1g1blRWNkNSNW93cEJXRk1KTXZZVFlIRTdQbTJQN1pVd3BkZDlraEZ2TVdxUERweDBqa1B6ajRCRHo?oc=5",
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdmtPYlBvZnZRUXE1WmhnX1pPeFlRM19HZW0tRlBQb2QtbVVUbVdGOHU3S250TjZOTUIxalVoWWZhMGI3OTg1RXBGWEd3X1Z5dk43Uk5DRWFyYUNpbG9zeTk3UnZMYWdMcktrWjNXZDB2RVkzSG5GcnVCQ2ZjNTlYbVptc0FTN25CeWFoZTktWE1uMUU3b2lFNWhqZ0k3aVZsODY4aG9GOXZpREs4NDJIeGdPeTZTc3Q2NmxPQ2lWQmIwYWlPeHFHZ2M1SENIdG85aGlkaDJXVDluMl9OaDN3?oc=5",
+    "https://pulse2.com/tippingpoint-biosciences-4-5-million/",
+    "https://pix11.com/business/press-releases/cision/20240904SF96632/tippingpoint-biosciences-closes-new-funding-to-support-drug-for-rare-pediatric-brain-tumor/",
+    "https://www.victoriaadvocate.com/tippingpoint-biosciences-closes-new-funding-to-support-drug-for-rare-pediatric-brain-tumor/article_614b51a7-9eb3-5f76-9561-289ca0374a57.html"
+   ],
    "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -6727,9 +6751,13 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
+   "funding_source_urls": [
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVEhsdUtFaktIT3ByN1o5d2tqenlTTnpGQnByWXpUZTlzRkxDN1ZvYlBCZDNlSDZKZWwyMEFLbmE2T0hvQVhpVXA2VGIxeWVIQkM4RWxlZC1KcmdSM0lHZUZmR21BSG12aEdPS1QydTdmMXNIR1ZZNjNQMVFGbEoxNjJwY2hZYnQtbGRadU9lUml6WW8?oc=5",
+    "https://www.businesswire.com/news/home/20230518005056/en/BiomeSense-Closes-Oversubscribed-3-Million-Funding-Round",
+    "https://www.bizjournals.com/chicago/inno/newsletter/31454085?limit=20&skip=100"
+   ],
    "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
