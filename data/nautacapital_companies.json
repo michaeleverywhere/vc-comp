@@ -980,7 +980,35 @@
     ],
     "primary_investor": "Nauta Capital",
     "source_url": "https://www.nautacapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:54.624632+00:00"
+    "scraped_at": "2026-10-07T13:20:54.624632+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2021-11-10",
+        "investors": [],
+        "source_url": "https://www.kubermatic.com/blog/kubermatic-raises-6m-in-seed-funding-to-accelerate-growth-automation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kubermatic.com/",
+      "https://www.kubermatic.com/company/press/",
+      "https://www.kubermatic.com/blog/kubermatic-raises-additional-2-3m-seed-funding/",
+      "https://www.kubermatic.com/blog/kubermatic-raises-6m-in-seed-funding-to-accelerate-growth-automation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-10",
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BoxyHQ",
@@ -1821,10 +1849,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.holded.com/"
+      "https://www.holded.com/",
+      "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Pd2RtbkdBNi01b18zQ291dTdmZlhPMHRSN05pNndwLU5qcGFJa3RPV21oOWlTRGxTTlVQeU5FLWh2Rm9wNHVyQzZvWWhDRW04XzR4bQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMVFvdTF1U1BWLUg0ZUhDNnVmVTlKUklhcTN4d2xKd2hWcmliQlJYanFnMVlRdnhhQm52TjdpMFF3QUhTcS03MEJzdUdOYjlYT3NjQXU1b3owTXpkalE0dTFIaHRha280VV9jYmxIOXFleTVzai1CQ0oyejdiczFjbWFwN1A5SHczSVZUcXpxYnNvUTRjc0d3M2lJLXNmeUV0ZDNxYWgtZ3o?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZDBtMGZVaWtQMHRiSDFvYm9WbmtmWnR3S3ZTNGIwekhLaG0wUmN5TnR6WGVuajZJQmN3aUtCdmRLTGlmc25IX2JqZWx2RXl4ZU85Y0tMa3Z1UGNtLXZtQ0ZLZklLVWtPcG16b0l2bHdhVXM3NHJzTTVzRlhwX1UxZjFFUDlkdUZkdHQ1TjlJQVhjVG9oUnNtVTdaUGt5WW96Q1FJOXRLandtUlFTUWR3X0VaT0VyM3lhTUJFNjZacUw1ZmM?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

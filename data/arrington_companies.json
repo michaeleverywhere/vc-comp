@@ -768,10 +768,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://debridge.com/"
+      "https://debridge.com/",
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aM2o4SFNPdWg1RllWU2M2NlZZQkFQb1p4eXczT3R3Y0FmeFJFdFNCZjlyU0l0X2M2eHhORWtsODRGdl9GUXdKYl9tTko0Yk9kNFlzSzh0UXVQQjFOS3k2OGdn?oc=5",
+      "https://www.investing.com/news/cryptocurrency-news/debridge-announces-55m-fundraising-five-months-after-winning-the-chainlink-hackathon-2609494?fr=operanews"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1090,18 +1092,33 @@
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
     "scraped_at": "2026-10-16T20:27:27.419088+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2021-03-25",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/esprezzo-raises-2m-to-bring-no-code-automation-to-crypto-investors-nft-creators-collectors-and-defi-enthusiasts-301255372.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://pulse2.com/esprezzo-raises-2-million/",
+      "https://www.prnewswire.com/news-releases/esprezzo-raises-2m-to-bring-no-code-automation-to-crypto-investors-nft-creators-collectors-and-defi-enthusiasts-301255372.html",
+      "https://uk.finance.yahoo.com/news/mark-cuban-backs-crypto-data-151511417.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Eternal",
@@ -1282,7 +1299,23 @@
     ],
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
-    "scraped_at": "2026-10-16T20:27:27.419088+00:00"
+    "scraped_at": "2026-10-16T20:27:27.419088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gizatech.xyz/",
+      "https://www.gizatech.xyz/press",
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYkFEeHBtekdQWVAwWXNib0g4bl9wTUxaZWNXX0FZV0d2WnFqbnV0RUlUX2E4bkNVMmNyZC1aWElJRmhheTR0aERlQ2NaeDM4WDlIVjVjQUpLa1FZUVg5YWJBUDNBbnpaRm9VSmtZNi1vaFh5SE1ZUFpXN2dmNjFxY3FFdG1jNVp2cjV4elI2RkpEU05PcmNZSEs5a2YzeG9kVlpvbDlKUGFjWDdsa1l4MnBRSm0wY3ZkOXFUaG5TeFFZMTE4dmRkRjlsamMzZG96c3J2ZHFnQVlVaHdUMnY0d2dHVC1ySnJGZTFyRw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Glacis",
@@ -1306,20 +1339,34 @@
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
     "scraped_at": "2026-10-16T20:27:27.419088+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQjNJcjZqdGVGcDR0c2tzMjRtcExzUENlUl9hZGhBVjBRVm1tU3RsTUowaS0tenljNTk2dFptOXhxWEhTUVpVcWN4b05HT3hnalhUR1kxOF8yNnhWd3NvSXN1TUpUbnBiczRkY012UWc2SmZTelRiN1VNOWhUMkV2MA?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.glacislabs.com/"
+      "https://www.glacislabs.com/",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQjNJcjZqdGVGcDR0c2tzMjRtcExzUENlUl9hZGhBVjBRVm1tU3RsTUowaS0tenljNTk2dFptOXhxWEhTUVpVcWN4b05HT3hnalhUR1kxOF8yNnhWd3NvSXN1TUpUbnBiczRkY012UWc2SmZTelRiN1VNOWhUMkV2MA?oc=5",
+      "https://finance.yahoo.com/news/glacis-secures-2-million-seed-165000131.html",
+      "https://www.streetinsider.com/Accesswire/Glacis+Secures+%242+Million+in+Seed+Funding+to+Transform+Chain+Agnostic+Operations/23201003.html",
+      "https://www.finanznachrichten.de/nachrichten-2024-05/62189829-glacis-labs-glacis-secures-dollar-2-million-in-seed-funding-to-transform-chain-agnostic-operations-200.htm"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Gridiron",
@@ -1747,7 +1794,23 @@
     ],
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
-    "scraped_at": "2026-10-16T20:27:27.419088+00:00"
+    "scraped_at": "2026-10-16T20:27:27.419088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://krystal.app/",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcDVZX0cxYlpNR3c2WmRjQWhITndJNzluYVA1NDRXeGJ5Qm04MVBsc1d1RllTem9xX1ZKSnNzY1pDZVc0UzFKbnV2SnlEakdpN3hORWZtOTZaZG01Xy1QeFJuUDJnT0Q3dUFVUFhSb3ZlYWJwcWVSNnhGdWdvUGpkTXEza3pTUFVIYzBUYWp4OU9HVWRCUHk5Zkt2Rlp4eVpPT0Qtb2ZGZlphLXBUT3UtMDltbmN5N09BcUdiNWMxUWQ2ZU5IaVFPMlg0cTRHeWJj?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRGVzaklGWFUtSFBHSmNlMGNpd2FaNUI1VmdnTDFUMjctd29DWVdGbDJ0b2p3bUttQ0ptTFo0RUdaNlRLRkhxcmlBcmJjU1VqbGowa251NG5JZHQ5WUN4Z1FVMTB3Y3NtcHQ5TkpJcC1memRaU2hJNEFJY2FYYlFYYUhDTGMyX3lfSHBJYmxwcnE4Uk9pbVRlcQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kyte Research/AirLyFt",
@@ -1943,7 +2006,21 @@
     ],
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
-    "scraped_at": "2026-10-16T20:27:27.419088+00:00"
+    "scraped_at": "2026-10-16T20:27:27.419088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://mayan.finance/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mellow Protocol",
@@ -1979,7 +2056,21 @@
     ],
     "primary_investor": "Arrington Capital",
     "source_url": "https://www.arringtoncapital.com/portfolio/",
-    "scraped_at": "2026-10-16T20:27:27.419088+00:00"
+    "scraped_at": "2026-10-16T20:27:27.419088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://merkle.trade/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MetaGoons",

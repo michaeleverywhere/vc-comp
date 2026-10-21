@@ -626,10 +626,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.currencycloud.com/"
+      "https://www.currencycloud.com/",
+      "https://pulse2.com/currencycloud-raises-80-million/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1015,18 +1016,37 @@
     "primary_investor": "Forgepoint Capital",
     "source_url": "https://forgepointcap.com/companies/",
     "scraped_at": "2026-10-15T13:23:36.771370+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZTF2OHlmMnVWclVUZVI2RHdtSmR2cndrQ1VZWE42UlA1UFdVWHlUWEJ6QURNa1VtSnFWMHpiMWJXLURvR2VZMGpEb1U0em1wOVdzMy1ibG5KbVZRRWlPYVdNbVAxenlDamhQckpPTERvR2ppcGV0SEhwSm5Pc1ZSUjFrcl9TWGZnSUxVSHF6cU10M1cza0pJcmE2cDlZZ2k4SEVkdF9QejVUWWg4LVdqUjF0MlAxei0tMnNoaGx2cWdlUE02bXZfRTZac1RqeHI1emxlUEtIS1hJdTJsMW1hZlJtNA?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZTF2OHlmMnVWclVUZVI2RHdtSmR2cndrQ1VZWE42UlA1UFdVWHlUWEJ6QURNa1VtSnFWMHpiMWJXLURvR2VZMGpEb1U0em1wOVdzMy1ibG5KbVZRRWlPYVdNbVAxenlDamhQckpPTERvR2ppcGV0SEhwSm5Pc1ZSUjFrcl9TWGZnSUxVSHF6cU10M1cza0pJcmE2cDlZZ2k4SEVkdF9QejVUWWg4LVdqUjF0MlAxei0tMnNoaGx2cWdlUE02bXZfRTZac1RqeHI1emxlUEtIS1hJdTJsMW1hZlJtNA?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSXhpa0cyaWV5M0UzTlJHOUdzMUs0SEFwenJmb0RDTVVhU2h6SGU4N2h3TzNnOEwyNzNQMkJMaHFEODN4YnF6Z0ZXc1c4ZkZjNEZNcDFKOEhWN1JudmJudEJFVEREZWhzY0ZHNjhPM3pNY2FxUnZ2U05rbmFQbFduQlBZMG9nNW93MWhDatIBkgFBVV95cUxObUdWY1lITVdDM1gzc2dtdWsybXhtYWIwRUlFU3k0THc3dEx4NV9PVlE5TWRkc2hsX05DZG9lV2lQT091RFkybDk4aFh0aVoyVU02bUdJSHlVWUlKbU1qNlAzd3N2cFBraWoyM0hZbVBtbzBsblFUNzN1ZkdhYzZSLUdBNy1STVdUN3hOemljWF9Udw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdVduYkFVanJJdnNFSnR1d2UybWp1Nm1Udy1GWjlqN3VfdzV4QVU1aEVtOUo1SFZuNXdHSm42akE0TUZTeVdDWUt2aW8zVW05WVVDX3Y3c1U5bHdtcThjcWNPVXpvQXpuV3NBZ2RTZkl6VnctZ3dRSUFyQ25ScmV6cHRnTDJhbjY0UGJKZg?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0E2aFFhNkhlTFdQb1hmYjEtbUNIbTlfNFlvc0RIT05SWkUxV2JHTllINEdSQVJBeUROQzJ3MW5QbEZ6VnVFLS1DVTMtWHlUTG9OaUNXakpvVDZSSEN2QWZwdWVvWWRWMXkxd3U2Uk14c1pWNDUyMUl5c1N0cDM0S19fbGl5Z0RsVlo2b3AxT1FsZFg1OHI5c3BPZmE2MzRVdktVT2tkRVNmS1RFb0dvRUF4Z2pJcmI2Z1YzQmh6elQ5R3c?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdXNCSURtc3JCdlVuUVM0aHlRYzZRS1dmSV8zQ2VMOUgxZ29LTklaZjJHX1l6eG1BMzAxUUdXeXp0dUZqeDhHTE5IdGE2RUtDUU9LQzR3ckpJcEpKR3N5MF8tZlFWMjRyN1FtRnY2ODNuUktzdFRBeURydllDWW1lWFhrUnlMa3IxMGMycDc2NVluRk1paG9vc00tNXZGTU1mRTJqU1Bna1dCMkpmWlHSAbMBQVVfeXFMUFd3NklRWlVKVDZSWVNONzdWd1E0dzA2QlFMaHJCNUM2dC1rYlZqRTJWSlFLMjZqSUZFcXA3MjJsY18wZW54RFlFZ3ZhaWwzbmkydkxoZnY5OVdoOXdnVTlhMXN1RmtoUFNUX2dpdXVvRWI1aGd3RTdPRU1GSF9ZNGdHTzlKMzFmbGR4RmpoVGdHY09OVmxqd28xNlFEVDhydjRXcEg1QkZHbUtoOXcwZlFoMG8?oc=5",
+      "https://finance.yahoo.com/technology/ai/articles/discern-security-raises-13-million-123800927.html",
+      "https://www.morningstar.com/news/pr-newswire/20260730ph15571/discern-security-raises-13-million-series-a-and-launches-agentic-loops-to-close-security-gaps",
+      "https://www.aol.com/articles/discern-security-raises-13-million-123800000.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EfficientIP (Francisco Partners)",
@@ -1148,7 +1168,34 @@
     ],
     "primary_investor": "Forgepoint Capital",
     "source_url": "https://forgepointcap.com/companies/",
-    "scraped_at": "2026-10-15T13:23:36.771370+00:00"
+    "scraped_at": "2026-10-15T13:23:36.771370+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": "2026-06-24",
+        "investors": [],
+        "source_url": "https://www.getrealsecurity.com/resources/getreal-security-raises-17-5m-series-a-led-by-forgepoint-capital-to-address-rapidly-growing-threats-associated-with-generative-ai-and-malicious-digital-media",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.getrealsecurity.com/",
+      "https://www.getrealsecurity.com/about-us",
+      "https://www.getrealsecurity.com/resources/getreal-security-raises-17-5m-series-a-led-by-forgepoint-capital-to-address-rapidly-growing-threats-associated-with-generative-ai-and-malicious-digital-media"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 17500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-06-24",
+    "total_raised": 17500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Gutsy",
@@ -1349,10 +1396,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.interos.ai/"
+      "https://www.interos.ai/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbGExZl9kV2xXcWNmUWFmelREMzl0cEdwakhleGhpVElDOWJBekhRRDNmNnFhOXZoUzBsS3NXRUJzcEdKYzBJMFMxTW00ZDU3LU9idE1nTW5tQzZMRmxtbmVPSWlxME1kanhJT0JfZXEwTmVRY19CbkMxeHBjR1Q5NzJnaTdfSDhOdVliQnRkZE0wd2FkdTM5Q1EtREJES3lxNEVuZjlOLWhNdXNB?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRG9XcVZiRGJ4R1ZSOEl0VkI0TE5ENi14RGZ1eXVxTkY4eE9QYmYtX0kwSWE3QWJsUGJ6T0NvLWZPRGx0Z2xLMUsyNlFEbWFyRnlmeS1BeVlKWndvRzVWZzR3dUFoOXZnQWFBU1czbGQzaFVfUnNJcWlna0RuaWtvYkdwVGo?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTW9RUXlNUXFnUmpjX3F2YTVOUW1DNnRJVW1wLUxYaW9ES1BUV0l0OFMwMG8zRnhac3BmWW5oeG1wb3FfVEJIT052am5qSEl2U01UZVRwZ25wWVA0Z3lzU2x3cjJVTjRBYmhlbXlJa0M1VVlGMTdRb0JJNUJMZjBIOVkzemVqSGI1RmRfQ1Zyc2NVVV9pbmNJMHRIelNLV3dvc0hBX1dpX1JCZw?oc=5",
+      "https://pulse2.com/interos-17-5-million-funding/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

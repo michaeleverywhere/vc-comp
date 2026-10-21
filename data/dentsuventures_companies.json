@@ -453,7 +453,22 @@
     "everywhere_tags": [],
     "primary_investor": "Dentsu Ventures",
     "source_url": "https://dentsu-v.com/",
-    "scraped_at": "2026-10-21T00:01:53.082420+00:00"
+    "scraped_at": "2026-10-21T00:01:53.082420+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fundit.jp/",
+      "https://thebridge.jp/en/2025/01/fundit-secures-series-b-funding-to-accelerate-smb-it-business-rollups-raised-from-mizuho-bank"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Grail (acquired by Illumina)",
@@ -594,7 +609,21 @@
     "everywhere_tags": [],
     "primary_investor": "Dentsu Ventures",
     "source_url": "https://dentsu-v.com/",
-    "scraped_at": "2026-10-21T00:01:53.082420+00:00"
+    "scraped_at": "2026-10-21T00:01:53.082420+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kakacreation.co.jp/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kognitos",
@@ -603,7 +632,74 @@
     "everywhere_tags": [],
     "primary_investor": "Dentsu Ventures",
     "source_url": "https://dentsu-v.com/",
-    "scraped_at": "2026-10-21T00:01:53.082420+00:00"
+    "scraped_at": "2026-10-21T00:01:53.082420+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1599999.0,
+        "currency": "USD",
+        "date": "2021-02-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1845562/000184556221000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7374999.0,
+        "currency": "USD",
+        "date": "2022-11-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1845562/000184556223000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-11-09",
+        "investors": [],
+        "source_url": "https://www.kognitos.com/news/kognitos-raises-20m-in-series-a-funding-round-led-by-khosla-ventures/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24499996.0,
+        "currency": "USD",
+        "date": "2025-03-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1845562/000184556225000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 6750000.0,
+        "currency": "USD",
+        "date": "2026-04-08",
+        "investors": [],
+        "source_url": "https://www.kognitos.com/news/kognitos-raises-6-75m-seed-to-bring-the-power-of-generative-ai-to-enterprise-automation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kognitos.com/",
+      "https://www.kognitos.com/news/kognitos-launches-neurosymbolic-ai-platform-for-automating-business-operations-backed-by-25m-series-b/",
+      "https://www.kognitos.com/news/kognitos-raises-20m-in-series-a-funding-round-led-by-khosla-ventures/",
+      "https://www.kognitos.com/news/kognitos-raises-6-75m-seed-to-bring-the-power-of-generative-ai-to-enterprise-automation/",
+      "https://www.sec.gov/Archives/edgar/data/1845562/000184556221000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1845562/000184556223000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1845562/000184556225000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 6750000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-04-08",
+    "total_raised": 60224994,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Livelike",

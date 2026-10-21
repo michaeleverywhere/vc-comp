@@ -982,20 +982,37 @@
     "primary_investor": "Kaszek",
     "source_url": "https://www.kaszek.com/companies/",
     "scraped_at": "2026-10-08T14:45:10.094871+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb3BzazFoWEFRTk5HMTN0UVg2RTA3ZGptbmxFSEdkSDhHdHQ2VUNRZXgwalBodFVfWFR2RFRvMjZuY3JScXZUazhObXF0S3NSVUk1SmFzNzYtU05SLWl5eHRMeDBtQ1E1OUI5cXZHMzZpX1lNTGQzWEZPbTNlUGdtVDhKcG9WYkNOSW9xRVU3TThYT2VPRml0ZUxiUjNzVEU0Q1pDak5qUXRsZWo1eDZPNGJWTXpyQl9SNjBvMDhEeUxkdUpSc0E4eDVaZTA0Y1h3V2c?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.crabi.com/"
+      "https://www.crabi.com/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb3BzazFoWEFRTk5HMTN0UVg2RTA3ZGptbmxFSEdkSDhHdHQ2VUNRZXgwalBodFVfWFR2RFRvMjZuY3JScXZUazhObXF0S3NSVUk1SmFzNzYtU05SLWl5eHRMeDBtQ1E1OUI5cXZHMzZpX1lNTGQzWEZPbTNlUGdtVDhKcG9WYkNOSW9xRVU3TThYT2VPRml0ZUxiUjNzVEU0Q1pDak5qUXRsZWo1eDZPNGJWTXpyQl9SNjBvMDhEeUxkdUpSc0E4eDVaZTA0Y1h3V2c?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYzRzR1ZQY2UwbnZpRkFKOU1iRkVjcUZzUEt3RVFxaWJpb1psaWVhci1TRXEwalRKTV9fMzVVZFlhWkVSdVZKeXdFU0IwWFRUUjMwY2ZlbzNOa0dra3dudy10aFBNbEU3RVROTW9pcGx4M1dacWFVbFdEYVlJM3lGdEtIWW1mNDZWMC04UEl5TdIBlAFBVV95cUxOWlhIREZwMGJDalFFR2lDMTlDOVNBMEdXbzZwS2kybV9PMkJwSEdFRmVlSDZ4SDBad1JSUEtEVXlaSk1EcVhrWnZMYl9XWnlSSnJsNmRMU2tGX2xEVTk3Nk5kbV9CVEJfaEo0NjJFSHlqSVhxZlUzeHNoWmctRkV1NElSWFU3cmc0Qk16Q1FrOFppLXJE?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdGx3My0yY0VFbVZKR2pvcE5TZWFfNEdUQXJOeHN6RVBSd3VsZjBqV1cydWd1Tzg1ZlZmV1JfZUs4SDBjbXMxR3Vya1J3bndKbXFVbnJmTlR5UTcyTWQzRW5FdXJ4c2x0V2RHcG5yZEhxX29rR3cwMEw2QU54Unp5YmNldFUzWjZZMmxXUjVaLXdnVGhPWUlKTg?oc=5",
+      "https://pulse2.com/crabi-13-6-million-raised-for-scaling-access-to-auto-insurance-across-mexico/",
+      "https://finance.yahoo.com/news/crabi-raises-13-6m-scale-132000559.html",
+      "https://www.crowdfundinsider.com/2025/06/241241-insurtech-crabi-raises-13-6-million-in-funding-round/",
+      "https://www.prnewswire.com/news-releases/crabi-raises-13-6m-to-scale-access-to-its-ai-driven-auto-insurance-across-mexico-302474346.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 13600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Crack The Code",
@@ -1054,10 +1071,16 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.creditas.com/"
+      "https://www.creditas.com/",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YTjZiZHNIMlk3dXJJQ0JRRnB4MURCRXRDcGRXY2tWODJfbDgwZFZVVlNsWmd4cnU2UE5xRlBaVWUwdnVfSkdWeEFwWkV2bG54dlZCSkZsendTNTlqWUpjRV9WVDR5SzE4b1E5Z0Z5U2NkSUhhd1HSAXtBVV95cUxQaTMxRktUSllwSkgyMFVWa01ERnpLbVl0c3pnZkhFT0NBZjQ0dVVIb29hN1ZlQkYzT0swdHRzZVZSckJyNWxMbDY4VS1IeUNLZFY0SUx5X0o3Z2J1Vm1SOVB2VVdPa3c3NWVRX3Fqa3hwX0U0T0tWQm9RZnM?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0Y4NklXdWpLYUhLdi10T2hPRFZJSWlQOU9ubjBDVy1rVHFwTlMxa1pyelFoNzJTbHZpU0xnVkt6Ym4tdFNIakRnRk5TNGFPaVd5RENmZDJYYU0zd2RCTnZJbzkwbzVuV0ppOGltSE5pYWYzcERaTFluaW51eVpDdVV6VXlSUklxTzU1Z1BDSEdTSHdrcUNNaDRDZGp0VUUtQjRMUmxhTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRUJkdm4xZkp6WFZZblh3UXhETm1kaE9YcW91ekhfVUZUakdkSUFzZ1pSaFdXZlhoY1JEb004X0JJUFFuTTRkY0ZaMExzczJfQXQ5UWtYbmNKQ01GTGFSY0RzWEJ0MWoxRFNsY3pHa0lrZHpuQ3REUHk5VGZKaTJxMzNn?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeldWM3hhZXU1OEJVWjViQXpoa3N5NFFaUzJSd0ZFUWp6dklIZWpMS3REY2w1eHBRMS16T2tzR2RTRmhpNTBxdVhRanZwdzgwNHpOUV9TWk5qQ2FMWFFkWjNWTVEzM1pUNEdjMlBIX1Iya0lIUkt2VEhRY01sV3FBVmdFclJvYUJOUWUxdXdpTWNOY2hKcUxfSjlxLU_SAaIBQVVfeXFMUDY4WHdRWkxKdExYaXVzcFVDekdEZ2tZa0xNRERZckdHRkFuZlpTNVNfVkU3bDM4eG80QWVUTEM0dDJOd2c0RHdaWWdCeFVxcElvTU5GWlJDekhHU281LW5nejNHNXJDcXdTYk1RUFJQSk83b2dkelBsVU1KWkl3MFo0NWg2N0xxeVE0b2ZISW9sOU42QklxNDRRelU2cFR0c3VB?oc=5",
+      "https://www.emarketer.com/content/brazil-creditas-bank-funding-profitability",
+      "https://uk.news.yahoo.com/brazilin-fintech-creditas-lands-4-123029942.html"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1691,7 +1714,22 @@
     ],
     "primary_investor": "Kaszek",
     "source_url": "https://www.kaszek.com/companies/",
-    "scraped_at": "2026-10-08T14:45:10.094871+00:00"
+    "scraped_at": "2026-10-08T14:45:10.094871+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://gringo.com.vc/",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE0zN3U3ZHR3UkZiS3k1Uy1NeXF0clQtbmwwMmR5aXBHUzRualVadmo2NHNPUVlXbTBma3VoY3RiOFlfeGxlendfNnBoOGFVbHVzLTZ3TlJZZlh0bG5NZktHdmQxNk9WTTNxUlZMelBiQW1zUdIBd0FVX3lxTFBjNW9kY3BYSmZsQU94R0tnYlFFZldNeWlYZE9mQm5kbU1kVmZWcmZQaVNxcFVwbF9nMVhqNHhwVXZPSEEyUFd1QU1yY0p1dlEydm9CMm9yQXhNYzBCRnRCUjlWc0xFd3l2ZmdyZkRnNFRKZHpGTVJV?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Grupo Zap",
@@ -1767,7 +1805,21 @@
     ],
     "primary_investor": "Kaszek",
     "source_url": "https://www.kaszek.com/companies/",
-    "scraped_at": "2026-10-08T14:45:10.094871+00:00"
+    "scraped_at": "2026-10-08T14:45:10.094871+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://venturebeat.com/technology/guiabolso-raises-7-million-to-extend-its-leadership-in-brazils-personal-finance-market"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Guiche Virtual",
@@ -2052,7 +2104,19 @@
     ],
     "primary_investor": "Kaszek",
     "source_url": "https://www.kaszek.com/companies/",
-    "scraped_at": "2026-10-08T14:45:10.094871+00:00"
+    "scraped_at": "2026-10-08T14:45:10.094871+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kanastra",

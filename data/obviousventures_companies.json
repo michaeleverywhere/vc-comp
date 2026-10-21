@@ -943,7 +943,33 @@
     ],
     "primary_investor": "Obvious Ventures",
     "source_url": "https://obvious.com/portfolio/",
-    "scraped_at": "2026-10-06T13:26:52.166471+00:00"
+    "scraped_at": "2026-10-06T13:26:52.166471+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 50000.0,
+        "currency": "USD",
+        "date": "2013-06-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1572381/000157238113000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.enervee.com/",
+      "https://www.sec.gov/Archives/edgar/data/1572381/000157238113000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 50000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-06-20",
+    "total_raised": 50000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fleetzero",
@@ -1092,7 +1118,35 @@
     ],
     "primary_investor": "Obvious Ventures",
     "source_url": "https://obvious.com/portfolio/",
-    "scraped_at": "2026-10-06T13:26:52.166471+00:00"
+    "scraped_at": "2026-10-06T13:26:52.166471+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-01-14",
+        "investors": [],
+        "source_url": "https://gandeeva.com/gandeeva-raises-40m-in-series-a-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://gandeeva.com/",
+      "https://gandeeva.com/news/",
+      "https://gandeeva.com/gandeeva-raises-40m-in-series-a-funding/",
+      "https://gandeeva.com/gandeeva-raises-40m-to-zoom-in-on-biomolecules-and-create-new-drugs/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-14",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Good Eggs",
@@ -1492,7 +1546,51 @@
     ],
     "primary_investor": "Obvious Ventures",
     "source_url": "https://obvious.com/portfolio/",
-    "scraped_at": "2026-10-06T13:26:52.166471+00:00"
+    "scraped_at": "2026-10-06T13:26:52.166471+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2020-10-12",
+        "investors": [],
+        "source_url": "https://www.hedvig.com/se-en/blog/raises-an-additional-9m-to-become-a-full-stack-insurance-carrier",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2021-09-29",
+        "lead_investors": [
+          "Anthemis"
+        ],
+        "investors": [
+          "Anthemis"
+        ],
+        "source_url": "https://www.hedvig.com/se-en/blog/raises-45-million-for-european-expansion-in-series-b",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hedvig.com/",
+      "https://www.hedvig.com/se-en/blog/raises-an-additional-9m-to-become-a-full-stack-insurance-carrier",
+      "https://www.hedvig.com/se-en/blog/raises-45-million-for-european-expansion-in-series-b"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-09-29",
+    "total_raised": 54000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Anthemis"
+    ]
   },
   {
     "company_name": "Hostie",
@@ -1636,10 +1734,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://inceptive.com/"
+      "https://inceptive.com/",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaElUWldveEpJVVJ6N3hpUTl4SF8tanhFVFF2Mkdtbll3UjU3VGF3WXNuZlQwN0loVDdRWjA1cmxHWXE1TkV2SFN4dXV2LUFGVlJtMVZqOFhoWFNMWWFGekh5eWxyR1k3MXNZdVFiSlhOc1AtMTNHV0s2QzNzZ21JWmVNbnRjTGRT?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMmQ0elp2bTN4eDFLUExNbENscWhZZVJOTkExVjF2QkxYWThNVXI0dnVRZ29Ec1hjZ211NlV0aTlKSFA0cjZOdVFmTVVpTzU5QUcxam1qelNSWTdJd2pEdkhpRHdjTkw4YjhyNG5OcjlncVhtNWRKQWc4TnJJZmNXdW1ZT1hNcjZKU3BQRERGcTVUXzRMOTBoaE9MRHBDQlZYc3hSYlhGaVhpOFlBN2c?oc=5",
+      "https://www.nasdaq.com/articles/biotech-startup-inceptive-secures-%24100-mln-funding",
+      "https://pharmaphorum.com/news/inceptive-raises-100m-plus-other-digital-financings"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1904,7 +2006,21 @@
     ],
     "primary_investor": "Obvious Ventures",
     "source_url": "https://obvious.com/portfolio/",
-    "scraped_at": "2026-10-06T13:26:52.166471+00:00"
+    "scraped_at": "2026-10-06T13:26:52.166471+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bekampi.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Keyo",

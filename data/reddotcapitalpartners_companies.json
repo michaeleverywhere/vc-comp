@@ -328,20 +328,35 @@
     "primary_investor": "Red Dot Capital Partners",
     "source_url": "https://red-dot.capital/portfolio",
     "scraped_at": "2026-10-20T20:39:31.548696+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YVkFuVWRzaWRhNzNVY2o3aWNzdm1fSXpjQThwVG5zc28xeDVlNUZTdDZITnlfMlVZOVFMYWk2QUd5SWNXQWFBeXhmb0I0dDR6YWU5ckFuRHRTWF81UkFUZlhEY21PSzQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.ctera.com/"
+      "https://www.ctera.com/",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YVkFuVWRzaWRhNzNVY2o3aWNzdm1fSXpjQThwVG5zc28xeDVlNUZTdDZITnlfMlVZOVFMYWk2QUd5SWNXQWFBeXhmb0I0dDR6YWU5ckFuRHRTWF81UkFUZlhEY21PSzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE15LWlfQmd1WWstODRrLWgxR0h0RjFhQ3E0Z01udWJnalg0cS1hOE14SWdpWVcxM296ekpiaXB3Sm1ZUVJsbk55c2I5RjlZR0NmZ0FaMHpOejQ3LW50ckdxcWIyQUNTcTZSUGZXOXZNbEFIb1JvZ1Bn?oc=5",
+      "https://finance.yahoo.com/news/ctera-announces-80m-growth-investment-120000621.html",
+      "https://www.crn.com/news/storage/300073312/ctera-closes-25m-funding-round-for-cloud-storage-file-sync-and-share",
+      "https://www.dbta.com/BigDataQuarterly/Articles/CTERA-Secures-80M-Growth-Investment-Looks-to-Expand-into-Data-Intelligence-164990.aspx"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DriveNets",
@@ -465,7 +480,22 @@
     "everywhere_tags": [],
     "primary_investor": "Red Dot Capital Partners",
     "source_url": "https://red-dot.capital/portfolio",
-    "scraped_at": "2026-10-20T20:39:31.548696+00:00"
+    "scraped_at": "2026-10-20T20:39:31.548696+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.global-e.com:443/",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcnpUaktRMFNHeXFmY0M1VGx2MnZFcWRQR2JuVU9KVjlOdmVBaWM0QW9PTF9mYmx0aHBLQm83aHBrUmhUbWIyd1p3QnRXTEZUOHh2RUJoRmJpeWFQRVhBYUJFeUV5VEFvSmh5YldXSDZsdGtSQzk0eGtYVnJCX194d01EZG1sZy1EZHBycE5mMW9vUnNxSWI0UVRNdHgxSHg1M0t1bWJsZlNuNWlpdVc0TjJneDg?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Granulate",

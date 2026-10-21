@@ -287,20 +287,34 @@
     "primary_investor": "Roo Capital",
     "source_url": "https://roocapital.com/companies",
     "scraped_at": "2026-10-17T18:05:14.552420+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6200000.0,
+        "currency": "USD",
+        "date": "2025-10-06",
+        "investors": [],
+        "source_url": "https://hitconsultant.net/2025/10/06/hipp-health-secures-6-2m-for-ai-native-platform-to-automate-behavioral-health-admin/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://hipp.health/"
+      "https://hipp.health/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNnNwV2Y5LW5yWVR3cEl2Mm0zVG9EM1dvaENDVzU5WnUtMWZfYU5PUWtnLUZqdnBTeUhXdmVRN2JPQ3AwN1p2WlRkbDZSVmhEXy01Wjl3YXA3eE9JMnRQdDJ2bTNCRTJkaUp6alhoRmlrNnhKd2xIc3JJUlNRbkVhQ2dDcGplQnQydzZ0WmZQbGV1cHVUNnNn?oc=5",
+      "https://finance.yahoo.com/news/hipp-health-raises-6-2-120000465.html",
+      "https://hitconsultant.net/2025/10/06/hipp-health-secures-6-2m-for-ai-native-platform-to-automate-behavioral-health-admin/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 6200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-06",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hound",

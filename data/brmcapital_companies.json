@@ -7,21 +7,33 @@
     "primary_investor": "BRM Capital",
     "source_url": "https://brm.com/portfolio",
     "scraped_at": "2026-10-20T21:22:39.250437+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2026-10-19",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2026/10/19/nvidia-dell-back-200m-round-for-ai-model-developer-doubleai/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.doubleai.com/",
-      "https://www.doubleai.com/news"
+      "https://www.doubleai.com/news",
+      "https://siliconangle.com/2026/10/19/nvidia-dell-back-200m-round-for-ai-model-developer-doubleai/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-10-19",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "altair",
@@ -462,7 +474,32 @@
     "everywhere_tags": [],
     "primary_investor": "BRM Capital",
     "source_url": "https://brm.com/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.250437+00:00"
+    "scraped_at": "2026-10-20T21:22:39.250437+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 28500000.0,
+        "currency": "USD",
+        "date": "2024-10-30",
+        "investors": [],
+        "source_url": "https://hitconsultant.net/2024/10/30/innoventric-secures-28-5m-to-expand-transcatheter-tricuspid-valve-treatment/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://hitconsultant.net/2024/10/30/innoventric-secures-28-5m-to-expand-transcatheter-tricuspid-valve-treatment/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 28500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-30",
+    "total_raised": 28500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Liquidity",
