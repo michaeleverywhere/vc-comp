@@ -196,7 +196,21 @@
     ],
     "primary_investor": "Group 11",
     "source_url": "https://group11.vc/portfolio",
-    "scraped_at": "2026-10-21T00:21:54.397164+00:00"
+    "scraped_at": "2026-10-21T00:21:54.397164+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://giraffeinvest.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Healthee",
@@ -205,7 +219,43 @@
     "everywhere_tags": [],
     "primary_investor": "Group 11",
     "source_url": "https://group11.vc/portfolio",
-    "scraped_at": "2026-10-21T00:21:54.397164+00:00"
+    "scraped_at": "2026-10-21T00:21:54.397164+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": "2024-03-04",
+        "investors": [],
+        "source_url": "https://healthee.com/pr/healthee-secures-32m-series-a-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2025-04-22",
+        "investors": [],
+        "source_url": "https://healthee.com/pr/healthee-raises-50m-series-b-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://healthee.com/",
+      "https://healthee.com/pr/healthee-secures-32m-series-a-funding/",
+      "https://healthee.com/pr/healthee-raises-50m-series-b-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-22",
+    "total_raised": 82000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "HomeLight",

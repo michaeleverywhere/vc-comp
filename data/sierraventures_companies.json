@@ -1626,7 +1626,29 @@
     ],
     "primary_investor": "Sierra Ventures",
     "source_url": "https://www.sierraventures.com/portfolio",
-    "scraped_at": "2026-10-08T14:41:45.310411+00:00"
+    "scraped_at": "2026-10-08T14:41:45.310411+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.endorlabs.com/",
+      "https://www.endorlabs.com/learn/series-a-70m-raise",
+      "https://www.endorlabs.com/learn/why-we-raised-a-93m-series-b-in-this-market"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "stated_total_raised": {
+      "amount": 70000000.0,
+      "currency": "USD",
+      "source_url": "https://www.endorlabs.com/learn/series-a-70m-raise"
+    },
+    "funding_checked": "2026-10-21",
+    "total_raised": 70000000.0,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "stated",
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Everest Labs",
@@ -2344,7 +2366,44 @@
     ],
     "primary_investor": "Sierra Ventures",
     "source_url": "https://www.sierraventures.com/portfolio",
-    "scraped_at": "2026-10-08T14:41:45.310411+00:00"
+    "scraped_at": "2026-10-08T14:41:45.310411+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": "2020-05-06",
+        "investors": [],
+        "source_url": "https://www.invisible.ai/news/invisible-ai-raises-3-6-million-to-improve-manufacturing-quality-empower-workforces-and-cut-costs/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2022-09-28",
+        "investors": [],
+        "source_url": "https://www.invisible.ai/news/series-a/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.invisible.ai/",
+      "https://www.invisible.ai/news/",
+      "https://www.invisible.ai/news/series-a/",
+      "https://www.invisible.ai/news/invisible-ai-raises-3-6-million-to-improve-manufacturing-quality-empower-workforces-and-cut-costs/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-28",
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Joy",
