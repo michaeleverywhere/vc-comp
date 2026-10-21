@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2308,
-  "total_companies": 144858,
+  "total_firms": 2328,
+  "total_companies": 145323,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1270,
-      "companies": 86093,
-      "bytes": 39997014,
+      "firms": 1278,
+      "companies": 85943,
+      "bytes": 39981947,
       "first_firm": "0BS",
-      "last_firm": "M25"
+      "last_firm": "Lux Capital"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1038,
-      "companies": 58765,
-      "bytes": 27222559,
-      "first_firm": "MaC Venture Capital",
+      "firms": 1050,
+      "companies": 59380,
+      "bytes": 27501515,
+      "first_firm": "Lytical Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
