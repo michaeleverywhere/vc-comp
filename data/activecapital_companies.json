@@ -470,7 +470,21 @@
     "everywhere_tags": [],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.datoric.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Daytona",
@@ -886,7 +900,53 @@
     ],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 50000.0,
+        "currency": "USD",
+        "date": "2018-03-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1734950/000173495018000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 1250000.0,
+        "currency": "USD",
+        "date": "2018-11-20",
+        "investors": [],
+        "source_url": "https://www.livingsecurity.com/blog/living-security-raises-1-25m",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2021-03-12",
+        "investors": [],
+        "source_url": "https://www.livingsecurity.com/press",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.livingsecurity.com/",
+      "https://www.livingsecurity.com/press",
+      "https://www.livingsecurity.com/blog/living-security-raises-1-25m",
+      "https://www.sec.gov/Archives/edgar/data/1734950/000173495018000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-12",
+    "total_raised": 15300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "LoudCrowd",
@@ -910,7 +970,53 @@
     "everywhere_tags": [],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1521499.0,
+        "currency": "USD",
+        "date": "2019-11-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1795166/000179516619000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1856250.0,
+        "currency": "USD",
+        "date": "2023-02-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1795166/000179516623000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2023-05-02",
+        "investors": [],
+        "source_url": "https://www.makeswift.com/blog/2023-05-02-makeswift-raises-3m",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.makeswift.com/",
+      "https://www.makeswift.com/blog/2023-05-02-makeswift-raises-3m",
+      "https://www.sec.gov/Archives/edgar/data/1795166/000179516619000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1795166/000179516623000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-02",
+    "total_raised": 6377749,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mixlayer",
@@ -1022,7 +1128,21 @@
     "everywhere_tags": [],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ravion.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "RedDoor",
@@ -1308,7 +1428,21 @@
     "everywhere_tags": [],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sendspark.com:443/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sequence",
@@ -1709,6 +1843,30 @@
     "everywhere_tags": [],
     "primary_investor": "Active Capital",
     "source_url": "https://active.vc/",
-    "scraped_at": "2026-10-19T19:48:35.433235+00:00"
+    "scraped_at": "2026-10-19T19:48:35.433235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://zerodrift.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zerodrift.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

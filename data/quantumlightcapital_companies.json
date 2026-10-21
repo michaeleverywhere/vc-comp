@@ -469,7 +469,21 @@
     "everywhere_tags": [],
     "primary_investor": "Quantumlight Capital",
     "source_url": "https://quantumlightcapital.com/",
-    "scraped_at": "2026-10-18T18:12:57.669994+00:00"
+    "scraped_at": "2026-10-18T18:12:57.669994+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://campfire.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DeepScribe",
@@ -1560,7 +1574,71 @@
     "everywhere_tags": [],
     "primary_investor": "Quantumlight Capital",
     "source_url": "https://quantumlightcapital.com/",
-    "scraped_at": "2026-10-18T18:12:57.669994+00:00"
+    "scraped_at": "2026-10-18T18:12:57.669994+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 38000000.0,
+        "currency": "USD",
+        "date": "2024-09-05",
+        "lead_investors": [
+          "General Catalyst",
+          "Index"
+        ],
+        "investors": [
+          "General Catalyst",
+          "Index"
+        ],
+        "source_url": "https://thatch.com/blog/thatch-series-a-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2025-04-03",
+        "lead_investors": [
+          "Index Ventures"
+        ],
+        "investors": [
+          "Index Ventures"
+        ],
+        "source_url": "https://thatch.com/blog/thatch-series-b-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 108000000.0,
+        "currency": "USD",
+        "date": "2026-09-15",
+        "investors": [],
+        "source_url": "https://thatch.com/blog/thatch-series-c-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thatch.com/",
+      "https://thatch.com/press",
+      "https://thatch.com/blog/thatch-series-c-announcement",
+      "https://thatch.com/blog/thatch-series-a-announcement",
+      "https://thatch.com/blog/thatch-series-b-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 108000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-15",
+    "total_raised": 186000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "General Catalyst",
+      "Index",
+      "Index Ventures"
+    ]
   },
   {
     "company_name": "Together AI",
@@ -1652,7 +1730,32 @@
     "everywhere_tags": [],
     "primary_investor": "Quantumlight Capital",
     "source_url": "https://quantumlightcapital.com/",
-    "scraped_at": "2026-10-18T18:12:57.669994+00:00"
+    "scraped_at": "2026-10-18T18:12:57.669994+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 22500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.vibe.co/about"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vibe.co/",
+      "https://www.vibe.co/about"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 22500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 22500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Yuno",

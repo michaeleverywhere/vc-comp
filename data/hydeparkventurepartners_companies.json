@@ -1034,7 +1034,21 @@
     ],
     "primary_investor": "Hyde Park Venture Partners",
     "source_url": "https://hydeparkvp.com/companies.html",
-    "scraped_at": "2026-10-03T21:09:01.184473+00:00"
+    "scraped_at": "2026-10-03T21:09:01.184473+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://marketwagon.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MemQ",
@@ -1693,7 +1707,43 @@
     ],
     "primary_investor": "Hyde Park Venture Partners",
     "source_url": "https://hydeparkvp.com/companies.html",
-    "scraped_at": "2026-10-03T21:09:01.184473+00:00"
+    "scraped_at": "2026-10-03T21:09:01.184473+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5600000.0,
+        "currency": "USD",
+        "date": "2017-05-18",
+        "investors": [],
+        "source_url": "https://upfronthealthcare.com/resources/updates/upfront-raises-5m/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 11500000.0,
+        "currency": "USD",
+        "date": "2020-11-17",
+        "investors": [],
+        "source_url": "https://upfronthealthcare.com/resources/updates/series-b-announcement/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://upfronthealthcare.com/",
+      "https://upfronthealthcare.com/resources/updates/upfront-raises-5m/",
+      "https://upfronthealthcare.com/resources/updates/series-b-announcement/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 11500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-11-17",
+    "total_raised": 17100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zengines",
