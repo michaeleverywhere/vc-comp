@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2408,
-  "total_companies": 146852,
+  "total_firms": 2421,
+  "total_companies": 147292,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1302,
-      "companies": 85885,
-      "bytes": 39992325,
+      "firms": 1305,
+      "companies": 85941,
+      "bytes": 39995262,
       "first_firm": "0BS",
-      "last_firm": "Long Venture Partners"
+      "last_firm": "LongeVC"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1106,
-      "companies": 60967,
-      "bytes": 28298167,
-      "first_firm": "Longwall Ventures",
+      "firms": 1116,
+      "companies": 61351,
+      "bytes": 28459646,
+      "first_firm": "LongHash Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
