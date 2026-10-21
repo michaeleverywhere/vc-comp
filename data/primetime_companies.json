@@ -616,7 +616,21 @@
     ],
     "primary_investor": "Primetime Partners",
     "source_url": "https://www.primetimepartners.com/portfolio",
-    "scraped_at": "2026-10-17T18:05:14.222509+00:00"
+    "scraped_at": "2026-10-17T18:05:14.222509+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sheerhealth.com:443/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Spiras Health",
@@ -628,7 +642,34 @@
     ],
     "primary_investor": "Primetime Partners",
     "source_url": "https://www.primetimepartners.com/portfolio",
-    "scraped_at": "2026-10-17T18:05:14.222509+00:00"
+    "scraped_at": "2026-10-17T18:05:14.222509+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2021-06-22",
+        "investors": [],
+        "source_url": "https://spirashealth.com/news/spiras-health-receives-14mm-series-b-funding-led-by-nea/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://spirashealth.com/",
+      "https://spirashealth.com/news/",
+      "https://spirashealth.com/news/spiras-health-receives-14mm-series-b-funding-led-by-nea/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-22",
+    "total_raised": 14000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tembo Health",

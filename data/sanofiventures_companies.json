@@ -1199,7 +1199,21 @@
     ],
     "primary_investor": "Sanofi Ventures",
     "source_url": "https://www.sanofiventures.com/portfolio/",
-    "scraped_at": "2026-10-16T21:24:30.121406+00:00"
+    "scraped_at": "2026-10-16T21:24:30.121406+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.navitor.com/Online-Printing.aspx"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "NextPoint Therapeutics",
@@ -1474,7 +1488,63 @@
     ],
     "primary_investor": "Sanofi Ventures",
     "source_url": "https://www.sanofiventures.com/portfolio/",
-    "scraped_at": "2026-10-16T21:24:30.121406+00:00"
+    "scraped_at": "2026-10-16T21:24:30.121406+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2024-06-08",
+        "lead_investors": [
+          "Bertelsmann Investments",
+          "Pitango HealthTech"
+        ],
+        "investors": [
+          "Bertelsmann Investments",
+          "Pitango HealthTech",
+          "Shoni Top Ventures"
+        ],
+        "source_url": "https://quanthealth.ai/resources/quanthealth-secures-funding-from-accenture-and-other-investors-to-deliver-ai-powered-clinical-trial-simulations-for-pharmaceutical-and-biotech-companies",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2026-08-04",
+        "lead_investors": [
+          "Qumra Capital"
+        ],
+        "investors": [
+          "Qumra Capital"
+        ],
+        "source_url": "https://quanthealth.ai/resources/quanthealth-raises-45-million-series-b-led-by-qumra-capital-to-accelerate-simulation-first-clinical-trial-development",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://quanthealth.ai/",
+      "https://quanthealth.ai/resources/quanthealth-secures-funding-from-accenture-and-other-investors-to-deliver-ai-powered-clinical-trial-simulations-for-pharmaceutical-and-biotech-companies",
+      "https://quanthealth.ai/resources/quanthealth-raises-45-million-series-b-led-by-qumra-capital-to-accelerate-simulation-first-clinical-trial-development",
+      "https://quanthealth.ai/resources/a-new-chapter-for-quanthealth-biopharma-our-series-b-is-ushering-in-simulation-first-clinical-development"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-04",
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bertelsmann Investments",
+      "Pitango HealthTech",
+      "Shoni Top Ventures",
+      "Qumra Capital"
+    ]
   },
   {
     "company_name": "QuantX Biosciences",
