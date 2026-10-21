@@ -1655,7 +1655,19 @@
     "scraped_at": "2026-10-08T23:27:03.416032+00:00",
     "location": "New York City",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Beyondcore",
@@ -1780,7 +1792,19 @@
     "scraped_at": "2026-10-08T23:27:03.420519+00:00",
     "location": "Back Bay",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bluevine",
@@ -11075,7 +11099,39 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.794792+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2023-06-29",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2023/06/29/typeface-which-is-building-generative-ai-for-brands-raises-100m-at-a-1b-valuation/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://multiples.vc/private-comps/typeface",
+      "https://www.typeface.ai/blog/typeface-announces-100-m-in-new-funding-to-fuel-global-expansion-of-its-personalized-generative-ai-platform-for-enterprises",
+      "https://techcrunch.com/2023/06/29/typeface-which-is-building-generative-ai-for-brands-raises-100m-at-a-1b-valuation/",
+      "https://startupintros.com/orgs/typeface",
+      "https://www.trysignalbase.com/news/funding/typeface-raises-165m-to-accelerate-ai-driven-on-brand-content-creation-for-enterprises",
+      "https://www.texau.com/profiles/typeface",
+      "https://www.prnewswire.com/news-releases/typeface-announces-100m-in-new-funding-to-fuel-global-expansion-of-its-personalized-generative-ai-platform-for-enterprises-301866644.html",
+      "https://salestools.io/en/report/typeface-100m-series-c-2024"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-29",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Uber",
@@ -11202,7 +11258,49 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.801013+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2023-07-19",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20230719773647/en/Unstructured-Secures-%2425-Million-in-Seed-and-Series-A-Funding-to-Enable-Enterprises-to-Use-LLMs-With-their-Data",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2024-03-15",
+        "investors": [],
+        "source_url": "https://www.thesaasnews.com/news/unstructured-raises-40-million-in-series-b/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.businesswire.com/news/home/20230719773647/en/Unstructured-Secures-%2425-Million-in-Seed-and-Series-A-Funding-to-Enable-Enterprises-to-Use-LLMs-With-their-Data",
+      "https://techcrunch.com/2023/07/19/unstructured-which-offers-tools-to-prep-enterprise-data-for-llms-raises-25m/",
+      "https://www.cmswire.com/the-wire/unstructured-secures-25m-in-seed-and-series-a-funding-to-enable-enterprises-to-use-llms-with-their-data/",
+      "https://www.thesaasnews.com/news/unstructured-closes-25-million-in-funding/",
+      "https://www.newcomer.co/p/unstructured-raises-25-million-to",
+      "https://www.madrona.com/unstructured-io/",
+      "https://www.lossless.group/toolkit/ai-toolkit/data-augmenters/unstructuredio/",
+      "https://www.admnt.com/all-episodes/how-brian-raymond-raised-65-million-in-funding-for-unstructured-io-brian-raymond-unstructured-io",
+      "https://www.thesaasnews.com/news/unstructured-raises-40-million-in-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-03-15",
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Usermind",
