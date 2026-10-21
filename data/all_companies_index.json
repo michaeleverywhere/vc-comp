@@ -1,8 +1,8 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2440,
-  "total_companies": 148577,
+  "total_firms": 2445,
+  "total_companies": 148960,
   "parts": [
     {
       "file": "all_companies.json",
@@ -14,18 +14,18 @@
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1132,
-      "companies": 65741,
-      "bytes": 39995399,
+      "firms": 1130,
+      "companies": 65718,
+      "bytes": 39998271,
       "first_firm": "Hearstventures",
-      "last_firm": "Theory Ventures"
+      "last_firm": "20VC Fund"
     },
     {
       "file": "all_companies_3.json",
-      "firms": 269,
-      "companies": 14995,
-      "bytes": 8922230,
-      "first_firm": "Theory Forge Ventures",
+      "firms": 276,
+      "companies": 15401,
+      "bytes": 9181737,
+      "first_firm": "The Chernin Group",
       "last_firm": "Z Venture Capital"
     }
   ]
