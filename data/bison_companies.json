@@ -13,7 +13,71 @@
     ],
     "primary_investor": "Bison Ventures",
     "source_url": "https://www.bison.vc/",
-    "scraped_at": "2026-10-17T19:19:49.001839+00:00"
+    "scraped_at": "2026-10-17T19:19:49.001839+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16294489.0,
+        "currency": "USD",
+        "date": "2023-02-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1967296/000196729623000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2023-07-12",
+        "lead_investors": [
+          "Bison Ventures"
+        ],
+        "investors": [
+          "Bison Ventures",
+          "IRONGREY",
+          "BHP Ventures",
+          "Vale Ventures",
+          "Wholestack LP"
+        ],
+        "source_url": "https://allonnia.com/with-new-30m-series-a-extension-allonnia-takes-aim-at-scaling-solutions-to-the-worlds-toughest-environmental-challenges/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2025-12-10",
+        "investors": [],
+        "source_url": "https://allonnia.com/allonnia-raises-more-than-20-million-to-accelerate-deployment-of-critical-materials-biotechnology/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://allonnia.com/",
+      "https://allonnia.com/newsroom/",
+      "https://allonnia.com/newsroom/press-releases/",
+      "https://allonnia.com/allonnia-raises-more-than-20-million-to-accelerate-deployment-of-critical-materials-biotechnology/",
+      "https://allonnia.com/with-new-30m-series-a-extension-allonnia-takes-aim-at-scaling-solutions-to-the-worlds-toughest-environmental-challenges/",
+      "https://www.sec.gov/Archives/edgar/data/1967296/000196729623000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-10",
+    "total_raised": 66294489,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bison Ventures",
+      "IRONGREY",
+      "BHP Ventures",
+      "Vale Ventures",
+      "Wholestack LP"
+    ]
   },
   {
     "company_name": "Bonsai",
@@ -143,10 +207,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.co.bot/"
+      "https://www.co.bot/",
+      "https://venturebeat.com/automation/cobot-announces-100m-series-b-and-reveals-exclusive-details-about-its-non-humanoid-robots"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

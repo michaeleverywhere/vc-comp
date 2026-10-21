@@ -1270,7 +1270,32 @@
     ],
     "primary_investor": "Toyota Ventures",
     "source_url": "https://toyota.ventures/portfolio.html",
-    "scraped_at": "2026-10-17T17:50:50.681935+00:00"
+    "scraped_at": "2026-10-17T17:50:50.681935+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.e-zinc.ca/company/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.e-zinc.ca/",
+      "https://www.e-zinc.ca/company/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Flai",
@@ -2327,7 +2352,101 @@
     ],
     "primary_investor": "Toyota Ventures",
     "source_url": "https://toyota.ventures/portfolio.html",
-    "scraped_at": "2026-10-17T17:50:50.681935+00:00"
+    "scraped_at": "2026-10-17T17:50:50.681935+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7648177.0,
+        "currency": "USD",
+        "date": "2019-03-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1771953/000156761919007992/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19825360.0,
+        "currency": "USD",
+        "date": "2020-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1771953/000156761922008410/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 11700000.0,
+        "currency": "USD",
+        "date": "2021-03-03",
+        "investors": [],
+        "source_url": "https://rtr.ai/resources/realtime-robotics-raises-11-7-million-series-a-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2021-03-15",
+        "investors": [],
+        "source_url": "https://rtr.ai/resources/realtime-robotics-closes-2-million-seed-round/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 14400000.0,
+        "currency": "USD",
+        "date": "2022-09-07",
+        "investors": [],
+        "source_url": "https://rtr.ai/resources/realtime-robotics-announces-additional-funding-of-14-4-million/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 21224616.0,
+        "currency": "USD",
+        "date": "2024-05-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1771953/000177195325000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Mitsubishi Electric"
+        ],
+        "investors": [
+          "Mitsubishi Electric"
+        ],
+        "source_url": "https://rtr.ai/about/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://rtr.ai/",
+      "https://rtr.ai/about/",
+      "https://rtr.ai/resources/realtime-robotics-announces-additional-funding-of-14-4-million/",
+      "https://rtr.ai/resources/realtime-robotics-completes-31-4-million-series-a-funding-round/",
+      "https://rtr.ai/resources/realtime-robotics-closes-2-million-seed-round/",
+      "https://rtr.ai/resources/realtime-robotics-raises-11-7-million-series-a-funding/",
+      "https://www.sec.gov/Archives/edgar/data/1771953/000156761919007992/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1771953/000156761922008410/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1771953/000177195325000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 21224616.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-24",
+    "total_raised": 121798153,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Mitsubishi Electric"
+    ]
   },
   {
     "company_name": "Relectrify",
@@ -2395,13 +2514,29 @@
     "primary_investor": "Toyota Ventures",
     "source_url": "https://toyota.ventures/portfolio.html",
     "scraped_at": "2026-10-17T17:50:50.681935+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": "2025-02-10",
+        "investors": [],
+        "source_url": "https://insideevs.com/news/750255/revel-new-york-charging-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://gorevel.com/"
+      "https://gorevel.com/",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUk0yMmF3YW92eWo0V3FSZUZtT1VUcUVkM3o2RXlkRWRQNEFHQ1Nkc3hTRm5ZR2gyV1llNGdDRzdfVy1uVFo2SXNzRHhTU1phLThzSVcyaXo0c1JfUG5yZGdJN3ZpMk0zazYzMWNOa3F4N1Bab3RJZmU1bTZUUUxEd0ZEQi0ycW15WW9EdVlFUkZpTHE3cWx3bW1hWi0zcU1fNll4cS1Kc1NYdGljTGM4cTBVa0Mtam9GLVNVZ2l1UldzTzljUVpabENwZU45NzlmSzVwSms0SE5fOXRYam1qOGg1cHNpdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnBxcC1ldEh0b1cxS2M3a2VoTmZQNkx1M21La1FEcmRGallpUW16Mm9vdzBJQjVEM1pqLWRqaHViOWZtT25RLWhveDIwZnh3V3hvTUl2VHFpVjUydUZ0VWtOUWwyY2t2SS13Q0QzVVdkRlAwdzdaTzVJMjN3VERqb3ZIbHhFSjNvTmNYdzBsSEhFOUxUY2xQRmxaYlFUblByTjBHU1ViNGVNdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa0VqZHE3MkdVc1QxLTVRRUczRFh6YjJyMzlkX3ZwRFVnOUpUMWUza0FDOGk0bFV2LThpNVcweVpWRFk2bkItZXhIV0FzeU5TYWJ3SDA0XzE4bWNlc0pIUzFBRWV2QmZWalkyRThrQ0R1TkNIYzJJTkdHaEh5SlUxazZNR05EblU4WElNWDVwVkxsT3Zud3BHazBpVXpQek1MaXdZ?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tX1diSnNNTW1ZWXloLTJ3Wm5nWGFpMWZpTTdVdzdmdU1ueWU4dC1aTkdZYkxEa29BeU1fcXdoQUFJemFBRndPVHBWRFhka3Jac0kwX3R1VUtuN3B2Y01WZVlTUFdJU3JtQ0R4V2dBc29fWlZYREFJQg?oc=5",
+      "https://techcrunch.com/2025/02/10/revel-nabs-60m-in-new-york-state-funding-to-build-more-ev-chargers/",
+      "https://insideevs.com/news/750255/revel-new-york-charging-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

@@ -195,7 +195,23 @@
     ],
     "primary_investor": "Creathor Ventures",
     "source_url": "https://www.creathor.com/companies",
-    "scraped_at": "2026-10-16T21:25:01.088192+00:00"
+    "scraped_at": "2026-10-16T21:25:01.088192+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ayoxxa.com/",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWUxIdVVBWWNVU3RkWkY3bERma3JjQUg0WW5nbWRuNURRSVVwUDFmVkR6MXQzZXpXLXBuc3BlZkU2M0Fxa2YyNGplOG5SVjVsdGJick5JS3Nxcjk3VU1Uci1hMlB6UUpyVlF1SnhwdDhaU3VvN29ERnVtZ0NTemR1T3lSa1FWZXlMdGRmQ19keHJDejd1ek5hLWR5cUd6M25KeHpWTlQxQTdaRm51TFVlREZub19CcU5QdHVmTnJnTnA?oc=5",
+      "https://vietnamnews.vn/media-outreach/1165021/ayoxxa-receives-fresh-capital-for-commercial-growth-in-europe-us-and-asia-led-by-prosnav-capital.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "bitbar",
@@ -1464,7 +1480,53 @@
     ],
     "primary_investor": "Creathor Ventures",
     "source_url": "https://www.creathor.com/companies",
-    "scraped_at": "2026-10-16T21:25:01.088192+00:00"
+    "scraped_at": "2026-10-16T21:25:01.088192+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1200001.0,
+        "currency": "USD",
+        "date": "2012-07-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1511987/000151198712000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 600000.0,
+        "currency": "USD",
+        "date": "2013-10-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1511987/000151198713000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8258015.0,
+        "currency": "USD",
+        "date": "2014-10-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1511987/000151198714000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sinopsyssurgical.com/",
+      "https://www.sec.gov/Archives/edgar/data/1511987/000151198712000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1511987/000151198713000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1511987/000151198714000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 8258015.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-10-03",
+    "total_raised": 10058016,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SIRION Biotech",

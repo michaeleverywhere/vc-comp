@@ -1031,7 +1031,45 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 103500000.0,
+        "currency": "GBP",
+        "date": "2023-02-22",
+        "investors": [],
+        "source_url": "https://www.carmoola.co.uk/blog/carmoola-series-a",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Debt financing",
+        "amount": 300000000.0,
+        "currency": "GBP",
+        "date": "2025-06-24",
+        "investors": [],
+        "source_url": "https://www.carmoola.co.uk/news/carmoola-secures-300m-abs-debt-facility",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.carmoola.co.uk:443/",
+      "https://www.carmoola.co.uk/press",
+      "https://www.carmoola.co.uk:443/news",
+      "https://www.carmoola.co.uk/blog/carmoola-series-a",
+      "https://www.carmoola.co.uk/news/carmoola-secures-300m-abs-debt-facility"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 103500000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2023-02-22",
+    "total_raised": 103500000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Uala",
@@ -1718,7 +1756,21 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.banquethealth.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sanctum",
@@ -1752,7 +1804,21 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.joinaltitude.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Stepful",
@@ -2319,7 +2385,28 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tile.ai/",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV3o3Z1ZIRkFIYVZqUk9vNlp6ZjFCY0tIS2VQdXhOVk1UVF8wZzNHQ3dLb21MeFdlRm5EeTFmeWlHUEJYZHlEZ3RnVXJoUDdfazZ6VXZuMWs0Z2w3MmQxbkE4SkpuNllXdlpQSmU1UzFvX0Z6VG1jV1RfakNqRXZfQVd3M2pDNERwakJ5N0NiQmw4dDlZcG5jN1hrM3Y5NlVS?oc=5",
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxNXzBJOV9rbmFSNDJzRjVwTWRTNDR0cFFoeUU0SjVtZzBWWWJ6THlnTHhncHdzZ2M0YS0wTGlfS0lFREFyRnRWUEgtZzdmN2YzMXo3Nm9JS05wXy1wd0FuRHVXNzZfYkVKcVh4N1VKb282aGtJWl96ZHJhV25FbWpNZHpnSW1WSmlQaXNfVC12QUVRS3h3MGhucFhfT3hYTmREMjVJX2pVdm9ZTVdELUJKX0ZpaWtlTHJhWlRYdEVYQkZqMzNKXzJFOGtFWUdzUWJDY1N2OEp1SzdwOXJaSVlQTlZvQnNWQjVPM3RBNm9XaFh4ZjhFQjd2TWtrM0xIbmVpcWE0SQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenJWWTZ6akZ4TWYxejBzTnRla3JPOEVKbGQ5eWtkWXVLdTNyLTVzaENLYWRqbWlwbERyYzBzNzR6VUU0QWxrY2tpNzhmcjU1Q2EtMXNjR3E0NWxmRmRxVERaMm5zQmlTSG5DZ0JjdDg0eVJDX3M5UkxZdVRKWjVKQm1xVkp1eVo3ZVBUTnNOOFBtaldqUzlsR0ZEamdpbGFjeXd5WHJOeDR6aGw4VzFxOWlVTTVsdEhUekNHbw?oc=5",
+      "https://pulse2.com/tiledb-15-million-funding/",
+      "https://www.businesswire.com/news/home/20231010796451/en/TileDB-closes-34M-Series-B-to-advance-the-vision-of-the-%E2%80%98modern-database%E2%80%99-as-an-alternative-to-the-%E2%80%98modern-data-stack%E2%80%99",
+      "https://pulse2.com/tiledb-34-million-in-funding/",
+      "https://www.dbta.com/Editorial/News-Flashes/TileDB-Raises-34M-Supercharging-its-Multi-Modal-Future-Proof-Database-160953.aspx"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Encharge AI",
@@ -2740,7 +2827,83 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 680000.0,
+        "currency": "USD",
+        "date": "2017-10-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000120919118002029/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1200252.0,
+        "currency": "USD",
+        "date": "2018-04-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000172126918000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1770322.0,
+        "currency": "USD",
+        "date": "2018-08-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000120919119007229/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 853200.0,
+        "currency": "USD",
+        "date": "2019-03-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000120919119024186/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4350000.0,
+        "currency": "USD",
+        "date": "2019-09-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000120919119053026/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3790000.0,
+        "currency": "USD",
+        "date": "2020-06-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721269/000095012320006976/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.valisure.com/",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000120919118002029/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000172126918000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000120919119007229/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000120919119024186/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000120919119053026/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721269/000095012320006976/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3790000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06-29",
+    "total_raised": 12643774,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Lilac Software",
@@ -2982,7 +3145,21 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sunstonetherapies.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Archer",
@@ -3674,7 +3851,63 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4586925.0,
+        "currency": "USD",
+        "date": "2016-02-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1667891/000166789116000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6801997.0,
+        "currency": "USD",
+        "date": "2017-07-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1667891/000166789117000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19074994.0,
+        "currency": "USD",
+        "date": "2019-06-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1667891/000166789119000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3859225.0,
+        "currency": "USD",
+        "date": "2024-02-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1667891/000149315224009823/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.atlasobscura.com/",
+      "https://www.sec.gov/Archives/edgar/data/1667891/000166789116000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1667891/000166789117000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1667891/000166789119000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1667891/000149315224009823/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3859225.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-27",
+    "total_raised": 34323141,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Native Voice",
@@ -4647,7 +4880,22 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://actual.ai/",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQkh5bUJNZ2xjWmtwZjdYWXB3YzFaUXZaQ2lrMDBMZ1pUb0FaRHY5XzYzemR3VW0zekcwZHNEdlNVTHBiUFdOWlBuOTQ4b3kzUHBtSHBNeWdyekRsSENoZUZxS0dPeFZ0VWlNZjRvWWZLTVd3eHczdHVXUlB5Sm1BVVVKRVpMTU1hVm0tUG1MNzdpeWs0R0ZDTU00QlVfcGZtLXFlYm04TzBTd211UV9qVW93?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Scenius",

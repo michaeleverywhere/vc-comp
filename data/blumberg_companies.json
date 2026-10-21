@@ -236,7 +236,23 @@
     "primary_investor": "Blumberg Capital",
     "profile_url": "https://blumbergcapital.com/portfolio-companies/anchor-browser/",
     "source_url": "https://blumbergcapital.com/portfolio-companies/",
-    "scraped_at": "2026-10-10T13:33:33.969127+00:00"
+    "scraped_at": "2026-10-10T13:33:33.969127+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://anchorbrowser.io/",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGhPei1nVVFCb0MwZzRYQUU1TU9oQUpQQ29XUjMtcHI2bExXMk1DSzNLSlNielcySlBHNmM2RU12Nm9JVVpqX0d3TWVxcnNyUlZUMDdWbnZrODZsZkRCRk83RjVyQlhYVGotM0trc0VYemlrVmNKd19VWF9CS1JKSg?oc=5",
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uTDc5MWlFei1zaGZqdklmSlRFQXBVU2pONV9FZkE0dWpGQUo1YUw3dmNFMTRJX1RSN2dIYnhPbUY0dFNfWENyN0RRSlZIazBiT1VYenVqdC1YWWpsV1VSam1RWEd6aEczSFlzdA?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Angle Health",
@@ -435,7 +451,35 @@
     "primary_investor": "Blumberg Capital",
     "profile_url": "https://blumbergcapital.com/portfolio-companies/authomize/",
     "source_url": "https://blumbergcapital.com/portfolio-companies/",
-    "scraped_at": "2026-10-10T13:33:33.969127+00:00"
+    "scraped_at": "2026-10-10T13:33:33.969127+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2021-05-13",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/authomize-secures-16m-in-series-a-funding-led-by-innovation-endeavors-301290621.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://delinea.com/authomize",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QjNoRjRNWEFUT05tLVgzc2RLMkU2d2xxNGVIZU5oMFF6Z011aWVyQkNMOFY5OFg4WkdLMUhDbTdoMmxuY0JER2pYa0dObGluNmFaSkwwRlVkX2hyTEp0R3NlOXlMWDktMl96MnJxcmIxU2Z0QlFz?oc=5",
+      "https://pulse2.com/identity-and-security-management-company-authomize-raises-16-million/",
+      "https://www.prnewswire.com/news-releases/authomize-secures-16m-in-series-a-funding-led-by-innovation-endeavors-301290621.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-13",
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bento",
@@ -955,10 +999,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.deepinstinct.com/"
+      "https://www.deepinstinct.com/",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MU0hfWnBveXM0UFZWd2VnWTBJMkJMWW9jR0hxb1NnYVJUQXdRSUJ1RGRrQTZlaXBxNDRMQ1IzVmZHZmdMY1hibkRLWFdObVYtcThjNVRJQjZBdjR0MU5KMy03TG56c2dCLWczZnRqOS1LLW9GTExvem5n?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2pKTERxb3Q4bmxmMmtrZFJZRUxmRXV4WUlVNTZRLWs3cE5RWElEdF8tNUVmTTYwMnFybmlPNlVQdUVJb3ZDSmtEWTR6VTgwcTNqRmtxUDRZTk96SWRnSlhWcTNoWnZXYzRTVlpudzhrOS1xcTdGa1ExcG4zOG9jTkNDTVU4ZjJCYU9jcVRfc05xZ1djLUV1N2U5NlN5eHBJUVNwadIBqgFBVV95cUxQVEhlUG9BYi1NcXR0REw4NmI5Nk5zcjJTejN6cW44ZWNvbU53aEMzMm9QcVJZWi0weFFNZFpnbm1PcVJ0SHVIeFlFUHd5aDFIV3RmcEthMzRKeFlYMXhoejV0VXBrY2RsSTJDdC1IQVQxRnRubDRaQUZjQ2FQeHFUaFc2aUpiYXBoRmNSS0c5cWNEMnAzMXNOOGFNNU5TLW9KVnM1ZEJneU05dw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYXhraUxuLVROMEc3c2pUVEtpaHJzS0dCTF9KMGE3NXZ6NlVKLUFsSmJuLUlYb2ZCYmVKWEk3T0dzYjJiNjVLdF95N0trQWNHMTNNTEtXVU9nZ0JXVDZ1MlR3RDU0MGJ3eklwWUVWZE1DZ29PM3RBSzhLRG8tTlBDMElMWU1CQy1uMzZtV3J3bXF2Qk0?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hV1VmbHFGaEVmXzladUZ2VWpCejVobkFKV011djR3WmczTFRKaVlCLXJjeGg3V0F2NWxZa1c0ZkdFbDl0NkZzVnJHWUJIV0kxSHFlZkgwUHJ4UnkxZWhsbnhJM2xaUlcw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1209,10 +1257,15 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.fieldmaterials.com/"
+      "https://www.fieldmaterials.com/",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ3JIdEdSMENvZFNmUUlxVWtmQ0czdE1SM1V0S3c3SEIwQTc2OFRmRmF1a0RUeVpEZy1IaFhsdFZWMjhZcDVLT01ISU9jR0V4V1I4NHF6OV9ocDdoWWFWYzN6MGpUWlBWajZRQUl6RFVZV0F5VWNtb3NhdXBUdnhueXZNU1B4WVRvWGxjT3BER3hTdzQ1MGVoRUZIQV9rYjlqR1BDMy1TRkdYSjA2VlRFVTU2STNSdHo4ck1jSXVTQ3g?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUkV6WHZTcGZLZE5EbTRJOWVEZ3lOdXBUTWQxSjlPcVF0RXItTEtrb2o5RkUwTGxHbnJ6Y1JqOUloaWJnLUhNWjFQMjZFZXpteGtVZEZsMjFLSnVCVXh0cS1SR3dpZ1RNTWpES2Z0b3V3ckVycm1aeUlzV1hlUWJ0MGUxZWZEX2lwWlFwRzJqZ2pzMjNHbWdoX0FrSkZhUkpzXzZuQ2ZoeGl5UzhqUVhJSXJIUy1BRG1qODliX2xUUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVWhBc0s2X0JLdkxsRDM2dVE3dk9WRl9fM09sLXNLb19DV3BtZDYzUmNIUjVKOGZmTElTeHpZQ05fR3kxZzNRS25YZWZBOEZIeWJ0U1JTVUxkY3BYUXFubWY0ZDUyclNCSVI0VFJRYU9XRWZWVm5GMEt1dlE2VVE4X3o0QXFYWFQ3VjBfUDhB?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQenktU0E0Yy1ka1dleGpsSGZnODUyUXNEQk85TGJoMUdFeVU4U1o3NU1HdnNjbjdoalFyZlcxdFdOTE9VZXZkZFh0LVppVnJlZkp4REt3c2xUcjN5ajlSSmt6U3dESlRBNkV4aUhRUFY1clpRWjVSaWxHYmN3RU9Kb1ZYQ21aYzdodENV?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR1JBRERndkptN0dvUnFfMDJMekx6UjVGQ2xXbTd1cURhdDI5WmpOd2NxZnZsNWlfbDgzODJjVlFFb3VXdVh0U2ZWelN4bjI1S1R5eFI5aFZkdGVUcmljelhYQlBUcUtwWGYzdndadk14eXo3T1VaY1J6X0IyZWhzaWhjc0Z3RlJELS1QNU1YcTdHbUNJdUpYUzFIMDFHUnI0X0NxbDBOZ3g1SFl6aGVXRm04YWUwX2lyWHQtSVFYaGJzQQ?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1548,20 +1601,34 @@
     "profile_url": "https://blumbergcapital.com/portfolio-companies/hunters-ai/",
     "source_url": "https://blumbergcapital.com/portfolio-companies/",
     "scraped_at": "2026-10-10T13:33:33.969127+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 68000000.0,
+        "currency": "USD",
+        "date": "2022-01-25",
+        "investors": [],
+        "source_url": "https://www.sdxcentral.com/news/hunters-pushes-soc-over-xdr-scores-cisco-snowflake-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.hunters.security/"
+      "https://www.hunters.security/",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGTEhaczBFdlFkM2QwcndjTnVid3ZWbXJRWDRHQVk3cXAtdENIb25qOXlZd1pnRzZjREdqSlA5R3lMcmZVQlQ1NGVENnZoTzdfRVBWcjRDNS1nVUhwZE9GRnVYekZWSVA5S0FmMkEzRjFVcnR4anlN?oc=5",
+      "https://www.businesswire.com/news/home/20220125005285/en/",
+      "https://www.sdxcentral.com/news/hunters-pushes-soc-over-xdr-scores-cisco-snowflake-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 68000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 68000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hydrolix",
@@ -2714,7 +2781,21 @@
     "primary_investor": "Blumberg Capital",
     "profile_url": "https://blumbergcapital.com/portfolio-companies/revionics/",
     "source_url": "https://blumbergcapital.com/portfolio-companies/",
-    "scraped_at": "2026-10-10T13:33:33.969127+00:00"
+    "scraped_at": "2026-10-10T13:33:33.969127+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://revionics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SAM",
@@ -3217,7 +3298,21 @@
     "primary_investor": "Blumberg Capital",
     "profile_url": "https://blumbergcapital.com/portfolio-companies/supplypike/",
     "source_url": "https://blumbergcapital.com/portfolio-companies/",
-    "scraped_at": "2026-10-10T13:33:33.969127+00:00"
+    "scraped_at": "2026-10-10T13:33:33.969127+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0IzYUJxZTFGNFNLT3NqMHFwdEhtY3VFSzBqTU1LVTZvRzBmaW9obEhRbDhBOXJSX2lQZm1qOHRtTHUtUnBlRUxQc3hRN2hsNFNseldqT3RqVzRaNGs3Nzdrb1VPaHg5U0M5V0lPQzJIcUFSSkZuN2ZHMkMzRXRGUEJKWkgtbEJBNjJMaWNXOEFvYzIzUkdkYldUQl9DXzVRbC1j?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tagado",

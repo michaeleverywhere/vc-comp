@@ -551,7 +551,21 @@
     "everywhere_tags": [],
     "primary_investor": "Social Starts",
     "source_url": "https://www.socialstarts.com/portfolio",
-    "scraped_at": "2026-10-17T22:12:47.083677+00:00"
+    "scraped_at": "2026-10-17T22:12:47.083677+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thriveglobal.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BrainKey",
@@ -1007,7 +1021,33 @@
     "everywhere_tags": [],
     "primary_investor": "Social Starts",
     "source_url": "https://www.socialstarts.com/portfolio",
-    "scraped_at": "2026-10-17T22:12:47.083677+00:00"
+    "scraped_at": "2026-10-17T22:12:47.083677+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13849992.0,
+        "currency": "USD",
+        "date": "2021-04-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1861511/000186151121000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://edificehealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1861511/000186151121000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 13849992.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-09",
+    "total_raised": 13849992,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Edly",
@@ -1016,7 +1056,83 @@
     "everywhere_tags": [],
     "primary_investor": "Social Starts",
     "source_url": "https://www.socialstarts.com/portfolio",
-    "scraped_at": "2026-10-17T22:12:47.083677+00:00"
+    "scraped_at": "2026-10-17T22:12:47.083677+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 600005.0,
+        "currency": "USD",
+        "date": "2019-08-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843419000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 500000.0,
+        "currency": "USD",
+        "date": "2020-01-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1440000.0,
+        "currency": "USD",
+        "date": "2020-05-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 32000.0,
+        "currency": "USD",
+        "date": "2020-09-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000007/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2571865.0,
+        "currency": "USD",
+        "date": "2021-04-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843421000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4100000.0,
+        "currency": "USD",
+        "date": "2022-09-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1788434/000178843422000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://edly.com/",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843419000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843420000007/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843421000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1788434/000178843422000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-14",
+    "total_raised": 9243870,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Electric Era",
@@ -3228,7 +3344,39 @@
     "everywhere_tags": [],
     "primary_investor": "Social Starts",
     "source_url": "https://www.socialstarts.com/portfolio",
-    "scraped_at": "2026-10-17T22:12:47.083677+00:00"
+    "scraped_at": "2026-10-17T22:12:47.083677+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2019-08-05",
+        "investors": [],
+        "source_url": "https://pulse2.com/smartnews-raises-28-million-funding-1-1-billion-valuation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.smartnews.com/en",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qVGE3T0lHT2YyWVdfM0NfWmZPSGMwTE5ERW90b3FyVGZkdF94X3VERDhkSVNyN0lTWFdPMXpuUUd0R1BZdnhkaTNWTWNlR0tmNXEzNnNkdWI?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUUtaVJHd0xMZVN5UEt4QnBKYUgzbEQ1c2VreDB4bTZoUUluVTZhaElXamlmZjFFRzkxZGJPMWVZSzMtczJPdWp6dEZCZHpibHJldkZiSHp1T1F3b1hSdFNzSkxZQkJKVzZiRXYxd2xRNlVmMzZTVGF2bUlMU29ZNzZOdzllYkdyQXZVZVZEMA?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWJrZlE0clg4bU9USm0ydnp3R0R4N0w2VGU2b0lLRFB4bHVNQ19XNEtFTHYwRlBvdXJNR0tXT2ZURmcxcUxmam4yRDV1RUljNW5IWlg1cnRLYzE1di1Gb3hwRjJKcGZzemhSMTlIQkVBbTY2X1BkWjc2RUl6blJlRG1KNzNWb1JGSzZsLTBrRjJYQ3IwMnFYME1ELTJTM0t5cHdSUkZB?oc=5",
+      "https://pulse2.com/smartnews-92-million-funding-1-2-billion-valuation/",
+      "https://pulse2.com/smartnews-raises-28-million-funding-1-1-billion-valuation/",
+      "https://www.mysanantonio.com/business/article/SmartNews-Announces-the-Close-of-a-92-Million-14854698.php",
+      "https://www.adexchanger.com/the-sell-sider/news-app-smartnews-eschews-subscriptions-for-good-old-advertising/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-05",
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Smilo",
@@ -3372,7 +3520,23 @@
     "everywhere_tags": [],
     "primary_investor": "Social Starts",
     "source_url": "https://www.socialstarts.com/portfolio",
-    "scraped_at": "2026-10-17T22:12:47.083677+00:00"
+    "scraped_at": "2026-10-17T22:12:47.083677+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dronedeploy.com/",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaEhxOU14ZmxLeEhtSHhoTVZib2dBTVowWF9fWnM5NFZDMTI4cVlSbV9iVDFTRVN5ZTNraHlKNHV4T0I3blh1MFRTam5WeE9XLWUxeEEzaWI1a2ZqVkJCNG11RGNFc1RXNHFSUXpXYlRhX0dBMERXRXF5OEhuUHoxdEVBMVpEWDFLT1FndVhzOEh5NjFRZXFhTWM4TmNTOHBNTHl0RFk1LXlyN2NDeUhTZFhmNA?oc=5",
+      "https://venturebeat.com/uncategorized/structionsite-raises-10-million-to-apply-ai-to-construction-project-management/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 8 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "The Block",

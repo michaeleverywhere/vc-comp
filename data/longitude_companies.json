@@ -875,7 +875,21 @@
     ],
     "primary_investor": "Longitude Capital",
     "source_url": "https://www.longitudecapital.com/",
-    "scraped_at": "2026-10-16T16:57:34.894493+00:00"
+    "scraped_at": "2026-10-16T16:57:34.894493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEUyT29TV0xXWkJOZF82bTBHNFp5QV8tT0JZVXptNG9nQ3pYSDNqSFlGOHBUSk9qaGdtZkFaUkJFb0ZOdVRtWTd4NGhrZmFXTkFfUWU1d1pkRVZuTV83X0V5YXhXR1ZRNV9sWmZJQ05OallnYjQwV1NJamVqTFB0Z09UVEM0NVhBRXJaTUdBN2VVWVU?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 10 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Civitas Therapeutics",
@@ -1042,7 +1056,64 @@
     ],
     "primary_investor": "Longitude Capital",
     "source_url": "https://www.longitudecapital.com/",
-    "scraped_at": "2026-10-16T16:57:34.894493+00:00"
+    "scraped_at": "2026-10-16T16:57:34.894493+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27249994.0,
+        "currency": "USD",
+        "date": "2018-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1765883/000176588319000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 54500000.0,
+        "currency": "USD",
+        "date": "2018-10-14",
+        "investors": [],
+        "source_url": "https://www.curasen.com/curasen-therapeutics-announces-54-5-million-series-a-financing-with-industry-veterans-at-helm-to-develop-drugs-targeting-novel-mechanism-for-the-treatment-of-neurodegenerative-diseases/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": "2021-10-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1765883/000156761921019414/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Strategic",
+        "amount": 5800000.0,
+        "currency": "USD",
+        "date": "2023-10-09",
+        "investors": [],
+        "source_url": "https://www.curasen.com/curasen-therapeutics-announces-strategic-investment-from-the-alzheimers-drug-discovery-foundation-to-advance-cst-3056-an-alpha-1a-adrenoceptor-agonist-for-the-treatment-of-alzheimer/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.curasen.com/",
+      "https://www.curasen.com/news/",
+      "https://www.curasen.com/curasen-therapeutics-announces-54-5-million-series-a-financing-with-industry-veterans-at-helm-to-develop-drugs-targeting-novel-mechanism-for-the-treatment-of-neurodegenerative-diseases/",
+      "https://www.curasen.com/curasen-therapeutics-announces-strategic-investment-from-the-alzheimers-drug-discovery-foundation-to-advance-cst-3056-an-alpha-1a-adrenoceptor-agonist-for-the-treatment-of-alzheimer/",
+      "https://www.sec.gov/Archives/edgar/data/1765883/000176588319000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1765883/000156761921019414/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Strategic",
+    "last_round_amount": 5800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-09",
+    "total_raised": 105549994,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cydan Development",
@@ -2713,7 +2784,40 @@
     ],
     "primary_investor": "Longitude Capital",
     "source_url": "https://www.longitudecapital.com/",
-    "scraped_at": "2026-10-16T16:57:34.894493+00:00"
+    "scraped_at": "2026-10-16T16:57:34.894493+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": "2025-10-15",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20251016863981/en/Veradermics-Announces-Oversubscribed-%24150-Million-Series-C-Financing-to-Advance-VDPHL01-Through-Multiple-Phase-3-Trials-as-Potentially-the-First-Non-Hormonal-Oral-Therapeutic-for-Hair-Regrowth-in-Women-and-Men",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.veradermics.com/",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ3A2blV3MnlyOEJHR3JmY29nbC1SQ0dQd2pZYUdkVXFrc3VfQW1BUUo2Z2JCaXVETHlaNC1UQmprMndXTGl5ZTIzZjNDWXVzb1c5VlFsVlgwWjB6Q1R4c0RpTjA5Qk5PRGswUUlTZ3lUVGRSX1NKZTltZFhmdUdZZGd4bmhLNkk2Z1FKclIyXzJLNUdUUWMzMA?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU1pSb3pvc09QdFlGbEV2eEpaVGxhYlJCaS1QUjdiek1sZEFMNjgtcXhScm1ocHNHWl82LXBFXzhPRlQ5bjl0VHhPNmo5akVLRFF4VHEzWnZOQmRYVjV0WHdFOHYyamVqcmFqQVdaM3hQcnQ1QW9MSmVlb3A4VmZkdEU0S0x1UjJ6UDBrdGxHQmNSbVd6ZkQ0Ym1VcFd3emllMzZyWG5DRDdPa2FBVi05dHoyQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMHphWUZJSzFwNG56TWZIbURpZTdiTXlTZTN4NWwtOTdrQTJSdWxxbDhDQUZKdVFpSjJxTTZ5cU1JY1lNX1dmLTRHZE1GbUxJYTVRSGxYM3pzQTktLXFXMEc4emxRLXIzWTdIZ01wM1FLVGhSS2VRaXhvS2hqVC1Da2pKWmFrSTYxRkFGT1RWVlEyZ0JyOGROeURjcjFmVmk1eUZEN0RpR094Rm5qcENLNGVTNnFNd3ppSmdkc2dHckdHbUdVZzdDWFRNQWRrUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggNBVV95cUxOTmVackpiVDE1RG0wbFdUQkpwMXh2OENHejJXRlVIVVJ3Z0JxOEt3V0FrTV9kU3ptVHlUWGpRSU4xYktsNmloelZ1aW5NbU9WYjFVUkRobzJpa096RDNRSjRLMDdFMjlZRHJyNThQX0ppU0tsZ2hRSVFXMDlybmFIaDRyR2NNM2szMU9SVkJDa3dLdkNiOHBjeWw5aU9VaF9NeDdpM3BKMm9DSXhQTmFzZHVMNzBQYTFUNVRTV0Nxb3JNRXAyMzdhTWVYMEZQOFRGXzdTcnZTVE9hWk1VbjhRdnRjU0hRLWJILUhRYzZ3MFlJaHZwMUFIRm05aGJKMDBDOUR4T1pUZVVGZndvc1JzTDctZ3ZZRVVjOUFkeWpmNjliSVJwU2lqakl5Vm1uMnhaNXlSSGV1TzlaQlZ3QXRHRTRqTThEVnNrSXpOMEFnb1k3LVluMzZvSDhzTi02clFPaFRMaXlOZ3pHSmNzMmh6U1Vxb1VrWVJSQ1FLcnFfeUQwdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZWp5amZTN3pFU3F1TTk1dkJOSGd4SWdSVUF1ZDRsWV9EYnFhVEhxZXhBZFRmUDBHX3piejR1V3hReE1fWUJ3RTkxTUctQlNRMG9zMUZ2RVkwRkluNmlLejZMTHRwNERWendRems4Z01KR1A3SGM3YTNZcW9rU2VSa0kzSGVRQ05kV2hMVjQ2aVhEbzdFZUFxb3VFUndyN0FjYmNIM2gwdHY2R2dvNGp2MVd5c1ZhbHEzX0RWRXhoN1dwNllxSVlvYzd4SkhyMlMxUXFYcG85QjBHRjRFZTdLV1J6aG03SUVreGc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkU3d080REVtLVJzRnREWDEtLWZEYTdMM01IaTM5ZS1rYUpkeTNaQ0xsV3pBTzNoaU8yRTRxZU9WUGExeDRVWGZBeWFMUU9BMC16TFNOck90UHRROXRSNlNFenNmZ0ZqbHhiczRXNWF2LVZhX0NmWFBhaWFKdS11SlZvcVR1N09kVm5QTVRaZ05QdGtvczdhRFZ3?oc=5",
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QQjJRWS1zUzhYUS1Jd0JiQXZFdE45N1lNd09QajVYZUJLdmlpcHR5OVZRUzlsM1ZOMjN0REl3WE9LdjhMRTVhXzZBT3dQUi1nU2FR?oc=5",
+      "https://www.businesswire.com/news/home/20251016863981/en/Veradermics-Announces-Oversubscribed-%24150-Million-Series-C-Financing-to-Advance-VDPHL01-Through-Multiple-Phase-3-Trials-as-Potentially-the-First-Non-Hormonal-Oral-Therapeutic-for-Hair-Regrowth-in-Women-and-Men"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-15",
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Viridian Therapeutics",

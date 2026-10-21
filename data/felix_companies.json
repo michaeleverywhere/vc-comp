@@ -390,7 +390,32 @@
     "everywhere_tags": [],
     "primary_investor": "Felix Capital",
     "source_url": "https://www.felixcap.com/",
-    "scraped_at": "2026-10-16T20:12:37.699480+00:00"
+    "scraped_at": "2026-10-16T20:12:37.699480+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.dorsia.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dorsia.com/",
+      "https://www.dorsia.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "dott",
@@ -571,9 +596,14 @@
     "scraped_at": "2026-10-16T20:12:37.699480+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hamNlN1BVc2hPTUNsWGRJaGdyeDE0MmttR0Jkd1pEWkZJeDkwUUQxeHcwd3N0NjJDczZCSGdZeFhWdzV6dUNXNmtMUm5YM2dPUWRZaE5HbnZ2el9VNzY2Y1oyUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmpwa1lQSEVWZzdpWXpWSVhvQXlXbEZtT3d6LXJnLW9nTnRXUnNRRnVlRktfYkpLcDlITThKWHpfY3BmTE9WT2s4MFZIZWJTUHpPaTRiSk1CS1BnanNvRVpQcm1yS2pNVHNzS29mMjk1RDlMdDFvODhHdkZ6VTJ1QXRxT2xnSExHbE1TUXVkeEJnUE9NdVBYc1FOQVczYjFTaFcwMmlLX0JralhkN3dQV3FzWFY?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXB0N2kxeUhTSElKblVTWkt5WnQ2ZGRDSENvbGVHLXo5ZDNqRkphRGZtSkgzZUpSbUE3akRFbGQ5clZ4cnlRdUtFcUNvaVRSRWVuTzM4ckRMS3ZqYk5haWRYaU0yd19BbVhaSkVweGlPQXBwaERLaDEzVWxtTF91UzJ0V0I3TnZWRmFhZnpkX01Dd2NKRWI4aGY3dHdXNU10MTV3WC1lbUpLTUJBbzdQZ2VzeWRnc18t?oc=5",
+      "https://www.retaildive.com/news/farfetch-receives-86m-in-latest-funding-round/370992/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -845,10 +875,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://kingsleague.pro/en/about"
+      "https://kingsleague.pro/en/about",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRTQ5ZjdhVVotWXcyRUJKVUoyejJ5ejc2eXJFR1JFN1JubVBnWHpJWjdkQlBYLUpIQWx2U3VKVEd3dExRMUNxZE40SVBYY2lpYTVIOW1zSDJvblRQREtIa0lOc2Y0RTQwTFp1dm9fcWtzWWp5N3RId0VtaGp4Sk9veFNYVFdjbU5HMHN0ZzBieUpmNFAyNEtYYUZqX3ZXT1dNVTl2ZHJlT1htaUhjTEw0cVNxQUt6dEpfdFhBcFhweFpBQ0ZMMC1zRHJZQXhaeHFHdEkwYXRWREN1UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNmg5MDl3eGxGSWwzMk9BNkotSkxmV3E4aGNnMWpQWURkMUtLeTdqWG9QT3I5QnVaS0Z5WXpqdVk1bEhLTU1vUTlNOGJMZm50ek9BUjRuTWx4Q0RnZ0k3aUdLU1U2S2NCbnZ1cFVkMEFxMWJIMVZCcHdqVS1aMV8xWW5VSDZqX2NycExZSHVreWgtcF9lYmNMSUJBWndOMDJGajZWb1RwRFJlb0ZheHhkOXpNc1RPcXlfeXc?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VQjNXS0V0ME1VdVVkc2t4bTI4b0xMZllfYjFDOVZKdU1LUkszaDNCT3VWTlp6NkJYaU52ZFVEbXFkR0VTRzNIS1pnNkpia0gwaENBZ3hR0gFbQVVfeXFMTXhVY1JEV3g3RmlrUlBLdHRvWVBROV9PYWYzNUVkSXozbHVrOTByUWhNV2pxVXFMSC1PaGNpNVZQdi15RWtVNFZIdlJXS1p0VXc0T3QtZG9VQUhObw?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVUI4X1pvcUdhZmJ4SFAyUjNzTDRJOVNlQnBOZ2xjNzhlSHFSN29RZk1CMkNEcEQ1VXE2dERkTGNRSFozS1VWWHlSQUVqQXRXazR6Q0drYWpvb0tqSEdVb3NLSkx5NXlnQ1JMRjNaVm1KdHAtV0tUVllrNmI5Z3drRFQ4VnViVW00R3EzN01od0ZYMVlsaUNHblFfaW80cGZvQ0lBWVIyN0VKLVJEUWtXbW5VZUZvaEU5RmNpVjEtWEFoMUdabmfSAdMBQVVfeXFMTlE2N1dnRkljSmFYUWdmSEpzaEc0aWV0cnBTMDVXQUJNYkJJRWF2ZGJaR19kelBZTnQ1bHpHdlRUU2hfMHpoREJFR3ktR1huaVR1eC1Uckw2N1VwakVUTkxVd3haaWZaM2R3Nk9nRHV3U2Fzb1ZWcHlSd0tHRng2UmRFTllvcldDVy1FSUc1WjhUbnEyaTM1TVEzUDJwMDVXbWxaOGhvUnFRSy1Ob1NSTzUxQTJMTENBQUswd0FXNVVYMm84N2hzRlQ1ZzkzZUZlM3o5Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPakM5VElWU21oaVZ4LXZBNnZmdlN4T3h2Y1BIdXM2ZlRrZWNCekNYNFZ6akpuUkFHaXFIbmV0V0V1QTRJb2lHY1hxaGRSQ19nTXB6NUt6S3A3QTlBOWhTdWpnZXh5MXpTcWVFdFZtWG55UWtvbjZjS2p5SzBvdTRJVjlpc29OZnFBMTAxMWphMXdJekZrSTl6YVhEZTM5cW5FLV94NEJLTW9uV3M?oc=5",
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByenJXcHpCVDdFdmZnN1p5dm12U0FzY0xLMkFsVFg0SnR6WTFjV1l0T3ZvX2ZhVmlJdVRDTnR6djZjdzZYbEZaYnJLSlZEak1NNkpFX3docw?oc=5",
+      "https://www.msn.com/en-us/money/other/investment-firm-alignment-growth-leads-63m-kings-league-funding-round/ar-AA1VBpQB"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1038,20 +1075,36 @@
     "primary_investor": "Felix Capital",
     "source_url": "https://www.felixcap.com/",
     "scraped_at": "2026-10-16T20:12:37.699480+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2019-04-29",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeEhmdFBXalFxTmNRX1RsVWNncl94bTljRmtVa0ZUWUVLcC0yaDhwYzIyX3NxdFFDVjRFbUxFNmhwT2kySW9pbS1xNktFUkJGT0dBZlhqQzRzdHZVQWNfWldWdXlPOE9KcDY4dHZ1ZWY3bUFPa0ppaGdOSUZtTVhqbGpZcGpvVXR1VWZ3YUtid1NzNGM?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://mejuri.com/"
+      "https://mejuri.com/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeEhmdFBXalFxTmNRX1RsVWNncl94bTljRmtVa0ZUWUVLcC0yaDhwYzIyX3NxdFFDVjRFbUxFNmhwT2kySW9pbS1xNktFUkJGT0dBZlhqQzRzdHZVQWNfWldWdXlPOE9KcDY4dHZ1ZWY3bUFPa0ppaGdOSUZtTVhqbGpZcGpvVXR1VWZ3YUtid1NzNGM?oc=5",
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyY2dGT1dwMUZ3MHpocldNLVA4cVQ5UVhueDlvRnFvUGxERk1pNVliMkY1R2cxek1EUDhuRWhGRWJqRTFMLW9wei1Ga3ZlTDZNZGNVelZhd9IBXEFVX3lxTE1jaHZBejMwQm1ZXzV2MmlEdnpVMDc4NWhTWWRza3lKeENuZVhhcUJ5bG1zVzAwVDJ2YXhLRUg4RWVNajFzcXZKRnVwR0pXUjJtUHdXQU41bWJGMkpT?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDRQemtvdkRsYlFFajNCNm5GaW5lR1pTSV9xbXh5bUN2UmJNSzZ5aGduX0FvbWxXU09nYk5lMVh2MFNZdHR2SVBjQkZESS1lbDgtei0xSEZfZ2F1cC1jM0tPbEFZU0NwY0Z1S2VRWXpQVTBneXhyVER1em5fdncyWTU3aFZ1NmdwSWdiNDdKRHg5YXNHQUZjZmxOZ2NtZHN6?oc=5",
+      "https://betakit.com/fine-jewelry-ecommerce-company-mejuri-closes-30-million-cad-series-b/",
+      "https://www.glamour.com/story/fundraising-while-pregnant-mejuri"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 23000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-04-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mirakl",
@@ -1061,21 +1114,35 @@
     "primary_investor": "Felix Capital",
     "source_url": "https://www.felixcap.com/",
     "scraped_at": "2026-10-16T20:12:37.699480+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 555000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYkZhYU9BUGkwdnNvNEpPTDNJOWVIY29HbXB0WVl0NHdBZ0J1eEJLZktxWkgzOGRXZmEwSHhzbkM5eFlUTlBJRm1CaUFhUkM1T05BMkFuMDQ5VlZYdy0zaHIxMHdoY3JPMjRVQ3dfT2tHNUkteDFzTDZGbTZXM3EzMzl5OENwd1dDT0dj?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.mirakl.com/",
-      "https://info.mirakl.com/marketplace-ac-general-abm-1"
+      "https://info.mirakl.com/marketplace-ac-general-abm-1",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdTBoWjJybGFZaWo0ZzVqYjJhVUxsdXFVSVFZdFljQ1ZaM1lVYUlER2VGQm5kc2tJcXJGYndJdV9mSVN1Uk4wNXVBM09rU3k5d0x2T1JCMl9ua29XOE1SRUdKRFdxVk1JVnlBZUNYQnRqeWtqcTF1WGNZQklRdGJRNnJR?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxObTY1bHdoNEpCV1R2Z2hpM21QOU5QQW12bTNsX1VCdFBDWm9oRXhaLXlSUzdNUVh2RjlaUnYta3hnaFRKU2dLdXhlUUtFd1FNcm5oVGR0Z0JLRjE1Y1luRlhPWmVPSlNUU0lnd0wtTmc3Vmhla1VXNW5EWHJ5WkFqUHVtSklsSFE?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYkZhYU9BUGkwdnNvNEpPTDNJOWVIY29HbXB0WVl0NHdBZ0J1eEJLZktxWkgzOGRXZmEwSHhzbkM5eFlUTlBJRm1CaUFhUkM1T05BMkFuMDQ5VlZYdy0zaHIxMHdoY3JPMjRVQ3dfT2tHNUkteDFzTDZGbTZXM3EzMzl5OENwd1dDT0dj?oc=5",
+      "https://www.prnewswire.com/news-releases/mirakl-announces-555-million-series-e-funding-to-power-accelerated-growth-of-worlds-leading-enterprises-through-online-marketplaces-301381818.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 555000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series E",
+    "last_round_amount": 555000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Moonbug",

@@ -497,7 +497,33 @@
     ],
     "primary_investor": "Neotribe Ventures",
     "source_url": "https://www.neotribe.vc/portfolio",
-    "scraped_at": "2026-10-19T19:48:35.278087+00:00"
+    "scraped_at": "2026-10-19T19:48:35.278087+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35000039.0,
+        "currency": "USD",
+        "date": "2021-09-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1887162/000188716221000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.carboncapture.com/",
+      "https://www.sec.gov/Archives/edgar/data/1887162/000188716221000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 35000039.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-09-22",
+    "total_raised": 35000039,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ciphertrace",
@@ -1608,20 +1634,33 @@
     "primary_investor": "Neotribe Ventures",
     "source_url": "https://www.neotribe.vc/portfolio",
     "scraped_at": "2026-10-19T19:48:35.278087+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 102000000.0,
+        "currency": "USD",
+        "date": "2022-02-23",
+        "investors": [],
+        "source_url": "https://www.fiercebiotech.com/biotech/plexium-nabs-102m-protein-degradation-battle-amgen-its-side",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.fiercebiotech.com/biotech/months-after-layoffs-abbvie-partnered-protein-degrader-specialist-plexium-raises-60m"
+      "https://www.fiercebiotech.com/biotech/months-after-layoffs-abbvie-partnered-protein-degrader-specialist-plexium-raises-60m",
+      "https://www.fiercebiotech.com/biotech/plexium-nabs-102m-protein-degradation-battle-amgen-its-side",
+      "https://cen.acs.org/business/start-ups/Plexium-raises-102-million-targeted/100/i8"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 102000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 102000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Prompt AI",
@@ -1906,7 +1945,23 @@
     ],
     "primary_investor": "Neotribe Ventures",
     "source_url": "https://www.neotribe.vc/portfolio",
-    "scraped_at": "2026-10-19T19:48:35.278087+00:00"
+    "scraped_at": "2026-10-19T19:48:35.278087+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.stax.ai/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQjVLc21TeEZqLW5MazdFTGFoTFF5Y2N2bnF3RmFKSm5FLWc2d2kybUF1Y3pXZGFRc0FNSDhxVjVyNXNYMkI2ZjZ0UW5Zem04TGlIZGtvR2ROaEZteE1Ba2RQYWlCR1owYjM3aXRtU2t4a21CNGk3YV8xUFN4ZF9QZDJwNUNKa0dtREpTb1lMMGZBMWRqUDVlcHZ5RmlWZXdUUHNUNlg4b29YZllCTFJLOEMxRjRvLW1OZHZJVDRGNnotX19ETWdxMnJLQlp4RndaQXc?oc=5",
+      "https://www.businesswire.com/news/home/20241121470344/en/Stax.ai-Raises-Funding-to-$11.65M-Marking-New-Era-for-Retirement-TPA-Industry"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "StepZen",

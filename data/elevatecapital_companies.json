@@ -132,7 +132,21 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bitesize.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BlendScore",
@@ -1583,7 +1597,54 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2025-06-12",
+        "investors": [],
+        "source_url": "https://rapta.ai/2025/06/ai-startup-rapta-lands-seed-round-spot-in-northrop-grumman-accelerator/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10835253.0,
+        "currency": "USD",
+        "date": "2026-09-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2072522/000207252226000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2026-09-17",
+        "investors": [],
+        "source_url": "https://rapta.ai/2026/09/rapta-closes-8-million-funding-round-to-scale-ai-powered-quality-assurance-for-defense-and-precision-manufacturing/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://rapta.ai/",
+      "https://rapta.ai/news/",
+      "https://rapta.ai/2026/09/rapta-closes-8-million-funding-round-to-scale-ai-powered-quality-assurance-for-defense-and-precision-manufacturing/",
+      "https://rapta.ai/2025/06/ai-startup-rapta-lands-seed-round-spot-in-northrop-grumman-accelerator/",
+      "https://www.sec.gov/Archives/edgar/data/2072522/000207252226000003/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-17",
+    "total_raised": 21535253,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ren Energy",
@@ -1712,7 +1773,33 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 320000.0,
+        "currency": "USD",
+        "date": "2021-06-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1871616/000187161621000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://rewire.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1871616/000187161621000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 320000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-24",
+    "total_raised": 320000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "REZI",
@@ -1917,7 +2004,34 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2022-06-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lMXBad2poS29PLUFhRXRISjBIRzN2VkJqWnJFa2lYRURsdzZzNVl0UjA2emlKeXJ3d3NYaWF6Q25FbFd4WWlvSGY0VVdqVnlvUGJIMUpNMDVub0VCUG5r?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://skysquad.com/",
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lMXBad2poS29PLUFhRXRISjBIRzN2VkJqWnJFa2lYRURsdzZzNVl0UjA2emlKeXJ3d3NYaWF6Q25FbFd4WWlvSGY0VVdqVnlvUGJIMUpNMDVub0VCUG5r?oc=5",
+      "https://technical.ly/startups/skysquad-seed-raise/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-08",
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SOMNOSEAL",
@@ -1973,7 +2087,21 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://stratesea.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Thaena",
@@ -2138,7 +2266,33 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100000.0,
+        "currency": "USD",
+        "date": "2025-10-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2094212/000209421225000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://toastwear.com/",
+      "https://www.sec.gov/Archives/edgar/data/2094212/000209421225000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-15",
+    "total_raised": 100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tonsil Tech",
@@ -2191,7 +2345,24 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.trace-bio.com/",
+      "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQMnB2aVN3T0VndE5mbVo4M0g5RDZTbTBsRWFubk5CeTlFZ3YtNV9pNU9BdW5tVU5aQm1YQlhoX0ZjMTZmZ0NzQk9lOFRDSzVISEJDWjFNU2JfMkZ6aUdYYnVwSjExSW1YZEx6U0UyMjBPeTYzME1UYjh1bDRhMmZWazZ3RjZndFZqWWp2c2JJZkxZNjJHY09iQmtwUnV1YVdkN1oxalczS2N4T0djbXhmOG5GT2E1WTNfQi0zSXBLbGg0YTYyNHBlT2JEZ3dEV3JoLXp5OVNuQXRZc1RKNlA3YVF4VEllT2xoMGxoTEJYYTJ0V1I0dm4xbnJHenpmbTZaZDI3dnZLSS1uT3FrendNRS04ZmVIMG9oNG9lMl82TUVCbm56d2QySg?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczZaS2dLOWVQVzJNTG1rYTNTZFJGYkdoTzk3SFQ2eXRUeHNoeml3M3oyT0FicjhsUWI0Z1U3RHBpTnBNRkFkbzV3N19laGVkRGpjWUpDR05tbG81S0c3ZV9nWHJSam1URWZGQjJfSWZ3MkhzRGhWaTE2SEFHdUJ0Yk04UdIBiAFBVV95cUxPX3Rnd1FRSDBmLURNOGc0cjU5OFFuRnphTXN5aGNsMjJQWDhiOEFGWUhpUUdfdFFIRzR2czhiWkJBWktWZGlJV1h3QVF3RW8yY1FZYmplZndDZEJhUFk4RWlfVWx6dnVXVnEyNVFZRS1RbjJobWlsRkJ4ZGJFQTlnSFlpYVlBSnA5?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTnR4dGhyWEtIZEFSLVluWUVERG1EWHoxV1FqS2xjdXAtRUxuSENhS2xyYkZ3OUlmTFp2NWM1Z1ZralRhUE1vOG5RSnBzLTBvWTlKUnh2LTBiX1UxQ3dIZ1kzMk8wZDZSWTlNdW9Fd25CeFVnVHlzVHhWQm8wX1FFNDh2MFpDbTRnS3RLZlZwZGxDZUxrM0g4U2tnOE9sODFOYzJGSW11MnlLUTh1UjdDR0RMMXZOU3ZaRTNOeHRQejhjLU9BMzIwMg?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TrayAway",
@@ -2205,7 +2376,21 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trayaway.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TrovaTrip",

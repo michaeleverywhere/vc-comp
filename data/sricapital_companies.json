@@ -217,7 +217,54 @@
     "everywhere_tags": [],
     "primary_investor": "SRI Capital",
     "source_url": "https://www.sricapital.com/",
-    "scraped_at": "2026-10-18T18:26:00.099020+00:00"
+    "scraped_at": "2026-10-18T18:26:00.099020+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4500000.0,
+        "currency": "USD",
+        "date": "2017-05-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1706913/000170691317000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18100196.0,
+        "currency": "USD",
+        "date": "2019-06-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1706913/000170691321000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2025-08-11",
+        "investors": [],
+        "source_url": "https://softwearautomation.com/softwear-automation-secures-20-million-in-series-b1-funding-round-led-by-strategic-partnership-with-bestseller/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://softwearautomation.com/",
+      "https://softwearautomation.com/press/",
+      "https://softwearautomation.com/softwear-automation-secures-20-million-in-series-b1-funding-round-led-by-strategic-partnership-with-bestseller/",
+      "https://www.sec.gov/Archives/edgar/data/1706913/000170691317000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1706913/000170691321000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-08-11",
+    "total_raised": 42600196,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "XOOK",

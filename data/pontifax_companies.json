@@ -137,7 +137,22 @@
     ],
     "primary_investor": "Pontifax",
     "source_url": "https://pontifax.com/portfolio",
-    "scraped_at": "2026-10-20T21:05:36.015033+00:00"
+    "scraped_at": "2026-10-20T21:05:36.015033+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://anaveon.com/",
+      "https://markets.ft.com/data/announce/detail?dockey=1323-15253094-1KHADIFHHQF3F6JS5VJUBQ8TMG"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ArQule",
@@ -723,7 +738,53 @@
     ],
     "primary_investor": "Pontifax",
     "source_url": "https://pontifax.com/portfolio",
-    "scraped_at": "2026-10-20T21:05:36.015033+00:00"
+    "scraped_at": "2026-10-20T21:05:36.015033+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 35000000.0,
+        "currency": "EUR",
+        "date": "2021-03-23",
+        "investors": [],
+        "source_url": "https://step-ph.com/step-pharma-raises-eur35-million-in-series-b-financing-to-advance-first-in-class-ctps1-inhibitor-into-the-clinic-in-t-cell-malignancies/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 38000000.0,
+        "currency": "EUR",
+        "date": "2025-10-15",
+        "investors": [],
+        "source_url": "https://step-ph.com/step-pharma-announces-completion-of-e38-million-series-c-financing/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [
+      {
+        "name": "Grant",
+        "amount": 2500000.0,
+        "currency": "EUR",
+        "date": "2026-02-19",
+        "source_url": "https://step-ph.com/step-pharma-secures-e2-5-million-eic-grant-to-accelerate-development-of-dencatistat-for-ctps2-null-gynaecological-tumours/"
+      }
+    ],
+    "funding_source_urls": [
+      "https://step-ph.com/",
+      "https://step-ph.com/news-events/",
+      "https://step-ph.com/step-pharma-announces-completion-of-e38-million-series-c-financing/",
+      "https://step-ph.com/step-pharma-raises-eur35-million-in-series-b-financing-to-advance-first-in-class-ctps1-inhibitor-into-the-clinic-in-t-cell-malignancies/",
+      "https://step-ph.com/step-pharma-secures-e2-5-million-eic-grant-to-accelerate-development-of-dencatistat-for-ctps2-null-gynaecological-tumours/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 38000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-10-15",
+    "total_raised": 73000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sweetch",

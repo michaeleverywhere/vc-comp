@@ -211,7 +211,32 @@
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
     "scraped_at": "2026-10-02T13:09:46.738613+00:00",
-    "location": "Seattle, London"
+    "location": "Seattle, London",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 14400000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.balena.io/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.balena.io/",
+      "https://www.balena.io/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 14400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 14400000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Benepass",
@@ -722,10 +747,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://circleci.com/"
+      "https://circleci.com/",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEVLZVBzSDdpbEhlVGtKb1NsSjRBSUFPTzdWQmQ5aGp2NFhxaGN4UkhNUWZ6YnhScnNZS2xFVG9FYk53QlRfVzNGU2tvNlFVNnNhRFFnOV9ndFF4d3h4d2N5OUR2WWdJUFp0TEFRaEkybWdNYzFvR2tHLXhTS0FHM3FWLWZPVmxOZ0JURXd0VEF6b3ExbTljNjUzTndtUUtrSkFid2tZS3lGWlJtSEtvM0tXRzNJZU43dDk5S29GTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMi15VVhyQ04wYVRuTDlWMzVETk1Cd2RMdXpwa05LZnA1V3B5dHlXRXVfeXpSY3REREF3Sm9FVFpWaF8zaEc0RUpva25ObkxUc3hEeFJZNFRoVUxVb2lyakZzdE9zVi1hcUZwNkpISjB0QXRMa3lQeFNvMlZkekNUbFRTaENfSXU0eGc?oc=5",
+      "https://www.pehub.com/dfj-leads-6-mln-funding-round-in-circleci/",
+      "https://www.cloudcomputing-news.net/news/circleci-secures-31-million-series-c-funding-further-continuous-integration-mission/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -872,7 +901,21 @@
     ],
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
-    "scraped_at": "2026-10-02T13:09:46.738613+00:00"
+    "scraped_at": "2026-10-02T13:09:46.738613+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.daerogroup.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Databook",
@@ -1808,21 +1851,39 @@
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
     "scraped_at": "2026-10-02T13:09:46.738613+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": "2024-10-01",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/numa-secures-32m-series-b-to-power-the-ai-native-auto-dealership-302264217.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://numa.com/",
-      "https://numa.com/about"
+      "https://numa.com/about",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeHNxdnhxcWpCZ3RGTzVRck50b0ZOT2RSdW5ZTld1WDdET3N5QU9zSHdrNEF4RlF1VFROQnBxdmtSZ1I1ek5Qb3RtQ19QRUd0c3AzX2x0MDNDZ3d0R3JRa2kweXJDOTAwQl8tb19pV3NMOEFDUEhaMXpiYjJCS3UxeUtob3oxdzYwOUU1c3pyNUU4QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYXI0NWNuUGFWWTZIX2VLTVZocHpZMzlwRjBsMWRLTkEtcHBPcDZkQW13SVpfNS11YU45dGVRUHdHeXcyN0tHNjRKcFpyV0tyVDVSNDRlOE9WY1otbHQ5OEVxMmFNTUM1MHdnc3o2Yk01a3M1R2o3VE1GWEszQTc4blJMQTBhUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcHVUMTU5Q25zYURmNWlUN2ItbUUzRnNKdlV3dmFpaG83S1p6ZGpNc0dVbjVHYlBOcEZ6SkpUeTdJX1hpU1JDSWViNHptbFIxYmZheURydmJLZ1B2bHlXUzdpUFVGd1pMYV9Ua1I5eXdfdmdySFkwSkNvbXFPa1p5V01qNjYxcVZERGlranN3?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaU9ha1d1UjZlLVhxWkMtajFIVlVXcUVzSFFtTG9VOUtralp3N0sySldlWGVjcmVmaFRPRHZTTm1jc2VqeVBhT0FKUEF5anZ4VXNYQ1QxRXVhcXd1WXNsYmFMQ18xcVBvY1hDMm1kMUNHSVpBN2dJMnVHLUVybjgyYUZJQnRFeTB6UGFOeEE4YnBySVRSa0hmS2pNMmVyLXZpTFU0OWdQT0VHYXN2Y2xvZGtWS2JMRmFrbEdwUw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS0JSMnhNemRVQkRVQmZhR3ptbklGTURYcm1lbHdZa3I2TnI5VnV5OGFoWl9Vd09KeExrT0p1ZGNENGUtUFUtOWZPVHNETmtrSGY3dktOV3d6bGM0M1V3LVhqVlpZVkFjMkpudzByaTVfRWI5eFBRd0hWRFhka21zS2RkbW00QQ?oc=5",
+      "https://www.autoremarketing.com/ar/retail/numa-to-use-32m-funding-boost-to-power-the-ai-native-dealership/",
+      "https://www.prnewswire.com/news-releases/numa-secures-32m-series-b-to-power-the-ai-native-auto-dealership-302264217.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 32000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 32000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-01",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ODAIA",
@@ -2465,20 +2526,35 @@
     "source_url": "https://www.threshold.vc/companies",
     "scraped_at": "2026-10-02T13:09:46.738613+00:00",
     "location": "Oslo, San Francisco",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 85000000.0,
+        "currency": "USD",
+        "date": "2025-05-08",
+        "investors": [],
+        "source_url": "https://www.cmswire.com/the-wire/sanity-raises-85-million-for-alternative-to-the-cms/",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.sanity.io/"
+      "https://www.sanity.io/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcXlWbkVIODdYUG5ENEgxa050RUpkMzBHSnNPNlZaYU8yQWRPNW00TjRySWwyNnY5NmhObDEzYURNMThxaHBqaXgzZjBCODMxTnN3VzdpcmJyMnpxNGxmbGxBWmZMeGFSenlObkh0cUFwYURJMkdNandhQk05NlJOVjhBNS16Wk1tdUZIOWNn?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNnRTVFI0MXpFaWk4dGNmR2ptOGRqSnpuYXNSc3hhcDRHeF9STWl0cDh5S2tORm14VTBqX2NfeUViZnphYTNUYVJ6UDkxZlRzdFdMWjhzUGRVTUFJUEVYQ0tfN0hGZWloYmVmYnFJOHBjenZrVHBvRXIyWTNNbUR1eWlDbGVQVmZkY1NpWFJhOUl6S0RpTE8yYXp4UXlFTDB6YzZKelhtb1Z6cXVBMDFnS2xSOXhNX0RnUWM0?oc=5",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNXp1TGxDLUNsMnYtaGh3YXVGOEVmRnRkV0xHdHdvSnlJM19BUjk3ZXI2SFdQWlFkZTRMX2FKVVZkMDNEN2VuWTZBb3VoSi1aWm15c3pRNUJMQkExVHVGQW1HcFFTUVlMQjRsOXNfUTJHNVM1bFNGcFUzbjhIaS1iT3FDcFplbVdVdENLOVJKdmpFcXpNMDBsV2NJNWd6ckF4VDVHcHJ2TnNUTlpsM2k4MFN6MDdtMzFhcUNaZGk3TVJCMXFKMWlLLWh5R2VlV3I2U2x6c2hfSU14VjhMMzQ0S19DUW5lYkh4Ri1YVmVNY1pqR3ExWEVNNmw5SF80S3VlUWI4?oc=5",
+      "https://www.cmswire.com/the-wire/sanity-raises-85-million-for-alternative-to-the-cms/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 85000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 85000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sequen",
@@ -2747,7 +2823,34 @@
     ],
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
-    "scraped_at": "2026-10-02T13:09:46.738613+00:00"
+    "scraped_at": "2026-10-02T13:09:46.738613+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": "2026-01-08",
+        "investors": [],
+        "source_url": "https://www.toposbio.ai/press/2026-01-08-seed-funding",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.toposbio.ai/",
+      "https://www.toposbio.ai/press",
+      "https://www.toposbio.ai/press/2026-01-08-seed-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-08",
+    "total_raised": 10500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Transcarent",
@@ -2905,7 +3008,23 @@
     ],
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
-    "scraped_at": "2026-10-02T13:09:46.738613+00:00"
+    "scraped_at": "2026-10-02T13:09:46.738613+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://veritus.com/",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfRE9vN2pUZks0dUF0aVA4ODd3MWk1ckRXdm15YnhPeWNqXy1LMWNTX0NiYW5xcjUzck54enNJVnUwb0ZEY2N0NDZQMUllalFSODRjamdtbWZYREZwRWRPdHQ2SQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXVCeXBfX0J1RnNVUmp5UDVob1o1THF1cjRoTXRORG0tSmNHelI1eUtVdnU5WVY2bHg5eGFpekRZX1YzVFkyY3c0RGxZQmFLY0N6R29nUER2UkJNN1NCUUFyMVpKQlRrTXQ4eXRSTVI4ZkhDU1lQYVpQSlhFR2xSY09ndHVHNFJaSEZ5OG9hQlVLY2VIRkZDWDM4Nm1RWndjSWlVamlmSDR3S2ozei00b3VteEg?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Videa",

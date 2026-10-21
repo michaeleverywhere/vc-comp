@@ -560,10 +560,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.monaco.com/"
+      "https://www.monaco.com/",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa3dNZzVkdk9wbEQtMmdlVXZNVTBQd05yYlA1Z2FfZUJKUUdwdGR6Z0tEYjY3UFlDa1p6aDdvdEhBZnFIR2xDMFdoeFFfaWdJWFQ2Vmd3cGhyUU1FYVNQV18yQmlYeFFHLWR0dnl4OWV3S040bGFmZ0tOVkgtRExVbzZRZDgtMl9Ic2h1bU5POTVHYnhROUw1UFRyc01MWnVxSUtFREdsNHBfUWZ0R3Z4OVpUbWdPaEI1aTBHTmtGTVVyUQ?oc=5",
+      "https://uk.finance.yahoo.com/news/monaco-secures-50-million-series-150000811.html",
+      "https://markets.financialcontent.com/prnews.pressrelease/article/gnwcq-2026-5-12-monaco-secures-50-million-in-series-b-funding-to-grow-ai-powered-sales-platform-amid-strong-customer-demand",
+      "https://www.manilatimes.net/2026/05/12/tmt-newswire/globenewswire/monaco-secures-50-million-in-series-b-funding-to-grow-ai-powered-sales-platform-amid-strong-customer-demand/2342074"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -766,10 +770,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://frankieone.com/"
+      "https://frankieone.com/",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTFNXTzFEdl9pNTJDUlRCa2FoYjZmMXR5enhrak5jX083dXNsN2JJT1NERFFya3lpek1hakdKZy15VHJoNFBvQzd3MkZhY3RISjBBTklTQ2pnUHB3UkpqYlU5WFVYbEVpLTZNZmhtcnpwU3N6eEoyeG9kVzFULTJMTm8ycXA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -957,7 +962,33 @@
     ],
     "primary_investor": "Mantis VC",
     "source_url": "https://www.mantisvc.com/portfolio",
-    "scraped_at": "2026-10-11T13:26:34.993313+00:00"
+    "scraped_at": "2026-10-11T13:26:34.993313+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8151000.0,
+        "currency": "USD",
+        "date": "2023-11-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1984738/000089979724000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sunnybenefits.com/",
+      "https://www.sec.gov/Archives/edgar/data/1984738/000089979724000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 8151000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-30",
+    "total_raised": 8151000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tally Health",
@@ -2366,7 +2397,17 @@
     "primary_investor": "Mantis VC",
     "source_url": "https://www.mantisvc.com/portfolio",
     "scraped_at": "2026-10-11T13:26:34.993313+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-05-17",
+        "investors": [],
+        "source_url": "https://www.techinasia.com/pluang-bags-10m-funding-expands-indonesia-equities?ref=subexc-296036",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://pluang.com/",
@@ -2374,17 +2415,19 @@
       "https://pluang.com/en/explore",
       "https://pluang.com/en/tentang-pluang",
       "https://pluang.com/en/pluang-plus",
-      "https://asiatechdaily.com/pluang-raises-us10m-series-c-led-by-mufg-innovation-partners-launches-indonesian-equities/"
+      "https://asiatechdaily.com/pluang-raises-us10m-series-c-led-by-mufg-innovation-partners-launches-indonesian-equities/",
+      "https://www.techinasia.com/pluang-bags-10m-funding-expands-indonesia-equities?ref=subexc-296036"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-17",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jeeves",
@@ -3888,9 +3931,16 @@
     "scraped_at": "2026-10-11T13:26:34.993313+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVFWbzNneWljLWJwVElYOGhLTE5DMnpndkNGbVdqZ29pSlFReVVXblhDbkhuZ0lENnY0SWYwN0laTkxaZUl0eVRXMGk3VnFyRjIxQ0w1QURzNzh6VW1XNV94TDFfU21LRHYzemNQcTQ3WDZLejMtNEF4dlV4WTVaQmxFb1c0VE1hM2ptaU93NXZGbGxvNUxnLVBzTkQ4VHU2ZlQ4aWNoS3BoaHlsYkhzdTYwMGo?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmcyMkR6SG8yVU5EUGt2V05BTlZSckF3MnBDeWZWMEctTDhSMjF3R25TRWYxS2dXblphWFNnZldHOFlqcDFKTF90UTFDbmZVWGNxUnhIY3Y3UmRLaXNya2pBd203LWxPNDhSZXNJSjd0dmZKZWdhX0YzYVh6S3VTdzlpT3BlT216UFVXNQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMWJXOVlhZC1WQVUxWm9UNDBnZjJSM3lDa1hqbFBPN01uRTNoZHNUanVRU0tTTU9GaDY1cF9iNjY1bDdnSmVuOWdEZzVnc2FGdHYzclBjeE8wS3BVVFNmaFg0MFBYb3FPbjF3SzhfWHkycUVYWVdnVkIyTnYtdTFqTDFkQUt6aHPSAYcBQVVfeXFMTjFiVzlZYWQtVkFVMVpvVDQwZ2YyUjN5Q2tYamxQTzdNbkUzaGRzVGp1UVNLU01PRmg2NXBfYjY2NWw3Z0plbjlnRGc1Z3NhRnR2M3JQY3hPMEtwVVRTZmhYNDBQWG9xT24xd0s4X1h5MnFFWFlXZ1ZCMk52LXUxakwxZEFLemhz?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVmZzbkFrei1HdVBKTWY5NTlHcUtENmgxbTBSZUZnUmc3QVBQMVB5aTZKZUFaRmQ1eDlRU3Ezdm5UTjR4dllPbEdkM1NQdTdFQzloSGFCWk9rc3FYZ01Tbm9Yc0NqYjJKZ3N4T2lWVTJuaUJ2MXVQMzhGVnlIVzZLVTRSNlB2YzUwRlM2bUs1aDBjelc4c1BNaTg1TEVxekJnOUdINS0wMWJLZnlqUnZUZzZ5ckIzWkRYZ2Ew?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYXd4eWgwbmViOE1LR3VDNHByMVlRRG82blNaa1VNTkJSYWMwOXNYYjNpWlhwM2JGQjNVbW5pcDdBWFV0QTFWX1Qwa0VKamFYUXRjOFk3NEtwYlZBQkNONlZ1YkE4N3BvWHNDZ0VmX2R0S245bE1FMHBiOXMtdXRwQldGZmE0cm8tNV9tUHZJdmxKMjdLdjVQRzhlQnZ6VTZPQ3M0?oc=5",
+      "https://techcrunch.com/2024/09/16/flink-the-quick-commerce-startup-raises-another-150m-at-a-valuation-of-just-under-1b/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

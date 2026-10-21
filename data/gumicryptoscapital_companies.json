@@ -818,10 +818,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.keyring.network/"
+      "https://www.keyring.network/",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZmxVRV9QS1RoMGMzS2ViX0ZPakFFYjBaMDZtSTdDVEE2TmQzeXVXb0Qycmt3cDdsWERnRHV5NUNmSmY5d0JwTm1VNGhnNzNLbEY1VXpEZHpYS1A0cVNPZEZiSk5fYy01UTl1MHpNelpXU0hyLUJIWTgtdEhnYkZCWnRlWFY5enMtQmJZWWw0Mk9fd2RMZXFOazcwTkRzOXJYZWtudVE3V0Ztb3lfMW5mOXFwbmRsb0lBOVViYzhnUmpkTmxGLVZTeVFDbko?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -961,20 +962,38 @@
     "primary_investor": "gumi Cryptos Capital",
     "source_url": "https://www.gumi-cryptos.com/portfolio/",
     "scraped_at": "2026-10-18T19:45:52.167062+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Strategic",
+        "amount": 1900000.0,
+        "currency": "USD",
+        "date": "2023-09-07",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGZ1cyNk9nNnNMSUVmb1QxTlplZkJ1Y1BCTTVNVUN5Sk1zVThmNi1yUjI5SHJnWVRKQ2FMT2JRb2RCLVV6TjdCYWloZjJlOWxJNGtESkhnLXVlbGpSUHBXUXFvMU1KZkVGWVFpVWFMNlRRaU9h?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://nestcoin.com/"
+      "https://nestcoin.com/",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVWE2U3pjVHY0ZF9XdjdGNzRwTkNIS1IwSWJucU1zY2pjcjVZRFRoc3pwNEU2d2MzUGNnVmU2NHBCdUg4NWZFNlFHYVhYelc0MHQwZjQ1VDJia094VEkxb2E0RzJRdDBmcGN1d1ozS2VoSjBPelppdnlveHNDSm9PczZoV0lnNnRBc0JVanhBRTdrc0hEM21SS3p6UV9LSzZKbVRxdFg0ZnZrWjgtQy1jcDdxWDMxbWlVMENoWGtqYWw3YkVMR1lnRmRCWE8tZ09m?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE54dG9BZE5ZV1NlQ2JJdUJFcmpaOGRob0o3RGs0WmZBS0NDQURQZ1JaaFRUUFBkSnBXTjM4NEpoUUJqYzRhdklONWU5MmxVUmhQWHhhQVVSVEpwUFdxVUg0VjJTdXViME5rM3FyRW1KclZsZnpWemxVcw?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTFBzeDBPUDc1enRjb3JwZ2ctU2RjZXV2dkRRVnpjeVRRUnFUNXQxcjM1T18zOEZjVVIycVA3X1hWQWUwNkZqR2xLbzJEeFRJTDJMSzhDa2pVcDUwSFREcHE5VlBVQ1ZjNGluMVFpSnVpa2NzZw?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XN2pOeVJxbVYycEo4b1lpTi01dEl3RkJQbHpGQXY1SEZyWjdUUHBBUTZybW1tNHpRWWx2MmpuV1lSVEMtUENCbG8tcndCeXRLWFp6UjZHYW85OTlQcjZzdlB1SmF0eTdXYkdmdVh2X1lxMjFrWW9Zc3Z5bw?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGZ1cyNk9nNnNMSUVmb1QxTlplZkJ1Y1BCTTVNVUN5Sk1zVThmNi1yUjI5SHJnWVRKQ2FMT2JRb2RCLVV6TjdCYWloZjJlOWxJNGtESkhnLXVlbGpSUHBXUXFvMU1KZkVGWVFpVWFMNlRRaU9h?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc2pGYWI4R3FydjQxOUJqcGJHaDUzQW9lQ0FRa2JqS0pCNE9DN0U4aHJuQWhhcnd5MUh1aDlMSVBkaElYUXYwQmpkOEs4SkpueDNuTUdwQUpybWlheE5zazlpbVlISlNyRXNSaTlWamtRb2MtWnN0UE43RU5UT2lDcUV4ZklSYzdpa0ZMbEZmY00zVHhfcEtuYzZ1YXhPenFrdXFZQ3F5NnY3dU54?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nOWRtS3lLeVZfblc4SUU4MzhLTlQ5MHdsNjdHNGV5SFdkbmpLaEY5QVNvbEtHdlgwZFdIYkNSY3ZxbU5GZGE5eDBLNnEwbjVzZFlSb2dYYXhBYV85ekZyc1cxaEp2eUlla3BjOE11cmtxMDN5RlE?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1900000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Strategic",
+    "last_round_amount": 1900000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-09-07",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nucleus",
@@ -1212,10 +1231,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://parallel.fi/"
+      "https://parallel.fi/",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXpkZzNiVnZoc2RXS1FRTmprNEVya1J1ZDJNZGczOUFOWDBSOUtRbHY5LXZGNWM1SHRnVVh5dWZaY0xTb1JkQWIybXNfUWlHZF9COURGekZ2M3Y2cnEyZmx4a2xhb0I4Snpoa3dQcW1zSERBMUdGaF9RNHhpRjFGdk80VW50aXNPWWpfVjNyNjh1TVo5WnZlVm9WVEZ6WExuTTNkSnRObml6d2lhWHIxZF92bFNZdjhtcGk1cHJGeXYwUQ?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1727,7 +1747,22 @@
     ],
     "primary_investor": "gumi Cryptos Capital",
     "source_url": "https://www.gumi-cryptos.com/portfolio/",
-    "scraped_at": "2026-10-18T19:45:52.167062+00:00"
+    "scraped_at": "2026-10-18T19:45:52.167062+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://xy.finance/",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWDJpckJ4LUIwSzJoRVFWRFBvMHFPR3ZOOFlsMXN5cGNSdXJmOXRnMXdrNVBLZjZJbGJTaGtfSG5NS2E1M0haM3ZKMndsdDlGNmc3UU03Y3JIQU5fbXRUcmdqS0VSQmItU2wyUnZxYUhzeWRwdnMxXzhjVV92VHdtMGxiTGJaRS1SSWkwNnhhbzI0UV81ejBveg?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Yield Guild Games",

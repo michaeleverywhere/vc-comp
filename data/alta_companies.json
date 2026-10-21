@@ -94,7 +94,64 @@
     ],
     "primary_investor": "Alta Partners",
     "source_url": "https://www.altapartners.com/portfolio",
-    "scraped_at": "2026-10-16T17:02:51.624071+00:00"
+    "scraped_at": "2026-10-16T17:02:51.624071+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27249994.0,
+        "currency": "USD",
+        "date": "2018-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1765883/000176588319000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 54500000.0,
+        "currency": "USD",
+        "date": "2018-10-14",
+        "investors": [],
+        "source_url": "https://www.curasen.com/curasen-therapeutics-announces-54-5-million-series-a-financing-with-industry-veterans-at-helm-to-develop-drugs-targeting-novel-mechanism-for-the-treatment-of-neurodegenerative-diseases/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": "2021-10-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1765883/000156761921019414/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Strategic",
+        "amount": 5800000.0,
+        "currency": "USD",
+        "date": "2023-10-09",
+        "investors": [],
+        "source_url": "https://www.curasen.com/curasen-therapeutics-announces-strategic-investment-from-the-alzheimers-drug-discovery-foundation-to-advance-cst-3056-an-alpha-1a-adrenoceptor-agonist-for-the-treatment-of-alzheimer/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.curasen.com/",
+      "https://www.curasen.com/news/",
+      "https://www.curasen.com/curasen-therapeutics-announces-54-5-million-series-a-financing-with-industry-veterans-at-helm-to-develop-drugs-targeting-novel-mechanism-for-the-treatment-of-neurodegenerative-diseases/",
+      "https://www.curasen.com/curasen-therapeutics-announces-strategic-investment-from-the-alzheimers-drug-discovery-foundation-to-advance-cst-3056-an-alpha-1a-adrenoceptor-agonist-for-the-treatment-of-alzheimer/",
+      "https://www.sec.gov/Archives/edgar/data/1765883/000176588319000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1765883/000156761921019414/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Strategic",
+    "last_round_amount": 5800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-09",
+    "total_raised": 105549994,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DEM BioPharma",
@@ -134,20 +191,36 @@
     "primary_investor": "Alta Partners",
     "source_url": "https://www.altapartners.com/portfolio",
     "scraped_at": "2026-10-16T17:02:51.624071+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2021-03-03",
+        "investors": [],
+        "source_url": "https://www.mobihealthnews.com/news/home-urgent-care-provider-dispatchhealth-lands-200m-series-d-funding",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.dispatchhealth.com/"
+      "https://www.dispatchhealth.com/",
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxOSFlERENRQnZNU0JTTFZCdk9ac291WDJOcUVCM0dDalNSQ1RybVc1MWpWRy15eWZjLXU4T1VQTkpQbFhReTJwSFVrWW5JUnBLeXRzdlVSeVZicXJQZmYyMTdyNzhwNzJtYTJMd1kzc3FDbGNDSkVJY2xtZU1HemZLWkVQM0t2eGF4b0M5dGdyY2pOMk1BYzAtUHpDMXV5bE5heHdnSnFnZDEzUk5ObjdVOExwb2RFdzdBQmxhTVJ2SVNaVEVoa2UybjlqZTFGRldaMnBQWHJUck1ZUEtnbk82Y3kwU3REdTJGTFZzVmdBOHFkaUdtbWpEZ2dZME5heFNTRzRyaw?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGIyVHBDQklJLTQ5X2RZVTlINW4wUXVnVTFGOTVYMENwNFR4MFlPWmFVV2FIZW1GNVJKdXViNnVVNW9XUGx5RG90NUxvMkhyYW9Gd3o3aVo2WDViRlZPS25ZV09mUy1wcjNvQWxYRmdQSFFyVndwd2ZNWWF5QWpvcUI4MEg?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JSkNCUl9VWDNWLWRLVEpIeV9uYWJWT0dGeEtCelVjemdaQzJWQmc1N2pmeDdCYXdzclBaNHZnMGp3TU9LbjY3ODdNY2k0TmhRNG5CcHlPak05OE1sc0c0RV9FUzlpTktGVzZ2X1RUb2ZlWnRJR2tMbzlFWF9QZw?oc=5",
+      "https://pulse2.com/dispatchhealth-raises-135-8-million-funding/",
+      "https://www.mobihealthnews.com/news/home-urgent-care-provider-dispatchhealth-lands-200m-series-d-funding"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-03",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Edgewood Oncology",

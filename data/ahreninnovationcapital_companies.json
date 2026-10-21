@@ -287,7 +287,35 @@
     "everywhere_tags": [],
     "primary_investor": "Ahren Innovation Capital",
     "source_url": "https://ahreninnovationcapital.com/",
-    "scraped_at": "2026-10-21T00:21:54.429390+00:00"
+    "scraped_at": "2026-10-21T00:21:54.429390+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 58000000.0,
+        "currency": "USD",
+        "date": "2024-09-24",
+        "investors": [],
+        "source_url": "https://constructive.bio/news/constructive-bio-58m-series-a-fermentation-peptide-manufacturing-ncaa/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://constructive.bio/",
+      "https://constructive.bio/news/",
+      "https://constructive.bio/news/constructive-bio-58m-series-a-fermentation-peptide-manufacturing-ncaa/",
+      "https://constructive.bio/news-tag/funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 58000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-09-24",
+    "total_raised": 58000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Edifice Health",
@@ -296,7 +324,33 @@
     "everywhere_tags": [],
     "primary_investor": "Ahren Innovation Capital",
     "source_url": "https://ahreninnovationcapital.com/",
-    "scraped_at": "2026-10-21T00:21:54.429390+00:00"
+    "scraped_at": "2026-10-21T00:21:54.429390+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13849992.0,
+        "currency": "USD",
+        "date": "2021-04-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1861511/000186151121000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://edificehealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1861511/000186151121000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 13849992.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-09",
+    "total_raised": 13849992,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Graphcore",
@@ -507,10 +561,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.newculture.com/"
+      "https://www.newculture.com/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEQ4RUN5Z2dMM29FTnN5WDRzSmRkYUhrWmdyeEZPbmFGRE52WGpvYWQzb1JIdnJSa0RVZGFPZlZOeFhOTzhGVklrM20yVHhVTkFad2kyeTl5VXd2aXpMekdncGVVaFRqQmt3cmxlb3AxeEVNWlBtZzZLbGNxeGZEbW11X3l6SXFvMllwU1NKN0tmenJrOHBjaUJfV2dLZw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkJiamtjZ1AxeXNPLVdFMlJiV05FbjRMWndvcFg0cTJ4cTZrUnFzbXNYRlBkSzdRU2ZvS29uSldEMHpYNEVNLWZiZmduY2d3N0pYaElEUWdiSWlLR3lJWmtBY2Vsa2g5dXBOdHJTc1hJaVR5SElUWDA3THN0dG5ybG5RY3RRT0pxUGRCZ1NpQ09maDQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZW1jMm5JY1ZoUk5ZWFZvVFgzVFdtUDlScjBCU2pEeHdRMXlEdW9XdVFzeDlic0lYa1NmS2tvWGU4X19UNWQxWF9EOExkLXF1V0ZwWWlCUktNcDEwcFRadlBTUHhqVW0tVDBZbS1TM2FrX25GcFFIOGtwNC0yTFhzYmhpYVluSjdqb3NmLW5aOHdzVEdJdXhrOF9HN1lHcUdMN3ltWFNWSXE2bFY4ZTNPa1Eycw?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaG5uT0FGTURHLUh4Qi1lY0ViX1dIeV9SX0JIVmFFRW1hTkFXV0lpdUs0OU5wRVEyaVVoLUZVbUtMcUpuTzMzaWZSRzhpRDdaeDllM2dLWElYVmtrX3ZRb05teV9tNmRfaTRrZFFnWnc1NTF6cUhLc0hwOXp5SFBzVXZLOTByTk9CM25ZWWNFX01SRmNfZUVCd3NZbmVNRFZqTEduYW9zWGlDYXYyNWtsaW1B?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -702,7 +760,21 @@
     "everywhere_tags": [],
     "primary_investor": "Ahren Innovation Capital",
     "source_url": "https://ahreninnovationcapital.com/",
-    "scraped_at": "2026-10-21T00:21:54.429390+00:00"
+    "scraped_at": "2026-10-21T00:21:54.429390+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://switchbacksys.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Velocys",
@@ -714,7 +786,33 @@
     ],
     "primary_investor": "Ahren Innovation Capital",
     "source_url": "https://ahreninnovationcapital.com/",
-    "scraped_at": "2026-10-21T00:21:54.429390+00:00"
+    "scraped_at": "2026-10-21T00:21:54.429390+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2024-02-12",
+        "investors": [],
+        "source_url": "https://velocys.com/velocys-secures-us40mm-of-growth-capital-and-begins-new-chapter-as-a-private-sustainable-aviation-fuel-technology-company/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://velocys.com/",
+      "https://velocys.com/velocys-secures-us40mm-of-growth-capital-and-begins-new-chapter-as-a-private-sustainable-aviation-fuel-technology-company/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-12",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zapata AI",

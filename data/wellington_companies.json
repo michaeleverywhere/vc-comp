@@ -581,7 +581,34 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1300000000.0,
+        "currency": "USD",
+        "date": "2026-05-27",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/sectors/healthcare/articles/apogee-therapeutics-announces-1-3-103100709.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://apogeetherapeutics.com/",
+      "https://finance.yahoo.com/sectors/healthcare/articles/apogee-therapeutics-announces-1-3-103100709.html",
+      "https://www.ad-hoc-news.de/boerse/news/ueberblick/apogee-therapeutics-secures-robust-funding-for-late-stage-clinical-push/68988541"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1300000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-27",
+    "total_raised": 1300000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Arcadia",
@@ -2570,10 +2597,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.elementbiosciences.com/"
+      "https://www.elementbiosciences.com/",
+      "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQRHpXeXVyUEtmdFRzOWItamE3VGpubHh6aWdiS1o1N01hQTQ2eUlIY0h5d20zblIwN2ZaUExScVpDZk5fVE1BLVY0Q0h4cFFaeHRiZlRIMThoNHM0TXVNWkNnOS1OU1hOVVhXMUY4c2c2VWRFMTYyUWltbDVDaklLd29wQkZ5NTVNNU0wR2Z0LTgyTmFTTFBkZ0xEMWFxa1VtV3l0bVVBVmZhdDVDcU5qcVFmQnJQT09tVWxEdFpRekplWUJfd2dIWW8ycGllblhkUEZxanFuZ3BiR0ZyN2JCMEUtVHljT3RjR05KaWJ4QlFoMzltUGhGOEVweG5jTXNwMDI2WWF5X2FzcWRjZW5rYmVhWVU5N1ZKZzNQWXhFSkVCTmZwWDRFcg?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeUpBOXZMYlc5RWRBbWhBOXBmUWRLZ2ZKRkdrQ1h5UE5VVmRhbS1oTHNVTnZhTXRUVHRIeEsyV1oxemk0aVhQalZSUVlsblNqczc5RUdadEZQUS1CLXlhc3FCME5lQklhUXVSc3oxOXQ5cUNkYlMxanM4Nm9EX3E4YmRR0gGCAUFVX3lxTE15SkE5dkxiVzlFZEFtaEE5cGZRZEtnZkpGR2tDWHlQTlVWZGFtLWhMc1VOdmFNdFRUdEh4SzJXWjF6aTRpWFBqVlJRWWxuU2pzNzlFR1p0RlBRLUIteWFzcUIwTmVCSWFRdVJzejE5dDlxQ2RiUzFqczg2b0RfcThiZFE?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHRRcHlIc3hJbkZ0MXZ4T3F0Zk4xVDYxZFdCUUxmLXJQNC1jOFpBc25MZXNCd1NxcDBWUTc0STdWWUM3cWJzT3BzS0Z3M3BNemw3S3A0czdGWVpUaW5UaUt4M3E1dkVxUkppYzVNSXNIY3ZMQWQxRkRGRFp4N1h3V1VGdlFKd3hGdVpxRVBUMHZvTi1UbXM0XzZ4OUNvRFhKVEQzaWpwcW0tZlpPWUZBcEtEQnpjMkZfRUpYREFkVENlWUVY0gHKAUFVX3lxTFBUZ0ROeDZFckhtdUF0aUVOby1lWEJnMDBRdzJiSnhfN3UtWV91NkUzd3ltbzhxbkQ0RWM3OXlJNlJwNGZyNGJoNXRUNHplbVBDdVkzamlleXJEaEZHMTV1YU1kMXZPZXYweDNlRWJxMkx5dTZ4S1J3X2JQaE5KWm9uSTZjbFRoTFpfMlVEOG5KdmpBNEJBYjVqOU1jY1VJbnU5TGh3ekZKQmU1MjVfU0ZjWVlaZ1diT25tZTlkYTBQS3lydEdfbHc3TXc?oc=5",
+      "https://news.google.com/rss/articles/CBMiigJBVV95cUxPdGdLYjZ1REIxd29Sd2NyUnlKaFo1Z3dZeEZzYWYtQkIwT3hiaEZwWWg5bGFFNF9DUzdKYXBVdkpXTi13dVJhYWozcmpLR1hQNldYVzZLSjU0Wkd6dDNLeGUxX1VyVUt5a2tVbGZCMHRUTlhJTVI1Z251WW9SVlpGMHRoUElaLTlyZ19QR0swZzlTLVhmQ3p4ZXExLVpiTmdGSFdYMFFqWVhtU0M5YWFXWmxjVHR0TWNLQ1NhcmdGSnBXXzRNR25HMjJuTEFaaE1JOUl4X2ctNzFDd1l6RUpFS282eUwxcjl0UzJ6MkN1UW85TWpvbExyNW9keWM5d3JLejJKOVMtckxvdw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRjNJOUV6UVN4U3JyUWs5MEdvYkhrMUFOblkzdXhndVdOdTI5VTVzWmFHNmJSaDBOd1pCcmJncW13TlkxOURpMlkyak94ZVB6Ny1xZGRCdnNZVDRxZGlzMTZmSEhjRDM5dVBFeXRqX1FWVmNSUWZJckdYQngybXAyTFBqWlVpLUJ1N0VXOHAwTHBub0k?oc=5",
+      "https://finance.yahoo.com/sectors/healthcare/articles/element-biosciences-announces-upsized-series-150000591.html",
+      "https://pulse2.com/element-biosciences-raises-expanded-series-e-financing-to-accelerate-genomic-and-multiomic-platform-growth/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4816,9 +4850,12 @@
     "scraped_at": "2026-10-13T13:33:51.685675+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BREQ4MXZXR2xHZVc1Ums4MUxrMWNFM2xfajlsMTNrSnVGd2liTkY1Vkg0ckZYbHcyaldxODRkY1RYd3NjWThCY2xvOUdFV2VBbFpwMFV4YW8?oc=5",
+      "https://www.americanbanker.com/news/ncino-raises-9m-in-first-funding-round"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -5096,18 +5133,32 @@
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
     "scraped_at": "2026-10-13T13:33:51.685675+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2021-04-15",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/goldman-sachs-leads-23m-funding-140828711.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWhRWmlqXzZiOXU1X2Zsb2xrOUJZNlhtUHRPSUEtRjVGSm9ZRXVMMk45UTJPaWFZa0ZuOWlnQWlTelRRU3ViZU5CcjBWT0xHMVVlZFoxbDVvTlJJUGhoWmUzdy03TExtR0hlbUp6bk0xSFJ4Mk93NFVkUmk3R3daaHZQWGbSAYoBQVVfeXFMTkdhekhXQTNaR2d0OFlORmxtVzVKYUl0cWpUQnE0bk9oeTNiZlkyWFg5NWpIYUYwQU95WUdpRHVfTGlvNERyV1ctTWZieVBfTzAxYTdPb2E1cEpKTzlxUlVGT2FkU0ZqalJvYmZGRGV4QnVTdEpGVC1QaFpsT0FOM1JYeC1kZ01Kb1JR?oc=5",
+      "https://finance.yahoo.com/news/goldman-sachs-leads-23m-funding-140828711.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 23000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-15",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Olo",
@@ -5971,7 +6022,34 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 105000000.0,
+        "currency": "USD",
+        "date": "2020-12-09",
+        "investors": [],
+        "source_url": "https://rayzebio.com/rayzebio-completes-105m-series-b-financing-to-advance-targeted-radiopharmaceuticals-for-cancer/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://rayzebio.com/",
+      "https://rayzebio.com/rayzebio-secures-108-million-series-c-financing-to-drive-forward-its-pipeline-of-targeted-radiopharmaceuticals-for-cancer/",
+      "https://rayzebio.com/rayzebio-completes-105m-series-b-financing-to-advance-targeted-radiopharmaceuticals-for-cancer/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 105000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-09",
+    "total_raised": 105000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Redfin Corp",
@@ -6134,7 +6212,34 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": "2025-12-09",
+        "investors": [],
+        "source_url": "https://www.saludamedical.com/press-releases/saluda-medical-raises-150m-usd-to-fuel-growth-following-asx-ipo/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.saludamedical.com/",
+      "https://www.saludamedical.com/press-releases/",
+      "https://www.saludamedical.com/press-releases/saluda-medical-raises-150m-usd-to-fuel-growth-following-asx-ipo/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-09",
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Satsuma Pharmaceuticals",
@@ -6338,7 +6443,21 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.selectwater.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SiteOne Therapeutics",

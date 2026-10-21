@@ -363,20 +363,37 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 260000000.0,
+        "currency": "USD",
+        "date": "2022-01-25",
+        "investors": [],
+        "source_url": "https://uk.news.yahoo.com/brazilin-fintech-creditas-lands-4-123029942.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.creditas.com/"
+      "https://www.creditas.com/",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YTjZiZHNIMlk3dXJJQ0JRRnB4MURCRXRDcGRXY2tWODJfbDgwZFZVVlNsWmd4cnU2UE5xRlBaVWUwdnVfSkdWeEFwWkV2bG54dlZCSkZsendTNTlqWUpjRV9WVDR5SzE4b1E5Z0Z5U2NkSUhhd1HSAXtBVV95cUxQaTMxRktUSllwSkgyMFVWa01ERnpLbVl0c3pnZkhFT0NBZjQ0dVVIb29hN1ZlQkYzT0swdHRzZVZSckJyNWxMbDY4VS1IeUNLZFY0SUx5X0o3Z2J1Vm1SOVB2VVdPa3c3NWVRX3Fqa3hwX0U0T0tWQm9RZnM?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0Y4NklXdWpLYUhLdi10T2hPRFZJSWlQOU9ubjBDVy1rVHFwTlMxa1pyelFoNzJTbHZpU0xnVkt6Ym4tdFNIakRnRk5TNGFPaVd5RENmZDJYYU0zd2RCTnZJbzkwbzVuV0ppOGltSE5pYWYzcERaTFluaW51eVpDdVV6VXlSUklxTzU1Z1BDSEdTSHdrcUNNaDRDZGp0VUUtQjRMUmxhTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRUJkdm4xZkp6WFZZblh3UXhETm1kaE9YcW91ekhfVUZUakdkSUFzZ1pSaFdXZlhoY1JEb004X0JJUFFuTTRkY0ZaMExzczJfQXQ5UWtYbmNKQ01GTGFSY0RzWEJ0MWoxRFNsY3pHa0lrZHpuQ3REUHk5VGZKaTJxMzNn?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeldWM3hhZXU1OEJVWjViQXpoa3N5NFFaUzJSd0ZFUWp6dklIZWpMS3REY2w1eHBRMS16T2tzR2RTRmhpNTBxdVhRanZwdzgwNHpOUV9TWk5qQ2FMWFFkWjNWTVEzM1pUNEdjMlBIX1Iya0lIUkt2VEhRY01sV3FBVmdFclJvYUJOUWUxdXdpTWNOY2hKcUxfSjlxLU_SAaIBQVVfeXFMUDY4WHdRWkxKdExYaXVzcFVDekdEZ2tZa0xNRERZckdHRkFuZlpTNVNfVkU3bDM4eG80QWVUTEM0dDJOd2c0RHdaWWdCeFVxcElvTU5GWlJDekhHU281LW5nejNHNXJDcXdTYk1RUFJQSk83b2dkelBsVU1KWkl3MFo0NWg2N0xxeVE0b2ZISW9sOU42QklxNDRRelU2cFR0c3VB?oc=5",
+      "https://www.emarketer.com/content/brazil-creditas-bank-funding-profitability",
+      "https://uk.news.yahoo.com/brazilin-fintech-creditas-lands-4-123029942.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 260000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series F",
+    "last_round_amount": 260000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Segment",
@@ -1471,9 +1488,14 @@
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hamNlN1BVc2hPTUNsWGRJaGdyeDE0MmttR0Jkd1pEWkZJeDkwUUQxeHcwd3N0NjJDczZCSGdZeFhWdzV6dUNXNmtMUm5YM2dPUWRZaE5HbnZ2el9VNzY2Y1oyUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmpwa1lQSEVWZzdpWXpWSVhvQXlXbEZtT3d6LXJnLW9nTnRXUnNRRnVlRktfYkpLcDlITThKWHpfY3BmTE9WT2s4MFZIZWJTUHpPaTRiSk1CS1BnanNvRVpQcm1yS2pNVHNzS29mMjk1RDlMdDFvODhHdkZ6VTJ1QXRxT2xnSExHbE1TUXVkeEJnUE9NdVBYc1FOQVczYjFTaFcwMmlLX0JralhkN3dQV3FzWFY?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUXB0N2kxeUhTSElKblVTWkt5WnQ2ZGRDSENvbGVHLXo5ZDNqRkphRGZtSkgzZUpSbUE3akRFbGQ5clZ4cnlRdUtFcUNvaVRSRWVuTzM4ckRMS3ZqYk5haWRYaU0yd19BbVhaSkVweGlPQXBwaERLaDEzVWxtTF91UzJ0V0I3TnZWRmFhZnpkX01Dd2NKRWI4aGY3dHdXNU10MTV3WC1lbUpLTUJBbzdQZ2VzeWRnc18t?oc=5",
+      "https://www.retaildive.com/news/farfetch-receives-86m-in-latest-funding-round/370992/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2384,18 +2406,32 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2021-04-15",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/goldman-sachs-leads-23m-funding-140828711.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWhRWmlqXzZiOXU1X2Zsb2xrOUJZNlhtUHRPSUEtRjVGSm9ZRXVMMk45UTJPaWFZa0ZuOWlnQWlTelRRU3ViZU5CcjBWT0xHMVVlZFoxbDVvTlJJUGhoWmUzdy03TExtR0hlbUp6bk0xSFJ4Mk93NFVkUmk3R3daaHZQWGbSAYoBQVVfeXFMTkdhekhXQTNaR2d0OFlORmxtVzVKYUl0cWpUQnE0bk9oeTNiZlkyWFg5NWpIYUYwQU95WUdpRHVfTGlvNERyV1ctTWZieVBfTzAxYTdPb2E1cEpKTzlxUlVGT2FkU0ZqalJvYmZGRGV4QnVTdEpGVC1QaFpsT0FOM1JYeC1kZ01Kb1JR?oc=5",
+      "https://finance.yahoo.com/news/goldman-sachs-leads-23m-funding-140828711.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 23000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-15",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Homa",
@@ -2782,20 +2818,36 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2025-10-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGVxTEFNRHVIX0FPTHFuUWd0ZkRSVEkyVmZUY3A0aTRldGVtcFB2dFpsZ2hXdDFNNUZheVIxcUdMS0xfdm5FM1l3U1RPZExRRW5Eam1lRW5ncGNjaVJQYlJ3NHc4Wk5VSXBqNFdmRlc2REpGS2FEdzN4dGs3SFZWLURtdWRqZUQ0ZFdjUUp2M0FuV28zdVdCLWdOSQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.heidihealth.com/en-us"
+      "https://www.heidihealth.com/en-us",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMTAtTTdwdXgtcXBLVG9mTnFTMkY2YzVfNXVBQU9tdDZSWS1ObldDRmdGNWRQai02dGN5ZjBjN2lSMTNCMFdkSHVHZWFmWnIxUkFHMlFOTGtvM1d2eE85SUxjY1BIMmdXMTB4Y19fblhNRS1WeFVySjMyTnpUQzFyYWF0TldKaTE5blQyVWR5eWdsZzhISzAwYTVCa3dUYTBSczMwSUpyX29UenEwVVhz?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGVxTEFNRHVIX0FPTHFuUWd0ZkRSVEkyVmZUY3A0aTRldGVtcFB2dFpsZ2hXdDFNNUZheVIxcUdMS0xfdm5FM1l3U1RPZExRRW5Eam1lRW5ncGNjaVJQYlJ3NHc4Wk5VSXBqNFdmRlc2REpGS2FEdzN4dGs3SFZWLURtdWRqZUQ0ZFdjUUp2M0FuV28zdVdCLWdOSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTFtdlN2Y0FoUUtTeHZnR25GTkNPbUpJVXAtOWNGbldPUUhOZ011ZUhKbnBQQTJIS3NYSVR5anJmRm5hNVVRZHIzRndWXzlsdHlnR0V4XzgyTGwzejBJQmdYbktyblpWWXRCRGdjczQzblktbWJyTWlMZUZuazR4MGhVbmtFY0hFek5oQnNRaFUxek03dVhmNXRyUlZIVU0?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1dQNXZIeElzelhaemtTQUF1aVNDNlZWdFkzakdtOEpQZ1o0Q1hDU3dMRzVTc1l1UHozMFc4V1k0RFE3eVRQRHc4WU9PeVJUbmx6Ul9VbEl3b3JuM3M1S0RfaDg2YlJ6RDBQSUxyUFFhazVMSGVVVkdBb0lrSjlxeGhGVXFlVUtmNGJJN1BiVVZvNTU3M1FhRVlVak5ST3d1M3JOZg?oc=5",
+      "https://hitconsultant.net/2025/10/06/heidi-health-secures-65m-to-scale-ai-care-partner-platform-globally/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 65000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-05",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AMI Labs",
@@ -2910,7 +2962,32 @@
     ],
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
-    "scraped_at": "2026-10-06T13:31:30.371093+00:00"
+    "scraped_at": "2026-10-06T13:31:30.371093+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.citizen.health/news/citizen-health-announces-series-a-funding"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.citizen.health/",
+      "https://www.citizen.health/news/citizen-health-announces-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Didero",
@@ -4628,10 +4705,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://deblock.com/en"
+      "https://deblock.com/en",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa3g4dFlBWnYydlRLNFRoYjF4LUt3YnRjVXZabkpWWjUwQVZRd2pxZlBDQlIyTFpaY1NLcFBUbEpZZmk4VlpGSDh0aV83dXI3NEw5YTJZQTJ1VEZqTkJYYVpDU3Nlb3p5ZnlaaFZkeUNzTUVoMG9vNWdzV0NocHFjWlJiSnc3TV9UcFpwR3B5VjgtYkxXTC16QWFZT0JlS3VWbTd3endxbXBCT0RuaWJYU1htSWsxSzBETHluUHZFMHJvMlFLVXc?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVBMSXd1X3RmWnVjMFpiODJMenF5S2t0ZHBFWjZRWXVLa2ZEV19GMEF2SUFIdHlocHB4U2c3aG9zZkNHNFY4Z3lxOHBTbnFYcjN6WV95aHBXQklxQXNvZVh0eVlVci1rbktNZG5ob0hVSXBfR05NQS1GUDdhYW1pVU5SMFJzVGlNNkxINjFmdmRvUnZWN3c?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUWRKNU4zaWtldEdCVGFvM1E4eURlVnRhSzRIdklteTRDQkt3clVuV1U5NFEzWjhUaF9GS1k2cmktZjVoaXJfU214eXR4VVdQNmlEMFZKSlFYYnRLekhrSVR6NWF4ZHh5dVY2b0g0d1ZldWI3bEJUMzBjQ1BfcVoycXdrcHVsSF96bUJmdGNiVmhTNXdyLWdvTVN3T2Y?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHEwZ09hTm9ydXNpUjlESmY4eGhvcGFJV2hiLVR5eFpRcVFONTR5aGxZTDNCc0kzc0prUzljMzBSbFFvdkUwYUsyQzkyVjN2VVVrR1N6QkJWc3pHWC1oaERGdzUwLWY2NGhGUDNuVFhFZHRFcjNiMU1WeUFVMVBkT3o1ajV0M2pXU05jMlZmTDk5OS1VaHJyTTRJUDV1VHNlZFFpcDN3VXE4TVk?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcy14T0s5Z1lWMDkxUy01Z3dvMWEzZGtPWGw5VV9Ea2NxekxndEkxdlZRMDgwODdRcG56bElVZlMwT25PSlc1WUtXb3N5UnhKSE91azRGbll3ZHBSd1lKNEFLeEFlRE9kcm04eU1DdXNQWDNCU2JkZ0daMm1DTDVzWEdnaUF4c3NIU1pGalUtNzNuZEJvSV9qU2RBRnNhZ3Vsc0hNbUR2ZEszSUJlMnNsd2VLT3NVcUYzUEk5N04zUFh0eThvek5N?oc=5",
+      "https://pulse2.com/deblock-30-million-funding/",
+      "https://www.finextra.com/newsarticle/46933/french-crypto-banking-startup-deblock-raises-30m"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

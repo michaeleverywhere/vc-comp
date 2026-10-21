@@ -71,7 +71,52 @@
     "everywhere_tags": [],
     "primary_investor": "Bow Capital",
     "source_url": "https://bowcapital.com/",
-    "scraped_at": "2026-10-17T22:12:48.267074+00:00"
+    "scraped_at": "2026-10-17T22:12:48.267074+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1850000.0,
+        "currency": "EUR",
+        "date": "2015-02-10",
+        "investors": [],
+        "source_url": "https://arango.ai/news/arangodb-seeds-investment/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2019-03-14",
+        "investors": [],
+        "source_url": "https://arango.ai/news/arangodb-secures-10-million-investment/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 27800000.0,
+        "currency": "USD",
+        "date": "2021-10-06",
+        "investors": [],
+        "source_url": "https://arango.ai/news/arangodb-announces-27-8-million-series-b-investment-to-accelerate-development-of-next-generation-graph-ml-providing-advanced-analytics-and-ai-capabilities-at-enterprise-scale/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://arango.ai/",
+      "https://arango.ai/news/arangodb-seeds-investment/",
+      "https://arango.ai/news/arangodb-announces-27-8-million-series-b-investment-to-accelerate-development-of-next-generation-graph-ml-providing-advanced-analytics-and-ai-capabilities-at-enterprise-scale/",
+      "https://arango.ai/news/arangodb-secures-10-million-investment/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 27800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-06",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Because Market",
@@ -202,7 +247,32 @@
     "everywhere_tags": [],
     "primary_investor": "Bow Capital",
     "source_url": "https://bowcapital.com/",
-    "scraped_at": "2026-10-17T22:12:48.267074+00:00"
+    "scraped_at": "2026-10-17T22:12:48.267074+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.cnaught.com/company"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cnaught.com/",
+      "https://www.cnaught.com/company"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 4500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DeepCell",
@@ -216,10 +286,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.deepcell.com/"
+      "https://www.deepcell.com/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQk1neXlwOTVSREpsQ2o0Q2NjZmhJUlN2Rjladm5hM29FeUw4Y2tTMFBmNXBIUlJWcEQ3WnNUZWNucTZ4NXJUeHItcU5nREdFR1BZWl9xbFlOdkxFbWNIdS10SFpTNWs0blA1bG14QWpJaEI2cWRrU3hjbnNMaDAzTGRqbXVnU2pQdE5XdWNwcTUzM1FRNVZGcTRVcU9qM3RaS051RWtIWEJKMWRyY1lIaW1yNjB0T2tIdHVuVExKTWpCMlMzRzRGUFU3eHlVVUl0dDMyTnB2VQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYW5QLU1lT2dmbnF2b3dGXzZ5RTRnYm82VWxObUY0aGdGMHBIRmktTmhXSWRWZU80V1o4N3VkVFBRQU9XT0F4cVFvbHJQV3lIeFVJNzhxV01laU1Lazd2VTBWRmtmT1NReWxLci1CRHUySzRwdkZvWXVmcElYeEJndjRJYjNLQ0llRGZEU1Q1YTFKNnJKT0dnNW1DMW8zUU5KVHYxNUJnMmR5a1VxZGg0Ynh3T0VZVzd1Z0xZR09kYVp0aUlKV3gzRW5qb3BsaVlZNXRsbXk3cw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -291,10 +363,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.fbn.com/"
+      "https://www.fbn.com/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPMjFqLWtyRUFlZXNGNURIU0FWczN4OXdPZ3FfVjd3OXhEclNnUV9vUFFMM3VVY2gwYWRCTGRzSmoxZURObTlHaUdtcWJHU2IwcWlfWTZxYVBxeXQtRjU5WWJ6amc2MEpQSF84Y01jQ3ZNT2d4WmxOOHBza0tqUWZPUnFjdm96WFZxSVNOSUJzSmlLNm5iVTdCRzN2TFdnZ9IBowFBVV95cUxNbVdlQXlGVm1jY3g4d2VPOHM1OGNWbWhJbW5RSS12V3pFS0MyMGFXR1l5dm02RmFhOURjc1ZEbUFKZUd0bm81SWpTVDBWVy02Z09xY1cwXzlVRWNQa1hqYVNUR1ltOVFRSGkzcjMtZko1aENiLTdOdnhwanJ1VFJ0b2pfNVktR1A5d2pEZnh4X3podndYVXNKTUJiUTY1VXpwVTlv?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE5scllxWW5NSlVkc2JVZXA5Q3Bvam45MnlmTEVsN09yMWNhVXJXMnotcWV3bDBZS2NCaEVhcTlVamtwcTlSVmhHQXV4dzFpZWo4LTlQR0UxaHRYYWJiSi11dFc5TUVIWkhXeDVzSGt1Y0V2YnVyVkloTHlR?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1004,18 +1078,31 @@
     "primary_investor": "Bow Capital",
     "source_url": "https://bowcapital.com/",
     "scraped_at": "2026-10-17T22:12:48.267074+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 6800000.0,
+        "currency": "USD",
+        "date": "2023-05-24",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/opus-secures-6-8m-series-a-funding-towards-ai-powered-training-technology-for-the-deskless-workforce-of-110-million-americans-301832900.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/opus-secures-6-8m-series-a-funding-towards-ai-powered-training-technology-for-the-deskless-workforce-of-110-million-americans-301832900.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6800000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 6800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-24",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Oriente",

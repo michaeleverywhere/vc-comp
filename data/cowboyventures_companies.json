@@ -199,20 +199,35 @@
     "primary_investor": "Cowboy Ventures",
     "source_url": "https://www.cowboy.vc/portfolio/stealth-ai-infra",
     "scraped_at": "2026-10-01T13:12:01.146074+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2026-03-11",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU214UkpuYlBOeFVSMHdQb19CeFBXSUpvVnJiYUt4SU1nZFdkQXdaVDhaVl93Z2tUckgwVThjLWh3bnZHNkNUQkxjQzJnOVdsUjF5WXVyWDlkaVRHSV9sYnlqNDlqblJMS0tqM0dzMmZIRHFiZGFiRE0xNDU0cHB5Q21Saw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://standardkernel.com/"
+      "https://standardkernel.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU214UkpuYlBOeFVSMHdQb19CeFBXSUpvVnJiYUt4SU1nZFdkQXdaVDhaVl93Z2tUckgwVThjLWh3bnZHNkNUQkxjQzJnOVdsUjF5WXVyWDlkaVRHSV9sYnlqNDlqblJMS0tqM0dzMmZIRHFiZGFiRE0xNDU0cHB5Q21Saw?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GQlk3V1B4MThoNC1COS0tbm1XQXZlY05IVVhkOVctSnZjVzRkTV9pQjZVWGwyRTNoRVdRYjUtRlR0cEpLdFE1N3BjU2t4WGo1N0RHZEtMaGJ4UE9qeVJXVdIBYEFVX3lxTE1GQlk3V1B4MThoNC1COS0tbm1XQXZlY05IVVhkOVctSnZjVzRkTV9pQjZVWGwyRTNoRVdRYjUtRlR0cEpLdFE1N3BjU2t4WGo1N0RHZEtMaGJ4UE9qeVJXVQ?oc=5",
+      "https://pulse2.com/standard-kernel-20-million-raised-for-ai-systems-that-generate-gpu-kernels-to-optimize-ai-workloads/",
+      "https://finance.yahoo.com/news/standard-kernel-raises-20m-seed-120000373.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-11",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stealth — Next Gen PAM and Secrets Management",

@@ -230,7 +230,49 @@
     ],
     "primary_investor": "Redalpine",
     "source_url": "https://www.redalpine.com/portfolio",
-    "scraped_at": "2026-10-06T13:33:30.747662+00:00"
+    "scraped_at": "2026-10-06T13:33:30.747662+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4500000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://apaleo.com/blog/apaleo-news/apaleo-series-a-extension-9m"
+      },
+      {
+        "stage": "Growth",
+        "amount": 20000000.0,
+        "currency": "EUR",
+        "date": null,
+        "lead_investors": [
+          "PSG"
+        ],
+        "investors": [
+          "PSG"
+        ],
+        "source_url": "https://apaleo.com/blog/apaleo-news/apaleo-secures-20-million-growth-equity-investment"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://apaleo.com/",
+      "https://apaleo.com/blog/apaleo-news/apaleo-series-a-extension-9m",
+      "https://apaleo.com/blog/apaleo-news/apaleo-secures-20-million-growth-equity-investment"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Growth",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 24500000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "PSG"
+    ]
   },
   {
     "company_name": "apoha",
@@ -823,7 +865,21 @@
     ],
     "primary_investor": "Redalpine",
     "source_url": "https://www.redalpine.com/portfolio",
-    "scraped_at": "2026-10-06T13:33:30.747662+00:00"
+    "scraped_at": "2026-10-06T13:33:30.747662+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.carthrottle.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "carvolution",
@@ -1214,10 +1270,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.expressionedits.com/"
+      "https://www.expressionedits.com/",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxOcDFjUWZ2MUVWbEczMDlPemxEQkExNjdBcThiamdFNTRvSXZLellDX2UxYVFxMEtWSmthU0w2RXU2SDNsWXRpc0ViaTBjOFBhNGEtY2pIWUE4X3RNcDRaUE81M0RBZlVWcjBYSTBULWZmUjZudmdOZmh0N0lzVng4aGo1d2V5b2xXamdmbEdxSWZKRXctUF9BRG0wcFJ3T2dpbVoyYV9RVG5oUl9hQ3drSXhjYW5sTWhaSzkzYklSNk1VUHRXS2x1VkZINFd2cXJlSHkzbnFnN19NdDZCbjBzV19UclVuRmFzVHYtWkFnbFNZTnBLa2JYT045QnVsYWdfWXBJ?oc=5",
+      "https://www.businesswire.com/news/home/20240529065386/en/ExpressionEdits-Raises-$13M-in-Seed-Funding-to-Advance-Protein-Expression-Using-AI-Driven-Intronization-Technology"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1562,10 +1620,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.inkitt.com/"
+      "https://www.inkitt.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUGdsTUEzeVZVWDNQaVVwcFlXRDNDNFBIREJuZlVydzF4d1ZWdGVZMWtrZ2tOblpyMzVJSC00VWo5ckZqZHBjY3ZhOGFfWEtwMUs5bVpvMmNsaXh3MHhrUEkzNjRUSFRpVjh6Vm01dlB3aGRjVHpqR0N6c21YT3NPSVpMaw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUXJCOGlPS2t3UUg0NktqN0ZJanYzelF4S090MnRjZnYzblZGbzQxbVQzZm5RU191VWV5MWMxcTZiTmt5Xy16eGRpVjNBaWtFcUNUUm1XaDJSTk5obFVPV2lTQUFUY3kwSFp6Z3FIYVJOZDFrM3Vpc3pKNHR6Nmg4WWpFaVRRVnFpdlE4Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMHVLTEhKdHZkSWJ3VkNJTkxNTlNvLWgzTHpBYmRlSlhpMW9sWEJOUGJPUHY2ckpHaDBCVkhRUXRyQVJWOHN4cVBPem1HSDYzc181YkVuci1VSEpWa2xfSU5MSmJDT2dhcG9KaHhDUjFDWExsZ2NIYlBIUVl2RjcyZGRNQnBFcE9FWVplNjQtWUZWMXhjRVR4RmxuU0o3TENZOE0zWjdzeWxZMjVsYTluMzF3?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcVlKTE1LN2F5MVdtYVpJN0p3Z05LM0RwVVBMNDkwZWx1SkZmY3NCOUtwZGd3NHBhc09xUnpJV0tqbVpnNkpOVmFDZ3JTUlp2dUU4WDdNdWxKdHNxMnFmSlFNTUgyYTNzSnAtQjNrdUtCcExVTWpNajFiaXlPQk9KWTQ5dDJ0Si1Sb2VxWWhEeE05OTBfbDJ2RWY0V2lvbUEtTnZHU3JOalc1YXZIT1E?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQzUzR1NzeUhwY1FHQl9qQTNFMFhpWi1ZWDJUUGNzUC14VnpYT0NvYVB2VzU5bXVkZnR1ajRfU3FjbG1LUlJReHVCeTNYblVLVWtZaG0zSEVYWWk3cHlWcWh2UzFWejVqalh5QnFnejlVeE5tMzFvMk5TdmVWT29XaHFyVFRYZnk2RjFnc3h2RkRodUNoN2N2QVZRNG9MSW9RTzBVY2MwNkZBUXVFLXE3NkpQcVE2d0MyT0wtOW5UQzVnRV9Tc2JFZWtHcEhHNHBGZU9oOUdfTmY5UGlKTzNKdg?oc=5",
+      "https://www.thebookseller.com/news/inkitt-wins-59m-funding-1282819",
+      "https://www.geeky-gadgets.com/inkitt-ai/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1639,10 +1704,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://jodel.com/en/"
+      "https://jodel.com/en/",
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfbGRyd0NPNWZTRE5uTzA5Sjd5bjAxSjBuU1dJRWlZd1dlZkNDYUlTN2JjRjVhT211RnBDR0dtWmowamlDZ0ZnMTBFRHJHZjNwdUhhMWVfNkJhUQ?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2486,7 +2552,21 @@
     ],
     "primary_investor": "Redalpine",
     "source_url": "https://www.redalpine.com/portfolio",
-    "scraped_at": "2026-10-06T13:33:30.747662+00:00"
+    "scraped_at": "2026-10-06T13:33:30.747662+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nscale.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "pave",
@@ -3435,7 +3515,22 @@
     ],
     "primary_investor": "Redalpine",
     "source_url": "https://www.redalpine.com/portfolio",
-    "scraped_at": "2026-10-06T13:33:30.747662+00:00"
+    "scraped_at": "2026-10-06T13:33:30.747662+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://whaly.io/en-us",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zMHBsaUE2Y1VLWFMyRGV3aktRX2N3bVZoUFZadmdoNDY2TXJ3c1NYQVdScUxEckJtWnJGSnJTMnk4cjl3ZEt0eGxhTi1LNTdHU0liWDMtM1Y0ZEgyb3JBSHdsaU54aTJoVW9DYVVrcUVIMmg0c1c2MkJn?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "zealy",

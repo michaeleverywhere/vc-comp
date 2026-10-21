@@ -111,7 +111,34 @@
     ],
     "primary_investor": "Xontogeny",
     "source_url": "https://xontogeny.com/portfolio/",
-    "scraped_at": "2026-10-17T21:48:41.724750+00:00"
+    "scraped_at": "2026-10-17T21:48:41.724750+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1300000000.0,
+        "currency": "USD",
+        "date": "2026-05-27",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/sectors/healthcare/articles/apogee-therapeutics-announces-1-3-103100709.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://apogeetherapeutics.com/",
+      "https://finance.yahoo.com/sectors/healthcare/articles/apogee-therapeutics-announces-1-3-103100709.html",
+      "https://www.ad-hoc-news.de/boerse/news/ueberblick/apogee-therapeutics-secures-robust-funding-for-late-stage-clinical-push/68988541"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1300000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-27",
+    "total_raised": 1300000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Asclepix",
@@ -468,7 +495,43 @@
     ],
     "primary_investor": "Xontogeny",
     "source_url": "https://xontogeny.com/portfolio/",
-    "scraped_at": "2026-10-17T21:48:41.724750+00:00"
+    "scraped_at": "2026-10-17T21:48:41.724750+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.tellustherapeutics.com/news/"
+      },
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.tellustherapeutics.com/tellus-therapeutics-secures-seed-financing-to-develop-the-first-treatment-for-newborns-with-white-matter-brain-injury-2/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tellustherapeutics.com/",
+      "https://www.tellustherapeutics.com/news/",
+      "https://www.tellustherapeutics.com/tellus-therapeutics-announces-35-million-series-a-financing/",
+      "https://www.tellustherapeutics.com/tellus-therapeutics-secures-seed-financing-to-develop-the-first-treatment-for-newborns-with-white-matter-brain-injury-2/",
+      "https://www.tellustherapeutics.com/tellus-therapeutics-secures-seed-financing-to-develop-the-first-treatment-for-newborns-with-white-matter-brain-injury/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TORL Biotherapeutics",

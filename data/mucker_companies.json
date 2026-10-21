@@ -570,7 +570,22 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/cove-tool/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxNclZhWjY0VzZMcnZPdDVaQUtxRWd5cHZtWDY4ZGY0QkQyblBtX0F6UnhSOW5WM1Jfb3lXOWF5MjVFaG5URGxwSDlheDVUSnF2b1NmV2oyOXY4bzBiNFAxVjl4eVJyTjdKSy0yNEVWZGZwTUFfd2lHWFhCal9NMHlOV0IwdGFDTlFvZE5YOUZ0bk9CdDY3Vm1tMnp4WEVycE5yTTN3ZkZwcy1WT3hqNWhrZHVEOTZ6dDdpdHBJT0J4NTRaMTRrQjdzSlFrVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JRm45RDFiUEkyVWhYVWZrMEd0RmVuN3RSd1hMRW5LWWVCZVdRcFUzWGZtd2dRR3Z5Qm5FZkZ2WHlyRV9BZVZhbW9LMndOQy1IUVN0X0o0Zm1xX2I3?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Culture Genesis",
@@ -637,20 +652,34 @@
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/doorvest/",
     "scraped_at": "2026-10-01T13:12:11.506375+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2021-11-18",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/doorvest-raises-14m-digital-helps-140057186.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://doorvest.com/"
+      "https://doorvest.com/",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGNHc2QVRrTVptS2V0QldXRDBpRUdlMEhnb3BtTzc3NFhEbHNhQkxjbmJkZGdHRGRzV25ncEdGMzVrdnFWTjVNNUE0Nzc2aTI0T2NGYUhkcTV2MEhjZ1pvbnlEQm5nV2hqRGxzMDNJUXFzTC1YSUE?oc=5",
+      "https://sg.news.yahoo.com/doorvest-raises-14m-digital-helps-140057186.html",
+      "https://au.news.yahoo.com/doorvest-raises-14m-digital-helps-140057186.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 14000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dropoff",
@@ -1311,10 +1340,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://koltin.mx/"
+      "https://koltin.mx/",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcjZxWUQtcEdGMERHZ0YtNWVFUTNxS1F2c3lYSUk5ZWd2dW5WMG5WMmRra0Q1enByYi1hekpiMVIyY21ySHVHcXBiSS16U3dwdlR0MnIxZllHbU12ODF3Z0N1aXNKZkhlSk9ORi1maHZtVE1HRXpXT1hRMUp2V0dhedIBhgFBVV95cUxPQUQ3TTkyQUE5WTB4VHA4R2tqVWlVZVUtWFNYR3doeGRCVk8yazhRSzdYYTlmNTRlTERYTy1qXzBZVkF3S1RXRDVuMUZOOXVGN2FqVzUzYnY4QVVJWkx4aVd6R0VWcVpOMXBkeTN1bmRWYmRKcmUyZk5SQ3g5Q2dSUnVUZ1dKQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxQRGR2RzB4ZkxSVUVYc3o2QnQtOF9FekZQNnZTU3BhZ3pUUmhwWmZNZnZmUFEzM1V0c2JYRzY5VjY0V0V6OUZDLW9McFMxbTU3UHlqYXdnQ3l1RmJmTzZmWnZwVnBKcEFNSm83RVV6eWdGcFF6REhTRkZWNmEtaWhleVIxbnJNNUk3M21ndzAtZGV0M29JaW5FejBkN0NWUQ?oc=5",
+      "https://pulse2.com/koltin-mexican-senior-healthcare-and-insurance-company-secures-7-3-million-series-a/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2047,7 +2079,21 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/predictionhealth/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.predictionhealth.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Proto",
@@ -2503,7 +2549,33 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/softledger/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": "2021-05-20",
+        "investors": [],
+        "source_url": "https://softledger.com/blog/softledger-raises-21-million-seed-round-to-provide-real-time-visibility-to-critical-financial-data",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://softledger.com/",
+      "https://softledger.com/blog/softledger-raises-21-million-seed-round-to-provide-real-time-visibility-to-critical-financial-data"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-20",
+    "total_raised": 2100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Specright",
