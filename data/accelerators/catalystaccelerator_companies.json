@@ -9867,15 +9867,30 @@
    "batch_date": "2026-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.soresuco.com",
+    "https://sossecinc.com/company/soresu-llc/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Verified domain soresuco.com (Soresu LLC, Aurora, CO; DoD/IC software, data science and AI services; SWIFT-A sensor orchestration). Listed as a SOSSEC consortium member. No equity rounds, investors, or federal SBIR/grant awards found in public sources (USAspending search returned none).",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Space-Eyes",
    "description": "Space-Eyes provides on-demand tasking to a Synthetic Aperture Radar satellite. The collections across all weather and lighting conditions are integrated with contextual data and analyzed automatically for threats in the maritime domain. The online Space-Eyes platform will also make use of Amazon’s new ground stations, which means latency will be reduced substantially to enhance the ISRPED life-cycle. Space-Eyes currently offers capacity with one radar satellite operational and plans to have a constellation of 5 Radar satellites.",
    "website": "https://space-eyes.com/",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Convertible notes (pending SPAC merger with McKinley Acquisition Corp.)",
+   "amount_raised": "$9,132,900",
    "date": "Catalyst Intelligence, Surveillance, and Reconnaissance | Fall 2019",
    "verticals": "Applied AI & Autonomy; Space Technology; Sensors & ISR; Mission Planning & Operations; Data Analytics & Intelligence",
    "investors": "Catalyst Accelerator",
@@ -9891,7 +9906,68 @@
    "batch_date": "2019-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Convertible notes",
+     "amount": 9132900,
+     "currency": "USD",
+     "date": "2026-10",
+     "investors": [],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/2067592/0001213900-26-106819.txt"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I open call (FA864920P0129)",
+     "amount": 50000,
+     "currency": "USD",
+     "date": "2019-12-12",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920P0129_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF COVID-19 DIB SAR contextual analytics (FA864920C0275)",
+     "amount": 999374,
+     "currency": "USD",
+     "date": "2020-07-15",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920C0275_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "NASA SBIR Phase I Ignite - Fire Watch (80NSSC24PA311)",
+     "amount": 146543,
+     "currency": "USD",
+     "date": "2024-02-21",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24PA311_8000_-NONE-_-NONE-"
+    },
+    {
+     "name": "NASA SBIR Phase II Ignite - Fire Watch (80NSSC24CA214)",
+     "amount": 1274768,
+     "currency": "USD",
+     "date": "2024-09-12",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA214_8000_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://space-eyes.com/",
+    "https://mckinleyspac.com/news/space-eyes-business-combination-agreement",
+    "https://www.reuters.com/world/eric-trump-backed-defense-technology-company-space-eyes-go-public-638-million-2026-07-31/",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2080206",
+    "https://www.sec.gov/Archives/edgar/data/2067592/0001213900-26-106819.txt",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920P0129_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920C0275_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC24PA311_8000_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA214_8000_-NONE-_-NONE-"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Verified domain space-eyes.com (Space-Eyes, Inc., Miami, FL; geospatial intelligence / counter-drone AI - Morpheus, SeaWatch, DisasterWatch). Jul 30-31, 2026: definitive agreement to go public via SPAC merger with McKinley Acquisition Corp. (Nasdaq: CUAS; $638M equity value, $370M EV), with up to $75M net PIPE in senior secured convertible notes from JBA Asset Management funds (initial ~$5.9M tranche on S-4 filing) - pending, not counted. S-4/A (Oct 2026) shows $9,132,900 principal of Space-Eyes convertible notes converting at closing (amount_raised basis); Eric Trump is a disclosed investor (amount undisclosed). No priced seed/Series round disclosed. Air Force MMTI contracts (FA945322CA021/CA024, ~$2.4M) are contracts, not grants.",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Convertible notes",
+   "last_round_amount": 9132900,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-10",
+   "total_raised": 9132900,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Spectrabotics",
@@ -9914,7 +9990,54 @@
    "batch_date": "2020-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - satellite ecosystem health after space weather (FA864920P0835)",
+     "amount": 47955,
+     "currency": "USD",
+     "date": "2020-03-06",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920P0835_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - lightweight hyperspectral sensor for urban air mobility (FA864921P0013)",
+     "amount": 149744,
+     "currency": "USD",
+     "date": "2020-12-21",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0013_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - satellite maneuver detection (FA864921P0784)",
+     "amount": 749729,
+     "currency": "USD",
+     "date": "2021-03-09",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0784_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II F2-14900 - hyperspectral sensor integration (FA864922P0762)",
+     "amount": 749044,
+     "currency": "USD",
+     "date": "2022-03-10",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0762_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.spectrabotics.com/",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920P0835_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864921P0013_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864921P0784_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864922P0762_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain spectrabotics.com (Spectrabotics LLC, Colorado; veteran-owned GeoDatic-Fusion data analytics). Non-dilutive USAF SBIR/AFWERX awards total ~$1.70M (USAspending). Also an Innosphere (Colorado incubator) participant. No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Spectronn",
@@ -9938,7 +10061,54 @@
    "batch_date": "2022-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": true
+   "most_recent_batch": true,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - trusted AI for multimodal moving target indication (FA864924P0782)",
+     "amount": 74915,
+     "currency": "USD",
+     "date": "2024-05-09",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0782_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "Army SBIR A244-P037 - GenGIS generative geospatial imagery synthesis (W5170125CA094)",
+     "amount": 249951.66,
+     "currency": "USD",
+     "date": "2025-04-10",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_W5170125CA094_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase I - multipath resilient networking (FA254125PB048)",
+     "amount": 179979,
+     "currency": "USD",
+     "date": "2025-08-01",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA254125PB048_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "NSF VINES Track 2 collaborative research - SEA-NET edge analytics for autonomous maritime (2554215)",
+     "amount": 1157769,
+     "currency": "USD",
+     "date": "2026-09-01",
+     "source_url": "https://www.usaspending.gov/award/ASST_NON_2554215_049"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.spectronn.com/",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864924P0782_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_W5170125CA094_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA254125PB048_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/ASST_NON_2554215_049"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain spectronn.com (Spectronn, Inc., Holmdel, NJ; resilient communications + AI platform). Funding found is non-dilutive SBIR (USAF, Army) and an NSF collaborative research award. No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Spin Drift Technologies",
@@ -9961,15 +10131,46 @@
    "batch_date": "2025-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "Army SBIR Phase I open topic A234-007 AI/ML (W5170123C0154)",
+     "amount": 149859.03,
+     "currency": "USD",
+     "date": "2023-08-15",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_W5170123C0154_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "Army SBIR Phase II open topic A234-007 AI/ML (W5170124C0153)",
+     "amount": 1899485.5,
+     "currency": "USD",
+     "date": "2024-04-22",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_W5170124C0153_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.sdtmil.com",
+    "https://www.usaspending.gov/award/CONT_AWD_W5170123C0154_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_W5170124C0153_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain sdtmil.com (Spin Drift Technologies LLC; LPI/LPD communications for defense). Non-dilutive Army SBIR Phase I + II (~$2.05M total, USAspending). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "SQT",
    "description": "SQT offers quantum technology that provide unhackable communications links and is the only company with a compact space-qualified entangled photon source.",
    "website": "",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Venture round (Xora-led)",
+   "amount_raised": "$10,200,000",
    "date": "Catalyst Resilient Space Communications | Spring 2019",
    "verticals": "",
    "investors": "Catalyst Accelerator",
@@ -9983,15 +10184,70 @@
    "batch_date": "2019-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1900000,
+     "currency": "USD",
+     "date": "2019-04",
+     "investors": [
+      "Space Capital (lead)",
+      "Space Angels",
+      "Shasta Ventures",
+      "Golden Gate Ventures",
+      "SGInnovate"
+     ],
+     "source_url": "https://speqtralquantum.com/newsroom/speqtral-announces-1-9m-seed-funding-to-power-the-next-generation-of-secure-communications"
+    },
+    {
+     "stage": "Venture round (undisclosed series)",
+     "amount": 8300000,
+     "currency": "USD",
+     "date": "2021-11-30",
+     "investors": [
+      "Xora Innovation (Temasek) (lead)",
+      "TIS",
+      "existing investors"
+     ],
+     "source_url": "https://speqtralquantum.com/newsroom/speqtral-closes-us-8-3m-funding-round"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.businesstimes.com.sg/startups-tech/startups/spacetech-startup-speqtral-secures-us8.3m-in-funding-round-led-by-temasek-unit",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1797918",
+    "https://speqtralquantum.com/newsroom/speqtral-announces-1-9m-seed-funding-to-power-the-next-generation-of-secure-communications",
+    "https://speqtralquantum.com/newsroom/speqtral-closes-us-8-3m-funding-round"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Identity inferred (no website in input): Catalyst Resilient Space Communications Spring 2019 entry 'SQT' described as having the only compact space-qualified entangled photon source - matches SpeQtral / SpeQtral Quantum Technologies (SQT; Singapore with a US entity, SpooQy-1 CubeSat entangled-photon-source heritage). Rounds: $1.9M seed (Apr 2019, Space Capital lead) and US$8.3M financing (Nov 30, 2021, Xora Innovation/Temasek lead; series not stated). Total = sum of sourced rounds $10.2M. Caveat: identity not confirmed by a domain.",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Venture round (undisclosed series)",
+   "last_round_amount": 8300000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-11-30",
+   "total_raised": 10200000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Space Capital (lead)",
+    "Space Angels",
+    "Shasta Ventures",
+    "Golden Gate Ventures",
+    "SGInnovate",
+    "Xora Innovation (Temasek) (lead)",
+    "TIS",
+    "existing investors"
+   ]
   },
   {
    "name": "Stellerian",
    "description": "Stellerian builds the AI autonomy layer for space, delivering passive, on orbit intelligence that lets spacecraft detect, track, and act without ground latency or active emissions. Our long-range navigation extracts reliable tracks from the faintest optical signatures, including objects that appear as only a single pixel of light, enabling early warning and persistent custody for space domain awareness. Our ARGUS stack brings that custody to close range with monocular pose estimation plus navigation filtering and guidance and control, enabling autonomous rendezvous, inspection, and servicing of uncooperative targets. Together, our software first approach and optional low-SWaP hardware turn existing spacecraft sensors into a coordinated capability that unlocks safer, faster, and more resilient operations in contested space.",
    "website": "https://www.stellerian.com",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Accelerator (Techstars Space)",
+   "amount_raised": "$220,000",
    "date": "Catalyst BMC3I TAP Lab Cohort 4 | Spring 2026",
    "verticals": "Applied AI & Autonomy; Space Technology; Advanced Computing & Software; Sensors & ISR; Mission Planning & Operations; Data Analytics & Intelligence; Platform & Vehicle Technology; Space Domain Awareness (SDA); Synthetic Environments & Digital Twins",
    "investors": "Catalyst Accelerator",
@@ -10008,7 +10264,59 @@
    "batch_date": "2026-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Accelerator investment (Techstars Space Accelerator)",
+     "amount": 220000,
+     "currency": "USD",
+     "date": "2025-12",
+     "investors": [
+      "Techstars"
+     ],
+     "source_url": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USSF STTR Phase I (ACECam, with Embry-Riddle)",
+     "amount": 108000,
+     "currency": "USD",
+     "date": "2025-01-15",
+     "source_url": "https://www.stellerian.com/updates"
+    },
+    {
+     "name": "Purdue New Venture Challenge 2025 (1st place prize)",
+     "amount": 20000,
+     "currency": "USD",
+     "date": "2025-04-29",
+     "source_url": "https://www.stellerian.com/updates"
+    },
+    {
+     "name": "SpaceWERX Direct-to-Phase II SBIR - CHARON autonomous de-orbit",
+     "amount": 1800000,
+     "currency": "USD",
+     "date": "2026-09",
+     "source_url": "https://www.stellerian.com/updates"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.stellerian.com",
+    "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+    "https://www.stellerian.com/updates"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Verified domain stellerian.com (Translunar Exports and Servicing Inc. dba Stellerian, Seattle; formerly Translunar; autonomous GNC/pose-estimation software for spacecraft proximity ops). Equity: only the $220k Techstars Space Accelerator investment (Dec 2025) - accelerator check, not a priced seed. Non-dilutive: USSF STTR Phase I $108K, Purdue NVC $20K, SpaceWERX D2P2 $1.8M (Sep 2026, announced by company). Also SDA TAP Lab participant.",
+   "funding_checked": "2026-10-21",
+   "notable_investors": [
+    "Techstars"
+   ],
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Stelluvia Technologies",
@@ -10032,14 +10340,29 @@
    "batch_date": "2025-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://stelluvia.com",
+    "https://www.inc.com/sarah-scoles/the-u-s-space-force-wants-you-to-start-a-business/91195624"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Verified domain stelluvia.com (Stelluvia Technologies, founded 2024; AI ionospheric monitoring / launch detection). SDA TAP Lab (BMC3I Cohort 1, Spring 2025) participant, featured in Inc. No equity rounds, investors, or federal awards found in public sources (USAspending search empty).",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "SylLab",
    "description": "Post Quantum Security for Networks and IoT. We deliver cryptographic schemes that speed up computation and lower the computation cost. PQC Certificate Authority, alongside a highly optimized digital signature, ensures confidentiality, integrity, and availability of networks and devices in the IoT infrastructure. SylLab solutions are compatible with systems with constrained processing power that require trusted verification, and we can achieve that without digital certificates. Location: Manassas, Virginia",
    "website": "https://www.syllab.io/",
    "team": "",
-   "round": "",
+   "round": "Pre-seed (undisclosed)",
    "amount_raised": "",
    "date": "Catalyst Defensive Cyber Operations | Spring 2023",
    "verticals": "Quantum & Battlefield Info Dominance; Cyber; Advanced Computing & Software; Communications & Networks",
@@ -10057,7 +10380,39 @@
    "batch_date": "2023-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - lightweight quantum-resistant space communication (FA864924P0097)",
+     "amount": 74999,
+     "currency": "USD",
+     "date": "2023-12-13",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0097_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "Texas Space Commission grant - Secure Satellite Update system (up to)",
+     "amount": 250000,
+     "currency": "USD",
+     "date": "2026-02",
+     "source_url": "https://space.texas.gov/news/release/texas-space-commission-awards-grant-to-syllab-systems-inc"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.syllab.io/",
+    "https://technical.ly/startups/manassas-syllab-post-quantum-security/",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864924P0097_9700_-NONE-_-NONE-",
+    "https://space.texas.gov/news/release/texas-space-commission-awards-grant-to-syllab-systems-inc"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Verified domain syllab.io (SylLab Systems, Inc., Manassas, VA; founded late 2019; post-quantum cryptography). Technical.ly (Dec 2022) reports early investments from Virginia Innovation Partnership Corp. (VIPC), Prince William County, VentureScope and Marl5G plus an Ignite grant (amounts undisclosed) - early-stage/pre-seed checks, no priced seed. Non-dilutive: USAF SBIR Phase I $74,999 (Dec 2023), Texas Space Commission grant up to $250K (Feb 2026).",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Synaptech",
@@ -10080,7 +10435,39 @@
    "batch_date": "2021-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - COA planning & analysis for the space warfighter (FA864919PA090)",
+     "amount": 49941,
+     "currency": "USD",
+     "date": "2019-08-02",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864919PA090_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase I - behavioral modeling and AI for space (FA864921P0448)",
+     "amount": 49994,
+     "currency": "USD",
+     "date": "2021-02-04",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0448_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.synaptech-usa.com/",
+    "https://www.usaspending.gov/award/CONT_AWD_FA880820C0003_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864919PA090_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864921P0448_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain synaptech-usa.com (Synaptech LLC, Colorado Springs; small-business space/defense engineering services). Non-dilutive USAF SBIR Phase I awards; also a $3.47M USAF contract (FA880820C0003, rapid analysis & prototyping toolkit) - contract revenue, not a grant. No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "TeamWorx Security",
@@ -10105,15 +10492,71 @@
    "batch_date": "2023-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR open call (FA864920P0123)",
+     "amount": 50000,
+     "currency": "USD",
+     "date": "2019-12-12",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920P0123_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF COVID-19 DIB - turning data into decisions faster (FA864920C0055)",
+     "amount": 1499657,
+     "currency": "USD",
+     "date": "2020-06-09",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920C0055_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - MATRIX malware analysis (FA864921P0884)",
+     "amount": 749166,
+     "currency": "USD",
+     "date": "2021-03-10",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0884_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - Global Eyes (FA864923P1008)",
+     "amount": 1249429,
+     "currency": "USD",
+     "date": "2023-08-30",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864923P1008_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - Recognized Cyberspace Picture (FA864925P0430)",
+     "amount": 1249898,
+     "currency": "USD",
+     "date": "2025-09-18",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0430_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.teamworxsecurity.com",
+    "https://www.usaspending.gov/award/CONT_AWD_FA830722C0006_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920P0123_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920C0055_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864921P0884_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864923P1008_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864925P0430_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain teamworxsecurity.com (TeamWorx Security, Inc.; cyber/data engineering, Hive IQ). Selected SBIR awards listed (~$4.8M); also SBIR Phase III Hive IQ contracts (~$8.3M) and GSA/Navy/CYBERCOM service contracts - contract revenue, not grants. No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Tempest Droneworx",
    "description": "Tempest Droneworx is on a mission to make information contextual, actionable, and in real-time to prevent emergencies from becoming tragedies via early warning. Tempest’s software agnostically fuses data from drones, sensors, cameras, satellites, etc. into real-time contextual visualizations, providing immediate insight from the edge to command. Combined with autonomous multi-drone operations, the Company enables mission-critical support for force protection, ISR, and rapid response operations across defense and commercial landscapes.",
    "website": "https://tempestdroneworx.com",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Strategic investment (TACFI match)",
+   "amount_raised": "$2,000,000",
    "date": "Catalyst Artificial Intelligence & Machine Learning Orchestrator | Spring 2026, Investment Readiness Boot Camp | Fall 2026",
    "verticals": "Applied AI & Autonomy; Advanced Computing & Software; Sensors & ISR; Mission Planning & Operations; Data Analytics & Intelligence; Platform & Vehicle Technology",
    "investors": "Catalyst Accelerator",
@@ -10128,7 +10571,72 @@
    "batch_date": "2026-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": true
+   "most_recent_batch": true,
+   "funding_rounds": [
+    {
+     "stage": "Strategic investment (TACFI matching)",
+     "amount": 2000000,
+     "currency": "USD",
+     "date": "2025-08",
+     "investors": [
+      "Leonid Capital Partners"
+     ],
+     "source_url": "https://pitch.vc/companies/tempest-droneworx-inc/posts/9439eff9-53c5-4977-bbd0-b3bf4b53118e"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase II - securing airfields with real-time surveillance (FA864923P0481)",
+     "amount": 1249943,
+     "currency": "USD",
+     "date": "2023-02-10",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864923P0481_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase I - accelerated disaster response visualization (FA864923P0872)",
+     "amount": 74983,
+     "currency": "USD",
+     "date": "2023-05-05",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864923P0872_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - Harbinger airspace optimization (FA864924P0530)",
+     "amount": 1799857,
+     "currency": "USD",
+     "date": "2024-02-09",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0530_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "AFWERX TACFI SBIR Phase II - Harbinger Vanguard (FA448425P0027)",
+     "amount": 1999997,
+     "currency": "USD",
+     "date": "2025-06-11",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA448425P0027_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://tempestdroneworx.com",
+    "https://www.sbir.gov/awards/216289",
+    "https://www.usaspending.gov/award/CONT_AWD_697DCK23C00293_6920_-NONE-_-NONE-",
+    "https://pitch.vc/companies/tempest-droneworx-inc/posts/9439eff9-53c5-4977-bbd0-b3bf4b53118e",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864923P0481_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864923P0872_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864924P0530_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA448425P0027_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Verified domain tempestdroneworx.com (Tempest Droneworx, Inc.; SDVOSB; Harbinger real-time situational-awareness software). Leonid Capital Partners announced a $2M investment (Aug 2025) as the private match for its $2M AFWERX TACFI award; instrument/round type not disclosed (Leonid typically provides structured/non-dilutive-style capital). Company/Leonid said in Jan 2026 it was raising a $3M seed round - no close announced, not counted. FAA BAA contract ($925K) is a contract, not a grant.",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Strategic investment (TACFI matching)",
+   "last_round_amount": 2000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-08",
+   "total_raised": 2000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Leonid Capital Partners"
+   ]
   },
   {
    "name": "Terradac Technologies",
@@ -10153,7 +10661,30 @@
    "batch_date": "2025-06-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "DOE SBIR/STTR - automated fast-modular geophysical monitoring network for carbon storage (DE-SC0025200)",
+     "amount": 250000,
+     "currency": "USD",
+     "date": "2024-07-22",
+     "source_url": "https://www.usaspending.gov/award/ASST_NON_DESC0025200_089"
+    }
+   ],
+   "funding_source_urls": [
+    "https://terradactech.com",
+    "https://www.usaspending.gov/award/ASST_NON_DESC0025200_089"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain terradactech.com (Terradac Technologies LLC; TerraStinger CO2 emissions sensor; company says it is backed by DOE funding). Non-dilutive DOE award $250K (Jul 2024). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "The Attic AI",
@@ -10175,15 +10706,39 @@
    "batch_date": "2023-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "OSD/Army SBIR Phase I OSD254-P001 - GenLLM no-code datasets & fine-tuned models (W519TC25P0052)",
+     "amount": 130653.97,
+     "currency": "USD",
+     "date": "2025-08-29",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_W519TC25P0052_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.theattic.ai",
+    "https://www.sbir.gov/awards/218420",
+    "https://www.usaspending.gov/award/CONT_AWD_W519TC25P0052_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain theattic.ai (The Attic AI, Inc.; enterprise AI/knowledge-management platform for regulated and federal users). Only public funding is a DoD SBIR Phase I ($130,654, Aug 2025). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "The Exclosure",
    "description": "Exclosure stands at the forefront of space situational awareness, revolutionizing the field with our global network of AI/ML-enhanced observatories. Compact yet powerful, our observatories deliver unprecedented revisit rates for analyzing orbital and atmospheric objects. We blend cutting-edge artificial intelligence with advanced data processing to offer real-time insights, pushing the boundaries of what's possible in space observation and security. Exclosure seeks to provide not just space domain awareness, but space domain empowerment.",
    "website": "https://www.exclosure.io",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Pre-seed (SAFEs)",
+   "amount_raised": "$1,599,215",
    "date": "Catalyst Space Domain Awareness | Spring 2024",
    "verticals": "",
    "investors": "Catalyst Accelerator",
@@ -10198,7 +10753,50 @@
    "batch_date": "2024-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed (SAFEs)",
+     "amount": 1599215,
+     "currency": "USD",
+     "date": "2021-11-12",
+     "investors": [
+      "1517 Fund",
+      "Boost VC"
+     ],
+     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1913892"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USAF SBIR - highest revisit frequency SSA observatories (FA864924P0939)",
+     "amount": 109611,
+     "currency": "USD",
+     "date": "2024-05-17",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0939_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.exclosure.io",
+    "https://www.usaspending.gov/award/CONT_AWD_1332KP22PNEEA0054_1330_-NONE-_-NONE-",
+    "https://meawoppl.github.io/resume/MatthewGoodman.pdf",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1913892",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864924P0939_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Verified domain exclosure.io (Exclosure Corp., San Francisco; space situational awareness observatories/data). SEC Form D (filed 2022, amended Feb 2024): $1,599,215 sold in Simple Agreements for Future Equity, first sale 2021-11-12 - SAFE-only, no priced seed. Investors per secondary listings include 1517 Fund and Boost VC (not primary-confirmed). NOAA space-object commercial data purchase ($99K, 2022) is a contract.",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Pre-seed (SAFEs)",
+   "last_round_amount": 1599215,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-11-12",
+   "total_raised": 1599215,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "1517 Fund",
+    "Boost VC"
+   ]
   },
   {
    "name": "Third Insight",
@@ -10223,15 +10821,48 @@
    "batch_date": "2018-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - HALO vision-based navigation",
+     "amount": 50000,
+     "currency": "USD",
+     "date": "2019",
+     "source_url": "https://www.sbir.gov/awards/179814"
+    },
+    {
+     "name": "USAF SBIR Phase II - autonomous aircraft inspection/navigation",
+     "amount": 750000,
+     "currency": "USD",
+     "date": "2019",
+     "source_url": "https://www.sbir.gov/awards/180765"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.thirdinsight.ai/",
+    "https://www.dhs.gov/publication/st-sciti-lab-third-insight",
+    "https://www.globenewswire.com/news-release/2019/05/29/1854586/0/en/catalyst-space-accelerator-alumni-achieving-great-heights.html",
+    "https://www.sbir.gov/awards/179814",
+    "https://www.sbir.gov/awards/180765"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain thirdinsight.ai (Third Insight; AI autonomy for COTS drones in GPS-denied environments). Non-dilutive: USAF SBIR Phase I $50K and Phase II $750K (2019); DHS S&T SCITI Lab projects (contracts). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "TRL 11 Inc.",
    "description": "TRL11 is advancing the development and utilization of full motion video for spacecraft operations and space security. The company is building cameras and recording systems emphasizing real-time and low power video feeds from space. Central to TRL11’s innovative approach is its proprietary AI/ML video processing software which employs a novel compression technique and downlinks only the valuable content in a recording to streamline insights for ground operators while minimizing bandwidth costs.",
    "website": "https://www.trl11.com",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Pre-seed",
+   "amount_raised": "$3,000,000",
    "date": "Catalyst Space Domain Awareness | Spring 2024",
    "verticals": "Applied AI & Autonomy; Space Technology; Advanced Computing & Software; Communications & Networks; Sensors & ISR; Mission Planning & Operations; Data Analytics & Intelligence; Platform & Vehicle Technology; Space Domain Awareness (SDA); In-Space Servicing; Assembly; & Manufacturing (ISAM)",
    "investors": "Catalyst Accelerator",
@@ -10247,7 +10878,114 @@
    "batch_date": "2024-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2023-05-24",
+     "investors": [
+      "Boost VC (lead)",
+      "Wonder Ventures",
+      "Anorak Ventures",
+      "Geek Ventures",
+      "Space Cadets",
+      "Max Haot (angel)"
+     ],
+     "source_url": "https://www.globenewswire.com/news-release/2023/05/24/2675340/0/en/TRL11-Inc-Closes-Pre-Seed-Funding-to-bring-Next-Generation-Video-Technology-to-the-Space-Economy.html"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - on-orbit video processing (FA864924P0083)",
+     "amount": 74751,
+     "currency": "USD",
+     "date": "2023-12-12",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0083_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - live full motion video from space (FA254124CB008)",
+     "amount": 1750361.76,
+     "currency": "USD",
+     "date": "2024-07-08",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA254124CB008_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "NASA SBIR Phase I - adaptive imaging for thunderstorms from LEO (80NSSC24PB515)",
+     "amount": 148519,
+     "currency": "USD",
+     "date": "2024-08-07",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24PB515_8000_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase I - OrbitVision (FA864925P0189)",
+     "amount": 109270,
+     "currency": "USD",
+     "date": "2025-01-15",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0189_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - QuadClops Pro (FA864925P0310)",
+     "amount": 1249666,
+     "currency": "USD",
+     "date": "2025-05-23",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0310_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - OrbitVision (FA864925P0459)",
+     "amount": 1249432,
+     "currency": "USD",
+     "date": "2025-08-27",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0459_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "NASA STTR Phase I - MoonCast space-rated codec (80NSSC25C0387)",
+     "amount": 149639,
+     "currency": "USD",
+     "date": "2025-09-29",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0387_8000_-NONE-_-NONE-"
+    },
+    {
+     "name": "NASA SBIR Phase III - SR-1 Freedom mission spacecraft imaging (80NSSC26C0438)",
+     "amount": 4143720,
+     "currency": "USD",
+     "date": "2026-10-01",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0438_8000_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.trl11.com",
+    "https://payloadspace.com/exclusive-trl11-raises-3m-for-space-video/",
+    "https://www.ocbj.com/start-ups-2/satellite-video-company-trl11-raises-3m/",
+    "https://www.globenewswire.com/news-release/2023/05/24/2675340/0/en/TRL11-Inc-Closes-Pre-Seed-Funding-to-bring-Next-Generation-Video-Technology-to-the-Space-Economy.html",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864924P0083_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA254124CB008_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC24PB515_8000_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864925P0189_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864925P0310_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864925P0459_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0387_8000_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0438_8000_-NONE-_-NONE-"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Verified domain trl11.com (TRL11, Inc., Irvine, CA; founded 2022 by Teradek founder Nicolaas Verheem; full-motion video for spacecraft). Equity: $3M+ pre-seed (May 2023, Boost VC lead). A $2M Jan 2025 seed appears only in tracker summaries without a primary source - not counted. Selected in SpaceWERX TACFI (Jun 2025, amount undisclosed). Extensive non-dilutive SBIR/STTR (USAF, NASA) listed.",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Pre-seed",
+   "last_round_amount": 3000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-05-24",
+   "total_raised": 3000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Boost VC (lead)",
+    "Wonder Ventures",
+    "Anorak Ventures",
+    "Geek Ventures",
+    "Space Cadets",
+    "Max Haot (angel)"
+   ]
   },
   {
    "name": "TurnRock Labs",
@@ -10269,15 +11007,39 @@
    "batch_date": "2022-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "NIST PSCR CommanDING Tech Challenge prizes (Phases 1-4; SpaceJam)",
+     "amount": 200250,
+     "currency": "USD",
+     "date": "2023-04",
+     "source_url": "https://www.nist.gov/ctl/pscr/turnrock-labs"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.turnrocklabs.com/",
+    "https://www.nist.gov/news-events/news/2023/04/nist-announces-winners-commanding-tech-challenge",
+    "https://www.nist.gov/ctl/pscr/turnrock-labs"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain turnrocklabs.com (TurnRock Labs, Seattle; formerly ThinkPredict; applied AI/human-machine teaming, SpaceJam decision-support environment). Non-dilutive NIST CommanDING Tech Challenge prizes totaling $200,250 (2021-2023). No equity rounds or investors publicly reported; secondary listings suggest it may be inactive.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "ULOOK",
    "description": "ULOOK develops autonomous ELIMINT satellite swarms that integrate space-based ELINT and IMINT to deliver resilient, wide-area awareness in contested and congested domains. Our initial capability is a three-satellite RF Geo intelligence cluster that enables non-cooperative detection and geolocation of RF emitters from low Earth orbit, along with time-based activity characterization. Designed for proliferated architectures, this cluster serves as both a mission-relevant RF intelligence pathfinder and a reconfigurable RF sensing layer for space domain awareness, supporting SDA objectives such as threat detection and anomaly characterization.",
    "website": "https://www.ulook.space/",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Seed",
+   "amount_raised": "₹190,000,000",
    "date": "Catalyst BMC3I TAP Lab Cohort 4 | Spring 2026",
    "verticals": "Applied AI & Autonomy; Cyber; Space Technology; Advanced Computing & Software; Communications & Networks; Sensors & ISR; Mission Planning & Operations; Data Analytics & Intelligence; Platform & Vehicle Technology; Space Domain Awareness (SDA); Electromagnetic Spectrum Operations (EMSO)",
    "investors": "Catalyst Accelerator",
@@ -10293,7 +11055,42 @@
    "batch_date": "2026-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 190000000,
+     "currency": "INR",
+     "date": "2025-11-08",
+     "investors": [
+      "growX ventures (co-lead)",
+      "Info Edge Ventures (co-lead)"
+     ],
+     "source_url": "https://www.business-standard.com/companies/news/spacetech-startup-ulook-raises-19-crore-from-growx-infoedge-ventures-125110800350_1.html"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.ulook.space/",
+    "https://growx.vc/portfolio/ulook/",
+    "https://entrackr.com/snippets/space-tech-startup-ulook-raises-rs-19-cr-led-by-growx-and-infoedge-ventures-10626626",
+    "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/ulook-technologies-raises-19-crore-from-growx-info-edge-ventures/125128605",
+    "https://www.business-standard.com/companies/news/spacetech-startup-ulook-raises-19-crore-from-growx-infoedge-ventures-125110800350_1.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Verified ulook.space (ULOOK Technologies Pvt. Ltd., Bengaluru; founders Siddhesh Naik & Adheesh Boratkar; RF-sensing satellite swarms, PulseTrack payload). Seed: Rs 19 crore (~US$2.3M) led by growX ventures and Info Edge Ventures (Nov 2025).",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Seed",
+   "last_round_amount": 190000000,
+   "last_round_currency": "INR",
+   "last_round_date": "2025-11-08",
+   "total_raised": 190000000,
+   "total_raised_currency": "INR",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "growX ventures (co-lead)",
+    "Info Edge Ventures (co-lead)"
+   ]
   },
   {
    "name": "UtopiaCompression",
@@ -10317,15 +11114,71 @@
    "batch_date": "2025-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "DARPA/Army SBIR Phase II - vision-based sense & avoid for small UAS (W31P4Q15C0066)",
+     "amount": 1999953,
+     "currency": "USD",
+     "date": "2015-09-01",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q15C0066_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "Navy SBIR Phase II (N6833520C0339)",
+     "amount": 1699904,
+     "currency": "USD",
+     "date": "2020-02-19",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_N6833520C0339_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - long range passive ranging & collision avoidance for UAS (FA864922P0790)",
+     "amount": 1994823,
+     "currency": "USD",
+     "date": "2022-03-11",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0790_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR - CO-AIR cooperative operation of assets (FA864923P1198)",
+     "amount": 1249954,
+     "currency": "USD",
+     "date": "2023-08-02",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864923P1198_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "Navy SBIR Phase II topic N234-P05 (N0002425CS051)",
+     "amount": 1381864,
+     "currency": "USD",
+     "date": "2025-04-16",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_N0002425CS051_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://utopiacompression.com",
+    "https://www.usaspending.gov/search/?hash=utopiacompression",
+    "https://www.usaspending.gov/award/CONT_AWD_W31P4Q15C0066_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_N6833520C0339_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864922P0790_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864923P1198_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_N0002425CS051_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain utopiacompression.com (UtopiaCompression Corporation, Los Angeles; long-running SBIR-funded R&D firm in computer vision/autonomy since mid-2000s). Dozens of SBIR/STTR awards from USAF, Army/DARPA, Navy, NASA, DHS since 2005 (only largest recent ones listed; well over $30M cumulative per USAspending). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Vermeer",
    "description": "Vermeer (Jackson Heights, New York) specializes in a leading-edge suite of AR mission planning tools and autonomous sUAS mission execution for both DoD and commercial customers. From their expertise from years of piloting drones on the sets of blockbuster Hollywood films, they built Vermeer as an internal tool for pre-mission planning and visualization. Today, Vermeer is capable of integrating into any autonomous platform, from sUAS to satellites.",
    "website": "https://www.getvermeer.com/",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Series A",
+   "amount_raised": "$10,000,000",
    "date": "Catalyst Digital Engineering For Space Applications: Modeling and Simulation | Fall 2021",
    "verticals": "Applied AI & Autonomy; Advanced Computing & Software; Sensors & ISR; Mission Planning & Operations; Platform & Vehicle Technology; Synthetic Environments & Digital Twins",
    "investors": "Catalyst Accelerator",
@@ -10341,7 +11194,58 @@
    "batch_date": "2021-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2025-10-23",
+     "investors": [
+      "Draper Associates (lead)",
+      "AeroX Ventures",
+      "Boscolo Intervest",
+      "High Point Ventures",
+      "Rockaway Ventures",
+      "USAF Techstars"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/american-ukrainian-defense-tech-startup-vermeer-reaches-10m-in-total-series-a-funding-following-draper-associates-led-extension-302592137.html"
+    }
+   ],
+   "grants": [
+    {
+     "name": "AFWERX SBIR awards and non-dilutive capital (company-reported total, incl. two SBIR Phase II)",
+     "amount": 7000000,
+     "currency": "USD",
+     "date": "",
+     "source_url": "https://www.getvermeer.com/news/press-release-vermeer-receives-two-small-business-innovation-research-phase-ii-awards-from-us-air-force"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.getvermeer.com/",
+    "https://www.draper.vc/portfolio/vermeer",
+    "https://www.sbir.gov/portfolio/1614003",
+    "https://www.prnewswire.com/news-releases/american-ukrainian-defense-tech-startup-vermeer-reaches-10m-in-total-series-a-funding-following-draper-associates-led-extension-302592137.html",
+    "https://www.getvermeer.com/news/press-release-vermeer-receives-two-small-business-innovation-research-phase-ii-awards-from-us-air-force"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Verified domain getvermeer.com (Vermeer, New York with forward ops in Kyiv; CEO Brian Streem; Visual Positioning System for GPS-denied drone navigation, AR mission planning). Series A totaling $10M closed Oct 2025 after a Draper Associates-led extension. Company reports >$7M SBIR/AFWERX non-dilutive funding (Air Force Accelerator powered by Techstars alum). Total equity = $10M Series A (earlier seed amounts not publicly itemized).",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Series A",
+   "last_round_amount": 10000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-10-23",
+   "total_raised": 10000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Draper Associates (lead)",
+    "AeroX Ventures",
+    "Boscolo Intervest",
+    "High Point Ventures",
+    "Rockaway Ventures",
+    "USAF Techstars"
+   ]
   },
   {
    "name": "Vigilant",
@@ -10363,7 +11267,31 @@
    "batch_date": "2020-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR/STTR awards incl. Launch Alert and PSRA Fusion AI/ML (Chandler Automated Systems LLC dba Vigilant Technologies)",
+     "amount": 1006000,
+     "currency": "USD",
+     "date": "",
+     "source_url": "https://www.inknowvation.com/sbir/companies/vigilant-technologies"
+    }
+   ],
+   "funding_source_urls": [
+    "http://www.vigilant1.com/",
+    "https://www.noairlab.ai/companies/chandler-automated-systems-llc",
+    "https://www.inknowvation.com/sbir/companies/vigilant-technologies"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Vigilant1.com = Vigilant Technologies (Chandler Automated Systems, LLC, Tempe, AZ; Vigilant Intelligent Workspace micro-AI). Roughly $1.0M in SBIR/STTR awards (Launch Alert, PSRA Fusion). No equity rounds or investors publicly reported; secondary listings indicate the company is out of business (2026).",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "VILLA-TECH, Inc.",
@@ -10387,7 +11315,30 @@
    "batch_date": "2024-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - GenAI feasibility (FA860425CB083)",
+     "amount": 149369.74,
+     "currency": "USD",
+     "date": "2025-08-28",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA860425CB083_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://villa-tech.com",
+    "https://www.usaspending.gov/award/CONT_AWD_FA860425CB083_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain villa-tech.com (VILLA-TECH, Inc.; AI platform for industry and government). Only public funding is a USAF SBIR Phase I ($149K, Aug 2025). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Vitro",
@@ -10411,15 +11362,56 @@
    "batch_date": "2020-09-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I - zero-trust IoT (FA864920P0525)",
+     "amount": 49850,
+     "currency": "USD",
+     "date": "2020-03-05",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864920P0525_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR Phase II - real-time reporting & monitoring for VDR display (FA864921P0922)",
+     "amount": 748085,
+     "currency": "USD",
+     "date": "2021-03-11",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0922_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "USAF SBIR FX212-CSO1-0525 Power Sense (FA864922P0329)",
+     "amount": 48480,
+     "currency": "USD",
+     "date": "2021-11-03",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0329_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.vitro.io/",
+    "https://ati.utexas.edu/vitro-joins-ati/",
+    "https://www.prnewswire.com/news-releases/vitro-secures-critical-base-infrastructure-for-the-united-states-air-force-with-zero-trust-iot-301424368.html",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864920P0525_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864921P0922_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864922P0329_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Verified domain vitro.io (Vitro Technology Corporation, Austin, TX; zero-trust IoT, Vitro Shard/Crystal). Non-dilutive USAF SBIR awards ~$846K. Austin Technology Incubator (Jul 2020) and MassChallenge Texas 2020 (equity-free). No equity rounds or investors publicly reported.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Worldscape Technologies, Inc.",
    "description": "Worldscape Technologies, Inc. is a veteran-owned company founded by former Microsoft, Google, Amazon, and Meta engineers who built some of the world’s most scalable enterprise and gaming systems. Its flagship product—the Worldscape Platform—is a next-generation, dual-use Data Fabric and Agentic AI environment that unifies data, models, simulations, and AI agents into one secure, distributed control plane. Built on Microsoft Orleans, GraphQL, and an Entity Component System (ECS) architecture, Worldscape allows billions of entities and agents to interact in real time across cloud, edge, and disconnected domains. The platform delivers machine-speed decision support, federated simulation, and digital-twin capability for defense, disaster response, and industrial optimization—creating an unparalleled Decision Advantage™ for government and enterprise users. Worldscape’s composable architecture is redefining how humans and AI collaborate securely across all domains—from space to subsea.",
    "website": "https://worldscape.ai",
    "team": "",
-   "round": "",
-   "amount_raised": "",
+   "round": "Seed extension",
+   "amount_raised": "$16,000,000",
    "date": "Catalyst Artificial Intelligence & Machine Learning Orchestrator | Spring 2026",
    "verticals": "",
    "investors": "Catalyst Accelerator",
@@ -10436,7 +11428,57 @@
    "batch_date": "2026-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 6000000,
+     "currency": "USD",
+     "date": "2026-03-03",
+     "investors": [
+      "Scout Ventures (lead)",
+      "Radius",
+      "Washington Harbour Partners"
+     ],
+     "source_url": "https://worldscape.ai/company/news/worldscape-ai-raises-6m-seed"
+    },
+    {
+     "stage": "Seed extension",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2026-08-04",
+     "investors": [
+      "Scout Ventures (lead)",
+      "Radius Capital"
+     ],
+     "source_url": "https://worldscape.ai/company/news/worldscape-raises-10-million-seed-extension"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://worldscape.ai",
+    "https://www.tectonicdefense.com/exclusive-worldscape-ai-raises-6m-seed/",
+    "https://www.prnewswire.com/news-releases/worldscape-raises-10-million-seed-extension-to-accelerate-ai-native-mission-engineering-302844185.html",
+    "https://www.scout.vc/companies/worldscape",
+    "https://worldscape.ai/company/news/worldscape-ai-raises-6m-seed",
+    "https://worldscape.ai/company/news/worldscape-raises-10-million-seed-extension"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Verified domain worldscape.ai (Worldscape Technologies, Inc., Redmond, WA; veteran-owned; CEO Mark Bolz; AI-native data fabric / mission-engineering platform). $6M seed (Mar 3, 2026, Scout Ventures lead) and $10M seed extension (Aug 4, 2026, Scout Ventures lead). Total = $16M sum of rounds. (Unrelated 2005-06 ONR awards to 'Worldscape Defense Co LLC' not attributed.)",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Seed extension",
+   "last_round_amount": 10000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-08-04",
+   "total_raised": 16000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Scout Ventures (lead)",
+    "Radius",
+    "Washington Harbour Partners",
+    "Radius Capital"
+   ]
   },
   {
    "name": "Xenesis",
@@ -10458,7 +11500,41 @@
    "batch_date": "2019-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [
+    {
+     "name": "USAF SBIR Phase I open call (FA864919PA476)",
+     "amount": 50000,
+     "currency": "USD",
+     "date": "2019-08-22",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_FA864919PA476_9700_-NONE-_-NONE-"
+    },
+    {
+     "name": "OSD SBIR Phase I (HQ085022C0013)",
+     "amount": 256485,
+     "currency": "USD",
+     "date": "2022-08-26",
+     "source_url": "https://www.usaspending.gov/award/CONT_AWD_HQ085022C0013_9700_-NONE-_-NONE-"
+    }
+   ],
+   "funding_source_urls": [
+    "https://xenesis.io/",
+    "https://satnews.com/2021/06/15/xenesis-acquires-a-minority-stake-in-space-micro-as-both-work-to-build-the-first-fso-global-mesh-network/",
+    "https://spacenews.com/xenesis-to-send-optical-terminal-to-iss-platform/",
+    "https://www.trysignalbase.com/news/funding/funding-announcement-xenesis-secures-20-million-investment-for-global-satellite-network-expansion",
+    "https://www.usaspending.gov/award/CONT_AWD_FA864919PA476_9700_-NONE-_-NONE-",
+    "https://www.usaspending.gov/award/CONT_AWD_HQ085022C0013_9700_-NONE-_-NONE-"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Verified domain xenesis.io (Xenesis Global Inc.; space optical communications, Intercessor constellations). An aggregator (Signalbase, Dec 2024) reports a $20M investment, but no primary press release or reputable news source was found, so no amount/round is recorded. Xenesis acquired a minority stake in Space Micro (Jun 2021). Non-dilutive SBIR awards (USAF, OSD) listed.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Zenn",
@@ -10482,7 +11558,22 @@
    "batch_date": "2022-04-01",
    "batch_date_precision": "season",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.zenn.global/",
+    "https://catalystaccelerator.space/cohort_page/cahdm/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Verified domain zenn.global (Zenn, Princeton, NJ; eco-friendly compact data-storage platform). Catalyst Hybrid Data Movement cohort (Spring 2022). No equity rounds, investors or grants found in public sources (federal awards to similarly named 'Zenn Group LLC', a surveillance-tower vendor, are unrelated). Secondary listings suggest the company may be inactive.",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   }
  ]
 }
