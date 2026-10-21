@@ -260,7 +260,21 @@
     ],
     "primary_investor": "Nauta Capital",
     "source_url": "https://www.nautacapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:54.624632+00:00"
+    "scraped_at": "2026-10-07T13:20:54.624632+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.mindflow.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tangany",
@@ -764,7 +778,45 @@
     ],
     "primary_investor": "Nauta Capital",
     "source_url": "https://www.nautacapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:54.624632+00:00"
+    "scraped_at": "2026-10-07T13:20:54.624632+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 110000.0,
+        "currency": "USD",
+        "date": "2020-07-01",
+        "investors": [],
+        "source_url": "https://nhost.io/blog/nhost-secures-pre-seed-investment",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2021-04-06",
+        "investors": [],
+        "source_url": "https://nhost.io/blog/nhost-raises-3m-dollar-in-seed-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://nhost.io/",
+      "https://nhost.io/blog",
+      "https://nhost.io/blog/how-we-raised-3m-dollars-without-leaving-the-house",
+      "https://nhost.io/blog/nhost-raises-3m-dollar-in-seed-funding",
+      "https://nhost.io/blog/nhost-secures-pre-seed-investment"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-06",
+    "total_raised": 3110000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bird Eats Bug",
@@ -848,7 +900,40 @@
     ],
     "primary_investor": "Nauta Capital",
     "source_url": "https://www.nautacapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:54.624632+00:00"
+    "scraped_at": "2026-10-07T13:20:54.624632+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "CommerzVentures"
+        ],
+        "investors": [
+          "CommerzVentures"
+        ],
+        "source_url": "https://www.cledara.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cledara.com/",
+      "https://www.cledara.com/press"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "CommerzVentures"
+    ]
   },
   {
     "company_name": "AppFollow",

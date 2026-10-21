@@ -382,7 +382,21 @@
     ],
     "primary_investor": "Acadian Ventures",
     "source_url": "https://www.acadianventures.com/companies",
-    "scraped_at": "2026-10-17T18:05:14.566612+00:00"
+    "scraped_at": "2026-10-17T18:05:14.566612+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.getro.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Holivia",
@@ -456,7 +470,44 @@
     ],
     "primary_investor": "Acadian Ventures",
     "source_url": "https://www.acadianventures.com/companies",
-    "scraped_at": "2026-10-17T18:05:14.566612+00:00"
+    "scraped_at": "2026-10-17T18:05:14.566612+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2025-05-20",
+        "investors": [],
+        "source_url": "https://www.kombo.dev/blog/kombo-raises-2-5m-to-expand-integrations-portfolio-and-catapult-growth",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-02-18",
+        "investors": [],
+        "source_url": "https://www.kombo.dev/blog/series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kombo.dev/",
+      "https://www.kombo.dev/blog",
+      "https://www.kombo.dev/blog/series-a",
+      "https://www.kombo.dev/blog/kombo-raises-2-5m-to-expand-integrations-portfolio-and-catapult-growth"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-18",
+    "total_raised": 27500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Linc",
