@@ -11,7 +11,28 @@
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/pinterest/",
     "scraped_at": "2026-10-03T13:18:35.923201+00:00",
-    "location": "Palo Alto"
+    "location": "Palo Alto",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.forbes.com/sites/kathleenchaykowski/2017/06/06/pinterest-raises-150-million-at-a-12-3-billion-valuation-to-focus-on-visual-search/",
+      "https://www.nytimes.com/2017/06/06/technology/pinterest-raises-valuation-to-12-3-billion-with-new-funding.html",
+      "https://www.reuters.com/article/us-pinterest-fundraise/pinterest-wins-new-funding-raising-valuation-to-5-billion-idUSBREA4F00A20140516",
+      "https://fortune.com/2017/06/06/pinterest-valuation-flat/",
+      "https://www.reuters.com/article/us-pinterest-funding/pinterest-raises-150-million-valuing-company-at-12-3-billion-idUSKBN18X2NV/",
+      "https://www.reuters.com/article/pinterest-funding-idUKL3N1J34JJ",
+      "https://www.foxbusiness.com/features/pinterest-valued-at-11-billion-after-latest-funding-round",
+      "https://mashable.com/article/pinterest-funding-round"
+    ],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Discord",
@@ -977,7 +998,39 @@
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/crossbeam/",
     "scraped_at": "2026-10-03T13:18:35.923201+00:00",
-    "location": "Boxborough"
+    "location": "Boxborough",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 76000000.0,
+        "currency": "USD",
+        "date": "2021-10-26",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2021/10/26/crossbeam-lands-76m-series-c-as-network-effect-fuels-partner-cloud-growth/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://startupintros.com/orgs/crossbeam",
+      "https://multiples.vc/private-comps/crossbeam",
+      "https://techcrunch.com/2021/10/26/crossbeam-lands-76m-series-c-as-network-effect-fuels-partner-cloud-growth/",
+      "https://www.acqu.co/newsroom/crossbeam-venture-partners-raises-70-million-for-fund-ii-in-three-weeks",
+      "https://www.sheetventure.com/pitch-deck-templates/crossbeam",
+      "https://prospeo.io/c/crossbeam-revenue",
+      "https://vcnewsdaily.com/crossbeam/venture-capital-funding/tqnwwyltpy",
+      "https://cryptorank.io/funds/crossbeam/rounds"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 76000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-26",
+    "total_raised": 76000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dashlane",
@@ -1022,7 +1075,66 @@
     ],
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/demandbase/",
-    "scraped_at": "2026-10-03T13:18:35.923201+00:00"
+    "scraped_at": "2026-10-03T13:18:35.923201+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Growth",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2015-07-16",
+        "lead_investors": [
+          "Sageview Capital"
+        ],
+        "investors": [
+          "Sageview Capital"
+        ],
+        "source_url": "https://www.demandbase.com/press-release/demandbase-raises-30-million-extend-leadership-account-based-marketing/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2017-05-26",
+        "investors": [],
+        "source_url": "https://www.demandbase.com/press-release/demandbase-raises-65-million-in-new-financing/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 175000000.0,
+        "currency": "USD",
+        "date": "2023-02-16",
+        "investors": [],
+        "source_url": "https://www.demandbase.com/press-release/demandbase-raises-175-million-in-new-financing/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.demandbase.com/press-release/demandbase-raises-175-million-in-new-financing/",
+      "https://www.prnewswire.com/news-releases/demandbase-raises-175-million-in-new-financing-301748702.html",
+      "https://multiples.vc/private-comps/demandbase",
+      "https://www.demandbase.com/press-release/demandbase-raises-65-million-in-new-financing/",
+      "https://www.vistaequitypartners.com/news/demandbase-raises-175-million-in-new-financing/",
+      "https://salestools.io/en/blog/demandbase-raises-150m-series-f",
+      "https://www.demandbase.com/press-release/demandbase-adds-15-million-in-new-financing-to-accelerate-growth-of-marketing-platform/",
+      "https://www.marketingdive.com/news/b2b-marketing-company-demandbase-raises-30m-round/402409/",
+      "https://www.demandbase.com/press-release/demandbase-raises-30-million-extend-leadership-account-based-marketing/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 175000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-02-16",
+    "total_raised": 270000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sageview Capital"
+    ]
   },
   {
     "company_name": "Digital Currency Group",
@@ -2012,7 +2124,39 @@
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/nuvemshop/",
     "scraped_at": "2026-10-03T13:18:35.923201+00:00",
-    "location": "Buenos Aires, Mexico City, São Paulo"
+    "location": "Buenos Aires, Mexico City, São Paulo",
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 500000000.0,
+        "currency": "USD",
+        "date": "2021-08-17",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2021/08/17/brazils-nuvemshop-raises-500m-at-a-3-1b-valuation-months-after-last-raise/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2021/08/17/brazils-nuvemshop-raises-500m-at-a-3-1b-valuation-months-after-last-raise/",
+      "https://latamlist.com/e-commerce-platform-nuvemshop-raises-500m-series-e/",
+      "https://www.prnewswire.com/news-releases/latin-america-e-commerce-leader-nuvemshop-raises-500-million-from-insight-partners-and-tiger-global-management-301356320.html",
+      "https://multiples.vc/private-comps/nuvemshop",
+      "https://startupintros.com/orgs/nuvemshop",
+      "https://retailtechinnovationhub.com/home/2021/8/17/e-commerce-venture-nuvemshop-raises-500m-on-31-bn-valuation",
+      "https://www.startuphub.ai/startups/nuvemshop",
+      "https://pulse2.com/nuvemshop-500-million-in-series-e-funding-and-3-1-billion-valuation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 500000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-17",
+    "total_raised": 500000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Omaze",
@@ -2177,7 +2321,75 @@
     "everywhere_tags": [],
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/pendo/",
-    "scraped_at": "2026-10-03T13:18:35.923201+00:00"
+    "scraped_at": "2026-10-03T13:18:35.923201+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2015-10-28",
+        "lead_investors": [
+          "Battery Ventures"
+        ],
+        "investors": [
+          "Battery Ventures"
+        ],
+        "source_url": "https://www.pendo.io/pendo-blog/pendo-announces-series-a-funding/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series D",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2019-08-28",
+        "investors": [],
+        "source_url": "https://www.pendo.io/news/pendo-raises-50-million-series-d-funding-to-drive-geographic-and-market-expansion/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2019-10-17",
+        "investors": [],
+        "source_url": "https://www.pendo.io/news/pendo-raises-100-million-at-a-1-billion-valuation-to-help-more-saas-companies-and-digital-enterprises-become-product-led/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": "2021-07-27",
+        "investors": [],
+        "source_url": "https://www.pendo.io/news/pendo-raises-150-million-to-help-companies-deliver-software-that-meets-rising-user-expectations/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pendo.io/pendo-blog/pendo-announces-series-a-funding/",
+      "https://startupintros.com/orgs/pendo",
+      "http://www.finsmes.com/2014/11/pendo-raises-1-025m-in-seed-funding.html",
+      "https://www.alexanderjarvis.com/pendo-pitch-deck-series-b-stage-startup/",
+      "https://multiples.vc/private-comps/pendo",
+      "https://www.pendo.io/news/pendo-launches-the-first-product-engagement-platform/",
+      "https://www.pendo.io/news/pendo-raises-150-million-to-help-companies-deliver-software-that-meets-rising-user-expectations/",
+      "https://www.pendo.io/news/pendo-raises-50-million-series-d-funding-to-drive-geographic-and-market-expansion/",
+      "https://www.pendo.io/news/pendo-raises-100-million-at-a-1-billion-valuation-to-help-more-saas-companies-and-digital-enterprises-become-product-led/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-27",
+    "total_raised": 300000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Battery Ventures"
+    ]
   },
   {
     "company_name": "Phave",

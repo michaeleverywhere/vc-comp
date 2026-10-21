@@ -485,7 +485,28 @@
     "everywhere_tags": [],
     "primary_investor": "Seven Seven Six",
     "source_url": "https://www.sevensevensix.com/portfolio",
-    "scraped_at": "2026-10-20T13:46:58.918717+00:00"
+    "scraped_at": "2026-10-20T13:46:58.918717+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://finance.yahoo.com/markets/stocks/articles/us-bank-erebor-nears-1-114658942.html",
+      "https://www.bloomberg.com/news/articles/2025-12-22/thiel-backed-bank-set-to-double-valuation-to-4-35-billion",
+      "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft",
+      "https://finance.yahoo.com/news/peter-thiel-backed-bank-erebor-043223016.html",
+      "https://www.kucoin.com/news/flash/erebor-bank-aims-to-raise-1-5b-at-8b-valuation",
+      "https://tsginvest.com/erebor-bank/",
+      "https://settervc.com/company/erebor",
+      "https://www.mapco.ai/fintech/erebor-bank"
+    ],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Feastables",
@@ -786,7 +807,37 @@
     "everywhere_tags": [],
     "primary_investor": "Seven Seven Six",
     "source_url": "https://www.sevensevensix.com/portfolio",
-    "scraped_at": "2026-10-20T13:46:58.918717+00:00"
+    "scraped_at": "2026-10-20T13:46:58.918717+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2021-10-14",
+        "investors": [],
+        "source_url": "https://www.builtinla.com/articles/intro-raises-10m-experts-platform-hiring-a16z",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.builtinla.com/articles/intro-raises-10m-experts-platform-hiring-a16z",
+      "https://ideaproof.io/guides/pre-seed-funding",
+      "https://startupintros.com/",
+      "https://techcrunch.com/2021/10/13/intros-app-attracts-andreessen-seven-seven-six-kevin-durant-to-connect-celebrity-e-design-experts-with-those-seeking-advice/",
+      "https://waveup.com/blog/startup-funding-stages/",
+      "https://carta.com/learn/startups/fundraising/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-14",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jabbr",
@@ -876,7 +927,58 @@
     "everywhere_tags": [],
     "primary_investor": "Seven Seven Six",
     "source_url": "https://www.sevensevensix.com/portfolio",
-    "scraped_at": "2026-10-20T13:46:58.918717+00:00"
+    "scraped_at": "2026-10-20T13:46:58.918717+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2025-06-10",
+        "lead_investors": [
+          "IVP"
+        ],
+        "investors": [
+          "IVP"
+        ],
+        "source_url": "https://fortune.com/2025/06/10/exclusive-laurel-raises-100-series-c-to-map-where-the-time-goes/",
+        "date_conflict": true,
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series B",
+        "amount": 36500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.laurel.ai/resources-post/laurel-raises-36-5m-series-b-to-return-time-to-the-world",
+        "date_conflict": true
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://startupintros.com/orgs/laurel",
+      "https://fortune.com/2025/06/10/exclusive-laurel-raises-100-series-c-to-map-where-the-time-goes/",
+      "https://www.lawnext.com/2025/06/ai-timekeeping-platform-laurel-raises-100m-in-series-c-round.html",
+      "https://www.laurel.ai/press/ai-time-platform-laurel-raises-100-million-to-transform-the-professional-services-industry",
+      "https://multiples.vc/private-comps/laurel",
+      "https://www.builtinsf.com/articles/laurel-raises-100m-series-c-20250611",
+      "https://www.highperformr.ai/company/laurel-ai",
+      "https://www.finsmes.com/2025/06/laurel-raises-100m-in-series-c-funding.html",
+      "https://www.laurel.ai/resources-post/laurel-raises-36-5m-series-b-to-return-time-to-the-world"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-10",
+    "total_raised": 136500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "IVP"
+    ]
   },
   {
     "company_name": "Limitless",
@@ -885,7 +987,28 @@
     "everywhere_tags": [],
     "primary_investor": "Seven Seven Six",
     "source_url": "https://www.sevensevensix.com/portfolio",
-    "scraped_at": "2026-10-20T13:46:58.918717+00:00"
+    "scraped_at": "2026-10-20T13:46:58.918717+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://theaiinsider.tech/2026/06/17/limitless-labs-raises-20m-in-series-a-funding-to-expand-its-physical-ai-foundation-model-for-and-platform-for-cad-and-manufacturing/",
+      "https://finance.yahoo.com/technology/ai/articles/limitless-labs-raises-20m-series-130000187.html",
+      "https://www.finsmes.com/2026/06/limitless-labs-raises-20m-in-series-a-funding.html",
+      "https://www.calcalistech.com/ctechnews/article/hjod1pr11me",
+      "https://www.vestbee.com/insights/articles/limitless-labs-raises-10-m",
+      "https://ventureburn.com/limitless-raises-10-million/",
+      "https://www.saasrise.com/deals/limitless-labs-raises-20m-series-a-to-expand-physical-ai-foundation-model-and-platform-for-precision-2b788550-b2e8-4d6f-ac5c-0225d129057e",
+      "https://scroll.media/en/2025/10/21/limitless-raises-10m/"
+    ],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Linear",
@@ -1186,7 +1309,58 @@
     "everywhere_tags": [],
     "primary_investor": "Seven Seven Six",
     "source_url": "https://www.sevensevensix.com/portfolio",
-    "scraped_at": "2026-10-20T13:46:58.918717+00:00"
+    "scraped_at": "2026-10-20T13:46:58.918717+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 240000000.0,
+        "currency": "USD",
+        "date": "2026-08-31",
+        "investors": [],
+        "source_url": "https://www.finsmes.com/2026/08/owner-raises-240m-in-funding.html",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series C",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Meritech",
+          "Headline"
+        ],
+        "investors": [
+          "Meritech",
+          "Headline"
+        ],
+        "source_url": "https://www.owner.com/c"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.restaurantbusinessonline.com/technology/tech-supplier-ownercom-raises-120m-giving-it-1b-valuation",
+      "https://www.restaurantbusinessonline.com/technology/owner-raises-240m-ai-native-restaurant-tech",
+      "https://www.owner.com/c",
+      "https://carta.com/learn/startups/fundraising/",
+      "https://www.dailycompanynews.com/owner-raises-240-million-in-series-d-funding-round/",
+      "https://www.finsmes.com/2026/08/owner-raises-240m-in-funding.html",
+      "https://aventure.vc/news/2026-08-29-owner-raises-240m-for-its-restaurant-management-platform",
+      "https://www.equitylist.co/blog-post/founder-ownership-by-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 240000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-31",
+    "total_raised": 360000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Meritech",
+      "Headline"
+    ]
   },
   {
     "company_name": "Palabra.ai",
