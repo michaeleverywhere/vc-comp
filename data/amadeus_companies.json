@@ -189,7 +189,21 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/enadyne/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.enadyne.de/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Periphery",
@@ -550,7 +564,21 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/sprout-ai/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sprout.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Riverlane",
@@ -890,7 +918,43 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/slamcore/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-06-17",
+        "investors": [],
+        "source_url": "https://www.slamcore.com/news/slamcore-raises-5-million-to-satisfy-spiking-demand-for-robust-spatial-ai/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2022-05-03",
+        "investors": [],
+        "source_url": "https://www.slamcore.com/press-release/slamcore-raises-16-million-to-deliver-low-cost-spatial-understanding-to-real-life-robots-and-the-metaverse/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.slamcore.com/",
+      "https://www.slamcore.com/news/slamcore-raises-5-million-to-satisfy-spiking-demand-for-robust-spatial-ai/",
+      "https://www.slamcore.com/press-release/slamcore-raises-16-million-to-deliver-low-cost-spatial-understanding-to-real-life-robots-and-the-metaverse/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-03",
+    "total_raised": 21000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ravelin",

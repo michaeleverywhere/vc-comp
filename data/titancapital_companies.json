@@ -853,7 +853,21 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://claimbuddy.in/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Clarity",
@@ -1021,7 +1035,42 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2021-08-10",
+        "investors": [],
+        "source_url": "https://credgenics.com/credgenics-raises-series-a-funding",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://credgenics.com/credgenics-raises-50-mn-funding-in-series-b"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://credgenics.com/",
+      "https://credgenics.com/credgenics-raises-50-mn-funding-in-series-b",
+      "https://credgenics.com/credgenics-raises-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-10",
+    "total_raised": 75000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CuePilot",
@@ -1129,7 +1178,58 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "INR",
+        "date": "2026-03-11",
+        "investors": [],
+        "source_url": "https://entrackr.com/exclusive/exclusive-drinkprime-raises-fresh-money-at-30-valuation-premium-11195036",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 600000000.0,
+        "currency": "INR",
+        "date": null,
+        "lead_investors": [
+          "Omidyar Network India",
+          "Sequoia Surge"
+        ],
+        "investors": [
+          "Omidyar Network India",
+          "Sequoia Surge"
+        ],
+        "source_url": "https://economictimes.indiatimes.com/tech/funding/ro-water-supplying-startup-drinkprime-raises-rs-60-crore-in-funding/articleshow/93009678.cms"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://economictimes.indiatimes.com/tech/funding/ro-water-supplying-startup-drinkprime-raises-rs-60-crore-in-funding/articleshow/93009678.cms",
+      "https://magazine.watertoday.org/news/national/drinkprime-series-a-funding-valuation-climb-2026-drinkprime-valuation-340-crore-d2c-water-purifier-subscription-growth-iot-water-purifier-market-india",
+      "https://www.zeebiz.com/startups/news-drinkprime-raises-3-million-funding-from-sidbi-venture-capital-others-290100",
+      "https://entrackr.com/exclusive/exclusive-drinkprime-raises-fresh-money-at-30-valuation-premium-11195036",
+      "https://www.infomance.com/startup-ecosystem/drinkprime-secures-3-mn-funding-led-by-sidbi-venture-capital/",
+      "https://www.ceoinsightsindia.com/startups/bangalorebased-startup-drinkprime-raises-rs-21-crore-preseries-a-funding-round-nwid-3392.html",
+      "https://startuptalky.com/news/drinkprime-raises-2-2-million-funding/",
+      "https://inc42.com/buzz/d2c-water-purifier-brand-drinkprime-raises-%E2%82%B920-cr-valuation-jumps-to-36-8-mn/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": "2026-03-11",
+    "total_raised": 800000000,
+    "total_raised_currency": "INR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Omidyar Network India",
+      "Sequoia Surge"
+    ]
   },
   {
     "company_name": "Echovane",
@@ -1382,7 +1482,21 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://getfleek.app/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fleetx",
@@ -1611,7 +1725,21 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.giva.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "GoKwik",
@@ -1639,7 +1767,21 @@
     ],
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
-    "scraped_at": "2026-10-17T13:33:56.406377+00:00"
+    "scraped_at": "2026-10-17T13:33:56.406377+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gokwik.co/?_gc=1"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Green Fortune",

@@ -445,7 +445,21 @@
     ],
     "primary_investor": "Struck Capital",
     "source_url": "https://struckcapital.com/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.560267+00:00"
+    "scraped_at": "2026-10-17T17:50:50.560267+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://employmenthero.com/en-ca/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "IOpipe",
@@ -1279,6 +1293,53 @@
     "everywhere_tags": [],
     "primary_investor": "Struck Capital",
     "source_url": "https://struckcapital.com/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.560267+00:00"
+    "scraped_at": "2026-10-17T17:50:50.560267+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4099999.9999999995,
+        "currency": "USD",
+        "date": "2016-08-17",
+        "investors": [],
+        "source_url": "https://zerocater.com/about/newsroom/press-releases/2016/zerocater-raises-4-1m-in-new-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2018-05-01",
+        "investors": [],
+        "source_url": "https://zerocater.com/about/newsroom/press-releases/2018/zerocater-raises-12-million-to-expand-snacks-and-catering-to-the-fortune-500/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2023-02-16",
+        "investors": [],
+        "source_url": "https://zerocater.com/about/newsroom/press-releases/2023/zerocater-raises-its-series-c-to-build-the-future-of-the-corporate-cafeteria-for-the-hybrid-workplace/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zerocater.com/",
+      "https://zerocater.com/about/",
+      "https://zerocater.com/about/newsroom/press-releases/2023/zerocater-raises-its-series-c-to-build-the-future-of-the-corporate-cafeteria-for-the-hybrid-workplace/",
+      "https://zerocater.com/about/newsroom/press-releases/2018/zerocater-raises-12-million-to-expand-snacks-and-catering-to-the-fortune-500/",
+      "https://zerocater.com/about/newsroom/press-releases/2016/zerocater-raises-4-1m-in-new-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-02-16",
+    "total_raised": 31100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

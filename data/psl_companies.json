@@ -668,7 +668,21 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/olis",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://olisrobotics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Outgo",
@@ -813,7 +827,34 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/recurrent",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.recurrentauto.com/news/angling-to-be-the-carfax-for-ev-batteries-recurrent-raises-3-5m"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.recurrentauto.com/",
+      "https://www.recurrentauto.com/news/angling-to-be-the-carfax-for-ev-batteries-recurrent-raises-3-5m",
+      "https://www.recurrentauto.com/news/recurrent-raises-3-5m-seed-round-to-provide-electric-vehicle-battery-reports",
+      "https://www.recurrentauto.com/news/recurrent-raises-3-5m-to-power-data-science-behind-its-used-electric-car-reports"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 3500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Remarkably",

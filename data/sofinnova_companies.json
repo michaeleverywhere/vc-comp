@@ -306,7 +306,21 @@
     "primary_investor": "Sofinnova Partners",
     "profile_url": "https://sofinnovapartners.com/portfolio/ascendis-pharma-as",
     "source_url": "https://sofinnovapartners.com/portfolio",
-    "scraped_at": "2026-10-10T13:20:14.209641+00:00"
+    "scraped_at": "2026-10-10T13:20:14.209641+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ascendispharma.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Asceneuron",
@@ -979,7 +993,21 @@
     "primary_investor": "Sofinnova Partners",
     "profile_url": "https://sofinnovapartners.com/portfolio/cure-51",
     "source_url": "https://sofinnovapartners.com/portfolio",
-    "scraped_at": "2026-10-10T13:20:14.209641+00:00"
+    "scraped_at": "2026-10-10T13:20:14.209641+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cure51.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DBV",
@@ -1122,7 +1150,80 @@
     "primary_investor": "Sofinnova Partners",
     "profile_url": "https://sofinnovapartners.com/portfolio/dna-script",
     "source_url": "https://sofinnovapartners.com/portfolio",
-    "scraped_at": "2026-10-10T13:20:14.209641+00:00"
+    "scraped_at": "2026-10-10T13:20:14.209641+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "EUR",
+        "date": "2017-09-12",
+        "lead_investors": [
+          "Illumina Ventures"
+        ],
+        "investors": [
+          "Illumina Ventures"
+        ],
+        "source_url": "https://www.dnascript.com/press-releases/dna-script-raises-e11-million-13-million-in-series-a-financing-led-by-illumina-ventures-to-advance-development-of-its-dna-synthesis-technology/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2018-07-10",
+        "lead_investors": [
+          "Illumina Ventures"
+        ],
+        "investors": [
+          "Illumina Ventures",
+          "Sofinnova Partners",
+          "Kurma Partners"
+        ],
+        "source_url": "https://www.dnascript.com/press-releases/dna-script-awarded-2-7m-in-innovation-grants-from-bpifrance-total-financing-raised-to-date-is-27m/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 38500000.0,
+        "currency": "USD",
+        "date": "2019-05-16",
+        "investors": [],
+        "source_url": "https://www.dnascript.com/press-releases/dna-script-raises-38-5-million-in-series-b-financing/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 165000000.0,
+        "currency": "USD",
+        "date": "2021-10-26",
+        "investors": [],
+        "source_url": "https://www.dnascript.com/press-releases/dna-script-raises-165m-in-oversubscribed-series-c-financing-to-accelerate-commercialization-of-enzymatic-dna-printing-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dnascript.com/",
+      "https://www.dnascript.com/press-releases/dna-script-raises-e11-million-13-million-in-series-a-financing-led-by-illumina-ventures-to-advance-development-of-its-dna-synthesis-technology/",
+      "https://www.dnascript.com/press-releases/dna-script-raises-38-5-million-in-series-b-financing/",
+      "https://www.dnascript.com/press-releases/dna-script-awarded-2-7m-in-innovation-grants-from-bpifrance-total-financing-raised-to-date-is-27m/",
+      "https://www.dnascript.com/press-releases/dna-script-raises-165m-in-oversubscribed-series-c-financing-to-accelerate-commercialization-of-enzymatic-dna-printing-platform/",
+      "https://www.dnascript.com/press-releases/dna-script-closes-200-million-series-c-financing-with-completion-of-second-tranche/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 165000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-26",
+    "notable_investors": [
+      "Illumina Ventures",
+      "Sofinnova Partners",
+      "Kurma Partners"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Elevara Medicines",
@@ -1752,7 +1853,54 @@
     "primary_investor": "Sofinnova Partners",
     "profile_url": "https://sofinnovapartners.com/portfolio/hotspot",
     "source_url": "https://sofinnovapartners.com/portfolio",
-    "scraped_at": "2026-10-10T13:20:14.209641+00:00"
+    "scraped_at": "2026-10-10T13:20:14.209641+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2018-07-17",
+        "investors": [],
+        "source_url": "https://www.hotspotthera.com/press_release/hotspot-therapeutics-completes-45-million-series-a-financing-to-advance-new-approach-to-allosteric-drug-discovery/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2020-05-21",
+        "investors": [],
+        "source_url": "https://www.hotspotthera.com/press_release/hotspot-therapeutics-completes-65-million-series-b-financing-to-advance-pipeline-of-novel-allosteric-medicines/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-11-29",
+        "investors": [],
+        "source_url": "https://www.hotspotthera.com/press_release/hotspot-therapeutics-closes-100m-series-c-to-advance-first-in-class-allosteric-drug-discovery-platform-to-the-clinic/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hotspotthera.com/",
+      "https://www.hotspotthera.com/news/",
+      "https://www.hotspotthera.com/press_release/hotspot-therapeutics-closes-100m-series-c-to-advance-first-in-class-allosteric-drug-discovery-platform-to-the-clinic/",
+      "https://www.hotspotthera.com/press_release/hotspot-therapeutics-completes-65-million-series-b-financing-to-advance-pipeline-of-novel-allosteric-medicines/",
+      "https://www.hotspotthera.com/press_release/hotspot-therapeutics-completes-45-million-series-a-financing-to-advance-new-approach-to-allosteric-drug-discovery/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-29",
+    "total_raised": 210000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ingenix",
@@ -3026,7 +3174,21 @@
     "primary_investor": "Sofinnova Partners",
     "profile_url": "https://sofinnovapartners.com/portfolio/protera",
     "source_url": "https://sofinnovapartners.com/portfolio",
-    "scraped_at": "2026-10-10T13:20:14.209641+00:00"
+    "scraped_at": "2026-10-10T13:20:14.209641+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.proterabio.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Purespring",
