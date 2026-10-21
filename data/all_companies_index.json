@@ -1,31 +1,31 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2430,
-  "total_companies": 147468,
+  "total_firms": 2434,
+  "total_companies": 147605,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1045,
-      "companies": 68125,
-      "bytes": 39887543,
+      "firms": 1041,
+      "companies": 67874,
+      "bytes": 39998808,
       "first_firm": "0BS",
-      "last_firm": "Hg"
+      "last_firm": "Hemisphere Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1145,
-      "companies": 65935,
-      "bytes": 39985246,
-      "first_firm": "H.I.G. Capital",
-      "last_firm": "TLcom Capital"
+      "firms": 1139,
+      "companies": 65683,
+      "bytes": 39978406,
+      "first_firm": "Hemi Ventures",
+      "last_firm": "3VC"
     },
     {
       "file": "all_companies_3.json",
-      "firms": 240,
-      "companies": 13408,
-      "bytes": 8002418,
-      "first_firm": "TLV Partners",
+      "firms": 254,
+      "companies": 14048,
+      "bytes": 8470363,
+      "first_firm": "Threshold Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
