@@ -68,7 +68,10 @@ def _first(r: dict, keys) -> str:
 
 
 def _norm(s: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    n = re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    if not n and s:  # non-Latin names (e.g. Japanese/Chinese) would otherwise all normalize to "" and look missing
+        n = re.sub(r"[\W_]", "", s.casefold())
+    return n
 
 
 def _domain(u: str) -> str:
