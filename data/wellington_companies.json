@@ -2834,7 +2834,19 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "klarna",
@@ -5793,7 +5805,39 @@
     ],
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
-    "scraped_at": "2026-10-13T13:33:51.685675+00:00"
+    "scraped_at": "2026-10-13T13:33:51.685675+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2024-05-07",
+        "investors": [],
+        "source_url": "https://zenasbio.com/news/zenas-biopharma-announces-upsized-200-million-series-c-financing-to-advance-mid-and-late-stage-immunology-focused-clinical-development-programs/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://profiles.crustdata.com/company/zenas-biopharma",
+      "https://www.pharmaceutical-technology.com/news/zenas-raises-200m-to-advance-autoimmune-antibody-therapy/",
+      "https://zenasbio.com/news/zenas-biopharma-announces-upsized-200-million-series-c-financing-to-advance-mid-and-late-stage-immunology-focused-clinical-development-programs/",
+      "https://pharmaphorum.com/news/zenas-200m-round-heads-big-clutch-bio-financings",
+      "https://synapse.patsnap.com/article/zenas-secures-200m-series-c-for-lead-monoclonal-antibody-milestones",
+      "https://www.biospace.com/press-releases/zenas-biopharma-reports-third-quarter-2025-financial-results-and-provides-corporate-update",
+      "https://news.bloomberglaw.com/health-law-and-business/zenas-biopharma-said-to-weigh-150-million-ipo-as-soon-as-july",
+      "https://finance.yahoo.com/healthcare/articles/why-zenas-biopharma-zbio-filing-043226725.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-07",
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ZipRecruiter",
