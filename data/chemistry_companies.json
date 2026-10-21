@@ -283,7 +283,72 @@
     ],
     "primary_investor": "Chemistry",
     "source_url": "https://www.chemistry.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:52.354334+00:00"
+    "scraped_at": "2026-10-17T20:05:52.354334+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000,
+        "currency": "USD",
+        "date": "2019-04-18",
+        "investors": [
+          "Index Ventures (lead)",
+          "Stripe"
+        ],
+        "source_url": "https://techcrunch.com/2019/04/18/index-ventures-stripe-back-bookkeeping-service-pilot-with-40m/"
+      },
+      {
+        "stage": "Series C",
+        "amount": 60000000,
+        "currency": "USD",
+        "date": "2021-01-26",
+        "investors": [
+          "Sequoia Capital (lead)"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20210126005333/en/Pilot-Raises-%2460M-Series-C-to-Modernize-the-Back-Office"
+      },
+      {
+        "stage": "Series C extension",
+        "amount": 40000000,
+        "currency": "USD",
+        "date": "2021-03-26",
+        "investors": [
+          "Bezos Expeditions (lead)",
+          "Whale Rock Capital (lead)",
+          "Sequoia Capital",
+          "Index Ventures"
+        ],
+        "source_url": "https://www.cnbc.com/2021/03/26/jeff-bezos-backed-start-up-pilot-hits-1point2-billion-valuation-.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pilot.com/blog/introducing-pilot-tax",
+      "https://pilot.com/blog/pilot-closes-60m-series-c-from-sequoia-what-comes-next",
+      "https://pilot.com/blog/pilot-unicorn-bezos-expeditions-whale-rock",
+      "https://techcrunch.com/2021/03/27/jeff-bezos-investment-fund-is-backing-a-startup-hoping-to-be-the-aws-for-smb-accounting/",
+      "https://techcrunch.com/2019/04/18/index-ventures-stripe-back-bookkeeping-service-pilot-with-40m/",
+      "https://www.businesswire.com/news/home/20210126005333/en/Pilot-Raises-%2460M-Series-C-to-Modernize-the-Back-Office",
+      "https://www.cnbc.com/2021/03/26/jeff-bezos-backed-start-up-pilot-hits-1point2-billion-valuation-.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "pilot.com (startup bookkeeping/tax/CFO services), HQ San Francisco. Series B $40M (Apr 2019, Index Ventures), Series C $60M (Jan 2021, Sequoia; company said total funding then $120M), Series C expanded to $100M (Mar 2021, Bezos Expeditions & Whale Rock; $1.2B valuation). Pre-Series B funding (~$20M implied) not itemized; amount_raised = company-stated $120M total after Jan 2021 Series C + $40M March 2021 extension = ~$160M.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series C extension",
+    "last_round_amount": 40000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-26",
+    "total_raised": 140000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Index Ventures (lead)",
+      "Stripe",
+      "Sequoia Capital (lead)",
+      "Bezos Expeditions (lead)",
+      "Whale Rock Capital (lead)",
+      "Sequoia Capital",
+      "Index Ventures"
+    ]
   },
   {
     "company_name": "Plaid",

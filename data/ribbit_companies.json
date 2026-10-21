@@ -257,7 +257,22 @@
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
     "description": "Breezy removes the hassle from finding prospects, so you can focus on generating successful partnerships.",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.southparkcommons.com/companies/breezy/",
+      "https://www.getbreezy.app/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Breezy (getbreezy.app, linked from its SPC page), San Francisco; AI front office (calls, texts, lead capture, booking) for home-services businesses such as HVAC and plumbing. Founders Kevin Shi (CEO) and Saul Fuhrmann; founded 2023. SPC lists Kearny Jackson as a co-investor, so outside VC money was raised, but no press release or reputable news gives round type, amount or date (a Caplight tracker figure of about $1.4M could not be verified). Caveats: getbreezy.app returned a Vercel 'deployment disabled' page on 2026-10-19, so the company may be inactive; the Breezy that raised a $10M pre-seed in Feb 2026 (Axios/PR Newswire, residential real-estate AI) is a different company and was excluded.",
+    "funding_checked": "2026-10-20",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bridge",
@@ -404,7 +419,104 @@
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
     "description": "American company that operates a cryptocurrency exchange platform",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 5000000,
+        "currency": "USD",
+        "date": "2013-05",
+        "investors": [
+          "Union Square Ventures (lead)",
+          "Ribbit Capital",
+          "SV Angel",
+          "FundersClub"
+        ],
+        "source_url": "https://www.coinbase.com/blog/coinbase-raises-usd5m-in-series-a-funding"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25000000,
+        "currency": "USD",
+        "date": "2013-12-12",
+        "investors": [
+          "Andreessen Horowitz (lead)",
+          "Union Square Ventures",
+          "Ribbit Capital"
+        ],
+        "source_url": "https://techcrunch.com/2013/12/12/coinbase-raises-25m-from-andreessen-horowitz-to-build-its-bitcoin-wallet-and-merchant-services/"
+      },
+      {
+        "stage": "Series C",
+        "amount": 75000000,
+        "currency": "USD",
+        "date": "2015-01-20",
+        "investors": [
+          "DFJ Growth (lead)",
+          "NYSE",
+          "USAA",
+          "BBVA"
+        ],
+        "source_url": "https://www.coinbase.com/blog/coinbase-raises-usd75m-from-dfj-growth-usaa-nyse-and-more"
+      },
+      {
+        "stage": "Series D",
+        "amount": 100000000,
+        "currency": "USD",
+        "date": "2017-08-10",
+        "investors": [
+          "IVP (lead)"
+        ],
+        "source_url": "https://www.coinbase.com/blog/coinbase-raises-100m-series-d-led-by-ivp"
+      },
+      {
+        "stage": "Series E",
+        "amount": 300000000,
+        "currency": "USD",
+        "date": "2018-10-30",
+        "investors": [
+          "Tiger Global Management (lead)"
+        ],
+        "source_url": "https://www.coinbase.com/blog/coinbase-raises-series-e-round-of-financing-to-accelerate-the-adoption-of"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ycombinator.com/blog/coinbase-yc-s12-raises-5m-from-union-square-ventures-largest-financing-round-yet-for-a-bitcoin-startup/",
+      "https://www.coinbase.com/blog/coinbase-raises-usd25-million-from-andreessen-horowitz",
+      "https://techcrunch.com/2015/01/20/coinbase-confirms-75m-raise-from-dfj-nyse-strategic-banking-partners/",
+      "https://techcrunch.com/2017/08/10/coinbase-raises-100m-at-a-1-6b-valuation-amid-explosive-growth/",
+      "https://fortune.com/2018/10/30/coinbase-series-e-funding/",
+      "https://www.coinbase.com/blog/coinbase-raises-usd5m-in-series-a-funding",
+      "https://techcrunch.com/2013/12/12/coinbase-raises-25m-from-andreessen-horowitz-to-build-its-bitcoin-wallet-and-merchant-services/",
+      "https://www.coinbase.com/blog/coinbase-raises-usd75m-from-dfj-growth-usaa-nyse-and-more",
+      "https://www.coinbase.com/blog/coinbase-raises-100m-series-d-led-by-ivp",
+      "https://www.coinbase.com/blog/coinbase-raises-series-e-round-of-financing-to-accelerate-the-adoption-of"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "coinbase.com; YC S12; remote-first (formerly San Francisco HQ). Private rounds: Series A $5M (2013, USV), B $25M (2013, a16z), C $75M (2015, DFJ Growth), D $100M (2017, IVP; $1.6B), E $300M (2018, Tiger Global; $8B). Seed/YC money not itemized. Went public via Nasdaq direct listing (COIN) April 14, 2021 (no primary capital raised). List covers the major priced rounds and may not be exhaustive.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series E",
+    "last_round_amount": 300000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-10-30",
+    "total_raised": 505000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Union Square Ventures (lead)",
+      "Ribbit Capital",
+      "SV Angel",
+      "FundersClub",
+      "Andreessen Horowitz (lead)",
+      "Union Square Ventures",
+      "DFJ Growth (lead)",
+      "NYSE",
+      "USAA",
+      "BBVA",
+      "IVP (lead)",
+      "Tiger Global Management (lead)"
+    ]
   },
   {
     "company_name": "Coinswitch",
@@ -1006,7 +1118,92 @@
     ],
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 75000000,
+        "currency": "USD",
+        "date": "2024-09-23",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "Index Ventures",
+          "GreatPoint Ventures",
+          "Era Funds",
+          "Blossom Capital",
+          "DST Global partners",
+          "Elefund"
+        ],
+        "source_url": "https://www.harmonic.fun/news/series-a/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 100000000,
+        "currency": "USD",
+        "date": "2025-07-10",
+        "investors": [
+          "Kleiner Perkins (lead)",
+          "Paradigm",
+          "Ribbit Capital",
+          "Sequoia Capital",
+          "Index Ventures",
+          "Charlie Cheever"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20250710118878/en/Harmonic-Raises-%24100-Million-Series-B-to-Accelerate-Development-of-Mathematical-Superintelligence"
+      },
+      {
+        "stage": "Series C",
+        "amount": 120000000,
+        "currency": "USD",
+        "date": "2025-11-25",
+        "investors": [
+          "Ribbit Capital (lead)",
+          "Sequoia Capital",
+          "Index Ventures",
+          "Kleiner Perkins",
+          "Emerson Collective",
+          "NVentures (NVIDIA)"
+        ],
+        "source_url": "https://harmonic.fun/news/series-c/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reuters.com/business/robinhood-ceos-math-focused-ai-startup-harmonic-valued-145-billion-latest-2025-11-25/",
+      "https://siliconangle.com/2026/01/15/nvidias-nventures-backs-harmonic-ai-series-c-mathematical-superintelligence/",
+      "https://www.bloomberg.com/news/articles/2025-07-10/robinhood-ceo-s-ai-math-startup-valued-at-nearly-900-million",
+      "https://www.harmonic.fun/news/series-a/",
+      "https://www.businesswire.com/news/home/20250710118878/en/Harmonic-Raises-%24100-Million-Series-B-to-Accelerate-Development-of-Mathematical-Superintelligence",
+      "https://harmonic.fun/news/series-c/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "harmonic.fun (math AI, Aristotle model; co-founded by Vlad Tenev and Tudor Achim, Palo Alto). Series A $75M (Sep 2024, Sequoia), Series B $100M (Jul 2025, Kleiner Perkins, ~$875-900M valuation), Series C $120M (Nov 2025, Ribbit, $1.45B valuation; Emerson Collective new; NVentures participation disclosed Jan 2026). No public seed amount found (founding capital not disclosed). Private.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series C",
+    "last_round_amount": 120000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-25",
+    "total_raised": 295000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital (lead)",
+      "Index Ventures",
+      "GreatPoint Ventures",
+      "Era Funds",
+      "Blossom Capital",
+      "DST Global partners",
+      "Elefund",
+      "Kleiner Perkins (lead)",
+      "Paradigm",
+      "Ribbit Capital",
+      "Sequoia Capital",
+      "Charlie Cheever",
+      "Ribbit Capital (lead)",
+      "Kleiner Perkins",
+      "Emerson Collective",
+      "NVentures (NVIDIA)"
+    ]
   },
   {
     "company_name": "Hippo",
@@ -1195,7 +1392,89 @@
     ],
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed (as Lunchclub)",
+        "amount": 4000000,
+        "currency": "USD",
+        "date": "2019-09",
+        "investors": [
+          "Andreessen Horowitz (lead)"
+        ],
+        "source_url": "https://techcrunch.com/2019/09/18/lunchclub-raises-4m-from-a16z-for-its-ai-warm-intro-service/"
+      },
+      {
+        "stage": "Series A (as Lunchclub)",
+        "amount": 24200000,
+        "currency": "USD",
+        "date": "2020-09",
+        "investors": [
+          "Coatue (lead)",
+          "Lightspeed Venture Partners (lead)"
+        ],
+        "source_url": "https://www.cnbc.com/2020/09/01/lunchclub-tops-100-million-valuation-amid-quarantine-usage-spike.html"
+      },
+      {
+        "stage": "Undisclosed (2024 round)",
+        "amount": 21000000,
+        "currency": "USD",
+        "date": "2024",
+        "investors": [
+          "Haun Ventures (lead)",
+          "Craft Ventures (lead)",
+          "Dragonfly",
+          "Robot Ventures"
+        ],
+        "source_url": "https://fortune.com/2025/11/11/lighter-fundraise-founders-fund-ribbit-capital-haun-ventures-robinhood-vladimir-novakovski/"
+      },
+      {
+        "stage": "Undisclosed (equity + token warrants)",
+        "amount": 68000000,
+        "currency": "USD",
+        "date": "2025-11-11",
+        "investors": [
+          "Founders Fund (lead)",
+          "Ribbit Capital (lead)",
+          "Haun Ventures",
+          "Robinhood"
+        ],
+        "source_url": "https://fortune.com/2025/11/11/lighter-fundraise-founders-fund-ribbit-capital-haun-ventures-robinhood-vladimir-novakovski/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.coindesk.com/business/2025/11/11/lighter-raises-usd68m-at-usd1-5b-valuation-to-take-on-decentralized-derivatives-rivals",
+      "https://www.theblock.co/post/378358/lighter-raises-68-million-1-5-billion-valuation-vc-bets-flood-perp-dex-infrastructure-report",
+      "https://www.wsgr.com/en/insights/wilson-sonsini-advises-lighter-on-dollar68-million-financing.html",
+      "https://techcrunch.com/2021/10/22/how-lunchclub-landed-a-preemptive-term-sheet-from-lightspeed/",
+      "https://techcrunch.com/2019/09/18/lunchclub-raises-4m-from-a16z-for-its-ai-warm-intro-service/",
+      "https://www.cnbc.com/2020/09/01/lunchclub-tops-100-million-valuation-amid-quarantine-usage-spike.html",
+      "https://fortune.com/2025/11/11/lighter-fundraise-founders-fund-ribbit-capital-haun-ventures-robinhood-vladimir-novakovski/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified as Lighter (lighter.xyz), Ethereum ZK-rollup perpetual-futures DEX founded 2022 by Vladimir Novakovski; input lists Miami. The SPC source anchor is #lunchclub: per Fortune, Novakovski pivoted Lunchclub (AI professional-networking startup, founded 2017 with Scott Wu and Hayley Leibson) into Lighter, keeping ~80% of the team. Lunchclub rounds: $4M seed led by a16z (Sep 2019, TechCrunch) and a $24.2M Series A led by Coatue and Lightspeed at a >$100M valuation (2020, CNBC). As Lighter: a previously unreported $21M round in 2024 led by Haun Ventures and Craft Ventures, and $68M in Nov 2025 led by Founders Fund and Ribbit (~$1.5B valuation per sources; mix of equity and LIT token warrants). Neither Lighter-era round has a public stage label, so 'round' is left blank; status seed+ rests on the Lunchclub-era priced Series A (assumes same corporate entity, which Fortune implies but does not state). amount_raised = sum of the four sourced rounds ($117.2M); Fortune puts Lighter-era funding at almost $90M and Lunchclub-era at ~$30M. Excludes LIT token (launched Dec 2025).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Undisclosed (2024 round)",
+    "last_round_amount": 21000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2024",
+    "total_raised": 49200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz (lead)",
+      "Coatue (lead)",
+      "Lightspeed Venture Partners (lead)",
+      "Haun Ventures (lead)",
+      "Craft Ventures (lead)",
+      "Dragonfly",
+      "Robot Ventures",
+      "Founders Fund (lead)",
+      "Ribbit Capital (lead)",
+      "Haun Ventures",
+      "Robinhood"
+    ]
   },
   {
     "company_name": "Lightspark",
@@ -1224,7 +1503,71 @@
     ],
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": "USD",
+        "date": "2025-04-23",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "Pear VC"
+        ],
+        "source_url": "https://fortune.com/article/ai-startup-listen-labs-sequoia-27-million-funding/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 69000000,
+        "currency": "USD",
+        "date": "2026-01-14",
+        "investors": [
+          "Ribbit Capital (lead)",
+          "Evantic",
+          "Sequoia Capital",
+          "Conviction",
+          "Pear VC"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html"
+      },
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "Sequoia Capital (lead)",
+          "Pear VC"
+        ],
+        "source_url": "https://fortune.com/article/ai-startup-listen-labs-sequoia-27-million-funding/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pear.vc/listen-labs-series-b/",
+      "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/",
+      "https://listenlabs.ai/blog/announcing-listen-s-series-b",
+      "https://fortune.com/article/ai-startup-listen-labs-sequoia-27-million-funding/",
+      "https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "No website in input; verified as the AI customer-research platform Listen Labs (listenlabs.ai, now also listenlabs.com), San Francisco, co-founded by Alfred Wahlforss and Florian Juengermann. Pear's own post says it invested at Seed and Series A. Seed and Series A both led by Sequoia (Bryan Schreier), $27M combined, announced Apr 23, 2025 (Fortune; split between the two rounds not disclosed, so per-round amounts are null). $69M Series B led by Ribbit Capital (Jan 14, 2026), bringing total equity to $100M per the company. Salesforce signed a definitive agreement to acquire Listen Labs on Sep 29, 2026 (terms undisclosed; expected to close in Salesforce's fiscal Q4 2027, pending regulatory clearance), which is why the input lists it as Acquired. As of this research the deal was announced but not yet closed.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 69000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-14",
+    "total_raised": 69000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital (lead)",
+      "Pear VC",
+      "Ribbit Capital (lead)",
+      "Evantic",
+      "Sequoia Capital",
+      "Conviction"
+    ]
   },
   {
     "company_name": "M0",
@@ -1294,7 +1637,70 @@
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
     "description": "Onderzoeksbureau MoneyView vergaart en analyseert sinds 1993 informatie van en over financiële producten en diensten.",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 75000000,
+        "currency": "USD",
+        "date": "2022-03",
+        "investors": [
+          "Tiger Global",
+          "Winter Capital",
+          "Evolvence India",
+          "Accel"
+        ],
+        "source_url": "https://www.prnewswire.com/in/news-releases/fintech-startup-money-view-raises-75-million-in-series-d-funding-854077369.html"
+      },
+      {
+        "stage": "Series E",
+        "amount": 75000000,
+        "currency": "USD",
+        "date": "2022-12",
+        "investors": [
+          "Apis Partners (lead)",
+          "Tiger Global"
+        ],
+        "source_url": "https://techcrunch.com/2022/12/26/indian-fintech-money-view-valued-at-900-million-in-new-funding/"
+      },
+      {
+        "stage": "IPO",
+        "amount": 10916800000,
+        "currency": "INR",
+        "date": "2026-10-01",
+        "investors": [],
+        "source_url": "https://www.business-standard.com/markets/news/moneyview-shares-make-stellar-debut-list-at-63-premium-on-bse-126100100186_1.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://entrackr.com/2022/03/money-view-raises-75-mn-from-tiger-global-and-others-at-625-mn-valuation/",
+      "https://economictimes.indiatimes.com/tech/funding/tiger-global-others-invest-75-million-in-money-view/articleshow/90093924.cms",
+      "https://www.globalprivatecapital.org/newsroom/apis-partners-leads-usd75m-series-e-for-indias-money-view/",
+      "https://www.thehindubusinessline.com/markets/moneyview-limited-files-drhp-for-1500-crore-ipo/article70704279.ece",
+      "https://entrackr.com/exclusive/exclusive-moneyview-secures-rs-100-cr-debt-appoints-independent-directors-10817370",
+      "https://inc42.com/company/money-view/funding/",
+      "https://www.prnewswire.com/in/news-releases/fintech-startup-money-view-raises-75-million-in-series-d-funding-854077369.html",
+      "https://techcrunch.com/2022/12/26/indian-fintech-money-view-valued-at-900-million-in-new-funding/",
+      "https://www.business-standard.com/markets/news/moneyview-shares-make-stellar-debut-list-at-63-premium-on-bse-126100100186_1.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified as Moneyview (Money View / Moneyview Limited; domain moneyview.in), Bengaluru, founded 2014 by Puneet Agarwal and Sanjay Aggarwal; digital personal-loan/credit platform. Accel-backed from its 2014 Series A. Priced rounds with news sources: Series D $75M (Mar 2022, Tiger Global, Winter Capital, Evolvence, Accel; ~$625M valuation) and Series E $75M (Dec 2022, led by Apis Partners, $900M valuation). Inc42 Datalabs (tracker-style page) also lists Series A $1.65M (2014), unlabeled ~$8.5M (2015) and ~$9.7M (2016), Series C ~$13.8M (Dec 2018), and $4.6M from Accel/Nexus (Sep 2024, ~$1.21B valuation), for $199.7M total including ~$11.4M (Rs100 crore) Nov 2025 debt; equity-only total would be ~$188M per that tracker, so amount_raised is left blank. IPO: Rs1,091.68 crore book-built issue (Rs750 crore fresh + Rs341.68 crore OFS) at Rs34/share, listed on NSE/BSE on 2026-10-01 (opened ~62-64% above issue price).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series E",
+    "last_round_amount": 75000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12",
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tiger Global",
+      "Winter Capital",
+      "Evolvence India",
+      "Accel",
+      "Apis Partners (lead)"
+    ]
   },
   {
     "company_name": "Monzo",
@@ -1724,7 +2130,51 @@
     "source_url": "https://www.ribbitcap.com/rebels",
     "scraped_at": "2026-10-12T21:11:34.963133+00:00",
     "description": "Trade stocks on Robinhood with commission-free investing & advanced trading tools. Access fractional shares, real-time market data, and more. Terms and fees may apply.",
-    "primary_investor": "Ribbit Capital"
+    "primary_investor": "Ribbit Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000,
+        "currency": "USD",
+        "date": "2013-12-18",
+        "investors": [
+          "Index Ventures",
+          "Andreessen Horowitz",
+          "Rothenberg Ventures"
+        ],
+        "source_url": "https://techcrunch.com/2013/12/18/zero-commission-stock-trading-robinhood/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 13000000,
+        "currency": "USD",
+        "date": "2014-09-23",
+        "investors": [
+          "Index Ventures"
+        ],
+        "source_url": "https://techcrunch.com/2014/09/23/robinhood-stock-app/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2013/12/18/zero-commission-stock-trading-robinhood/",
+      "https://techcrunch.com/2014/09/23/robinhood-stock-app/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Early rounds only checked ($16M through Series A, 2014); company later raised much more and went public.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-09-23",
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Index Ventures",
+      "Andreessen Horowitz",
+      "Rothenberg Ventures"
+    ]
   },
   {
     "company_name": "ROOT",

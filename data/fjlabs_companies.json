@@ -454,7 +454,97 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Growth (equity + debt)",
+        "amount": null,
+        "currency": "USD",
+        "date": "2015-05-06",
+        "investors": [
+          "Spark Capital Growth (lead)",
+          "Jefferies",
+          "Andreessen Horowitz",
+          "Khosla Ventures",
+          "Lightspeed Venture Partners"
+        ],
+        "source_url": "https://techcrunch.com/2015/05/06/max-levchins-lending-startup-affirm-raises-275m-in-equity-and-debt/"
+      },
+      {
+        "stage": "Series D",
+        "amount": 100000000,
+        "currency": "USD",
+        "date": "2016-04-13",
+        "investors": [
+          "Founders Fund (lead)"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20160413005530/en/Affirm-Secures-100-Million-Series"
+      },
+      {
+        "stage": "Series F",
+        "amount": 300000000,
+        "currency": "USD",
+        "date": "2019-04-03",
+        "investors": [
+          "Thrive Capital (lead)",
+          "Fidelity",
+          "Baillie Gifford",
+          "Wellington Management",
+          "Sound Ventures"
+        ],
+        "source_url": "https://investors.affirm.com/news-releases/news-release-details/affirm-announces-series-f-round-of-equity-funding-led-by-thrive-capital"
+      },
+      {
+        "stage": "Series G",
+        "amount": 500000000,
+        "currency": "USD",
+        "date": "2020-09-17",
+        "investors": [
+          "GIC (lead)",
+          "Durable Capital Partners (lead)",
+          "Founders Fund",
+          "Lightspeed Venture Partners"
+        ],
+        "source_url": "https://investors.affirm.com/news-releases/news-release-details/affirm-series-g-and-biweekly-payment-option"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reuters.com/article/business/affirm-max-levchins-consumer-lending-startup-raises-100-million-idUSKCN0XA00Q/",
+      "https://www.axios.com/2019/04/03/max-levchins-affirm-raises-300-million-1554299349",
+      "https://www.businesswire.com/news/home/20200917005904/en/Affirm-Raises-%24500M-Series-G-Round",
+      "https://www.sec.gov/Archives/edgar/data/1820953/000110465921004835/a20-26663_248k.htm",
+      "https://techcrunch.com/2015/05/06/max-levchins-lending-startup-affirm-raises-275m-in-equity-and-debt/",
+      "https://www.businesswire.com/news/home/20160413005530/en/Affirm-Secures-100-Million-Series",
+      "https://investors.affirm.com/news-releases/news-release-details/affirm-announces-series-f-round-of-equity-funding-led-by-thrive-capital",
+      "https://investors.affirm.com/news-releases/news-release-details/affirm-series-g-and-biweekly-payment-option"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "affirm.com; HQ San Francisco; founded 2012 by Max Levchin (HVF). Public on Nasdaq (AFRM) since its Jan 2021 IPO (28.29M shares at $49, ~$1.31B gross incl. over-allotment per SEC 8-K). Sourced private rounds: 2015 $275M equity+debt (split not disclosed, Spark Capital Growth lead), Series D $100M (2016, Founders Fund), Series F $300M (2019, Thrive), Series G $500M (2020, GIC & Durable). amount_raised sums only the sourced, equity-only D/F/G rounds; seed-Series C, the 2015 equity portion and the ~2017 Series E are not itemized, so the list is not exhaustive. IPO proceeds excluded from the total.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series G",
+    "last_round_amount": 500000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-09-17",
+    "total_raised": 900000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Spark Capital Growth (lead)",
+      "Jefferies",
+      "Andreessen Horowitz",
+      "Khosla Ventures",
+      "Lightspeed Venture Partners",
+      "Founders Fund (lead)",
+      "Thrive Capital (lead)",
+      "Fidelity",
+      "Baillie Gifford",
+      "Wellington Management",
+      "Sound Ventures",
+      "GIC (lead)",
+      "Durable Capital Partners (lead)",
+      "Founders Fund"
+    ]
   },
   {
     "company_name": "After",
@@ -2878,7 +2968,47 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000,
+        "currency": "EUR",
+        "date": "2022-12",
+        "investors": [
+          "10x Founders (lead)",
+          "FJ Labs",
+          "another.vc",
+          "New Wave",
+          "Seedcamp",
+          "angels"
+        ],
+        "source_url": "https://techcrunch.com/2023/02/09/blobr-raises-another-54-million-for-its-api-monetization-product/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.finsmes.com/2023/02/blobr-raises-5-4m-in-funding.html",
+      "https://techcrunch.com/2023/02/09/blobr-raises-another-54-million-for-its-api-monetization-product/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "blobr.io: French startup, originally an API monetization platform, now positioned as an AI ads expert (same domain). €5M (~$5.4M) round led by 10x Founders, closed ~Dec 2022 and announced Feb 2023; the company called it a seed. New Wave and Seedcamp were existing investors from an earlier, undisclosed round, which isn't counted.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 5000000,
+    "last_round_currency": "EUR",
+    "last_round_date": "2022-12",
+    "total_raised": 5000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "10x Founders (lead)",
+      "FJ Labs",
+      "another.vc",
+      "New Wave",
+      "Seedcamp",
+      "angels"
+    ]
   },
   {
     "company_name": "Block Green",
@@ -6460,7 +6590,44 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-seed",
+        "amount": 2000000,
+        "currency": "USD",
+        "date": "2024-06",
+        "investors": [
+          "Seedcamp (lead)",
+          "Concept Ventures",
+          "RTP Global",
+          "FJ Labs"
+        ],
+        "source_url": "https://seedcamp.com/views/digital-iron-raises-2m-to-automate-order-processing-for-the-heavy-machinery-industry/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.finsmes.com/2024/07/digital-iron-raises-1-6m-in-pre-seed-funding.html",
+      "https://www.businesspost.ie/tech/digital-iron-raises-2m-for-heavy-machinery-after-sales-platform/",
+      "https://seedcamp.com/views/digital-iron-raises-2m-to-automate-order-processing-for-the-heavy-machinery-industry/"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Verified domain digitaliron.com. AI copilot for heavy-machinery dealerships (co-founders Ciaran Gillen, Salina Brown). $2M pre-seed Jun 2024 led by Seedcamp with Concept Ventures, RTP Global, FJ Labs (FinSMEs also cites ~£1.6M). No later priced seed+ round found.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Pre-seed",
+    "last_round_amount": 2000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06",
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Seedcamp (lead)",
+      "Concept Ventures",
+      "RTP Global",
+      "FJ Labs"
+    ]
   },
   {
     "company_name": "Digitt",
@@ -8097,7 +8264,62 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000,
+        "currency": "EUR",
+        "date": "2023-05-17",
+        "investors": [
+          "Connect Ventures (lead)",
+          "Seedcamp",
+          "Cocoa Ventures",
+          "FJ Labs"
+        ],
+        "source_url": "https://www.connectventures.co/opinions/investing-in-faks"
+      },
+      {
+        "stage": "Seed (extension)",
+        "amount": 6000000,
+        "currency": "EUR",
+        "date": "2025-03-03",
+        "investors": [
+          "Speedinvest (lead)",
+          "Connect Ventures",
+          "Seedcamp",
+          "FJ Labs"
+        ],
+        "source_url": "https://tech.eu/2025/03/03/faks-raises-6m-for-pharmaceutical-ai/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://seedcamp.com/views/faks-raises-e5-million-to-digitize-interactions-between-pharmacies-and-their-suppliers/",
+      "https://tech.eu/2023/05/17/oh-for-faks-sake-theyve-gone-and-raised-eur5-million-to-digitise-pharmacies-comms-with-suppliers/",
+      "https://nordic9.com/news/faks-raised-6m-in-a-funding-round-led-by-speedinvest-joined-by-investors-including-connect-ventures-seedcamp-and-fj-labs/",
+      "https://www.goodwinlaw.com/en/news-and-events/news/2025/03/announcements-technology-speedinvest-invests-in-the-6million",
+      "https://www.connectventures.co/opinions/investing-in-faks",
+      "https://tech.eu/2025/03/03/faks-raises-6m-for-pharmaceutical-ai/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified faks.co. Paris pharmacy–supplier digital platform (Corentin Geoffray, Clément Goupy / Félix Pignard). Connect Ventures led a €5M seed (Connect post; public announce ~2023-05-17 with Seedcamp/Cocoa; Connect also names FJ Labs). Then €6M seed extension announced 2025-03-03 led by Speedinvest with Connect, Seedcamp and FJ Labs (Tech.eu; Nordic9 calls it seed extension). Total €11M equity. No Series A found.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed (extension)",
+    "last_round_amount": 6000000,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-03-03",
+    "total_raised": 11000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Connect Ventures (lead)",
+      "Seedcamp",
+      "Cocoa Ventures",
+      "FJ Labs",
+      "Speedinvest (lead)",
+      "Connect Ventures"
+    ]
   },
   {
     "company_name": "Famosos",
@@ -8453,7 +8675,145 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 150000,
+        "currency": "USD",
+        "date": "2013-09",
+        "investors": [
+          "Almi Invest",
+          "Rikard Steiber",
+          "Henrik Torstensson",
+          "Mattias Miksche",
+          "Mathias Ackermand",
+          "Innovationsbron",
+          "Umando"
+        ],
+        "source_url": "https://www.finsmes.com/2013/09/fishbrain-raises-150k-seed-funding.html"
+      },
+      {
+        "stage": "Pre-Series A",
+        "amount": 2400000,
+        "currency": "USD",
+        "date": "2014-07-08",
+        "investors": [
+          "Northzone (co-lead)",
+          "Active Venture Partners (co-lead)",
+          "GP Bullhound",
+          "Edastra Venture Capital",
+          "Mathias Ackermand",
+          "Rikard Steiber",
+          "ALMI"
+        ],
+        "source_url": "https://techcrunch.com/2014/07/08/fishbrain-funding/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 8000000,
+        "currency": "USD",
+        "date": "2015-07",
+        "investors": [
+          "Northzone (lead)",
+          "Recruit Strategic Partners",
+          "Novel TMT Ventures",
+          "Industrifonden",
+          "Active Venture Partners",
+          "GP Bullhound",
+          "Edastra"
+        ],
+        "source_url": "https://northzone.com/insights/fishbrain-closes-8m-a-round-to-accelerate-growth-in-the-us-and-launch-in-japan"
+      },
+      {
+        "stage": "Series B",
+        "amount": 13500000,
+        "currency": "USD",
+        "date": "2018-03-07",
+        "investors": [
+          "B Capital Group (lead)",
+          "SoftBank Ventures Korea",
+          "Northzone",
+          "Industrifonden"
+        ],
+        "source_url": "https://techcrunch.com/2018/03/07/fishbrain-the-fishing-app-and-social-network-raises-13-5m-series-b/"
+      },
+      {
+        "stage": "Funding round (unlabelled)",
+        "amount": 31000000,
+        "currency": "USD",
+        "date": "2021-03-25",
+        "investors": [
+          "Consensus Småbolagsfond",
+          "Adrigo Asset Management",
+          "B Capital Group",
+          "SoftBank Ventures Asia"
+        ],
+        "source_url": "https://www.finsmes.com/2021/03/fishbrain-raises-31m-in-funding.html"
+      },
+      {
+        "stage": "Series C",
+        "amount": null,
+        "currency": "USD",
+        "date": "2022",
+        "investors": [
+          "SoftBank",
+          "Northzone",
+          "B Capital Group"
+        ],
+        "source_url": "https://republic.com/fishbrain"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2013/09/05/fishbrain-secures-seed-funding-to-socialise-sport-fishing/",
+      "https://www.abgsc.com/abgsc-acted-as-sole-financial-advisor-to-fishbrain-in-its-usd-31-million-financing-round/",
+      "https://industrifonden.com/news/fishbrain-announces-series-b-funding-round-led-by-b-capital-and-softbank/",
+      "https://www.finsmes.com/2013/09/fishbrain-raises-150k-seed-funding.html",
+      "https://techcrunch.com/2014/07/08/fishbrain-funding/",
+      "https://northzone.com/insights/fishbrain-closes-8m-a-round-to-accelerate-growth-in-the-us-and-launch-in-japan",
+      "https://techcrunch.com/2018/03/07/fishbrain-the-fishing-app-and-social-network-raises-13-5m-series-b/",
+      "https://www.finsmes.com/2021/03/fishbrain-raises-31m-in-funding.html",
+      "https://republic.com/fishbrain"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Fishbrain (fishbrain.com) is a Stockholm-based fishing app, social network and marketplace that won Seedcamp Berlin in 2013. Rounds: $150K seed (2013), $2.4M pre-Series A (2014, Northzone/Active), $8M Series A (2015, Northzone), $13.5M Series B (2018, B Capital; TechCrunch said total $28M by then), and an unlabelled $31M round (Mar 2021). A 2022 Republic SPV listing (withdrawn) describes a $20M Series C at a $70M pre-money valuation; that close isn't independently confirmed, so its amount is not counted. amount_raised sums the listed rounds; TechCrunch's total implies ~$59M including earlier undisclosed money.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series C",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2022",
+    "total_raised": 55050000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Almi Invest",
+      "Rikard Steiber",
+      "Henrik Torstensson",
+      "Mattias Miksche",
+      "Mathias Ackermand",
+      "Innovationsbron",
+      "Umando",
+      "Northzone (co-lead)",
+      "Active Venture Partners (co-lead)",
+      "GP Bullhound",
+      "Edastra Venture Capital",
+      "ALMI",
+      "Northzone (lead)",
+      "Recruit Strategic Partners",
+      "Novel TMT Ventures",
+      "Industrifonden",
+      "Active Venture Partners",
+      "Edastra",
+      "B Capital Group (lead)",
+      "SoftBank Ventures Korea",
+      "Northzone",
+      "Consensus Småbolagsfond",
+      "Adrigo Asset Management",
+      "B Capital Group",
+      "SoftBank Ventures Asia",
+      "SoftBank"
+    ]
   },
   {
     "company_name": "Fithouse",
@@ -8682,7 +9042,80 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6500000,
+        "currency": "USD",
+        "date": "2021-03",
+        "investors": [
+          "Primary Venture Partners (co-lead)",
+          "Susa Ventures (co-lead)",
+          "BoxGroup (co-lead)"
+        ],
+        "source_url": "https://techcrunch.com/2022/03/24/flock-homes-closes-on-an-a16z-led-26m-series-a/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 26000000,
+        "currency": "USD",
+        "date": "2022-03-24",
+        "investors": [
+          "Andreessen Horowitz (lead)",
+          "1Sharpe Ventures",
+          "Human Capital",
+          "Susa Ventures",
+          "Primary Venture Partners",
+          "BoxGroup"
+        ],
+        "source_url": "https://techcrunch.com/2022/03/24/flock-homes-closes-on-an-a16z-led-26m-series-a/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 20000000,
+        "currency": "USD",
+        "date": "2025-05-13",
+        "investors": [
+          "Renegade Partners (lead)",
+          "Andreessen Horowitz",
+          "Primary Venture Partners",
+          "Susa Ventures",
+          "1Sharpe Ventures"
+        ],
+        "source_url": "https://flockhomes.com/insights/flock-20m-series-b-new-asset-classes"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2022/03/24/flock-homes-closes-on-an-a16z-led-26m-series-a/",
+      "https://flockhomes.com/insights/flock-20m-series-b-new-asset-classes",
+      "https://a16z.com/announcement/investing-in-flock/",
+      "https://flockhomes.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "IDENTITY: flockhomes.com (housing/721 exchange for landlords)—NOT Flock Safety. Seed $6.5M (Mar 2021), Series A $26M (Mar 2022, a16z; total then $32.5M), Series B $20M (May 2025, Renegade). Equity total $52.5M. Pear joined later (Series B era per Pear public comments); not in TechCrunch Series A investor list.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-13",
+    "total_raised": 52500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Primary Venture Partners (co-lead)",
+      "Susa Ventures (co-lead)",
+      "BoxGroup (co-lead)",
+      "Andreessen Horowitz (lead)",
+      "1Sharpe Ventures",
+      "Human Capital",
+      "Susa Ventures",
+      "Primary Venture Partners",
+      "BoxGroup",
+      "Renegade Partners (lead)",
+      "Andreessen Horowitz"
+    ]
   },
   {
     "company_name": "Florida Street",
@@ -9435,7 +9868,77 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000,
+        "currency": "USD",
+        "date": "2020",
+        "investors": [
+          "Seedcamp",
+          "Kindred Capital",
+          "Clocktower Technology Ventures"
+        ],
+        "source_url": "https://seedcamp.com/views/founder-qa-with-nader-alsalim-founder-ceo-at-gaia/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000,
+        "currency": "USD",
+        "date": "2022-02-14",
+        "investors": [
+          "Atomico (lead)",
+          "Kindred Capital",
+          "Seedcamp"
+        ],
+        "source_url": "https://techcrunch.com/2022/02/14/gaia-a-platform-to-finance-ivf-treatments-closes-20m-series-a-led-by-atomico/"
+      },
+      {
+        "stage": "Series A extension",
+        "amount": 14000000,
+        "currency": "USD",
+        "date": "2025-01-27",
+        "investors": [
+          "Valar Ventures (lead)",
+          "Kindred Capital",
+          "Atomico",
+          "Seedcamp",
+          "Heliad",
+          "Optum Ventures"
+        ],
+        "source_url": "https://gaiafamily.com/en-us/press-releases/gaia-raises-14m-led-by-valar"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tech.eu/2022/02/14/combating-staggering-costs-ivf-insurance-provider-gaia-raises-20-million-in-new-round-eyes-us-expansion/",
+      "https://atomico.com/insights/our-investment-in-gaia-redesigning-access-to-fertility-care",
+      "https://nordic9.com/news/gaia-family-raises-14-million-in-series-a-extension-led-by-valar-ventures-joined-by-kindred-capital-vc-atomico-seedcamp-heliad-ag-optum-ventures/",
+      "https://seedcamp.com/views/founder-qa-with-nader-alsalim-founder-ceo-at-gaia/",
+      "https://techcrunch.com/2022/02/14/gaia-a-platform-to-finance-ivf-treatments-closes-20m-series-a-led-by-atomico/",
+      "https://gaiafamily.com/en-us/press-releases/gaia-raises-14m-led-by-valar"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Domain gaiafamily.com verified; London-founded IVF financing/family-building company now also New York based. $3M seed (2020; Seedcamp Q&A Feb 2021, with Kindred & Clocktower; lead not stated); $20M Series A led by Atomico (Feb 2022); $14M round led by Valar (Jan 2025, company press release; 'Series A extension' label and co-investor list from Nordic9). Total ~$37M. Series A participant list beyond Atomico partly inferred from coverage; verify if needed.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A extension",
+    "last_round_amount": 14000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-27",
+    "total_raised": 37000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Seedcamp",
+      "Kindred Capital",
+      "Clocktower Technology Ventures",
+      "Atomico (lead)",
+      "Valar Ventures (lead)",
+      "Atomico",
+      "Heliad",
+      "Optum Ventures"
+    ]
   },
   {
     "company_name": "GAIA (retail)",
@@ -17266,7 +17769,39 @@
     "everywhere_tags": [],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": "GBP",
+        "date": "2026-01-27",
+        "investors": [
+          "Seedcamp",
+          "Venrex",
+          "FJ Labs"
+        ],
+        "source_url": "https://seedcamp.com/views/pair-raises-seed-round-to-drive-enterprise-ai-adoption/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://seedcamp.com/views/pair-raises-seed-round-to-drive-enterprise-ai-adoption/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "PAIR (pairnow.ai), UK enterprise AI-adoption platform founded by Dr James Kuht MBE and Mark James Mitchell (ex-military technologists); customers include PwC, Ministry of Justice and The Crown Estate. Raised a seed round announced 2026-01-27 from Seedcamp and Venrex with FJ Labs; amount not disclosed (the '£1M' figure in some summaries is the company's ARR run rate, not the round size). Lead not explicitly named; company says it was profitable before raising. URLs list includes a LinkedIn post only as a pointer, not relied upon.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2026-01-27",
+    "notable_investors": [
+      "Seedcamp",
+      "Venrex",
+      "FJ Labs"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Pairtu",
@@ -17372,7 +17907,49 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000,
+        "currency": "USD",
+        "date": "2022-09-27",
+        "investors": [
+          "Giant Ventures (lead)",
+          "Seedcamp",
+          "20VC",
+          "FJ Labs",
+          "Flexport",
+          "Cocoa",
+          "angels (Branson family fund, Mike Hudack, Steve O'Hear, Azeem Azhar, Oscar Pierre, Khaled Naim)"
+        ],
+        "source_url": "https://seedcamp.com/views/papaya-raises-3-5m-to-build-europes-largest-ev-ecosystem-and-decarbonise-european-fleets/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://papayadash.com/resources/papayadash-wants-to-help-electrify-last-mile-logistics-in-europe",
+      "https://seedcamp.com/views/papaya-raises-3-5m-to-build-europes-largest-ev-ecosystem-and-decarbonise-european-fleets/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified papayadash.com. UK EV fleet sourcing/management platform (Santi Ureta, Renato Serra; ex-Deliveroo). Raised $3.5M seed announced 2022-09-27 led by Giant Ventures with Seedcamp, 20VC, FJ Labs, Flexport, Cocoa and named angels (Seedcamp; TechCrunch piece republished on company site). No later priced round confirmed from allowed primary sources for this Papaya (avoid confusing with unrelated Papaya entities).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 3500000,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-27",
+    "total_raised": 3500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Giant Ventures (lead)",
+      "Seedcamp",
+      "20VC",
+      "FJ Labs",
+      "Flexport",
+      "Cocoa",
+      "angels (Branson family fund, Mike Hudack, Steve O'Hear, Azeem Azhar, Oscar Pierre, Khaled Naim)"
+    ]
   },
   {
     "company_name": "Paradromics",
@@ -20062,7 +20639,125 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4800000,
+        "currency": "USD",
+        "date": "2015-07-20",
+        "investors": [
+          "Balderton Capital (lead)",
+          "Seedcamp",
+          "Index Ventures",
+          "Point Nine",
+          "Venrex"
+        ],
+        "source_url": "https://www.balderton.com/news/investment-update-revolut-add-extra-investment-to-seed-round/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10000000,
+        "currency": "USD",
+        "date": "2016-07-11",
+        "investors": [
+          "Balderton Capital (lead)",
+          "Ribbit Capital",
+          "Index Ventures",
+          "Point Nine",
+          "Seedcamp",
+          "Venrex",
+          "Crowdcube investors"
+        ],
+        "source_url": "https://techcrunch.com/2016/07/11/revolut-grabs-10-million-for-its-mobile-foreign-exchange-service/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 66000000,
+        "currency": "USD",
+        "date": "2017-07-11",
+        "investors": [
+          "Index Ventures (lead)",
+          "Balderton Capital",
+          "Ribbit Capital"
+        ],
+        "source_url": "https://techcrunch.com/2017/07/11/revolut-raises-66-million-for-its-global-banking-alternative/"
+      },
+      {
+        "stage": "Series C",
+        "amount": 250000000,
+        "currency": "USD",
+        "date": "2018-04-26",
+        "investors": [
+          "DST Global (lead)",
+          "Index Ventures",
+          "Ribbit Capital"
+        ],
+        "source_url": "https://www.indexventures.com/perspectives/rrevolut-raises-250m-at-17b-valuation-targets-100m-users-in-the-next-5-years/"
+      },
+      {
+        "stage": "Series D",
+        "amount": 580000000,
+        "currency": "USD",
+        "date": "2020-07-24",
+        "investors": [
+          "TCV (lead)",
+          "TSG Consumer Partners (extension)"
+        ],
+        "source_url": "https://www.revolut.com/en-US/news/revolut_raises_80m_extension_from_tsg_consumer_partners_and_closes_580m_series_d_round/"
+      },
+      {
+        "stage": "Series E",
+        "amount": 800000000,
+        "currency": "USD",
+        "date": "2021-07-15",
+        "investors": [
+          "SoftBank Vision Fund 2 (lead)",
+          "Tiger Global (lead)"
+        ],
+        "source_url": "https://www.revolut.com/en-US/news/revolut_raises_800m_series_e_funding_from_softbank_vision_fund_2_and_tiger_global/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2015/07/20/revolut-raises-2-3-million-for-its-mobile-foreign-exchange-service/",
+      "https://www.revolut.com/news/revolut_raises_500_million_in_series_d_funding_as_it_sets_sight_on_profitability_and_daily_adoption_in_2020_/",
+      "https://seedcamp.com/views/seedcamp-family-grows-to-over-150-as-11-new-startups-join/",
+      "https://www.revolut.com/en-US/news/revolut_completes_fundraising_process_establishing_75_billion_valuation/",
+      "https://www.reuters.com/business/revolut-valued-75-billion-after-secondary-share-sale-2025-11-24/",
+      "https://www.balderton.com/news/investment-update-revolut-add-extra-investment-to-seed-round/",
+      "https://techcrunch.com/2016/07/11/revolut-grabs-10-million-for-its-mobile-foreign-exchange-service/",
+      "https://techcrunch.com/2017/07/11/revolut-raises-66-million-for-its-global-banking-alternative/",
+      "https://www.indexventures.com/perspectives/rrevolut-raises-250m-at-17b-valuation-targets-100m-users-in-the-next-5-years/",
+      "https://www.revolut.com/en-US/news/revolut_raises_80m_extension_from_tsg_consumer_partners_and_closes_580m_series_d_round/",
+      "https://www.revolut.com/en-US/news/revolut_raises_800m_series_e_funding_from_softbank_vision_fund_2_and_tiger_global/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Revolut (revolut.com), London-founded global fintech/'superapp' (CEO Nik Storonsky). Seedcamp invested Feb 2015; seed £1.5m ($2.3m) led by Balderton (Jul 2015), extended to $4.8m total by Feb 2016. Primary equity Series A–E sums to ~$1.71B (Series E at $33B). Later 2024 ($45B) and Nov 2025 ($75B, led by Coatue/Greenoaks/Dragoneer/Fidelity) transactions were employee/secondary share sales and excluded; Crowdcube campaigns folded into the Series A figure.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series E",
+    "last_round_amount": 800000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-15",
+    "total_raised": 1710800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Balderton Capital (lead)",
+      "Seedcamp",
+      "Index Ventures",
+      "Point Nine",
+      "Venrex",
+      "Ribbit Capital",
+      "Crowdcube investors",
+      "Index Ventures (lead)",
+      "Balderton Capital",
+      "DST Global (lead)",
+      "TCV (lead)",
+      "TSG Consumer Partners (extension)",
+      "SoftBank Vision Fund 2 (lead)",
+      "Tiger Global (lead)"
+    ]
   },
   {
     "company_name": "Reworth",
@@ -22515,7 +23210,64 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3700000,
+        "currency": "CAD",
+        "date": "2024-11",
+        "investors": [
+          "Triptyq Capital",
+          "Grishin Robotics",
+          "FJ Labs",
+          "Hartmann Capital",
+          "Fairway Capital",
+          "Earthling VC"
+        ],
+        "source_url": "https://www.hartmanncapital.com/news-insights/squido-investment"
+      }
+    ],
+    "grants": [
+      {
+        "name": "Canada Media Fund – Innovation and Experimentation Program (led CA$1.5M round)",
+        "amount": 1500000,
+        "currency": "CAD",
+        "date": "2023-11",
+        "source_url": "https://www.gamesindustry.biz/squido-studio-raises-ca15m-in-funding-round"
+      },
+      {
+        "name": "Canada Media Fund – Innovation and Experimentation Program (part of 2024 round)",
+        "amount": 1100000,
+        "currency": "CAD",
+        "date": "2024-11",
+        "source_url": "https://gamesbeat.com/squido-studio-raises-3m-for-social-xr-game-digigods/"
+      }
+    ],
+    "funding_source_urls": [
+      "https://gamesbeat.com/squido-studio-raises-3m-for-social-xr-game-digigods/",
+      "https://medium.com/@triptyq_capital/why-we-invested-squido-1205f8257b0e",
+      "https://www.hartmanncapital.com/news-insights/squido-investment",
+      "https://www.gamesindustry.biz/squido-studio-raises-ca15m-in-funding-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "CA$3.7M seed led by Triptyq Capital (Nov 2024; GamesBeat reported it as $3M). That figure includes ~$1.1M from the Canada Media Fund, so private equity was ~CA$2.6M. Separately, a CA$1.5M Nov 2023 round was led by the Canada Media Fund with in-kind/program partners. Montreal-based maker of DigiGods.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 3700000,
+    "last_round_currency": "CAD",
+    "last_round_date": "2024-11",
+    "total_raised": 3700000,
+    "total_raised_currency": "CAD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Triptyq Capital",
+      "Grishin Robotics",
+      "FJ Labs",
+      "Hartmann Capital",
+      "Fairway Capital",
+      "Earthling VC"
+    ]
   },
   {
     "company_name": "Staked ETH (sfrxETH)",
@@ -22790,7 +23542,102 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-seed",
+        "amount": null,
+        "currency": "GBP",
+        "date": "2019",
+        "investors": [
+          "Seedcamp"
+        ],
+        "source_url": "https://techcrunch.com/2020/10/20/stotles-secures-funding-for-platform-which-brings-transparency-to-government-tenders-contracts/"
+      },
+      {
+        "stage": "Seed",
+        "amount": 1400000,
+        "currency": "GBP",
+        "date": "2020-10-20",
+        "investors": [
+          "Speedinvest (lead)",
+          "7Percent Ventures",
+          "FJLabs",
+          "Matt Robinson",
+          "Carlos Gonzalez-Cadenas",
+          "Charlie Songhurst",
+          "Will Neale",
+          "Akhil Paul"
+        ],
+        "source_url": "https://techcrunch.com/2020/10/20/stotles-secures-funding-for-platform-which-brings-transparency-to-government-tenders-contracts/"
+      },
+      {
+        "stage": "Seed",
+        "amount": 6500000,
+        "currency": "USD",
+        "date": "2022-06-22",
+        "investors": [
+          "Headline (lead)",
+          "Form Ventures",
+          "GTMFund",
+          "Speedinvest",
+          "FJLabs",
+          "7Percent Ventures",
+          "Mathias Hilpert"
+        ],
+        "source_url": "https://tech.eu/2022/06/22/stotles-raises-65-million-as-it-seeks-to-help-businesses-deal-with-government/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 13000000,
+        "currency": "USD",
+        "date": "2025-05-29",
+        "investors": [
+          "Headline (co-lead)",
+          "Acton Capital (co-lead)",
+          "Form Ventures",
+          "Seedcamp"
+        ],
+        "source_url": "https://www.stotles.com/resource/blog/stotles-raises-13-million-series-a"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.stotles.com/resource/blog/seed-round-funding",
+      "https://www.uktech.news/funding/stotles-raises-5m-government-procurement-20220622/",
+      "https://www.actoncapital.com/news/stotles-raises-13-million-series-a-to-help-suppliers-succeed-in-the-new-age-of-government-efficiency",
+      "https://www.formventures.vc/thelatest/stotles-announces-10m-series-a",
+      "https://techcrunch.com/2020/10/20/stotles-secures-funding-for-platform-which-brings-transparency-to-government-tenders-contracts/",
+      "https://tech.eu/2022/06/22/stotles-raises-65-million-as-it-seeks-to-help-businesses-deal-with-government/",
+      "https://www.stotles.com/resource/blog/stotles-raises-13-million-series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "stotles.com verified; London-based public-sector (B2G) sales intelligence platform, CEO/co-founder John Witt. Seedcamp invested in 2019 (amount undisclosed); £1.4M seed (Oct 2020) led by Speedinvest; $6.5M seed (Jun 2022) led by Headline (Tech.eu: $8.3M raised in total since Aug 2019); $13M (~£10M) Series A (May 2025) co-led by Headline and Acton Capital with Form Ventures and Seedcamp. amount_raised = $8.3M (to Jun 2022) + $13M ≈ $21.3M.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-29",
+    "notable_investors": [
+      "Seedcamp",
+      "Speedinvest (lead)",
+      "7Percent Ventures",
+      "FJLabs",
+      "Matt Robinson",
+      "Carlos Gonzalez-Cadenas",
+      "Charlie Songhurst",
+      "Will Neale",
+      "Akhil Paul",
+      "Headline (lead)",
+      "Form Ventures",
+      "GTMFund",
+      "Speedinvest",
+      "Mathias Hilpert",
+      "Headline (co-lead)",
+      "Acton Capital (co-lead)"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Stowaway Cosmetics",
@@ -22875,7 +23722,99 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series G",
+        "amount": 250000000,
+        "currency": "USD",
+        "date": "2019-09",
+        "investors": [
+          "Andreessen Horowitz",
+          "Sequoia Capital"
+        ],
+        "source_url": "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/"
+      },
+      {
+        "stage": "Series G extension",
+        "amount": 600000000,
+        "currency": "USD",
+        "date": "2020-04-16",
+        "investors": [
+          "Andreessen Horowitz",
+          "General Catalyst",
+          "GV",
+          "Sequoia Capital"
+        ],
+        "source_url": "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/"
+      },
+      {
+        "stage": "Series H",
+        "amount": 600000000,
+        "currency": "USD",
+        "date": "2021-03-14",
+        "investors": [
+          "Allianz",
+          "Fidelity",
+          "Sequoia Capital",
+          "Ireland's National Treasury Management Agency (NTMA)"
+        ],
+        "source_url": "https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html"
+      },
+      {
+        "stage": "Series I",
+        "amount": 6500000000,
+        "currency": "USD",
+        "date": "2023-03-15",
+        "investors": [
+          "Andreessen Horowitz",
+          "Baillie Gifford",
+          "Founders Fund",
+          "General Catalyst",
+          "MSD Partners",
+          "Thrive Capital",
+          "GIC",
+          "Goldman Sachs Asset and Wealth Management",
+          "Temasek"
+        ],
+        "source_url": "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reuters.com/technology/fintech-stripe-valued-50-bln-after-65-bln-fundraise-2023-03-15/",
+      "https://techcrunch.com/2025/02/27/stripe-finalizes-tender-sale-at-a-91-5b-valuation-says-payment-volumes-grew-to-1-4t-in-2024/",
+      "https://www.reuters.com/technology/stripes-value-hits-95-bln-after-payment-giants-latest-fundraising-2021-03-14/",
+      "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/",
+      "https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html",
+      "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "stripe.com; dual HQ San Francisco & Dublin; private. Rounds listed: Series G $250M (Sept 2019, $35B), G extension $600M (Apr 2020, $36B; TechCrunch: ~ $1.6B raised in total to that point), Series H $600M (Mar 2021, $95B; Allianz, Fidelity, Sequoia, NTMA), Series I >$6.5B (Mar 2023, $50B; a16z, Baillie Gifford, Founders Fund, General Catalyst, MSD, Thrive, GIC, Goldman Sachs AWM, Temasek; used for employee liquidity/withholding taxes). amount_raised = ~$1.6B (through Apr 2020) + $0.6B + $6.5B = ~$8.7B, approximate. Earlier seed-Series F rounds (2011-2018) are not itemized, so the round list is not exhaustive. Later tender offers (e.g., Feb 2025 at $91.5B) were secondary sales, not equity raises.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series I",
+    "last_round_amount": 6500000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-15",
+    "total_raised": 7950000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz",
+      "Sequoia Capital",
+      "General Catalyst",
+      "GV",
+      "Allianz",
+      "Fidelity",
+      "Ireland's National Treasury Management Agency (NTMA)",
+      "Baillie Gifford",
+      "Founders Fund",
+      "MSD Partners",
+      "Thrive Capital",
+      "GIC",
+      "Goldman Sachs Asset and Wealth Management",
+      "Temasek"
+    ]
   },
   {
     "company_name": "StruxHub",
@@ -24462,7 +25401,63 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8600000,
+        "currency": "USD",
+        "date": "2022-03-10",
+        "investors": [
+          "Pear Ventures",
+          "Quiet Capital",
+          "FJLabs",
+          "Micky Malka",
+          "Lydia Jett",
+          "Comma VC"
+        ],
+        "source_url": "https://www.finsmes.com/2022/03/topsort-raises-8m-in-seed-funding.html"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000,
+        "currency": "USD",
+        "date": "2024-03-04",
+        "investors": [
+          "Upload Ventures (lead)",
+          "Quiet Capital",
+          "Pear Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/topsort-secures-20m-series-a-funding-to-lead-post-cookie-advertising-revolution-302078648.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2022/03/10/topsort-an-auction-based-advertising-startup-now-valued-at-110m-after-seed-round/",
+      "https://techcrunch.com/2024/03/04/topsort-150m-e-commerce-ads/",
+      "https://www.topsort.com/newsroom/topsort-secures-20m-series-a-funding-to-lead-post-cookie-advertising-revolution",
+      "https://www.finsmes.com/2022/03/topsort-raises-8m-in-seed-funding.html",
+      "https://www.prnewswire.com/news-releases/topsort-secures-20m-series-a-funding-to-lead-post-cookie-advertising-revolution-302078648.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified topsort.com. San Francisco retail media / auction-based ad infrastructure for retailers and marketplaces, founded 2021 by Regina Ye (CEO), Francisco Larrain and Stanford GSB professor Michael Ostrovsky. Seed announced 2022-03-10 at a $110M valuation (TechCrunch/FinSMEs report $8M; the company's 2024 release says $8.6M, which is used here). $20M Series A announced 2024-03-04 led by Upload Ventures with returning Quiet Capital and Pear Ventures, at a $150M valuation. Total equity is about $28.6M ($28M if the seed was $8M). Trackers mention a 2021 pre-seed; not counted.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-03-04",
+    "total_raised": 28600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Pear Ventures",
+      "Quiet Capital",
+      "FJLabs",
+      "Micky Malka",
+      "Lydia Jett",
+      "Comma VC",
+      "Upload Ventures (lead)"
+    ]
   },
   {
     "company_name": "Torch Dental",
@@ -27472,7 +28467,58 @@
     "everywhere_tags": [],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 48000000,
+        "currency": "USD",
+        "date": "2017-10",
+        "investors": [
+          "AME Cloud Ventures",
+          "FJ Labs",
+          "SignalFire",
+          "SGH Capital"
+        ],
+        "source_url": "https://www.cointime.ai/funding-rounds/zume-series-b"
+      },
+      {
+        "stage": "Late stage (SoftBank)",
+        "amount": 375000000,
+        "currency": "USD",
+        "date": "2018-11",
+        "investors": [
+          "SoftBank Vision Fund"
+        ],
+        "source_url": "https://techcrunch.com/2018/11/01/zume-reportedly-snags-375-million-from-softbank-for-its-robotic-food-operations/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.axios.com/2023/06/12/softbank-pizza-robot-shuts-down-zume-445-million",
+      "https://www.cnbc.com/2020/01/08/softbank-backed-zume-cuts-360-jobs-closes-pizza-delivery-business.html",
+      "https://www.bloomberg.com/news/articles/2023-06-03/fallen-pizza-startup-zume-shuts-down-after-raising-millions",
+      "https://wsj.com/articles/zume-a-food-robotics-and-logistics-startup-cooks-up-2-25-billion-valuation-in-softbank-deal-1541099560",
+      "https://www.cointime.ai/funding-rounds/zume-series-b",
+      "https://techcrunch.com/2018/11/01/zume-reportedly-snags-375-million-from-softbank-for-its-robotic-food-operations/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Formerly Zume Pizza. ~$445M total raised (Axios), including $375M from SoftBank Vision Fund (Nov 2018, ~$2.25B valuation per WSJ) and a $48M Series B led by AME Cloud Ventures (Oct 2017; the source for that round is a secondary aggregator). Closed pizza delivery and pivoted to compostable packaging in Jan 2020; shut down in Jun 2023.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Late stage (SoftBank)",
+    "last_round_amount": 375000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-11",
+    "total_raised": 423000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "AME Cloud Ventures",
+      "FJ Labs",
+      "SignalFire",
+      "SGH Capital",
+      "SoftBank Vision Fund"
+    ]
   },
   {
     "company_name": "Zyod",

@@ -351,7 +351,64 @@
     ],
     "primary_investor": "Seaya",
     "source_url": "https://seaya.vc/portfolio/",
-    "scraped_at": "2026-10-08T14:44:45.781184+00:00"
+    "scraped_at": "2026-10-08T14:44:45.781184+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4600000,
+        "currency": "USD",
+        "date": "2020-08-31",
+        "investors": [
+          "Bling Capital",
+          "SciFi VC",
+          "Caffeinated Capital"
+        ],
+        "source_url": "https://techcrunch.com/2020/08/31/capchase-raises-4-6m-to-deliver-fast-cash-to-saas-companies/"
+      },
+      {
+        "stage": "Series A (debt+equity mix)",
+        "amount": 125000000,
+        "currency": "USD",
+        "date": "2021-06",
+        "investors": [
+          "QED Investors"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/capchase-secures-125-million-in-series-a-funding-launches-just-in-time-financing-for-tech-companies-301305889.html"
+      },
+      {
+        "stage": "Series B",
+        "amount": 80000000,
+        "currency": "USD",
+        "date": "2022-03",
+        "investors": [
+          "01 Advisors"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/capchase-secures-80-million-in-series-b-funding-to-automate-financing-process-and-provide-non-dilutive-capital-to-high-growth-businesses-301499649.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2020/08/31/capchase-raises-4-6m-to-deliver-fast-cash-to-saas-companies/",
+      "https://www.prnewswire.com/news-releases/capchase-secures-125-million-in-series-a-funding-launches-just-in-time-financing-for-tech-companies-301305889.html",
+      "https://www.prnewswire.com/news-releases/capchase-secures-80-million-in-series-b-funding-to-automate-financing-process-and-provide-non-dilutive-capital-to-high-growth-businesses-301499649.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "capchase.com. amount_raised = seed + Series B equity only; $125M Series A was a debt/equity mix with undisclosed equity split (excluded). Capchase also has large debt facilities (excluded).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 80000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03",
+    "total_raised": 84600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bling Capital",
+      "SciFi VC",
+      "Caffeinated Capital",
+      "QED Investors",
+      "01 Advisors"
+    ]
   },
   {
     "company_name": "Cicerai",
@@ -1103,7 +1160,68 @@
     ],
     "primary_investor": "Seaya",
     "source_url": "https://seaya.vc/portfolio/",
-    "scraped_at": "2026-10-08T14:44:45.781184+00:00"
+    "scraped_at": "2026-10-08T14:44:45.781184+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2000000,
+        "currency": "EUR",
+        "date": "2024-01",
+        "investors": [
+          "Pear VC (lead)",
+          "K Fund",
+          "Bonsai Partners",
+          "Enzo Ventures",
+          "Wayra (Telefónica)",
+          "BStartup (Banco Sabadell)",
+          "angels"
+        ],
+        "source_url": "https://www.webcapitalriesgo.com/remuner-atrae-2-millones-en-una-inversion-liderada-por-pear-vc-participan-enzo-kfund-y-bonsai/"
+      },
+      {
+        "stage": "Seed",
+        "amount": 5500000,
+        "currency": "EUR",
+        "date": "2025-09-10",
+        "investors": [
+          "Seaya (lead)",
+          "Pear VC",
+          "existing investors"
+        ],
+        "source_url": "https://www.eu-startups.com/2025/09/barcelona-based-remuner-raises-e5-5-million-to-turn-sales-incentives-into-a-growth-lever/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.remuner.com/blog/remuner-seed-round/",
+      "https://tech.eu/2025/09/09/remuner-raises-65m-to-transform-sales-incentives-with-ai-driven-automation/",
+      "https://cincodias.elpais.com/companias/2025-09-10/seaya-lidera-una-ronda-de-55-millones-de-la-start-up-remuner-que-ha-creado-una-plataforma-de-ia-para-incentivos-comerciales.html",
+      "https://elreferente.es/inversiones/remuner-cierra-una-ronda-pre-seed-de-dos-millones-de-euros-para-transformarla-gestion-de-los-planes-de-comisiones-mediante-ia/",
+      "https://www.webcapitalriesgo.com/remuner-atrae-2-millones-en-una-inversion-liderada-por-pear-vc-participan-enzo-kfund-y-bonsai/",
+      "https://www.eu-startups.com/2025/09/barcelona-based-remuner-raises-e5-5-million-to-turn-sales-incentives-into-a-growth-lever/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain remuner.com; Barcelona, Spain-based AI sales-compensation/commission platform founded 2023 (CEO Sergio González). Pre-seed of €2M led by Pear VC (Jan 2024; K Fund, Bonsai Partners, Enzo Ventures, Wayra, BStartup and angels). €5.5M (~$6.5M) seed led by Seaya with significant Pear VC participation (Sept 2025, EU-Startups/Tech.eu/company blog); Beatriz González (Seaya) and Pepe Agell (Pear) joined the board. Total about €7.5M.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 5500000,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-09-10",
+    "total_raised": 7500000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Pear VC (lead)",
+      "K Fund",
+      "Bonsai Partners",
+      "Enzo Ventures",
+      "Wayra (Telefónica)",
+      "BStartup (Banco Sabadell)",
+      "angels",
+      "Seaya (lead)",
+      "Pear VC",
+      "existing investors"
+    ]
   },
   {
     "company_name": "Resilence",

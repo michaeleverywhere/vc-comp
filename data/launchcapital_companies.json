@@ -109,7 +109,71 @@
     ],
     "primary_investor": "Launch Capital",
     "source_url": "https://www.launchcapital.com/companies",
-    "scraped_at": "2026-10-17T20:05:50.865915+00:00"
+    "scraped_at": "2026-10-17T20:05:50.865915+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 7435616,
+        "currency": "USD",
+        "date": "2021-10-13",
+        "investors": [
+          "24 investors (not named in Form D)"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-21-000003.txt"
+      },
+      {
+        "stage": "Series B",
+        "amount": 33000000,
+        "currency": "USD",
+        "date": "2023-08-08",
+        "investors": [
+          "SP Catamount (lead)",
+          "JH Capital",
+          "The Fund at Hula",
+          "FreshTracks Capital",
+          "Existing investors"
+        ],
+        "source_url": "https://payloadspace.com/benchmark-clinches-33m-launches-autopilot-for-satellites/"
+      },
+      {
+        "stage": "Undisclosed (2025 round)",
+        "amount": 2402041,
+        "currency": "USD",
+        "date": "2025-06-09",
+        "investors": [
+          "15 investors (not named in Form D)"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-25-000003.txt"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.benchmarkspacesystems.com/news/post/press-release-benchmark-space-systems-triples-propulsion-system-production-capacity-doubles-personnel-to-meet-thruster-and-in-space-mobility-demand",
+      "https://www.benchmarkspacesystems.com/news/press-release-leadership-transition-2025",
+      "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-26-000002.txt",
+      "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-21-000003.txt",
+      "https://payloadspace.com/benchmark-clinches-33m-launches-autopilot-for-satellites/",
+      "https://www.sec.gov/Archives/edgar/data/1733607/0001733607-25-000003.txt"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain benchmarkspacesystems.com (Burlington, VT; green/HTP and electric in-space propulsion). Series A (company called it 'major Series A funding' in April 2022) = Oct 2021 Form D: $8,277,141 offering, $7,435,616 sold, including conversion of outstanding indebtedness; $33M Series B (Aug 2023) led by SP Catamount with JH Capital, The Fund at Hula, FreshTracks; June 2025 round (company said it closed a new round alongside CEO transition) - Form D shows $2,402,041 sold, stage unnamed. Total $42.84M = sum of SEC/press-sourced amounts. A May 2026 Form D shows a $10M offering with $0 sold at filing (not counted). Has AFRL contracts (contracts, not grants; not itemized).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Undisclosed (2025 round)",
+    "last_round_amount": 2402041,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-09",
+    "total_raised": 42837657,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "24 investors (not named in Form D)",
+      "SP Catamount (lead)",
+      "JH Capital",
+      "The Fund at Hula",
+      "FreshTracks Capital",
+      "Existing investors",
+      "15 investors (not named in Form D)"
+    ]
   },
   {
     "company_name": "BentoBox",

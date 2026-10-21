@@ -264,7 +264,62 @@
     ],
     "primary_investor": "Oak Investment Partners",
     "source_url": "https://www.oakvc.com/investments/",
-    "scraped_at": "2026-10-16T22:40:49.889250+00:00"
+    "scraped_at": "2026-10-16T22:40:49.889250+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed (private stock sale, as X-IO Technologies)",
+        "amount": null,
+        "currency": "USD",
+        "date": "2017-01-12",
+        "investors": [
+          "PV Ventures",
+          "Front Range Investments",
+          "Undisclosed large local investor",
+          "Nine smaller investors"
+        ],
+        "source_url": "https://gazette.com/2017/01/12/x-io-technologies-raises-10-million-to-expand-into-edge-computing-f186767a-36da-5724-aec2-cf26f32d5ba8/"
+      }
+    ],
+    "grants": [
+      {
+        "name": "USAF SBIR Phase I (2019 Pitch Day, C3I&N)",
+        "amount": null,
+        "currency": "USD",
+        "date": "2019",
+        "source_url": "https://news.axellio.com/axellio-receives-federal-contract-in-minutes-at-usaf-inaugural-pitch-day"
+      },
+      {
+        "name": "USAF SBIR Phase II (FA872620C0006)",
+        "amount": null,
+        "currency": "USD",
+        "date": "2020-06-29",
+        "source_url": "https://projects.propublica.org/coronavirus-contracts/contracts/FA872620C0006"
+      }
+    ],
+    "funding_source_urls": [
+      "https://www.axellio.com",
+      "https://news.axellio.com/press-release-x-io-technologies-is-now-axellio-inc",
+      "https://www.techtarget.com/it-infrastructure/news/252450739/Violin-buys-ISE-X-IO-splits-off-Axellio",
+      "https://www.oakvc.com/investments/xio/",
+      "https://gazette.com/2017/01/12/x-io-technologies-raises-10-million-to-expand-into-edge-computing-f186767a-36da-5724-aec2-cf26f32d5ba8/",
+      "https://news.axellio.com/axellio-receives-federal-contract-in-minutes-at-usaf-inaugural-pitch-day",
+      "https://projects.propublica.org/coronavirus-contracts/contracts/FA872620C0006"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Verified domain axellio.com (Colorado Springs, CO; network packet capture/analytics for defense/IC). Axellio Inc. is the renamed X-IO Technologies (formerly Xiotech) after selling its ISE storage business to Violin Systems in Oct 2018. Long history: Xiotech acquired by Seagate (2000), Oak Investment Partners took ~80% in 2002; Gazette reports Seagate, Oak and others invested nearly $300M over time. In Jan 2017 X-IO sold nearly $10M of stock to PV Ventures, Front Range Investments (Oak-affiliated) and others to pay off debt (round type not stated; amount left null since only 'nearly $10M'). Oak and FirstMile Ventures listed as investors by trackers. No named seed/Series round for Axellio itself, hence unclear-round-type. USAF SBIR Phase I (2019, ~ $153K per trackers) and Phase II (2020; ~$750K per trackers, ProPublica shows potential value ~$2.68M) - amounts left null due to conflicting figures.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Undisclosed (private stock sale, as X-IO Technologies)",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2017-01-12",
+    "notable_investors": [
+      "PV Ventures",
+      "Front Range Investments",
+      "Undisclosed large local investor",
+      "Nine smaller investors"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Baja Fresh",
@@ -642,7 +697,33 @@
     ],
     "primary_investor": "Oak Investment Partners",
     "source_url": "https://www.oakvc.com/investments/",
-    "scraped_at": "2026-10-16T22:40:49.889250+00:00"
+    "scraped_at": "2026-10-16T22:40:49.889250+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 400000000,
+        "currency": "USD",
+        "date": "2022-04-12",
+        "investors": [],
+        "source_url": "https://www.circle.com/pressroom/circle-announces-400m-funding-round"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.circle.com/pressroom/circle-announces-400m-funding-round",
+      "https://www.sec.gov/Archives/edgar/data/1876042/000110465922110332/tm2124445-18_s4a.htm",
+      "https://investor.circle.com/news/news-details/2022/Circle-Announces-Acquisition-of-Elements-to-Accelerate-Crypto-Payments/default.aspx"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "circle.com; IPO June 2025 (NYSE: CRCL, excluded from total). ~$1.11B private equity raised pre-IPO (approx, per SEC S-4/secondary). IDENTITY: description 'Accelerating crypto payments' + 'Exit: Elements' suggests the Defy portfolio company is Elements (payments orchestration), acquired by Circle Sep 2022 (terms undisclosed); Elements' own funding not researched.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series F",
+    "last_round_amount": 400000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-12",
+    "total_raised": 400000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clarient, Inc.",

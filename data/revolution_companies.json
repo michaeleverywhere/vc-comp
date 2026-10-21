@@ -2821,7 +2821,60 @@
     ],
     "primary_investor": "Revolution",
     "source_url": "https://www.revolution.com/portfolio",
-    "scraped_at": "2026-10-11T13:24:01.910761+00:00"
+    "scraped_at": "2026-10-11T13:24:01.910761+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed (institutional investment; total funding >$3M)",
+        "amount": null,
+        "currency": "USD",
+        "date": "2020-07-07",
+        "investors": [
+          "Revolution's Rise of the Rest Seed Fund",
+          "IT-Farm"
+        ],
+        "source_url": "https://www.memcpu.com/press-releases/memcomputing-secures-new-funding"
+      },
+      {
+        "stage": "Convertible / debt offering (SEC Form D, Rule 506(b))",
+        "amount": 4445000,
+        "currency": "USD",
+        "date": "2025-11-20",
+        "investors": [
+          "17 undisclosed investors"
+        ],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2100474/000210047426000001/0002100474-26-000001.txt"
+      }
+    ],
+    "grants": [
+      {
+        "name": "DARPA grant to co-founder Max Di Ventra for memcomputing AI research (18 months)",
+        "amount": 500000,
+        "currency": "USD",
+        "date": "2019-10-24",
+        "source_url": "https://www.memcpu.com/press-releases/darpa-grant"
+      }
+    ],
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/memcomputing-secures-investments-from-revolutions-rise-of-the-rest-seed-fund-and-it-farm-301088522.html",
+      "https://www.formds.com/issuers/memcomputing-inc",
+      "https://www.memcpu.com/press-releases/memcomputing-secures-new-funding",
+      "https://www.sec.gov/Archives/edgar/data/2100474/000210047426000001/0002100474-26-000001.txt",
+      "https://www.memcpu.com/press-releases/darpa-grant"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "MemComputing, Inc. (memcpu.com, matches input; San Diego, CA; CEO John A. Beane, co-founders Fabio Traversa and Massimiliano Di Ventra; formerly LoGate Computing, Inc. per its Form D). Makes the MemCPU XPC SaaS for optimization. July 2020: Revolution's Rise of the Rest Seed Fund joined IT-Farm as an institutional investor, bringing total funding to 'over $3 million' (no round type or exact amount). Jan 2026 SEC Form D: $4,445,000 sold of a $5M offering to 17 investors, first sale 20 Nov 2025. The securities checked are debt / option-to-acquire / security-to-be-acquired, i.e. likely a convertible note, not a priced Series A (one tracker calls it Series A; not adopted). It is excluded from the equity total, which is left blank because only 'over $3M' is public. Oct 2019: $500K DARPA grant. Houston Angel Network is listed as an investor by trackers only.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Undisclosed (institutional investment; total funding >$3M)",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2020-07-07",
+    "notable_investors": [
+      "Revolution's Rise of the Rest Seed Fund",
+      "IT-Farm",
+      "17 undisclosed investors"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Mend",

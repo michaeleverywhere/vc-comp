@@ -88,7 +88,23 @@
     ],
     "primary_investor": "Script Capital",
     "source_url": "https://script.capital/",
-    "scraped_at": "2026-10-16T23:04:40.538527+00:00"
+    "scraped_at": "2026-10-16T23:04:40.538527+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.southparkcommons.com/companies/awaken/",
+      "https://awaken.tax/",
+      "https://messari.io/project/awaken-tax/fundraising"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Awaken (awaken.tax, linked from its SPC page), San Francisco; automated crypto tax software. Founder Andrew Duca (ex-Snackpass). SPC lists Script Capital as another investor. Only trackers report funding: about $400K in early 2022 (Dealroom/aVenture call it pre-seed, Messari labels it an 'accelerator' round dated Jan 18, 2022), consistent with SPC's Founder Fellowship check plus Script Capital. One tracker also lists an undisclosed Jan 2023 'seed' with no amount or investors; not confirmed by any press release or reputable news, so no priced seed is counted. Amount left blank because it is tracker-only.",
+    "funding_checked": "2026-10-20",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Balsa",
@@ -142,7 +158,51 @@
     ],
     "primary_investor": "Script Capital",
     "source_url": "https://script.capital/",
-    "scraped_at": "2026-10-16T23:04:40.538527+00:00"
+    "scraped_at": "2026-10-16T23:04:40.538527+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000,
+        "currency": "USD",
+        "date": "2025-10-30",
+        "investors": [
+          "General Catalyst (lead)"
+        ],
+        "source_url": "https://techcrunch.com/2025/10/30/bevel-raises-10m-series-a-from-general-catalyst-for-its-ai-health-companion/"
+      },
+      {
+        "stage": "Seed",
+        "amount": 4000000,
+        "currency": "USD",
+        "date": "2025",
+        "investors": [
+          "General Catalyst",
+          "South Park Commons"
+        ],
+        "source_url": "https://techcrunch.com/2025/10/30/bevel-raises-10m-series-a-from-general-catalyst-for-its-ai-health-companion/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bevel.health/blog/series-a",
+      "https://www.generalcatalyst.com/companies/bevel",
+      "https://techcrunch.com/2025/10/30/bevel-raises-10m-series-a-from-general-catalyst-for-its-ai-health-companion/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Bevel (bevel.health), New York; software-only AI health companion (wearable, CGM and lifestyle data), founded late 2023 by Grey Nguyen (CEO) and Ben Yang (CTO), with SPC partner Aditya Agarwal as co-founder and board member. TechCrunch reports a $4M seed from SPC and General Catalyst earlier in 2025 (exact date not given) and a $10M Series A led by General Catalyst (Oct 2025). Total $14M.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 4000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025",
+    "total_raised": 14000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "General Catalyst (lead)",
+      "General Catalyst",
+      "South Park Commons"
+    ]
   },
   {
     "company_name": "Breaker",
@@ -548,7 +608,64 @@
     ],
     "primary_investor": "Script Capital",
     "source_url": "https://script.capital/",
-    "scraped_at": "2026-10-16T23:04:40.538527+00:00"
+    "scraped_at": "2026-10-16T23:04:40.538527+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000,
+        "currency": "USD",
+        "date": "2024-05",
+        "investors": [
+          "Accel (lead)",
+          "Script Capital",
+          "South Park Commons",
+          "Lorimer Ventures",
+          "Fellows Fund"
+        ],
+        "source_url": "https://www.accel.com/news/our-series-a-in-gamma"
+      },
+      {
+        "stage": "Series B",
+        "amount": 68000000,
+        "currency": "USD",
+        "date": "2025-11-10",
+        "investors": [
+          "Andreessen Horowitz (lead)",
+          "Accel",
+          "Uncork Capital"
+        ],
+        "source_url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cooley.com/news/coverage/2025/2025-11-10-gamma-secures-$68-million-series-b",
+      "https://siliconangle.com/2025/11/10/ai-powered-visual-presentation-platform-gamma-raises-68m-2-1b-valuation/",
+      "https://www.nytimes.com/2025/11/10/business/dealbook/gamma-ai-fundraise.html",
+      "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
+      "https://www.accel.com/news/our-series-a-in-gamma",
+      "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain gamma.app (Gamma Tech, San Francisco; founded late 2020 by Grant Lee, Jon Noronha, James Fox). AI presentations/websites tool. Seed (Accel and others incl. South Park Commons, Uncork, Hustle Fund; ~2021, amount not itemized), Series A $12M (May 2024, Accel), Series B $68M (Nov 2025, a16z, $2.1B valuation). TechCrunch: total fundraising about $90M, and the $68M Series B included a ~$20M secondary for early employees, so primary equity is roughly $70M; amount_raised left blank because no exact primary-only total is published. Gamma says it is profitable; no 2026 round found.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 68000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-10",
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Accel (lead)",
+      "Script Capital",
+      "South Park Commons",
+      "Lorimer Ventures",
+      "Fellows Fund",
+      "Andreessen Horowitz (lead)",
+      "Accel",
+      "Uncork Capital"
+    ]
   },
   {
     "company_name": "General Instinct",
@@ -899,7 +1016,37 @@
     "everywhere_tags": [],
     "primary_investor": "Script Capital",
     "source_url": "https://script.capital/",
-    "scraped_at": "2026-10-16T23:04:40.538527+00:00"
+    "scraped_at": "2026-10-16T23:04:40.538527+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": "USD",
+        "date": "2026-01-27",
+        "investors": [
+          "Pangaea Ventures (lead)"
+        ],
+        "source_url": "https://nautilusdt.com/press-release/nautilus-data-technologies-secures-strategic-series-b-funding-to-expand-facility-scale-liquid-cooling-platform-globally/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.datacenterdynamics.com/en/news/nautilus-data-technologies-secures-new-funding/",
+      "https://www.pangaeaventures.com/blog/pangaea-ventures-adds-to-portfolio-leading-nautilus-series-b",
+      "https://nautilusdt.com/press-release/nautilus-data-technologies-secures-strategic-series-b-funding-to-expand-facility-scale-liquid-cooling-platform-globally/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Identified as Nautilus Data Technologies (nautilusdt.com), San Ramon, CA; facility-scale liquid cooling (EcoCore) for AI/HPC data centers - matches description (not Nautilus Biotechnology or Nautilus fitness). Series B closed Jan 2026 led by Pangaea Ventures; DCD reports the amount was not disclosed (a $21M figure appears only in search summaries/trackers, unverified). Series A and earlier rounds not sourced from allowed sources. Amount left empty.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2026-01-27",
+    "notable_investors": [
+      "Pangaea Ventures (lead)"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Navier",
@@ -1465,7 +1612,40 @@
     ],
     "primary_investor": "Script Capital",
     "source_url": "https://script.capital/",
-    "scraped_at": "2026-10-16T23:04:40.538527+00:00"
+    "scraped_at": "2026-10-16T23:04:40.538527+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2500000,
+        "currency": "USD",
+        "date": "2019-01",
+        "investors": [
+          "Multicoin Capital (lead)"
+        ],
+        "source_url": "https://thegraph.com/blog/funding-announcement/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thegraph.com/blog/graph-raise/",
+      "https://www.coindesk.com/business/2022/01/21/google-for-blockchains-the-graph-raises-50m-led-by-tiger-global",
+      "https://www.bloomberg.com/news/articles/2022-01-21/graph-foundation-raises-50-million-in-round-led-by-tiger-global",
+      "https://thegraph.com/blog/announcing-the-graphs-grt-sale/",
+      "https://thegraph.com/blog/funding-announcement/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain thegraph.com (The Graph / Graph Protocol, San Francisco; founded 2018 by Yaniv Tal, Brandon Ramirez, Jannis Pohlmann; core developer later became Edge & Node). Blockchain indexing/query protocol (GRT token). Company-reported $2.5M seed round led by Multicoin Capital in Jan 2019 (counted as equity; terms not detailed, so 'priced' is per the company's 'seed round' label). Excluded from equity total as token sales: $5M SAFT (Jun 2020; Framework, ParaFi, Coinbase Ventures, DCG, CoinIX, Tally, Multicoin, DTC), the Oct 2020 public GRT sale, and The Graph Foundation's $50M strategic GRT sale led by Tiger Global (Jan 2022). Company said total funding was $7.5M as of Jun 2020 (seed + SAFT). SPC 'Unicorn' label reflects token market cap, not a priced equity round.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 2500000,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-01",
+    "total_raised": 2500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Multicoin Capital (lead)"
+    ]
   },
   {
     "company_name": "The Network",

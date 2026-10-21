@@ -583,7 +583,79 @@
     ],
     "primary_investor": "Canary",
     "source_url": "https://canary.com.br/portfolio/",
-    "scraped_at": "2026-10-19T19:48:35.361309+00:00"
+    "scraped_at": "2026-10-19T19:48:35.361309+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000,
+        "currency": "USD",
+        "date": "2018-01",
+        "investors": [
+          "Canary",
+          "Pear Ventures"
+        ],
+        "source_url": "https://exame.com/pme/startup-cresce-te-ajudando-a-lidar-com-a-burocracia-de-comprar-um-imovel/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 6000000,
+        "currency": "USD",
+        "date": "2018-12",
+        "investors": [
+          "Maya Capital",
+          "Monashees",
+          "ONEVC",
+          "Canary",
+          "Pear Ventures"
+        ],
+        "source_url": "https://exame.com/pme/startup-cresce-te-ajudando-a-lidar-com-a-burocracia-de-comprar-um-imovel/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 110000000,
+        "currency": "BRL",
+        "date": "2021-07-21",
+        "investors": [
+          "Globo Ventures (lead)",
+          "Igah",
+          "Flybridge",
+          "Monashees",
+          "Maya Capital",
+          "Pear",
+          "NBV",
+          "ONEVC"
+        ],
+        "source_url": "https://pipelinevalor.globo.com/startups/noticia/emcasa-levanta-r-110-milhoes-em-rodada-liderada-pela-globo-ventures.ghtml"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://exame.com/pme/startup-cresce-te-ajudando-a-lidar-com-a-burocracia-de-comprar-um-imovel/",
+      "https://pipelinevalor.globo.com/startups/noticia/emcasa-levanta-r-110-milhoes-em-rodada-liderada-pela-globo-ventures.ghtml",
+      "https://www.infomoney.com.br/negocios/emcasa-site-de-imoveis-que-aposta-em-corretores-com-salario-fixo-recebe-r-110-milhoes/",
+      "https://www.emcasa.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "emcasa.com, Brazil (Rio/SP). Exame (Oct 2019): $1M seed (early 2018, Canary+Pear) and $6M Series A (late 2018, Maya/Monashees/ONEVC). Pipeline Valor/InfoMoney: Series B R$110M (Jul 21, 2021, Globo Ventures lead). amount_raised ~$28M uses ~$21M USD equivalent for R$110M at contemporaneous FX plus $7M earlier USD rounds. Note: InfoMoney later cited Series A as $10M—using contemporaneous Exame $6M. Online home marketplace Brazil.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 110000000,
+    "last_round_currency": "BRL",
+    "last_round_date": "2021-07-21",
+    "notable_investors": [
+      "Canary",
+      "Pear Ventures",
+      "Maya Capital",
+      "Monashees",
+      "ONEVC",
+      "Globo Ventures (lead)",
+      "Igah",
+      "Flybridge",
+      "Pear",
+      "NBV"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Estoca",
@@ -1558,7 +1630,53 @@
     ],
     "primary_investor": "Canary",
     "source_url": "https://canary.com.br/portfolio/",
-    "scraped_at": "2026-10-19T19:48:35.361309+00:00"
+    "scraped_at": "2026-10-19T19:48:35.361309+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3600000,
+        "currency": "USD",
+        "date": "2021-07",
+        "investors": [
+          "Valor Capital Group (lead)",
+          "Pear VC",
+          "Canary",
+          "Norte Ventures",
+          "Magma Partners",
+          "Sequoia Scouts",
+          "Ariel Lambrecht (angel)",
+          "Mada Seghete (angel)"
+        ],
+        "source_url": "https://www.lavca.org/valor-capital-group-leads-usd3-6m-round-for-corporate-benefits-platform-quansa/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://latamlist.com/quansa-raises-3-6m-for-employee-financial-health/",
+      "https://exame.com/insight/startup-quansa-aporte-3-milhoes/p",
+      "https://www.infomoney.com.br/negocios/startup-que-antecipa-salarios-gratuitamente-chega-ao-brasil-com-apoio-de-ariel-lambrecht-ate-sequoia/",
+      "https://www.lavca.org/valor-capital-group-leads-usd3-6m-round-for-corporate-benefits-platform-quansa/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Domain quansa.io not fetched directly, but company name, description and Pear accelerator link match. Quansa is a Chile/Brazil employer-sponsored financial-wellness and earned-wage-access fintech founded 2020 by Mafalda Barros and Gonzalo Blanco (Stanford Startup Garage, Pear accelerator). $3.6M seed led by Valor Capital Group with Pear VC, Canary, Norte, Magma, Sequoia Scouts and angels (press release via LAVCA, Jul 2021; LatamList, Exame). No later rounds found.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 3600000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07",
+    "total_raised": 3600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Valor Capital Group (lead)",
+      "Pear VC",
+      "Canary",
+      "Norte Ventures",
+      "Magma Partners",
+      "Sequoia Scouts",
+      "Ariel Lambrecht (angel)",
+      "Mada Seghete (angel)"
+    ]
   },
   {
     "company_name": "Quantum",

@@ -3546,7 +3546,57 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/doordash",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series H",
+        "amount": 400000000,
+        "currency": "USD",
+        "date": "2020-06",
+        "investors": [
+          "SoftBank Vision Fund",
+          "Kleiner Perkins"
+        ],
+        "source_url": "https://techcrunch.com/2020/06/18/after-ipo-delays-doordash-confirms-400m-raise/"
+      },
+      {
+        "stage": "Pre-IPO equity total (seed through Series H)",
+        "amount": 2485000000,
+        "currency": "USD",
+        "date": "2020-11-13",
+        "investors": [
+          "SoftBank Vision Fund",
+          "Sequoia",
+          "GIC / Greenview",
+          "Khosla",
+          "Kleiner Perkins"
+        ],
+        "source_url": "https://techcrunch.com/2020/11/13/the-vc-and-founder-winners-of-doordashs-ipo/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2020/11/13/the-vc-and-founder-winners-of-doordashs-ipo/",
+      "https://techcrunch.com/2020/06/18/after-ipo-delays-doordash-confirms-400m-raise/",
+      "https://www.doordash.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "doordash.com. Public company (IPO Dec 2020). TechCrunch citing S-1: combined $2.485B equity across seed + Series A–H; last pre-IPO Series H $400M (Jun 2020). Pear was an early investor. Equity only—IPO proceeds not counted.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series H",
+    "last_round_amount": 400000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06",
+    "total_raised": 400000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "SoftBank Vision Fund",
+      "Kleiner Perkins",
+      "Sequoia",
+      "GIC / Greenview",
+      "Khosla"
+    ]
   },
   {
     "company_name": "Doppler",
@@ -3737,7 +3787,94 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/dust",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5500000,
+        "currency": "USD",
+        "date": "2023-06-27",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "XYZ",
+          "GG1",
+          "AI Grant",
+          "Connect Ventures",
+          "Motier VC",
+          "Remote First",
+          "Tiny Supercomputer",
+          "Seedcamp"
+        ],
+        "source_url": "https://dust.tt/blog/announcing-our-seed-round"
+      },
+      {
+        "stage": "Additional funding (Sequoia-led; not named Series A in company blog)",
+        "amount": 16000000,
+        "currency": "USD",
+        "date": "2024-06-27",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "XYZ",
+          "GG1",
+          "Connect Ventures",
+          "Seedcamp",
+          "Motier Ventures"
+        ],
+        "source_url": "https://dust.tt/blog/dust-seriesa-sequoia-leading-ai-platform"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000,
+        "currency": "USD",
+        "date": "2026-05-21",
+        "investors": [
+          "Abstract (co-lead)",
+          "Sequoia (co-lead)",
+          "Snowflake Ventures",
+          "Datadog",
+          "Wing",
+          "Aglaé",
+          "XYZ",
+          "Seedcamp"
+        ],
+        "source_url": "https://seedcamp.com/views/dust-raises-40m-series-b-to-build-enterprise-ais-multiplayer-future/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2023/06/27/dust-use-large-language-models-on-internal-data-to-improve-team-productivity/",
+      "https://dust.tt/blog/announcing-our-seed-round",
+      "https://dust.tt/blog/dust-seriesa-sequoia-leading-ai-platform",
+      "https://seedcamp.com/views/dust-raises-40m-series-b-to-build-enterprise-ais-multiplayer-future/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified dust.tt (Paris). Enterprise AI agents platform founded Feb 2023 by Gabriel Hubert and Stanislas Polu (ex-TOTEMS/Stripe; Polu ex-OpenAI). Raised €5M (~$5.5M per TechCrunch) seed 2023-06-27 led by Sequoia with XYZ, GG1, AI Grant, Connect, Motier, Remote First, Tiny Supercomputer, Seedcamp and angels; $16M additional funding 2024-06-27 led by Sequoia (company blog does not label Series A); $40M Series B announced 2026-05-21 led by Abstract and Sequoia with Snowflake Ventures, Datadog, Wing, Aglaé, XYZ and Seedcamp. Seedcamp says total funding over $60M; amount_raised sums disclosed rounds as ~$61.5M using TechCrunch $5.5M for the euro seed.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-21",
+    "total_raised": 61500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital (lead)",
+      "XYZ",
+      "GG1",
+      "AI Grant",
+      "Connect Ventures",
+      "Motier VC",
+      "Remote First",
+      "Tiny Supercomputer",
+      "Seedcamp",
+      "Motier Ventures",
+      "Abstract (co-lead)",
+      "Sequoia (co-lead)",
+      "Snowflake Ventures",
+      "Datadog",
+      "Wing",
+      "Aglaé"
+    ]
   },
   {
     "company_name": "Edra",
@@ -3879,7 +4016,78 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/elevate",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1200000,
+        "currency": "USD",
+        "date": "2011-03",
+        "investors": [
+          "Felicis Ventures",
+          "500 Startups",
+          "Mitch Kapor",
+          "Collaborative Fund",
+          "DreamIt Ventures"
+        ],
+        "source_url": "https://techcrunch.com/2012/08/02/mindsnacks-series-a/"
+      },
+      {
+        "stage": "Bridge",
+        "amount": 800000,
+        "currency": "USD",
+        "date": "2011",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2012/08/02/mindsnacks-series-a/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 6500000,
+        "currency": "USD",
+        "date": "2012-08-02",
+        "investors": [
+          "Sequoia Capital (lead)"
+        ],
+        "source_url": "https://techcrunch.com/2012/08/02/mindsnacks-series-a/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 7100000,
+        "currency": "USD",
+        "date": "2019-09-04",
+        "investors": [
+          "Keesing Media Group (lead)",
+          "Oakhouse Partners"
+        ],
+        "source_url": "https://techcrunch.com/2019/09/04/elevate-labs-launches-balance/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2012/08/02/mindsnacks-series-a/",
+      "https://techcrunch.com/2019/09/04/elevate-labs-launches-balance/",
+      "https://elevateapp.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "elevateapp.com. Formerly MindSnacks (language games) then Elevate Labs brain-training app. TechCrunch: $1.2M + $0.8M bridge then $6.5M Series A (Aug 2012, Sequoia) totaling $8.5M; $7.1M Series B (Sep 2019, Keesing lead) bringing company-stated total to $17.1M. IDENTITY: many unrelated 'Elevate' startups—match elevateapp.com brain training / Jesse Pickard, not fitness or fintech Elevates.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series B",
+    "last_round_amount": 7100000,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-09-04",
+    "total_raised": 15600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Felicis Ventures",
+      "500 Startups",
+      "Mitch Kapor",
+      "Collaborative Fund",
+      "DreamIt Ventures",
+      "Sequoia Capital (lead)",
+      "Keesing Media Group (lead)",
+      "Oakhouse Partners"
+    ]
   },
   {
     "company_name": "ElevenLabs",
@@ -4210,7 +4418,110 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/etched",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5360000,
+        "currency": "USD",
+        "date": "2023-03",
+        "investors": [
+          "Primary Venture Partners"
+        ],
+        "source_url": "https://techcrunch.com/2024/06/25/etched-is-building-an-ai-chip-that-only-runs-transformer-models/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 120000000,
+        "currency": "USD",
+        "date": "2024-06-25",
+        "investors": [
+          "Primary Venture Partners",
+          "Positive Sum",
+          "Peter Thiel"
+        ],
+        "source_url": "https://www.reuters.com/technology/artificial-intelligence/ai-startup-etched-raises-120-million-develop-specialized-chip-2024-06-25/"
+      },
+      {
+        "stage": "Unspecified",
+        "amount": 500000000,
+        "currency": "USD",
+        "date": "2026-01-13",
+        "investors": [
+          "Stripes",
+          "Peter Thiel",
+          "Positive Sum",
+          "Ribbit Capital"
+        ],
+        "source_url": "https://www.bloomberg.com/news/articles/2026-01-13/ai-chip-startup-etched-raises-500-million-to-take-on-nvidia"
+      },
+      {
+        "stage": "Series C",
+        "amount": 300000000,
+        "currency": "USD",
+        "date": "2026-07-23",
+        "investors": [
+          "Sequoia Capital",
+          "Andreessen Horowitz",
+          "Jane Street",
+          "Diffusion",
+          "SK Hynix"
+        ],
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3332366/0/en/etched-raises-300m-at-a-10-3b-valuation-to-scale-production-of-frontier-scale-inference-hardware.html"
+      },
+      {
+        "stage": "Unspecified",
+        "amount": 700000000,
+        "currency": "USD",
+        "date": "2026-08-18",
+        "investors": [
+          "Jane Street",
+          "Kleiner Perkins",
+          "Sequoia Capital",
+          "Andreessen Horowitz",
+          "Tiger Global",
+          "Bain Capital Ventures",
+          "Blackstone"
+        ],
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/18/3347095/0/en/etched-raises-700m-at-a-21b-valuation-and-completes-first-customer-delivery-to-jane-street.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "https://www.reuters.com/technology/ai-chip-startup-etched-valued-21-billion-latest-funding-round-2026-08-18/",
+      "https://techcrunch.com/2024/06/25/etched-is-building-an-ai-chip-that-only-runs-transformer-models/",
+      "https://www.reuters.com/technology/artificial-intelligence/ai-startup-etched-raises-120-million-develop-specialized-chip-2024-06-25/",
+      "https://www.bloomberg.com/news/articles/2026-01-13/ai-chip-startup-etched-raises-500-million-to-take-on-nvidia",
+      "https://www.globenewswire.com/news-release/2026/07/23/3332366/0/en/etched-raises-300m-at-a-10-3b-valuation-to-scale-production-of-frontier-scale-inference-hardware.html",
+      "https://www.globenewswire.com/news-release/2026/08/18/3347095/0/en/etched-raises-700m-at-a-21b-valuation-and-completes-first-customer-delivery-to-jane-street.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Company says it has raised $1.9B total (Aug 2026 release). That's more than the ~$1.63B sum of the listed rounds. Valuations: ~$5B (Jan 2026), $10.3B (Series C, Jul 2026), $21B (Aug 2026, $700M led by Jane Street; round letter not stated). Seed amount/lead (~$5.36M, 2023) is from secondary summaries.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Unspecified",
+    "last_round_amount": 700000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-18",
+    "total_raised": 1625360000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Primary Venture Partners",
+      "Positive Sum",
+      "Peter Thiel",
+      "Stripes",
+      "Ribbit Capital",
+      "Sequoia Capital",
+      "Andreessen Horowitz",
+      "Jane Street",
+      "Diffusion",
+      "SK Hynix",
+      "Kleiner Perkins",
+      "Tiger Global",
+      "Bain Capital Ventures",
+      "Blackstone"
+    ]
   },
   {
     "company_name": "Ethos",
@@ -5135,7 +5446,67 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/flow-engineering",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8500000,
+        "currency": "USD",
+        "date": "2022-12-06",
+        "investors": [
+          "EQT Ventures (lead)",
+          "Backed VC",
+          "David Helgason",
+          "Charlie Songhurst",
+          "Kyle Parrish",
+          "Matt Clifford"
+        ],
+        "source_url": "https://www.flowengineering.com/blog/flow-engineering-raises-8-5-m"
+      },
+      {
+        "stage": "Series A",
+        "amount": 23000000,
+        "currency": "USD",
+        "date": "2025-10-14",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "Patrick Collison",
+          "John Collison",
+          "David Helgason",
+          "Odyssey Ventures"
+        ],
+        "source_url": "https://www.flowengineering.com/blog/flow-raises-23m-from-sequoia-to-accelerate-the-future-of-hardware-development/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.flowengineering.com/blog/flow-engineering-raises-8-5-m",
+      "https://www.flowengineering.com/blog/flow-raises-23m-from-sequoia-to-accelerate-the-future-of-hardware-development/",
+      "https://fortune.com/2025/10/14/exclusive-flow-engineering-raises-23-million-series-a-led-by-sequoia-to-power-hardwares-new-era/",
+      "https://www.fenwick.com/insights/experience/fenwick-represents-flow-engineering-in-23m-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Identity verified: flowengineering.com is Flow Engineering, a requirements-management/systems-engineering platform for hardware teams (founder Pari Singh; London, HQ moved to San Francisco) — not HVAC optimization; input description is wrong. Series A date from Fortune exclusive (company blog post dated Nov 2025).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 23000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-14",
+    "total_raised": 31500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "EQT Ventures (lead)",
+      "Backed VC",
+      "David Helgason",
+      "Charlie Songhurst",
+      "Kyle Parrish",
+      "Matt Clifford",
+      "Sequoia Capital (lead)",
+      "Patrick Collison",
+      "John Collison",
+      "Odyssey Ventures"
+    ]
   },
   {
     "company_name": "Form Energy",
@@ -6079,7 +6450,61 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/guardant-health",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Late-stage (pre-IPO)",
+        "amount": 360000000,
+        "currency": "USD",
+        "date": "2017-05-11",
+        "investors": [
+          "SoftBank (lead)",
+          "Sequoia Capital",
+          "Khosla Ventures",
+          "Lightspeed Venture Partners",
+          "OrbiMed",
+          "8VC",
+          "T. Rowe Price",
+          "Temasek"
+        ],
+        "source_url": "https://techcrunch.com/2017/05/12/guardant-health-adds-360-million-to-its-war-chest/"
+      },
+      {
+        "stage": "IPO",
+        "amount": 237500000,
+        "currency": "USD",
+        "date": "2018-10-04",
+        "investors": [],
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2018/Guardant-Health-Announces-Pricing-of-Initial-Public-Offering/default.aspx"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cnbc.com/2017/05/11/guardant-raised-360-million-led-by-softbank-for-cancer-detection.html",
+      "https://www.prnewswire.com/news-releases/guardant-health-partners-with-softbank-to-accelerate-efforts-in-early-cancer-detection-300455845.html",
+      "https://www.biospace.com/investor-enthusiasm-about-liquid-biopsies-drives-guardant-health-ipo-to-1-59-billion-valuation",
+      "https://techcrunch.com/2017/05/12/guardant-health-adds-360-million-to-its-war-chest/",
+      "https://investors.guardanthealth.com/press-releases/press-releases/2018/Guardant-Health-Announces-Pricing-of-Initial-Public-Offering/default.aspx"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Guardant Health (guardanthealth.com, verified), Redwood City/Palo Alto CA liquid-biopsy cancer diagnostics company (CEO Helmy Eltoukhy), Nasdaq: GH. Raised $360M in May 2017 led by SoftBank, bringing total private funding to $550M (TechCrunch); amount_raised reflects that pre-IPO private total. IPO priced Oct 4, 2018 at $19/share, 12.5M shares (~$237.5M gross; ~$249.5M net after the overallotment per SEC filings), not included in amount_raised. Earlier individual round details (seed/Series A–D) not gathered here.",
+    "funding_checked": "2026-10-20",
+    "notable_investors": [
+      "SoftBank (lead)",
+      "Sequoia Capital",
+      "Khosla Ventures",
+      "Lightspeed Venture Partners",
+      "OrbiMed",
+      "8VC",
+      "T. Rowe Price",
+      "Temasek"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Guided Energy",
@@ -9510,7 +9935,53 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/nuvo",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 11000000,
+        "currency": "USD",
+        "date": "2022",
+        "investors": [
+          "Founders Fund (lead)",
+          "Index Ventures (lead)"
+        ],
+        "source_url": "https://techcrunch.com/2025/04/30/nuvo-a-network-for-b2b-trade-has-nabbed-34m-from-a-whos-who-list-of-investors/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 34000000,
+        "currency": "USD",
+        "date": "2025-04-30",
+        "investors": [
+          "Sequoia Capital",
+          "Spark Capital"
+        ],
+        "source_url": "https://techcrunch.com/2025/04/30/nuvo-a-network-for-b2b-trade-has-nabbed-34m-from-a-whos-who-list-of-investors/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://nuvo.com/blog/announcing-nuvo-accelerating-b2b-commerce-with-45m-raised-from-sequoia-capital-spark-capital-and-other-top-tier-firms",
+      "https://www.siliconlegal.com/sls-client-nuvo-raises-34m-series-a-round-from-sequoia-and-others/",
+      "https://techcrunch.com/2025/04/30/nuvo-a-network-for-b2b-trade-has-nabbed-34m-from-a-whos-who-list-of-investors/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain nuvo.com; San Francisco-based B2B trade network (KYB/fraud verification, trade-credit risk, customer onboarding), founded 2021 by CEO Sid Malladi and CTO Rameez Remsudeen. Company blog (Apr 29, 2025) announced $45M raised in total from Sequoia, Spark, Founders Fund, Index and others. TechCrunch: $34M Series A from Sequoia and Spark (no lead named), on top of an $11M seed led by Founders Fund and Index in early 2022 that was not announced at the time. Other backers: Foundation Capital, Human Capital, Susa Ventures, plus angels. Pear isn't named in these sources, and the input gives no Pear entry stage.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 34000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-30",
+    "total_raised": 45000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Founders Fund (lead)",
+      "Index Ventures (lead)",
+      "Sequoia Capital",
+      "Spark Capital"
+    ]
   },
   {
     "company_name": "NVIDIA",
@@ -10871,7 +11342,72 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/pilot",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000,
+        "currency": "USD",
+        "date": "2019-04-18",
+        "investors": [
+          "Index Ventures (lead)",
+          "Stripe"
+        ],
+        "source_url": "https://techcrunch.com/2019/04/18/index-ventures-stripe-back-bookkeeping-service-pilot-with-40m/"
+      },
+      {
+        "stage": "Series C",
+        "amount": 60000000,
+        "currency": "USD",
+        "date": "2021-01-26",
+        "investors": [
+          "Sequoia Capital (lead)"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20210126005333/en/Pilot-Raises-%2460M-Series-C-to-Modernize-the-Back-Office"
+      },
+      {
+        "stage": "Series C extension",
+        "amount": 40000000,
+        "currency": "USD",
+        "date": "2021-03-26",
+        "investors": [
+          "Bezos Expeditions (lead)",
+          "Whale Rock Capital (lead)",
+          "Sequoia Capital",
+          "Index Ventures"
+        ],
+        "source_url": "https://www.cnbc.com/2021/03/26/jeff-bezos-backed-start-up-pilot-hits-1point2-billion-valuation-.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pilot.com/blog/introducing-pilot-tax",
+      "https://pilot.com/blog/pilot-closes-60m-series-c-from-sequoia-what-comes-next",
+      "https://pilot.com/blog/pilot-unicorn-bezos-expeditions-whale-rock",
+      "https://techcrunch.com/2021/03/27/jeff-bezos-investment-fund-is-backing-a-startup-hoping-to-be-the-aws-for-smb-accounting/",
+      "https://techcrunch.com/2019/04/18/index-ventures-stripe-back-bookkeeping-service-pilot-with-40m/",
+      "https://www.businesswire.com/news/home/20210126005333/en/Pilot-Raises-%2460M-Series-C-to-Modernize-the-Back-Office",
+      "https://www.cnbc.com/2021/03/26/jeff-bezos-backed-start-up-pilot-hits-1point2-billion-valuation-.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "pilot.com (startup bookkeeping/tax/CFO services), HQ San Francisco. Series B $40M (Apr 2019, Index Ventures), Series C $60M (Jan 2021, Sequoia; company said total funding then $120M), Series C expanded to $100M (Mar 2021, Bezos Expeditions & Whale Rock; $1.2B valuation). Pre-Series B funding (~$20M implied) not itemized; amount_raised = company-stated $120M total after Jan 2021 Series C + $40M March 2021 extension = ~$160M.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series C extension",
+    "last_round_amount": 40000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-26",
+    "total_raised": 140000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Index Ventures (lead)",
+      "Stripe",
+      "Sequoia Capital (lead)",
+      "Bezos Expeditions (lead)",
+      "Whale Rock Capital (lead)",
+      "Sequoia Capital",
+      "Index Ventures"
+    ]
   },
   {
     "company_name": "Pixelworks",
@@ -11003,7 +11539,44 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/popsink",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000,
+        "currency": "EUR",
+        "date": "2025-10-01",
+        "investors": [
+          "IRIS (lead)",
+          "XAnge",
+          "Seedcamp",
+          "Irregular Expressions"
+        ],
+        "source_url": "https://www.xange.vc/press/popsink-seedround"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.popsink.com/blog/popsink-raises-eu3m-to-enable-real-time-replication-of-mission-critical-systems",
+      "https://www.iris.vc/articles/popsink-raises-eu3-million-to-unlock-real-time-data-across-all-time-enterprise-systems",
+      "https://www.xange.vc/press/popsink-seedround"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain popsink.com; Paris real-time CDC / enterprise data replication (Benjamin Djidi, Alexandre Colella). €3M Seed announced Oct 1, 2025 led by IRIS with XAnge, Seedcamp, Irregular Expressions (XAnge press, company blog). No earlier priced amount found in press.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-10-01",
+    "total_raised": 3000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "IRIS (lead)",
+      "XAnge",
+      "Seedcamp",
+      "Irregular Expressions"
+    ]
   },
   {
     "company_name": "Preview",
@@ -11199,7 +11772,107 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/profound",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000,
+        "currency": "USD",
+        "date": "2025-06-18",
+        "investors": [
+          "Kleiner Perkins (lead)",
+          "Khosla Ventures",
+          "NVIDIA NVentures",
+          "Saga Ventures",
+          "South Park Commons",
+          "SV Angel"
+        ],
+        "source_url": "https://www.tryprofound.com/blog/series-a"
+      },
+      {
+        "stage": "Series B",
+        "amount": 35000000,
+        "currency": "USD",
+        "date": "2025-08-12",
+        "investors": [
+          "Sequoia Capital (lead)",
+          "Kleiner Perkins",
+          "Khosla Ventures",
+          "Saga VC",
+          "South Park Commons"
+        ],
+        "source_url": "https://www.tryprofound.com/newsroom/profound-raises-35m-series-b-as-ai-search-becomes-the-next-platform-shift"
+      },
+      {
+        "stage": "Series C",
+        "amount": 96000000,
+        "currency": "USD",
+        "date": "2026-02-24",
+        "investors": [
+          "Lightspeed Venture Partners (lead)",
+          "Sequoia Capital",
+          "Kleiner Perkins",
+          "Evantic",
+          "Saga Ventures",
+          "South Park Commons"
+        ],
+        "source_url": "https://www.tryprofound.com/blog/profound-raises-96m-series-c"
+      },
+      {
+        "stage": "Series D",
+        "amount": 180000000,
+        "currency": "USD",
+        "date": "2026-09-15",
+        "investors": [
+          "Sequoia Capital (co-lead)",
+          "Kleiner Perkins (co-lead)",
+          "Lightspeed Venture Partners",
+          "Khosla Ventures",
+          "Saga Ventures",
+          "Evantic",
+          "South Park Commons"
+        ],
+        "source_url": "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fortune.com/2025/08/12/ai-search-startup-profound-raises-35-million-series-b-sequoia/",
+      "https://fortune.com/2026/02/24/exclusive-as-ai-threatens-search-profound-raises-96-million-to-help-brands-stay-visible/",
+      "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+      "https://www.wsgr.com/en/insights/wilson-sonsini-advises-profound-on-dollar180-million-series-d-at-dollar18-billion-valuation.html",
+      "https://www.tryprofound.com/blog/series-a",
+      "https://www.tryprofound.com/newsroom/profound-raises-35m-series-b-as-ai-search-becomes-the-next-platform-shift",
+      "https://www.tryprofound.com/blog/profound-raises-96m-series-c",
+      "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Verified domain tryprofound.com (input website; New York, with SF office; founded 2024 by James Cadwallader and Dylan Babbs). AI-search/answer-engine visibility and AI marketing platform. Series A $20M (Jun 2025, Kleiner Perkins), Series B $35M (Aug 2025, Sequoia; company said this brought total funding to $58.5M, implying ~$3.5M earlier seed/pre-seed not itemized), Series C $96M (Feb 2026, Lightspeed, $1B valuation), Series D $180M (Sep 15, 2026, co-led by Sequoia and Kleiner Perkins, $1.8B valuation). amount_raised = $58.5M company-stated total through Series B + $96M + $180M = $334.5M (consistent with reports of 'above $335M').",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series D",
+    "last_round_amount": 180000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-15",
+    "total_raised": 331000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kleiner Perkins (lead)",
+      "Khosla Ventures",
+      "NVIDIA NVentures",
+      "Saga Ventures",
+      "South Park Commons",
+      "SV Angel",
+      "Sequoia Capital (lead)",
+      "Kleiner Perkins",
+      "Saga VC",
+      "Lightspeed Venture Partners (lead)",
+      "Sequoia Capital",
+      "Evantic",
+      "Sequoia Capital (co-lead)",
+      "Kleiner Perkins (co-lead)",
+      "Lightspeed Venture Partners"
+    ]
   },
   {
     "company_name": "Protégé",
@@ -12569,7 +13242,39 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/safara",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed",
+        "amount": null,
+        "currency": "USD",
+        "date": "2024-12-19",
+        "investors": [
+          "Sequoia Capital",
+          "defy.vc"
+        ],
+        "source_url": "https://techcrunch.com/2024/12/19/hotel-booking-platform-safara-raises-14m-acquires-rival-skipper/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2024/12/19/hotel-booking-platform-safara-raises-14m-acquires-rival-skipper/",
+      "https://skift.com/2023/02/22/sequoia-capital-backed-safara-curates-new-gen-z-travel-booking/",
+      "https://defy.vc/company/safara/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Hotel booking app (CEO Doug Schuessler, ex-Resy). Dec 2024 undisclosed round led by Sequoia & Defy brought total raised to $14M; earlier rounds' stages not disclosed. Acquired Skipper.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Undisclosed",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2024-12-19",
+    "notable_investors": [
+      "Sequoia Capital",
+      "defy.vc"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Safe Superintelligence",
@@ -13623,7 +14328,99 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/stripe",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series G",
+        "amount": 250000000,
+        "currency": "USD",
+        "date": "2019-09",
+        "investors": [
+          "Andreessen Horowitz",
+          "Sequoia Capital"
+        ],
+        "source_url": "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/"
+      },
+      {
+        "stage": "Series G extension",
+        "amount": 600000000,
+        "currency": "USD",
+        "date": "2020-04-16",
+        "investors": [
+          "Andreessen Horowitz",
+          "General Catalyst",
+          "GV",
+          "Sequoia Capital"
+        ],
+        "source_url": "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/"
+      },
+      {
+        "stage": "Series H",
+        "amount": 600000000,
+        "currency": "USD",
+        "date": "2021-03-14",
+        "investors": [
+          "Allianz",
+          "Fidelity",
+          "Sequoia Capital",
+          "Ireland's National Treasury Management Agency (NTMA)"
+        ],
+        "source_url": "https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html"
+      },
+      {
+        "stage": "Series I",
+        "amount": 6500000000,
+        "currency": "USD",
+        "date": "2023-03-15",
+        "investors": [
+          "Andreessen Horowitz",
+          "Baillie Gifford",
+          "Founders Fund",
+          "General Catalyst",
+          "MSD Partners",
+          "Thrive Capital",
+          "GIC",
+          "Goldman Sachs Asset and Wealth Management",
+          "Temasek"
+        ],
+        "source_url": "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reuters.com/technology/fintech-stripe-valued-50-bln-after-65-bln-fundraise-2023-03-15/",
+      "https://techcrunch.com/2025/02/27/stripe-finalizes-tender-sale-at-a-91-5b-valuation-says-payment-volumes-grew-to-1-4t-in-2024/",
+      "https://www.reuters.com/technology/stripes-value-hits-95-bln-after-payment-giants-latest-fundraising-2021-03-14/",
+      "https://techcrunch.com/2020/04/16/stripe-raises-600m-at-36b-valuation-in-series-g-extension-says-it-has-2b-on-its-balance-sheet/",
+      "https://www.cnbc.com/2021/03/14/stripe-valued-at-95-billion-in-600-million-funding-round.html",
+      "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "stripe.com; dual HQ San Francisco & Dublin; private. Rounds listed: Series G $250M (Sept 2019, $35B), G extension $600M (Apr 2020, $36B; TechCrunch: ~ $1.6B raised in total to that point), Series H $600M (Mar 2021, $95B; Allianz, Fidelity, Sequoia, NTMA), Series I >$6.5B (Mar 2023, $50B; a16z, Baillie Gifford, Founders Fund, General Catalyst, MSD, Thrive, GIC, Goldman Sachs AWM, Temasek; used for employee liquidity/withholding taxes). amount_raised = ~$1.6B (through Apr 2020) + $0.6B + $6.5B = ~$8.7B, approximate. Earlier seed-Series F rounds (2011-2018) are not itemized, so the round list is not exhaustive. Later tender offers (e.g., Feb 2025 at $91.5B) were secondary sales, not equity raises.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series I",
+    "last_round_amount": 6500000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-15",
+    "total_raised": 7950000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz",
+      "Sequoia Capital",
+      "General Catalyst",
+      "GV",
+      "Allianz",
+      "Fidelity",
+      "Ireland's National Treasury Management Agency (NTMA)",
+      "Baillie Gifford",
+      "Founders Fund",
+      "MSD Partners",
+      "Thrive Capital",
+      "GIC",
+      "Goldman Sachs Asset and Wealth Management",
+      "Temasek"
+    ]
   },
   {
     "company_name": "strongDM",
@@ -14474,7 +15271,58 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/titus",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000,
+        "currency": "USD",
+        "date": "2021-08-12",
+        "investors": [
+          "Sequoia Capital",
+          "Background Capital",
+          "Defy Partners",
+          "Maple VC",
+          "Greg Waldorf"
+        ],
+        "source_url": "https://techcrunch.com/2021/08/12/sequoia-leads-13m-investment-in-aalto/"
+      },
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": "USD",
+        "date": "",
+        "investors": [
+          "defy.vc"
+        ],
+        "source_url": "https://defy.vc/company/titus/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://defy.vc/company/titus/",
+      "https://sequoiacap.com/companies/titus/",
+      "https://techcrunch.com/2021/08/12/sequoia-leads-13m-investment-in-aalto/",
+      "https://www.prweb.com/releases/aalto-s-homeowner-marketplace-launches-from-stealth-with-13m-series-a-to-grow-the-housing-market-860120180.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Real domain gotitus.com. Sequoia lists Titus as 'fka Aalto' (founder Nick Narodny); funding shown is Aalto's ($13M Series A 2021). Narodny describes Titus as a new build after Aalto shut down, so entity continuity is somewhat ambiguous. No Titus-specific round found.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-12",
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital",
+      "Background Capital",
+      "Defy Partners",
+      "Maple VC",
+      "Greg Waldorf",
+      "defy.vc"
+    ]
   },
   {
     "company_name": "Tola",
@@ -14983,7 +15831,151 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/uipath",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1600000,
+        "currency": "USD",
+        "date": "2015-07",
+        "investors": [
+          "Earlybird Digital East (lead)",
+          "Credo Ventures",
+          "Seedcamp"
+        ],
+        "source_url": "https://www.globalprivatecapital.org/research/earlybird-digital-east-uipath/"
+      },
+      {
+        "stage": "Series A",
+        "amount": 30000000,
+        "currency": "USD",
+        "date": "2017-04-27",
+        "investors": [
+          "Accel (lead)",
+          "Earlybird",
+          "Credo Ventures",
+          "Seedcamp"
+        ],
+        "source_url": "https://techcrunch.com/2017/04/27/uipath-raises-30m-to-build-software-robots-for-internal-business-tasks/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 153000000,
+        "currency": "USD",
+        "date": "2018-03-06",
+        "investors": [
+          "Accel (lead)",
+          "CapitalG",
+          "Kleiner Perkins"
+        ],
+        "source_url": "https://ir.uipath.com/news/detail/137/uipath-raises-153-million-series-b-led-by-accel-following-record-growth"
+      },
+      {
+        "stage": "Series C",
+        "amount": 225000000,
+        "currency": "USD",
+        "date": "2018-09-18",
+        "investors": [
+          "CapitalG (lead)",
+          "Sequoia (lead)",
+          "Accel"
+        ],
+        "source_url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia"
+      },
+      {
+        "stage": "Series D",
+        "amount": 568000000,
+        "currency": "USD",
+        "date": "2019-04-30",
+        "investors": [
+          "Coatue (lead)",
+          "Dragoneer",
+          "Wellington",
+          "Sands Capital",
+          "T. Rowe Price",
+          "Accel",
+          "CapitalG",
+          "Sequoia",
+          "IVP",
+          "Madrona"
+        ],
+        "source_url": "https://ir.uipath.com/news/detail/92/uipath-raises-568-million-series-d-funding-round"
+      },
+      {
+        "stage": "Series E",
+        "amount": 225000000,
+        "currency": "USD",
+        "date": "2020-07-13",
+        "investors": [
+          "Alkeon Capital (lead)"
+        ],
+        "source_url": "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round"
+      },
+      {
+        "stage": "Series F",
+        "amount": 750000000,
+        "currency": "USD",
+        "date": "2021-02-01",
+        "investors": [
+          "Alkeon Capital (lead)",
+          "Coatue (lead)",
+          "Altimeter",
+          "Dragoneer",
+          "IVP",
+          "Sequoia",
+          "Tiger Global",
+          "T. Rowe Price"
+        ],
+        "source_url": "https://ir.uipath.com/news/detail/8/uipath-closes-750-million-in-series-f-funding"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2018/03/06/uipath-confirms-153m-at-1-1b-valuation-from-accel-capitalg-and-kp-for-its-software-robots/",
+      "https://techcrunch.com/2019/04/30/uipath-rpa-series-d/",
+      "https://www.reuters.com/technology/uipath-raises-134-billion-ipo-source-2021-04-20/",
+      "https://www.businessinsider.com/uipath-seedcamp-accel-decacorn-2020-8",
+      "https://www.globalprivatecapital.org/research/earlybird-digital-east-uipath/",
+      "https://techcrunch.com/2017/04/27/uipath-raises-30m-to-build-software-robots-for-internal-business-tasks/",
+      "https://ir.uipath.com/news/detail/137/uipath-raises-153-million-series-b-led-by-accel-following-record-growth",
+      "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+      "https://ir.uipath.com/news/detail/92/uipath-raises-568-million-series-d-funding-round",
+      "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round",
+      "https://ir.uipath.com/news/detail/8/uipath-closes-750-million-in-series-f-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "UiPath (uipath.com), robotic process automation leader (Romanian-founded, now NYC HQ). Private equity rounds Seed through Series F sum to ~$1.95B (TechCrunch: ~$2B raised pre-IPO); Series F at $35B post-money. IPO'd on NYSE (PATH) April 2021 (~$1.34B offering, part secondary) — IPO excluded from total. Acquired fellow Seedcamp company Re:infer in 2022.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series F",
+    "last_round_amount": 750000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-02-01",
+    "total_raised": 1952600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Earlybird Digital East (lead)",
+      "Credo Ventures",
+      "Seedcamp",
+      "Accel (lead)",
+      "Earlybird",
+      "CapitalG",
+      "Kleiner Perkins",
+      "CapitalG (lead)",
+      "Sequoia (lead)",
+      "Accel",
+      "Coatue (lead)",
+      "Dragoneer",
+      "Wellington",
+      "Sands Capital",
+      "T. Rowe Price",
+      "Sequoia",
+      "IVP",
+      "Madrona",
+      "Alkeon Capital (lead)",
+      "Altimeter",
+      "Tiger Global"
+    ]
   },
   {
     "company_name": "Unconventional AI",
@@ -15172,7 +16164,79 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/vanta",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 50000000,
+        "currency": "USD",
+        "date": "2021-05",
+        "investors": [
+          "Sequoia Capital (lead)"
+        ],
+        "source_url": "https://www.forbes.com/sites/alexkonrad/2021/05/04/vanta-goes-from-low-profile-startup-to-500-million-valuation-with-50-million-sequoia-series-a/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 110000000,
+        "currency": "USD",
+        "date": "2022-06",
+        "investors": [
+          "Craft Ventures (lead)",
+          "Sequoia Capital",
+          "Y Combinator"
+        ],
+        "source_url": "https://www.vanta.com/resources/vanta-announces-series-b"
+      },
+      {
+        "stage": "Series C",
+        "amount": 150000000,
+        "currency": "USD",
+        "date": "2024-07",
+        "investors": [
+          "Sequoia Capital (lead)"
+        ],
+        "source_url": "https://www.vanta.com/resources/vanta-announces-series-c"
+      },
+      {
+        "stage": "Series D",
+        "amount": 150000000,
+        "currency": "USD",
+        "date": "2025-07-23",
+        "investors": [
+          "Wellington Management (lead)"
+        ],
+        "source_url": "https://www.vanta.com/resources/vanta-announces-series-d"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reuters.com/business/wellington-led-funding-boosts-vantas-valuation-by-69-year-2025-07-23/",
+      "https://www.businesswire.com/news/home/20250723901336/en/Vanta-Raises-%24150M-Series-D-to-Power-the-Future-of-AI-Driven-Trust",
+      "https://www.reuters.com/technology/sequoia-capital-backed-vanta-raises-funding-245-bln-valuation-2024-07-24/",
+      "https://www.craftventures.com/articles/vanta-why-we-invested",
+      "https://www.forbes.com/sites/alexkonrad/2021/05/04/vanta-goes-from-low-profile-startup-to-500-million-valuation-with-50-million-sequoia-series-a/",
+      "https://www.vanta.com/resources/vanta-announces-series-b",
+      "https://www.vanta.com/resources/vanta-announces-series-c",
+      "https://www.vanta.com/resources/vanta-announces-series-d"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "vanta.com verified. San Francisco security compliance / trust management platform (CEO Christina Cacioppo, founded 2018, YC). Series A $50M (Sequoia, May 2021, ~$500M valuation), Series B $110M (Craft Ventures, June 2022, $1.6B), Series C $150M (Sequoia, July 2024, $2.45B), Series D $150M (Wellington, July 23, 2025, $4.15B). Total $504M per Reuters (Reuters page paywalled; figure taken from search summary of the Reuters article); the four listed rounds sum to $460M, the remainder presumably earlier seed money not itemized here. Investor lists for B/C abbreviated.",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series D",
+    "last_round_amount": 150000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-23",
+    "total_raised": 460000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital (lead)",
+      "Craft Ventures (lead)",
+      "Sequoia Capital",
+      "Y Combinator",
+      "Wellington Management (lead)"
+    ]
   },
   {
     "company_name": "VEED",
@@ -16284,7 +17348,65 @@
     ],
     "source_url": "https://www.sequoiacap.com/companies/zipline",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
-    "primary_investor": "Sequoia Capital"
+    "primary_investor": "Sequoia Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 330000000,
+        "currency": "USD",
+        "date": "2023-04",
+        "investors": [],
+        "source_url": "https://www.freightwaves.com/news/drone-delivery-firm-zipline-raises-330m-at-4-2b-valuation"
+      },
+      {
+        "stage": "Series H",
+        "amount": 600000000,
+        "currency": "USD",
+        "date": "2026-01-21",
+        "investors": [
+          "Fidelity Management & Research",
+          "Baillie Gifford",
+          "Valor Equity Partners",
+          "Tiger Global"
+        ],
+        "source_url": "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix"
+      },
+      {
+        "stage": "Series H (extension)",
+        "amount": 200000000,
+        "currency": "USD",
+        "date": "2026-03-23",
+        "investors": [
+          "Paradigm"
+        ],
+        "source_url": "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.forbes.com/sites/alexkonrad/2023/04/28/drone-delivery-startup-zipline-boosts-valuation-to-4-billion/",
+      "https://www.bloomberg.com/news/articles/2026-09-16/drone-startup-zipline-in-talks-on-about-1-billion-raise-at-20-billion-valuation",
+      "https://www.freightwaves.com/news/drone-delivery-firm-zipline-raises-330m-at-4-2b-valuation",
+      "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix",
+      "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "~$821M raised through the $330M Series F at a $4.2B valuation (Apr 2023), then an $800M Series H ($600M+ in Jan 2026 at a $7.6B valuation, plus $200M in Mar 2026). That's at least ~$1.6B; total not stated by a primary source, and the Series G wasn't located, so amount_raised is blank. Bloomberg (Sep 2026) reported talks on ~$1B at a $20B valuation (unconfirmed).",
+    "funding_checked": "2026-10-20",
+    "last_round_type": "Series H (extension)",
+    "last_round_amount": 200000000,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-23",
+    "total_raised": 1130000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Fidelity Management & Research",
+      "Baillie Gifford",
+      "Valor Equity Partners",
+      "Tiger Global",
+      "Paradigm"
+    ]
   },
   {
     "company_name": "Zoom",
