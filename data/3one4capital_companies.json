@@ -229,7 +229,32 @@
     ],
     "primary_investor": "3one4 Capital",
     "source_url": "https://www.3one4capital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:21.664263+00:00"
+    "scraped_at": "2026-10-07T13:20:21.664263+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.agnitsemi.com/newsroom"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.agnitsemi.com/",
+      "https://www.agnitsemi.com/newsroom"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 3500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Smallest.ai",
@@ -1229,7 +1254,21 @@
     ],
     "primary_investor": "3one4 Capital",
     "source_url": "https://www.3one4capital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:21.664263+00:00"
+    "scraped_at": "2026-10-07T13:20:21.664263+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://knightfintech.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kuku",
@@ -1632,7 +1671,19 @@
     ],
     "primary_investor": "3one4 Capital",
     "source_url": "https://www.3one4capital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:21.664263+00:00"
+    "scraped_at": "2026-10-07T13:20:21.664263+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Unbox Robotics",
@@ -1670,7 +1721,65 @@
     ],
     "primary_investor": "3one4 Capital",
     "source_url": "https://www.3one4capital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:21.664263+00:00"
+    "scraped_at": "2026-10-07T13:20:21.664263+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": "2021-04-23",
+        "investors": [],
+        "source_url": "https://unboxrobotics.com/newsroom/unbox-robotics-raises-dollar12m-in-pre-series-a-round",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2021-12-22",
+        "investors": [],
+        "source_url": "https://unboxrobotics.com/newsroom/unbox-robotics-raises-dollar7-million-in-series-a-round-led-by-3one4-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2026-01-21",
+        "lead_investors": [
+          "ICICI Venture",
+          "Redstart Labs"
+        ],
+        "investors": [
+          "ICICI Venture",
+          "Redstart Labs"
+        ],
+        "source_url": "https://unboxrobotics.com/newsroom/series-b-usdollar28-million-led-by-icici-venture",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://unboxrobotics.com/",
+      "https://unboxrobotics.com/newsroom",
+      "https://unboxrobotics.com/newsroom/series-b-usdollar28-million-led-by-icici-venture",
+      "https://unboxrobotics.com/newsroom/unbox-robotics-raises-dollar7-million-in-series-a-round-led-by-3one4-capital",
+      "https://unboxrobotics.com/newsroom/unbox-robotics-raises-dollar12m-in-pre-series-a-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-21",
+    "total_raised": 36200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "ICICI Venture",
+      "Redstart Labs"
+    ]
   },
   {
     "company_name": "Wint Wealth",
@@ -2044,6 +2153,18 @@
     ],
     "primary_investor": "3one4 Capital",
     "source_url": "https://www.3one4capital.com/portfolio",
-    "scraped_at": "2026-10-07T13:20:21.664263+00:00"
+    "scraped_at": "2026-10-07T13:20:21.664263+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   }
 ]

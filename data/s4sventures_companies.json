@@ -128,6 +128,45 @@
     "everywhere_tags": [],
     "primary_investor": "S4S Ventures",
     "source_url": "https://www.s4sventures.com/",
-    "scraped_at": "2026-10-17T18:26:26.470987+00:00"
+    "scraped_at": "2026-10-17T18:26:26.470987+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2022-04-21",
+        "investors": [],
+        "source_url": "https://www.tvscientific.com/press/tvscientific-series-a-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25500000.0,
+        "currency": "USD",
+        "date": "2025-02-03",
+        "investors": [],
+        "source_url": "https://www.tvscientific.com/press/tvscientific-raises-25-5-million-to-bring-performance-marketers-to-ctv",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tvscientific.com/",
+      "https://www.tvscientific.com/insight/jason-fairchild-on-20m-series-a",
+      "https://www.tvscientific.com/insight/how-tvscientifics-25.5m-series-b-is-transforming-ctv-advertising",
+      "https://www.tvscientific.com/press/tvscientific-raises-25-5-million-to-bring-performance-marketers-to-ctv",
+      "https://www.tvscientific.com/press/tvscientific-series-a-funding",
+      "https://www.tvscientific.com/press/tvscientific-series-b-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-02-03",
+    "total_raised": 45500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

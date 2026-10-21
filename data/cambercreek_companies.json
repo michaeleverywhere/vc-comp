@@ -188,7 +188,19 @@
     "everywhere_tags": [],
     "primary_investor": "Camber Creek",
     "source_url": "https://cambercreek.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:44.415865+00:00"
+    "scraped_at": "2026-10-17T18:50:44.415865+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cents",
@@ -288,7 +300,52 @@
     ],
     "primary_investor": "Camber Creek",
     "source_url": "https://cambercreek.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:44.415865+00:00"
+    "scraped_at": "2026-10-17T18:50:44.415865+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2019-08-02",
+        "investors": [],
+        "source_url": "https://compstak.com/blog/compstak-series-b-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2021-11-11",
+        "lead_investors": [
+          "Morgan Stanley CompStak"
+        ],
+        "investors": [
+          "Morgan Stanley CompStak"
+        ],
+        "source_url": "https://compstak.com/blog/series-c-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://compstak.com/",
+      "https://compstak.com/press",
+      "https://compstak.com/blog/series-c-funding",
+      "https://compstak.com/blog/compstak-series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-11",
+    "total_raised": 62000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Morgan Stanley CompStak"
+    ]
   },
   {
     "company_name": "Curbio",
@@ -568,7 +625,62 @@
     ],
     "primary_investor": "Camber Creek",
     "source_url": "https://cambercreek.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:44.415865+00:00"
+    "scraped_at": "2026-10-17T18:50:44.415865+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10800000.0,
+        "currency": "USD",
+        "date": "2021-10-14",
+        "investors": [],
+        "source_url": "https://happy.co/press/happyco-completes-10-8m-series-a-funding-round",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://happy.co/company"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 72000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://happy.co/press/build-to-rent-property-tech-company-happyco-raises-72m"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 52000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://happy.co/press/happyco-raises-52m-in-funding-led-by-camber-creek"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://happy.co/",
+      "https://happy.co/company",
+      "https://happy.co/press/build-to-rent-property-tech-company-happyco-raises-72m",
+      "https://happy.co/press/happyco-completes-10-8m-series-a-funding-round",
+      "https://happy.co/press/happyco-completes-series-a-funding-round",
+      "https://happy.co/press/happyco-raises-52m-in-funding-led-by-camber-creek",
+      "https://happy.co/press/happyco-raises-72m-to-fund-build-to-rent-ambitions"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 10800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-14",
+    "total_raised": 134800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jones",
@@ -580,7 +692,44 @@
     ],
     "primary_investor": "Camber Creek",
     "source_url": "https://cambercreek.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:44.415865+00:00"
+    "scraped_at": "2026-10-17T18:50:44.415865+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2800000.0,
+        "currency": "USD",
+        "date": "2018-09-20",
+        "investors": [],
+        "source_url": "https://getjones.com/blog/proptech-startup-jones-raises-2-8m-seed-round/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2025-01-06",
+        "investors": [],
+        "source_url": "https://getjones.com/blog/15m-series-b-announcement-2025/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://getjones.com/",
+      "https://getjones.com/blog/category/company-news/",
+      "https://getjones.com/blog/15m-series-b-announcement-2025/",
+      "https://getjones.com/blog/proptech-startup-jones-raises-2-8m-seed-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-06",
+    "total_raised": 17800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Keyway",
@@ -935,7 +1084,32 @@
     "everywhere_tags": [],
     "primary_investor": "Camber Creek",
     "source_url": "https://cambercreek.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:44.415865+00:00"
+    "scraped_at": "2026-10-17T18:50:44.415865+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2300000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.gotrestle.com/blog/trestle-raises-2-3m-to-tackle-the-construction-industrys-biggest-challenge"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gotrestle.com/",
+      "https://www.gotrestle.com/blog/trestle-raises-2-3m-to-tackle-the-construction-industrys-biggest-challenge"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 2300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Trovy",

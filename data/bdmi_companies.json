@@ -26,7 +26,21 @@
     ],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.amillionads.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Acorns",
@@ -277,7 +291,21 @@
     "everywhere_tags": [],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://withsotto.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bitewell",
@@ -2148,7 +2176,19 @@
     ],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tollbit",
@@ -2161,7 +2201,34 @@
     ],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2024-10-22",
+        "investors": [],
+        "source_url": "https://tollbit.com/blog/series-a/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tollbit.com/",
+      "https://tollbit.com/press/",
+      "https://tollbit.com/blog/series-a/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-22",
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tracer",
@@ -2188,7 +2255,46 @@
     "everywhere_tags": [],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2022-04-21",
+        "investors": [],
+        "source_url": "https://www.tvscientific.com/press/tvscientific-series-a-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25500000.0,
+        "currency": "USD",
+        "date": "2025-02-03",
+        "investors": [],
+        "source_url": "https://www.tvscientific.com/press/tvscientific-raises-25-5-million-to-bring-performance-marketers-to-ctv",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tvscientific.com/",
+      "https://www.tvscientific.com/insight/jason-fairchild-on-20m-series-a",
+      "https://www.tvscientific.com/insight/how-tvscientifics-25.5m-series-b-is-transforming-ctv-advertising",
+      "https://www.tvscientific.com/press/tvscientific-raises-25-5-million-to-bring-performance-marketers-to-ctv",
+      "https://www.tvscientific.com/press/tvscientific-series-a-funding",
+      "https://www.tvscientific.com/press/tvscientific-series-b-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-02-03",
+    "total_raised": 45500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Unmute",
@@ -2227,7 +2333,21 @@
     "everywhere_tags": [],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.askvera.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Versed",
@@ -2240,7 +2360,21 @@
     ],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://versedskin.com/collections/all"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VHX",
@@ -2370,7 +2504,28 @@
     "everywhere_tags": [],
     "primary_investor": "BDMI",
     "source_url": "https://bdmifund.com/portfolio",
-    "scraped_at": "2026-10-16T20:17:36.875493+00:00"
+    "scraped_at": "2026-10-16T20:17:36.875493+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/wonder-announces-650-million-series-d-round-at-a-9-billion-pre-money-valuation-302827208.html",
+      "https://finance.yahoo.com/small-business/articles/wonder-raises-650-million-9-143205234.html",
+      "https://www.fastcasual.com/news/wonder-raises-650m-in-series-d-funding-at-9b-valuation/",
+      "https://about.wonder.com/news/details/2026/Wonder-Announces-650-Million-Series-D-Round-at-a-9-Billion-Pre-Money-Valuation/default.aspx",
+      "https://www.restaurantdive.com/news/wonder-valuation-9-billion-latest-650m-funding/825417/",
+      "https://www.restaurantbusinessonline.com/technology/wonder-valued-more-9b-after-latest-fundraise",
+      "https://www.nrn.com/restaurant-technology/wonder-secures-600m-funding-round-backed-by-google-ventures",
+      "https://www.restaurantbusinessonline.com/technology/wonder-raises-another-600m-accelerate-store-openings"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wondery",
