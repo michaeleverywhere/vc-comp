@@ -470,7 +470,33 @@
     ],
     "primary_investor": "pi Ventures",
     "source_url": "https://piventures.in/portfolio",
-    "scraped_at": "2026-10-21T00:21:54.377504+00:00"
+    "scraped_at": "2026-10-21T00:21:54.377504+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3399996.0,
+        "currency": "USD",
+        "date": "2022-07-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1931888/000193188823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ottonomy.io/",
+      "https://www.sec.gov/Archives/edgar/data/1931888/000193188823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3399996.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-19",
+    "total_raised": 3399996,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pixis",
@@ -546,10 +572,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.preimage.ai/"
+      "https://www.preimage.ai/",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWmo3eExzZjBKenBLWlNSWl9mOG9KUkZMMFBEVXM3SV9iRWE4RHpyTHRFdmRpclVqUkE1aU13Sy0ybTBJektrOFNXUGozNktZWjNTS1l6a3VUZXpPV0U5MkotLWdvRXFzQnVWZEZvNjU4WW51clNKZENLZVBvS3pPVVFXQkxfb0RLVGlfLXBOemFLdlJJWFZGRnhiOERIQjh0cl9feWtyUVg2VWFvMFo1Q0lLRURoeTdNUG9waTBMYlFzTzdORFJv0gHMAUFVX3lxTFBNS18yVXBnOTloMTBwZ2VlTGVONlYtOS1FMUgwTExFdWFTS1I3cUJRZDhOUG16Ny04UkphQzBSQkF3VDFDQ21jQ0tfVWFKS1JxT0tPM2xVRGRjcWlhQzAtV3R1UmZnaU9UY09fT1Q4czFtZk8yQmtxZHJCb1NYVUtTOUFWNko1MGl4LURyN3pKbnUxdXQyRFdXY1VwVGZPNkVGbTVTSk9LWGNpRkd3Y25UMUtpZGZocE56WlVYaGllcVRwZ1AzaFpkSlU5Zg?oc=5",
+      "https://inc42.com/buzz/3d-reconstruction-startup-preimage-bags-funding-to-scale-up-its-product/",
+      "https://timesofindia.indiatimes.com/business/india-business/preimage-raises-rs-14-crore-in-seed-funding/articleshow/94533527.cms?from=mdr"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

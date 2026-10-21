@@ -4592,20 +4592,42 @@
     "location": "Stockholm, Sweden",
     "primary_investor": "Point Nine Capital",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2020-03-04",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/mavenoid-raises-8m-series-apply-090004836.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2022-08-30",
+        "investors": [],
+        "source_url": "https://www.yahoo.com/tech/mavenoid-automates-technical-support-onboarding-161304517.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.mavenoid.com/"
+      "https://www.mavenoid.com/",
+      "https://finance.yahoo.com/news/mavenoid-raises-8m-series-apply-090004836.html",
+      "https://www.yahoo.com/tech/mavenoid-automates-technical-support-onboarding-161304517.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 38000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mention",
@@ -4863,7 +4885,19 @@
     "scraped_at": "2026-10-14T21:09:15+00:00",
     "location": "Berlin, Germany",
     "primary_investor": "Point Nine Capital",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "NexHealth",

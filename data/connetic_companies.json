@@ -2126,7 +2126,21 @@
     ],
     "primary_investor": "Connetic Ventures",
     "source_url": "https://www.conneticventures.com/portfolio",
-    "scraped_at": "2026-10-17T17:07:59.291101+00:00"
+    "scraped_at": "2026-10-17T17:07:59.291101+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nokrecommerce.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nuro",
@@ -2270,7 +2284,33 @@
     ],
     "primary_investor": "Connetic Ventures",
     "source_url": "https://www.conneticventures.com/portfolio",
-    "scraped_at": "2026-10-17T17:07:59.291101+00:00"
+    "scraped_at": "2026-10-17T17:07:59.291101+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3399996.0,
+        "currency": "USD",
+        "date": "2022-07-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1931888/000193188823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ottonomy.io/",
+      "https://www.sec.gov/Archives/edgar/data/1931888/000193188823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3399996.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-19",
+    "total_raised": 3399996,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Outlier",

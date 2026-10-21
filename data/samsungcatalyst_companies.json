@@ -819,7 +819,21 @@
     ],
     "primary_investor": "Samsung Catalyst Fund",
     "source_url": "https://samsungcatalyst.com/",
-    "scraped_at": "2026-10-16T20:19:42.264970+00:00"
+    "scraped_at": "2026-10-16T20:19:42.264970+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://landing.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Normal",
@@ -833,7 +847,44 @@
     ],
     "primary_investor": "Samsung Catalyst Fund",
     "source_url": "https://samsungcatalyst.com/",
-    "scraped_at": "2026-10-16T20:19:42.264970+00:00"
+    "scraped_at": "2026-10-16T20:19:42.264970+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2022-12-23",
+        "investors": [],
+        "source_url": "https://normalcomputing.com/blog/normal-computing-raises-8-5m-in-seed-funding-to-enable-ai-solutions-for-critical-enterprise-and-government-applications",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://normalcomputing.com/blog/fortune-exclusive-normal-computing-raises-50m-from-samsung-catalyst-to-tackle-soaring-ai-chip-costs-and-power-demands"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://normalcomputing.com/",
+      "https://normalcomputing.com/blog",
+      "https://normalcomputing.com/blog/fortune-exclusive-normal-computing-raises-50m-from-samsung-catalyst-to-tackle-soaring-ai-chip-costs-and-power-demands",
+      "https://normalcomputing.com/blog/normal-computing-raises-50m-led-by-samsung-catalyst-to-accelerate-silicon-design-and-solve-ai-hardware-energy-crisis",
+      "https://normalcomputing.com/blog/normal-computing-raises-8-5m-in-seed-funding-to-enable-ai-solutions-for-critical-enterprise-and-government-applications"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-23",
+    "total_raised": 58500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OXMIQ",

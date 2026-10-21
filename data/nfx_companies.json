@@ -4335,7 +4335,54 @@
     ],
     "primary_investor": "NFX",
     "source_url": "https://www.nfx.com/companies",
-    "scraped_at": "2026-10-04T13:14:55.335185+00:00"
+    "scraped_at": "2026-10-04T13:14:55.335185+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2025-08-28",
+        "lead_investors": [
+          "Creandum"
+        ],
+        "investors": [
+          "Creandum",
+          "Forgepoint Capital International"
+        ],
+        "source_url": "https://maisa.ai/blog/maisa-raises-25m-from-creandum-and-forgepoint",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Pre-Seed",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://maisa.ai/blog/maisa-raises-pre-seed-round"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://maisa.ai/",
+      "https://maisa.ai/blog",
+      "https://maisa.ai/blog/maisa-raises-25m-from-creandum-and-forgepoint",
+      "https://maisa.ai/blog/maisa-raises-25m-seed-investment",
+      "https://maisa.ai/blog/maisa-raises-pre-seed-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-08-28",
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Creandum",
+      "Forgepoint Capital International"
+    ]
   },
   {
     "company_name": "Mammoth Biosciences",
@@ -4432,9 +4479,13 @@
     "scraped_at": "2026-10-04T13:14:55.335185+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXZUd1YXlQS21UZkRSMGdYbUQ1Q3BZeFhlUVlrWmE0ZjlzZUhScXk5c1g3cGZqT2pHaW14YTVwUFY5cU54Wm1GdFZhVU5LWVhMZk1LRDFMOEk?oc=5",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMkw5bnB5enhXRHNBbTFnaEVycFhWRFl1YVYxZld2OUZJbmZfaUQxTlpieUY3eUp2V1p2UmtJdDFnNHNBbWxqVThfUks0ZFhuLTRUeGtsblpzSnNJWkRxMEhSbkhrRzBLcmN5aUc3QWpZa3lNZ1cxMXBORnNWYmUwSTExMWZLZHh1dzdkaWxaQ3hZSlZQSGpKY3ZXRWEycTBQcjRSMC00OFBGYzB3bUFMTlN6MVNnWmZoZWRHOGc3OW15R1dGTFVrNzV5OHJwdVk?oc=5",
+      "https://www.gpsworld.com/mapillary-raises-8m-series-a-to-map-world-through-photos/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4459,7 +4510,21 @@
     ],
     "primary_investor": "NFX",
     "source_url": "https://www.nfx.com/companies",
-    "scraped_at": "2026-10-04T13:14:55.335185+00:00"
+    "scraped_at": "2026-10-04T13:14:55.335185+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.marketman.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Marqeta",
@@ -4681,10 +4746,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.moonactive.com/"
+      "https://www.moonactive.com/",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zd0RUZHNkdnZjTmdtRkFiLXZORldhVEpEQVdFUXBjR2duWnQydkFyNmo2eEtSV0k0eGIwdDEwbExmclpUc0pleTRxSnFJLVQzTER1WWVtSVhGZURMZG12ZWFLM24yR1BVVFhINEZJaGpTVkRp?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4921,10 +4987,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.genesys.com/"
+      "https://www.genesys.com/",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWnFpVUhIREJRYXJhUTc0bFpLNzVSLVRncWtWdFBHaThuSEQ4S2NndVNGSjRvSUV4QXBXdHJnOTFjM01GMERNYkc3V2JTVUtlWS1SM3h4ZFVvTGpzbjBGNTVENENNN0VDdk9WRmtmcmcyTnNGMTg3RTEyWkJySjNoU2l4c3k1cVpya3BoS2lsY3gwYWRFdkN2NXJHbUVTLU80MFZrNGxiRkQ0T2lob19kYTB3dFRqal9iMlFMTDY0dTlKV0tKNFJSVw?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcUpKaVRlUzNJNUlTdEp5X0RlQmRqVmJCV0Z6TTdNSjB3aEV3c1YzUWxEVlhkOEoxT3pFc08zS2RYckQ4dzAxMXA5dXZwRWZCUkk1OEt4UzR5WWFqMldPTXp1UUU1dGg0aTB3azRva25qbnh5STdvUEFHN3F4UDZPUEtVT2xxVG5xcTZEeFptX1hTbjQtRUlVaW4zbmJxQzN2YlNGZXZVcUpEdXo0N0haU3h4Y2JlN3ho?oc=5",
+      "https://pulse2.com/genesys-580-million-funding-and-21-billion-valuation/",
+      "https://www.telecompaper.com/news/genesys-funding-round-attracts-usd-580-million--1406707"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -5177,20 +5247,33 @@
     "primary_investor": "NFX",
     "source_url": "https://www.nfx.com/companies",
     "scraped_at": "2026-10-04T13:14:55.335185+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2025-12-12",
+        "investors": [],
+        "source_url": "https://pulse2.com/on-me-6-million/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://onme.com/"
+      "https://onme.com/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSnM2dXVzQVJ3UGJoSzFnSUtKX21JN0d6c3B1OG1VS2hBdWJsalRVUzd4alhBTzBqMlI0b0ZXZmRrU3F0NjR1X3p4Mk1oYThvSVMwdllfZTF5SjZZdmVGM0tPc09TVXNqS0FWanQybDRRdjFzTDd3SDlHbnBmLWZ5Q182T2l6cjdCZTRXWWtn?oc=5",
+      "https://pulse2.com/on-me-6-million/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-12",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Onsi",
@@ -8097,10 +8180,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://kabam.com/"
+      "https://kabam.com/",
+      "https://venturebeat.com/games/kaboom-kabam-raises-85m-for-hardcore-social-gaming-business/",
+      "https://www.gamesindustry.biz/kabam-secures-extra-usd85-million-funding"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

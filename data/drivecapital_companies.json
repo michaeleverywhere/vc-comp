@@ -738,7 +738,32 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/planned-companies",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://planned.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://planned.com/",
+      "https://planned.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ENGINEEARS",
@@ -1260,7 +1285,44 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/normal-computing",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2022-12-23",
+        "investors": [],
+        "source_url": "https://normalcomputing.com/blog/normal-computing-raises-8-5m-in-seed-funding-to-enable-ai-solutions-for-critical-enterprise-and-government-applications",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://normalcomputing.com/blog/fortune-exclusive-normal-computing-raises-50m-from-samsung-catalyst-to-tackle-soaring-ai-chip-costs-and-power-demands"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://normalcomputing.com/",
+      "https://normalcomputing.com/blog",
+      "https://normalcomputing.com/blog/fortune-exclusive-normal-computing-raises-50m-from-samsung-catalyst-to-tackle-soaring-ai-chip-costs-and-power-demands",
+      "https://normalcomputing.com/blog/normal-computing-raises-50m-led-by-samsung-catalyst-to-accelerate-silicon-design-and-solve-ai-hardware-energy-crisis",
+      "https://normalcomputing.com/blog/normal-computing-raises-8-5m-in-seed-funding-to-enable-ai-solutions-for-critical-enterprise-and-government-applications"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-23",
+    "total_raised": 58500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nautical Commerce",
@@ -2356,7 +2418,22 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/olive",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.waystar.com/",
+      "https://pulse2.com/olive-400-million-funding-and-4-billion-valuation/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Battleface",
@@ -3228,20 +3305,48 @@
     "profile_url": "https://drivecapital.com/portfolio/koho",
     "source_url": "https://drivecapital.com/portfolio",
     "scraped_at": "2026-10-11T13:16:25.115655+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 42000000.0,
+        "currency": "USD",
+        "date": "2019-05-15",
+        "investors": [],
+        "source_url": "https://betakit.com/koho-raises-42-million-series-b-inside-round-led-by-portag3-ventures/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series D",
+        "amount": 86000000.0,
+        "currency": "CAD",
+        "date": "2023-12-07",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/koho-raises-additional-c-86-140000452.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.koho.ca/"
+      "https://www.koho.ca/",
+      "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWFlHdExHWUFRRDB4N2hOMEF0VWcwWWtNcXctbmF2N3RGbnd0anlrWGowSEtaRDVqWWxqSnNMYldHQlRjMzFjTVhTTTlaMFlsdVEyR2ZtdFAwelZzeXV5TnIzMVFtWHZjeEljS2xkc3pMeUpGbVlTZ2plXzBwWmgwU1hibTlaemJtRzAxQUxHTU5CZnV4YlN4ZkdPVm9XdVNQd3l4S1dPeTZLYWV1bEtfeGZyX1c0VDlsQ2J4dUxvRUtReGZUWnZYVXJzRS1OUFpyaWQ2Xzd6UFp5Q09RNmQtc1VPUXZKd0dIUjVSd1ZR?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdlIyRWtYd2taUWc5bUlrYnZkNTViWmRUYURpalZmdENwc1N3Tlh2aTU4bmhRX0V4RFFyTHRlN1pxZDQ3MnFrYkllVkVmd2hEbWhjM1JKUnd0RFZOX2FMSXFhQndTVG9LYWdHUGxIbVVoMl94U2szcnE5Y0k5OVZrcS1PSFZwNlNmTDRLNkFqZU9hRU9aTS1UYXoybFhyRTZUSGRpN19UQjRLV0EzbkNKbk5jMzZDQU560gG-AUFVX3lxTE1uUXVfLUs2OUhYc0tsREtxVmNya0daaThoenNFZmhpMlVaVDNxN0s0Ql9Ta0VQSExvc1pORk1zZjNtQTBWdms1MW5sVDlHRFFiV3N3Wk0yRktiZGEzT1duU3lDZHVSX29LMXBWdkFyTnJRa1dvM0d3MFpOVmVvb2pwSWZGME14d3hwRGRfa3ctb3FDRzItOFZUbjZMdjltSzZSdW56SlI1NHZJenFQdVYxdWFzMzVmbHRwNXk0dHc?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPZURxYTk4S192Rk1sc3hxNEMzb2tTN1BQM0EyRWZqNWdkRnFPc3pYVkQ1UE43Nk9IZmExXzdJcS1NZGpQSUFaNzdMOWJoVEQweThUOEg5ZGJkTWYtQ3ItczZwR3N2MFRKOVJ3bmVzZ0JKU3ViUGhaalNLSnZPUXJMX0VyY1hRczM3Rzh2NEFiNDh0MFZLRjdwdURIUld0Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yWkh4MmdZM2ZvMHpVenNXbnhrNmtfR2hhcWlETUtSYV9vdXR4SHlRSDJBNnNNb1RiQkVGVk1PbFd2UlJXSVYtVVFGVHo2cGlOYUstbU1Id1l1R3k1d1BQRmJ3WllBdV9adWNQOE9rNUxsa0hsX1hOSGhmTzRwQdIBfkFVX3lxTE4yWkh4MmdZM2ZvMHpVenNXbnhrNmtfR2hhcWlETUtSYV9vdXR4SHlRSDJBNnNNb1RiQkVGVk1PbFd2UlJXSVYtVVFGVHo2cGlOYUstbU1Id1l1R3k1d1BQRmJ3WllBdV9adWNQOE9rNUxsa0hsX1hOSGhmTzRwQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaHlHem1tRnhRcDRHSEdYTFpnbEU4cnMyM3VkMHZCdDcwemJXM3F0RFBzLWd3ZTcyVk93YjgtNzE4allCa1RHS2lJYUVSU1EwVXJnMzE3WmVmZTFYOTJFWG5PZndpVDdkWmFwenhrS2lLZXpTUXRJeEk2M0FxVE5pNlFJNFZOM3pzMENpQmNSVklhN3c?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2JpaWV0Y2xjNXlXdC1WN1BianlzR1lTZGxxanQ5azg5Q0V6WF9aMElNXzZuQk9fcGtqRWtRQWlSRlVaSmN5OFRScm03dXNYN1FSc2lMVDdMazNTUl9kQTgyN3hOY3pGVW1CSm9jZ2c3WDAybUdqY1JwM0ctT1NnZm4tRndFRUZtRmVkZHVR?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jekJhMWwtam9IdS1uWEk0U0l5Rkd0SVBGUkR1SnE4Uk9vQ3JVT2tvbVJYeHoyTEl6NTR6VFFMRVZBUnFSMWhqZzI5UGczT28zZWNhR0Y4QnlrNzBIZFVkYm1rMA?oc=5",
+      "https://betakit.com/koho-raises-42-million-series-b-inside-round-led-by-portag3-ventures/",
+      "https://finance.yahoo.com/news/koho-raises-additional-c-86-140000452.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Series D",
+    "last_round_amount": 86000000.0,
+    "last_round_currency": "CAD",
+    "last_round_date": "2023-12-07"
   },
   {
     "company_name": "Gecko Robotics",

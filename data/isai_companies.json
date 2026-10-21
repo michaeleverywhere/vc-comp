@@ -1303,7 +1303,21 @@
     "everywhere_tags": [],
     "primary_investor": "ISAI",
     "source_url": "https://www.isai.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:46.859980+00:00"
+    "scraped_at": "2026-10-17T19:19:46.859980+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://groupcorner.com/c/change-booking_en"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hiboo",
@@ -1657,7 +1671,56 @@
     "everywhere_tags": [],
     "primary_investor": "ISAI",
     "source_url": "https://www.isai.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:46.859980+00:00"
+    "scraped_at": "2026-10-17T19:19:46.859980+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2023-10-05",
+        "investors": [],
+        "source_url": "https://kestra.io/blogs/2023-10-05-announcing-kestra-funding-to-build-the-universal-open-source-orchestrator",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Seed",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2024-09-23",
+        "investors": [],
+        "source_url": "https://kestra.io/blogs/2024-09-23-kestra-raises-8m-seed",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-03-31",
+        "investors": [],
+        "source_url": "https://kestra.io/blogs/kestra-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kestra.io/",
+      "https://kestra.io/newsroom",
+      "https://kestra.io/blogs/2023-10-05-announcing-kestra-funding-to-build-the-universal-open-source-orchestrator",
+      "https://kestra.io/blogs/2024-09-23-kestra-raises-8m-seed",
+      "https://kestra.io/blogs/2024-09-25-the-story-behind-our-seed",
+      "https://kestra.io/blogs/kestra-series-a",
+      "https://kestra.io/blogs/the-story-behind-our-series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-31",
+    "total_raised": 36000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Koyeb",
@@ -2034,20 +2097,37 @@
     "primary_investor": "ISAI",
     "source_url": "https://www.isai.vc/portfolio",
     "scraped_at": "2026-10-17T19:19:46.859980+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3FyM2dBNFhoZGFzdGdabF9WQmZpMGhqWjMwZHdlNExUdW9qQ01wbnJrSUdKUUtUTVVsMUtJYmZYdnJ6REpGdzRuZkk5Ym9HNEg5a3FfRjVFdE02U3Itek9XZXdPaFIzRTY0b2JVQjNySnVmN3JWX0VwUzVPT3I3cDlhcG53OG1GXzFZM1BzUkxNTl90elplUThuQm9WbE13TzJiRzAtMVRwSHFicV9UVTZR?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.naboo.app/en-us"
+      "https://www.naboo.app/en-us",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3FyM2dBNFhoZGFzdGdabF9WQmZpMGhqWjMwZHdlNExUdW9qQ01wbnJrSUdKUUtUTVVsMUtJYmZYdnJ6REpGdzRuZkk5Ym9HNEg5a3FfRjVFdE02U3Itek9XZXdPaFIzRTY0b2JVQjNySnVmN3JWX0VwUzVPT3I3cDlhcG53OG1GXzFZM1BzUkxNTl90elplUThuQm9WbE13TzJiRzAtMVRwSHFicV9UVTZR?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWG1nQktoMXBKa2lPN3ZlY1JQMFRfWWcyTXB4U3JsMWdDZ0tvN1Zla25LbHptOVl3WENZVmVzSnIwajByTEpnZndRTWhuRjZSVTRWV05Rc1hBVW9icFFTX0JTOUdzMk00ekloZzVURUw0RG51U1JlUzZfRVNOZjFjTzQ3a2FxcExBbEdxaEh0ZkgteEZsZ21DTUlyX1dQbkNvN20xcHRVZFNnSE12eFhYWTIwS2VSLUZVU1FuMmIxMVUxQ0tUQ1E?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFp6ejJFLW9Gb2FveGFGa1NINGdwZ01sWUhqSTNHbWhNN1lhRW9HTUdZeXlBREc3aVJKOFJjVGlpQlRQU0ZPY0FWY2tQRXJuZVBud05oTHZKMzVvaTE5VndkOWNXVW1uOGpaeHMwbHNiSHNfcDQ5UUFJYlBZb3FaaWdacmJHOWRXUXlZUk42aHNZVUg3aUtHaFJvalllTzAzRzc2eS13d2sxLUFmQU8w?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdXJqS0p5dHhwRjQyMFd2S1AyWWJzSzBuLUt3UUd5TVZKc3dCQTlmdWRSd0lYMFJUMGZMeWY0UWNwVHlEajFhMVhJWlJWaDFIallPNzF2RjR0Zkxab2JZa0pZeHZoRVRfYUx1dklmOWhIZU1aZDROZ1I1NnR0bV96NWlibURoTmpRQ3lKNWtlYWlkUjFEVFlnTnln?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa2Y5MXNKNFJWV0w1X1Uwc2ppMGZabDhJMFdSRlJQMjlIWUtDVlJFQ2JQRWczX3V2V2kwNkVhV0Z4NEhSNTlwS1EwZS1KRFMwLUVoenBoamw2SjZ6aUh1Tnh4VHZtZ0RRalhUemszODgtM3NQYUdId05ydGdITHRXS19n0gGCAUFVX3lxTE5rZjkxc0o0UlZXTDVfVTBzamkwZlpsOEkwV1JGUlAyOUhZS0NWUkVDYlBFZzNfdXZXaTA2RWFXRng0SFI1OXBLUTBlLUpEUzAtRWh6cGhqbDZKNnppSHVOeHhUdm1nRFFqWFR6azM4OC0zc1BhR0h3TnJ0Z0hMdFdLX2c?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ma1QxVFh5bDc1YVNOQjI0UjZhNkhkekU2TmRua3hYTHlLRllXOUJoWGpjVjk1SHp5TzVaOVBWNFN1dFZhVlRXZUd0UU1iZDMwY1BIT3ZxQmtob0djOXhZNVpjNE5kRk5RcVg3dXdJdlE2VFNtTEF3ZUhBa3Y?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2RRUEFad1owYUxod0x2ZU04UHZDWktEZ09uR1ItX1ZudmtkUDdTZ1lUUjZ2RG1vN2FGRllhUFd0ejZKcl9udzlNX2RlZ1dMajRzMktRYWhQQ3VzekcyekdFYUY0bUVDZTVFUUE1OWViaEw0VzByb25fc1VJdHpOdnRGWFZtcUdGMkdmMmhMRHNMNXJqZ09UdWtQbE1haGNna1AwS1dLZ1dMVkMzc3JrcXd4Ukk4ZGhUcGdad3RB?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 70000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 70000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "NuxtJS",
@@ -2059,7 +2139,21 @@
     "everywhere_tags": [],
     "primary_investor": "ISAI",
     "source_url": "https://www.isai.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:46.859980+00:00"
+    "scraped_at": "2026-10-17T19:19:46.859980+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://nuxt.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Obat",
@@ -2083,7 +2177,22 @@
     "everywhere_tags": [],
     "primary_investor": "ISAI",
     "source_url": "https://www.isai.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:46.859980+00:00"
+    "scraped_at": "2026-10-17T19:19:46.859980+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://offroad.works/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQajlIV1Z2U2RGdEJJNG5sdUo3RGFPYUJ3bldjN2ZLTF9IUWY0eWd4bldjTjV3MmZfbEVmanB6dVkxRnhHTXBoM1Z5OEJuS0oxQWdzYTh3ck1YdEhHZHg2NXNnSnhURHF6WjA4ZGUyUDZmeHZEbC1lVjdSRVAxVmp6N0xNOEtEWGRiSjlSVjBCMThmUnFS0gGaAUFVX3lxTE80WG9jMlFQSlo2aEh2Y29PUEF1VWdlLWJFblppM0d6alRwMndURm5ELVRpY2ZnSFZYNXVxN2NoQVMyU1oyZzI0VjRkeWNaeV9qUmJteWRZNXYxRTBJejRDOWpOaFRYZnZkUkN4TGNoTmh3dmJrZjNsUHltZGo1LW5mQ05vd2dMb3BnSkVRMG5jZ2hoVmx5ODhOcFE?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ondorse",

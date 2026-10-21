@@ -326,7 +326,21 @@
     "everywhere_tags": [],
     "primary_investor": "MK Capital",
     "source_url": "https://mkcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:21:11.191182+00:00"
+    "scraped_at": "2026-10-20T21:21:11.191182+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://intradiem.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kollective",
@@ -358,7 +372,43 @@
     "everywhere_tags": [],
     "primary_investor": "MK Capital",
     "source_url": "https://mkcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:21:11.191182+00:00"
+    "scraped_at": "2026-10-20T21:21:11.191182+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 117000000.0,
+        "currency": "USD",
+        "date": "2022-12-14",
+        "investors": [],
+        "source_url": "https://getnerdio.com/press/nerdio-secures-117-million-series-b-investment-from-updata-partners/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 500000000.0,
+        "currency": "USD",
+        "date": "2025-03-18",
+        "investors": [],
+        "source_url": "https://getnerdio.com/press/nerdio-secures-series-c-investment-from-general-atlantic/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://getnerdio.com/",
+      "https://getnerdio.com/press/nerdio-secures-117-million-series-b-investment-from-updata-partners/",
+      "https://getnerdio.com/press/nerdio-secures-series-c-investment-from-general-atlantic/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 500000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-03-18",
+    "total_raised": 617000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Optilogic",
@@ -367,7 +417,51 @@
     "everywhere_tags": [],
     "primary_investor": "MK Capital",
     "source_url": "https://mkcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:21:11.191182+00:00"
+    "scraped_at": "2026-10-20T21:21:11.191182+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2023-01-31",
+        "lead_investors": [
+          "MK Capital"
+        ],
+        "investors": [
+          "MK Capital"
+        ],
+        "source_url": "https://optilogic.com/resources/post/optilogic-secures-new-investment-to-transform-supply-chain-design",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2025-04-08",
+        "investors": [],
+        "source_url": "https://optilogic.com/resources/post/optilogic-closes--40m-series-b-to-accelerate-development-of-breakthrough-optimization-and-decision-making-platform",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://optilogic.com/",
+      "https://optilogic.com/resources/post/optilogic-closes--40m-series-b-to-accelerate-development-of-breakthrough-optimization-and-decision-making-platform",
+      "https://optilogic.com/resources/post/optilogic-secures-new-investment-to-transform-supply-chain-design"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-08",
+    "total_raised": 53000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "MK Capital"
+    ]
   },
   {
     "company_name": "QuickPivot",

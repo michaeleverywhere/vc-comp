@@ -718,7 +718,72 @@
     ],
     "primary_investor": "Dundee Venture Capital",
     "source_url": "https://www.dundeeventurecapital.com/portfolio",
-    "scraped_at": "2026-10-17T20:34:57.673527+00:00"
+    "scraped_at": "2026-10-17T20:34:57.673527+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2018-08-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1748087/000120919118048459/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1499781.0,
+        "currency": "USD",
+        "date": "2019-10-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1748087/000143774920016274/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2100147.0,
+        "currency": "USD",
+        "date": "2021-02-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1748087/000143774921003312/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1057760.0,
+        "currency": "USD",
+        "date": "2025-04-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1748087/000174808725000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.omniafishing.com/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.omniafishing.com/",
+      "https://www.omniafishing.com/news",
+      "https://www.sec.gov/Archives/edgar/data/1748087/000120919118048459/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1748087/000143774920016274/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1748087/000143774921003312/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1748087/000174808725000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1057760.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-01",
+    "total_raised": 9657688,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OpsCompass",

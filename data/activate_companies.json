@@ -556,7 +556,35 @@
     ],
     "primary_investor": "Activate Capital",
     "source_url": "https://activatecap.com/portfolio",
-    "scraped_at": "2026-10-17T19:41:57.975605+00:00"
+    "scraped_at": "2026-10-17T19:41:57.975605+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2020-05-03",
+        "investors": [],
+        "source_url": "https://www.webwire.com/ViewPressRel.asp?aId=258785",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://klearnow.ai/",
+      "https://pulse2.com/customs-clearance-company-klearnow-raises-16-million/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=258785",
+      "https://uk.finance.yahoo.com/news/klearnow-raises-16-million-bring-195232217.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-05-03",
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Light",
@@ -953,10 +981,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://caisoft.com/product/parsable-connected-worker/"
+      "https://caisoft.com/product/parsable-connected-worker/",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU2JucmF0cVJOU19lUC02UTZTR0JxQXk0MVg3eUhMYmRJRHpxbUt3WjBtZHVsRC1MbmtHc3hiczhQcDZwTE4wNjhKeXpkZVpMdVJvdDg2Vi0xaFFlX1BFYXAyMDJUdDc2Y0tCTE8zZXMtOTJUOWF6ZVhtd0w4RkEtUdIBhgFBVV95cUxPeWtUM1owcHBIZU5rWWpRd3hGdU5vLVFJcUdaSE1fOTc2bDB1NEMwMF9LRDYtVVJSMkxyUnRXLWlfM252eTZsdjB6SWJoSW9EXy0xQVNlTnpNcjFUQ2F0d20wN0VsbzcyZ1FONG5aYktrTUpoOHNVdHl4dGM3ZmVvT0t1VnE1Zw?oc=5",
+      "https://pulse2.com/parsable-raises-60-million-to-accelerate-connected-work/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

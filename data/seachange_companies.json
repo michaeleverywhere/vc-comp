@@ -523,7 +523,24 @@
     "everywhere_tags": [],
     "primary_investor": "SeaChange",
     "source_url": "https://seachangeventures.com/portfolio/",
-    "scraped_at": "2026-10-17T19:19:49.989862+00:00"
+    "scraped_at": "2026-10-17T19:19:49.989862+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmp6SmFIU3FLWU5LdlppbFdlYUdMaGpWVzk2ZGs5d3FvMXVEWU01Qzc5OE8xQnVLeUo5Wi1uNm1PeG0wcmw1eXlUVzZVLWlGR2NwVmI0azNnb2dVV3R3eGZDbmFxSHFMdGU2WHZPNEJpbFdJaTBKX3FkRUtsRWxpczdTdw?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TWDQ2cTNLSkhWYWtQX0JLVHpDQW43OGZtYnN0SlhCWXduaFBaZjZQZWFfa1lERUVHS0hYeVdUTzFuYjBYQWxGTVNySFZlbTBmWElQWTNkOFMycEtCTjRhRXhmRWNHb0Jkd2lTLTVlelhKN3FkVEpIb0xUekJ2ck0?oc=5",
+      "https://finance.yahoo.com/news/knowledge-platform-lynk-lands-funding-130024853.html",
+      "https://www.yahoo.com/news/knowledge-platform-lynk-lands-funding-130024853.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Matcherino",
@@ -615,7 +632,83 @@
     "everywhere_tags": [],
     "primary_investor": "SeaChange",
     "source_url": "https://seachangeventures.com/portfolio/",
-    "scraped_at": "2026-10-17T19:19:49.989862+00:00"
+    "scraped_at": "2026-10-17T19:19:49.989862+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1484998.0,
+        "currency": "USD",
+        "date": "2018-08-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021418000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2955459.0,
+        "currency": "USD",
+        "date": "2021-09-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021421000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12499999.0,
+        "currency": "USD",
+        "date": "2022-12-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021423000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1949093.0,
+        "currency": "USD",
+        "date": "2024-11-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2025-02-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000006/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19963298.0,
+        "currency": "USD",
+        "date": "2025-06-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://membrion.com/",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021418000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021421000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021423000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000006/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1750214/000175021425000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 19963298.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-16",
+    "total_raised": 39852847,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nortis Bio",
@@ -680,20 +773,46 @@
     "primary_investor": "SeaChange",
     "source_url": "https://seachangeventures.com/portfolio/",
     "scraped_at": "2026-10-17T19:19:49.989862+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Strategic",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": "2025-03-31",
+        "lead_investors": [
+          "TMV"
+        ],
+        "investors": [
+          "TMV"
+        ],
+        "source_url": "https://finance.yahoo.com/news/opentug-secures-strategic-investment-led-140400631.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://opentug.com/"
+      "https://opentug.com/",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdDNhVEdPY0lZRDN5NlBqOW5SZ3RaQjB3MGJKUzZoc3RZRnRwbTl2X0w1Q3NRMWExaTBDLVhjeGN6Z0t5ckxmVUtvTk1ZT0hMOElCblRUbmlZRUhWamlwQl9ocjRnNFN4b3RBdGcxVHFITEdRTUNWTEtsRjR6TnF0aF9YZEtUQWtMQVluMzF4em85UnVPdFZCNEN6OGlMemN5aC1YZHd0M0VVQmRvUm4zaC1Pc29JSGNvc003OGlCOFNtdDlKRFd5TEc3M0c?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxONzIzOWdkRS1mYzkxRGFNWWhHV25ONGtUOVNJbktwQUtoaV92QVN0Z0UxM2NWcFZIYm15TzhLVzJyX2pJSF93WTRXbEY4WnV5dmJNZ0l0UUlhTi1zOGxjc3lldDZBME9ScjVYQ2tKUVE5ZzF0VzZxaERaQVZwWktBRHptZw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEQ5T3VieTQ1d2JFTlpJOEtueGdhdEwzZUpQWGRjX3BaZ2hmbHBVRmFNN2hSaWsxWmlMVWowdWswd1d3eGEzYXdMNzFUZU9rWFh4LW41aU9lcnRnVk1WZ0xsS2RETDVIcEdSRWJVVER0Wm15TkZKSkpUZGxfZUhFdk9Ed1ctYldXQmNldk5n?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0V3RlRlc25mZ242YWdfa3BNYS0tRnNCU1BlU2h1SVk3M0xzcUVob2d2elloaHZRa2xQa1dKRzV4OWpsaG51aUV2UnVGVk01VTA1Rkg5V1QySF8waFdlZlNfUlJXUlVLNmEwQ2NTaXZnVHFyNml4TmNpWFFNVHhua1dkSHVoZlhJOGtTRzVUcFJmbk9a?oc=5",
+      "https://www.geekwire.com/2024/maritime-marketplace-and-software-platform-opentug-raises-3-1m/",
+      "https://finance.yahoo.com/news/opentug-secures-strategic-investment-led-140400631.html",
+      "https://www.geekwire.com/2025/maritime-logistics-startup-opentug-raises-2-2m/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Strategic",
+    "last_round_amount": 2200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-03-31",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "TMV"
+    ]
   },
   {
     "company_name": "Osyte",

@@ -1195,7 +1195,33 @@
     "everywhere_tags": [],
     "primary_investor": "SemperVirens",
     "source_url": "https://www.sempervirensvc.com/portfolio",
-    "scraped_at": "2026-10-17T21:48:41.694984+00:00"
+    "scraped_at": "2026-10-17T21:48:41.694984+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2974998.0,
+        "currency": "USD",
+        "date": "2023-12-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2004417/000200441723000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kuberahealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/2004417/000200441723000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2974998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-14",
+    "total_raised": 2974998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ladder",
@@ -1245,7 +1271,23 @@
     "everywhere_tags": [],
     "primary_investor": "SemperVirens",
     "source_url": "https://www.sempervirensvc.com/portfolio",
-    "scraped_at": "2026-10-17T21:48:41.694984+00:00"
+    "scraped_at": "2026-10-17T21:48:41.694984+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.lagunahealth.com/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOTNkbC1zUDEwUVJkb1Y1TnphWUdyTF95R1k3cEFVbVFiS0VLclFfOEExakpxUmQ2dldTOTVUbmhwSkdaVkZlYjhqLUtib0IycDRvVGYyUmV5c0pVRVFvbml4RXRHdzUyOElkN1RWUVFWTjZuNjg1dTI5d1FQMWFOSm5GWHRHYXE2TEh2UF81ZG9sS1F3UnBCZ1E0Z1FBbHNJbEJHel9HaC1hOFBGMzdJcDFOYlRzNU9JRlYwTXE5d0dCRTRmMmg4RUVsaWhKOFliaTcxbVJRQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ocnk3NUlUX3hVa3dJMEZYU2ZxcGVPRHV3dFF0NDZSWFFlQ0RSUHJBUTA1cDctNnJRZTl5R0hlTzJEeGlkSUtMRzN0enBNQ2J2aEQzeEVBRW9xeU9Pam1fUHd2WklBNE0?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Liftoff",

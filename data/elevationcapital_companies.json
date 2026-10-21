@@ -1840,7 +1840,31 @@
     ],
     "primary_investor": "Elevation Capital",
     "source_url": "https://www.elevationcapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:22:45.268341+00:00"
+    "scraped_at": "2026-10-07T13:22:45.268341+00:00",
+    "funding_rounds": [
+      {
+        "stage": "venture debt",
+        "amount": 120000000.0,
+        "currency": "INR",
+        "date": "2016-01-20",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/debt-funding-picks-india-industrybuying-gets-us-1-103842138.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sg.news.yahoo.com/debt-funding-picks-india-industrybuying-gets-us-1-103842138.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Infinyte Club",
@@ -1940,7 +1964,31 @@
     ],
     "primary_investor": "Elevation Capital",
     "source_url": "https://www.elevationcapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:22:45.268341+00:00"
+    "scraped_at": "2026-10-07T13:22:45.268341+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://jeh.aero/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://jeh.aero/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jodo",
@@ -1964,7 +2012,40 @@
     ],
     "primary_investor": "Elevation Capital",
     "source_url": "https://www.elevationcapital.com/portfolio",
-    "scraped_at": "2026-10-07T13:22:45.268341+00:00"
+    "scraped_at": "2026-10-07T13:22:45.268341+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "investors": [
+          "Tiger Global"
+        ],
+        "source_url": "https://www.jodo.in/about-us/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.jodo.in/",
+      "https://www.jodo.in/about-us/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tiger Global"
+    ]
   },
   {
     "company_name": "Journeyfront",
@@ -2374,10 +2455,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://mintifi.com/"
+      "https://mintifi.com/",
+      "https://news.google.com/rss/articles/CBMipgJBVV95cUxPakhHSFAtNEg1aXI0R1BaX25MTU1GbDBKbzBmWXFJdzhHMjNCRWJOU2JQbVh4ZF9ONXY5eG9SXzQ4LTBpM0w0eWdEZE5BNkZReFV2bTJRZkt4WHlUUU5VcmRiZTEwUDEwUUQwRUhxcW40eVRmSDBuUkRLMFc0bjVpM0JxTWpobXlqbWZBQjhscUdPY1cwSzBYdVFZbkdnVkVlVFA5Q0h2bTBWeHMtNENtRFhGb3dkNXh0NUtnOTM2Q25HNGZrYmFEVWc4d2xzVGNzMzhaR2VzX2J5UWRiRlpqX2xza3BSNFY1d0g4NDhWWE91QVFUX051ZXJoQUpWaW1tZUZUSTA0dkg0Nno5U211cW5ydjdicHhFZk85cGpPUWNKNXBrWXc?oc=5",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVk8wcS1WdlN0WEwzZ2p3Nl9FTC1pN2VyRmJsV0VlX3lSdW93cmNLbzRRdGxtWTRDV0JyUUQxbjNyUVFWaXJrclVzU0lBQUxYVXY5VGJNdmhnYi1UVHBncFp4Z21kTDhDT3Y1bzRMZ05CaVA2SVJlZ2VuV3ZNYlpSVHU2ZHpuM3NnVVFEcHJINy0xSTFEN1lxdGgxR3pJVDVUajRSbWFOUjIxWXZLWVBPVnFRLXVGLXE2Xy1RdmFHNU93VkJTYWtqV0FFLWZ5NzBtNUthZlNmZ0t3aTFBWVHSAeMBQVVfeXFMTzg4ZkdPRTZHU3gycE05UTEyQmdkczljY1B2SFE4bFIzaHBoaTE2RTRpanh0NWdmeVhrWHQyMFoxMnhfWUFlUWFwRkJ2S0VnZXpiWnZuYS1MLXNEQ2xMZlBnaEl1YmpVd0VISFFjRFJJcW95eUFGZUJWZXN4OEYyZWM0SUhMTzJGRUdzOER4WUJVZXZPcGEyQWJYUFE4bktJQThWVGZTRENjOXN2anNpWUVicGg2SWN4RjBSaE9aR1pXY0N6dUpUU3FjbVAxYTFJY1ZBQW1hSU1BaC0zOWFkcDVJNnc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVVBNXpCcjM5Z3ZEX0xRR1NSWmVjekhQNGJkbUtKOWtlZ014M2had2wyY2N2Z0MxVV9ZM1VoQWVONUNSeXpXeUFPS2gxVzY5cjJMaWZvekk2N3o3eVo0NDdLREZfOUFTd3RHamwwYzQ0eUJMV203MUxrWndOYUJFRTZJLW4wLU16Qnphb2xRSzIxcEpRYmJBOXpn?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR0h4TUdoRFgzd053aFlid0cyNlBSelNOdTlFWGlIejhnS3ZJTG5TMDY0ZXljRDkwZXM0STQ1bUVzZjVLNGl4S1VhZzZ4ZWFVOEJlUGVmYlpPb1dISDZpYmFNVVhBN19WODg4Y1NDa2FvVjVWS1ctMFBCUXY1c3hoRFNfR2dGRF9OOW5MNEJyQWR1b3hXOUwzWjFPSFo0VThDU2tMcnlWbFN6TGNfRWdyeU1Ub3owclpCMDhOdmYwMTEwaDJseFNKd083QWc4WWpPSDRzN1hEbmjSAd4BQVVfeXFMTVRhYVVGcU92bWxsd0FhQ3VaTkE5UVVKX2ZxOEtlSFFKQ0taeVV0S2N1SUxGN01lUjRGTnk4R2R4dWFYel9IZTFscU0ybV84Q1pOclBVMVU3eXlJMmxxSG5pZzVNeGNKb1M1ZC1yWHZ2bG1PendvRWRlT29ERFNESlI3SFdlQXJfT0ppRUNKZDJZelBRVW42aVZLM1N6ODFZb29NQ2FBOUdvNXI4bUNoaXM4OXJfZ1ZFUWlHR2dGT0hJeVViMlI3bS1Cd3AyZlJiUTRVTUNCa0wwaXF6Z253?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdXRiTS1sQjJ6STA0WUNiYmYzNkhyY0pwQm9ONGRNUGtmNjJLbC1DbGZ3MzBwUlc1TVB3bDMydUxZcTQ2RlhVazY0UlFmX3BJUUZFOVRheXl0YzJaRVQwN1BEVzc3M0NvVXo2dS1rNzdacEM2NDZwc1N4VkNkOEFRNlh5NXl5VGh3S01z0gGLAUFVX3lxTE51dGJNLWxCMnpJMDRZQ2JiZjM2SHJjSnBCb040ZE1Qa2Y2MktsLUNsZnczMHBSVzVNUHdsMzJ1TFlxNDZGWFVrNjRSUWZfcElRRkU5VGF5eXRjMlpFVDA3UERXNzczQ29VejZ1LWs3N1pwQzY0NnBzU3hWQ2Q4QVE2WHk1eXlUaHdLTXM?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNE9MaVdxTnJiU2RLQTF5cmRYR3hjb19Dc0JrRVBxVHV4SEh1elV2cVp0WTJHVlNKSC1TTGE3dDFfVm9PWjlUMy1nZUREQU1pSG4yVUFIdVg3eGQ4ZGxJWjYya3VEQWl2bnRmT3NOWWgwMzNTN1Ywb1NYTGZJQVRzMm8yOUJjajZQdnBHbHo1aS1QTUxfVkktb05kRHFRektEanpkM0JKSHc1aGNYcmFJTmRR0gG4AUFVX3lxTE1wQUpvTXlQR19HYm5PVERaZkh6TjZPbnBJRFhoSmU1QlRsV1BCSkJIdjdjdGZWV0RONVR0cUZCN3prNXVqS2VIRTVTSkZfS2lXeFRBRkNzRENBT3E4LS1oeXZkS0I5OURRQzcyblYwMzd6cEdmZ0JLdnpTeXpiRUJXbk9NY0wzOFhFOTYxUkpGNjl3V2JfQ3pXd1VKWU5iYTdJTDlOTVU1Um5EcnFqcHA0bmRGcUtnM3I?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRWZ4WFlaWUZiaWdiYmtzdTNFYllqbGlhZlVqR0JXNmJQOEtvN29PX2pvYzV1UU4wYzUtdVNwOEJtQVRvMnd5TVQ1X3BzekdoZjZCbFE5ZlJ1ZnJVdTZPY1B2RHczdXB5U2FzZThOTlk1UWZWdUJYdkd3VVhMMGpTaFBlTmt0NzlDYXZoNDVLTDZ1ODdNMkpQdHJ1R1dMQ1JYTTdBS0NnTzNabVl5R1JraXNKeTdEU2c?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

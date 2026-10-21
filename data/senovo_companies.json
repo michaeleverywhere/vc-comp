@@ -379,7 +379,26 @@
     ],
     "primary_investor": "Senovo",
     "source_url": "https://senovo.vc/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.639180+00:00"
+    "scraped_at": "2026-10-17T19:42:01.639180+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.holidu.de/?authAuto=1",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE03NWxnNnNTTEFpNEFtSENZX3IyYlcxMS1FVjRkMGZXczF5MTRHWGNnMXYyLUNTdVJJVnc4eUlPZjlqdmp0QnlaZjVORWItcmczZ2FsX1BQaXlNbGNReTl5LVZOeFNGcXpRNm1DaDNsUW5lS2J5akFPZWJYOGNLTzg?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uazZfVmRmVkxOWHJ6UW1iY3cxQ0VHRUhIbE9YbGFlUUlFZzZOUVRCanBzYm5wLWZ2SE5IeHJjYnJlbXd0WlZXZTd0MDlWa1M5eEpkMHRCQmRtTlRhNnhBOVZJSzkzbVNqSlVQeVJCazc?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE14QU5CMlh1ODJiRnBHZUxoN1IxVUwya3BxY0lCcmVGNm14MWZGbU1pSnRYaGVzY1doNTVJWFpRQUVmQjM5djNTQUdnVFpPNE9WbXQwTlJWNzZOV3pIVk4wSnNEM1V3ai0zd2xpeW92UG5xTG9kbXY0?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPck1jcUZSMzhGZDJxS2QxUWRNbHRGUVpscGtqYlhQRWNVM3hsRC1Ec0phTENiMWFhUVVEaF9GYmhCbjJZY05MYU15bXh5ei1pazhTbE5hWGN1MXRLeGxYVjRuNW9iQmpyNEhVWWU0LUZhcUdHdWhtek9oeDY2MFRGMDV5ZzdSQlVWNTZMeTlyS09vX1lRT3lFOFY3UWJkMmRxNmJzSnN2bVdkTzRXdmpSTUk3azlLbVZFOFdFRnVXOFk0ZmpZeHRQTWVJQ2sybDNuSFR0WUQtNm84QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTSVNLa2VIQUNUbWs5VGRncGhpaDBLWFZpeXpONWFnaWZ0czBSTkp3OHhTcjFlRzROVWl3WDF4NXdyT1pVZFpkQXVTMW4tdDJkZGxXYXVYeFF2bGg1RklrdGxFV21IcmIzdEptcE5RVnVnT2pnOFE?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "IamIP",
@@ -470,7 +489,43 @@
     "everywhere_tags": [],
     "primary_investor": "Senovo",
     "source_url": "https://senovo.vc/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.639180+00:00"
+    "scraped_at": "2026-10-17T19:42:01.639180+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4099999.9999999995,
+        "currency": "USD",
+        "date": "2020-09-22",
+        "investors": [],
+        "source_url": "https://ipfabric.io/blog/ip-fabric-raises-4-1-million-in-series-a-funding-round/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2023-06-29",
+        "investors": [],
+        "source_url": "https://ipfabric.io/blog/ip-fabric-secures-25m-in-series-b-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ipfabric.io/",
+      "https://ipfabric.io/blog/ip-fabric-secures-25m-in-series-b-funding/",
+      "https://ipfabric.io/blog/ip-fabric-raises-4-1-million-in-series-a-funding-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-29",
+    "total_raised": 29100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Lative",
