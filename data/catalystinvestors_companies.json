@@ -72,9 +72,16 @@
     "scraped_at": "2026-10-18T13:45:27.119857+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NOEFlRlhuTG56elBhXzRsN3N1aTcwdXpJRDZrZmk5WUxHZlpuM2gyWUxoQV9qOU1feFZmY0xfQk92cUxSb2FJZ0trdS1acUppal8zeTNZU3JfelE1M2RVbnBWcXkwM1NydW5lRjhMcXJMcWlTT0pzbm1qZU5KUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR0tYWmdKOGNPak1veDljNF9saFFxQXBFd2tleTA3d1l5dkRrZW9SUklpNVMyVmhtN2Nic3gyYTVLaUg4alFsUEZxT1hjQ1JTdkhvT1gwUTZyWVVvR1haYmt0aFNXVERkZ1NXRWdBQ0NXdDVxNmxpLVhMVGg5S0xfbzBmZlAxZzJZazFydDhYeXpvQ2Z4MTJRY0REOUpQa3l3aWw4?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYU92bHYyUkQtMUgya2dSSlBTY0dTYl9mam1fNTRFNTRxeWNJcFlsRmJrTDNHQXh6RWZJbmxuTGlzQU9FalhhRVdUcUt4Nk9Gd2lfc251azBLWjhaSmQtSzA5LU8yQ2xFcDcyLVgxWk4zX1dndWcwOFF6TDhEejlmLVlCYkhJbXhJZDl1VDZyWWlUS3RTUHc?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFTTcwU0RnblpteE9uUkdkUkN3Q2o1TXNUZldsTmRuY1NHaVl2ZDRkcUM5YzM2czFrMUNBZkJJbml6RDNwMUdUa3d0MXlLaEpGVFlUc0VMa3MxX2E2T3BhMk1ob0JNMC1xbnNhX1dZdlQ0SDFs?oc=5",
+      "https://finance.yahoo.com/news/breezeway-announces-strategic-growth-investment-140000753.html",
+      "https://pulse2.com/breezeway-strategic-growth-investment-to-accelerate-ai-innovation-and-global-expansion/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -96,7 +103,44 @@
     "everywhere_tags": [],
     "primary_investor": "Catalyst Investors",
     "source_url": "https://catalyst.com/portfolios/",
-    "scraped_at": "2026-10-18T13:45:27.119857+00:00"
+    "scraped_at": "2026-10-18T13:45:27.119857+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 55000000.0,
+        "currency": "USD",
+        "date": "2018-06-28",
+        "investors": [],
+        "source_url": "https://www.brightfarms.com/press/brightfarms-raises-55-million-in-equity-financing-to-fuel-growth/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2020-10-20",
+        "investors": [],
+        "source_url": "https://www.brightfarms.com/press/brightfarms-secures-100-million-series-e-round-of-funding-to-expand-high-tech-indoor-farming-across-the-u-s/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.brightfarms.com/",
+      "https://www.brightfarms.com/press/",
+      "https://www.brightfarms.com/press/brightfarms-secures-100-million-series-e-round-of-funding-to-expand-high-tech-indoor-farming-across-the-u-s/",
+      "https://www.brightfarms.com/press/brightfarms-raises-55-million-in-equity-financing-to-fuel-growth/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-10-20",
+    "total_raised": 155000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Burro",
@@ -115,18 +159,39 @@
     "primary_investor": "Catalyst Investors",
     "source_url": "https://catalyst.com/portfolios/",
     "scraped_at": "2026-10-18T13:45:27.119857+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2024-01-09",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/burro-closes-24-million-series-b-co-led-by-catalyst-investors-and-translink-capital-302029256.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeW5QZ09MbHhQRHJKMFZFSzZqc0dwUFBZbFNjbDFMMzhQdUNaMUVPd3RZN1ZoSnN0MDJFc2NaMTBpOWpRa1E0eXlkd3FXUklkeGtXTXFDVzE4SnFIQnZiZHkxZnZqYWJGaEVlNVljcUFRelhwbGw2RHdhSzZ1cE4yOTY4djgwNXV6cy1sLUY5RTNldUFmb0JYLVpNcngzQkJOeXlHdDU5WW1BSEZCOWJYelZKOU1Cal9yX0pDR1JqZEFFMUVrTHdNUVZaTWZFVEZ0Y0NCak93?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR2ZPaVZMeXRlZEY5cXZOMHU4YkdLTG5TS2FQamxQVEt0S0hNN2VuYVNvM1J6R3p4WEIyU0FSRjNhODJkSERzX1NEMjNpd3Fqc3ExU0Zpd2ppQVg5VG85TXFEYVJ3cnVrMWJZWkpZYnliMGlUeXpwZ2UxZ2tvS3JKTlNkTkxuS2NpbHhZ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQemc1SEx0WTJjZXhvU0J6VFdZUEVoU2pYTm9INXN5NFJRUm9Zb3VoT2lFWkRvQ2lXN2pPaHJGVmQyOFVOQ1YxdUJjSWtfaXJUeVB6M1N0b21jQk1ZWjRtanVDekdQZFVneW1WRk96dHM3enVfcUZWaEExbDhQU0YyZ0NOYjMzaDhz?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemJ3VGp2UnJlLUlsa1VYOEdXX3JkNU0zYm9EeWdwc2lRdVFpWnNzdTJyRk9uck5uSjlLck5ZR0ZpcmVZbWY0VTFrWVVaRHdyMXQ1Y0xYMHU1MkpBQW4ya3VIdU5oMm0zSkt4Z2xqTlcxXzhRM0trYllIWlg5NXlsSWN3UHpucW95TmdtSVo2dFZfYzQ1eWxJNTFB?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMUJEeXRLel9Ka2k5UnU2S3YzX3ZnV3AydENHb29QU19VVy0xQ1dQeFd2X1pRN0VWd29mZVpyQzRqTTROUjYtYnFxX2ZMTU9kenRQcGpkTWtaY0lNX1pmUGc0N0VUNXI1aUtqd1lsX29UQW1sMkZjaG05LWltb0owV1NjNVpkOThua01pT1FwbDZWVmZLbVF2NFVkTlRUd0t5UE8tT3dCSGZ6N1pvTmFUWjZBN2xnZWE3Nm5ndVhTUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jM0p2dDItRnQtcEl6elc2RERlbWdWWWhJNHJFUGpxSnY5MjAtaXhGSFdhV0pxZUNEdFJkYjQ0dk9fd0wwWVljbjgtOWdPZ0pjSm81RkYxQVVZMFBTZjdlOGRMU0ZSa2dBTFRuY0dmN2JWZjRRemFzWHZqRjhJdw?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNjNZeEIxaVZNNXNlVHE2ZXlMYmlMNFd0b1JGSHA0NUxiT21iU21nN1VXV0JNN09RcWNTeVpXRWtJS05KUy1IVmMwVC0wR2JUWHl5S1JGYngxb2dXRDZzenUxbzJDX2lHcDNtX25VaEpnaUNvS19Ia3gtSzllODNITHlOUFY5cUtpbTM5bElWdWtzMUZScVc5VW1IOHVFU1RuSHJGR0VtRXF4ZU50MWh2Vi0tMXE3bXRmUG0zUzJGdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ1lUbWt0bTVSSUtjYjZ1NGN3cG1KdGpkTW9PU0l5OXBCYkwyaXk2RGdBWkRfUHdvSm9iRHlEUVYzUUpQRkxKM1RmRkVWMURSaWRicDhKZzRaVS0wT0d4LXUyVDhMMy13SGEwdk9Fd0xaQjJwRGVXelpwMWhpeGNDUVBacEZzTHlLWDd2X0o4OTlzcGl1c29DLXRPNzBPcDhBQ2lvamRLRVlkTko1UEtNSGotaGN3Y1c0SXZkM1JHWlcweU41dWV3eg?oc=5",
+      "https://www.prnewswire.com/news-releases/burro-closes-24-million-series-b-co-led-by-catalyst-investors-and-translink-capital-302029256.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Catalyst Repository Systems",
@@ -159,7 +224,24 @@
     "everywhere_tags": [],
     "primary_investor": "Catalyst Investors",
     "source_url": "https://catalyst.com/portfolios/",
-    "scraped_at": "2026-10-18T13:45:27.119857+00:00"
+    "scraped_at": "2026-10-18T13:45:27.119857+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://get.chownow.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGtqS19OYUlUMnhqSEw2T0RnczIwblVEVTdMZUhJNEs2d2M1Q014ZUtEeWxTTXZOZ3haN2JvTk1WcHhpaHJfQmpldVZyMW1VSkZyUVQ0V1JlcWt3SkpVTl9LYVVwUm14ZE9vV2JJalY4WVNua3BxVEhfV0FHSW5PWjdSUFVZRmhPYWlPWE14SGx1cG5RYUd1YTZDeEJ0TG8?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmlTNXlpRUd6WmtCcUR3Ui1vMGxWRlFtV0Z0Mkppc1RETVNiRmx0ei1HV3RpbWJjeTdva2tiMW5mX19zV1h1cUctdk52QlFJVUdoN2M1QlQ2TzdMWlZoTU1uVFprWnA5Vzh0bmI2QmYxOWVDZzB0d05SbHNvaC1ZMzQzc3U4ZklUOWFiMndzbDVmb241T1M4MDUwUVdNdE15OHJGenMxVXM?oc=5",
+      "https://pulse2.com/chownow-raises-21-million/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Clearwire (NASDAQ:CLWR)",

@@ -110,9 +110,15 @@
     "scraped_at": "2026-10-17T18:50:02.208539+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTFJVWGpyUFA1R3VvM00zMWowTTB0VTlSME9ubHBqbFB6UnF4bEZKazZFLVZnYVh6UGdMR2ZUbzNWZ21VcHpyRUdwTF9oWkI1UzN4U1dCN2h6Yk4zMG5CaWdZT3FGRXo0cDc1UkZtc1NxUW1qbmxUSUlrVFJ5WTlfYkpkM3dMNlJMb0dENGRHS01YRS1UM01lMmJ6bXdKM0VURTNxR3doMGl6bFVwemROVEpkekdMWW1NcmlLRg?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3JjSC1LRFNicEpORHhlM1pjR1hpSGRsVnlrMGg0ekV2UUFRZWVIZjRVRHU3Sk9fQVRCck1pT2ZhMnBJeTh3T2UxVEJvZUhEbDlsb1ZuMU90UUxWSEtzNXY0eW5UdWpvVmxHMUVKeEF4Ymd6U0lxdU1BRlo1dkxYdmUxT1IwYVdJSWVPWWF4MkZibGtnbVFnazln?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdjU2Z2g0ZjNMSV9Qc1lVdm9jbVZ3SzJaS1hONWlMekpHVExlbnJDaEdUcWpVejdodlRVNDFSeVd1aTJta3Q4MXQzbFFoOUpMNmpmaF9IQlFqMEV1VUpBVk5tel9idC1vOFM2Q0lxVWdIeGxlRi1GdWpWV0dJc3pvalFkelROeTRNZzhhZVZOMEVfWVRzcENfRlZWdkF3Mkk?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTnF0MWp4NTM2SW0wTVgzSkZVblhOOXlBdjJsUXJjZ3BqUjVfcm44clBieFNvY3Z2WmdMSjNqNENRRl9hSWtWMDVyR3dfSk1UTXgzZGlTdkppSlAwamM4eXVCSWVBT0RINE1PSXltWi1va0daZlZETDR3NHFleVFoZm4yZDByX3Ewc2daeA?oc=5",
+      "https://www.forbes.com/sites/dariashunina/2024/11/13/affiniti-launches-financial-stack-for-americas-backbone-industries/"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -319,20 +325,32 @@
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
     "scraped_at": "2026-10-17T18:50:02.208539+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 6700000.0,
+        "currency": "USD",
+        "date": "2019-12-02",
+        "investors": [],
+        "source_url": "https://www.mrweb.com/drno/news28984.htm",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://audigent.com/"
+      "https://audigent.com/",
+      "https://www.mrweb.com/drno/news28984.htm"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 6700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-12-02",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bask",
@@ -671,20 +689,35 @@
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
     "scraped_at": "2026-10-17T18:50:02.208539+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6500000.0,
+        "currency": "USD",
+        "date": "2025-05-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVBOczlpbWRqQ0daOS1zMTRsdmk3MnpOcGkxZmhkLXlZTzBuU3VudmdrSE9OSXlMY2g2aEd4dUdKWEVqMHBIa2k2WWJXM29LcTRGemdLNXlpbk1rNkNPWHZFYlQ3NGlfTnp4R1dTemlwM0NUVWYyWDJNc2NhM0pSN0hkTWRpcEhrOWZKUzFLdTkzdHNQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://brooklyn.health/"
+      "https://brooklyn.health/",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUkI5NXdBQ0cwc2Z5a00wMUhDOV9DVVlpQkp6Z3lvay1yaUVpQ3I1OHB0NzhlVVdxOWpZX1diWlhTUURTZkxIbk1zZV90TWVKUUpwNVU4WW9rd0RfVzhXZVFOTjdVVzUtTGJfclY3Y2ZVc0NUTmlCTjBSR1RQZ1BGd1I4eElGWXVod191enJ5RFROSUpsUkFhOGJMb2V5amZSby1MMXZxREw1RkpRVVozNEgtWjhhdXF3LUJxaE1RaDNkM0Q2eFVMdUlpS1JLMGx6dUl2Rg?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxONVBOczlpbWRqQ0daOS1zMTRsdmk3MnpOcGkxZmhkLXlZTzBuU3VudmdrSE9OSXlMY2g2aEd4dUdKWEVqMHBIa2k2WWJXM29LcTRGemdLNXlpbk1rNkNPWHZFYlQ3NGlfTnp4R1dTemlwM0NUVWYyWDJNc2NhM0pSN0hkTWRpcEhrOWZKUzFLdTkzdHNQ?oc=5",
+      "https://hitconsultant.net/2025/05/27/brooklyn-health-secures-6-5m-to-expand-ai-powered-precision-for-clinical-trial-endpoints/",
+      "https://www.mobihealthnews.com/news/brooklyn-health-scores-65m-improve-mental-health-assessment-clinical-trials"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-27",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ButterflyMX",
@@ -850,7 +883,19 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cents",
@@ -972,7 +1017,21 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://lifemd.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ClearGov",
@@ -1131,7 +1190,27 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.coterie.com/",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmFNR1E0bWk1NEFZd1hnN0VDOXpXMjhBOUducmUzdjdmMlk3bjNoblo0eFlpclpFdy13dWZRMmwzMWVUbVQ4TXN1NE5uVE4yQVpKdkhfOXFrcjNKeHg2T2dNOWM0WDBFYTByV3dGYlJpZjRYNnVXeHJ2SmVsX3YwNHNjNjZfT2JLVHA3RFV2c0FtRGpCVTdJX0d1TDhPUWs3OWNQdDRKb2tiR2FOWlVTM3pGUWpoZnM?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUWgydDEwSS1maWlENTI2aHBIbzJPRC1jY0F0OFZMQ1A2QjhWNlpxVUlHWUNXQ1hPZ2JXamxBNFFEVXVGMTd4QVpEelI4SmstOElWenNiUTV1LU9yWkJNWVBaa0liX0tqQmdFWTNzbDc1bFh5YzZXbThvbHJQNWNIeXpuZVRRaWN5bkxiUGhsMUhkSHJnV1BjV3pHSVcxeWJKUEZKal9rRlFxTUJLOGIwMWJJWkY?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZUdSQWhDQ2Z1ai04anBnbGhJN0pZcldhMUV3YWlBd1NBWVBZQklkaXF3ZVAzQVpKWkIya0lFcUhlbXFkdU15U0d5WXJYVGgtMkxocW1sS3Y1MTVIVDJQZG83YTFvY3l2Q1F4ZGZYaTd2aDdvRzdZV05Yc244X1dnNUZUMTlOQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzNfLVlfaG91eWFuRGc0RlRLN2xnUXk3THFIWXdxdEJWNVcyMmFoa0NmTUlJMEhwN2VJNDZQUkRhdkM4TEtZbHNxQ1ZycU5OcXVYUFNweDlNNkM5VlZJam1CMUF0cGJmVWM0X0hKMUVvUXRwSzZuU0sxeEdhTEwxQUJONjVyWlJXTlFVcnVhSVNBVEFTWnMyN1JoR3ZtM29NMU9DWTZwVm0?oc=5",
+      "https://www.prnewswire.com/news-releases/coterie-secures-27m-in-oversubscribed-growth-capital-funding-302093151.html",
+      "https://www.bizjournals.com/cincinnati/inno/stories/fundings/2024/03/20/startup-coterie-insurance-closes-funding-round.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cove Soda",
@@ -1149,7 +1228,22 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/cove-funding-round/",
+      "https://www.prnewswire.com/news-releases/cove-secures-funding-to-revolutionize-sustainable-packaging-301945885.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cyvl.ai",
@@ -1322,7 +1416,21 @@
     "everywhere_tags": [],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://joinduet.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Dupe.com",
@@ -1481,7 +1589,24 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.faro.co/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ29zTml6Ui1CY0pxcHJpOEM3RzNLb2ZxNHpFQW40WlRDT0QtTzJTclBxVGRPSDdvMUhCSk0wbFNWNWd6aGxLZFNYV0VNVmFFbTZTVkl5NHBSX0YtLUtDVXYyc09PbHRHZERNSXhTWnFvVFU1S05BeW9iYWp0TG5NWWFVanNYZDB0SmJqOUZR?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnlQMnlGcTdxblpsd0F3bkpTVTFEc2N1S1dxbENRYVlVUzJkSTNkS0t3cTZ4Z0NtZXBUZmEzcUZCNVVqMlMybGlITWwtTlc0U290WFRHMnBxaWVLTVJKczIxd2pjcXkxYXJVeVI0WnJjZS1UQUhQSUpzRzJCeGQtZ096emVLSHpwa0dIUTJHYVdlX2w3RG5TUkxrZDl0d2xUSUUxbFk2SXZuaXZXdXc?oc=5",
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE05cHJFNXBMUmp4cFpaN19vQ202LXljLXdySFFnNE15Q2hHWUJQTURNU2ltTGsyMVFaRUFKQnJLV1IzRXVSc0kwVC1ZMmZjRG1OZVhZ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Filmhub",
@@ -1781,7 +1906,22 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://itsgoodbacteria.com/",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxORlJWc0luQ1c2bTMwWFdkYnhsYzhVdHpvLWNQbVNEaHpJNlRIZzZUb3pWbFBNb2VQYlphT291bzJQcy1KSDFQdmhVakpLVFhyWkxKQVp1QS0tYWcwQktEclVLa0tGWU40Q25XZXRVbVduUEJQZjE2RjZjdm0xam9xbWNpaFJLN2pvcnBSUVRGZUdsQ1dTUVBmaGdwM2xkYTd5X195ODNaQlY2dXBzd0E?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hark",
@@ -1870,7 +2010,83 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 750000.0,
+        "currency": "USD",
+        "date": "2012-01-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399212000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7384218.0,
+        "currency": "USD",
+        "date": "2013-06-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399213000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2013-11-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399213000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4999995.0,
+        "currency": "USD",
+        "date": "2015-05-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399215000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2016-08-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399216000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30012624.0,
+        "currency": "USD",
+        "date": "2017-10-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1533992/000153399218000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.procore.com/owners?source=hb",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399212000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399213000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399213000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399215000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399216000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1533992/000153399218000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 30012624.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-10-11",
+    "total_raised": 48146837,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Inday",
@@ -4898,7 +5114,33 @@
     ],
     "primary_investor": "RiverPark Ventures",
     "source_url": "https://riverparkvc.com/portfolio/",
-    "scraped_at": "2026-10-17T18:50:02.208539+00:00"
+    "scraped_at": "2026-10-17T18:50:02.208539+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 618356.0,
+        "currency": "USD",
+        "date": "2018-10-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1757285/000175728518000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vyg.ai/flows",
+      "https://www.sec.gov/Archives/edgar/data/1757285/000175728518000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 618356.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-10-15",
+    "total_raised": 618356,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "VoyceMe",

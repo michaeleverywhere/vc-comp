@@ -341,7 +341,63 @@
     ],
     "primary_investor": "JumpStart Ventures",
     "source_url": "https://jumpstart.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:24.437103+00:00"
+    "scraped_at": "2026-10-17T18:26:24.437103+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2019-09-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1789509/000178950919000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10379990.0,
+        "currency": "USD",
+        "date": "2021-06-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1789509/000178950921000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19999965.0,
+        "currency": "USD",
+        "date": "2023-05-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1789509/000178950923000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6999987.0,
+        "currency": "USD",
+        "date": "2023-07-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1789509/000178950923000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://axuall.com/",
+      "https://www.sec.gov/Archives/edgar/data/1789509/000178950919000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1789509/000178950921000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1789509/000178950923000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1789509/000178950923000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 6999987.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-07",
+    "total_raised": 40379942,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Band Connect",
@@ -1843,10 +1899,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://letspresta.com/"
+      "https://letspresta.com/",
+      "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQlAtVDJ4RlBXM2g4cGNxX3NsQko1X3lwamhhNkFkWk9HZVhiWXNFbVh3SDJ6MWpNVWlFNEJzYkQwV0ZkM2ZJWkE1T0FiNUNkaE1SS0x6ZlpNcC0wVXloOTR1ZEVHX0dXM2hKWWtQZ1k1emxXd2d2SUtJU1hZamFaVkZzZkdxbHgtb1lkRzQtRjJpWkxRQWRkcDl3WGprSVI4ek01QmViOVJtRFIweGdGZ29GSGdKaVVvUldHNWdzQmlKRk0yYWVQYm1NbkJTMGtXdlRlczl5QzRaY1BTRmxjV0R3RUlyTUJpRERnSGdsZlp1d28weGhfUXdKbHU0Q2FHb3V3dVlWX1FhUG51b0R1UzNST2M2dnhSVFE?oc=5",
+      "https://www.businesswire.com/news/home/20230329005655/en/All-in-One-Digital-Lending-Platform-Presta-Raises-3.3-Million-in-Oversubscribed-Pre-Seed-Funding-Round-Led-by-Distributed-Ventures"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

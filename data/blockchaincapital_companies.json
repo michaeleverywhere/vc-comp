@@ -125,10 +125,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.acadarena.com/"
+      "https://www.acadarena.com/",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUHZBSEpldThaQm1WcnFQMVVlRlpNRHhxMEpGMFViclhuZV9yRUhrQ3dBTHN3d092TkFqVjhNZFVOQW40d3hQX0pXTnZpaGVlSjk1anMzNUhveFpocjFEeGdMdEJxNThRRHhBUnMxU3dqVjRoVDY1b1NfSkgxWFJYZGcxaEVwSHNNU3U4LTlpY041UFNjMU9tN25zM3Q?oc=5",
+      "https://esports.inquirer.net/27690/kakacomputer-mo-yan-acadarena-raises-largest-filipino-founded-seed-round-at-3-5m-to-help-student-gamers-graduate-in-sea"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -587,7 +589,43 @@
     ],
     "source_url": "https://www.blockchaincapital.com/portfolio",
     "scraped_at": "2026-10-09T21:10:02+00:00",
-    "primary_investor": "Blockchain Capital"
+    "primary_investor": "Blockchain Capital",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2022-12-06",
+        "investors": [],
+        "source_url": "https://www.bitwave.io/blog/bitwave-closes-15-million-series-a-funding-round-led-by-hack-vc-and-blockchain-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 7250000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.bitwave.io/blog/bitwave-secures-7-25m-in-seed-funding-to-bring-digital-assets-cryptocurrency-and-decentralized-finance-to-enterprises"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bitwave.io/",
+      "https://www.bitwave.io/blog/bitwave-announces-15-million-in-series-a-round-and-new-product-bitwave-institutional",
+      "https://www.bitwave.io/blog/bitwave-closes-15-million-series-a-funding-round-led-by-hack-vc-and-blockchain-capital",
+      "https://www.bitwave.io/blog/bitwave-secures-7-25m-in-seed-funding-to-bring-digital-assets-cryptocurrency-and-decentralized-finance-to-enterprises"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-06",
+    "total_raised": 22250000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bitwise",
@@ -1552,7 +1590,43 @@
     ],
     "source_url": "https://www.blockchaincapital.com/portfolio",
     "scraped_at": "2026-10-09T21:10:02+00:00",
-    "primary_investor": "Blockchain Capital"
+    "primary_investor": "Blockchain Capital",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7485440.0,
+        "currency": "USD",
+        "date": "2022-10-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1804357/000180435722000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2876299.0,
+        "currency": "USD",
+        "date": "2024-03-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1804357/000180435724000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://custodiabank.com/",
+      "https://www.sec.gov/Archives/edgar/data/1804357/000180435722000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1804357/000180435724000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2876299.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-03-21",
+    "total_raised": 10361739,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EigenLayer",
@@ -1633,7 +1707,24 @@
     ],
     "source_url": "https://www.blockchaincapital.com/portfolio",
     "scraped_at": "2026-10-09T21:10:02+00:00",
-    "primary_investor": "Blockchain Capital"
+    "primary_investor": "Blockchain Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.fabriccryptography.com/",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUdVNE5TYmYyejZKc2p5eEVqWWFaXzJnS2k1RTF6YnNnZERNYkpWUV9rSTBZbWN5SlBHTElhSlM2dE5QYTdZX2VNSk5yYXhvOUdfaHMxeklPdlJIcm5rWXNHZURlWEVPSEhtYXU2cjdVbElRaUFDMWZYWkI0T2FyalppRnh0dmPSAYwBQVVfeXFMUGx1ZlZlaGZpUFlBVzI4NE9FMVdSWmpyUGtfV3JqS2cwMnlfRmJ5dFEtd3MycmRaNHRaZEh3Q2lpWFExZF9JaEhiRzRZUXUtSzhfcjNCN0R4NUFiQ0xGN0lrT0x2RXJtYTdhOGRsMU5xZXV5bl9feWg0Z2YyczlnVERBanJkcG1wRTZna0s?oc=5",
+      "https://pulse2.com/fabric-cryptography-33-million-series-a-closed-to-build-computing-chips-and-cryptographic-algorithms/",
+      "https://www.benzinga.com/content/40448161/fabric-cryptography-secures-33m-for-new-cryptographic-chip"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Forta",
@@ -1706,7 +1797,24 @@
     ],
     "source_url": "https://www.blockchaincapital.com/portfolio",
     "scraped_at": "2026-10-09T21:10:02+00:00",
-    "primary_investor": "Blockchain Capital"
+    "primary_investor": "Blockchain Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://app.gamma.xyz/v2/vaults",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CU3FQM0dLVXl0RnA0b2s3ZjN2XzUtRkRhcFR6bV9uM2xBLXVELTRNZHFHS0xWdnQ2T1YyYXd5V1VWclllVGtTRS1GNktuSlktSUd6SV9mUkMxSHRzaXJ2dWZPUEk0TXVybmRNeEp3?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQXVnRnlJNUlkc1JqT1FKd0gxTldBLTdsLVpHcnphM1NHQVBqN2ZRcllmZHEwbWdIUnl6UWd3ZWpVVEcyT1h6RUVVa21NQ3B6bHh1Vm5rSWFJU1VOZ3BvdktOemx3d2phdS05Z0NaQmNhNXZHcC1CSG9JNEFtSWw0U1BidHMwYTMyVTlmcDN0YUFnWXNwb2xuOXhuaVV5R19HWFJMUzJaT0JMdTNa?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd09HNDVPQ0R6bC1nMkloVm9TcUpzNnN5V2wxaUFGVEdlWXVuanJLQjVBNk1Oc0lBb0pLTG5pU2NZUmRlX01uZEtQQ0dKNmxmMzZ3Sk9ubTJJMWp1VnlnZUJiMHJHbjR3LS04QnFUME5NYzFmWDlUMTZGMzRzZDdfUUVHQm5WdXUwYzlpZ1VKYkFYSnhpT2lvcDhFc3JUWmc2R0k3WW9mcDJNWHlrby1CMUd4WUpaRkhSLWJNTDFndVZSUQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Gem",

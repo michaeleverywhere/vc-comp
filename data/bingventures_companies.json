@@ -243,7 +243,22 @@
     ],
     "primary_investor": "Bing Ventures",
     "source_url": "https://www.bing-ventures.com/portfolio",
-    "scraped_at": "2026-10-20T20:37:02.317181+00:00"
+    "scraped_at": "2026-10-20T20:37:02.317181+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fractalbitcoin.io/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOGNaQjVvdWYxSHBBdDFJcnVhYkJBV3pmVXN4NVI1SU5YX2NleXBrZy1oYi01WHM4VkhBakk2VFFKWkdCMjIyZWdoSUU3bHcxdzc0WVdZV3ZqeGg4emYwMlFBT3JSSFY1Tk1LeHpRWnN5N25OVG12QkJLM3FxWnFudHV6QU1vQWZUb1FKanB6S2EwVmdjX1l1c1pqa9IBmwFBVV95cUxNOGNaQjVvdWYxSHBBdDFJcnVhYkJBV3pmVXN4NVI1SU5YX2NleXBrZy1oYi01WHM4VkhBakk2VFFKWkdCMjIyZWdoSUU3bHcxdzc0WVdZV3ZqeGg4emYwMlFBT3JSSFY1Tk1LeHpRWnN5N25OVG12QkJLM3FxWnFudHV6QU1vQWZUb1FKanB6S2EwVmdjX1l1c1pqaw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hack VC",
@@ -277,7 +292,45 @@
     "everywhere_tags": [],
     "primary_investor": "Bing Ventures",
     "source_url": "https://www.bing-ventures.com/portfolio",
-    "scraped_at": "2026-10-20T20:37:02.317181+00:00"
+    "scraped_at": "2026-10-20T20:37:02.317181+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2024-01-31",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/hivello-announces-upsized-funding-round-raising-usd-2-5m-amidst-high-demand-302049350.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Pre-Seed",
+        "amount": 3300000.0,
+        "currency": "USD",
+        "date": "2024-02-06",
+        "investors": [],
+        "source_url": "https://betakit.com/blockchain-startup-hivello-raises-3-3-million-cad-in-pre-seed-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hivello.com/",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFVEbld4QWZCbUF2b2t3M2RCX2oxeWJhMEZqZjN4ZzlQd0VlTVIzWjVEOHNXVmM1d3dnMkYzSHY3bENSM3k0cDlyYXdzcHBwalNlWXNHcG5RaFo3ZjdfSWJremZwalh3YTlnZlZMRHYtWE1famdXZGZpUnA0UXpTN1ZYUWFlcE5nYThXWE9rTXl3NXJtRnQ4TGkyVjl6T2Zoa3YtVHlPQk9hTlBTN2VJYnZuYmhnZw?oc=5",
+      "https://www.prnewswire.com/news-releases/hivello-announces-upsized-funding-round-raising-usd-2-5m-amidst-high-demand-302049350.html",
+      "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/30845194/hivello-secures-strategic-investment-led-by-animoca-brands-ahead-of-token-listing/",
+      "https://betakit.com/blockchain-startup-hivello-raises-3-3-million-cad-in-pre-seed-funding/"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 3300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-06",
+    "total_raised": 5800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Manta Network",
@@ -445,10 +498,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://satlayer.xyz/"
+      "https://satlayer.xyz/",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYi0wQTNJQUtidlN0aWtFdjNueW02cENyb0tmdXJvcU1fWXBuVC1WVkZPdGtaVFRKaDA1TWFLZTNSeFB0WU1QNHhxdjVPTVdpdENuUmp6VU1ZVklPZTBuRjNESnhpNW5Qem1OdzB0WEdRR0ZXejhyRlduVG1KLXdKbWpBN1o4UHBmWEJIOE9ZTUhHUDdaUnd2LWpxVVE?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

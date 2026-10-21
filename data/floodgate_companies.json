@@ -616,7 +616,21 @@
     ],
     "source_url": "https://floodgate.com/companies",
     "scraped_at": "2026-10-09T21:06:02+00:00",
-    "primary_investor": "Floodgate"
+    "primary_investor": "Floodgate",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://boam.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bot MD",
@@ -4488,7 +4502,43 @@
     ],
     "source_url": "https://floodgate.com/companies",
     "scraped_at": "2026-10-09T21:06:02+00:00",
-    "primary_investor": "Floodgate"
+    "primary_investor": "Floodgate",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2499999.0,
+        "currency": "USD",
+        "date": "2023-08-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991308/000199130823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2274999.0,
+        "currency": "USD",
+        "date": "2024-06-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991308/000199130824000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.visily.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1991308/000199130823000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1991308/000199130824000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2274999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-07",
+    "total_raised": 4774998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wavedash",
@@ -4821,7 +4871,38 @@
     ],
     "source_url": "https://floodgate.com/companies",
     "scraped_at": "2026-10-09T21:06:02+00:00",
-    "primary_investor": "Floodgate"
+    "primary_investor": "Floodgate",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2024-11-20",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/zitadel-raises-9-million-series-a-to-advance-cloud-native-identity-infrastructure-302311461.html",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zitadel.com/",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTFBySExBOS1Eb21FMGROWUJHR1FTTGE0bC1WT3ZGVUtFOWh2cUc3ZmdsbVlOcnZ0dVJxMGgzMmtSVjEyVEQxSnBSQjIwTm5PQ1htUy1fWmtKdnRiV1oxZ1VZREZFcjlGZWo0R2lfSENPZG9HSlh1TVVNMktn?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWVpFaWRKckFpTHhqclV2eTdtMEdGY0ZYVkhKb2t2NmpFMmdGRWdJdmJHUjRZSWtRMXI4SEVMSDBwcWJZOTVOXzRJeGFYZEl3RHp1Q2t2TmZLN0ZQZHFiS2g4dVdiaEpWOW5BZVhxaTdWd1h5c2dHUnEtM0t6NDBXTGlOX3VoUURrTUZFQkFwSUZ2cVJlcVBqSkh1QjVnbllnWnB0R1VB?oc=5",
+      "https://www.helpnetsecurity.com/2024/11/21/zitadel-funding-round-9-million/",
+      "https://www.i-programmer.info/news/182-frameworks/17635-zitadel-announces-funding-and-future-plans.html",
+      "https://www.prnewswire.com/news-releases/zitadel-raises-9-million-series-a-to-advance-cloud-native-identity-infrastructure-302311461.html",
+      "https://pulse2.com/zitadel-cloud-native-identity-infrastructure-company-raises-9-million-series-a/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 9000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-20",
+    "total_raised": 9000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Katanemo",

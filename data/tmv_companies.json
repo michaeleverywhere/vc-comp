@@ -228,10 +228,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.bridgemoney.co/"
+      "https://www.bridgemoney.co/",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc3VuSEdXX05rUnlvSUhqTzdCZkZUODBweU51b0pieG14eWxuVFJyOFJ0Q3BOMnBOX1JBWGJuMUxsaWVwTFVrQlFpSzhsMm53bjRjRHlzb2xSWmRROEhYNzRoeHlyZnZ0RE5VcTZkSHlPdU9zMVRRdl9ybV9UaldxdA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -349,20 +350,32 @@
     "primary_investor": "TMV",
     "source_url": "https://www.tmv.vc/companies",
     "scraped_at": "2026-10-17T17:50:50.695850+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-06-08",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/classtag-raises-5m-parent-teacher-214928376.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.schoolstatus.com/"
+      "https://www.schoolstatus.com/",
+      "https://finance.yahoo.com/news/classtag-raises-5m-parent-teacher-214928376.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cofia",
@@ -550,7 +563,50 @@
     ],
     "primary_investor": "TMV",
     "source_url": "https://www.tmv.vc/companies",
-    "scraped_at": "2026-10-17T17:50:50.695850+00:00"
+    "scraped_at": "2026-10-17T17:50:50.695850+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6100000.0,
+        "currency": "EUR",
+        "date": "2022-12-08",
+        "investors": [],
+        "source_url": "https://www.harborlab.com/harbor-lab-secures-e6-1-million-in-seed-funding-to-help-better-manage-port-expenses/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2024-05-15",
+        "lead_investors": [
+          "European VC Atomico"
+        ],
+        "investors": [
+          "European VC Atomico"
+        ],
+        "source_url": "https://www.harborlab.com/greeces-harbor-lab-raises-16m-to-streamline-port-call-cost-management-for-the-14t-shipping-industry/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.harborlab.com:443/",
+      "https://www.harborlab.com/greeces-harbor-lab-raises-16m-to-streamline-port-call-cost-management-for-the-14t-shipping-industry/",
+      "https://www.harborlab.com/harbor-lab-secures-e6-1-million-in-seed-funding-to-help-better-manage-port-expenses/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-15",
+    "notable_investors": [
+      "European VC Atomico"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Hyper",
@@ -1673,19 +1729,44 @@
     "primary_investor": "TMV",
     "source_url": "https://www.tmv.vc/companies",
     "scraped_at": "2026-10-17T17:50:50.695850+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZFFJb3Q0Y0dnRi1aTGFmdVBhcVBFemtja2VncS16UFJsWUtDcGJWa1Q0TUVSN0QxcjJRUzN2TEtWc0ZxbzBBZmotWmYyMW91aTRoR19URG5zQzc5ZzRVYWtfUDQyRGlZRFYwWVBtdW9wVlZuQWhn?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.weave.bio/"
+      "https://www.weave.bio/",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2tWNXVPWll3QXFhVzlNMFRFSFNmdEloZ3R0MHg1QUtnMS04OTY5bFlGeXFBOWt1bUdlZlEzd3B1Ny1Na19PZjFMTlRxSTFwUWxSaXRPQUJ5MTlxek9zbHk2anQ5R19kN2JBdDlhS2MyRENuSE1NMjhWV1h4QVpraHAxR01fczVDdU8telRRRDBoSkZRcnpRdnlPVFJ0aGtNb1pyV3F1WXplV0JYbkVrbkpsYWFlUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZFFJb3Q0Y0dnRi1aTGFmdVBhcVBFemtja2VncS16UFJsWUtDcGJWa1Q0TUVSN0QxcjJRUzN2TEtWc0ZxbzBBZmotWmYyMW91aTRoR19URG5zQzc5ZzRVYWtfUDQyRGlZRFYwWVBtdW9wVlZuQWhn?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMmdTQkZZdEwwTXVubU0yNHRfZWF2N1B6Z3hrRnpBTS1WZlFoR0lpb2hFdmlScXhDbWNIekwwNmNVT3VJOFB2dW0xNXBWMXNWVi1ZWm9rUDIwWnF0OENzNm9peEFpR3BnTFhKdFMyS1ZCcmZWZ3BPT25TaHZRYlg4MWViQ1pJd0laMFY4Vkx3?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwRWwxZXpvaWJSYWtLWlFHenRsd2ZiajdrTVdfUWZnT0VMTm1ySWV5Y1J4RFJQV2JoZF9Hdmt0dW8wVWhPdWNfNHRYOTV4YTV1T0NiY1FyaGJGRWRMSjZXYmQzU1Nfb2VHRkppNEpRXzV2UFB1VEdrNmpVcjg?oc=5",
+      "https://finance.yahoo.com/news/weave-bio-secures-20m-series-120000238.html",
+      "https://markets.financialcontent.com/prnews/article/bizwire-2024-5-30-weave-bio-announces-10m-in-new-funding-and-launch-of-its-ai-powered-platform-to-streamline-drafting-reviewing-and-submitting-regulatory-documents-in-drug-development"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

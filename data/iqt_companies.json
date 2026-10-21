@@ -1449,20 +1449,32 @@
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
     "scraped_at": "2026-10-16T21:18:52.215434+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2023-10-09",
+        "investors": [],
+        "source_url": "https://www.mrweb.com/drno/news35757.htm",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://arctop.com/"
+      "https://arctop.com/",
+      "https://www.mrweb.com/drno/news35757.htm"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Arcxis",
@@ -1839,7 +1851,24 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.atlasbase.com/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUVsbF9DdVE2TWNJZ1RyUVZDNU0tM2RLck5RX2s5bVRuUVFWaS1Ga1ZKaURwTTVTWm9NX3ZJenRWUEIwNHZPYTFseE9GeldxLWhNOEVIbTdMRXpvbHBWSVNzVmN5T3pxbTlBak03WWczT3Nsd0J4eHhfU2dmY0Y0MHZDUTJUUk1PNmxZVllpZExJaHFVNy1LS0pQVzBaNUNXSWfSAaIBQVVfeXFMUEVFbGxfQ3VRNk1jSWdUclFWQzVNLTNkS3JOUV9rOW1UblFRVmktRmtWSmlEcE01U1pvTV92SXp0VlBCMDR2T2ExbHhPRnpXcS1oTThFSG03TEV6b2xwVklTc1ZjeU96cW05QWpNN1lnM09zbHdCeHh4X1NnZmNGNDB2Q1EyVFJNTzZsWVZZaWRMSWhxVTctS0tKUFcwWjVDV0ln?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1hvSnJORHkxaGVDbWRXdS1ESzlzX2JkQmhBVmNCb0VucnlMZ2dwNjJjbjExU0w4ZkIzeDIzNW1ueHZuekJTaVlJZnBVTUE3ZTlOX2FuelJJXzdKLUVsLUdmVm5TMktwRVRRSXpxLWNOSk1aWTBtYkRQNERpM1hpelAyQ3VoS0IzeUVYamlfeHJIMHA5Z3A2ZkUtV1lkMFMwendtbF94MEsyS3Z3bmJzR3ZvU29KUlZoOERxUEtvQmVzdHVWV1dzUk5oYmxrQQ?oc=5",
+      "https://www.businesswire.com/news/home/20240416106073/en/Diversity-Atlas-World-Leading-DEI-Data-Platform-Secure-%246-Million-in-Bridge-Funding"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Atlas Wearables",
@@ -2868,7 +2897,44 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6854378.0,
+        "currency": "USD",
+        "date": "2019-09-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1798888/000179888820000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 4200000.0,
+        "currency": "USD",
+        "date": "2022-05-02",
+        "investors": [],
+        "source_url": "https://bounceimaging.com/2022-5-2-bounce-imaging-raises-4-2-million-series-a-prime-round-adds-former-pentagon-chief-to-board/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bounceimaging.com/",
+      "https://bounceimaging.com/news/",
+      "https://bounceimaging.com/2022-5-2-bounce-imaging-raises-4-2-million-series-a-prime-round-adds-former-pentagon-chief-to-board/",
+      "https://www.sec.gov/Archives/edgar/data/1798888/000179888820000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 4200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-02",
+    "total_raised": 11054378,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Boundless",
@@ -2900,7 +2966,22 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bragi.com/",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaGxzaGFtcWVHR28yWUZRTE5YRDdFaFoxRC1rYjNIX0ladlFnUnIyMlZyeEE5UE1GYUZzZTF3bGtoOGpNVGpBRlYwUUMtN0FScGlYdk5HU09DQkhZWVY5aFYtYU1lVW5GMnpqM0RkQllTZmRPMzBuRF9yU2VQeDJucHFzQ3VYX2QyWlJNZENIUl81ZGpLX0dMN2lyRk5Ldll1RWdHZEVQcGhNeUh4NWhTZHZieTk?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Brainspace",
@@ -3323,7 +3404,28 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cerabyte.com/",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXA1Qmw0Mi1XbVMtNEZvT3ZwTFl5RFFYalZ6dnBUMjM4R0g0ZXk0Y0ZfcngydnJzVnBlUncxTW1SbEpCb3MwNGVzUllaak1lSERrc2laUkN1VVJfMHYtcy1VWXNNYkhwU1dtWVc5SEJYTGhhVlhrRk5OY0QxaGFYaG92UkVGWWgyMThWS1NuVm1mMkFlQkJCM2NCcGRteTlGOVVfbXVCZXBPdW15MDBHZ3phUHR4RDFIVzJOSksycVRDYUF1?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHNVR3J2RUhfUHluUGE3dk85bFRnTnl1QzlTVl9zZ2hDMFNuRDd2YTQxWEcyMXpLNHI1VUZZUjduSW9RUVZqUmZ0WGVtZmV2dWJpcGM2MU8yWmN2RFNad2tHdXZwclFUQnViYnNzU1lpX1ZZWnlqU0tjVVZxSXpJVnBOTERHNXZu?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVmZsVjJOZXRBaVkyQUdiN0V1SWhxTXJSajN1WkNVZi1ObEFkTUNfelJZcjc0bDVBNjZGLURRb0JsbEFHdnM5S1JBNjNER1BHQTRNN19wYTJnbHRwOWRFOTVTR255bnFmTmEwYzhPWTZkSXk0QVItQU1XRXpMMEtWbWZ3OWwyNkRoenBDd3hHU0hwa19vcDRVSkpPLS1sT2VxVEhBcUtlNUhQb2VxYURyZWdqQTRYUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRFJ0dm44Z2NIc1NGcTRXZ2xieEJGV29mUm13Y0FzYXhVMzBoRzlGR2psNjltZzk3QjNQbkQtQzZ2YVRGNUNvOENWQ3JJZm12SVJRM1I2M0laZy1sM3AxWWsxRGYtblRvbUp5OTRuSk93RC1lWU1PSXlac2hqUDBSYzZCOHJncDZ3aTBUQm82cENaOE1aWm1mTE11WHQ1b1JodXNqSzdNRC1TU3N2QXdEY0ZpbmZ3VDA?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEJtVmFPczU0MVRyem50Umg4MHhnOVBYSldtQm1Oang0b3ZsU00zUktiY2p2WWFNNkt4b0FIa1pWbVVURk44dnNfTGFSaFFuWm1BNmVhMklwTmt1RU11dF9FOUVFTWNnSGhJeFZkRWtOWXU5QmJXVW1Rajd6RWRtQ242UU8tdjNWLXlySmdkb245dWJoUDFUSGhubXljZzVDLVVvQTlvQkNsazZ0SVhzcnhETnN3ZE5xT1BZ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2xCeHVMYzcxM3VMdFhaSVBkaUJvcVNrdllyaHZNS3ZJU1VXV015eW9VTFViTHhRRXZrczVQY2RPd0ZVUnBCMmRMby1RNlRzVUI0dXI2c3ZiczB5dmwwcTRGUXVYV2pkYkVfRUNnMlhxSnM5cS0tZElVcWlYR0RVdlpUbWlXYmJw?oc=5",
+      "https://www.businesswire.com/news/home/20241217777080/en/Cerabyte-Receives-Prestigious-EIC-Accelerator-Grant-Funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cerebras",
@@ -3666,7 +3768,45 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 26000000.0,
+        "currency": "EUR",
+        "date": "2023-01-19",
+        "lead_investors": [
+          "OTB Ventures",
+          "Swisscom Ventures"
+        ],
+        "investors": [
+          "OTB Ventures",
+          "Swisscom Ventures"
+        ],
+        "source_url": "https://clearspace.today/news/clearspace-raises-e26-million-to-cleanup-space-in-a-series-a-round-led-by-otb-ventures-and-swisscom-ventures",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://clearspace.today/",
+      "https://clearspace.today/news",
+      "https://clearspace.today/news/clearspace-raises-e26-million-to-cleanup-space-in-a-series-a-round-led-by-otb-ventures-and-swisscom-ventures"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2023-01-19",
+    "total_raised": 26000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "OTB Ventures",
+      "Swisscom Ventures"
+    ]
   },
   {
     "company_name": "Cleversafe",
@@ -4561,7 +4701,23 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dwavequantum.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUndZcTZNM3h3dE9nSDBwWW4yY0lmcmNxbW5FbXV4UWZ1QzZESHpiVnRNeUppYWJ1M0NaMkpVVzUwZjctVjB5Y1pNTFg1RENUNjZ6RTUxZEhJQUxkZFFtZHhyYnduQXk5eDBmdW1Td3ZRUGtMWnY4emQzYjJGdndSQ0RSSjV0R082X3VuTElYWFQtX0lHbHNtN3ItcGUwVzg?oc=5",
+      "https://www.msn.com/en-us/news/other/d-wave-secures-up-to-100-million-in-us-funding/ar-AA2bNLG0"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Databricks",
@@ -4788,7 +4944,25 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://defendeye.com/homepage/",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMGdFMTdMaFhvNS0ybFpvNExndHppRk9mcjFHLVV4ZE5rMGw2aFFmMl9IRnpGb01RejhJeW1qQlZJc1p2Rjd4cGdxUi1CUTlyeU0tLVhzbkFqam5hclk3SnFTejBCR1hXVmtLX2hZdGhQZXZ0aEdoWG1MTndiQWY2am90dFozVDhETmxxZXNyQ2ctVlJzWWVCbDd1b202cDJPMWFibw?oc=5",
+      "https://news.google.com/rss/articles/CBMipgJBVV95cUxOaDNqbHBqUXd6SENuT3k5WWlQQlo3WDc5aVhzZnQ3U1VCX3EwS1RtYTI5elZCQy1mWUUtMDNJTjFZeEoyUFQzeEZmMXl3QWx6QzdmNVZic2h1WDBtVjcwT05MRjlGa21meGxYZmpIMmdwUWJiUWIwbVdtRXZEOXVvQlFiTXpTWHNLZEU5SzNydjV5YWFBclc5c1dxXzAtNk1HdndjajhZeWdYZDBaZ3ZqcGN1ZktnNzB4RjdRX1NGMWdXSzhETUZCMWQ2TUUxZzZPR0hFMXNSbkI3OEgtbV9FalJINVg3NDNiWDFWYjJxUXFrX0NkRjgxYlVUd0U2QU5veDgyVGNvLXpEb0FWLWY1VEVGdXN4Y2F6SVloU1Y3aThrZHhaNnc?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DSTlldEZSRGJKQVhkUHBCODJhVVpBQ0lEX0NJQ3hoVzFtX1RETGRwNHQ4Ull4dUtOU1VYc3RkUUVoRnF1dElabnhfRXhTa1p4blZDOVQ1M0QwRXdOTkswM0ZvRDNjRVdUSXNMdl9B?oc=5",
+      "https://www.prnewswire.com/news-releases/defendeye-secures-major-investment-led-by-novacapital-to-scale-production-of-the-worlds-first-autonomous-ai-drone-designed-for-first-responders-302853581.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Delphix",
@@ -4852,7 +5026,24 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.digilens.com/",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnh5blRzbnVHYzZ5alJRTWJiLVJ1SW8xYTNDVDVYXzZGRzUwNW8zRTlBMkMxMUh4S1lmS0x2NGU0RFVKNWNCWTdZQmJrVnpHN1BOOXdvbHdlMXdJcTJ2emVsZXdnUmxRNkUwU29JRlRBZkY2VkFXamhhZTRWNDJzUDVBQVdyTW9aNFVJQTdHYkRCd2dvd1NHcDJ6a0Itcm9XRHV6T1c5ZkY?oc=5",
+      "https://www.yahoo.com/news/digilens-nets-50-million-plus-202323955.html",
+      "https://www.streetinsider.com/Business+Wire/DigiLens+Completes+the+Second+Close+of+Its+Series+D+Funding+Round/19888619.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Digital Reasoning",
@@ -5239,7 +5430,21 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.echomark.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Edera",
@@ -5549,7 +5754,33 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://electroninks.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://electroninks.com/",
+      "https://electroninks.com/newsroom/",
+      "https://electroninks.com/electroninks-closes-series-a-investment-to-commercialize-particle-free-silver-and-copper-conductive-inks-for-the-consumer-electronics-and-e-textiles-industries/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Elegen",
@@ -5911,7 +6142,36 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/enveil-raises-25-million-in-series-b-funding/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYnRqZDlMUlVoV0wyOW4tRjd6c0VKRFZIaDlabDVwTlptV1FqZDZCZEFhbVF6My00SWJrdnR3M0ZrRWxvR3hlRk5mTF9pd09YczNOaDA3NjdfSnJTaGRDOTQ5b0ZsamQ2eVNPLW9CYkk4THhFUDlKbnhtY3ZUcVZEczM0N1lpdkphYmd5c1FyeVNHRXpncXFrMEREemI?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3haX253ajd1aXV0V3dKTHM2MHBJWktNcW5lcU9vSkE3dEFkc3gzUjRXZTlKR3M4RmNFeXdGYlExLXVMejVEaHYtcGZ6SEpaMWl3MUVGT2g4X2ZmUzI5MzZWYVlZSjJQdmVGX0JoZWNwQVhIRjdXN182S1J0NGxkcjREV1JhbkVxdkY5RDhfSjNXRzAzaEU4cnV6RHZ5T1I3XzVz?oc=5",
+      "https://pulse2.com/enveil-raises-25-million-in-series-b-funding/",
+      "https://www.govconwire.com/articles/privacy-enhancing-tech-company-enveil-closes-series-b-funding-round",
+      "https://www.streetinsider.com/Business+Wire/Enveil+Secures+%2425+Million+in+Series+B+Funding/19967327.html",
+      "https://www.businesswire.com/news/home/20220427005268/en/Enveil-Secures-%2425-Million-in-Series-B-Funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ephesoft",
@@ -6187,7 +6447,26 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://evozyne.com/",
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxPb3BOdFpXcnVoVU5mRmUzVElkdDdxNVAwUEFTSGFjb0lFc09GTGEteXdkM0lSUVRMeEh0STNDYURWdkRTaWd3a2djV19EZ0pVSVI4RHFXUTBqelBJdUVCSU5ZeUptcm9CZlJEZnFDdEd0ZkR5NXVpZXEzMGJISjc5NlJyUFRYcDN6YUZ6SlhCbm5BUG9qMTZnVXEzWDlxZ3diSkhyQm1lSnV1VWFjUjZKYVFHWEZyY3lzMFNPY0o0Wm83T2dzWWM4VlJneERYTTM4ZkNlM3h0OG14WU1HdTRxOVJuMFBvQ0lvWk51VHJtNWt6YXpOWFdjeTZ2Rm1xUWdGbVZ5c29xZw?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXp6ei1iQ1lwWFVqcHNiZ3NSNTl3NnhrMWhHbmRqUU9Ba3JsNVkzb3RtaWhvTXBkWS1oUTVZNGFEMjRYOVB1bU4zeDZ5TW5UVlFLQTl2VS1URmxKeUxLYURUYmJkSFJpdjFIZzUwbkMzQ196bDFYbU5hdGFUUXo1ZkZaSDU3WnBWalJ6RENKMkdpQ2M1RnpKM19ORC1qNXVjS0d1eWw5aw?oc=5",
+      "https://pulse2.com/evozyne-81-million-funding/",
+      "https://www.businesswire.com/news/home/20230927335417/en/",
+      "https://www.chicagobusiness.com/health-pulse/evozyne-raises-funds-ai-therapeutic-drug-development"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Exoflare",
@@ -6736,7 +7015,24 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.fonontech.com/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNXNjYmN2NzNTdkRtclBnMGVYallRZFNDTjRaZFhDeG81clQtbFF4TmtWNHB6TUlxdTFoNlMtLUZiQ3ltMDl2MVg1SUo2VFZiYVN3MTktOTJLOC0tY0F6dUEyUm5DS0ltZnktRW9fWkV2SWNWWXRkVWxuelAwMk5LOS1EQ29KQ2V3YmJxU1M4YmZmaDA?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHR5QmpYTW1VbUUwZVZBVUpLaGI2SWc2eWxJZURibUc3bE85dlBvMHZrZm9MMXh4SENBZjMyTFRnU3B2U3pIV1QwUWFDbDNQUk1nVTJUMEFaM0hRRXJJSjFPWU9UbXNOcDBsM09RRDdQNzZ2aUZkX3FzY2Voa25sRHVvUUkyeC1jLUp5QU81Q3piM05QS1ZUS0x4Um9EZmxqMmZFVEsxOEw1YnRs?oc=5",
+      "https://pulse2.com/fonontech-e2-3-million-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Forge.AI",
@@ -7408,7 +7704,44 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2022-06-15",
+        "investors": [],
+        "source_url": "https://www.greynoise.io/blog/announcing-series-a-fundraise-radian-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.greynoise.io/press/cybersecurity-startup-greynoise-secures-seed-funding-to-reduce-internet-background-noise"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.greynoise.io/",
+      "https://www.greynoise.io/press",
+      "https://www.greynoise.io/press/greynoise-raises-15-million-in-series-a-funding-to-fight-cyber-distractions-and-mass-vulnerability-exploitation",
+      "https://www.greynoise.io/press/cybersecurity-startup-greynoise-secures-seed-funding-to-reduce-internet-background-noise",
+      "https://www.greynoise.io/blog/announcing-series-a-fundraise-radian-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-15",
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Groq",
@@ -7492,7 +7825,63 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 807071.0,
+        "currency": "USD",
+        "date": "2017-01-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1694968/000169496817000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6999999.0,
+        "currency": "USD",
+        "date": "2017-11-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1694968/000169496817000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 20065077.0,
+        "currency": "USD",
+        "date": "2021-07-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1694968/000169496821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8221826.0,
+        "currency": "USD",
+        "date": "2023-07-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1694968/000169496823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gxc.io/",
+      "https://www.sec.gov/Archives/edgar/data/1694968/000169496817000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1694968/000169496817000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1694968/000169496821000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1694968/000169496823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 8221826.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-06",
+    "total_raised": 36093973,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hadean",
@@ -7704,7 +8093,19 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "HEO",
@@ -15054,20 +15455,34 @@
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
     "scraped_at": "2026-10-16T21:18:52.215434+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/stairwell-announces-45m-series-b-funding-round-301645108.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://stairwell.com/"
+      "https://stairwell.com/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRGdQcmxiWjhtU2ZkaVl1Sm9GcFFienF5N0lOZS1xTjFIM3pYZ3VkaGdMbmhTMHBNQ3pHWTc3eVpKVlNzaXZ4RjdFTVh4YTV1NmxRNkJleTFNWlNvVk1vLTFaamRwb1RXOVJFb0VrS2xIdENHLVRGV04wc0pNaFpGb3YxZllEbGVka2tFZFJ6S1B5d0VZamRlTm5LZXdCemZlV1VZVVhETVhaZw?oc=5",
+      "https://www.prnewswire.com/news-releases/stairwell-announces-45m-series-b-funding-round-301645108.html",
+      "https://www.helpnetsecurity.com/2022/10/13/stairwell-funding/",
+      "https://markets.businessinsider.com/news/stocks/stairwell-announces-45m-series-b-funding-round-1031796010"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 45000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Starcloud",
@@ -16595,10 +17010,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://trl11.com/"
+      "https://trl11.com/",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FeENzR09YdUgtM2NfM3Z4N1JhOGtrSUU0Mnp4WW9QNE16S3RSeU1URnd0THp1RkI2c1FMTlhicnBGRF9QVnpiQldHc0lYb21IX1pTNVVrRWJGT2VLckFEXzhxM0FnRkNpdWhZY3lCZFpUUnNIR2c?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpTVlieFFGYTZVNF84STNOX0sxbFJUVzJiSGdkaERiWUVjVE1jTmdKYzViOWE4NV85OVc0UEVsTDB3R1E0RGZTeWxtTVNYelREcmdvbUtzdEE0YzBnNTRJMEU1ZWJ1dzJILVdvWnIyclB1QzdJUGxnUHk5dG5KUQ?oc=5",
+      "https://pulse2.com/trl11-3-million-funding/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

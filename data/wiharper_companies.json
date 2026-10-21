@@ -34,18 +34,31 @@
     "primary_investor": "WI Harper Group",
     "source_url": "https://wiharper.com/our-companies/?sector=deeptech",
     "scraped_at": "2026-10-17T20:34:58.596436+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2017-05-26",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/correction-3d-sensor-start-airy3d-160000458.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/correction-3d-sensor-start-airy3d-160000458.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-05-26",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Alpha Ring",
@@ -105,7 +118,28 @@
     ],
     "primary_investor": "WI Harper Group",
     "source_url": "https://wiharper.com/our-companies/?sector=deeptech",
-    "scraped_at": "2026-10-17T20:34:58.596436+00:00"
+    "scraped_at": "2026-10-17T20:34:58.596436+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.flexcompute.com/",
+      "https://news.google.com/rss/articles/CBMigAJBVV95cUxQemVDX2VfcHI1ZjdNOGxKbG9vS3Y0NG5ydENaYmRPeklVVVVHTVlvS3ZENjRxbjVfWlZaN05VMHAxWmJmVFVCTS01NHNDa1F5WDFrcUtjbk9pd3kwV00weFhycmhhTmpUUk5DU3NRei0tdEdXVmZ3bDdiaVJxUVdYY3VCNndZM3lwZUlYZGlMQmV0WlhPblJxQmM5RXczemdER1UwWXVSN2FCdkxKbVZvVVAyd2JfVHBDeEUtMDEwUGRFdFNZb2hVSS02b1NtblBfUVlKM0oxWEc5Mmo1eVUwc0NUTXhyUmtLQV9iZktHSUU0SGwzQlctN1NNaGRyWm5u?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUjRJVC1fX2UzWFFxU0xoNUFhUWFNZ19QclhITm90WU9MaWcwR1J3QzZSeFNZbnhWZUVIaFNvX0ZKRGliczB6eGxnSnVFS2VCRnQ5d2M5TkQ2ejZzZ0V5S19jOXJOTFhBUHRVSjV5TFhNM05CcldOWTE0SFhYQjk0NHppcU9TVF9GYTlsV2h0UjBxS2VIOG5EWXU2dVZKWnJISEZvZg?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcTZnZHIyaHdKZHR2WldKZnNiVDBVN21ydUlnRm95MU81U2hnU1RuMEdBRGtEX1pjdGhPaWtjdUtzc2JBUG9XVmFCT2VLbFpqUlZXc3hvcW5ZakhrN3A1TXZkMEVkXzJ1STN4ME5FS1JTTTlMSXJJa1gtWXR1N2RHUUdxLXNoVDluZ3MtbzduWDQ2Q2xhZUtHTkYyZlFtVDl2aHlTYWc1TjhkOXhvb2Z4OUg4bXhRSFpXZS1PZS1leTdZaUk1?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY2R1cUNjYnFIVzNvSzM4V256UU5PRVBCVGo2TzJDSHYtVFU1RjJURTRuOVRpSXliTkM5Q1dtLWlPRGptOTU1ekU4aFpYVGJaenAyajM2MmpFbkxGVkNyQndYS1RMRUx3eFVmdGNmdEJYSDA3VVhGWGJqY0tjZzZYS3RUT0dQRS1zd3BoVjFmcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFlKZUF6THdDQ0pmQnEwQ0dWU05tdmxqbENJOFRyX3o4c0kxR1lsdUZ0REl5S1hnUC1qaXdrZXAwRXVKNV9FUF9CWFVWTHVEX3VMdEVxRm9BOFhRWFBySmN5dG5FaTVrNU1PVEwzZlJoRnJJR3VOMHhYM1d1Wm05M09XaGE1YXhuTHZCbWxOb0ZYSW95dVhPZ2QySmpCV1Z1U2ZQM2VTTjIxcDRzNlVac0Z4N3IydDl2?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxON250bk5fWFdiam1sOHJpeXFCZGNwcFljODlaWUZFSDhlSWJmaEZyU1ExTzNYOGM2Rl9Jak0tamhFcEliSThiZW1VOWtaM1plSUJ5X1BfSW9CVERpcmpzLXFDZUlaSkFRYWdQeHh2dlFvak5tVjNsZTBmTnBvZFMyMmoyS2g1ZjVZUHRZbEprc0V0eHhw?oc=5",
+      "https://finance.yahoo.com/technology/ai/articles/flexcompute-raises-strategic-investment-samsung-125500701.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Glassbox Tech",

@@ -1953,20 +1953,39 @@
     "profile_url": "https://alleycorp.com/companies/alchemy/",
     "source_url": "https://alleycorp.com/companies/",
     "scraped_at": "2026-10-11T13:22:00.558425+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2026-02-23",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.coralcare.com/"
+      "https://www.coralcare.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZVVLN0tYM3VkWTljZnJqRWprRDhJTVFiNFcwVk5QWVMtSk55LVJZdmFaM29BSTJ1T2kxNTJnN2VDNjhWbm5XcUNiWkZ5U1RQaXBQY1FXblhBTFdMS1lWbktCcmViaWVlYmVKc2tkYmhuTWdDVWFwY2tWem4wOXZRS3F2SUlpYS00ZkV4bm04M0ZxR18xOTBCaV9tbk9VckxwbFg2eERSaw?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPWi0zUFZ0VW5rQkNkZmRqU29SOHJ2UmFNSW00TkE4NnMyVGE4dUlqb1RmT3FiT2l6aS1DRy1HU3E4aWZKUXItbkpncHhDTVZmdjhXUXFyeUEzTE5jNVB1akdwRHdKY3lHU0FWbG96RGVGYkNIc01EbmJZUnI0MDYzZkpoREZHb295VFZhNm40d3hLTDVjQUZFRV9YUDV1Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaVgxQ0xXeC13SngtUm1FcElvaGk5WnFIMXQ3X3I2V2dKSGhiMVZZN3pTai1PUkRBNGFUa3hNZk1zSERmZU0tbGJLejlFeUVhcWMwSTBHMXpYMTZDVktEWWk5aG5IVkt1RmM2X09NMk44bklBdzE1RWZCUmV5SU5RWU5vTmplcm1ZVGdCNlFMUDRSclk?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcE4wUDdNWXVWYlRfOWpYcHlXdnJNSF9wSXlDUzZueGtrSDduZDFhNjloM2hnUlUyN29kbEN6WFJxOWtvV0EtcHRHNGNSUnJ6c0lHUENvcklDNS1VNEllVGt4T0E5bURQOVQ2VnY0NW1PSFQzbHBtSXMwWlYtR0ZCa25RS21KS1VrMUhJV05jX0dHUkY5SldwUHVMam1rc0o3UV9rU3NvdkRWWi1Rakh6bS1Yd2o0R1dZRFBQMGNYYXpMQnNHVF9MQXBaVkxzYVNCM3I4QmpjMENiR3M5SGxjMTdxcFE?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MSFJfNm4yeWhFU2J4WVExUVY4aFgxWjYyQlQyaWdmOHkzUVZ2ZGhpZzVZTXBaTmtMR1lFVWdOTlgtS1R1aW9GQWU1X2NoRlpmODI2VWlOVTNBRlZoanJUaExoRkpYUjc0WU9FS1l6OFZ6X01uVEE0?oc=5",
+      "https://pulse2.com/coral-care-13-million-series-a-raised-for-expanding-in-home-care-nationwide/",
+      "https://medcitynews.com/2026/02/coral-care-raises-13m-to-scale-in-home-pediatric-therapy/",
+      "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Birches Health",
@@ -2194,7 +2213,23 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://everphone.com/",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNN1ByYURlUWh5TXY5RDlZMnNUdmEtYmsxTFVqcTdGS19ETGdGQ3RYVFVucXlZSnVmMjZMekYtenRfbzc5REpYT1YxX3VxZ0FoVkNmaTVObWlhRndDSGxodzlSZlBHMVJvcnBEak9hcE1vaXRsbHY4QmQxQ1VlTEc3cjlPczlFa3hmNGdpWXp2Z05lcExrVmJiUk1wU2RGMkM4ZXh2S3JXbTdJUmVSN2kzU0NOTHNJcnhmUUx6SmtSTGFwcWd4RHJ5M09Dc01QR1U3SkxseHl2UEJDNEk5UWZVWUN2ZG5Wanl6Smh3RDgydWZRRTEzR3c?oc=5",
+      "https://finance.yahoo.com/news/smartphone-leasing-startup-everphone-raises-073000737.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Viam",
@@ -2479,20 +2514,39 @@
     "profile_url": "https://alleycorp.com/companies/coral-care/",
     "source_url": "https://alleycorp.com/companies/",
     "scraped_at": "2026-10-11T13:22:00.558425+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2026-02-23",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.coralcare.com/"
+      "https://www.coralcare.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZVVLN0tYM3VkWTljZnJqRWprRDhJTVFiNFcwVk5QWVMtSk55LVJZdmFaM29BSTJ1T2kxNTJnN2VDNjhWbm5XcUNiWkZ5U1RQaXBQY1FXblhBTFdMS1lWbktCcmViaWVlYmVKc2tkYmhuTWdDVWFwY2tWem4wOXZRS3F2SUlpYS00ZkV4bm04M0ZxR18xOTBCaV9tbk9VckxwbFg2eERSaw?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPWi0zUFZ0VW5rQkNkZmRqU29SOHJ2UmFNSW00TkE4NnMyVGE4dUlqb1RmT3FiT2l6aS1DRy1HU3E4aWZKUXItbkpncHhDTVZmdjhXUXFyeUEzTE5jNVB1akdwRHdKY3lHU0FWbG96RGVGYkNIc01EbmJZUnI0MDYzZkpoREZHb295VFZhNm40d3hLTDVjQUZFRV9YUDV1Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaVgxQ0xXeC13SngtUm1FcElvaGk5WnFIMXQ3X3I2V2dKSGhiMVZZN3pTai1PUkRBNGFUa3hNZk1zSERmZU0tbGJLejlFeUVhcWMwSTBHMXpYMTZDVktEWWk5aG5IVkt1RmM2X09NMk44bklBdzE1RWZCUmV5SU5RWU5vTmplcm1ZVGdCNlFMUDRSclk?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcE4wUDdNWXVWYlRfOWpYcHlXdnJNSF9wSXlDUzZueGtrSDduZDFhNjloM2hnUlUyN29kbEN6WFJxOWtvV0EtcHRHNGNSUnJ6c0lHUENvcklDNS1VNEllVGt4T0E5bURQOVQ2VnY0NW1PSFQzbHBtSXMwWlYtR0ZCa25RS21KS1VrMUhJV05jX0dHUkY5SldwUHVMam1rc0o3UV9rU3NvdkRWWi1Rakh6bS1Yd2o0R1dZRFBQMGNYYXpMQnNHVF9MQXBaVkxzYVNCM3I4QmpjMENiR3M5SGxjMTdxcFE?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MSFJfNm4yeWhFU2J4WVExUVY4aFgxWjYyQlQyaWdmOHkzUVZ2ZGhpZzVZTXBaTmtMR1lFVWdOTlgtS1R1aW9GQWU1X2NoRlpmODI2VWlOVTNBRlZoanJUaExoRkpYUjc0WU9FS1l6OFZ6X01uVEE0?oc=5",
+      "https://pulse2.com/coral-care-13-million-series-a-raised-for-expanding-in-home-care-nationwide/",
+      "https://medcitynews.com/2026/02/coral-care-raises-13m-to-scale-in-home-pediatric-therapy/",
+      "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vicarius",
@@ -2655,20 +2709,34 @@
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
     "scraped_at": "2026-10-11T13:22:00.558425+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2023-06-28",
+        "investors": [],
+        "source_url": "https://betakit.com/shipping-container-marketplace-boxhub-raises-12-4-million-for-global-expansion/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://boxhub.com/"
+      "https://boxhub.com/",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1hSZU9fdmp5b1lhaVVNOU1HT1NNd1hJVnNLV2FVLWNSM3FKZnFQcUNyazB5NlRrV3NVazFjNTVkNk1icVpjR0hNemlJU2VwcmZtUmRaYkhJRTNHQk9nel80ZTJubWt4c1pqTDBqWWhMd1I0WUQtenllRU5MTUtweHZteUxZQ2NoU1o0Z3Jpam9XRDN3SG5BU2o5N3prek5KMlhnSEtINjNuaG8?oc=5",
+      "https://betakit.com/shipping-container-marketplace-boxhub-raises-12-4-million-for-global-expansion/",
+      "https://www.newsobserver.com/press-releases/article276830526.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Siftwell",
@@ -2988,10 +3056,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.chambercardio.com/"
+      "https://www.chambercardio.com/",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPei1scDBaaU1JS2REVWlkTmt1S2gtTERIbHFhRzNxczVfT1lEM2hqLVg0dEg3QjJ3T2xndXVwVDNmVnNhS21uWW1sYWtkeHlNYTQxVWpBZTVFbldQa2VCcHliYmc3UHJxZlExbXlFQmRxX05DQUNhc05oMEM1WUVKU3JlZERIbHRuS25fdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSG16TW1oOGJUOThULUt5MGFjWGJEQkF0VzVnMUJSb0JScWNUdlFla2ZqVnBBRmd4ZngyQWNOcXVFWURWM2hfT05lU1hzUG5YREVkS0lSV0ZaSTl5aHhQVHBQa3c0bXQ0NXdYckZoTU1ZUGpfTVVDdnN0TTBFLWZUblBEdWZ1Wm12RUNUYUVFT0NvNlJNUzhCVWJHVllHcVFreEln?oc=5",
+      "https://www.mobihealthnews.com/news/exclusive-chamber-cardio-secures-8m-seed-funding"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -3016,7 +3087,23 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://blacksky.com/",
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMGVlNFgzRThZbWhVdE9lLTlaT1MtSzE5c2x4eExaWldUZlY3N1ZVc2kwMElXZlZXV0RQZFBQYldpR0w5dlVXTnlsZlZsaFNsNUFGV1AxWDRtbDdTOWpfdm9Qd21iWnNDYUF3X3RldDJzaHNCYThHWE5VOTNYV2JDdUF0ck85RjJYRXhzVGhSMk9pMlNlRFRyeTVkUnYyWnpPUHBiU0ZCLTE2bEJxQnZTeXBvRzM1ZXJIQkkzQlRtWFB2Y3IyNmY5UlA1OG03VlEtaTRhMW9JWWxhZDJGTGNENEpYM0JWZFJmZ2otTUFOSEg4azd2SXRHTDFDS1VRV1lULTRKY01Obm14RndqdWk0?oc=5",
+      "https://www.streetinsider.com/Corporate+News/BlackSky+receives+seven-figure+funding+for+NGA+monitoring+contract/26115723.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Relay Commerce",
@@ -3068,10 +3155,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.auxahealth.com/"
+      "https://www.auxahealth.com/",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MMXdEOHhmZFVsWm5LTDI3VTB2QjJvNjZEbGpBdjBrMlpvbmFhY2ZOVHVIdmw2RURIVEE5LU92WHNjWmVTOVY5MmJibWZJRUt1TERWOTlKUUh4THgxT3VaOUx6M0tadTV6bTVXVGVDVV90eFIxbzlN?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -3971,7 +4059,44 @@
     "primary_investor": "AlleyCorp",
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
-    "scraped_at": "2026-10-11T13:22:00.558425+00:00"
+    "scraped_at": "2026-10-11T13:22:00.558425+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "EUR",
+        "date": "2023-02-16",
+        "investors": [],
+        "source_url": "https://dance.co/posts/dance-announces-new-funding-and-welcomes-additional-investors",
+        "date_basis": "text"
+      },
+      {
+        "stage": "debt financing",
+        "amount": 20000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://dance.co/posts/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://dance.co/",
+      "https://dance.co/posts/press",
+      "https://dance.co/posts/dance-announces-new-funding-and-welcomes-additional-investors",
+      "https://dance.co/posts/dance-secures-eur12m-in-equity-and-debt-to-drive-the-future-of-urban",
+      "https://dance.co/posts/dance-announces-eur20-million-in-debt-financing-and-additional-individual"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2023-02-16",
+    "total_raised": 12000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wonder",
@@ -4146,20 +4271,32 @@
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
     "scraped_at": "2026-10-11T13:22:00.558425+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-06-08",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/classtag-raises-5m-parent-teacher-214928376.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.schoolstatus.com/"
+      "https://www.schoolstatus.com/",
+      "https://finance.yahoo.com/news/classtag-raises-5m-parent-teacher-214928376.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "KidPass",
@@ -4332,20 +4469,35 @@
     "profile_url": null,
     "source_url": "https://alleycorp.com/companies/",
     "scraped_at": "2026-10-11T13:22:00.558425+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 14400000.0,
+        "currency": "USD",
+        "date": "2021-09-08",
+        "investors": [],
+        "source_url": "https://betakit.com/aon3d-gets-14-4-million-cad-in-series-a-funding-announces-partnership-with-private-space-agency/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.aon3d.com/"
+      "https://www.aon3d.com/",
+      "https://pulse2.com/aon3d-new-funding-closed-to-scale-high-temperature-industrial-3d-printing/",
+      "https://betakit.com/aon3d-gets-14-4-million-cad-in-series-a-funding-announces-partnership-with-private-space-agency/",
+      "https://3dprintingindustry.com/news/ai-3d-printing-aon3d-raises-growth-capital-for-production-scale-polymers-248691/",
+      "https://3dprintingindustry.com/news/aon3d-raises-11-5m-unveils-mission-to-land-3d-printed-parts-on-the-moon-195415/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 14400000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 14400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-09-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Percipient",

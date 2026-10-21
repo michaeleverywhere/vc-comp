@@ -561,10 +561,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://en.aptoide.com/"
+      "https://en.aptoide.com/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeDMyWGhUUUJBczFtNU9UUG9OS3NuQ28yOVRCUHIwRlhZMDFmc0RlWlZBWDAzQzRNNFRUaS1YR3hLWmZyU3BzalhfTUFXcFViN0YtSzliZk5QVUlERUNHaW9EeGtPZWEzSFl0ajUtOHA3eUVod1lnX0NjNmpORXgtcS1jUTJ0MXBKOGRvc0h3?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1094,18 +1095,38 @@
     "primary_investor": "Gobi Partners",
     "source_url": "https://www.gobi.vc/portfolio",
     "scraped_at": "2026-10-17T19:19:50.011943+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": "2018-03-08",
+        "investors": [],
+        "source_url": "https://vulcanpost.com/634944/carsome-series-b-funding-malaysia/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeXozLXVlcUxhdngyOUVRY0xxaURiclhsOFpQNjAxdGYybGZqRm5EZ2tGSEQyTy1KbkNUbWp3WHVWOUFEdm1GRTJDT00wSFhXOWVTeVprbjByQ196UnZhVXdUcnVQeXh5RER2ZlQ0SVlMalFHQUtUc0ZfcHBwaGI4YWtVOC1zb2s1NERIamlNdUJkNmpIOUQ3Q2g3Vmo3WENPSF9RampZQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUdES0I3dE53TndmcFdFTmdKNEdSNmNzclZyejloeWRpUlREVFp6M0JkOWdScklZVHBqWGxVUmp4NDlVcnlIOGd2MUFvMHdES21DOEQ0YjhtZTlsNVZXREJ2enpfblh0S1MzS0kxejA5Qkk4V3pMRzMyV1FmN3dBX254c1JVdlFhX3dvYm54ZjlEeVRQeHRlWnRlbld3bGNGRHhRVklzWGlrV0NXSnRHYnAyNUxlbWVrZDRia1IzSEhaUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQczEzOW43VXl4TjNGWGQySl9yQXRIWm5HWVUtamRhNkVaRjI0Y0hKLXFZM2RNVlZ1U3JxZmRkeUdnajYtT0NpdFFXODh5YXc2OXVKaE96UHBjMXBfYW0yNXZDNW5LQTE5NkpMMWRNSGJTUnFSSENkYXFUNjllZ1RmZlNDWTVNd2tJX1VycUtfaVlvdmRiRkE5UnZKV2p4UkozZGk4NmFfY1dIUWRUN2FJ?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV1pFS1N1UzFqZVQ2aE1SY0RDVEdEMEdOcHNCYnlGQ2hraVRFY0dWdjB4a0poU2R5Rm43RUtzZzBTN0RwNTY1OFhyUUFRVnh2c01scEZmRjJIWmRWS3BTWHJTTWx2ZzdZQlRVLVVka0NIWWpmRzhsLWViT0Z4dnI2bUcyZjZSZjB4N1lpZmlITXl5UUc3bkVUdld6UjMxUXEzdEhnWVk5S29vc3lzOVpYMWdUZi1teTJ2bnM5YnF0TG8teEFXYW1mZ0dPRdIBvgFBVV95cUxPRjJfcEtKRjV3M3p0bk1obmJGTUliOFRmRzRoQ3ZpdTR6amxkT0dRa3dXLVE5b05JYkkwRGZWSnVFcVNYVnFFWFUwcFRYZmpSaXNaeWhvWk11WnlUYXdWY0xBVnFIZGRBX2ZSNi1idFVTeUNRclJFRHhLYS1DWnhNLXlxTDZuMmJndU9FM1BqUjg5RUZaV1VNWVZNcXBhQjRwYVdXUWJoZXpFeU1RQkkwanl4S25yMFA0VWxnNy13?oc=5",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0VOc2lORmlnVUVXUzA0NllWa2M2aDRJamYyc1E2Ni1KTldkTS01M0t2SWVTT2duanZxbWhZa1g3cUg2NXJqaGtVU0xTTXpQUGNWa1VZT0xlTlQ2NEFZb2xhZHhTVFhvbWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHJJS2tsdjMyb0Z6Rmp4ODd1OFJfRFlOWk9aOHotSnozUVNWbWlMUDJyZ2RCaFp2WDl2U3dRWHIwTTNSWGkza1IwRzBBZDltdVlrVm12YUxMRFlpQXA1LVE5WWZFS09wbnBUdG4wYlNzUHhnWlRWZGFhUGN6Z1lqeDkyUzFEb2k2aVl0dUg5LS01RlRtNnItOUxDN25UWkh3MzU3RTBHVkFHX2s5cHlEa3pBSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUmgwSG9aTW1kS3lxQll6NEJ6ZGZIT0FMcUVPdzFfeUpoOUpOamNjZVpqWFByZmd1NzVtaW1TS0pJcnBGSVJCSy1jZUkxMEMybzcxbmk2dzJaNS1LN05YNTNuejI0emFMNjgyNy1HblhTSHhMY3V6TWhreVo1Zk9KcXV4MFdTVmdRSFROYVVvVkhZdnJpSS1Bblc0ajJJaW1jS2RfbVBENkNDczRxVlNjQkI0S2dFeUZrMnRqUDF1RmN2OVR3MTkyR2R3OGo0azdOcVdfYg?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSFBMdFNmV05zbkFiUlE3WkRYdmZrQVVnTkU0Wkw0OEpGWnh3c042U25RLWZ2Q1dDekltVnNsWlB2aTc1akh0STM5R2FVUEJIZVMtU1JTRmUwbW9TNXFFaTJzX3pOU0FYTlRqQVRWS0Q0UGFqcHk0b2pwZDlIamZTMmJ0SlBOdDNZQTBGZVRWZy1PaUNPeWdrZkdRc19zQmQ5VndoREpB?oc=5",
+      "https://vulcanpost.com/634944/carsome-series-b-funding-malaysia/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
+    "last_round_type": "Series B",
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": "2018-03-08"
   },
   {
     "company_name": "CAStar",
@@ -1279,7 +1300,50 @@
     ],
     "primary_investor": "Gobi Partners",
     "source_url": "https://www.gobi.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:50.011943+00:00"
+    "scraped_at": "2026-10-17T19:19:50.011943+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2022-07-25",
+        "investors": [],
+        "source_url": "https://www.cloudeats.com/post/cloudeats-raises-us-5m-in-series-a",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Nordstar"
+        ],
+        "investors": [
+          "Nordstar"
+        ],
+        "source_url": "https://www.cloudeats.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cloudeats.com/",
+      "https://www.cloudeats.com/news",
+      "https://www.cloudeats.com/post/cloudeats-raises-us-5m-in-series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-25",
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Nordstar"
+    ]
   },
   {
     "company_name": "COLABS",
@@ -1527,7 +1591,22 @@
     ],
     "primary_investor": "Gobi Partners",
     "source_url": "https://www.gobi.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:50.011943+00:00"
+    "scraped_at": "2026-10-17T19:19:50.011943+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.daydaycook.com/en",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQURaTVFJRHFsZjRRUEJMdWFYWXozT0FhSHd0WkZBbnNFQTBONm0wNnBJNHNFUU5qQ2tuNjE3UWFmTFV2RnFIcU5GbUVXMVhWbGpHLUdEVEt0TW5uMDM3Rkg2LVJNMXpvQ25vZW1aT0FGZ0RIZjhWYkxlLS1YYVhXcmN4WnpiVWZ5UjdoeWdrLTZLaTh1OTR1TmVVaS0yd29aTmVrY3dR0gGmAUFVX3lxTFBlaVAzQ2xLMjk3d084WS1GWXBGU3FjbloxRnAxVHlYcUNkZk1KR0RkUVp6WXFsc2VOb3dTbWEwbnpmUldzNXNUdDliTkc2WHotb2VoWmE2OHEwYjdzem5sR1BxV204WGxDOHZpNGo2VDdLTnRKbURTcGE4VC10eDdtODdDQUtJRDVZZ241bFRLVUdiZkNQdUQxLVhaUi01RDJKOHk3UVE?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Dayta",
@@ -2332,7 +2411,22 @@
     ],
     "primary_investor": "Gobi Partners",
     "source_url": "https://www.gobi.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:50.011943+00:00"
+    "scraped_at": "2026-10-17T19:19:50.011943+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fastwork.id/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlZzc29oSXNQSjhMZWtsRmFOeHd6bDhhV2pIMWtXTnRCeDRZMVZtTXN6dVIyZWpFSjlidjVocENTTDA0dk90QktKZ1JJeUZnWHZrMGpSODREWmhUWUwxR09ILTZXVUJSREJaajhsT1I4YjVpU19odTZTMUZXM2w1R3BDTVNSX25QTXE2ckROV2VYbTlfaGVV?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Favful",
@@ -2508,7 +2602,21 @@
     ],
     "primary_investor": "Gobi Partners",
     "source_url": "https://www.gobi.vc/portfolio",
-    "scraped_at": "2026-10-17T19:19:50.011943+00:00"
+    "scraped_at": "2026-10-17T19:19:50.011943+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcFF6RU11OEx1b2p2M21FMHo5RmpYOElKMlBpc0xGc1RCNFJyZFNQNDB0dlVDM2RlNy0wRFlrOGpfMm1ZTTlIbUwxTEUxMjdnc3BlbWdIVzQyTm5lbmRQQUZkdS1VdzlreFI2dHZINE5YSW9BYzZ6TzZGVzFNeEFBRDhQV2NhQUJLeHBIRlBRX1BOOE9qOXNIaUItYUxtMnNpb19NVV9kYnBob3IwS2JYdGR3c212TWFlM09hWlVWaHZqZS1NTVVCcXhueU5hZ3dnOUJLbU9fbXlFQQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Gense Technologies",
@@ -4590,10 +4698,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://priceoye.pk/"
+      "https://priceoye.pk/",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN3M5cGd5Vm5mSmVheGwwOTZYQTJxV3NkaHktZGhfSi1DeksxVTFEY3A2U3NDSTdpc3hhb052MGduYUJvSl82SkNjMGhwVmh4WGF1MEYxVWxGbFFnbFNZX1BWeDZ0MTZmZ3RGZlp4NW9NRTk2ZllsdHdjdWdfeGgzMlpFd1liTzZQa2hFamhUY20xNDJ4d3RmZ2FBU0hlbV91T19rOElvRVo5ZXY5MkHSAVZBVV95cUxQTzk5c0VpUEFvYmxGcWZLbkVkQzlnMzZUTW9VU24wM0YteDhTX1hxa1JYWExtTGhkaWo5dVpsSVAwenA3Xzhsa1BTRWhxSmRsZFc4NnNRQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOHp3X0FnYURzel9kTElfV0MzMHVKRzMtS2N2RlBDTFNmZjBGaE54dU5OUVRMM0Y3alNlbFRzLTBxQkxkMnI3cC1oSzhybXJyRVUteTRqWFIwdG1xM1pSLVBZRURLNDI2Qy1fa2x6Wkhqb1lnMmlKd2cyM0M5c2stZ2tzRF9RY3gyWFR2dXE4TzhiVHBWU1NLWEpjVFV4WGRRaWNIVzZOZVJPTVA2VlZDdmhRRGpGdFd1U1V3azRRX3pPSFZUVGsxRG5ORzN0SmM4aU1JWVl30gFWQVVfeXFMUEhDTXM1bnd2TGhVclE5dGljcVQxV1M4V2FmMFliR0ZyS05VSjltenFqSlNJa21nSl9QYVhGOWJkWjJqMXdMNW8yWDZ4djJKRlppcl9jUXc?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOWZSd3Bzbk5VWGlYbHQzeS1YM0lrSjV3bkFzQnJ2eGZoMVl0bnY3MURnVEp1WXFjY1NtTDBxc0syeU9yT3Y3NFpVYTFjcjdqclp0WHFDbUJsQ3lxR3hSWjR5X010RW9yXzB4cU5PVm9UUGFtRGs5XzFITWp3bDNtdndidDRwa1J4bWNsZjB1Z0xsX2JvQlE?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdmtOa2N6TjgxeWtucDVldG0wWWF2ZGJRTXJ5X21oRjFmRWptcWl3TEdERmhfWW52RGtSTFpHem1MbjVlWWlSLVh3OVdPdVVDU01zaUVrTGlpMnJBUWUxUW5oWjB5MVRPdm5CQUJNdmRmOFpIenN1STBQRUt2aVVYYnlfTHFXQ1NlRFVSbElUa1Aza0x3MGtoMVBSQmJZcnAwbmRaTXo2eHDSAa4BQVVfeXFMUExJa25DUmZDWnJHRmNiQXpSOTRveDFOcHJFeVZEUFpaV0VjOHN6WVRHX2NiTDRDUEtDN2gzVkl5SjJXUV82aTFoZS1wWm9QU0FPMVFYRzl4eFBZalB5WkN1c3lYQWthb3g5R1gzTTAwZTBWank3dGpIdzdiR0IyNFM5aEVlT0o3U1ZkTkN4eUpKd0pZelZfdjZKOFRKTUxEbkNXSWFaVGtfQ0l6R0J3?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQmxVcGg2Q1ZSM09PeHMyZUE1MjRBbnFwbEpvanBQOWlSaG5vRk1sSzMzamRzWE9yLUZoUC1QMHVTU0J3RDhOQmMteEk1LUJybjdkTlh2Qm16RlZiQkhzQ2NYSjlfSlRUMkJnVEI5VThNMVNDQzlueVFXOUx6NlViWjBLNW0xSnN6Rm93RGF0ZzBPdm9fbGcydm5hcldoOXJ4ek83MmdZb2Y2S0xpajVLNGF3ZmNPSGlHQVhtaTJzYVJCYlZ0Y2xR?oc=5",
+      "https://www.brecorder.com/news/40194683",
+      "https://www.brecorder.com/news/40015245"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

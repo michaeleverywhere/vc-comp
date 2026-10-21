@@ -756,10 +756,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.getauctor.com/"
+      "https://www.getauctor.com/",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUN0R1U4SWhRNVdZbWJ2Nkd6X1lLZ0RiRXd1S2M0bFBHMnl0eUdobEhkUjI3RzZOMXZsYnB3R2ZxUEJaS0tNeG9leDA5V0NOOGptMVAzeWFKekNoc0dOMkhLSExkYVQ4WGxzd3ItTDF1OGpvejlWNDB2eHhVREpWRHROSy1MNTN2aGpCcVdFWERjOHhtRU4tOGxlMTBWRlh0QmVZakN1X0Y?oc=5",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOY2hNQm9fZnlhVG9IWnlHaHgzSmVRTFFEQlhtbURSNzBudkZTNmpFaGNQbjJULWVpUXdXTnRZSjJBLV9zMW5KTVBHOG8xVWZDZlR5RFpDTXZuUTVRSnFTemRpUnI1WW14d1RZRFNEQWJZQ09jVnJoSWE4QUY2M0dYUzRWRW1wdzhVWWd4WmZ1czZnbzVyLUR4dVA4ZHBRN0U4dnFlbTlCOFg0blpxVkFwaThtMGRnMEZEamxjWWh1dl95VENWVWtjWjgwU3E2ZHNxMlNnellmUkhwQ0NHand4eW1nR0ZCWHpFeFlNNFViMzN4SURT?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT2xidk00R0duemQtenJRRnMwMmhIUVN1QUQwQjNzNmZtdERmS0pybmJVX2pxUkVwSDA2d0Rja0xuRVB0LUM5eVVVNWtRSEl4Qlp0QXRERlh1bG5rSzZmR1Zqa3l0bkRnaWNnei1ucWFablNSb0tIeUFLR3ZRUXBXTGk1Nk50SXRoQzhKc2lOWmhjRTZCNGZLSV9aR0hDY0ZOTU1uSjg4dw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -825,20 +828,39 @@
     "primary_investor": "M12",
     "source_url": "https://m12.vc/portfolio/mem0/",
     "scraped_at": "2026-10-03T21:09:14.180914+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2025-10-28",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://mem0.ai/"
+      "https://mem0.ai/",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUXM5YnBjWkRXNFRHeGdFVkowOTc4Y21GS2NtcTQxS2tObVg5N1hDNXJCNjVSM05jSnB5N1M2ZmxCZG5pTzdMY0J2eXpRY1pFSUVvTjdGdTY2WGlFdV9lVVgtY1dTWDlubFFGdVYtN01pU0NlM01NUmM0aE1rSjBWQUJFS0VmNEF6TGJZWVBUX0NleUExbk9Pbkh1eks3Q2Q0QTIxMFVJUmx3RmVqQTdTek9saTJua0JuQ2c?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjctM3RySWJyNTcxUGN4RERZSWtBWVZHOVNsWVBBVDRMUkRHbEk2VGxaRFRPRkdmRk5TMTVONGxQUlJsemxxX2M1THRLTXozanBXaERpS1JLUUc4Sl9xa1ZsRUlMRlNEZ1VnZmlBcXI4VEpQS1RGcHZnNml4UFVPMmNSbjBiUGZkcWc0b3FzY0VMX01IQlpJVGEzNnh3d1otX2RFTHR2dEk0UlhtODBrMmlLaVEwa28?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmRVM2dOZkRndE1WZndmQzlVYzBIWmY5SV9KRGF6YWc5dE9PYnRvZ3ladk9STG5wSmNYVGg5NDZlVWtSZU1FR3JfNnhQWlh6R3dUTjhZU0o3OEQtNjZjZy1EdjhsTHZybzc2LXZTQ3g2SVgwQ2lzaFFINE1SOGVNSjdjMWR0MlZCZUJ0dl9XeXd2c2R1TWlla1RSc1d3Yl93b3RIZlctb3NqR3laOHRBQmQ4UG81VTRIbmpKcThBOVp6dHZEbnd1blJn0gHPAUFVX3lxTE1oVF9QaE1yVS1aTWFZR09XazI3N1JkcWQtWjFUT0l2cVhNSkhHUjBMcjRFcFBieVd1VExrT05rOTE2SndsS0swbEhnRDJPRkI5WF85OUdZZ2NkUmNETHNJR2FhS1pWcWVpNi1FUHBnNC0zUDZNWWlwbF9oNEJ2aS1FbHFYNEVHaFQ0NDJqTjlpaXNJNVdZb1hhNGU5U1BFcTlJRFRvZ0FUUlVfWHJJSDVzNUxtdVRScDNZUTVhVGg2Z2J0YllIZDFwZF9nZE12dw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnd6Ui0wbFA4bTZETXUta1g3SUd3WjZwRzhwamxkTlo3bng4bzZMMDFPMkg3VHdYVTY3SG9Mcml0UlE3VnJRZGtMcjJyQ1Nab1M1d2RkQjBtcE81Umxoc0swczBDR3l6N0lJYTB4a3VDYXd0WGpqWVJkT2I2ZFd5TG5HU3NXY2xxOWpKV3ZWUElkclhDZW96QklSRHVPcXBBRmFv?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUFNX1pGSC1UUGIzWXZUaXBSNy1BME54cElBNVVCQ1VFNlJGRWtkZ0VZalhUOEt2eUc4U3RLdm1rS05JMEQ2NnF0Wm81ZVNXOTVEYU5jUWs5NkhGNXhRTXpabC05d1V6QTRiTmp3UjNrLTRELXMySTBydDJLcXlpZ1VRRjV6N3lFbi1pUGR5T0o4dzRUWVU1NDRTZ0ZHSmJpQV9Eb0U2dTNoZw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdTljZkJuNnJwREdYYUpXMTRVdWJtcVFYdzM4V29ob2xUYWpEZkNSdWc3RGNpenV1YW5IcnpKRms4TmZUUEdNaFUyUWVTckliN3RTWXRDNjRDbWhNMm4zLUZncm5GbzRXTktLdVpudzdHY3VTcTRYQk45OVJ0YUFMNjBzUnpFQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WQ0stM1ktNTY0TWQ4cVljbWdFc1V1YmhQeElSeXpkcS16ZUhZYlQ3LWtNaXV0VjViTDBfSVlrVWJ4V1UwalRBdkNHNmh6N2haaC12TjVGb3U4LUY3TWlfelZLRnBPdFBmenp3czhWX2Joenh6bWtpeHpYVTBwejDSAX9BVV95cUxNVkNLLTNZLTU2NE1kOHFZY21nRXNVdWJoUHhJUnl6ZHEtemVIWWJUNy1rTWl1dFY1YkwwX0lZa1VieFdVMGpUQXZDRzZoejdoWmgtdk41Rm91OC1GN01pX3pWS0ZwT3RQZnp6d3M4Vl9iaHp4em1raXh6WFUwcHow?oc=5",
+      "https://techcrunch.com/2025/10/28/mem0-raises-24m-from-yc-peak-xv-and-basis-set-to-build-the-memory-layer-for-ai-apps/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "My DeOs",
@@ -1147,7 +1169,19 @@
     "everywhere_tags": [],
     "primary_investor": "M12",
     "source_url": "https://m12.vc/portfolio/cooler-screens/",
-    "scraped_at": "2026-10-03T21:09:14.180914+00:00"
+    "scraped_at": "2026-10-03T21:09:14.180914+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Edera",
@@ -1461,18 +1495,40 @@
     "primary_investor": "M12",
     "source_url": "https://m12.vc/portfolio/bolster/",
     "scraped_at": "2026-10-03T21:09:14.180914+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2024-05-22",
+        "lead_investors": [
+          "Microsoft's Venture Fund"
+        ],
+        "investors": [
+          "Microsoft's Venture Fund"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/bolster-announces-14m-series-b-led-by-m12-microsofts-venture-fund-to-accelerate-innovation-in-multi-channel-threat-protection-302152521.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.dbta.com/Editorial/News-Flashes/Bolster-Secures-14M-in-Funding-Round-to-Repel-Digital-Threats-164263.aspx",
+      "https://www.prnewswire.com/news-releases/bolster-announces-14m-series-b-led-by-m12-microsofts-venture-fund-to-accelerate-innovation-in-multi-channel-threat-protection-302152521.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 14000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-22",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Microsoft's Venture Fund"
+    ]
   },
   {
     "company_name": "DatologyAI",
@@ -2077,20 +2133,37 @@
     "primary_investor": "M12",
     "source_url": "https://m12.vc/portfolio/wandelbots/",
     "scraped_at": "2026-10-03T21:09:14.180914+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 84000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjBtUTJSRnpscjJpUmdtS3FxNkdJLXNfYmVEdV96OGlUZ1BxYjhLTzBmcHZyV0lDLU9WN2JwME1LdHN5b0RmVzlTRGQ5enN4QzNmT0pvNXRvZkMzYWdQMndNeG94eDRsaTlzOWgzWnpyTk52YzJDQ2o5eExtOGJVeFhSU05JM1JLS1k1b0h0N0M2bTl5NkJvUk5fVV9VSHRrN1E?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.wandelbots.com/"
+      "https://www.wandelbots.com/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjBtUTJSRnpscjJpUmdtS3FxNkdJLXNfYmVEdV96OGlUZ1BxYjhLTzBmcHZyV0lDLU9WN2JwME1LdHN5b0RmVzlTRGQ5enN4QzNmT0pvNXRvZkMzYWdQMndNeG94eDRsaTlzOWgzWnpyTk52YzJDQ2o5eExtOGJVeFhSU05JM1JLS1k1b0h0N0M2bTl5NkJvUk5fVV9VSHRrN1E?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZjZQM21nOHE1QXo5OFZCR1FObUpWcUJwR2kwV05uQ1F6bzZSLXNMb2hXcGpzSkJHemZWU0xkRTlEWnNUZ3lyenU4TVZNNjBCZFhNenRFWk1PNWpaOGU2QWtpTFAtOTd2N3pWa25XOWc1RV9wMzRuWFYxVmVfeXlBcExfZmY4MzVXVVdrNzNxeERVN3NiaEFfSkdGWmZtMXhHOXk0VlNpbkdSX2tEcTNPR3VFVGdHYWFhQkhCR2hSZHpRYm44bnJ1N2ZNMk1jRXFlWGNKT2RMMUxpd0U?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdjlyRFlZS2ZiNk8wbGpxcHJ0aFZNYUtfX3c3bmUwV0ZUVXp5UmQzTTdWbk5oa04tcDhic1hnNWg4dlRjM1BTN1RuZWUyX0JyVjl3M0tMTDNCdjhESGZ0UjkxSDh6XzFobnRWWHBobXVtVEhENmNZYXFHM1JLTVVNWTctZGJpYkJQS2Yya2ZkOA?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR25CaWtiSVNmN2hackVCZzhQM0IwMEJza2FTUGJ2WTBMMS1DLWU5QXpTTThJTlJ4bk9aWkwtVU1NSVVCV1BOZzMyaXJQWHRPdWFuQ2ZjTXZmQjduZlhLQ1dFdDltZ2drbmdlS0ZUcUlyVk9Jd2FrREVqYmlJX0c5UlFFeEJkV1ZXN0NvQ1B0eFNrdFQ4MkE?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcWNkM3RxYnBQWGVaUlE2X2g3VlFFZG1oZFR1SklQSjVTbjI1MTFHNEItSU5PVUN4cnZaZG5uLUxrSnVkWXRrWkFac0t2WXpvd21SU2xvdmZNbG1mcFVPdnh0Q3NQd09LYXV6Umt5Wk1NRGZqTF9JenZUT29GNmpzb2J5MmZndw?oc=5",
+      "https://finance.yahoo.com/news/wandelbots-84m-series-c-marks-060000292.html",
+      "https://www.prnewswire.com/news-releases/robotics-software-company-wandelbots-raises-84-million-series-c-led-by-insight-partners-301467575.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 84000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 84000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wallaroo",

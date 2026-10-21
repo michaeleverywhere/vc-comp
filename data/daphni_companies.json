@@ -629,10 +629,15 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.backmarket.fr/fr-fr"
+      "https://www.backmarket.fr/fr-fr",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOS15OWQ5NW9Temg1dkJjNVN2b0lyY2hCZXRBMjhNcjNDaC14REJWdFhCV2pGMEpqTGhiczRXUmVuRlhhTlhfckxFdGN3b1RaTXpydHdmS2wxODA3VEhqcWlLdVE4UkNKWXIzWnJmSnhlRDRNdXo3b0hNM0RrOTRpSld6bkpCS1dOeVpNV0RkT212RTk3?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWkJCbFNxZlllWmpRT090NTFsSDlWWjVBMENGY3JDbWhSQlhQYXpSejBnajJkaWJMaEJ1WllERENUcE9ocTQ3M1IzZ1pyaHN0c3hEU08tbl83N2FDQXdWWEhUZFN0bkQ4QjBvc1o1NnFlM3pTWTAyaVJhWDhDdzNnTHlLRms3eENFWEgtVFdCbFNTbG5qUFRuWTJ5eUlrWWZjVFRyNTBnVjE5V3lBZV9tcVRWRm1yV2g5OWFUUEhB?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONUx0ek5iOWhPS0FaSmt0SlhWMjY1YTVYZEFsN3VrS2lwMGFoSDB2QjhodzVUY1pQQ2V6ZE5IYjdkNjBCVXExU2t5ZC1NRkZKTzJobXBmOU1BMTQwUHFQZFZDdGxhUVFCVEpoV05OQ3FUR2FreVJMTTNlNnd0emJNMEpxS3BLT0o4Vm5WckMwbzhHcGdKT2c3eHVieExQOEFTWnY5UTV5VE9Fdw?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbnpBR1k0TlpleEZzUE9DZ0hyM3VHWTNRM096UHU4eXR4SWFKa0JMNWY4SDBfZTdNaUZjSDJpZWRLTnBBZTNVYTNweGtBeWFiWW5rZHhfZDQ3TExPLU1ENm14Vk5kWWxFTUZRQXpqMkZURF9kOUdlS2NjMzRMWnY3YndYbmRKclRrMk5yY01zbVRkLUpmRjREZmVjRzA0RWtySDBtZTFR?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdzNHVm9jNTR0R0Z1RmROY0JDRjVXbnJnRmNaQmc0bWxMbEw3S2VMTFJTWWt0Uy1yWkZTa01oMWtvaWZ0R25pZy1wLXVOZkRoVWh2R3FlWUMxTTZyb0pudU1WcTBjY1ZXbHUtb0UtUGNleFA2djY3X01wVmJlaUljNTBJUE1lVmFfclAxTzg4RUplTFB0NzlQbTVQanJsSUItWnQyeTFQT0hFLVFwLTI4S09UeHVNekdzMDFDamo1aFd4TXBBdEdQSUlSTF9NNlNpSVJjM1ozam9xb0xLMmw0bVJHVXI?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -666,20 +671,34 @@
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio",
     "scraped_at": "2026-10-05T13:31:37.936394+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2021-10-12",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/swile-raises-200-million-employee-120334434.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.swile.co/"
+      "https://www.swile.co/",
+      "https://finance.yahoo.com/news/swile-raises-200-million-employee-120334434.html",
+      "https://uk.finance.yahoo.com/news/french-startup-swile-gets-unicorn-142955571.html",
+      "https://uk.finance.yahoo.com/news/swile-raises-200-million-employee-120334434.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-12",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hubcycle",
@@ -934,7 +953,21 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.edumapper.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pruna",
@@ -1726,7 +1759,33 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio?5858938c_page=2",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "EUR",
+        "date": "2022-11-09",
+        "investors": [],
+        "source_url": "https://faume.co/en/press/faume-raises-eu7-million-from-daphni-and-bpifrance-digital-ventures",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://faume.co/en",
+      "https://faume.co/en/press/faume-raises-eu7-million-from-daphni-and-bpifrance-digital-ventures"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2022-11-09",
+    "total_raised": 7000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Everdye",
@@ -2005,7 +2064,25 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio?5858938c_page=2",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.comet.co/",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNUZRNGd4VDdzY3NlNXV5RHpsTnpCck9lbHYtTjlXOGFkVVY1M3R5UjZVa2gtdlVXeC1ncm9OR25FUlNXNjVJVWtEcHl3c0N0OU1rYXV6Ynh6Q3pVMlZkSVhUM2EzWFhpa0pFQzhXalM3QVhqVmw0dXFfNW1rb2dhdUFYeTNRcHVUd3JBZ0hZd1FwbC1vOG9BRU9mS1hQaWtGY010S3BSQWxNSjNSYmxVMDFSYWZINXpjbm53ZlRR0gHDAUFVX3lxTE9HQzBVX3VrM2FsRW1CTHhmdTNNNXNIeHRSa05oTjJ3NFhMaWIwa2FYMnU3bXVYQlFUZzRvSUNVX2tOSUdzczJ2bVB2eF9fUkdjcE5JWWZKaWRmTlBldldXUlpyNUpkczVPV0c4RUh3U0JZM3Q3cE5oNEFYNkhBYWxmZUJJYjRsS2V3MTF4R2FGX2l3Y21pMUhMWkU5b0V6cGlha1NlR2FkUFA2TV9DVEIwQ0dXaDJtRTlyR1JRRUpoWlVidw?oc=5",
+      "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONFdvMm1HTnZCaTVFZ0JPTXRRTTdkLWJqRlFta0x3blVjeGlad196eGJCRHpsLTVpODdnaGlDMGZPOG12dmRLQkNXakdLdHEtWW81cnFpekMtNm1HZ2dGcWU3Sl83SENxNEJLMWdURDEzcHc5SFhVZDhleGlpX1ZEdHlzN3dlUlA4Z1dhWnZUNmpNWkYwTHh5WElYRGFmU2JFRTVtTDVGSXp3NTI1OGpKSUZwYTBMWjhkQ2IyOVZSQUV2X3pDejl5aXhhejNBQTh3NGJ0Smlwc1d4UTU3OElKZHd3NTRpSmp0LTc5bDlWUnVvbVVFYUt3R9IB_gFBVV95cUxPNUdXcWFVVkFTenpDbU8zOVdWMEt4VTV0dnpBSDBrSG03bFlmN1JjZTBXWGdXRVlBcjBramk4UTQzaGEtSXVxSWstZTRrYnlZQUVoZkliOHEtOTh4SmdEaUViYXc3VHozalRQcmlMME51VVJYNTBjWkJZZ1BuQ0V5WEh2S05vZTcxZmxJWW1hN19KV3VsYlJLc20tWllkWHNXM3pwUmN0Z1NlcmpsSTZzbEZGMGx3d2hvNjJ6TmZwOUYycHdBTk1Ea0VwNTZDM19LTnBsbExNeEZNQW9Xa2l3UG9pdzU1NHJteXlvRlBNcjliNEphUklITUNYZHFwdw?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEs5ZzYtUGhLMkFnZEszUm9OTDVXQUZaeFJaOEQ3bm9vSHF1eGRMWUpveVB4ai0wb3gwVFdwQ0VyN25iVDBOTmNuMnhRMTRBbUFaMUJsTDBPcktCV0xpVHZ6LWdjQW12SUVSZlRXemxINnZ2TUtRcHBObUViRkUxLV9BSEItTUVzakp2QnpMVE9SdGU2MkdPZzg3aw?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNckNvNmdyaGJyMUl2eGt5Qk9SeEFkc28waHpZUmtQOTdUR0tqaWtMWWlhUDZ0cGo1VWNsWFdIczFpTTV6NkQzSkFUaUlZT2tZdUViUUl0eDNEb2c5aEFLUmwyZVhXVTVVM0Y2YncwNEFDVGV3TlZvUU5xMVBRQXFMWGdCVXNlTld3Xy1KemVBZDRGXzdWcGo2NW05S21iZDFGeWduQld2dVdhTk81VlFxRktfUVd3WDkzMW96OHc0UXgyZVhIRXZqeVI0SWhDUnNtTk14VndsSmpMUdIB3wFBVV95cUxOWjVYTVN0eEg0bDc5bUQyYjRCempVS1lGRnI5X0pyQlFPVmE3VVdzVmJoX191NXZmT29LZ1gxd214WG1vSnBGQ3h5Z1gyUTRRSkFLekJCNG4yTWpOQ1drVlB6ODE5NnplUDBfQ3hmSkFlRzNXRXpiVG9pTl9PXzVhb0tLam9GUW9yanI2UU0tRmtiWFd5dnlvWXVRTDcxYmRQeW80Mm9ZVHZFUzl6bk9qZlk3MXE4ZDRzMEpNTWRBWXJLS0ctT19RcUE4NGt5b1RyeldMTWFCblpSajRkT0xB?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zoe",
@@ -2881,7 +2958,21 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio?5858938c_page=3",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hemea.com/fr"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "H Company",
@@ -2955,7 +3046,22 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio?5858938c_page=3",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cozycozy.com/us",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YSHVaWnY2cUxkMzdtUVlPREVxa1I4S0lIZVRwaGkzM3huTjY4TXp5VFdqNEluRldVcnppS3Z0QVBLNmpjaThUejFoRDhDVk9PcWpKMFNR?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Codigo",
@@ -3011,7 +3117,21 @@
     ],
     "primary_investor": "Daphni",
     "source_url": "https://www.daphni.com/portfolio?5858938c_page=3",
-    "scraped_at": "2026-10-05T13:31:37.936394+00:00"
+    "scraped_at": "2026-10-05T13:31:37.936394+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.carbonmaps.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Beendi",

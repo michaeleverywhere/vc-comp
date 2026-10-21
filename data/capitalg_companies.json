@@ -3103,7 +3103,22 @@
     ],
     "source_url": "https://capitalg.com/portfolio/",
     "scraped_at": "2026-10-13T21:07:58+00:00",
-    "primary_investor": "CapitalG"
+    "primary_investor": "CapitalG",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dtex.ai/",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ2RiMHVaVkVvdldtOGtETkRqUmg1ZFVjekZPeDFyTjg4SnpNSlY0UEZvUEFIbkc1eG1YaUFWTXhIUzJKTEhzRENYWWs3SnJGNVdQUWhTUzVWZExTeHpMeW1BZUd3UTBwTGNJT1p1XzR3d2Zub2hPUXFiRTI0UDA1TGFYMmJ6Ujd6RzAyNXpJWVpBYmhmUnlaVllR?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Grafana Labs",
@@ -3671,7 +3686,33 @@
     "source_url": "https://capitalg.com/portfolio/",
     "scraped_at": "2026-10-13T21:07:58+00:00",
     "location": "Bolivar",
-    "primary_investor": "CapitalG"
+    "primary_investor": "CapitalG",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7424216.0,
+        "currency": "USD",
+        "date": "2010-07-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1160951/000116095110000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.duckcreek.com/",
+      "https://www.sec.gov/Archives/edgar/data/1160951/000116095110000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7424216.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2010-07-12",
+    "total_raised": 7424216,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Thumbtack",
@@ -4184,7 +4225,33 @@
     ],
     "source_url": "https://capitalg.com/portfolio/",
     "scraped_at": "2026-10-13T21:07:58+00:00",
-    "primary_investor": "CapitalG"
+    "primary_investor": "CapitalG",
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 140300000.0,
+        "currency": "USD",
+        "date": "2021-11-18",
+        "investors": [],
+        "source_url": "https://expel.com/resource/expel-raises-140-million-in-series-e-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://expel.com/",
+      "https://expel.com/resource/expel-raises-140-million-in-series-e-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 140300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-18",
+    "total_raised": 140300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Orca Security",

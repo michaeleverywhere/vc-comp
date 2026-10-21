@@ -698,7 +698,31 @@
     "everywhere_tags": [],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 76000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.cdr-life.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cdr-life.com/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 76000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 76000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Checkmate",
@@ -842,7 +866,21 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gilead.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DBV Technologies",
@@ -934,7 +972,33 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 119999970.0,
+        "currency": "USD",
+        "date": "2015-08-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1650664/000165066415000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.editasmedicine.com/",
+      "https://www.sec.gov/Archives/edgar/data/1650664/000165066415000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 119999970.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-08-04",
+    "total_raised": 119999970,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Egalet",
@@ -1037,7 +1101,44 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 101000000.0,
+        "currency": "USD",
+        "date": "2022-02-07",
+        "investors": [],
+        "source_url": "https://endeavorbiomedicines.com/endeavor-biomedicines-closes-101m-series-b-financing-to-advance-clinical-stage-precision-medicine-pipeline/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 132500000.0,
+        "currency": "USD",
+        "date": "2024-04-24",
+        "investors": [],
+        "source_url": "https://endeavorbiomedicines.com/endeavor-biomedicines-raises-132-5-million-oversubscribed-series-c-financing-to-advance-pipeline-of-transformational-medicines/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://endeavorbiomedicines.com/",
+      "https://endeavorbiomedicines.com/media/",
+      "https://endeavorbiomedicines.com/endeavor-biomedicines-raises-132-5-million-oversubscribed-series-c-financing-to-advance-pipeline-of-transformational-medicines/",
+      "https://endeavorbiomedicines.com/endeavor-biomedicines-closes-101m-series-b-financing-to-advance-clinical-stage-precision-medicine-pipeline/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 132500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-04-24",
+    "total_raised": 233500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "enGene",
@@ -1083,7 +1184,52 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14999992.0,
+        "currency": "USD",
+        "date": "2016-01-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1633932/000095017216000137/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4999998.0,
+        "currency": "USD",
+        "date": "2016-03-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1633932/000095017216000168/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 36000000.0,
+        "currency": "USD",
+        "date": "2019-08-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1633932/000095017219000105/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1633932/000095017216000137/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1633932/000095017216000168/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1633932/000095017219000105/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 36000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-23",
+    "total_raised": 55999990,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Etherna",
@@ -1204,7 +1350,36 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2022-02-21",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20220222005492/en/EyeBio-Raises-%2465M-in-Series-A-Funding-to-Develop-New-Generation-of-Eye-Disease-Therapies",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.merck.com/research/ophthalmology/",
+      "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa3l6ZlJNWXFFNVR4VXh0M3phcHpuWXF6VFhZWFBhSnZXOUJaZ2NUcWQ0UWNFbzlQMVctem5WTzRwNTVWZUlBZVVhSXAzOUc2YTUxOVZ0ODdMQ0NzS0ZSM201N3BTOTFSV0pxTE10YWN2bkx2WjJRRWNHQlZRaVdxOXBiNVdobTlTbjVHUmRfVmF6MGFGZHluOWNPTFFkdkFhN2R1MmJRdXFobWI1dGlMZUhFSFNEc2h6TW9RZlNYYXJVelQ1WkF1WnhUcmEtZDAyUU11TS1DVXlqci1Qc1FMejMzUHFYMk9LQ0I3SzdJVFN3RDBQZTdwQ2N1UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSjdBVzc0ZUxwRWxzUlEwT3NIOXBvUjJLZjZoYk1PT1lMd3lBdi01Xy0xYkx4X0tXNHRaLXBKQ1JOQ1A2WEJNVVV3SkNxZWxvWlFOYTllUXpmSFpYSnd5WU9nUFpfWktzTndnMm5JU0p3dEVnemxwR2NwN19McS1OQmhrZmZVUEdtX1VFU1JRZ2R6U3ByczROVTdlblNqV2phblQ0SUM3Y1YwQm9TV3l0OUhlZGhTVWJMTURhMV9EZE9mZF9XMDRPSkExU1NZMVU3Ylg2MVZPVzU4QmZvb0t0dDR3?oc=5",
+      "https://www.businesswire.com/news/home/20220222005492/en/EyeBio-Raises-%2465M-in-Series-A-Funding-to-Develop-New-Generation-of-Eye-Disease-Therapies",
+      "https://www.healio.com/news/ophthalmology/20220225/eyebio-secures-65-million-in-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 65000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-21",
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "First Wave",
@@ -1266,7 +1441,22 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gelsight.com/",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNU5aZk5nTXl2VTYzOGpPQXliLWxmS3k3aDFhRDcwY1Jod1VvaldGeTJWODh0VVBodzVlaWZNOXRVbVlKSFVDNldFLXJXb3BxRml3WVBqQjgzS18xVTd2OHZjU0dYazRxRkU0NmVJeU04a1p0MXdWY0ZGQ0QyQjREVjRJcGFPVzZCcTB3?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Gossamer Bio",
@@ -1627,7 +1817,72 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6667672.0,
+        "currency": "USD",
+        "date": "2013-12-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000159486413000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 28423971.0,
+        "currency": "USD",
+        "date": "2014-04-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000159486414000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 85499985.0,
+        "currency": "USD",
+        "date": "2014-08-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000159486414000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 898495324.0,
+        "currency": "USD",
+        "date": "2015-06-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000159486417000029/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 31091407.0,
+        "currency": "USD",
+        "date": "2017-09-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594864/000159486417000036/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1594864/000159486413000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1594864/000159486414000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1594864/000159486414000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1594864/000159486417000029/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1594864/000159486417000036/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 31091407.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-26",
+    "total_raised": 1050178359,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kestra Medical Technologies",
@@ -3355,7 +3610,23 @@
     ],
     "primary_investor": "Omega Funds",
     "source_url": "https://omegafunds.com/companies/",
-    "scraped_at": "2026-10-17T21:11:02.272762+00:00"
+    "scraped_at": "2026-10-17T21:11:02.272762+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVmxIXzhCQjVwYTRqRXlWbUwwOWM4Mm9FcS15Q0J3M0J6UmdycnAtQVdkYlhCY3RwWnZoaUdGdXNXQU02WXV4RDNuMlQ3dmQ4Rzd0MVA4dFNJNy1RRHdrZnJOY1Jod2I4Uk01dXdKUkFEcV80RHg0YXlnc0JObjFHeFk1Y2xzVlBBMjZvZkUzQmtCUTlDbG9kbFZsMkl0dHVldVdxUHB0QzJjMUloYnZZSkJDdTNTUW1QSF9TRmJQeWF5Sml4QVQ2ejBVOFJ3UXN4MDZ6ei1tOGY1Q3N0eWNPOFRUeV93TkRNRG5RM3FoWl9mNHlhLXlDdk5mMUlGQURIUkRWX1U1YVRPLUJvbmdtM3d3?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeGZIa2lkY0Y4bUhLLTJVUjRwQk9iTTROemRFMmVHODMxUTJaNlRReHVaYVpDNWhiWG1qN2g0dExnc1ZmMEVsT1cyS2dOWjJrUVFtcFFlR2ZoOHZubUk4OUREWEtHOHd4TE03NnJqSGJPOUZ1bmk1Qm95YTFIeXRqS0Q0T2ItQm9jU29US1FUTU9QWm5TNVJCZG9kcjZ0dEd4bmpHOGVwTURWZE1CbWdwdUEwMkZscXMtT0k5OXRTeGNITUNBVXNzeDFPaWpyeUl4TG1rc0Fn?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvRGYzeklVTzd4a09oWS1lSXplRkRKR0k2eXh5MkVIc01lcG5iam9qZ29tSTJFRUNjUkJoU0VscEMzUzV1anVwczlJLTFnN2hzM2JuMW9LcTNleE9BV3BKQmMzdE5HWGFPT2lR?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Xtuit",

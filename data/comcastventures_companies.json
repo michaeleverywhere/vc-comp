@@ -520,10 +520,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.tulip.com/?automat-redirect"
+      "https://www.tulip.com/?automat-redirect",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU25nQzZjS2pEdzU1dnpQdFo1N3pMTGN0Yzd5SV9JTEM4dU1BYURXcy0tTDViQk5CTFNidzAxOHYwTmkyV1U4RkJYVTA2emhnNGFyZWRjbW1BLTg3TUxZOHhFMnYydGZETy0wT2htNzgxVVdPSUt0aVVMVW9rc3dQMllGMW9vMzROS3VKTDdfXzk0SWkyS1BKR1NIZlhXRHI1bW9HZkZSV2hIZnVuV2pnd01vcFlCbDAxX0xfSXQ2N01ES1ZtZnFlelIxNFIwZFlwXzQtc3ZMNA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1060,10 +1061,11 @@
     "grants": [],
     "funding_source_urls": [
       "https://blavity.com/",
-      "https://www.blavity.org/about-us"
+      "https://www.blavity.org/about-us",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMjFiYjNFd2JxMUUxMy0tYnNhZHlock15SXdCVHYtdVhaNkdjeDZhdWU4dXZoeEJlYzY4X2pOc201MDB1T2hjcGtTX1l5Q3hNR3p4cGcxQWlGemJjQ25VZWdZYmY1VmVFdEQ1NktfOGcwY0s2bFRSVXJnNlM4ejZNOUVmdGEzbGRmOVhkVVJqaw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1456,20 +1458,35 @@
     "scraped_at": "2026-10-10T21:04:15+00:00",
     "location": "New York City",
     "primary_investor": "Comcast Ventures",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2018-03-20",
+        "investors": [],
+        "source_url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=123965",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.cheddar.com:443/"
+      "https://www.cheddar.com:443/",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVpUT2sxTkQ3dV9SaW1FdlNTTnltb0g3cmhobTJCazVtazVxeUg3SGNpdWwwS2czT1NQR0s0RG5DcS1zRjU5a0h4RlNBQ1FXQ1U2QTlGbDN4cDF5b0tPeTNybVhWQjNtMzlHZjJSN1FLRHVkeWd2d2FqMTRHQ3FxczVLd0J6UXRvN0lV?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxObFZuc0RiR2liT0pHQVB6UWFoZXlaSm9jMXVLMkliUHFUa1dTWE5GUDY2SzZBYUlMS2VWLVFWNE5IUGFLc1lNdWxYOFNWT0tfRmRlZ1c2bDNSRVpqbWUxTExXaUVTSUpqbzFXQXR2SzBubGxNdlVmZ19FbklRV0NKQkNWR2piWUlRbTl3RS1FNjI5TlhCa3h4UzJEVkE?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMWFWMG1felJOZG1HX1NVS0RIWU4xbi1pVkZVNVZQZm9rcTR2UEFDdHp2TTFtZzQ2b0hwdzI3Tkg1c1QwLU5pamJETTRtS0xzMjBCMWtMQlZUWWcxaFlBVkx1eEhuc3M0UGMwYm5DT2pSM003UWUxQ2I3VkRxNXNTWkxxZk9tOXpoS05abm1QOC1ndDhkN3g00gGcAUFVX3lxTE0tZTlGWVhoQlE0Rk9OaTZuMURtd2hTQlNQNE5aaU4tdEFBZHpubl9SM185Tk82cGZPRlI0ajhMZ1hnYjRMREExT1p5TnRKLWVmZ0xzc3ptaU53WUV2YXVENUVTYnFLSUlZLVh6SzRTY2NBdnJBYWhraTB1M3dyX1ozVzVkRmN4aXNfcFlibEZsOUM5QkNjZUV2WjhGTA?oc=5",
+      "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=123965"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 22000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-03-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cloudpassage",
@@ -2734,7 +2751,21 @@
     ],
     "source_url": "https://comcastventures.com/portfolio",
     "scraped_at": "2026-10-10T21:04:15+00:00",
-    "primary_investor": "Comcast Ventures"
+    "primary_investor": "Comcast Ventures",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ekkobar.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Enigma",
@@ -2951,7 +2982,21 @@
     ],
     "source_url": "https://comcastventures.com/portfolio",
     "scraped_at": "2026-10-10T21:04:15+00:00",
-    "primary_investor": "Comcast Ventures"
+    "primary_investor": "Comcast Ventures",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.felixandpaul.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Flipboard",
@@ -3408,7 +3453,21 @@
     ],
     "source_url": "https://comcastventures.com/portfolio",
     "scraped_at": "2026-10-10T21:04:15+00:00",
-    "primary_investor": "Comcast Ventures"
+    "primary_investor": "Comcast Ventures",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.lhh.com/en-us/about-us/our-story"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hive",
@@ -3876,7 +3935,22 @@
     ],
     "source_url": "https://comcastventures.com/portfolio",
     "scraped_at": "2026-10-10T21:04:15+00:00",
-    "primary_investor": "Comcast Ventures"
+    "primary_investor": "Comcast Ventures",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.soundhound.com/resource/interactions-now-part-of-soundhound-ai",
+      "https://www.institutionalinvestor.com/article/2bsypz15fss0rvutsqy9s/innovation/interactions-gets-12m-in-vc-funding"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Intro",
@@ -7000,10 +7074,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://tunein.com/"
+      "https://tunein.com/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOE53SmRnd0JHTTlPLWxGX1pSRUJ4b216Y21ZN3VYT1pIVGZhakNKal82b3lzdXpWRDN0X1RHdi1PZ2VzdmFRelZweTE5THhXeHhmYjdWRnV5QUlic2Z0RDhhQVQtM0Vjb0tSTTdtNmUybGJWNi1wRnRSSkRLYW9mbi1hOUFHR1NCQlhNcG5n?oc=5",
+      "https://venturebeat.com/entrepreneur/tunein-funding/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -7490,6 +7566,33 @@
     ],
     "source_url": "https://comcastventures.com/portfolio",
     "scraped_at": "2026-10-10T21:04:15+00:00",
-    "primary_investor": "Comcast Ventures"
+    "primary_investor": "Comcast Ventures",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2023-06-06",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/zoomph-lands-series-a-funding-led-by-jurassic-capital-backed-by-high-profile-investors-301843238.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zoomph.com/",
+      "https://www.prnewswire.com/news-releases/zoomph-lands-series-a-funding-led-by-jurassic-capital-backed-by-high-profile-investors-301843238.html",
+      "https://www.mrweb.com/drno/news35142.htm",
+      "https://ktla.com/business/press-releases/cision/20230606PH20652/zoomph-lands-series-a-funding-led-by-jurassic-capital-backed-by-high-profile-investors/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2023-06-06",
+    "total_raised": null,
+    "total_raised_currency": null
   }
 ]

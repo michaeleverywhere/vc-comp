@@ -4664,10 +4664,13 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://centivo.com/"
+      "https://centivo.com/",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeUxlYl9vc0l2a2lWeG1GcnN1S1dPTFFrS3pjcFNXMW5WSDd5eGd6ZUw5THk1dmhYSWE3YXRYX0xKc0VENThJbmowQ0ZMMkVWRG0yZ0dXaUttc1lmdmM3R1Z5RTRXSHZmcGFvZGtjbFVaWjBDakh6VDZpaFVKSFYwZ2hnU2E5RG1RZFZESEltNjljeUltMWxSdFpoa1loOWFpTFVLUDBLWExpdUdJc0V2dUEtR3VEMmJDQ0wyQWxmcUtjQzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTY3Z200a1RGdnhWc1o2S3VySWtDY2xTbUZKYXpEX1BweGUxdUpCQVZ1NTllYkRZSF9KX2o1MEhHZDhRVFUwQkR3Q3B2aEwtWnZ5LVNWUV80LWdDNFZUR2UyU3hscmtzQnl3MFIzU0pXeUNySXBHTk5mZ1VtXzlYT3BubkJhUkp2UFJSUGpKQVp4YURtdHJCRVdGVnV4NEdiY3dEa0tER0M?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeHRhQm5SNW1BQjFtbS1lcHNDSFk3RnFTSFYyMGl5SzF2TFY2bXl1Z1NNTGZRM3lyQ1k3VmxhY3M3YU5GM1VKc3gzR2xWUjVzMzJDVG93ZllTRXhmMHo4Qkp3Yk9ReGhlY2hwSjk5N09TYlNDNlFnbzV2ZDJaS3pEX1hBZUpWeXI3T2NDWmlyWEtiSkhLcGt5SkZvYnpuR1JH?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4698,20 +4701,43 @@
     "scraped_at": "2026-10-13T21:07:32.756532+00:00",
     "primary_investor": "Bain Capital Ventures",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 36600000.0,
+        "currency": "USD",
+        "date": "2017-08-23",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "investors": [
+          "Bain Capital Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/ableto-raises-366-million-in-series-d-funding-led-by-bain-capital-ventures-300508507.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.optumbhcare.com/"
+      "https://www.optumbhcare.com/",
+      "https://www.mobihealthnews.com/news/ableto-plans-using-366-million-latest-funding-round-address-behavioral-health",
+      "https://www.prnewswire.com/news-releases/ableto-raises-366-million-in-series-d-funding-led-by-bain-capital-ventures-300508507.html",
+      "https://www.foxbusiness.com/features/ableto-raises-36-6-million-for-digital-behavioral-health-platform",
+      "https://insurancenewsnet.com/oarticle/ableto-raises-36-6-million-in-series-d-funding-led-by-bain-capital-ventures"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 36600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 36600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-08-23",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bain Capital Ventures"
+    ]
   },
   {
     "company_name": "Halo Health (Symplr)",
@@ -6157,7 +6183,35 @@
     "source_url": "https://www.baincapitalventures.com/portfolio",
     "scraped_at": "2026-10-13T21:07:32.756532+00:00",
     "primary_investor": "Bain Capital Ventures",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2016-07-07",
+        "investors": [],
+        "source_url": "https://bevspot.com/blog/bevspot-raises-series-b-funding-round-11-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bevspot.com/",
+      "https://bevspot.com/blog/bevspots-5-25m-series-a-funding-announced-in-betaboston/",
+      "https://bevspot.com/blog/bevspot-raises-series-b-funding-round-11-million/",
+      "https://bevspot.com/blog/bevspot-raises-11-million-give-booze-sellers-better-data/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-07-07",
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Semantic Machines (Microsoft)",
@@ -9409,7 +9463,59 @@
     "source_url": "https://www.baincapitalventures.com/portfolio",
     "scraped_at": "2026-10-13T21:07:32.756532+00:00",
     "primary_investor": "Bain Capital Ventures",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2026-09-02",
+        "investors": [],
+        "source_url": "https://daylight.ai/blog/daylight-security-raises-7m-in-seed-funding-to-combine-ai-agents-and-human-experts-in-cyber-defense",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Craft Ventures"
+        ],
+        "investors": [
+          "Craft Ventures",
+          "Bain Capital Ventures",
+          "Maple VC"
+        ],
+        "source_url": "https://daylight.ai/about"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://daylight.ai/",
+      "https://daylight.ai/about",
+      "https://daylight.ai/blog/daylight-security-raises-7m-in-seed-funding-to-combine-ai-agents-and-human-experts-in-cyber-defense"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "stated_total_raised": {
+      "amount": 40000000.0,
+      "currency": "USD",
+      "source_url": "https://daylight.ai/about"
+    },
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-02",
+    "total_raised": 40000000.0,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "stated",
+    "notable_investors": [
+      "Craft Ventures",
+      "Bain Capital Ventures",
+      "Maple VC"
+    ]
   },
   {
     "company_name": "periodic labs",
@@ -9994,7 +10100,46 @@
     "source_url": "https://www.baincapitalventures.com/portfolio",
     "scraped_at": "2026-10-13T21:07:32.756532+00:00",
     "primary_investor": "Bain Capital Ventures",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "SignalFire"
+        ],
+        "investors": [
+          "SignalFire",
+          "XYZ",
+          "Renegade Partners",
+          "CP Overture"
+        ],
+        "source_url": "https://www.auxilius.co/articles/auxilius-grows-800-raises-10m-to-scale-clinical-trial-financial-management"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.auxilius.co/",
+      "https://www.auxilius.co/articles/auxilius-grows-800-raises-10m-to-scale-clinical-trial-financial-management"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "SignalFire",
+      "XYZ",
+      "Renegade Partners",
+      "CP Overture"
+    ]
   },
   {
     "company_name": "Pylon",
@@ -10321,10 +10466,16 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.adaptive.co/"
+      "https://www.adaptive.co/",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVd5NDdGcFYwemo3eF9vWGZhdEJGT21zZ3hzb3I0aWlaOTNwUVA1d3FuT1ZKbTV6UTVxYUVqOVl3QThCVml1bGEyRVktOXhmRlh5MzJTZHR3Zk5jWG43enRVeDlLUERfWHpxSXBIdDktZDRGRDVwTWRhZFBROVZEY3phRlBTd2ZVT1N3NGNaeG5zcHNJYnJZZE5HMlhzMHVuMExITDZWQVlqU3dmbFRwSw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOamotSnFGSEEtWTJJSDhud0VMUEVWcW5IZ1RYWmhiYXRVNnJidHk1LUJORXhWVjdrZlBSblBqcld5bTJILWVJQXg5WGFlV0hjbEt2TXUxZ1h3NDQwdC1DZXc4Y1VMSXRSTGZKMnI5bXFBZEljOGs0eGZpeEM5ODRwNmJzM3lESnJVc3FvQg?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmpXb1g5dU1IdHEwb1lKbjFkRFFrcjE1NXFSSTNUaFZwRmdGN01acjJIcnF2T1ZUZFgyNExlM3N2dnNybExXNUVpR3RmSExiWk1VZGFCYXpCRUI2dGhDdUdhR2JSX21icmFEYmxQaWV0N01BandJMTlYNDA4V0hrNEZZbXpyOV9IOThnaWlGa2JpQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXZJbjVYX180aUJWMlRfV0otSVFUaGJvaWlKb1hhUldDV1k0TFFyYjVaNlFmOEVuSHkwaWM2dnpWTWs5VFFRZ2lSbUt2XzFBXzl0NkVwTHpTMFNIR005b0d5VUlXNk43ZGdqdklud1JGbUtPM1ljdWRma21QVExEQkdmTXVBdTlGRDU1TVV1TUpiMGtrX25LMTV6eHdzSmvSAaQBQVVfeXFMTk8zWkZDY1Zvd0tNZnhLLUx4aG9CcVpVc1g1NW1BU1Q1YkRpdVBqRUhBQlZLVDQ5Vk1lQkZTV09PWXlxQzB5OUJBNkduRWRhd09Bb0ZRU2lpLVQzMEJ3TEJEbGRSdVJFd21RYVpYTW9aQldwekREaVo5UWxkblNzMFVkMFBRdU81QUhjbGpab3lPNGtBZGZjeEVCV3hTdTVuQkx5Zzk?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnVqVGpQZmJlVm5VbWdCMjRBNE5OdndmNzRKQUZndDNPRUdwVVg2UUg1SXFod1JZNjB0R2pzWTBURnZSZFNJRUJ4Q21xY3Y4RVI1NTlld1ZOcGVWOEpIb0hZejg3TmdTeHVTd2k4N1VnRUw4NUhyX1dtUkZrbVhkT2lBV050TFFLNnVJdF9uTHpsRUdDUjFWeg?oc=5",
+      "https://pulse2.com/adaptive-innovations-raises-60-million-to-build-ai-native-home-health-provider/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

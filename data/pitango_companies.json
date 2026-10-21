@@ -2039,10 +2039,11 @@
     "grants": [],
     "funding_source_urls": [
       "https://www.carefam.com/",
-      "https://homehealthcarenews.com/2026/03/medarrive-acquires-inbound-health-assets-carefam-raises-14-5m/"
+      "https://homehealthcarenews.com/2026/03/medarrive-acquires-inbound-health-assets-carefam-raises-14-5m/",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBQmg4ckdwVDkxSmhZeTZvREFzZVk1NEt2ZGhoYU82TXNxdGQyY2FMZHNDT3MxamxpdzZtbjVkS3U2bnNCdUR3RVdTVFlvalROaS1mUWhJTFNjcjJBWXIxdHhNc2FaUGU3VUZz?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2744,18 +2745,47 @@
     "primary_investor": "Pitango",
     "source_url": "https://www.pitango.com/portfolio/",
     "scraped_at": "2026-10-08T14:45:11.105912+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": "2021-10-05",
+        "lead_investors": [
+          "Qumra Capital",
+          "Insight Partners"
+        ],
+        "investors": [
+          "Qumra Capital",
+          "Insight Partners"
+        ],
+        "source_url": "https://venturebeat.com/business/customer-service-automation-platform-aquant-raises-70m/",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MSmlFa1NfOXc0Y1FEWkJCdzlLZS1VMWRJeHpyWlJXbVcxdlBBd0lLRmx4NklKUEdzdnh4aXBsQl9naG01UHY3M0VRV0hUN090S3c5NmJRR2M1R0NzOHp2YUFscXZGZ1ktbk96NGdBc2EtdFJscVFR?oc=5",
+      "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUHVwa28xTWx4S1lvMHJ3d1VkbXZudHJaeEtJZWowTU44Ylc1VzVJM1JLTkhEdTMxTUIxMzNGeWJYdXhnWlFVRHpPdmFWSnhZZ2tfbTNsRjdzcG9wRXFTLUZ3M1FUb3RCeHJYdVJuSEZfWmFCWXZSdmNmRjF2VUFoNDJoYUJOcmh6WVFrVmVfdTY3eWN6TTFQOG1zX1V3VzhpeWppdDJ5ZjFTX2lyeW1hUWRHV3FuejNtNXpYemEyd1g1M0Z2dk9nWC1YRlZvZFMtdkdqSWpLLU1mZC1GYnRZZjBMSzF1Ym9ndGlUNGpPanF2Z216Znh2NkRjUC1jTXVRTkk5c3A1TWxLQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSDJKTTl5YkNoZnlZM1NzdVRqMVkwbkVkVFJDSnFPRVhlNVRtVFZWVUoyZjFqSkF3SUV4M1hhTVgtRGdVaGdHRUFOaUJkS0NzYTJuRnJaNm1BdWQzM2duYnJDOG9SS0RiYlV4ZWVBWUxjZWdoWDYxZGxFS1VhNVJXMQ?oc=5",
+      "https://markets.financialcontent.com/streetinsider/article/bizwire-2021-10-8-aquant-announces-70-million-series-c-funding-round-to-revolutionize-the-service-industry-using-artificial-intelligence",
+      "https://venturebeat.com/business/customer-service-automation-platform-aquant-raises-70m/",
+      "https://www.fieldtechnologiesonline.com/doc/aquant-announces-million-series-c-funding-round-to-revolutionize-the-service-industry-using-artificial-intelligence-0001"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 70000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 70000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-05",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Qumra Capital",
+      "Insight Partners"
+    ]
   },
   {
     "company_name": "Incredo",
@@ -5247,7 +5277,44 @@
     ],
     "primary_investor": "Pitango",
     "source_url": "https://www.pitango.com/portfolio/",
-    "scraped_at": "2026-10-08T14:45:11.105912+00:00"
+    "scraped_at": "2026-10-08T14:45:11.105912+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 38000000.0,
+        "currency": "USD",
+        "date": "2016-09-09",
+        "lead_investors": [
+          "Temasek-backed Red Dot Capital Partners"
+        ],
+        "investors": [
+          "Temasek-backed Red Dot Capital Partners"
+        ],
+        "source_url": "https://sg.news.yahoo.com/israeli-wifi-startup-celeno-snags-us-38m-singapore-010256132.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.renesas.com/en",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE1tM2ZnMlljcUpNT2F1cE5pWlhBdVJfNTF6dG1RY0Zta3lUY0E5RkdYU3JNYlBvcEp6b1k2a1Uzay1ndFhwT1RacENXTlptN0tyam9Jb0t4WFJxcEs5N282LWttenJBNFhiRnVyczFYZUNjSnotaHQw?oc=5",
+      "https://www.lightreading.com/cable-technology/winning-at-wifi-celeno-closes-38m-round",
+      "https://sg.news.yahoo.com/israeli-wifi-startup-celeno-snags-us-38m-singapore-010256132.html",
+      "https://www.telecompaper.com/news/celeno-secures-usd-24-mln-in-series-e-funding--898681"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series F",
+    "last_round_amount": 38000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-09-09",
+    "total_raised": 38000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Temasek-backed Red Dot Capital Partners"
+    ]
   },
   {
     "company_name": "Iguazio",

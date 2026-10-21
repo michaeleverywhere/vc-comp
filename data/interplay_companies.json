@@ -379,10 +379,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://autolab.com.co/"
+      "https://autolab.com.co/",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vcTlhRkJod1FUMW44V184Y2ZkMkhnZHJ4Ry1OcU1aUXI3WnJCOVVPUFU1S1A5U1IxTDV5S0Y2V0V4SjE2VnV1bDJBUHhPWWh2M0VFUWt3d1VHTS1QZVFUemtkbHhfLXpT0gFuQVVfeXFMTUNPNC11R0hkaE9zeEwwVmJmcVQzNTZvOEhJeHFDeXBhcmJvUy1xVzBxa3kzcERmNEVUcEJNTDdSdEZrVVJmREVDdTlhaDU5a1o0aFZ5UHpyZWFiZFF3RnI3LVNrUHVTWkhpVFFlN1E?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSHVPWnBDbE1uaHRLelV4M21Ya1dtT1I0UWxRbGpES1UxS3pCaWdEM0JVbUlUekxYc2FhTTFKQjNzdkNFckIzM1ZlVzYya1YzQWZVYWRMSVFlbGwtckhfbERiSjlRLVNZUGYtM2hRYU9qOWJ4bWJSb3JNbEhwRmtSRUhoX1BoUVo3OVJPbWl5d0s0OGF2MEdRRDBxd0l4Wmt4VWI4eEtFQ05iaG9QMWc?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -582,7 +584,21 @@
     ],
     "primary_investor": "Interplay",
     "source_url": "https://www.interplay.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:19.973639+00:00"
+    "scraped_at": "2026-10-16T22:40:19.973639+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.boopwithme.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Boram Care",
@@ -656,20 +672,34 @@
     "primary_investor": "Interplay",
     "source_url": "https://www.interplay.vc/portfolio",
     "scraped_at": "2026-10-16T22:40:19.973639+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2023-06-28",
+        "investors": [],
+        "source_url": "https://betakit.com/shipping-container-marketplace-boxhub-raises-12-4-million-for-global-expansion/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://boxhub.com/"
+      "https://boxhub.com/",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1hSZU9fdmp5b1lhaVVNOU1HT1NNd1hJVnNLV2FVLWNSM3FKZnFQcUNyazB5NlRrV3NVazFjNTVkNk1icVpjR0hNemlJU2VwcmZtUmRaYkhJRTNHQk9nel80ZTJubWt4c1pqTDBqWWhMd1I0WUQtenllRU5MTUtweHZteUxZQ2NoU1o0Z3Jpam9XRDN3SG5BU2o5N3prek5KMlhnSEtINjNuaG8?oc=5",
+      "https://betakit.com/shipping-container-marketplace-boxhub-raises-12-4-million-for-global-expansion/",
+      "https://www.newsobserver.com/press-releases/article276830526.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Broadlume",
@@ -711,7 +741,40 @@
     "everywhere_tags": [],
     "primary_investor": "Interplay",
     "source_url": "https://www.interplay.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:19.973639+00:00"
+    "scraped_at": "2026-10-16T22:40:19.973639+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "SiriusPoint"
+        ],
+        "investors": [
+          "SiriusPoint"
+        ],
+        "source_url": "https://www.brokerbuddha.com/en/simplicity/broker-buddha-announces-new-funding-round-5m-siriuspoint"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.brokerbuddha.com/en",
+      "https://www.brokerbuddha.com/en/simplicity/broker-buddha-announces-new-funding-round-5m-siriuspoint"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "SiriusPoint"
+    ]
   },
   {
     "company_name": "Burrow",
@@ -1495,7 +1558,22 @@
     ],
     "primary_investor": "Interplay",
     "source_url": "https://www.interplay.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:19.973639+00:00"
+    "scraped_at": "2026-10-16T22:40:19.973639+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.emergemarket.com/",
+      "https://pulse2.com/emerge-raises-12-million-in-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fertilidad Integral",

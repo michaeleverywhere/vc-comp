@@ -52,20 +52,36 @@
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
     "scraped_at": "2026-10-10T13:21:32.262930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/ando-launches-agent-native-messaging-130000269.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.ando.so/"
+      "https://www.ando.so/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3I0dU16QmFuNWlaZ1VRUWZvcWMwR0gtWTctRktwSndkbFFaYVU4RFlINFp4cl9LSk8zQXZ4T2pjOTJjOUZQOFI4QzdaOGxCT2YwYXM0bjBxcDRQeExxckxEZHlURkk5Mmd4Y0RDVmFzeFpRTU5LVk5kMkJ4UWR6bHZOcjNxQVZyekpTSzQ1eUd3OWRtYnJOQXFEMmZQUC1UZ1pORExGODg4VHVseERhbTBsek51a19p?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lSFgtZ3NZN2xTYW1PbXBuUi1oZEhBRGYtVkF4SGVKbi1najV5cmNXaEY5Z0sweWs4VVh3MlVibDhIWFhPRjVneVhjOW50OF81bFg5VTAwWkRYVWd6V1hvTF9DTzRmQQ?oc=5",
+      "https://www.prnewswire.com/news-releases/ando-secures-new-funding-to-make-hourly-work-more-predictable-302685935.html",
+      "https://finance.yahoo.com/technology/ai/articles/ando-launches-agent-native-messaging-130000269.html",
+      "https://pulse2.com/ando-4-million-seed-funding-raised-for-hourly-workforce-scheduling-platform/",
+      "https://finance.yahoo.com/news/ando-secures-funding-hourly-more-140000585.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Anduril",
@@ -359,7 +375,32 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.checkhq.com/resources/blog/series-c-announcement"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.checkhq.com/",
+      "https://www.checkhq.com/resources/blog/series-c-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 75000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 75000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Doss",
@@ -457,7 +498,21 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.endeavor.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "FSH Technologies",
@@ -468,7 +523,39 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-08-24",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/small-business/articles/fsh-technologies-raises-25-million-213000740.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fsh.org/",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV3ZwZm9vUVp1UTZpa0pvNkRwdFZ2djh4dXFabEo5U1hDNE9BSFJqLTRiRmU2UGpvZF9IY1ZPX0pfNk1ENXhXQlQ1c1RUVE1hRm1fdHN2S2ZqcmRGVHJ6QTIxNmRMTS1pa05LTEotRVNnN1p0clQyRUVvdlM1SnMtZXBXcWpRZi1pVVFzODRJSUVtaHRocndwaFJnQVQ4U3p4?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcm1jcTg0WHAxUmwxU2pIYjdJc3NLdzVrOVFYZ3JIVjcyOGFQbllrazBnb3RORGtVN0ZvVEw4cUliUkpKTmRZMG5QQUkyN25UdHk4bEVZRTJneGhiZHdXaWZaclVDR1oyRFFJVU85X0F4RTFodHVESjlvZmphTnFFQzJZN3BIc0d1dXNRX2twYlVfR2YwVmx6cQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVE9TNFF0Nm4zUlVsUC1IY2hNNjJUcDBSZ2lIZ0pSUUdyaWNmd2ZrQWUtTzB2TktKclRkWGZJdmI2emZ5VFF6SzhvSlZFRXhjUDdERFdYNWc2U2llX3RIOWlMLW1saXBvSG41eHVzbmNPeEQ2WW5WMTNicTJtTDZBQThBTFRxdDZuSDEySg?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRExRWkp1UGFWc09EaVRqM1ZqYUxWUDF6cVVDMTB2ZFdmUDhxSzdIOUgxRE81VjNrOW8zbklRb2JOek9zdUJuYkxMR2ZmZ3c5UW5uWF9NeUFPMUZSREJpSWkwelFsUGVwdHRJRl85NnJ3Snl5akV4bXczN3FueXVZYTlteTQ2d1VFTGfSAYoBQVVfeXFMT0RMUVpKdVBhVnNPRGlUajNWamFMVlAxenFVQzEwdmRXZlA4cUs3SDlIMURPNVYzazlvM25JUW9iTnpPc3VCbmJMTEdmZmd3OVFublhfTXlBTzFGUkRCaUlpMHpRbFBlcHR0SUZfOTZyd0p5eWpFeG13Mzdxbnl1WWE5bXk0NndVRUxn?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYk9XeHFSUEs4ZkdfaVdOV210MENmb1M4aUZycy1veTFlQlV4YVVzS09PMDVzcHpmNXMwZHpsSW41RWFBUW9Cb0RIMTFsZFlfLWlPVU0ySW1MYmU4ZFpJY1dHWUZpUnVCVXdMNElHdWR2RHdNLVJkX1JaeEc5OXNocHVuWDFiUVp3cmdsSlVIeUZ4MW4xX0ZJeXU1LU5hZGMzZWNES19kbDZNUXdXNTYtV0RhVTlSTFBZMnJnY2tQTTloQXgxZlcxd1Jn?oc=5",
+      "https://finance.yahoo.com/small-business/articles/fsh-technologies-raises-25-million-213000740.html",
+      "https://www.msn.com/en-za/money/economy/fsh-technologies-raises-25-million-to-take-on-the-consulting-firms-running-up-the-bill-on-american-taxpayers/ar-AA2aCOVl"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-24",
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Feathery",

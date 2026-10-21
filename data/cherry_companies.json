@@ -170,7 +170,35 @@
     ],
     "primary_investor": "Cherry Ventures",
     "source_url": "https://cherry.vc/founders",
-    "scraped_at": "2026-10-16T13:29:18.497852+00:00"
+    "scraped_at": "2026-10-16T13:29:18.497852+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": "2020-07-30",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/auto1-raises-300-million-develop-052549913.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.auto1.com/en/home",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS1FXczN2R1h4cXN5dnlvLUtvNjBTLUdPVHBkX3FkTUU1c1RseF9ZYXlnR0hxOF93M0JnUHIxRGpVZ1pGNTZSbG1feDFyMHBzU3NhOUxEWHZpWDFUNHZzRE9aQm9kc1VicTlYaTlkVEJlQXBLSGZVVDBTNktWMk94WkFQMm1pTUV2VVRYc1NkbjVybUtidDRyeWNXSDJGdkZyeGY5NXVHX3NmekFxRGV1VFVTaHF2eHc?oc=5",
+      "https://finance.yahoo.com/news/auto1-raises-300-million-develop-052549913.html",
+      "https://auto.economictimes.indiatimes.com/news/aftermarket/auto1-raises-300-million-to-develop-used-car-retail-platform/77257659"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 300000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-07-30",
+    "total_raised": 300000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Automation Hero",
@@ -1528,10 +1556,15 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://planet-a-foods.com/"
+      "https://planet-a-foods.com/",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaWZLYTY2MnI4c25ubjJkVkFWYm5rWGJ0cUt3RTB0anVfM3JzWkluSEJDR0NGTUx0SUZwd2t0TWZHYWhmOUdqUlViSmdxR2czRUZsaFgxejEydm5HSUtka1l5Vmw0WnRVLUxDRHRfWFdrc2pBOTNrdFd4R1FkYTc4WUln?oc=5",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbjlIWS1iMUY5UFUxdkI2RjVZaENlQ1piNlliMVQ1TTRwRldIRmVIVWx6NjZHM3c4WjlHS0NtSWo2UGx2TWZtQ2JNMFRNZGJqVFM1TEpsYUpEUGVEcVFqcS1Rd1Vaemozc2E5OGpGOFRCRGpqc0ZGNDdBSUoxd0tKQjV1MzNSWkVkRDhOenJSTFVBQno1RFNSWmJjY1dGdk1QRmpXblBaVFlrelhRQnhXdFhtYW9yblFwaGU0VTFZS081UVJKM21fQTJSRGpXaEk?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDVCVFY2VUZWVlRfLXhrXzhmaFRfbmZ4UUYwa0x0VnoxRFZndTV6eFlrQldfOEZtUFZOUmNOSlBxSnpIaU81UjFxb1ZNNjJqV2dtWkIyNUhoQXpFUXdZQndDbGQxaFpTTFlEcEdwWndRTnpsSVFtNTFmTl84SnRQblB6a1E5QUJFYkc0dk9yOHo2a2ZYQVRUb3RBNkJhOHhVdDhjc2JKRGg4T3lualNpaw?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcndtVUJIZEMyZHFJNnl6enBvODZYam9GeUFjcm5McDdORUZ3SFhJTUhZTXdQbmhCdDQ2bXJoN0xwdHQtd3VDbmhrZnNyZGFGaWVzUElONHBVaEQ2ZEF5a0VPQ1hlVGREbVMwdG1rRHBzbVEtUXpFbVJveWVjS3ZuWGRIV0ZEV3dUYm96TjM5ZExXczFNM3c?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUpjOThHZUxybTlub0I5clZ0d0p0RFdVTU9EVWZDQi1VOWlmUWI4RkRYODFPYTJWa3NLNkdXSHJ3SWs2dDkyMmx2R2twRGxnTFFaNjcwWm9fV3hCQm16NEcwbmVkLVpCUXM4aGdKVlhkOXdXUEREbGdEXzctV0NDSkZ5LTFFZ1NrR2V2OUp6ZUI5TWZGUzZleTNLNXdHWWxXazhRclNra2w3aUFHS2tkZ1VoUHR3cW1SX3ZWUUVaQQ?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2210,10 +2243,13 @@
     "grants": [],
     "funding_source_urls": [
       "https://www.tourradar.com:443/",
-      "https://www.tourradar.com:443/press"
+      "https://www.tourradar.com:443/press",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV21qQXN2cDJHd0hFbVA1YjVVdzVqempseWl0dHFMTi1VQVI1ejFOYTB1WWg4bzl6ekQyX2VWTG5YWmlVT1JBUThYNHZBNFlweFZPTndMaEhSazRjNjN6eWlCaGZQcHZSeUJoXzdHT1JJX0Q0RWR3eUItWWhjWnlRQUpZdzJfQ3RDcmZic2JRRm1sUldUUzBKaURKdnY1clU?oc=5",
+      "https://www.travelweekly.com/Travel-News/Tour-Operators/TourRadar-secures-another-funding-round",
+      "https://www.travelweekly.com/Travel-News/Tour-Operators/TourRadar-aims-to-become-a-one-stop-shop-for-tour-booking"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

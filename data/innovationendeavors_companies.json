@@ -413,7 +413,43 @@
     ],
     "primary_investor": "Innovation Endeavors",
     "source_url": "https://www.innovationendeavors.com/companies",
-    "scraped_at": "2026-10-16T20:12:37.220978+00:00"
+    "scraped_at": "2026-10-16T20:12:37.220978+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3344839.0,
+        "currency": "USD",
+        "date": "2012-08-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1561911/000156191112000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17110994.0,
+        "currency": "USD",
+        "date": "2015-11-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1561911/000116840415000031/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bluerivertechnology.com/",
+      "https://www.sec.gov/Archives/edgar/data/1561911/000156191112000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1561911/000116840415000031/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 17110994.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-11-24",
+    "total_raised": 20455833,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Capsule",
@@ -2153,10 +2189,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://tunein.com/"
+      "https://tunein.com/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOE53SmRnd0JHTTlPLWxGX1pSRUJ4b216Y21ZN3VYT1pIVGZhakNKal82b3lzdXpWRDN0X1RHdi1PZ2VzdmFRelZweTE5THhXeHhmYjdWRnV5QUlic2Z0RDhhQVQtM0Vjb0tSTTdtNmUybGJWNi1wRnRSSkRLYW9mbi1hOUFHR1NCQlhNcG5n?oc=5",
+      "https://venturebeat.com/entrepreneur/tunein-funding/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -2400,20 +2438,45 @@
     "primary_investor": "Innovation Endeavors",
     "source_url": "https://www.innovationendeavors.com/companies",
     "scraped_at": "2026-10-16T20:12:37.220978+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZFFJb3Q0Y0dnRi1aTGFmdVBhcVBFemtja2VncS16UFJsWUtDcGJWa1Q0TUVSN0QxcjJRUzN2TEtWc0ZxbzBBZmotWmYyMW91aTRoR19URG5zQzc5ZzRVYWtfUDQyRGlZRFYwWVBtdW9wVlZuQWhn?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.weave.bio/"
+      "https://www.weave.bio/",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2tWNXVPWll3QXFhVzlNMFRFSFNmdEloZ3R0MHg1QUtnMS04OTY5bFlGeXFBOWt1bUdlZlEzd3B1Ny1Na19PZjFMTlRxSTFwUWxSaXRPQUJ5MTlxek9zbHk2anQ5R19kN2JBdDlhS2MyRENuSE1NMjhWV1h4QVpraHAxR01fczVDdU8telRRRDBoSkZRcnpRdnlPVFJ0aGtNb1pyV3F1WXplV0JYbkVrbkpsYWFlUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZFFJb3Q0Y0dnRi1aTGFmdVBhcVBFemtja2VncS16UFJsWUtDcGJWa1Q0TUVSN0QxcjJRUzN2TEtWc0ZxbzBBZmotWmYyMW91aTRoR19URG5zQzc5ZzRVYWtfUDQyRGlZRFYwWVBtdW9wVlZuQWhn?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMmdTQkZZdEwwTXVubU0yNHRfZWF2N1B6Z3hrRnpBTS1WZlFoR0lpb2hFdmlScXhDbWNIekwwNmNVT3VJOFB2dW0xNXBWMXNWVi1ZWm9rUDIwWnF0OENzNm9peEFpR3BnTFhKdFMyS1ZCcmZWZ3BPT25TaHZRYlg4MWViQ1pJd0laMFY4Vkx3?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwRWwxZXpvaWJSYWtLWlFHenRsd2ZiajdrTVdfUWZnT0VMTm1ySWV5Y1J4RFJQV2JoZF9Hdmt0dW8wVWhPdWNfNHRYOTV4YTV1T0NiY1FyaGJGRWRMSjZXYmQzU1Nfb2VHRkppNEpRXzV2UFB1VEdrNmpVcjg?oc=5",
+      "https://finance.yahoo.com/news/weave-bio-secures-20m-series-120000238.html",
+      "https://markets.financialcontent.com/prnews/article/bizwire-2024-5-30-weave-bio-announces-10m-in-new-funding-and-launch-of-its-ai-powered-platform-to-streamline-drafting-reviewing-and-submitting-regulatory-documents-in-drug-development"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Yotpo",

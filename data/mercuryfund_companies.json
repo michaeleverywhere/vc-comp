@@ -774,7 +774,54 @@
     ],
     "primary_investor": "Mercury Fund",
     "source_url": "https://www.mercuryfund.com/portfolio",
-    "scraped_at": "2026-10-07T13:32:16.860250+00:00"
+    "scraped_at": "2026-10-07T13:32:16.860250+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2020-08-11",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/blumira-raises-funding-threat-detection-response",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10300000.0,
+        "currency": "USD",
+        "date": "2021-08-18",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/blumira-series-a-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2023-06-07",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/series-b-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.blumira.com/",
+      "https://www.blumira.com/news",
+      "https://www.blumira.com/blog/series-b-funding",
+      "https://www.blumira.com/blog/blumira-series-a-funding",
+      "https://www.blumira.com/blog/blumira-raises-funding-threat-detection-response"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-07",
+    "total_raised": 27900000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Brandrank.ai",
@@ -908,20 +955,43 @@
     "primary_investor": "Mercury Fund",
     "source_url": "https://www.mercuryfund.com/portfolio",
     "scraped_at": "2026-10-07T13:32:16.860250+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Saepio Capital"
+        ],
+        "investors": [
+          "Saepio Capital",
+          "Chicago Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXBKcHhZNm1La1ZFVFk2Rl9KdXhmenJkOVV2UGd6M1NFZ29LWDhXa05UU1VKUm1fWGJBc2RkVEhIamdsQ0pjODVmenkyeFUzdy16ZVRyOFZZRUlBaXNfQjRFWENYTVJtblNNVnlHN1R2czJmblJDZEJmU1VVc25ROE1ELXJTeC05ak5WZjFjQmpRM0ZLcXBDdEFWT1ZhYU00Zl9FUXhwa2prV05Wa1N1SXpKWjBBaXFfTnBV?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.buildforce.com/"
+      "https://www.buildforce.com/",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdXBKcHhZNm1La1ZFVFk2Rl9KdXhmenJkOVV2UGd6M1NFZ29LWDhXa05UU1VKUm1fWGJBc2RkVEhIamdsQ0pjODVmenkyeFUzdy16ZVRyOFZZRUlBaXNfQjRFWENYTVJtblNNVnlHN1R2czJmblJDZEJmU1VVc25ROE1ELXJTeC05ak5WZjFjQmpRM0ZLcXBDdEFWT1ZhYU00Zl9FUXhwa2prV05Wa1N1SXpKWjBBaXFfTnBV?oc=5",
+      "https://www.prnewswire.com/news-releases/buildforce-raises-10m-series-a-to-staff-electricians-nationally-302837071.html",
+      "https://pulse2.com/buildforce-10-million-series-a-raised-to-staff-electricians-nationally/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Saepio Capital",
+      "Chicago Ventures"
+    ]
   },
   {
     "company_name": "Careviso",
@@ -1406,7 +1476,21 @@
     ],
     "primary_investor": "Mercury Fund",
     "source_url": "https://www.mercuryfund.com/portfolio",
-    "scraped_at": "2026-10-07T13:32:16.860250+00:00"
+    "scraped_at": "2026-10-07T13:32:16.860250+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nokia.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Donde",

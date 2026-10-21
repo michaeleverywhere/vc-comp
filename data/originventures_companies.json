@@ -274,7 +274,53 @@
     ],
     "primary_investor": "Origin Ventures",
     "source_url": "https://www.originventures.com/portfolio",
-    "scraped_at": "2026-10-13T13:33:14.331813+00:00"
+    "scraped_at": "2026-10-13T13:33:14.331813+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2023-08-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991890/000199189023000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12350000.0,
+        "currency": "USD",
+        "date": "2024-05-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991890/000199189024000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-07-21",
+        "investors": [],
+        "source_url": "https://clearjet.com/press",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://clearjet.com/",
+      "https://clearjet.com/press",
+      "https://www.sec.gov/Archives/edgar/data/1991890/000199189023000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1991890/000199189024000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-07-21",
+    "total_raised": 39350000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Grubhub",
@@ -722,7 +768,28 @@
     "everywhere_tags": [],
     "primary_investor": "Origin Ventures",
     "source_url": "https://www.originventures.com/portfolio",
-    "scraped_at": "2026-10-13T13:33:14.331813+00:00"
+    "scraped_at": "2026-10-13T13:33:14.331813+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.conflixis.com/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTktuOTNGbk53SlZmUThDa1FHZFNMVG5BWkFFUUM1dzdWYmdhOURuWm4ydEo5VlRuX1MxU2stTnhsZUg5UnBtRlNIUktqbE5xSDNfT1BZMTl5dklMUklKODdfOHdnQkFqUmxlbmhGRXQzV2ZnR3dLU3laUV9LZ3ltYTdaSXNmM3llSHFHcXU0S29KZnFpN3JGNktDY0w0YWlsZUxzWU9lRnJUd1VNaHNIaXlYX3RhMG5NOGVfMThpcmhKSURySm1CY3Jaa21CSnNtYUE?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2NTd2JpZm1faDZSV2k3ZEVGMWp3SGxVZkh4am1KelVQbmk5di1yYXU2a2ZYT3VKRWloWFdDeWEtd3dEajNvSnZVZXozMXpjcHlCX3dwdUJkZDh6Rlh3N1pGRXNHQlJCd0dVX19rYkJJWGFiTlBoVkdPSXpUZkRhTldmUktOOUlMTU0tZ2V3?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYjBTVnBfVGVpdFVRd1pFYlNQcGk0WU9kcVJnMmxsT2xxZGU1aXdRTk95cTlNb1NwSzJsZ1RNMFlrUkpzNDhxa0h3ZC0weDJWbHlrYVlxdjZQa2UyYms2b0pHcVNTd29VTTB0QVR2bWxpTzNndmZXRXZiQ0lJeW1UQ0VrYlQwcmVjbEZWejl1UmdhdllXUTI5MTRjZUJsM09TWktuUFJhSEE5b0dqRXFwcGxLMTdmcGlG?oc=5",
+      "https://www.businesswire.com/news/home/20241108472886/en/Conflixis-Raises-4.2-Million-in-Seed-Funding-to-Transform-Conflicts-of-Interest-COI-Management-in-Healthcare/",
+      "https://www.alleywatch.com/2024/02/conflixis-ai-data-driven-conflict-of-interest-monitoring-organization-aaron-narva/",
+      "https://www.bizjournals.com/dallas/news/2024/11/12/conflixis-raises-seed-capital.html",
+      "https://www.01net.it/conflixis-raises-4-2-million-in-seed-funding-to-transform-conflicts-of-interest-coi-management-in-healthcare/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Controlrooms",
@@ -945,7 +1012,25 @@
     "everywhere_tags": [],
     "primary_investor": "Origin Ventures",
     "source_url": "https://www.originventures.com/portfolio",
-    "scraped_at": "2026-10-13T13:33:14.331813+00:00"
+    "scraped_at": "2026-10-13T13:33:14.331813+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hoop.app/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM19YdTJTYXdONkIxMVVmajUwRnc2WVVSUERPNmZDMndDSm1zN21jT1ZuWEJNOTdSLU5yYVFqT2hkMkdBaXpCdDVIZWhGZHNpR3NZUzk2UkVZamtpUXMySTN4ai1TQTBaRjd3QTlPUUtTR1ZfaWdwamNQdzVfLWRxR1dna09wY1F3cVJxSFBBVXBhM3RCZktqcHJNdmFJQmNSX0xNajJqWHlaSjdq?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOVFyTnRpQU5oRUdJN2tvb2hVY29KdVJ3TENyTW11TzFpMDhXd0tIUTFlSk54Z3ptdmltWE8xSUxCS1A0aU03RzVMVE9WeEZTeGFNcjk3b0I5cno3czdJOTA2d1JoTlIxaHBxa3I0S1NRVXRzS2NLZ21Od0ppUVY5cktubFFkNzRTYXpvNmxVVnBtMlVNWHpNUFNPcjhpaW9xeHVGRjZJUTRmclBiaXdfUzhQdFBKV01Pd0FnUExfb1NmUEJneXAwam1ISG1ZekZFOTFHTG1nSUZCT0VzVTVEbQ?oc=5",
+      "https://www.businesswire.com/news/home/20240605846913/en/AI-Powered-Productivity-Startup-Hoop-Announces-5M-in-Seed-Funding-Led-by-Index-Ventures",
+      "https://www.streetinsider.com/Business+Wire/AI-Powered+Productivity+Startup+Hoop+Announces+%245M+in+Seed+Funding+Led+by+Index+Ventures/23324482.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Idelic",
@@ -1766,7 +1851,38 @@
     "everywhere_tags": [],
     "primary_investor": "Origin Ventures",
     "source_url": "https://www.originventures.com/portfolio",
-    "scraped_at": "2026-10-13T13:33:14.331813+00:00"
+    "scraped_at": "2026-10-13T13:33:14.331813+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 62000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuU3A3QWhqYXRRVGZjb1NPZ0hWcmcxbDJvOUpwb3FYS1JMYjlDWi1zbGgzanJDZlJJckg5SUl6OGI2bEwzMDE5V3J1RU9oQkMzbW9GT2RfRFdxbTN1bkR2R0ZVOFp4VjRYdHF6Y0Uzb0hENmZ5QjVlMVQ5M2Y4WWQ5MHpLVm5NQThEMElFSkY4MlBHeXg5U1hlZW4wc2g1dVlFeFhvZXRPVEVnU2pHZC03TkxYYl9pYVBXdGUyb2g0V0U0ZXFnT1cxSms?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vivrelle.com/",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuU3A3QWhqYXRRVGZjb1NPZ0hWcmcxbDJvOUpwb3FYS1JMYjlDWi1zbGgzanJDZlJJckg5SUl6OGI2bEwzMDE5V3J1RU9oQkMzbW9GT2RfRFdxbTN1bkR2R0ZVOFp4VjRYdHF6Y0Uzb0hENmZ5QjVlMVQ5M2Y4WWQ5MHpLVm5NQThEMElFSkY4MlBHeXg5U1hlZW4wc2g1dVlFeFhvZXRPVEVnU2pHZC03TkxYYl9pYVBXdGUyb2g0V0U0ZXFnT1cxSms?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdEluNklndFJIUEpvR2FBaGx3RWtfZ3E4NEpUUFZ6Y1V6c2U5Ql9jT1pfVlpHY3dkcTFlM256N3NDdzZYX0JEalZVOGVPRl9hRV9XWXdjUFUzbFloekZxcnVmZXBrLTFiSVdNRFQtZlo5Y214RWNpZFVuVGVGNC1yUVJPSEUxM29ZTklzVjNaS0VIaHRITTliWHZlbG9EZ1ZU?oc=5",
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOE4yMlM2YUxSM1QwRjVkbW1HbzFoVHd5NlhxekdkYTZTWlh6RGM1NXRFNkQwZTFGLU1DTkVnOExhSVdIREc4blAxa3A5S3V6eFZUdDFpVURERUt2WjlQLU85YXNGR28xYXVmMVU0aVBPREx6Qk5pQ3JFejJXSWJHdnp4Q090R25Oa3Q2RVYxaXNENDlEV2VEcUFJTHNPRDYxbkxTSWxudVJIU2lTZ3hkU2NndGNrNlZHMVpTNktONVR1Vm5QSXlFZ3h2Z0NOcm5XZ3pNaTRhaWwxWUthZ0Nsa0dGM0ZjWXNMa2FLMQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFVPRGtwNEEyaEF2T256emJZMXVMX19JWGs1Z0o5WlNYS1lYTWZ0QktSUHMyLUUwWFp2czF2X3h3aXhINDBvMTVid1dHQWhjaFphWnFCcVlsbFRWcVM4bmtBLXdyNTkzMXQtbW1jdEtob1R3bzFFWE1ReVBGZVlIU3ZsUnBBNWVJTUV0aUlmQWpnVXU0VGFmalpfUERMMEJVVVZ3?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGJvN3h0b08wX08tSV9KTUNnd29MWmlVNmp6dmhEaFdxZ0cxNFRnV0d1YXFOY2FqWHVnRlBnN0wweXFQcEhqdkcwYzVyNDZiM0hLbXh4dWNveUFGelVyY2syUHE4WFctMTg0c2stcFNuS2MwbFFVWEJVRnM1U25IVDZ0emgwdEtISEZQN1IxcENzUkJwLWJvR2t1RTJ4dFUtbnZjZWpwdXNZOFM4c0FibHY4RElZTGZjNUE?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdGhqa0h1UTJUTWhpTWxwMWRPWnoxQUtOeUF3NmVobERTQXBkcXFRZGtqZ0ZtZTZXQWxLY00yNDc2VU1haE96RTZGakJmQ2h5ZVJMcXhIbjlUai1vOUw3d19YRkhmcFFrOWdoUmxPQjRZeURMR3RFNVRJYjlxX2hTemwzMEUycUtNTXRLclhIS0RMdEwtQjh5TGJWTGl0MWNKQXc?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnR2OVRmMDRLNEdYcERPYUpBSU1wMlRGenQyNjQxOEZlWEpYM09fWHBLS1o3WE5UUWtlWUNFaWlXQTdzSUtJVnE4dWhxdHdBTjdQVGpLaU0xWWlmelI2ZHJyX0thd1hYUVV3M2tyZE9UUVVaQTBqaXdiUnA3Zzc4N0V0eWVPTHd1WkxwYjh0VEdYQURGeF84?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 62000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 62000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Voxpopme",

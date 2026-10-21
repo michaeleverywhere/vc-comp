@@ -147,7 +147,62 @@
     ],
     "primary_investor": "RWT Horizons",
     "source_url": "https://rwthorizons.com/investments",
-    "scraped_at": "2026-10-21T00:01:53.965510+00:00"
+    "scraped_at": "2026-10-21T00:01:53.965510+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3999999.0,
+        "currency": "USD",
+        "date": "2022-08-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1911281/000191128122000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11999994.0,
+        "currency": "USD",
+        "date": "2024-01-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1911281/000089843224000057/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 21305348.0,
+        "currency": "USD",
+        "date": "2025-01-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1911281/000191128125000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 34000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.closinglock.com/newsroom/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.closinglock.com/",
+      "https://www.closinglock.com/newsroom/",
+      "https://www.sec.gov/Archives/edgar/data/1911281/000191128122000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1911281/000089843224000057/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1911281/000191128125000005/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 21305348.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-02",
+    "total_raised": 71305341,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cortex",
@@ -187,7 +242,32 @@
     ],
     "primary_investor": "RWT Horizons",
     "source_url": "https://rwthorizons.com/investments",
-    "scraped_at": "2026-10-21T00:01:53.965510+00:00"
+    "scraped_at": "2026-10-21T00:01:53.965510+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 11500000.0,
+        "currency": "USD",
+        "date": "2023-11-15",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/rental-marketplace-dwellsy-raises-11-130000808.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/rental-marketplace-dwellsy-raises-11-130000808.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 11500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-15",
+    "total_raised": 11500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "flock",
@@ -335,7 +415,22 @@
     ],
     "primary_investor": "RWT Horizons",
     "source_url": "https://rwthorizons.com/investments",
-    "scraped_at": "2026-10-21T00:01:53.965510+00:00"
+    "scraped_at": "2026-10-21T00:01:53.965510+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://havenservicing.com/",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mZzRTWW9kYVBnUDc2cmtHZ05uZG83R0tIeTQwTWFaZl9ERHh4cGtoNUxlRXo3Y0hPMmhUZ3ExbklRYkptb08wUDEzeGJQMi1yZ042UEkzRWxzRmtkX0NHeGszM1BNYk5uc25V?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hiddenweights",

@@ -230,7 +230,21 @@
     ],
     "primary_investor": "Augmentum Fintech",
     "source_url": "https://augmentum.vc/our-portfolio/",
-    "scraped_at": "2026-10-16T17:12:27.581708+00:00"
+    "scraped_at": "2026-10-16T17:12:27.581708+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.epsor.fr/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Farewill",
@@ -869,18 +883,35 @@
     "primary_investor": "Augmentum Fintech",
     "source_url": "https://augmentum.vc/our-portfolio/",
     "scraped_at": "2026-10-16T17:12:27.581708+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2021-06-21",
+        "investors": [],
+        "source_url": "https://news.cision.com/san-francisco-oy/r/tesseract-raises--25-million-in-series-a-funding-to-strengthen-institutional-digital-asset-lending-o,c3370363",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uMHFwQ18zbE1WalJiUDhwWkV6aFNjOVJXUENzbkd2eDhVVmo5NFJPbEhtbmttamM4UVpQQjNYY1BnTzhOY3ZVMmFVYnNoMjJvNkFFNmtDRG5Fc2ctZVU4ZHhPTVNuOGNtNzFadnZ0eG1ydWYxa21HekJIRzdVams?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3ZOdHhCcHVwcFByMnNCLXRKNHpyV0N4WVY0M2hvNjNlQUF6VHZvQy1iVXNnN3hRQTZrd1k2Z1Vic2RXRl8yU0NNWWxhT0lENExzakVncHdNejJ3bldkV1pJQ0d6djVsVmJwWk9WSTN6TFZtMEtaRFYxck9acVZBaTVtQXhWclRfb3VCNnI2N0w0SnVsV0w4dHpCc1ZsOGFvVDFCTWxGYTEtUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUF9nNnA4a0J5S1hrMFpoYjJYRHpKM1BsSEduVWl6dFB5VER0MnUtZjdSRFNqNzVxaEdkOEdwSzgtWVpSN0Z6eXg4eWt2V0pSa0xDRUFaRUduMldNVF9MaU5qRXB1V2FvRVdsY244R1ZKMTJhaGFlanBjemU0TmkwWTk1ZFNQTlMyODN5RHdQUVA2UEcwRHdDZThoNzBkSVBPVTNNMUJqeTBIcDlNejNOaFVBbE41NFk?oc=5",
+      "https://finance.yahoo.com/news/finnish-digital-asset-lender-tesseract-070000989.html",
+      "https://news.cision.com/san-francisco-oy/r/tesseract-raises--25-million-in-series-a-funding-to-strengthen-institutional-digital-asset-lending-o,c3370363"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tide",

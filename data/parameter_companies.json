@@ -8,7 +8,56 @@
     ],
     "primary_investor": "Parameter Ventures",
     "source_url": "https://www.parameter.vc/portfolio",
-    "scraped_at": "2026-10-16T23:04:57.416729+00:00"
+    "scraped_at": "2026-10-16T23:04:57.416729+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2026-10-21",
+        "investors": [],
+        "source_url": "https://www.atolio.com/news/atolio-raises-24m-in-total-funding-to-scale-private-ai-powered-enterprise-search",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.atolio.com/blog"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1250000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.atolio.com/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.atolio.com/",
+      "https://www.atolio.com/blog",
+      "https://www.atolio.com/news",
+      "https://www.atolio.com/news/atolio-raises-24m-in-total-funding-to-scale-private-ai-powered-enterprise-search"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "stated_total_raised": {
+      "amount": 24000000.0,
+      "currency": "USD",
+      "source_url": "https://www.atolio.com/news/atolio-raises-24m-in-total-funding-to-scale-private-ai-powered-enterprise-search"
+    },
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-10-21",
+    "total_raised": 25250000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Baselane",
@@ -169,7 +218,53 @@
     ],
     "primary_investor": "Parameter Ventures",
     "source_url": "https://www.parameter.vc/portfolio",
-    "scraped_at": "2026-10-16T23:04:57.416729+00:00"
+    "scraped_at": "2026-10-16T23:04:57.416729+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7050000.0,
+        "currency": "USD",
+        "date": "2021-10-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1890987/000189098722000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1699462.0,
+        "currency": "USD",
+        "date": "2023-04-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1890987/000189098724000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4010000.0,
+        "currency": "USD",
+        "date": "2024-04-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1890987/000189098724000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.earthshot.eco/",
+      "https://www.sec.gov/Archives/edgar/data/1890987/000189098722000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1890987/000189098724000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1890987/000189098724000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4010000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-04-29",
+    "total_raised": 12759462,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Glean AI",

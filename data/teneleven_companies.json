@@ -148,9 +148,13 @@
     "scraped_at": "2026-10-14T13:18:23.106633+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNWhXMVlMNVZqYTBEY3JNYm4yRFQ5WURqcVNQUjlXRndCNURMVkRrU3N5TUJnREM3V2kwM09yLWJnS2FKY2hYc21BMGtWcWplX241dG1HZHpvR1pDUTVKZWgtcUtUbTlvUm1LRUszZm5nZHVqV0p6d2JvcFZ5SUpFS29pN0kxYnM?oc=5",
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZlhDN1VSdkdCN0I5YTNXYkVXbXRQS3hFQ0pQa2s4MHZjUnF3QkZyY3RscWVxV3RXdGZoN1oyX09YM1RjWEpXVWZHM2FVNWFoa3JTLUVvZHkzU0pTVUdDVXBiX3BteU1RaG9odDFMbGtySkFIbXgySFZGcGg0OXlHSmVQbm1DX0dLeUEwbVdSYW1vY01vS2NyazR0VHlsNlgzcGRQenJLUmFpR2MzckRTc2c1T1hPazVFMzVmdzRCaHBISHdGVGs0TU1ScnBtOHJLcDExb2xuYmxpaHBqZWd0aVlNZ3liRkZOY0FieEF6QjMzdW1XUnBR?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjYXJyNEVLU2h1SnN0UklxUnIyOGFBOFlTMGJaaW14Vk9CSkJiU3VqeHpTaWlRWXdWamY2NkN0WXQzdmxQZ2hWTGtoaEk4UXhVVlcwZkJzRlJhdWVPbXFpS3VxMzliM2d0eXZHWHZXenFsTmMwTU44?oc=5"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -325,7 +329,45 @@
     "primary_investor": "Ten Eleven Ventures",
     "source_url": "https://www.1011vc.com/portfolio",
     "profile_url": "https://www.1011vc.com/portfolio/blueflag-security",
-    "scraped_at": "2026-10-14T13:18:23.106633+00:00"
+    "scraped_at": "2026-10-14T13:18:23.106633+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11500000.0,
+        "currency": "USD",
+        "date": "2024-03-21",
+        "investors": [],
+        "source_url": "https://www.blueflagsecurity.com/newsroom/newcomer-blueflag-security-raises-11-5m-for-developer-centric-security-platform",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7499999.0,
+        "currency": "USD",
+        "date": "2026-01-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2112160/000211216026000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.blueflagsecurity.com/",
+      "https://www.blueflagsecurity.com/newsroom",
+      "https://www.blueflagsecurity.com/newsroom/blueflag-security-emerges-from-stealth-with-dollar115m-seed-funding-to-address-critical-gaps-in-sdlc-security",
+      "https://www.blueflagsecurity.com/newsroom/newcomer-blueflag-security-raises-11-5m-for-developer-centric-security-platform",
+      "https://www.sec.gov/Archives/edgar/data/2112160/000211216026000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7499999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-27",
+    "total_raised": 18999999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Blumira",
@@ -345,7 +387,54 @@
     "primary_investor": "Ten Eleven Ventures",
     "source_url": "https://www.1011vc.com/portfolio",
     "profile_url": "https://www.1011vc.com/portfolio/blumira",
-    "scraped_at": "2026-10-14T13:18:23.106633+00:00"
+    "scraped_at": "2026-10-14T13:18:23.106633+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2020-08-11",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/blumira-raises-funding-threat-detection-response",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10300000.0,
+        "currency": "USD",
+        "date": "2021-08-18",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/blumira-series-a-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2023-06-07",
+        "investors": [],
+        "source_url": "https://www.blumira.com/blog/series-b-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.blumira.com/",
+      "https://www.blumira.com/news",
+      "https://www.blumira.com/blog/series-b-funding",
+      "https://www.blumira.com/blog/blumira-series-a-funding",
+      "https://www.blumira.com/blog/blumira-raises-funding-threat-detection-response"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-07",
+    "total_raised": 27900000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cado Security",
@@ -1002,7 +1091,39 @@
     "primary_investor": "Ten Eleven Ventures",
     "source_url": "https://www.1011vc.com/portfolio",
     "profile_url": "https://www.1011vc.com/portfolio/fivecast",
-    "scraped_at": "2026-10-14T13:18:23.106633+00:00"
+    "scraped_at": "2026-10-14T13:18:23.106633+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2023-04-16",
+        "investors": [],
+        "source_url": "https://pulse2.com/digital-intelligence-solutions-company-fivecast-raises-au30-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.fivecast.com/",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXBDeDkweGl2TndpYzh1Y0xrR0pyNVNiZTQ4cDgwMVhncUJOcTNlR2F0alRLdldDSmZjNFpRMFVKY3NrcWt3SC1FVHExTl9ZYTVWZEhWRUxLc2Y0cWY1aGlSb09kYmtNekdvTEc2NUpPNlVKcGFFWHQ3NnNIYXRhVmhFUjhuZGVWZEpxSWZ3ekR6aEVkaFVkVXhVNWFraW9sOG9uUjdGSG1SQmc2Zl90QWFJcmZMQWfSAcMBQVVfeXFMT21GZEs2dVRmc0lna1UybU1hTjdtbDVzd2sxanlkOGQwQUx2UlRJZDgyTGJTU05aVXp0bUViNHZUZk1wSnVVZWJlRDZtUjFYWkJKOF9xU3BGRHd5SUxrRDk1eVNKRmNLM3d3ZzdydWlYakN0QklDZUZoVVFKMWZBUFFZM2NPMDJJSWk5VFdzek5GV0V5eFd3YlY4QUtOeTN3NlJ0Ym5SWXMtN29pWjVsTFRibmUzM1pNT0xkdHQ2YmdpcXNZ?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZzRtcDBHbldqSkI1ZW9xN095UW1Lc1ctWUcwaU5ZUWJpSlFXaGVMc1dyTTFMNE5Ya3lnTkIyV1ptbTN5bnRHM1hVNXpqZGZzUS1yX201UkpBeDJwOEx5MHMxY05DNkR4VXRManB2S0NVdDlOeVlTTzRUQ0doRDB4WXQ1NWstOFU?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWDJBb21sOEZITHdEd0lJTmNUWFRSVHlfaDY4UzVYWXBvekp1NU1MSTd6Tk9FS2JPYy1xcHpfaFpYbVdqSDlEUHYwYkZ6aEdlaVY1Umg1VktkN2xERjl4V0xyeUdaLUFsMDJrNkRubmNZZDd6VXhQSE1XUnNnOXB1RXVwM21QVnZZRWtZM2t3?oc=5",
+      "https://www.prnewswire.com/news-releases/fivecast-completes-us-20m-au30m-series-a-raise-with-new-us-and-existing-australian-vc-investors-301793586.html",
+      "https://itwire.com/it-industry-news/deals/fivecast-closes-$30-million-funding-round/",
+      "https://pulse2.com/digital-intelligence-solutions-company-fivecast-raises-au30-million/",
+      "https://www.smartcompany.com.au/technology/fivecast-30-million-ai-web-monitoring-national-security/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-04-16",
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fleet",
@@ -1305,7 +1426,53 @@
     "primary_investor": "Ten Eleven Ventures",
     "source_url": "https://www.1011vc.com/portfolio",
     "profile_url": "https://www.1011vc.com/portfolio/hypernative",
-    "scraped_at": "2026-10-14T13:18:23.106633+00:00"
+    "scraped_at": "2026-10-14T13:18:23.106633+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2024-09-03",
+        "investors": [],
+        "source_url": "https://www.hypernative.io/insights/blog/hypernative-raises-16-million-series-a-round-to-make-web3-hacks-a-thing-of-the-past",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000000.0,
+        "currency": "USD",
+        "date": "2024-10-30",
+        "investors": [],
+        "source_url": "https://www.hypernative.io/insights/blog/how-hypernative-secures-a-40b-stablecoin-economy",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2025-06-10",
+        "investors": [],
+        "source_url": "https://www.hypernative.io/insights/blog/hypernative-raises-40m-series-b-to-remove-security-barriers-to-web3-mass-adoption",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hypernative.io/",
+      "https://www.hypernative.io/insights/blog/hypernative-raises-16-million-series-a-round-to-make-web3-hacks-a-thing-of-the-past",
+      "https://www.hypernative.io/insights/blog/hypernative-raises-40m-series-b-to-remove-security-barriers-to-web3-mass-adoption",
+      "https://www.hypernative.io/insights/blog/how-hypernative-secures-a-40b-stablecoin-economy"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-10",
+    "total_raised": 40056000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Immersive",

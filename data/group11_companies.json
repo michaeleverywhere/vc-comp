@@ -219,7 +219,23 @@
     ],
     "primary_investor": "Group 11",
     "source_url": "https://group11.vc/portfolio",
-    "scraped_at": "2026-10-21T00:21:54.397164+00:00"
+    "scraped_at": "2026-10-21T00:21:54.397164+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.fintastic.ai/",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxONHphb1J1bEZGR18xYW84eDEyVWs0OWlSbnZ1ZDVyM0RhcnJ5YnluVVdKY3RaUkRvTGtkeW5ITXExWGlrWnJTZW9HeW04d1JMMS00ekYySFg1c2hDRDRLbnhFckFWV0V6WjR1dW92Z3VWY3JJdTJYdkVFNWVSeEhueVg2REpHZHJWN2ZGcE5NQm8yTzREYzFyeEhGOTFjNHJYN0hWWXVWYXU1LUYwaHJPU0Y5U1pOdFR4V2ctYXF6ZEJhMUFoTW9R?oc=5",
+      "https://finance.yahoo.com/news/fintastic-exits-stealth-12-million-155000285.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Giraffe Invest",
@@ -675,20 +691,38 @@
     "primary_investor": "Group 11",
     "source_url": "https://group11.vc/portfolio",
     "scraped_at": "2026-10-21T00:21:54.397164+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 76000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/tipalti-raises-76-million/"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://tipalti.com/"
+      "https://tipalti.com/",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUmtoNnhKN2tiQmpMWEpDajFnTGlGZkhUTmwwMm1FWFlselh2SEVXdmRyOENIa2lNbDlQeldvMlExRU5fQ2VxNWRjNTYyMzdCeFVHa0R0Q29ZWHNFUC1KMUwzRFB2dndIVXByWTNidFpXQ2JBTnVKc0FsWHhUZVBmcWh2NnVkVkpjc0xzVXBZWGdQQVpZTlpIcGNzUDY5MXVDaVRJSGxsOFJONG1ucFktWlFwY0o?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxObk1Dd3FoU016dmZsNEg3dVhQX0tWYWxaUDNVSjZMWTNqLWVTNzAyQm15OFBWMzFWaW1qTlExdlVyVVBqYTdzbnFUZjBSNVNzQmx4YjViWG9OS3V3YkdrR05pbTRibW9HZzVObUpZU3M1YlVmSUZ0MmZQMWtlS0p2ZHNRWkkxSHppR3diY0FWbnBXbWFqa3M5RDVubG1WUzZvN3BVNmVkWF9ZM0hDZVVBaQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10QXprc0JkeG9YSGJBcjdxVUVSZEoyV2tPZGhwald5TnZUeWpINEJDTWVfWEhRUElVVkloZnR2MTdMaWdJRGV4bTc1UG9wZFlVWDgxTlhmRlJzQmRhaVVwQmNOUTFwOWM?oc=5",
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ekFydHA3bTgzenBobHZXb1RBdEllVlRJOVZMeEFLTklDSGVwdmlKZHJQbWRtbjVqSlJOQkY4UEdtVllYbElxdmpIdVVhN0NxSkRJOFBxT2ROc0xnRmxtMUNn?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5ckRHa3c4bUFrSS1QTEdzY2w0Q1ZUYjZGcWNRXzhOUTZmUndRSDdDMVowcWQ4Z3haTXlsX01qbVV6TWZIbkwwYTIxQmt1YnRjRmtJNmZhZEF3N2hUOVdEQ2JDY3Z5QV9W?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWVOSlZCVXM0bGVteGU3amV3TUcxcTNVbDZyVDRKa1VLYll4UURheDJhbkRoMjJpWWYzSktfaWUxWmFfbFNsazcxNHVpaEdXSzhZck92cVJpUFh1dEdKTENkX2NFekw5Uld4WHhHa1pOX1NMSnNZUWp0bXpTaTN0amdTQ1Ayc0xlTjNRV0RYNmF6OWwwSDdpRjAyUXc5S3dBaEVncQ?oc=5",
+      "https://www.crowdfundinsider.com/2025/09/252639-tipalti-reports-200m-in-funding-to-enable-ai-driven-finance-automation-and-global-expansion/",
+      "https://pulse2.com/tipalti-raises-76-million/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 76000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 76000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Venn",

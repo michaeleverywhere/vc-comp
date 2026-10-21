@@ -205,7 +205,23 @@
     "everywhere_tags": [],
     "primary_investor": "OMX Ventures",
     "source_url": "https://omx.vc/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.712587+00:00"
+    "scraped_at": "2026-10-20T21:22:39.712587+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://freyabiosciences.com/",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY1ljTzZ5Y2FleTBDOUdWVExyZ0k4UndFMkZaZDk2cmowalNMVzJRcXZzYXFpX1h3dkVpR1NnV0x5S21TQ29mQUZpN0ZaRUNXNUVIVWhzRGpoWFFXX0VUVW1sWl84aVNUek9Wd1BHNmZQYnMzZlJSbHNLcUJtZHNRVEVmM2xWRU4wY0tEOVVIckhrR0g5YXYwVW1KQ3p4VmRPMjFLRk44SUMtQlRnRzFHcmVrSU5IM1QyUTBxTFduMkw2Yktn?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVhLdE9pUnJBY182MHZUdXdyLTZPQWFld0JtLUIwakNsOHZYSnpkZGtLcVpYbFRqQXRUSXJQQ0tSS09rcUNmYm9ZTHpGbENWUzI3YndmSW84ZVVOd245dEE3cXVTVm90a1BtMU9GaldWWjRXSFFvWFo5T3lBaEkzYlVNb1ptblZzSnBza2NoYlNBWWVvSG9KM1VMb2t5ZEFKc0c2UHRZT044eE1QcW9MQ0U4Zw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "General Inception",
@@ -588,20 +604,35 @@
     "primary_investor": "OMX Ventures",
     "source_url": "https://omx.vc/portfolio",
     "scraped_at": "2026-10-20T21:22:39.712587+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSk5RaDJ5THdmWjRNV1pJM29hUERSM3lXNEFsT2NyTjNwYmdOdG0tb0x0c2gzNTFtcXA4bUdpTTNWaFNGWVRxN0paZXE3UkpqRy14VE1UYXpDMm53c0RwbThBblhibU1NQmpjZUpaQ3JIbGY3aHpieUYyU21oRW5xU1hreVo1MG8?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://tesseratherapeutics.com/"
+      "https://tesseratherapeutics.com/",
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxNMk9OaEx1WVN4OGt4alRSUFBpcG5IcDQ2enR1WHY1QlV6RGNscm1hZHZmY3BRakdjbUZBWHdVanc1TnNxeW9sMWVpeGVzNVBYaTB6RHZrTEloUW03czB0YUM3dmV3cFFTX1diVGxSYXRnNEh3Z2ltWkhSa1BuN2xRdEIxMHNLWFRFdzF2dGpmNjJLLXIwTEJOMzhPVjNiZVVUcWN0d2plNXYwWEk1R2tvWnZ4VE9sRWcxbldVbW91VGlEN005STJCdTBwQUNkcVlUdldkVEZZdXFhRUJiWGdEVWN1UktfV0pQUVlWWVM4MnlsM2xCVUpDLXlkbTI1VzNvM1RZUEhJVHNLOFFCQXlj?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSk5RaDJ5THdmWjRNV1pJM29hUERSM3lXNEFsT2NyTjNwYmdOdG0tb0x0c2gzNTFtcXA4bUdpTTNWaFNGWVRxN0paZXE3UkpqRy14VE1UYXpDMm53c0RwbThBblhibU1NQmpjZUpaQ3JIbGY3aHpieUYyU21oRW5xU1hreVo1MG8?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTJQb0tsdFBxZ0ZwNk53S2I4bUdfZlFDVHNIUkNRa1dObkN6VWlGQVhVajJkNGk4TG85Wi04X1pSZHE0S1BITWhDY0JBOU5HNWtGVmtwYVJEa1hqWTljM19UQjRsekhBNHlUcWdwNVZ2S0REak9ob3gxb056UUpOT3pWMHNtdUoxRFRieHp4d9IBlAFBVV95cUxPVWpYYzJxbzdZMTBwQUZjT0ZLWDduMnZ2NDl6UTM5ZHNxQWxPc25aeEIyZzdBenhCMGVmTU5RcUR1MlVlOW5UVzJ3WFZmZklaLWNmWXFhRjlycUF2d2pwVEVRR3p6SnpSOHdLWmoxcjNTLTgyZDNXOThvU0JDeFZXNE9keDAtd2tVZzcwUmJZclFQM0RO?oc=5",
+      "https://pulse2.com/biotechnology-company-tessera-therapeutics-raises-over-300-million/",
+      "https://www.nasdaq.com/press-release/tessera-therapeutics-announces-over-%24300m-series-c-financing-to-advance-its-gene"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 300000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 300000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Twist Bioscience",

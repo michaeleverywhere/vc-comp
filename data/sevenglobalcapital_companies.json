@@ -104,7 +104,31 @@
     ],
     "primary_investor": "7GC",
     "source_url": "https://www.7gc.co/portfolio",
-    "scraped_at": "2026-10-20T13:59:07.929907+00:00"
+    "scraped_at": "2026-10-20T13:59:07.929907+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.banzai.io/blog/banzai-raises-15-million-in-venture-debt-financing"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.banzai.io/",
+      "https://www.banzai.io/blog/banzai-raises-15-million-in-venture-debt-financing"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Because Market",
@@ -179,20 +203,35 @@
     "primary_investor": "7GC",
     "source_url": "https://www.7gc.co/portfolio",
     "scraped_at": "2026-10-20T13:59:07.929907+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2018-03-20",
+        "investors": [],
+        "source_url": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=123965",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.cheddar.com:443/"
+      "https://www.cheddar.com:443/",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVpUT2sxTkQ3dV9SaW1FdlNTTnltb0g3cmhobTJCazVtazVxeUg3SGNpdWwwS2czT1NQR0s0RG5DcS1zRjU5a0h4RlNBQ1FXQ1U2QTlGbDN4cDF5b0tPeTNybVhWQjNtMzlHZjJSN1FLRHVkeWd2d2FqMTRHQ3FxczVLd0J6UXRvN0lV?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxObFZuc0RiR2liT0pHQVB6UWFoZXlaSm9jMXVLMkliUHFUa1dTWE5GUDY2SzZBYUlMS2VWLVFWNE5IUGFLc1lNdWxYOFNWT0tfRmRlZ1c2bDNSRVpqbWUxTExXaUVTSUpqbzFXQXR2SzBubGxNdlVmZ19FbklRV0NKQkNWR2piWUlRbTl3RS1FNjI5TlhCa3h4UzJEVkE?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMWFWMG1felJOZG1HX1NVS0RIWU4xbi1pVkZVNVZQZm9rcTR2UEFDdHp2TTFtZzQ2b0hwdzI3Tkg1c1QwLU5pamJETTRtS0xzMjBCMWtMQlZUWWcxaFlBVkx1eEhuc3M0UGMwYm5DT2pSM003UWUxQ2I3VkRxNXNTWkxxZk9tOXpoS05abm1QOC1ndDhkN3g00gGcAUFVX3lxTE0tZTlGWVhoQlE0Rk9OaTZuMURtd2hTQlNQNE5aaU4tdEFBZHpubl9SM185Tk82cGZPRlI0ajhMZ1hnYjRMREExT1p5TnRKLWVmZ0xzc3ptaU53WUV2YXVENUVTYnFLSUlZLVh6SzRTY2NBdnJBYWhraTB1M3dyX1ozVzVkRmN4aXNfcFlibEZsOUM5QkNjZUV2WjhGTA?oc=5",
+      "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=123965"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 22000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-03-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dream",

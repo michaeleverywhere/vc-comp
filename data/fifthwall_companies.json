@@ -474,7 +474,22 @@
     ],
     "primary_investor": "Fifth Wall",
     "source_url": "https://fifthwall.com/portfolio",
-    "scraped_at": "2026-10-15T13:22:53.075419+00:00"
+    "scraped_at": "2026-10-15T13:22:53.075419+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.brimstone.com/",
+      "https://www.brimstone.com/media"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Built Technologies",
@@ -694,6 +709,34 @@
     ],
     "primary_investor": "Fifth Wall",
     "source_url": "https://fifthwall.com/portfolio",
-    "scraped_at": "2026-10-15T13:22:53.075419+00:00"
+    "scraped_at": "2026-10-15T13:22:53.075419+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2025-07-14",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSGJPVS1tdWtNTmcyXzRPX3RBRGRrc0RrNzlUQWEtUjM0b3ZGVGJ2X3NnVDZ6dzBiakRQUlZ3WVEzYWFQOTBIaU1rRm11ZUtKalhfT3JvUkZvX0NGdzhIczNNRWp1TDlBSkpEUjY2a0JuV29ucmhZSUxIcXg4UmR2eTJCS1lMX1owbEdGaXoyVkJId2JtcVhPZGw2cEFmSndfMEhaajh5b2NVcGdsYXdpcm13YjZqVmhDdmxET01xOG8?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://getduranta.com/",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSGJPVS1tdWtNTmcyXzRPX3RBRGRrc0RrNzlUQWEtUjM0b3ZGVGJ2X3NnVDZ6dzBiakRQUlZ3WVEzYWFQOTBIaU1rRm11ZUtKalhfT3JvUkZvX0NGdzhIczNNRWp1TDlBSkpEUjY2a0JuV29ucmhZSUxIcXg4UmR2eTJCS1lMX1owbEdGaXoyVkJId2JtcVhPZGw2cEFmSndfMEhaajh5b2NVcGdsYXdpcm13YjZqVmhDdmxET01xOG8?oc=5",
+      "https://pulse2.com/duranta-7-million-raised-for-helping-landscapers-grow-their-businesses/",
+      "https://www.geekwire.com/2025/software-for-landscapers-seattle-startup-duranta-lands-7m-to-help-lawn-care-companies/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-14",
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

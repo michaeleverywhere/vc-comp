@@ -116,20 +116,39 @@
     "primary_investor": "GreyMatter",
     "source_url": "https://www.greymattercapital.com/portfolio",
     "scraped_at": "2026-10-18T15:34:08.923728+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2026-02-23",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.coralcare.com/"
+      "https://www.coralcare.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZVVLN0tYM3VkWTljZnJqRWprRDhJTVFiNFcwVk5QWVMtSk55LVJZdmFaM29BSTJ1T2kxNTJnN2VDNjhWbm5XcUNiWkZ5U1RQaXBQY1FXblhBTFdMS1lWbktCcmViaWVlYmVKc2tkYmhuTWdDVWFwY2tWem4wOXZRS3F2SUlpYS00ZkV4bm04M0ZxR18xOTBCaV9tbk9VckxwbFg2eERSaw?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPWi0zUFZ0VW5rQkNkZmRqU29SOHJ2UmFNSW00TkE4NnMyVGE4dUlqb1RmT3FiT2l6aS1DRy1HU3E4aWZKUXItbkpncHhDTVZmdjhXUXFyeUEzTE5jNVB1akdwRHdKY3lHU0FWbG96RGVGYkNIc01EbmJZUnI0MDYzZkpoREZHb295VFZhNm40d3hLTDVjQUZFRV9YUDV1Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaVgxQ0xXeC13SngtUm1FcElvaGk5WnFIMXQ3X3I2V2dKSGhiMVZZN3pTai1PUkRBNGFUa3hNZk1zSERmZU0tbGJLejlFeUVhcWMwSTBHMXpYMTZDVktEWWk5aG5IVkt1RmM2X09NMk44bklBdzE1RWZCUmV5SU5RWU5vTmplcm1ZVGdCNlFMUDRSclk?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcE4wUDdNWXVWYlRfOWpYcHlXdnJNSF9wSXlDUzZueGtrSDduZDFhNjloM2hnUlUyN29kbEN6WFJxOWtvV0EtcHRHNGNSUnJ6c0lHUENvcklDNS1VNEllVGt4T0E5bURQOVQ2VnY0NW1PSFQzbHBtSXMwWlYtR0ZCa25RS21KS1VrMUhJV05jX0dHUkY5SldwUHVMam1rc0o3UV9rU3NvdkRWWi1Rakh6bS1Yd2o0R1dZRFBQMGNYYXpMQnNHVF9MQXBaVkxzYVNCM3I4QmpjMENiR3M5SGxjMTdxcFE?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MSFJfNm4yeWhFU2J4WVExUVY4aFgxWjYyQlQyaWdmOHkzUVZ2ZGhpZzVZTXBaTmtMR1lFVWdOTlgtS1R1aW9GQWU1X2NoRlpmODI2VWlOVTNBRlZoanJUaExoRkpYUjc0WU9FS1l6OFZ6X01uVEE0?oc=5",
+      "https://pulse2.com/coral-care-13-million-series-a-raised-for-expanding-in-home-care-nationwide/",
+      "https://medcitynews.com/2026/02/coral-care-raises-13m-to-scale-in-home-pediatric-therapy/",
+      "https://finance.yahoo.com/news/coral-care-raises-13-million-120000751.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Elera",
@@ -187,7 +206,38 @@
     "everywhere_tags": [],
     "primary_investor": "GreyMatter",
     "source_url": "https://www.greymattercapital.com/portfolio",
-    "scraped_at": "2026-10-18T15:34:08.923728+00:00"
+    "scraped_at": "2026-10-18T15:34:08.923728+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUkJUcFo3a0JVZ2VaRXNSbGRfWi1LUEtWR3oyM0hWR1VpN3pBU3hLdlh1RnhhaWNIUmc0ZVc4QVBobW5QbnJTZElRMVlGWWVfcDhYbWRXbVJyRG0xbmtTZFNVVm9pY0NJemxrdDhYdGdtOUpXU0U3ekI4SjFINEtsX2I1TTBhVTlzc25ONWlsdFhtQkg0M1hYYW42amJMelFRaE4zeVBEVThPZVpHYkhPT0R5N3BGbHVQbWlvekI1b3VVLXdnaWczc2kzRGNtbGFtMUljVWVIY2NNMHZxdnk5c0lVcUpHNHJTckpDcXdfVGg2T1U0SlViZGZrNkFJcTVrY0c0NENUblZmeGZZaTVfazZEMFhmTzZWQXBYdUNrX1A?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRllKem95MC0xclpEZlRMLUd4cFM3VGVwc3p0dUFuemhKRVVjNVU4bk5naVdYbjBGODhCYnNQV1FoV1pfaHNpcGk5b3VLSEVpcmVnUGFuZUFORTdNYlh6SWpKV01UYm9PdHVwNERkUFdLVXVtaW9qSUUxYWRTS19jbm5GdThQb2ViVXp5NWZSaHFHdTJLbEE?oc=5",
+      "https://news.google.com/rss/articles/CBMioAJBVV95cUxPUkJUcFo3a0JVZ2VaRXNSbGRfWi1LUEtWR3oyM0hWR1VpN3pBU3hLdlh1RnhhaWNIUmc0ZVc4QVBobW5QbnJTZElRMVlGWWVfcDhYbWRXbVJyRG0xbmtTZFNVVm9pY0NJemxrdDhYdGdtOUpXU0U3ekI4SjFINEtsX2I1TTBhVTlzc25ONWlsdFhtQkg0M1hYYW42amJMelFRaE4zeVBEVThPZVpHYkhPT0R5N3BGbHVQbWlvekI1b3VVLXdnaWczc2kzRGNtbGFtMUljVWVIY2NNMHZxdnk5c0lVcUpHNHJTckpDcXdfVGg2T1U0SlViZGZrNkFJcTVrY0c0NENUblZmeGZZaTVfazZEMFhmTzZWQXBYdUNrX1A?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ2Z5QVRtZ1paaG9NU1dfQi1OeUJDcjRlSGhlQVZ6VEM0RnRDSkRQQkJBb3dUbm5iWUdjaW9relB2VnppeXVvcHN0Y3FkYzFRaFNjTHdsekVES3NYVFFhVGVlSHg1YV9TVmxQdVR4Z2hUNUxGSmJ1MWtheWRMYkMwUkhRc18yWmtaM3VLVmRXUzQ2Yk1vX0dQalpnWllTdndoYjlxNEZ4OU5pUTFTMUhlS3lUdG5JaTJLQWZUVw?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWE9ZMXA1ajRyWnduZWhVRFVvUmhZcDJ6SnQyVmxNbDNfVFVEZzZwdmZSSTNESDl5MFBYX1BGcFZGZUpxQXhfT3FuZ3FLd21vRVZ0djV5T1VsWGNmZ3JmRWNiSGUzLW5TanlDTUxNY2ZrTy1XaGtCcHVxNXA1c0xELWZ5RG93dlVlWlVWVC1lRUYyNGJMTkFmUm1ITWNpZWF2UGNHM2hhcF9sSVBBQ0NrWkpmWk5FQ1BCZmNqT0hnNEw2d3M0WFNIdDFTYkduUm5GTTlCYUVPRUxYdktPQ3VzZA?oc=5",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hVmhfVTRzMl9oV0pXeURkMm1oUXY1eEp5RVRhMXpLaU5WUmNZT0N1clktanJPaXhPclYyNWhYUG1lRVFsRF9yVS1oRno4V1VpenhrRkN5Z29VZGltQTFQdGMtdGlzeHVQNlE?oc=5",
+      "https://finance.yahoo.com/news/familywell-health-announces-8m-series-140000981.html",
+      "https://hitconsultant.net/2025/11/18/familywell-health-womens-mental-health-menopause-care-funding/",
+      "https://pulse2.com/familywell-health-8-million/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Finni",
