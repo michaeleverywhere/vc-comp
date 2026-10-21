@@ -73,7 +73,33 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10799984.0,
+        "currency": "USD",
+        "date": "2023-02-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1974531/000197453123000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://akooda.co/",
+      "https://www.sec.gov/Archives/edgar/data/1974531/000197453123000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10799984.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-02-13",
+    "total_raised": 10799984,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Alanmeds",
@@ -106,20 +132,38 @@
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
     "scraped_at": "2026-10-16T13:31:08.588440+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2026-02-18",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNdl9nWERLb3NMMzRoOXhMdEhhNjZvOS1uY0Zvd2hCdHlhOXFuSU83cXkzRHZxQ09KOE9kWTMtNTktRXlWcWRqWjB2Rm84aE5SS0Y5d19odnozTnc1d2pKXzRsWDBoNThQeTZIVlNaelNDUjhVM0JLNDBXZmhpMjI1V2F2bmtVZ00xbEM0VnJDbmFfdThBbHpJNDVQVV9KeDZQTDFwMGswVDVHbTZSM0Vhd1JTb0xtRVJSS0U4UWI0WFhFNkdvNTRfSXpqcEZXWW9ESGtJVEJJUlN6UllJZEFpeHl1WjBQYTI4TXRKaklMd0t2YWRhdkVYYTNKQmVTZ2FqMlRSZ3pqallrU3RSLU5sZEFpcTFXVGU0WGx5YmlpV3A?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.aliroquantum.com/"
+      "https://www.aliroquantum.com/",
+      "https://news.google.com/rss/articles/CBMioAJBVV95cUxNdl9nWERLb3NMMzRoOXhMdEhhNjZvOS1uY0Zvd2hCdHlhOXFuSU83cXkzRHZxQ09KOE9kWTMtNTktRXlWcWRqWjB2Rm84aE5SS0Y5d19odnozTnc1d2pKXzRsWDBoNThQeTZIVlNaelNDUjhVM0JLNDBXZmhpMjI1V2F2bmtVZ00xbEM0VnJDbmFfdThBbHpJNDVQVV9KeDZQTDFwMGswVDVHbTZSM0Vhd1JTb0xtRVJSS0U4UWI0WFhFNkdvNTRfSXpqcEZXWW9ESGtJVEJJUlN6UllJZEFpeHl1WjBQYTI4TXRKaklMd0t2YWRhdkVYYTNKQmVTZ2FqMlRSZ3pqallrU3RSLU5sZEFpcTFXVGU0WGx5YmlpV3A?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3NIVEx2VzU4ZEdJT3EwTEhETzBRejAta0FYdENvN3RZVFcwMGplWlZMX0R3N1ZlQ0k3b3MyTjBpdUQwTjFxd3EwdjZpdDBvSW5BSTdldm44aVlqMHJxSHlrVmdsUExKS1ltYmw0QUtsZ3JyQnpLMG8ycDJtd25TdzZvSzZUeTlONnBmcEY1dEdrOV9lVk5sN2ZJSTVrWVh5TGpF0gGoAUFVX3lxTE11clRpZ2JqcmI2aXhobmJhWnpVTU1JRkFLWjduZ3NjZmJsbUJmemtVT21IQXNUcnY3NDBxVDFtMnlZU2xCb0xORmpVeWk0T2Q2QURmajRGdy10MUpiWml3QXNLdmtRZGpCRmp3MmpHWFk4RTViZi1ETVNxYXdXMHFvZlgxMUYwd2k3OEhfX1lfUWhuQU9hc0w3T19MSF9hbW1renVsdHVPRg?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZXA0WEVpVm1jdU1aSVZvMXNTTXdNOXBKN2JZeVcxZTRkcmZzM0ZmZllvZEpMRG9YeXlEb3FEMGYzS19XcV9Nam1OVWVvOWotanF1R0dCZnRXZEV3ZFRFUGhIb292WHZhY0c3S2diU2hJY2ZnTVJPWENQdTY3ZDRYeldsMjE3c0NIbW42QzhST18ydlVkWUVmam5VZGtpbE51WUFubE41MnB2d9IBrwFBVV95cUxPOTNRcVBQX0NyTTdHVDF3N3ZDTVYwYTlQNnl2TlJYcnhqbmdXY25HY2lTZkFwWmZiN01fenFvOGt2bG45N3NLYTNsekJtUXlmUG1xLUdKTlRaaURkZHVScEF1ZmJFRktJVmxVakx6Q25NblBLWDRoY3Y0Yi1vUHVOQ0dyUDI1cXhFcGg5R2U2RXFJU2Jva3lDUlo2UG81cnA5ZHRSY2l0d3RCNldHazhN?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUM0cmlUWl9nTlZKbFJGUVNXZnpmeS1UYXJSeWVHUVhoSFpjU0FGcDFXUzVKM0Y0S2lIWlVGODFCUnYwby1DeWQtWDlxTWJacDJwa3dpcmZnZ2tzanRXWGJpOGdfSDlYVFFFcHNjeVZha1RBZUZsMFhXdW1JOXFmcXdhampnc2ljZ3pEQ01BcGk4Z0F5YUZycjMyTkk?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3dLVUowRW9CMG9ZZlFILWdLSEI0SnNEWXlPbkVSUVlvUVY4WWN3bmVlZWt4WFB3TjRMWXRDa3FIY3hHQ1dCYlkwMkFFd25sNnlxQUZ2RU1WdXgzdkFFUlloT2s4dy1VdS1GaGgyNWdBQVFwVWNtem56NmRKZzlyMXhzN1RHVy1DeDFv0gGLAUFVX3lxTE1nd0tVSjBFb0Iwb1lmUUgtZ0tIQjRKc0RZeU9uRVJRWW9RVjhZY3duZWVla3hYUHdONExZdENrcUhjeEdDV0JiWTAyQUV3bmw2eXFBRnZFTVZ1eDN2QUVSWWhPazh3LVV1LUZoaDI1Z0FBUXBVY216bno2ZEpnOXIxeHM3VEdXLUN4MW8?oc=5",
+      "https://www.prnewswire.com/news-releases/aliro-completes-series-a-funding-to-redefine-how-companies-attract-talent-301546300.html",
+      "https://markets.businessinsider.com/news/stocks/aliro-completes-series-a-funding-to-redefine-how-companies-attract-talent-1031454572"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Alliehealth",
@@ -151,7 +195,53 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4300000.0,
+        "currency": "USD",
+        "date": "2021-03-08",
+        "investors": [],
+        "source_url": "https://alloyenterprises.co/alloy-enterprises-aims-to-transform-lightweighting-opportunities-with-aluminum-additive-manufacturing-secures-4-3m-in-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2022-08-31",
+        "investors": [],
+        "source_url": "https://alloyenterprises.co/alloy-enterprises-secures-3m-in-safe-funding-led-by-lockheed-martin/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": "2023-05-17",
+        "investors": [],
+        "source_url": "https://alloyenterprises.co/alloy-enterprises-raises-26m-to-unlock-aluminum-fabrication-at-scale/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://alloyenterprises.co/",
+      "https://alloyenterprises.co/alloy-enterprises-aims-to-transform-lightweighting-opportunities-with-aluminum-additive-manufacturing-secures-4-3m-in-funding/",
+      "https://alloyenterprises.co/alloy-enterprises-secures-3m-in-safe-funding-led-by-lockheed-martin/",
+      "https://alloyenterprises.co/alloy-enterprises-raises-26m-to-unlock-aluminum-fabrication-at-scale/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-17",
+    "total_raised": 33300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Alphavantage",
@@ -517,20 +607,33 @@
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
     "scraped_at": "2026-10-16T13:31:08.588440+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2021-02-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSVJvV18wLWZCVUN2MzAyOGpSMzBYS0lFb0dtZjdwUklRc0dVQW5zZUNNX1RRVmRyUVN1RzVzQkE3aXFWbENHT3VoSlNBeU1wUl9fQmo3UUFGUjRZMkVIcWZpX1hFdFdJX1JMMDZ4UFh4X2dVSXZaanhDc2ZVT012cGxteFJhLUxGanRFMzFyVEVmLXN3clJjS0tTZw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.codecademy.com/"
+      "https://www.codecademy.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjlsc1lOa0lhdE9MWWxZYmRmcnkxZU1LN2dmbjM1aDFOaF9fbVkwUEdPLWxXWkEzM1RWVUZkNWNEbHQ3d19NWW0zTmlxMEFSa3RJT1k1X2hJTGgzaDZDdFlLMzFwUkRHUDhCX1lxSURQcUNSaFhtLUpWcm1rT0VwZmpUck9qSlo4V1Y0OGxQWHRQSGR2M2dHZF9HRDVDUVU?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSVJvV18wLWZCVUN2MzAyOGpSMzBYS0lFb0dtZjdwUklRc0dVQW5zZUNNX1RRVmRyUVN1RzVzQkE3aXFWbENHT3VoSlNBeU1wUl9fQmo3UUFGUjRZMkVIcWZpX1hFdFdJX1JMMDZ4UFh4X2dVSXZaanhDc2ZVT012cGxteFJhLUxGanRFMzFyVEVmLXN3clJjS0tTZw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Commsor",
@@ -788,7 +891,33 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/floorfound-secures-10-5-million-series-a-to-accelerate-growth--cement-leadership-position-in-oversized-recommerce-301550958.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://floorfound.com/",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wajR3cWlmZzBxM204d1F3T2w5YTVwb3gxdlB2Z0NWZDZyb1lNTndLd1E5YUk3WFpYQnZSRXU1bDZmUTdNTzBfRVdBOWtxRlUzNG1LY21EOUROeXpVeUpuUFM2Y2FLdVlIUUE?oc=5",
+      "https://www.prnewswire.com/news-releases/floorfound-secures-10-5-million-series-a-to-accelerate-growth--cement-leadership-position-in-oversized-recommerce-301550958.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 10500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 10500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Forcemetrics",
@@ -1258,7 +1387,21 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nalubio.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nasuni",
@@ -1267,7 +1410,83 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2010-12-14",
+        "investors": [],
+        "source_url": "https://www.nasuni.com/press-release/cloud-storage-start-up-nasuni-collects-15-million-in-second-round-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2012-10-18",
+        "investors": [],
+        "source_url": "https://www.nasuni.com/press-release/nasuni-closes-20m-funding-round-wont-reveal-strategic-investors-identity/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2014-08-11",
+        "investors": [],
+        "source_url": "https://www.nasuni.com/press-release/nasuni-raises-10-million-in-new-venture-capital-financing-venture-fizz/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17682373.0,
+        "currency": "USD",
+        "date": "2016-11-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1507987/000114036116089400/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2019-02-19",
+        "investors": [],
+        "source_url": "https://www.nasuni.com/press-release/nasuni-receives-25-million-growth-equity-funding-from-telstra-ventures-experiences-record-2018-revenue-results/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 59999997.0,
+        "currency": "USD",
+        "date": "2022-03-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1507987/000156761922007470/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nasuni.com/",
+      "https://www.nasuni.com/press-release/nasuni-receives-25-million-growth-equity-funding-from-telstra-ventures-experiences-record-2018-revenue-results/",
+      "https://www.nasuni.com/press-release/nasuni-raises-10-million-in-new-venture-capital-financing-venture-fizz/",
+      "https://www.nasuni.com/press-release/nasuni-closes-20m-funding-round-wont-reveal-strategic-investors-identity/",
+      "https://www.nasuni.com/press-release/cloud-storage-start-up-nasuni-collects-15-million-in-second-round-funding/",
+      "https://www.sec.gov/Archives/edgar/data/1507987/000114036116089400/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1507987/000156761922007470/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 59999997.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-11",
+    "total_raised": 147682370,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nayahomes",
@@ -1354,7 +1573,22 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pitzi.com.br:443/",
+      "https://thenextweb.com/news/pitzi-grabs-funding-from-kaszek-ventures-to-expand-its-smartphone-insurance-club-across-brazil"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Plastiq",
@@ -1363,7 +1597,62 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2349996.0,
+        "currency": "USD",
+        "date": "2012-04-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1549783/000154978312000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5869997.0,
+        "currency": "USD",
+        "date": "2013-01-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1549783/000154978313000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9998818.0,
+        "currency": "USD",
+        "date": "2014-07-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1549783/000154978314000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2850002.0,
+        "currency": "USD",
+        "date": "2016-02-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1549783/000154978316000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1549783/000154978312000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1549783/000154978313000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1549783/000154978314000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1549783/000154978316000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2850002.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-02-08",
+    "total_raised": 21068813,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Popchew",
@@ -1456,7 +1745,34 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2025-09-16",
+        "investors": [],
+        "source_url": "https://www.returnalyze.com/blog/returnalyze-closes-6m-round-to-accelerate-development-of-game-changing-ai-returns-prevention-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.returnalyze.com/",
+      "https://www.returnalyze.com/resources/news-releases/",
+      "https://www.returnalyze.com/blog/returnalyze-closes-6m-round-to-accelerate-development-of-game-changing-ai-returns-prevention-platform/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-16",
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rezonate",
@@ -1756,7 +2072,22 @@
     "everywhere_tags": [],
     "primary_investor": "Flybridge",
     "source_url": "https://www.flybridge.com/portfolio",
-    "scraped_at": "2026-10-16T13:31:08.588440+00:00"
+    "scraped_at": "2026-10-16T13:31:08.588440+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://welltok.com/",
+      "https://venturebeat.com/business/welltok-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wethos",

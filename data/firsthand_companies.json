@@ -63,7 +63,21 @@
     ],
     "primary_investor": "Firsthand VC",
     "source_url": "https://www.firsthand.vc/",
-    "scraped_at": "2026-10-17T18:05:14.423228+00:00"
+    "scraped_at": "2026-10-17T18:05:14.423228+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ai.work/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Avarra",
@@ -72,7 +86,22 @@
     "everywhere_tags": [],
     "primary_investor": "Firsthand VC",
     "source_url": "https://www.firsthand.vc/",
-    "scraped_at": "2026-10-17T18:05:14.423228+00:00"
+    "scraped_at": "2026-10-17T18:05:14.423228+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://avarra.ai/",
+      "https://finance.yahoo.com/technology/ai/articles/avarra-raises-17-million-contrarian-143000161.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "CrewAI",
@@ -262,7 +291,43 @@
     ],
     "primary_investor": "Firsthand VC",
     "source_url": "https://www.firsthand.vc/",
-    "scraped_at": "2026-10-17T18:05:14.423228+00:00"
+    "scraped_at": "2026-10-17T18:05:14.423228+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2024-06-26",
+        "investors": [],
+        "source_url": "https://hummingbird.healthcare/hummingbird-healthcare-raises-10m-to-address-barriers-to-patient-access/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2025-02-20",
+        "investors": [],
+        "source_url": "https://hummingbird.healthcare/hummingbird-healthcare-closes-20m-funding-round-to-elevate-patient-access/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://hummingbird.healthcare/",
+      "https://hummingbird.healthcare/hummingbird-healthcare-raises-10m-to-address-barriers-to-patient-access/",
+      "https://hummingbird.healthcare/hummingbird-healthcare-closes-20m-funding-round-to-elevate-patient-access/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-02-20",
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "LumberFi",

@@ -491,7 +491,63 @@
     "everywhere_tags": [],
     "primary_investor": "Alpha Partners",
     "source_url": "https://alphapartners.com/portfolio/",
-    "scraped_at": "2026-10-16T17:13:47.610598+00:00"
+    "scraped_at": "2026-10-16T17:13:47.610598+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 200000.0,
+        "currency": "USD",
+        "date": "2017-12-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1725158/000172515817000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 250000.0,
+        "currency": "USD",
+        "date": "2018-12-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1725158/000172515818000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 995000.0,
+        "currency": "USD",
+        "date": "2019-11-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1725158/000172515819000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2021-10-15",
+        "investors": [],
+        "source_url": "https://companycam.com/press",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://companycam.com/",
+      "https://companycam.com/press",
+      "https://www.sec.gov/Archives/edgar/data/1725158/000172515817000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1725158/000172515818000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1725158/000172515819000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-15",
+    "total_raised": 31445000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Coupang",
@@ -587,7 +643,73 @@
     ],
     "primary_investor": "Alpha Partners",
     "source_url": "https://alphapartners.com/portfolio/",
-    "scraped_at": "2026-10-16T17:13:47.610598+00:00"
+    "scraped_at": "2026-10-16T17:13:47.610598+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 49041387.0,
+        "currency": "USD",
+        "date": "2015-08-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156215000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 64035585.0,
+        "currency": "USD",
+        "date": "2017-04-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17717482.0,
+        "currency": "USD",
+        "date": "2017-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 103029972.0,
+        "currency": "USD",
+        "date": "2019-04-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 129999986.0,
+        "currency": "USD",
+        "date": "2020-07-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156220000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.coursera.org/",
+      "https://www.sec.gov/Archives/edgar/data/1651562/000165156215000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651562/000165156219000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651562/000165156220000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 129999986.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-07-07",
+    "total_raised": 363824412,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Decart",
@@ -1816,7 +1938,43 @@
     ],
     "primary_investor": "Alpha Partners",
     "source_url": "https://alphapartners.com/portfolio/",
-    "scraped_at": "2026-10-16T17:13:47.610598+00:00"
+    "scraped_at": "2026-10-16T17:13:47.610598+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2020-05-13",
+        "investors": [],
+        "source_url": "https://www.semperis.com/press-release/semperis-announces-40-million-in-growth-funding-after-completing-six-consecutive-profitable-quarters/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 125000000.0,
+        "currency": "USD",
+        "date": "2024-06-20",
+        "investors": [],
+        "source_url": "https://www.semperis.com/press-release/semperis-secures-growth-financing/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.semperis.com/",
+      "https://www.semperis.com/press-release/semperis-announces-40-million-in-growth-funding-after-completing-six-consecutive-profitable-quarters/",
+      "https://www.semperis.com/press-release/semperis-secures-growth-financing/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 125000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-20",
+    "total_raised": 165000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Shield AI",
@@ -2376,7 +2534,37 @@
     ],
     "primary_investor": "Alpha Partners",
     "source_url": "https://alphapartners.com/portfolio/",
-    "scraped_at": "2026-10-16T17:13:47.610598+00:00"
+    "scraped_at": "2026-10-16T17:13:47.610598+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series H",
+        "amount": null,
+        "currency": null,
+        "date": "2019-12-06",
+        "investors": [],
+        "source_url": "https://www.autoremarketing.com/ar/technology/vroom-lands-quarter-billion-dollar-series-h-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vroom.com/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0tMbVpkOHkydld4WklGdlN3Sm9SdExQTHpKTmp0ekVYZURxcTFURDBZclNuclN6R3BNNDdQeTFaeEFxeUtBTGxXMUV5NW9MQlRsaDBfTmk3RkIyVF9nVkZZLWV6bGQwUE1JWnF2Z1dRUlYzUXpHaUxjUElSTEVzZnBtQ1UzZEw0ODhLaEYtOEFnbkliaEZSZUVSaw?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVVpROEFsVWN5cWh0ZkJwbHVSUE42SzBEVHNqX0poODBKdlgxMkNlbjdrNEFfWHdySHdCcllheVZyQTAtTW5EWVF6dGxSWEkxRUVfQVlQN1k4Uld1Yi1TSEtpUG1RZHBjOTA1ZTdXV0NnMkRqQWhqMUVoWnJtdEVHbWtVVkk3bXVnUHpXY0x0VlB3X29qLW5ObGhmTUt5Y2cz?oc=5",
+      "https://www.autoremarketing.com/ar/technology/vroom-secures-146-million-series-g-funding-round/",
+      "https://www.autoremarketing.com/ar/technology/vroom-lands-quarter-billion-dollar-series-h-funding/",
+      "https://pulse2.com/vroom-254-million-in-funding/",
+      "https://www.theglobeandmail.com/investing/markets/stocks/VRM/pressreleases/4916324/vroom-raises-20-million-via-preferred-equity-financing/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 10 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series H",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2019-12-06",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Wish",

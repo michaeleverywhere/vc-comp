@@ -36,20 +36,33 @@
     "primary_investor": "Mouro Capital",
     "source_url": "https://www.mourocapital.com/our-portfolio/",
     "scraped_at": "2026-10-17T19:19:46.941394+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2400000.0,
+        "currency": "USD",
+        "date": "2024-06-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUlBiRGVVMEZjNGpRbFl2cEhLSDRiekh6UUM3WnNjajVaMVY3RVZBOVdOakpENnV1dTRiQi14blMtdi1Ya2VYMTFfZ2J0ZWlkMTV6QnlTYmVEREZjZEJGR2NEanctNTRCR3diTVcyUVpDNE1lSVJJaThiV1JWam9id0hhSkxYcU8wQk0yY1VPWnowZi1yUHRZS002R01pOEZwR1laTg?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.alinia.ai/"
+      "https://www.alinia.ai/",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaVFOX0hhbE56WGRXRkJtTml6YWtMWk42VUlMMXZ2YXN4Ri1obUNQeHBnVWdtQXA2VlJyVExvYjhqZG43ZjN4VTc0VEExREVHLVlQVFhoYVdrakFHUXlVY2I0MHJ4TXJFSTc4SUhkejFQeVZwREtSZk1Vd1VfYjRnNnM2elcwTDF2VjQxZWE4NXpPbWJoVE9FZXE1TjVuZ1UtMUtJdVF4RktYSHN5Vjg2aXdqQUd2ekptSUNqQW5BRGoxbElvMmtWaG9CTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUlBiRGVVMEZjNGpRbFl2cEhLSDRiekh6UUM3WnNjajVaMVY3RVZBOVdOakpENnV1dTRiQi14blMtdi1Ya2VYMTFfZ2J0ZWlkMTV6QnlTYmVEREZjZEJGR2NEanctNTRCR3diTVcyUVpDNE1lSVJJaThiV1JWam9id0hhSkxYcU8wQk0yY1VPWnowZi1yUHRZS002R01pOEZwR1laTg?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2400000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-05",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AutoFi",
@@ -412,7 +425,44 @@
     ],
     "primary_investor": "Mouro Capital",
     "source_url": "https://www.mourocapital.com/our-portfolio/",
-    "scraped_at": "2026-10-17T19:19:46.941394+00:00"
+    "scraped_at": "2026-10-17T19:19:46.941394+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1300000.0,
+        "currency": "USD",
+        "date": "2023-10-26",
+        "investors": [],
+        "source_url": "https://www.cyngn.com/pr/cyngn-raises-1.3-million-in-common-stock-only-under-its-atm-sales-agreement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": "2025-01-14",
+        "investors": [],
+        "source_url": "https://www.cyngn.com/pr/cyngn-raises-33m-in-december-to-scale-customer-deployments-and-fuel-its-growth",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cyngn.com/",
+      "https://www.cyngn.com/pr/cyngn-readies-for-next-phase-of-growth-with-funding-secured-through-2027",
+      "https://www.cyngn.com/pr/cyngn-raises-33m-in-december-to-scale-customer-deployments-and-fuel-its-growth",
+      "https://www.cyngn.com/pr/cyngn-raises-1.3-million-in-common-stock-only-under-its-atm-sales-agreement"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 33000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-14",
+    "total_raised": 34300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Decent",
@@ -490,20 +540,44 @@
     "primary_investor": "Mouro Capital",
     "source_url": "https://www.mourocapital.com/our-portfolio/",
     "scraped_at": "2026-10-17T19:19:46.941394+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 21000000.0,
+        "currency": "USD",
+        "date": "2018-04-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BcWtQLXZDMkh6WkRWeVNFSm5namE4cTBITUNQRDVka0NYVGtkTGFaQnY1cFJhZEE3WUUxcTZXdDQ0UmxYWWpSdEpMQy04cXVOcGdRM2x1TlV5bVV2NkFIQ0dBYk5zaGpXVGxqbHB2SQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 450000000.0,
+        "currency": "USD",
+        "date": "2021-08-20",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM1UtWlNlREhPSE5DeVIteTJyWmJpdHFFamV3Mm1ZNGh1TElqTnpTV2lQZDNnNlJ3MFkwY3pucFZEUGhTcGpxNlNWSHpJSFJjQXFVUXBkQUluSVBtZkcteDUxWkFKX3FlQVFpTjFDV3RkQm5xdVptR1IyLVZwX2ktRUM3LVNtVE16LXJ2OUdWdU1HOERqdHhEMjRGZHQxYVpEZlE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.drivewealth.com/"
+      "https://www.drivewealth.com/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM1UtWlNlREhPSE5DeVIteTJyWmJpdHFFamV3Mm1ZNGh1TElqTnpTV2lQZDNnNlJ3MFkwY3pucFZEUGhTcGpxNlNWSHpJSFJjQXFVUXBkQUluSVBtZkcteDUxWkFKX3FlQVFpTjFDV3RkQm5xdVptR1IyLVZwX2ktRUM3LVNtVE16LXJ2OUdWdU1HOERqdHhEMjRGZHQxYVpEZlE?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BcWtQLXZDMkh6WkRWeVNFSm5namE4cTBITUNQRDVka0NYVGtkTGFaQnY1cFJhZEE3WUUxcTZXdDQ0UmxYWWpSdEpMQy04cXVOcGdRM2x1TlV5bVV2NkFIQ0dBYk5zaGpXVGxqbHB2SQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX1FNcUdzS1pId3BhdXNuUHlURzFfZEIzQ0tOS2FQbGF3RG9HT0lJY1I5WUd3VldiTHJlZmN3b3M4ZGFJdzJOc2t6ZGNlRjJyc0lEOEVoczJuaEpHUWVLSU5kWjE5TVNPdEZHZ1BUeHBuTXp5Rkxwd3VNcmZfOC02WHZBYkVFNE0?oc=5",
+      "https://finance.yahoo.com/news/softbank-backed-drivewealth-raises-450-104559023.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 471000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 450000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Edgify",
@@ -840,7 +914,43 @@
     "everywhere_tags": [],
     "primary_investor": "Mouro Capital",
     "source_url": "https://www.mourocapital.com/our-portfolio/",
-    "scraped_at": "2026-10-17T19:19:46.941394+00:00"
+    "scraped_at": "2026-10-17T19:19:46.941394+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": "2017-08-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMjlCajJ2aDl0UkRkTmpiMWhVb0JUNm0tSUxIcHViZkR3amVwdnVwVTFrUWIydGl0bzQybTIwUFRZQlJGd2JHQlZwemtiYjdZYjBDc2lZUFc0SmVzUGZrRVlXSGk1aFZNakg4RW1OcGlSTnVMUVQ0aERlUVpkdEY4WENjWGhZMXRHeGtESDNyMkxOM2Vtemw2RUlpbmtOVERkWXJKcmhpa05QeE1rZXZ3ZC1DNXRhb1E?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Seed",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2017-11-21",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTdpXzBFU3NZYUNiTFB3cWVtazRmWFozaGt0VmZmbEsxRnFycXB6d3M0ZzU1b0JPMUZ0TDJTclpTdkJrdExObXpjXzFpOERlVkh6MDY0SmlDVXNfRkE2QmlaUnVsNkFkdDFyaE1XQjl6akpiRU9jWmRKMVR3ODk5V2psY0N0bFRIZUxGNVoyM2RDVTJJRXNYUVF1cUw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMjlCajJ2aDl0UkRkTmpiMWhVb0JUNm0tSUxIcHViZkR3amVwdnVwVTFrUWIydGl0bzQybTIwUFRZQlJGd2JHQlZwemtiYjdZYjBDc2lZUFc0SmVzUGZrRVlXSGk1aFZNakg4RW1OcGlSTnVMUVQ0aERlUVpkdEY4WENjWGhZMXRHeGtESDNyMkxOM2Vtemw2RUlpbmtOVERkWXJKcmhpa05QeE1rZXZ3ZC1DNXRhb1E?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTdpXzBFU3NZYUNiTFB3cWVtazRmWFozaGt0VmZmbEsxRnFycXB6d3M0ZzU1b0JPMUZ0TDJTclpTdkJrdExObXpjXzFpOERlVkh6MDY0SmlDVXNfRkE2QmlaUnVsNkFkdDFyaE1XQjl6akpiRU9jWmRKMVR3ODk5V2psY0N0bFRIZUxGNVoyM2RDVTJJRXNYUVF1cUw?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlFxVlNBWDgydzRXQ3owZ3hmV1k5eFI3WU1SMXZweXFsQVpuOVB2NGhzcmZkMFZWSEpBNzhHQkc2VThJT1Y0d2stLWh2MUZENnRQUzNRYlRvcEI0c2hHdnNWMkpOeE8yVnJkM2dKSHFNNENtSzhhYnd2b3RDdEItQjFNS1BhazJwTTcw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-11-21",
+    "total_raised": 450000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Klar",
@@ -959,7 +1069,51 @@
     ],
     "primary_investor": "Mouro Capital",
     "source_url": "https://www.mourocapital.com/our-portfolio/",
-    "scraped_at": "2026-10-17T19:19:46.941394+00:00"
+    "scraped_at": "2026-10-17T19:19:46.941394+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 44999998.0,
+        "currency": "USD",
+        "date": "2025-03-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2061152/000206115225000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 82000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://meanwhile.bm/"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 37500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://meanwhile.bm/press/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://meanwhile.bm/",
+      "https://meanwhile.bm/about-us/",
+      "https://meanwhile.bm/press/",
+      "https://www.sec.gov/Archives/edgar/data/2061152/000206115225000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 44999998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-03-12",
+    "total_raised": 164499998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nivaura",

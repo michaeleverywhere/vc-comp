@@ -61,7 +61,42 @@
     "everywhere_tags": [],
     "primary_investor": "MXV Capital",
     "source_url": "https://mxv.vc/portfolio",
-    "scraped_at": "2026-10-20T21:05:35.194945+00:00"
+    "scraped_at": "2026-10-20T21:05:35.194945+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7100000.0,
+        "currency": "USD",
+        "date": "2022-08-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1939251/000091957423004191/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100825173.0,
+        "currency": "USD",
+        "date": "2024-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1939251/000193925124000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1939251/000091957423004191/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1939251/000193925124000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 100825173.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-10",
+    "total_raised": 107925173,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Epoch",
@@ -129,7 +164,32 @@
     "everywhere_tags": [],
     "primary_investor": "MXV Capital",
     "source_url": "https://mxv.vc/portfolio",
-    "scraped_at": "2026-10-20T21:05:35.194945+00:00"
+    "scraped_at": "2026-10-20T21:05:35.194945+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.gynger.io/blog/gynger-secures-20-million-series-a-funding"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gynger.io/",
+      "https://www.gynger.io/blog/gynger-secures-20-million-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hetal",

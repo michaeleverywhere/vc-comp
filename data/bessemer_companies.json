@@ -330,7 +330,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.options-it.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ACV Auctions",
@@ -479,7 +493,43 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 74999994.0,
+        "currency": "USD",
+        "date": "2015-06-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1278150/000127815015000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1117910.0,
+        "currency": "USD",
+        "date": "2017-06-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1278150/000127815017000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.workday.com:443/en-us/products/adaptive-planning/overview.html",
+      "https://www.sec.gov/Archives/edgar/data/1278150/000127815015000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1278150/000127815017000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1117910.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-06-02",
+    "total_raised": 76117904,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Affirmed Networks",
@@ -709,7 +759,19 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "AlgoX2",
@@ -743,7 +805,65 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2025-10-08",
+        "investors": [],
+        "source_url": "https://algox2.com/blog/seed-funding-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4520000.0,
+        "currency": "USD",
+        "date": "2026-08-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2153535/000215353526000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "seed extension",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-09-30",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Fin Capital"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Fin Capital"
+        ],
+        "source_url": "https://algox2.com/blog/seed-extension-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://algox2.com/",
+      "https://algox2.com/blog",
+      "https://algox2.com/blog/seed-extension-announcement",
+      "https://algox2.com/blog/seed-funding-announcement",
+      "https://www.sec.gov/Archives/edgar/data/2153535/000215353526000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "seed extension",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-30",
+    "total_raised": 18020000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners",
+      "Fin Capital"
+    ]
   },
   {
     "company_name": "Allena Pharmaceuticals",
@@ -774,7 +894,19 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Alloy",
@@ -1757,7 +1889,53 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2019-08-14",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGNlQi13TkhBRUZpUFRRcmh4LWJNck81YUx4dS03THZGWUowTmVyTks2dG5aTF9QdjhydmNKSUV5QkN0YXNnSTZpbi1ReHo4X19XRVNic0VOdnJpTkR3M055Z2t1ZEtzbmZ2RWNoV0R2bUtjWVBhd1U1YlVoejY1djRvSFZMcDRlWkpYc1hOZ3FKRHZqUjdKSXd3aElEeDlKS2VIdTNR?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-06-28",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0RJcGNnVHpvTzhiWEFrU3FhNlFqWWpIbm9TSVFtSTFmUGZaZUZZR2hBNVI4ZjNoTnZaVEFsbVAzZ1VrWll5eHB6OFpiY01ya0QyV3dHNUdtZVV0VnJNVzYzLXNreEczZEJlZkVIcTE2aGhMSUkwN2F4b3lGWEF3TVNsWXRWRnBlN3hGX013?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUmFIbTQ4ajJ2dFJxMVFzZktnekVtRkNVUkhqRzNxV3NKY2xZenNEZkFza0NaUTdrQWl4WlBMV0hqbC01dW54UkVSYjlyVFM4djI1SzVIQWI4YldOX21kUnBhemJNVXpBYmJ5LTVVckdJc01ZMGxGR0plQVJFU0Uxa3AzcE1iUGlDWDFZc2Q3dHd5TWY3NFY1MjlTQ2hMN2dTVkV3cHpNT2ZPRFZ6WXBkWk9Ga3o?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUmFIbTQ4ajJ2dFJxMVFzZktnekVtRkNVUkhqRzNxV3NKY2xZenNEZkFza0NaUTdrQWl4WlBMV0hqbC01dW54UkVSYjlyVFM4djI1SzVIQWI4YldOX21kUnBhemJNVXpBYmJ5LTVVckdJc01ZMGxGR0plQVJFU0Uxa3AzcE1iUGlDWDFZc2Q3dHd5TWY3NFY1MjlTQ2hMN2dTVkV3cHpNT2ZPRFZ6WXBkWk9Ga3o?oc=5",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HeC1kX0NrUVBLZ2NON2xoRWVPUGJyMjFIc2d3NG1kYXF2VGxWNFFzY0NoQzdoT3NZaF9hbmE5UDVrTzk4NGdGZFVjVHBfWjdLV3o0aFJHbTFWNFliTENHTFpoWDd0SHpYc1RaN09ha3ZuUnM?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGNlQi13TkhBRUZpUFRRcmh4LWJNck81YUx4dS03THZGWUowTmVyTks2dG5aTF9QdjhydmNKSUV5QkN0YXNnSTZpbi1ReHo4X19XRVNic0VOdnJpTkR3M055Z2t1ZEtzbmZ2RWNoV0R2bUtjWVBhd1U1YlVoejY1djRvSFZMcDRlWkpYc1hOZ3FKRHZqUjdKSXd3aElEeDlKS2VIdTNR?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0RJcGNnVHpvTzhiWEFrU3FhNlFqWWpIbm9TSVFtSTFmUGZaZUZZR2hBNVI4ZjNoTnZaVEFsbVAzZ1VrWll5eHB6OFpiY01ya0QyV3dHNUdtZVV0VnJNVzYzLXNreEczZEJlZkVIcTE2aGhMSUkwN2F4b3lGWEF3TVNsWXRWRnBlN3hGX013?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT04xNzFxSDA0empnX29OdlU4eHl6REJ1VEZQRi1pTFloMzU1b3JUSThwd19Qa042YjNrWXVhN2JlSFFGR2lJb1lPUG9ISUJmNGpmMm5OSHU2RE44RWdvYzB6MERrdXpwOTBObkZqUy04VEhtZ2RqMXZEa0E5Q3RNaHN2YXdla1RENzVLZmZEXzREa0pWN0E?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-28",
+    "total_raised": 51600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "August",
@@ -2118,7 +2296,41 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 64000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.axion.com/"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 37000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.axion.com/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.axion.com/",
+      "https://www.axion.com/news",
+      "https://www.axion.com/news/axion-raises-37m-series-b-to-power-the-future-of-american-manufacturing"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 37000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 101000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Axis Network Technology",
@@ -2365,7 +2577,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bastille.net/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Betterment",
@@ -2811,7 +3037,42 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2020-02-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1807027/000180702720000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2021-08-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1807027/000180702721000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1807027/000180702720000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1807027/000180702721000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-06",
+    "total_raised": 4500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BladeLogic",
@@ -2992,7 +3253,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2022-02-24",
+        "investors": [],
+        "source_url": "https://boldmetrics.com/press",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://boldmetrics.com/",
+      "https://boldmetrics.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-24",
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bold Security",
@@ -3530,7 +3817,32 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2009-10-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1086909/000108690909000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1086909/000108690909000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2009-10-19",
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bumble",
@@ -3930,20 +4242,38 @@
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
     "primary_investor": "Bessemer Venture Partners",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16500000.0,
+        "currency": "USD",
+        "date": "2023-10-11",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2023/10/11/carefull-lands-16-5m-to-shield-seniors-from-financial-fraud/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://getcarefull.com/"
+      "https://getcarefull.com/",
+      "https://news.google.com/rss/articles/CBMipwJBVV95cUxOMHRidmlxVTg4TkZES25QUWxaZ1BSUTEtamo5MUNWcVgtZnFYeEE4SzZBWFg3UzI4Qk9vc0M4UDBIVWItMGxBa1h2YUNFNnR4UWs1a0NoMUFIZWxZUFBtVm1ITTFrdzN2dDJvVjlnVUM2WmFTdU1SOXhwU1htMkxFSEFzQ09OdGtNSWNFV3IxSzdDaDJiRFRXaDdNRmJnb3d3ZndnUFY5SzZSQjVMaXktQlJ4bENDV0ttTUlwU1pxT3R1X05rdFFnSEMxOXZURlEzVGtHeGM1VkM5dTBFeVBCNEJyRWZfSVlyeTBlNlYzTVJpU254VUR1MF9NOG9rWU9vdUlNVTNWMUhkOU5iN1gzRzRrQk5QYmoyelBmSXdXczNnWkJuc0FZ?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnNubzJieGdxbUdmYnZ5dFlva1dxc3BwcERHZWZRLXhuanpDZGhXQ2hXQms4cGR6TEdiZWR1VDVlOTIxZW1xM2FNZF83UkVpOW1MYlg4aGRub1Bmc21IakVpb3JybXg3N3diUnBoQ1pFRGJqcGtyT0NGLUlsVkphbHZkQVpISUJKNlo2ZGlMUDRYR1FYNWtTTA?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFhTVGFUWnNibjhncDRjeVlqMHpsTzMyZFlKclQ3QUgtQlptNXNmcXVfUXlNb3g2Qk5wZ19hYWZnaG81VDJ5SEZWUEJLUmNjQUE1WnMtYTRaM191ZlpIY002T2lxNTJad2J1MS16RnV1el9aTWp1eWF1WGVRYXVfb3VYdnM2ZGc3QXdJVE9LRDZUdTFWWUFJbEZ6czQ3NmxwRTA3emNJQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX3FhSThxTDBHSloyV0pBT0d4RkJzeVlkVUtlNC05SjFnS1Y3eHRLZ2c3R1pSbnk5ekJ1MGVEQmlBTlh2Yl9sdXlCZ1NlVGlhSUliYkF5R0xUTDcwQXFENi15alN1OUMtUGRUTWl5Y3RMOWtWaG90eGl4azNVRzZlTjhfUXpWak1Ld2VjYmRjVzd5SHdFNXo1ajZwakIzUVJRMTlMcUE2d0NGbThQNGVfcExJQmItNXRnUDFPLWpFcFdjOE0?oc=5",
+      "https://www.alleywatch.com/2023/10/carefull-elder-protection-access-financial-institutions-fraud-seniors-monitoring-todd-rovakcarefull-raises-another-16-5m-to-protect-the-elderly-from-financial-fraud/",
+      "https://techcrunch.com/2023/10/11/carefull-lands-16-5m-to-shield-seniors-from-financial-fraud/",
+      "https://www.wealthmanagement.com/financial-technology/carefull-raises-16-5m-to-expand-develop-new-features-to-protect-seniors"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 16500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 16500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-11",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "cargo.one",
@@ -4516,7 +4846,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10999998.0,
+        "currency": "USD",
+        "date": "2014-06-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1611829/000161182914000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wellsky.com/personal-care-software/",
+      "https://www.sec.gov/Archives/edgar/data/1611829/000161182914000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10999998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-06-12",
+    "total_raised": 10999998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clearing",
@@ -4796,7 +5152,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://umbrella.cisco.com/products/cloud-access-security-broker-casb"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Coactive AI",
@@ -5469,7 +5839,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cpowerenergy.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Crash Override",
@@ -5500,7 +5884,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://crashoverride.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "CRI",
@@ -5777,7 +6175,43 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2650000.0,
+        "currency": "USD",
+        "date": "2019-07-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1782942/000178294219000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5999948.0,
+        "currency": "USD",
+        "date": "2021-01-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1782942/000178294221000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.curri.com/",
+      "https://www.sec.gov/Archives/edgar/data/1782942/000178294219000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1782942/000178294221000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5999948.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-01-12",
+    "total_raised": 8649948,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CyberGRX",
@@ -5807,7 +6241,36 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2018-11-29",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc2p5WWxha1VTeDNad1p4VFhfRGYycmFPeENfU0NldjhndEgxaXFoZzRPTDJtMWNMNk9RT0c2SU9zSVNkQ0NfamNwVEozdTA3d1F0anc3N0w2amdETEptM3pfaG9hNTBoQ0NPV3hYZ0tmcEpGaEYzX1BkVlJnclVBMnNSUmczekx6WXRVaU4zaWk5QlBQRUE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc2p5WWxha1VTeDNad1p4VFhfRGYycmFPeENfU0NldjhndEgxaXFoZzRPTDJtMWNMNk9RT0c2SU9zSVNkQ0NfamNwVEozdTA3d1F0anc3N0w2amdETEptM3pfaG9hNTBoQ0NPV3hYZ0tmcEpGaEYzX1BkVlJnclVBMnNSUmczekx6WXRVaU4zaWk5QlBQRUE?oc=5",
+      "https://pulse2.com/cybergrx-40-million-funding/",
+      "https://www.jdsupra.com/legalnews/cybergrx-closes-20m-series-b-funding-to-45786/",
+      "https://pulse2.com/cybergrx-30-million-series-c/",
+      "https://www.finextra.com/pressarticle/76561/cybergrx-raises-30m"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-11-29",
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cyota, Inc",
@@ -5868,7 +6331,63 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 600000.0,
+        "currency": "USD",
+        "date": "2015-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663070/000166307016000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 909298.0,
+        "currency": "USD",
+        "date": "2017-09-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663070/000166307017000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4000666.0,
+        "currency": "USD",
+        "date": "2018-06-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663070/000166307018000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9268984.0,
+        "currency": "USD",
+        "date": "2019-06-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663070/000166307019000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cypress.io/",
+      "https://www.sec.gov/Archives/edgar/data/1663070/000166307016000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1663070/000166307017000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1663070/000166307018000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1663070/000166307019000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 9268984.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-06-06",
+    "total_raised": 14778948,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dashbot",
@@ -5930,7 +6449,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2014-05-19",
+        "investors": [],
+        "source_url": "https://www.dashlane.com/blog/press-release-dashlane-closes-largest-funding-ever-password-identity-management-22m-series-b-led-bessemer-venture-partners",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dashlane.com/",
+      "https://www.dashlane.com/blog/press-release-dashlane-closes-largest-funding-ever-password-identity-management-22m-series-b-led-bessemer-venture-partners"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-05-19",
+    "total_raised": 22000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Databand",
@@ -6030,7 +6575,34 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2021-04-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcnowd1NBbldqT0NiRm5FZEdFNXlUNDNnaUlfU2Y0aTVYZ21wdnh4YkVyVDd2aFE1ZzRXYl9vME1naG10VDJNVEQ0cl83cU1YNi1lMzIta2NVcVNBbTBVMmJrNnhWWk1hR0tMSzNlRFROTXFSMVcxX05IM2NyeFZHRUQ5RkUtd0ZZSFk4bUxmeEtMdkpPUzl1UG9OVk4wcTN6YVhsRDlIX0ppOXEzQVU2OHIyUmhxd0htTVdLbWJmMmxkQ2M?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://databook.com/",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcnowd1NBbldqT0NiRm5FZEdFNXlUNDNnaUlfU2Y0aTVYZ21wdnh4YkVyVDd2aFE1ZzRXYl9vME1naG10VDJNVEQ0cl83cU1YNi1lMzIta2NVcVNBbTBVMmJrNnhWWk1hR0tMSzNlRFROTXFSMVcxX05IM2NyeFZHRUQ5RkUtd0ZZSFk4bUxmeEtMdkpPUzl1UG9OVk4wcTN6YVhsRDlIX0ppOXEzQVU2OHIyUmhxd0htTVdLbWJmMmxkQ2M?oc=5",
+      "https://pulse2.com/databook-50-million-series-b-funding-and-550-million-valuation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-27",
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Datafy",
@@ -6246,21 +6818,36 @@
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
     "primary_investor": "Bessemer Venture Partners",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": "2024-05-22",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNbEczT0o1bVk2eWtOYktTOVVsbnhkdWx5X2pCSlcyY3F2STU0N0tQNE00SkRFV3FqanRfZHBJb2VhN0lXazgxN3JkR2J5YjFLTS1SQUM4bHpVV2pVdTVZZ0dZNE81d1dTREYzX3VIazdQTFVtMFhJMUlQUU9Wa09kV3pub09yZFI2eVdjNDA2M0ZhNXpGbm8zZ3dqT29NUlNOa2NWRURwT1pQdVFGa1JYYUttQ2o4cXVuUTZiXzZoVVNqanhWMng5NmlEemFNZmRiRmJxbEQ1SlM3VlpoQUVJQnp2al9uTEpkTDVzc0xRazBEVUJvc25VN1JQQ1p4TVk5dUZSLQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.deepl.com/en",
-      "https://www.deepl.com/en/press"
+      "https://www.deepl.com/en/press",
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxNbEczT0o1bVk2eWtOYktTOVVsbnhkdWx5X2pCSlcyY3F2STU0N0tQNE00SkRFV3FqanRfZHBJb2VhN0lXazgxN3JkR2J5YjFLTS1SQUM4bHpVV2pVdTVZZ0dZNE81d1dTREYzX3VIazdQTFVtMFhJMUlQUU9Wa09kV3pub09yZFI2eVdjNDA2M0ZhNXpGbm8zZ3dqT29NUlNOa2NWRURwT1pQdVFGa1JYYUttQ2o4cXVuUTZiXzZoVVNqanhWMng5NmlEemFNZmRiRmJxbEQ1SlM3VlpoQUVJQnp2al9uTEpkTDVzc0xRazBEVUJvc25VN1JQQ1p4TVk5dUZSLQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYWpiZjZRUXo4TFlZYUhkWUM3aEpYeC1RQ1NUU1ctTFRFdzF1WnRjUHl1WXkxdW03RERQV1ZFeWhVUUFmLUZxb3hyY0pOY3Q3NzFLMWo2djhyMGRyc3I1d1FOaUd3SDRJMDYtR3BpU3Fxc3UxMnE5NGwwV0NsLS13Q0c5bkRYQTFDSDRaQk04MFMtZ1BtWDg5Wjljb2QtcDlXRU5VN2dCMFRxdGhPa21ES000R3RVbVZRY0RLbGYtS0czcFk3c1N0M1hR?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRHgwNjBaU2JlYWxnY0FFamd2RW81X0Q5dmtQdTJtb2MzOU96SnNISmhjbXMwaTlHM1lCd0xFdzBuNU5pYXNhSWZmSHk1RXlJLWYxaTJuSGliWU5OOE1GcGFvZTVvdnVHcDcxMkZVWTlFQmY1T2RUTHVTeDFHRW9yVlg2ZUZsY0xp?oc=5",
+      "https://techcrunch.com/2024/05/22/deepl-the-ai-language-translation-startup-nabs-300m-on-a-2b-valuation-to-focus-on-b2b-growth/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 300000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 300000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DEFCON AI",
@@ -6624,7 +7211,39 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "investors": [
+          "Bessemer Venture Partners"
+        ],
+        "source_url": "https://dlthub.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://dlthub.com/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners"
+    ]
   },
   {
     "company_name": "DocuSign",
@@ -6710,7 +7329,19 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Dome Systems",
@@ -8041,7 +8672,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://buildwithfern.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fieldguide",
@@ -8556,7 +9201,53 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4350000.0,
+        "currency": "USD",
+        "date": "2020-04-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1810934/000181093420000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2021-01-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1810934/000181093421000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999983.0,
+        "currency": "USD",
+        "date": "2022-10-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1810934/000181093422000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.folxhealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1810934/000181093420000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1810934/000181093421000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1810934/000181093422000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 29999983.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-10-11",
+    "total_raised": 59349983,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Foraged",
@@ -9485,7 +10176,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27999959.0,
+        "currency": "USD",
+        "date": "2023-07-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1988828/000198882823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://glossgenius.com/",
+      "https://www.sec.gov/Archives/edgar/data/1988828/000198882823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 27999959.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-03",
+    "total_raised": 27999959,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Good Glamm Group",
@@ -10937,7 +11654,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 83720903.0,
+        "currency": "USD",
+        "date": "2010-12-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1104506/000110450610000023/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://insmed.com/",
+      "https://www.sec.gov/Archives/edgar/data/1104506/000110450610000023/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 83720903.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2010-12-01",
+    "total_raised": 83720903,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Instructure",
@@ -11026,7 +11769,19 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Intucell",
@@ -11556,7 +12311,83 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2009-03-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000143509009000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12250000.0,
+        "currency": "USD",
+        "date": "2010-04-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000143509010000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24999992.0,
+        "currency": "USD",
+        "date": "2011-10-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000114036111050253/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 34249989.0,
+        "currency": "USD",
+        "date": "2013-12-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000143509013000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 52250017.0,
+        "currency": "USD",
+        "date": "2015-10-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000163537116000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5185025.0,
+        "currency": "USD",
+        "date": "2018-07-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1435090/000143509018000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wiley.com/learning/teaching-resources/courseware/knewton-alta/courses",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000143509009000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000143509010000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000114036111050253/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000143509013000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000163537116000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1435090/000143509018000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5185025.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-07-23",
+    "total_raised": 134935023,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kroll Bond Rating Agency",
@@ -11804,7 +12635,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7654992.0,
+        "currency": "USD",
+        "date": "2020-10-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1831163/000183116320000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://leena.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1831163/000183116320000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7654992.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-10-19",
+    "total_raised": 7654992,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Legit Security",
@@ -12001,7 +12858,42 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12620000.0,
+        "currency": "USD",
+        "date": "2011-04-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1518242/000114420411022082/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18065003.0,
+        "currency": "USD",
+        "date": "2012-04-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1518242/000114036112021731/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1518242/000114420411022082/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1518242/000114036112021731/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 18065003.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2012-04-10",
+    "total_raised": 30685003,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Life360",
@@ -12506,7 +13398,61 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2021-06-09",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "investors": [
+          "Bain Capital Ventures",
+          "Bessemer Venture Partners"
+        ],
+        "source_url": "https://www.getmaintainx.com/newsroom/downtime-a-thing-of-the-past-with-50m-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3800000.0,
+        "currency": "USD",
+        "date": "2025-07-15",
+        "investors": [],
+        "source_url": "https://www.getmaintainx.com/newsroom/maintainx-raises-3point8-million",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.getmaintainx.com/newsroom/maintainx-raises-150m"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.getmaintainx.com/newsroom/downtime-a-thing-of-the-past-with-50m-funding",
+      "https://www.getmaintainx.com/newsroom/maintainx-raises-3point8-million",
+      "https://www.getmaintainx.com/newsroom/maintainx-raises-150m"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-15",
+    "total_raised": 203800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bain Capital Ventures",
+      "Bessemer Venture Partners"
+    ]
   },
   {
     "company_name": "Malachyte",
@@ -13027,7 +13973,63 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2026-02-26",
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "NoaVC"
+        ],
+        "source_url": "https://www.meltplan.com/blogs/we-raised-14-million-to-build-the-planning-engine-for-construction",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "NoaVC"
+        ],
+        "source_url": "https://www.meltplan.com/about"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.meltplan.com/",
+      "https://www.meltplan.com/about",
+      "https://www.meltplan.com/blogs/we-raised-14-million-to-build-the-planning-engine-for-construction"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "stated_total_raised": {
+      "amount": 14000000.0,
+      "currency": "USD",
+      "source_url": "https://www.meltplan.com/about"
+    },
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-26",
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners",
+      "NoaVC"
+    ]
   },
   {
     "company_name": "Metalogix",
@@ -13662,7 +14664,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 32629757.0,
+        "currency": "USD",
+        "date": "2012-11-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1563538/000156353812000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.myheritage.com/",
+      "https://www.sec.gov/Archives/edgar/data/1563538/000156353812000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 32629757.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2012-11-15",
+    "total_raised": 32629757,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "NALA",
@@ -14163,7 +15191,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.newton.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "NewVoiceMedia",
@@ -14731,7 +15773,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2016-09-19",
+        "investors": [],
+        "source_url": "https://betakit.com/omsignal-announces-13-million-in-funding-alongside-launch-of-smart-bra/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pehub.com/smart-apparel-startup-omsignal-gets-1m-seed-funding/",
+      "https://betakit.com/omsignal-announces-13-million-in-funding-alongside-launch-of-smart-bra/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-09-19",
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Onaroll",
@@ -14760,7 +15828,32 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1999993.0,
+        "currency": "USD",
+        "date": "2019-11-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796147/000179614719000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1796147/000179614719000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1999993.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-11-27",
+    "total_raised": 1999993,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OnXMaps",
@@ -14789,7 +15882,43 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16999999.0,
+        "currency": "USD",
+        "date": "2018-01-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1730378/000173037818000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 87376346.0,
+        "currency": "USD",
+        "date": "2021-10-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1730378/000173037821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.onxmaps.com/",
+      "https://www.sec.gov/Archives/edgar/data/1730378/000173037818000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1730378/000173037821000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 87376346.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-06",
+    "total_raised": 104376345,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Onyx Security",
@@ -16076,7 +17205,52 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12319995.0,
+        "currency": "USD",
+        "date": "2024-01-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2009439/000200943924000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2026-05-29",
+        "investors": [],
+        "source_url": "https://picogrid.com/newsroom/picogrid-raises-usd45m-series-a-to-build-the-open-integration-layer-for-modern-defense",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://picogrid.com/newsroom/picogrid-secures-3-2m-air-force-program-for-unmanned-systems-integration"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://picogrid.com/",
+      "https://picogrid.com/newsroom/picogrid-raises-usd45m-series-a-to-build-the-open-integration-layer-for-modern-defense",
+      "https://picogrid.com/newsroom/picogrid-secures-3-2m-air-force-program-for-unmanned-systems-integration",
+      "https://www.sec.gov/Archives/edgar/data/2009439/000200943924000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-29",
+    "total_raised": 60519995,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pinterest",
@@ -17088,20 +18262,44 @@
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
     "primary_investor": "Bessemer Venture Partners",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 80000000.0,
+        "currency": "EUR",
+        "date": "2023-12-14",
+        "lead_investors": [
+          "London’s Dawn Capital"
+        ],
+        "investors": [
+          "London’s Dawn Capital"
+        ],
+        "source_url": "https://techcrunch.com/2023/12/14/qogita-raises-86m-series-b-to-compete-with-ankorstore-in-europe/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.qogita.com/"
+      "https://www.qogita.com/",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdVlVNnROOTdHYVVsYnJxc3RBMmJjUFdXM3RWcVhndVkzVC05bEx3TkhRNUhFMzZSMk95blpUYjJQMlpudktmVy0yY3VEbjducFBMbHhJbUp5LXpWcGMtUWVoYWZJeFJrUFl5R2tjeGJzZmtOSmc4d05HRkMza21CT1QyY1J4OE0?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUjFIbjIxMXZ1c3pvVnRwRHBoRVJsY2lYeVZCR2NVYXhRTkxMZEI5UEk4eTUzbHVZVHZueDlzenRiMHRCY1A5S0EzeDMyRjRpZnpuOFNaenNILWIxZXhZcDN3WjBteGtELUhTaVA5b3FqNkp0MUxqbnRjdFpadWEyRll3T3M0bzBnZVNYRldwd043S2tiS2kzUUMwT2xTWjB1RWdvWG9ydlpKX0JXNnJpVlVNUkYxT0JKTnhlR2xRanlhT3RPX3c?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PVGdHTW9jeXM4Qk44NHBFd0hVb3F4SE9qV3k1UU9kNDNOQkxtZlpfODZJanlwYzNqbS1oTV9NVl80TlQwNS04STJVSnljNlc4eFRTamNrLUhVSmFoaTFMUlZqLWhTZG95R21HRmxoNXZONEZXUEE?oc=5",
+      "https://www.pymnts.com/news/investment-tracker/2023/qogita-secures-87-million-to-grow-wholesale-procurement-platform/",
+      "https://techcrunch.com/2023/12/14/qogita-raises-86m-series-b-to-compete-with-ankorstore-in-europe/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 80000000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Series B",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2023-12-14",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "London’s Dawn Capital"
+    ]
   },
   {
     "company_name": "Qualys",
@@ -17161,7 +18359,62 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2149999.0,
+        "currency": "USD",
+        "date": "2012-01-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589635/000158963513000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6700019.0,
+        "currency": "USD",
+        "date": "2013-08-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589635/000158963513000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14992087.0,
+        "currency": "USD",
+        "date": "2014-09-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589635/000123191914000035/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25633853.0,
+        "currency": "USD",
+        "date": "2016-10-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589635/000123191916000067/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1589635/000158963513000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1589635/000158963513000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1589635/000123191914000035/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1589635/000123191916000067/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 25633853.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-10-27",
+    "total_raised": 49475958,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Quidsi (fka Diapers.com)",
@@ -17660,7 +18913,34 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2025-05-06",
+        "investors": [],
+        "source_url": "https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://relevanceai.com/",
+      "https://relevanceai.com/blog",
+      "https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-06",
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Remedio",
@@ -18689,18 +19969,36 @@
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
     "primary_investor": "Bessemer Venture Partners",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 43000000.0,
+        "currency": "USD",
+        "date": "2023-10-16",
+        "investors": [],
+        "source_url": "https://venturebeat.com/data-infrastructure/scylladb-raises-43m-to-boost-next-generation-of-nosql-database-scalability/",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sek5JWjNnSWFySWY1VU5udDlCOUNJX2tIMk5BS2d1Q2EyRkViVlMtZEg4ZktSX3RMYWJWczJON2JEWDN4a3ByRFhCcTFDWVJ0RTZYZjJlUjFwVzBseGtHSkV2UG95NDZ6RWk1Z2xSVnNrVEotMnc?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Tazc2M25pSGVrWUIwelA5LXFZMkZUOG8xQXRjdkhETmhoUHllMUM2RFdNeVRQTV9SX0FzN25RV3VvU0hGbEFBR1N3LThyM0FZdEM5WWxMeEF3SGMwazl1cFI1M21VQWdOWFpDY2tjX2ZzeDlUS3lJ?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XS2hvZEdEYURUYkhSZVA4ekZQcVBzSUFDd2xNSm9uMmx0TDJndmpGX1ZEd2N2ZlBXaldWajYxU1RsMDZrXzh0TXVtcElWYjJIcHIzRFFENHZQNFotekpPSXZGaFN2SG1jdWp1cXBtd0JHVUlL?oc=5",
+      "https://pulse2.com/scylladb-25-million-funding/",
+      "https://venturebeat.com/data-infrastructure/scylladb-raises-43m-to-boost-next-generation-of-nosql-database-scalability/",
+      "https://techcrunch.com/2023/10/17/scylladb-raises-43m-to-scale-its-nosql-database-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 43000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 43000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Scytale",
@@ -18886,20 +20184,76 @@
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
     "primary_investor": "Bessemer Venture Partners",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2024-12-17",
+        "lead_investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2025-09-03",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://seekho.in/"
+      "https://seekho.in/",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSS1SSm1Cakw1NjBrRWRLeHQyUHNaMFZ4bU1iODNfSDBsS2xEVlhjaHVBLTVVVm9nMVA1UGhBWW1Vbkt4NnlrN3JMb0dCanh2eHo1SHV5ZzE1bktyRXUtNnJfSzh6VjkwUThiVGhPMXQtQXRzM0VHcUpOSHBOSk9XTHdtTXhKcG1tMFlrREN4VDI1cFJxUEd2TENJcnl2OHJoLXlJVHRrVHgxdnhEYmlHV3p4T1l1Z1dtV1BkdF9NLVNtZ05VOUtUdmNB0gHPAUFVX3lxTE5KajQ3V0lOUFZWNXNtaGIweEFidEU3YUFxWm9nZlZQYUFweTFENDg5R3dYQ1dzTnJPdzE2TlN3UU94cTU3aHZWNHlsbUloNkEtQUc1Mi1KdGZ5R18wc25Fc2FQQ1d3dUlrNUdZUGJBZEI5SVJMMkl3ZUJCdXhoSDgtZTZJQ08yR2tyM2pacVJ6ZmlhSDJhYU5ldFl5V2pVWnBNTGRmR21WZ05SX3ZfVklzbnZXdllYa3R5eGtsSXFGUm5TZXhvNm5oVGVLb3BaWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZzhQYnRaYUV4N20wRXpaTkl1ZkRTcVg0N1M4UGZBckJNc2hidEpvMmhqTllncV8xSFlDR1lNd0kxTmtoSkxHQ0I2OU5MUlQ5c3VZV2FmajZORTE2eFljSHNGRmZMUWh5RTVKUnd2R2pYNGJyem9DT1NIbmljbW4teWNmRFVzTGk4NXdmdFY1d2lUeE1ieTI0RUFR?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjlVT2pTQzZDUDE1bkNsd2ZBa3JPeXpOT3A4RWU1TnBlVTAxZDREZUg5bzNRRTRjQTlHMXYzZ2FwcnZ3NzQxeG93bXotNkg2VmpPakFOSi1JNFY1N2pDamNoNDN1emgtRG4xZ0o0Um16WExlOWZwbDRwOE4xX3pfTWRIVWIzT1hEVWdPcVd1M0nSAZABQVVfeXFMUFI5VU9qU0M2Q1AxNW5DbHdmQWtyT3l6Tk9wOEVlNU5wZVUwMWQ0RGVIOW8zUUU0Y0E5RzF2M2dhcHJ2dzc0MXhvd216LTZINlZqT2pBTkotSTRWNTdqQ2pjaDQzdXpoLURuMWdKNFJtelhMZTlmcGw0cDhOMV96X01kSFViM09YRFVnT3FXdTNJ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOHZ1RWh0enp4TVlvZjVOb2VqbHM0QmxJTzE3bFhOVnNWQnYyNWtXLU5zcHpKY0Fqcm9CemxsRi1tVkdrUVF6VGw4YmhRRFlWNjRVaTZ0SG5KV2FNYmtLVHlOd0M3RlJoREdJV2NyZ2k0RUc2b2JIY0ctSUZaMVBmSzRHVmNvS2Nq?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTNIByAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTA?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-03",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lightspeed",
+      "Elevation Capital",
+      "Bessemer Venture Partners",
+      "Bessemer"
+    ]
   },
   {
     "company_name": "Seismic Therapeutic",
@@ -18932,7 +20286,42 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 146279914.0,
+        "currency": "USD",
+        "date": "2023-11-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 121000000.0,
+        "currency": "USD",
+        "date": "2023-12-04",
+        "investors": [],
+        "source_url": "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+      "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 121000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-04",
+    "total_raised": 267279914,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SendGrid",
@@ -19965,7 +21354,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 103693761.0,
+        "currency": "USD",
+        "date": "2019-06-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1781926/000178192619000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sisense.com/",
+      "https://www.sec.gov/Archives/edgar/data/1781926/000178192619000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 103693761.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-06-27",
+    "total_raised": 103693761,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SiteAdvisor, Inc.",
@@ -20124,7 +21539,31 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.smarterdx.com/newsroom/smarterdx-raises-50m-to-bolster-hospital-revenue-integrity-and-quality-with-its-clinical-ai-solution"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.smarterdx.com/newsroom/smarterdx-raises-50m-to-bolster-hospital-revenue-integrity-and-quality-with-its-clinical-ai-solution"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Smashfly",
@@ -21247,7 +22686,34 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2022-01-05",
+        "investors": [],
+        "source_url": "https://pulse2.com/tackle-io-100-million-series-c-funding-and-1-25-billion-valuation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tackle.io/",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWVhuOUhwdFdkU2VOZnp0ZHZDMVdlejdVb3RYMnNHTEg3THl2XzNudS0zV1JhWERUTURoMmhJdjd6ajZzbDJFek8tOUdNUjk4cVNReWZzVjdXdXRJb0lNZlE5Mm9nU2k5UlE2cVE0T21nS0s0TTA3S1FVcnJvVkhRRnQ5dXZLZnFZSVlhQlY2MS1YWGZJWDZDQzEtSnh5WVRiQzlLMDFRVFhzajZRdDhCNU9ib3E3LTUyVWd3TF9BYU1ERjBjYUZfakFMcGJfT2tVcGlzMU5HSEkzUXNOenlqTEpta3BtQ242aVkzZmtLM0VhNzB5Q2I5NFlxZlNxdmtJV2c?oc=5",
+      "https://pulse2.com/tackle-io-100-million-series-c-funding-and-1-25-billion-valuation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-05",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TaxiForSure",
@@ -21827,7 +23293,33 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2024-06-24",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbm43Vi1vbW5rX01RWXRVTVg4Nl9CN0JzWTc2VXV1WlVVS2NxQXhqRktyUVYzOVJEWWZDQTUtYmlFMXQ2RmpmbnNodnU5d3dqZTl1dmhPVlk4M1dUY1gtX1N1NGZfZWprVVNyWGM5ZWpfeTE5a2lCRmRtWnZidUJZWVRia2ktQQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tmrwsportsgroup.com/",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU0RIQlYzVjRGTTUyVktPSHptSERMSEhfeFQ2WWNuWWpVMlFoV3gyM09aeFpmTU5SYnREOHZrcTFPeDc3Q0J4VGgyYTEwcUxuQm9YcE9hRlJjYTloclJpcTB2aFNfMjVXOWMtRFNCMFlvUjFrMmtPZW5nSHhXMkNsZy1GMF9pUGpVcmhqdC1fWnYyb0JqQk9oN0ktU21NVHlYSVJ2SHhwWXk3S1lZbTV6U2p2Z1J1d21vY2dTWUlGQ2FvUXdOWG9TLWJCeWMxTUlSZ25OdU14VWtYX1AwZzRKenlBbmU?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbm43Vi1vbW5rX01RWXRVTVg4Nl9CN0JzWTc2VXV1WlVVS2NxQXhqRktyUVYzOVJEWWZDQTUtYmlFMXQ2RmpmbnNodnU5d3dqZTl1dmhPVlk4M1dUY1gtX1N1NGZfZWprVVNyWGM5ZWpfeTE5a2lCRmRtWnZidUJZWVRia2ktQQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2024-06-24",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Toast",
@@ -22228,7 +23720,35 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": "2025-12-03",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYXRaQUNNcmJwa2JfMkR3UlN5VWltSVhNcHJhUF90VXlmWk1lTTdYLUVRckUzTjlBM3Y1RFNoSzV4ZGhyNGJ6V1UtV2dGbi1mZzVtQnBTM0FKVi1WMno5X0EtQ3dUazB4c1JHNUlMa0lvMWNMR1FWOUpnR29tZnJrWXhvX0p2eHFPNnVnejY4QmEzNzhFaUNISHRvTmZTN3JJYldtVHRVeHptNGRNT1lLaWtaaUI5eVNkOVdmd1RzU3g2SWhUckFZRTMtTnVfdHJZQUJicEtVcHpidk5mZmowck1CY2N6M1FDYmgtN1pZZXpTV1dXN1J2cG84cThDNnVVZG0wMmlvdw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trianabio.com/",
+      "https://trianabio.com/news/",
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYXRaQUNNcmJwa2JfMkR3UlN5VWltSVhNcHJhUF90VXlmWk1lTTdYLUVRckUzTjlBM3Y1RFNoSzV4ZGhyNGJ6V1UtV2dGbi1mZzVtQnBTM0FKVi1WMno5X0EtQ3dUazB4c1JHNUlMa0lvMWNMR1FWOUpnR29tZnJrWXhvX0p2eHFPNnVnejY4QmEzNzhFaUNISHRvTmZTN3JJYldtVHRVeHptNGRNT1lLaWtaaUI5eVNkOVdmd1RzU3g2SWhUckFZRTMtTnVfdHJZQUJicEtVcHpidk5mZmowck1CY2N6M1FDYmgtN1pZZXpTV1dXN1J2cG84cThDNnVVZG0wMmlvdw?oc=5",
+      "https://pulse2.com/triana-biomedicines-120-million-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 120000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-03",
+    "total_raised": 120000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tripwire",
@@ -22613,7 +24133,62 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2024-01-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcWJQSW53dTRhS3lQQzYwZ1JIcUhJci1HN0k0WTY0ZGVDNmpFazgzRDgyQWZZQ29YRXhuRFlCTlptWTkxY3Ffc05YM3psS2hvSWdMQVBBdWN5djZ2YjRfdnc2MFgwMmxhM2Q5VkhkMjdFbFhkc0xNUXJwZG41R3lWOEc1eWYwMHJsZ0hIZGZQYTRxT0hHeERISzhId2lGLTF1cDV4amxPVUlaWllJSGRzR1FKS3JTQQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2026-03-17",
+        "lead_investors": [
+          "Oak HC"
+        ],
+        "investors": [
+          "Oak HC",
+          "Andreessen Horowitz",
+          "Adams Street Partners",
+          "Yosemite"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaEV5eDJ5R05sZi1PNWZrbnA5MS1vNTNScVQtZ2dra1pLcm9JTHNYd0RRZHNyVVVRZWFEZEhKZ2hMX3lLSG42MndFSmdUbm5CZ2NOc2dNeUVTZmx3ZVRQNl92UjM3eEZwYVlaRFpOQVFPVzlFM0hCb0xqVzRLbzRrWFl3cG5PdXZlYUVUZDJibUlCZkJKLUlJeXBneE8xdE5UR1ZaTGFhbUtzLXl6bzdjZEVvVUViNGdUbXowWDJEdzdrYkRzbEhVRVE3MmkxY0VZd3ZOTXNydmxpNnZmY0hfOUlQa2o2Q2U4WUQycnFKdm12OWZxQUlPLVl6MWZFV2VaTEExZTZB?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://turquoise.health/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1RQS1VpVEVsdDVJOG5hSHRGdWwyRWJPMkRSSU5fSjlWd002YnhlZUoycmJSQzVpNzU0eEZHc2s2N0dDb3FIS3h6OXFFT2hsY090dUEwMF9rT0RaLW94U21ra2NBWFpaQTdPU1VrTDFxM0JDU1M5NWhBZ08zMHc4eDZHdzZMeklleHRRUXBFcVVSVG5lVThMOTF1TUktcEFRUk05YWFYaHA2SjJf?oc=5",
+      "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaEV5eDJ5R05sZi1PNWZrbnA5MS1vNTNScVQtZ2dra1pLcm9JTHNYd0RRZHNyVVVRZWFEZEhKZ2hMX3lLSG42MndFSmdUbm5CZ2NOc2dNeUVTZmx3ZVRQNl92UjM3eEZwYVlaRFpOQVFPVzlFM0hCb0xqVzRLbzRrWFl3cG5PdXZlYUVUZDJibUlCZkJKLUlJeXBneE8xdE5UR1ZaTGFhbUtzLXl6bzdjZEVvVUViNGdUbXowWDJEdzdrYkRzbEhVRVE3MmkxY0VZd3ZOTXNydmxpNnZmY0hfOUlQa2o2Q2U4WUQycnFKdm12OWZxQUlPLVl6MWZFV2VaTEExZTZB?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc1U5WjZUTHN2M0RqbE4wanVub0F1XzlwYUZyWlprOHlyZlNQUVZ0eTJTcXAzRlA0WEFBb2N6enlmeUhyZGkyVloyazN4ajZrQ1B4dlRrRndaeERtRWxmc2VRMk5KNWRIR21jdUI2TFhUWFFoNG5wbXExOWdMUE9XWWVfdXVvSEd4aUlxTWp0UlVmNjNWRGFMUW10T0JGV1VKaVRYSg?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOVU4xbjZUMUJlMzRRVGp3UWZaRjFGUHU5bTNLM0ZuNVo4SWpPMUNpRFFSNkRXVnU2V3UtbGtxNkxnUzNNY29XTC1taGNiaXNPeEV4REloVWp1eV9nXzRWXzNwY0VqbnpBV1BYdmVESW9xTEFtdnZkeGl2NFE1SURWczlNUzk4c00yMjRDeUVlQkVvRzFOdWVjVTdDS09QQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWEJEcnRsTTNmLVZCOTN0cmgyRml6aDNDRVlOUmh6blBYVldEaW5KOHpyQnFmeThzQVVpYXN4a0xRaW1DLVpMVERkWDViaUxaazljWGlGMVhMMEpFQTVuTTgyNW5Cbm91ajkxZGd4b1NPX1FHMmRwTzNwT1hfTzY3bTE4eXIzTnBHMEhKS1BqT0lhM3dNMDdNVzIwdkhVU2RGMDFMbnRPSkVMbDN5QUJibEVLeC1MNzBQWG8yWDlGWE5seGdieVd0aE9JUkNpQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNmtwTDN5UVR1RFNKeXhtb1BsNjRlc2M1RnktaVZlekc0ellSWHh1YVJaeDhIT3BDWUg4QkdiMTF1eHkxOFpYMGY5RVkyVkh6b2g0VWNUQ2VQc0txNkNJOEdGanM5T29KVm5EZHRVMllYOGdocXJQRUlNWU1MMXVQQ0Z0eTBVTEpLUTdVN2lPMnEyZXZjMzBVR3NVTzNwckVtSFlxMk9CQ1ZrSFI4SWxtWFRwWWVQNUE?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcWJQSW53dTRhS3lQQzYwZ1JIcUhJci1HN0k0WTY0ZGVDNmpFazgzRDgyQWZZQ29YRXhuRFlCTlptWTkxY3Ffc05YM3psS2hvSWdMQVBBdWN5djZ2YjRfdnc2MFgwMmxhM2Q5VkhkMjdFbFhkc0xNUXJwZG41R3lWOEc1eWYwMHJsZ0hIZGZQYTRxT0hHeERISzhId2lGLTF1cDV4amxPVUlaWllJSGRzR1FKS3JTQQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-17",
+    "total_raised": 70000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Oak HC",
+      "Andreessen Horowitz",
+      "Adams Street Partners",
+      "Yosemite"
+    ]
   },
   {
     "company_name": "Twilio",
@@ -22921,7 +24496,36 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2022-10-26",
+        "investors": [],
+        "source_url": "https://unito.io/blog/unito-announces-series-b/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://unito.io/",
+      "https://unito.io/about-us/",
+      "https://unito.io/press/",
+      "https://unito.io/blog/unito-announces-series-b/",
+      "https://unito.io/blog/unito-announces-series-a-funding-round-new-features/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-10-26",
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "UniUni",
@@ -23489,7 +25093,53 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25224997.0,
+        "currency": "USD",
+        "date": "2024-10-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2042931/000204293124000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2024-12-11",
+        "investors": [],
+        "source_url": "https://vapi.ai/blog/vapi-secures-20m-to-start-the-voice-revolution-2",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 49999998.0,
+        "currency": "USD",
+        "date": "2026-02-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2042931/000204293126000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://vapi.ai/",
+      "https://vapi.ai/blog/vapi-secures-20m-to-start-the-voice-revolution-2",
+      "https://www.sec.gov/Archives/edgar/data/2042931/000204293124000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2042931/000204293126000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 49999998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-26",
+    "total_raised": 95224995,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vayyar",
@@ -23692,7 +25342,83 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 32050000.0,
+        "currency": "USD",
+        "date": "2011-07-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000152611911000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 20402606.0,
+        "currency": "USD",
+        "date": "2011-11-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000152611911000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2012-07-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000155133312000013/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3898326.0,
+        "currency": "USD",
+        "date": "2014-02-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000160152514000010/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4829628.0,
+        "currency": "USD",
+        "date": "2019-12-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000090445420000009/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2020-02-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1526119/000090445420000278/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.verastem.com/",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000152611911000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000152611911000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000155133312000013/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000160152514000010/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000090445420000009/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1526119/000090445420000278/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-02-27",
+    "total_raised": 163180560,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Verata Health",
@@ -24147,7 +25873,62 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 37500000.0,
+        "currency": "USD",
+        "date": "2018-05-31",
+        "investors": [],
+        "source_url": "https://www.virtru.com/newsroom/virtru-revolutionizing-data-privacy-closes-37-5-million-series-b-investment-led-by-iconiq-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2025-07-11",
+        "investors": [],
+        "source_url": "https://www.virtru.com/newsroom/virtru-secures-50-million-in-new-funding-to-accelerate-the-future-of-data-centric-security-for-the-ai-era",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 29000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "investors": [
+          "Bessemer Venture Partners"
+        ],
+        "source_url": "https://www.virtru.com/about-us"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.virtru.com/",
+      "https://www.virtru.com/about-us",
+      "https://www.virtru.com/newsroom",
+      "https://www.virtru.com/blog",
+      "https://www.virtru.com/newsroom/virtru-secures-50-million-in-new-funding-to-accelerate-the-future-of-data-centric-security-for-the-ai-era",
+      "https://www.virtru.com/newsroom/virtru-revolutionizing-data-privacy-closes-37-5-million-series-b-investment-led-by-iconiq-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-11",
+    "total_raised": 116500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners"
+    ]
   },
   {
     "company_name": "Vlocity",
@@ -24278,7 +26059,21 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.jamf.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Watershed",
@@ -24495,7 +26290,22 @@
     ],
     "source_url": "https://www.bvp.com/portfolio",
     "scraped_at": "2026-10-14T21:29:27.060702+00:00",
-    "primary_investor": "Bessemer Venture Partners"
+    "primary_investor": "Bessemer Venture Partners",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://welltok.com/",
+      "https://venturebeat.com/business/welltok-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wildlife Studios",

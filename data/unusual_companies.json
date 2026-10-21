@@ -142,18 +142,43 @@
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
     "scraped_at": "2026-10-02T13:09:47.243922+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2023-06-13",
+        "lead_investors": [
+          "Unusual Ventures",
+          "National Grid Partners"
+        ],
+        "investors": [
+          "Unusual Ventures",
+          "National Grid Partners"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20230614401861/en/AptEdge-Closes-Seed-Round-of-11M-led-by-Stage-2-Capital-Unusual-Ventures-and-National-Grid-Partners-to-Transform-Customer-Support-Help-Challenges/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirgJBVV95cUxQYXhoV3R6NkFEeS1PRk94RW45WkhESFo0cUpkanlMZmJYX0hlc0lwOFV1R0RPYW5WUW0xUjdyaDJ3STVISk5QNWpYSzRncjBUclkxRkNzcWFZY2ZPUGQtZzRzT1ZhTHl6SGRSTnYxZGZhUmhBMEZwNjRiSHlHODNiZU10Zkl2VXJQRU5CVUhkbUlnTURGZXpMcmlQOUtWcUdpNW1MWHdHZHNyZm43UTFONHhHdUx0YWRFelJVSF9lSTRyR1pRaHlTZXZpNjBVUnoxRGRUTGRwZ3dkM2FFaE50M08yMGxWZUdpWVJ2Y3lyNlVBNHk2VC1IVUFpWkVQVDFJVGZjWFdXc3dGZEMycHdqb25zLTd1UFRaU0ZCSHJ6M01UblZpQnU0WGVBMXJvQQ?oc=5",
+      "https://www.businesswire.com/news/home/20230614401861/en/AptEdge-Closes-Seed-Round-of-11M-led-by-Stage-2-Capital-Unusual-Ventures-and-National-Grid-Partners-to-Transform-Customer-Support-Help-Challenges/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-13",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Unusual Ventures",
+      "National Grid Partners"
+    ]
   },
   {
     "company_name": "Arctic Wolf",
@@ -977,7 +1002,64 @@
     ],
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
-    "scraped_at": "2026-10-02T13:09:47.243922+00:00"
+    "scraped_at": "2026-10-02T13:09:47.243922+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2022-02-17",
+        "lead_investors": [
+          "Unusual",
+          "HubSpot Ventures Learn"
+        ],
+        "investors": [
+          "Unusual",
+          "HubSpot Ventures Learn"
+        ],
+        "source_url": "https://www.goldcast.io/press/goldcast-raises-10m-seed-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2022-08-25",
+        "lead_investors": [
+          "WestBridge Capital"
+        ],
+        "investors": [
+          "WestBridge Capital",
+          "Unusual Ventures"
+        ],
+        "source_url": "https://www.goldcast.io/press/goldcast-closes-28m-seriesa",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.goldcast.io/",
+      "https://www.goldcast.io/press",
+      "https://www.goldcast.io/press/goldcast-raises-10m-seed-funding",
+      "https://www.goldcast.io/blog-post/announcing-ten-million-in-seed-funding",
+      "https://www.goldcast.io/press/goldcast-closes-28m-seriesa"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-25",
+    "total_raised": 38000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Unusual",
+      "HubSpot Ventures Learn",
+      "WestBridge Capital",
+      "Unusual Ventures"
+    ]
   },
   {
     "company_name": "GovSignals",
@@ -994,7 +1076,34 @@
     ],
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
-    "scraped_at": "2026-10-02T13:09:47.243922+00:00"
+    "scraped_at": "2026-10-02T13:09:47.243922+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": "2024-12-09",
+        "investors": [],
+        "source_url": "https://govsignals.ai/blog/as-department-of-government-efficiency-becomes-a-reality-govsignals-raises-seed-round-to-transform-government-contracting-with-ai/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://govsignals.ai/",
+      "https://govsignals.ai/blog/",
+      "https://govsignals.ai/blog/as-department-of-government-efficiency-becomes-a-reality-govsignals-raises-seed-round-to-transform-government-contracting-with-ai/",
+      "https://www.govsignals.ai/blog/as-department-of-government-efficiency-becomes-a-reality-govsignals-raises-seed-round-to-transform-government-contracting-with-ai/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2024-12-09",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Grain",
@@ -1849,7 +1958,44 @@
     ],
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
-    "scraped_at": "2026-10-02T13:09:47.243922+00:00"
+    "scraped_at": "2026-10-02T13:09:47.243922+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2026-09-24",
+        "investors": [],
+        "source_url": "https://www.rime.ai/resources/rime-series-a-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 5500000.0,
+        "currency": "USD",
+        "date": "2026-09-24",
+        "investors": [],
+        "source_url": "https://www.rime.ai/resources/seed",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.rime.ai/",
+      "https://www.rime.ai/company",
+      "https://www.rime.ai/resources/rime-series-a-announcement",
+      "https://www.rime.ai/resources/seed"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-24",
+    "total_raised": 29500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rive",
@@ -1866,20 +2012,35 @@
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
     "scraped_at": "2026-10-02T13:09:47.243922+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2023-01-17",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/rive-raises-10m-series-a-funding-led-by-two-sigma-ventures-301718542.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://rive.app/"
+      "https://rive.app/",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSzI1cEpWaVh0V0hZaFJmMmR3cjV0MWVNUHpCRDdRbUprZDBjVEE2WUpIRml6T0R6N2xGTExlSG5vdHFNRkl5MEEyTnlkbll6VC1FWlgtX3FFb0dPMWFWZ0R4eVFfWnhJcG8tUWZjMXVEOFVRQjdXSWdSNEMwLWRwemcwTkN1ZmNPejRYcTM5Z2pXVjNNc3R5a05aTDBSXzhZQTdpdWZjQzBnUGhuWVIzYlNKMjRnZC1oNGV4OERRWHU2UzRHMlh6SVdwQlYzM1FOYzRnV0ZFOXB2M3NFNDVLcGt5ZV9QNkU?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GRklKVEJWSXdqcXNPTV9vSmNqb0dySDk2aldGZzZwMXl6MGhzZVFZYy1DMlFUX3V0bHV6VDNGZldHaVhWNDRGZGVTVXFZV0tZM3ZYbDdvSzFKeDRWbHZrYm9sdjdnRGhXTndEWUd5dEZSZ1JRMHpQRDJvQzc?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOEpMUEJRbzNad0xZRE42QUVZcC1wT18ySmV5Sm5yXzVUQ1Vhc2Q5cnU3OU92bUt3WUpCOU5FMjkwMmtjRFQybmFzeFdDNW9wMDhELWlSdnh5Tko1SVFQSEZWOTdDdjM3a1c2UjlyZHFlZ2czNm5MdkF0ekRJeEVLM3NENVBGQ0ktYURoV25qZkhNRjNSTnc?oc=5",
+      "https://www.prnewswire.com/news-releases/rive-raises-10m-series-a-funding-led-by-two-sigma-ventures-301718542.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-01-17",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Robinhood",
@@ -2324,20 +2485,35 @@
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
     "scraped_at": "2026-10-02T13:09:47.243922+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2024-03-28",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQc2Y3SlJfS0FDTXZSLVFqa2tvZ0tpSTFHQ0txVGg0WlZKM1hySEdDMVdscG5mRGcwc3BxY0UzUWROSkR1UzlQRVB6RndOTHZvVllzRm5zYnE0R05Rc1Nrc1NMOFdNVmJnak0tMVlheGppUEJrZS1VSVQyMW1Sa2EtZXJ3c1JONXBXanI3MTlBajRwSFN4d1lWSEo2MzNsamJPSWRNQTBqTzBseHB4MFhnelV2YndHX3kwRGNpckhDOWVkaloyX0VodHdtZ3hIbnlUQV8zWnRVOExlckhUd3lZN29JU3lEcEM2WUJtbDlkNWZxQmV3RVpVMnl3?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://vizcom.com/"
+      "https://vizcom.com/",
+      "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQc2Y3SlJfS0FDTXZSLVFqa2tvZ0tpSTFHQ0txVGg0WlZKM1hySEdDMVdscG5mRGcwc3BxY0UzUWROSkR1UzlQRVB6RndOTHZvVllzRm5zYnE0R05Rc1Nrc1NMOFdNVmJnak0tMVlheGppUEJrZS1VSVQyMW1Sa2EtZXJ3c1JONXBXanI3MTlBajRwSFN4d1lWSEo2MzNsamJPSWRNQTBqTzBseHB4MFhnelV2YndHX3kwRGNpckhDOWVkaloyX0VodHdtZ3hIbnlUQV8zWnRVOExlckhUd3lZN29JU3lEcEM2WUJtbDlkNWZxQmV3RVpVMnl3?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEh5OTE1T2IxaTU5amxlV2RnNnRuUEZxWDJ6cWJDNk5pUUZiQXd1eFFDU0lLU2NzeVN4X19nbTlMU3Faa2x3ckM2TFU2LVRaSjAyZkUzN01CbUxNOTZLZFkzZ1lrdnNLMXBSejJtUUtXSlozY29sZzBOREJWeWVaakdMaHFZMTA1c0phbkx6aHNheFdTNDd3aVFOc3JMMU5UOXNNaUFrcnBRdGVIZUhZc0FXSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE10RDVvYmFNZ3pHOWtRUGN3VWNNbmEwaGtxVEd5RUJrbTNvVGJIalJRaGhNZGxZRTBDNHRiWTlMZDJRdkttVUtXUDhzRjFzeHM0cC1CMmRYZzJzS196V3pBNkxMb2l6SldFTmhOZzZqcHdlalVo?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lN0FhZEF2aUY3RE93a1M0blFWQjlwajlJY1RNZkM2d1hybTFlNVpDRWlDLW5MVXlmSXc5YXFBWGdpOUxZYTNBQmlGN1p5dnh3VF9sOHJpb2x2SDd3dml5cTZVRnJiWlVPQTljUWNIMW5maWhIajZLVWtpYXhSQ3c?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-03-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Webflow",

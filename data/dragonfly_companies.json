@@ -1051,7 +1051,21 @@
     ],
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
-    "scraped_at": "2026-10-16T13:29:12.456047+00:00"
+    "scraped_at": "2026-10-16T13:29:12.456047+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://commonware.xyz/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Compound Labs",
@@ -1360,7 +1374,35 @@
     ],
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
-    "scraped_at": "2026-10-16T13:29:12.456047+00:00"
+    "scraped_at": "2026-10-16T13:29:12.456047+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2022-01-07",
+        "investors": [],
+        "source_url": "https://news.bitcoin.com/nft-analytics-platform-cryptoslam-raises-9m-from-animoca-brands-mark-cuban-sound-ventures/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cryptoslam.io/",
+      "https://pulse2.com/cryptoslam-closes-9-million-in-strategic-seed-funding/",
+      "https://finance.yahoo.com/news/animoca-brands-leads-9m-round-182003292.html",
+      "https://news.bitcoin.com/nft-analytics-platform-cryptoslam-raises-9m-from-animoca-brands-mark-cuban-sound-ventures/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 9000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-07",
+    "total_raised": 9000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DeBank",
@@ -1438,20 +1480,32 @@
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
     "scraped_at": "2026-10-16T13:29:12.456047+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVJ2UThHaUZaQ1Z5R09fMTh5NTdmSEVTNFFsYTRyVUNyRkZYZUtiNXBmS2RhNU80cTNxeWw5d1QzVFE2UW9tYXY0WndJQUc3blU1WFRxRVE1OHlfZGtsdGNnTVFCYlN4UlFKcXRJZDN0d1ZQNk1BSnMzM0hXS3hGandaeXR2R28wTmpZTjI2ZXVXbWlhbzI1NlNjMWItUQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://doublezero.xyz/"
+      "https://doublezero.xyz/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVJ2UThHaUZaQ1Z5R09fMTh5NTdmSEVTNFFsYTRyVUNyRkZYZUtiNXBmS2RhNU80cTNxeWw5d1QzVFE2UW9tYXY0WndJQUc3blU1WFRxRVE1OHlfZGtsdGNnTVFCYlN4UlFKcXRJZDN0d1ZQNk1BSnMzM0hXS3hGandaeXR2R28wTmpZTjI2ZXVXbWlhbzI1NlNjMWItUQ?oc=5",
+      "https://siliconangle.com/2025/03/06/doublezero-raises-28m-build-global-fiber-network-blockchains/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Drakula",
@@ -1552,20 +1606,33 @@
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
     "scraped_at": "2026-10-16T13:29:12.456047+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2024-02-22",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2024/02/22/ethereum-restaking-protocol-eigenlayer-raises-100-million-led-a16z/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.eigencloud.xyz/"
+      "https://www.eigencloud.xyz/",
+      "https://finance.yahoo.com/news/restaking-protocol-eigenlayer-raises-100m-055152112.html",
+      "https://siliconangle.com/2024/02/22/ethereum-restaking-protocol-eigenlayer-raises-100-million-led-a16z/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ethena",
@@ -2516,7 +2583,23 @@
     ],
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
-    "scraped_at": "2026-10-16T13:29:12.456047+00:00"
+    "scraped_at": "2026-10-16T13:29:12.456047+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://metatheory.gg/",
+      "https://www.investing.com/news/cryptocurrency-news/metatheory-secures-24-million-series-a-funding-announcement-2826400?fr=operanews",
+      "https://news.bitcoin.com/web3-gaming-company-metatheory-raises-24-million-with-backing-from-a16z-pantera-and-ftx/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Monad",
@@ -2624,7 +2707,21 @@
     ],
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
-    "scraped_at": "2026-10-16T13:29:12.456047+00:00"
+    "scraped_at": "2026-10-16T13:29:12.456047+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://near.foundation/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nexus",

@@ -283,7 +283,21 @@
     ],
     "primary_investor": "Renegade Partners",
     "source_url": "https://www.renegadepartners.com/companies",
-    "scraped_at": "2026-10-06T13:29:52.938887+00:00"
+    "scraped_at": "2026-10-06T13:29:52.938887+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://dubclub.win/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Epsilon Health",
@@ -816,20 +830,44 @@
     "primary_investor": "Renegade Partners",
     "source_url": "https://www.renegadepartners.com/companies",
     "scraped_at": "2026-10-06T13:29:52.938887+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2021-02-03",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWVqWjVrVElYbnJLdDl2ZGpPZ0h1XzFBV2Nrd09SdzZCdXdWN18zMWwwaHpBS3R1VVBtOWxhM0wzNmVaM2RCLW1XSHQzakx2NktxV3RXTTV0c2lHQVA1UzBQQndidnRxRExDdnlhSzZsYU1fWDViSUJsTEd4ODg3YngyRVFGTERSZVpsVjM1em40WURCT21QRWtsMmJ4d0NTRXQ4Mk13?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2023-08-09",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20230810428858/en/Rightfoot-Launches-Zero-Login-Financial-Data-for-Financial-Institutions-and-Lenders",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.rightfoot.com/"
+      "https://www.rightfoot.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ29EZWs0aWE1aVVxVG1KOHkwcDRSWUVKZ1l6NENuRG1nNm1KOXF1N3kzSVpXWUhCSVM1aWRCUDFqTFZUZlFjd3pUR1RUa1dQTk1tOWhlUUdhcmNxY1MyN3FjV1BXenZSM253RFlnQkNNNExMNjdRU0pvNHBwcl80R1dkbzI3QWJDRWxvbldsLVBPX0R4QjVmalBYcmFjeFk?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWVqWjVrVElYbnJLdDl2ZGpPZ0h1XzFBV2Nrd09SdzZCdXdWN18zMWwwaHpBS3R1VVBtOWxhM0wzNmVaM2RCLW1XSHQzakx2NktxV3RXTTV0c2lHQVA1UzBQQndidnRxRExDdnlhSzZsYU1fWDViSUJsTEd4ODg3YngyRVFGTERSZVpsVjM1em40WURCT21QRWtsMmJ4d0NTRXQ4Mk13?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOEtrZ0FYR1dFQjdibi1ZN3JiS1huTHFVblZ2UDBvQmRQYkRaMnpaNjUwQ0pjdzVlMHdYRS1ERFE0Q2tVeEF5M2phZDVjZFBZRWdxdVp6bXhsMjhabnNRY3NHYlRmR3JfZ2RBZVBvLTlXWFpLbkR5ZUhUakZjUHZvTUZ1OTVmUmp3Z05OdXZqMDNfbTNXSEN0UmV0YXZyTDJTc2NDaWFSdEQ1Y3ExU3E5eXh5YlJnckhMclRZTg?oc=5",
+      "https://www.businesswire.com/news/home/20230810428858/en/Rightfoot-Launches-Zero-Login-Financial-Data-for-Financial-Institutions-and-Lenders"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ripplematch",

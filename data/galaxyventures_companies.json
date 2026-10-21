@@ -264,20 +264,32 @@
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
     "scraped_at": "2026-10-17T17:50:50.676930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2025-06-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQajNJaU13UU15TWV4dEtMcVZnUFRDeU5MMHBjN1RidGJXZG93X0ZhMFhidl9GckFwTFZWTFNuRlNOS2o2UFZMcjNYWWFoZHpJN3hmVnBNb0NaQWRrQURiRVNzWmFqSzdhRWpNMTY1UGkzMFE5V1RyMUxzLVd2UjlyZ1hzT1JmQWlha1FVZFRnOVNVTF9hTEtaclBuZTVDZ1BmVlYwQl85RzdjV096YWFOeXFNSmVqVFFUNjl5ZHBR?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.veranta.xyz/"
+      "https://www.veranta.xyz/",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQajNJaU13UU15TWV4dEtMcVZnUFRDeU5MMHBjN1RidGJXZG93X0ZhMFhidl9GckFwTFZWTFNuRlNOS2o2UFZMcjNYWWFoZHpJN3hmVnBNb0NaQWRrQURiRVNzWmFqSzdhRWpNMTY1UGkzMFE5V1RyMUxzLVd2UjlyZ1hzT1JmQWlha1FVZFRnOVNVTF9hTEtaclBuZTVDZ1BmVlYwQl85RzdjV096YWFOeXFNSmVqVFFUNjl5ZHBR?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-04",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Axelar",
@@ -720,7 +732,33 @@
     ],
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
-    "scraped_at": "2026-10-17T17:50:50.676930+00:00"
+    "scraped_at": "2026-10-17T17:50:50.676930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2019-02-19",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGh6aUtITThSWlRlLUVWbFJSTzZ3U2MyNHczYURNUDAzanRkTHM4NFJ3dVJja3dnaVZBU1JzSkVKWVJoV0YxMGdQeXd6VEpHNGRoUVpoMXpoVWNkaUlOdUpOS0w4Yk1uOWpLdVh1QWVFeWhlNkVDVjFvR3JaZ1Jkdms3RVF6eFhMSzJUY0VCRHlaZ3R1c0h5M0c5NA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGh6aUtITThSWlRlLUVWbFJSTzZ3U2MyNHczYURNUDAzanRkTHM4NFJ3dVJja3dnaVZBU1JzSkVKWVJoV0YxMGdQeXd6VEpHNGRoUVpoMXpoVWNkaUlOdUpOS0w4Yk1uOWpLdVh1QWVFeWhlNkVDVjFvR3JaZ1Jkdms3RVF6eFhMSzJUY0VCRHlaZ3R1c0h5M0c5NA?oc=5",
+      "https://pulse2.com/ciphertrace-raises-15-million/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-02-19",
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Citrea",
@@ -750,20 +788,31 @@
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
     "scraped_at": "2026-10-17T17:50:50.676930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRW1OZjNEZGNJOE1DOEJzMkRwSUlDZS1QQmVxejhFUzdGVHIzRDNFNjM4WnVSZTFoRjl2UGE2WXBDQ0FZeDBnUFk3Y19uM28zbXJyLWNzQlVQT3NySm8yN3hqM3JSeUgweV9RcjA5M1ItUUxwTVVCUi1XQkR0ZndjamczYml0eEhkejk0TXA5ejhQdTJILXRJeHBsc0t5UdIBngFBVV95cUxPRW1OZjNEZGNJOE1DOEJzMkRwSUlDZS1QQmVxejhFUzdGVHIzRDNFNjM4WnVSZTFoRjl2UGE2WXBDQ0FZeDBnUFk3Y19uM28zbXJyLWNzQlVQT3NySm8yN3hqM3JSeUgweV9RcjA5M1ItUUxwTVVCUi1XQkR0ZndjamczYml0eEhkejk0TXA5ejhQdTJILXRJeHBsc0t5UQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.crunchdao.com/"
+      "https://www.crunchdao.com/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPRW1OZjNEZGNJOE1DOEJzMkRwSUlDZS1QQmVxejhFUzdGVHIzRDNFNjM4WnVSZTFoRjl2UGE2WXBDQ0FZeDBnUFk3Y19uM28zbXJyLWNzQlVQT3NySm8yN3hqM3JSeUgweV9RcjA5M1ItUUxwTVVCUi1XQkR0ZndjamczYml0eEhkejk0TXA5ejhQdTJILXRJeHBsc0t5UdIBngFBVV95cUxPRW1OZjNEZGNJOE1DOEJzMkRwSUlDZS1QQmVxejhFUzdGVHIzRDNFNjM4WnVSZTFoRjl2UGE2WXBDQ0FZeDBnUFk3Y19uM28zbXJyLWNzQlVQT3NySm8yN3hqM3JSeUgweV9RcjA5M1ItUUxwTVVCUi1XQkR0ZndjamczYml0eEhkejk0TXA5ejhQdTJILXRJeHBsc0t5UQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DFINITY",
@@ -847,20 +896,32 @@
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
     "scraped_at": "2026-10-17T17:50:50.676930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVJ2UThHaUZaQ1Z5R09fMTh5NTdmSEVTNFFsYTRyVUNyRkZYZUtiNXBmS2RhNU80cTNxeWw5d1QzVFE2UW9tYXY0WndJQUc3blU1WFRxRVE1OHlfZGtsdGNnTVFCYlN4UlFKcXRJZDN0d1ZQNk1BSnMzM0hXS3hGandaeXR2R28wTmpZTjI2ZXVXbWlhbzI1NlNjMWItUQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://doublezero.xyz/"
+      "https://doublezero.xyz/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVJ2UThHaUZaQ1Z5R09fMTh5NTdmSEVTNFFsYTRyVUNyRkZYZUtiNXBmS2RhNU80cTNxeWw5d1QzVFE2UW9tYXY0WndJQUc3blU1WFRxRVE1OHlfZGtsdGNnTVFCYlN4UlFKcXRJZDN0d1ZQNk1BSnMzM0hXS3hGandaeXR2R28wTmpZTjI2ZXVXbWlhbzI1NlNjMWItUQ?oc=5",
+      "https://siliconangle.com/2025/03/06/doublezero-raises-28m-build-global-fiber-network-blockchains/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EigenLayer",
@@ -1719,7 +1780,21 @@
     ],
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
-    "scraped_at": "2026-10-17T17:50:50.676930+00:00"
+    "scraped_at": "2026-10-17T17:50:50.676930+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://openorigins.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ornn",

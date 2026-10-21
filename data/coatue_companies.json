@@ -233,7 +233,7 @@
       "https://www.texau.com/profiles/airbyte"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1000,7 +1000,21 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Discover the power of Personalized Precision Medicine & AI Cancer Therapy with Artera. Transforming cancer therapy through innovation.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://artera.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Artsy",
@@ -1017,7 +1031,83 @@
     "description": "Artsy is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses.",
     "location": "Tribeca",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100000.0,
+        "currency": "USD",
+        "date": "2010-05-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000149276710000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1220000.0,
+        "currency": "USD",
+        "date": "2010-11-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000149276710000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18480053.0,
+        "currency": "USD",
+        "date": "2014-03-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000149276714000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 20669149.0,
+        "currency": "USD",
+        "date": "2015-03-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000149276715000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 49293389.0,
+        "currency": "USD",
+        "date": "2017-06-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000149276717000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 32799980.0,
+        "currency": "USD",
+        "date": "2025-04-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1492767/000200410925000006/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.artsy.net/",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000149276710000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000149276710000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000149276714000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000149276715000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000149276717000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1492767/000200410925000006/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 32799980.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-24",
+    "total_raised": 122562571,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Atma Sciences",
@@ -1270,7 +1360,22 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Avvo has ratings, reviews, and disciplinary records for lawyers in every state. Get free legal advice, find the right lawyer, and make informed legal decisions.",
-    "primary_investor": "Coatue"
+    "primary_investor": "Coatue",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2J5cFQ1N3d0b0EzVXpiSUpiUE9QNWhRSWZjalRJNHhmXzNhcGMzZ003ZDdnZHRGd1RQeHhiSG91bEQ1elRZU25SR183SEZteVgxYVFtTS11cHU4amZpSFNwNVdtd2huOXdzT1RnbXpLN19oWDhXVDJNSjEwV25fTUNGM1VNdEV2cEZDUDg4S1VxTGpXOHA0M1N6MExNbUQ4U2x1Ng?oc=5",
+      "https://www.law.com/legaltechnews/almID/1202446482132/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Axoni",
@@ -1630,7 +1735,21 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "BondLink is an investor relations and disclosure platform for municipal bond issuers, facilitating regulatory compliance and communication with investors.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bondlink.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Boost Insurance",
@@ -3051,7 +3170,42 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "AI agents will discover products, make recommendations, and complete purchases on behalf of people. Commerce Layer provides the API infrastructure powering this shift.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Coatue"
+        ],
+        "investors": [
+          "Coatue"
+        ],
+        "source_url": "https://commercelayer.io/blog"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://commercelayer.io/",
+      "https://commercelayer.io/blog",
+      "https://commercelayer.io/blog/commerce-layer-raises-16m-series-b-led-by-coatue",
+      "https://commercelayer.io/blog/commerce-layer-raises-6m-series-a-fund-led-by-benchmark"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Coatue"
+    ]
   },
   {
     "company_name": "CommonStock",
@@ -3250,7 +3404,82 @@
     "description": "The AI Cloud platform of technology and teams fully integrated and purpose-built to turn pioneers’ most complex AI workloads into discovery and creation.",
     "location": "Roseland",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1010006.0,
+        "currency": "USD",
+        "date": "2019-09-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962820000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3792000.0,
+        "currency": "USD",
+        "date": "2020-12-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1149999332.0,
+        "currency": "USD",
+        "date": "2024-05-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962824000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2026-05-20",
+        "lead_investors": [
+          "Magnetar Capital"
+        ],
+        "investors": [
+          "Magnetar Capital"
+        ],
+        "source_url": "https://coreweave.com/news/coreweave-secures-2-3-billion-debt-financing-facility-led-by-magnetar-capital-and-blackstone-to-meet-surging-demand-and-ongoing-expansion-of-specialized-cloud-infrastructure-to-power-ai",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2026-10-02",
+        "investors": [],
+        "source_url": "https://www.coreweave.com/blog/coreweave-specialized-cloud-provider-raises-50-million-in-new-capital-from-magnetar",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://coreweave.com/",
+      "https://coreweave.com/newsroom",
+      "https://www.coreweave.com/blog/coreweave-specialized-cloud-provider-raises-50-million-in-new-capital-from-magnetar",
+      "https://coreweave.com/news/coreweave-secures-2-3-billion-debt-financing-facility-led-by-magnetar-capital-and-blackstone-to-meet-surging-demand-and-ongoing-expansion-of-specialized-cloud-infrastructure-to-power-ai",
+      "https://www.sec.gov/Archives/edgar/data/1769628/000176962820000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1769628/000176962821000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1769628/000176962824000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-10-02",
+    "total_raised": 1404801338,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Magnetar Capital"
+    ]
   },
   {
     "company_name": "Coursedog",
@@ -3266,7 +3495,51 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Empowering administrators with academic scheduling, curriculum management, online catalogs, and academic reporting tools. Coursedog is Higher Ed's Best Friend.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 22159945.0,
+        "currency": "USD",
+        "date": "2021-09-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1884255/000188425521000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.coursedog.com/articles/coursedog-raises-17m-to-break-down-barriers-in-higher-education"
+      },
+      {
+        "stage": "Growth",
+        "amount": 90000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.coursedog.com/articles/public-fundraise-announcement"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.coursedog.com/",
+      "https://www.coursedog.com/articles/coursedog-raises-17m-to-break-down-barriers-in-higher-education",
+      "https://www.coursedog.com/articles/public-fundraise-announcement",
+      "https://www.sec.gov/Archives/edgar/data/1884255/000188425521000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 22159945.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-09-03",
+    "total_raised": 129159945,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Covariant",
@@ -3377,7 +3650,19 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cursor",
@@ -3507,7 +3792,19 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cyera",
@@ -3999,7 +4296,32 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Powered by world-class enterprise search that serves up immediate access to all of the institutional knowledge in your firm, DeepJudge enables you to build entire AI applications, encapsulate multi-step workflows, and implement LLM agents.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.deepjudge.ai/news/deepjudge-raises-10-7m-seed-round-led-by-coatue-and-announces-knowledge-assistant"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.deepjudge.ai/",
+      "https://www.deepjudge.ai/news/deepjudge-raises-10-7m-seed-round-led-by-coatue-and-announces-knowledge-assistant"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 10700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Deepnote",
@@ -4497,7 +4819,53 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Drug discovery accelerates, financial risk drops, and real-world missions succeed with Domino.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 27000000.0,
+        "currency": "USD",
+        "date": "2017-04-26",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fYnN5U2pDeU53V1p6R1UxM3EtNEhDOVczRVhlVzU2RWFSUFRLNVh0UzlsRVh1dG8wc2paa0R5OXlncmhhSklIMUlzaTZLWkFpM3NLd3d1aC1PX3RwTmxmbkhjbF9raHpVTmY4S2dwNHRJMnFHdGpzSU95U0c2UFE?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2018-08-09",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlJ5NFJEM0NiUlQyRktURUJjZi1QbjQ2SlFabUdTcURVc0s3V3VfdlgyVThaR0pYelhUbnlJODlrTnZsWHhqV3A4TU5mZTJVTXpUSVk5N2s0ZG1mQ0dTb0t5dTk2VlJhZGdqREQtZXBhelVKeGFjWnB5akpOMGNZekdoaVQ2WURrbDhXNEhtNi1GZWFPMndpZFpUN1hVbGpnMEdQeEVIZ2FjT1UyUkN3?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-10-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONFV6Q0w5Wl9sVGlXRzF3dGFDcExOSjg2OWNWc2VNSzYzZkVrQnp2QkRQTDNuenMybjhsYzd6MDlxOXR2LURBc3hnWW02RFcySnFFMWYyUnQwVHpDeF8tZ0NKOXl2VHc2bU40V1hMUC1oZmtNczlGWFMza1dGUzhManhMbFIyZFFNOXNTZDhwNXdCSDhFeTRiY0VYNk9McHRLYzRV?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://domino.ai/",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxONFV6Q0w5Wl9sVGlXRzF3dGFDcExOSjg2OWNWc2VNSzYzZkVrQnp2QkRQTDNuenMybjhsYzd6MDlxOXR2LURBc3hnWW02RFcySnFFMWYyUnQwVHpDeF8tZ0NKOXl2VHc2bU40V1hMUC1oZmtNczlGWFMza1dGUzhManhMbFIyZFFNOXNTZDhwNXdCSDhFeTRiY0VYNk9McHRLYzRV?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlJ5NFJEM0NiUlQyRktURUJjZi1QbjQ2SlFabUdTcURVc0s3V3VfdlgyVThaR0pYelhUbnlJODlrTnZsWHhqV3A4TU5mZTJVTXpUSVk5N2s0ZG1mQ0dTb0t5dTk2VlJhZGdqREQtZXBhelVKeGFjWnB5akpOMGNZekdoaVQ2WURrbDhXNEhtNi1GZWFPMndpZFpUN1hVbGpnMEdQeEVIZ2FjT1UyUkN3?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fYnN5U2pDeU53V1p6R1UxM3EtNEhDOVczRVhlVzU2RWFSUFRLNVh0UzlsRVh1dG8wc2paa0R5OXlncmhhSklIMUlzaTZLWkFpM3NLd3d1aC1PX3RwTmxmbkhjbF9raHpVTmY4S2dwNHRJMnFHdGpzSU95U0c2UFE?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-05",
+    "total_raised": 167000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "DoNotPay",
@@ -6507,7 +6875,133 @@
     "description": "Our mission is to make delicious meat that’s packed with nutrients, better for the planet, and way better for animals.",
     "location": "Redwood City",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6200000.0,
+        "currency": "USD",
+        "date": "2011-09-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000010/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2999969.0,
+        "currency": "USD",
+        "date": "2013-02-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000009/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25034223.0,
+        "currency": "USD",
+        "date": "2013-07-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000008/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 39999990.0,
+        "currency": "USD",
+        "date": "2014-06-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000007/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 107999967.0,
+        "currency": "USD",
+        "date": "2015-08-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000006/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2016-11-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 113925000.0,
+        "currency": "USD",
+        "date": "2018-03-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": "2019-05-08",
+        "investors": [],
+        "source_url": "https://impossiblefoods.com/media/news-releases/2019/05/series-e-300-million-round",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 37327434.0,
+        "currency": "USD",
+        "date": "2019-06-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000094787120000251/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 500000000.0,
+        "currency": "USD",
+        "date": "2020-03-09",
+        "investors": [],
+        "source_url": "https://impossiblefoods.com/media/news-releases/impossible-foods-closes-usd500m-in-new-funding-amid-record-growth",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 199999985.0,
+        "currency": "USD",
+        "date": "2020-08-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1580614/000094787120000687/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://impossiblefoods.com/",
+      "https://impossiblefoods.com/media/news-releases/2019/05/series-e-300-million-round",
+      "https://impossiblefoods.com/media/news-releases/impossible-foods-closes-usd500m-in-new-funding-amid-record-growth",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000010/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000009/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000008/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000007/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000006/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000158061418000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000094787120000251/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1580614/000094787120000687/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 199999985.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-08-12",
+    "total_raised": 1433486568,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Infinitus Systems",
@@ -8900,7 +9394,32 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1999993.0,
+        "currency": "USD",
+        "date": "2019-11-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796147/000179614719000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1796147/000179614719000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1999993.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-11-27",
+    "total_raised": 1999993,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OneText",
@@ -10684,20 +11203,57 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2020-12-17",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjZscEZHMGREek1LQVg2cHBsZTBoTlRmTFNYYTNELVZJakJnNkpJbmxvS0FMaDBJYzRyeVozbGpXcnptckZISkpWTTR0SnZ4QzNrZ1oweUh5X0djbEN6REN4NUFSSWkzWXJHZjFlWThOek00X3BMSFJ6SC1EYXBhQk93RHVyRzhYY2kwb0gyWUVPU3c0aTJuVHRUbE1kNnh6T0VCWFlhUV8wSVhfdzk2UA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-03-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNczNVMXQ0aUNSWHVPVm45bTF0VjAtQjhNMzNBUzZlWmQxaVUwQ1lqTWpZUVhjeHFMY2FwOVF4ZUpKYk53eVFKT2g2T3hyVVBVbl92UXlEY1FXdnNzZjFTZTEwejJTMVJ6Y1d5RFJnbkhvNzBsVlZFQXJjeUQ2d1dnT0J0c0ZfN2p3QWZvcnl0VVlBck9HWG1lck5Xc2FJNE93bHR6bjA2cDJuX3c3bjEwNEljMXptU08x?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 145000000.0,
+        "currency": "USD",
+        "date": "2021-12-20",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUlBR0N4ZGVoZXVoTmJPQlZGZTF2SVRNTmUxVlhWUTA0bTlZcTRpSmhXcWpvelg0U1c3dm0wMVJ5UUd2aWI0cW9lZlh3RkhPN19PVnhnUWVUdzJKVXhMdy1MZHYtMms4QmZ2ekFTcmN0ZlB2ZkRQQkVfUzdWMzJ5YkliOVlYRnNHamVOY29Tc0d3N0lSd1VSN2FGbTAtOC1GNjM5WjMzYWp5RHBTLVFFaEpBOXl4bkNrODhFVkNSbVQxUQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://recroom.com/"
+      "https://recroom.com/",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUlBR0N4ZGVoZXVoTmJPQlZGZTF2SVRNTmUxVlhWUTA0bTlZcTRpSmhXcWpvelg0U1c3dm0wMVJ5UUd2aWI0cW9lZlh3RkhPN19PVnhnUWVUdzJKVXhMdy1MZHYtMms4QmZ2ekFTcmN0ZlB2ZkRQQkVfUzdWMzJ5YkliOVlYRnNHamVOY29Tc0d3N0lSd1VSN2FGbTAtOC1GNjM5WjMzYWp5RHBTLVFFaEpBOXl4bkNrODhFVkNSbVQxUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmpmc2JrdG1LRFdVTkk2OGpfOGZkaUdnTWV3OXBZQmJkMkVqQW1DUm1GUE1VeTlEQ2tsUGhQU2pVWTNUb0UzejBJYzZ5NUEzSXN5bkdGVWlMeVViN0xrWU02a080dWFqRi1yNzhtazAtZ2FBN2M5bWhPaVM3ZEs1TUp3M1A4bmZTTldMYWdTNnVjb09xcDNMZWswTGtnZmVLbnlHRkczZjg0YVp2Y2NrZnRZWHRUeTMxaUF5c1NxTXhtamJiSmhMMW5UQ1d4QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCZDB0TVhteklWZXMtRVhGTlpBZUlUdnFrSVY5LXNJOVhpZ0lHNW5UWDg2TnktNlc5Wm5wN0ZKcDBmWkhub0VOX016cHpPZ2JfZ2Z4WXlCNnlsNmhadDBkUFM3NU1JSngzUWRSQnkzVVRtVmJMbkpGbXpn?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOclZOUkJVWHRXOVFLWFpzT096S2ZyTFNPNE1mdFFjUV9VYll3dXdoT3ZxemRQb3FqU1EzRnJKd0dLOG44amZ5VXBJekRPMkNXWTlBY1ByY0VtRkxCamdFc0p4VXJWQll4Si1vX2lCUVE3LWV0NElzX003cVRYbWZxcWJtSnRidw?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNczNVMXQ0aUNSWHVPVm45bTF0VjAtQjhNMzNBUzZlWmQxaVUwQ1lqTWpZUVhjeHFMY2FwOVF4ZUpKYk53eVFKT2g2T3hyVVBVbl92UXlEY1FXdnNzZjFTZTEwejJTMVJ6Y1d5RFJnbkhvNzBsVlZFQXJjeUQ2d1dnT0J0c0ZfN2p3QWZvcnl0VVlBck9HWG1lck5Xc2FJNE93bHR6bjA2cDJuX3c3bjEwNEljMXptU08x?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTllmYWN6Sk01SmhCRXcwXzR6VDRGNnN0cnN0QS1hMDR5cjRsVFJ3Ukw4cDlySmxET1ZRMzRuazI4VHpOS3paWjQ3VVhBT2hVUnRweXV5ZDRvSUdNdHNKcjFMMnpMMGZmNkZvci1TaUgzUlpFb28tWEJoMU1LZlo3U1E2Y2VLTVktOUtWZFBYYXJ5LVc2MDA0VThNOUpsR3M?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3S2FHWi1pc0hUZlNCMnhpc0Z1dFliWEV2QVE0aXhndlFIb3dNRWRSMldBYXRDMWI5U2RZSUV1Vy1sWGVtQ0x6aXlKazYzamxXTTFLZllJOXdmc2J4U29yQkt1UzFQMHNHbmhPLXR5Z2tNTzBIR2c?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjZscEZHMGREek1LQVg2cHBsZTBoTlRmTFNYYTNELVZJakJnNkpJbmxvS0FMaDBJYzRyeVozbGpXcnptckZISkpWTTR0SnZ4QzNrZ1oweUh5X0djbEN6REN4NUFSSWkzWXJHZjFlWThOek00X3BMSFJ6SC1EYXBhQk93RHVyRzhYY2kwb0gyWUVPU3c0aTJuVHRUbE1kNnh6T0VCWFlhUV8wSVhfdzk2UA?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 265000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 145000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Reddit",
@@ -10867,7 +11423,43 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 330000.0,
+        "currency": "USD",
+        "date": "2013-02-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1570930/000157093013000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 220000053.0,
+        "currency": "USD",
+        "date": "2021-06-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1570930/000156761921014907/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.reifyhealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1570930/000157093013000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1570930/000156761921014907/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 220000053.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-09",
+    "total_raised": 220330053,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Relativity",
@@ -13086,7 +13678,34 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Tackle helps you identify the right buyers, co-sell with your Cloud Partners, and transact through the Marketplaces with a platform built for Cloud GTM success.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2022-01-05",
+        "investors": [],
+        "source_url": "https://pulse2.com/tackle-io-100-million-series-c-funding-and-1-25-billion-valuation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tackle.io/",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWVhuOUhwdFdkU2VOZnp0ZHZDMVdlejdVb3RYMnNHTEg3THl2XzNudS0zV1JhWERUTURoMmhJdjd6ajZzbDJFek8tOUdNUjk4cVNReWZzVjdXdXRJb0lNZlE5Mm9nU2k5UlE2cVE0T21nS0s0TTA3S1FVcnJvVkhRRnQ5dXZLZnFZSVlhQlY2MS1YWGZJWDZDQzEtSnh5WVRiQzlLMDFRVFhzajZRdDhCNU9ib3E3LTUyVWd3TF9BYU1ERjBjYUZfakFMcGJfT2tVcGlzMU5HSEkzUXNOenlqTEpta3BtQ242aVkzZmtLM0VhNzB5Q2I5NFlxZlNxdmtJV2c?oc=5",
+      "https://pulse2.com/tackle-io-100-million-series-c-funding-and-1-25-billion-valuation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-05",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Take Take Take",
@@ -14327,7 +14946,32 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Wheel provides everything companies and clinicians need to deliver virtual care.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.wheel.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wheel.com/",
+      "https://www.wheel.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wisdom AI",

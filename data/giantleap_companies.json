@@ -114,7 +114,19 @@
     ],
     "primary_investor": "Giant Leap",
     "source_url": "https://www.giantleap.com.au/portfolio",
-    "scraped_at": "2026-10-09T13:37:55.371581+00:00"
+    "scraped_at": "2026-10-09T13:37:55.371581+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Clean Slate",
@@ -757,20 +769,44 @@
     "primary_investor": "Giant Leap",
     "source_url": "https://www.giantleap.com.au/portfolio",
     "scraped_at": "2026-10-09T13:37:55.371581+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1800000.0,
+        "currency": "USD",
+        "date": "2022-12-08",
+        "investors": [],
+        "source_url": "https://www.suasnews.com/2022/12/swoop-aero-secures-1-8m-in-federal-government-funding-for-the-worlds-largest-integrated-drone-logistics-network/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2022-12-13",
+        "investors": [],
+        "source_url": "https://www.suasnews.com/2022/12/swoop-aero-awarded-usd1-5m-usaid-div-funding-to-scale-malawi-operations/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://kite.aero/"
+      "https://kite.aero/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUk9nb2piQUFkenpzRW54bFpCbHhrZWg4WWNDWlFCdFMxTVgwQzZVVmJ5QWxmd185R1RLSmEwTi1MeVQ0c25lTWczanNkMHc1SnR2eWh2QXpZMzR0THV2SzEteGNEcDZxXzlNbGd5UFJ6ZHlOeHMtY0d0blVBQmY4YV9BNUVWS0xvMWYtUGFNZ1ZQTWgyaEZrQUstRVVlbWUybmhETEhFaVJHUnB5a1U2aDVxRjVkaDJ20gG-AUFVX3lxTFBMZ2VKb0dkeUdkdjBOVER4b0QtNFV6cEJoVWt0V0JBc0dndHlVVE5RSnRPZmZXZmZvczRSM0g4SDdhNTZPa1kwdGxfbnlHZmN0bkZBSHNsbXRWTGNielJERzd1WnVwMFFSY0UzU2N5R3JWd0NlQ0JQZ1RiTEQ0Vi0zTzdZdnhLWlIxMm4xNktIYXBKZlNPUHVMQlhGTXh3TTB6MHJ1S1dNQXJzVGdpcVRMWnNjVGZGcHBHTjMtRGc?oc=5",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jSFZLU0J2a1R1NW1sbVBkMDdGQnFHUW16WE9jZ2NYM1NGWlhwb2RVTjg5Tm5nVmtjRVdqN282d0gxYlVJSW5GUUc4YjZkaUl2UXRza0s2ZlhkeW1y?oc=5",
+      "https://www.suasnews.com/2022/12/swoop-aero-secures-1-8m-in-federal-government-funding-for-the-worlds-largest-integrated-drone-logistics-network/",
+      "https://www.suasnews.com/2022/12/swoop-aero-awarded-usd1-5m-usaid-div-funding-to-scale-malawi-operations/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3300000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Trace",

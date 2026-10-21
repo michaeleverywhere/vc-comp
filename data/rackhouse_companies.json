@@ -49,7 +49,43 @@
     "everywhere_tags": [],
     "primary_investor": "Rackhouse Venture Capital",
     "source_url": "https://rackhouse.vc/portfolio",
-    "scraped_at": "2026-10-20T21:26:47.469552+00:00"
+    "scraped_at": "2026-10-20T21:26:47.469552+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17152567.0,
+        "currency": "USD",
+        "date": "2022-10-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1784426/000178442622000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2025-04-30",
+        "investors": [],
+        "source_url": "https://www.breef.com/breefingroom/articles/breef-milestone-announcing-our-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.breef.com/",
+      "https://www.breef.com/breefingroom/articles/breef-milestone-announcing-our-series-a",
+      "https://www.sec.gov/Archives/edgar/data/1784426/000178442622000003/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-30",
+    "total_raised": 33152567,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fishtail",
@@ -186,20 +222,43 @@
     "primary_investor": "Rackhouse Venture Capital",
     "source_url": "https://rackhouse.vc/portfolio",
     "scraped_at": "2026-10-20T21:26:47.469552+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2023-10-17",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOHA1UGxjN1l3b0FFcENycjZ4d2JwdGZUY2F0RDRfd1Q1MjFNNDU5NmhlM1RiY21PUWJnanV3clZuWFRtTWdRQ2ZQVUxBWWVDUGNKZktYLV9ySTdvR2R5NUJxMm9weEtMTWZmTDlqQzY5Y2xuMXgzWldYT1RJYVNWQ3JyTE9DQXZDYnY4b3dySG0wWDRYUlNKMzVpM1drdnN0SVBzblJR?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": "2024-10-22",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbHFKQmYzdlB1aC1xemNsYW1iWVBvX2lXRmI2M2V5dlVicFRTZnFyN0lFRDBlcnpOc0hSM2ZvQVA3aW1mQVBYd1g2OVpoWkpiNU9nTUZtY09vWFVOMnRMRTk5TnZQRFBacVFRRUhsUGxyLUFSaFhzVlFTeGNtOF9mX1o4OTVEc1NCbGFFaA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.realitydefender.com/"
+      "https://www.realitydefender.com/",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOHA1UGxjN1l3b0FFcENycjZ4d2JwdGZUY2F0RDRfd1Q1MjFNNDU5NmhlM1RiY21PUWJnanV3clZuWFRtTWdRQ2ZQVUxBWWVDUGNKZktYLV9ySTdvR2R5NUJxMm9weEtMTWZmTDlqQzY5Y2xuMXgzWldYT1RJYVNWQ3JyTE9DQXZDYnY4b3dySG0wWDRYUlNKMzVpM1drdnN0SVBzblJR?oc=5",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaS1pbEtqRUxVX2tJTHhlUTJxQlBlZ0ppclg0bTlGYVZHd0xtaUlFU2U1XzJhVnQyTU90UWNIdzVLb0g0bWZrNjhfeXB4ZlFiUnR3UUZkZFlzREF1SEphQ2tnYktBbUVGeWFMZFJNaTMwOS1icDhzdndJNWlpYWNsUVNNQVZYMHg0V2NpMnRjZnIwMWZGN09EYkhnM2dBS3RYdjNpbHZJc1lmOFJiV3JBMWxVQW1XQmI4ZlAyZVk0V012ZHlPbkw0aDR6U3ZaR0JRc0JyOFpTR01ra25Kc2lZbXIyRTFjdw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbHFKQmYzdlB1aC1xemNsYW1iWVBvX2lXRmI2M2V5dlVicFRTZnFyN0lFRDBlcnpOc0hSM2ZvQVA3aW1mQVBYd1g2OVpoWkpiNU9nTUZtY09vWFVOMnRMRTk5TnZQRFBacVFRRUhsUGxyLUFSaFhzVlFTeGNtOF9mX1o4OTVEc1NCbGFFaA?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 48000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 33000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sorcero",
@@ -208,7 +267,38 @@
     "everywhere_tags": [],
     "primary_investor": "Rackhouse Venture Capital",
     "source_url": "https://rackhouse.vc/portfolio",
-    "scraped_at": "2026-10-20T21:26:47.469552+00:00"
+    "scraped_at": "2026-10-20T21:26:47.469552+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 42500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdG1aajhmQXpFaU1UX2hDS29RUi1GOWczdjR0VjE1NmNIWkJoM2NHMEl1Z29vTzFpbE9IVElDbk5tZXBjRWNFaGVSeHplNFZRSjk3c3BWOU1kS2JXTEtiT0ZzVkFxZXpWc29fc1FzWUsxRGFtVWhlWEtNUzR4RnE1QzVRSEdMNmd1RUhSZ21CTXd2MHc4cTc5YTYyZFdCVlR0azJWNl9yRHRSVXFVNmlvN0prQlc5Q2pSblFWNjM5YmwzSnFqdXl5NmttbmczNGtRc2dVREUwNUNaQVFkRTRxdG5mdTg1ZXRWQTJhSEtwa0hWMHlhb0Ytd0t6TWVmZUk4aVBDREF3U0Q1M2t0WUg1LS1hNUs3bDA?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdG1aajhmQXpFaU1UX2hDS29RUi1GOWczdjR0VjE1NmNIWkJoM2NHMEl1Z29vTzFpbE9IVElDbk5tZXBjRWNFaGVSeHplNFZRSjk3c3BWOU1kS2JXTEtiT0ZzVkFxZXpWc29fc1FzWUsxRGFtVWhlWEtNUzR4RnE1QzVRSEdMNmd1RUhSZ21CTXd2MHc4cTc5YTYyZFdCVlR0azJWNl9yRHRSVXFVNmlvN0prQlc5Q2pSblFWNjM5YmwzSnFqdXl5NmttbmczNGtRc2dVREUwNUNaQVFkRTRxdG5mdTg1ZXRWQTJhSEtwa0hWMHlhb0Ytd0t6TWVmZUk4aVBDREF3U0Q1M2t0WUg1LS1hNUs3bDA?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RbGFDVmNvalNIRWQzU3lpN1pqUU1vVGlhSjBKeFZHNjFBNjNCeDM2WWNybGF1c2tFOWhzOEZ3NVdNWFJXWm9uMXFXYlQxdHdyQzZyUDR3Ym90c0VkZjN6eDdCSjBXMURRYWU3V09mbEdudGQ4cGgxel9qZHdEOUE?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxONVI1cThWanltMzZlV0xMd25GM21iUm52UW54TkwxVktmMXBYRFlRS0RFY1JTNVdCSWNoY1dBaXNUTV9NdHk5bTIyUU1HTUs0WFRWQlJINHJZTWpFOEpFaDEtZEdxMkpGN0xVWjlaNkNlMWliaWJCXzJmZlZERU1WLThCZG1pb0szVi1FZTFtaUhPS3VVMXRqUlZjYw?oc=5",
+      "https://www.prnewswire.com/news-releases/sorcero-secures-42-5m-series-b-financing-led-by-newspring-capital-to-scale-its-ai-platform-accelerate-expansion-across-life-sciences-302622751.html",
+      "https://technical.ly/startups/ai-startup-sorcero-raised-3-million-series-a-dipanwita-das/",
+      "https://www.msn.com/en-us/money/technology/sorcero-raises-42-5m-to-support-global-expansion/ar-AA1R3wIi",
+      "https://finance.yahoo.com/news/ai-startup-sorcero-secures-10m-123005838.html",
+      "https://pulse2.com/sorcero-42-5-million-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 42500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 42500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Spacture",

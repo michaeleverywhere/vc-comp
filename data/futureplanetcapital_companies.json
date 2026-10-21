@@ -381,7 +381,21 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.arctoris.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ArkVax",
@@ -513,7 +527,39 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 750000.0,
+        "currency": "GBP",
+        "date": "2025-01-28",
+        "investors": [],
+        "source_url": "https://tech.eu/2025/01/28/atelerix-raises-750k-for-pioneering-hypothermic-preservation-for-biosamples/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.atelerix.co.uk/",
+      "https://healthcaretoday.com/article/atelerix-raises-750000-in-venture-funding",
+      "https://funding.tech.eu/companies/49ED3023-A48A-478E-B9DA-68BA67E7D98E",
+      "https://startupsmagazine.co.uk/article-atelerix-raises-ps750k-revolutionise-biological-transport",
+      "https://privatemarketview.com/companies/atelerix/funding-rounds",
+      "https://fundediq.co/atelerix-atelerix-co-uk-funding/",
+      "https://www.soapbox.vc/feed/atelerix-750k-funding",
+      "https://tech.eu/2025/01/28/atelerix-raises-750k-for-pioneering-hypothermic-preservation-for-biosamples/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 750000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2025-01-28",
+    "total_raised": 750000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Atheras Analytics",
@@ -745,7 +791,79 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13554640.0,
+        "currency": "USD",
+        "date": "2022-12-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1960098/000196009823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 21500000.0,
+        "currency": "USD",
+        "date": "2024-01-22",
+        "investors": [],
+        "source_url": "https://capturacorp.com/captura-raises-us21-5m-with-investments-from-maersk-eni-next-and-edp/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2024-04-11",
+        "investors": [],
+        "source_url": "https://capturacorp.com/carbon-removal-firm-captura-expands-series-a-funding-to-us45-3m/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 53494015.0,
+        "currency": "USD",
+        "date": "2026-06-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1960098/000196009826000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 12500000.0,
+        "currency": "USD",
+        "date": "2026-06-25",
+        "investors": [],
+        "source_url": "https://capturacorp.com/captura-raises-12-5m-series-b/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://capturacorp.com/",
+      "https://capturacorp.com/captura-raises-12-5m-series-b/",
+      "https://capturacorp.com/equinor-leads-12m-series-a-raise-into-ocean-based-carbon-removal-firm-captura/",
+      "https://capturacorp.com/captura-raises-us21-5m-with-investments-from-maersk-eni-next-and-edp/",
+      "https://capturacorp.com/carbon-removal-firm-captura-expands-series-a-funding-to-us45-3m/",
+      "https://www.sec.gov/Archives/edgar/data/1960098/000196009823000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1960098/000196009826000004/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "stated_total_raised": {
+      "amount": 45300000.0,
+      "currency": "USD",
+      "source_url": "https://capturacorp.com/carbon-removal-firm-captura-expands-series-a-funding-to-us45-3m/"
+    },
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 12500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-06-25",
+    "total_raised": 101048655,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cargo Kite",
@@ -894,7 +1012,32 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10640052.0,
+        "currency": "USD",
+        "date": "2021-03-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1853082/000185308221000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1853082/000185308221000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10640052.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-17",
+    "total_raised": 10640052,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cipher Surgical",
@@ -1647,7 +1790,43 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2026-10-14",
+        "investors": [],
+        "source_url": "https://hydregenoxford.com/news/hydregen-raises-8m-6m-series-a-to-bring-biocatalysis-to-industrial-chemical-manufacturing",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [
+      {
+        "name": "Grant",
+        "amount": null,
+        "currency": null,
+        "date": "2023-08-29",
+        "source_url": "https://hydregenoxford.com/news/hydregen-secure-funding-to-collaborate-with-university-of-nottingham-to-increase-mrl-of-their-lead-products"
+      }
+    ],
+    "funding_source_urls": [
+      "https://hydregenoxford.com/",
+      "https://hydregenoxford.com/news",
+      "https://hydregenoxford.com/news/hydregen-raises-8m-6m-series-a-to-bring-biocatalysis-to-industrial-chemical-manufacturing",
+      "https://hydregenoxford.com/news/hydregen-secure-funding-to-collaborate-with-university-of-nottingham-to-increase-mrl-of-their-lead-products"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-10-14",
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "iEthico",
@@ -1807,7 +1986,19 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Interpac",
@@ -1899,7 +2090,34 @@
     "everywhere_tags": [],
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
-    "scraped_at": "2026-10-18T18:25:58.571296+00:00"
+    "scraped_at": "2026-10-18T18:25:58.571296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": "2026-08-03",
+        "investors": [],
+        "source_url": "https://kubos-semi.com/kubos-secures-usd-2-1-million-investment-to-accelerate-development-of-novel-material-microleds-for-high-speed-optical-interconnects/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kubos-semi.com/",
+      "https://kubos-semi.com/news/",
+      "https://kubos-semi.com/kubos-secures-usd-2-1-million-investment-to-accelerate-development-of-novel-material-microleds-for-high-speed-optical-interconnects/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-03",
+    "total_raised": 2100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Laverock Therapeutics",
@@ -2113,20 +2331,35 @@
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
     "scraped_at": "2026-10-18T18:25:58.571296+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8100000.0,
+        "currency": "GBP",
+        "date": "2026-07-07",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS1lJaXIwa29obVRzRC1xOXR1ZWgyQjBaQnJJX2RpVUdJOXd2YWhrdWY2MFJpM1kzdDdwSHl0UDlGME0xc2JRYXFJaE91X21XOVBHTnRsOWhQT1hHZTVWTUdPSGZUOS1zcjhfa1haVWJhaUV5MkJ0bHNXREFPSEVVZDZKTQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.luffy.ai/"
+      "https://www.luffy.ai/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS1lJaXIwa29obVRzRC1xOXR1ZWgyQjBaQnJJX2RpVUdJOXd2YWhrdWY2MFJpM1kzdDdwSHl0UDlGME0xc2JRYXFJaE91X21XOVBHTnRsOWhQT1hHZTVWTUdPSGZUOS1zcjhfa1haVWJhaUV5MkJ0bHNXREFPSEVVZDZKTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRnJTQnVTRl9ERlRpOUg5VzU0cFRHd2FzbEJ5bUlBd2dFU2k3X1k2bmlyYURIdzgxRWREWXhPTVdOMHJZYjdpbTlra2Fpa1JsZC1UUE5GWVFKMWpGdU9mWlpVSXFTWW5NdzZPUDZDUGJwYnppNF9vTHRCR2JFN0J4UmZHMTctQnh2UVBJYm15THJTVGxQM216NnluQTVETmQwZEdOUGxxd1FQVVM0Y080UWhya2xwaUFtZkN6d1BUZUQ1YndOVHFXU0c3aWFjZkY4VTY1ZUJPUW9pN0dwVWg1VjFR?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUE1IeXhPZVhIT1diekxOTmx3SmRTUHMtcWlDaGlVXzUyc2VlVmExV3lCeGNiS2xwSmdxQU5GUHZYTTVUNndiYTZLZXF4RDQ2UjhYRnA5UkZHQ3RiXzVzUHctMzF3RXhHdEI1NGV5UEt6eTBOQWRtcmxOSHVMTDRhMmRSNk5xc3U0TGlreXdPMVEtV3Y1cHlXSVFVcHJFa1U2VkFDcnpwODlLRFZRZ1BWNGRPRdIBuAFBVV95cUxPeUdHTm9NQTFOWFhvYTBpS3BhTmNleGhWSUV5amJHaVJaQkFNbnJEdzRsMGpEWksyZUUza0p5RS1nQWhBY0l4YlBtVG5ITU40dDBKd3RIS1oxaEpSM1pvWUVDZDVoM2x1SkZvYjFyZDRMV0ZyVHBON2xxZHJhTFIwQTdmcFlNazR1VlFoVDEtUmZOajltTkwzZFpaSGlpYllOTkV1Y1Q2MGxpYVNmT1h1czczUlBYWGhU?oc=5",
+      "https://pulse2.com/luffy-ai-raises-8-1-million-series-a-to-bring-neuroplastic-ai-into-industrial-electric-motors/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 8100000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Series A",
+    "last_round_amount": 8100000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2026-07-07",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Luxury Cottages",
@@ -3349,20 +3582,33 @@
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
     "scraped_at": "2026-10-18T18:25:58.571296+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3700000.0,
+        "currency": "GBP",
+        "date": "2025-05-22",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYklyMTVILUludmtEc1JzYmRxckFFNmdJbFVGRTNmY0c0LTlsTG9CR3h3WDRsTTNjNzRWdGUwZ0hDa1diZ1VrNmhQMGM0VUlVOGZjZWItUjM0N25KMnA2b2pTdXBXV2RQNlZ3bDMyUlgzU1Y4MGFIZkVnV2N4cVBiWjI3ZWlPUVNFSHFqNWllWS1GMXNrWnpfOTNWeVV0emFRcDhrU2dPTF92aXk2NXQ0b2VB?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.sention.io/"
+      "https://www.sention.io/",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYklyMTVILUludmtEc1JzYmRxckFFNmdJbFVGRTNmY0c0LTlsTG9CR3h3WDRsTTNjNzRWdGUwZ0hDa1diZ1VrNmhQMGM0VUlVOGZjZWItUjM0N25KMnA2b2pTdXBXV2RQNlZ3bDMyUlgzU1Y4MGFIZkVnV2N4cVBiWjI3ZWlPUVNFSHFqNWllWS1GMXNrWnpfOTNWeVV0emFRcDhrU2dPTF92aXk2NXQ0b2VB?oc=5",
+      "https://www.theengineer.co.uk/content/news/sention-secures-37m-seed-funding-to-launch-ai-driven-diagnostics-tool"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3700000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Seed",
+    "last_round_amount": 3700000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2025-05-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SFH Oxford",
@@ -4223,20 +4469,35 @@
     "primary_investor": "Future Planet Capital",
     "source_url": "https://futureplanetcapital.com/portfolio",
     "scraped_at": "2026-10-18T18:25:58.571296+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnhFLU1EVUNpd1EzVDVuaEV2NWR4TFFqa2ticVdWcVNLY21yZ3NOR21zT2M1b3owZzJfNWI0LXJIRjBfNHZJeEdkV3M2MHlkcnNaZDh1b2JkekxrZTZkMEVTbzNaS2RyNlAtTjhDQk9SOGJ2NlA0VWdGR1puQWtxX01sNzJpTzhi?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://xfuel.com/"
+      "https://xfuel.com/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR2NhWEp5Tlp0ZmMwWVYyUjhpdkVITWR2UEdZLWFrdjNIcFg2VU96M2Rab2JMTEdiRlpEQTR3WXBmVmtWTy1GTEQtVzI4UTdnV29yQ1V0aWFXVlBTdzBPZ25Jdzk3bkVldk1UTDhhaUJEV2o4QmpjVVBqUWdWa2FRQjhIRkUtLWM4R0d5Rno2Z0JjSkhnZUcyaDAyZjEzcWtxVm5OOVBxZ0Vra1U4Vm9YLWxHQmZ0VmZM?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnhFLU1EVUNpd1EzVDVuaEV2NWR4TFFqa2ticVdWcVNLY21yZ3NOR21zT2M1b3owZzJfNWI0LXJIRjBfNHZJeEdkV3M2MHlkcnNaZDh1b2JkekxrZTZkMEVTbzNaS2RyNlAtTjhDQk9SOGJ2NlA0VWdGR1puQWtxX01sNzJpTzhi?oc=5",
+      "https://www.hellenicshippingnews.com/xfuel-announces-20-million-series-a-funding-to-accelerate-commercial-scale-low-carbon-fuel-production/",
+      "https://www.siliconrepublic.com/start-ups/xfuel-biofuel-energy-funding",
+      "https://biofuelsdigest.com/xfuel-lands-4-77m-grant-for-catalan-fuel-production-facility/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "You Smart Thing",

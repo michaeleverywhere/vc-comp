@@ -1050,7 +1050,21 @@
     ],
     "primary_investor": "PointOne Capital",
     "source_url": "https://pointone.capital/portfolio.html",
-    "scraped_at": "2026-10-17T18:05:14.225292+00:00"
+    "scraped_at": "2026-10-17T18:05:14.225292+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.qala.global/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Quso",
@@ -1314,20 +1328,76 @@
     "primary_investor": "PointOne Capital",
     "source_url": "https://pointone.capital/portfolio.html",
     "scraped_at": "2026-10-17T18:05:14.225292+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2024-12-17",
+        "lead_investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2025-09-03",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://seekho.in/"
+      "https://seekho.in/",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSS1SSm1Cakw1NjBrRWRLeHQyUHNaMFZ4bU1iODNfSDBsS2xEVlhjaHVBLTVVVm9nMVA1UGhBWW1Vbkt4NnlrN3JMb0dCanh2eHo1SHV5ZzE1bktyRXUtNnJfSzh6VjkwUThiVGhPMXQtQXRzM0VHcUpOSHBOSk9XTHdtTXhKcG1tMFlrREN4VDI1cFJxUEd2TENJcnl2OHJoLXlJVHRrVHgxdnhEYmlHV3p4T1l1Z1dtV1BkdF9NLVNtZ05VOUtUdmNB0gHPAUFVX3lxTE5KajQ3V0lOUFZWNXNtaGIweEFidEU3YUFxWm9nZlZQYUFweTFENDg5R3dYQ1dzTnJPdzE2TlN3UU94cTU3aHZWNHlsbUloNkEtQUc1Mi1KdGZ5R18wc25Fc2FQQ1d3dUlrNUdZUGJBZEI5SVJMMkl3ZUJCdXhoSDgtZTZJQ08yR2tyM2pacVJ6ZmlhSDJhYU5ldFl5V2pVWnBNTGRmR21WZ05SX3ZfVklzbnZXdllYa3R5eGtsSXFGUm5TZXhvNm5oVGVLb3BaWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZzhQYnRaYUV4N20wRXpaTkl1ZkRTcVg0N1M4UGZBckJNc2hidEpvMmhqTllncV8xSFlDR1lNd0kxTmtoSkxHQ0I2OU5MUlQ5c3VZV2FmajZORTE2eFljSHNGRmZMUWh5RTVKUnd2R2pYNGJyem9DT1NIbmljbW4teWNmRFVzTGk4NXdmdFY1d2lUeE1ieTI0RUFR?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjlVT2pTQzZDUDE1bkNsd2ZBa3JPeXpOT3A4RWU1TnBlVTAxZDREZUg5bzNRRTRjQTlHMXYzZ2FwcnZ3NzQxeG93bXotNkg2VmpPakFOSi1JNFY1N2pDamNoNDN1emgtRG4xZ0o0Um16WExlOWZwbDRwOE4xX3pfTWRIVWIzT1hEVWdPcVd1M0nSAZABQVVfeXFMUFI5VU9qU0M2Q1AxNW5DbHdmQWtyT3l6Tk9wOEVlNU5wZVUwMWQ0RGVIOW8zUUU0Y0E5RzF2M2dhcHJ2dzc0MXhvd216LTZINlZqT2pBTkotSTRWNTdqQ2pjaDQzdXpoLURuMWdKNFJtelhMZTlmcGw0cDhOMV96X01kSFViM09YRFVnT3FXdTNJ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOHZ1RWh0enp4TVlvZjVOb2VqbHM0QmxJTzE3bFhOVnNWQnYyNWtXLU5zcHpKY0Fqcm9CemxsRi1tVkdrUVF6VGw4YmhRRFlWNjRVaTZ0SG5KV2FNYmtLVHlOd0M3RlJoREdJV2NyZ2k0RUc2b2JIY0ctSUZaMVBmSzRHVmNvS2Nq?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTNIByAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTA?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-03",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lightspeed",
+      "Elevation Capital",
+      "Bessemer Venture Partners",
+      "Bessemer"
+    ]
   },
   {
     "company_name": "Showroom B2B",
@@ -1536,7 +1606,28 @@
     "everywhere_tags": [],
     "primary_investor": "PointOne Capital",
     "source_url": "https://pointone.capital/portfolio.html",
-    "scraped_at": "2026-10-17T18:05:14.225292+00:00"
+    "scraped_at": "2026-10-17T18:05:14.225292+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://vama.app/en",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZEZac0NBa1lLdE5zSV9OQWk3ejFGOHI0bUs1a0NrczgyYnA2dzdWaVlIQUZOMXBlbnJ4RVVuczRSdTNzTWVpdjh0b1lXeVBQdmNuSFZBSHZ6bC0yOUZoM2NfNHVnaXo1OGh3djBCdkY5SjcwcUFnSE9ucjh3UHFGZ01jMzVCSjcwWUZEV2hXa0ZFMmJMLXhMeVBNeTVVb2xtOUtpaXROZlIyeDNZRW5POS13T0d5eFF2LUlrd1NTRUZib0tZSm53cWd30gHPAUFVX3lxTE5vbWRVa2ZZbWNvWGJ2bzBYREtESHYyVnB1SUtUcFM0TlBjQ3Vld3E3N2lmQVBQMV80cEdVOUtuckZ1N0I1dE82N0VlYllJejljVFdNOExIMEpnNmdTRU03TEdadHZTZGpDWEhwNjQ0NHEzLWNPbFphWExKMlZtSGV2R3huZ2x3Y2RJVjZwajhXb25FZkxWSkFBcllKMjJVVXZxcjRrSlhFdk1tb0Z1SjRvV041Z0U5cHZoUFpsV3lmdVl2UkFZNXBhbHZKQ1RfUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVyb0FtZWJhQV93RkhQa1h2SVlUcnN0RE90QkxyNGpSVW1oeFNJUlRSV1pnbEpJU1E1cFZWdUFaRnlOQVZsU1lTcTYzMFQzOVBaUURhdTI4dUlNNmhELUlKMjZVTkZuOVlFN1FMVWNObE51RzA4ODMwWXBlVFdzMXRNQUlrcEJKNXEyemx0aTdXTkRIR1FENjhYSWotbF9TOHl5TS1vYlM0Qjl6X09GbndvdV9XYi1Sa2NsV3Z6MUFQZUdHTXQ4?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd2JFN1gxbFoydmY4ZVR6VWxGaW51VXphVHZ1NnlxanpxQ1JNMjZtQUN3aExVZUtZekVzeHJhM1dXRkhITm9DelNLc2JKa1dEZ0l0WVo3VE9uVjBnYUJ4SWJFcHAxREhjR3c0U2Z0SkNTNW9JSHN3VGx4M2NtUVEwVjROVUEwUmlUQzRuOVNrMGxsRDhnRTJqb3NlVDBiWTN2ZnNCWXlROXBrbVXSAasBQVVfeXFMT3diRTdYMWxaMnZmOGVUelVsRmludVV6YVR2dTZ5cWp6cUNSTTI2bUFDd2hMVWVLWXpFc3hyYTNXV0ZISE5vQ3pTS3NiSmtXRGdJdFlaN1RPblYwZ2FCeEliRXBwMURIY0d3NFNmdEpDUzVvSUhzd1RseDNjbVFRMFY0TlVBMFJpVEM0bjlTazBsbEQ4Z0Uyam9zZVQwYlkzdmZzQll5UTlwa21V?oc=5",
+      "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQWtLbUY0U25WUUtma3FSX012bnRYVEFpa1dLNldOS25EdWx3NkVzVmR0clRwQzVPcTVGRFRnTldFWExVTmEtRXlDNFcxanNmdVpkSEl2TVdwSDZveFp4YXFWS0NCQUhUbktrRDZKaW8ybks4WUxOSTJhOGM3YV90Rzl0NUNQNmxjLUc5ck03b01LcS1XMFlWdWFGODFPblVGMDZDYjB0OXk2MFZTNzBlT2JQMGFRWHpMVlY3R2x6d0pvTTlyVkNQVWZkakhJTkE4aTl5UklWZEZNUnhPcS1TcEdCeDZoTW1HbTdRajY3a9IB9AFBVV95cUxQcTllWndabWJ1TTlZLVVSaWpPazhpQ3RRWGxrZVVlcERyQmk2eDFtaHN3RkpfQ1ZJODZDZGF0SHhHSHNjNXFsTVUwWXBWN21uREs4UFA1dmY5VUkxNVNvOUNuWHpKVHd1SW1QMFY0SzJVVHVMT3FaT0YzMU02Qnp3RHUzeUZEX3M1Rmt3enVqS0dVcXdrMUFRcXRsOU9nTWF0WW1UX3oyQm1PYjBvSTMxdXloOXNpeXNNcXl3TmVuMnpaTl9lSzRLendXdkRWeWdkMy0xdmxEeWllNTVyUHgyRURoZUxWZjZWbjdyWTFidDc2S3pz?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVm5FSE1kNEs5VUltN3NvLWk4dDJaVHhpcmNnLXpsUWlnYWNNLUN6NkdsUnk0UHRNTzRFY1hkM05OWWlkNVFzUFlBSnMyTjU1NlQzbVlKdTNTMDZobDY2RmJlMmcyN2VmRHF1SG9mU3NmdkI0X3h4TlpIQXd0S0djYmtIR3ZTeTRBOUNTWEp1dmtOeWvSAZMBQVVfeXFMUFZuRUhNZDRLOVVJbTdzby1pOHQyWlR4aXJjZy16bFFpZ2FjTS1DejZHbFJ5NFB0TU80RWNYZDNOTllpZDVRc1BZQUpzMk41NTZUM21ZSnUzUzA2aGw2NkZiZTJnMjdlZkRxdUhvZlNzZnZCNF94eE5aSEF3dEtHY2JrSEd2U3k0QTlDU1hKdXZrTnlr?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUGUwVjExX0k1Wlk2eHFBWWZkNzlteWZYc1c1XzRLQ2JhVWQwVnZoc3l0Szk0aDhPcWxYR1VLb0p6UGk4WS04RGRaY2JkXzlDQ0tVMGhiRXdGNGpmbzZTNHF6TVZIVzAzU083VmdES2pNTHdHOE44d0tfX0RxTk9PUnZqU2xVdklTa1VWUm1TZljSAZABQVVfeXFMUFBlMFYxMV9JNVpZNnhxQVlmZDc5bXlmWHNXNV80S0NiYVVkMFZ2aHN5dEs5NGg4T3FsWEdVS29KelBpOFktOERkWmNiZF85Q0NLVTBoYkV3RjRqZm82UzRxek1WSFcwM1NPN1ZnREtqTUx3RzhOOHdLX19EcU5PT1J2alNsVXZJU2tVVlJtU2ZY?oc=5",
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMbUptWnVNRVc3TUFTX193RmRXdjlvd2JvLWRnQ1dWN3o5VXRHZFR1WlZ1amstREh0STJoamwtZ1ZYNWRKNlk1Q1E2YnZVTVJYVFNkUHJqLXdCSURKaE12LU8yb2tocnhJTFdIR9IBbEFVX3lxTFBMbUptWnVNRVc3TUFTX193RmRXdjlvd2JvLWRnQ1dWN3o5VXRHZFR1WlZ1amstREh0STJoamwtZ1ZYNWRKNlk1Q1E2YnZVTVJYVFNkUHJqLXdCSURKaE12LU8yb2tocnhJTFdIRw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VideoDB",

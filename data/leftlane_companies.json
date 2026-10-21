@@ -173,7 +173,23 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://apfusion.com/",
+      "https://pulse2.com/apfusion-6-5-million-seed-funding-secured-for-auto-salvage-platform/",
+      "https://www.prnewswire.com/news-releases/apfusion-raises-6-5-million-in-series-seed-financing-co-led-by-left-lane-capital--bedrock-capital-301581021.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Arc",
@@ -254,20 +270,38 @@
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
     "scraped_at": "2026-10-03T13:17:32.121216+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-02-23",
+        "investors": [],
+        "source_url": "https://www.macobserver.com/news/backbone-40m-series-a/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://backbone.com/"
+      "https://backbone.com/",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM2NRUHQ0cjdqNV9raTlxeTl6a0dWTjB1UWxEU0VWaWh2X0c0X1hvZ05Ic1h5WmtoV1RnQzZXZ1h6VzdTT1hVOGV0NVRGWWFaRWtiM3FzMl95TEd6bl94QVRwN2g3d0JTUzIwbFlibWlvUWY4Y3ZybWpQb3RUM3JoYjF5TTRpTllwWmhZMndGYndaUXpHaFp2RnhSXzFYaE84Y3BBUE5FU1lhSF92MDBKaUNhQzJzMHZFOFRsRnFRRmJxVFBkS1NLZkdaWG1UTGM?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM3lqVl9peTdzbkY3aWVhY1V2aWNuNmp0VmllUDA4MkhtMFdxVHBzWVB4ZF9FaHhvOU9NTUlJQmUxenU1SjRwMEFYaHdvTlRiZU1QRkl3MHk5MExWTUtnTmNXQVRRUXlwS2VmZnhvQm9MY1pCS2xna1RhU3VHZUloaVB3?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb1VhOWVWaTA1REhGTXdpQnNsRm1oakVaR1c2cVgyMHVpblBOTFBfNkdPcnozbkF5WWhEZXMwZS1wcVByZWRXcm5WZF9mZW50ZEx1TVJtSENzOElWV3dWdDB1QTdGX3dHZDhoaHNQcExyYy0yQVBSd0k4ZEJNWjNWVjVUX1NtQ1BqTk1PNDh5bXh1RGZXUHFsM3FsLTE3VlJxRHBESDVQeldZVzh6TFpn?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3b0Q1NkJWaFFDdmN2cVM3dzZCNHpkZG91b0Q0UF82ZWV5Ti1tNWNoaExjNC0wVGNoYmdnOGYtNkZFNVlCTDdRWUtnRlc0aFRCZjlWM1JVcXNpYjlGRkowUEM5MXk2c0JNOFlXS1RwN1NUTC1ZRG9WeVpfZ1Vpdw?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2J2Tzg5MWk1amhhMXdROEhoQ2diTjBmRUZBZW1aWVJQM0wxYm1wMTVtVUthTVZyWnV1UUFFUlE4QlZYQ1otTVM0YzdRMnA4SFdJdXI1bnpzdHFJcU1QdVpxZkhEa25MRzFxdjE5YU1GVjJaV0F0cFU1MUV0NGNtNFdoWGN1UFh1eEVKQW9FeEdWOVVYc1E?oc=5",
+      "https://www.macobserver.com/news/backbone-40m-series-a/",
+      "https://www.pocketgamer.biz/backbone-raises-40-million/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bilt Rewards",
@@ -352,7 +386,43 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7303975.0,
+        "currency": "USD",
+        "date": "2021-03-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1855120/000185512021000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 33006783.0,
+        "currency": "USD",
+        "date": "2022-03-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1855120/000185512022000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.blackcrow.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1855120/000185512021000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1855120/000185512022000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 33006783.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-18",
+    "total_raised": 40310758,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Blank Street's mission",
@@ -618,7 +688,93 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2020-06-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069120000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 28520732.0,
+        "currency": "USD",
+        "date": "2020-07-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069120000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15239214.0,
+        "currency": "USD",
+        "date": "2022-07-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069122000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16194320.0,
+        "currency": "USD",
+        "date": "2023-07-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069123000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19999987.0,
+        "currency": "USD",
+        "date": "2024-08-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069124000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 56299979.0,
+        "currency": "USD",
+        "date": "2026-02-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710691/000171069126000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 81000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.chowbus.com/news/chowbus-raises-81m-series-e"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.chowbus.com/",
+      "https://www.chowbus.com/news",
+      "https://www.chowbus.com/news/chowbus-raises-81m-series-e",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069120000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069120000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069122000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069123000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069124000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710691/000171069126000003/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 56299979.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-12",
+    "total_raised": 220254232,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clerkie",
@@ -1801,7 +1957,25 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.masterworks.com/?utm_flag=www.masterworks.io+redirect",
+      "https://news.artnet.com/market/masterworks-company-offering-fractional-shares-major-artworks-now-valued-worth-1-billion-2017723",
+      "https://www.businessinsider.com/personal-finance/investing/masterworks-review",
+      "https://www.cnbc.com/select/what-is-masterworks/?msockid=2eacc9a6f11763680149de5ff0fd6244",
+      "https://www.thewaystowealth.com/masterworks-review/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Our mission",
@@ -1931,7 +2105,21 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://neatlabs.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Olipop",
@@ -1989,7 +2177,47 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2025-04-15",
+        "lead_investors": [
+          "Tidemark"
+        ],
+        "investors": [
+          "Tidemark"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGZjNVN0ajN1SHQyaldlVjhNd2dpajJBT29Fc1g5YXc0cUh4U1c3RTZqUGY3d1lhTDBFNjItd1M1LV9TMXFXQno0MlhVZi1KY2RYd1VaUXRUNmFIRmtpQnVxaWg0dldPVDdKWUo4bjVheHVtYzhqSFpyUUZHSkpFVEZhRm04dXY0X0VNZ1NvRC0wYkJ6cGNMY3BHMkNyR3FwcUN2bjEtbmpVdXNNMWY4UVFDa3ZTM2Zpd0VvNHZyZTJiWnVzLVNlMktlOA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.onfly.com.br/",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGZjNVN0ajN1SHQyaldlVjhNd2dpajJBT29Fc1g5YXc0cUh4U1c3RTZqUGY3d1lhTDBFNjItd1M1LV9TMXFXQno0MlhVZi1KY2RYd1VaUXRUNmFIRmtpQnVxaWg0dldPVDdKWUo4bjVheHVtYzhqSFpyUUZHSkpFVEZhRm04dXY0X0VNZ1NvRC0wYkJ6cGNMY3BHMkNyR3FwcUN2bjEtbmpVdXNNMWY4UVFDa3ZTM2Zpd0VvNHZyZTJiWnVzLVNlMktlOA?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSGFSeW9pUGJadXBnUjJPT21MazZPZDU0b1lKUU5jS1Z2ZUc4SGVHNllQaS1IcGtrU0FpMUFWaUV4SGlaYkxuRWhFNGp0TVRZTlRTLU5HYXQxeEtWSVRlTHp0OHVkMUpIdG9JVHhsNHg1bDFBVHpDb3BoVjFIeXRoQW1iWVBBcWFDbkF6Z9IBkgFBVV95cUxQZUZJZUFDM1BXajJ0ZktkMDZQVF9aZmo4ekxSZnVOQU1OSXdtWjVBeXpUYmpWUlBCVy1PakF6dE5MMVUzUmJscWZodnJZVy1lLXlmaHlVTE85STVuLTk0bW9YdVBMYVJGSnhjSDJqS1I1ZUVPOEtKaG94Y2FNN2FCUlExVkxBLVZJVDI3Tmt0bElrQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS25ZdExrcVBwVWtXVGllWDRZcXdpby1Kb2pHbTR6UWxOcGN3ZDEwWVBoQkNLN2czYVVtZ1lrWkxhTE9LVmNvd0VSdWs1Zk5lZUVsMjdQOS1mR2FqbjVCTDFGN25jSTJZdjJvNGN0YXMzeHhHSC1tdWxHbVhOdmFubXp6NUpXZ2N6cnJYMWFxVl9ISlVPRkZFMU5SRjRuTllQdGtWUzRKU2lKckpRRDVBeA?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iakM0N2YtX0JwSnVxdVZnZEVnYXphVU5QUG5qNlBJSG1hUmk5UndTZl9qUkM5R2wtRjM2N2Y0ajVsazhSZGlMaHU5SkhMd2k5WWc1cG1SbkltdklUMGhHQXREcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fd1BRampvTWMxVWZUZTFvVmNTblJPRXQ1UlhKN09iQ3BqLW83VTNISHVyY21lV1NVYW1CRHZtQzRNTFNxRmZCdlB3Ykt1RDJhcWcxZTd5aUhDOE91MVJwb3JLcDN3TUp0aTJiTWtTUWRHMk54V0xNY2pB?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQN19zOEhSMGRkeHVITkxvUVNGSFZEZFdRVEtKaklHZVNWRzRGLTROaEowdDlwcmNzbFFyWExTN2VLVmVHVkR3ZHpNQy0xOWR6bUxpLWNoWm1mRkQ3WEFxVGM4Ty05QWFoN0FvVm9HMk1Jb1JmSzRTNlp4WWFzc0RtM3pjSk4zN2ZuUnVyUVJ3WDVWT1JPM1paclU3ZW1XYTB4Vzh1d09YbzV3SzFCZE5yOVM5aGpkTnludnZjSFpnLV9UM3JMMU1lUXpvMEdVdlUxVkZBR3VQTkMzS0hJLUltQXVXdnFOOEZ6M0h4blhOTGJRQWIxM2dRd2NjbC1NRVViTmRhcGxpTmdpenM?oc=5",
+      "https://www.prnewswire.com/news-releases/onfly-raises-40m-series-b-to-digitize-corporate-travel-across-latin-america-302428892.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-15",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tidemark"
+    ]
   },
   {
     "company_name": "Ownwell",
@@ -2154,7 +2382,46 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 84959280.0,
+        "currency": "USD",
+        "date": "2024-06-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2028955/000202895525000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://marketing.prenuvo.com/announcements/prenuvo-raises-70m-series-a-led-by-felicis-to-reimagine-preventive"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://prenuvo.com/",
+      "https://marketing.prenuvo.com/announcements/prenuvo-announces-it-had-raised-120m-to-advance-preventative-health-launches-novel-fda-cleared-ai-powered-products",
+      "https://marketing.prenuvo.com/au/announcements/prenuvo-announces-it-had-raised-120m-to-advance-preventative-health-launches-novel-fda-cleared-ai-powered-products",
+      "https://marketing.prenuvo.com/uk/announcements/prenuvo-announces-it-had-raised-120m-to-advance-preventative-health-launches-novel-fda-cleared-ai-powered-products",
+      "https://marketing.prenuvo.com/announcements/prenuvo-raises-70m-series-a-led-by-felicis-to-reimagine-preventive",
+      "https://marketing.prenuvo.com/au/announcements/prenuvo-raises-70m-series-a-led-by-felicis-to-reimagine-preventive",
+      "https://www.sec.gov/Archives/edgar/data/2028955/000202895525000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 84959280.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-20",
+    "total_raised": 154959280,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Project Solar",
@@ -2172,7 +2439,32 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2022-08-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdWtLZUY4UUlYc3V6NkVIYV9URnpGMXlHdm45SUxXNzRCRjhmcWJvN1dVTnZsdGw3S21rSHJjbkJIN01NNjhDODdEN1ZlYWlHRUk4c2xuLVNwWDR1N183bUtBRjJmcFI0SUVNeEZzQUZLb0tTdWNNU1luN0FxckpybnlFbVQyZW1jeldpQVNEejY3eUN3VWU3eTh5RVRwdzZDQjJaOEtfMTRySUlsazJ2NUFIdkVQbUkyZXQwWW40M0FfcVVaQWVyZE5DRURsSjB6M3drbUhxQTNydw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdWtLZUY4UUlYc3V6NkVIYV9URnpGMXlHdm45SUxXNzRCRjhmcWJvN1dVTnZsdGw3S21rSHJjbkJIN01NNjhDODdEN1ZlYWlHRUk4c2xuLVNwWDR1N183bUtBRjJmcFI0SUVNeEZzQUZLb0tTdWNNU1luN0FxckpybnlFbVQyZW1jeldpQVNEejY3eUN3VWU3eTh5RVRwdzZDQjJaOEtfMTRySUlsazJ2NUFIdkVQbUkyZXQwWW40M0FfcVVaQWVyZE5DRURsSjB6M3drbUhxQTNydw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-05",
+    "total_raised": 23000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Propadelleague",
@@ -2319,7 +2611,33 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://tryriot.com/blog/announcing-series-b/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tryriot.com/",
+      "https://tryriot.com/blog/",
+      "https://tryriot.com/blog/announcing-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rising Tide",
@@ -3293,7 +3611,33 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1208215.0,
+        "currency": "USD",
+        "date": "2013-10-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1594961/000159496113000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.chargebee.com:443/",
+      "https://www.sec.gov/Archives/edgar/data/1594961/000159496113000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1208215.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-10-03",
+    "total_raised": 1208215,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Chrono24",
@@ -3736,7 +4080,93 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 575000.0,
+        "currency": "USD",
+        "date": "2012-06-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355912000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5336475.0,
+        "currency": "USD",
+        "date": "2013-09-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355913000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 21899983.0,
+        "currency": "USD",
+        "date": "2015-05-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355915000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2018-09-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355918000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 335035783.0,
+        "currency": "USD",
+        "date": "2022-05-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355922000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 44886140.0,
+        "currency": "USD",
+        "date": "2022-11-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355922000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3125607.0,
+        "currency": "USD",
+        "date": "2024-01-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1553559/000155355924000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ispot.tv:443/",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355912000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355913000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355915000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355918000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355922000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355922000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1553559/000155355924000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3125607.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-12",
+    "total_raised": 440858988,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "JoyTunes",
@@ -3906,7 +4336,33 @@
     ],
     "primary_investor": "Left Lane Capital",
     "source_url": "https://www.leftlane.com/companies",
-    "scraped_at": "2026-10-03T13:17:32.121216+00:00"
+    "scraped_at": "2026-10-03T13:17:32.121216+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9500000.0,
+        "currency": "USD",
+        "date": "2018-05-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1742309/000173112218000015/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.parachutehealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1742309/000173112218000015/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 9500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-05-18",
+    "total_raised": 9500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ritual",

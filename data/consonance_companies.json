@@ -396,7 +396,33 @@
     ],
     "primary_investor": "Consonance",
     "source_url": "https://consonanceinvest.com/portfolio",
-    "scraped_at": "2026-10-20T21:21:10.137284+00:00"
+    "scraped_at": "2026-10-20T21:21:10.137284+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1055496.0,
+        "currency": "USD",
+        "date": "2019-03-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1772145/000177214519000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.mdaas.io/",
+      "https://www.sec.gov/Archives/edgar/data/1772145/000177214519000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1055496.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-03-15",
+    "total_raised": 1055496,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Medallion Communications",
@@ -677,7 +703,24 @@
     ],
     "primary_investor": "Consonance",
     "source_url": "https://consonanceinvest.com/portfolio",
-    "scraped_at": "2026-10-20T21:21:10.137284+00:00"
+    "scraped_at": "2026-10-20T21:21:10.137284+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://getsote.com/",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX0dseVB1dEgwdk1tdk5Ib2FCOWdnSDFzUkRWLVAzR2pvZS13LTROS0tzMUhhX3BGZGRDX1FEWkhnLXp3TWI5T1ZSNU9JbERud2E2aHB1a3NwWUlUbzNtNC1MQlFicGtZd0trNU9NLTZteG43RlE5ZWtHLXlkNUxtWWQ4Y3V3OVF0V1BtT3AtdXFHM0czZVRvNU01dUZpX3NKVjJQQTNzUlVZVTRpRkJXemd0UTVabFhVb3NZV0k4R3ZRUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2pPMEJRUVhYYTh6a1pScWxMSTNkaFZhcV9CSzA1SXFzSGJfaGFPOHVHVnVNSlhqWHFIYkZ5d3hjdzcyZ2RaT0JWUzNYeW5ZenZKejc0VlpnMk9OTXQ0WlAzOHR1bnFHNDc1OF91b1RjVmE5OVRxZEJLSmd4QzhWWlZwRm0xRVRmeF81VFZSTE1IRVBLcER2UDhSdw?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenJ5ekFMUVRnYlUwT29lUXVKYWpSZnpOYy02SjJIdWFHMF9FWHB6QzBZb3FWMTJiS3RUUmptNWlJOWgxYzUzMTB2aW1xdF9HN3pHM2JlbWQtTU9OWXBZdElyMjBMRlFEOWRkZ3RlZURzdGkzeV9ZaGV6RWlXVGtpYzNTZWxGYmVOY2FpVEJ1VnRsbVYydEZueXZ6WlBHY1RvOWFDN2wzcUJrbWFseFZwZHBpaGJGMk4wdmtiZ3ln?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Student Accomod8",

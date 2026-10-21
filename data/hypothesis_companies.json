@@ -42,7 +42,21 @@
     ],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2pIaW1Ib0hTWTE1dlVIbm1RUHczbEJIdGJGZWk4Z3YyaXpObGczTWpZaFVZOGxjem1CV3hlQmFlalNuMkxyQzlIQW9EX1E0YzFqblUwb0xfcURINXpRb2YtbjdOdndqMU1XazB4UExCbHBkYUJfY2lYUldLcWh4NVBtYUc4Z2o1amljdXUyN19fTzYz?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Brooklyn Health",
@@ -171,7 +185,43 @@
     "everywhere_tags": [],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": "2022-12-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1959296/000195929622000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 434000.0,
+        "currency": "USD",
+        "date": "2024-06-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1959296/000195929625000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://coverright.com/",
+      "https://www.sec.gov/Archives/edgar/data/1959296/000195929622000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1959296/000195929625000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 434000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-27",
+    "total_raised": 2634000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Crexi",
@@ -304,20 +354,51 @@
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
     "scraped_at": "2026-10-16T23:04:40.257036+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2024-07-30",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12MGJIUFhUa3lJaWNxU2xqMTRXZTRZYURiUnBiR3dfWnJjSlplSmJzQWhSU3plb2RfY1pZaUZIX0J4TlF2bEF0eldkaHVGa2VHTWxXbG5fOWEtNmVXZWtrclMtQVp4Z9IBa0FVX3lxTE5FTDBHejF3U0ZQOEx4amdJVXpHVFN6X3FoMzdBcHZ2ZXVBdEtWcVZ4bVpBR0NTV3FJYWFTNVg3YzhJak9MTFNtYXVMRlVtRmFjcjhOeWdKSExJOFVDQVRvU2IwcThyZ3Q4OHd3?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2025-08-21",
+        "lead_investors": [
+          "Yolo Investments"
+        ],
+        "investors": [
+          "Yolo Investments"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMbFNVT1hyeHhqTzJ2enVPUWk0d2JSMWh6a3RvWm1MVGhFWlZzLU1talpKNXJtbmd2RFNjZTM0MDhsWjVyYUljZDJvMjh1RWF2TUVKMkQ2WTZRZWJJT01XOWd4ZHFQUzlHemtLVHZwbEhXN1ktMHh3dzZWdkpDUdIBgwFBVV95cUxQQVBZOE5LWXpaaWQzZFZaMWxBVnNvSkdqbFdiVGZKMVR4SnNseWxzNEJXS1UzYzV0bVVJRm80ZXMzcHRLWUMtU0ktaWVRYkZ1M2d5MUV6SEM5NHhIUGZjU1h0N1V5a3NEbi1ORVllSEdMczcyOUNhei1FYWJuSDQxcndPaw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.digitt.com/"
+      "https://www.digitt.com/",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMbFNVT1hyeHhqTzJ2enVPUWk0d2JSMWh6a3RvWm1MVGhFWlZzLU1talpKNXJtbmd2RFNjZTM0MDhsWjVyYUljZDJvMjh1RWF2TUVKMkQ2WTZRZWJJT01XOWd4ZHFQUzlHemtLVHZwbEhXN1ktMHh3dzZWdkpDUdIBgwFBVV95cUxQQVBZOE5LWXpaaWQzZFZaMWxBVnNvSkdqbFdiVGZKMVR4SnNseWxzNEJXS1UzYzV0bVVJRm80ZXMzcHRLWUMtU0ktaWVRYkZ1M2d5MUV6SEM5NHhIUGZjU1h0N1V5a3NEbi1ORVllSEdMczcyOUNhei1FYWJuSDQxcndPaw?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHRrWHJnT0ZDQ1VVWVNlTDU1bDBOX25aSUxVelR3b2lBR0lLZ2FDUlN4SG95WTRxdTVWSzhia3E1Tlg3LXNFVWFLREYxcTNSbkpsaTZXWGpfbTJqdDdMN2lOb0RXYWJGUkFsQmc1RjBPQzg1MER3U3dPVVJqa3J6N1NrbDl3SVB0OXE3bDZXUVFaZUQ1NngzaDFubmM0cXJmdFRvRTNB?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12MGJIUFhUa3lJaWNxU2xqMTRXZTRZYURiUnBiR3dfWnJjSlplSmJzQWhSU3plb2RfY1pZaUZIX0J4TlF2bEF0eldkaHVGa2VHTWxXbG5fOWEtNmVXZWtrclMtQVp4Z9IBa0FVX3lxTE5FTDBHejF3U0ZQOEx4amdJVXpHVFN6X3FoMzdBcHZ2ZXVBdEtWcVZ4bVpBR0NTV3FJYWFTNVg3YzhJak9MTFNtYXVMRlVtRmFjcjhOeWdKSExJOFVDQVRvU2IwcThyZ3Q4OHd3?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-08-21",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Yolo Investments"
+    ]
   },
   {
     "company_name": "Everipedia",
@@ -573,7 +654,33 @@
     "everywhere_tags": [],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9382568.0,
+        "currency": "USD",
+        "date": "2022-03-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1927968/000192796823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://leda.co/",
+      "https://www.sec.gov/Archives/edgar/data/1927968/000192796823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 9382568.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-10",
+    "total_raised": 9382568,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Milu Health",
@@ -645,7 +752,21 @@
     ],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://positivenergy.us/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Radish Health",
@@ -654,7 +775,21 @@
     "everywhere_tags": [],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://radish.health/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Resci",
@@ -731,7 +866,43 @@
     "everywhere_tags": [],
     "primary_investor": "Hypothesis",
     "source_url": "https://www.hypothesis.studio/portfolio",
-    "scraped_at": "2026-10-16T23:04:40.257036+00:00"
+    "scraped_at": "2026-10-16T23:04:40.257036+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 522500.0,
+        "currency": "USD",
+        "date": "2023-08-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1990359/000199035923000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3039499.0,
+        "currency": "USD",
+        "date": "2025-02-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1990359/000199035925000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.showdrop.com/",
+      "https://www.sec.gov/Archives/edgar/data/1990359/000199035923000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1990359/000199035925000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3039499.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-02-14",
+    "total_raised": 3561999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sohu",

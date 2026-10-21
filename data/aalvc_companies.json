@@ -144,7 +144,65 @@
     "everywhere_tags": [],
     "primary_investor": "AAL VC",
     "source_url": "https://aal.vc/",
-    "scraped_at": "2026-10-20T20:54:07.958166+00:00"
+    "scraped_at": "2026-10-20T20:54:07.958166+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2025-10-08",
+        "investors": [],
+        "source_url": "https://algox2.com/blog/seed-funding-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4520000.0,
+        "currency": "USD",
+        "date": "2026-08-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2153535/000215353526000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "seed extension",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-09-30",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Fin Capital"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Fin Capital"
+        ],
+        "source_url": "https://algox2.com/blog/seed-extension-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://algox2.com/",
+      "https://algox2.com/blog",
+      "https://algox2.com/blog/seed-extension-announcement",
+      "https://algox2.com/blog/seed-funding-announcement",
+      "https://www.sec.gov/Archives/edgar/data/2153535/000215353526000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "seed extension",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-30",
+    "total_raised": 18020000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners",
+      "Fin Capital"
+    ]
   },
   {
     "company_name": "Artificial Agency",
@@ -314,7 +372,39 @@
     "everywhere_tags": [],
     "primary_investor": "AAL VC",
     "source_url": "https://aal.vc/",
-    "scraped_at": "2026-10-20T20:54:07.958166+00:00"
+    "scraped_at": "2026-10-20T20:54:07.958166+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "investors": [
+          "Bessemer Venture Partners"
+        ],
+        "source_url": "https://dlthub.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://dlthub.com/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Bessemer Venture Partners"
+    ]
   },
   {
     "company_name": "Dubformer",

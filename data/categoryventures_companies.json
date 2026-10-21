@@ -527,20 +527,35 @@
     "primary_investor": "Category Ventures",
     "source_url": "https://www.categoryvc.com/portfolio",
     "scraped_at": "2026-10-18T16:59:27.746274+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2023-01-17",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/rive-raises-10m-series-a-funding-led-by-two-sigma-ventures-301718542.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://rive.app/"
+      "https://rive.app/",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSzI1cEpWaVh0V0hZaFJmMmR3cjV0MWVNUHpCRDdRbUprZDBjVEE2WUpIRml6T0R6N2xGTExlSG5vdHFNRkl5MEEyTnlkbll6VC1FWlgtX3FFb0dPMWFWZ0R4eVFfWnhJcG8tUWZjMXVEOFVRQjdXSWdSNEMwLWRwemcwTkN1ZmNPejRYcTM5Z2pXVjNNc3R5a05aTDBSXzhZQTdpdWZjQzBnUGhuWVIzYlNKMjRnZC1oNGV4OERRWHU2UzRHMlh6SVdwQlYzM1FOYzRnV0ZFOXB2M3NFNDVLcGt5ZV9QNkU?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GRklKVEJWSXdqcXNPTV9vSmNqb0dySDk2aldGZzZwMXl6MGhzZVFZYy1DMlFUX3V0bHV6VDNGZldHaVhWNDRGZGVTVXFZV0tZM3ZYbDdvSzFKeDRWbHZrYm9sdjdnRGhXTndEWUd5dEZSZ1JRMHpQRDJvQzc?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOEpMUEJRbzNad0xZRE42QUVZcC1wT18ySmV5Sm5yXzVUQ1Vhc2Q5cnU3OU92bUt3WUpCOU5FMjkwMmtjRFQybmFzeFdDNW9wMDhELWlSdnh5Tko1SVFQSEZWOTdDdjM3a1c2UjlyZHFlZ2czNm5MdkF0ekRJeEVLM3NENVBGQ0ktYURoV25qZkhNRjNSTnc?oc=5",
+      "https://www.prnewswire.com/news-releases/rive-raises-10m-series-a-funding-led-by-two-sigma-ventures-301718542.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-01-17",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SDF Labs",
@@ -558,7 +573,51 @@
     "everywhere_tags": [],
     "primary_investor": "Category Ventures",
     "source_url": "https://www.categoryvc.com/portfolio",
-    "scraped_at": "2026-10-18T16:59:27.746274+00:00"
+    "scraped_at": "2026-10-18T16:59:27.746274+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2017-12-19",
+        "lead_investors": [
+          "Shasta"
+        ],
+        "investors": [
+          "Shasta"
+        ],
+        "source_url": "https://sendbird.com/blog/blog-sendbird-raises-16m-in-series-a-round",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-03-19",
+        "investors": [],
+        "source_url": "https://sendbird.com/news",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sendbird.com/",
+      "https://sendbird.com/news",
+      "https://sendbird.com/blog/blog-sendbird-raises-16m-in-series-a-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-19",
+    "total_raised": 116000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Shasta"
+    ]
   },
   {
     "company_name": "Zapier",

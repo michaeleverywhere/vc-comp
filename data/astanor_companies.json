@@ -100,7 +100,33 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/agzen/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2025-01-31",
+        "investors": [],
+        "source_url": "https://agzen.com/newsroom/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://agzen.com/",
+      "https://agzen.com/newsroom/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-31",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Akson Robotics",
@@ -357,7 +383,21 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/biomatter/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://biomatter.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Calice",
@@ -538,7 +578,43 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/culinary-sciences/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2391200.0,
+        "currency": "USD",
+        "date": "2024-02-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2014224/000201422424000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2505000.0,
+        "currency": "USD",
+        "date": "2025-04-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2014224/000201422425000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.culinarysciencescsi.com/",
+      "https://www.sec.gov/Archives/edgar/data/2014224/000201422424000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2014224/000201422425000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2505000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-08",
+    "total_raised": 4896200,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Florey Biosciences",
@@ -561,7 +637,33 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/florey-biosciences/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1400000.0,
+        "currency": "USD",
+        "date": "2025-04-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2066011/000206601125000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://floreybiosciences.com/",
+      "https://www.sec.gov/Archives/edgar/data/2066011/000206601125000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-10",
+    "total_raised": 1400000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Galley",
@@ -734,7 +836,63 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/holobiome/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 625000.0,
+        "currency": "USD",
+        "date": "2018-12-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763027/000176302718000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 300000.0,
+        "currency": "USD",
+        "date": "2021-02-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763027/000123191921000016/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6590554.0,
+        "currency": "USD",
+        "date": "2024-03-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763027/000110465924036473/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2025-12-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763027/000110465926085757/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://holobiome.org/",
+      "https://www.sec.gov/Archives/edgar/data/1763027/000176302718000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1763027/000123191921000016/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1763027/000110465924036473/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1763027/000110465926085757/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-24",
+    "total_raised": 17515554,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "HowGood",
@@ -758,7 +916,53 @@
     "primary_investor": "Astanor",
     "profile_url": "https://astanor.com/entrepreneurs/howgood/",
     "source_url": "https://astanor.com/portfolio/",
-    "scraped_at": "2026-10-10T13:15:24.881149+00:00"
+    "scraped_at": "2026-10-10T13:15:24.881149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 470000.0,
+        "currency": "USD",
+        "date": "2012-01-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1540776/000154077612000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5201197.0,
+        "currency": "USD",
+        "date": "2016-02-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1540776/000154077620000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7222513.0,
+        "currency": "USD",
+        "date": "2021-01-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1540776/000154077621000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.howgood.com/",
+      "https://www.sec.gov/Archives/edgar/data/1540776/000154077612000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1540776/000154077620000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1540776/000154077621000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7222513.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-01-13",
+    "total_raised": 12893710,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hungry Marketplace",

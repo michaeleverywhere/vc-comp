@@ -454,7 +454,33 @@
     "everywhere_tags": [],
     "primary_investor": "Necessary Ventures",
     "source_url": "https://www.necessary.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:28.469829+00:00"
+    "scraped_at": "2026-10-16T22:40:28.469829+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1999999.0,
+        "currency": "USD",
+        "date": "2023-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1995566/000199556623000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://insightfulinstruments.com/",
+      "https://www.sec.gov/Archives/edgar/data/1995566/000199556623000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1999999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-09-18",
+    "total_raised": 1999999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kurios",
@@ -488,7 +514,21 @@
     ],
     "primary_investor": "Necessary Ventures",
     "source_url": "https://www.necessary.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:28.469829+00:00"
+    "scraped_at": "2026-10-16T22:40:28.469829+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.magratheametals.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mending",
@@ -628,7 +668,42 @@
     ],
     "primary_investor": "Necessary Ventures",
     "source_url": "https://www.necessary.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:28.469829+00:00"
+    "scraped_at": "2026-10-16T22:40:28.469829+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2025-04-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2069634/000206963425000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 9300000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.nevoya.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nevoya.com/",
+      "https://www.nevoya.com/about",
+      "https://www.sec.gov/Archives/edgar/data/2069634/000206963425000003/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-23",
+    "total_raised": 14300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nomba",
@@ -640,20 +715,46 @@
     "primary_investor": "Necessary Ventures",
     "source_url": "https://www.necessary.vc/portfolio",
     "scraped_at": "2026-10-16T22:40:28.469829+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2023-05-02",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeHhDallRYy1HUlRoaGtvcG94eUpCbmZZNHV0U21GcERwdmNRMDNITHEwdU9hdTRnMWR1a0NpRk1xZVZpU05Bb0hUTWtYa2k1T2poRF9pY3g0ODBFUGRwSXRJMHRRSFplNlpRSERxcHdrQU5MQnRfc2dpblQ2V21wbEFEY19jX3o3LUNGaWs0T1p6YzUtSEZ3WnZGTG1FUFZMaVNJa2VGUmk0UTVNZGlnZEg1UzhNV2xrMDhjcVZ4WQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Debt financing",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZEtOZG1INFRuM0U2MFA2MWd3YmMzcGJZbHNvNkI5NlRWZk1PcHY2V0FtS0dmMnphZkNkblJaeUpIQ011c09ORXdMbm94UVdjeDlJNDlVb2FYSWdIZjVtMkpPaURsUnJtVEc4Q3lZM0tqSVlTdTBxdzNXMkw3UzNtcU5zOA?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://nomba.com/"
+      "https://nomba.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZEtOZG1INFRuM0U2MFA2MWd3YmMzcGJZbHNvNkI5NlRWZk1PcHY2V0FtS0dmMnphZkNkblJaeUpIQ011c09ORXdMbm94UVdjeDlJNDlVb2FYSWdIZjVtMkpPaURsUnJtVEc4Q3lZM0tqSVlTdTBxdzNXMkw3UzNtcU5zOA?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeHhDallRYy1HUlRoaGtvcG94eUpCbmZZNHV0U21GcERwdmNRMDNITHEwdU9hdTRnMWR1a0NpRk1xZVZpU05Bb0hUTWtYa2k1T2poRF9pY3g0ODBFUGRwSXRJMHRRSFplNlpRSERxcHdrQU5MQnRfc2dpblQ2V21wbEFEY19jX3o3LUNGaWs0T1p6YzUtSEZ3WnZGTG1FUFZMaVNJa2VGUmk0UTVNZGlnZEg1UzhNV2xrMDhjcVZ4WQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfVzBnNTA5Qk5nR19QZ1hRbVg2N0t1Z2s3RWZpazBGWkhMSF94MGlCYmRCemJLQ1prUWlGUkp2dnVBd3pVUTFrZmQyM2daYXhtRFJ5N0dlZm5hclRP?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODg1dk1CWU5PYjNsdGU5a0FVZUtSTEFBUGRtcjRjRVZFcnVqNmt3WG9SQWE1Vl9ocmctMDR5WHBvalJtZGR0OXdicHJXS1duZ09CeExkdUh6YUFaR2tFczY0QmxPai1PekUyVEVMaUgzX21hb3F6dHJIM2o3Y2lSWE1EdkJFdw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOE81UGRZTWtQeUpKaGMxeTRaTGtHQjlWSjFaZC05cnE4enpYUlNVRGctQzdsVkFZTTRxbzB4dnQ4QzJHWWlMbFhqdW9KelRLQXJIOEpBWW1xU005OGVmMkZGTFVONmJfOVV4SkVkellCNXlkMVdqdWFfdE5pWUlZWmU0SWF5QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLXR4QmtVVFNYNmdNQ0d4TVN1aVpmVlBVSk50bVNxRldpd0czNXlzSjNudzJ5OFZTWmxTRXBHX01ULVZPaTFWdmFycW9zU3ZoekE1NmxoQk5SVUROZXI0Tmt4bU40eHhtVlN5WURaU1Q0Q194WWpNNjFpbmFJVEc3Qk9UNTN2Zmw2SVltamhObHNER3FJU3hkY3ZNcHU4QkktTWZET0pxaTZabDJEQXdHeG1FQXVSbl9aYzFWcGxRUHJDWFoxcGRCOG1XM0xib0Ri?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LRUw5SFJ5RUxVbjVMaU9uZ0ZQQW0tcm1nLXFySjJ4SWlDUzZFTkYwVUZLX2Y1LWc4U2loMHhDZlZCMXdnQVZZNVRzTkx4R255MFFZY3BGSk4wOHRxWk9IN1hheFVDbkU?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-02",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OneImaging",
@@ -1106,6 +1207,20 @@
     ],
     "primary_investor": "Necessary Ventures",
     "source_url": "https://www.necessary.vc/portfolio",
-    "scraped_at": "2026-10-16T22:40:28.469829+00:00"
+    "scraped_at": "2026-10-16T22:40:28.469829+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zocalo.health/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   }
 ]

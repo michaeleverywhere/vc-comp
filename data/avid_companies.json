@@ -1007,7 +1007,63 @@
     ],
     "primary_investor": "Avid Ventures",
     "source_url": "https://avidventures.com/",
-    "scraped_at": "2026-10-17T17:50:50.687647+00:00"
+    "scraped_at": "2026-10-17T17:50:50.687647+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2249988.0,
+        "currency": "USD",
+        "date": "2017-04-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704616/000170461617000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9215655.0,
+        "currency": "USD",
+        "date": "2018-03-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704616/000170461618000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10940500.0,
+        "currency": "USD",
+        "date": "2021-11-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704616/000170461622000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4250000.0,
+        "currency": "USD",
+        "date": "2022-12-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704616/000170461623000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.remesh.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1704616/000170461617000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1704616/000170461618000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1704616/000170461622000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1704616/000170461623000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4250000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-16",
+    "total_raised": 26656143,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Staircase",

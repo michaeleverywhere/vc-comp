@@ -66,7 +66,26 @@
     ],
     "primary_investor": "Leo Capital",
     "source_url": "https://leo.capital/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.689727+00:00"
+    "scraped_at": "2026-10-17T17:50:50.689727+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://paywithatoa.co.uk/",
+      "https://www.trysignalbase.com/news/funding/atoa-raises-65m-seed-round-to-revolutionize-in-store-payments-with-instant-bank-app-integration",
+      "https://fintechs.fi/open-banking-payments-company-atoa-raises-6-5m/",
+      "https://leo.capital/portfolio/atoa/",
+      "https://startupintros.com/orgs/atoa",
+      "https://businessplus.ie/ma/atoa-raises-6-5m-seed-funding-round/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BeatO",
@@ -359,7 +378,19 @@
     ],
     "primary_investor": "Leo Capital",
     "source_url": "https://leo.capital/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.689727+00:00"
+    "scraped_at": "2026-10-17T17:50:50.689727+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Decover",
@@ -1185,7 +1216,33 @@
     ],
     "primary_investor": "Leo Capital",
     "source_url": "https://leo.capital/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.689727+00:00"
+    "scraped_at": "2026-10-17T17:50:50.689727+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2800000.0,
+        "currency": "USD",
+        "date": "2025-09-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2113219/000211321926000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.marvix.ai/",
+      "https://www.sec.gov/Archives/edgar/data/2113219/000211321926000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-12",
+    "total_raised": 2800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mion",
@@ -1951,7 +2008,64 @@
     ],
     "primary_investor": "Leo Capital",
     "source_url": "https://leo.capital/portfolio/",
-    "scraped_at": "2026-10-17T17:50:50.689727+00:00"
+    "scraped_at": "2026-10-17T17:50:50.689727+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1900000.0,
+        "currency": "USD",
+        "date": "2013-04-30",
+        "investors": [],
+        "source_url": "https://www.workspot.com/press/workspot-launches-new-bring-your-own-device-solution-for-it-departments-and-end-users-reveals-founding-team-and-seed-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 6500000.0,
+        "currency": "USD",
+        "date": "2014-07-18",
+        "investors": [],
+        "source_url": "https://www.workspot.com/press/workspot-secures-6-5m-in-series-a-funding-from-helion-ventures-translink-capital-and-qualcomm/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6200000.0,
+        "currency": "USD",
+        "date": "2016-10-21",
+        "investors": [],
+        "source_url": "https://www.workspot.com/press/tech-co-workspot-raises-6-2m-add-rocket-fuel-vdi-product-growth/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 19000000.0,
+        "currency": "USD",
+        "date": "2019-09-24",
+        "investors": [],
+        "source_url": "https://www.workspot.com/press/workspot-raises-19-million-in-funding-increases-cloud-business-by-more-than-300-as-q3-comes-to-a-close/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.workspot.com/",
+      "https://www.workspot.com/resources/press-and-media/",
+      "https://www.workspot.com/press/workspot-raises-19-million-in-funding-increases-cloud-business-by-more-than-300-as-q3-comes-to-a-close/",
+      "https://www.workspot.com/press/tech-co-workspot-raises-6-2m-add-rocket-fuel-vdi-product-growth/",
+      "https://www.workspot.com/press/workspot-secures-6-5m-in-series-a-funding-from-helion-ventures-translink-capital-and-qualcomm/",
+      "https://www.workspot.com/press/workspot-launches-new-bring-your-own-device-solution-for-it-departments-and-end-users-reveals-founding-team-and-seed-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 9 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 19000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-09-24",
+    "total_raised": 33600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zeeve",

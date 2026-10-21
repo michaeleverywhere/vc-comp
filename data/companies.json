@@ -1598,7 +1598,21 @@
       "BioTech"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "IPO"
+    "status": "IPO",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gilead.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Found",
@@ -3926,7 +3940,32 @@
       "Health"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.wheel.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wheel.com/",
+      "https://www.wheel.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wiz",
@@ -4391,7 +4430,19 @@
       "RegTech/Gov/Legal"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Abridge",
@@ -4581,7 +4632,73 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2060000.0,
+        "currency": "USD",
+        "date": "2018-10-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1757911/000175791118000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": "2021-06-30",
+        "investors": [],
+        "source_url": "https://www.acceldata.io/newsroom/acceldata-raises-35-million-series-b",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2026-09-18",
+        "investors": [],
+        "source_url": "https://www.acceldata.io/blog/announcing-acceldata-50m-series-c-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.acceldata.io/newsroom"
+      },
+      {
+        "stage": "Series A",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.acceldata.io/newsroom/acceldata-raises-8-million-series-a"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.acceldata.io/",
+      "https://www.acceldata.io/newsroom",
+      "https://www.acceldata.io/newsroom/acceldata-significant-corporate-momentum-record-revenue-customer-growth-series-c-funding-key-executive-hires",
+      "https://www.acceldata.io/newsroom/acceldata-raises-fifty-million-in-series-c-funding",
+      "https://www.acceldata.io/newsroom/acceldata-raises-8-million-series-a",
+      "https://www.acceldata.io/newsroom/acceldata-raises-35-million-series-b",
+      "https://www.acceldata.io/blog/announcing-acceldata-50m-series-c-funding",
+      "https://www.sec.gov/Archives/edgar/data/1757911/000175791118000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-18",
+    "total_raised": 105560000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Acko",
@@ -5095,7 +5212,21 @@
       "Cybersecurity"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://alifsemi.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Almanac Health",
@@ -5133,7 +5264,46 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-04-23",
+        "lead_investors": [
+          "F-Prime"
+        ],
+        "investors": [
+          "F-Prime",
+          "General Catalyst"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOVlg5OTlDb2JDMThfVV8xdFRIMDNoek9uNHM5RTRVNnNRMUVEd3lhNXA2a1VQdTJEZUFWVnJybC0wNU9ENl9VRzZveVhwb08zTHVJci1NUnp1ZmtUY1drYVNQMHZvUDQ4ZEJnaGdpc2JhbE15Rzl6djdfYklNaWVaSXU1NnBfTU5yaXBIcUJpdHlDSnRER1BoVUlYNzI0dzZyNWZROVNkSDNBNVczekpFNVlSWmxUcEhsSGIzUkI5c3N0eU9ITjkzeHNwU2RaQllJaTRsSE5yV1VIUE1PdTk1OWQ2NHJ6TGpKR1RkdDgwSWhYRUxMNm1FTkRUTF9rWnpoeXlaNA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://almanac.chat/",
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxOVlg5OTlDb2JDMThfVV8xdFRIMDNoek9uNHM5RTRVNnNRMUVEd3lhNXA2a1VQdTJEZUFWVnJybC0wNU9ENl9VRzZveVhwb08zTHVJci1NUnp1ZmtUY1drYVNQMHZvUDQ4ZEJnaGdpc2JhbE15Rzl6djdfYklNaWVaSXU1NnBfTU5yaXBIcUJpdHlDSnRER1BoVUlYNzI0dzZyNWZROVNkSDNBNVczekpFNVlSWmxUcEhsSGIzUkI5c3N0eU9ITjkzeHNwU2RaQllJaTRsSE5yV1VIUE1PdTk1OWQ2NHJ6TGpKR1RkdDgwSWhYRUxMNm1FTkRUTF9rWnpoeXlaNA?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON3JzNHpWTG14bDRtYjRfVGI5Wm5TODJHT1lPUTB2LVZ0V3FCODZ1U3lTdUxyLVNpeEdHSHdEQVRBWk1DbWttbU5wdUFUWGhwRVdQa0Z3SmY5RVJnRzhJa293UVZqeDVwbGJaaEZpZEQ0blFfNjZ5WEpYZEtQOTJnRWctbXVwR3NwdUhiM095a3ZIVDhVVmN4Q3gzVGdhSWlGRUw0a1lMQlJnREU?oc=5",
+      "https://pulse2.com/almanac-health-10-million-raised-for-research-validated-clinical-ai-platform-empowering-clinicians/",
+      "https://finance.yahoo.com/sectors/healthcare/articles/almanac-health-raises-10-million-120000712.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-04-23",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "F-Prime",
+      "General Catalyst"
+    ]
   },
   {
     "company_name": "Alooma",
@@ -5916,7 +6086,103 @@
     ],
     "location": "Milpitas",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3540062.0,
+        "currency": "USD",
+        "date": "2009-01-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1747467.0,
+        "currency": "USD",
+        "date": "2009-03-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 33443024.0,
+        "currency": "USD",
+        "date": "2009-11-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 20232910.0,
+        "currency": "USD",
+        "date": "2011-04-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000123191911000007/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 39999992.0,
+        "currency": "USD",
+        "date": "2012-04-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000123191912000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4427813.0,
+        "currency": "USD",
+        "date": "2013-06-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000123191913000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16084571.0,
+        "currency": "USD",
+        "date": "2014-01-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000123191914000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25250000.0,
+        "currency": "USD",
+        "date": "2015-03-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1316016/000123191915000009/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.marvell.com/",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000131601609000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000123191911000007/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000123191912000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000123191913000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000123191914000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1316016/000123191915000009/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 25250000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-03-25",
+    "total_raised": 144725839,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Arbor Networks",
@@ -6727,20 +6993,35 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2021-11-09",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVDdiaWo3bEFaQzk4VElTT2xRc2JxWm42a0JGU3YtWlktdWJ5bXBjbGJXM3MxanoxZUtuXzh3dHd4UmR4XzMtQWZhNDl5ZFFkMjY0eXhXd093YmdNWUJxeVRadDFhUTZSM3RtU2doSkJ5RjlfNzNaVW1namFnSjMteXpMOUUtWEJtRkI2X2dSd0FLRW1vRmpqVkRXejh3dw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://audiomob.com/"
+      "https://audiomob.com/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOVDdiaWo3bEFaQzk4VElTT2xRc2JxWm42a0JGU3YtWlktdWJ5bXBjbGJXM3MxanoxZUtuXzh3dHd4UmR4XzMtQWZhNDl5ZFFkMjY0eXhXd093YmdNWUJxeVRadDFhUTZSM3RtU2doSkJ5RjlfNzNaVW1namFnSjMteXpMOUUtWEJtRkI2X2dSd0FLRW1vRmpqVkRXejh3dw?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCbW1TRUNYLWt1YkgxYnc1WmlpcFlzYlJlUUxaZ2x5a0lzX2JEV0lwdmRSMUVlaUM1X2g3Q2NpSTJEZ1k2aDBTcFQ3eF9aeVctbWkwQk04OVNkTTFFNnRzVVpoaWFKX2JRX25ZQy00Q1ltNEhnQTNJUQ?oc=5",
+      "https://www.gamesindustry.biz/audiomob-raises-14m-in-series-a-funding",
+      "https://www.pocketgamer.biz/audiomob-raises-14-million-at-110-million-valuation/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 14000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Audius",
@@ -7060,7 +7341,22 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://avarra.ai/",
+      "https://finance.yahoo.com/technology/ai/articles/avarra-raises-17-million-contrarian-143000161.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Avec",
@@ -7149,7 +7445,42 @@
     ],
     "location": "Pittsburgh",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": "2010-07-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1451666/000145166610000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13999993.0,
+        "currency": "USD",
+        "date": "2017-03-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1451666/000145166617000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1451666/000145166610000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1451666/000145166617000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 13999993.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-03-16",
+    "total_raised": 30999993,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AVI Networks",
@@ -7902,7 +8233,22 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/solana-based-sports-betting-protocol-223712339.html",
+      "https://uk.finance.yahoo.com/news/solana-based-sports-betting-protocol-223712339.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Betty Labs",
@@ -8979,7 +9325,21 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bridgetownresearch.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Brigit",
@@ -9556,20 +9916,33 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2022-09-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHhYTWs0MDExZW5CSEN1UDl1OU5INlhTTjZZZGxBR1QyT3VqVXhXTldwdVZnZjI0X3YzN2pqY0wtMWh1RFBCcWt4Y0IwZzFLLXpNNkZDUWhUdFlocjVTVXk5X05uVVh1aEtfejhUMnpLcXVoSFQ2a01vVHFRYmptQV9SMFBjNWdGS0VpVzhuMFpXaTdBSndGVGp3VEJFQkk?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.candis.io/"
+      "https://www.candis.io/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHhYTWs0MDExZW5CSEN1UDl1OU5INlhTTjZZZGxBR1QyT3VqVXhXTldwdVZnZjI0X3YzN2pqY0wtMWh1RFBCcWt4Y0IwZzFLLXpNNkZDUWhUdFlocjVTVXk5X05uVVh1aEtfejhUMnpLcXVoSFQ2a01vVHFRYmptQV9SMFBjNWdGS0VpVzhuMFpXaTdBSndGVGp3VEJFQkk?oc=5",
+      "https://venturebeat.com/business/candis-raises-nearly-14-million-to-automate-accounting-processes-with-ai/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 16000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cartesia",
@@ -11374,7 +11747,32 @@
       "Data & Analytics"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.curvehealth.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.curvehealth.com/",
+      "https://www.curvehealth.com/press"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CuspAI",
@@ -11731,7 +12129,19 @@
       "BioTech"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Darwinbox",
@@ -12006,7 +12416,63 @@
     ],
     "location": "Santa Clara",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2012-09-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1522191/000152219112000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 45300001.0,
+        "currency": "USD",
+        "date": "2013-07-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1522191/000152219113000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 106000000.0,
+        "currency": "USD",
+        "date": "2014-08-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1522191/000152219114000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 37571788.0,
+        "currency": "USD",
+        "date": "2021-05-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1522191/000152219121000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ibm.com/products/datastax",
+      "https://www.sec.gov/Archives/edgar/data/1522191/000152219112000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1522191/000152219113000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1522191/000152219114000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1522191/000152219121000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 37571788.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-12",
+    "total_raised": 213871789,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Datorama",
@@ -12277,7 +12743,33 @@
       "Data & Analytics"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 74999988.0,
+        "currency": "USD",
+        "date": "2015-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1439696/000143969615000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.perforce.com/products/delphix",
+      "https://www.sec.gov/Archives/edgar/data/1439696/000143969615000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 74999988.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-07-10",
+    "total_raised": 74999988,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Descope",
@@ -12618,20 +13110,37 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcHotbEV1UVpjX2RjWkJ4alB6WGtvYTJmU3lLWnM3dEhYLWN5NmxaWDVnem1LWXUxdEMtMXFFM193dGxfOFE2a0NsakUyRDJ0SU9nLU1pOGs0eGVEcmJxQmpuWFhEVDVESGt3ejI0eVZ6RHIyMVFJYkJaME9JbzRac2NKa19oajA0c1dKV19EWE1TZHk2YlhMckM3MXNYR093TXprTktFQTVyYUt6UkJZOWo2OXNLeW9icjRpODBkR0tBR1ZmemVaQVpPOGxvYUg2ZUVPNFdQQlZNb2FyS1dpRWNRZ0U?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.doctronic.ai/"
+      "https://www.doctronic.ai/",
+      "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZ3ZDemRGWXhEOENGYTIzSnNCbFZhS0Q3dkxGLXVkV3RoZ2tkU2JQMzZZZFRzdDFZVHlpLUZWQ0Z5QjQ4RHhHcDcxa0FBeHJKekxjWmdnaUl1NGRSMC1xV29KRVlXeXdaRFg4UDhpbUNhcHVVS0xkQXQ3bGFmY25JWnU4b2tkQUNVYThzM1Q5Qjl3RjBCQmw3Z0xjYWVjN19qYUhLc2M2U25xQldXSzU1YnRDM29WODBpeWZUcHRlREZmX3NkZVctakUtbzR6M2ZpY1N4YzhPaVlmVmZOSzlMQ0FteWFTVTdzdk55VGpmNy02em52U1VJdDVqYw?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUtEQ3pnYmx1alNxME5FZW9JQnl1S1BRQmYwbF9JQXdEdENEY1BuSW9BUi02N1A1MS1BUjRkeFNuZTVCNkVNVGw1TTFWajJMbkVEYWJpbms4d2RfX1dLX2xiXy0yQkFHUWtmTy1ydHBjNld5TTQzd25rSTFjWDlRcXNOeEEwTHpEM1E?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2hnWTRqdkJWRHJrLURnWHpsT29QSFgtQ0pndm9hOFlLQU40Zy13MHZfRC1yN3ZNSEhPR2N1YXMxc2RvSEQzaFpoOFpoSU1FdS1FNjNIVG5acHZEanJnSGYyMmdYZ0VxUEJnOWNzWjhHa0NPTU5MQV81RXpwQ0pPeTA4UGZhVEJIN2ctZA?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUMFVwa29oRThNUEdmVzBhTW4xbklldmpPQkVmVFBCUmJhVkRXaXZhUVMtNnVwWlVGNngteVhPOGlsNlNsSkp3M1BFaGI5NUFuNUFNTE5Kd3ZPclU1ak9YeGQtUGx6VGpBRzVvYUVsQmgxa08zR0VudEVySQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcHotbEV1UVpjX2RjWkJ4alB6WGtvYTJmU3lLWnM3dEhYLWN5NmxaWDVnem1LWXUxdEMtMXFFM193dGxfOFE2a0NsakUyRDJ0SU9nLU1pOGs0eGVEcmJxQmpuWFhEVDVESGt3ejI0eVZ6RHIyMVFJYkJaME9JbzRac2NKa19oajA0c1dKV19EWE1TZHk2YlhMckM3MXNYR093TXprTktFQTVyYUt6UkJZOWo2OXNLeW9icjRpODBkR0tBR1ZmemVaQVpPOGxvYUg2ZUVPNFdQQlZNb2FyS1dpRWNRZ0U?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlo1VWVRNjBIUmVueVhYVVp6dHE5b1A4M0N1YkNSdHJjbzYzc0hDTzRSRE5MWEhfMUFqUy1zSF9DcGtEc1M1UFYxR3JTMXFhd0JWUlJVemI0NUl6aWxPTTQ1eFcwTkVVaXVheG00TDVxYUc5UUxBYmE2RXlBOTNzZmlqY1QwY0pjSmZscXZHWDljMHNya3VHODFFdGNIQUtfUGFB?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxObmFKeVUyU0Z6OEJKXzU0N3lvUU9zVTRlOEtIMWdUSEpuaVJfbG9MU2RRZTB3MU5sZU5sVHRzN28xdkI2bnpONzUxYmJWczIwOVlXeWlKZjcycVE1ZXB3TTRZMDNNZ0x1cTVLYUlSYnZMR2MydEM4UGp1RVRWSEE0czJaX3BWVE5rclRYczFrcUd4Nk1FTDllSDN4MW5UbTZHZUNBZTZiWF9lQW1rd2VKWQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Double Click",
@@ -13096,7 +13605,21 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.eagleeng.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Eco",
@@ -13258,7 +13781,19 @@
       "PropTech"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Elastifile",
@@ -13392,7 +13927,21 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.elementum.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ElevenLabs",
@@ -13783,7 +14332,62 @@
       "Health"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35299237.0,
+        "currency": "USD",
+        "date": "2021-03-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1852950/000185295022000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 61000000.0,
+        "currency": "USD",
+        "date": "2022-12-15",
+        "investors": [],
+        "source_url": "https://enlazatx.com/press_release/enlaza-therapeutics-launches-with-61-million-financing-to-advance-the-first-covalent-biologic-therapeutic-platform/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 84000000.0,
+        "currency": "USD",
+        "date": "2024-04-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1852950/000185295024000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2024-04-30",
+        "investors": [],
+        "source_url": "https://enlazatx.com/press_release/enlaza-therapeutics-raises-100-million-through-its-series-a-financing-led-by-the-life-sciences-group-of-j-p-morgan-private-capital/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1852950/000185295022000003/primary_doc.xml",
+      "https://enlazatx.com/press_release/enlaza-therapeutics-launches-with-61-million-financing-to-advance-the-first-covalent-biologic-therapeutic-platform/",
+      "https://www.sec.gov/Archives/edgar/data/1852950/000185295024000001/primary_doc.xml",
+      "https://enlazatx.com/press_release/enlaza-therapeutics-raises-100-million-through-its-series-a-financing-led-by-the-life-sciences-group-of-j-p-morgan-private-capital/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-04-30",
+    "total_raised": 280299237,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "enSilo",
@@ -14519,7 +15123,66 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2017-02-07",
+        "lead_investors": [
+          "Cisco",
+          "Lightspeed"
+        ],
+        "investors": [
+          "Cisco",
+          "Lightspeed"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0NMMXcwTU9WV3JvRjg3N0djWEluaDRLOVBiUWVkUGhmSEJBTkgwS1g4dFBxYV9xMTNNQzR1VndYMUJ3VUxKdWdydzVQMTktYTEyWGt0V3pDajFyakdjYWRleW93NGxxbW5pR01kX2ZXQWRQWEROd2otV3BEaG9hX0NDNHRJWW8?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": "2019-05-07",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1dWMGJUU0c4aXExWVgtRHlLbEZRdGpzM1ozcFBZT0xpN2swd0pfczdSeTZVUUV1VTNuTktlQ1lPSklJWC1vYVVPVjFrNkVlZkNkcmVTekp1OW9VUEJSaHBHbFRGWVlMTnQwRkJaSUFEUWFIVXphUms2bV9vLW83NkdJVEZucFFxNnJhR1FFaTBmVGxaX3RzY3FlaENsWnM1dVZVQllXYw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2021-06-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRam0wd2dINHBPU0NEZ19EOVhseHA2Y2ZvM0RoTW16b1U5RDIzbW54MkhoNDZoQUw1UTQwT2lGcEhSVjIyTmJ2SWhiRjg3WTNrSTE2YTVlbnVxR0h0ZTlDQy1XeXpNdUU0bDdtNTY3RVhzczAxR0hv?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.exabeam.com/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ21hRmdycmt6XzVJVS0xZTQ2STExR1VHMHBhQ0JuQ2EtQXZZNHllRXRqdTk3dmU0a0s5Q05LMEJzNWhyZkdkRDY5WVZzbnd6cjVWVlYwbndmaXdYOWdCekJIOUlaNzhFanpDZWFienhyR1VuanZHUmVxWGhra1ZLMkFHVVpSazRVVGdzVjhhZ3dmZXBLVmZpcTFHMS1fWVh1MzhTNjVXX1dNQjJK?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1dWMGJUU0c4aXExWVgtRHlLbEZRdGpzM1ozcFBZT0xpN2swd0pfczdSeTZVUUV1VTNuTktlQ1lPSklJWC1vYVVPVjFrNkVlZkNkcmVTekp1OW9VUEJSaHBHbFRGWVlMTnQwRkJaSUFEUWFIVXphUms2bV9vLW83NkdJVEZucFFxNnJhR1FFaTBmVGxaX3RzY3FlaENsWnM1dVZVQllXYw?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRam0wd2dINHBPU0NEZ19EOVhseHA2Y2ZvM0RoTW16b1U5RDIzbW54MkhoNDZoQUw1UTQwT2lGcEhSVjIyTmJ2SWhiRjg3WTNrSTE2YTVlbnVxR0h0ZTlDQy1XeXpNdUU0bDdtNTY3RVhzczAxR0hv?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0NMMXcwTU9WV3JvRjg3N0djWEluaDRLOVBiUWVkUGhmSEJBTkgwS1g4dFBxYV9xMTNNQzR1VndYMUJ3VUxKdWdydzVQMTktYTEyWGt0V3pDajFyakdjYWRleW93NGxxbW5pR01kX2ZXQWRQWEROd2otV3BEaG9hX0NDNHRJWW8?oc=5",
+      "https://www.crn.com/news/security/300078259/exabeam-lands-25m-in-series-b-funding-looks-to-go-global-with-products-and-partners"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-01",
+    "total_raised": 305000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Cisco",
+      "Lightspeed"
+    ]
   },
   {
     "company_name": "Exponent Energy",
@@ -14662,7 +15325,19 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ezcater",
@@ -15965,7 +16640,33 @@
     ],
     "location": "San Francisco",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12502058.0,
+        "currency": "USD",
+        "date": "2009-12-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1383710/000138371010000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.fandango.com/",
+      "https://www.sec.gov/Archives/edgar/data/1383710/000138371010000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 12502058.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2009-12-31",
+    "total_raised": 12502058,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Flockjay",
@@ -16318,7 +17019,35 @@
       "BioTech"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2020-12-09",
+        "investors": [],
+        "source_url": "https://freespira.com/news/freespira-raises-10m-for-tech-platform-that-aims-to-ease-panic-attacks-and-ptsd/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://freespira.com/",
+      "https://freespira.com/press/",
+      "https://freespira.com/news/freespira-raises-10m-for-tech-platform-that-aims-to-ease-panic-attacks-and-ptsd/",
+      "https://freespira.com/news/freespira-which-treats-ptsd-and-panic-attacks-with-digital-tools-raises-10m/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-09",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Freight Tiger",
@@ -16533,7 +17262,63 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2019-06-26",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2cwQ0ZHS1g5enRkM0VnOWRCWVQyWXJuWGstSjZFWW1wOVZoZGhfaHAxLThrU3pJM1VuZE92cTBnOUpnOVFUNktjRWw3Xy1UWWI1c3d0MThVeklFNWhZRmE5OXRkMTlKX2x6UkMyYWx5NDJUbE1ZbHduUjdrdGU5TmtRTEh1YzdGQllaOVVZdV9kX2tq?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2020-04-25",
+        "lead_investors": [
+          "GGV",
+          "Monashees"
+        ],
+        "investors": [
+          "GGV",
+          "Monashees"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbEV0TVRRMEhaUThuUXFIQXlLRnpFRUl1cWgzalR4YmQ1Vjh5MUpueUFsZEMyR1MwdFAybGR1ZVdyejZZMkZ4el93Umk0UHN5VWNCNjdISDlNdHhvZFJSaDc1a0diU19oOS01ZlVhaXQyNzRkZWw4STVmSUNUU2VkeNIBhgFBVV95cUxNakFZOHFTV2FUTkVIRUVybXhUZXZzZFdOX192MEJJTkFMLWZHbHlHcDRpNXhnUTdjWWh2U3E3ZVJkMEpRMTBILURSM3ZhUGNLQzBYaWlrU3hKSXNhSTQyTGpFanFNc094cGpZZGJ0S0NkT1RTa0hhckxOQjlaZ2ZXTmNEVUpZZw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2021-06-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUpsdGlBSldMYUpQZHVkMkViS0ctdjViWFhNel9iLTcwNm9fWC05Y2ttZEZsdk1mVHZDbjdfWEZ0WG0xT3VYMDNLUTBOZW1rVE9KbWVaV3ZYMDFKNGdFamtYV0RPeGNSa1dLdmRiLWd5UGpmaUtKUE5HSGE5ZGkyT3N3WEc?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2cwQ0ZHS1g5enRkM0VnOWRCWVQyWXJuWGstSjZFWW1wOVZoZGhfaHAxLThrU3pJM1VuZE92cTBnOUpnOVFUNktjRWw3Xy1UWWI1c3d0MThVeklFNWhZRmE5OXRkMTlKX2x6UkMyYWx5NDJUbE1ZbHduUjdrdGU5TmtRTEh1YzdGQllaOVVZdV9kX2tq?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbEV0TVRRMEhaUThuUXFIQXlLRnpFRUl1cWgzalR4YmQ1Vjh5MUpueUFsZEMyR1MwdFAybGR1ZVdyejZZMkZ4el93Umk0UHN5VWNCNjdISDlNdHhvZFJSaDc1a0diU19oOS01ZlVhaXQyNzRkZWw4STVmSUNUU2VkeNIBhgFBVV95cUxNakFZOHFTV2FUTkVIRUVybXhUZXZzZFdOX192MEJJTkFMLWZHbHlHcDRpNXhnUTdjWWh2U3E3ZVJkMEpRMTBILURSM3ZhUGNLQzBYaWlrU3hKSXNhSTQyTGpFanFNc094cGpZZGJ0S0NkT1RTa0hhckxOQjlaZ2ZXTmNEVUpZZw?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUpsdGlBSldMYUpQZHVkMkViS0ctdjViWFhNel9iLTcwNm9fWC05Y2ttZEZsdk1mVHZDbjdfWEZ0WG0xT3VYMDNLUTBOZW1rVE9KbWVaV3ZYMDFKNGdFamtYV0RPeGNSa1dLdmRiLWd5UGpmaUtKUE5HSGE5ZGkyT3N3WEc?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 65000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-13",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "GGV",
+      "Monashees"
+    ]
   },
   {
     "company_name": "Fullview",
@@ -16840,7 +17625,21 @@
       "Gaming / Media / Entertainment"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://gardens.dev/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Geniebook",
@@ -17856,7 +18655,63 @@
       "Logistics / Supply Chain"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10000.0,
+        "currency": "USD",
+        "date": "2019-01-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1766869/000176686919000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9609996.0,
+        "currency": "USD",
+        "date": "2019-07-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1766869/000176686920000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25343336.0,
+        "currency": "USD",
+        "date": "2020-07-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1766869/000176686920000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 102849745.0,
+        "currency": "USD",
+        "date": "2022-01-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1766869/000176686922000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://hasura.io/",
+      "https://www.sec.gov/Archives/edgar/data/1766869/000176686919000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1766869/000176686920000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1766869/000176686920000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1766869/000176686922000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 102849745.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-14",
+    "total_raised": 137813077,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Healthplix",
@@ -18611,7 +19466,44 @@
       "Logistics / Supply Chain"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 3700000.0,
+        "currency": "USD",
+        "date": "2016-03-02",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUcyNC1xdlJ4bk81cWJQeGMteGY4LWJTR1V0c1NDNjI1VGl3Y0ctS0t0eE9sQWJ4Qk8xQzhiUmxXMUc5aWoyR0dPckdZN0pVRDUyS0VOd1J2YS1JakRLRkZxekcyVUJ0b2xIZkNxX2l3VW1nZ19Rc054N2lER1lDT01OemhJek1LYnlaZXRxZ3lab19uSG1fRHJBbWhPV2l0?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2021-06-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaXlYRS1rWlJFc2E0RGNta2hRcXd1T01oTFc0bVpIMjM3Z1ZtT2JTbk1RNE5WUTIya2JHVjA0ek5BQ2xtbDZpVjN1V0JQcE5haURjOHY3azQwT1BrcEtjY3Qya3pKUzVBY1lQbFdGUmhjS01ZYXRBWS00VGFRRFVyWExuRUpwUEVTRWF3aWdqd19SSjcyaWFMV0dHUzBTQ0ZWaDlodVBoQkd5RHdWUkh3dktkY2VmZEg4XzhrQTBDWWc?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hungryroot.com/",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaXlYRS1rWlJFc2E0RGNta2hRcXd1T01oTFc0bVpIMjM3Z1ZtT2JTbk1RNE5WUTIya2JHVjA0ek5BQ2xtbDZpVjN1V0JQcE5haURjOHY3azQwT1BrcEtjY3Qya3pKUzVBY1lQbFdGUmhjS01ZYXRBWS00VGFRRFVyWExuRUpwUEVTRWF3aWdqd19SSjcyaWFMV0dHUzBTQ0ZWaDlodVBoQkd5RHdWUkh3dktkY2VmZEg4XzhrQTBDWWc?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPanZyaThsa2haWm9LaWdlUzB2d0dCTjdFNmlqcGR4ZW41dnBpTjhtc0dqRjk2MnA3eENvMkJ1NC1xdTdjbU82dUFwYnhwMEdQQXVHWVowaVdNNWJsUFU1R25wMXRiY1Z5MHRQcDlvaXozdzF3cnhCbl81MlRHZjlFQUJjelFRTHpjeUtmMWc1SUNTR2VMbXJJQVJkaVhkZTdCVHdlVXplSUhTM1hO?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUcyNC1xdlJ4bk81cWJQeGMteGY4LWJTR1V0c1NDNjI1VGl3Y0ctS0t0eE9sQWJ4Qk8xQzhiUmxXMUc5aWoyR0dPckdZN0pVRDUyS0VOd1J2YS1JakRLRkZxekcyVUJ0b2xIZkNxX2l3VW1nZ19Rc054N2lER1lDT01OemhJek1LYnlaZXRxZ3lab19uSG1fRHJBbWhPV2l0?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-04",
+    "total_raised": 43700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "HyperGuest",
@@ -19172,7 +20064,73 @@
       "PropTech"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15101447.0,
+        "currency": "USD",
+        "date": "2016-06-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651343/000165134316000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15849986.0,
+        "currency": "USD",
+        "date": "2018-02-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651343/000165134318000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 59999962.0,
+        "currency": "USD",
+        "date": "2019-09-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651343/000165134319000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 74779895.0,
+        "currency": "USD",
+        "date": "2021-02-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651343/000165134321000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2149961.0,
+        "currency": "USD",
+        "date": "2025-08-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1651343/000165134325000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://innovaccer.com/",
+      "https://www.sec.gov/Archives/edgar/data/1651343/000165134316000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651343/000165134318000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651343/000165134319000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651343/000165134321000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1651343/000165134325000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2149961.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-08-29",
+    "total_raised": 167881251,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Insightera",
@@ -19494,7 +20452,21 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.joopiter.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Judgment Labs",
@@ -19588,7 +20560,19 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "k-ID",
@@ -19765,7 +20749,21 @@
       "Deeptech / Robotics / AR/VR"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kalamlabs.in/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "karius",
@@ -19858,7 +20856,33 @@
       "Data & Analytics"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": "2017-12-04",
+        "investors": [],
+        "source_url": "https://venturebeat.com/entrepreneur/industrial-drone-company-kespry-raises-31-million/",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://insurancenewsnet.com/oarticle/kespry-announces-mining-aggregates-insurance-and-inspection-enterprise-growth-and-new-strategic-funding-to-enhance-ai-augmented-aerial-intelligence-platform",
+      "https://venturebeat.com/entrepreneur/industrial-drone-company-kespry-raises-31-million/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 33000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-12-04",
+    "total_raised": 33000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ketryx",
@@ -19903,7 +20927,48 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Lightspeed Venture Partners"
+        ],
+        "investors": [
+          "Lightspeed Venture Partners"
+        ],
+        "source_url": "https://www.ketryx.com/about/company"
+      },
+      {
+        "stage": "Series B",
+        "amount": 39000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.ketryx.com/blog/ai-firm-ketryx-raises-39m-adds-former-medtronic-ceo-as-investor"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ketryx.com/about/company",
+      "https://www.ketryx.com/blog/ai-firm-ketryx-raises-39m-adds-former-medtronic-ceo-as-investor"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 39000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 53000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lightspeed Venture Partners"
+    ]
   },
   {
     "company_name": "Keychain",
@@ -20296,7 +21361,33 @@
       "Data & Analytics"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2008-12-09",
+        "investors": [],
+        "source_url": "https://www.cnet.com/tech/services-and-software/search-start-up-kosmix-raises-20-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cnet.com/tech/services-and-software/search-start-up-kosmix-raises-20-million/",
+      "https://www.cbsnews.com/news/kosmix-adds-a-big-20-million-round-time-warner-leads-ed-zander-joins/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2008-12-09",
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kumospace",
@@ -21253,7 +22344,44 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 31200000.0,
+        "currency": "USD",
+        "date": "2026-05-15",
+        "lead_investors": [
+          "General Catalyst",
+          "Lightspeed"
+        ],
+        "investors": [
+          "General Catalyst",
+          "Lightspeed"
+        ],
+        "source_url": "https://www.luel.ai/blog/luel-seed-31m-general-catalyst-lightspeed",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.luel.ai/",
+      "https://www.luel.ai/blog/luel-seed-31m-general-catalyst-lightspeed"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 31200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-15",
+    "total_raised": 31200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "General Catalyst",
+      "Lightspeed"
+    ]
   },
   {
     "company_name": "Lunchclub",
@@ -22049,7 +23177,19 @@
       "Deeptech / Robotics / AR/VR"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MemVerge",
@@ -22858,7 +23998,19 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mysten Labs",
@@ -23678,7 +24830,19 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nimble Storage",
@@ -23720,7 +24884,72 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "IPO"
+    "status": "IPO",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8776231.0,
+        "currency": "USD",
+        "date": "2007-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1452751/000145275108000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8274999.0,
+        "currency": "USD",
+        "date": "2008-12-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1452751/000145275108000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15999993.0,
+        "currency": "USD",
+        "date": "2010-11-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1452751/000145275110000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24999981.0,
+        "currency": "USD",
+        "date": "2011-07-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1452751/000145275111000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 40699982.0,
+        "currency": "USD",
+        "date": "2012-08-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1452751/000145275112000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1452751/000145275108000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1452751/000145275108000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1452751/000145275110000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1452751/000145275111000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1452751/000145275112000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 40699982.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2012-08-10",
+    "total_raised": 98751186,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nirva",
@@ -24449,7 +25678,52 @@
       "Health"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "Public"
+    "status": "Public",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 101000000.0,
+        "currency": "USD",
+        "date": "2023-12-06",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNanVPVnh0ZnNKd25OcTMwMXNEbXBibkpxUVU2WHlSV1JtNDZOSm5ldzVLZW5GTnRTaHlDcXpnX1gwRWxsMGJyLVVyMHFOeWpDUWVNbE5IbUJsY3JtUFRHcHJtR2pGME1DekxVS1JyRktzQ3lCMkVpY0k4SzNQbFRPZDRWVm1BVmxpV0I4?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 213000000.0,
+        "currency": "USD",
+        "date": "2025-09-11",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQnQzdWp1VjZqeTFvN1hDeDdYYkxUb2RXbk9ueUVvRnU3emhBNmkxUURLa3ZHOU9uNWRXZ0JRZVV2RHF1NTk3clBnNGRxMjZyR1JrVUtpR1FZdjdyN2lUd3RCZzRGWHY2SkhJUlVPYTQ1TEI3UWVWV2JNS015T3I5a3pxamxpN3p5UUJlYks0elp4ZmhHa2ZmSks4V3VqSktDYWQ3QmlaVTRnZEtjRWhPT0xVSnktRktpM0tDc2ZxcmJiOExxTHhaRkZvNTZ2QnJfWEttbUkyRlNSNkFTZFhhU185ak1NQ3RpczhfQjRicnR1LXg3QVIxcW9Uc2tsdw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 168000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTHNZSlJwdGVvLS1OWncyT2JJcmowbXZwSzhGTWhBemtubGs2NUFoWUxiREtsa0l4eENKVVFpUGV5amgzMkRDZC00SG04OVpRVGdKRDJtbktFV2toMU1GaXlBSW5MRXdTSXd4WnRBSmh0V2JYR0hhZnlPYzF0U2NLVXpJb01aMnpWb3prMFRVN2VlSndYRjU3TkQ3ZGlRNTQyM2hXY3k0VW82REgyVVo1UEUzd1ZnaVdBaFBoSFFiM1pHcUhRYVF4YlIzLXk?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWWRhVUZKMzZEeVJHT2Y4QXVKd29ERXQtVG16MnRsYkFNQjJkc0liTk5reEhRWDZ5Y0NocFdlSlNudjZOS1ViUjA2X3JHZU5Od0poTnJreWxabTBxaFVyNnV0MTR0RHJ1OFZvQXAyTVV1VUl5MU44SjBmb1NPZ0VqSkNPMFk4OEVQeEdaUkFBU2I?oc=5",
+      "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQnQzdWp1VjZqeTFvN1hDeDdYYkxUb2RXbk9ueUVvRnU3emhBNmkxUURLa3ZHOU9uNWRXZ0JRZVV2RHF1NTk3clBnNGRxMjZyR1JrVUtpR1FZdjdyN2lUd3RCZzRGWHY2SkhJUlVPYTQ1TEI3UWVWV2JNS015T3I5a3pxamxpN3p5UUJlYks0elp4ZmhHa2ZmSks4V3VqSktDYWQ3QmlaVTRnZEtjRWhPT0xVSnktRktpM0tDc2ZxcmJiOExxTHhaRkZvNTZ2QnJfWEttbUkyRlNSNkFTZFhhU185ak1NQ3RpczhfQjRicnR1LXg3QVIxcW9Uc2tsdw?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTHNZSlJwdGVvLS1OWncyT2JJcmowbXZwSzhGTWhBemtubGs2NUFoWUxiREtsa0l4eENKVVFpUGV5amgzMkRDZC00SG04OVpRVGdKRDJtbktFV2toMU1GaXlBSW5MRXdTSXd4WnRBSmh0V2JYR0hhZnlPYzF0U2NLVXpJb01aMnpWb3prMFRVN2VlSndYRjU3TkQ3ZGlRNTQyM2hXY3k0VW82REgyVVo1UEUzd1ZnaVdBaFBoSFFiM1pHcUhRYVF4YlIzLXk?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNanVPVnh0ZnNKd25OcTMwMXNEbXBibkpxUVU2WHlSV1JtNDZOSm5ldzVLZW5GTnRTaHlDcXpnX1gwRWxsMGJyLVVyMHFOeWpDUWVNbE5IbUJsY3JtUFRHcHJtR2pGME1DekxVS1JyRktzQ3lCMkVpY0k4SzNQbFRPZDRWVm1BVmxpV0I4?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series D",
+    "last_round_amount": 213000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-11",
+    "total_raised": 482000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OfficeBanao",
@@ -24931,7 +26205,42 @@
       "Data & Analytics"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7957760.0,
+        "currency": "USD",
+        "date": "2012-09-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1558170/000155817012000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24999982.0,
+        "currency": "USD",
+        "date": "2015-09-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1558170/000155817015000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1558170/000155817012000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1558170/000155817015000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24999982.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-09-15",
+    "total_raised": 32957742,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Orqa",
@@ -25321,7 +26630,43 @@
     ],
     "location": "San Francisco",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14874945.0,
+        "currency": "USD",
+        "date": "2015-12-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1703280/000170328017000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 31431313.0,
+        "currency": "USD",
+        "date": "2017-03-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1703280/000170328017000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.harness.io:443/products/ai-sre",
+      "https://www.sec.gov/Archives/edgar/data/1703280/000170328017000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1703280/000170328017000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 31431313.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-03-20",
+    "total_raised": 46306258,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OYO",
@@ -26521,7 +27866,63 @@
     ],
     "location": "Menlo Park",
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "IPO"
+    "status": "IPO",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5006851.0,
+        "currency": "USD",
+        "date": "2011-08-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000152775311000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 22077923.0,
+        "currency": "USD",
+        "date": "2013-10-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000152775313000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29581947.0,
+        "currency": "USD",
+        "date": "2014-12-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000152775314000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12225000.0,
+        "currency": "USD",
+        "date": "2017-06-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1527753/000152775317000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.personalis.com/",
+      "https://www.sec.gov/Archives/edgar/data/1527753/000152775311000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1527753/000152775313000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1527753/000152775314000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1527753/000152775317000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 12225000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-06-29",
+    "total_raised": 68891721,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Personetics",
@@ -27302,7 +28703,37 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": "2015-09-13",
+        "investors": [],
+        "source_url": "https://www.sdxcentral.com/news/plexxi-raises-35m-but-wont-start-the-ipo-buzz-yet/",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.crn.com/news/networking/300078104/plexxi-to-dump-35-million-funding-into-channel",
+      "https://www.lightreading.com/sdn/plexxi-raises-35m-series-d-funding",
+      "https://www.sdxcentral.com/news/plexxi-raises-35m-but-wont-start-the-ipo-buzz-yet/",
+      "https://www.lightreading.com/sdn/sdn-startup-plexxi-raises-35m-for-invisible-networks",
+      "https://www.nhbr.com/plexxi-raises-35m-in-latest-funding-round/",
+      "https://www.zdnet.com/home-and-office/networking/networking-startup-plexxi-raises-35-million/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series D",
+    "last_round_amount": 35000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-09-13",
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pliant Technology",
@@ -27440,7 +28871,23 @@
       "Gaming / Media / Entertainment"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "acquired"
+    "status": "acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://plushcare.com/",
+      "https://www.mobihealthnews.com/news/plushcare-scores-23m-double-its-staff-fuel-growth",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/telehealth-company-plushcare-gains-8m-in-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pocket FM",
@@ -31256,20 +32703,76 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2024-12-17",
+        "lead_investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "investors": [
+          "Lightspeed",
+          "Elevation Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2025-09-03",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "investors": [
+          "Bessemer Venture Partners",
+          "Bessemer"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://seekho.in/"
+      "https://seekho.in/",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNem5NQkdrQ1RaZlRrTUpxQWtBYjMxX1RrUzRpeGdXVjBfcjF2V1ZsRDVybVZYV0VuWVVublQtdXpWRVF6M0VNc0hZclloRlQwRDNaakN1MjJBZFZsNDRQblBMTExkcHFqZ1hTaDQ2UUlwMlUtY2pBZnFMWjdhd3hHMDJzM1ZOdkwyQmNjc2NqQWJFbFpScW5zV1RuOE9kZnFmbk5wQnk1QzV6TlhpU2RiUHdUbXU4RWoxWEY3eUpFTkR1TEF5ZW1rbERSemI1Y1pGU0hsRzYzUnFRMXNMYkg4cTd4N1dLWWxUd2FpMWc1NHNyUdIB9wFBVV95cUxQamk3eVFBcGlHQkRWaUhNZ2FLNWxKQkFjaWpHcnVkcEhnanRoOEI3ZTlmN3RLNFZxNWJZcUFmWG51cDFGWVFnUkNGTmFseU1HNlpqOUU1WTgxNWxyTEdwcnRjMTVZQklMM2lyY3FTTlBZaE00Nk9SU2NOR2FQSDlPQlNEa3NiV3ktckhGRHJZN2hMR0djaTllMG1yQzY2Njk2SlJLeDFxZTEtR2RHaGRrQTlCRHFYcjVwRUR5QlhtU2hVYVgyRnNHLXBCRF9LYWVFcFpkSUNTZEhCaEZFQmFuTlpGcTFfSFZJb2xXUmxEOUpIemxyb2M0?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSS1SSm1Cakw1NjBrRWRLeHQyUHNaMFZ4bU1iODNfSDBsS2xEVlhjaHVBLTVVVm9nMVA1UGhBWW1Vbkt4NnlrN3JMb0dCanh2eHo1SHV5ZzE1bktyRXUtNnJfSzh6VjkwUThiVGhPMXQtQXRzM0VHcUpOSHBOSk9XTHdtTXhKcG1tMFlrREN4VDI1cFJxUEd2TENJcnl2OHJoLXlJVHRrVHgxdnhEYmlHV3p4T1l1Z1dtV1BkdF9NLVNtZ05VOUtUdmNB0gHPAUFVX3lxTE5KajQ3V0lOUFZWNXNtaGIweEFidEU3YUFxWm9nZlZQYUFweTFENDg5R3dYQ1dzTnJPdzE2TlN3UU94cTU3aHZWNHlsbUloNkEtQUc1Mi1KdGZ5R18wc25Fc2FQQ1d3dUlrNUdZUGJBZEI5SVJMMkl3ZUJCdXhoSDgtZTZJQ08yR2tyM2pacVJ6ZmlhSDJhYU5ldFl5V2pVWnBNTGRmR21WZ05SX3ZfVklzbnZXdllYa3R5eGtsSXFGUm5TZXhvNm5oVGVLb3BaWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZzhQYnRaYUV4N20wRXpaTkl1ZkRTcVg0N1M4UGZBckJNc2hidEpvMmhqTllncV8xSFlDR1lNd0kxTmtoSkxHQ0I2OU5MUlQ5c3VZV2FmajZORTE2eFljSHNGRmZMUWh5RTVKUnd2R2pYNGJyem9DT1NIbmljbW4teWNmRFVzTGk4NXdmdFY1d2lUeE1ieTI0RUFR?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUjlVT2pTQzZDUDE1bkNsd2ZBa3JPeXpOT3A4RWU1TnBlVTAxZDREZUg5bzNRRTRjQTlHMXYzZ2FwcnZ3NzQxeG93bXotNkg2VmpPakFOSi1JNFY1N2pDamNoNDN1emgtRG4xZ0o0Um16WExlOWZwbDRwOE4xX3pfTWRIVWIzT1hEVWdPcVd1M0nSAZABQVVfeXFMUFI5VU9qU0M2Q1AxNW5DbHdmQWtyT3l6Tk9wOEVlNU5wZVUwMWQ0RGVIOW8zUUU0Y0E5RzF2M2dhcHJ2dzc0MXhvd216LTZINlZqT2pBTkotSTRWNTdqQ2pjaDQzdXpoLURuMWdKNFJtelhMZTlmcGw0cDhOMV96X01kSFViM09YRFVnT3FXdTNJ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOHZ1RWh0enp4TVlvZjVOb2VqbHM0QmxJTzE3bFhOVnNWQnYyNWtXLU5zcHpKY0Fqcm9CemxsRi1tVkdrUVF6VGw4YmhRRFlWNjRVaTZ0SG5KV2FNYmtLVHlOd0M3RlJoREdJV2NyZ2k0RUc2b2JIY0ctSUZaMVBmSzRHVmNvS2Nq?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTNIByAFBVV95cUxNWU9DZ2MyMW12bjRVdE0yUUVpcVRHaWMyUHJtSHdKcE14MjRCdmk5SWFHX0xnSzBXR0JleHRWZTV2NUNtQUp0bmJZczJmOU5MWTQyWDAwbXNwOGxiR1RwWFRxdklxWnZvVDZ5SmpjSDM0b3JVQzAyNF9ORjRNQUxIejdfQzhlUGpKbmNuYXN5MHFscW9pQkN3RUoxVTlRckEzT1BPbFN2U3ZNeV8weFJ3cE5tNFFUTktFTi0wa3VKZU1nTXFSaHBXTA?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhPQ21ZeFRxT0ppeGxISW5sWllCLWVYRjNHVjlHekxsVGZrQ0N0OUNxRFUtMldkM3ZXNFVxTzMyMTctaWpEVlpCdWhwaEVtbVRtbnR2THBNbkFxQzVhb0Q3VG1RUm1YT0ZfeTVJNWhDcjBqQ09Qendfdm1TdzMxRnpFR1ZHX2J6Qm53?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEVyUkRSMGRhNDd1X2s0LWQxbTJKMjJRZW41Vlc5SkpjTlhIUWs2R0RBaGV6Q21kby1fTTd1TEVJYk5BNm1KZlRMcGd5OVJfSDdsdkV4ckt6Mi11OGxPLThNbVpKb0thWC1FLWVoOW1CMmVBNEhPd21SQTZfVkQtSDhPVmN4OS1NLTJ3cS1FOTRncFJ6d2ctQWRSVjhjMzNhVnFSU3lzZ2tjZVRPYTdxWDhrcS1lR3JpamVDQzJNY2NkQ0lKMkhQX1U4dU1YQkRqYmdF0gHYAUFVX3lxTE80bEhrcU9WQ3hYd1ZPenJiSVh1T3hreGQ3VFNxMHFXaEhTWS01V0F5OU1yVGRpVVUxWllZNE1wWjR5MGJhNk1SZ0JBUVBPaUIySm9SZjlTV0xWMzJMXzQyNlQ3enpwSHJ5NS0yS054b2hhd3VYeUR1Q25HS3AxLXFua0ZIVF9KdFREaVc5Sl9BdmlBQjJJRDZpa0tPNW1FbGdxcl9Xd1NLMUIwZ0RvY29lVExyNEVnckZmY05hcGZKVjZfcDJZNXJRSVQ5Nml0ZE4wM1gzSlBtWQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-03",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lightspeed",
+      "Elevation Capital",
+      "Bessemer Venture Partners",
+      "Bessemer"
+    ]
   },
   {
     "company_name": "Seel",
@@ -31310,7 +32813,23 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.seel.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUVEZkZPZnRPUDItNEwzQ3otT25FZFdvSnhaLTNHaTR6b0R6TW4zLVhKaF96VXcxdUZhS0N5Q0E3TkhFdkVabTV3THUzN2ZlVE1XOWxkMFdHUXFDT0xSX3djaFJHYzNUSlBQbXN5Q2xpcUU2ODR3c1RzVmNNMk9OcEVKYW9LVk9vVFVkNTRDS1hJYko4TXRySEV3QUEzX1k?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqNFFZNTEzSXV4dGpDakpGa1RrVm9pVjZvWks3OENzRlc2eWFmalh0aUdROFpCQU84VWp0UzNNZGlSejZ0RWVsS0hFa3NlaE4xdENVTFBOYTA?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Seismic Therapeutic",
@@ -31349,7 +32868,42 @@
       "RegTech/Gov/Legal"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 146279914.0,
+        "currency": "USD",
+        "date": "2023-11-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 121000000.0,
+        "currency": "USD",
+        "date": "2023-12-04",
+        "investors": [],
+        "source_url": "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+      "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 121000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-04",
+    "total_raised": 267279914,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Seismic Therapeutic",
@@ -31388,7 +32942,42 @@
       "RegTech/Gov/Legal"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 146279914.0,
+        "currency": "USD",
+        "date": "2023-11-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 121000000.0,
+        "currency": "USD",
+        "date": "2023-12-04",
+        "investors": [],
+        "source_url": "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/2002995/000200299524000001/primary_doc.xml",
+      "https://seismictx.com/seismic-therapeutic-closes-121-million-series-b-financing-to-advance-immunology-pipeline-optimized-by-its-machine-learning-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 121000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-04",
+    "total_raised": 267279914,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Select Star",
@@ -32355,7 +33944,33 @@
       "Deeptech / Robotics / AR/VR"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 24700000.0,
+        "currency": "USD",
+        "date": "2022-11-04",
+        "investors": [],
+        "source_url": "https://www.smartex.ai/post/smartex-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.smartex.ai/",
+      "https://www.smartex.ai/post/smartex-series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 24700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-11-04",
+    "total_raised": 24700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Snabbit",
@@ -34252,7 +35867,22 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tana.inc/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRkZBMnhVb0RuaTdqOXdTTEdVaUpDVURuVk1ucTZLWHFhUnpqblN4eURuOFRhajA3b3NhcU04STMzb0xJbU9kamVfV004QVY0RmpvWWU2TjVYU0ZHM1d6SFBXRENjdzNyaldJUWhQU2F6ZTFxcnlhektTMVdYOW9Oa245ZGZvRkJBZV9jMGs3bmlnRHFJUUV5a2hHMWlTUXRMWFZCYTV2aHZsa0FhdjJqa2tvMFlFYld4?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TaskRabbit",
@@ -35437,7 +37067,51 @@
       "Consumer"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25344948.0,
+        "currency": "USD",
+        "date": "2022-02-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1914077/000191407722000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2022-04-05",
+        "lead_investors": [
+          "Owl Ventures"
+        ],
+        "investors": [
+          "Owl Ventures"
+        ],
+        "source_url": "https://thunkable.com/blog/announcing-thunkables-series-b-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thunkable.com/",
+      "https://thunkable.com/blog/announcing-thunkables-series-b-funding",
+      "https://www.sec.gov/Archives/edgar/data/1914077/000191407722000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-05",
+    "total_raised": 55344948,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Owl Ventures"
+    ]
   },
   {
     "company_name": "TimesTen",
@@ -35973,7 +37647,35 @@
       "Health"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": "2025-12-03",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYXRaQUNNcmJwa2JfMkR3UlN5VWltSVhNcHJhUF90VXlmWk1lTTdYLUVRckUzTjlBM3Y1RFNoSzV4ZGhyNGJ6V1UtV2dGbi1mZzVtQnBTM0FKVi1WMno5X0EtQ3dUazB4c1JHNUlMa0lvMWNMR1FWOUpnR29tZnJrWXhvX0p2eHFPNnVnejY4QmEzNzhFaUNISHRvTmZTN3JJYldtVHRVeHptNGRNT1lLaWtaaUI5eVNkOVdmd1RzU3g2SWhUckFZRTMtTnVfdHJZQUJicEtVcHpidk5mZmowck1CY2N6M1FDYmgtN1pZZXpTV1dXN1J2cG84cThDNnVVZG0wMmlvdw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trianabio.com/",
+      "https://trianabio.com/news/",
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYXRaQUNNcmJwa2JfMkR3UlN5VWltSVhNcHJhUF90VXlmWk1lTTdYLUVRckUzTjlBM3Y1RFNoSzV4ZGhyNGJ6V1UtV2dGbi1mZzVtQnBTM0FKVi1WMno5X0EtQ3dUazB4c1JHNUlMa0lvMWNMR1FWOUpnR29tZnJrWXhvX0p2eHFPNnVnejY4QmEzNzhFaUNISHRvTmZTN3JJYldtVHRVeHptNGRNT1lLaWtaaUI5eVNkOVdmd1RzU3g2SWhUckFZRTMtTnVfdHJZQUJicEtVcHpidk5mZmowck1CY2N6M1FDYmgtN1pZZXpTV1dXN1J2cG84cThDNnVVZG0wMmlvdw?oc=5",
+      "https://pulse2.com/triana-biomedicines-120-million-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 120000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-03",
+    "total_raised": 120000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Triomics",
@@ -38426,18 +40128,36 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 450000000.0,
+        "currency": "USD",
+        "date": "2025-10-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaEdRMXZpTkRTcV81X0czd2dpV0NVT2JkWUo0MHdEdEVWXzdCSGpRMzUxNDdVZXZPLXp0eWtqNHFvbWctY2ZjSTFNWVdqUENBWXpveU4ta3gzN2k3QmFZTFRVVWFjUDNQM0dBMVF4bWk2ME56V0hnWnhXU2FxcTNIMFkyNmF4dkdBalFpM1V5bUdYNDJzcDRLODZRWWM0cTJxdko1Q2lVX3NQRzRNTEFQaWEtZjBEQkZYZXBXODRVSEQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRVYtaFh1eExhRjdCbTNvdi1HaU1YSWFYalBZN2padzYzd3VkRFJiam52eXFoaktycTgtVG9fSUthQWMxaGEwQUpCS1RoRFdoV1NEdDZGTnM1dlJuNnV5anFTVjFpbDBhYlpsbUFUMjJGV3hlNUlkYTFCeXVPZW02MkRXcm5xenhESmVqV1FCQWM2UndYazNaNHRRV0owbTlhaFdidWZuMmF0MXU1WlRVX0VfX3k3cUdGZldoN3E1ODdjQ0gzZ2diVTUzVXJselhmbkhsTWREM2VIdWhmRmQtTDV4VFlGWE3SAewBQVVfeXFMUG0yQ3FaV3NGbTN3TFM3THdVaXU1S3VIODcxclJIXzREQ3dkUk1zcFgxQTlCSTJfOVJOaEJOd2hhbzd4a1hIYjhUeGVlU2RtcDVlNUJFaWNjTEc4Sl9CaVMxSHh6TkV1ZVdIZG1qb2wzbUJQYWpEUXU2Z2VNSTA3emlEMDMtQzMyUGFBSHRKRHlWRjBlS29DQW00bmpScDdXUXNEbUZJdEhCNXhhakRPQU1pdFV6QTd5VURBSElUWHFEY1VRR3U4Wm03MGR2VF94aklzc0g0LUtKSFNfTXZvNGpGMVpDVmxscUJ1VG8?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaEdRMXZpTkRTcV81X0czd2dpV0NVT2JkWUo0MHdEdEVWXzdCSGpRMzUxNDdVZXZPLXp0eWtqNHFvbWctY2ZjSTFNWVdqUENBWXpveU4ta3gzN2k3QmFZTFRVVWFjUDNQM0dBMVF4bWk2ME56V0hnWnhXU2FxcTNIMFkyNmF4dkdBalFpM1V5bUdYNDJzcDRLODZRWWM0cTJxdko1Q2lVX3NQRzRNTEFQaWEtZjBEQkZYZXBXODRVSEQ?oc=5",
+      "https://www.msn.com/en-in/money/markets/at-7bn-zepto-valuation-rises-40-in-a-year/ar-AA1OCNKa",
+      "https://www.moneycontrol.com/news/business/startup/zepto-closes-450-million-funding-from-calpers-and-existing-investors-taking-total-fundraise-close-to-2-billion-in-under-two-years-13620245.html",
+      "https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html",
+      "https://www.msn.com/en-in/money/topstories/zepto-s-450-million-funding-could-increase-competition-cash-burn-in-industry-analysts/ar-AA1OHbUt"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 450000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 450000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zerion",

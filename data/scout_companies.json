@@ -299,7 +299,21 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bioflyte.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Brainscape",
@@ -358,7 +372,21 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://chiplytics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Citra Space Corporation",
@@ -481,7 +509,44 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7892610.0,
+        "currency": "USD",
+        "date": "2020-02-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1804507/000180450720000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-02-28",
+        "investors": [],
+        "source_url": "https://www.deepsig.ai/deepsig-raises-5m-series-a-financing-to-advance-ai-in-5g-radio-access-networks/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.deepsig.ai/",
+      "https://www.deepsig.ai/news/",
+      "https://www.deepsig.ai/deepsig-raises-5m-series-a-financing-to-advance-ai-in-5g-radio-access-networks/",
+      "https://www.sec.gov/Archives/edgar/data/1804507/000180450720000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-02-28",
+    "total_raised": 12892610,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EnCharge AI",
@@ -502,20 +567,36 @@
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
     "scraped_at": "2026-10-17T18:05:14.431896+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2025-02-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNbE51b0tpbDljYkpMbW9KUTIwdXdqMXlOZmhnUGFfOEdUR3JIZGZJYlBfbU5ZcU9zTXVlZVdfNE5mTENTWUdxZnVvNm9ib0pfY2x3ajhYYk1RU2ludlhLa0N3a0VqSTNtRFoyN00xM2loT0ZhTE1uU1hONHk0TE9rX1F4cko5UGRKWmZrdzdudnVNWkVIeWhrWW1FZmtmM0YwaEV3M1NwaXExWU5yWXB3STgweXR0bDZDRXZ3akdGenUyeUU0djBLaTRZMXY5X3d6UU9WaWRYcHlaYWNLY0RlZUp1aHhrb0x6Ny1lSVlkeml4WnpLZmd4STNSOTdoUkw1c1JaQ1ZJSGc2dnUzZ3ppUHRBZ3NXUThkMU5BcnhTQXVwMl9ERXZOUm8tY1hxSzdKbU5yLUNQTzE3a3hZM25iaUYxNTQ0ZE9leVQtQ0liZnlTZ1cyVXByZHRZaTVLRnUw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.enchargeai.com/"
+      "https://www.enchargeai.com/",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNXlxQ05SblJOdkw3TnBKV3FJNktVbVVFckNLbHRWQjRkdGhMV09WYUtKdlN2S2M1NEpIckM1T0pVNmQ2bGpYN2JnSmNaeWZWdWlmQlN2NndRSndHSmNBUzJLZDdzUWJHN2x5cU9HQnVwdkZDaWxyWEd4Nm9jd24wel9TS1ZLY3pCUjlvRllYM2U4OV92X3RQcTY5ZzY1S24yVlkwS0l2YnpvX1FyZVNJWU0yOTJkay1zdG56d0liRW85MkxpdHh2MG0yajljNGlGTHRmaXBsMlF2aUE2T0Y3Sg?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTG42eVVkRDFLVE12SUtLZTVObW16LWZSc1lIYTBmcy1Fck1IbHBDSFpaUldmUDY2UWhCNUlNdlc2LVJOa3hpNDgtaDNtUFcycTV6RHgwckM4T2NoUjRFX3RFWDJZeHJTVU5NQldWcXNVdk50aVpORlVzQTNCaW03N1I2U2VmZndBeVl4T0dKRWFIV0VXX1NNX3ZiT01SSk9HYUQwOEJJdlNSemZfV1p0bGdUU0hxU0k4REpvRzNQeGlQcTYxUTdaeWlhU3V6WmxkSUpqaDl3?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNbE51b0tpbDljYkpMbW9KUTIwdXdqMXlOZmhnUGFfOEdUR3JIZGZJYlBfbU5ZcU9zTXVlZVdfNE5mTENTWUdxZnVvNm9ib0pfY2x3ajhYYk1RU2ludlhLa0N3a0VqSTNtRFoyN00xM2loT0ZhTE1uU1hONHk0TE9rX1F4cko5UGRKWmZrdzdudnVNWkVIeWhrWW1FZmtmM0YwaEV3M1NwaXExWU5yWXB3STgweXR0bDZDRXZ3akdGenUyeUU0djBLaTRZMXY5X3d6UU9WaWRYcHlaYWNLY0RlZUp1aHhrb0x6Ny1lSVlkeml4WnpLZmd4STNSOTdoUkw1c1JaQ1ZJSGc2dnUzZ3ppUHRBZ3NXUThkMU5BcnhTQXVwMl9ERXZOUm8tY1hxSzdKbU5yLUNQTzE3a3hZM25iaUYxNTQ0ZE9leVQtQ0liZnlTZ1cyVXByZHRZaTVLRnUw?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVTFQQTl2emJGaGNwTmlwUFhMckZPd3hqWk9IeEhvOEZfYkNnWXNBLTNMX2lKR0hoakY2Y3poZDFUVERSSVQ0VUQ2WTJNOVQ1TWZraV9hcnFtTE91N3NpNVhxal9rSnBJdWNWZlVDMUlLZjFReldrRlY5eG5VMXFfNXhzVDcxbnc1bHBDMzZJWUF4b1BWRXB0T2E5Y1hGMXgzRktYSnVUUzhBbzBhdXc?oc=5",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaHJIRXhvR0x3VVc2a0h4RkktbThBcUNWZF9ib2ZjUGNFaEN1TUhIWGJ5Ukc0S0Nkcmdjd1M1RS03YXB2SEhES1c1UkdMLTlPNzNzUnBPWTlxV1cxeVBXbUxNVWNKQ2hJWDRqOE9uTG50V1pXUjdPSzEzOWk4UkloVUdxcWhfYUVHRWtSRWdUYUs1SjhYZWdpLWI1eXZjdEJ5NElJQzZ0WHN3VDluQk5NYk5kdTg2ZEs3M0hJbE9INVRNdEh4Q1oxQjV3R0hUWDEtUmNreFVmWlVsa20wbUpBQUVLQW9KVFHSAewBQVVfeXFMT0docE9Nb1R4ektWcmE1aDV5aWQ0VlVidDhnOUVDVWtoUENEMTh2UGNWb25zSTlyTVRsbEZlWnVUd3hEd1hIakhlQ2o1ZkpvOUh0N01FZ0M4R1RzcktMX1N0TWNRbTB1Z0RiN2pwQTlDMU1vLUVQU0kzRWRsNWRVRnVEaWFiN2lUeEE5Q3NWXzhHRFdoLXhPRVREc21BVDVqRW1ZMlJZcVRpcWxTQ3RnWENJVmJPZFVxeEhRcFYwZGxSVFd6QzJranpBVGQ5Ri1NUW9rN0VhQkdsdHBsaUJMenFydjJiVmVua2dXQlk?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-02-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FluxWorks",
@@ -885,7 +966,21 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sharktanksuccess.com/virtuix-update-after-shark-tank/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Onsights",
@@ -925,7 +1020,43 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2025-05-22",
+        "investors": [
+          "Sovereign’s Capital",
+          "Flex Capital",
+          "FN Fund"
+        ],
+        "source_url": "https://www.pilogic.ai/news/seed-round",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pilogic.ai/",
+      "https://www.pilogic.ai/news",
+      "https://www.pilogic.ai/news/seed-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-22",
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sovereign’s Capital",
+      "Flex Capital",
+      "FN Fund"
+    ]
   },
   {
     "company_name": "Radical",
@@ -1659,7 +1790,43 @@
     ],
     "primary_investor": "Scout Ventures",
     "source_url": "https://www.scout.vc/companies",
-    "scraped_at": "2026-10-17T18:05:14.431896+00:00"
+    "scraped_at": "2026-10-17T18:05:14.431896+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2014-04-07",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9teEJZLXl5R1BxYWNlYTZGTEdQd1lyTkp3Y1ZyY2hmVGpoYmVsN1hfSmpuQ0h3U3dWNFdZZ2NXTFZZeXpGN0NTZUhNNXROMDlLZGlBZUlYaXJSeHkzVjZUWEI4aklWNVFqTWVJTGlvdWdNcVZmMW1oWGs4WlE?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2019-01-17",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOay11OFo5SUdPUmlheTB4dVRZcWhDS0ExWGlHQnItZnc3N000UHVPQm1SNHdxZXBfVlRjRjczSXVQcnk0VmxiX0tMcWN1UTdETUZONTktRWlzVl9QLXoyX1o0V2JjY1hFUjgxNUtSaWJ3Y3ZNd1p5RUF0V2RvZVUyMWMtczB6TFVfOGNmVTdUOHZ2UE0?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vengolabs.com/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxOay11OFo5SUdPUmlheTB4dVRZcWhDS0ExWGlHQnItZnc3N000UHVPQm1SNHdxZXBfVlRjRjczSXVQcnk0VmxiX0tMcWN1UTdETUZONTktRWlzVl9QLXoyX1o0V2JjY1hFUjgxNUtSaWJ3Y3ZNd1p5RUF0V2RvZVUyMWMtczB6TFVfOGNmVTdUOHZ2UE0?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9teEJZLXl5R1BxYWNlYTZGTEdQd1lyTkp3Y1ZyY2hmVGpoYmVsN1hfSmpuQ0h3U3dWNFdZZ2NXTFZZeXpGN0NTZUhNNXROMDlLZGlBZUlYaXJSeHkzVjZUWEI4aklWNVFqTWVJTGlvdWdNcVZmMW1oWGs4WlE?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-01-17",
+    "total_raised": 9000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Voyager Technologies (Voyager)",

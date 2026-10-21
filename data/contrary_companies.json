@@ -333,7 +333,21 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://brightland.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Check",
@@ -622,7 +636,63 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1100000.0,
+        "currency": "USD",
+        "date": "2021-10-06",
+        "investors": [],
+        "source_url": "https://www.joinleland.com/library/a/announcing-lelands-1-1m-pre-seed-round",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2022-05-11",
+        "investors": [],
+        "source_url": "https://www.joinleland.com/library/a/seed-round-announcement",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2025-06-13",
+        "lead_investors": [
+          "Forerunner Ventures"
+        ],
+        "investors": [
+          "Forerunner Ventures",
+          "GSV"
+        ],
+        "source_url": "https://www.joinleland.com/library/a/announcing-our-12m-series-a-led-by-forerunner-ventures",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.joinleland.com/",
+      "https://www.joinleland.com/library/a/announcing-lelands-1-1m-pre-seed-round",
+      "https://www.joinleland.com/library/a/seed-round-announcement",
+      "https://www.joinleland.com/library/a/announcing-our-12m-series-a-led-by-forerunner-ventures"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-13",
+    "total_raised": 17100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Forerunner Ventures",
+      "GSV"
+    ]
   },
   {
     "company_name": "Lightyear",
@@ -1206,7 +1276,43 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2020-10-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ2R0THBpNkIzcGtUc1FNbXBHM3dVZi1sUTd2OC04MnhTMTR2b1F3MTZSaC1PbXpRamZJVkUwMjFGd0hMbzdTWkxjRnRVTGIxcTVhdDdjMFB0amlaTW1TZy01Q3pMd3hKZmFoTVhIT3VaMy01RnJLQmQwTnB4NUs2WDdQYTEySjhPaDljcVFaRHlFcTFCZTR0VzJqUVU?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-01-12",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSXdJaVd5LVRrZk4yU21sVkplZUpWRGpNSTZGNEMwY3VWU2NobWxJOGJVdm0tZHZaVHcwa0lzUE15bEc3X0NvS1pLdGJydmVkVWJsdUVSTDZJVWVFMEl0N1NxZW9YdWhHX0NURXNYNjNoQXNmeWtuQ244ZUdFMDB4SEhmR3FjWXd5ODBRbzFSOGFoYlNCakFJT1hZTVJRcVFFb2diNkgyXzRhYTk4N2dsYjk4X3F5eXZld3VOLVJVd195Vl8wSzFHNzYybWEydw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://soraschools.com/",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSXdJaVd5LVRrZk4yU21sVkplZUpWRGpNSTZGNEMwY3VWU2NobWxJOGJVdm0tZHZaVHcwa0lzUE15bEc3X0NvS1pLdGJydmVkVWJsdUVSTDZJVWVFMEl0N1NxZW9YdWhHX0NURXNYNjNoQXNmeWtuQ244ZUdFMDB4SEhmR3FjWXd5ODBRbzFSOGFoYlNCakFJT1hZTVJRcVFFb2diNkgyXzRhYTk4N2dsYjk4X3F5eXZld3VOLVJVd195Vl8wSzFHNzYybWEydw?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ2R0THBpNkIzcGtUc1FNbXBHM3dVZi1sUTd2OC04MnhTMTR2b1F3MTZSaC1PbXpRamZJVkUwMjFGd0hMbzdTWkxjRnRVTGIxcTVhdDdjMFB0amlaTW1TZy01Q3pMd3hKZmFoTVhIT3VaMy01RnJLQmQwTnB4NUs2WDdQYTEySjhPaDljcVFaRHlFcTFCZTR0VzJqUVU?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-12",
+    "total_raised": 12700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tava Health",
@@ -1413,17 +1519,35 @@
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
     "scraped_at": "2026-10-10T13:21:32.262930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 450000000.0,
+        "currency": "USD",
+        "date": "2025-10-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaEdRMXZpTkRTcV81X0czd2dpV0NVT2JkWUo0MHdEdEVWXzdCSGpRMzUxNDdVZXZPLXp0eWtqNHFvbWctY2ZjSTFNWVdqUENBWXpveU4ta3gzN2k3QmFZTFRVVWFjUDNQM0dBMVF4bWk2ME56V0hnWnhXU2FxcTNIMFkyNmF4dkdBalFpM1V5bUdYNDJzcDRLODZRWWM0cTJxdko1Q2lVX3NQRzRNTEFQaWEtZjBEQkZYZXBXODRVSEQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRVYtaFh1eExhRjdCbTNvdi1HaU1YSWFYalBZN2padzYzd3VkRFJiam52eXFoaktycTgtVG9fSUthQWMxaGEwQUpCS1RoRFdoV1NEdDZGTnM1dlJuNnV5anFTVjFpbDBhYlpsbUFUMjJGV3hlNUlkYTFCeXVPZW02MkRXcm5xenhESmVqV1FCQWM2UndYazNaNHRRV0owbTlhaFdidWZuMmF0MXU1WlRVX0VfX3k3cUdGZldoN3E1ODdjQ0gzZ2diVTUzVXJselhmbkhsTWREM2VIdWhmRmQtTDV4VFlGWE3SAewBQVVfeXFMUG0yQ3FaV3NGbTN3TFM3THdVaXU1S3VIODcxclJIXzREQ3dkUk1zcFgxQTlCSTJfOVJOaEJOd2hhbzd4a1hIYjhUeGVlU2RtcDVlNUJFaWNjTEc4Sl9CaVMxSHh6TkV1ZVdIZG1qb2wzbUJQYWpEUXU2Z2VNSTA3emlEMDMtQzMyUGFBSHRKRHlWRjBlS29DQW00bmpScDdXUXNEbUZJdEhCNXhhakRPQU1pdFV6QTd5VURBSElUWHFEY1VRR3U4Wm03MGR2VF94aklzc0g0LUtKSFNfTXZvNGpGMVpDVmxscUJ1VG8?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaEdRMXZpTkRTcV81X0czd2dpV0NVT2JkWUo0MHdEdEVWXzdCSGpRMzUxNDdVZXZPLXp0eWtqNHFvbWctY2ZjSTFNWVdqUENBWXpveU4ta3gzN2k3QmFZTFRVVWFjUDNQM0dBMVF4bWk2ME56V0hnWnhXU2FxcTNIMFkyNmF4dkdBalFpM1V5bUdYNDJzcDRLODZRWWM0cTJxdko1Q2lVX3NQRzRNTEFQaWEtZjBEQkZYZXBXODRVSEQ?oc=5",
+      "https://www.msn.com/en-in/money/markets/at-7bn-zepto-valuation-rises-40-in-a-year/ar-AA1OCNKa",
+      "https://www.moneycontrol.com/news/business/startup/zepto-closes-450-million-funding-from-calpers-and-existing-investors-taking-total-fundraise-close-to-2-billion-in-under-two-years-13620245.html",
+      "https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html",
+      "https://www.msn.com/en-in/money/topstories/zepto-s-450-million-funding-could-increase-competition-cash-burn-in-industry-analysts/ar-AA1OHbUt"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 450000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 450000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

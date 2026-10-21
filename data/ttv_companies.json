@@ -37,7 +37,19 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Artist Growth",
@@ -50,7 +62,21 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.artistgrowth.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Asset Class",
@@ -90,7 +116,19 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Badge",
@@ -363,7 +401,33 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11940331.0,
+        "currency": "USD",
+        "date": "2017-05-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1666071/000166607117000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cardlytics.com/",
+      "https://www.sec.gov/Archives/edgar/data/1666071/000166607117000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 11940331.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-05-04",
+    "total_raised": 11940331,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Carefull",
@@ -377,20 +441,38 @@
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
     "scraped_at": "2026-10-16T22:34:21.542379+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16500000.0,
+        "currency": "USD",
+        "date": "2023-10-11",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2023/10/11/carefull-lands-16-5m-to-shield-seniors-from-financial-fraud/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://getcarefull.com/"
+      "https://getcarefull.com/",
+      "https://news.google.com/rss/articles/CBMipwJBVV95cUxOMHRidmlxVTg4TkZES25QUWxaZ1BSUTEtamo5MUNWcVgtZnFYeEE4SzZBWFg3UzI4Qk9vc0M4UDBIVWItMGxBa1h2YUNFNnR4UWs1a0NoMUFIZWxZUFBtVm1ITTFrdzN2dDJvVjlnVUM2WmFTdU1SOXhwU1htMkxFSEFzQ09OdGtNSWNFV3IxSzdDaDJiRFRXaDdNRmJnb3d3ZndnUFY5SzZSQjVMaXktQlJ4bENDV0ttTUlwU1pxT3R1X05rdFFnSEMxOXZURlEzVGtHeGM1VkM5dTBFeVBCNEJyRWZfSVlyeTBlNlYzTVJpU254VUR1MF9NOG9rWU9vdUlNVTNWMUhkOU5iN1gzRzRrQk5QYmoyelBmSXdXczNnWkJuc0FZ?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnNubzJieGdxbUdmYnZ5dFlva1dxc3BwcERHZWZRLXhuanpDZGhXQ2hXQms4cGR6TEdiZWR1VDVlOTIxZW1xM2FNZF83UkVpOW1MYlg4aGRub1Bmc21IakVpb3JybXg3N3diUnBoQ1pFRGJqcGtyT0NGLUlsVkphbHZkQVpISUJKNlo2ZGlMUDRYR1FYNWtTTA?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFhTVGFUWnNibjhncDRjeVlqMHpsTzMyZFlKclQ3QUgtQlptNXNmcXVfUXlNb3g2Qk5wZ19hYWZnaG81VDJ5SEZWUEJLUmNjQUE1WnMtYTRaM191ZlpIY002T2lxNTJad2J1MS16RnV1el9aTWp1eWF1WGVRYXVfb3VYdnM2ZGc3QXdJVE9LRDZUdTFWWUFJbEZ6czQ3NmxwRTA3emNJQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX3FhSThxTDBHSloyV0pBT0d4RkJzeVlkVUtlNC05SjFnS1Y3eHRLZ2c3R1pSbnk5ekJ1MGVEQmlBTlh2Yl9sdXlCZ1NlVGlhSUliYkF5R0xUTDcwQXFENi15alN1OUMtUGRUTWl5Y3RMOWtWaG90eGl4azNVRzZlTjhfUXpWak1Ld2VjYmRjVzd5SHdFNXo1ajZwakIzUVJRMTlMcUE2d0NGbThQNGVfcExJQmItNXRnUDFPLWpFcFdjOE0?oc=5",
+      "https://www.alleywatch.com/2023/10/carefull-elder-protection-access-financial-institutions-fraud-seniors-monitoring-todd-rovakcarefull-raises-another-16-5m-to-protect-the-elderly-from-financial-fraud/",
+      "https://techcrunch.com/2023/10/11/carefull-lands-16-5m-to-shield-seniors-from-financial-fraud/",
+      "https://www.wealthmanagement.com/financial-technology/carefull-raises-16-5m-to-expand-develop-new-features-to-protect-seniors"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 16500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 16500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-11",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Carputty",
@@ -403,7 +485,39 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12300000.0,
+        "currency": "USD",
+        "date": "2022-12-06",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/carputty-announces-12-3m-series-143000405.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.carputty.com/landing/flexloan",
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxOem1WQkxMdEpZb2ZSWFhwTjJQYlQ3TWRTSVA3YTdJWm83Y1BnV2VldGNWdUVjMHBRUVhqd0ZoVnZpakhLQkhhanRWSkdiX3gzWEszV1JTSWdjak5PdEo0NGhfXzNZTTlaakZrcFJiZnRuMFVYaDhTMUY0YmJoaEQ3bEU2bnhoN3VPUEZKOGdqNUJYZUNYbEFvZVhhMEg2TzlfYXd2SGhLd2NNOGVRZjd6SmVpWndsTElHSWtsdmxJM0RXUmJQRXF1MmdWNlliQkxOT0NSUDU1TklrQ1VpREtjMVBaeU9NVWVmWnh2SEtYSHpNU083YzVuZkVlX1FSaVNfblU5TkFJODl1NG1XNS1z?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNHRUSzkwS1lObi0zYVJWNy02anBubloxYTg3c3ZCeEN2cGRaTmVYZnprUy1tUnRPVUZSWlVTcUN2NTdiNnljVmh3d3JNWlZZd0xBMDdJbVNBQ1UtcmpkMkRMYy0xVENjQXowb2NIWTJ5ZWxDSjB6Y3U0dnVDY3R2ZmFCS0k3OWFNWW8tUEdGZy1qUDdmWUZwalNOc3I4end5VHRJSk1zUnRoNjQxWmJMMmQwTkxoNmk3VUVZ0gHAAUFVX3lxTE1ndXdYeHB4Vng5LWpPUzlTbFFCYXJja0RtVk9hdnZTZ1NtMWh1ODJrLU5uc2VnbUcyTnU1c1NLSHJpZkJyYXdYYlp5RUNXWUR2bUZQMC1TU3ZQck1jXzhKSGtIaldZbGthV1ZqSnJLZGhQYk9FSmtPck5fTkI2Z2tKa2VzeW1KaHdIVnZFQ2VEanBSN2VtWnRvbTA5YnBieHYtWEE4STJfczNSS2ltX0M0bnAxSkhJMzAwWjFIQWRmVw?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fSFZsV3F2T3BsLWtJa2lkbUg4Z2FBaDlBWVBjdk1sRXk1eTBKOU9JR21FUDVsRF9XaGNOZnRTQVk2NlNVSXR5cDRkeDE1WEE3aEliMFZ1d1VnRWpXUHBuaHpPTmM1SmtBUzZ2NVk3VGVDWjluSTY4LQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc0JyREd4cXIyU29RRVRUNzhjQkhuTEtmUWRYY050dThyWEdzdk1jczMzbjZVQ1BQazFlWjlwZkJMbmluSEo2TFEwN3g5U19oWUdFcGxUbkJ6aEJBVHk4U0RFMldZc3VLd3k1NFdJckF0ZU8xeVNkM1ljUDRINEItWW5zZ2hJa1F6NXd2b0NIeklpc29YdTdUeUZhdzRYUWNFT1FiSXU3VXZ6YVF2cTJZ?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPXzRCQWpjV2l6V25lMzdYZ2R4OUllUllzUE0weVd1UXp5UFpJamVNb2VkMkdXdF9COUFEeTRxVDYxVlJ4aDN6VkVVSTFGY2JSbVMwWVdrQUs5VzVUUTFCTmlCTlRkdjBQVm05VEdLRHVMaElQMWdzcXlPTGNObjZ5SExLYmxJbDkzX0pPTjRheTdwN1hNX3BJ?oc=5",
+      "https://finance.yahoo.com/news/carputty-announces-12-3m-series-143000405.html",
+      "https://www.autoremarketing.com/autofinjournal/carputty-lands-another-80m-in-growth-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-06",
+    "total_raised": 12300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Carry1st",
@@ -563,7 +677,19 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 8 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "CurbWaste",
@@ -591,7 +717,54 @@
     ],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2019-07-15",
+        "investors": [],
+        "source_url": "https://defensestorm.com/news/defensestorm-secures-15m-in-series-a-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2020-11-24",
+        "investors": [],
+        "source_url": "https://defensestorm.com/news/defensestorm-secures-12m-in-series-b-capital-raise/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2021-11-16",
+        "investors": [],
+        "source_url": "https://defensestorm.com/news/defensestorm-secures-new-5m-in-financing-round-and-smashes-its-own-records-heading-into-fourth-quarter/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://defensestorm.com/",
+      "https://defensestorm.com/news/defensestorm-secures-15m-in-series-a-funding/",
+      "https://defensestorm.com/news/defensestorm-secures-12m-in-series-b-capital-raise/",
+      "https://defensestorm.com/news/defensestorm-secures-15m-in-new-financing-round-including-5m-from-community-and-mid-size-bank-venture-fund-jam-fintop/",
+      "https://defensestorm.com/news/defensestorm-secures-new-5m-in-financing-round-and-smashes-its-own-records-heading-into-fourth-quarter/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-16",
+    "total_raised": 32000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Everyware",
@@ -948,7 +1121,21 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.q2.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hamilton",
@@ -1188,7 +1375,22 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://makershub.com:443/",
+      "https://pulse2.com/makershub-accounts-payable-company-raises-7-million-additional-seed/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Manif",
@@ -1325,7 +1527,32 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2023-08-18",
+        "investors": [],
+        "source_url": "https://www.mrweb.com/drno/news35509.htm",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.mrweb.com/drno/news35509.htm"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-18",
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Monit",
@@ -1378,7 +1605,32 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.morty.com/newsroom"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.morty.com/",
+      "https://www.morty.com/newsroom"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "MX",
@@ -1429,7 +1681,33 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2020-12-15",
+        "investors": [],
+        "source_url": "https://pulse2.com/neuro-id-raises-7-million-in-series-a-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.experian.com/business/products/neuroid",
+      "https://pulse2.com/neuro-id-raises-7-million-in-series-a-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-15",
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Olarry",
@@ -1572,7 +1850,38 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVkR1WTBoV25hTlJQazd0dmxBcG00cWZfbWNmUkxoYzZOeXpXNVA2SklGeVE0RGhORGcwdHFNb3lvMUFRM1I5ZllJclJXZEwxOWVsRVlaVXpPRkZaMDZPM0NEanVHelpYdTA3YVk4dGVNWFFYc016MnpOcDMxR3lVUG5RLTJxUnFtb1NIU21ka01JZVcyM3RpRll3?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://quantizr.com/",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVkR1WTBoV25hTlJQazd0dmxBcG00cWZfbWNmUkxoYzZOeXpXNVA2SklGeVE0RGhORGcwdHFNb3lvMUFRM1I5ZllJclJXZEwxOWVsRVlaVXpPRkZaMDZPM0NEanVHelpYdTA3YVk4dGVNWFFYc016MnpOcDMxR3lVUG5RLTJxUnFtb1NIU21ka01JZVcyM3RpRll3?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUW9sRnhNWXJWd0M2TmFCZ2pZdldFT2tTZlhhWW02UlNSaXVka1FmbEQzWl9yZ3dkZU5sLXFtRXZlRHozOEItN3E2cmtCdzR5UURPQUFqaDg2VEt2TDRmR0ZMVUQzTWw2d1NldlRjVkxPNUlVMDYtbzBZUk53cmdyZDdNYVJQU1pSdGY2ODhsSVVObk50dGMzZUdDalhsNzN5Tzd4YVJfM2QwMndpR2NRWkR1cjhfZG9pZnBB?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVVFQUzg3cDUxYW8yRXlFeDdjWEo3aG1ycW5BdVBTRjVsTmw2R19DMDFzeklwdWwyTWMxUlFfS2VtSEswaGhaNXRRbUN4SmhrRkluMHlheHNsTWFabzRsMWVYZVFZSGxfMXB0NlVneHJ5LV9oOGNLbC1SdzdzZ3NaT1NGd1N0NFVIejlWRjVLTHBkQWtYTlB1azdfcTd3QWJXU09sSzgzWmtFU0XSAbABQVVfeXFMTTduSy01QXF6cXhyNnd4MmtBVFppZ21Cdi05XzhyeDZndndqYlNlQWRBNUY1WnFwbzhKYXpDaGNfUS1USkMybldfMGwwZVUxSU54TDFxM0tieHJHSmZUcFU1c1VtRC1FZU9OekdFMzlnbllIQmlHODBBMHZXbExCNmR1cHZZdVlPX2NEa1daMlREb2YteHZfQlNZRFBYYjE4R09IcmhmNUN5YzVNTUpDcUY?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE53NkhsUzVTemJtU3lCNG9peGdpczFOaHVfeFJjdndIeG5BNkxPeTJHOUxuWFhlMm94OXdZaVlPWVpyMjRNZ2xVNHh0RERiVml3LTM1anVxTUFFNWJaZ0Y5LVV3VEg0a0NxMzZJbnhMem81UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmc5QjVVd0FJZk9MSnZKTDc0cGZwbHF5MVFHRWpGTWk2ZGxFRjhwcEgzZGpNZUtvNjRjXzlHZlpzS2c4WlVZclliaHlybEhYMHRfamh0NWZhQ0Fsb1hNUlFWTVp4RGxMZ0dqSXE2NXM3dzRwN0s1dGZmRTdwYThqWGlndnAwQmZ3dnNWbVJ3V2JBbXN3a0pz?oc=5",
+      "https://pulse2.com/quantizr-raises-5-million-seed-as-ai-tour-finance-platform-quadruples-users-in-9-months/",
+      "https://www.msn.com/en-us/money/startup/ai-live-entertainment-financial-platform-quantizr-raises-5m/ar-AA2awPY3"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SamCart",
@@ -1722,21 +2031,34 @@
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
     "scraped_at": "2026-10-16T22:34:21.542379+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2021-06-24",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/smartasset-rethinks-financial-advisory-becomes-165939039.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://smartasset.com/",
-      "https://smartasset.com/press"
+      "https://smartasset.com/press",
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFZ4UW1DMXpYQTRNZ01Ya1hwWm9ZSGZQcXBROXlRSldnUkx3V0xtMDJyMGR2M2JXOFF3SW1KMXpEUC1UUlVWTk9wY1poMFZyQnlmb3NDMXQ1RkNRYkRwYzVtNXZRVl8xYkFLMWsyZWxxUkJGUlltSEZKcC1UNERackwwTjllcUJWZUdLSXhwZ3BKS2I0S1VrcUQ0S2cyVmtUVGJTTWpnV0VhSWtkaHoxSFZ4dFRiTWp5S29aM0cyb2JnTXZvZll0LTg2Z2NLc0lxUmoxUk05RXJhYUp5WnU2U1FMWXZqMEc2?oc=5",
+      "https://finance.yahoo.com/news/smartasset-rethinks-financial-advisory-becomes-165939039.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-24",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SmartPath",
@@ -1749,7 +2071,43 @@
     "everywhere_tags": [],
     "primary_investor": "TTV Capital",
     "source_url": "https://ttvcapital.com/portfolio/",
-    "scraped_at": "2026-10-16T22:34:21.542379+00:00"
+    "scraped_at": "2026-10-16T22:34:21.542379+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2019-01-24",
+        "investors": [],
+        "source_url": "https://www.joinsmartpath.com/news-press",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1574998.0,
+        "currency": "USD",
+        "date": "2020-10-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1766326/000176632620000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.joinsmartpath.com/",
+      "https://www.joinsmartpath.com/news-press",
+      "https://www.sec.gov/Archives/edgar/data/1766326/000176632620000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1574998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-10-09",
+    "total_raised": 4274998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Speedchain",

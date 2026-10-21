@@ -102,7 +102,21 @@
     "everywhere_tags": [],
     "primary_investor": "DigiTx Partners",
     "source_url": "https://digitxpartners.com/portfolio",
-    "scraped_at": "2026-10-18T16:55:33.293605+00:00"
+    "scraped_at": "2026-10-18T16:55:33.293605+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cerulacare.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cheiron",
@@ -146,7 +160,63 @@
     "everywhere_tags": [],
     "primary_investor": "DigiTx Partners",
     "source_url": "https://digitxpartners.com/portfolio",
-    "scraped_at": "2026-10-18T16:55:33.293605+00:00"
+    "scraped_at": "2026-10-18T16:55:33.293605+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14484975.0,
+        "currency": "USD",
+        "date": "2017-07-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1714014/000171401420000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16801073.0,
+        "currency": "USD",
+        "date": "2022-02-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1714014/000171401422000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 192284708.0,
+        "currency": "USD",
+        "date": "2022-07-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1714014/000171401422000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 51307364.0,
+        "currency": "USD",
+        "date": "2024-11-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1714014/000171401424000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cleerly.com/",
+      "https://www.sec.gov/Archives/edgar/data/1714014/000171401420000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1714014/000171401422000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1714014/000171401422000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1714014/000171401424000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 51307364.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-19",
+    "total_raised": 274878120,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Eko Health",
@@ -157,20 +227,33 @@
     "primary_investor": "DigiTx Partners",
     "source_url": "https://digitxpartners.com/portfolio",
     "scraped_at": "2026-10-18T16:55:33.293605+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 41000000.0,
+        "currency": "USD",
+        "date": "2024-06-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVHN2VUN4LURia2ZCNTlGc0Utc2RXQ3JxckZLanBUa1F5U0JGS3lDX0psZllMNl8xeW9VdGlXUmxZWWNnR2YyTTMxWDdmbEw0UnNJamJnSFp5dWFkTzROTUZDRGNIbFIzeERkRWFlbDdNT0t3UTVKaHV6eHpIaE4wRGNURVdDRVlwV2tWRFVUQWEyWlF0YVVSQ0dMSnF5Mk5fejRaTXByaGZud2J1SHJXNVJsd3F5UWk3QmJ4bWhEMFhLdGdPTGhIcTNUQnV0VS1SdVE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.ekohealth.com/"
+      "https://www.ekohealth.com/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVHN2VUN4LURia2ZCNTlGc0Utc2RXQ3JxckZLanBUa1F5U0JGS3lDX0psZllMNl8xeW9VdGlXUmxZWWNnR2YyTTMxWDdmbEw0UnNJamJnSFp5dWFkTzROTUZDRGNIbFIzeERkRWFlbDdNT0t3UTVKaHV6eHpIaE4wRGNURVdDRVlwV2tWRFVUQWEyWlF0YVVSQ0dMSnF5Mk5fejRaTXByaGZud2J1SHJXNVJsd3F5UWk3QmJ4bWhEMFhLdGdPTGhIcTNUQnV0VS1SdVE?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY29yVTJiT0JGT29yZGR0QW1QVzFfOFFmNWQ3QnN5VGpKN0xLVlFWREJueC1NZjIzakJacFF6SlktbmR4bzJ2Q1UxZlV0V2tJR0JTNjF5OUo1emJmWlpRUWt5eV9xV1ptNzkwQURPNHlZQTk1VUZhYXZJS1lZNEc2NDBnRkNvUUhray1EX1g2QnJJQnZNRnZYcDN6X2prS3d4S25ldGdqTnBGNE1WcHJ3TzhvVmx5ZHZtVkJaUXpDTDBjT0EwYWlDbFFpR1U?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 41000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 41000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-05",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Felt",
@@ -204,7 +287,63 @@
     "everywhere_tags": [],
     "primary_investor": "DigiTx Partners",
     "source_url": "https://digitxpartners.com/portfolio",
-    "scraped_at": "2026-10-18T16:55:33.293605+00:00"
+    "scraped_at": "2026-10-18T16:55:33.293605+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 825000.0,
+        "currency": "USD",
+        "date": "2017-01-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1695595/000169559517000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2020-02-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1695595/000169559520000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6174975.0,
+        "currency": "USD",
+        "date": "2020-11-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1695595/000169559520000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24566788.0,
+        "currency": "USD",
+        "date": "2023-07-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1695595/000169559523000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.figur8tech.com/",
+      "https://www.sec.gov/Archives/edgar/data/1695595/000169559517000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1695595/000169559520000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1695595/000169559520000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1695595/000169559523000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24566788.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-25",
+    "total_raised": 33066763,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "G-Tech Medical",
@@ -216,7 +355,21 @@
     ],
     "primary_investor": "DigiTx Partners",
     "source_url": "https://digitxpartners.com/portfolio",
-    "scraped_at": "2026-10-18T16:55:33.293605+00:00"
+    "scraped_at": "2026-10-18T16:55:33.293605+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gtechmedical.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Juji AI",

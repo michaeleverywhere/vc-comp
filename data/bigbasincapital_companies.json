@@ -191,7 +191,19 @@
     "everywhere_tags": [],
     "primary_investor": "Big Basin Capital",
     "source_url": "https://www.bigbasincapital.com/",
-    "scraped_at": "2026-10-18T20:50:52.353228+00:00"
+    "scraped_at": "2026-10-18T20:50:52.353228+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "HiDeep",
@@ -273,7 +285,33 @@
     "everywhere_tags": [],
     "primary_investor": "Big Basin Capital",
     "source_url": "https://www.bigbasincapital.com/",
-    "scraped_at": "2026-10-18T20:50:52.353228+00:00"
+    "scraped_at": "2026-10-18T20:50:52.353228+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 62000164.0,
+        "currency": "USD",
+        "date": "2021-08-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1881622/000188162221000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kongstudios.com/",
+      "https://www.sec.gov/Archives/edgar/data/1881622/000188162221000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 62000164.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-23",
+    "total_raised": 62000164,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Koskopaper",
@@ -472,7 +510,43 @@
     "everywhere_tags": [],
     "primary_investor": "Big Basin Capital",
     "source_url": "https://www.bigbasincapital.com/",
-    "scraped_at": "2026-10-18T20:50:52.353228+00:00"
+    "scraped_at": "2026-10-18T20:50:52.353228+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2062743.0,
+        "currency": "USD",
+        "date": "2014-03-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1603684/000114036114014993/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1499999.0,
+        "currency": "USD",
+        "date": "2015-08-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1603684/000114036115034532/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.odkmedia.net/",
+      "https://www.sec.gov/Archives/edgar/data/1603684/000114036114014993/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1603684/000114036115034532/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1499999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-08-25",
+    "total_raised": 3562742,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Omnious",

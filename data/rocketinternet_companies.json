@@ -442,20 +442,42 @@
     "primary_investor": "Rocket Internet",
     "source_url": "https://www.rocket-internet.com/companies",
     "scraped_at": "2026-10-04T13:14:54.491344+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2020-08-18",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcml5c0lCWGw0REY2bGEzM21IUG9fWmJ0MTJSUkgzTE9JY0o0a3dJaHVXLXV6UzlRMnJYTlkxYXhjTV91Q3NHa3l6UDF3b21ldG9JMS16OXRrVm95WU9pOXd0T2JfMFdfYVhkenVyVHJMQU1Rby1Sblg1bzFENkt1STU2NU5JVW4yOWYySU11QUVRVFhzdjNkMHVn?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 34000000.0,
+        "currency": "USD",
+        "date": "2021-09-21",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdXFwd3lhNm1DNVBoUUo5MkNHdEh5cW5yTllIdFhFZUFTMlY0bDNJZFY2ajJiZ0Z0QkhQajdJVjBWZ3BvYnBsaUQ5Mjc1dkdRbi1NZ1JvUGhsNFFQVzNOY2lLLWlUWTZ3Ynk2UmxPX3RfaC1HUURsQllYR1pKSFQ4VVRMM3ZBWF9sbklrT185MHFnS1HSAZgBQVVfeXFMTU9DQUUwSWNqcko1ckhhenBsb053Ti1JeHBpbHVhb09kWGVBM2tFalJWcXgwWnh5QlJ5eTVBTHFiR0h4d3FpRlVWTHJMQ2VOdTZQSjl1VkhYWnZoWWRpRmI5ZDg2dld5RzV0R3g5WHUzODJxWHhONnZ1NDQxbHJqOTlWQXdPcWNneEhrc1dsNnlESS1IT1pSa2M?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://spenmo.com/"
+      "https://spenmo.com/",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcml5c0lCWGw0REY2bGEzM21IUG9fWmJ0MTJSUkgzTE9JY0o0a3dJaHVXLXV6UzlRMnJYTlkxYXhjTV91Q3NHa3l6UDF3b21ldG9JMS16OXRrVm95WU9pOXd0T2JfMFdfYVhkenVyVHJMQU1Rby1Sblg1bzFENkt1STU2NU5JVW4yOWYySU11QUVRVFhzdjNkMHVn?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdXFwd3lhNm1DNVBoUUo5MkNHdEh5cW5yTllIdFhFZUFTMlY0bDNJZFY2ajJiZ0Z0QkhQajdJVjBWZ3BvYnBsaUQ5Mjc1dkdRbi1NZ1JvUGhsNFFQVzNOY2lLLWlUWTZ3Ynk2UmxPX3RfaC1HUURsQllYR1pKSFQ4VVRMM3ZBWF9sbklrT185MHFnS1HSAZgBQVVfeXFMTU9DQUUwSWNqcko1ckhhenBsb053Ti1JeHBpbHVhb09kWGVBM2tFalJWcXgwWnh5QlJ5eTVBTHFiR0h4d3FpRlVWTHJMQ2VOdTZQSjl1VkhYWnZoWWRpRmI5ZDg2dld5RzV0R3g5WHUzODJxWHhONnZ1NDQxbHJqOTlWQXdPcWNneEhrc1dsNnlESS1IT1pSa2M?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 36000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 34000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-09-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Spotcap",

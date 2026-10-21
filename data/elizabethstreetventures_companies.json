@@ -30,20 +30,32 @@
     "primary_investor": "Elizabeth Street Ventures",
     "source_url": "https://www.elizabethstreet.vc/",
     "scraped_at": "2026-10-20T20:20:30.504510+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHY0RnV0NmpGV2IxYTFQYVpYRlhwZ2YwaFVrYldWVmpHUU1XbDUxQ0hHaXFVZjJucHpNTTdEYlo0Ti1XSEpHaDh4aU1RaVJxLWNya19HemRHT2VmWGRVbUtqVWo5UEFRRDBjOXZfSzZTYUFLQmpWS2Jka3lIRHFCT3plUFJnRnBwSTN6YVM0djczNV9V?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.airhouse.io/"
+      "https://www.airhouse.io/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHY0RnV0NmpGV2IxYTFQYVpYRlhwZ2YwaFVrYldWVmpHUU1XbDUxQ0hHaXFVZjJucHpNTTdEYlo0Ti1XSEpHaDh4aU1RaVJxLWNya19HemRHT2VmWGRVbUtqVWo5UEFRRDBjOXZfSzZTYUFLQmpWS2Jka3lIRHFCT3plUFJnRnBwSTN6YVM0djczNV9V?oc=5",
+      "https://finance.yahoo.com/news/airhouse-closes-11m-series-help-160034859.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Banyan",
@@ -652,7 +664,33 @@
     "everywhere_tags": [],
     "primary_investor": "Elizabeth Street Ventures",
     "source_url": "https://www.elizabethstreet.vc/",
-    "scraped_at": "2026-10-20T20:20:30.504510+00:00"
+    "scraped_at": "2026-10-20T20:20:30.504510+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10657516.0,
+        "currency": "USD",
+        "date": "2021-06-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1899780/000189978022000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tinyorganics.com/",
+      "https://www.sec.gov/Archives/edgar/data/1899780/000189978022000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10657516.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-01",
+    "total_raised": 10657516,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tongo",

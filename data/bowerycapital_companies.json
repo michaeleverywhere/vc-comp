@@ -73,7 +73,43 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3779997.0,
+        "currency": "USD",
+        "date": "2021-11-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1897576/000189757621000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5999994.0,
+        "currency": "USD",
+        "date": "2023-06-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1897576/000189757623000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://allspice.io/",
+      "https://www.sec.gov/Archives/edgar/data/1897576/000189757621000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1897576/000189757623000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5999994.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-30",
+    "total_raised": 9779991,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Andros",
@@ -87,7 +123,21 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://andros.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Block Six Analytics",
@@ -187,20 +237,33 @@
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
     "scraped_at": "2026-10-06T13:28:08.554969+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2021-02-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSVJvV18wLWZCVUN2MzAyOGpSMzBYS0lFb0dtZjdwUklRc0dVQW5zZUNNX1RRVmRyUVN1RzVzQkE3aXFWbENHT3VoSlNBeU1wUl9fQmo3UUFGUjRZMkVIcWZpX1hFdFdJX1JMMDZ4UFh4X2dVSXZaanhDc2ZVT012cGxteFJhLUxGanRFMzFyVEVmLXN3clJjS0tTZw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.codecademy.com/"
+      "https://www.codecademy.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjlsc1lOa0lhdE9MWWxZYmRmcnkxZU1LN2dmbjM1aDFOaF9fbVkwUEdPLWxXWkEzM1RWVUZkNWNEbHQ3d19NWW0zTmlxMEFSa3RJT1k1X2hJTGgzaDZDdFlLMzFwUkRHUDhCX1lxSURQcUNSaFhtLUpWcm1rT0VwZmpUck9qSlo4V1Y0OGxQWHRQSGR2M2dHZF9HRDVDUVU?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSVJvV18wLWZCVUN2MzAyOGpSMzBYS0lFb0dtZjdwUklRc0dVQW5zZUNNX1RRVmRyUVN1RzVzQkE3aXFWbENHT3VoSlNBeU1wUl9fQmo3UUFGUjRZMkVIcWZpX1hFdFdJX1JMMDZ4UFh4X2dVSXZaanhDc2ZVT012cGxteFJhLUxGanRFMzFyVEVmLXN3clJjS0tTZw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series D",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-02-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Drawbridge Networks",
@@ -214,7 +277,19 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Klir",
@@ -336,7 +411,21 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://epallet.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fero Labs",
@@ -468,7 +557,33 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2024-01-09",
+        "investors": [],
+        "source_url": "https://www.incentiv.co/blog/incentiv-inc-announces-3m-seed-round-led-by-bowery-capital",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.incentiv.co/",
+      "https://www.incentiv.co/blog/incentiv-inc-announces-3m-seed-round-led-by-bowery-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-09",
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Leapfin",
@@ -511,7 +626,19 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "mParticle",
@@ -666,7 +793,19 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pantomath",
@@ -749,7 +888,33 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3570000.0,
+        "currency": "USD",
+        "date": "2022-07-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1940922/000194092222000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://quotebeam.com/",
+      "https://www.sec.gov/Archives/edgar/data/1940922/000194092222000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3570000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-22",
+    "total_raised": 3570000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rulebase",
@@ -1019,7 +1184,32 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2018-11-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrNVJjY1BUXzF2MlY3bFV5b1dTSWFpTFY1TS1kNENCYzdsSzdhN2lIRkFjRmFCU3l2UDdlQXdxMnZWalFYS21GUVdWZS1pMEluc0xidTIxbkxyUG5UamhMdUdhUGVqY21VeDd2UFFjUVlXQm05QXFjLTJHT2s?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sphera.com/solutions/supply-chain-risk-management/supplier-engagement-solution/",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrNVJjY1BUXzF2MlY3bFV5b1dTSWFpTFY1TS1kNENCYzdsSzdhN2lIRkFjRmFCU3l2UDdlQXdxMnZWalFYS21GUVdWZS1pMEluc0xidTIxbkxyUG5UamhMdUdhUGVqY21VeDd2UFFjUVlXQm05QXFjLTJHT2s?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2018-11-16",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Transfix",
@@ -1035,7 +1225,39 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2023-10-19",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/freight-marketplace-transfix-secures-40m-185531222.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://transfix.io/",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaTVvWkNvbDFFSW5rZUV1Z2QtQ1pScXlVaUhmVHVsZmJoRVN4Q1NvUkRLU2diWVZlY0ttN3FWVmxFZGtkN2R5QjRycFdKOGFna1dpSWNlWVFuTjNpVUV3d0lTM3JvMjRXdUJkNzcxSEdWWW5rRDBaaU5uUEpNSFBUUWhhMjRRVWl0Q3MtMUxaWmt2WDN5R0lsQ2NiYmFQWEZvVnJzMlVoVnBZZ1ZUYmhVVTdHZzlWOV9VQ2d6V3dJUFpKeU8zYnBMM1o3UEFoSVZmSW5xTFBNNkVBRDBibWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcDVCS3NZMkt0VlVhc3ozVE1UbTZpaHFDbjdGR3pzRmExVGZxcXo1Qkx0TzRySEdsUTZNTGVtQlpxLS02NE9QUGthcGVuSDRIZlVha1NVYU41engzZnhROTlPS3VWa3oyMGlpOXFfb0M0d29nVFRQNnJuTTFDMV9oUFpB?oc=5",
+      "https://finance.yahoo.com/news/freight-marketplace-transfix-secures-40m-185531222.html",
+      "https://www.prnewswire.com/news-releases/transfix-closes-40m-series-f-funding-round-led-by-new-enterprise-associates-and-g-squared-301962370.html",
+      "https://pulse2.com/transfix-intelligent-freight-platform-lands-40-million-in-funding/",
+      "https://www.dcvelocity.com/articles/28989-transfix-raises-42-million-from-investors",
+      "https://menafn.com/1107277184/Transfix-Closes-40M-Series-F-Funding-Round-Led-By-New-Enterprise-Associates-And-G-Squared"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series F",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-19",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "VNDLY",
@@ -1117,7 +1339,33 @@
     ],
     "primary_investor": "Bowery Capital",
     "source_url": "https://bowerycap.com/portfolio",
-    "scraped_at": "2026-10-06T13:28:08.554969+00:00"
+    "scraped_at": "2026-10-06T13:28:08.554969+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 22585494.0,
+        "currency": "USD",
+        "date": "2021-12-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1901038/000190103822000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wholesail.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1901038/000190103822000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 22585494.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-10",
+    "total_raised": 22585494,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wizeline",

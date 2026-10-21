@@ -703,7 +703,33 @@
     "everywhere_tags": [],
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:52.127157+00:00"
+    "scraped_at": "2026-10-17T20:05:52.127157+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27999959.0,
+        "currency": "USD",
+        "date": "2023-07-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1988828/000198882823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://glossgenius.com/",
+      "https://www.sec.gov/Archives/edgar/data/1988828/000198882823000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 27999959.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-03",
+    "total_raised": 27999959,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Graviti",
@@ -1017,20 +1043,41 @@
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
     "scraped_at": "2026-10-17T20:05:52.127157+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3pEWWhiQnJOLU1qLVRuaGt2RVhkeG9pNWR0ZUlXejEtSTZwUDBRdGVsZzhHZjRTOVMxeTc4N0lQSHY3Q2pwbDlVWnhkNXQ1Sl9GZVRqa3BzbmhycUpxRldIb0QyNkVUa0hYamc1VVhKVXVPTlZjVEpQUmFlYXNWWnBjbngtc3NVT2NlTTVLQlUtME9HczBqRlJCQkt1bGtDX0dIOXVOQktLUHFZOU1vaVp2aEp5aHBFOEoyQnVDN0dad3hLbXF2QlBLRENoM0FLbUJFZGZ2aHZFNlVJVUdZemNR0gHnAUFVX3lxTE5XVHhmQlprVFRpcGdWNHRFNW9XNXJiQVJLaEpCNkJ0cG00S01yQnh3V1JzRkNfQkZ1MXdyRDk3ZnRYMTg2TEVfS3QwR2g3WWNyaWhGaTVPQjBsMHBqTDdtZFZxREVSMlVTc1JUQ3pDMGxRNU9HN0VacU93ZWgtbjNoYkwzWF8wM3NpQkFNUnRlTjVqZzBhb01rbExuQl9TN25jMkUzWEFiRVNNN0NzU0JadUNrYXdzWHQ2NHpRWnlOamxOSkUwZDVxcmFBaDUtb0wxQVd4T0Z2WmlFblJXaUZsWmVaTHhYUQ?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ19VTEVMMHFmd2oxemY2VnVRUEFZWlk3M19QaTFsMkZuakhGNXNpSGFVM2JNbXpQdVpBTEJObzZoZXU0bDFiSlA1NlJZaWE1bUpCUEVTTlNhc2QzVVpwQXoyVnZfUF8zY1dnTzhzZVJuNU4xbGZzc085RGltTW5IZGxGSU5RUENGRzR0Vy1UUV9CTFlV?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.orangehealth.in/"
+      "https://www.orangehealth.in/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ19VTEVMMHFmd2oxemY2VnVRUEFZWlk3M19QaTFsMkZuakhGNXNpSGFVM2JNbXpQdVpBTEJObzZoZXU0bDFiSlA1NlJZaWE1bUpCUEVTTlNhc2QzVVpwQXoyVnZfUF8zY1dnTzhzZVJuNU4xbGZzc085RGltTW5IZGxGSU5RUENGRzR0Vy1UUV9CTFlV?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPeUtTeUpHUXpOMVdEWTMzcTVaZW9ULVpWdmtsR0FsNTlwbTh2eFNKZ3JfZDZBOEpDVng2cUhlczhIMzI3ZkxVRlhJRE9JZmwyY0VleHVCQ3JqME53bGxmOXFJc2lmN0F4bXozZkFwTjRDRTg1QTBFTHk2dk5pOWdhTDVsU0R2N0tGcDdBZ0FHcmdkNklHOWpJMG40YjFfZ9IBowFBVV95cUxPYWpWYXdKS0IyOV94SUVVU1hoeWU5c21JOTBHQ0hLc2dhWVdtWkpRNE00bU5mX2hkYkhMWEJvWFR3amdvVDJoeWhvNkNCV01GS0IwZ2FlekU4RUJqMVg1RkI5Y2t5YXRub0I4bU1wVndrNVdTQ1dYLUNNVjNCeVNIcExnVXN6bkZaRHB0emI0NmJRMjh3SF9ETUotdHBiU0EtTEtr?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS3pEWWhiQnJOLU1qLVRuaGt2RVhkeG9pNWR0ZUlXejEtSTZwUDBRdGVsZzhHZjRTOVMxeTc4N0lQSHY3Q2pwbDlVWnhkNXQ1Sl9GZVRqa3BzbmhycUpxRldIb0QyNkVUa0hYamc1VVhKVXVPTlZjVEpQUmFlYXNWWnBjbngtc3NVT2NlTTVLQlUtME9HczBqRlJCQkt1bGtDX0dIOXVOQktLUHFZOU1vaVp2aEp5aHBFOEoyQnVDN0dad3hLbXF2QlBLRENoM0FLbUJFZGZ2aHZFNlVJVUdZemNR0gHnAUFVX3lxTE5XVHhmQlprVFRpcGdWNHRFNW9XNXJiQVJLaEpCNkJ0cG00S01yQnh3V1JzRkNfQkZ1MXdyRDk3ZnRYMTg2TEVfS3QwR2g3WWNyaWhGaTVPQjBsMHBqTDdtZFZxREVSMlVTc1JUQ3pDMGxRNU9HN0VacU93ZWgtbjNoYkwzWF8wM3NpQkFNUnRlTjVqZzBhb01rbExuQl9TN25jMkUzWEFiRVNNN0NzU0JadUNrYXdzWHQ2NHpRWnlOamxOSkUwZDVxcmFBaDUtb0wxQVd4T0Z2WmlFblJXaUZsWmVaTHhYUQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 55000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Oxygen",
@@ -1196,21 +1243,33 @@
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
     "scraped_at": "2026-10-17T20:05:52.127157+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": "2022-03-03",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSGZBWlVvQ2tjODRPeUo5dEplQkZyT2hWTm1IM1J6SWFjNFpCOXVOTUhkazhZbmRPamRpd2M0RDJOdW15TDFBY28xalRkUU0zNFByT3VNaFExakExaFdRdXdGeUh6LURyRF94TF9ONFoyMnZqUVlXamt6anp1WkxZaFVFQ3g3eExfc05RUktQdHduMVYySHFWLUdEN2lUaXVVdzhlamVQajhENFRQM2tQMW1WUFlLek41ejBjSjB6UXZqZnlfQkhWMG8xVmI2N1ZNZGlpV2Q1NHdnbFNISmdEWWIzeG1XUTYyLUQya3A5WmRFQWd1?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.reforge.com/",
-      "https://www.atlanticcouncil.org/programs/scowcroft-center-for-strategy-and-security/forward-defense/the-reforge-commission/"
+      "https://www.atlanticcouncil.org/programs/scowcroft-center-for-strategy-and-security/forward-defense/the-reforge-commission/",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSGZBWlVvQ2tjODRPeUo5dEplQkZyT2hWTm1IM1J6SWFjNFpCOXVOTUhkazhZbmRPamRpd2M0RDJOdW15TDFBY28xalRkUU0zNFByT3VNaFExakExaFdRdXdGeUh6LURyRF94TF9ONFoyMnZqUVlXamt6anp1WkxZaFVFQ3g3eExfc05RUktQdHduMVYySHFWLUdEN2lUaXVVdzhlamVQajhENFRQM2tQMW1WUFlLek41ejBjSjB6UXZqZnlfQkhWMG8xVmI2N1ZNZGlpV2Q1NHdnbFNISmdEWWIzeG1XUTYyLUQya3A5WmRFQWd1?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-03",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Replit",
@@ -1398,7 +1457,53 @@
     ],
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:52.127157+00:00"
+    "scraped_at": "2026-10-17T20:05:52.127157+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2292006.0,
+        "currency": "USD",
+        "date": "2017-05-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1707039/000170703917000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3564043.0,
+        "currency": "USD",
+        "date": "2019-09-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1707039/000170703919000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12269631.0,
+        "currency": "USD",
+        "date": "2021-06-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1707039/000170703921000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://stilt.com/",
+      "https://www.sec.gov/Archives/edgar/data/1707039/000170703917000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1707039/000170703919000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1707039/000170703921000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 12269631.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-25",
+    "total_raised": 18125680,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stonks",
@@ -1413,7 +1518,21 @@
     ],
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:52.127157+00:00"
+    "scraped_at": "2026-10-17T20:05:52.127157+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pilotgpt.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Supersapiens",
@@ -1453,7 +1572,43 @@
     "everywhere_tags": [],
     "primary_investor": "Vibe Capital",
     "source_url": "https://vibe.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:52.127157+00:00"
+    "scraped_at": "2026-10-17T20:05:52.127157+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 518000.0,
+        "currency": "USD",
+        "date": "2021-02-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1857145/000185714521000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4575006.0,
+        "currency": "USD",
+        "date": "2021-05-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1857145/000185714521000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.synthesis.com/tutor",
+      "https://www.sec.gov/Archives/edgar/data/1857145/000185714521000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1857145/000185714521000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4575006.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-18",
+    "total_raised": 5093006,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Turnip",

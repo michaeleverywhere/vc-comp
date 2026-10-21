@@ -11,18 +11,31 @@
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
     "scraped_at": "2026-10-16T23:04:30.518339+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11600000.0,
+        "currency": "USD",
+        "date": "2024-05-24",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2024/abett-raises-11-6-million-for-health-plan-data-management-platform/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.pymnts.com/news/investment-tracker/2024/abett-raises-11-6-million-for-health-plan-data-management-platform/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 11600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-24",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Aceable",
@@ -34,7 +47,53 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4764637.0,
+        "currency": "USD",
+        "date": "2015-09-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1653950/000165395015000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3880315.0,
+        "currency": "USD",
+        "date": "2016-09-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1653950/000165395016000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 49999999.0,
+        "currency": "USD",
+        "date": "2020-12-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1653950/000165395020000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.aceable.com/",
+      "https://www.sec.gov/Archives/edgar/data/1653950/000165395015000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1653950/000165395016000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1653950/000165395020000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 49999999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-15",
+    "total_raised": 58644951,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AMI Labs",
@@ -112,7 +171,21 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://business.amwell.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Beaming Health",
@@ -207,7 +280,19 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Clear Street",
@@ -281,7 +366,21 @@
     "everywhere_tags": [],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.datazoom.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Defense Catalyst",
@@ -391,7 +490,32 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.dustyrobotics.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.dustyrobotics.com/",
+      "https://www.dustyrobotics.com/press"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 45000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ensis",
@@ -442,20 +566,45 @@
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
     "scraped_at": "2026-10-16T23:04:30.518339+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2019-04-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ25pcnhHR0JHOUR3alZsaUgwc2FiN0ppNnA4MmxsMHEteEtUWm4wVnBpbGZYbVFkbkt0TmZVMUg5UXpVY1oxZHRQeFc3eWdmNjZvcThTM0dKWHExeExSbU9mdjA2VWZGZ2gxbHZHbVVXX1NEVHBYbndSZ1BwbDZreEQ2SjE2cE1OWFFXTmNDbnMyTmpWRDR5U1hvWGpOV0JpV2VaNFgzYW94RnoxcXE5ak1Fd3BGdndaY1BrOU1HUWM2ODZURndPMDN4TzBGS3RaZDhzSzJHVUx0ZVZKWUxaNUZlZVlCWU5QcVBjUFVB?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 175000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGQ1MDVfSEQ4V1VsU2s2dnFLemMzbDRXZzJLajQ5MnRlVkhlWGFfQkZmcHZySmk5WFNkX2FqU1VMSGNYdkhmSHVWenUyRGk2aWNEWlI4NDlnYUZ3RjMtOHhNV1RCWks2Ty1XdnZPV3dMNUFVN3c5RHpFcDdFQW55SVAyN2NMSGY3LWdmdkx0bTBMQ0JLNjhQVExGV2M?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.everlywell.com/"
+      "https://www.everlywell.com/",
+      "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ25pcnhHR0JHOUR3alZsaUgwc2FiN0ppNnA4MmxsMHEteEtUWm4wVnBpbGZYbVFkbkt0TmZVMUg5UXpVY1oxZHRQeFc3eWdmNjZvcThTM0dKWHExeExSbU9mdjA2VWZGZ2gxbHZHbVVXX1NEVHBYbndSZ1BwbDZreEQ2SjE2cE1OWFFXTmNDbnMyTmpWRDR5U1hvWGpOV0JpV2VaNFgzYW94RnoxcXE5ak1Fd3BGdndaY1BrOU1HUWM2ODZURndPMDN4TzBGS3RaZDhzSzJHVUx0ZVZKWUxaNUZlZVlCWU5QcVBjUFVB?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGQ1MDVfSEQ4V1VsU2s2dnFLemMzbDRXZzJLajQ5MnRlVkhlWGFfQkZmcHZySmk5WFNkX2FqU1VMSGNYdkhmSHVWenUyRGk2aWNEWlI4NDlnYUZ3RjMtOHhNV1RCWks2Ty1XdnZPV3dMNUFVN3c5RHpFcDdFQW55SVAyN2NMSGY3LWdmdkx0bTBMQ0JLNjhQVExGV2M?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMEFaOTdtN05pekpfMUNtRDZwaDNnWk1LWHc5eUh6bldHd3JWRXBweU1IT0hpZW52SVBQYmNCa2QwdGw1ZlhmWW1DelhsNDY0ZkhmLVF1YTNnakJDQ1VrVWY3Zzl5dktYSndOemxxcHZXa2NpUEFXb0xhNEdUVjZyU1dlV2VUaWFaamNMangzcEstYTNHWVJoblBHSnpLZGYtc3hRSVpCN2hsei14NjlVWmF5ZGFRbENLNHVXZVpsTEpuc3ZBRWRadE56QlJaWVdEWEctOUVZVDlFX2FsZDlCZ0FFcTlwSjkzbk9wZlROMC1EMVU?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ydko5WXEwR1dZeXRjbW9aS2Z6VEM5M3NYeW14dVJvSVN5UjRqYmYwNDVmd3VEWjJqeWpxMlB6Y0xVRjVySFRDTm8wYTlxNlVrQktqNF9DSmhrVXBiLVVmeThCbnRaMGI4M1ZzeXR0WUtfcGFoVUdreQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUdDVEpQRkFuNzFkdXNaRnIydm1KaWQxUGlSclpJR2dIMXQyYTNHY254d2w2emotNFl6UTBXaDJTWTBIN2hwNS1jQkpHZ2Y0eVJEaEhuRzlWMzEtdTBYMTk3YmJOUTNEZzc5TnY2QlQtc2dIYWNNMkVxWVpURHZNVHd2MElEcDlsRllSeW5n?oc=5",
+      "https://pulse2.com/everlywell-raises-175-million-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 225000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-04-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Forml",
@@ -607,7 +756,21 @@
     "everywhere_tags": [],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ipcopilot.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kasa",
@@ -1082,7 +1245,41 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7299925.0,
+        "currency": "USD",
+        "date": "2022-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1961082/000196108223000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.shennonbio.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.shennonbio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1961082/000196108223000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7299925.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-21",
+    "total_raised": 19299925,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SmithRx",
@@ -1155,7 +1352,54 @@
     ],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4764864.0,
+        "currency": "USD",
+        "date": "2017-03-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1665322/000166532218000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5999995.0,
+        "currency": "USD",
+        "date": "2020-01-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1665322/000166532220000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2021-02-08",
+        "investors": [],
+        "source_url": "https://blog.stoplight.io/stoplight-secures-additional-funding?_ga=2.30642239.1079848724.1685113717-2011080999.1684766839",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://stoplight.io/",
+      "https://stoplight.io/press",
+      "https://blog.stoplight.io/stoplight-secures-additional-funding?_ga=2.30642239.1079848724.1685113717-2011080999.1684766839",
+      "https://www.sec.gov/Archives/edgar/data/1665322/000166532218000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1665322/000166532220000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-02-08",
+    "total_raised": 21764859,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stress-Free Auto Care",
@@ -1450,7 +1694,38 @@
     "everywhere_tags": [],
     "primary_investor": "NextGen Venture Partners",
     "source_url": "https://nextgenvp.com/portfolio",
-    "scraped_at": "2026-10-16T23:04:30.518339+00:00"
+    "scraped_at": "2026-10-16T23:04:30.518339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2021-05-05",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/urbanstems-the-modern-dtc-floral-gifting-brand-closes-20m-in-series-c-funding-as-it-approaches-mothers-day-301284321.html",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://urbanstems.com/",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXy1CZTNhMmxva292QjFGc0dtUGFZS2xHV0Jjb2VlanoxSzRLS2VQYzBrNldHc3F1OERHaElDdV9NQlJpSEthaVp5VExUbUF6UlVDazdDd1lsVlZrbndNYVViWm1OWGtkQ0xUSUFVQTlDaGhMMUxMUmlEZkhGQ0pWZUc1dFFyZHBxSDVZTU5seFUzZmJPd2ZLNHZDR3pnc1I4cTFxcHBKZDRGN2I0dU1ZSjlWRm5YWFV6OUpDbnl3?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRTBXWkU1V3ZsY2x2cnA0eWlSMWZZNTVxWjFNd3ZPY0FpQVF3c3BtWDdMWkhRWDJhWmZhTFc1OXk5WkpqSkpmSDVNNzNCQ2Y4VEtsU3p4MmpXam5QMUQtSjhNQ2kwQkFyMkhEWDBrbFFTejc4OU5PMnVybFFtVGVkUTdyM3FKVTBIUmpsUENuX0dleW5obkYzTW5wOFNfVF82alFFeDVXdUtrVTVxVXpCN3JXLXFJSVJVek9FZS1uMHRHOF9lZ2psdFZYQmxrMklOQ2laelJaOWJZWl8yR2VZLVFSbWVSZEpuX2NKaXhWNmNNTWFGelE?oc=5",
+      "https://www.prnewswire.com/news-releases/urbanstems-raises-5m-series-c-extension-funding-continuing-expansion-of-same-day-delivery-with-miami-launch-302025749.html",
+      "https://www.prnewswire.com/news-releases/urbanstems-the-modern-dtc-floral-gifting-brand-closes-20m-in-series-c-funding-as-it-approaches-mothers-day-301284321.html",
+      "https://www.bizjournals.com/memphis/bizwomen/news/latest-news/2024/01/urbanstems-flower-delivery-series-c-extension.html",
+      "https://technical.ly/startups/urbanstems-raises-12m-series-b-funding-round-and-gets-new-ceo-flower-delivery-seth-goldman/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-05",
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vesta Home",

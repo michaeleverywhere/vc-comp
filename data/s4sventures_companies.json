@@ -86,7 +86,28 @@
     "everywhere_tags": [],
     "primary_investor": "S4S Ventures",
     "source_url": "https://www.s4sventures.com/",
-    "scraped_at": "2026-10-17T18:26:26.470987+00:00"
+    "scraped_at": "2026-10-17T18:26:26.470987+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://beamimpact.com/",
+      "https://multiples.vc/private-comps/beam",
+      "https://startupintros.com/orgs/beam",
+      "https://www.beambenefits.com/articles/beam-benefits-closes-on-40-million-fundraise",
+      "https://techcrunch.com/2022/11/17/beam-raises-6-4m-to-help-citizens-access-safety-net-funds/",
+      "https://www.trybeam.com/resources/beam-series-a",
+      "https://www.bybeam.co/newsroom-post/beam-raises-2-4-m",
+      "https://www.upmarket.co/private-markets/pre-ipo/beam/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cambri",
@@ -147,7 +168,21 @@
     "everywhere_tags": [],
     "primary_investor": "S4S Ventures",
     "source_url": "https://www.s4sventures.com/",
-    "scraped_at": "2026-10-17T18:26:26.470987+00:00"
+    "scraped_at": "2026-10-17T18:26:26.470987+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.newton.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Provenance",
@@ -232,7 +267,64 @@
     "everywhere_tags": [],
     "primary_investor": "S4S Ventures",
     "source_url": "https://www.s4sventures.com/",
-    "scraped_at": "2026-10-17T18:26:26.470987+00:00"
+    "scraped_at": "2026-10-17T18:26:26.470987+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7170677.0,
+        "currency": "USD",
+        "date": "2020-06-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1816545/000181654520000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2020-07-15",
+        "investors": [],
+        "source_url": "https://tenovos.com/press/tenovos-raises-series-a/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2021-06-30",
+        "investors": [],
+        "source_url": "https://tenovos.com/press/series-a1-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2022-11-21",
+        "investors": [],
+        "source_url": "https://tenovos.com/press/s4s-bdmi-tenovos-series-b-funding/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tenovos.com/",
+      "https://tenovos.com/resources/press/",
+      "https://tenovos.com/press/s4s-bdmi-tenovos-series-b-funding/",
+      "https://tenovos.com/press/series-a1-funding/",
+      "https://tenovos.com/press/tenovos-raises-series-a/",
+      "https://www.sec.gov/Archives/edgar/data/1816545/000181654520000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-11-21",
+    "total_raised": 29170677,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tracer",

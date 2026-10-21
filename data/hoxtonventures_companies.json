@@ -126,7 +126,19 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Avantia Law",
@@ -940,7 +952,43 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10999945.0,
+        "currency": "USD",
+        "date": "2021-05-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1865235/000186523521000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10100000.0,
+        "currency": "USD",
+        "date": "2022-02-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1865235/000186523522000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fabricnano.com/",
+      "https://www.sec.gov/Archives/edgar/data/1865235/000186523521000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1865235/000186523522000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-24",
+    "total_raised": 21099945,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Finesse",
@@ -1022,7 +1070,72 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1750000.0,
+        "currency": "USD",
+        "date": "2023-12-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2005725/000200572523000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5063376.0,
+        "currency": "USD",
+        "date": "2024-12-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2005725/000200572525000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9999995.0,
+        "currency": "USD",
+        "date": "2025-08-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2005725/000200572526000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 26499992.0,
+        "currency": "USD",
+        "date": "2026-03-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2005725/000200572526000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.finster.ai/resources/news/finster-ai-raises-15-million-to-redefine-the-future-of-financial-intelligence"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.finster.ai/",
+      "https://www.finster.ai/resources/news/finster-ai-raises-15-million-to-redefine-the-future-of-financial-intelligence",
+      "https://www.sec.gov/Archives/edgar/data/2005725/000200572523000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2005725/000200572525000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2005725/000200572526000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2005725/000200572526000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 26499992.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-30",
+    "total_raised": 58313363,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Flair Impact",
@@ -1100,7 +1213,43 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6577893.0,
+        "currency": "USD",
+        "date": "2023-12-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006159/000200615923000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18549999.0,
+        "currency": "USD",
+        "date": "2024-12-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006159/000200615924000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.formance.com/",
+      "https://www.sec.gov/Archives/edgar/data/2006159/000200615923000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2006159/000200615924000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 18549999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-12-23",
+    "total_raised": 25127892,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fy!",
@@ -2683,7 +2832,40 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2025-10-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zLTVQX3MzclJ3OWhFWlczMlBqdFczNG5FZ1JYbWZUU3hOaUkyNmlPY1lWRjBueF85LUI4YVlVM2gtYWY2eUFseTh5N25qRUFPdXNR?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRVRhZTFkVE84Ui1pQmMybEtIQ3dfM2F6V1JrT29VUVdraGxSbWlqbV9rNWx2VXNNSENDNDM5WTltc0FubHFFMUcwU3dwMG96d0xsbU1aNFpHNXNRZzA0SW9LNFlZaFpwaVI0bzR4RGJ2bDRYZDFCMnVkWGsydzFrVWd4Y1d2OXFtaEtoMjg5Zy1WZlg3Zm1EUm5ncHRDWkZseEEyazZobU1VYnNoRXQteW50Q3JSV0MtbUVvQkhfSV9xYkk?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRVRhZTFkVE84Ui1pQmMybEtIQ3dfM2F6V1JrT29VUVdraGxSbWlqbV9rNWx2VXNNSENDNDM5WTltc0FubHFFMUcwU3dwMG96d0xsbU1aNFpHNXNRZzA0SW9LNFlZaFpwaVI0bzR4RGJ2bDRYZDFCMnVkWGsydzFrVWd4Y1d2OXFtaEtoMjg5Zy1WZlg3Zm1EUm5ncHRDWkZseEEyazZobU1VYnNoRXQteW50Q3JSV0MtbUVvQkhfSV9xYkk?oc=5",
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zLTVQX3MzclJ3OWhFWlczMlBqdFczNG5FZ1JYbWZUU3hOaUkyNmlPY1lWRjBueF85LUI4YVlVM2gtYWY2eUFseTh5N25qRUFPdXNR?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-13",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Pillsorted",
@@ -3110,7 +3292,35 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "GBP",
+        "date": "2025-04-16",
+        "investors": [],
+        "source_url": "https://skin-analytics.com/news/funding/series-b-15million-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://skin-analytics.com/",
+      "https://skin-analytics.com/news/",
+      "https://skin-analytics.com/news-category/funding/",
+      "https://skin-analytics.com/news/funding/series-b-15million-funding/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2025-04-16",
+    "total_raised": 15000000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Smartline",
@@ -3215,7 +3425,43 @@
     ],
     "primary_investor": "Hoxton Ventures",
     "source_url": "https://hoxtonventures.com/portfolio/",
-    "scraped_at": "2026-10-06T13:23:43.967357+00:00"
+    "scraped_at": "2026-10-06T13:23:43.967357+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1600000.0,
+        "currency": "USD",
+        "date": "2020-05-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1820775/000182077520000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4999998.0,
+        "currency": "USD",
+        "date": "2020-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1820775/000182077521000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://spacelift.io/",
+      "https://www.sec.gov/Archives/edgar/data/1820775/000182077520000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1820775/000182077521000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4999998.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-21",
+    "total_raised": 6599998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stealth",

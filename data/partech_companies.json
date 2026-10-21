@@ -62,18 +62,31 @@
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
     "scraped_at": "2026-10-06T13:33:09.938279+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2020-07-22",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/ab-tasty-raises-40-million-080046780.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/ab-tasty-raises-40-million-080046780.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-07-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Acatus",
@@ -139,7 +152,53 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11340807.0,
+        "currency": "USD",
+        "date": "2021-03-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1676617/000167661721000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9458030.0,
+        "currency": "USD",
+        "date": "2022-10-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1676617/000167661722000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3273400.0,
+        "currency": "USD",
+        "date": "2024-01-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1676617/000167661724000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://advano.io/cgi-sys/suspendedpage.cgi",
+      "https://www.sec.gov/Archives/edgar/data/1676617/000167661721000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1676617/000167661722000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1676617/000167661724000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3273400.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-30",
+    "total_raised": 24072237,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Agicap",
@@ -203,7 +262,33 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1600000.0,
+        "currency": "EUR",
+        "date": "2024-04-03",
+        "investors": [],
+        "source_url": "https://ai-coustics.com/blog/company-updates-aicoustics-raises-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ai-coustics.com/",
+      "https://ai-coustics.com/blog/company-updates-aicoustics-raises-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1600000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2024-04-03",
+    "total_raised": 1600000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Aiden.ai",
@@ -690,20 +775,38 @@
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
     "scraped_at": "2026-10-06T13:33:09.938279+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 240000000.0,
+        "currency": "EUR",
+        "date": "2025-03-25",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQmdSektOQlJ0M2pSX2R1dUxlZF9aNzhFT3UtOHo4YXJ5ZEI4OVdUVkk0WTRkNlBhS01CblgtS3NLeWpBdXhlOFJocUgtMV9BaVQ0TEI3azhGLWk0WFZmWXBJRzEzWjVZOXpGRDJJNWI1QWNWalBvVmNEOXhqeWdSdG5PaTFaUjVHSEp2ajRUaDl0TWZPeU5XUWRDTUxkSjdkM2RTbDY0eEUxTGJEcHdtMjFDWXMyaE52OWtMXzhydWdwVUxXYWc?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.amboss.com/us"
+      "https://www.amboss.com/us",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQmdSektOQlJ0M2pSX2R1dUxlZF9aNzhFT3UtOHo4YXJ5ZEI4OVdUVkk0WTRkNlBhS01CblgtS3NLeWpBdXhlOFJocUgtMV9BaVQ0TEI3azhGLWk0WFZmWXBJRzEzWjVZOXpGRDJJNWI1QWNWalBvVmNEOXhqeWdSdG5PaTFaUjVHSEp2ajRUaDl0TWZPeU5XUWRDTUxkSjdkM2RTbDY0eEUxTGJEcHdtMjFDWXMyaE52OWtMXzhydWdwVUxXYWc?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWU5xeE91cFRjQnZMZmpYRndydVdvaEREYXB1OFZsZVhYZ0taVWxUYXRjSGJTcWZwQUtBN0hrR3hNY2VodXVPNHZXT1JOVGEwLVMxMjVGOFpmMU5aQWtlY2lOUzZ3VGFZVmhTNy1HVFZ2QjVmZDhDWjJpTk5tYlRvM3NuMTZCbGowLXN0MU1Ta0pzWnJhNUZSdkl3WTFLTVF4NEcxTFNDNVc3UFoySkhGbnVFNWh2b0tIZkJGVVQ2dTBaWVhQLUVn?oc=5",
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLV84bE9IZG9nWWhVOEI0eW5wRDRVdUV5NVVqTWxfZ0hNNWg2RkRfZGtjSDR2UXBTZFQ0Q3pHNDRjZWxyT0sxRkZkQUY3eXJwcURWR0h5U3A4Sy01c2xEZmFnYVp1SmRjNHUzV2ROcmVMXzFfaUJrRHBTdnhPZHF3cVAtaVBKMUxPMXFqSEROREV2aW1sMk9OZjR3Nmk4SGhCRVpzMWhOblBFWlhvOHlkOUQxX1kyWW0weUE0U3lnWnY3aGNLa3FFUk43QzQzOWp4NXJVX0QyZmdocUIxMXFVcmstUEJuWHliSUF4OEFpZTc0NndhZ1Ew?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa2JMODJnVnBJREMzUjg1ajhCT1IxWWFOVXNzM1h2QUh0eS1zSFdyV1hDZ0hTbnVRb19aTVBYaS1MVy1WZnRrd1hFLUVKanllcUpZNDNfdmN5akRzWFdCSUVIRmRPdDAyOHJsMi15ZEFTR1MzdlN5RU40WU95WFNKQ2ZBSUlFbFdKYXo0NWZaaGhKNlhKS1JCaFRNNVRQYlAwNTcwdzVha3FFbUZqR1hUR0I0WEZteXk3dzhjeTUxYlZydw?oc=5",
+      "https://bitcoinmagazine.com/business/amboss-raises-4-million-in-seed-funding",
+      "https://www.prnewswire.com/news-releases/amboss-closes-240m-financing-round-and-expands-its-position-as-the-leading-co-pilot-for-physicians-worldwide-302409477.html",
+      "https://pulse2.com/amboss-e240-million-raised-for-medical-education-platform/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 240000000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 240000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-03-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AMI Labs",
@@ -1210,7 +1313,53 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2695609.0,
+        "currency": "USD",
+        "date": "2017-04-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704060/000170406017000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2019-06-11",
+        "investors": [],
+        "source_url": "https://bitrise.io/press",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 95873417.0,
+        "currency": "USD",
+        "date": "2021-11-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1704060/000170406021000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bitrise.io/",
+      "https://bitrise.io/press",
+      "https://www.sec.gov/Archives/edgar/data/1704060/000170406017000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1704060/000170406021000004/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 95873417.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-05",
+    "total_raised": 118569026,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Blendid",
@@ -1447,7 +1596,37 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 27000000.0,
+        "currency": "USD",
+        "date": "2026-08-26",
+        "investors": [],
+        "source_url": "https://www.breedr.co/blog-us/breedr-raises-27-million-to-digitize-the-global-beef-supply-chain",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.breedr.co/",
+      "https://www.breedr.co/news",
+      "https://www.breedr.co/seedstock",
+      "https://www.breedr.co/blog-us/breedr-raises-27-million-to-digitize-the-global-beef-supply-chain",
+      "https://www.breedr.co/news/breedr-raises-27-million-to-digitize-the-global-beef-supply-chain",
+      "https://www.breedr.co/news/tips-for-securing-farming-investment-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 27000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-26",
+    "total_raised": 27000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Brevo",
@@ -1935,7 +2114,33 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://commsignia.com/about-us"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://commsignia.com/",
+      "https://commsignia.com/about-us",
+      "https://commsignia.com/news/commsignia-announces-funding-of-usd-15m-in-series-b-round"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Crossing Minds",
@@ -2163,7 +2368,123 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1445000.0,
+        "currency": "USD",
+        "date": "2015-11-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849015000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1840000.0,
+        "currency": "USD",
+        "date": "2016-03-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849016000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6774475.0,
+        "currency": "USD",
+        "date": "2016-06-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849016000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": "2017-08-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849017000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4765568.0,
+        "currency": "USD",
+        "date": "2018-05-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849018000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1199507.0,
+        "currency": "USD",
+        "date": "2019-02-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849019000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 751096.0,
+        "currency": "USD",
+        "date": "2020-05-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000089843220000551/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12525903.0,
+        "currency": "USD",
+        "date": "2021-03-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849021000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13404021.0,
+        "currency": "USD",
+        "date": "2022-09-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849022000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3413518.0,
+        "currency": "USD",
+        "date": "2024-06-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658490/000165849024000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.deako.com/",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849015000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849016000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849016000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849017000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849018000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849019000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000089843220000551/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849021000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849022000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1658490/000165849024000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3413518.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-28",
+    "total_raised": 48219088,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dejbox",
@@ -2307,7 +2628,24 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://digitail.com:443/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmFlSVpfR0ZQTFhzWnFlRnpfNTNQYjRzSmNXa0c2aVdwSkd6QkdoRDBxV0FJaTB1ci1VZDN3MkpiSEstU1ZyeERSNlcwSzZ0V2pURkdjei0tWlVtZ2RSalQzODFjY3ZlUGhFTGZhM2stV2p6SlZSYlo5ZF9qMWZpSFRyXzdseXNYRXR2S0hOMzROQy1QMjNR?oc=5",
+      "https://pulse2.com/digitail-23-million-series-b-closed-for-expanding-ai-platform-for-veterinary-clinics/",
+      "https://www.prnewswire.com/news-releases/digitail-raises-23m-usd-series-b-led-by-five-elms-capital-302609456.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Djamo",
@@ -3361,7 +3699,32 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 400000000.0,
+        "currency": "USD",
+        "date": "2019-11-12",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTkdpUFluWV93RXlBbG5ETUp2bGwwY0dvTG9icWc4RW9WNlNJalRpSktVQ1gxcndzMmo0SFVhRlhKLS11Tm1HMU1fUlFXWXFnb0Y0dW1uQmpSNFBfWmNsb1BGZXc3bElrUkVjVXNqVGJFWTRSdlB0VmR0QXVIcnNEa1podFpNQ1BMRVB4R2pWcHJPTnZhSk9OMm5YRXlqVGR0WC1DaQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTkdpUFluWV93RXlBbG5ETUp2bGwwY0dvTG9icWc4RW9WNlNJalRpSktVQ1gxcndzMmo0SFVhRlhKLS11Tm1HMU1fUlFXWXFnb0Y0dW1uQmpSNFBfWmNsb1BGZXc3bElrUkVjVXNqVGJFWTRSdlB0VmR0QXVIcnNEa1podFpNQ1BMRVB4R2pWcHJPTnZhSk9OMm5YRXlqVGR0WC1DaQ?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 400000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-11-12",
+    "total_raised": 400000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FYLD",
@@ -4675,7 +5038,43 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2250000.0,
+        "currency": "USD",
+        "date": "2024-10-27",
+        "investors": [],
+        "source_url": "https://kredete.io/blog/announcing-kredetes-225m-raise/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2025-09-15",
+        "investors": [],
+        "source_url": "https://kredete.io/blog/series-a-22m/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kredete.io/",
+      "https://kredete.io/blog/series-a-22m/",
+      "https://kredete.io/blog/announcing-kredetes-225m-raise/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-15",
+    "total_raised": 24250000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kyash",
@@ -4927,7 +5326,52 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18924621.0,
+        "currency": "USD",
+        "date": "2021-09-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4101956.0,
+        "currency": "USD",
+        "date": "2021-11-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2022-06-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1906472/000190647222000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-15",
+    "total_raised": 30026577,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Lifen",
@@ -5097,7 +5541,72 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1010000.0,
+        "currency": "USD",
+        "date": "2015-10-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1644271/000164427115000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3452464.0,
+        "currency": "USD",
+        "date": "2017-12-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1644271/000164427117000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1100000.0,
+        "currency": "USD",
+        "date": "2019-06-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1644271/000164427119000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5529308.0,
+        "currency": "USD",
+        "date": "2019-12-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1644271/000164427120000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17885256.0,
+        "currency": "USD",
+        "date": "2022-09-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1644271/000164427122000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1644271/000164427115000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1644271/000164427117000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1644271/000164427119000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1644271/000164427120000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1644271/000164427122000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 17885256.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-06",
+    "total_raised": 28977028,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Makersite",
@@ -6253,20 +6762,46 @@
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
     "scraped_at": "2026-10-06T13:33:09.938279+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2023-05-02",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeHhDallRYy1HUlRoaGtvcG94eUpCbmZZNHV0U21GcERwdmNRMDNITHEwdU9hdTRnMWR1a0NpRk1xZVZpU05Bb0hUTWtYa2k1T2poRF9pY3g0ODBFUGRwSXRJMHRRSFplNlpRSERxcHdrQU5MQnRfc2dpblQ2V21wbEFEY19jX3o3LUNGaWs0T1p6YzUtSEZ3WnZGTG1FUFZMaVNJa2VGUmk0UTVNZGlnZEg1UzhNV2xrMDhjcVZ4WQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Debt financing",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZEtOZG1INFRuM0U2MFA2MWd3YmMzcGJZbHNvNkI5NlRWZk1PcHY2V0FtS0dmMnphZkNkblJaeUpIQ011c09ORXdMbm94UVdjeDlJNDlVb2FYSWdIZjVtMkpPaURsUnJtVEc4Q3lZM0tqSVlTdTBxdzNXMkw3UzNtcU5zOA?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://nomba.com/"
+      "https://nomba.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZEtOZG1INFRuM0U2MFA2MWd3YmMzcGJZbHNvNkI5NlRWZk1PcHY2V0FtS0dmMnphZkNkblJaeUpIQ011c09ORXdMbm94UVdjeDlJNDlVb2FYSWdIZjVtMkpPaURsUnJtVEc4Q3lZM0tqSVlTdTBxdzNXMkw3UzNtcU5zOA?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeHhDallRYy1HUlRoaGtvcG94eUpCbmZZNHV0U21GcERwdmNRMDNITHEwdU9hdTRnMWR1a0NpRk1xZVZpU05Bb0hUTWtYa2k1T2poRF9pY3g0ODBFUGRwSXRJMHRRSFplNlpRSERxcHdrQU5MQnRfc2dpblQ2V21wbEFEY19jX3o3LUNGaWs0T1p6YzUtSEZ3WnZGTG1FUFZMaVNJa2VGUmk0UTVNZGlnZEg1UzhNV2xrMDhjcVZ4WQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfVzBnNTA5Qk5nR19QZ1hRbVg2N0t1Z2s3RWZpazBGWkhMSF94MGlCYmRCemJLQ1prUWlGUkp2dnVBd3pVUTFrZmQyM2daYXhtRFJ5N0dlZm5hclRP?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODg1dk1CWU5PYjNsdGU5a0FVZUtSTEFBUGRtcjRjRVZFcnVqNmt3WG9SQWE1Vl9ocmctMDR5WHBvalJtZGR0OXdicHJXS1duZ09CeExkdUh6YUFaR2tFczY0QmxPai1PekUyVEVMaUgzX21hb3F6dHJIM2o3Y2lSWE1EdkJFdw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOE81UGRZTWtQeUpKaGMxeTRaTGtHQjlWSjFaZC05cnE4enpYUlNVRGctQzdsVkFZTTRxbzB4dnQ4QzJHWWlMbFhqdW9KelRLQXJIOEpBWW1xU005OGVmMkZGTFVONmJfOVV4SkVkellCNXlkMVdqdWFfdE5pWUlZWmU0SWF5QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLXR4QmtVVFNYNmdNQ0d4TVN1aVpmVlBVSk50bVNxRldpd0czNXlzSjNudzJ5OFZTWmxTRXBHX01ULVZPaTFWdmFycW9zU3ZoekE1NmxoQk5SVUROZXI0Tmt4bU40eHhtVlN5WURaU1Q0Q194WWpNNjFpbmFJVEc3Qk9UNTN2Zmw2SVltamhObHNER3FJU3hkY3ZNcHU4QkktTWZET0pxaTZabDJEQXdHeG1FQXVSbl9aYzFWcGxRUHJDWFoxcGRCOG1XM0xib0Ri?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LRUw5SFJ5RUxVbjVMaU9uZ0ZQQW0tcm1nLXFySjJ4SWlDUzZFTkYwVUZLX2Y1LWc4U2loMHhDZlZCMXdnQVZZNVRzTkx4R255MFFZY3BGSk4wOHRxWk9IN1hheFVDbkU?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-02",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "NovaSparks",
@@ -7484,7 +8019,33 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 57000026.0,
+        "currency": "USD",
+        "date": "2020-04-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1809238/000180923820000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.informatica.com/",
+      "https://www.sec.gov/Archives/edgar/data/1809238/000180923820000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 57000026.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-04-03",
+    "total_raised": 57000026,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Prolific",
@@ -8521,7 +9082,42 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 30000000.0,
+        "currency": "GBP",
+        "date": "2026-06-19",
+        "lead_investors": [
+          "Revaia"
+        ],
+        "investors": [
+          "Revaia"
+        ],
+        "source_url": "https://www.semble.io/articles/semble-secures-30m-investment-revaia-partech",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.semble.io/",
+      "https://www.semble.io/articles/sembles-ps30m-series-c-funding-explained",
+      "https://www.semble.io/articles/semble-secures-30m-investment-revaia-partech"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2026-06-19",
+    "total_raised": 30000000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Revaia"
+    ]
   },
   {
     "company_name": "Sendwave",
@@ -8933,7 +9529,53 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1902833.0,
+        "currency": "USD",
+        "date": "2013-11-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1593373/000159337313000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2015-06-08",
+        "investors": [],
+        "source_url": "https://sketchfab.com/press",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2018-04-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1593373/000159337318000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sketchfab.com/",
+      "https://sketchfab.com/press",
+      "https://www.sec.gov/Archives/edgar/data/1593373/000159337313000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1593373/000159337318000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-04-04",
+    "total_raised": 11402833,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Smartness",
@@ -9163,7 +9805,42 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2106344.0,
+        "currency": "USD",
+        "date": "2015-11-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1659444/000165944415000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2017-07-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1659444/000165944417000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1659444/000165944415000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1659444/000165944417000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-07-19",
+    "total_raised": 4606344,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Studocu",
@@ -9734,7 +10411,56 @@
     ],
     "primary_investor": "Partech",
     "source_url": "https://partechpartners.com/companies",
-    "scraped_at": "2026-10-06T13:33:09.938279+00:00"
+    "scraped_at": "2026-10-06T13:33:09.938279+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2018-04-26",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MSnJDZWlkUjJDSW1ENHA2X29sUnpjank4eFpoOTB5YVlWQ3M2cHRFT0hlWU5aanNPX252UWxGRkxaWmczUFByVTRpbFZlbkdFamNsT0J4NW12VkxkYUhheTUxdUk3c0VDcU85ZWUyWdIBb0FVX3lxTE1MSnJDZWlkUjJDSW1ENHA2X29sUnpjank4eFpoOTB5YVlWQ3M2cHRFT0hlWU5aanNPX252UWxGRkxaWmczUFByVTRpbFZlbkdFamNsT0J4NW12VkxkYUhheTUxdUk3c0VDcU85ZWUyWQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": "2021-12-06",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2lnR18ydFhjSFp2U0RIbi1zcjJmMGhia3lVYmJ3VERHSk9xRFFTck1LWmszaGR1SE9uM0Z0eGZMV3Y4UW9fRVVfeTVKTG1iTHlRRnU1cFZSN081Rmtheks4RFFIN1pGejcxd2FEbXB0Zml0RnRMb2VlN1dkMFRNWDBPSUVpWFZJYnN3WDRreVJ2b0FQQlZiQ1NNeWtzWlFIV1BocUx5dTFYNlpYMWx1LTMtUmx2Ykdod2ZueGpaYzB5YlU?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR090WVl3LWgtWkNGNlFoYndVRDQ1cl9GSHVSbS1YU1ZoSE0wVy1UYnFUMkdqa0RraHNBUFFNY09XV1RuQW5NVlFrY1EtamVNeGJEQllaRGhFeUdPOURuLXRhTk4taFZqbEJoZDNubDk2cFpxZV9wNWtwQkN5MXVZeVdiOVlTNUNUdGtnUGZPNW1pY0g4Q2hOWDNqS1BSSkE3TXdST203LXFnNDBIaUhLZzNxcm9iWnFTMDY3d0ZIemg1WEE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tradedepot.co/",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT2lnR18ydFhjSFp2U0RIbi1zcjJmMGhia3lVYmJ3VERHSk9xRFFTck1LWmszaGR1SE9uM0Z0eGZMV3Y4UW9fRVVfeTVKTG1iTHlRRnU1cFZSN081Rmtheks4RFFIN1pGejcxd2FEbXB0Zml0RnRMb2VlN1dkMFRNWDBPSUVpWFZJYnN3WDRreVJ2b0FQQlZiQ1NNeWtzWlFIV1BocUx5dTFYNlpYMWx1LTMtUmx2Ykdod2ZueGpaYzB5YlU?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaWtjdVFDc09PSG9HdmozZHZOWXN4ZTFfdFl3R1BKX2VWU0dJRFUybkM3VHZZX2tlenp5aGpqMExHY2t3R3BtaFBvZWctbnVaRU1XYVBiV2pFaE0zYWN5dXNUNUQ4eFVUcnV2U0h1UmhRSnFJVWRTQlZ0LS1zYW9ibkQ4b0ZaUG5qdmJzWV9ESjVsLUhraTMzbEhB?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV2tBOHEtc2pPWVN6MDlUcTBxY3BVQzZ1Yy12Q1VUdGxBRnZ4S3ZCOXJnekFKZER2Qnh2bnZtRTVJTXppdjFSb1FheENPQTRrU1d4c0JrRmRVcWdsMlo5dDdaQzY5TFNMRnVVSDkwZEwyZEYxSDZJSDdLQlBrS2E5NWh2TTBlQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR090WVl3LWgtWkNGNlFoYndVRDQ1cl9GSHVSbS1YU1ZoSE0wVy1UYnFUMkdqa0RraHNBUFFNY09XV1RuQW5NVlFrY1EtamVNeGJEQllaRGhFeUdPOURuLXRhTk4taFZqbEJoZDNubDk2cFpxZV9wNWtwQkN5MXVZeVdiOVlTNUNUdGtnUGZPNW1pY0g4Q2hOWDNqS1BSSkE3TXdST203LXFnNDBIaUhLZzNxcm9iWnFTMDY3d0ZIemg1WEE?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcjFVS2tnWFlBVkdTLWdsXzJhR0RWdHR6d3JhalQxY3k2U1V0YWRfUl93eGdLODNTQ1BCUEU3S3h1Sk1jbFRkYnVBR2hRSzdEWEZiVDAwa2VCM1d3emxuV251cXRGR2MzODVRZ2dDdFptaXdTcVlkblB4ai1hcjMwTlhxdDFMZC0waHQ1VkMzNTdwTmlwZVZuTkZGeUJEai02cTFqY2o5bjZpZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX25RR2QtY1MwWmZ1YjZQd0dnblhyZGxqYmhWZHRwQ2J0NUh5S2NhNjNFUDVrR1oyR28tRFlfLTU0XzZ6WjBlbnRrdXRpZ3dQUEwtMzBkWWV6TS1nam1GUzhtdUpVQ3dBSndwTDhyc0JDaWJDRGEwajd2U1FWZHd0RzZpUHBQc1pvcy1XeVA2VklKRnNFaXN1TnYzTFdsQWE5NGllb0lNMnA3YWtLY3poMUV3SUdsZGvSAbwBQVVfeXFMTWJlbWJDdWdjWGpRbFNkczZqaXg2Mm1URmdnX096ZGxyRU11TVdZTGotRElXcUZXWVVnczRhNmJjUHlmNXNMUmFMLThTOHVRa2dXd2tkcVg0Z2FMRXRWeWYtbk90WXlCS0h2UnZ2ajFObzVUc05XN1lxS3FfaUlTOVVRVUUyb0ZFVzVGTDBUVm1jTWxIQmJSZVZwcHpxR0dTeUV1alpRSjlzMlFiY1V1VE1JUm5EMG5oOWRMRFc?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MSnJDZWlkUjJDSW1ENHA2X29sUnpjank4eFpoOTB5YVlWQ3M2cHRFT0hlWU5aanNPX252UWxGRkxaWmczUFByVTRpbFZlbkdFamNsT0J4NW12VkxkYUhheTUxdUk3c0VDcU85ZWUyWdIBb0FVX3lxTE1MSnJDZWlkUjJDSW1ENHA2X29sUnpjank4eFpoOTB5YVlWQ3M2cHRFT0hlWU5aanNPX252UWxGRkxaWmczUFByVTRpbFZlbkdFamNsT0J4NW12VkxkYUhheTUxdUk3c0VDcU85ZWUyWQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 110000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-06",
+    "total_raised": 123000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Transcelestial",

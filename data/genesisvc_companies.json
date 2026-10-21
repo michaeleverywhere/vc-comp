@@ -409,7 +409,33 @@
     "everywhere_tags": [],
     "primary_investor": "Genesis Ventures",
     "source_url": "https://www.genesis-ventures.vc/our-portfolio",
-    "scraped_at": "2026-10-18T19:45:52.700752+00:00"
+    "scraped_at": "2026-10-18T19:45:52.700752+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2023-03-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWUNTZ1dSaWw5d3hUcGxRYW5IcUdzajhjQ1BvUXBFVi1qSDY0N191eHVjeVFicVFCQkFVMlJ1Q1pMbTY2bm1QUUhWQ1NCVUlLV2ptYVdKZmFoaHc2MWFaOVBTcHhXazR6bmFlME16ci1NU01ob04yZDV1SENzdnhybk0zN2hrZVBFOFJzeElTb2tRc1U?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://huupe.com/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWUNTZ1dSaWw5d3hUcGxRYW5IcUdzajhjQ1BvUXBFVi1qSDY0N191eHVjeVFicVFCQkFVMlJ1Q1pMbTY2bm1QUUhWQ1NCVUlLV2ptYVdKZmFoaHc2MWFaOVBTcHhXazR6bmFlME16ci1NU01ob04yZDV1SENzdnhybk0zN2hrZVBFOFJzeElTb2tRc1U?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-27",
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Illuminem",
@@ -1087,6 +1113,32 @@
     "everywhere_tags": [],
     "primary_investor": "Genesis Ventures",
     "source_url": "https://www.genesis-ventures.vc/our-portfolio",
-    "scraped_at": "2026-10-18T19:45:52.700752+00:00"
+    "scraped_at": "2026-10-18T19:45:52.700752+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1195000.0,
+        "currency": "USD",
+        "date": "2017-01-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1821125/000182112520000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.zenus.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1821125/000182112520000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1195000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-01-31",
+    "total_raised": 1195000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

@@ -296,7 +296,54 @@
     "everywhere_tags": [],
     "primary_investor": "Formulate Ventures",
     "source_url": "https://www.formulateventures.com/",
-    "scraped_at": "2026-10-18T18:12:59.290933+00:00"
+    "scraped_at": "2026-10-18T18:12:59.290933+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4500000.0,
+        "currency": "USD",
+        "date": "2023-07-27",
+        "investors": [],
+        "source_url": "https://www.getflipturn.com/blog/flipturn-raises-4-5m-in-seed-funding-to-help-fleets-manage-their-evs-and-ev-chargers",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15554994.0,
+        "currency": "USD",
+        "date": "2024-09-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2040999/000204099924000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2024-11-19",
+        "investors": [],
+        "source_url": "https://www.getflipturn.com/blog/flipturn-raises-11-million-series-a-to-revolutionize-ev-fleet-charging-and-management",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.getflipturn.com/",
+      "https://www.getflipturn.com/blog",
+      "https://www.getflipturn.com/blog/flipturn-raises-11-million-series-a-to-revolutionize-ev-fleet-charging-and-management",
+      "https://www.getflipturn.com/blog/flipturn-raises-4-5m-in-seed-funding-to-help-fleets-manage-their-evs-and-ev-chargers",
+      "https://www.sec.gov/Archives/edgar/data/2040999/000204099924000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-19",
+    "total_raised": 31054994,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Forta Health",
@@ -546,7 +593,41 @@
     ],
     "primary_investor": "Formulate Ventures",
     "source_url": "https://www.formulateventures.com/",
-    "scraped_at": "2026-10-18T18:12:59.290933+00:00"
+    "scraped_at": "2026-10-18T18:12:59.290933+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7299925.0,
+        "currency": "USD",
+        "date": "2022-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1961082/000196108223000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.shennonbio.com/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.shennonbio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1961082/000196108223000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7299925.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-21",
+    "total_raised": 19299925,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Slash",

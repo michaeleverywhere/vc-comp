@@ -165,7 +165,21 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/bigbox-vr",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bigboxvr.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bluepill",
@@ -206,7 +220,21 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/boltive",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://boltive.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Boundless",
@@ -1466,7 +1494,33 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/team-sense",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4993758.0,
+        "currency": "USD",
+        "date": "2023-03-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1970763/000197076323000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://teamsense.com/",
+      "https://www.sec.gov/Archives/edgar/data/1970763/000197076323000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4993758.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-17",
+    "total_raised": 4993758,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "The Instrument",
@@ -1549,7 +1603,34 @@
     "primary_investor": "Pioneer Square Labs",
     "profile_url": "https://www.psl.com/companies/trovatrip",
     "source_url": "https://www.psl.com/companies",
-    "scraped_at": "2026-10-11T13:16:33.752382+00:00"
+    "scraped_at": "2026-10-11T13:16:33.752382+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2022-09-20",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2022/09/20/trovatrip-raises-15m/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trovatrip.com/",
+      "https://techcrunch.com/2022/09/20/trovatrip-raises-15m/",
+      "https://www.oregonlive.com/silicon-forest/2022/09/portland-travel-startup-trovatrip-raises-15-million.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-09-20",
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Yesler",

@@ -92,7 +92,43 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.353191+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2017-07-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjNHpMdEZTUnlGaWFRRm5rTV9jdGpNRlVLWHpHNS1kNEppQzhpUjFrS3ozQ0tBNTJCd29yb2xlRm1iN0dDNEtYdGFVejNpTFltZTU1UHZRTEVaUE1vTmVwcW9UQTAyc1FhaWxnb3NSUHdKYVYzWGo4WVFVTGJsbTg?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2018-04-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TSXZFakl0YTlISl9pN1BnS3ZRYk1rWkZqdDBuNEdMSm13UEd5eTA5OUQ2eXhYREFWWnAxX1hQZ2FOYnZTbXJaTGg2dnh6UWNMTE1uNUdDRTVtZVNFcHpRQ2prcjdQNFQzaWlRaHdXaDVHeVk?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://6river.com/",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjNHpMdEZTUnlGaWFRRm5rTV9jdGpNRlVLWHpHNS1kNEppQzhpUjFrS3ozQ0tBNTJCd29yb2xlRm1iN0dDNEtYdGFVejNpTFltZTU1UHZRTEVaUE1vTmVwcW9UQTAyc1FhaWxnb3NSUHdKYVYzWGo4WVFVTGJsbTg?oc=5",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TSXZFakl0YTlISl9pN1BnS3ZRYk1rWkZqdDBuNEdMSm13UEd5eTA5OUQ2eXhYREFWWnAxX1hQZ2FOYnZTbXJaTGg2dnh6UWNMTE1uNUdDRTVtZVNFcHpRQ2prcjdQNFQzaWlRaHdXaDVHeVk?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-04-04",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Abacus",
@@ -2179,7 +2215,43 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.424932+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6699988.0,
+        "currency": "USD",
+        "date": "2023-12-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006262/000200626224000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5499997.0,
+        "currency": "USD",
+        "date": "2025-09-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006262/000200626225000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.brainjar.games/",
+      "https://www.sec.gov/Archives/edgar/data/2006262/000200626224000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2006262/000200626225000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5499997.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-15",
+    "total_raised": 12199985,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bread",
@@ -2409,20 +2481,39 @@
     "scraped_at": "2026-10-08T23:27:03.437034+00:00",
     "primary_investor": "Menlo Ventures",
     "site_status": "Current",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-09-26",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/cartwheel-raises-20-million-series-a-funding-to-tackle-the-student-mental-health-crisis-301938804.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.cartwheel.org/"
+      "https://www.cartwheel.org/",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVHR5TnA2elVzS0sxSnAzMFlkdU5Za2JKOEhhOFdJcHNhTjJhSlR6TnhSN05BT0c3d3p4ZUdyeVBwVndUX1ltSDFjOHhJU0lLcWs0aHFURWlCU1J6Y3dwaEVvYzRsei0yWThZamN3Sk9ZMmd3NlRSRE1fLVV0Sy1wT3o2MGxTaEdoTFlFMHQ2TnhYZS1fMkhrOGt4RlQwNkR1U0tJ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdzR2VlBpc0ZReExyMElLV2h1TVZfc0ljNGZaSDlZTGhBSHdkUEVra1I4bWE5S21vYlNzRHAxSU9wR0FCTFVBRXE2S01DcjFobHpjenFTNm4zZFFDY3EwQ194bEtHNnM0SjJoYmFKczBxbHM0WG43ZE9xMVZIbENtUnlZYXIzUjlxRUFtTXdxVlo2RmlnQ3F1NU8xNFZxTHpjXzg3WXhMT0NGWnZUYWUtVkNlZ1VOSm11ckxMUFM4eDdrdll1UUVuSTNZMkx6Q09BSEJleEtFU0F3cFk?oc=5",
+      "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcThzMmVDVW44WWtWOTlXSzZuRFBqeFdma2NpTWRkNFlCZWpZakZfWVN4SlQ2OHZpRlE0NE1VeE9QeG9EU0k5TU8ydURROVdEM0JZT1ZaZ0FKS09HUlQ3b3VseFQtTlNhSVctSmZLUFVDLW14YmVkZ09YRWlNOGpRVDB4WVh2dUdxLVdmN1dBMXZyeVpiQXNrNFlYRlhhZWNKUWRWOGw0Uk5uU1dTMzFYMXJMV0FMQnJnbTI5anpDNnh3b1d6MXNCRWdRM2NIR01na2V4ZWRRT2pYZno3b1ZjSkFPYVVMZUVMM2hiN20xeEk3c3ZtYzJ5MUxBaw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE05V3hGX3JKbFR2LWN3YnBDeUpFckFvSlFFUFdCa21zQUM5ekRTRDFpNHhZeXhSV0cwbU1vN3hNZjZnN0hub0prRjVnZjJUclBiOFFmN0MxTFdqNFk4eXFMOFpOR0x3Q19RVDNad1c3MzRGX2R2V0xvNTk0eUFnUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZlMxLVNSckJEd2dmcmFUQmVQLU1jWnk3d3hZcjY0eXMwVmx6YVVhT3dycW9jaEV5eFlvc29oZlNLR1FLY1pqbmxKT2JWNERGWG5oSEVLcWk5emNHWXBBdTJjLU9TVkN3dzZlWk1McFoxNUxMM2taQlZmcTBiZ1dMVWpHMHBkLUxVYnVVZkZ5WHNJdEFSbEpEM2NvNTZHRU5nVmlJei1pdEZkR1pGNDVlcEJUTk44SzBkUFVyZWYxMVNQeU9IbXZidzJxczZneHBEQS1jQkNBX1NZZEt2dGVCTWVfaw?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnRjN2ZsbzhZZ0FwaUl6UEc2UEpzSGdZMjduY3NoYmNOWTZjQTlwcDFkY2h6U2k5QWdMVUIta3VmM1RFOUFka1ZFQVpxWUpOZ0FpclV0MG5XMTJDUF83WDJmY3RvRXM1ZkpLYWt5VkNrelFRXzREYi1rRFJKenRUOXJEbw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHA4bW5JYjJucU9ZVzJZeXZFOEFENHpfVVdZZTZjeXBac2JOdkVfeUQ5RUNELVM1S3pxc2l4bFgwN3d0NU9KMXRzRWo4OUNqeDRLdkJpLUdkT0VsSmVPQ1libFhJNVJWZ0NGdGhEejcwUS1XcnZzVXFnNnJ4aXQ3bmtpTF9YcmR3X0pRMHpn0gGTAUFVX3lxTE9RUWhMdjJXbFBoek5YaEVkMEdxcmt0eV9XWnRzV3dlZVZYeG56RUphZDJhZ09GT0dxNEo4TWNNT0NkSWRydk9zMzJuSnZ6d09Ub1Nha2hvbkI1QXRVMkhpWHRnTkJUd0FGWUFJMjR6QWRGUFZ0UnpwZ0Z1UzI0NjRNenhHa000RXgyREg2ajh3SnN1WQ?oc=5",
+      "https://www.prnewswire.com/news-releases/cartwheel-raises-20-million-series-a-funding-to-tackle-the-student-mental-health-crisis-301938804.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-09-26",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cavium",
@@ -2524,7 +2615,60 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.441862+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": "2021-12-15",
+        "investors": [],
+        "source_url": "https://www.cequence.ai/blog/series-c-funding-bigger-better-faster",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "Dell Technologies Capital",
+          "HarbourVest Partners",
+          "ICON Ventures",
+          "Menlo Ventures",
+          "Shasta Ventures",
+          "Telstra Ventures",
+          "T-Mobile Ventures"
+        ],
+        "source_url": "https://www.cequence.ai/news/cequence-security-secures-investment-from-prosperity7-ventures"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cequence.ai/",
+      "https://www.cequence.ai/blog/series-c-funding-bigger-better-faster",
+      "https://www.cequence.ai/news/cequence-security-raises-60m-in-series-c-funding-to-meet-surging-demand-for-its-innovative-api-security-platform",
+      "https://www.cequence.ai/news/cequence-security-secures-investment-from-prosperity7-ventures"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-15",
+    "total_raised": 160000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Dell Technologies Capital",
+      "HarbourVest Partners",
+      "ICON Ventures",
+      "Menlo Ventures",
+      "Shasta Ventures",
+      "Telstra Ventures",
+      "T-Mobile Ventures"
+    ]
   },
   {
     "company_name": "Chai Discovery",
@@ -3077,7 +3221,43 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.458310+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2025-05-13",
+        "lead_investors": [
+          "Scale Venture Partners"
+        ],
+        "investors": [
+          "Scale Venture Partners",
+          "Okta Ventures"
+        ],
+        "source_url": "https://www.clearvector.com/blog/building-the-future-of-cybersecurity-clearvectors-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.clearvector.com/",
+      "https://www.clearvector.com/blog/building-the-future-of-cybersecurity-clearvectors-series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-13",
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Scale Venture Partners",
+      "Okta Ventures"
+    ]
   },
   {
     "company_name": "Clerk",
@@ -3380,7 +3560,53 @@
     "scraped_at": "2026-10-08T23:27:03.466113+00:00",
     "location": "St. Louis",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10683766.0,
+        "currency": "USD",
+        "date": "2017-06-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710475/000171047517000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6906712.0,
+        "currency": "USD",
+        "date": "2021-12-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710475/000171047521000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1174682.0,
+        "currency": "USD",
+        "date": "2023-07-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1710475/000171047523000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cofactorgenomics.com/",
+      "https://www.sec.gov/Archives/edgar/data/1710475/000171047517000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710475/000171047521000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1710475/000171047523000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1174682.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-20",
+    "total_raised": 18765160,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CollegeVine",
@@ -3518,7 +3744,73 @@
     "scraped_at": "2026-10-08T23:27:03.473144+00:00",
     "location": "California",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 26639758.0,
+        "currency": "USD",
+        "date": "2017-10-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721323/000172132317000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2017-12-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721323/000172132318000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 87496.0,
+        "currency": "USD",
+        "date": "2018-01-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721323/000172132318000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 70.0,
+        "currency": "USD",
+        "date": "2019-03-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721323/000172132319000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13199961.0,
+        "currency": "USD",
+        "date": "2019-08-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1721323/000172132319000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.creditsesame.com/",
+      "https://www.sec.gov/Archives/edgar/data/1721323/000172132317000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721323/000172132318000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721323/000172132318000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721323/000172132319000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1721323/000172132319000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 13199961.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-22",
+    "total_raised": 44927285,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Crogl",
@@ -3878,7 +4170,41 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.486232+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 325000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://delfidiagnostics.com/about-us/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 225000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://delfidiagnostics.com/about-us/newsroom/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://delfidiagnostics.com/",
+      "https://delfidiagnostics.com/about-us/",
+      "https://delfidiagnostics.com/about-us/newsroom/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 225000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 550000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Delphi",
@@ -4060,7 +4386,33 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.494168+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 63000000.0,
+        "currency": "USD",
+        "date": "2022-05-02",
+        "investors": [],
+        "source_url": "https://edgedelta.com/company/blog/series-b-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://edgedelta.com/",
+      "https://edgedelta.com/company/blog/series-b-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 63000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-02",
+    "total_raised": 63000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EdgeCast",
@@ -4780,7 +5132,58 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.516986+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2018-06-28",
+        "investors": [
+          "Andreessen Horowitz"
+        ],
+        "source_url": "https://www.everlaw.com/blog/everlaw/everlaw-raises-series-b-investment/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 62000000.0,
+        "currency": "USD",
+        "date": "2020-03-10",
+        "investors": [],
+        "source_url": "https://www.everlaw.com/blog/everlaw/everlaw-series-c-funding-round/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series D",
+        "amount": 202000000.0,
+        "currency": "USD",
+        "date": "2021-11-02",
+        "investors": [],
+        "source_url": "https://www.everlaw.com/blog/everlaw/everlaw-secures-202-million-series-d-round-of-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.everlaw.com/",
+      "https://www.everlaw.com/blog/everlaw/everlaw-raises-series-b-investment/",
+      "https://www.everlaw.com/blog/everlaw/everlaw-series-c-funding-round/",
+      "https://www.everlaw.com/blog/everlaw/everlaw-secures-202-million-series-d-round-of-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series D",
+    "last_round_amount": 202000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-02",
+    "total_raised": 289000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz"
+    ]
   },
   {
     "company_name": "F5",
@@ -7478,7 +7881,21 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.607412+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.matik.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MealPal",
@@ -8206,7 +8623,53 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.636770+00:00",
     "location": "Vancouver",
-    "primary_investor": "Menlo Ventures"
+    "primary_investor": "Menlo Ventures",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": "2011-08-18",
+        "investors": [],
+        "source_url": "https://www.nlight.net/press-releases-content/nlight-raises-175-million-investment-to-accelerate-growth-h3p8x",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35833687.0,
+        "currency": "USD",
+        "date": "2014-11-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1124796/000112479616000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25775997.0,
+        "currency": "USD",
+        "date": "2017-04-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1124796/000112479617000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nlight.net/",
+      "https://www.nlight.net/press-releases-content/nlight-raises-175-million-investment-to-accelerate-growth-h3p8x",
+      "https://www.sec.gov/Archives/edgar/data/1124796/000112479616000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1124796/000112479617000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 25775997.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-04-28",
+    "total_raised": 79109684,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nourish",
@@ -8242,7 +8705,45 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.638988+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2026-07-23",
+        "investors": [],
+        "source_url": "https://www.nourish.com/blog/nourish-announces-series-c",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": "2026-07-23",
+        "investors": [],
+        "source_url": "https://www.nourish.com/blog/nourish-announces-series-b",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nourish.com/",
+      "https://www.nourish.com/about",
+      "https://www.nourish.com/blog",
+      "https://www.nourish.com/blog/nourish-announces-series-c",
+      "https://www.nourish.com/blog/nourish-announces-series-b"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-07-23",
+    "total_raised": 170000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Numeric",
@@ -8366,7 +8867,22 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.643306+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMFptOXlZUUpTQWlVRHJpYkhuWDM2ZDlGaWM4aEJub04wX3ViZ25qUkZCQnlkMmtrMmNoYnh0ZUZpRWxXLTNMRXVLUC10eG4za3Y2SW5EbkVjUkpVLVNTSzRtTW80Ymt2RXZPakxYZGVMSVg1S1I5SkFrdjYzZkhKTw?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdDVKVHRNQlNOYVZIbUYwV2FWYkJhMU00dzNVTThWelUzM0ZNYzZPTTdXUngySFhwbFBQZWZqYkN4X3dQa1gzLUdySGNBQ095X1V6OXpoeGtEbW9fc2s2ZTQxY3pXWlJ4SzhIUC04b0xIb2ZIVGFXd2YteHZHZVRSbEdxSnN6c2VBUVIxVjU0Yk1GYmxjVTN5UFFVRmZremF1Z3dfT0k2dVdKMlRxQ1RF?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Observe.AI",
@@ -8803,7 +9319,42 @@
     "scraped_at": "2026-10-08T23:27:03.656983+00:00",
     "location": "New York City",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 113000000.0,
+        "currency": "USD",
+        "date": "2026-05-28",
+        "investors": [],
+        "source_url": "https://openrouter.ai/blog/announcements/series-b/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://openrouter.ai/about"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://openrouter.ai/",
+      "https://openrouter.ai/about",
+      "https://openrouter.ai/blog/announcements/series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 113000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-28",
+    "total_raised": 153000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OpenSpace",
@@ -8936,20 +9487,45 @@
     "scraped_at": "2026-10-08T23:27:03.660825+00:00",
     "primary_investor": "Menlo Ventures",
     "site_status": "Current",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2021-12-14",
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "investors": [
+          "Tiger Global"
+        ],
+        "source_url": "https://hitconsultant.net/2021/12/14/ophelia-opioid-use-disorder-funding/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://ophelia.com/"
+      "https://ophelia.com/",
+      "https://news.google.com/rss/articles/CBMikwJBVV95cUxPQlBHTmE0ejd3SXRSMVJudDZCeTlaa0hVSGptbGJLbHpJZ1Jjbkp0MHVJLXcyNzRXbzItMmNZUHVRcjB4QVVWSjJyYWdhZFNZRHlSdjFEUmJuTXNkZ19YUHNlcFlIZk1qc3N0N2N5WTQ1WjhYcTdzbFJCa3VNRmtKUWxlSm9tVVNTRUtQLWJiTXdrRlAtMkEzT2Z0U2hMeGpGSUNGSnBsdjFyc0RiS3kxdlZLRUNRcVVyUHJSNnJ2bTdWSzdYNzVCWjliS3hXM2pHNERic3Rlb0l2V0toOVU4TDRTQ1hDVmxFb29yWUJDNDdSWFdDVFFKb2phelpGSEY0Z3M1aHhidlYwbEx2elctLTdsSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLThudmh4cllEcjEycF9pdTN4MFJ0SnIwT19mSHlxblJXNl9TX2xzaUdoY19CODQtVWx2VEtsbzF3aWRxYUtPYVdiYnpkNXJGRVVHQXZITUs2TDY2T1lUMEF6VzN4eW1ZZkRGOThrSks2UUlheFFNWDFiRlBXaG43aENXWTdOX2xkUDF2NWtZdUM4RTM3am5yOTRkLVVfUGtzZVhnNWJHWUZNSDBfU3FQcUs4UW1kX3NvdVBXc0xiVWRvZU5E?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yMU9hLWYyQk1MZWhxa09ObHh4SElsa1FTeGF5VFVpVlg5MXZjLWhNSmV5eld5d2hmRjNxeFZSMmJCZXdVZS14RUx4LVZPdVFYUXR1V3BTQUEyOUJYRjBnbG8wMVc2aW9IczAweWxmQjlSYV82VU9KTFI5SUdtQQ?oc=5",
+      "https://hitconsultant.net/2021/12/14/ophelia-opioid-use-disorder-funding/",
+      "https://finance.yahoo.com/news/ophelia-raises-50-million-series-141500573.html",
+      "https://finance.yahoo.com/news/digital-startup-ophelia-raises-50-130001014.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-14",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tiger Global"
+    ]
   },
   {
     "company_name": "Opna Bio",
@@ -9727,7 +10303,42 @@
     ],
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.684759+00:00",
-    "primary_investor": "Menlo Ventures"
+    "primary_investor": "Menlo Ventures",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 62148314.0,
+        "currency": "USD",
+        "date": "2018-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1746473/000174647318000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100445146.0,
+        "currency": "USD",
+        "date": "2019-12-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1746473/000174647320000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1746473/000174647318000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1746473/000174647320000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 100445146.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-12-19",
+    "total_raised": 162593460,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pluribus Networks",
@@ -9979,7 +10590,24 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.696053+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.prodigaltech.com/",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxUWWtxOTlpdWgwQ3dEd2oxdjdoNUhueWFkaHlSRVZjZ1hpNjRBdEd0YjZndUdaZ1JiOGJzQ1hqZUdlTkhCaUpucDhhUDdlSEhhZjAta0JvUFdyTndJRmpDbHRuSy0zaFdGTzBYSHVKZmpOSklzUDRwcjAwTmVZVG1CZTJ0YUFma1dDWkxTQlNZd1dmd05WaE56d3dRRFNaMldsRF9mNnJKV2U4QWZJbXg1WlpoRkVNeG8xMEJtX3laOGl5MURhd2hlTldXaGhtMS1mUlFWRmRBOFljNkpYM2dB?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVkxwWVVhVkQ0YWhuQWwzWGhrQ08zOVZyVWhvMktZUTctWFhjQ0ZWcDFXS0h5Ri1iSUlpZXJzYkVuYmJCRHpUZWQ4OGZTMzVRTzFaQmdqWF9nQzhmOXVXNDhHSDBJLURKaTVuakJZQmI5Qm9uTmt6V3ZjRE5RQmJFV0p3?oc=5",
+      "https://yourstory.com/2021/07/funding-debt-collection-software-maker-prodigal-seriesa-menlo-ventures"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Q1 Labs",
@@ -10753,7 +11381,32 @@
     "scraped_at": "2026-10-08T23:27:03.731047+00:00",
     "location": "Alameda",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-03-17",
+        "investors": [],
+        "source_url": "https://www.scribetx.com/newsroom/casx-start-up-scribe-therapeutics-raises-100-million-for-crispr-therapies",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.scribetx.com/newsroom/casx-start-up-scribe-therapeutics-raises-100-million-for-crispr-therapies"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-17",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Semgrep",
@@ -11843,7 +12496,41 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.766066+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.squint.ai/blog/squint-raises-40mm-series-b-expanding-revolutionary-agentic-manufacturing-to-new-industries-and-new-heights"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.squint.ai/blog/squint-raises-6m-from-sequoia-capital-and-menlo-ventures-to-optimize-the-factory-floor"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.squint.ai/",
+      "https://www.squint.ai/blog/squint-raises-40mm-series-b-expanding-revolutionary-agentic-manufacturing-to-new-industries-and-new-heights",
+      "https://www.squint.ai/blog/squint-raises-6m-from-sequoia-capital-and-menlo-ventures-to-optimize-the-factory-floor"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 46000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "StackRox",
@@ -12332,7 +13019,43 @@
     "source_url": "https://menlovc.com/portfolio/",
     "scraped_at": "2026-10-08T23:27:03.788348+00:00",
     "primary_investor": "Menlo Ventures",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12184998.0,
+        "currency": "USD",
+        "date": "2020-10-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1773343/000177334320000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2022-03-16",
+        "investors": [],
+        "source_url": "https://truera.com/truera-announces-series-b/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://truera.com/",
+      "https://truera.com/truera-announces-series-b/",
+      "https://www.sec.gov/Archives/edgar/data/1773343/000177334320000003/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-16",
+    "total_raised": 37184998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tumblr",

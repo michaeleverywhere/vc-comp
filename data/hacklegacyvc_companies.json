@@ -39,20 +39,33 @@
     "primary_investor": "Hacklegacy VC",
     "source_url": "https://www.hacklegacy.vc/",
     "scraped_at": "2026-10-18T21:31:06.359255+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2023-10-18",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2023/10/18/australian-data-encryption-cybersecurity-startup-cipherstash-raises-3m/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://cipherstash.com/"
+      "https://cipherstash.com/",
+      "https://siliconangle.com/2023/10/18/australian-data-encryption-cybersecurity-startup-cipherstash-raises-3m/",
+      "https://www.theaustralian.com.au/business/technology/cyber-startup-cipherstash-which-beats-hackers-to-the-punch-raises-48m/news-story/21cae22bb3457fa4912c5af2ee0d1c3b"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CommandBar",

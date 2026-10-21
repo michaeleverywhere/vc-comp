@@ -426,7 +426,53 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/landline",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19999997.0,
+        "currency": "USD",
+        "date": "2021-10-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1892095/000189209521000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 21819093.0,
+        "currency": "USD",
+        "date": "2022-09-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1892095/000189209524000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5562590.0,
+        "currency": "USD",
+        "date": "2026-03-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1892095/000189209526000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://landline.com/",
+      "https://www.sec.gov/Archives/edgar/data/1892095/000189209521000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1892095/000189209524000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1892095/000189209526000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5562590.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-11",
+    "total_raised": 47381680,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kyro",
@@ -762,7 +808,73 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/encamp",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1850000.0,
+        "currency": "USD",
+        "date": "2018-11-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1762965/000176296519000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5222178.0,
+        "currency": "USD",
+        "date": "2020-04-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1762965/000176296520000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2021-02-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1762965/000176296521000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 3100000.0,
+        "currency": "USD",
+        "date": "2021-04-08",
+        "investors": [],
+        "source_url": "https://encamp.com/blog/encamp-secures-3-1m-in-series-a-funding-to-fuel-product-development/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2022-06-08",
+        "investors": [],
+        "source_url": "https://encamp.com/blog/encamp-valuation-hits-150m-after-30m-raise/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://encamp.com/",
+      "https://encamp.com/blog/encamp-secures-3-1m-in-series-a-funding-to-fuel-product-development/",
+      "https://encamp.com/blog/encamp-valuation-hits-150m-after-30m-raise/",
+      "https://www.sec.gov/Archives/edgar/data/1762965/000176296519000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1762965/000176296520000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1762965/000176296521000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-08",
+    "total_raised": 52172178,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cofactor AI",
@@ -811,7 +923,93 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/clustertruck",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1265000.0,
+        "currency": "USD",
+        "date": "2015-05-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313815000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2016-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313817000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9999894.0,
+        "currency": "USD",
+        "date": "2017-07-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313817000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3564350.0,
+        "currency": "USD",
+        "date": "2018-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313819000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2020-07-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313820000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 215000.0,
+        "currency": "USD",
+        "date": "2021-06-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 425521.0,
+        "currency": "USD",
+        "date": "2026-05-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643138/000164313826000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://clustertruck.com/",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313815000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313817000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313817000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313819000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313820000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313821000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643138/000164313826000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 425521.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-20",
+    "total_raised": 22469765,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Passage",
@@ -974,21 +1172,47 @@
     "profile_url": "https://drivecapital.com/portfolio/allstar",
     "source_url": "https://drivecapital.com/portfolio",
     "scraped_at": "2026-10-11T13:16:25.115655+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3850000.0,
+        "currency": "USD",
+        "date": "2021-05-13",
+        "investors": [],
+        "source_url": "https://www.gamesindustry.biz/allstar-raises-3-85m-in-seed-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2023-12-11",
+        "investors": [],
+        "source_url": "https://venturebeat.com/games/allstar-raises-12m-content-creation-studio/",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://allstar.gg/",
-      "https://allstarperformance.com/"
+      "https://allstarperformance.com/",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdVVCeExtaFBYU0JUTGhxeFoxMmgzMGJwcGxxWmY2ZlNHZ0kxbGY4U3dYaXlKNXR4enpyMk1sY1NNV2pwOG9vWmRiNTRHVmFGSWdZOUxQSkllSW5BT05kRUFuUUp4NjJpYXlmeDVJUEYyN3ROY2psWmxzcjlrTmQzRzNENW1SUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZDdhWmN5T1hEbGFhRHhfU2gycmNULWloSzREUkNWdHE3cHZxcXpSektCVWtnYk12R3dxMGVqWjhqUkpXbjZzQ043MVFjdEt2Yl9KREtkTmJoelI1OUt5SzV3SUIxNURmblcyOHRsRUF6Mkx6N3JzTmdwX2ZnNDdUZnJaQXNKbmFjWUJGUEJUeFl3bG9LdlgxS253?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbVdYaVNwZXR2OXJ6bzRTa0ZWQ3pMRUJ0OHNUcmpiem04UHdDZ3U1cG5ISGdrVkxMeHJ5SjdiY0dlVGlQWVFZT1l0RmJEcHdOSl9NdEJwMl9xaTI3TDNSRFIyM1plOWwwWHIxRU8wcHJWTExUV1FzaXhVQVlneGJqTGhuV3FZWi1XaHZSS2JCbmtFazJMM24zYTlhVkNoUWdGbXZ0aEJKdw?oc=5",
+      "https://www.gamesindustry.biz/allstar-raises-12-million-in-seed-a-funding-round",
+      "https://venturebeat.com/games/allstar-raises-12m-content-creation-studio/",
+      "https://www.gamesindustry.biz/allstar-raises-3-85m-in-seed-funding"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 15850000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-11",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Normal Computing",
@@ -1085,7 +1309,21 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/lunasonde",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://lunasonde.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hologram",
@@ -1153,7 +1391,33 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/nursa",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNME1KSHpTZkVZS1U2MmJuTC16TjY3ZmtZcWE4blFoY0RvZW56bXJNbWJ3VlJENnF1SFN4VXBUN1JGRWtjWXBtVXBKWkgyMmY4VVMwWDl1cjRLY193YU9HV2dwbDdScHpQT0Q3MU1TMkZLNV8wYU9zdEU1S2lEMDRTNExGZlg1Z3c?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://nursa.com/",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNME1KSHpTZkVZS1U2MmJuTC16TjY3ZmtZcWE4blFoY0RvZW56bXJNbWJ3VlJENnF1SFN4VXBUN1JGRWtjWXBtVXBKWkgyMmY4VVMwWDl1cjRLY193YU9HV2dwbDdScHpQT0Q3MU1TMkZLNV8wYU9zdEU1S2lEMDRTNExGZlg1Z3c?oc=5",
+      "https://www.businesswire.com/news/home/20230822989886/en/Nursa-Leverages-80M-Series-B-to-Expand-C-Suite-and-Address-Rising-Healthcare-Staffing-Shortage-and-Financial-Crisis"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AcreTrader",
@@ -1171,7 +1435,104 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/acretrader",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1960000.0,
+        "currency": "USD",
+        "date": "2018-12-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780972/000178097219000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 270.0,
+        "currency": "USD",
+        "date": "2019-09-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780972/000178097219000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3425000.0,
+        "currency": "USD",
+        "date": "2020-03-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780972/000178097220000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-04-10",
+        "investors": [],
+        "source_url": "https://acretrader.com/newsroom/acretrader-raises-5-million-connect-investors-farmland",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2021-03-11",
+        "investors": [],
+        "source_url": "https://acretrader.com/newsroom/acretrader-raises-12m-series-funding-modernize-farmland-transactions",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-01-11",
+        "investors": [],
+        "source_url": "https://acretrader.com/newsroom/acretrader-raises-40-million-series-b-funding-fuel-strategic-growth",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 21494990.0,
+        "currency": "USD",
+        "date": "2022-02-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780972/000178097222000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 150000.0,
+        "currency": "USD",
+        "date": "2024-07-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1780972/000178097224000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://acretrader.com/",
+      "https://acretrader.com/newsroom/acretrader-expands-series-b-round-over-60-million",
+      "https://acretrader.com/newsroom/acretrader-raises-40-million-series-b-funding-fuel-strategic-growth",
+      "https://acretrader.com/newsroom/acretrader-raises-12m-series-funding-modernize-farmland-transactions",
+      "https://acretrader.com/newsroom/acretrader-raises-5-million-connect-investors-farmland",
+      "https://www.sec.gov/Archives/edgar/data/1780972/000178097219000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1780972/000178097219000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1780972/000178097220000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1780972/000178097222000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1780972/000178097224000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 150000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-15",
+    "total_raised": 84030260,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Circulo",
@@ -1221,7 +1582,21 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/tesouro",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tesouro.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Beam Benefits",
@@ -1317,7 +1692,52 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/strongarm-technologies",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 615000.0,
+        "currency": "USD",
+        "date": "2013-08-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1585716/000158571613000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2916001.0,
+        "currency": "USD",
+        "date": "2015-08-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1585716/000158571615000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://strongarmtech.com/about/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://strongarmtech.com/",
+      "https://strongarmtech.com/about/",
+      "https://www.sec.gov/Archives/edgar/data/1585716/000158571613000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1585716/000158571615000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2916001.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-08-04",
+    "total_raised": 3531001,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Duality",
@@ -1367,7 +1787,34 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/when-i-work",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2021-10-29",
+        "investors": [],
+        "source_url": "https://wheniwork.com/blog/when-i-work-secures-200-million-investment-from-bain-capital",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wheniwork.com/",
+      "https://wheniwork.com/newsroom",
+      "https://wheniwork.com/blog/when-i-work-secures-200-million-investment-from-bain-capital"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-29",
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Signal Advisors",
@@ -1550,7 +1997,43 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/disruptops",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2018-07-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1759547/000175954718000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2020-02-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1759547/000175954720000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.firemon.com/",
+      "https://www.sec.gov/Archives/edgar/data/1759547/000175954718000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1759547/000175954720000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-02-24",
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Duolingo",
@@ -1726,7 +2209,45 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/pieces",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13500000.0,
+        "currency": "USD",
+        "date": "2024-07-10",
+        "lead_investors": [
+          "Drive Capital"
+        ],
+        "investors": [
+          "Drive Capital",
+          "Cintrifuse Capital",
+          "RedHawk Ventures"
+        ],
+        "source_url": "https://pieces.app/updates/pieces-announces-series-a-funding-and-launch-of-live-context",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pieces.app/",
+      "https://pieces.app/updates/pieces-announces-series-a-funding-and-launch-of-live-context"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 13500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-10",
+    "total_raised": 13500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Drive Capital",
+      "Cintrifuse Capital",
+      "RedHawk Ventures"
+    ]
   },
   {
     "company_name": "Relay Platform",
@@ -1744,7 +2265,33 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/relay-platform",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7249999.0,
+        "currency": "USD",
+        "date": "2021-04-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1862813/000186281321000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://relayplatform.com/",
+      "https://www.sec.gov/Archives/edgar/data/1862813/000186281321000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7249999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-30",
+    "total_raised": 7249999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Olive",
@@ -1782,7 +2329,53 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/battleface",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5179966.0,
+        "currency": "USD",
+        "date": "2022-01-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1908864/000190886422000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10848720.0,
+        "currency": "USD",
+        "date": "2024-10-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1908864/000190886424000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1249985.0,
+        "currency": "USD",
+        "date": "2026-08-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1908864/000190886426000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.battleface.com/en-us/",
+      "https://www.sec.gov/Archives/edgar/data/1908864/000190886422000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1908864/000190886424000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1908864/000190886426000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1249985.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-07",
+    "total_raised": 17278671,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Molecula",
@@ -1801,7 +2394,53 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/molecula",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5962512.0,
+        "currency": "USD",
+        "date": "2018-10-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758602/000175860219000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17623877.0,
+        "currency": "USD",
+        "date": "2020-12-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758602/000175860221000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6239234.0,
+        "currency": "USD",
+        "date": "2022-08-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1758602/000175860222000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.circuit.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1758602/000175860219000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1758602/000175860221000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1758602/000175860222000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 6239234.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-23",
+    "total_raised": 29825623,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Forge Biologics",
@@ -2203,7 +2842,34 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/vecna-robotics",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 31000000.0,
+        "currency": "USD",
+        "date": "2026-09-10",
+        "investors": [],
+        "source_url": "https://www.vecnarobotics.com/news/vecna-robotics-raises-31-million-to-meet-demand-for-flexible-dock-to-dock-automation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vecnarobotics.com/",
+      "https://www.vecnarobotics.com/news-and-press/",
+      "https://www.vecnarobotics.com/news/vecna-robotics-raises-31-million-to-meet-demand-for-flexible-dock-to-dock-automation/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 31000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-10",
+    "total_raised": 31000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Udacity",
@@ -2540,7 +3206,64 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/immuta",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2018-06-20",
+        "investors": [],
+        "source_url": "https://www.immuta.com/press-releases/immuta-raises-20-million-series-b-to-accelerate-adoption-of-data-management-for-ai",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2020-06-23",
+        "investors": [],
+        "source_url": "https://www.immuta.com/press-releases/immuta-secures-40m-in-funding-led-by-intel-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series D",
+        "amount": 90000000.0,
+        "currency": "USD",
+        "date": "2021-05-20",
+        "investors": [],
+        "source_url": "https://www.immuta.com/press-releases/immuta-announces-90-million-in-series-d-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2022-06-08",
+        "investors": [],
+        "source_url": "https://www.immuta.com/resources/series-e-funding-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.immuta.com/",
+      "https://www.immuta.com/resources/series-e-funding-announcement",
+      "https://www.immuta.com/press-releases/immuta-announces-90-million-in-series-d-funding",
+      "https://www.immuta.com/press-releases/immuta-raises-100-million-in-series-e-funding",
+      "https://www.immuta.com/press-releases/immuta-raises-20-million-series-b-to-accelerate-adoption-of-data-management-for-ai",
+      "https://www.immuta.com/press-releases/immuta-secures-40m-in-funding-led-by-intel-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-08",
+    "total_raised": 250000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Greenlight",
@@ -2578,6 +3301,41 @@
     "primary_investor": "Drive Capital",
     "profile_url": "https://drivecapital.com/portfolio/algolux",
     "source_url": "https://drivecapital.com/portfolio",
-    "scraped_at": "2026-10-11T13:16:25.115655+00:00"
+    "scraped_at": "2026-10-11T13:16:25.115655+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9009973.0,
+        "currency": "USD",
+        "date": "2018-03-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1734003/000089979718000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6999987.0,
+        "currency": "USD",
+        "date": "2021-06-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1734003/000089979721000015/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1734003/000089979718000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1734003/000089979721000015/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 6999987.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-09",
+    "total_raised": 16009960,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

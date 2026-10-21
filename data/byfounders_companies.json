@@ -98,7 +98,21 @@
     ],
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
-    "scraped_at": "2026-10-07T13:40:38.844239+00:00"
+    "scraped_at": "2026-10-07T13:40:38.844239+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.yaak.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Starberry Games",
@@ -397,7 +411,21 @@
     ],
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
-    "scraped_at": "2026-10-07T13:40:38.844239+00:00"
+    "scraped_at": "2026-10-07T13:40:38.844239+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://docs.garden.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Dazzle Rocks",
@@ -491,20 +519,45 @@
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
     "scraped_at": "2026-10-07T13:40:38.844239+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2019-08-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpWlFod0pSQ2FGcFlQY2REbE1jRjFPbTRTYXlkbkZmaEJVcXJ3LXBXVVFkWmVvcVY3dWExYUZmcG52c2V4cVR1VjVqdUdsdlRVS0FrMFdVRVI?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": "2022-04-21",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOUZVNkhPdHdnanF5UEhaSjdiOTlOWkp3TUVVOGhRSHA0bXZaVkNfajBCQzc4X0duSDlMdHVQNEdrVXRRZEhQbXhCVE1FMUY4eGlPS2ZKMmJ2Yjl1NkxUaGlUNTBsZXlpREJKMXhrY1BZcUJFcUxhUURnc0poQ0R4bGJjQ21aOEpqbGc1Uk5rRmJRa0JhTE1rZ3FhMjR1OXFFUDZIc0V3RU5zNUpuUzl2TmNmdDdjcXo5RFhaRDA1UGo5OGpFa0pmbVRHS2tqZ0xrb3NrSA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://safetywing.com/"
+      "https://safetywing.com/",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOUZVNkhPdHdnanF5UEhaSjdiOTlOWkp3TUVVOGhRSHA0bXZaVkNfajBCQzc4X0duSDlMdHVQNEdrVXRRZEhQbXhCVE1FMUY4eGlPS2ZKMmJ2Yjl1NkxUaGlUNTBsZXlpREJKMXhrY1BZcUJFcUxhUURnc0poQ0R4bGJjQ21aOEpqbGc1Uk5rRmJRa0JhTE1rZ3FhMjR1OXFFUDZIc0V3RU5zNUpuUzl2TmNmdDdjcXo5RFhaRDA1UGo5OGpFa0pmbVRHS2tqZ0xrb3NrSA?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpWlFod0pSQ2FGcFlQY2REbE1jRjFPbTRTYXlkbkZmaEJVcXJ3LXBXVVFkWmVvcVY3dWExYUZmcG52c2V4cVR1VjVqdUdsdlRVS0FrMFdVRVI?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRW56UGJzNDdKQ0ZoUjdXUExkQ013S3RYc3NRZzdhMVJfME50M1pTYUcwZkM5SWZqeDhzM1pHZUc4b0ZUNk9OZXFVeE41bFQtS05YbWR5VGtzcFYxdWtYY3lYVVMtNkdOS0pSQlEyM1BXRG90Yk5BUHhhVnhDeHlZX1cyTENMV2pwZnV6MDgxQ3Nfc29hVlhXVExJWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdlN4SDdWOVNwZmZSdkp2Umc4WnlubmdiZU9fTXZxZjk4MzNQYi1FZ1FrZ2Z3U2V1cjdmRGpXTUhiT0hRUmM4bi12YUtVNTNReHlreHhaMUgwWlRhckk3anRWOUhGZlAtNjBHMENubzg1VWh3dFRMa29FRDUyNGdOYVV5cEo3eGhkUFhUWXVDQVk2QnJrOGFSQlJPNTJEX2t3MTNoaTBhLV9fQWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUb01faTFGRFJOLXdkUjVJckZJallTcmQ0TnhlNzZLbWhGRktYR3k0UGpJYUdnTHpHUk9tYlcwc2c2RW1tT3poaTdVRHE4SmdBNXdRVlctVVRkdlNDNlBrSw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 38500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 35000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Contractbook",
@@ -603,7 +656,24 @@
     ],
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
-    "scraped_at": "2026-10-07T13:40:38.844239+00:00"
+    "scraped_at": "2026-10-07T13:40:38.844239+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://digitail.com:443/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmFlSVpfR0ZQTFhzWnFlRnpfNTNQYjRzSmNXa0c2aVdwSkd6QkdoRDBxV0FJaTB1ci1VZDN3MkpiSEstU1ZyeERSNlcwSzZ0V2pURkdjei0tWlVtZ2RSalQzODFjY3ZlUGhFTGZhM2stV2p6SlZSYlo5ZF9qMWZpSFRyXzdseXNYRXR2S0hOMzROQy1QMjNR?oc=5",
+      "https://pulse2.com/digitail-23-million-series-b-closed-for-expanding-ai-platform-for-veterinary-clinics/",
+      "https://www.prnewswire.com/news-releases/digitail-raises-23m-usd-series-b-led-by-five-elms-capital-302609456.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Quantica",
@@ -1194,7 +1264,21 @@
     ],
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
-    "scraped_at": "2026-10-07T13:40:38.844239+00:00"
+    "scraped_at": "2026-10-07T13:40:38.844239+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://parahelp.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Skye",
@@ -1613,7 +1697,44 @@
     ],
     "primary_investor": "byFounders",
     "source_url": "https://byfounders.vc/portfolio",
-    "scraped_at": "2026-10-07T13:40:38.844239+00:00"
+    "scraped_at": "2026-10-07T13:40:38.844239+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2021-04-19",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDFTa2t4UXlQeG5NM0JzcFUxcjVGdE5VeHJDTVNQdGo2bUJoLUotR0JuWkF3Q0JtZmNUcU52MDdHbVpFN2JnZ0dGQURjUkpPT1BPU3pENjhCdWxOenVWRzcyVU5YMVFpNklNY091SlNUVEpKeVNtcHRqRUtNZFpFNDZfSXU4X2FqRUdnNER6UkRfWkFkRFdmUENrMlFHTEwyck5UNW5PMURvOFJhSWVv?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2023-08-22",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb3pONFBHeFl0d2l2UXdldkF5Z1lSWGdnR3RoMVU2NnI2Q2RFQlYxQkhjRU9kMGlnS3NTUm91ME1OY090MllhQVJfUURzamNaZ2JLUTg5S2hISUhIMHQ1M29LckJHMDVocHkyczc5eDE5SjBVZXFGZFpVVWR1OGNJMW43WEZLazdBQm1pZ0EzdEl6M010bFE3VDdqRG94RzZHRGEta2V6SHpGYmpWS1pnZDA5b2x0cll2VG42ZC1WRFNLV0VLLU8tdl9vVnhrZzlOckM5ZTRXYUtkUk11X3RjSk1Fd3o?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://jellatech.com/",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb3pONFBHeFl0d2l2UXdldkF5Z1lSWGdnR3RoMVU2NnI2Q2RFQlYxQkhjRU9kMGlnS3NTUm91ME1OY090MllhQVJfUURzamNaZ2JLUTg5S2hISUhIMHQ1M29LckJHMDVocHkyczc5eDE5SjBVZXFGZFpVVWR1OGNJMW43WEZLazdBQm1pZ0EzdEl6M010bFE3VDdqRG94RzZHRGEta2V6SHpGYmpWS1pnZDA5b2x0cll2VG42ZC1WRFNLV0VLLU8tdl9vVnhrZzlOckM5ZTRXYUtkUk11X3RjSk1Fd3o?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM0pscC1UWWdGS1dERXRTRjlrN05FVlpkMjUtVU9SeGo3c1hKSGNNdG90c1F1ZkU0T2ViNzFJQ2dxZmUyUkphYXpNOXEwVDR4cWZKaHFlU1NzX0xzX2steFpoMGF3UmdadUVuZlRDMlNOZXI1amNsLWFaaEZ2R2FyeHUzaW84REFoVXk0bE4yM3E0ck1uS0ZLNUZZaUxidzZOWWstNGFRdEh4c0E3bE1mSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDFTa2t4UXlQeG5NM0JzcFUxcjVGdE5VeHJDTVNQdGo2bUJoLUotR0JuWkF3Q0JtZmNUcU52MDdHbVpFN2JnZ0dGQURjUkpPT1BPU3pENjhCdWxOenVWRzcyVU5YMVFpNklNY091SlNUVEpKeVNtcHRqRUtNZFpFNDZfSXU4X2FqRUdnNER6UkRfWkFkRFdmUENrMlFHTEwyck5UNW5PMURvOFJhSWVv?oc=5"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-22",
+    "total_raised": 5500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Arsenale",

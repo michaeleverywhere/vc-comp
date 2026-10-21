@@ -351,7 +351,33 @@
     ],
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
-    "scraped_at": "2026-10-08T14:44:41.416774+00:00"
+    "scraped_at": "2026-10-08T14:44:41.416774+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1347241.0,
+        "currency": "USD",
+        "date": "2016-06-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1631301/000163130116000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://binocs.co/",
+      "https://www.sec.gov/Archives/edgar/data/1631301/000163130116000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1347241.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-06-22",
+    "total_raised": 1347241,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Biteship",
@@ -1802,7 +1828,39 @@
     ],
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
-    "scraped_at": "2026-10-08T14:44:41.416774+00:00"
+    "scraped_at": "2026-10-08T14:44:41.416774+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 500000000.0,
+        "currency": "INR",
+        "date": "2019-01-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTItY3JWM1VFVGVEUVgtZWZseG1MQnNmMXljbFpvS1l5NjFFVWRmQzJvSUpjVHdRWEFUZGJvOXM3aHpBWnVIekFkUm43NE9aUTN5MTBwNlhQV0V0bXI5VHlGenVoYk54NFk0TUI2c0NjaVh4bVoyZ0tMZkZoQnZTVzhGZGFEOUNVRTdZQnRka2thU1o10gGaAUFVX3lxTE51a2YxR01QSHBmRXFrUUc0VW1oUjBaT040ZGVvbHNxREZHd3VxRFhIUXJhdmRoMjc3WEFldlFZSk03TTBhYVJtbmJ6Wi1VOFVaQXF3cnNRa3U2ZzloT1V4MWp2a09OeFdlS3B6eG0xSEV2cDdkSGxJY01idFRvS0RUV1N6RTF1VFUtU1JpSGMwZXBydkxCR3E1UEE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.instamojo.com:443/",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRVdJNzZlcW1wejdqZTR1TV9sY1JPd2phc2UxZXZJU1dMVTN5bHBueHMxZUF3SFRmaElCRnIyLVR6aGpsMlVxNTlDQ1FLNFlHSkFqRnJ6eEVzV0xKUC1UYXJnR1VFeFZIS1dZLTVTUkotNm9vSDlrajJiTnpVNllUSWNiaHVqcklxSUtLYjU2ZGpuVnJaZWw3b3ZVRVd5LTFXWXpyZjZoSWdUYUpqaEp0ckpERTF4Z1hJeFZlQWhfOThqa01udmRSSUJjeG1pM1Rm0gHWAUFVX3lxTE9JVnNUQ2hqU1ZaV1Y3NkhPZ3l5b1lTTzFBMEVzRzBoM1pISEw2cFpCei13NzU5a25Ea0JXWDR2bGZWY0xnREpCcmJud1VMcUcwZnNKZEJQTmVqNm82bk96b2h2SlVXYXUwajY1Y0M4eWJ0RHZDcFpGeFJFdWl4RWdKaVB2endSd19MNXNmTGI0LUxlNHg2U0JycVFSdzAyd1dSSEtZUnBRX25CaG91ZjVpaUxiMkhIWGFxVVVwbGJlTHdNajc5N0VVV2RteEJSNzE5Y291N3c?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTFo4clcyS19BckY3VDZvU1Q2b2VXWHZ1U25jaU5wa0NJSFUzTl9ta0Z3aGFqbHNZNzZCNDRDUHJ0eVZqTmdXRTM1QUJKLUw2QzNxOU9jLS1UNHdRdDRqclNKX3JaUFJjUXhWNDU3cXN4VDV2cEE2UUdWZ1NfdmU3dEZUSUpWbjhLMDBBVVVfONIBlAFBVV95cUxNLWxqOTBUNTJ2c3ZoeFV5ak1kaVhIS1lyeDJJSkZaWUhPUFJsaWtkV2xtT2ZHRVl5bUQ2SVVJblZRWk5aZFRSLWZGM1NwVEVWNnd2V3Q5bUVKU0wwd3FCdlI4TVlWM0pKMlJOVmhhdVJkMFVvQ3RObUpPQk52WUVmaFdXWkNyOG9mVWlBM2liVW52YWpH?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZHVXVXR3dmpoa2FWWFNpQVVMcUVSeTVvbFMycmJsRExTYnloNER2TVp6MVJsVzZwWmEzLVJmcVVCTk9pTUJUdXlTWmYyRGsxX2NJckhsSHVEMlBFMk5kQldOcFkyRXRJc1BzbkJxWWxwakNkRHU4WmxoOHpRMTR3M0I4c1JzZXduZjl6NGNTeld6c3lYMTI0VFEtcHliSndySFFCU2M3bGRSczY1TkI4bkxEcGJNd3hCcFlta0NoNUJpSVlkWGp2Rm4yUXZlakd2ZlHSAdcBQVVfeXFMT0Vwc0UxRkg2R19BU0NiZDNYLXhMd1ZBRnBRLS11eWdYS0ptODNqbnhZYmZ3YWpkZV9GQ3lIRWl2cTJ6S1pab0hrbHFUbTdyNlNEU0ltNkFRQkRqU0ZjY08xdi1fbmFVcXh1MEJEdlc2TVo1ajNCSHh1R2N2cHdVeURNR2NEeTNvRmozd3VSdEFzRTVFeTJ4MnlmTjVFQXJpZk1wemxuNkY4SDBZS0xrM2x1dFA2OEhsVlBDdzVjRjFhZ3ZZbksycWVDNnVyN0lad3VtV1BqaVU?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTItY3JWM1VFVGVEUVgtZWZseG1MQnNmMXljbFpvS1l5NjFFVWRmQzJvSUpjVHdRWEFUZGJvOXM3aHpBWnVIekFkUm43NE9aUTN5MTBwNlhQV0V0bXI5VHlGenVoYk54NFk0TUI2c0NjaVh4bVoyZ0tMZkZoQnZTVzhGZGFEOUNVRTdZQnRka2thU1o10gGaAUFVX3lxTE51a2YxR01QSHBmRXFrUUc0VW1oUjBaT040ZGVvbHNxREZHd3VxRFhIUXJhdmRoMjc3WEFldlFZSk03TTBhYVJtbmJ6Wi1VOFVaQXF3cnNRa3U2ZzloT1V4MWp2a09OeFdlS3B6eG0xSEV2cDdkSGxJY01idFRvS0RUV1N6RTF1VFUtU1JpSGMwZXBydkxCR3E1UEE?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZmZrbjJ3eHUwTU1hRWs4S0owb3lYOUtpY1oyOFFkdzRCd0txUkZMeGNvcEY2SURpQ2Ezand6Vzk3Q0l6blZHRC1xcTRvNGFxWGp4RUJKYVJtWUNWdUpjaG1yQXE4aXRYM1hYbFlIRmUzYUVuNFFyZ08xekxvZWpRdFdSa29WcHExTERjZEloNEJFdUV3MFRPQk96U1F3bTAwTFFTWkExcW84NHNvYkxZem40eEF2SjVEZlNWZG9FMNIBzAFBVV95cUxQc21yenNfQnFwanNrTXBiSC01R1FzVnZzbmZzZXYzM2Q2eFhSeVNTaFoxUTB1eUFxZk9ZYkp2MjhvMjZ3bzJiaGdkREtGNFN2SjVEdUIzay1XZUJ3a2JRODlSU21taFJFUlhGaTQ5OTVWNmFnZE1RYXh5RERkem11Y3RZT3N3RW4tZmwxbFdMZkNnRktKQUpVcDFKOVVPcDUyenhzb2JEdHE5ZkdhYUYtUmFwYWVQcHV6QWhRMllTNlZzaFdkcXJ6c2Z6ZXg?oc=5",
+      "https://inc42.com/buzz/instamojo-funding-digital-payments/",
+      "https://inc42.com/buzz/instamojo-raises-fresh-funding-from-gunosy-capital/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 500000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": "2019-01-16",
+    "total_raised": 500000000,
+    "total_raised_currency": "INR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ipaymy",
@@ -1932,7 +1990,21 @@
     ],
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
-    "scraped_at": "2026-10-08T14:44:41.416774+00:00"
+    "scraped_at": "2026-10-08T14:44:41.416774+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://kitchens-at.com/reports/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Lightmetrics",
@@ -2584,7 +2656,21 @@
     ],
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
-    "scraped_at": "2026-10-08T14:44:41.416774+00:00"
+    "scraped_at": "2026-10-08T14:44:41.416774+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.numecrypto.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "NUSpace",
@@ -3681,7 +3767,43 @@
     ],
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
-    "scraped_at": "2026-10-08T14:44:41.416774+00:00"
+    "scraped_at": "2026-10-08T14:44:41.416774+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2023-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006991/000200699124000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 550000.0,
+        "currency": "USD",
+        "date": "2026-01-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2006991/000200699126000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.stepchange.earth/",
+      "https://www.sec.gov/Archives/edgar/data/2006991/000200699124000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2006991/000200699126000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 550000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-26",
+    "total_raised": 1550000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sweetescape",

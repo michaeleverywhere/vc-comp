@@ -280,7 +280,21 @@
     "everywhere_tags": [],
     "primary_investor": "Upsparks Capital",
     "source_url": "https://www.upsparks.vc/portfolio",
-    "scraped_at": "2026-10-17T22:12:48.667213+00:00"
+    "scraped_at": "2026-10-17T22:12:48.667213+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://decentro.tech/global"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Descrypt",
@@ -380,20 +394,90 @@
     "primary_investor": "Upsparks Capital",
     "source_url": "https://www.upsparks.vc/portfolio",
     "scraped_at": "2026-10-17T22:12:48.667213+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2021-09-07",
+        "lead_investors": [
+          "Axilor"
+        ],
+        "investors": [
+          "Axilor"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnNkcFpYbnBYa3kxT0ZJelRnT1l6eTdIdTV0aFc3VUJHUk10WVFjUWVVbGF2UFZpNF9JcG9VNGFGaUxXa2laREs3SDJ6NWljLUhWVlhVbVpPdU1QYW5XLVU0STJUSnl6SzgtcUY4eXc4MFd6ekN3UVRNeWZaaTEyQUNLcGNuYVB5NC1r?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-07-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hZmpqTzFjck9BT1pYYWRUSkJjbUUxa2s4NHFXSFNhNDV0Qk1LYW55eFpOOERMVXNaWXNmYW1wSUVHamtfcU1rQWl2Yng5cm9wbXNhUjA4M0Q2MVRIaDNuelVaVnpBd1h6UERLMVo5cDFGSS0xeE5YZ01kajhyUQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18700000.0,
+        "currency": "GBP",
+        "date": "2026-07-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakR0dUFJZ2FIS0FqOWp6NkFmeHpkcGtla0UzZE1VeFhzSWV5alNJYldGYnBJMnd2bHlqWWwzUE0xSjBnQ3ljUGdiUUZiT3ZRNFRBT2xZSk1ZRUFEQjlsVkltRzA2UHk2TUZrb2hvSkdKLXVXSWZYRGxCNzNYMDQ3dE4xUUNEaV9YWXlZeXNyeW1JMDFOcmZnVWR0THp2NnpNaURCZ2JMZG5UZVV1YW55SWh1TQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Polychain Capital"
+        ],
+        "investors": [
+          "Polychain Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkNtUUd2SVRXeU43R3pwR0hFWUZGYUt2UFZCbG5aVTlIbHhUN2g4bWg4SlN0ejU2dlJfRmJfY05wX001YlBmaHpxWlVlUHpFRDVRYTYyaDZPRWZTR3o5LTc0Mzk5YVNZaTVuRENIeEU0NW1RRWFqNGlVR0J1dHdFckhlVTdvT3NhU2o5bU5jV0pyTUNNTlYtS1hKeE4zS0VyM3c?oc=5",
+        "date_conflict": true
+      },
+      {
+        "stage": "Seed",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWmpZdDR4SGF1dHZEYmpZbEg4bTJnVnQ4U1pja2ZGcEFMcTgwbDBVVDEzNXprVVlhTHpNNU9YSzZvVzg4TEtQYWJtTkczZXg3cnpGWDF5NEtyLTI0WTFBeWpRdlB5a1N4R0FuV0JXdzVDZmJkSFY3VHc0bWJ5SXBlTFBTb1NMMWhyRkRfNF9wLUVtWUlmemNkc2JMODFBeTMyRUhNLUotaTlUZ0dJak1kdERWT1hzLXpYLTRN?oc=5",
+        "date_conflict": true
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://getfleek.app/"
+      "https://getfleek.app/",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY3dhSEV6SkEtQjBsekFKR3JXRnlyNEdSaGdnVXdsMmp4MFV6NzdoLXo4dk5IcFhYS2NFUHpyWUVuTGpFTTVJbFN5VG5tUzdLaENsTUFvdm1DbUppV2JyLWg2U0tybFJWZlpzc2xMZmdDOW54MnhDM2FYSjJBVjN4VTJGZkJNSEVBQnk3c3cwSm9fbGNlVEl2SFdac1VlRWYtNVg0Vw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hZmpqTzFjck9BT1pYYWRUSkJjbUUxa2s4NHFXSFNhNDV0Qk1LYW55eFpOOERMVXNaWXNmYW1wSUVHamtfcU1rQWl2Yng5cm9wbXNhUjA4M0Q2MVRIaDNuelVaVnpBd1h6UERLMVo5cDFGSS0xeE5YZ01kajhyUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaERyQllXNUZZNFBMOUU0TThIdE92bFE3Mm4zYmhIczk2YWdkQ04wMTcxM1FOM3Y3R3FJV1hXaGtxUVZXejJYVHktd2laQ0NPV2ZaYVB3QTk5Mkg0VGViLVdlRHM0UUszQUc2ZUo4a1pRSTNhU0ZobjVyY3Jxc2R6S2d0b0FEQkZ1ZFgxMXZ2SURsckhJNGswZ1JrZTlKckFNQnV1TjNqa3VJc0dGN2FOcVNPaGxxcHM3bFRIWXdoTTNrWkJZUDNReQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRFRZakhqN2VYd016NEZyNk1QSEV4SFJUMVJVdFlKcDFvTXNFYzVWZG51el9raUQ5emxKTGlZLWluNjB0Z1M4YU5pUkhkZHhxN2RvU01mY3NDNzRlUC1VSDBhTk9yVjlsM2ZPelhZaWJHenZjdmNrN240eDJ0a182Vnp3?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3EydzFaZTk0Y2wzaUlDOUtzUURsLUhOcDc2MjRHOTZjd0FJQlR0T0N0VmxBd0NlRk9nUUlfeFBTc1RKbmtSNnQtZkk4eEp0X1pvNGJBdkZWRUlTUlRmM3lfendlZ2JzQVI3c3JRa2l1SUd6OUwxRFd2ZkFXOVBLZDUwQzUyQUlrcFRad203Nm1pcUJTV3BDdENFdDREZUh6MjQwQnlmZ1QtMElnSUHSAbMBQVVfeXFMUGZsTXByaVc2U0pLU0F3cDdncnc4MVVpUDRpemVVSnd6UDBOUjZVbmdGSVNJV21JMWRtX1NKZmxCV3pidVplUXBQSFJSbFJTN1J2OUYzVVZ0WXJseGtYb1NjNEhjMnE4QVU5V2NjNm5aN2liRWpxc2NTSkpNWTBhWk5UWnIwc3I0Wi0zX1oxWnVmZ2gyUUtzSUFXUkw1dTZXUUNoYTU4ZkdpeWZtcHpaSGJIaG8?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN1F5TE1MSkJCNXQtLU9MaDMxdEYxOFB3dUc5ZEJkMmZmQldtcXFybl92U2lWTHNSWVg1eXI2dmJ6cERmcUNNZVBPRGZySmNvQ3BpSkROOUVPUEJiTXNFdm1mVjBvRDNoaWFoVTlmRGtWaWp2Q2FCNXhRUDFCQXlPS1RnYUM1eFZlSF8yc2hBQ3J2cVdGeV8wWFBlWnNUT2hlZWZpTGlYRl9NbFB6c1hUZTBYeG8?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakR0dUFJZ2FIS0FqOWp6NkFmeHpkcGtla0UzZE1VeFhzSWV5alNJYldGYnBJMnd2bHlqWWwzUE0xSjBnQ3ljUGdiUUZiT3ZRNFRBT2xZSk1ZRUFEQjlsVkltRzA2UHk2TUZrb2hvSkdKLXVXSWZYRGxCNzNYMDQ3dE4xUUNEaV9YWXlZeXNyeW1JMDFOcmZnVWR0THp2NnpNaURCZ2JMZG5UZVV1YW55SWh1TQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnNkcFpYbnBYa3kxT0ZJelRnT1l6eTdIdTV0aFc3VUJHUk10WVFjUWVVbGF2UFZpNF9JcG9VNGFGaUxXa2laREs3SDJ6NWljLUhWVlhVbVpPdU1QYW5XLVU0STJUSnl6SzgtcUY4eXc4MFd6ekN3UVRNeWZaaTEyQUNLcGNuYVB5NC1r?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYkNtUUd2SVRXeU43R3pwR0hFWUZGYUt2UFZCbG5aVTlIbHhUN2g4bWg4SlN0ejU2dlJfRmJfY05wX001YlBmaHpxWlVlUHpFRDVRYTYyaDZPRWZTR3o5LTc0Mzk5YVNZaTVuRENIeEU0NW1RRWFqNGlVR0J1dHdFckhlVTdvT3NhU2o5bU5jV0pyTUNNTlYtS1hKeE4zS0VyM3c?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWmpZdDR4SGF1dHZEYmpZbEg4bTJnVnQ4U1pja2ZGcEFMcTgwbDBVVDEzNXprVVlhTHpNNU9YSzZvVzg4TEtQYWJtTkczZXg3cnpGWDF5NEtyLTI0WTFBeWpRdlB5a1N4R0FuV0JXdzVDZmJkSFY3VHc0bWJ5SXBlTFBTb1NMMWhyRkRfNF9wLUVtWUlmemNkc2JMODFBeTMyRUhNLUotaTlUZ0dJak1kdERWT1hzLXpYLTRN?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Series B",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-07-08",
+    "notable_investors": [
+      "Axilor",
+      "Polychain Capital"
+    ]
   },
   {
     "company_name": "FunctionUp",

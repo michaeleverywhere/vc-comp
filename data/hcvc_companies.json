@@ -168,7 +168,63 @@
     ],
     "primary_investor": "HCVC",
     "source_url": "https://www.hcvc.co/pages/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.899356+00:00"
+    "scraped_at": "2026-10-17T19:19:47.899356+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2021-12-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1901028/000190102821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5999992.0,
+        "currency": "USD",
+        "date": "2022-04-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1901028/000190102822000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2022-10-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1901028/000190102822000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8180267.0,
+        "currency": "USD",
+        "date": "2024-05-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1901028/000190102824000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ark-biotech.com/",
+      "https://www.sec.gov/Archives/edgar/data/1901028/000190102821000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1901028/000190102822000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1901028/000190102822000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1901028/000190102824000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 8180267.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-05-10",
+    "total_raised": 21680259,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Aryballe",
@@ -368,7 +424,34 @@
     "everywhere_tags": [],
     "primary_investor": "HCVC",
     "source_url": "https://www.hcvc.co/pages/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.899356+00:00"
+    "scraped_at": "2026-10-17T19:19:47.899356+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2019-09-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamVpeE8wREpIS01RZS1LWmphdi1hNlFlTlVXVUMyam1ZUGk4UF94al9YaHNyRVQzUU5oUWVGbXY0UHZWZjZTcUpudGNMNWc4cS1vOEVPV0lrd0hLaVdmMXRiY2ZrcGhBU09VU3hrQTFEeXZ0T2VnVTVOZFpPcFhKV0pfdFJGemhkN28yaTh4dUhGOTI0OTFybHZiZm5pamoyaU9McThB?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bellwethercoffee.com/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaVpjcmpKMEhiOXJVcTlKRkhIdUZfcFJoejk3dGIxRDJrTldPZGJfa19pLTlCQ0pBQ1ZIQjBzaEQ1M1NXV2d2TG1EMzlrRWNMaktfMzYyU1h0SFRjVmVIc2N0aE9UWDNLXzFPSmVPNkFRT2VTS3F6dXllZ1IyN3JsSXJyc19YNXBfOEdlU0Zn?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOamVpeE8wREpIS01RZS1LWmphdi1hNlFlTlVXVUMyam1ZUGk4UF94al9YaHNyRVQzUU5oUWVGbXY0UHZWZjZTcUpudGNMNWc4cS1vOEVPV0lrd0hLaVdmMXRiY2ZrcGhBU09VU3hrQTFEeXZ0T2VnVTVOZFpPcFhKV0pfdFJGemhkN28yaTh4dUhGOTI0OTFybHZiZm5pamoyaU9McThB?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 8 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-09-04",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bodyport",
@@ -503,7 +586,32 @@
     "everywhere_tags": [],
     "primary_investor": "HCVC",
     "source_url": "https://www.hcvc.co/pages/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.899356+00:00"
+    "scraped_at": "2026-10-17T19:19:47.899356+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.chiralnano.com/about-us"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.chiralnano.com/",
+      "https://www.chiralnano.com/about-us"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cosmic Robotics",
@@ -860,7 +968,33 @@
     "everywhere_tags": [],
     "primary_investor": "HCVC",
     "source_url": "https://www.hcvc.co/pages/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.899356+00:00"
+    "scraped_at": "2026-10-17T19:19:47.899356+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://karavela.ai/en/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://karavela.ai/en",
+      "https://karavela.ai/en/news",
+      "https://karavela.ai/en/news/karavela-raises-eur2m-pre-seed-to-collect-its-flagship-brain-dataset"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 2000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Karman+",
@@ -1110,7 +1244,21 @@
     "everywhere_tags": [],
     "primary_investor": "HCVC",
     "source_url": "https://www.hcvc.co/pages/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.899356+00:00"
+    "scraped_at": "2026-10-17T19:19:47.899356+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.prynt.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pulsa",
