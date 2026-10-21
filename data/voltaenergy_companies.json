@@ -633,7 +633,21 @@
     ],
     "primary_investor": "Volta Energy Technologies",
     "source_url": "https://www.volta.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:59.340583+00:00"
+    "scraped_at": "2026-10-17T18:50:59.340583+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://onedsinanode.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Percepto",
@@ -716,7 +730,52 @@
     ],
     "primary_investor": "Volta Energy Technologies",
     "source_url": "https://www.volta.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:59.340583+00:00"
+    "scraped_at": "2026-10-17T18:50:59.340583+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": "2022-12-15",
+        "investors": [],
+        "source_url": "https://quadric.ai/press-release/quadric-announces-completion-of-series-b-funding",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series C",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2026-01-14",
+        "lead_investors": [
+          "IFC"
+        ],
+        "investors": [
+          "IFC"
+        ],
+        "source_url": "https://quadric.ai/press-release/quadric-raises-30m-series-c-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://quadric.ai/",
+      "https://quadric.ai/press-release/quadric-series-c-second-close-2026",
+      "https://quadric.ai/press-release/quadric-raises-30m-series-c-funding",
+      "https://quadric.ai/press-release/quadric-announces-completion-of-series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-14",
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "IFC"
+    ]
   },
   {
     "company_name": "Resonant Link",

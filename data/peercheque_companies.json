@@ -886,7 +886,44 @@
     "everywhere_tags": [],
     "primary_investor": "Peercheque",
     "source_url": "https://peercheque.com/portfolio",
-    "scraped_at": "2026-10-18T15:29:25.551149+00:00"
+    "scraped_at": "2026-10-18T15:29:25.551149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2699999.0,
+        "currency": "USD",
+        "date": "2023-08-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1989908/000198990823000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2026-02-19",
+        "investors": [],
+        "source_url": "https://new.portkey.ai/announcements/portkey-has-raised-15m-in-series-a-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://portkey.ai/",
+      "https://new.portkey.ai/announcements",
+      "https://new.portkey.ai/announcements/portkey-has-raised-15m-in-series-a-funding",
+      "https://www.sec.gov/Archives/edgar/data/1989908/000198990823000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-19",
+    "total_raised": 17699999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Proofline",
@@ -987,7 +1024,32 @@
     "everywhere_tags": [],
     "primary_investor": "Peercheque",
     "source_url": "https://peercheque.com/portfolio",
-    "scraped_at": "2026-10-18T15:29:25.551149+00:00"
+    "scraped_at": "2026-10-18T15:29:25.551149+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4800000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://revspot.ai/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://revspot.ai/",
+      "https://revspot.ai/about"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 4800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ruzo AI",
@@ -1205,9 +1267,18 @@
     "scraped_at": "2026-10-18T15:29:25.551149+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUG9WNldqOFpTMHk2SVRpUkU3NHNncjZOWHlQNTU2TjNyUDFtVDdLSDBIT0pYWEFwelFPcU9jYmdSX1ZfR19LSEloNUtxSDZOTFBFaV92UFU1am9SSmhJZDRFTVZQN05uaDZONldGMTJTMm0zaDV0eE5DSXRoeFkzaWlHQ2Y5OXhQWnIya1lId2l1Tnl1ZEZDeWFTSGZkYy1CMlhiU3AwcDEzSjBL?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYzNZNkVrZzJGTldrMHZLd19uSmw0RzRvRjlFZEtfeHNXV3lxcm5ZNWdheFdDZHNqa242c2xVaGptcVNRTklFd2N1Q3h6MDlHNTZCS1pjOFo2UHI4aENzUFg1bHJCREt0TWhSZThIYzVTWnM1ajhBNFRta3FuN1NucXgzNm11MmpNazFCa1ZfY0taZHRrSW9WZ0hWX2Z2dndiWUVxWkRsbWVpWW5SU2RHcFRFc0tRYVFFWW1jWXNpUW5qTHRGUEQ1ems4LVB0Q3VlOWdZaTVCczBGcE9ENUJEWdIB5gFBVV95cUxNQ1dUdjh6cVVRakxtcWxkanRPUGtGNk1pSENMM0RtNzJBbkJoV1pWRGxUU1hINkhIZnBaQnJMTDJMUXRWZDJhN3NpSHRUQndrcGtVZHZOcW52RHBBUXZ1YmpFVEFhNGlJZHNGblFoMWtIekhnU2lOTlFjcmlwUDNTck1XV2RlMlBiOVhOVEZYanJFb2tBaFZlYWF6ZlpBLWhYdHJOQW5rTGtpZjF5d1BnVHRRTF93Z3lBNm1BNTUyYW1XR3gzUGQtNkFVUEtMb1FpMDViZkZwc1ktUjdDUHRJaFVFYnRzZw?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yN1hhMlEwUGVMQUM5RXE0OWE5T29DZjl6cnBhNC1HNTQ5OXN2bzFyVDFsVldfUTJYeDNoZnowNm9QaG1OME1EekJlay1xam1NZ3FHLVdZOG03UjZoeUtQT2RJaWxXWUt2S2tjYzB4U3pKR0JqS2c?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdHN3R3dXTzdqbEVJWlg3VkNKVEVVNUpoNHN5Y3NqdjBncThBbGwtU0UzbmlJT20zTXBCNEVOYnpIaVpWUlhMWTNvMnVWcVhsVFBxeExMUFFYRlA0QlFQTk9HeG1zQzg5Z2Zxa1lLc2EwbTBwSGE3QndqSmlRLUZtSG9NcnMyZXpfWWExMFA1ZmYyN3BwZEZ5bkt4ZlZMdkJJRFU4TGxCQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejUycFdEUjJ4ODc4NUxzT1J1NlRENHk1TEZlZWRBZDZzWEVHQkZGZ0I1TjQ3Z0YxYzNQZFliVDNVd2F1Wkdkbm0yNmliZHdTU0lUcXhHT2tfU2pzcjRZZEdCdTV3OWRlUmdpUGJGbEp2OE9HRjU0SVZFdW5jbFNDYk1XcXNYMGo0cTB6dHJxZXdmY0ZBZTBOaUVBZWp5eDA1aEcteHY1WG8xQkFVZVE3dF9yem9wcGE4QWFuOTZ1R0Iya0E?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaEZjMVY1T2RNYTZfVks5bE1iZWhZek8taGw1WHpVX2RWOS1DWGpodDBXeDk2ZUI1UjNPX3Fna2xtVDRYeHltOVhTOWNlTGowTXlNMVpEUHQyejd5SzJWZkxmb2ptSFBqY1VoakVwR1JfX2twdzY3YmN5OUpyWG9pRmY5RWZmeTNoeVhubGMyU0vSAZABQVVfeXFMTmhGYzFWNU9kTWE2X1ZLOWxNYmVoWXpPLWhsNVh6VV9kVjktQ1hqaHQwV3g5NmVCNVIzT19xZ2tsbVQ0WHh5bTlYUzljZUxqME15TTFaRFB0Mno3eUsyVmZMZm9qbUhQamNVaGpFcEdSX19rcHc2N2JjeTlKclhvaUZmOUVmZnkzaHlYbmxjMlNL?oc=5",
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQllkdklYdUVqQWFMeFlQVFZFeDQwc1ZtSjlOeHh6WU9tX0JLbmtJMUI3N09TWkVSTlpldzVrQmlBQjY4MU9iS3RTbXNraHFrRG1Bd21rRWs0WkwtSHZFeU5PbzRIWGgwZXgwdjZZUlM0UGFWaGhldGNzTFpyTGRFZlRSczVBS1d5bzlpM21UcGJrOVlJQ21WNk84WngxR3ItbFBUZG9aenhiZ3h4LWRoZXVsWFppa0dVUlpOcXBPS0NyLXc0VE1rVnZLUVBjRDgybFlWWU1TZDVOZGs5cGdTTk5PV1lMcTFl0gHuAUFVX3lxTE9qdHNQRTI4c1l0dWxXclNKdlZTRjM5QXhNT2NDTFNUbjgzeXY2V1Y3cTRBaTJWa0RKbHNVSTBkX0NWTTY3RExKUW1aVGdNbTZpczh2N2Jsb2ExNm02WEFYRXc4aHQ0RHI1d1ZGUm8wUDFoQlZNdXpUdVhIbW4waXJONGlSNDJxdmpaRnFKUzRVZk4tOHFiZy1kekY2OXpsczVVbmM4djZ0WWlIdnpxbzZiZVhDZlh6alkzdExFZTZ5Q1hWSmQ5T29EX1hEd2VZV0lIMHl1QmxudElwLUZXQVc3c1pybEJuUXRqclR0ZlE?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaGp4cG9keGJ6OEt2STRPdXhWSDdhNUhHUFVrU19EM3ltTk52TzZpb2FWRlNVd1pMSU56Y3B4OFhyelBUSWViNEJUbS1YZ0c1MFBLcVhrbnRYSWQ2UVFJVG1mSS1nRmZmVzV0Zzd4MDRJWnJZa21mbHdlalhMaWlBWjRzd3MtS3hTdjdwYk9SLUxVOURsYzlIUGk2NHlncktUOVlRbFEwbGVudTZqZ1ZnbTJFS0oxUQ?oc=5"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

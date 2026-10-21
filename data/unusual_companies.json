@@ -1615,7 +1615,43 @@
     ],
     "primary_investor": "Unusual Ventures",
     "source_url": "https://www.unusual.vc/portfolio/",
-    "scraped_at": "2026-10-02T13:09:47.243922+00:00"
+    "scraped_at": "2026-10-02T13:09:47.243922+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6724600.0,
+        "currency": "USD",
+        "date": "2025-03-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2068457/000101297525000269/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 18300000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://navro.com/news/navro-secures-18-3-million-series-a-funding-to-realise-vision-of-simplifying-global-payments"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://navro.com/",
+      "https://navro.com/news/navro-secures-18-3-million-series-a-funding-to-realise-vision-of-simplifying-global-payments",
+      "https://navro.com/news/the-journey-so-far-we-just-closed-our-18-3m-series-a-fund-raise",
+      "https://www.sec.gov/Archives/edgar/data/2068457/000101297525000269/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 6724600.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-03-15",
+    "total_raised": 25024600,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Neon",

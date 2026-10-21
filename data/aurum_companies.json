@@ -975,7 +975,68 @@
     "everywhere_tags": [],
     "primary_investor": "Aurum Partners",
     "source_url": "https://www.aurumpartners.vc/",
-    "scraped_at": "2026-10-20T20:37:01.002787+00:00"
+    "scraped_at": "2026-10-20T20:37:01.002787+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 26900000.0,
+        "currency": "USD",
+        "date": "2022-08-16",
+        "investors": [],
+        "source_url": "https://omni.co/blog/series-a-press-release",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 69000000.0,
+        "currency": "USD",
+        "date": "2025-03-13",
+        "lead_investors": [
+          "ICONIQ Growth"
+        ],
+        "investors": [
+          "ICONIQ Growth",
+          "Theory Ventures",
+          "Redpoint Ventures",
+          "Snowflake Ventures"
+        ],
+        "source_url": "https://omni.co/blog/omni-series-b-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": null,
+        "currency": null,
+        "date": "2026-04-23",
+        "investors": [],
+        "source_url": "https://omni.co/blog/press-release-omni-series-c-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://omni.co/",
+      "https://omni.co/blog/omni-series-c-funding",
+      "https://omni.co/blog/press-release-omni-series-c-funding",
+      "https://omni.co/blog/omni-series-b-funding",
+      "https://omni.co/blog/series-a-press-release"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2026-04-23",
+    "total_raised": 95900000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "ICONIQ Growth",
+      "Theory Ventures",
+      "Redpoint Ventures",
+      "Snowflake Ventures"
+    ]
   },
   {
     "company_name": "PagerDuty",
@@ -1086,7 +1147,22 @@
     ],
     "primary_investor": "Aurum Partners",
     "source_url": "https://www.aurumpartners.vc/",
-    "scraped_at": "2026-10-20T20:37:01.002787+00:00"
+    "scraped_at": "2026-10-20T20:37:01.002787+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://prospermedical.com/",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV3pFMWxNNXJWUGhDdkJfNzVKaWtMby12NFNYVk0zVmcyaldUWmpqN0Z3Ykg3bmRmVExKbms5MGJjSFJMMVoyOXdtSks0eU9zN2ZjTHFzZ0JRd2drMjFzS0pGWlhzWHFjOXFGdjJFNV9aTWxQQVhoUDFRQ3pMTkhJY1VWdlBwb1dDY0N1Zldidw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Rising Team",

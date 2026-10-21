@@ -374,7 +374,24 @@
     "everywhere_tags": [],
     "primary_investor": "TCP Venture Capital",
     "source_url": "https://tcp.vc/",
-    "scraped_at": "2026-10-18T15:33:02.051468+00:00"
+    "scraped_at": "2026-10-18T15:33:02.051468+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pixee.ai/",
+      "https://pulse2.com/pixee-15-million-seed-funding-raised-for-automating-code-security/",
+      "https://www.businesswire.com/news/home/20250522057559/en/Pixee-Raises-%2415M-to-Automate-Code-Security-to-Meet-the-Velocity-of-GenAI-Enabled-Developers",
+      "https://blog.tmcnet.com/blog/rich-tehrani/ai/pixee-raises-15m-to-automate-code-security-for-genai-powered-development.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pixelligent",
@@ -476,20 +493,35 @@
     "primary_investor": "TCP Venture Capital",
     "source_url": "https://tcp.vc/",
     "scraped_at": "2026-10-18T15:33:02.051468+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2022-12-22",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/qualytics-raises-2-5m-to-help-enterprises-improve-data-quality-301708801.html",
+        "date_basis": "text"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://qualytics.ai/"
+      "https://qualytics.ai/",
+      "https://www.prnewswire.com/news-releases/qualytics-raises-2-5m-to-help-enterprises-improve-data-quality-301708801.html",
+      "https://finance.yahoo.com/news/qualytics-raises-10m-series-led-120000697.html",
+      "https://www.mrweb.com/drno/news34381.htm",
+      "https://www.research-live.com/article/news/qualytics-raises-25m/id/5107092"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-22",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Real Time Medical Systems",

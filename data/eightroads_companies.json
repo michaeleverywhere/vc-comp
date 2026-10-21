@@ -4761,7 +4761,19 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Leocare",
@@ -5158,7 +5170,22 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://mento.co.jp/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUpWeWlfb1Q4Q2pILTFJbkE3SXhUaWVUNW9MQjVPalBESzQ4b1pfLUtvSXBCNzdzaXBENHN4X2N3TXh0aUFDN2NjdTBEUXgxRWxOdkZvQy1SOU5pbGpqN0ZtX2t4SHdkU3VwNTFEY2VGSzVPcHBGVzNjMl9HZUpxNVNMR210ZHRFZTZDSnlKbjJvZy15ck1mS3NDdHNnUVQ4RUE?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Metaps",
@@ -5369,7 +5396,81 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6319996.0,
+        "currency": "USD",
+        "date": "2012-06-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1552606/000155260612000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 11100000.0,
+        "currency": "USD",
+        "date": "2015-02-11",
+        "investors": [],
+        "source_url": "https://www.mineraltree.com/news/mineraltree-closes-11-1-million-series-b-financing-led-by-payment-tech-leader-first-data/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 37825628.0,
+        "currency": "USD",
+        "date": "2019-03-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1552606/000155260619000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Growth",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2019-03-27",
+        "lead_investors": [
+          "Great Hill Partners"
+        ],
+        "investors": [
+          "Great Hill Partners"
+        ],
+        "source_url": "https://www.mineraltree.com/news/mineraltree-closes-50-million-growth-financing/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 54425002.0,
+        "currency": "USD",
+        "date": "2020-09-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1552606/000155260620000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.mineraltree.com/",
+      "https://www.mineraltree.com/news/mineraltree-closes-11-1-million-series-b-financing-led-by-payment-tech-leader-first-data/",
+      "https://www.mineraltree.com/news/mineraltree-closes-50-million-growth-financing/",
+      "https://www.sec.gov/Archives/edgar/data/1552606/000155260612000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1552606/000155260619000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1552606/000155260620000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 54425002.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-09-23",
+    "total_raised": 159670626,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Great Hill Partners"
+    ]
   },
   {
     "company_name": "MoEngage",
@@ -5547,7 +5648,21 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://nanosmedical.com/en.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Neo4j",
@@ -6089,7 +6204,25 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.otrium.com/women",
+      "https://finance.yahoo.com/news/digital-outlet-otrium-raises-120-040112037.html",
+      "https://www.fibre2fashion.com/news/e-commerce-industry/otrium-raises-120-mn-partners-with-hundreds-of-fashion-brands-273340-newsdetails.htm",
+      "https://www.yahoo.com/lifestyle/digital-outlet-otrium-raises-120-040112345.html",
+      "https://wwd.com/business-news/financial/digital-outlet-otrium-raises-120m-series-c-funding-index-ventures-bond-1234790108/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "oVice, Inc.",
@@ -6327,7 +6460,21 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://mov.am:443/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Patient 21",
@@ -6418,7 +6565,21 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pediatrixtherapeutics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pelago Health",
@@ -6679,7 +6840,21 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pormedtec.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Port",
@@ -6700,7 +6875,21 @@
     ],
     "primary_investor": "Eight Roads",
     "source_url": "https://www.eightroads.com/en/companies",
-    "scraped_at": "2026-10-16T17:23:47.465886+00:00"
+    "scraped_at": "2026-10-16T17:23:47.465886+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR3RpY285Qm51T1E1T1FDVl9xTlBTaExlaTYwMHJYTkh0NDR4RzBPMVNUR21EZV9XQkg4cGJWaEMtb3c4U25VN0QtZ2VqMktGcDlpTzRtdnhmMldLSWZNejhYWVk1MzFWV09Ya2tEWmd6T2ZQWnQ3Qk5MbVBtMmNXdFY3bnpUSE0yS3hPM2FDS050aUwyZ055b09XeHJ4bVVV?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Precision Robotics",

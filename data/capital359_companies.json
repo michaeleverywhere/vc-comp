@@ -607,7 +607,63 @@
     ],
     "primary_investor": "359 Capital",
     "source_url": "https://www.359capital.com/",
-    "scraped_at": "2026-10-17T20:34:58.127044+00:00"
+    "scraped_at": "2026-10-17T20:34:58.127044+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 18598983.0,
+        "currency": "USD",
+        "date": "2017-11-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724871/000172487117000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29475006.0,
+        "currency": "USD",
+        "date": "2019-04-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724871/000172487119000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2020-09-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724871/000172487120000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 100812151.0,
+        "currency": "USD",
+        "date": "2021-03-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724871/000172487121000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.manticoregames.com/",
+      "https://www.sec.gov/Archives/edgar/data/1724871/000172487117000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724871/000172487119000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724871/000172487120000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724871/000172487121000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 100812151.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-16",
+    "total_raised": 163886140,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Market AI",

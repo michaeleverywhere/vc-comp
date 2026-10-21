@@ -2272,7 +2272,41 @@
     ],
     "primary_investor": "Obvious Ventures",
     "source_url": "https://obvious.com/portfolio/",
-    "scraped_at": "2026-10-06T13:26:52.166471+00:00"
+    "scraped_at": "2026-10-06T13:26:52.166471+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.lynx-fh.com/news"
+      },
+      {
+        "stage": "Series A",
+        "amount": 27000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.lynx-fh.com/news/press-release-lynx-series-a-27m-healthcare-fintech"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.lynx-fh.com/",
+      "https://www.lynx-fh.com/news",
+      "https://www.lynx-fh.com/news/press-release-lynx-series-a-27m-healthcare-fintech"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 27000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 44500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Magic Leap",
@@ -3584,9 +3618,13 @@
     "scraped_at": "2026-10-06T13:26:52.166471+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxONTN3d3FsUGh4OEZiVkdEaTQzNFh2bUZ3UEVCTXRoczdUczl3T193dEpqUm13anRIUXJhZVozZkRUeWpvQ05hTDZKRVB4bTVQaElGUXF0QWRJbHV3UjhQMThlV2lYMWRjN0pEZmVPSVk0ZTJtUVZSSHJaVmF4RU1HXzc2SjJEaFBRV1l1YnJFeXpObGc4N3dweQ?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnZFelUybHhzd1JKMTRNcjZ2Vi15UEpNUXBvd1Zib2s5clRKdV8wUVo1V1FhMHZ6WTVGdlpkdWxEa1RnSm8yZTRyNUVWTUtrcGFpVlB6b2s5WHJDaEJsb285b3ozek9zZXZCRVB1ZjNDY2V6UFBFT0UxMkEwR3Q1dXRuNmVsTlg2NXJQLU15aGhranZLVTQ5Xw?oc=5",
+      "https://fstoppers.com/apps/vsco-raises-30-million-new-funding-69029"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

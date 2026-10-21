@@ -1376,7 +1376,22 @@
     ],
     "primary_investor": "Amplify.LA",
     "source_url": "https://amplify.la/portfolio/",
-    "scraped_at": "2026-10-19T19:48:35.366545+00:00"
+    "scraped_at": "2026-10-19T19:48:35.366545+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.proguides.com/",
+      "https://labusinessjournal.com/technology/proguides-raises-5-million-seed-round/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pryzm",
@@ -1392,20 +1407,54 @@
     "primary_investor": "Amplify.LA",
     "source_url": "https://amplify.la/portfolio/",
     "scraped_at": "2026-10-19T19:48:35.366545+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 12200000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Andreessen Horowitz",
+          "Andreessen Horowitz’s American Dynamism"
+        ],
+        "investors": [
+          "Andreessen Horowitz",
+          "XYZ Venture Capital",
+          "Amplify.LA",
+          "Forum Ventures",
+          "Andreessen Horowitz’s American Dynamism"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzZ0cE4xeXdkOVJfSHhFazE4M3NJVWZ6Nzhucm1JTlVUM2NhZ0pNZ21GUW1yUmFVcE1GWWlHVmE4cl9udXNsTEpMRFJKV1dzdFpnUHJ4SlpMY3RUNk9nVDFaXzE4ellISXlnYTNYLW11SzZyM1d1Q2t5MlpPOGRrZ3djQ0drbkpKdG5LRkpoX1RwczdFczV3UnFPY1JyLTlxMXZqY1JaRTI5QUd5bVkwbkFaVm5FQQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://belisar.com/"
+      "https://belisar.com/",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzZ0cE4xeXdkOVJfSHhFazE4M3NJVWZ6Nzhucm1JTlVUM2NhZ0pNZ21GUW1yUmFVcE1GWWlHVmE4cl9udXNsTEpMRFJKV1dzdFpnUHJ4SlpMY3RUNk9nVDFaXzE4ellISXlnYTNYLW11SzZyM1d1Q2t5MlpPOGRrZ3djQ0drbkpKdG5LRkpoX1RwczdFczV3UnFPY1JyLTlxMXZqY1JaRTI5QUd5bVkwbkFaVm5FQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOGFYNWM1MjJYZXV1dGhVMW1KYkVmNC16ZGdlNEhSandYd3VCUVhLXzdYaEkwVWs3M2dVU20xR3VXRlE5TUxCald4M1Vqc1l1bjFkR3ZodnBEWkx3X2JBNkxpcW8zRTVRSTAtc1lTNmVCQ2lQMmRRbDNnYlRvZXhiTlhoaE51TW1USDV5dE1Dc2JFOEdoaUdlNnJvQ2J3Vlo1aTZrbEJSVVBYNENQeGxsS2RrSFgyZktnTXFqMHZNNnQzekVBMGRpSzRoMFBCUkEyaFRxY2lfTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EeWlpakZYM1FWbFVHMWJiaGJuejJhbVVRS2NfN1Jla1laNDhzN0xGdmdLd3RDWE9rMDlTdHRoR09QdDhHN1BpWUl2Skx5WFl6SWZWejc1ZF9lVC1uVmV4bXNmMWNKN3FIZnp4Z0lwc0hFM0hCeFZ3?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE12OG54cTAyS3VFVjNnSDVFUGJDYk8wUmRTUVk4ZG5kQXhOUXdrY1hSZnA0bUpSNzdscjkxdmg4MXhpRnZwN0ZlaExSUVBRQ1BSbXg5NGpaLUZabzhjRlhKNU52WmxMTHNqcDJxb28wZTM?oc=5",
+      "https://pulse2.com/pryzm-12-2-million-seed-funding/",
+      "https://siliconangle.com/2025/12/09/pryzm-raises-12-2m-seed-funding-accelerate-procurement-defense-tech-innovators/",
+      "https://www.prnewswire.com/news-releases/pryzm-raises-12m-led-by-andreessen-horowitz-to-transform-federal-procurement-with-ai-302636007.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 12200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 12200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz",
+      "Andreessen Horowitz’s American Dynamism",
+      "XYZ Venture Capital",
+      "Amplify.LA",
+      "Forum Ventures"
+    ]
   },
   {
     "company_name": "REPOST",
