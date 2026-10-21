@@ -922,7 +922,21 @@
    "first_invested": "2023",
    "batch_date": "2023-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://cognitiwe.ai/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Dabchy",
@@ -2218,7 +2232,42 @@
    "linkedin_source": "company website",
    "batch_date": "2024-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://www.qureos.com/updates"
+    },
+    {
+     "stage": "Undisclosed round type",
+     "amount": 3000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://www.qureos.com/about"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.qureos.com/",
+    "https://www.qureos.com/updates",
+    "https://www.qureos.com/about",
+    "https://www.qureos.com/updates/qureos-raises-5-million-seed"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 3000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised": 8000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Reedz",
@@ -2268,7 +2317,33 @@
    "first_invested": "2021",
    "batch_date": "2021-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 5500000.0,
+     "currency": "USD",
+     "date": "2026-03-29",
+     "investors": [],
+     "source_url": "https://www.remotepass.com/blog/remotepass-series-a-funding-round",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.remotepass.com/",
+    "https://www.remotepass.com/blog/remotepass-series-a-funding-round"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Series A",
+   "last_round_amount": 5500000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-03-29",
+   "total_raised": 5500000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Revibe",
