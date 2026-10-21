@@ -1,31 +1,31 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2445,
-  "total_companies": 148960,
+  "total_firms": 2450,
+  "total_companies": 149425,
   "parts": [
     {
       "file": "all_companies.json",
       "firms": 1039,
-      "companies": 67841,
-      "bytes": 39982714,
+      "companies": 67805,
+      "bytes": 39984362,
       "first_firm": "0BS",
-      "last_firm": "HearstLab"
+      "last_firm": "Healthy Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1130,
-      "companies": 65718,
-      "bytes": 39998271,
-      "first_firm": "Hearstventures",
-      "last_firm": "20VC Fund"
+      "firms": 1115,
+      "companies": 65510,
+      "bytes": 39979978,
+      "first_firm": "HearstLab",
+      "last_firm": "TechVision Fonds"
     },
     {
       "file": "all_companies_3.json",
-      "firms": 276,
-      "companies": 15401,
-      "bytes": 9181737,
-      "first_firm": "The Chernin Group",
+      "firms": 296,
+      "companies": 16110,
+      "bytes": 9543918,
+      "first_firm": "Tectonic Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
