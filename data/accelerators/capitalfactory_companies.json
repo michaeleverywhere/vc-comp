@@ -2394,10 +2394,12 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.schemata.com/"
+    "https://www.schemata.com/",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3kxaVpwVnlBV29RQmVTQjdyRFhfMzhKQ3FMTlNVUktIemZ6UU9hcVQ1VUNqSDFBZHlKaEVMSjJfaW1kMWJ6eGpha1RUU1NBRU5FVkxmV2RjeTFTdmVpVE9YSnptN3Y0NDhsWTNEQzVraDhTajcwSlV5cEpqQ1k3NlMzb1gtUnRnVnlQaXV0Nlk4Q3pKbHZpWU0tQktCSjNQcE5aNGFCRDE?oc=5",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUXZ1SXB2NWxSQVhkZG9mSnVzc0pCODBIM1ZZbEduRlEtdEJ0ei1nMF9fb0t6c2RtUHdHZUNBUXRjSHBiTEpudnlDYkRsYWJUVE1QYVFyTm1SNVBrMmZHcmZlWkxvUThzZTQ2ZmRHMW1OcWFaV0k5dDJpNEd1N3cyX0xtNjJtQS1sMnF1bHJlNzZZTWhxT1NWVGM2czBvRUtkM2c?oc=5"
    ],
    "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3083,7 +3085,44 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 15000000.0,
+     "currency": "USD",
+     "date": "2024-10-08",
+     "investors": [],
+     "source_url": "https://www.bizzycar.com/blog/bizzycar-secures-15-million-growth-round-led-by-dealer-tire",
+     "date_basis": "snippet"
+    },
+    {
+     "stage": "Undisclosed round type",
+     "amount": 20000000.0,
+     "currency": "USD",
+     "date": "2025-09-24",
+     "investors": [],
+     "source_url": "https://www.bizzycar.com/blog/bizzycar-global-leader-in-recall-management-raises-20m",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.bizzycar.com/",
+    "https://www.bizzycar.com/blog",
+    "https://www.bizzycar.com/blog/bizzycar-global-leader-in-recall-management-raises-20m",
+    "https://www.bizzycar.com/blog/bizzycar-secures-15-million-growth-round-led-by-dealer-tire"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 20000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-09-24",
+   "total_raised": 35000000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "AmplifAI",
@@ -5168,10 +5207,17 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.slingshot.space/"
+    "https://www.slingshot.space/",
+    "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcWs4SjkwRHkxVGx5Rkp6RlRGWVhzaXVkdXMyZ3dHSmVYdVRoYU9Sb1BOZ3RlS0tJOENyakZTOWk0SUN1SUNRQlBWZVdxR0lWNHVnVUVMS3hFMGVvN1ZPc21LZlpnNzVMN3FUVEZpdWNTWl9rZFBsc0lHYkdxSnJJamNrWi1QU3h4RkNkWW5MQ0pteVVpWFItQjZpVW5YVURpZHFCcWdyRjBNelBWV1BqMjVEcE92RjJod1NuV291T0U0Nko2Q3V5X3BHOEFZSnNCNGtwR09MRWxPdU1qT0ZfTjZ6X0JTUkZCcFlZdWd5MnZfZEx0YW1oQlFFV2ZvVFh4NExxTkVHN29LTk0?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ0FQMXZVWmJyTG5OLURJSW1xaW9nTDdHZnpVWkpQZXBLZnVfeTRQUVcwNmhRR19Ea0hEQV9qV3dQSFBnTUY3a3BnSmdyLTFoNjE2ZTB0cHAxMkg0UjNDbTNPcDRSQ2lKRkoxdVBvekRoUzN0Q1M2TGE3ZHYxUnhZWnZyMXQtWHB5bHNwRkk1OEo1RmZQaHlIbWhjSFlwcFpNUkV2NHhsTk0wZk9pWEdHc0lMb0VxMzQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVlA3ZHVCSE41MWZuX2pFeXVjUU5TLXZhTDJUeGU1S0x2TTctajRLM3B4QXVIN2doVlpJYTFWc2R3TF92Z1VnTjRITi1vdEdRa2kySDNmXzhxcF9xZGNReXdBLWZKdWlmMUtQMWJpeUxqX3UwVGZhajNLZ1JXVllFSXRZUU1UNUlMQ0FjZm5kR2xQYlc3WmthdkU1SG56OXBzQmpMV3NNMVFkQXJwTEg5WU5ielpWYmdVSnhTa0l1VUc2YlBKTlNSX21WMVFQbUk4cno4QWM4MVd6eGY5cmxyUmpTemxndw?oc=5",
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb09GNlJILUh2RTZtWkc5X3pYNTJzR1otb1dxcUxRbTBKNG5YNjlYeGdjZEkzMU1JejJ5bjRWc3ptNFBfM1VlZTVlRGV5YkJYcmJqR1YtR1Nya05aVEVMZ04wV2JXZDNSTll3emJvX3JYdEdPdDNwNkpiWXRtN0tFbWFyWUh6WVJEQlRVZHowUms?oc=5",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wNnJvN0RTU2Y0bktwMUNEV2x4dWxaeVlsLW9tWDNwV0ZqY2V3ZHFzNXdKQ0pIWUZJbVI5SmVaSEdBOXR5eHJDMzQyWjEtODV2N25kUG1FdTFDWWh4al9xdDREQ0xfZE1IMUZaQVJ4U2tzd0tFMlE?oc=5",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHFZS290azBUaFpsX1ZneC1POTN0ZmxQTEt4bzZGb012Um1SQ1FLSmtHNDFmVXI1V1BIdTk5MDZjV1U3c1g3V1VneTA3UFpIWDdEZFdxYVdZQXFyWDdDc3NyMktFcXFyZjNSSkp5VFVNYUI3QS1kaGdSTk1VU1NkYTgyYzk0U0tUUjY1ZFVlakRjd1ZHOHJuQ01Zd3lHX0lYT19KR1pqNXlPbTh2bGI4RmRSMVJhclBU?oc=5",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDFVbFRMa3R3ZmJTS2ZINTNHSUV4WXRFUGlwNVA2U0sxSmZOaTJxSHlLeURsbkxyRkxkeFFNaHkwSFgwN3kzUVJKYjNkUjNvVXRqUi02N3FWUTJRUll0WVdWakFKdHhzcEZUeXQwN2t2MWc2Y0hRcmFWcWhuUlFlUXBTcVo3N3ktSnU1UjhPRUc1VlBuV0RFeVpySHhQeDloeDRTa0VwV0toRDExLUF2U3BWanhzN3A2bEJMQjNpUzdfYlBx?oc=5"
    ],
    "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -7886,7 +7932,19 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "CubeNexus Inc",
@@ -9317,20 +9375,34 @@
    "batch_date": "",
    "batch_date_precision": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 21000000.0,
+     "currency": "USD",
+     "date": "2023-03-08",
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CQXJ1Mm1wc0RsSlhzSnk3NmNuOXpfVGVGSFZMODNrOWlsWUFpTlR2NDBCaFZxTG84b0V4YkcyaERwbGE5YlVaWDg3R2E0b2g5NWZJM2tESkduaXl1T210RVd0QVdiQkNiZ01xeUFTNERIX055VXZ5ZHBMdE0yT28?oc=5",
+     "date_basis": "rss"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://matchday.com/"
+    "https://matchday.com/",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CQXJ1Mm1wc0RsSlhzSnk3NmNuOXpfVGVGSFZMODNrOWlsWUFpTlR2NDBCaFZxTG84b0V4YkcyaERwbGE5YlVaWDg3R2E0b2g5NWZJM2tESkduaXl1T210RVd0QVdiQkNiZ01xeUFTNERIX055VXZ5ZHBMdE0yT28?oc=5",
+    "https://www.pocketgamer.biz/matchday-secures-21-million-in-seed-funding/",
+    "https://uk.investing.com/news/cryptocurrency-news/revolutionizing-web3-game-industry-with-lionel-messi-how-matchdays-21m-funding-round-will-change-the-game-forever-2944961"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 21000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 21000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-03-08",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Counterfind",
@@ -9445,7 +9517,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://bordlabs.ai/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Electrome",
@@ -9906,7 +9992,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.astranav.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "FitGrid",
@@ -10809,7 +10909,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.findhelp.org/?ref=ab_redirect"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Sunroom",
@@ -13683,7 +13797,32 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 100000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://www.big-sister.ai/blog"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.big-sister.ai/",
+    "https://www.big-sister.ai/blog"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 100000.0,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised": 100000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "oPRO.ai",
@@ -14125,7 +14264,21 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.biolumsciences.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Lumi",
@@ -14500,7 +14653,33 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Form D offering (round type not stated)",
+     "amount": 611076.0,
+     "currency": "USD",
+     "date": "2013-10-25",
+     "investors": [],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1590093/000159009313000002/primary_doc.xml",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.arganteal.com/",
+    "https://www.sec.gov/Archives/edgar/data/1590093/000159009313000002/primary_doc.xml"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+   "funding_checked": "2026-10-21",
+   "last_round_type": "Form D offering (round type not stated)",
+   "last_round_amount": 611076.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2013-10-25",
+   "total_raised": 611076,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Array",
@@ -14522,7 +14701,21 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.array.so/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Wedy AI",
@@ -14795,7 +14988,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://bettysco.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Listing Village",
@@ -15274,7 +15481,21 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://biglittle.ai/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Zeno Technologies Inc",
@@ -15376,7 +15597,21 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.arcatar.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Advanced TeleSensors Inc.",
@@ -15601,7 +15836,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.apricityrobotics.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Athlete Foundry, Inc.",
@@ -17766,7 +18015,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://audiofusionsystems.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Bound",
@@ -21697,7 +21960,19 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Vzy",
@@ -21766,7 +22041,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.bloomtri.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Penhole",
@@ -22026,7 +22315,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.bookitsports.app/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "MineralAnswers",
@@ -22178,7 +22481,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://bacehealth.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Weeva",
@@ -23714,7 +24031,24 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.atlasearth.com/",
+    "https://privatemarketview.com/companies/atlas-reality/funding-rounds",
+    "https://privatemarketview.com/companies/atlas-reality",
+    "https://startup-seeker.com/company/atlasreality~com"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Inphasol",
@@ -25004,7 +25338,21 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.theatlasnews.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Emergent Matter",
@@ -25114,7 +25462,26 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://arcade.co/",
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMWdxRzVKbUkzWmxITnZRZjZxOEZaMDBNM3IwLWtQVG9ibkF5eDJzX0RNcVJBc0tEQnlHNW9WcHlrYTN1MlkzRzdfZXVTZGZSMEhXMlpPR3dsSVR4UzQwWjhnYWFfUGxXOEo1d1BxRzNvdnFHcXpsTmpUdHpUM2FwY0JzWm4zVEdhSjFYaVM2RVd0cF9TcW9ORkR5cVMzWldnOEgwQ3B6TXdaRi1tMHNZeTVsSFlabklDWVQ2NXFlSWlGN01kelQ2dFlZa0VRemYtTlJTNDlsRE9SVmF5?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd1pGcFhhUWxTblZTbGlrRHo2RFgwRVVjN1dITmFSN3RTZ2RxN19ucjA3WDk5UGxfb0did1pvQjMyOHo0OUhXblNWMnRNNEZoNFJoRkVLanNsaEFEMGJId2NZQ0F0Y3QxUGtuTHZob0ZEdy1pc3BZekZmMjlwemxNLTg2aXpRbno0?oc=5",
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc21PUzJLUWs3T0w2U3NHVDViZGZxMXJ1NkFGbFdJSW9xY2VlWEQtVEIzMGxqOXdSaFVPNXpzbTVKd2RYd05lVV8wckhORUU2S1RRMzNNMFdjMzA0ZXJ4UXRWNVlYdldyWlVoZC0ybkRCX2pFVjUwVkplOUNUNHNnNDU0bV9neFJsTkkzTXlwNm3SAZYBQVVfeXFMUFgzSEVpU01GaWRraFpSY0ZTdzFqbEhHZ3JFSzBtYU53MWdHdVRGc18yNXRkaXNndzhsMEJ6NnJWNS1SNURWQlpRdy1yUHhlY0lkeXg5TFUybGZsNUJ2aDVIQV9ZSnFQQmxiU1hCdGs5dkp2a3FYbUZzUkJCUE41d0VUT2hxb3N1dWMyeXYwZ1oteWNsZWtR?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT3huVjA5SHFsUHNjT3FIU0xNZ1lXOTZIUXZPLUo5em9CU01fNTNHVUxmaHZkZG83ampPeEJXRGduMDBZV3F5aWk5bHhRZmlvNFV1MmNicVUzY01UZTdSOG5hOV85Y2h4T1NHNHhHZFMyU05vOUlaTk53d3ZaRmNPNzRaUFEtejgzUUhQajVKT0NvdGJ1a2ZpakhLZDZUSnFuWV9QNHRhMjM?oc=5",
+    "https://news.bitcoin.com/defi-marketplace-and-nft-platform-arcade-raises-15-million-in-series-a-funding-round/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Housekeeping",
@@ -25684,7 +26051,21 @@
    "linkedin_url": "",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://autohubai.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-21",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Petal",
