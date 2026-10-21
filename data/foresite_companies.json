@@ -479,7 +479,21 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/alx-oncology/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://alxoncology.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ambit Biosciences Corporation",
@@ -596,7 +610,21 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/arrivent-biopharma-inc/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://arrivent.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ascendis Pharma",
@@ -1163,7 +1191,49 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/cerevance/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2020-04-14",
+        "investors": [],
+        "source_url": "https://www.cerevance.com/media/cerevance-closes-45-million-series-b-financing",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series C",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2026-05-12",
+        "investors": [],
+        "source_url": "https://www.cerevance.com/media/cerevance-completes-enrollment-in-pivotal-phase-3-parkinsons-disease-trial-and-closes-oversubscribed-20-million-series-c-to-extend-runway-into-2027",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cerevance.com/",
+      "https://www.cerevance.com/about",
+      "https://www.cerevance.com/media",
+      "https://www.cerevance.com/media?tab=tab_link.is-media.is-events",
+      "https://www.cerevance.com/media?tab=tab_link.is-media.is-publications",
+      "https://www.cerevance.com/media/cerevance-completes-enrollment-in-pivotal-phase-3-parkinsons-disease-trial-and-closes-oversubscribed-20-million-series-c-to-extend-runway-into-2027",
+      "https://www.cerevance.com/media/cerevance-adds-47-million-in-series-b-1-extension-to-advance-robust-clinical-pipeline",
+      "https://www.cerevance.com/media/cerevance-expands-series-b-financing-with-additional-51-million",
+      "https://www.cerevance.com/media/cerevance-closes-45-million-series-b-financing"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-12",
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CG Oncology",
@@ -1183,7 +1253,43 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/cg-oncology/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 47000000.0,
+        "currency": "USD",
+        "date": "2020-12-10",
+        "investors": [],
+        "source_url": "https://cgoncology.com/news-media/cg-oncology-closes-47-million/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": "2022-11-15",
+        "investors": [],
+        "source_url": "https://cgoncology.com/news-media/cg-oncology-raises-120-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cgoncology.com/",
+      "https://cgoncology.com/news-media/cg-oncology-raises-120-million/",
+      "https://cgoncology.com/news-media/cg-oncology-closes-47-million/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 120000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-11-15",
+    "total_raised": 167000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Chimagen Biosciences",
@@ -1203,7 +1309,19 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/chimagen-biosciences/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Color Health",
@@ -1297,7 +1415,19 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/corvus-pharmaceuticals/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Crinetics Pharmaceuticals, Inc.",
@@ -1421,7 +1551,32 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/cytokinetics/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 55000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://cytokinetics.com/press-release-archive-1998-2005/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cytokinetics.com/",
+      "https://cytokinetics.com/press-release-archive-1998-2005/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 55000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 55000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Delfi Diagnostics",
@@ -1501,7 +1656,21 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/homodeus/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://detect.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Disc Medicine",
@@ -1690,7 +1859,19 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/engene-holdings-inc/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Engrail Therapeutics",
@@ -1764,7 +1945,21 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/everly-health/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.everlywell.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Evonetix",
@@ -1804,7 +1999,21 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/fabric-genomics-inc/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://fabricgenomics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "FibroGen",
@@ -2007,7 +2216,32 @@
     "primary_investor": "Foresite Capital",
     "profile_url": "https://www.foresitecapital.com/portfolio/grail/",
     "source_url": "https://www.foresitecapital.com/portfolio/",
-    "scraped_at": "2026-10-11T13:22:31.999514+00:00"
+    "scraped_at": "2026-10-11T13:22:31.999514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 325000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://grail.com/about-us/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://grail.com/",
+      "https://grail.com/about-us/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 325000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 325000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "HealthVerity",

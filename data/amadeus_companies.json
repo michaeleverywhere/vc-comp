@@ -1102,7 +1102,22 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/ravelin/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ravelin.com:443/",
+      "https://www.ravelincap.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Secondmind",
@@ -1380,7 +1395,21 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/contactengine/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.nice.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "FiveAI",
@@ -1790,7 +1819,35 @@
     "primary_investor": "Amadeus Capital Partners",
     "profile_url": "https://www.amadeuscapital.com/company/charco-neurotech/",
     "source_url": "https://www.amadeuscapital.com/our-companies/",
-    "scraped_at": "2026-10-10T13:31:15.603106+00:00"
+    "scraped_at": "2026-10-10T13:31:15.603106+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2021-11-16",
+        "investors": [],
+        "source_url": "https://charconeurotech.com/news/imperial-medtech-startup-charco-neurotech-raises-10-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://charconeurotech.com/",
+      "https://charconeurotech.com/news/imperial-medtech-startup-charco-neurotech-raises-10-million/",
+      "https://charconeurotech.com/news/charco-raises-10-million-to-help-battle-parkinsons/",
+      "https://charconeurotech.com/news/wearable-device-for-parkinsons-disease-raises-10m-in-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-16",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cryptosense",
