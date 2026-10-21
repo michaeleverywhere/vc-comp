@@ -2735,6 +2735,15 @@
     "site_status": "Acquired",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2020-12-01",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1592440/000109690620000433/primary_doc.xml"
+      },
+      {
         "stage": "Series A",
         "amount": 10800000.0,
         "currency": "USD",
@@ -2776,7 +2785,8 @@
       "https://happy.co/press/happyco-completes-10-8m-series-a-funding-round",
       "https://happy.co/press/happyco-completes-series-a-funding-round",
       "https://happy.co/press/happyco-raises-52m-in-funding-led-by-camber-creek",
-      "https://happy.co/press/happyco-raises-72m-to-fund-build-to-rent-ambitions"
+      "https://happy.co/press/happyco-raises-72m-to-fund-build-to-rent-ambitions",
+      "https://www.sec.gov/Archives/edgar/data/1592440/000109690620000433/primary_doc.xml"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
@@ -2785,7 +2795,7 @@
     "last_round_amount": 10800000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-10-14",
-    "total_raised": 134800000,
+    "total_raised": 135800000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },
@@ -3085,21 +3095,43 @@
     "location": "Istanbul, Turkey",
     "primary_investor": "Point Nine Capital",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 26299750.0,
+        "currency": "USD",
+        "date": "2021-09-20",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1804190/000177329321000002/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 60903974.0,
+        "currency": "USD",
+        "date": "2023-10-13",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1804190/000116840423000002/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.intenseye.com/",
-      "https://www.intenseye.com/press"
+      "https://www.intenseye.com/press",
+      "https://www.sec.gov/Archives/edgar/data/1804190/000177329321000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1804190/000116840423000002/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 87203724,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 60903974.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jobber",

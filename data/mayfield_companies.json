@@ -3780,20 +3780,62 @@
     "scraped_at": "2026-10-15T21:10:16.940842+00:00",
     "primary_investor": "Mayfield",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5460000.0,
+        "currency": "USD",
+        "date": "2012-01-09",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1550711/000124323312000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19549956.0,
+        "currency": "USD",
+        "date": "2013-07-02",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1550711/000124323315000008/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30000002.0,
+        "currency": "USD",
+        "date": "2016-06-23",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1550711/000124323316000019/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 39999991.0,
+        "currency": "USD",
+        "date": "2019-03-20",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1550711/000124323319000001/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.smartrecruiters.com/"
+      "https://www.smartrecruiters.com/",
+      "https://www.sec.gov/Archives/edgar/data/1550711/000124323312000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1550711/000124323315000008/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1550711/000124323316000019/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1550711/000124323319000001/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 95009949,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 39999991.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-03-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Storsimple",

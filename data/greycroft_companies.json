@@ -2238,6 +2238,15 @@
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1924039.0,
+        "currency": "USD",
+        "date": "2018-12-04",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1761278/000108036818000014/primary_doc.xml"
+      },
+      {
         "stage": "Series A",
         "amount": 20400000.0,
         "currency": "USD",
@@ -2245,21 +2254,32 @@
         "investors": [],
         "source_url": "https://www.narmi.com/insights/narmi-series-a-funding",
         "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 34999712.0,
+        "currency": "USD",
+        "date": "2022-05-04",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1761278/000176127822000001/primary_doc.xml"
       }
     ],
     "grants": [],
     "funding_source_urls": [
       "https://www.narmi.com/press",
-      "https://www.narmi.com/insights/narmi-series-a-funding"
+      "https://www.narmi.com/insights/narmi-series-a-funding",
+      "https://www.sec.gov/Archives/edgar/data/1761278/000108036818000014/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1761278/000176127822000001/primary_doc.xml"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "last_round_type": "Series A",
-    "last_round_amount": 20400000.0,
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 34999712.0,
     "last_round_currency": "USD",
-    "last_round_date": "2021-02-02",
-    "total_raised": 20400000,
+    "last_round_date": "2022-05-04",
+    "total_raised": 57323751,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },
@@ -3891,20 +3911,32 @@
     "primary_investor": "Greycroft",
     "source_url": "https://www.greycroft.com/portfolio/ergatta/",
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4804993.0,
+        "currency": "USD",
+        "date": "2020-07-08",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1818374/000181837420000002/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://ergatta.com/"
+      "https://ergatta.com/",
+      "https://www.sec.gov/Archives/edgar/data/1818374/000181837420000002/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4804993,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4804993.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-07-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Iru",
@@ -5214,20 +5246,42 @@
     "primary_investor": "Greycroft",
     "source_url": "https://www.greycroft.com/portfolio/closedloop/",
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3048138.0,
+        "currency": "USD",
+        "date": "2018-02-09",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1732241/000173224118000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 33860959.0,
+        "currency": "USD",
+        "date": "2021-08-10",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1732241/000167471321000002/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.closedloop.ai/"
+      "https://www.closedloop.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1732241/000173224118000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1732241/000167471321000002/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 36909097,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 33860959.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-08-10",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Credit Key",
@@ -6933,6 +6987,24 @@
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27999993.0,
+        "currency": "USD",
+        "date": "2017-10-23",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663633/000166363317000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 26795424.0,
+        "currency": "USD",
+        "date": "2019-11-27",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1663633/000166363319000001/primary_doc.xml"
+      },
+      {
         "stage": "Series C",
         "amount": 50000000.0,
         "currency": "USD",
@@ -6955,7 +7027,9 @@
     "funding_source_urls": [
       "https://amperity.com/",
       "https://amperity.com/blog/amped-up-announcing-amperitys-usd100m-series-d-financing",
-      "https://amperity.com/blog/our-next-chapter-announcing-amperitys-50m-series-c-financing"
+      "https://amperity.com/blog/our-next-chapter-announcing-amperitys-50m-series-c-financing",
+      "https://www.sec.gov/Archives/edgar/data/1663633/000166363317000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1663633/000166363319000001/primary_doc.xml"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
@@ -6964,7 +7038,7 @@
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-07-13",
-    "total_raised": 150000000,
+    "total_raised": 204795417,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },
@@ -7520,20 +7594,42 @@
     "primary_investor": "Greycroft",
     "source_url": "https://www.greycroft.com/portfolio/braintree/",
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 34200097.0,
+        "currency": "USD",
+        "date": "2011-06-28",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1524770/000152477011000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000007.0,
+        "currency": "USD",
+        "date": "2011-11-16",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1524770/000152477011000002/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.paypal.com/us/braintree?utm_campaign=Braintree_Migration&utm_medium=Website&utm_source=Braintree"
+      "https://www.paypal.com/us/braintree?utm_campaign=Braintree_Migration&utm_medium=Website&utm_source=Braintree",
+      "https://www.sec.gov/Archives/edgar/data/1524770/000152477011000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1524770/000152477011000002/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 35200104,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1000007.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2011-11-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clique",

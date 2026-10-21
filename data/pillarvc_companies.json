@@ -2832,20 +2832,32 @@
     "primary_investor": "Pillar VC",
     "source_url": "https://www.pillar.vc/companies/",
     "scraped_at": "2026-10-06T13:39:09.122865+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16150000.0,
+        "currency": "USD",
+        "date": "2023-08-04",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1986635/000198663523000001/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.useyardstick.com/"
+      "https://www.useyardstick.com/",
+      "https://www.sec.gov/Archives/edgar/data/1986635/000198663523000001/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 16150000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 16150000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-04",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zilla",

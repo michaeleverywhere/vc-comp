@@ -648,6 +648,33 @@
     "scraped_at": "2026-10-16T17:16:38.701235+00:00",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2549997.0,
+        "currency": "USD",
+        "date": "2020-04-21",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1813674/000181367420000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12034999.0,
+        "currency": "USD",
+        "date": "2021-07-23",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1813674/000181367421000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 19999989.0,
+        "currency": "USD",
+        "date": "2023-12-22",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1813674/000181367424000001/primary_doc.xml"
+      },
+      {
         "stage": "Series B",
         "amount": 40000000.0,
         "currency": "USD",
@@ -659,7 +686,10 @@
     ],
     "grants": [],
     "funding_source_urls": [
-      "https://benepass.com/"
+      "https://benepass.com/",
+      "https://www.sec.gov/Archives/edgar/data/1813674/000181367420000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1813674/000181367421000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1813674/000181367424000001/primary_doc.xml"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
@@ -668,7 +698,7 @@
     "last_round_amount": 40000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-11-21",
-    "total_raised": 40000000,
+    "total_raised": 74584985,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },

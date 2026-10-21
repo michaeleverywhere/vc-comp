@@ -152,6 +152,15 @@
     "scraped_at": "2026-10-18T17:00:32.320870+00:00",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2691000.0,
+        "currency": "USD",
+        "date": "2015-10-30",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1658249/000123191915000032/primary_doc.xml"
+      },
+      {
         "stage": "Undisclosed round type",
         "amount": 5100000.0,
         "currency": "EUR",
@@ -164,15 +173,16 @@
     "funding_source_urls": [
       "https://lingvist.com/",
       "https://lingvist.com/press/",
-      "https://lingvist.com/blog/estonian-edtech-startup-lingvist-raises-5-million-funding/"
+      "https://lingvist.com/blog/estonian-edtech-startup-lingvist-raises-5-million-funding/",
+      "https://www.sec.gov/Archives/edgar/data/1658249/000123191915000032/primary_doc.xml"
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "last_round_type": "Undisclosed round type",
-    "last_round_amount": 5100000.0,
-    "last_round_currency": "EUR",
-    "last_round_date": null,
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2691000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-10-30",
     "total_raised": 5100000,
     "total_raised_currency": "EUR",
     "total_raised_basis": "sum_of_sourced_rounds"

@@ -1421,6 +1421,15 @@
     "scraped_at": "2026-10-20T20:50:03.661948+00:00",
     "funding_rounds": [
       {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 519500.0,
+        "currency": "USD",
+        "date": "2025-01-16",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2054774/000205477425000001/primary_doc.xml"
+      },
+      {
         "stage": "Undisclosed round type",
         "amount": 8800000.0,
         "currency": "USD",
@@ -1435,7 +1444,8 @@
       "https://www.orbitalops.tech/",
       "https://www.orbitalops.tech/company/",
       "https://www.orbitalops.tech/newsroom/",
-      "https://www.orbitalops.tech/orbital-operations-raises-8-8m-to-build-high-thrust-vehicle-for-satellite-defense/"
+      "https://www.orbitalops.tech/orbital-operations-raises-8-8m-to-build-high-thrust-vehicle-for-satellite-defense/",
+      "https://www.sec.gov/Archives/edgar/data/2054774/000205477425000001/primary_doc.xml"
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
@@ -1444,7 +1454,7 @@
     "last_round_amount": 8800000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-08-19",
-    "total_raised": 8800000,
+    "total_raised": 9319500,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },
@@ -1499,20 +1509,32 @@
     "primary_investor": "TRAC.vc",
     "source_url": "https://www.trac.vc/portfolio",
     "scraped_at": "2026-10-20T20:50:03.661948+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3750000.0,
+        "currency": "USD",
+        "date": "2024-11-08",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2069475/000206947525000001/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.overview.ai/"
+      "https://www.overview.ai/",
+      "https://www.sec.gov/Archives/edgar/data/2069475/000206947525000001/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3750000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3750000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Parabol",

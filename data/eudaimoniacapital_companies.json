@@ -844,20 +844,62 @@
     "primary_investor": "Eudaimonia Capital",
     "source_url": "https://www.eudaimoniacapital.com/portfolio",
     "scraped_at": "2026-10-20T20:54:07.890037+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 23296309.0,
+        "currency": "USD",
+        "date": "2019-12-02",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796680/000179668019000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 75539719.0,
+        "currency": "USD",
+        "date": "2020-08-26",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796680/000179668020000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 142476323.0,
+        "currency": "USD",
+        "date": "2021-10-14",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796680/000179668021000001/primary_doc.xml"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 66179603.0,
+        "currency": "USD",
+        "date": "2023-08-16",
+        "lead_investors": null,
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1796680/000156761923007058/primary_doc.xml"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://rx.fuzehealth.com/"
+      "https://rx.fuzehealth.com/",
+      "https://www.sec.gov/Archives/edgar/data/1796680/000179668019000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1796680/000179668020000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1796680/000179668021000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1796680/000156761923007058/primary_doc.xml"
     ],
-    "funding_status": "no public funding found (fast pass)",
+    "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 307491954,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 66179603.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "UNLESS COLLECTIVE",
