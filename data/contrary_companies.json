@@ -82,7 +82,67 @@
     ],
     "primary_investor": "Contrary",
     "source_url": "https://contrary.com/companies",
-    "scraped_at": "2026-10-10T13:21:32.262930+00:00"
+    "scraped_at": "2026-10-10T13:21:32.262930+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Strategic",
+        "amount": 131000000.0,
+        "currency": "USD",
+        "date": "2025-07-24",
+        "investors": [
+          "Pinegrove",
+          "Veriten",
+          "Glade Brook"
+        ],
+        "source_url": "https://www.armada.ai/blog/131M-strategic-funding-leviathan",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 230000000.0,
+        "currency": "USD",
+        "date": "2026-05-19",
+        "lead_investors": [
+          "Overmatch",
+          "BlackRock"
+        ],
+        "investors": [
+          "Overmatch",
+          "BlackRock"
+        ],
+        "source_url": "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+      "https://www.datacenterdynamics.com/en/news/edge-data-center-firm-armada-raises-230m-in-latest-funding-round/",
+      "https://www.investing.com/news/company-news/armada-raises-230-million-in-series-b-funding-round-93CH-4697785",
+      "https://fundup.ai/recently-funded-startups/company/30o7GmZ6BUCWipPyxQlk/armada",
+      "https://www.tamradar.com/funding-rounds/armada-series-b-230m",
+      "https://www.finsmes.com/2026/05/armada-raises-230m-in-series-b-funding.html",
+      "https://baxtel.com/news/armada-raises-230m-ln-latest-funding-round",
+      "https://www.builtinsf.com/articles/armada-raises-230m-2b-valuation-20260520",
+      "https://www.armada.ai/blog/131M-strategic-funding-leviathan"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 230000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-19",
+    "total_raised": 361000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Pinegrove",
+      "Veriten",
+      "Glade Brook",
+      "Overmatch",
+      "BlackRock"
+    ]
   },
   {
     "company_name": "AtoB",

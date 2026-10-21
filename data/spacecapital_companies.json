@@ -122,7 +122,67 @@
     ],
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
-    "scraped_at": "2026-10-14T13:22:00.412345+00:00"
+    "scraped_at": "2026-10-14T13:22:00.412345+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Strategic",
+        "amount": 131000000.0,
+        "currency": "USD",
+        "date": "2025-07-24",
+        "investors": [
+          "Pinegrove",
+          "Veriten",
+          "Glade Brook"
+        ],
+        "source_url": "https://www.armada.ai/blog/131M-strategic-funding-leviathan",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 230000000.0,
+        "currency": "USD",
+        "date": "2026-05-19",
+        "lead_investors": [
+          "Overmatch",
+          "BlackRock"
+        ],
+        "investors": [
+          "Overmatch",
+          "BlackRock"
+        ],
+        "source_url": "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+      "https://www.datacenterdynamics.com/en/news/edge-data-center-firm-armada-raises-230m-in-latest-funding-round/",
+      "https://www.investing.com/news/company-news/armada-raises-230-million-in-series-b-funding-round-93CH-4697785",
+      "https://fundup.ai/recently-funded-startups/company/30o7GmZ6BUCWipPyxQlk/armada",
+      "https://www.tamradar.com/funding-rounds/armada-series-b-230m",
+      "https://www.finsmes.com/2026/05/armada-raises-230m-in-series-b-funding.html",
+      "https://baxtel.com/news/armada-raises-230m-ln-latest-funding-round",
+      "https://www.builtinsf.com/articles/armada-raises-230m-2b-valuation-20260520",
+      "https://www.armada.ai/blog/131M-strategic-funding-leviathan"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 230000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-19",
+    "total_raised": 361000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Pinegrove",
+      "Veriten",
+      "Glade Brook",
+      "Overmatch",
+      "BlackRock"
+    ]
   },
   {
     "company_name": "Astrobotic",
@@ -1112,7 +1172,56 @@
     ],
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
-    "scraped_at": "2026-10-14T13:22:00.412345+00:00"
+    "scraped_at": "2026-10-14T13:22:00.412345+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 140000000.0,
+        "currency": "USD",
+        "date": "2026-05-04",
+        "lead_investors": [
+          "Peter Thiel"
+        ],
+        "investors": [
+          "Peter Thiel"
+        ],
+        "source_url": "https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 225000000.0,
+        "currency": "USD",
+        "date": "2026-08-06",
+        "investors": [],
+        "source_url": "https://techstartups.com/2026/08/06/ocean-powered-ai-data-center-startup-panthalassa-is-reportedly-raising-225m-at-nearly-2-billion-valuation/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techstartups.com/2026/08/06/ocean-powered-ai-data-center-startup-panthalassa-is-reportedly-raising-225m-at-nearly-2-billion-valuation/",
+      "https://www.businesswire.com/news/home/20260504552400/en/Panthalassa-Raises-$140-Million-to-Power-AI-at-Sea",
+      "https://multiples.vc/private-comps/panthalassa",
+      "https://www.esgtoday.com/peter-thiel-leads-140-million-capital-raise-for-panthalassa-to-power-ai-computing-using-ocean-waves/",
+      "https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/",
+      "https://carpenterwellington.com/post/panthalassa-raises-140-million-in-series-b-round-to-power-ai-computing-using-ocean-waves/",
+      "https://fortune.com/2026/05/14/peter-thiel-leading-investment-ocean-data-center-panthalassa/",
+      "https://aiweekly.co/alerts/panthalassa-reportedly-seeks-fresh-capital-for-ocean-ai-compute"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 225000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-06",
+    "total_raised": 365000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Peter Thiel"
+    ]
   },
   {
     "company_name": "Planet",
@@ -1134,7 +1243,39 @@
     ],
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
-    "scraped_at": "2026-10-14T13:22:00.412345+00:00"
+    "scraped_at": "2026-10-14T13:22:00.412345+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 168000000.0,
+        "currency": "USD",
+        "date": "2019-02-20",
+        "investors": [],
+        "source_url": "https://www.planet.com/pulse/planet-closes-168m-series-d-financing/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.trysignalbase.com/news/funding/planetary-raises-241m",
+      "https://newmarketpitch.com/blogs/news/space-economy-top-startups-fundraising",
+      "https://planet-a-foods.com/press/articles/iu2xm6bhnoemm82tzrmnsh5t/planet-a-foods-series-b-financing",
+      "https://www.planet.com/pulse/planet-closes-168m-series-d-financing/",
+      "https://www.hypepotamus.com/planet-fundraiser-funding-round/",
+      "https://oetker-collection.com/en/planetary-raises-28-million-us-dollar/",
+      "https://finance.yahoo.com/energy/articles/team-planet-launches-global-call-060000260.html",
+      "https://www.worldfund.vc/articles/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series D",
+    "last_round_amount": 168000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-02-20",
+    "total_raised": 168000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Quantum Xchange",
