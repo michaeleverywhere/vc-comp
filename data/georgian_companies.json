@@ -232,7 +232,19 @@
     ],
     "primary_investor": "Georgian",
     "source_url": "https://georgian.io/portfolio",
-    "scraped_at": "2026-10-16T17:30:50.484296+00:00"
+    "scraped_at": "2026-10-16T17:30:50.484296+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Chainguard",
@@ -1762,7 +1774,49 @@
     ],
     "primary_investor": "Georgian",
     "source_url": "https://georgian.io/portfolio",
-    "scraped_at": "2026-10-16T17:30:50.484296+00:00"
+    "scraped_at": "2026-10-16T17:30:50.484296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2010-12-13",
+        "investors": [],
+        "source_url": "https://www.shopify.com/news/shopify-announces-7-million-series-a-funding",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2013-12-13",
+        "investors": [],
+        "source_url": "https://www.shopify.com/news/shopify-announces-100-million-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.shopify.com/news/shopify-announces-100-million-funding",
+      "https://ask-luca.com/blogs/shopify-capital",
+      "https://www.texau.com/profiles/shopify",
+      "https://aventure.vc/companies/shopify-ottawa-ca/fundraising",
+      "https://startupintros.com/orgs/shopify",
+      "https://nz.finance.yahoo.com/quote/SHOP.NE/press-releases/",
+      "https://www.bvp.com/memos/shopify",
+      "https://www.businessinsider.com/azoma-raises-millions-optimize-brands-ai-shopping-agents-2026-10",
+      "https://www.shopify.com/news/shopify-announces-7-million-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-12-13",
+    "total_raised": 107000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Siemplify",
@@ -1848,7 +1902,47 @@
     ],
     "primary_investor": "Georgian",
     "source_url": "https://georgian.io/portfolio",
-    "scraped_at": "2026-10-16T17:30:50.484296+00:00"
+    "scraped_at": "2026-10-16T17:30:50.484296+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": "2022-04-19",
+        "lead_investors": [
+          "Georgian Partners"
+        ],
+        "investors": [
+          "Georgian Partners"
+        ],
+        "source_url": "https://venturebeat.com/business/enterprise-vr-training-company-strivr-raises-35m-to-help-reskill-the-workforce",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.strivr.com/blog/funding-patent-immersive-learning-platform",
+      "https://vcnewsdaily.com/strivr/venture-capital-funding/shxtbbndvc",
+      "https://www.strivr.com/blog/investment",
+      "https://venturebeat.com/business/enterprise-vr-training-company-strivr-raises-35m-to-help-reskill-the-workforce",
+      "http://techportfolio.net/2017/02/vr-startup-strivr-raises-5-million-in-initial-funding/",
+      "https://www.finsmes.com/2022/04/strivr-raises-funding-from-workday-and-accenture-in-usd35m-series-b.html",
+      "https://www.thesaasnews.com/news/strivr-raises-35-million-in-series-b-extension/",
+      "https://prospeo.io/c/strivr-revenue"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 35000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-19",
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Georgian Partners"
+    ]
   },
   {
     "company_name": "Sublime Security",
