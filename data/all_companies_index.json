@@ -1,23 +1,23 @@
 {
   "_comment": "Combined company master, split on whole-firm boundaries into parts of <= ~40 MB. Concatenate every part (in this order) for the full list. Built by automation/master_builder.py.",
   "part_limit_bytes": 40000000,
-  "total_firms": 2356,
-  "total_companies": 145811,
+  "total_firms": 2376,
+  "total_companies": 146150,
   "parts": [
     {
       "file": "all_companies.json",
-      "firms": 1291,
-      "companies": 85992,
-      "bytes": 39970258,
+      "firms": 1298,
+      "companies": 86023,
+      "bytes": 39998499,
       "first_firm": "0BS",
-      "last_firm": "LUN Partners Group"
+      "last_firm": "Luminar Ventures"
     },
     {
       "file": "all_companies_2.json",
-      "firms": 1065,
-      "companies": 59819,
-      "bytes": 27778317,
-      "first_firm": "Lux Capital",
+      "firms": 1078,
+      "companies": 60127,
+      "bytes": 27909256,
+      "first_firm": "Lumir Ventures",
       "last_firm": "Z Venture Capital"
     }
   ]
