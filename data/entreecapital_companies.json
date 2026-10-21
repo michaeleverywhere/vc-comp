@@ -854,7 +854,48 @@
       "Dev Tools / Cloud"
     ],
     "primary_investor": "Entrée Capital",
-    "scraped_at": "2026-10-02T21:09:09.988843+00:00"
+    "scraped_at": "2026-10-02T21:09:09.988843+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2020-05-28",
+        "investors": [],
+        "source_url": "https://www.finsmes.com/2020/05/fundbox-raises-20m-in-extended-series-c-funding-round.html",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series D",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-11-30",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2021/11/30/fundbox-raises-100m/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techcrunch.com/2021/11/30/fundbox-raises-100m/",
+      "https://finovate.com/fundbox-raises-100-million-for-small-business-payment-tools/",
+      "https://www.builtinsf.com/articles/fundbox-raises-100m-series-d-fintech-unicorn",
+      "https://www.finsmes.com/2020/05/fundbox-raises-20m-in-extended-series-c-funding-round.html",
+      "https://www.fintechfutures.com/venture-capital-funding/fundbox-closes-100m-series-d-round-to-take-valuation-beyond-1bn",
+      "https://www.businesswire.com/news/home/20190924005268/en/Fundbox-Raises-326-Million-to-Expand-the-Industry%E2%80%99s-First-B2B-Payments-and-Credit-Network",
+      "https://www.reuters.com/article/fundbox-fundraising/u-s-business-payments-firm-fundbox-raises-176-million-idUSL2N26E0Y8/",
+      "https://www.startuphub.ai/startups/fundbox"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series D",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-30",
+    "total_raised": 120000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hibob",
@@ -2513,7 +2554,78 @@
       "Consumer"
     ],
     "primary_investor": "Entrée Capital",
-    "scraped_at": "2026-10-02T21:09:09.988843+00:00"
+    "scraped_at": "2026-10-02T21:09:09.988843+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": "2016-05-10",
+        "lead_investors": [
+          "Redpoint Ventures"
+        ],
+        "investors": [
+          "Redpoint Ventures",
+          "Bain Capital Ventures",
+          "Thrive Capital"
+        ],
+        "source_url": "https://www.justworks.com/press/press-release/justworks-raises-usd33m-series-c",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series D",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2018-03-06",
+        "investors": [],
+        "source_url": "https://www.justworks.com/press/press-release/justworks-secures-usd40-million-in-series-d-funding-to-expand-high-touch-hr",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 93000000.0,
+        "currency": "USD",
+        "date": "2018-06-06",
+        "investors": [],
+        "source_url": "https://www.justworks.com/press/press-release/justworks-announces-growth-investment-from-spark-capital",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2020-01-28",
+        "investors": [],
+        "source_url": "https://www.justworks.com/press/press-release/justworks-raises-usd50-million-to-level-the-playing-field-for-small",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.justworks.com/press/press-release/justworks-raises-usd50-million-to-level-the-playing-field-for-small",
+      "https://www.justworks.com/press/press-release/justworks-raises-usd33m-series-c",
+      "https://www.justworks.com/press/press-release/justworks-secures-usd40-million-in-series-d-funding-to-expand-high-touch-hr",
+      "https://www.staffingindustry.com/news/global-daily-news/peo-provider-justworks-announces-50-million-funding-round",
+      "https://www.gunder.com/en/news-insights/client-news/justworks-raises-series-e-funding",
+      "https://multiples.vc/private-comps/justworks",
+      "https://www.justworks.com/press/press-release/justworks-announces-growth-investment-from-spark-capital",
+      "https://pulse2.com/justworks-50-million-funding-series-e/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series E",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-01-28",
+    "total_raised": 216000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Redpoint Ventures",
+      "Bain Capital Ventures",
+      "Thrive Capital"
+    ]
   },
   {
     "company_name": "Riskified",
@@ -3117,7 +3229,39 @@
     ],
     "primary_investor": "Entrée Capital",
     "scraped_at": "2026-10-02T21:09:09.988843+00:00",
-    "location": "Amsterdam"
+    "location": "Amsterdam",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 115000000.0,
+        "currency": "EUR",
+        "date": "2025-06-23",
+        "investors": [],
+        "source_url": "https://www.finextra.com/newsarticle/46186/dutch-fintech-finom-secures-115-million-in-series-c-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://avpcap.com/finom-raises-e115-million-series-c-to-fuel-european-expansion/",
+      "https://startupintros.com/orgs/finom",
+      "https://fintech.global/2025/06/23/finom-secures-e115m-to-expand-financial-tools-for-smes/",
+      "https://www.finextra.com/newsarticle/46186/dutch-fintech-finom-secures-115-million-in-series-c-funding",
+      "https://techcrunch.com/2025/06/23/smb-focused-finom-closes-e115m-as-european-fintech-heats-up/",
+      "https://techfundingnews.com/this-amsterdam-startup-just-raised-e115m-to-replace-your-business-bank/",
+      "https://multiples.vc/private-comps/finom",
+      "https://www.financemagnates.com/fintech/payments/finom-tops-200-million-in-funding-with-new-general-catalyst-deal/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 115000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-06-23",
+    "total_raised": 115000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sodot",
