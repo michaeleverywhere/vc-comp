@@ -145184,17 +145184,30 @@
     "stage": "Seed",
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
+    "total_raised": 2100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-14",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": "2022-04-14",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2022/pakistani-raw-materials-tech-startup-zaraye-raises-2-1m-in-pre-seed-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "pre-seed or angel only",
+    "funding_source_urls": [
+      "https://www.pymnts.com/news/investment-tracker/2022/pakistani-raw-materials-tech-startup-zaraye-raises-2-1m-in-pre-seed-funding/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -369200,17 +369213,37 @@
     "stage": "Seed",
     "first_invested": null,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 6300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Seed",
+    "last_round_amount": 6300000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6300000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "L Catterton"
+        ],
+        "investors": [
+          "L Catterton"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/new-pet-lifestyle-brand-yummers-closes-6-3-million-seed-round-301642463.html"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "notable_investors": [
+      "L Catterton"
+    ],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/new-pet-lifestyle-brand-yummers-closes-6-3-million-seed-round-301642463.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -370087,19 +370120,30 @@
     "stage": "Seed",
     "first_invested": null,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 1700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1700000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://zette.ai/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU25kRGE2TzNZQTE1eE1PWkZkRi1Rei1DZ0lKYnpHN2FpWHgyVDBaMFEtcnNkUUQxQ1UxQUMwVFV4LUQ4U2NTSUFodmE1NjhfVlNwZkx6bnZNdWRMUHM4OFp6ZkhSMHFDX1FNbUl1Y3FoQVpZYmFpZTNQbHNwT25WWUlCV3NET1UwY3JST0o1dXlvU3NiSDFHLTAzMl9Dd19UcmtpYWRqZk1nTU5RXzFXUHZkNXdhd1RvUC1Kcmt0VEZNQ1JFUnlnczVwVQ?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://zette.ai/",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU25kRGE2TzNZQTE1eE1PWkZkRi1Rei1DZ0lKYnpHN2FpWHgyVDBaMFEtcnNkUUQxQ1UxQUMwVFV4LUQ4U2NTSUFodmE1NjhfVlNwZkx6bnZNdWRMUHM4OFp6ZkhSMHFDX1FNbUl1Y3FoQVpZYmFpZTNQbHNwT25WWUlCV3NET1UwY3JST0o1dXlvU3NiSDFHLTAzMl9Dd19UcmtpYWRqZk1nTU5RXzFXUHZkNXdhd1RvUC1Kcmt0VEZNQ1JFUnlnczVwVQ?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -447947,19 +447991,31 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.ybvr.com/"
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series A",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-02-16",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2021-02-16",
+        "investors": [],
+        "source_url": "https://www.webwire.com/ViewPressRel.asp?aId=270439",
+        "date_basis": "rss"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.ybvr.com/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=270439"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -460610,19 +460666,33 @@
     "stage": null,
     "first_invested": null,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 13100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series B",
+    "last_round_amount": 13100000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://youappi.com/"
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 13100000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/youappi-closes-131-million-series-b-round-for-expansion-into-asia-569086301.html"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://youappi.com/",
+      "https://www.prnewswire.com/news-releases/youappi-closes-131-million-series-b-round-for-expansion-into-asia-569086301.html",
+      "https://www.mediapost.com/publications/article/269376/youappi-raises-13-million-plans-to-expand-in-asi.html",
+      "https://www.pocketgamer.biz/ua-outfit-youappi-raises-3-million/",
+      "https://www.prnewswire.co.uk/news-releases/youappi-closes-131-million-series-b-round-for-expansion-into-asia-569085591.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -511438,19 +511508,32 @@
     "stage": null,
     "first_invested": 2020,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 37000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 37000000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.zeroacre.com/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 37000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZWxiaktfLWpFMWtlbEdnSEFJXzNQN05iR2duRmFQN2pJY0cxTS1SMFpyRnUyandZdUl1VERnR2Q0b3ZuRUppNXF5NVVScnlJZnFrbHE1SHRfb2RvR2gyWVE3YlhYYWNxNlZiUHNVV0x4anRvSGFRZERvdTN6VWVrZlZOYUlEeHpDN1g4ck5CNE5EY2pQNUdzcGxMRWZHLTdNMk15RVhpeUFJRTdPckNBT01GRzdwVVpWMHpWN0g2ZW56cGJQdmhpYmdKbWtPaUk3eWZPdnhsVWdJNkJnOFNfWjdVUlREX29neGdr?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.zeroacre.com/",
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZWxiaktfLWpFMWtlbEdnSEFJXzNQN05iR2duRmFQN2pJY0cxTS1SMFpyRnUyandZdUl1VERnR2Q0b3ZuRUppNXF5NVVScnlJZnFrbHE1SHRfb2RvR2gyWVE3YlhYYWNxNlZiUHNVV0x4anRvSGFRZERvdTN6VWVrZlZOYUlEeHpDN1g4ck5CNE5EY2pQNUdzcGxMRWZHLTdNMk15RVhpeUFJRTdPckNBT01GRzdwVVpWMHpWN0g2ZW56cGJQdmhpYmdKbWtPaUk3eWZPdnhsVWdJNkJnOFNfWjdVUlREX29neGdr?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdW9qbVhLVFFwRk9QN0ZqVEZYQlRxbVdaRHNCTnFNc19Kdlo4Z1lKM2ozNUJUeS1YcGlsUXN1SlpkRVF0TTRNQjNxUEM5RVl2OGw2ZTlXMGxIRWlkTEEyMzBZQllsVGl6cjNqd3JXd1hfTFlXSWRCQmotS0FtMjBsc2gzY2k0aHg0d0E?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajBORzBNdm1tbTdmLWZmTm54R3RxSFFHYnpyaHFOT1JYTFV4T2JTa3RfMVg1dDJIdFlNdXhab2tfengxYWxOanV3aVAxQTJsRVZVel9adlJrQnpRM0piS1dwVkR4VHJyZDJNc1Q4bVBFT3RhOEx2NTMySG5PdmR0NXQzaTNNZVBYa09jZEZKb1VvOHdWUlYyWU5VcUFtTW5EWmZOa2JRVGFDYkkyaUZSOEdDa2ZrV3VsZkpYa2hyZWJsNHpsRm5J?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -541343,19 +541426,32 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.zharta.io/"
+    "total_raised": 4300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-20",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4300000.0,
+        "currency": "USD",
+        "date": "2022-07-20",
+        "investors": [],
+        "source_url": "https://www.finanznachrichten.de/nachrichten-2022-07/56600170-zharta-zharta-raises-usd4-3-m-to-speed-growth-in-instant-nft-lending-015.htm",
+        "date_basis": "rss"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.zharta.io/",
+      "https://www.finanznachrichten.de/nachrichten-2022-07/56600170-zharta-zharta-raises-usd4-3-m-to-speed-growth-in-instant-nft-lending-015.htm",
+      "https://menafn.com/1104559862/Zharta-Raises-43-M-To-Speed-Growth-In-Instant-NFT-Lending"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -766523,9 +766619,10 @@
     "grants": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_source_urls": [
-      "https://zentio.ai/"
+      "https://zentio.ai/",
+      "https://pulse2.com/zentio-1-4-million/"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
