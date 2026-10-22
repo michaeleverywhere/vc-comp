@@ -172,20 +172,32 @@
     "primary_investor": "TMC Venture Fund",
     "source_url": "https://tmcventurefund.com/portfolio/",
     "scraped_at": "2026-10-20T20:37:26.029681+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2016-07-13",
+        "investors": [],
+        "source_url": "https://www.smartcompany.com.au/startupsmart/melbourne-startup-cnsdose-secures-1-million-and-brings-former-trade-minister-andrew-robb-onboard/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.cnsdose.com/"
+      "https://www.cnsdose.com/",
+      "https://www.smartcompany.com.au/startupsmart/melbourne-startup-cnsdose-secures-1-million-and-brings-former-trade-minister-andrew-robb-onboard/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-07-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CorInnova",
@@ -386,10 +398,15 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.kodahealthcare.com/"
+      "https://www.kodahealthcare.com/",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxONTMwS1J5MFFOM2JZX21jT050OGNUYlgxN2lzUVhFMkY0TWcwaW1CS2lhWVZqUlFCMEM4dmRrQmpRR3g1T19kRGcyYTVONEttdlFyaGlZOXl4TXMzR2xVOVRxLXI5MTlCLWhCYVlLd2l5WWEwUGFmMTdpQXBNd0RscnkwSzRYNjVRXy16b3RXVUFXRXk0SHZpeW5Dekh5WGl0S191U2xNZUM1RkEtSXRCMmlxZTc?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOG5HM1J4VXZRejlsR240Ml90OEgwaFZiR1Z6ck5TSzVXUE5aaHgySTNlLXczQ0RHMWJiOUg3MWxHS3lQRjl4bG85QThhNnQwcXdCQnNpcUU1cndzVENka1B2bUM2bWl0V0NZdGtIRXhtMTZ1UkE4TVAxZUVKQV80cXJWRFRVdWVt?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa2d0OTBEbXRaTElYaF90LUU3QVhxSWJoTXprTkxwN0tXLTRxYTJLb0ZGR3VReW5uRnZzRlIzNzRJMnZTVThkdmprZFREN2JFRG9DWVl1TWlEbWc5QmcyNzJjaWRLM3pLaG5ONi1JVWkxUXdfOFRSUHBBaDFXWjBrR2VTbE5KcnJfbWZidnFLb0VadjBDRlFObThuSFdWRFJyazdvODIzOGJmdUM0ZkdCdGdB?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNFNCSGRoeVV1cEJjUWhaZ21lOWYyWnE4SFRrVk5ibDBjTjJZdThxekxRdnJURUdHMXdzS1BxRXo0aU4xR21PX2NhbXlzZUh4eExoWk9zaTlNRERnRHpTT1FiTGxiTWRocjgtV2ZJYUhfSzdCWkU5M0FCOUNkcVpCcXBOaVVkYVVxWjJaU0dxeHp2YzFRdEFYNw?oc=5",
+      "https://www.stlamerican.com/online-features/press-releases/koda-health-secures-new-funding-to-expand-advance-care-planning-capabilities/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -905,7 +922,21 @@
     ],
     "primary_investor": "TMC Venture Fund",
     "source_url": "https://tmcventurefund.com/portfolio/",
-    "scraped_at": "2026-10-20T20:37:26.029681+00:00"
+    "scraped_at": "2026-10-20T20:37:26.029681+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vivifimedical.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Volmetric",

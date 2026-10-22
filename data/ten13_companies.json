@@ -604,10 +604,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.drawboard.com/"
+      "https://www.drawboard.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2RlVlZBSVFvNXFkamRWMjhSWm1RdF9hLUFLT1prbXR2YXJidFgyVDdmY3cxWmVDVXBKYWRYdmFpYXVPOXdhYVJuanFHemJaYV9kODNYcXh2c1NhMmVLcHMwM2RreldhQmJvWG91UDA1VmdnbGZ2Y0lNTXdvaGRJeVlfc1BYVW9ILTJsTXF4ak53M1FrS3BaWk5fWldSSmtzMVlzcV93MA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -998,20 +999,33 @@
     "primary_investor": "TEN13",
     "source_url": "https://www.ten13.vc/portfolio",
     "scraped_at": "2026-10-16T22:33:39.933636+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2021-12-09",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/officely-raises-2m-help-hybrid-213245994.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://getofficely.com/"
+      "https://getofficely.com/",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWlTcVdZTDVIX0M2bmczV3lXSTl6ZWtTTXp2TnEtVDVHdVlzcjRYRGFQQjFxMXJPUV8zOTVBTFdPZXA3a2FJblFhYU5pSk4xSXRmTFB0MzJCaUZUVE44aklQR0g4clVQaXB1Qkk5ZnZFb2lKYmFORm40bXpjUDAtMHVSbHJTVGlyOG5IUG5JMFZoclh2UXdfbjdVZ051b3MzX0ZUUnhDaE5IbVprWEhJbA?oc=5",
+      "https://finance.yahoo.com/news/officely-raises-2m-help-hybrid-213245994.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Partly",

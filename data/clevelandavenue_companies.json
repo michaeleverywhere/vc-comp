@@ -2444,7 +2444,43 @@
     ],
     "primary_investor": "Cleveland Avenue",
     "source_url": "https://www.clevelandavenue.com/portfolio",
-    "scraped_at": "2026-10-17T19:19:47.891949+00:00"
+    "scraped_at": "2026-10-17T19:19:47.891949+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2026923.0,
+        "currency": "USD",
+        "date": "2018-12-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763427/000176342719000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2749997.0,
+        "currency": "USD",
+        "date": "2026-09-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1763427/000176342726000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.verinomics.com/",
+      "https://www.sec.gov/Archives/edgar/data/1763427/000176342719000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1763427/000176342726000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2749997.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-09",
+    "total_raised": 4776920,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ZenBusiness",

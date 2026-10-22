@@ -3626,7 +3626,55 @@
     ],
     "primary_investor": "Threshold Ventures",
     "source_url": "https://www.threshold.vc/companies",
-    "scraped_at": "2026-10-02T13:09:46.738613+00:00"
+    "scraped_at": "2026-10-02T13:09:46.738613+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 200000.0,
+        "currency": "USD",
+        "date": "2012-08-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1556924/000155692412000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2014-09-08",
+        "investors": [],
+        "source_url": "https://www.wellframe.com/venturebeat-wellframe-raises-8-5m-to-grow-mobile-patient-engagement-platform/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2019-11-19",
+        "investors": [],
+        "source_url": "https://www.wellframe.com/wellframe-secures-20m-in-funding-to-advance-digital-health-management/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wellframe.com/",
+      "https://www.wellframe.com/venturebeat-wellframe-raises-8-5m-to-grow-mobile-patient-engagement-platform/",
+      "https://www.wellframe.com/mobhihealth-news-wellframe-raises-8-5m-to-build-out-its-mobile-enabled-therapy-platform-mobihealthnews/",
+      "https://www.wellframe.com/press-release-wellframe-closes-8-5-million-in-series-a-financing/",
+      "https://www.wellframe.com/wellframe-secures-20m-in-funding-to-advance-digital-health-management/",
+      "https://www.sec.gov/Archives/edgar/data/1556924/000155692412000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-11-19",
+    "total_raised": 28700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Xealth",

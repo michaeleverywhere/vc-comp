@@ -556,20 +556,43 @@
     "primary_investor": "Westly Group",
     "source_url": "https://westlygroup.com/portfolio/condoit/",
     "scraped_at": "2026-10-03T13:17:33.116126+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4250000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "Fontinalis Partners",
+          "Navitas Capital",
+          "Studio Management"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmV2cWJFV3ZLMl81Q0lOeFdCelFQWXhXXzBDT28zZkxNb1UzSkZmeEh0VU85OTkwdGhnN0VTNDJKeGN5Y2hwWGw1TXpDbXRwdXl6dFRGaUw1T0dhZ1FleERKWHBpUUJoYm9JSXpEai1STzlQUmZYaXFlNzMyMFluV0JGZnBOUzVOcTBvNDU3ZXctS05hZDJzTXBQWExiQQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.condoit.io/"
+      "https://www.condoit.io/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmV2cWJFV3ZLMl81Q0lOeFdCelFQWXhXXzBDT28zZkxNb1UzSkZmeEh0VU85OTkwdGhnN0VTNDJKeGN5Y2hwWGw1TXpDbXRwdXl6dFRGaUw1T0dhZ1FleERKWHBpUUJoYm9JSXpEai1STzlQUmZYaXFlNzMyMFluV0JGZnBOUzVOcTBvNDU3ZXctS05hZDJzTXBQWExiQQ?oc=5",
+      "https://www.newswire.com/view/content/condoit-secures-4-25m-to-build-better-software-for-electricians-22301698",
+      "https://pulse2.com/condoit-electrician-first-platform-company-secures-4-25-million/",
+      "https://finance.yahoo.com/news/condoit-secures-4-25m-build-170000560.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4250000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4250000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Fontinalis Partners",
+      "Navitas Capital",
+      "Studio Management"
+    ]
   },
   {
     "company_name": "Ampcontrol",

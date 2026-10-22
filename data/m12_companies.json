@@ -2241,7 +2241,21 @@
     ],
     "primary_investor": "M12",
     "source_url": "https://m12.vc/portfolio/weebee/",
-    "scraped_at": "2026-10-03T21:09:14.180914+00:00"
+    "scraped_at": "2026-10-03T21:09:14.180914+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.webee.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wandelbots",
@@ -3886,20 +3900,36 @@
     "source_url": "https://m12.vc/portfolio/modl-ai/",
     "scraped_at": "2026-10-03T21:09:14.180914+00:00",
     "location": "Copenhagen",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1700000.0,
+        "currency": "USD",
+        "date": "2020-02-05",
+        "investors": [],
+        "source_url": "https://www.gamesindustry.biz/modl-ai-closes-usd1-7m-seed-funding-round",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://modl.ai/"
+      "https://modl.ai/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd0w0ODFadG9lNlNiX1dSS3QtbHFVN0dfRXROeUh4M2VUckpFTXRiMFJvQ0w3NmN0R1picGxXbURvb0RpZGNjOFI5OWIzanlOYktscy1UZUdtckRCOWlRZkdwQVdhWnBsSnJjeVE5eWY2bFFYYjlCd01Zb2c0VzlQMkYyelJHc1JmODA5dFdR?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OTlFQd3duTW16US1ieEpyTlVwMlIxY1ZGVW4ybUlkUjY2WGkxRTEyaFRwYzhWX1h6eHJGYVB6NEtNSnYyV2NVWDAzT21vRmxVSUlZS1pKRUszQjcyMGROajkzSQ?oc=5",
+      "https://venturebeat.com/games/modl-ai-seriesa-ai-bot-qa-testing-griffin-gaming-microsoft-m12",
+      "https://www.gamesindustry.biz/modl-ai-closes-usd1-7m-seed-funding-round",
+      "https://www.pocketgamer.biz/modl-dot-ai-seed-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-02-05",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Metrika",

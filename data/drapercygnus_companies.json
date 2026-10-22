@@ -259,20 +259,33 @@
     "primary_investor": "Draper Cygnus",
     "source_url": "https://drapercygnus.vc/portfolio",
     "scraped_at": "2026-10-21T00:21:54.435249+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2023-11-29",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOHQ5akx3bXFDV3hpSkt0cXZiLWVnVzJNbWU4QldHdi1WZFUtYVdJVmJNbWhoaDFGTzdDUDNJOGxvU0ZydjdqVjNGNDBxWkxHVElzOVR4MXdKVVRzZEpLOG40SmtsMDltbk8wclhXWlM5WnlINXllSEk3VVd5MDE0REg0SG9ScVZNRHJEdXJidlhZQnNYSzhRdFozR1RKRGdGTmw3RlNiaWV5TlZleDhDNUZiQTFnR3VoRzh6TnNFQQ?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.falcomm.com/"
+      "https://www.falcomm.com/",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOHQ5akx3bXFDV3hpSkt0cXZiLWVnVzJNbWU4QldHdi1WZFUtYVdJVmJNbWhoaDFGTzdDUDNJOGxvU0ZydjdqVjNGNDBxWkxHVElzOVR4MXdKVVRzZEpLOG40SmtsMDltbk8wclhXWlM5WnlINXllSEk3VVd5MDE0REg0SG9ScVZNRHJEdXJidlhZQnNYSzhRdFozR1RKRGdGTmw3RlNiaWV5TlZleDhDNUZiQTFnR3VoRzh6TnNFQQ?oc=5",
+      "https://news.gatech.edu/news/2023/11/29/semiconductor-company-falcomm-raises-4m-seed-funding-advance-ultra-efficient-power"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "iComply",
