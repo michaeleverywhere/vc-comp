@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 188408,
+  "total_source_rows": 188409,
   "vc_source_rows": 149922,
-  "accelerator_source_rows": 38486,
+  "accelerator_source_rows": 38487,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 108781,
+  "unique_companies": 108782,
   "companies_with_2plus_backers": 35235,
   "companies_with_vc_and_accelerator": 10286,
   "companies_keyed_by_domain": 75353,
-  "companies_keyed_by_name": 33428,
+  "companies_keyed_by_name": 33429,
   "name_rows_joined_to_domain_company": 23876,
   "companies_with_possible_matches": 14368,
   "shared_hosts_treated_as_junk": 220,
   "companies_with_funding_rounds": 21774,
   "companies_funding_checked": 106866,
-  "funding_rounds_total": 38032,
-  "research_records_available": 122949,
+  "funding_rounds_total": 38318,
+  "research_records_available": 122951,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17107,
-      "bytes": 39998563,
+      "companies": 17071,
+      "bytes": 39997535,
       "first_company": "!K7",
-      "last_company": "CatDID Technology CO.,LTD"
+      "last_company": "Catalyx Space"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17025,
-      "bytes": 39999737,
-      "first_company": "CaTe Inc.",
-      "last_company": "FleetOps"
+      "companies": 16998,
+      "bytes": 39998267,
+      "first_company": "Catalyx Space",
+      "last_company": "Flat"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17454,
-      "bytes": 39997548,
-      "first_company": "FleetPay",
-      "last_company": "LeadIQ"
+      "companies": 17394,
+      "bytes": 39999160,
+      "first_company": "Flat",
+      "last_company": "Lawyaw"
     },
     {
       "file": "companies_unique_4.json",
       "companies": 17219,
-      "bytes": 39999104,
-      "first_company": "LeadIQ",
-      "last_company": "Parametrix"
+      "bytes": 39999412,
+      "first_company": "Lawyerd!",
+      "last_company": "PaperX.com"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17185,
-      "bytes": 39999414,
-      "first_company": "Parametry.AI",
-      "last_company": "Sodishop"
+      "companies": 17114,
+      "bytes": 39998831,
+      "first_company": "Papier",
+      "last_company": "Snipbook"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17438,
-      "bytes": 39998754,
-      "first_company": "Sodot",
-      "last_company": "Wise"
+      "companies": 17405,
+      "bytes": 39999162,
+      "first_company": "Snipd",
+      "last_company": "WILDPLASTIC"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 5353,
-      "bytes": 9723161,
-      "first_company": "Wise",
+      "companies": 5581,
+      "bytes": 10243629,
+      "first_company": "Wildseed Games",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
