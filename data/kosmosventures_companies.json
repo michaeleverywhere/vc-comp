@@ -666,20 +666,46 @@
     "primary_investor": "Kosmos Ventures",
     "source_url": "https://www.kosmos.vc/portfolio",
     "scraped_at": "2026-10-18T20:07:16.542485+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2024-03-27",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/layer-1-blockchain-peaq-raises-100000730.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/web3-network-peaq-raises-6m-120000385.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.peaq.xyz/"
+      "https://www.peaq.xyz/",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjVqemZ6VkFpaW1TTTEzQXY1NVFmZ3ZJLUVtTURuYnYtbE05V0dOX1N3cnY2V1U3YmFSSTR1UUw2R1E5SktjQnVxWGlOSGZiYmNVQ2w0ck9WQ0VkZDJzV2wxVXlRQXJvblRITEtVRTAxaFdPejVTdUF5dUZNN2FPU1J5NEZ6NXFURzFDWFg4TmJ5NDNQMFpoZDhlZmw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTFUwUnJzcjFoTGFDeHVDZ1NVcUxfcXhzUnNVUUlfeXByVXdtOTJkTUgwVlBOMy00U0lyY3RGRThHaTdZOXYwYmExd3lyUHpmT0xwZlpUNjE4M05KeDdwMllDU19oZzhKNFBiZmJtdWl0eHp6V3JTZF9BVEZYTm9mMlBjQlczZ3NYU2FGVw?oc=5",
+      "https://finance.yahoo.com/news/web3-network-peaq-raises-6m-120000385.html",
+      "https://finance.yahoo.com/news/layer-1-blockchain-peaq-raises-100000730.html",
+      "https://menafn.com/1108033951/Advanced-Blockchain-AG-Portfolio-Company-Peaq-Successfully-Raised-15-Million-In-Pre-Launch-Funding",
+      "https://www.finextra.com/pressarticle/100162/connected-infrastructure-startup-peaq-raises-15m",
+      "https://menafn.com/1104452574/Advanced-BlockchainS-Portfolio-Company-Peaq-Receives-6-Million-In-Further-Funding"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 21000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-03-27",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pokt",

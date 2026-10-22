@@ -1473,21 +1473,35 @@
     "primary_investor": "Felix Capital",
     "source_url": "https://www.felixcap.com/",
     "scraped_at": "2026-10-16T20:12:37.699480+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2022-02-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVkM4RjVhVW9PSUFsUFFNblRMTFJqNkxaTENUMjJrT0stMzZXM2czRkhtaDIxcEpxa25oTFhILTZjcmt1dEE3VW9XbkdMMWVlcEt0TXN0VVg0V2x3RDdkRTd6QTA0TjhrT3o2aHkyb29pazFXd0Y1MWdqdVN2Z0s5NHdWX1pSSHBwb1JDR0k3V044VF8yeHlBMG13bUNOSEpMdE8xQV94cWJLcS1QWnluVUwyMkNIZG5aeFptWVVVMmszc2Q0?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.papier.com/",
-      "https://chromewebstore.google.com/detail/papier/hhjeaokafplhjoogdemakihhdhffacia"
+      "https://chromewebstore.google.com/detail/papier/hhjeaokafplhjoogdemakihhdhffacia",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVkM4RjVhVW9PSUFsUFFNblRMTFJqNkxaTENUMjJrT0stMzZXM2czRkhtaDIxcEpxa25oTFhILTZjcmt1dEE3VW9XbkdMMWVlcEt0TXN0VVg0V2x3RDdkRTd6QTA0TjhrT3o2aHkyb29pazFXd0Y1MWdqdVN2Z0s5NHdWX1pSSHBwb1JDR0k3V044VF8yeHlBMG13bUNOSEpMdE8xQV94cWJLcS1QWnluVUwyMkNIZG5aeFptWVVVMmszc2Q0?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS1J0bndGamVKODdMcTdaRWp2MXhyS0Q1WFl1TGtMTlRzNUlFTDAyNFluSlV6SVlKaHluUjJMaEV2LUU1ZzhOQlZwN20zcmpWLWMwNjM3bzJFQ0hUQng4YWt3RzJxMlM4LXJSb1daY294b1c5OFo3Nm9FcmhKN2toVzNRdm9UVi1HTzN1bWFuV0t3T2loVVotNmxIc3Q4aXRzX25oUGt3?oc=5",
+      "https://uk.finance.yahoo.com/news/stationery-startup-papier-secures-50-m-funding-to-fuel-expansion-in-us-market-050155790.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Peloton",

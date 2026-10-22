@@ -63,7 +63,19 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "7shifts",
@@ -198,7 +210,51 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12400000.0,
+        "currency": "USD",
+        "date": "2019-04-18",
+        "lead_investors": [
+          "Felix Capital"
+        ],
+        "investors": [
+          "Felix Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSm1NaXpJQ0FIZkJlcXpiam01MlJhRjhldWFuR3kxekxESzZyRTdhWkJZTVVVRUdMcXcydUdfd0NjMnUzd2VPaDlJVkRNMHhJN3VnUzFhOEZhb2ItZXc1bkp3WDdFYUh5akZ6R0JaQzJ5UUNiSmR5NzNmVEVwNTA0QkQ1cGVVUWV2S01rQ2RiNTRLWjZ4eHAxUnRrSDZZTjY3WlFFb2pBdTNBejBLdUlWVnBvdw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2020-04-20",
+        "investors": [],
+        "source_url": "https://venturebeat.com/ai/adverity-raises-30-million-to-collect-prep-and-analyze-marketing-data/",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSm1NaXpJQ0FIZkJlcXpiam01MlJhRjhldWFuR3kxekxESzZyRTdhWkJZTVVVRUdMcXcydUdfd0NjMnUzd2VPaDlJVkRNMHhJN3VnUzFhOEZhb2ItZXc1bkp3WDdFYUh5akZ6R0JaQzJ5UUNiSmR5NzNmVEVwNTA0QkQ1cGVVUWV2S01rQ2RiNTRLWjZ4eHAxUnRrSDZZTjY3WlFFb2pBdTNBejBLdUlWVnBvdw?oc=5",
+      "https://pulse2.com/adverity-raises-30-million-funding/",
+      "https://venturebeat.com/ai/adverity-raises-30-million-to-collect-prep-and-analyze-marketing-data/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-04-20",
+    "total_raised": 42400000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Felix Capital"
+    ]
   },
   {
     "company_name": "Agile Robots",
@@ -242,7 +298,42 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7500000.0,
+        "currency": "USD",
+        "date": "2018-02-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1727116/000172711618000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 149999826.0,
+        "currency": "USD",
+        "date": "2022-03-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1727116/000156761922014510/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1727116/000172711618000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1727116/000156761922014510/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 149999826.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-16",
+    "total_raised": 157499826,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AI Medical Service",
@@ -330,7 +421,22 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thenextweb.com/news/airtime-raises-a-new-round-of-funding-and-makes-its-first-acquisition",
+      "https://www.cnet.com/tech/services-and-software/stealth-startup-airtime-raises-25m-buys-erly/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Aleo",
@@ -528,7 +634,62 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Temasek",
+          "Boyu Capital",
+          "GGV Capital"
+        ],
+        "investors": [
+          "Temasek",
+          "Boyu Capital",
+          "GGV Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNajFYYnZOQWdtNWJsYkl1MF8tX0JFUWJuZGFhSDk4d3hWSnpqUWQ4Q0hmYnFXd2xxUkVJZXRGaFJKLXVUMC1ianFqNExaOC1HS3oycDFCcWdUZkl5MHVOYlhuT0pzLVo1cTZaNkwyTFNrSzhyRTNGX3RhMklDa21adGc5MDRXdkotQmRseDc5azhPN21KNUtjNV93YkllT3NjWWxUSk5JTmcxZDBGLVNlbDZORTZKbFp1UVB4cEpXSHpDX1dPTXhiNXhWVk9kLV9y?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "OKX Ventures",
+          "CMCC Global",
+          "Hong Shan"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNU2ZBZmVicURhbG9rMHRIZkZEY19VbTdzY19NZXJteXZlN3pPTHdaU21SUDBiVWJSVUpQdUtWQXcwaHB1bVRZWlNFTVdrMDQ1SnVYRVM1YlY2dzQwMjVJNGxfaE9VVV8waTM0dFAwNzJfRENpenpINXR1QnFYbUtVdXhCc1Y1XzFMRkk1ZlN0d0p5ZlhhM3lsTVc2NjhOWFdlc1BPR1pnRTE4R1d3SDMtUWgtSlpUb0prVkp6NDJMNWtFNFFScTBsSjlHc3MtQjdkWTBoc3VKRy05d2o3dm91TExUYlVlbU9DYTg5SngwYXYwVVhUd2E5NjhwREdHSGFYRk9QTFlzdkluNUV4aGlVcHpzNHhuTEN6dWViYy1oUmo1LXM?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOME1rSFI5SF84Z0dHa1NXb2RPZHFfanp0SDVOUGNOa1F5RW5HRVlaNEh3NzVKcW9selMzUTRTTXlYSUNFYkVGVXJvdG1SOVlRMjloamdBU0RKMGdtVXowQS04bUNEeGd6YktoNUs0NXJvSHdNcUtWWkNFTFFMNHdwX3FmN3pON3M1c3FTUXotdzg4TGtLaks4ZFRqOWp4cDVwUlRuV0Q3NjZJaHFzaTBpWXBOZEkwbXI1X1dYMU0tOXpnQWJ6M0R4V3d0U1RiS21GQW01SjhvTDM2M1BaWTI4?oc=5",
+      "https://news.google.com/rss/articles/CBMiowJBVV95cUxNU2ZBZmVicURhbG9rMHRIZkZEY19VbTdzY19NZXJteXZlN3pPTHdaU21SUDBiVWJSVUpQdUtWQXcwaHB1bVRZWlNFTVdrMDQ1SnVYRVM1YlY2dzQwMjVJNGxfaE9VVV8waTM0dFAwNzJfRENpenpINXR1QnFYbUtVdXhCc1Y1XzFMRkk1ZlN0d0p5ZlhhM3lsTVc2NjhOWFdlc1BPR1pnRTE4R1d3SDMtUWgtSlpUb0prVkp6NDJMNWtFNFFScTBsSjlHc3MtQjdkWTBoc3VKRy05d2o3dm91TExUYlVlbU9DYTg5SngwYXYwVVhUd2E5NjhwREdHSGFYRk9QTFlzdkluNUV4aGlVcHpzNHhuTEN6dWViYy1oUmo1LXM?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNajFYYnZOQWdtNWJsYkl1MF8tX0JFUWJuZGFhSDk4d3hWSnpqUWQ4Q0hmYnFXd2xxUkVJZXRGaFJKLXVUMC1ianFqNExaOC1HS3oycDFCcWdUZkl5MHVOYlhuT0pzLVo1cTZaNkwyTFNrSzhyRTNGX3RhMklDa21adGc5MDRXdkotQmRseDc5azhPN21KNUtjNV93YkllT3NjWWxUSk5JTmcxZDBGLVNlbDZORTZKbFp1UVB4cEpXSHpDX1dPTXhiNXhWVk9kLV9y?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 120000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Temasek",
+      "Boyu Capital",
+      "GGV Capital",
+      "OKX Ventures",
+      "CMCC Global",
+      "Hong Shan"
+    ]
   },
   {
     "company_name": "Apollo Agriculture",
@@ -550,7 +711,40 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSDRmRGt5cXlYRldkZ2ROd0tLZ2thV01sS1NsdHFEcHR3c3dfWUljOXB4Umd6VlhXZHNJdVROUDUtR0NRTVpCSFRCY2dXWEo0b1Q5ZkFyQVhDQTNzUDNxbEpuaHRNTlJwaVJuaHJBM245dV9wdDk0bFFWWkpIOHFMU1V5Z01RQzdYcjZlQmt0ZUc1ZXhWbGdoNkpFbjdRV2h6eHk1b0poSkJsd3ZhWFo0YkRTX0stc3NrbHBKaUF3V1pWY1BfRlQzLUE4ajh2Tk5QNkE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLU4xZmlBTWxQclRsRC1xOU1HRUdUMjlGS3diU3JpUUk0bzJZVy1FYjM5anFRY2pvZ0RQR3IxaF9zX0pzQ3RBX2Jyc2JsdjVPM2ZOb1ZpZFM5ckRkMWZZZ28yN2FKb1o2OFY5c1BmWjVxbkRTSVVnZFRrRUt0WkRueGxsZEdUczgxcE1FLVZPOXdjUzZUejhzTkIzTzFTeU1LcVI4eUxSWmNZS2dQZEtwbVFWZEpfWWYtdVlydGhha25DQQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLU4xZmlBTWxQclRsRC1xOU1HRUdUMjlGS3diU3JpUUk0bzJZVy1FYjM5anFRY2pvZ0RQR3IxaF9zX0pzQ3RBX2Jyc2JsdjVPM2ZOb1ZpZFM5ckRkMWZZZ28yN2FKb1o2OFY5c1BmWjVxbkRTSVVnZFRrRUt0WkRueGxsZEdUczgxcE1FLVZPOXdjUzZUejhzTkIzTzFTeU1LcVI4eUxSWmNZS2dQZEtwbVFWZEpfWWYtdVlydGhha25DQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSDRmRGt5cXlYRldkZ2ROd0tLZ2thV01sS1NsdHFEcHR3c3dfWUljOXB4Umd6VlhXZHNJdVROUDUtR0NRTVpCSFRCY2dXWEo0b1Q5ZkFyQVhDQTNzUDNxbEpuaHRNTlJwaVJuaHJBM245dV9wdDk0bFFWWkpIOHFMU1V5Z01RQzdYcjZlQmt0ZUc1ZXhWbGdoNkpFbjdRV2h6eHk1b0poSkJsd3ZhWFo0YkRTX0stc3NrbHBKaUF3V1pWY1BfRlQzLUE4ajh2Tk5QNkE?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 12500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Arkose Labs",
@@ -962,7 +1156,72 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5080287.0,
+        "currency": "USD",
+        "date": "2020-04-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811850/000181185020000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35549370.0,
+        "currency": "USD",
+        "date": "2021-05-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811850/000181185021000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 137670048.0,
+        "currency": "USD",
+        "date": "2021-09-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811850/000181185021000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 176999917.0,
+        "currency": "USD",
+        "date": "2022-01-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811850/000181185022000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 31998107.0,
+        "currency": "USD",
+        "date": "2022-03-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811850/000181185022000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1811850/000181185020000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1811850/000181185021000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1811850/000181185021000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1811850/000181185022000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1811850/000181185022000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 31998107.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-07",
+    "total_raised": 387297729,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "bloXroute",
@@ -1030,7 +1289,24 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxdUxrVzVZbURUcHBvbElna3RfX1B3Wi0wN3F2eWJTUlZqUWltdklValRveUl1YWg0SFBqSDNmV1hQMXh1NjM3TzJ4ZWxJSWJPOWQ4MzF0WkpMTTRXdXFHTHZvNTIzLUpCWExUSVNKOUV6WVRYdUJLbXQ5Yw?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSW92YVRaMGNnRWx1Q0lGS08zWE1WZWl4UjFUeXl2YWtFdEtXV1JjeXp0ZG1udVZ4SVNqUmUzTmNBeFFpbW5va2tzM2hKd0syZVB3VEpOWlk4cmZEcmJILWdBTW4wUV9na2J0OXVIMHYwOTV2ajN6ZHJuSE93MEpUbDZ5dVBhVGgwc0dIMWdpREtSS0RSWkUteFZ1a0RCdnFOTVYwZl92QU9taWZVLVJaaEU0TkJmWVJ6elAtbEtjc2HSAcABQVVfeXFMTnA1NHZ6SElQT2o3RUNwR3d6RUZ4bXUwQWRNMy1pbkZSMWoybm1vczRLN0wyd2FRUFE0VTgxOTQyS1RuajlQV3l0TkJVNldVSVNwMTdVdlRVeTIteHZxMVpPdUlzLWFHem1raUE5S2VsS0dZNm5wbU5NMmhmYXRFWk5jZlZNd0ZUajExWktZWmVINzI4RjgwLXBzU0p6MFpMLUlUamxWRFRJNnhwcHZjQzNPU0EwbTlfdldzdW42eHB2?oc=5",
+      "https://thenextweb.com/news/bytedance-anew-labs-290m-ai-drug-discovery",
+      "https://digitimes.com/news/a20260917VL206/bytedance-ai-medical-funding-business.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "C2FO",
@@ -1131,7 +1407,52 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 914996.0,
+        "currency": "USD",
+        "date": "2013-09-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1586878/000158687813000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 500000.0,
+        "currency": "USD",
+        "date": "2014-08-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1586878/000158687814000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10645566.0,
+        "currency": "USD",
+        "date": "2015-01-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1586878/000158687815000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1586878/000158687813000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1586878/000158687814000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1586878/000158687815000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10645566.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-01-16",
+    "total_raised": 12060562,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Carro",
@@ -1153,7 +1474,38 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk96R1BkbDF1d3VvYUJpdUx4T3JaV3V4ZWZlMmlrYi15ekJJb19aOXdMUGlXYWhGSUhGT0ZGVnBycUI1WndTMWJZZEw2UzVrRUlCcldPVFo4Zzk5VnNYa3oxVjlBOWQ3RGYwUzJ5Y1MwX0I3b2VzMGtacl9FaHFRSjQyMU5iUGo0TVZjakdpY2FVZElnNS1sTGdIN2preUVhOXZYNjdMYmpXTVNsRU0teWJJeEp2dw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeFN2WjM1aWgzLVg0S1VBSllGcndQUXFfMkRmRDhZc1ZRdFRhejNmNlZIYy1UNU5rYXpoRm5qcjRJZ05DY2V6c2NoTGZ5VFR0Z24zTWI4MDZUR1FiR3JCVm5fQnZEVzlXZGpkMUk3Z0JkOUo4LXFKV2lLek9FbjU4Rmxfbkw5Y3llazJLTDdveFJVRTjSAZcBQVVfeXFMTmtBWmxna2swRmZLWGFzaTlhcmlfQjAzSGFsdlJyZlcxR3M0ZTktWllydWxaN2FWdENOcmdlZ1NWMzY0dGRTREl1azdCdUlBa0RvaDJLV2dndVVheEtSSnpDdURtbGJnekRMZjBLNGh2MVEwTmFvQks0SGhmbW9kM1pKSnNvcDFuMjZod1VaTzdEWktZVk9aUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQR0NpbWdrVVdoMGhnUTl1UFVxOHdwOV92WFhpVzlEa1dDMC1DS0M1RVg0QjRwR0JVdWZDcHR3d3hEZFdPcDhfMnJrZjdzaGxmNzZpUE1fbGt4YXE4THJTOXN5UmxndkN1MTc4SnhraTdOZDBMV0F2Y1p3Z0pWR19Vc2d4LVpzVktVelhBLVpGaE1WelhGQUtqTU9HV0N5TEh4VXZpdjhreC15RHcwTVhLajdWejVBZW9uYUREMGJ0dWQwdXlRc2lqcHFfMTlCMi1xRDRmcFhKaFk1M3lMdmprUUZsak5sUlVZYWJkUk5rVWRLTklQRVlQQVg2WWdZZ0tJRzhDLWd5M25SUG8?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNblhxbDFYOG5kMzFnVE4yX0w4YVJDUlVPejJYTWpOU3plR0ZSX2pxeE5WZ2VLdXVxOFRpRW90M3c3dmROQmY3LXpxbl9Cc3ltWE1wUEszdkwwcjBndzdTcHdqanZyZ1ZVRVZhT1pjU3NqMzJVMlVxUDlDSXNLSnRjUl9Tc1hENDVqajM4TlRQTEdXeTg?oc=5",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTGFEX2dRYmJZU0RqTnNFOGR0cHFWZ2tmeEFsT3F1TU4tVUxTc3dyaE5rem8yX1JGQ1llamFrWUFJUHhXTnVtMG5fckNoYnJ2QTNRaTl0UnlBY3E4b05LUmR6aVg5a3pQZHdfbkxrY0pTRVJoNm50a0ZVWlBFSDktaG1Qd2pmMUFSMXZoczQyQXpha0FTVWVVQmJKZFJKZjZoemRmY1RJaXlNUDZ0MFdBX0plOXZvWmpzRXBIbmVNYVJVbmt0YzhmOEE0RjZVektzUGYxZ0k3TllGM1dMbC1RbjktSDJEbjA4N0JSNDkxMHZKN1ZDd2JobFg3TGJmZEpJMTJj?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOekgxN253T1FSUkRnUUdBdHUtNGhNdTRCQ0dEcFR0SVVfcWg3SzZxSUZ1ZGtZNnJEdmhEbU5LdnBKQzFHYTJRNE1BREQwejZrckJuaWhMSTJHcUNwYWl2Tklncm9IY1VVSWtXOXJFWnFXRGhEQU1Sc0s1anlPWDFrNHZJT05YWk4zRVM4?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ1k2c1BMQ0pKQ3lsVmlHTkJ6YmZVdmgxRDdUNTFiNXNDVjB2T3lmbE9Ya25LWTVUc093ampXODBzdUhTdTh6aGI5Tk92TTc3b1U3cndoVGxBNEdEaWotZG90NE9iR2U2anIxMGdIQWFjTlZfQUtiekxlbnowTTlJTkNFNFZUOFllbXpBZkpITF92WThObk41dXVpUGk2LW1ia0VZUVNYZDUxVUZQNTRiTzV2aw?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk96R1BkbDF1d3VvYUJpdUx4T3JaV3V4ZWZlMmlrYi15ekJJb19aOXdMUGlXYWhGSUhGT0ZGVnBycUI1WndTMWJZZEw2UzVrRUlCcldPVFo4Zzk5VnNYa3oxVjlBOWQ3RGYwUzJ5Y1MwX0I3b2VzMGtacl9FaHFRSjQyMU5iUGo0TVZjakdpY2FVZElnNS1sTGdIN2preUVhOXZYNjdMYmpXTVNsRU0teWJJeEp2dw?oc=5",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONTN3Vjh0dnMtLXRFWUZnRFM2UnQ5Q0EwNTBUeTl4LTVmVDRXTXVVZUE0elAxUW1mUmp3Z3ZObC12T2Rhb0EwQmJ3RUlmXzlRaE1xbWlmWXAyRGNnMGNhYldGMExXMVlfbzR3a0R4emo5WXpEQnVrMVJqRlVtQmpCeHVVX09lQ09qc2U5blJGNlVRY1pGZDZWZkZKMEkyUE5ZMkNJcW1xbk1kNWYtT2Jxemxlc1lqTjBfbC04UERFVWlQTE80Yy16NlF0RVFKdmxOZ1NaY2hkOE9vV1F1OHpKeFBURQ?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CARS24",
@@ -1198,7 +1550,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cato Networks",
@@ -1290,7 +1654,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cityblock",
@@ -1392,7 +1768,75 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": "2016-09-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX0RPTnQ1TXJMMXBqTkVidWdRdDh1ekZyQXUtcHNFMXJnUHJCQ1JPZ3owM1FEY3djZW5kUFlBOVVwdklYVVIwejJ4U2o4WWZwSi16YXlrT2hseGNPN0xBRGpqeVRZakoxYUNLTXU3bDBvTy1wT3o5VVFrWVh0dEZheDkwamVWOGV6TE5maDJrbkJhbWc?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZnFqdjJlaU1JNWVGTmpHd0lLdUg4OHRWeEV5QnQ4M3o0UjFpQlJKNk9sYzJQakNLcUtIaGp2anE5YlZ5RnBKVWFmclc0cFdUalJKYm9lQnRWWHZRU3U3VA?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 140000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3lQN3FaTTBVSVhZYUQ4YWF1dDJ4QnJSdENsNUtkSVlyUE9mNlctLThRUlZNUm93elplNmt6MVBxSWc5cnJad2JoZ3NINnNHTXFDMVhoU1M5ajdMSXVwWk5iOE5KRXA1UnhzNUVpbXpEdFg2WGFmVndtcUdtaTByak02OWFyWWhFOEtBYXA2QlUxTTV5Qld5b2xWNnEwY0s5RWpmakJaUUdmb200?oc=5"
+      },
+      {
+        "stage": "Series E",
+        "amount": 400000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMkVoM2JOdGt5eklCS3Y1QTR5MHl6WjFVMEphLTdJeXY4SF9xMUFOVG1KUFYzY3FWSFAzUUQ1bHN5QWdTa0RHSHNOTGZhTl9kR1NxS3RZTmhrRDFDNlpaUXR3UUw4SnhERnBObEJOSVJfTlJLX0p4Y3YzTW85WmVHclczSnIyc3lUWGsxaE9qWm9td0phckllbDFwV1hTeVJtbmlDSUJWODRidDJCMW9EYk9acXdXSVQydnl3RUsxaEVVYUxnUmpodU5sQ2VwQQ?oc=5"
+      },
+      {
+        "stage": "Series F",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVT0NkS3lFSkpQX2tIczRNVzJXNTFXWjhfRGx0d29xeWFJWHlVVm5pRUx5XzQtQ1JqNTducy1kUVJMRUFuVndsS3FpRnhBWkZpa1ZjNTNNM3UwZEVHcGFnSmdrSQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXdUItOWxtMVR3ZzM2aklaSWxWeVBpa0hCWTFnbWpIZVRMQ24taXJZZXlSaUw0Mlp4VVQ0NUdJTXdsMFJha3NPUjdZSGNrMGpiR251Z3VVNkx1bWpLNExsaGdLekRqX01y?oc=5",
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNLVpVV3FKeGRyeUhROVZNYTFseGhaWUtDOVhsQzZVSmpuX1BTanVWZVhTeTBTaEJKb0RIMWU1Y1k2MlN3bXg2NlZuZDREaFdfaWhWTDBUMDhJbzF2TkptLXF3TnJCZUs5Z3BXZ1dDSkpPVlo3R25QMlI5U3BZVmhCRjl4Rmd3cHFCV1l4QnNKNlNwVkNmVDBGM3RZUjk1NldWeXhHNFJMZmZWSHBUZnBXWmR6eG5oeG1mMW1EcXpZbzhGSFVFbUdYSGFHMzVsc3pEQ2YxNTZLeTJhXzNaWFg5TFBxYk9IZjNmNE5B?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVNwdTFPQU1DYTExQmdqX1JRRHZsUVBqeTdmbnNraURwWGJ1YVE5a0VGb0lOSTd2VEpQc3hNSHlPa05IczZlQWRvQzhCN0VZYjNfb0NQTURPVUhNYXZhNGlQU1laRjhqYUpKdXhaaUJNakZKSzI2eXFtTEZ6TWVTZm10bE1oektkTXRUeWtaamVTMFZ1MXBzV1FnWW5ETHZzZTRv?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxObE5VeTFjQ0ItVXA0cFp5bng2Xy1FTHE1dzlPLUpqM3REemlwNDF2bEpxZ3ktZ3JOam1la01XV2RTYnpCUlpXemdSQ0VTVl93RTIyY2U0bVQzdXRDcEdSSVdHSFJTckpnYjVsMkhiUlNlaXdwOFpUOUlHSFVhYnZ5QWFB0gGHAUFVX3lxTE9mc25UTEZoU3Q1eENyRjdwWmc3NGMtRXdqZ0JVRkNubUJEYUpjQUZuTGRLZTRQa3NBaEtqTjJkWWFSN2U2UldkUGJXV0J4d2pIeU1JMHZJOEFDSExoemozRmxTZnhSbllManNydTgxYUQ4aWpURVdReGRrb1hJcDYxb25hNHNGVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDNRT2w3ZURNMzdzSUk5ZjRMaDBqWDNpa0d3WElWT0VRa0pJQUlIUXBPQnpWcllPcC0wSHUtQjlxUmtUbHg4cDMwZ05CQWJOUTB1SzNvSUR6QTd2emxXd19FWU5UUEdPUTNSczg2RzJyamVEeXk3WE1RbGRVU2c2VXdXaEpZVS1LN1RHS243UloxMnRBckRlN2hxbFdDTlFVT3cw?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY2hISGZJUENYZnBwTHF3MmZVb29OZlUwdG4tUkNxTlhuUDBZcC1RY0RVZkNCdld6a2lPTklEN20wamVER0hGR3JGdF90THFMdzJZNEVoeWFrMXlyS2V5LW1zc0s1M2ZNMnlvd2ZaSUp3YXdoZDZ3X3ZPX3pKbjlUcXFZcmwxXy1P?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVT0NkS3lFSkpQX2tIczRNVzJXNTFXWjhfRGx0d29xeWFJWHlVVm5pRUx5XzQtQ1JqNTducy1kUVJMRUFuVndsS3FpRnhBWkZpa1ZjNTNNM3UwZEVHcGFnSmdrSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxQOUxWWXF1anpzU2tUUXc3WWNRUHpFcWpjZXVmQUR6YmdZb214a0tiRDVSdGcxRThDRlNQUlBKejRoR3duc19PVlluNXNHNW9yX1V1SThRWXBHLXNLblRJM3ZGdjlqSzVWSDV2Qk93VmRDdDZCb2tERjJqQlUyNms5ME1TcWZHWWJOWGN6NnA4YWIwWWE3MTVubDlIRnFNMTZwaU9DM1F5VUltQmhrNUxXRVdzU1E1QnY0azByZ3VxMWNMNDZmcFRBMDhya010dTZoLUZDaWRnWTdDT2NFdWZfZWh0clJhQlU1Z05wVWJ0ZU5RUWtWMjFvRC1PSkd4cmxJeVRn?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX0RPTnQ1TXJMMXBqTkVidWdRdDh1ekZyQXUtcHNFMXJnUHJCQ1JPZ3owM1FEY3djZW5kUFlBOVVwdklYVVIwejJ4U2o4WWZwSi16YXlrT2hseGNPN0xBRGpqeVRZakoxYUNLTXU3bDBvTy1wT3o5VVFrWVh0dEZheDkwamVWOGV6TE5maDJrbkJhbWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lZnFqdjJlaU1JNWVGTmpHd0lLdUg4OHRWeEV5QnQ4M3o0UjFpQlJKNk9sYzJQakNLcUtIaGp2anE5YlZ5RnBKVWFmclc0cFdUalJKYm9lQnRWWHZRU3U3VA?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3lQN3FaTTBVSVhZYUQ4YWF1dDJ4QnJSdENsNUtkSVlyUE9mNlctLThRUlZNUm93elplNmt6MVBxSWc5cnJad2JoZ3NINnNHTXFDMVhoU1M5ajdMSXVwWk5iOE5KRXA1UnhzNUVpbXpEdFg2WGFmVndtcUdtaTByak02OWFyWWhFOEtBYXA2QlUxTTV5Qld5b2xWNnEwY0s5RWpmakJaUUdmb200?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMkVoM2JOdGt5eklCS3Y1QTR5MHl6WjFVMEphLTdJeXY4SF9xMUFOVG1KUFYzY3FWSFAzUUQ1bHN5QWdTa0RHSHNOTGZhTl9kR1NxS3RZTmhrRDFDNlpaUXR3UUw4SnhERnBObEJOSVJfTlJLX0p4Y3YzTW85WmVHclczSnIyc3lUWGsxaE9qWm9td0phckllbDFwV1hTeVJtbmlDSUJWODRidDJCMW9EYk9acXdXSVQydnl3RUsxaEVVYUxnUmpodU5sQ2VwQQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 32000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-09-13",
+    "total_raised": 782000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Class Technologies",
@@ -1415,7 +1859,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Classiq",
@@ -1437,7 +1893,64 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUHRyckpmckxfLUxhaUdVdUpVVFFQdnJaUlJZOEg0NjJqQjlWQnVpbVpDUEpvbkJrTV9oMW44dHBlbzVva0xxU0s4XzY0cko4TlgtU3hST21SbHpmWlZtS0NhUld0WGhza0J0dDFsZWV3cVhJN0p4T25UMmsxUk15c01SbjRKZk5QbXl2VnJfSW5MS3pYcDhKelQ3bHlBTnVXU2NiVTA5U2JLSGNYUWF3Y2hmd1hkVEk?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 33000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IcGxRN2NpejFhTTc2QWIyN3l6OWNKN2JqQUJ2eXBkTFc5UlAxcmp6QkRHOWdZQ1ZNc0VhdHdXRDhCUGFmOEk3cVlOaXRMb0poZmlEWkxvY2tQSWdIa19NUkxjNzR6X1NXb2xkWWt1ZWUtb1M2OFpn?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcXFjS0huZURrTjJzbm95Wm5vTk1DQWNkQUdEc1ZnZTRWSjhHVHJ4bjNBQ3J5ek1semlsU0pPNEczc2pPbl9SdU85ejNyYnNjVWlFNnp1b0d5TmQ0cGxscUpXWFhWdzdsOUpELVNFeEEzX05vZ0Y4Y29yX3dYdmN1d1dMXzZuYzNpenhqRjNPLVJmNTFrdmNrNHczdzFkZmw4WXpMZTlqZ0s5THpUanJPenBDQ3JHeVNwWWZtcUNHNnhZc0hUMHpvVEtPdFZ6aTAzaGlreA?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoTXBwN3lKZndzd1ZkQzBCNThNWlRKVW9OaF9EMEJqYW1HU0RRamRXUWVBUWd3anJVb3RtcGxpMVpON3pVcnhaM0wwY25LMUZHNUpVU1FqWW10MnJGSVluaUpfbUtLOHFK?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS0NJMHF2NU9QcEVUX0RsUXNBanJrLU90eHk2WTFkcTlBRHJtNVhYcVFkZG0xaDI3MWpTQ1kzc0V3dHBUMzVwQ3c4azdhV0Itd3ZUN1M5eDJBb0FWbjVQd2tFOXEzWk5CeUhTcmVXNm5fdG9PZUxpMHJEX0RvTkhUbno0d0dMZ3Ffc2VGTVVoREc1ckw1NzNCMHY5eEs4Z0hWZVhV?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRXpkLVZFS3BWQV92a0wwMkptbjlIQXNfa1VlVEpUaDhOWlFUTkUwejFsclNoTW1aUVprLWRMajNYUnZfb2NxdzNQOGppYnhVT0lyM3pWd1RwWUFxbzhlek5tVWNJQ3RWWTR4amtRdVg4Vm9LWG5ZUmRsMVJtWEp3aDFZVjNLX05KQTcyZ3A1dDdTakFyMHMtZ202b3lobzZBellmRVUxSUPSAa4BQVVfeXFMTjY0N2FRLUJQN0tYZUtSRXRidG1BeVhobDhJWFB3bEV4V3VLZkVDVTdtbHBJU0xIRzViREh5WjduSWxGc0gtckJJdjhGYVBXY3o1cUN3cU1mbHdjSDlqcTJ6c05nRE54UjhyeVVTZ1kyV1RVSlMyWXpseXJyZzZKSktvR2tCRXVad1dJLW1tN21tNnNsVTF5U1daa2dPOWdqanhUejBiS1E3TWFoTG5R?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSTUNoSXE1alVlYk0tTWRCWVY0T1gtM1F3RFNWOVg3MEhiWXZsX1NENHIxWUNsOHNCcGJBdXpMTGZTRG42bGh6c1ZSc2J4Z3ZudGtsU0s3SHdlNTlHQkRETXlUMFlaSnJucmxwTFdrc1dhZDEzcG5xUWZWZkZUQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoTXBwN3lKZndzd1ZkQzBCNThNWlRKVW9OaF9EMEJqYW1HU0RRamRXUWVBUWd3anJVb3RtcGxpMVpON3pVcnhaM0wwY25LMUZHNUpVU1FqWW10MnJGSVluaUpfbUtLOHFK?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcXFjS0huZURrTjJzbm95Wm5vTk1DQWNkQUdEc1ZnZTRWSjhHVHJ4bjNBQ3J5ek1semlsU0pPNEczc2pPbl9SdU85ejNyYnNjVWlFNnp1b0d5TmQ0cGxscUpXWFhWdzdsOUpELVNFeEEzX05vZ0Y4Y29yX3dYdmN1d1dMXzZuYzNpenhqRjNPLVJmNTFrdmNrNHczdzFkZmw4WXpMZTlqZ0s5THpUanJPenBDQ3JHeVNwWWZtcUNHNnhZc0hUMHpvVEtPdFZ6aTAzaGlreA?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fVXlfc0M4cFZodWUzWUQyRTg4a0ZPbFl2bk5RUHV1TTBjY0dhTTNKQlFBZnBjSFZRdnFuT20zZGRod0loOXByN3NpUmFYZGUwWnNJeEd4VXB0bHRNQXNnc18yTi1jbE9O?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTnFmdHcyQ0JOQ0pwSlZDcUplNVFZYVZvNGNPX3Y2d213bmJHZDNyNVRaRGdrTk85RFI3bVlId3Jyb2FucUdaS1dmWjJyZFlpNkRvWTdiLW1XdUJFdWI2aXVUdlZCaGlGNXJUT0cwRW85SWdZdTlvMjM1a3B1WFd5Njd2cW5yQWUtNkRsSG1aSVVvWENxRTBRcXpJVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjNINWJnZ0hxSG0xS2FMSTI3c2pvY2pnZGlXdFNGYlppYmR6T2RvN2tIQl8yWnRMd3RZX0pTdjhXempmeVNYR2Q2ZHZzN04ySHlyYVhkc1R4aFZ2VjVGUUdUSkhERi1ENjNIekktWTNTOUtoX05UVHdqdDAyQzF3eEpZSk9qSm5JYXdiN3ZBOGotd1BiczF6ZXdtMElRLTZ4NlBiSlFjLWJXSDBQRF9JZklhbFDSAboBQVVfeXFMTWxtSUY5YjFxdUxxcEtEYmMtN2lMRi1BQ0UwNVZiT1puZ1BFSTZwQVB1dVE3UEYtbnhKc2RNdzlHYzhsRlRyeWxSNllMVGYtWFZlM1FISWRZSUtZR2dWc0Q2U1IxNUlqU2Z3Tm5FXzB3cjRISEdPYU9yY3JyVFU0blVVMEtaMWhuNzN4aFB6UkZBZzBiT0tiOTFuR2NSZHhVQ1JrSmtmNnp6dGZ0M2IxTURrOGhzN3FlOHVB?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUHRyckpmckxfLUxhaUdVdUpVVFFQdnJaUlJZOEg0NjJqQjlWQnVpbVpDUEpvbkJrTV9oMW44dHBlbzVva0xxU0s4XzY0cko4TlgtU3hST21SbHpmWlZtS0NhUld0WGhza0J0dDFsZWV3cVhJN0p4T25UMmsxUk15c01SbjRKZk5QbXl2VnJfSW5MS3pYcDhKelQ3bHlBTnVXU2NiVTA5U2JLSGNYUWF3Y2hmd1hkVEk?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IcGxRN2NpejFhTTc2QWIyN3l6OWNKN2JqQUJ2eXBkTFc5UlAxcmp6QkRHOWdZQ1ZNc0VhdHdXRDhCUGFmOEk3cVlOaXRMb0poZmlEWkxvY2tQSWdIa19NUkxjNzR6X1NXb2xkWWt1ZWUtb1M2OFpn?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 183500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clearco",
@@ -1661,7 +2174,61 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 81000000.0,
+        "currency": "USD",
+        "date": "2015-10-20",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GZi1uQzdXXy1YdEJXRFFxam13M1RoT21DZE5Fb3RoSXN2Ym14a0hyU3JZQjc3a21pdjlaYnA5WlE4RzZLN21lc19oVW56dk9oY3BSS1hubS1tSjB4Q2w3RzVlanhHNnpCUFdhME8tUWVQWXNt?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": "2018-02-28",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2k2Qm5xSFowUzEtWHJUc20xejJ3T2JLTkJFaXRUNTFQTzNlblZZcGlRRWpEbjhGUnZVRmx4N29QckoyM044VFcybFdfR194b0pyZnB3b081S3FROTFONjQ0eEFLQkhUSUNhVm1hOHdHRDJ3ckViQ2I5eWhiaE1RVw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 205000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOME9ZNEM0SWE4WURTSkhiZERCbV9lMVpYaDZQd2UyamhkOEc5T1VkWHRWT2VIZGFnVHQ2bEJoUU9OOXBNNGMzQ2pSSy1Yb3NYNnVmNTVIb0hMc2NCVkdrN1RjZmJjNXlLQWUyc1VsTEE5VWNtSU9YLWxpODllSzJlbkFyX0ZXUlNFUGp1YXZYMW1nLS05TmZfVmh1YS14emV5LUNhOGRsQWE0S2c?oc=5"
+      },
+      {
+        "stage": "Series F",
+        "amount": 280000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYklDYXM2OHVxWVNtcDZWOVBQdFBHcW4yNkZGcDM2NzUzdmFHVlRPb0dhakhTZ1E1ZUkxZGN4SEp4Sk5xbElfQ1g2Y0V6QVNxMm5ycEx2RktrOWJyb1FtOU5Lb1puZjBzVDN5SEtjNEpWU0dYLW1rLU5tajdacXBsSllxQUQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOME9ZNEM0SWE4WURTSkhiZERCbV9lMVpYaDZQd2UyamhkOEc5T1VkWHRWT2VIZGFnVHQ2bEJoUU9OOXBNNGMzQ2pSSy1Yb3NYNnVmNTVIb0hMc2NCVkdrN1RjZmJjNXlLQWUyc1VsTEE5VWNtSU9YLWxpODllSzJlbkFyX0ZXUlNFUGp1YXZYMW1nLS05TmZfVmh1YS14emV5LUNhOGRsQWE0S2c?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYklDYXM2OHVxWVNtcDZWOVBQdFBHcW4yNkZGcDM2NzUzdmFHVlRPb0dhakhTZ1E1ZUkxZGN4SEp4Sk5xbElfQ1g2Y0V6QVNxMm5ycEx2RktrOWJyb1FtOU5Lb1puZjBzVDN5SEtjNEpWU0dYLW1rLU5tajdacXBsSllxQUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2k2Qm5xSFowUzEtWHJUc20xejJ3T2JLTkJFaXRUNTFQTzNlblZZcGlRRWpEbjhGUnZVRmx4N29QckoyM044VFcybFdfR194b0pyZnB3b081S3FROTFONjQ0eEFLQkhUSUNhVm1hOHdHRDJ3ckViQ2I5eWhiaE1RVw?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GZi1uQzdXXy1YdEJXRFFxam13M1RoT21DZE5Fb3RoSXN2Ym14a0hyU3JZQjc3a21pdjlaYnA5WlE4RzZLN21lc19oVW56dk9oY3BSS1hubS1tSjB4Q2w3RzVlanhHNnpCUFdhME8tUWVQWXNt?oc=5",
+      "https://www.mobihealthnews.com/news/collective-health-announces-110m-funding-benefits-platform-launch-new-partnership"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 110000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-02-28",
+    "total_raised": 676000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CommerceIQ",
@@ -1742,7 +2309,44 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDUydndfVnVYMTdBckZVTkhTU0g0SEQ1aGFrVWtfQ3lFU0t0Zk1IV0ljaVhSVzRQVWZRVGtOMGVlZzZBM0Rjam1OTXJuS0ROX2RrWUQzMjBtUDRDUGxyQ2FKWWdoOWw5M1MzOGZFaWZxMGpOa0VEOWJ5Y2tkbXJsaDhWNzRZeGl6SlVIZGZDdm03MVpCbU1oNFpVMTc?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 450000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RNWEZaQ3Q5V2EtcHZBaW91Ym15T1lialZoUWd4TVVkYTk0ZXV2X29XZVBON1hqY1ZoX3JGd3FEYTFSWUJjQWZxMmtlRzRNSjhDMUFpZGluNGdPQ0prSXNZRkd0M0Z0ZzNEcWkyV3dXNmo1WUFmc3dRSFFKRjlHaW15SUVZNk9BWXZqRXZtUU1FbjRYTjBYQ2tjMWtBcHRaeWc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcUV4Qi1oVE0yLTNySkdQVnAxcEFPS19XTGxfdlFPQUpFcDRtejEtdVpzRHQyV19PRmtWaTdkZHlxOUc0WWtQeTUwOUExVWdJcUxzZVc3YXpfWjJ6R3hIRGtSOTlwRTFjU2xvcE1ENi1kekFmMXV2RmdST3E2eFZMeU9tOXVMUVRQTzBoOHlBS1NQZXM0RGhKdllFWHY3SUhwMzZZb2FoOWJJRFhFcUNjd0s5dFZ5QWZ2?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2RNWEZaQ3Q5V2EtcHZBaW91Ym15T1lialZoUWd4TVVkYTk0ZXV2X29XZVBON1hqY1ZoX3JGd3FEYTFSWUJjQWZxMmtlRzRNSjhDMUFpZGluNGdPQ0prSXNZRkd0M0Z0ZzNEcWkyV3dXNmo1WUFmc3dRSFFKRjlHaW15SUVZNk9BWXZqRXZtUU1FbjRYTjBYQ2tjMWtBcHRaeWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZeE4wZFN4MGcyenBGbkJjcGcyZmJCWDlWWVY3b0xDbWZnRXBYaExDcUZHRTJGNmVWejBtYVlHSXR4MWx0ek9XX1EzbFQwR3A1YnB6TVpiV3pJcmdjQ1g4SU15S0V1MFBwaEE?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDUydndfVnVYMTdBckZVTkhTU0g0SEQ1aGFrVWtfQ3lFU0t0Zk1IV0ljaVhSVzRQVWZRVGtOMGVlZzZBM0Rjam1OTXJuS0ROX2RrWUQzMjBtUDRDUGxyQ2FKWWdoOWw5M1MzOGZFaWZxMGpOa0VEOWJ5Y2tkbXJsaDhWNzRZeGl6SlVIZGZDdm03MVpCbU1oNFpVMTc?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVBrTjRxNUxvTmhxT2dHd2FuRjdfQllmMjdrZFJHdjd5T1Q2d0tjNE1hbWpoYXJUSlZZdjhhcnZYSG1RY1RCaWQtajZtYWx0cFhXdldFVVVwN3JFSDNxNjNpNUFncTRuNG4xSUFWeG8wcHJ6S09TaDh4ckk5eXc1UTNxMA?oc=5",
+      "https://www.streetinsider.com/Business+Wire/ConsenSys+Raises+%24450M+Series+D+Funding+as+Leading+Self-Custodial+Wallet+MetaMask+Reaches+Over+30+Million+MAUs/19777248.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 450000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 515000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Contentsquare",
@@ -1897,7 +2501,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Databricks",
@@ -2087,7 +2703,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DCG",
@@ -2944,7 +3572,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Firework",
@@ -3090,7 +3730,42 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 113500000.0,
+        "currency": "USD",
+        "date": "2020-12-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWQmhNeUk5MEtFN1lQMzRHNXdZMUVXd0FXMURxTnE1M1lYZ2NHR0pjQ2dIOHZLVURnbDBiU1NITlR5NWE0bU9FQnFwU0JJSnN3OTM5aVFKcXJydmo2WG5TRGI3Wm5DQngyeXQwRDI5REEzaW5sZ2IzQUJVT25HUQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObFppRWk3RFkxOHZ3Z212aTlJOHZGa2J0Z0czZ3pZSDBDSGFlb2hPdkNpZWZpQWhZUnlydnYzWF9SX1AzYzlVd0tSMDY4amxaaTJjM09vajc3bjM2d1l3TERlc2t2dmNLNmxwZUg4X1FiSkRCczhNRWRCckVTOGctd3o3ZGZqUWdaenZpc2pNQ0taRC16ZXVUTTJrenk5dEhKV1VmZU5lQmViM1dJVmFkQ1hmQTQtZDZ2bDh0NUc0eDBrT3Fkd0g4emoyUnB6QkY1b1l3YXZCUjZUcHVJUnlCSUFCc1laNmJsUE9UUENlQ2Jwbzl6dGlN?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObFppRWk3RFkxOHZ3Z212aTlJOHZGa2J0Z0czZ3pZSDBDSGFlb2hPdkNpZWZpQWhZUnlydnYzWF9SX1AzYzlVd0tSMDY4amxaaTJjM09vajc3bjM2d1l3TERlc2t2dmNLNmxwZUg4X1FiSkRCczhNRWRCckVTOGctd3o3ZGZqUWdaenZpc2pNQ0taRC16ZXVUTTJrenk5dEhKV1VmZU5lQmViM1dJVmFkQ1hmQTQtZDZ2bDh0NUc0eDBrT3Fkd0g4emoyUnB6QkY1b1l3YXZCUjZUcHVJUnlCSUFCc1laNmJsUE9UUENlQ2Jwbzl6dGlN?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWQmhNeUk5MEtFN1lQMzRHNXdZMUVXd0FXMURxTnE1M1lYZ2NHR0pjQ2dIOHZLVURnbDBiU1NITlR5NWE0bU9FQnFwU0JJSnN3OTM5aVFKcXJydmo2WG5TRGI3Wm5DQngyeXQwRDI5REEzaW5sZ2IzQUJVT25HUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTC1ObS1WekZLMGVDalpHbEZuY3ZFVkNxR0dMZDFSVnVaTExpaUxxTGhVeU1ZelowZ2tnSncyRl9fbXRZRmtIQTRveURlckR4WkdhcUgyVGVjVnpXNGQxZXJVU1YxaUhtaGJKd0RVN1ZRc08wTVd1MjQ3aDNBQmViQmhEckJabG9XeDEySFUyX3VyOVBGaFZ1cmRQZmFiLWVyYkpoVzA5VC0zN2FsWFNmMkhzb1JVX3d3cU9ybldzSGVncFpINUk2WEROYWhCbHRvaGk4ZG15QVhIajdDVjNxUXFR?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 113500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-01",
+    "total_raised": 163500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Formlabs",
@@ -3208,7 +3883,23 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcmRPUHRLNG9UeEVkT1Jhd3I3d2l4LXd4Vi05SnZaN2ZlZ2FocnFKcldVeFJSQWg4b0FyVEJTOVVFWFlYUHpOWFNLVVEyN0loN0RQTkQ2SDd0b1Fqdmg3dmZLdnRsWldERzhKVFBVS2NBbm5CdmNnczhsSGdjME1HSXNqankzX0F2TE1GbXNWR1IyazBQUTJLU1lmUWxJRlB4azBLM3NLMFRBUFVkU2dVQzNDX3piRzRHT0RBOFEwaTZva2dyTXVjRU1fRmpkbWt0dzE2N0RxTVVxeTFTRlJzRjNuM0djTFdNdUp6M0RxYXIyRXBpVkJFNW52RFV0RjFMcER1ZA?oc=5",
+      "https://pulse2.com/forto-250-million-funding-and-2-1-billion-valuation/",
+      "https://finance.yahoo.com/news/forto-raises-240m-funding-round-120605423.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fountain",
@@ -3331,7 +4022,34 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2019-06-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUzFtcTdmVjc2Nm1iYnVoR3dNSElILVFaOGNac1NNX3pFVDJram9JaEE4NUcydldjUDlsYkF5Y1FVZFlqOGxlX3l4TG9Ec3FQSEYxUFloRFgyaTZnM2ZSckRvaFgweHRYRmdreFU0MDAzV1laSl9JdlNQelRJTzJpUE5n?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUzFtcTdmVjc2Nm1iYnVoR3dNSElILVFaOGNac1NNX3pFVDJram9JaEE4NUcydldjUDlsYkF5Y1FVZFlqOGxlX3l4TG9Ec3FQSEYxUFloRFgyaTZnM2ZSckRvaFgweHRYRmdreFU0MDAzV1laSl9JdlNQelRJTzJpUE5n?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONGxCTGtZcmZFeXcyWFMzal90eVV1TUx3M05CVlBzZzFucWtNUE54S1A4Y0xDdnJWQ2JQOTVLQzY1Nk94eDFleFhnNjR5YW1hRlNGV09UVDBrRVNPQ3IzaUZPYXNkakJjMWFKX3pzTmI5VjNZZ1daeUlNWWZkVVpUVHM0bXU2eG93cVEzUUktendrb044Qks4Qm43ZFFDakJHMGcyVUwzb2ZtU2s?oc=5",
+      "https://www.crn.com/news/data-center/next-gen-data-center-vendor-fungible-raises-200m-in-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-06-27",
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Futurtec",
@@ -3446,7 +4164,32 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 380711500.0,
+        "currency": "USD",
+        "date": "2022-05-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1839608/000120919122061438/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1839608/000120919122061438/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 380711500.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-11",
+    "total_raised": 380711500,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "GetYourGuide",
@@ -3962,7 +4705,32 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 143210951.0,
+        "currency": "USD",
+        "date": "2020-03-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1812648/000156761920011207/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1812648/000156761920011207/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 143210951.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-03-26",
+    "total_raised": 143210951,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "InterVenn",
@@ -4157,7 +4925,23 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdV9mV19kTXdxbzZTUHhHOTE0M2JlUWtNWWJYZkJId2w0UnlwNkNoaTliX0Q2RWdXLTM5VmFCYjctc1hsMXBqQ3NhZEZpSmZ4YmJULTNMZmZmdHNiMEpySlZoQW5Ob1NKdE5oV3ZXRE52SGszZzdmNDh3TUQ1bG81RjdWQjVkM3NCR0pzVzd6SjRjNDU4aENNZGRhVGkxdFZfZUdXNjkzTjZhZXJCZDltN1JCVlV5WFRRS2MtenB0X2V4eFBvbm1NSDdTOA?oc=5",
+      "https://finance.yahoo.com/news/job-talent-raises-eur-92-141000032.html",
+      "https://pulse2.com/jobtalent-e92-million-raised-at-e1-3-billion-valuation-for-workforce-management-platform/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Juspay",
@@ -4202,7 +4986,122 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1412000.0,
+        "currency": "USD",
+        "date": "2009-08-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 525000.0,
+        "currency": "USD",
+        "date": "2009-09-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147183809000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2009-10-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 675000.0,
+        "currency": "USD",
+        "date": "2009-12-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147183809000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 976500.0,
+        "currency": "USD",
+        "date": "2010-01-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8807801.0,
+        "currency": "USD",
+        "date": "2010-12-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147266211000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": "2011-08-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147266211000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999999.0,
+        "currency": "USD",
+        "date": "2012-08-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147266212000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 42060906.0,
+        "currency": "USD",
+        "date": "2014-03-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147266214000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 80573059.0,
+        "currency": "USD",
+        "date": "2017-09-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1472662/000147266217000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147183809000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147183809000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147183810000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147266211000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147266211000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147266212000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147266214000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1472662/000147266217000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 80573059.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-14",
+    "total_raised": 184030265,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Karius",
@@ -4225,7 +5124,52 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2017-08-07",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVZpRHYtRXE2QXZCSExCUmdyc3hQNnlmT0piTmxEYkF3SjhVV2QwLV9MQ1JTdmZ6UThGZjIyVmJYN0VDSEc4cmJrc3hSR2w2SXBlaUI4ZWs5UXhkUUViZ2N2bEh4VXZXRl9QbVJxZ05iblFocTNSN2NkdGVwaFF3c3h2MlRuUmp0WTF1bmRYb2hNTzVRLXdxOUx4czVRNlo1NjhDM3JxX0x3R2V2VEZJUGQySlFNd3F0SVBIYjl1ZlQ5RWRu?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 165000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUmkzSG1QZ2JhdTZRLXhIdzJOb3NobGJUMDVMdERlU1pKbkpBZjRXM0lqTmducnFqcTE0aFlpSE1ON1BSZ3kzQW55OTZLeldad1hGRlZLUXZWNmxISTN2VERFV19sQXR2S245MjVOUk9STHlZQzhPUXpwbEdxSGhMOGhNblBMeUgzMkwycl83b0hfUXpoSDF1QzN3?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPc252QjhaNTQtQi1CNTNzbFBRU2ZYQWFlWUR0R0NHbDFNbVgtSFBnM1duWE84a1VEWUJ0cEl4M1ZhMGh5X3VNNWF3WldqemxLdW84ZWxGSXpOSHBDR3ZFZlBpT19QS0JpNExraE1zLXQxY0RmMi1RS0hoNzF6V1lqUFR3anU3YmIwMFNwYmpIU2FFbHlMZHpBNXpUQ2ZxZmJ6ZlNBaFIwZERadmV2S2Y1UFpQN3R4cEV0clpvaXNJa3E0eXg4enA3M25Ic3hsa25NV2h2RC1lTXMxNl9iZ2ZmeWNCazNYWmROT2ZrRjd0VkpVZm5lVEY5R2tXUnZnb1hJdmI5dEVPM0VldWtva2ZoR1JrTFpRSVlkOVgzcWcwMFpuMTBPMjRnZDhVVzk4NjktYXdBWDFtNnJza0VsM3Q0aWdIOVl0b2NZR1dkdWptb21lYU9yV180eVdRU2dwRlAwWU5vXzEyY2hDa1Zq?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSUhQZ0hFbWJTTG1SZ3R0TFNacHNUMDZWajZfazFUOXR1eXFpQlVmTHk1QVVOT2lvRnNDRzJXUFBqYXhYOEdkdWxMZ29iSEZudzg3QllBcTV3RnFCR3QzNENvNmRlTnZucGhrXzBlbERuZzF6eU5LZjVXc3dUZWFYcjJMdVVtMlRJSDhF?oc=5",
+      "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPc252QjhaNTQtQi1CNTNzbFBRU2ZYQWFlWUR0R0NHbDFNbVgtSFBnM1duWE84a1VEWUJ0cEl4M1ZhMGh5X3VNNWF3WldqemxLdW84ZWxGSXpOSHBDR3ZFZlBpT19QS0JpNExraE1zLXQxY0RmMi1RS0hoNzF6V1lqUFR3anU3YmIwMFNwYmpIU2FFbHlMZHpBNXpUQ2ZxZmJ6ZlNBaFIwZERadmV2S2Y1UFpQN3R4cEV0clpvaXNJa3E0eXg4enA3M25Ic3hsa25NV2h2RC1lTXMxNl9iZ2ZmeWNCazNYWmROT2ZrRjd0VkpVZm5lVEY5R2tXUnZnb1hJdmI5dEVPM0VldWtva2ZoR1JrTFpRSVlkOVgzcWcwMFpuMTBPMjRnZDhVVzk4NjktYXdBWDFtNnJza0VsM3Q0aWdIOVl0b2NZR1dkdWptb21lYU9yV180eVdRU2dwRlAwWU5vXzEyY2hDa1Zq?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUmkzSG1QZ2JhdTZRLXhIdzJOb3NobGJUMDVMdERlU1pKbkpBZjRXM0lqTmducnFqcTE0aFlpSE1ON1BSZ3kzQW55OTZLeldad1hGRlZLUXZWNmxISTN2VERFV19sQXR2S245MjVOUk9STHlZQzhPUXpwbEdxSGhMOGhNblBMeUgzMkwycl83b0hfUXpoSDF1QzN3?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVZpRHYtRXE2QXZCSExCUmdyc3hQNnlmT0piTmxEYkF3SjhVV2QwLV9MQ1JTdmZ6UThGZjIyVmJYN0VDSEc4cmJrc3hSR2w2SXBlaUI4ZWs5UXhkUUViZ2N2bEh4VXZXRl9QbVJxZ05iblFocTNSN2NkdGVwaFF3c3h2MlRuUmp0WTF1bmRYb2hNTzVRLXdxOUx4czVRNlo1NjhDM3JxX0x3R2V2VEZJUGQySlFNd3F0SVBIYjl1ZlQ5RWRu?oc=5",
+      "https://hitconsultant.net/2024/05/02/karius-secures-100m-to-expand-non-invasive-pathogen-blood-test/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-08-07",
+    "total_raised": 315000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "KEENON Robotics",
@@ -4271,7 +5215,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Kigen",
@@ -4340,7 +5296,22 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/klarna-460-million-funding-5-5-billion-valuation-1-million-daily-transactions/",
+      "https://www.yahoo.com/lifestyle/round-funding-brings-klarna-45-154723077.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Klook",
@@ -4386,7 +5357,66 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2020-02-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUNsaC1ub0pBWFFmY1dLS0kwbmRiMGN2dl9UQzFmd3BkeTRzV3J1eDhOQkJfc01fZVF2aHE5M1F3dzh2eFdMVV9uS0JjdGxVNlN0c3g1dUZ0Qk9lQWIyYXRhYXlYNmhWcENXdXhTYnpBSzBtaHRJb0RjZ1BMazlvakxuQ1VZYTdyNk9mRUFMRmxoNnM2dnJ6TTF4QkY2NnI1OWdsc3JHVm1sVHE5REQ5VQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": "2022-01-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZGhTWmZQOVpPcW5EWUJWUGNUbF9ydXZmSGc3bGlZanBOWHhzLWNvS2NFTUlBR2JtM2pUSnBfX21KRzlvWW04RWFRbkJ6S2xoRFJJQTVGYXh5VjY5ZF81VmhQdUtCMVdCdXJRUTNsWjQzODluNVBfTU1NVHNFTGV0UmJ4NA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW1FU0FnTzdITHBvdG1RRmhWbEFjNDRodmMzZk5BZ3F6S2xmNFhFU2xvRENSM3hWS2tMR1BkNTZYVHp2UW4wNUdJcjVJdUk1SzN3Y0ljSzhyZlNuemhfdURkUEEtd2FMSHc4WFlRM1JyOVVlWTNQN0hBTzhMeDZUVEdJd0djcU1KcXAwMmtLOE9EQlZjN0tmc3JPNGQxLUU?oc=5"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Mwbm5Ec1o1aDhKZjkxNEpRUzB1UG44X2QwTUNDY3BDeDR2UkRuYWpTTFBnZnJON3lEVTNaeFJ1VVV0RDNBMGcxajM0Njh5blFLUGZxX1pMWVBab0FncEhNYVg0dTNwdVhKUmpzOUVDcWR2bExaY1kwTDVkc3RwOW9od2hLbzY2VjljT2p5LXl6WFBGa18tVHhmSEQwSTRaZTUtQVRn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHl1M2JueVZReDBjd0dnTUY0VlBfcy16bzJrXzNzeWJ3dGplVEJQYjM5SGppQ0lPVFZWSWtRUzBIUjVLOElHaWdoa1cwWThJb2Z4VWN0Z2F5STU4TDBsLXFBenJmZG56ZTJrcDItd01UczFzSUpYMnlxSkFmRXdmYVkyRXI3bUFUSUkyTnF3VHRpUHVhNlZXSnFTN0FrVVAzUG11YUNJR05pNmdW?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTFA5NmpaWGJjUTJjaHJkc0pSZl9nVGxmUk5ZbEJpWU44TW04em1pbDNJY2hYaWpneFhaZ0xIdUZMWkJZTld2ODdUNEVfQm9oOE5UQjhOb0hCU2VzMkF5cmtBSTczclA3ZmRBNkI4cnpFT09JN0I2QjMxVHkyc1YxRXNpMm8xUTNCaG91UVFQVW13YzRwVV8yekZXSkRZaERaWG92VkNqYUlyZEV3YWdBb3I3YU9YWlM5dnR5RkhtUEJvaThx?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Mwbm5Ec1o1aDhKZjkxNEpRUzB1UG44X2QwTUNDY3BDeDR2UkRuYWpTTFBnZnJON3lEVTNaeFJ1VVV0RDNBMGcxajM0Njh5blFLUGZxX1pMWVBab0FncEhNYVg0dTNwdVhKUmpzOUVDcWR2bExaY1kwTDVkc3RwOW9od2hLbzY2VjljT2p5LXl6WFBGa18tVHhmSEQwSTRaZTUtQVRn?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0lQV2l4Ri1qTm1HYTYtLUkwRnowSHF3OUJaRjl5VE9KcFFPVGZTYkNPaTBxSXZjN01fT1FHbnlCa3ZLTmxZejl3elhzelJ6TFZkTENXZkVORUhpS2duZWtlRjl6U2dQSDlUNW42b0NKOXVmeko0bk1mNnNQOThXcE5kTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbHluTnRFeEhuMnZGbmFCbzlqZF9oQlJsZ0JDX0l5c1l0eEFycnQ1OFN0RGNEQkVReDBWOTRIX3pLS0VoTFJnMFRWWFE3dmp1SWRvdnY5UEJHZDdieGtRVnNOTVEzd0RXb0pSZ3NMNzRZUy00amdYNjk5Y1RhZG1kazJGU1BuQmNqR2RibXNzNlhsUnliNktLbnFfSnF3WkdlS0hfV2dvdi1ET1ZPS0t5U0R5OTk0Zmx6ZmdaeHRzYnFTcjRYMUV0dWdjc1gtWExNX2Nz?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONm9NOHVCNDhhbUEySnhleFF3V3ozTXR4UTRiOUtSbGZPaVYyWm8xRmNfYS1Na1ZWeEI4ckFoZ3RWbmRob2xDOWtoc1VtOXdkVnM4ZWFzN0VPNms2OTNXTlJqX0xJMWE2N01WNkRwNlhyRlJLcl9hRmVnVFBnZDFJdkZoemVDd0ZtQWhqQTNrU2szOUpvWnBIYlZVUW5QUGlGRENrZ21DRi1TbnBpWDB3SFdyaGZVR1BwSkFraFl1Tkp2STQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUVyRFpCa3Z5MzFDQXduNEIwUEtXTjdUUjgxY2QtZVZZdHRRTklLWVNvaGdFdndjQWIwaF9aOU5XSGFPV1FGNGRKaGtyYldFeXlEaGRjSEJjUlphRUx1MTlCdGM1NVJfbldkXzhwSHo2MmE4bng0N2dVZjBYX0U1dmZkRkFjUy1NT291N2NETGNWTlBjM1VsNU50dVc4czdBSFdERUZ2cWV5RGRHVGNrcGgzSlVmQnh1RnFLUWRidw?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW1FU0FnTzdITHBvdG1RRmhWbEFjNDRodmMzZk5BZ3F6S2xmNFhFU2xvRENSM3hWS2tMR1BkNTZYVHp2UW4wNUdJcjVJdUk1SzN3Y0ljSzhyZlNuemhfdURkUEEtd2FMSHc4WFlRM1JyOVVlWTNQN0hBTzhMeDZUVEdJd0djcU1KcXAwMmtLOE9EQlZjN0tmc3JPNGQxLUU?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUNsaC1ub0pBWFFmY1dLS0kwbmRiMGN2dl9UQzFmd3BkeTRzV3J1eDhOQkJfc01fZVF2aHE5M1F3dzh2eFdMVV9uS0JjdGxVNlN0c3g1dUZ0Qk9lQWIyYXRhYXlYNmhWcENXdXhTYnpBSzBtaHRJb0RjZ1BMazlvakxuQ1VZYTdyNk9mRUFMRmxoNnM2dnJ6TTF4QkY2NnI1OWdsc3JHVm1sVHE5REQ5VQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZGhTWmZQOVpPcW5EWUJWUGNUbF9ydXZmSGc3bGlZanBOWHhzLWNvS2NFTUlBR2JtM2pUSnBfX21KRzlvWW04RWFRbkJ6S2xoRFJJQTVGYXh5VjY5ZF81VmhQdUtCMVdCdXJRUTNsWjQzODluNVBfTU1NVHNFTGV0UmJ4NA?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 110000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-08",
+    "total_raised": 275000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Leah",
@@ -4630,7 +5660,42 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9999998.0,
+        "currency": "USD",
+        "date": "2013-09-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589263/000158926313000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 52549918.0,
+        "currency": "USD",
+        "date": "2015-04-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1589263/000158926315000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1589263/000158926313000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1589263/000158926315000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 52549918.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-04-29",
+    "total_raised": 62549916,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mathem",
@@ -4849,7 +5914,37 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 103000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSUxWMkdudGRLTWYxeTlMOGFZcTRjaXdKcUNkTnNaZzJKd20xSFFmTkt5WnoyNTVpcDdvdFMzbXFuUXZmUXdUWlRWQlFSUHhYcEZTN3EyRkZKazJaY0R1WVlxc1V0WlBMeElUOXhieHFZVEhlS2FMREtpMWp2elRiVldCeVE4T1pOV3VkTkRTczRjQXNJ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSUxWMkdudGRLTWYxeTlMOGFZcTRjaXdKcUNkTnNaZzJKd20xSFFmTkt5WnoyNTVpcDdvdFMzbXFuUXZmUXdUWlRWQlFSUHhYcEZTN3EyRkZKazJaY0R1WVlxc1V0WlBMeElUOXhieHFZVEhlS2FMREtpMWp2elRiVldCeVE4T1pOV3VkTkRTczRjQXNJ?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenR3a3VRUXZ3ZGdndng0UlNfOGVfWmU5SVBNQ0dCUmpSQl8ybGcxSldwOU5xLWt3Y2xMTTlSZmhLa0pjRUxlNmpTeXRrZ3RwZ1BMbnM3UGV3dldLdzFuanZWZEhZM19udzc4R0pDMWtSSjZmM1FoV0pPYkpDY1NSZ0l6VTJwYmJUMVVlQS1sSjJza2hLZDUyaHJURVk?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0t3NlRiM0xMd1lkTzc5dHRvMmNXaDJMTW1ScjE0eVpfN1NybjQweHU4bUdzVXpqWXprWUd6YUNTZUZUdGwwdHdIbDVvZk9RSFhzMWdLbWFOWS1nMlBzMy1uajdRYkpYR1g2TnVrZnFiRHFZcDAxSGstWVo5eDR3ZHZRSlhuanBlUWd2QW1oaHpnZW5pZmVFRHNlQTBRZVhldDNF0gGrAUFVX3lxTE5GeFJPUkszWGR5dnBSZC00OERUdFU3Z2ZjcU9XOVR2RnYzZEJsYkh0UXdYRklVVUtjZWU1U1cteXFQSU0wQ2syb2NRa1N0YWNhMlVhNWdFOVhzeGkwUkhTTGRkVV9RV3BTOWJpRGxob2FzcjNUN2FBX0tMSFJzeGdqb0RDdFlKdG5tdWJZZ0FheF9obTlnb1J0WkM3X2E1TXJwNkVjRW0zRE0wTQ?oc=5",
+      "https://inc42.com/flash-feed/minio-raises-seed-fund-from-general-catalyst-nexus-ventures/",
+      "https://www.dbta.com/Editorial/News-Flashes/MinIO-Raises-103-Million-in-Latest-Funding-Round-151167.aspx",
+      "https://www.vccircle.com/nexus-backed-minio-raises-103-mn-from-intel-capital-others-at-1-bn-valuation",
+      "https://www.vccircle.com/tag/minio-inc"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 103000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 103000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Misfits Market",
@@ -5340,7 +6435,21 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://cryptobriefing.com/openai-seeks-funding-ai-investment-rush/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Opendoor",
@@ -5362,7 +6471,41 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "convertible note",
+        "amount": 650000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRXJWcTJZYXg5clFlVmJ6REZ4WlN2dkw0UmMxZmFrT1hKbExCdlVBcjNJNGc0VkR5T3dHcVdza09xbFNsRGxDdW5tcnR3T21lejdUSHVNQTJ0c1llSlA4RWJCRVdnNTV3MXcyNTJzanZINGRxTHZWR0UxQWs1dWlxenNxQzR3dVdsY0YwQ29LMVN1LU94RzluWkhleXRxX29NZnRMckt5U1NWQzRwU205MWJnekhCTkE4R1VKZXh3M0ZYOVFpWDZN?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 440000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zV0xmbnVBVnkwZjRLemVpVU5pdEtsTnpQVFBqR2pTZWZqN3ZkUy1xVzBMaWNNWWNHYTJDTTBsMF90d0FTZmdYWXhra19xN19xOXU3S2U4OU1PVTFZMnJ6V1hKajBoNktWRWpabzNrY2pBbjlPUGc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRXJWcTJZYXg5clFlVmJ6REZ4WlN2dkw0UmMxZmFrT1hKbExCdlVBcjNJNGc0VkR5T3dHcVdza09xbFNsRGxDdW5tcnR3T21lejdUSHVNQTJ0c1llSlA4RWJCRVdnNTV3MXcyNTJzanZINGRxTHZWR0UxQWs1dWlxenNxQzR3dVdsY0YwQ29LMVN1LU94RzluWkhleXRxX29NZnRMckt5U1NWQzRwU205MWJnekhCTkE4R1VKZXh3M0ZYOVFpWDZN?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY1Jkb2VSTUZXVXlEWkJaS0d0Um9zeG9FdDhXYlFLVDhWXy1vM2pOVm5ESFpLU19KRVpVaVNwVTdoN2NWYUx6ZDFzM3B4LVIxQ0hTZmhBZ21EY0pIMWVhZnFtOExDSzUtZ2VzYUFoS1lkcF9hNzZ1YVBxUzFXYzBIbEl1aU1tTmRZdnpsWVY1QjlCRVI4V1BNRERVSURMQm5lQTcwcmtTMUJIVDJJZnZhSkl2ZWpGT19MaXNTV00zSGJad3BhQ05rT09QVDVZblhZSEg3T0RKeDl0NzBPNmdDX0ZB?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zV0xmbnVBVnkwZjRLemVpVU5pdEtsTnpQVFBqR2pTZWZqN3ZkUy1xVzBMaWNNWWNHYTJDTTBsMF90d0FTZmdYWXhra19xN19xOXU3S2U4OU1PVTFZMnJ6V1hKajBoNktWRWpabzNrY2pBbjlPUGc?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 440000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1090000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Opentrons",
@@ -5408,7 +6551,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "OSIsoft",
@@ -5740,7 +6895,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Permutive",
@@ -6060,7 +7227,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Policybazaar",
@@ -6084,7 +7263,63 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 77000000.0,
+        "currency": "USD",
+        "date": "2017-10-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxSnFmYkZtejhfTmFUdG9Sa0xyeHlZYnhiVDM0MzhHanVoeHRkUGs1cXlDenFWQUVIcl9lTkZJWm1PTjJNazlreU5MUE1ydURfYzVOVWk5LXYzMVhwNFBMYlhJM18tWDJBN1BweEw3ODgweHM?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000000.0,
+        "currency": "INR",
+        "date": "2017-10-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcGdNOWpEdWoxR2VRTnpQMTZvdWtyRzVWNFNHdDFmNEJtSHpBZkpBeDd1amJiaXVoRXRyZkpFNnlsNFFQSXowdk9qallmd29ydlJONnM3OUNiWFZjb09mUzg3bVJ1cnZad1ZJdlpaM1oxTEdrX2hxYWg1RGpwMU9NRUVQc1BPczV4MUdqWFFXZjBOeUZYQ3EyMXQzRDRTcEt6d2ZaVTZQQ1dSOHlEVGhGSk82Znk3TTNBV19udE9xWlFWR3o4bXM4OWVHakYtblpuN0VfaU930gHbAUFVX3lxTE1UWWczcVNXV3FqLWpRTXJVWW5UVndEajkwN01PZVRfSGVGOFpYTDItUTZycWZTZTR3T3UyRF9RY0tHZVl6UFFQcTM0VFE3V21VUHpNWnBaMXZja0tmUXEtUzJVcFdTWHg5R0hZZXNWR2g0Z2ZOX2U2QjRTdGM4UjJkSTd3THF6aXZqQW1zMzRCTkJGc2ZBVkw3YmxpSHdrLUdjYUJvYXlnVFl6Wm1GUlVXTWlFWVZSSDJQVnRUQldvTnNYRWdaWXhCYXFUQ09mT0FuY3IwVVliZXBjaw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "SoftBank"
+        ],
+        "investors": [
+          "SoftBank"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbmcyQ2FKTXA1RU1zM1phM0daZ3BwQV8xajhTVlYtazRac18tZkdoZVhuT0tRdnZJYUhoUDBpLTZUSUpDeVh1cmczZzQzVDhKckJQUHhwMlhUajlIWDBWV3JwUk9kaHJYbnZBMGFycUpEVWRJSkpoU1RHeEwxU1UyN29ydy1tZmRiZ2toMTdTNDJhb0NzcC1vbXhUZ0tvQQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxSnFmYkZtejhfTmFUdG9Sa0xyeHlZYnhiVDM0MzhHanVoeHRkUGs1cXlDenFWQUVIcl9lTkZJWm1PTjJNazlreU5MUE1ydURfYzVOVWk5LXYzMVhwNFBMYlhJM18tWDJBN1BweEw3ODgweHM?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUkprdFF3Zlk0Y194U2k3VkpQQkxvTlBtd0Rxd3RxbDFaSXE3a2JVQ2Z5YjAyYnNiTWlpN2RNOVdXYTYxSVMwMm80c0hsV1F0dXdYQXdnR1YybHZRLWo5R0d0VDQtM2pYN2RJUjhXdzdIWVdDeXhPMFAxMUVGYjJtRC1rTEowYTZXR3RzS0prbzFnNVdxNzFlTUpIX0ZpdFUzN3FlM280RGZzUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajFBZTBOWjBrR1FpTGVKalJmSElZcy1mdk1hbzdhTVIyZTZxakhMM0x6VFJ5QVFEMktuazAzazJlcTNyeHNMbjM4VkJST3A2MGljRzhHb1VSZ2JZYXp2X3M3cUxGT3pmS1V2bVhqanR3b3kyek50bFhMUGpzN1RuOGcyRkNBeXpmZWxYV1oyX3R5ZGVSSldXU1lRaDVEMHlkTF9mamo2UmFQOFVSRUxMZ3h30gG_AUFVX3lxTFA0SWZLa3dzY3A1MXZSU3JNTFRmcVp6cUk2UFJaQmJkVXVUMTE2R2Y3d0tfNW1ZUllVMGx0UHBSV1RSYnh1YUhFOWszQk9wS3JUTE81VHZkOGRNQl9xYW5IUGJRNm1zOElZSmEwTmZMU01hUU5HV2pKQmhzQWdXMTloNUxuWnZSVklXSENCMlNPMDNXMTkxb1dqS04wb25uVmVlWkU1WXp5dmIzbWdDNGo5bHdQOUdzLWVlSzBNS0FR?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxQbmcyQ2FKTXA1RU1zM1phM0daZ3BwQV8xajhTVlYtazRac18tZkdoZVhuT0tRdnZJYUhoUDBpLTZUSUpDeVh1cmczZzQzVDhKckJQUHhwMlhUajlIWDBWV3JwUk9kaHJYbnZBMGFycUpEVWRJSkpoU1RHeEwxU1UyN29ydy1tZmRiZ2toMTdTNDJhb0NzcC1vbXhUZ0tvQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRDRWQUo0RTAtczNHVVh5TEdRZVlBdE9FZmwxR2hzb2w2NnVteGdsN0E1eklpaTAwZnZSYUJsNWlpWVd6czhTb2REQzZTZlpZd3p3WHJWNFF2VkhCZUw0cFZUaVBPS2QzbmM2XzR5QWVXN2xyMzRXZHppbU9ERGM4RXp2dDMtXzY1TE1MOGxLV0tzeEhjWDVPbGh3VXQtOG5nYkRRWVd4ZFJhTFdiRUdJeGFHTElvbFp3X0VOWFl1RWRtbHhQNzdNRGVpS2tBdzluUEZsS1IzOWhlcjJoSUhIbkZLaXc3MknSAewBQVVfeXFMTjIyXzBSb29CTmNBWFJ3TVo1LU1oeC1HZnlQcUxFZ09naWRfanV2ZHVhQkdFTlF4NjNNdE5uU0x1MlBrR3RXZmFVZXVtek1QR1JsOG41bUZrYzROZVBlbTNMUDlVV05qRUFJUzM4Q0ZQS1U1WEd3d252WUhvSkZSSWpqWTFTc1VvS0dXbGdlMVZfVGRiejhvbl83VGlCd1h3ejdKaXRsYk9CamlMcmtNRldfRGhXTEdCSzlMcXR6WTBoYzJxR0VOTnpSLUQ3VW5yU0VFakhTWC1tWDB4Y2U0RktrczQxMWs2N2xGdlA?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE9RbWI3NnNmUjZyZjcxNVlDNmtuWmYteEJvTVNqdkdHOG5fR3RFTjljNUNlM0RCYnZLUTk4dVJsazlDTXQxRkQ3TGdPOXFXcWMzN2RrNWhwMWRMaE12YmJjZk91amxLV0NLSVhMMnpWQUJ0bkdPR2JIdHd30gGCAUFVX3lxTE9ILTJ2eGRHNnh4dTVYVmhXTk14V3oxVE5qMGJSblFEN3AzSWI0UEg1elhOU0NFbUZjNF9jY1pBM1hKXzV3RDBVby02dm9iWWhMQkJYYkpIbUJaOTdMeXBhblhCRXFFUlp6ZThmbl9vTms2LVJaNUNqVzEzMFRrR1BfUFE?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcGdNOWpEdWoxR2VRTnpQMTZvdWtyRzVWNFNHdDFmNEJtSHpBZkpBeDd1amJiaXVoRXRyZkpFNnlsNFFQSXowdk9qallmd29ydlJONnM3OUNiWFZjb09mUzg3bVJ1cnZad1ZJdlpaM1oxTEdrX2hxYWg1RGpwMU9NRUVQc1BPczV4MUdqWFFXZjBOeUZYQ3EyMXQzRDRTcEt6d2ZaVTZQQ1dSOHlEVGhGSk82Znk3TTNBV19udE9xWlFWR3o4bXM4OWVHakYtblpuN0VfaU930gHbAUFVX3lxTE1UWWczcVNXV3FqLWpRTXJVWW5UVndEajkwN01PZVRfSGVGOFpYTDItUTZycWZTZTR3T3UyRF9RY0tHZVl6UFFQcTM0VFE3V21VUHpNWnBaMXZja0tmUXEtUzJVcFdTWHg5R0hZZXNWR2g0Z2ZOX2U2QjRTdGM4UjJkSTd3THF6aXZqQW1zMzRCTkJGc2ZBVkw3YmxpSHdrLUdjYUJvYXlnVFl6Wm1GUlVXTWlFWVZSSDJQVnRUQldvTnNYRWdaWXhCYXFUQ09mT0FuY3IwVVliZXBjaw?oc=5",
+      "https://www.zeebiz.com/small-business/news-policybazaar-raises-over-200-mn-led-by-softbank-vision-fund-to-secure-place-in-unicorn-club-52629"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series E",
+    "last_round_amount": 77000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-10-13",
+    "notable_investors": [
+      "SoftBank"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Polygon",
@@ -6128,7 +7363,34 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 500000000.0,
+        "currency": "USD",
+        "date": "2024-10-02",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2024/10/02/ai-coding-startup-poolside-raises-500m-from-ebay-nvidia-and-others/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pymnts.com/news/artificial-intelligence/2024/openai-secures-6-billion-dollars-startup-poolside-nets-funding-human-level-ai/",
+      "https://thenextweb.com/news/startup-poolside-raises-500m-as-ai-coding-market-booms",
+      "https://techcrunch.com/2024/10/02/ai-coding-startup-poolside-raises-500m-from-ebay-nvidia-and-others/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 500000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-02",
+    "total_raised": 500000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PrimaryBid",
@@ -6173,7 +7435,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Proximie",
@@ -6241,7 +7515,62 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1137291.0,
+        "currency": "USD",
+        "date": "2017-11-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724106/000172410617000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 119962.0,
+        "currency": "USD",
+        "date": "2018-01-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 50000.0,
+        "currency": "USD",
+        "date": "2018-04-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2018-08-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1724106/000172410617000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1724106/000172410618000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-08-17",
+    "total_raised": 3307253,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "QuEra Computing",
@@ -6331,7 +7660,60 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2018-08-31",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ucTJBMFk2OVRIdk1WTTVtOFpOc0I1VkFXMTdwcGVkZzc3OUlwdHM2WlVDb0g5NnNqNVVtR3cxTVhJVElFMm5GNkZEcUkybmtLMWI5Q19FMzRWOG16M0N0eEdZMNIBaEFVX3lxTE9rZ3IwcnJDWUVRN0VGVU5aeTBWUk9TbmRDV25BYmJMSUlITlZjeVh0R2tHcTZPM1UxdjFZVnJPT1Z6cnVzRnVLV1R2c1dnUzRvaERBcllDWXFGNkZXNnJRVEw1bWdxYWQ5?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzSjl2Y2tTUVI4S09EbXhPNmNXbm8zU0RrZ3ljRFhBVGZiWVNwY2hLY0xBUnBpSkl0VWllSFJyLXFsMFBZdkR1WWF2UXZ1WVhyYkdCUDE0SDJCNExzOEY1SEJWLXBkQWNIalFYWg?oc=5"
+      },
+      {
+        "stage": "Series F",
+        "amount": 500000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zNU1xakJjRzFIQWVaZ0lXS0trZlg5d29WbXY5UkEzdS1kWWJUZUQ3bUJGRDN3RHZtOXJObW9wcFpuUE9tR2tXX2ZnSkVKQWFHYjlSbUY0OE9lR3pibHZPRE9qajRiLUd40gFuQVVfeXFMUGpoMXJESmlBajRNRllHSVdZVFJYVUpObllmWTZTZVZsbTVDeG1JaWc1WlFzbU8wd1ZQYTliazROU2xjZWg5ZVFKUXM3bXVxemh0cmFTbFY1a1Z5V3lzZ3pJM3VLZGtLcV9scG1LREE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWFl4QmEtTDN2b2tpbWpCVGlzRERzUGd2ODJLVUpGenBwc2thMndqeC0xb1BNdGhLMGtvdWFoU0llVTJWVktfRzBPR0lOZ2UwRW1DY0lyS2JtS25aTFVnZ1p2YUpZNmYydlNXZ3B6SF82azVHbjBUeGJpU29qUGo3VXNUdGprcklERjhteFRJYw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzSjl2Y2tTUVI4S09EbXhPNmNXbm8zU0RrZ3ljRFhBVGZiWVNwY2hLY0xBUnBpSkl0VWllSFJyLXFsMFBZdkR1WWF2UXZ1WVhyYkdCUDE0SDJCNExzOEY1SEJWLXBkQWNIalFYWg?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zNU1xakJjRzFIQWVaZ0lXS0trZlg5d29WbXY5UkEzdS1kWWJUZUQ3bUJGRDN3RHZtOXJObW9wcFpuUE9tR2tXX2ZnSkVKQWFHYjlSbUY0OE9lR3pibHZPRE9qajRiLUd40gFuQVVfeXFMUGpoMXJESmlBajRNRllHSVdZVFJYVUpObllmWTZTZVZsbTVDeG1JaWc1WlFzbU8wd1ZQYTliazROU2xjZWg5ZVFKUXM3bXVxemh0cmFTbFY1a1Z5V3lzZ3pJM3VLZGtLcV9scG1LREE?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ucTJBMFk2OVRIdk1WTTVtOFpOc0I1VkFXMTdwcGVkZzc3OUlwdHM2WlVDb0g5NnNqNVVtR3cxTVhJVElFMm5GNkZEcUkybmtLMWI5Q19FMzRWOG16M0N0eEdZMNIBaEFVX3lxTE9rZ3IwcnJDWUVRN0VGVU5aeTBWUk9TbmRDV25BYmJMSUlITlZjeVh0R2tHcTZPM1UxdjFZVnJPT1Z6cnVzRnVLV1R2c1dnUzRvaERBcllDWXFGNkZXNnJRVEw1bWdxYWQ5?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWFl4QmEtTDN2b2tpbWpCVGlzRERzUGd2ODJLVUpGenBwc2thMndqeC0xb1BNdGhLMGtvdWFoU0llVTJWVktfRzBPR0lOZ2UwRW1DY0lyS2JtS25aTFVnZ1p2YUpZNmYydlNXZ3B6SF82azVHbjBUeGJpU29qUGo3VXNUdGprcklERjhteFRJYw?oc=5",
+      "https://uk.finance.yahoo.com/news/colombias-rappi-raises-over-300-214551882.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-08-31",
+    "total_raised": 1110000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Recursion",
@@ -6354,7 +7736,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Redis",
@@ -6445,7 +7839,32 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2024-01-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1812364/000180280624000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1812364/000180280624000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-01-10",
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Remote",
@@ -6513,7 +7932,23 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/revolut-bank-valued-5-5b-183500549.html",
+      "https://sg.finance.yahoo.com/news/british-fintech-revolut-hits-5-001648276.html",
+      "https://pulse2.com/revolut-500-million-funding-and-5-5-billion-valuation/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "RightHand Robotics",
@@ -6605,7 +8040,52 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2015-12-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643176/000164317615000006/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17053000.0,
+        "currency": "USD",
+        "date": "2016-10-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643176/000164317616000007/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2017-09-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1643176/000164317619000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1643176/000164317615000006/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643176/000164317616000007/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1643176/000164317619000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-19",
+    "total_raised": 74053000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Runway",
@@ -6627,7 +8107,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SambaNova",
@@ -6650,7 +8142,55 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 350000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlM1c1daSDBYSHo4VFV0V3lFNW03Wi0zaDIzaFNtQ19uelpLLXlNcEx2ZXVTMF9Td29NSmNBLXdzOGpJWGxfUlFyZV9WS3FRcmQ3Qk1tVGRWc0s5aFo4RVBLNWxlTS1Ta1FwNWJLbjRNdGRFN3JUM2IzZW15Uy1pZFJtQkhETEFkeTNBNl80NWNDUTRXYXhyRThXLVoxZU5VTGltclI2TEZycjJxM3BDRDAxdTRveHVqQkF5SVAzT3BzeW9nSUs3Ukg0Yw?oc=5"
+      },
+      {
+        "stage": "Series F",
+        "amount": 1000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXlKNFBad0RRYlpyMFNKcldSV2NMY09fOXMyLTNRY1VxVGJiUEpNbXF1UmVVcVl5RXJsQXlEemgtLXAwZ3VTU3RFNG9ERWlfLWJuMWNoZDBxRUJ0VWlTYW92Z0toT0QtbGNoVERiUGwxdmdHeUtnYzFhVFJmdGdzeVZVUGYydjhvUkkwV1RTSE96V0lCQkpaZ0wxWExrME5sVFo2Yjg2bmVnQQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzNSQnJ6aWNqUENfNFgtclRHMXM0YUx2VUNLTFdPeUlDbmNTbW5faDhpeUp4ajROT3lKSWJnb2gzbjNfRk8tUHA1cHhwbzZ4Yml0Rm9PWGNRSTR5S085NmdsaGtMdURpRWhPVE95c3lVRmNaWE51enJlRmRRczVaSTRobVQtMFp3MU1ObGl4Mm9CektsTEdTb0lGOGxFTDVTNzA0NE5HVHBxaWtaajhjNU5xZw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUWU1VXZMQXZDYlNnMmljaVhQMGFQVW95T1NMTFBpOEcxTklJVzF0RFZUWnhsYU51ODlsUklQbl9nVVN0N2F5MFFfZzBjQWRmRGc0LXBkZ2E3M0lpQVItVEU4cXlBdzU1N0ZLOXBXMk9GR1Z5Mk0yb1RESlBSVmNGdlQ1U1piUEFrV2RYTzRUMUlWd1o1b2w3Ymxn?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlM1c1daSDBYSHo4VFV0V3lFNW03Wi0zaDIzaFNtQ19uelpLLXlNcEx2ZXVTMF9Td29NSmNBLXdzOGpJWGxfUlFyZV9WS3FRcmQ3Qk1tVGRWc0s5aFo4RVBLNWxlTS1Ta1FwNWJLbjRNdGRFN3JUM2IzZW15Uy1pZFJtQkhETEFkeTNBNl80NWNDUTRXYXhyRThXLVoxZU5VTGltclI2TEZycjJxM3BDRDAxdTRveHVqQkF5SVAzT3BzeW9nSUs3Ukg0Yw?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzNSQnJ6aWNqUENfNFgtclRHMXM0YUx2VUNLTFdPeUlDbmNTbW5faDhpeUp4ajROT3lKSWJnb2gzbjNfRk8tUHA1cHhwbzZ4Yml0Rm9PWGNRSTR5S085NmdsaGtMdURpRWhPVE95c3lVRmNaWE51enJlRmRRczVaSTRobVQtMFp3MU1ObGl4Mm9CektsTEdTb0lGOGxFTDVTNzA0NE5HVHBxaWtaajhjNU5xZw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX2pwTkVEaHhzanNRLVhqZ2dxY2twWUFZV3JnbDdJYWwyNVR3MVlEek9CSGhTaDA2djlrNlZSQ1p4Y1dtQ2RDa3FEU3AxZnoyYm04NGE1YXBGci1pdHRCanctVXFvb2RhV0ZjQUMzSkxvRXZZUkNyVFNnX3U2QURDRzJESkRXYkV6cHZBekFB?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbDBrTXJvX2MySWdBeW5NMlQzMEdrV1UxZjNUYTcyWkhTUXJSM3oxdjNQWm9FaUlGWGNRWnEySWNuSERKRXRGcV9jN1N6R2pFOC1YQlN6MmcwazZWbzRTSk90cFBjTXNiQzBlN1ZBeXZOVTNVbU9SMUlYY19VMTJSazl3V1JuMHBUWmZfNV9yZUw3dTVyMGhSYjRxN09XeU1kWERfNmExSGRqV3dzT2huRzhCTUc5djQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTWowdFpfWWNXbWZseWRrRkVyN2lJeGNzd2pDbGU5SUdmQlVmOTVOYkZZQVZJODBSRjk5RWhGbzBSeEJ0b3VjdE5xd2lJZnY4Q1pDTW5MWURsbXd4X0hZUGl6NEdzdFd6aEVlcUQ3eTkwSDFoMDl5NzV4WElLTUs3ZW5zZWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYVBSeWhtTHp3RlZOQkd3VjAzNl9IRk9GY1dFTkVBMzBHckZEVUVYcm1rMS1EXzM4aFNzeGs3a09BbEVxeDV6TmVtdldWZDhUbi1Lb19nZHVHVGFVdHhSdFNpMmFWTllNcGV1MlBiVzFoWm55ZHhUSkpGdDgxZ0xORU05ME53QzRJMkNLVFBPaHY4T1JNTFQ0X1FldkE3LXI2M25LdEhqUG12T2c?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMzNQYTgybjJNY0o5QnEzOU9WNUhPZnQ4dXpiZVhmeXBQTEVpaGh1akNGYUhPUl8xMi10R1JZdDl0dU85V2JKSFNJQWh2Z1VaekdVaU5BR2lNWkdtdXFzS1hnTXZ0Q0hWWi1QSzdMdjdyQ3pna2Y2VUUyUHRYc0hMTTRaR1M0QzAx?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXlKNFBad0RRYlpyMFNKcldSV2NMY09fOXMyLTNRY1VxVGJiUEpNbXF1UmVVcVl5RXJsQXlEemgtLXAwZ3VTU3RFNG9ERWlfLWJuMWNoZDBxRUJ0VWlTYW92Z0toT0QtbGNoVERiUGwxdmdHeUtnYzFhVFJmdGdzeVZVUGYydjhvUkkwV1RTSE96V0lCQkpaZ0wxWExrME5sVFo2Yjg2bmVnQQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11000000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 12350000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Seer",
@@ -6869,7 +8409,19 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sobot",
@@ -6935,7 +8487,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sorare",
@@ -7257,7 +8821,31 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 105000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHY3cGlkNnlyWDFUT24zZkZBYXlUVjkzaXVHVS1tTEF3bnJ2czRocjFNSWxoMk04M2NQMUxsYXdjMHdXVEhUZWZBbVJGQTNkN09Fd1duSnFIZ19hbVpWdkF4SlNJTndUS3dpLTIyR1VaTkNMZG5Kcnd0TG9DTy1MWnczN3YwLVppblUzX2ozTTJDR3lyOGc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHY3cGlkNnlyWDFUT24zZkZBYXlUVjkzaXVHVS1tTEF3bnJ2czRocjFNSWxoMk04M2NQMUxsYXdjMHdXVEhUZWZBbVJGQTNkN09Fd1duSnFIZ19hbVpWdkF4SlNJTndUS3dpLTIyR1VaTkNMZG5Kcnd0TG9DTy1MWnczN3YwLVppblUzX2ozTTJDR3lyOGc?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 105000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 105000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tilly",
@@ -7476,7 +9064,62 @@
     "everywhere_tags": [],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7694993.0,
+        "currency": "USD",
+        "date": "2013-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581802/000158180213000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14999997.0,
+        "currency": "USD",
+        "date": "2014-12-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581802/000158180215000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2015-08-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581802/000158180215000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24705348.0,
+        "currency": "USD",
+        "date": "2016-05-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581802/000158180216000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1581802/000158180213000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1581802/000158180215000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1581802/000158180215000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1581802/000158180216000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24705348.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-05-31",
+    "total_raised": 53400338,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Trendyol",
@@ -7665,7 +9308,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vendr",
@@ -7934,7 +9589,27 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.msn.com/en-us/autos/news/wayve-raises-12bn-in-series-d-funding-for-global-autonomous-vehicle-rollout/ar-AA1X8ZZl",
+      "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-wayve/",
+      "https://siliconangle.com/2024/05/06/wayve-raises-1-05b-funding-accelerate-autonomous-vehicles-driven-embodied-ai/",
+      "https://finance.yahoo.com/news/british-microsoft-backed-self-driving-132135143.html",
+      "https://www.msn.com/en-us/money/news/microsoft-nvidia-backed-wayve-gets-1-5-billion-funding-boost-for-robotaxi-tech-rollout/ar-AA1X2CNh",
+      "https://pulse2.com/wayve-embodied-ai-automated-driving-technology-company-raises-1-05-billion/",
+      "https://thenextweb.com/news/startup-wayve-1-billion-europes-largest-ai-funding-round-autonomous-vehicles"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Weee!",
@@ -8000,7 +9675,32 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24318399.0,
+        "currency": "USD",
+        "date": "2021-10-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1813756/000095017221000130/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1813756/000095017221000130/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24318399.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-20",
+    "total_raised": 24318399,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Whatfix",
@@ -8022,7 +9722,70 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13200000.0,
+        "currency": "USD",
+        "date": "2019-03-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeG9oMVl6YlRNTDMtci1nMnFobWF5UkhhcHN4ZTkzeEJ1c25vWDZQQy1BalFMTnF2clRLVUUxQ3BjR2tCS2psMEc0dkd2N3RnTHA2ZWhpRzZUem0xd19iMVpxclhiSEZFVGhTQUY3VHJUU1poT2I5dWhyU3RoN1BKN2dmUzNlUUdEM3NyWUs3ajRKZTllQldEblp3S2hfTlpndjFuREotejMySVBKSVE?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": "2020-02-19",
+        "lead_investors": [
+          "Sequoia Capital India"
+        ],
+        "investors": [
+          "Sequoia Capital India"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNi1TRHB4TzY5NGl5RjZUdkpPM0cwNTlhQko1cmhuQlBtOUV1S0tBWDZYVVZNQnFXd1pFM0tEQU9pVzBIVEJ3OUZtU1BrcmZFZlVnZ1k2Z2h1aXBxZTVNOGlIY3lQVXpnSXNYRFpQaHBqekxZWnRBVS03WWp6UUF0UmVsQmlaV0FaV1B3NnZMTXdrQ0V6cDVr?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series E",
+        "amount": 125000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Warburg Pincus"
+        ],
+        "investors": [
+          "Warburg Pincus"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeC05T0w5OFpnT040OGtNLVBGbkZ5bDQ3YzgwenRzRWk4ZGJ5ZGg3WlFDd3NTVnowVWRqSlVreGEyLVptWlNnTWMwQU15b05Pa1JiRVlUR2h2RHp3WHJqaTRYT1JkLTNmcmFMTHhLT2tSc3czMWpiRENXdHhKcWZZS1VCTFdJUWVTcm5temVJUG1ldw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeC05T0w5OFpnT040OGtNLVBGbkZ5bDQ3YzgwenRzRWk4ZGJ5ZGg3WlFDd3NTVnowVWRqSlVreGEyLVptWlNnTWMwQU15b05Pa1JiRVlUR2h2RHp3WHJqaTRYT1JkLTNmcmFMTHhLT2tSc3czMWpiRENXdHhKcWZZS1VCTFdJUWVTcm5temVJUG1ldw?oc=5",
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVkx0YndWaTMwSkMzQk9GdnJrYk9wMy1OMEcwZHZmZENiZ1g3aV81MjJySnVlLUZMRVgyZDJxaGliWlFsajNDSV9rcjZyMk5pM0E3d0NPN3VnNFBJNGt6dHozS1g2ZXl6SGpPQ3Y0eFdBMTUxemtmNTdTbnJXaWZUMnRtQTIyWGY3TnlpenRWU2NRaEd1N09YQjRvR2VQQ3M0dzBsTVB1OFdEWi0xWGtpSmM1cjFQMnY3c2VhOUdfalZ2UVRSUHZLeldRREN1eUFoRDJFNHdfVUktbjBOWHQwN1RDZ19ocXdiZF9N0gHwAUFVX3lxTE5pSEUwM3dOa1Jub3RRckNEMjQyYUFCRl8wb05lTWgtTnVuT0RmZlFkeEhwRk53THk5bkVlOGkwWC1wNEVfRE8wTGY1U0kwdTFOMnZrbkkwRnFHOTA1ZFE5NWZWb0trNUUxb2FnSmVoRWFwWWVUMktNa3dZdmI3MHBHdUJFMVJETEJOM2hvNWJZTWxkbExMMWdoREttODQ2TnRqMnNiYXdueHJYQmpTcWc0bXpNRU5PdE1hMGlXSTFVbVc4OHFMNU5qTjNxSU9LLXNEdkp3OWlfblhoWDl6UFhzeTE1UHBmRUlhbS10OEdYdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkUFJISGJ1WHhPdVJCaFlNdURPMzUwbDFvazdmSWZNY0ZxaDNHcU1XU0FVZ2w4cXVWaU42QlE4ci1GeXQ1R0VsQWRsS2hKVzhLeDh1bEVSNWY0SWQ4WUE?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRTItT2s0LTM1aHoxaDgtQUk0TE5yU0hLN2dsbXlVN2t2YUI2bjR6OHdqZklSYXRiNnBXLXpfVXA2Tl9EZ3hhOHBidDJ3bVlaVjY3RDNTMFZxUE1tWWJlYi1vX0JLcDBGSk4zWlVscDJRM1BpZ09BRjQ2RVNWZXZyLVA3YUlOM0xrbEswYmZjOTZ4S2hJQzl4V0lJckVxX2poUnl3NzM3TXRqekVBSHdGN1ZudGlsVlFIMFB4enQzYWFGUC1XRlNXOG5yOTI3REJDcTg5cDV30gHbAUFVX3lxTE1BS0JIN25DVmlLQXdWYlFnNkEzZGJzczhubWhuNV9PVnhqSEUwQk9yUjBJdGhEMUxDRXhtaFJHV3N5cEdGY3o3azVtdnhQZk9ZWENzNFE2LUxlcmhoQmhkR2tHai1ic0pYNFlnNzRwcGpSTEd3Unh6UHZaek1mc2ZoazNBZjkzMzVxYVZwVE9hNzV3cS0yd0FnUGZOclZPLW42STV1QjB4M1J4d0cxbGg1ZXo2VkJyU1hZbE1iZUNldmRFZzE1MzBTX19EREV0OUZLRXFJTG1qU2dKMA?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeVF1ZFhLYThGM1JrUmVjSjRhZE1RQ0FfdV9pd1IyeHN3c1FPYkxScnU4eUMxZ0FjZFRjVkRlTk1JbVAxMmhlRXlBR3YtVjAwSnc0OUxrbVo4TmI4UFZ2R0RaT21oUFRrQWNnQTZxQ3g1TXBCV1pGNTBuMVdSNUpSbWJEbEFkbnNKVXZpcFV6MzJqZWpseEc4bDU4QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObzZaLWpMaHdXX2JyR1JST09oN1VVRGNxODEwUXlSR0NHVGszVi0tZ0tjaVloYnBDMXVCX1lKa1BoTVJ1RGRCaVgxOXo4WTJBNmNtbTNwbVNzd0hfQ2MxdU8zd3N3N0pvdk1CVFA3cGVBWi1wbGhFdF9ROUtPVE9Da2xoSlJ3QlIxYlpfejJFNGNKQ0VYUFREU2lOOW5NWUdJZ2F4enB4eWRNeHBhY2hXN0FqRkNuUTY5cUl2UUZYRHVOcXczdnFPREFNNjJpaWRMYXRjWnp3UGVidi1XQTZSSzJ3X1HSAeoBQVVfeXFMTVpuLW8zQWNIbFE5YlQtWW9wWGt0RzVSR0wzUVVwM2h1cmRtazBFMmNaZ0tkd3MxeDdmRUVtMHptcTRHM0hCd2ljVW1mWjlaaXNnTWxkMWs1Y05wZ3NvNU9EblN2dm4wbmV6ejdpTmFkakR6d0NJbXlwYnRpcXlFa1NtYmt4blhLMHF1ZUxCemFMSmgtazVBZm9HLThRaWwtcWFXRThNWktWZjdBZ3RSUjhqWEJRaEVURFJDeS1CX0ttZjUybTJ4S0c4bnNOOURvNU4xU0h4bUhITklVMEpnOEcwS1FhcXAyOHBn?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNi1TRHB4TzY5NGl5RjZUdkpPM0cwNTlhQko1cmhuQlBtOUV1S0tBWDZYVVZNQnFXd1pFM0tEQU9pVzBIVEJ3OUZtU1BrcmZFZlVnZ1k2Z2h1aXBxZTVNOGlIY3lQVXpnSXNYRFpQaHBqekxZWnRBVS03WWp6UUF0UmVsQmlaV0FaV1B3NnZMTXdrQ0V6cDVr?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeG9oMVl6YlRNTDMtci1nMnFobWF5UkhhcHN4ZTkzeEJ1c25vWDZQQy1BalFMTnF2clRLVUUxQ3BjR2tCS2psMEc0dkd2N3RnTHA2ZWhpRzZUem0xd19iMVpxclhiSEZFVGhTQUY3VHJUU1poT2I5dWhyU3RoN1BKN2dmUzNlUUdEM3NyWUs3ajRKZTllQldEblp3S2hfTlpndjFuREotejMySVBKSVE?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 32000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-02-19",
+    "total_raised": 170200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sequoia Capital India",
+      "Warburg Pincus"
+    ]
   },
   {
     "company_name": "Whoop",
@@ -8044,7 +9807,72 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5999999.0,
+        "currency": "USD",
+        "date": "2014-06-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1582746/000158274614000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13305000.0,
+        "currency": "USD",
+        "date": "2015-09-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1582746/000158274615000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24339252.0,
+        "currency": "USD",
+        "date": "2018-02-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1582746/000158274618000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 34275003.0,
+        "currency": "USD",
+        "date": "2019-10-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1582746/000158274619000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 99125020.0,
+        "currency": "USD",
+        "date": "2020-10-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1582746/000158274620000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1582746/000158274614000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1582746/000158274615000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1582746/000158274618000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1582746/000158274619000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1582746/000158274620000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 99125020.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-10-27",
+    "total_raised": 177044274,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wiliot",
@@ -8532,7 +10360,19 @@
     ],
     "primary_investor": "SoftBank Vision Fund",
     "source_url": "https://visionfund.com/portfolio",
-    "scraped_at": "2026-10-16T20:16:30.070981+00:00"
+    "scraped_at": "2026-10-16T20:16:30.070981+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zuoyebang",

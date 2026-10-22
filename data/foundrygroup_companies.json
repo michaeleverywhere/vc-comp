@@ -246,7 +246,19 @@
     "source_url": "https://foundrygroup.com/portfolio",
     "scraped_at": "2026-10-12T21:16:17+00:00",
     "primary_investor": "Foundry Group",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Boundless",
@@ -3430,7 +3442,62 @@
     "everywhere_tags": [],
     "source_url": "https://foundrygroup.com/portfolio",
     "scraped_at": "2026-10-12T21:16:17+00:00",
-    "primary_investor": "Foundry Group"
+    "primary_investor": "Foundry Group",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8799923.0,
+        "currency": "USD",
+        "date": "2015-10-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1657573/000123191915000029/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 6999821.0,
+        "currency": "USD",
+        "date": "2016-12-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1657573/000165757317000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 14999984.0,
+        "currency": "USD",
+        "date": "2017-06-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1657573/000165757317000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24999975.0,
+        "currency": "USD",
+        "date": "2018-06-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1657573/000165757318000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1657573/000123191915000029/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1657573/000165757317000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1657573/000165757317000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1657573/000165757318000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24999975.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-06-29",
+    "total_raised": 55799703,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zynga",

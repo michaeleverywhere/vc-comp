@@ -64,7 +64,19 @@
     ],
     "primary_investor": "Tenacity Venture Capital",
     "source_url": "https://tenacity.vc/portfolio",
-    "scraped_at": "2026-10-17T18:26:24.978199+00:00"
+    "scraped_at": "2026-10-17T18:26:24.978199+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "CloudSEK",
@@ -173,7 +185,86 @@
     "everywhere_tags": [],
     "primary_investor": "Tenacity Venture Capital",
     "source_url": "https://tenacity.vc/portfolio",
-    "scraped_at": "2026-10-17T18:26:24.978199+00:00"
+    "scraped_at": "2026-10-17T18:26:24.978199+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1800000.0,
+        "currency": "USD",
+        "date": "2015-04-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LbzFvM1U2T3NOZ3VONFd2cTJnT2V4WlBNb0ltMTNrYm5JY0ZNQVNzVFpYV0lCN3hqbGNxa1Vxd19sWjJucXItZ2dQQzdRajNhRGp6MENEaU1xWnVGd1FLemdyTVJQalBXUmljYg?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2018-07-13",
+        "lead_investors": [
+          "Nexus",
+          "Version One"
+        ],
+        "investors": [
+          "Nexus",
+          "Version One"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1lnRGxVaTdQUkZzeGFCMGh6RnNXbTRqU0NMMmcyTkJ4cWhGcldRVWxwZmRUU2habFJGc0V0TVhNaGJCeFc4aEp6aEswSEtoRm1OQzFwaUV3NVlQZEtEOWYwaV9MWjF6N3pvVzJkV3BJMURwZFZvcnduVkVGcFA2UVRCTHV1UnlxWmZLdGxqdVNSakpJX0RKNEMzamx3dE1lZkdzREJPUnVidmk4ZGZINFpmcw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Glade Brook Capital"
+        ],
+        "investors": [
+          "Glade Brook Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamRKVEZRVkR0ODNRem1DM3ZuZFk3ZjhvVHlvaDUwZUdDSGpranV5UEZWTk5iTDA2YzNhQklVaWM1WUQ5TkZoTHNOTE1nRWtlNXhVV0s2NVJXY1dfbjlXbEJMeUoxTW5iZjAxMGEyTWVaMlc5VTE0V1RnMnhHM3JLWTJuOFU4RDJvY3B2RGk3S1JGQV9ST0I4bFNvUWhtWnBkbkJkaEI1ZVA4QW9ZWjhWNmNkZjV4RWYyY3J5NmZ3Q3ZoYTVpMTZXZ3Vwa1cwTUU5V3RJ0gHYAUFVX3lxTE9ZTzFwcF9WVmJCUzJGMDkzVVFsbWgyMjFOeVFieGZ6YXJsXzVKajFLaTg0Y0xXc3Z2YzFlTDJnQjU5Vnk2LW84cXBxTWJkN1BfTGljUlVIeDl6V0hVemJCclBJdWFwVFdLVENOU19TR0dpT1VGQWlQdzJkTWdQSm9QajFmUXhJUGstRTNrRjlEZ2FNdENhekI3d1JkdzZjd21sQlI5VEQxUGlyTXBCaEhUdHRiVGZ2Q0dCalltSkw1cmRhaEY1MUFqdjI4amdHS05fR0UxcTJLOQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Glade Brook Capital"
+        ],
+        "investors": [
+          "Glade Brook Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTjh1YVNwWXRTek9CWFRtdVNIMUttZ3pfMVdFVUM1QURWTHF1am5Oa1JDN0ZHWGpOZWlac3pfUmRSWmw0MUpBYzkwV0Ixdng1clpWU1BJMW5sblVyR29DMVR1MldHZjJMS3ppeVMxb0Y3MzFWVHRKZXlVbVBvOWktTm5TaU83SUFVRDAxSW5mVVRtcWM0MnBSYUxrTW4zOUlOX2p6ZGZWb09zNndxYVpuN25ZMWxZdWlINDVjUUktcHl0aDhSZzNmcGw3cS1lZXYxMjUyYmQxVTRMbWQtYk1Z0gHkAUFVX3lxTE5QOHNxZGRvQzBSRUZESmRUamNiWFU4LXBmNEpHUm9kUTJVYkhvcUlGMWRTNTAwOTNxVFZHWTVqSWZaUEgzczF2emZfMkk0eE1sblh5WWtReE1WRVlKODhVZzE4UERiNFhCcXJDdzBHMW1TREZjc1hKRlVLNlBmVHVUNEpjcFNULXlMMG5lVUZtUnVJZk1VQWU1dmpPd0hlbUs4TmdlaXRKT3YxRmdyRm9IYmpLeGlOOGd6aExvemdfRVpqcUhNeGMtcHNVQlVXRnhIc2pQUm9ZczdBd0xHaVU3a1R0Zg?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTjh1YVNwWXRTek9CWFRtdVNIMUttZ3pfMVdFVUM1QURWTHF1am5Oa1JDN0ZHWGpOZWlac3pfUmRSWmw0MUpBYzkwV0Ixdng1clpWU1BJMW5sblVyR29DMVR1MldHZjJMS3ppeVMxb0Y3MzFWVHRKZXlVbVBvOWktTm5TaU83SUFVRDAxSW5mVVRtcWM0MnBSYUxrTW4zOUlOX2p6ZGZWb09zNndxYVpuN25ZMWxZdWlINDVjUUktcHl0aDhSZzNmcGw3cS1lZXYxMjUyYmQxVTRMbWQtYk1Z0gHkAUFVX3lxTE5QOHNxZGRvQzBSRUZESmRUamNiWFU4LXBmNEpHUm9kUTJVYkhvcUlGMWRTNTAwOTNxVFZHWTVqSWZaUEgzczF2emZfMkk0eE1sblh5WWtReE1WRVlKODhVZzE4UERiNFhCcXJDdzBHMW1TREZjc1hKRlVLNlBmVHVUNEpjcFNULXlMMG5lVUZtUnVJZk1VQWU1dmpPd0hlbUs4TmdlaXRKT3YxRmdyRm9IYmpLeGlOOGd6aExvemdfRVpqcUhNeGMtcHNVQlVXRnhIc2pQUm9ZczdBd0xHaVU3a1R0Zg?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRjd3eTBoMVNvRjJTV2RWMlV5T3RzQXc4d1VEbENsLWpnczFqZERFMUhXUV9WM2kyWERwRUJ2TmszV2lKUGZsSXB3Q2Z6X01tNjVsaEtIMjZDYzJLMGpwa2VwRVhFdC1mTEFubm00R3V5T0FSQUNZLUVNRWk3SGROQlZXa9IBgwFBVV95cUxQRjd3eTBoMVNvRjJTV2RWMlV5T3RzQXc4d1VEbENsLWpnczFqZERFMUhXUV9WM2kyWERwRUJ2TmszV2lKUGZsSXB3Q2Z6X01tNjVsaEtIMjZDYzJLMGpwa2VwRVhFdC1mTEFubm00R3V5T0FSQUNZLUVNRWk3SGROQlZXaw?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa3JnRU5jSUtTaDJ1YThmQXAtcDgxTGYySnZxdmdRWjM0Z25GdVQwME9PblRBOU9DVk1aWlczSkU4RGNhWFlZYUg3TzgtYllxSm5aNGppRWhFcmJnRUNvd2FFb0I1a2QwbS1FSVFwSm9hYU1SNEExbGY4bloybVptM0tWWmhkTFc5dkdEa3NGQ1RjaDUwbEg5dFNfejk3NHVncW5IcQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamRKVEZRVkR0ODNRem1DM3ZuZFk3ZjhvVHlvaDUwZUdDSGpranV5UEZWTk5iTDA2YzNhQklVaWM1WUQ5TkZoTHNOTE1nRWtlNXhVV0s2NVJXY1dfbjlXbEJMeUoxTW5iZjAxMGEyTWVaMlc5VTE0V1RnMnhHM3JLWTJuOFU4RDJvY3B2RGk3S1JGQV9ST0I4bFNvUWhtWnBkbkJkaEI1ZVA4QW9ZWjhWNmNkZjV4RWYyY3J5NmZ3Q3ZoYTVpMTZXZ3Vwa1cwTUU5V3RJ0gHYAUFVX3lxTE9ZTzFwcF9WVmJCUzJGMDkzVVFsbWgyMjFOeVFieGZ6YXJsXzVKajFLaTg0Y0xXc3Z2YzFlTDJnQjU5Vnk2LW84cXBxTWJkN1BfTGljUlVIeDl6V0hVemJCclBJdWFwVFdLVENOU19TR0dpT1VGQWlQdzJkTWdQSm9QajFmUXhJUGstRTNrRjlEZ2FNdENhekI3d1JkdzZjd21sQlI5VEQxUGlyTXBCaEhUdHRiVGZ2Q0dCalltSkw1cmRhaEY1MUFqdjI4amdHS05fR0UxcTJLOQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1lnRGxVaTdQUkZzeGFCMGh6RnNXbTRqU0NMMmcyTkJ4cWhGcldRVWxwZmRUU2habFJGc0V0TVhNaGJCeFc4aEp6aEswSEtoRm1OQzFwaUV3NVlQZEtEOWYwaV9MWjF6N3pvVzJkV3BJMURwZFZvcnduVkVGcFA2UVRCTHV1UnlxWmZLdGxqdVNSakpJX0RKNEMzamx3dE1lZkdzREJPUnVidmk4ZGZINFpmcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzhIbmJyZ1NpVllSVjE2Q0dUMkdNeE1wU2l1a2pVWmFSOFloMC1SWlJOUGtWdTktcHRhRk9fdll1R09YY2pNLTJjYy1zYWZ1WlF2Q2VfVnlQdENXVS14M1l3TjZsSDF1UUR6cXh4SU9WTWpTOVlRcE9lT09aMWpCb3RsMmN4MGtEX042djV6WjNBRUEtU1JaX2dtNS1GNXBrWTlpWEFTTmJyYk9rWWI3TGVncnZOQU03Z2RtbElVMWplQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUFVsbldBa3RWRlhvNzJBRWpib2FsNGxzSUJuenRBbFd1amtIWkxVQ3pZUkF4MzBIVk1hNTZpMFUydnpsRkU4ZWlnWE1NZU1kU0g0dlFXQXp2dzhqeVlieDMxOUpvRkpfODVZbEh2ZE9qdko5TU9STlRETVNjLTJHTEc2UFdTX2tja056S1RaU3d5dERYQUFRaDJadWlsejNveFA5bHRuN2Q2S2tEN1FqSUlyUm1yZFY2RUkwR0c2SVF4c1VtX3fSAcsBQVVfeXFMUEdSdXhpUUc5WkY3QUhvXzRuMkY0c3J4NGZsQ053YUwtY2hxdi1jd19kamwtNzFLT1E5UFVHV09XNXJBSlF2aFp1ZFVtUzYwTmlSbDdkTnhWNnpCNmNJbXJ2aWxGR3lPdVJXVjhyczRPT0c2cU9EZVJEMmtiQ05NOV9VbkcxUGxmMlAxSEdyLVI3SmJhRW9NLWxQamN3SVZ2cnl0NEdvSi1uTjYxY1hZc3dlY1FyMXk0UEJ0UGtrNVUzMHQ2MmJwMm1mbW8?oc=5",
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LbzFvM1U2T3NOZ3VONFd2cTJnT2V4WlBNb0ltMTNrYm5JY0ZNQVNzVFpYV0lCN3hqbGNxa1Vxd19sWjJucXItZ2dQQzdRajNhRGp6MENEaU1xWnVGd1FLemdyTVJQalBXUmljYg?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-07-13",
+    "total_raised": 53800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Nexus",
+      "Version One",
+      "Glade Brook Capital"
+    ]
   },
   {
     "company_name": "IDfy",
@@ -280,7 +371,98 @@
     ],
     "primary_investor": "Tenacity Venture Capital",
     "source_url": "https://tenacity.vc/portfolio",
-    "scraped_at": "2026-10-17T18:26:24.978199+00:00"
+    "scraped_at": "2026-10-17T18:26:24.978199+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0EzWmJaNnpzMzA0YTZWcHVyUm5PU3V3VHR4OEFaaHprWDVMeXdTWHlTR0xvTlNGV0ZIQ04tZ2lXNXktdXp2cWlCdVlKbDZFUDZoSndDUlBsYUpLOS16Qnphal9ITXVib1Eybkhnbk43MW9rTXJnVUJaMlN0WEhPTm1GX2Y3ODF5aG9rUdIBjAFBVV95cUxPT0EzWmJaNnpzMzA0YTZWcHVyUm5PU3V3VHR4OEFaaHprWDVMeXdTWHlTR0xvTlNGV0ZIQ04tZ2lXNXktdXp2cWlCdVlKbDZFUDZoSndDUlBsYUpLOS16Qnphal9ITXVib1Eybkhnbk43MW9rTXJnVUJaMlN0WEhPTm1GX2Y3ODF5aG9rUQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdklRMEhKbmV5dWtiNXc3bXMzTW52VHl5cXBLOWRRLWFSUkJ1cXpPTGwwVjdOT0VXSnNsNzN4eTBrMU5UUm5OTTVHQWYxMFViQ0J2S09JemRFVnA3Sm1ZWmhpT2x6enM1OUNhNFo5RHk1MFZKLXFiazJfN0M5Q042V0RBcF93UWh6NV83elhGaTk5cDFoVERlQ0traVNyVDZBVnJvYXBiVTNEZ1A2ZENhcWJJanRueDhOQjVWQWdZQ0x2SVB6OXZfOERlcXRtMF9h0gHWAUFVX3lxTE40bExyM3FUTnBIVEZjdWxySThNX0lCNGJiWmgwZGlyN3dHb2FBVFN6aGpUT3U1N0ktVVlxRWN1WUN2bWVId0tuLWZ3ZTZJQXpway1VWk5GUzlWOElIMlRGNTRjMExORzQyR2xEemFUSjFWdllsck54TkJnMkJPSmtVQnBVTDVSQTlhZVdET2ZBMk9vaHRJalZneW90cnlCS2cxWDZjUl9EaUVFY0s4U0pJVi0tQVlXZ1ZmbHFYQ0JraWtsTWdzNl9FaFdGYTlFMEYtMHBPWFE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42ZEpvMmNrT1A2OXVhVmxnVXB5ckJfcGhDTl9FWi1FOWJwYUk0SU9hYzVKVGJKR2FoQzdPMm54RWQ5OTdqMXo2b2JwQWZBR084WFNSYmhpbHJSbzM3aHZPSWEyM2c1UG1MYjFPTUZYd1RJdUZueHc?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000000.0,
+        "currency": "INR",
+        "date": null,
+        "lead_investors": [
+          "ADIA"
+        ],
+        "investors": [
+          "ADIA"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUlhbHcyRXBJR0thRG9Od0NRcnFPcjlBUUlSOElDbU5xX1NycHpVZ1VmNEdfZXNKUVhzaC16bTlod2tHdG1WX09MTmNya19ud2YtX2dwYVVpZWF3THhNVFZrcUJVZFM3RVdJSW1UNlNoYW1rSEpDZk5VYXlIb19RMXphc1k5SVNSTGdwdVdrd2NtNl9DX24yWEFQQ1pOeGdHWFktTDVEU2lLcW5RZkdpRTZnZ2tkOG5XQzV2bFdPZzh6Z9IBxwFBVV95cUxQUnp2Z2dGZEtIdUdVaHlWeWNaQ0V6X09zcnFZNUNENzlRYzdCTmZiVGNJZXNSU3dZc1plTDNSblc1RHVtT1hSUkJkSnpmYmZUM3VWZE5YNno1N0hldDhHTHpOVF9CdnlLRnI3UlJXdWo2UVNHZzdTb3YwUDktTUF4SkRfV01qblZjYjRIemFhbEZIMGEzQmNsUzJOSEh4LVMzdWM0dG9vQjlyVlg2VWJEZk0yVVZzdWNsMnFvYjVVc0FQTnZiWkQw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "ADIA"
+        ],
+        "investors": [
+          "ADIA"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEpadWxyOTFwakNjTmllNElkZXB0NXBTc0lQbW4yREpLX1hYU2p0eXBpUVplSG9ZenJDSl9mN0JER0IxWjcyTlpXX0hZZjljZ0VpVkdNaGhtdWpmNlh6WXc5MmVWRUFaVjlaRVBiekgyeVNyVkp3Q2FUZ0pKTXU5MnpNOGo0WHJSTzI1VWZSY2JlSTl2TlHSAZYBQVVfeXFMTzBKWnVscjkxcGpDY05pZTRJZGVwdDVwU3NJUG1uMkRKS19YWFNqdHlwaVFaZUhvWXpyQ0pfZjdCREdCMVo3Mk5aV19IWWY5Y2dFaVZHTWhobXVqZjZYell3OTJlVkVBWlY5WkVQYnpIMnlTclZKd0NhVGdKSk11OTJ6TThqNFhyUk8yNVVmUmNiZUk5dk5R?oc=5"
+      },
+      {
+        "stage": "Series F",
+        "amount": 15000000000.0,
+        "currency": "INR",
+        "date": null,
+        "lead_investors": [
+          "ADIA"
+        ],
+        "investors": [
+          "ADIA"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUEhmZWJ5OHpzYzdmempvazlVbHQ1cTFKbWZJcnFSakswY0lHeXNYQjZrXzZkZmU0dFZSYmZ0UXVNOEhhdXA5dWVVZXJpWEI1eVJmZXROc1ZZNGZuV25VdnNMRVlkeFZOeGhoNWV4SFg1RUtaSmUxU1JNcjN0Vk5JWWh6TTNWUEpZUXd3eUdWZDFJdjBpSkd6UjBwUkFrekVjLVpIbXAydkxKbjg?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE42ZEpvMmNrT1A2OXVhVmxnVXB5ckJfcGhDTl9FWi1FOWJwYUk0SU9hYzVKVGJKR2FoQzdPMm54RWQ5OTdqMXo2b2JwQWZBR084WFNSYmhpbHJSbzM3aHZPSWEyM2c1UG1MYjFPTUZYd1RJdUZueHc?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUEhmZWJ5OHpzYzdmempvazlVbHQ1cTFKbWZJcnFSakswY0lHeXNYQjZrXzZkZmU0dFZSYmZ0UXVNOEhhdXA5dWVVZXJpWEI1eVJmZXROc1ZZNGZuV25VdnNMRVlkeFZOeGhoNWV4SFg1RUtaSmUxU1JNcjN0Vk5JWWh6TTNWUEpZUXd3eUdWZDFJdjBpSkd6UjBwUkFrekVjLVpIbXAydkxKbjg?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lWWt5TGVQeFBUR1Z6OFNfQ19FR2hiZ3hXTmNsaVJIZk1pVFJleFRnRXhyaFppMF9lVDJPSXAtNWhad2w5RTE4OXhUaUhGUDRuT21WbHBqcEhHVWdIYm1ZVGZrYnhaVDFmUnJiYUlOeEhSTHpGSy10T2FB?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUTFrR2ZKUzdpV09xZ1EyVWlhQzF5SG45TjV0X2c3cTMxUzJheXJpQmZPbUVBX0JnMTVZd1dCZjYxRmUyRjZvejU4Ul9LQmNROEJnYUJ0Y0IxN0xCNXktRjdnRkw0N0JHaXRPdFd4bEdFODE4ajRWTnU4VlJ1cUlXcTJBU1BLV1lTa0w5ZGlIUjBTbC1xZGE4SVFfLW80VkE?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE42cG9kbHlIWmx1Yk1zTE5yUXdKVVowNzdGZ3BiLWJEd2ZBTGN6MW9vSVZLUUZEcmFaeHVaTmpFS2xHSmhYVW55MmZTM2d6RnNGNHpKS3YzQmJxeGxld3ZWQVI2eW56blZrLThfLUlQSnpIZkJ0VGlLZdIBeEFVX3lxTE42cG9kbHlIWmx1Yk1zTE5yUXdKVVowNzdGZ3BiLWJEd2ZBTGN6MW9vSVZLUUZEcmFaeHVaTmpFS2xHSmhYVW55MmZTM2d6RnNGNHpKS3YzQmJxeGxld3ZWQVI2eW56blZrLThfLUlQSnpIZkJ0VGlLZQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVnlJRDV6T01yNWRkX3BrcW1iR09HRUZlYzZBVWpKajRYVTE3RmNneTRyeERoX0RmSFpyNkppczQ1dHo3RFNycTRJd0pmV3BJSWFPMF80ZHNabWNsdXVDcVFyQUFZUWoyZmFUNHZXbXEyc2s4eFIzdlJQRTZMTWFjTXJiSHdqTlJqVmlVV0xnd1pMQldhVkF4OUh4YlkzYTlHWEQ3SUhMeThxVFZzLWFCT0EzdVR0TUVoeGQxQ3pzQUd5WnRFYnFBc203SnB0SHJGZjVBemlDdWs1QdIB3wFBVV95cUxQbjlKNk1oWWdDRkNhcFVoQmc5TE8xZHJVdUpUbmw4T3l3ZklNVnhYNDJscjlIQXBQd0Q3ZWNOUW9QWncxelQ0NUNrQlNLb09ta2pkQ1pCaWtWYk1VR2ZoU213QUZCMlBYYXdiVVNON1ZCYkhlZ25EeGx1NzVLZmVLWHVlN295bmJzYVBuYWI2REZtX3JTT2ppR2RkZzdveVJ5WndnV3RyTlhrQ3Z0b0RvdV85NExqTUwxdUxnODFrYjVqeUhZWlVXdDF1d0lSY2lReHpnd2ZqZWQtNEhFaERB?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVy16VFFEVXNwUWc1ZjVvc1MzV1ZzSnlRR1R2dEVWSWpHejZCUFlzcEJhYkl5VFZ6cVpHRGx6Tm9jdVB2aVF1eVRBVFdvRXRKNEowTXZOVUktek1DSkVBVDlpVVpQV1ZUN0RJZDFQelM4NGI5cWJ4RXJHZTJVNTUxZXVPMGQ1VDVMTXFuUWpiZ21nYUZrQU53S1VXMzdhWVQ2cEdKNUN4REc1X3VTQ2lYRVdqNEd3MlZOekt2b3RmZHdhOEZWcG5UUWxVb0xSWWhDa05TTDBiY9IB3AFBVV95cUxNRXJ5MXkxdlFDSnIxNEtsN0dKaGE0NDhlcUFOU2VGdlF1VUppLVdjTkFVYU4tanN0ZFlzR2pGQTcyVmc5WjFITnk0YU9JWWhCY2dkOVlzLWNSVjk0b3VEM1NlcGNtbEI4eUJ0ckdpYXQ1OFFXS291eHl5alQyTU5BazNSN1RoUkg5OHJ2Q21qT2k2WW5VZk4zTk1FczFPSGo0RlMwMkxpTktNYjBnZXoyd2JWRWllbVFhVmZRMXZvQ1BNeElDOTU5VHE2eXVNcFRTMnluSlo0V0F5SUVS?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcUlhbHcyRXBJR0thRG9Od0NRcnFPcjlBUUlSOElDbU5xX1NycHpVZ1VmNEdfZXNKUVhzaC16bTlod2tHdG1WX09MTmNya19ud2YtX2dwYVVpZWF3THhNVFZrcUJVZFM3RVdJSW1UNlNoYW1rSEpDZk5VYXlIb19RMXphc1k5SVNSTGdwdVdrd2NtNl9DX24yWEFQQ1pOeGdHWFktTDVEU2lLcW5RZkdpRTZnZ2tkOG5XQzV2bFdPZzh6Z9IBxwFBVV95cUxQUnp2Z2dGZEtIdUdVaHlWeWNaQ0V6X09zcnFZNUNENzlRYzdCTmZiVGNJZXNSU3dZc1plTDNSblc1RHVtT1hSUkJkSnpmYmZUM3VWZE5YNno1N0hldDhHTHpOVF9CdnlLRnI3UlJXdWo2UVNHZzdTb3YwUDktTUF4SkRfV01qblZjYjRIemFhbEZIMGEzQmNsUzJOSEh4LVMzdWM0dG9vQjlyVlg2VWJEZk0yVVZzdWNsMnFvYjVVc0FQTnZiWkQw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0EzWmJaNnpzMzA0YTZWcHVyUm5PU3V3VHR4OEFaaHprWDVMeXdTWHlTR0xvTlNGV0ZIQ04tZ2lXNXktdXp2cWlCdVlKbDZFUDZoSndDUlBsYUpLOS16Qnphal9ITXVib1Eybkhnbk43MW9rTXJnVUJaMlN0WEhPTm1GX2Y3ODF5aG9rUdIBjAFBVV95cUxPT0EzWmJaNnpzMzA0YTZWcHVyUm5PU3V3VHR4OEFaaHprWDVMeXdTWHlTR0xvTlNGV0ZIQ04tZ2lXNXktdXp2cWlCdVlKbDZFUDZoSndDUlBsYUpLOS16Qnphal9ITXVib1Eybkhnbk43MW9rTXJnVUJaMlN0WEhPTm1GX2Y3ODF5aG9rUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdklRMEhKbmV5dWtiNXc3bXMzTW52VHl5cXBLOWRRLWFSUkJ1cXpPTGwwVjdOT0VXSnNsNzN4eTBrMU5UUm5OTTVHQWYxMFViQ0J2S09JemRFVnA3Sm1ZWmhpT2x6enM1OUNhNFo5RHk1MFZKLXFiazJfN0M5Q042V0RBcF93UWh6NV83elhGaTk5cDFoVERlQ0traVNyVDZBVnJvYXBiVTNEZ1A2ZENhcWJJanRueDhOQjVWQWdZQ0x2SVB6OXZfOERlcXRtMF9h0gHWAUFVX3lxTE40bExyM3FUTnBIVEZjdWxySThNX0lCNGJiWmgwZGlyN3dHb2FBVFN6aGpUT3U1N0ktVVlxRWN1WUN2bWVId0tuLWZ3ZTZJQXpway1VWk5GUzlWOElIMlRGNTRjMExORzQyR2xEemFUSjFWdllsck54TkJnMkJPSmtVQnBVTDVSQTlhZVdET2ZBMk9vaHRJalZneW90cnlCS2cxWDZjUl9EaUVFY0s4U0pJVi0tQVlXZ1ZmbHFYQ0JraWtsTWdzNl9FaFdGYTlFMEYtMHBPWFE?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEpadWxyOTFwakNjTmllNElkZXB0NXBTc0lQbW4yREpLX1hYU2p0eXBpUVplSG9ZenJDSl9mN0JER0IxWjcyTlpXX0hZZjljZ0VpVkdNaGhtdWpmNlh6WXc5MmVWRUFaVjlaRVBiekgyeVNyVkp3Q2FUZ0pKTXU5MnpNOGo0WHJSTzI1VWZSY2JlSTl2TlHSAZYBQVVfeXFMTzBKWnVscjkxcGpDY05pZTRJZGVwdDVwU3NJUG1uMkRKS19YWFNqdHlwaVFaZUhvWXpyQ0pfZjdCREdCMVo3Mk5aV19IWWY5Y2dFaVZHTWhobXVqZjZYell3OTJlVkVBWlY5WkVQYnpIMnlTclZKd0NhVGdKSk11OTJ6TThqNFhyUk8yNVVmUmNiZUk5dk5R?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series F",
+    "last_round_amount": 15000000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": null,
+    "notable_investors": [
+      "ADIA"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Qnu Labs",
@@ -411,7 +593,19 @@
     ],
     "primary_investor": "Tenacity Venture Capital",
     "source_url": "https://tenacity.vc/portfolio",
-    "scraped_at": "2026-10-17T18:26:24.978199+00:00"
+    "scraped_at": "2026-10-17T18:26:24.978199+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tonbo Imaging",

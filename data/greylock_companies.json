@@ -5156,7 +5156,19 @@
     "source_url": "https://greylock.com/portfolio/",
     "scraped_at": "2026-10-14T21:22:53.190312+00:00",
     "primary_investor": "Greylock",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Instawork",
@@ -10351,20 +10363,44 @@
     "scraped_at": "2026-10-14T21:22:53.190312+00:00",
     "primary_investor": "Greylock",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2020-03-12",
+        "investors": [],
+        "source_url": "https://www.wsj.com/articles/energy-analytics-startup-validere-raises-15-million-11583960088",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2020-03-13",
+        "investors": [],
+        "source_url": "https://betakit.com/oil-and-gas-intelligence-startup-validere-raises-20-million-cad-series-a/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.validere.com/"
+      "https://www.validere.com/",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdlVJczlwMmM1TXVCcUE3ekJqenA5ZXZCemFVS18xeDNtZ2V4R0Y3VFVhRFl1WTFCSFVrOGZlNGRRSDJoY3FONThOVlhabmVQSjVyaGxLOFhKbExyNWNoU2Z6YlA1SVktOGtoZVpXVU43UWViLTRSYUJBTG9VZTJtME1hbTJFcUd4bzItNU9vaVlJbXFPYm1Edw?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZUFxSVhSc0hpRC1JcktVZ093SkhvS3VYa2wxYlV5TERCRjE4ZmtBLU9sYXk2RUpGcjVuRlJTU21TbFI1MHYyTEJEZXk5dUc4WGVnc0U3aC1zM1pjcXN6Y010dUw0MUMwc1M0d280Ul84d3FZWUJpYTBVSktTdUp2QmN4VDNyeEF2bnFsZXg5QW9FVWdVUVBubkRzc3d4RmlZMGxDVFM3OEszSHp2b2s3dDJxOEVUMmswRV9MMWdqR01ieWZzOENjQVZCQnRvMG5jWGNpWQ?oc=5",
+      "https://betakit.com/oil-and-gas-intelligence-startup-validere-raises-20-million-cad-series-a/",
+      "https://www.wsj.com/articles/energy-analytics-startup-validere-raises-15-million-11583960088"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-03-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vori",

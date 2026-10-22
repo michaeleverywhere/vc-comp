@@ -1373,7 +1373,21 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://venturebeat.com/business/appurify-raises-4-5m-to-help-developers-speed-up-mobile-app-testing/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Archetype AI",
@@ -3835,7 +3849,42 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 36634181.0,
+        "currency": "USD",
+        "date": "2009-05-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1386210/000138621010000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 55543454.0,
+        "currency": "USD",
+        "date": "2013-08-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1386210/000138621013000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1386210/000138621010000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1386210/000138621013000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 55543454.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-08-16",
+    "total_raised": 92177635,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Clika",
@@ -5613,7 +5662,47 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": "2025-11-04",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20251105676993/en/EdgeCortix-Closes-Oversubscribed-Series-B-Bringing-Total-Funding-Over-%24110M-Amid-Growing-Edge-AI-Demand",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRXpldkVLLWNQRmVjSXpJOU9uV3I5djVFa2dqMVlMN0E1VWtXZmpscDBwOTZ5STVncExOdExBdzhlU1cweTVQdWtJbjI1UjF3bENSM2xzbnNlR1ZpZmttY1Joa0lHelBYbDlVZHl1U193VmpkRmtOcGFMNnZvTVNlelk2RE93NXJXeUR4VEcwR0tObWtUaTltc09NTHJsYlE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNW9VR1p1VlYxaFc1d2dmVlg1TTJta2ZSVDNnanRLaVRiQWtVNDJRQ0FhUzgySkRKbk9fRTBCQlB0bWxfRU1zSy12LTdWY0w1VzFWdV9vYVk4RGRtVnNtU1dmRTNZQ0VhZ0U1S0VEcE1iV1BRUjJqWHRSTTdKLTJGTnM4eVhJR3Z2Zkl0bjd0S3VUVURPUVhNSkhnNDF1R2diX2oybDA3azljUkh3RG9VbTFQZkZ2MEowSTVkVk5meUx2UFlQTllwQkE1RXZIVFNscGp2aE03RUpMdXlnb2t6VXc0UHRQYUFmMU1lc0Y1cnZaYS1wSm9rMS0xWXZkYWJJc0w1Qy1sTl9zMHozOVRN?oc=5",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQmVEU0JteFBNeUFITkU2TUJpdnVsQ0ViaUh5LWE3NVJrUTFneGd0cU9XUE1PWTBaTG1sZFMyVS1iaXJOX3Z1bGgxbE8wdVJQS2lyNE8xQ2JjLXZZM3hSbFBLV0NHRV9BQWU5ZVdOajRpelNIaGI2REZaWTREcVRXQkpHWUt3RzcybklyLWZXZTJWcnVVaDNYOVVBN09WZldsTFBPOVZpNVBFbXBsa3dLYlBLeVg0VnNBT0kwRmdqSzZHa2xZenk5eW9FRmpaNm4zMXFCbjJYWGRTemdxdUItRUlOUkNSQWVEYzNnVXVxY2pOYkYz?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRXpldkVLLWNQRmVjSXpJOU9uV3I5djVFa2dqMVlMN0E1VWtXZmpscDBwOTZ5STVncExOdExBdzhlU1cweTVQdWtJbjI1UjF3bENSM2xzbnNlR1ZpZmttY1Joa0lHelBYbDlVZHl1U193VmpkRmtOcGFMNnZvTVNlelk2RE93NXJXeUR4VEcwR0tObWtUaTltc09NTHJsYlE?oc=5",
+      "https://www.businesswire.com/news/home/20251105676993/en/EdgeCortix-Closes-Oversubscribed-Series-B-Bringing-Total-Funding-Over-%24110M-Amid-Growing-Edge-AI-Demand",
+      "https://pulse2.com/edgecortix-total-funding-above-110-million-raised-to-accelerate-global-edge-ai-expansion/",
+      "https://finance.yahoo.com/news/edgecortix-completes-initial-close-series-010000438.html",
+      "https://www.design-reuse.com/news/14909-edgecortix-closes-20-million-in-additional-funding-round/",
+      "https://markets.financialcontent.com/prnews.pressre/article/bizwire-2025-8-18-edgecortix-completes-initial-close-of-series-b-financing-driving-total-funding-to-nearly-100-million-usd"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 110000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-04",
+    "total_raised": 130000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Efficient",
@@ -6696,7 +6785,19 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fiddler AI",
@@ -7131,7 +7232,25 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yaVhkUlNaXzZXNUJKaW9BSk12NEktQVFEMjBKOFplSk1IOUx3dVZ6QVRza19XTXJ0TlJoQnptUk1ZLXZGVUc2TjdIM0pGelFfNW52VFVuRDRoREdqZlRvWWhSTzhmVktjc3dyREJYbmFuT3lfYmVwd0NIRFc3UkE?oc=5",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORGlDLV9DWXh4QkdvRkNMTGtEcHV3WjRFTTVaeV9pcmZkSlN4X2JzMU1yNnhyVDVidGhrWksta3hEX2ZFTDhMQmIwOXJSd00ySzJOMzFFU0dGX2J3clc5VVhCYjlreEVjemgxUUtDWmV0MGZ5Q2VPU01idXFKdi1kTzBUUmxVSnBrNkpqVzdGX0w2Q0NnMDhaOXExYUVLZXctck1LMnBVcEViNUNjTGxYeUItVEhjb1RPMHc0LWdPc01xQUZLMWFjdno4UHhJVFZnMmQ5Sl9LQW9fdDlsVnpER1B6LTNCMmc?oc=5",
+      "https://www.businesswire.com/news/home/20220915005348/en/Fortanix-Raises-90M-in-Series-C-Funding-Led-by-Goldman-Sachs-Asset-Management-to-Accelerate-Leadership-in-the-Data-Security-Market",
+      "https://www.nasdaq.com/press-release/fortanix-raises-%2490m-in-series-c-funding-led-by-goldman-sachs-asset-management-to",
+      "https://markets.financialcontent.com/prnews.pressre/article/bizwire-2022-9-15-fortanix-raises-90m-in-series-c-funding-led-by-goldman-sachs-asset-management-to-accelerate-leadership-in-the-data-security-market"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Forterra",
@@ -9703,7 +9822,66 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2020-02-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUNsaC1ub0pBWFFmY1dLS0kwbmRiMGN2dl9UQzFmd3BkeTRzV3J1eDhOQkJfc01fZVF2aHE5M1F3dzh2eFdMVV9uS0JjdGxVNlN0c3g1dUZ0Qk9lQWIyYXRhYXlYNmhWcENXdXhTYnpBSzBtaHRJb0RjZ1BMazlvakxuQ1VZYTdyNk9mRUFMRmxoNnM2dnJ6TTF4QkY2NnI1OWdsc3JHVm1sVHE5REQ5VQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": "2022-01-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZGhTWmZQOVpPcW5EWUJWUGNUbF9ydXZmSGc3bGlZanBOWHhzLWNvS2NFTUlBR2JtM2pUSnBfX21KRzlvWW04RWFRbkJ6S2xoRFJJQTVGYXh5VjY5ZF81VmhQdUtCMVdCdXJRUTNsWjQzODluNVBfTU1NVHNFTGV0UmJ4NA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW1FU0FnTzdITHBvdG1RRmhWbEFjNDRodmMzZk5BZ3F6S2xmNFhFU2xvRENSM3hWS2tMR1BkNTZYVHp2UW4wNUdJcjVJdUk1SzN3Y0ljSzhyZlNuemhfdURkUEEtd2FMSHc4WFlRM1JyOVVlWTNQN0hBTzhMeDZUVEdJd0djcU1KcXAwMmtLOE9EQlZjN0tmc3JPNGQxLUU?oc=5"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Mwbm5Ec1o1aDhKZjkxNEpRUzB1UG44X2QwTUNDY3BDeDR2UkRuYWpTTFBnZnJON3lEVTNaeFJ1VVV0RDNBMGcxajM0Njh5blFLUGZxX1pMWVBab0FncEhNYVg0dTNwdVhKUmpzOUVDcWR2bExaY1kwTDVkc3RwOW9od2hLbzY2VjljT2p5LXl6WFBGa18tVHhmSEQwSTRaZTUtQVRn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHl1M2JueVZReDBjd0dnTUY0VlBfcy16bzJrXzNzeWJ3dGplVEJQYjM5SGppQ0lPVFZWSWtRUzBIUjVLOElHaWdoa1cwWThJb2Z4VWN0Z2F5STU4TDBsLXFBenJmZG56ZTJrcDItd01UczFzSUpYMnlxSkFmRXdmYVkyRXI3bUFUSUkyTnF3VHRpUHVhNlZXSnFTN0FrVVAzUG11YUNJR05pNmdW?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTFA5NmpaWGJjUTJjaHJkc0pSZl9nVGxmUk5ZbEJpWU44TW04em1pbDNJY2hYaWpneFhaZ0xIdUZMWkJZTld2ODdUNEVfQm9oOE5UQjhOb0hCU2VzMkF5cmtBSTczclA3ZmRBNkI4cnpFT09JN0I2QjMxVHkyc1YxRXNpMm8xUTNCaG91UVFQVW13YzRwVV8yekZXSkRZaERaWG92VkNqYUlyZEV3YWdBb3I3YU9YWlM5dnR5RkhtUEJvaThx?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Mwbm5Ec1o1aDhKZjkxNEpRUzB1UG44X2QwTUNDY3BDeDR2UkRuYWpTTFBnZnJON3lEVTNaeFJ1VVV0RDNBMGcxajM0Njh5blFLUGZxX1pMWVBab0FncEhNYVg0dTNwdVhKUmpzOUVDcWR2bExaY1kwTDVkc3RwOW9od2hLbzY2VjljT2p5LXl6WFBGa18tVHhmSEQwSTRaZTUtQVRn?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0lQV2l4Ri1qTm1HYTYtLUkwRnowSHF3OUJaRjl5VE9KcFFPVGZTYkNPaTBxSXZjN01fT1FHbnlCa3ZLTmxZejl3elhzelJ6TFZkTENXZkVORUhpS2duZWtlRjl6U2dQSDlUNW42b0NKOXVmeko0bk1mNnNQOThXcE5kTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbHluTnRFeEhuMnZGbmFCbzlqZF9oQlJsZ0JDX0l5c1l0eEFycnQ1OFN0RGNEQkVReDBWOTRIX3pLS0VoTFJnMFRWWFE3dmp1SWRvdnY5UEJHZDdieGtRVnNOTVEzd0RXb0pSZ3NMNzRZUy00amdYNjk5Y1RhZG1kazJGU1BuQmNqR2RibXNzNlhsUnliNktLbnFfSnF3WkdlS0hfV2dvdi1ET1ZPS0t5U0R5OTk0Zmx6ZmdaeHRzYnFTcjRYMUV0dWdjc1gtWExNX2Nz?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONm9NOHVCNDhhbUEySnhleFF3V3ozTXR4UTRiOUtSbGZPaVYyWm8xRmNfYS1Na1ZWeEI4ckFoZ3RWbmRob2xDOWtoc1VtOXdkVnM4ZWFzN0VPNms2OTNXTlJqX0xJMWE2N01WNkRwNlhyRlJLcl9hRmVnVFBnZDFJdkZoemVDd0ZtQWhqQTNrU2szOUpvWnBIYlZVUW5QUGlGRENrZ21DRi1TbnBpWDB3SFdyaGZVR1BwSkFraFl1Tkp2STQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUVyRFpCa3Z5MzFDQXduNEIwUEtXTjdUUjgxY2QtZVZZdHRRTklLWVNvaGdFdndjQWIwaF9aOU5XSGFPV1FGNGRKaGtyYldFeXlEaGRjSEJjUlphRUx1MTlCdGM1NVJfbldkXzhwSHo2MmE4bng0N2dVZjBYX0U1dmZkRkFjUy1NT291N2NETGNWTlBjM1VsNU50dVc4czdBSFdERUZ2cWV5RGRHVGNrcGgzSlVmQnh1RnFLUWRidw?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW1FU0FnTzdITHBvdG1RRmhWbEFjNDRodmMzZk5BZ3F6S2xmNFhFU2xvRENSM3hWS2tMR1BkNTZYVHp2UW4wNUdJcjVJdUk1SzN3Y0ljSzhyZlNuemhfdURkUEEtd2FMSHc4WFlRM1JyOVVlWTNQN0hBTzhMeDZUVEdJd0djcU1KcXAwMmtLOE9EQlZjN0tmc3JPNGQxLUU?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUNsaC1ub0pBWFFmY1dLS0kwbmRiMGN2dl9UQzFmd3BkeTRzV3J1eDhOQkJfc01fZVF2aHE5M1F3dzh2eFdMVV9uS0JjdGxVNlN0c3g1dUZ0Qk9lQWIyYXRhYXlYNmhWcENXdXhTYnpBSzBtaHRJb0RjZ1BMazlvakxuQ1VZYTdyNk9mRUFMRmxoNnM2dnJ6TTF4QkY2NnI1OWdsc3JHVm1sVHE5REQ5VQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZGhTWmZQOVpPcW5EWUJWUGNUbF9ydXZmSGc3bGlZanBOWHhzLWNvS2NFTUlBR2JtM2pUSnBfX21KRzlvWW04RWFRbkJ6S2xoRFJJQTVGYXh5VjY5ZF81VmhQdUtCMVdCdXJRUTNsWjQzODluNVBfTU1NVHNFTGV0UmJ4NA?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 110000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-08",
+    "total_raised": 275000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Lambda",
@@ -12858,7 +13036,32 @@
     "everywhere_tags": [],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2012-11-13",
+        "investors": [],
+        "source_url": "https://betakit.com/platfora-announces-20m-series-b-to-scale-big-data-visualizaton-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://betakit.com/platfora-announces-20m-series-b-to-scale-big-data-visualizaton-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2012-11-13",
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Plotly",
@@ -18351,7 +18554,35 @@
     ],
     "primary_investor": "In-Q-Tel",
     "source_url": "https://www.iqt.org/portfolio",
-    "scraped_at": "2026-10-16T21:18:52.215434+00:00"
+    "scraped_at": "2026-10-16T21:18:52.215434+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2014-09-12",
+        "investors": [],
+        "source_url": "https://www.darkreading.com/application-security/veracode-secures-40m-in-funding-as-ipo-looms",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.darkreading.com/application-security/veracode-secures-40m-in-funding-as-ipo-looms",
+      "https://finance.yahoo.com/news/veracode-closes-40m-stage-funding-100000039.html",
+      "https://sdtimes.com/veracode-closes-40m-late-stage-funding-round/",
+      "https://www.lowellsun.com/2014/09/11/veracode-raises-40m-in-vc-funding/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-09-12",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vidcie",

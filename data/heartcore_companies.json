@@ -2000,18 +2000,38 @@
     "primary_investor": "Heartcore Capital",
     "source_url": "https://www.heartcore.com/companies",
     "scraped_at": "2026-10-08T13:32:54.380648+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 40400000.0,
+        "currency": "GBP",
+        "date": "2024-04-18",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/orbexs-funding-may-accelerate-prime-070016018.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tVm9VN05MMTQ5d2tmS0NaVmNvZW0wcGgwU3VPUHpDdU5CNUZLMl9FNENDTG1CenlOOXdPeGZuT2NDWjlNZUhLQVB4a3hWbjBRd29mREpiTUhjeWRDOTNn?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcFROc1Utbi1mMDh2UjZ3WFd0cTFrYktXc29pYWo0ZENNS2JtbkhoUnY0ZmFVcUhCSmUwZGJqZjdwZWNfem9GY0NYU0VValgzSVVSUEdpT21YMnR5LW1BZG9ialdua2xPWFZuRWVMN2N5NUczM2pseTlLSEtWd04xZW00aGdpdl82SENpaGlVNnh2S05UYUV2SWU1dzB1NlZ1UVliOUdqN3Nqd2ZKby1iRVBKUkgtbU8wMF8wXw?oc=5",
+      "https://finance.yahoo.com/news/orbexs-funding-may-accelerate-prime-070016018.html",
+      "https://www.jeccomposites.com/news/spotted-by-jec/orbex-secures-24-million-funding-round-for-uk-space-launch/?news_type=business,process-manufacturing,product-technology",
+      "https://www.satellitetoday.com/launch/2025/02/03/orbex-wins-launch-contract-with-d-orbit-fresh-off-the-uk-funding-boost/",
+      "https://spacenews.com/orbex-raises-series-c-round/",
+      "https://www.heraldscotland.com/news/24892405.orbex-lands-20m-government-funding-ahead-saxavord-launch/",
+      "https://sg.news.yahoo.com/orbexs-funding-may-accelerate-prime-070016018.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 40400000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Series C",
+    "last_round_amount": 40400000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2024-04-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Aula",

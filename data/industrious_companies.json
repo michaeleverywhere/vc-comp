@@ -352,7 +352,19 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Hydrosat",
@@ -490,7 +502,47 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa19ibGRBaGhjOWpHeTBDSUNSRUFCdWszMGRNU2ZfTlA1VUtxTVJNN0dBUGpoaTd6bTBuUE5UeHN6UDF5eUU3eUoyYVotMUQydWoxcTJITTRfclFtNGp6TGhIQk43RmJuXzFqWjRGT09PQWNFcWlsS0ZfRThlcWxmTzg3WVc1dVMtR0lzRmZRV1lWWTVja3dkOFdlcHlXblpZczdOeUx5eE9KTGVldllGOEdXLWktaEJpQ1Y4c1BJZVg?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWURTdUh3cm42Z1FybFBfYV9DelBFLUR1WjFCcFBEWEM1UTBjMVZtdFZMWHBQS3B4a2tmMXAySzFrV1ktMTVIS3VtaHdqQXFEYVJhSEtuYmJULTVFZUdkVkEya2VMZTZELXRYeGQ4c3RlVXJ6TVk4dlMyZFVEZVh3ZmlwOFF6SXhEcWk5X0huc0k5TllzTjNLd2RfajNWTU1aWVRxZkJPaFQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWURTdUh3cm42Z1FybFBfYV9DelBFLUR1WjFCcFBEWEM1UTBjMVZtdFZMWHBQS3B4a2tmMXAySzFrV1ktMTVIS3VtaHdqQXFEYVJhSEtuYmJULTVFZUdkVkEya2VMZTZELXRYeGQ4c3RlVXJ6TVk4dlMyZFVEZVh3ZmlwOFF6SXhEcWk5X0huc0k5TllzTjNLd2RfajNWTU1aWVRxZkJPaFQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVUVLSVVmTFJCaG1iTW1OUkw1R0N1WG85c09pRkVPTFJRb3FDTEFWYVVkTGF3LVlZdTZhLVZOZEtJaDVQUWp5SGRnbGU1U2J4QThyd2dWRVdTTHlJQ2xmblJHc09mMERWR3dMeGZyQUNUYjctZngtTV84bmhzYldueTZKRW04Ti04NVdNWWYxbFA0MU1xMktzRUdIcTR2UWJhZGc?oc=5",
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVldfRDNqUzI1c2FhX1Jya3hpNDZ2MWRVTnhzWWdQMmJhZnhZMWVpbGh4NHowSGp6dDFMTHBNcjZNcTIzTGs5aUNTcFZEdThDNlRBVkk4OFFQVlNTY0o0VGVVTzZ0QTI0UC1yTmNqYlR0UWpEbEkyYWFyYXJJbUstUDVBSV9MZzVodVp0QW9VUkFYYmprMmotbG1kZGIxWmszZUVuY1dfMU51QlNRR1YtdXdlLVJDRUVHSGJzMTNOQV84OEd5VTRCNmh5THJLXzhyTlNWeUZxTVR1SlIxT0tv?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOWlpbUhjR1llN21ESjhrNVVHcTcyRVBSRVpnYl9PUlQ3X21QQWgtWGw3cE13MkJrbHRCdnNId3VWbXRHSFI3WjZYV2JmTkgxNHhMT2VaM04tRkxieEpTWmdKNjAyb0QxVUZWRFZDQ1EzLWxMaWkwdWppQzBJa1BQUmtEeWhUUnkzaDNXdUdLSjhRdlRGTDFUSEJEM0dBa2FwbWFJTU9jRUtMWGZmbFpPSHdZYjdBaGxL?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDVBTWJJMWNueUdYVTFlZGFHNDhkSzItU1REYmJMdWVMSGtfWjg0ODI0QV84eE51S3dYZ0tOQXg1c1pDek1EbUZOa3NydUpfZVZnQU0ydElGYWhQei1nV2JRa1oweWY0SmV5Nk5CdDdrRS1YQlBlS0VGbkl5blZpMFFDSjFRSWZ3SXBiQjM0Ul9xTmhvSXBYdkgyMXJaRTFYemJKOQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNGhGZlEzdURPRWpvTWR0alg0Zk5JdExQWlNWN1FQVjgtYU1VTEZyNXRyTG1NOV9kMkZsRDBJRzR5UDFleWlMU1R6aFpmcGhsclV0dHd2NFNycTFlaW1SNThEbUdxRFpRVzQ5cDBWVWtHd3dIVHFXd041b0hwOWZkX0hfaXFVbTk0NnRXWg?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTmI5TWFYc2tjNTFDWTBNcEs2c01xSXBTektaTDVFamlVdjhkMTJJTHRZdnk1S1ExamJZTjFhSmdGdUVGd0ZmZDkwU2ZOLThyOWlSRnRxbUVQbWpna2h5OTktQk1pU21NSkhIMkdSaTYtMlQ0cDF3SmZxN3dRMFhwOQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkxhTGs5ZXVKR1ZyQ2paM0tzb0kxcHVFWTdPeUpCenMxX0RoZzVwTWt5SG52X2xSeXh5X2V2a3NYRWE5OTNfVEhvOGVvUDdxemJhVkw4dGljaVNDWVNpN3BOTl9WRDFZalduTXozOTc0cE5rVllKel84b3dnUW9PVENfcHczRXlFWHhfUlgyUVhOUzR0YU5jS3ZqMkRZaFU?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa19ibGRBaGhjOWpHeTBDSUNSRUFCdWszMGRNU2ZfTlA1VUtxTVJNN0dBUGpoaTd6bTBuUE5UeHN6UDF5eUU3eUoyYVotMUQydWoxcTJITTRfclFtNGp6TGhIQk43RmJuXzFqWjRGT09PQWNFcWlsS0ZfRThlcWxmTzg3WVc1dVMtR0lzRmZRV1lWWTVja3dkOFdlcHlXblpZczdOeUx5eE9KTGVldllGOEdXLWktaEJpQ1Y4c1BJZVg?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 130000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nuview",
@@ -534,7 +586,52 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2017-11-16",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yeWpyd0p2RlpYZGVielQxaGdNOHc5YXJqYjNsZlBVZnhHYndraWxhMzRwSDBiWjM5emRITDRNNDNHRnBiTzFGOU1ZYjIwYmUwZ1ktdUJRdVY4Ym10OUE0ODdzUUdrM2l5a0t1N0dWaw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0pFczFVV1lBVmVMbEljMm1wSnNLS0RVb0RjcGRoMFBZRHhoMHFnZ2Z3RGhFdE5rUngxNTlld2NoOWpKTktmb19EM1ozS3paNmZrWUViTkczU3pwZ2dhUUl1Q2xLTlNSdGhNSDNPT3RPbXJTUFJfTkRtSnF4QUpPZFRRTzU4ZzBPaUFR?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM0dic1p6UC1idXpUZVRfQ2lUdkdUUk1nTF82c3NaV3lvRjBkYTBVYkZ6N3U1dzVoNVkxZ1dub0hDZDY1SmhQbndmaWpTT2VtYzlWSlFGaEo0TVVpSkZYVUMtdEtybGc2UUp3VTNkWi1CSnBtd29yOVAtZ0ROUHI4Z0Z4U00?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd0pFczFVV1lBVmVMbEljMm1wSnNLS0RVb0RjcGRoMFBZRHhoMHFnZ2Z3RGhFdE5rUngxNTlld2NoOWpKTktmb19EM1ozS3paNmZrWUViTkczU3pwZ2dhUUl1Q2xLTlNSdGhNSDNPT3RPbXJTUFJfTkRtSnF4QUpPZFRRTzU4ZzBPaUFR?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM0dic1p6UC1idXpUZVRfQ2lUdkdUUk1nTF82c3NaV3lvRjBkYTBVYkZ6N3U1dzVoNVkxZ1dub0hDZDY1SmhQbndmaWpTT2VtYzlWSlFGaEo0TVVpSkZYVUMtdEtybGc2UUp3VTNkWi1CSnBtd29yOVAtZ0ROUHI4Z0Z4U00?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yeWpyd0p2RlpYZGVielQxaGdNOHc5YXJqYjNsZlBVZnhHYndraWxhMzRwSDBiWjM5emRITDRNNDNHRnBiTzFGOU1ZYjIwYmUwZ1ktdUJRdVY4Ym10OUE0ODdzUUdrM2l5a0t1N0dWaw?oc=5",
+      "https://www.pehub.com/paystand-secures-seed-funding/",
+      "https://pulse2.com/paystand-20-million-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-11-16",
+    "total_raised": 76000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Phase Four",
@@ -646,7 +743,19 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Starfish Space",
@@ -678,7 +787,39 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 1000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbHpiUXYzTmhoQXkxc2pybk9ZMXFQNTdmQjhtTFBuSXlHYjlNc181anozMnU5Mmc0TU9WOWQxY1U2V3pwbTBxN1o5YXcwQ1NLWVdBNjc2dHdTY3ppSjZLSmpIQUJFWVZUekFfY2ZuSUU4R1hVWDNmQWNYRE51cXFfd3ZIZmg4dw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwejJWc0ZBMjhIeDE3bVdDeGlEbUV2ODlieWtWTDNFbVNGYlBTcFJjcVdBTUlxcnJidnM5WXNkbkE3Q2xpOE1iT2R1Z0ZsazFwYVpPSG8xLVhMN210d1VuYnhrTXBISXk5QTd3X0Y4bHJmQmZSZWNJYThn?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUnVwdVMxMnRvc1FXdXk5T3N6aWNOek5kQ1ZhNThwaWk4bEtIamd6c1dlaTZYbW9aYzM5Z0JLRGYtdDRCYmpSZHdpQnJzRGEyMnJmd1JUSFYyR1dSZjhHYUJVQW1vWU5aN0ZOdWxVbm43ZWgzLW9HbnZySlJ2bXVfcURNQ1N2VHZlZEdjdVFSdE1jSXUxaHNfRmdFM2tUeThyYUVqb2s3Yy1oQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BanM3ellWQ0lvY1I5MGFSQ1ZyOWlZLTFTa2FFb29RS0ZKMmhycGVQVy1Qbi1INUEzOU9ESFNacXNEVkN3cHhDWFM4bDZsTEZ2THJDUk10cnp3dUFZb0RlR3d4VHdSbENTd1YzYzU5OXNtUHRpdXdOZw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWW1MUXBTX0paQ1IzNjVreGZRbVYxTGY3YnlBbmJSUE9lbVdzVmlMUXNZc1dMNzEtaXFSR1lfZzZyTXJzNHZRTmVHejlnUjdOR2tXN1p3Ykc0ZUVuYWpjVkV5QzJySzRsakFGb2RDRW10aFZYdEk3aFVBcmJoYk16cUctc2RKMlM1R2gyNlZR?oc=5",
+      "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaC1iaUxraXpGMFFFMlEwZTVKQ2hITzdBWVNCWVViX1NBNE11ZVdkcjkwZDRydmdwVnlsQ2VaM1FqelJzTThyRUVzR2h6ZkxKRjJnUHU0ODNHSUVPY2hzcDdJM0hIRi1COUoxOE9GVjF3cUt0dFRpMUlWcE1BTE8xd3U1RlpJQTFGX3dTdHh4MVBzQmRmVV9VZ0tMRDZIQk9pdElwYmdPQ09nYWRpZmlCMWJxOW94LXhRUUZad3EzWlhjMEZHMVJkOWFUM0Y2WHlTdm5UcXBKR3VhbTJNQkZNTV9pcWtVTlhKWkkycGpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQTJBNU4xdl9udmF4Rm5oQU5rVFZTREFYa25EUHpiZktTNTd4c1l1NHBkUlJMUE16YzR4YVM0S0xXTGYtV2syb2NRUmJBTkR0VllQOTNWU1RSWDVHRjFlR3JKd3pIUDZfdnZFU2lSN21BSlBuLWNfLUl2UzdSUW9ZWkFNR2UtNmFjSXROZGhfV2V0R01xRXppazVudnc0VnNSYmgzdV9hMzdHYlU?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVmVPd1FPNE5XYUJ5VEJYb1otWlhfcU5la3NOMnpWVHFTT2VIb1ZRMnpyVjZ2LVdZUXlhTURNS2M3UWloQWdpZkpwXy05SUIybFI2UkM2TjIyMHJkanVtNnRDbzBWT1VUUG5Sb3JqMnptWnFBbVFOWXhmNFNmWDNJY1lUdERxU2lTSkRjQmNpbTNIc2lOeFo4?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRk9NNjN0cFhJOGhPNXBTYjNneWw4VkhvSnlMemFjQ3REcjNLdmV1Qmp4NjR2VWNiQ1dFczlWUDRQOUtlaVNPaEhlT1pWY3duSjBGTGI1SFYxSm0wOVhvOFJrLU5qSUI3NVYyN1Rabm92NjhrQzB6bDVzeVJ6cHZvUTZ2Z0ZaNWk2NzdDbjZqclF6SkwxYWNPMA?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbHpiUXYzTmhoQXkxc2pybk9ZMXFQNTdmQjhtTFBuSXlHYjlNc181anozMnU5Mmc0TU9WOWQxY1U2V3pwbTBxN1o5YXcwQ1NLWVdBNjc2dHdTY3ppSjZLSmpIQUJFWVZUekFfY2ZuSUU4R1hVWDNmQWNYRE51cXFfd3ZIZmg4dw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series E",
+    "last_round_amount": 1000000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1000000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TRAXyL",
@@ -741,7 +882,45 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Washington Harbour Partners"
+        ],
+        "investors": [
+          "Washington Harbour Partners"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWWNxVm95ZzdjUGF2UXZxWXJaUnBqbDFOSkpkN0RielNhbXNlQmppbEdEV0l4aUFqSWFybUdQTV9yNXA0T016eWxPWUdNcGpwLTlfZ1BkOEJzeWgtOUJWem5SWkZxM2oyM1VZX05aSHIxcjlQWlhMaThqRnI5Z01FMlFKaFZzRU1kVzZCU3dha0Y1bGhUclFz?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWWNxVm95ZzdjUGF2UXZxWXJaUnBqbDFOSkpkN0RielNhbXNlQmppbEdEV0l4aUFqSWFybUdQTV9yNXA0T016eWxPWUdNcGpwLTlfZ1BkOEJzeWgtOUJWem5SWkZxM2oyM1VZX05aSHIxcjlQWlhMaThqRnI5Z01FMlFKaFZzRU1kVzZCU3dha0Y1bGhUclFz?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE56LVA0eEhxZXYtYUVnZ09CZzU0WXNmLWt4RmlWbGdXRzFDV1pGSE82UTA5cXdheVhxTk8tWEZCWUF6X1Z5STh6M080c1VQRmgxU3Brc3c3NlI5SVBoc29LVDdrbUdnZEYyNXlaS2VubkVZLXFWaVdkUk9R?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96NlhRRWZyWWxlMWN2TDZrbGpZRDRJTWYyakhtV0lnWl9JZmlRel9raFQzR3pxVDRBbEpEMGNnUk5hcTdxVVdhcnZ0SmRJdVBtQlNYVjN5RFBuMHU4dXpmMlV6YXQzdw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmR5ZHZ5QnZtWmloaEZLaXZqTnMtS1VQQVZoU0pIWnhPQ0ZEdXdqR0ZLQ3pFQmcxVGNBY1NBaUpScThCSXlQSTFwQVdiWFZPREFVdGh6T2w4VC0yUThxNTExTUhoUVBIYkVQRUx1MUJrdmZ1bVZHVmlpRXAtcXlDUDh2WHRkTm84QVcxMEFUT0xTeVNSVWh3MEJYQUJHTUtBdEVpc1JqdGM5SDdjNDdjaE5iMkd1U0k?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXlfb184OGs4S0NuZ0NpcnQ3RHlPUU84V1pMUFZKNVlURDRjWDJxNkR0NVJUZGxMX1pGd3RheGpvbG9ncHJ3eFYxRzZPR2Zqc3JyRlhob0dnbHZ3N1pZVkljOGFoc2gyS2dCbDNfQWw5cFVFMW5nQ0EwWDdLSUM5MGFpYkNpN19LS2xtSzEzdWl1MmQydThnTjNQdzEwQWwxYWQ4d1NOSU53cktOdjdJ?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX0pIOUVKNHlYX0NCUVpmMnFPWmw3U2t2WjBITzhhOGNKQmpIV0NWTVQ2WnBBeFpoVFo1bHVzV3RwcnNhT25GUVY3U3FXT1NiOFpwclpLYm04c2RHV0hoLXhtY2RPeldIZFdhUU5TNE1ScXBvWUY5Tl9GQURKR0xVa0l6aW11RGRsOG5BOFgzN07SAZYBQVVfeXFMT0F6V0RocnlZTnp4SjFQVTJISjFlN2d3YjBnX2JZSEhWQ1lIbVltek5jNW5ZbzUzbjI5Ml9ZYlNxdmQ1NmJpNUd4QjZHclg1MTMwcnZ2Y0ZWWFVONjQ0QjE1M29FUHQ2VFVPcUlwTE8xMWVBVl8tNmZJbVRxUDFUdWNzZ3ZMYmJvbGNhN1pYWnNmZEtCVWlR?oc=5",
+      "https://pulse2.com/turion-space-75-million-series-b-to-scale-space-infrastructure-and-advance-space-domain-awareness/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 75000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 75000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Washington Harbour Partners"
+    ]
   },
   {
     "company_name": "Ursa Major",
@@ -818,7 +997,40 @@
     ],
     "primary_investor": "Industrious Ventures",
     "source_url": "https://industrious.vc/portfolio/",
-    "scraped_at": "2026-10-16T23:04:37.170748+00:00"
+    "scraped_at": "2026-10-16T23:04:37.170748+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdnRFakFZR09RNk1CMlJIWTNXZ3lVbTh6X0pKMXUwLUxEcEUtcjV5SUNpWmx0c3dfSlgzSWhvc0xqaVBHV2k0QnVZMjNXaEJCUkM4MHFyLWxvWVRtN2p6OGNBSTV5dzNTb3V6MFh2SzhfOFpmN0oxbjMwSnd2ZXFKaGdwUlZtVUhSZENxaXdlUURtUQ?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 19000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSURxVFJYS2x2d2VFMk91TFpOQU0yRzBIMDVlQW1POVBsUERVLV9YTnBIMUJaMzVpNHgwdTNxcUFHWHpZZEQtVWVQamZvWUhJRF90bktIaWlYZjJkRHVCZ0ZwelhBbUtEdGZYVFktcDVzVUd2UGZwNXJVemNyWW1hdzc1OXA3aDhJQmRqSUtKcGwwN1VrdmxkYmxramlvQ1Jib2pidmlmZmtieHRpcGpZMWRab1M4ZE1h?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSURxVFJYS2x2d2VFMk91TFpOQU0yRzBIMDVlQW1POVBsUERVLV9YTnBIMUJaMzVpNHgwdTNxcUFHWHpZZEQtVWVQamZvWUhJRF90bktIaWlYZjJkRHVCZ0ZwelhBbUtEdGZYVFktcDVzVUd2UGZwNXJVemNyWW1hdzc1OXA3aDhJQmRqSUtKcGwwN1VrdmxkYmxramlvQ1Jib2pidmlmZmtieHRpcGpZMWRab1M4ZE1h?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdnRFakFZR09RNk1CMlJIWTNXZ3lVbTh6X0pKMXUwLUxEcEUtcjV5SUNpWmx0c3dfSlgzSWhvc0xqaVBHV2k0QnVZMjNXaEJCUkM4MHFyLWxvWVRtN2p6OGNBSTV5dzNTb3V6MFh2SzhfOFpmN0oxbjMwSnd2ZXFKaGdwUlZtVUhSZENxaXdlUURtUQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 19000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 20200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Xplore",

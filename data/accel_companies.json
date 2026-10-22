@@ -2186,7 +2186,21 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "Microsoft",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pehub.com/aorato-secures-series-b-funding-led-by-accel/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ApnaMart",
@@ -15947,7 +15961,19 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "G2",
@@ -34675,20 +34701,59 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-10-14",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series A",
+        "amount": 9500000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Omnivore",
+          "Bertelsmann"
+        ],
+        "investors": [
+          "Omnivore",
+          "Bertelsmann"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNDd4WXA4aWR3SS1KdjZkQnJXYmZ0amFDSkY5NC03SkE5dlpDeGJuQUN5U2ZSeUpySl9KN1c1NDllQWw1MXdCQXJGcFdVVEZWUXB5a2szNE9VUDNqUjZ4eTVPSG1hdzhrZ00zUmRiMlBDMFotQmNmSlBYbGR4VWNRMWFYTkRJT21HbzVFRXQwVnFFVzBXRkNtZjFlYnMwdFMyNTN3RFdlMTdad3RPdmkzYU8yQnUzM2gxX0V5NTRabDJMQnBHb0taelBRbzhtSVlUb2NqdWluYndCS21oYnR3aEw2Ty14Zw?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.forbes.com/sites/davidprosser/2025/03/12/why-scimplify-thinks-the-world-needs-a-new-chemicals-supplier/"
+      "https://www.forbes.com/sites/davidprosser/2025/03/12/why-scimplify-thinks-the-world-needs-a-new-chemicals-supplier/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPR1FxV2htQTJQWGNXN0xHM0dqX1ZvbzN3SGhpMWUyOTl2UHBWRzl6WU9iS1FFdUNZdE4tTHQ4a0Vub0FqMEhOVVhlWGRSd2ZEc0pvVldQTm9xclM0a3RpNGMyTHB3cnAxX2ZFWmYxN1l2eWhDY0twaWNtRk1ZcGNxMldWSEFyRjRfRUhNd1FtUEI4Uzc0VkloT3M2dGJzQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxObkx1VWhNSmV6MWE2QjNFNzBVR1Z0cXZ6elJMZkxjbWVUVjRval9sbWRhMUEtR1NnLVJrbjVXbUI1SVV1SlRiSjNnSjdXcnMwQzRmcllLUUZxUjZDRkNFVjZ2bWlOLWdBUEVSZnhuOWl2dHplQU9FaXItejJLTmE3dE1PVmVJcHQ5VGY0czJPWGhfM1U4UFlKN1d6T29CZ1dlTGU5X1BB?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSlM0dXZQdUppR2lxOGRtQURuZ09ybmJEQlMzd1RoUUdCUjhCWmF1bVhuRGcwTWhvZFRmZXRvR3dtcGg1WVBZbHFiNVI2VmJTdkpnaEtITVpuVF8tYk1CV0pxWFZyOVJFMy1WclhFQ3Bhb0dmVktPOVptN29XVzhYN1ZKaXRoMDVkWHhZdExxdm5HR3cyRC1qNkVMY1dQelBlLXhCaUxpQV9qTGo0dENF?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRDFTZWtlY2dDNHowZDJxWC1WTmVlS2x1X25BaElaLXNWTUdkZThPVThPQnlzVzJaRmExZFFlY19jVXZ5bV9YV2JoYm56Y3BabTdKak5SUzRLNmVvTUI1RnU4Q0VUWFU5RUZEWjRSd2duZVdjWnhfWGlSVGNlQjVMTHd4ZHlZQ0I1aUVOOXdIUHVCc253LWNUd2tR?oc=5",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQU3VjMEFUSmQ5MVY4MThHQ2JJN09jaGdLQUFlalNrd09sdnVtNFVsZXQyX1BfX216aW9wM1Z3Uk5CMlBtZEVlYXlCRVRUUFYyTG93TjNwSFF5ZVlKZm9JVUltSWotTGduZWdZNUJnSlRfSVZPWWNIUkZDWXA5N09EOVlhOEVTODlaYUYtcFdIMDNwalFtb1VMOFFDTmZVU2J1STZRNXQ1dWV0S1VfcUp1UkNYcTNaT19JdDZITFkwUEhjb2VZUkI2T2pPZG1DTnJzaTZUQUY1dFVOYlFZS2lZdFBNTdIB4wFBVV95cUxQU3VjMEFUSmQ5MVY4MThHQ2JJN09jaGdLQUFlalNrd09sdnVtNFVsZXQyX1BfX216aW9wM1Z3Uk5CMlBtZEVlYXlCRVRUUFYyTG93TjNwSFF5ZVlKZm9JVUltSWotTGduZWdZNUJnSlRfSVZPWWNIUkZDWXA5N09EOVlhOEVTODlaYUYtcFdIMDNwalFtb1VMOFFDTmZVU2J1STZRNXQ1dWV0S1VfcUp1UkNYcTNaT19JdDZITFkwUEhjb2VZUkI2T2pPZG1DTnJzaTZUQUY1dFVOYlFZS2lZdFBNTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSHpwM1RmOHNIUXpWcFZZYjIwNmZqaDJhQ1drZmxMXzJGU1ZESzE5N2VQeDNxOUdKUklzNXkxalp5OXh5RlBRRDdUVE5TM01fQTI3RklDSkFPVF9RQkgtTHNwbzRta1FJeTZEU1dSd1dfQjZQa1pTTmRmazhPb0dRSHRGb29jZldoNTdRZkhOU2lQb0E4RXYxNmMyYmNZUFVXbVZuNUpqdnRQMEhMZ3NTUW9JMGtEZU5oWGFEMjhIanVDV2lhY19rMlF2Wi1qWHlvUGw0d1d5Nk13clY3b0d1a2JRaUJGV1hyTVE?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DYlFNcERkR29ZVERpdDNKNzFLRXVhYlZzMVByZFl1UXZhN3ZHcXU2X0hzYzNPNEtWQ284WGZaWVByX2g2QXpwNjJqNlRQcnVKNVlVb2pLZE5lbUZqRlVXYnMzM2c3eTJtN3MxaE5VVnk0ZnZu?oc=5",
+      "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNDd4WXA4aWR3SS1KdjZkQnJXYmZ0amFDSkY5NC03SkE5dlpDeGJuQUN5U2ZSeUpySl9KN1c1NDllQWw1MXdCQXJGcFdVVEZWUXB5a2szNE9VUDNqUjZ4eTVPSG1hdzhrZ00zUmRiMlBDMFotQmNmSlBYbGR4VWNRMWFYTkRJT21HbzVFRXQwVnFFVzBXRkNtZjFlYnMwdFMyNTN3RFdlMTdad3RPdmkzYU8yQnUzM2gxX0V5NTRabDJMQnBHb0taelBRbzhtSVlUb2NqdWluYndCS21oYnR3aEw2Ty14Zw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 34500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-10-14",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Omnivore",
+      "Bertelsmann"
+    ]
   },
   {
     "company_name": "Scratchpad",
@@ -34811,18 +34876,37 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": "2016-07-01",
+        "investors": [],
+        "source_url": "https://www.vccircle.com/omidyar-network-backs-online-investment-platform-scripbox",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNejdfdXBSWjVBaGpkRFRpVDdkcld5c2s0RXdzQWRud2RDMWJnemJ1eTM3bURaV3lmVGJSeTV5aFNsR1NjbmlubFVGY0M2aWd0WHZJV19YZnkxQS03NVZfYlNWSF9ELTBhbU9BY2hQdmN6Z25uNDFjOGxFZDY4b3EycHBuajB2VG5hdmlVM1FqNGQxSFU4V09B?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqTVB0amF1SUcwdzVNZFo3WTRLS1RONWZuV2NSX2FGZmhyeFZnckxsNGhqQ1RtMm9yWjdiVkpsbUcwQXBHZmp4UUkyWk9ya3U2RGpXN084TEZaSmNFUm15OFZqMHdnSU11REYwWTNn?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPajU0VmxtNlc3MHNtUktQN0RwUDhXUHE3M0V4NVZBZ2JTTzFpQVc5ejFWSVVDbkE0bU8yc0hiMkJFYjc1dEhrUXBWN3l3UWY5T0xCTmZBdXFpb0dYeVJCQzFLd2dfMVhUTzhic1otbV9kbWRQZ2poamhHTkpoSkJ4TjBjQndyT3dRTmN4NXZ4aGI3SWpZVVhIZGdER3o5bGd0S0xxSHJfeExXNVFFaXlnR1RyYzJJV051ZXJJTFFPbml0Wnh3aEltc2NyWdIB0AFBVV95cUxQZkEwaWlIMkpZcEY3RTJaLXpRZzdzNGpnbThqM3hxVWc4NVBwVXdsVHVfZzF3QWFISDVEWnNSY1hnUG1BeEMzQUh3dlFzaVdtQzlqdGVJa1pyTXZpejV4UGlBek5BRkdoNWc0R2JxVHFmc0N2bDhqUzBoaHA5eFdKWXVpcWRMYndxUVpnSVdTdmhBaWUzYV9zbFhXQmpGYjV3U1VQTFI1QXZUQnBfNVFDX1hQQkkzZXljZWFicjVxMERyQkt5R1VCUlNGMnNFaXBv?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDRmUTFFTTl6LXU2c21EYUFhYXVEbTBNRG1iU3JCMFd0bUhOd1BsUlR1dWFhdzhvR3VsdzYyMUpJajAwbUw5YWdJR2Ztc3lkcWJ4ZE51eHBWYW1yaGQtQXpxekdCSmhQckpLNS1zSVN3RnZlbGJuQUdzZVdFZnFyWmY5THJ3MWZPRlFnbGdn0gGWAUFVX3lxTFBJVHRpek5mNnk2UG8wdjBsYXNSMjJzcVVYUjJMaktIeXhYZjdub242Vk5BZlgxVm53OTVkblQxOHJkMkppRWFZMThET01tS21meHF1X2FTVkJiazhBYnRYVWc1cTE4WEp0RmthSy1heUlyWndKTTh3YzNXZm03UGlXUmxkRE5VdTBXOXYxb2RUNUNfWFVhdw?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fX0hrLTdpYlpKY3pIY05FRVRkT1BDNUY2LVZZcE1laksyNUo5ODctUTVRT2I0c2ZNdmF3VDg4RmwtajI0LWpWdnBfTm9kNFZFZ0tYSk9HcmNBLUU4bjFyb2NIdUZkdmZWWHdiVWNzeFVuOERBZEZNedIBeEFVX3lxTE1fX0hrLTdpYlpKY3pIY05FRVRkT1BDNUY2LVZZcE1laksyNUo5ODctUTVRT2I0c2ZNdmF3VDg4RmwtajI0LWpWdnBfTm9kNFZFZ0tYSk9HcmNBLUU4bjFyb2NIdUZkdmZWWHdiVWNzeFVuOERBZEZNeQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZcEpfRzF4R3Ixd1JkX0Q2dnB2NV84Uno0SFZwcXpmX3pyanJtX0hDY3h6bGZrb0dFYXZ2eFJ2MlZLUkQ1ekphM1FIT0xoLUtkRURzbk4tMjVEUmM?oc=5",
+      "https://www.vccircle.com/scripbox-snags-series-d-funding-led-by-existing-backer-accel",
+      "https://www.vccircle.com/omidyar-network-backs-online-investment-platform-scripbox"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
+    "last_round_type": "Series B",
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": "2016-07-01"
   },
   {
     "company_name": "Searchlight",
@@ -38559,18 +38643,37 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYWwzRVk1M2htUzJVcmwwWmNMODB5c1E2V3BQUmF1a0hmUUt6aGVDX25ZX3NFak5QLVJOSjNCUDRaWVZSREpLS0hqVzF1aUVTSlZuZzNTRk1pUWI0clZzdlh3eE4xaVNaS2ZCQk90RkQyTUwzN1lKbEhPU2dJQVRlYldSUlN4Mzgt?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYWwzRVk1M2htUzJVcmwwWmNMODB5c1E2V3BQUmF1a0hmUUt6aGVDX25ZX3NFak5QLVJOSjNCUDRaWVZSREpLS0hqVzF1aUVTSlZuZzNTRk1pUWI0clZzdlh3eE4xaVNaS2ZCQk90RkQyTUwzN1lKbEhPU2dJQVRlYldSUlN4Mzgt?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObU1GcFBrVEJhbmdJVFpnZ01MQUVwN3VWZG1FLUo1UFk5dHRaSEJ1alcwT3JJdmNFbTVZYkdNMXo3T3piOHlYbm9yMThBYTFON21pWU1ZdC05LXQzZGkydnk5dnh1bENDdmhtR19pLUtZVXgzTF9RRVc1LTdrM01paG1zMVlEbDUzS1QtcFZDLWYyUHJ5cEhqTmZJWG5vVC12YlJwN1hLN2dFNnU1dGJlTktwd1RnOGpEdWtXYUZGRFZ6Um8?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZWl2ajBMQWpyYTVpN3NERk15d1NmS0Vyc295RVRhOFZFMHdPSkZHVnZkN2Z2MnQxLUFaVnZBSzVmNEwySlV3STVyYWpnOElsNTZvbTJUcEIzdGlNYnhNLTFZVklYV2dlTWZsYURKS0hlWHVtWnh0Z3c3WFRWSVYyM3R3dm1VX1J2b3JLek1PbElBMDhRXzhRWkNrUFJRUkZmRVVsdzh5ZG9pNGs?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWGhtZ3Nad2VtRlJndnloZU5GSXVVbDZXdVRJM182Um5vUDlQZ0MtbjdOTW9sRVc0VGFvT251Wk8xWUl1MkotZ2F1c1RRc202c295b201VnVySVh6LTRQUjZ2Q2lxY0FNQTRjT1ByLUZRZzR2LTh6Y0tuWHZkeWp5bHQzSmtxVjc3?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWQ1RVNGNjhFQ3JMQ05MbXdyNE5Td3lQMFBsNEFMdmFSRTJWOGwzWktUMEdHRllxcFExVGduR1AwOUJGcklLRmxmM1ZHNlJZT1pSUTBKLUhwd2ZJNm5LajRZeGlNcHhaSTRFYW0yU0x2ZjFHTmpOT29ESHdCd0R6LWtvcm5pYVJpWmZIZXZMcG91bFR4ak11QdIBmAFBVV95cUxNNWQ1RVNGNjhFQ3JMQ05MbXdyNE5Td3lQMFBsNEFMdmFSRTJWOGwzWktUMEdHRllxcFExVGduR1AwOUJGcklLRmxmM1ZHNlJZT1pSUTBKLUhwd2ZJNm5LajRZeGlNcHhaSTRFYW0yU0x2ZjFHTmpOT29ESHdCd0R6LWtvcm5pYVJpWmZIZXZMcG91bFR4ak11QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX0xEbkFzQWRaeWFaQW1RYXJ6Q2NHS1BJeTR5N2NUUXpqbzQwSDREVkpxd2NNMko5UkhkRDYxNlFJOEtOVzk1dlJzYzFqODlJeG9Xd2hqbmhNUlVHRXl6eDh1c21xYUVudlJ3NlQ0Q1ZMN2hHMkROYWNwVXRPYjhyRTdBdkxiVm41ZV83S0pUWnVBVEx4WWVqenRtRHdWVWJwZGU4R2pFZlJQcHFXUG1vUU40cTFtMGJmTDZOOUZmZGhPbzZ6OER0SnNnU0EtaVZOU3RLMUQtVmFHSjNlT2VyddIB5gFBVV95cUxQV2lQMWx5U0JrQzZkR09MUjdpYTQxSVBRT04zelk0UVhZeWZoRWxiakJBb0NBcDhKRzZVeG0ybUFIMkZrSXp1N0o2WDdDNVBHd05iOXpIZThOS1RWTDdYRUVwUTFWQS1aUXMxaUprSkN1MzAyZDE3cVB6LUtMaU9XZkRuaWROdmlCc29DZ21hb3BkdnRDSU5qb3Z2aEM1ZnlBNHFuMWpCUkcyOWtiQWYyNTR6b3RSeldzUkJVUjN0TGxoXzlMSWQ2OXd6d2d4SXljRGwySFhuOVNIaXQxaDlqSnJmMVhrQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkQktnZm41c2V3UjVoRGNuOFRQYUduZVFrekhOS0ZXQkQ3VXd2YTJ1cktIWXFFWTNqbldOQTl1akp0LWxscndwTFpwaWN5MUhpZFRhMDRLblFTTW0zOHY1aHRPWjhwLUJNRGFTbzZKa1Fqd2oyNjE00gF3QVVfeXFMUGRCS2dmbjVzZXdSNWhEY244VFBhR25lUWt6SE5LRldCRDdVd3ZhMnVyS0hZcUVZM2puV05BOXVqSnQtbGxyd3BMWnBpY3kxSGlkVGEwNEtuUVNNbTM4djVodE9aOHAtQk1EYVNvNkprUWp3ajI2MTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTkZPVThselpsM0o0SXZMdHVydERjbnBNT3NJUng0Tk1iRUo4WjFLMnpkMmpTQlZvbURQZVJMUUd0U1V6eXVfdTdnRlM2Y0xnTmFfU1l4YUFnLXFreXg3SkFIYnk1LUdMVHV3a24tbjZzV1JOU05OUW5RWjFBQ2c1akZYYXJjdm00ZWU5bjVQNEF5SzJCeEw2WVQxZzlWVWtkMWZ4Z3FFRkZZQ1ZxU2g4UDNVVC1lanhkUEVwc3VoVTR6ckNRUldSdDdQUHlkSkg10gHWAUFVX3lxTE1hUldTSTVDTlZNZThVT3VlcjZ2bWpIb21UMUF3YWx4eXVOaVpLc0dkN1NRMGszM1FaX0xfdkV2aUtRSkM4aTQtWnY1VVJOVElpRzBMb3ZyT1Z2WmNmamtzMVZFTnRJR2FKYmZuSXpfNUs1R3ZlenJlS1NVTERuQmcyMjdscEViNl9RT1hvVFpSRE9iVlNmYTBCdUZMTTZMRjBhSnlIQVFGTlpfT29HemhUSlZsRDYtOEZNVFJ6cUFYOGdFbzdQYXpHblhDMFg0Ny1pbDVNOEE?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Spyne",
@@ -38609,20 +38712,46 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2020-05-11",
+        "lead_investors": [
+          "AngelList"
+        ],
+        "investors": [
+          "AngelList"
+        ],
+        "source_url": "https://inc42.com/buzz/spyne-raises-pre-series-a-from-angellist-others-to-automate-image-processing/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.spyne.ai:443/"
+      "https://www.spyne.ai:443/",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcHVmZG8zNHlKeVo0aWtzNnVyU2hzRzJLbklXQlRady0wUUhOZURTZFBFS1lXS0pkOTVJQ0F1ODc3SUxuMG9PUGF3THRWRmpFY2xGVjlncjM3MVp1TlhFRDJ0NzBmZjZrcVAwYzZyVUZ3R2xGOXZoZFJNSDR0UTRnRGxPa1FWbmFVSHFqYUllZzRPSEs2S29XcHQ5TEFCYndkdnZpZk5TbkJxUmxRdmpacUxtQVlOUzlDVlVUR2dyM09WWXI0VU5CU3czY2JuQ0lVRUF4WndaSDViUdIB3wFBVV95cUxQSWd2QVJueENMQmIwNWJpZlc3VXhzMUg2dDlya3o3aDRrMFBLTkhWTUVIY1RxMlVITG9xS1FTV0dHcU03bmNWaG94QjlVZ3dWc1FUMUxxOHZ4TDFEVWZEMmprd3RFckZBQm51NERpNWVVcEd0RkhheTZNUUZmQlo1alRlaWNPV19iVTAtbFZWUVVBUmVONUhsaHZ5aFRtMnptYURvOGd2d0ZweHpaZmQ3WXpSNHVMaHgzMlZCS2kyQ1VkSWlQWnRRMm9HMGt5YTdEZkZ1NHUxV0JKazc1YUhF?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmdUczhNNUo3aW5oak9GU05pa0hnNGNZR2pDZEJJdjdLaGdfeTNmTTdPNDNHeW9CTkdIZEpsRFZXWTItRTVWWndMX29zM0ZSOGV1LUlvZUV4RlhQY2hwOUJwd0Y3UHdZcnZDUVN6c3d5dEhvSk0tNlA5c041cFNXc01NcDhCQkY5SkhBVGNQQkdfOTZnNlZGa2ZuRWk4OWJUWHJjR0JhS0ZQdGg0MVRJeGVVbw?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWRQTlk4NDN2a0I2Y2Fra3o1R1hia3FvbklfV2taYldSTVAzcWtUTkd6aUlBMnFqdk9nNmo1RGhZUmJ4b2JQSnVvZ21DZW5yaHoyM3pwVy1ZSHBUMDk2RWswNjY4VTN6V3RnT21mQ1RHOXhfZ0RNUW1kM2ZwTVZfODN1bUQ3UmVFemdUVEQzOTdvSW5oNjRRTtIBmAFBVV95cUxOMWRQTlk4NDN2a0I2Y2Fra3o1R1hia3FvbklfV2taYldSTVAzcWtUTkd6aUlBMnFqdk9nNmo1RGhZUmJ4b2JQSnVvZ21DZW5yaHoyM3pwVy1ZSHBUMDk2RWswNjY4VTN6V3RnT21mQ1RHOXhfZ0RNUW1kM2ZwTVZfODN1bUQ3UmVFemdUVEQzOTdvSW5oNjRRTg?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxONmJoRElaODZueGhqS1lkRmsxRWlCT3dobk1LX3NMd0NER1FtUTRaV0t6R19XMDVNUzgwYW82dDlqTEVUWXRqMktWUGw0S3BZZm9CVGZNOWc1eVlWdDNlS1A5U2ZIVm0wYUpnZmFJWHZRV1RxMFpDVlhQMVY0bGtxeWxkdmFjV21yc2JXRFBnVTBpeGVPSWs4a1d1LUFIcjkyZG9vSzhIbm05SHZXMHB3VVZ5QkFieHNkYkQwZ042VQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWkFZaEZYMXVFUnQ2WFB1TVVFTGJick1jZmJkLWtTcGE3dVkybFpoUm0tSXZRWWVtYkJHQ0xjZUlDNDZtbW9zV09TT3g2RXhXWnQxenNBdHNOM3ppZWd1MWVCQl9kN3FndXhTM0xvQUdaZGtQdURuQ3F5VldCWTBiSkNnbUxHeEhDMVVLbzJaTjlrMUtSb0luVF9naHp5SlJNQlE?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNmtocGNKeUgyRUlsRldtMHRIV1NWMUhzWlh0SFIzYkRhd3NhY3NlelI0QjdjaXZlSzQ5QkUyV0dDYUhNNWJYTUxBQWowVHp3dDdvN0Frd1NyOEN0VU5QQ1dzZ18yczcxYTZEVVFvN2tHcnJNY3pDTVc1YU5naE55NEVudnNYblNuR2E5MmZ3?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkeDhLWDFEZHkyc3lOY3p2T1Y2emNRSkItN3d3M2xyNjFiM2ZkdTZteG5XM2tlYVdCT2VaeGdvZmNRVmRWUUVlNnlpNHlsSmVIRHFfdXp3Q3NHVzM5VUVBdzhsSHo4X21aeGlyTW1WNUV4V3gtWG01V3kxaw?oc=5",
+      "https://inc42.com/buzz/spyne-raises-pre-series-a-from-angellist-others-to-automate-image-processing/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
+    "last_round_type": "Pre-Series A",
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": "2020-05-11",
+    "notable_investors": [
+      "AngelList"
+    ]
   },
   {
     "company_name": "Squarespace",
@@ -38664,7 +38793,52 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "IPO",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 38500000.0,
+        "currency": "USD",
+        "date": "2010-07-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1496963/000149696310000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 39999998.0,
+        "currency": "USD",
+        "date": "2014-04-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1496963/000149696314000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 190000000.0,
+        "currency": "USD",
+        "date": "2021-03-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1496963/000095017221000056/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1496963/000149696310000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1496963/000149696314000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1496963/000095017221000056/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 190000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-03-31",
+    "total_raised": 268499998,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stacklok",
