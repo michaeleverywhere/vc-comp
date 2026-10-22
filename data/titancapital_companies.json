@@ -6485,20 +6485,54 @@
     "primary_investor": "Titan Capital",
     "source_url": "https://titancapital.vc/portfolio",
     "scraped_at": "2026-10-17T13:33:56.406377+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 674000000.0,
+        "currency": "INR",
+        "date": "2026-08-20",
+        "lead_investors": [
+          "Chiratae Ventures"
+        ],
+        "investors": [
+          "Chiratae Ventures"
+        ],
+        "source_url": "https://retail.economictimes.indiatimes.com/news/toys-kids-and-baby/babycare/peeko-raises-rs-67-4-crore-in-series-a-to-scale-its-babycare-platform/133369140",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pjTjZTOTROR1E0M0JEVUo1RW1PcGR3Ny01YzJQUUNwUWxySWl6VnNMNHl1MEc2N3F1M2h1RW9YcTlsZktheEdrMnRUQnF1Y29HT3ZyXzEtelhuTGNTYUdNYWhjQ2l3SG1kNXpTakVYaVhxRHRlRFZXUUNFWEFJSTU0TkJrbm12c1YtN3QyUjA2RHBxS2Yyc2wyaFJyY1BqZ2Z6cXpfdmZ6bENNRkJXRjU3bjMzZjlnVzBN0gG7AUFVX3lxTFB3amNONlM5NE5HUTQzQkRVSjVFbU9wZHc3LTVjMlBRQ3BRbHJJaXpWc0w0eXUwRzY3cXUzaHVFb1hxOWxmS2F4R2sydFRCcXVjb0dPdnJfMS16WG5MY1NhR01haGNDaXdIbWQ1elNqRVhpWHFEdGVEVldRQ0VYQUlJNTROQmtubXZzVi03dDJSMDZEcHFLZjJzbDJoUnJjUGpnZnpxel92ZnpsQ01GQldGNTduMzNmOWdXME0?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://peekonow.com/"
+      "https://peekonow.com/",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkV2TlQwRklqcFRWQ0RQS2ppb1dHcHJyQS1lRUFhX1kxcTVHZWk5YWl3SnlVWVZtb25YZl9CaVEya3lvUmR4bFhnamZ0Z0pmbE0tTVZzMUdSOEpWUHhHcXJieGt5bF9ib0F2M0xZTVM2aXlmRk5PVzNYc0Q3b3ptbU4tY3E4V0pt?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pjTjZTOTROR1E0M0JEVUo1RW1PcGR3Ny01YzJQUUNwUWxySWl6VnNMNHl1MEc2N3F1M2h1RW9YcTlsZktheEdrMnRUQnF1Y29HT3ZyXzEtelhuTGNTYUdNYWhjQ2l3SG1kNXpTakVYaVhxRHRlRFZXUUNFWEFJSTU0TkJrbm12c1YtN3QyUjA2RHBxS2Yyc2wyaFJyY1BqZ2Z6cXpfdmZ6bENNRkJXRjU3bjMzZjlnVzBN0gG7AUFVX3lxTFB3amNONlM5NE5HUTQzQkRVSjVFbU9wZHc3LTVjMlBRQ3BRbHJJaXpWc0w0eXUwRzY3cXUzaHVFb1hxOWxmS2F4R2sydFRCcXVjb0dPdnJfMS16WG5MY1NhR01haGNDaXdIbWQ1elNqRVhpWHFEdGVEVldRQ0VYQUlJNTROQmtubXZzVi03dDJSMDZEcHFLZjJzbDJoUnJjUGpnZnpxel92ZnpsQ01GQldGNTduMzNmOWdXME0?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN0RMSjFHV18xbDlvUExFa0Y5RTlHS2xuanZLOFpEektqN1B4X2JvckNRdG9oTDZudHNQem10SGM2LWdCd1Vld1k5dFFQemxTWGZKUmdiRVpGNFhrSWpncTI4SXBsRVFyRzJETHhhOGhfcnpicFAzTGZxOEJVREU0OW0zYXVyM2lsamlkR0J2cHpHQTVFcTdJOVdydXg3TWJ0Tjg2UTE2ZU9vRUU?oc=5",
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQTNQTmpETWhkNlNGUEd4VjhsUlFPXzhxdGl6VG9wT2NySWs1UXVRS3N0TDg0ZU5BMHQ5dFpVbmdMQ3pVeFB4b0g1cGxDd09Fb0xpZXNzLVFzNHlfMnR4bHd2UjBlU0JIeUlrZFFETHB4WDUyczNHUGl1SmxPRXJWTy1LeXBUNVB1SUw3eUdoeW1uZE1qb0dmNlpuZnpTQ2w0eVV3NkZMbFJlWVpHdldoN1h5MTRUUEZTUlNDV3hTQUZNT3d1OVppQWJlQkpOQklxUmJCbVRfN3pnM0VURGFjUTh1V1RwcXBBVVhFdtIB8gFBVV95cUxPVFJpc0FOOVZPS1c5Z1MzNVVLZzdHNmhrUF95MGZrUkNSbTV1QVhGLU9uTTNHRWlVa1hyRGp1cjdsOHJfNVRaNlh2RC0wbU9GdVhLcTFwWXJGOXFsZUtoVWZzNGZLcDBCMVZreVVob0Rnb3U0V2NzZnRPRUNweFVDamJCei1pTlItSi03SW1iRWlsS2MxdTJNdjhvZURBeW1NamdyU0RVeU5xYkRqeWpaOTQtQlpGb1ZoUzJ6eUh5bi1jUzllYzZMd0VWVHpIa001ekNvdlkteDRNVjczdTJNZU00WWc1MjFTRkduNnFzZ2ZDQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUW1vblhDYVFBODR2RFZnbk1Vam9KemhrRXN2elZuYnZOZURDcUVhcmxhZEJyVVg0RnBBbHJMdS1ON2J1b2VlcFJWQ0UtcUpTeWxNWG1fMTNzUi05SllXRXJPcGRwOFlWUFlkMVVvc1FaWHhwaEVOdFIwQXoxeXJ0akNibGotWTluQXZvRm5YNlFEUWRTYlZfaUl2OWJzQWtLUWlmR1Z2cnBXYWlKZGJR0gGvAUFVX3lxTE5RbW9uWENhUUE4NHZEVmduTVVqb0p6aGtFc3Z6Vm5idk5lRENxRWFybGFkQnJVWDRGcEFsckx1LU43YnVvZWVwUlZDRS1xSlN5bE1YbV8xM3NSLTlKWVdFck9wZHA4WVZQWWQxVW9zUVpYeHBoRU50UjBBejF5cnRqQ2Jsai1ZOW5Bdm9Gblg2UURRZFNiVl9pSXY5YnNBa0tRaWZHVnZycFdhaUpkYlE?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYmllbzFFdVRqX2dJR0JXMWduRHdLb0FzWXVEUEVUUm82ZmxMOWhNLVBLTTNlZlFrV3dNcldpWnhoZEc5UXBuQVltU2RkQWR2UVZwME94b2xULW43SGhlZUY2eS1IaGloN04yNXk4SkpQV1FlSFN4d2pQaGtMX0szdHU0RGNCWmhnM0xBWGhnR2ZHWDR5VmZvSjJ3bXhUckJsU2NqWTI0cGtJcGRGS2h4UGZHbk10dXlzOUFjelFoWERSWkwxblU4bDNVS2VtOWxTR2JncC1XSmxZcmfSAeABQVVfeXFMUDhYZnRGNjI4VVIxWGpsZnVoNUpHS25VVFlvYXZGemRqY05zUFJFcXg2Tm15RE1wMHVwNDJiejZuN29YQ0VrMXdPeWhjXy1XcGFsdjJZZ0dSVjRIYWFHZjJkOGFKalRJNXN3V2p1aUxsN2R5UjZOdHIxa1RlZW4yN3lvMC1qbGtCX19pX3U2cmhKZHU0Sm9TYzBVUmZwUHlzVEprQjBKX0J3dDBIaGRpUnEtaXVRRHhlUE5QSy1CQ19aZXZYZjRPMGtQX1l6SHNoTzR0ZjAyUHhQVlhGb1JSbFg?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWjg3V1JNcDRBM0RnRmZkUU41Wkg3U1hRYUw0MTk5NVZpMUM0SS0xRmlvdVVTOGM3SThJYi1ON19JOWYyT1BqTWFLcE9fcEo5V0lzWGpzSm9fcXI2ZXpiWmNxTHRUV0tzMTJvdlhQX2NCMjdEdmMxRDU0Vm5ZTWYtWXZPa2M3a01EZ1oyTWFFdVhXa1lDVW8xbm1iYlNiNnRkM2VQNGdSdzR6TFQtbWZ1UTJ0cmN1Q1ZsME8xYm9n0gHDAUFVX3lxTE5WQWtObWlfX3FTM2xNenVyUFdZQ3RFb00zSDlEenB3TmpIeEs2WEw0dUJ6aWluTzBmeVk5RkgwdXJvbVVHQ2FxQ1d5WHcxcHdzTW5TZ1pnMk93MC1Bb2Q0NlQ3UlNwQk9YMUdUQlk0cjJBS0FvamNiWjJQUERlRUNrVkZnQnQtWThOWFpsM0RydXVZM2xuVS1nRnFiUjdIa3dyV2hxVC1nczBJX2I5cFAyaUE3WVd6RVF5OVNFSVV1LS1XOA?oc=5",
+      "https://retail.economictimes.indiatimes.com/news/toys-kids-and-baby/babycare/peeko-raises-rs-67-4-crore-in-series-a-to-scale-its-babycare-platform/133369140"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Series A",
+    "last_round_amount": 674000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": "2026-08-20",
+    "notable_investors": [
+      "Chiratae Ventures"
+    ]
   },
   {
     "company_name": "Pepper Content",

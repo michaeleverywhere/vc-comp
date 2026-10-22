@@ -1041,21 +1041,34 @@
     "primary_investor": "PointOne Capital",
     "source_url": "https://pointone.capital/portfolio.html",
     "scraped_at": "2026-10-17T18:05:14.225292+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONW5wYVo1YlUtQWVSdGdZc3JqN1dNMnA1aXhaM1hQUTRqdTA4TmVnR25YSWdQRkY4TjlfdDJkam9OZTdsNHhPbl9yM3RXNDlUVmlNeWtidFFjZU9RZFVMeGNrb01GWmRJblE4Ynh6R0Qwck1qNkNlQmFZUkRtSVVXaTUxUmxPUHNzdFo5elpWUQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://pantherun.com/",
-      "https://pantherun.com/news/"
+      "https://pantherun.com/news/",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxONW5wYVo1YlUtQWVSdGdZc3JqN1dNMnA1aXhaM1hQUTRqdTA4TmVnR25YSWdQRkY4TjlfdDJkam9OZTdsNHhPbl9yM3RXNDlUVmlNeWtidFFjZU9RZFVMeGNrb01GWmRJblE4Ynh6R0Qwck1qNkNlQmFZUkRtSVVXaTUxUmxPUHNzdFo5elpWUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlk0dnlXZEhCYW5mTFlXUmd4N2pSbldVcVlQaUdsemlKUEFsTGRYMWlWQWQ5S0JsYktKQXZZOG0yamo0UkhwYVQ0SmlBdjF1RXpmXzMyblVfYmU1Wk1maGlkbEdpS3FkLUlvekl6bERlTXBGSXdoNWlOM0V5LXRhVC1SVF8yT0J3aGZPZm1VU3p3SlB5OGZZTy16TWRhWVhOc1l2N1g4UzE2bHB0?oc=5",
+      "https://www.techinasia.com/news/indian-cybersecurity-firm-pantherun-secures-12m-series"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Paraayan",

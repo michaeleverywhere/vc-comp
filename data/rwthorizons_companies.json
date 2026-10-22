@@ -620,18 +620,32 @@
     "primary_investor": "RWT Horizons",
     "source_url": "https://rwthorizons.com/investments",
     "scraped_at": "2026-10-21T00:01:53.965510+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-06-20",
+        "investors": [],
+        "source_url": "https://www.geekwire.com/2023/real-estate-investment-and-property-management-platform-picket-lands-20m/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0FqUHR5VUpLX3ZYN1JwS200QW93T0toWUd6QWFndS04dVNnYUR4eW9YU2hWc092OHZkYmtydWwxTjhJTUgzXzJpLXBOeGhfN2syc25GU2FyN2lBc0ZhaFgyYlhuQnU5bHdMeTVGUGJBQUNkcGlSQllRU2JTNXdGZkZGcmlaZTU4SHl4eS1KV1NfN3BqSTg3dnAzazd6LUI2cDhLWndB?oc=5",
+      "https://www.geekwire.com/2023/real-estate-investment-and-property-management-platform-picket-lands-20m/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-06-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "purlin",

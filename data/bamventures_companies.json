@@ -2379,20 +2379,33 @@
     "primary_investor": "BAM Ventures",
     "source_url": "https://www.bam.vc/companies",
     "scraped_at": "2026-10-17T20:34:57.283196+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2019-08-16",
+        "investors": [],
+        "source_url": "https://www.restaurantnews.com/pathspot-closes-total-of-4mm-seed-funding-and-brings-on-experienced-industry-executive-081619/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://pathspot.com/"
+      "https://pathspot.com/",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSmRQRS1UdVZaS1VWd0FNYnZILVhhRnpDSUhZTGpVYlhSUFE4WjYzNHZRd3l5SmY5MWktOGcxZDZPQnJhVExBeDE1NFJ5ay1WNVNlZjlPWGJDRVBQZXBtUDNpeXZpYmluV3FnQVk0LVBDRzlHczd0MHIwb0RGMjE0RzlwS0RRVVp6dXBsQmFqNTNZd3hWV3Zicm55LUlFSVpvanBCMlVIbUM?oc=5",
+      "https://www.restaurantnews.com/pathspot-closes-total-of-4mm-seed-funding-and-brings-on-experienced-industry-executive-081619/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PayEngine",
