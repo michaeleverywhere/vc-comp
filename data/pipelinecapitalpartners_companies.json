@@ -374,18 +374,32 @@
     "primary_investor": "Pipeline Capital Partners",
     "source_url": "https://www.pipeline.vc/portfolio",
     "scraped_at": "2026-10-18T20:07:16.459865+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 28500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/evernow-raises-28-5m-in-series-a-funding-to-redefine-menopause-treatment-301518212.html"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFFOc21NakFEX2xFWWh0eFVtSE5nMDJDQkJBZHhzUk1sQmY0SmRNM2tHWHcyX3UybWppakpMTWFwR3dvMGFuM3o0WGd3YXFuQkNSQWlaNkxFUWF6UUU0QzZEbkZQdzJ1NE5jRndValBsQ1FuQ3VtSVVnWVQwaFFabFF6S2UwOGlUNWlnMmptNVNFbDk4cHJKMVlhZXZjV2NkLXVQR3lVckhKQ0djX0ZORlZUdzJGRmN1UEpGaXJJZDBHMFJ1TjhnNmh3?oc=5",
+      "https://www.prnewswire.com/news-releases/evernow-raises-28-5m-in-series-a-funding-to-redefine-menopause-treatment-301518212.html",
+      "https://www.fiercehealthcare.com/health-tech/telehealth-startup-evernow-lands-285m-series-menopause-treatments-247-medical-support"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 28500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FiveSigma",

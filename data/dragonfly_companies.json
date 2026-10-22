@@ -1878,20 +1878,34 @@
     "primary_investor": "Dragonfly",
     "source_url": "https://www.dragonfly.xyz/portfolio",
     "scraped_at": "2026-10-16T13:29:12.456047+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2022-02-24",
+        "investors": [],
+        "source_url": "https://www.pocketgamer.biz/ethlas-raises-27-million-for-f2p-p2e-mobile-and-pc-metaverse/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://ethlas.com/"
+      "https://ethlas.com/",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSEhUTlBxUk12MDZhRzFkX1hjZW4xbThLRWRBZWgzTk00ZEFkc28yRTIyVWdJQlExNmdReUI3RVpTTF9HRFpJRk5lb1ZFN2lpUTR6UUNGdTZGS3hVVHgxd2k0WWF5ZS1JcFBfRUZSZEZqWGsxNkd3aF9PbVdnVGRTYU1mWWFBV2VzcURBaERTY21feTBqeDk5VjY1dDNrSy11cDd3NnBiejc0YUYxQWxfZzlkQzB0VGV5cXkwQWU1V3lIWVRhel9aQUFpT08?oc=5",
+      "https://www.businesstimes.com.sg/startups-tech/startups/singapore-based-game-fi-blockchain-startup-ethlas-scores-us2.7m-seed-funding",
+      "https://www.pocketgamer.biz/ethlas-raises-27-million-for-f2p-p2e-mobile-and-pc-metaverse/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-24",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Everyrealm",

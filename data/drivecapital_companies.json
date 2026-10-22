@@ -814,20 +814,33 @@
     "profile_url": "https://drivecapital.com/portfolio/engineears",
     "source_url": "https://drivecapital.com/portfolio",
     "scraped_at": "2026-10-11T13:16:25.115655+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2021-05-05",
+        "investors": [],
+        "source_url": "https://www.socaltech.com/engineears_scores__m_in_first_funding/s-0081229.html",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://engineears.com/"
+      "https://engineears.com/",
+      "https://www.socaltech.com/engineears_scores__m_in_first_funding/s-0081229.html",
+      "https://www.digitalmusicnews.com/2024/02/20/engineears-software-platform-raises-7-5-million/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-05",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Pod",

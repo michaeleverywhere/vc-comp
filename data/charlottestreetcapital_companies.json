@@ -330,20 +330,33 @@
     "primary_investor": "Charlotte Street Capital",
     "source_url": "https://www.charlottestreetcapital.com/portfolio-1-1",
     "scraped_at": "2026-10-18T15:34:10.456763+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 300000.0,
+        "currency": "GBP",
+        "date": "2018-05-29",
+        "investors": [],
+        "source_url": "https://thepienews.com/enroly-raises-300k-in-second-round-of-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.enroly.com/"
+      "https://www.enroly.com/",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzdkRtUGY3ZVczYmhSUWN2ZzllSDNRbHJuckxxZld5LU1JODBWZlJDcDRNa1RoZTJzLTU0VThmZjgzOVlaRFZXV2otbkpxMGs4aG5PRVFxMWJiNXNRV3A0TDZJdzJXdk84QkNjS092bXZsejVWcUVj?oc=5",
+      "https://thepienews.com/enroly-raises-300k-in-second-round-of-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 300000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 300000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2018-05-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "episode1",

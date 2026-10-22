@@ -877,20 +877,34 @@
     "primary_investor": "Capnamic",
     "source_url": "https://www.capnamic.com/portfolio",
     "scraped_at": "2026-10-07T13:43:09.921879+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2000000.0,
+        "currency": "EUR",
+        "date": "2025-04-02",
+        "investors": [],
+        "source_url": "https://www.mrweb.com/drno/news38096.htm",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.experial.ai/"
+      "https://www.experial.ai/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS21veHpKWGFPaWs4MXJaTy1DNENLc3ZLekNRMnFxUl9XQi1ob3BDZG40OFJ4M0hqMXVqR0xKVDhEWjhUMHRZOUlxSXlaUFdmeVVaRHhDbS1qRnZiRU5HN2xwVUZCdUl0aWR1dHVfZURTSXRtbjlVaG1GTFFZN1JaYTZOTlhtSUYzc0NjNkdvdVZPYm5USnUw?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZnJHbGZQWTBabktHbVo0VUotTzZXbDBKWmJXMW5mZEFuT0o2NzY2b0ZZY3ZvT2JEN3QzeGp6c0MwejdvSFZrSjNFWjF5ZV9CcEl6MlE3cEdrU3h3Qm9EUkJqMnFhcWZGLXBQd194WWFZTmF0OUt2T0lYNEpZa0JBVk5MUTVGeURudXdVTGdTV2dxVWd6ekpMRnFXZ3ByUlFfWS1wYzNJVmpkX2NDelJXRTlFM09xTE5PMk5jOQ?oc=5",
+      "https://www.mrweb.com/drno/news38096.htm"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2000000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2025-04-02",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fatmap",
