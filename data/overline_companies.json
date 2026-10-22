@@ -495,7 +495,21 @@
     "everywhere_tags": [],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://medcitynews.com/2022/08/motivo-gains-14m-to-help-match-therapists-with-clinical-supervisors/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "mudstack",
@@ -539,7 +553,54 @@
     "everywhere_tags": [],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5717528.0,
+        "currency": "USD",
+        "date": "2020-04-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1773941/000177394120000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU1TSTM4YmtZZTdPb0hHRkdPalhOZHdkODJteFlhd04teWZta0ViTjBqN194TFdfNTRIZWxvSWMxVWhZMWc4ZndpMGNKbTNCQUdDWG9IamE2SDQ0am16TFhPMEdRejYzak1WaWxodGx5Y3ZqaFViUno3UzhqdjBpanhkd2tpQUIyT0NId1h5S2pXa3lBOFBBWA?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 20500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVkg2ajBLeWlSUENRME0weWZENmN2S3pTSXFjZnlQR3ZOTUZZU3V6NmY4Zy1Ydlo1WWtoZkFfNURtblEzeF9leHMwSUNiaG43LV84dFRqQ3dnM094RGtrWWs1Sk11WmpYaWNNX2xQMGJhVjdDemF3M1daODl1UEpyenNyMHc2Nk0?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU1TSTM4YmtZZTdPb0hHRkdPalhOZHdkODJteFlhd04teWZta0ViTjBqN194TFdfNTRIZWxvSWMxVWhZMWc4ZndpMGNKbTNCQUdDWG9IamE2SDQ0am16TFhPMEdRejYzak1WaWxodGx5Y3ZqaFViUno3UzhqdjBpanhkd2tpQUIyT0NId1h5S2pXa3lBOFBBWA?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVkg2ajBLeWlSUENRME0weWZENmN2S3pTSXFjZnlQR3ZOTUZZU3V6NmY4Zy1Ydlo1WWtoZkFfNURtblEzeF9leHMwSUNiaG43LV84dFRqQ3dnM094RGtrWWs1Sk11WmpYaWNNX2xQMGJhVjdDemF3M1daODl1UEpyenNyMHc2Nk0?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zY2Z0ejVPbTY2ZC1RUE9xVV9vM3h1WnNHbS0tRE53bF9YMDlNVE96a0c1bnBvZXB6NjBRSms3Z2ZfbWx5YXRxTDQ1X01WOUFVbWpZOV8xdWJJYTlRb0duTHhvNERVQXh1NTlzSVlB?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbm04UFMxUHdwSnMxTXJKdDlQbTI5cFZ2b29FRU9mcnVCZHNiWFlDNFBnRkdESThpNUVyNm9zb0owNlBNQTBEWGNTbENzSXBsOVI1MDJfRElSWVNleWwwTC1FT3ZBRkpUcTgtUFBCMENpMWdzNGs0VWZvNFVFdWtMWXlOSk5ZaU5jdTRsaU9jUEJUQVkwbXFxazRPTFRfUnYySTJnYi1oLXBWWVBSUUJXN19LTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVjVBSUlhT1g0d0tXUjlpeVFDaUZ6THd2clZ4VG1tclFmeG9XaHM4aEFMOEFpbnU0bXREVWtVd29iYmJWaGw3bER0NGxReDZKd2k1aG5kWjEzaWxqRDFpeGJ1XzMxeHJJV29WRWdxN1hoNENtaXZhNlpoMFZxZ1c3Z3A2TnkwbkxhN1RyTU9JLTYwVUNkVWFTTnluMFRqa0ozT2pid2FWaWE3WUVJOFE?oc=5",
+      "https://saportareport.com/affordable-co-living-startup-padsplit-raises-4-6-million/columnists/sonam-vashi/",
+      "https://www.sec.gov/Archives/edgar/data/1773941/000177394120000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5717528.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-04-21",
+    "total_raised": 30817528,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Parsel",

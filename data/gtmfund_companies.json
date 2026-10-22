@@ -2161,7 +2161,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Matik",
@@ -2297,7 +2309,40 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 53752500.0,
+        "currency": "USD",
+        "date": "2025-03-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2042742/000204274225000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2VlN3dKdmVlS0VlV1VWYVEyQ3h2OXV2OUo0WDVKeWNUOTRzTWdPajVRcW8yZk1sdkREQ1BzQXF3UTdjSU1UekY4Ti03clVOZklnV3dkdlBKZ3JWajFHTFRwZkxOZ2ZuYndfT0NFUmdtT01Ic3ZKcE5FOTVnV1dhdWt4TkstUVZEN2sxelRRSE5DTE54a1IxSHF2UmZXX1E?oc=5",
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPS3JzeldSd2RiYUVCUUhMajM1U0g5Wk5Gd2ZDTkZackhvelkweG9udUpmQ3cxX0JFeE9SMjljREh5blRYU1hCSkRrVDl5cUZxUU9vWGlvdG9udk9xOXEwdmhNclFnNjJPcVF2T2owRE1pTTVyZHJDMVlBeDNqUHQ3dVhUeW93QWEtek5YbmI4ZGNlU0xLMVpuUmNpMk84RkNKRXVrUVRQb1N1WkFZanFpclNLUXVHdEllZC1sZk9KODFPeW5rYWhmX1AtMGRmcHRtYUt6MEpYSzIyUXRRSGR5c2ZFNDhQOVI4?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxNckFZdXNvYzhCbGZOd0xJckhQVVVCSHV3bEhoNjJpUDFsd01JUklwcklsWW83UlhEMnBWRzhsVFpqNzlzeGVRVHVBSk5UbDlIUnpENWJ3dGwzc0tzTzNRTXpoMGV3QkRuU3BzNThYY2RoX2Vxb0d2Rm5VN215ZC1FdGhQbmJDT0I2Y1lDdUNFbThKR0E0VFYweFhwako0ZmhlUVN5MGl6SkJxWkhuSXNqZWhSMzVORmFLTE1Rd01oZm5uM2ZJZEp2X3pkWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeHM4LXd4N0NRekRFbnFJUFVzbGQxNTNhdkEtNXJJX0lkQkVoazB1LTFnanIwU0dpV1Nrc3NjQnRlMHBaMXB3WTUwVWltejBtelFkWF84YWZOWk1MQUVrOFA3MW9zVWVPemFOeXVQQXRTN1JXbnR6LWxLTUdYN3NkdnRuc3pFYU0zRVJJTU56ODhYSng0dUtOSDZqUkRXbWVFZUw2MlBRTFQyUkJEQlpRdkItYURid0tCYm90WTN3?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbVlyY3hQeEh2eDB3VERyOEhhdm83bmpDQ09EYzZPMDlkQ29OSjg1ejVURW5zVDRCY0dNd0thNVp2QWVfdzNkOEhJaTBIX2oyX2U2Y1g3NGp3UHgzcVU3Qzlzd2FkZkRaNHR0OXU4X1paUUhQdVVfWWk5S3lBXzJhXzlPdG90d2NmUEdUWlJudGdnM3RMdEZpMQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3d5QzlFWTAwbEdiUFFOU2t4VlRQSER3QXkxSGlXRkhZRGhzX1BabWxtOTV4ZktVbzNERGJ6OEhyTkppVFJJMHBlZmJQeWkwQnZNeERiaTUwaEFMM280NTEyOE4wNHprMnNnZGxBYlVCQkZ5a19lX0loRmV3TExGM3BhYnozODNjR3VlZVg3NkhuQkpRV2oteXV6bktUcnYtYW95RWJLa29td2RCRXdaTkhqVjAwdW5YSzFN?oc=5",
+      "https://finance.yahoo.com/news/ai-video-startup-moonvalley-lands-165444741.html",
+      "https://variety.com/2025/digital/news/moonvalley-comcast-caa-funding-investement-ai-video-1236459594/",
+      "https://www.sec.gov/Archives/edgar/data/2042742/000204274225000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 53752500.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-03-20",
+    "total_raised": 53752500,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mutiny",
@@ -2322,7 +2367,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nectar HR",
@@ -2399,7 +2456,21 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.businesswire.com/news/home/20260512978554/en/Noibu-Deepens-Investment-in-Shopify-Plus-Bringing-Ecommerce-Analytics-Monitoring-Platform-to-Plus-Merchants-Across-Every-Build"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Northbeam",
@@ -2589,7 +2660,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Operator",
@@ -2634,7 +2717,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Owner",
@@ -2825,7 +2920,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pepper",
@@ -2851,7 +2958,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pocus",

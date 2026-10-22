@@ -822,7 +822,19 @@
     "everywhere_tags": [],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mermaid",
@@ -844,7 +856,65 @@
     ],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "TLV Partners"
+        ],
+        "investors": [
+          "TLV Partners"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pU1NQWjFBcWk4aTJrY0Z6ZzluMFloMm1DeUhvSEp0VXo1YkxuMy1INTM1Q1hTOFVPaTQyUnJreFItaFdVMHltNWFaS0lqa3RyX1NaQ1Itc1E0b2hJUWFGcHVVWW5oTmFwSmQ0T3IxMVdYelFrQmUw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "investors": [
+          "Tiger Global"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWklMSmV1ZGxRNXk2aTdNeWNDUk5OMDRnV09mWTJaRmxpMzZwWmx4dmVkNWlBZWdYZXA4LVdHaHVlckRvSXdyTmpwdGNGeUI3MHJFLWZKekNVd0QyN3BkZ3B2Ym91SDZ4MUJscV8wZy11ci1zalEzZk1iVTl0OUxQbkgtMklFeWRSNTFaaUNOUGs0NWpBeFgyQ09MWEVYS0ZKQVlxV0VFcnh3QkdsZjYzS0o4WXRKaUs4T0Vaa05teW9zQ0N3eVZVa1RGbU1FV0xnX3prQTQ2akZ1ZlFRNzU0NUk1SHhwaUIwYUUzVHdYWk53WDFBckRmRW53aGFDQWlHU1EwaF93?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOLW1QdGJoMVlKQVJGekpUOGt5OWhQN2ozYzZTbTdRVVBKWWtVZEVVOXp6NEtvdHBvVUlQSktMRGw4TXY4UnRCdXJadkZvV3FGU0J5Ukxad1o2SGsxV1hnX0hzWVdGaDNyZlpMMDBBaExVNTByaFo5YUV3M0Y4SUNrdkhwX2x0d1FwaW1ScmQ3bTBRWUJ2aUN0YVlodmpQcnFsRzA3QUtidmNSTHZfQzZpRF9YbE9sQl9GZmQ5OW45Y3QteFZwODVUbFJwVEFNOXNoZXBZZnpmanpHU0huRHBHTXBpTFBSTWxoTlQ0TkZzM0Rkdw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcTliQi1ZNTRKYjNaZS1pWnhCalN5N1lUaWNPZl9JTVhNOTRwVUtRV0F4dExMREVhVlExVmVxZlRWcTVoV01HSHpOeGszc21oU1ZNMDdzSkpxSXpPSWxMRzVudmZKS2hmS2lFUGVJaWo5OG1ka1RGOU44UTgtbU5mSXZFTUZqMmV1U3ZneDl6S1ZES3lCeDNJVmhGUnRGMVUzOUE?oc=5",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOLW1QdGJoMVlKQVJGekpUOGt5OWhQN2ozYzZTbTdRVVBKWWtVZEVVOXp6NEtvdHBvVUlQSktMRGw4TXY4UnRCdXJadkZvV3FGU0J5Ukxad1o2SGsxV1hnX0hzWVdGaDNyZlpMMDBBaExVNTByaFo5YUV3M0Y4SUNrdkhwX2x0d1FwaW1ScmQ3bTBRWUJ2aUN0YVlodmpQcnFsRzA3QUtidmNSTHZfQzZpRF9YbE9sQl9GZmQ5OW45Y3QteFZwODVUbFJwVEFNOXNoZXBZZnpmanpHU0huRHBHTXBpTFBSTWxoTlQ0TkZzM0Rkdw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWklMSmV1ZGxRNXk2aTdNeWNDUk5OMDRnV09mWTJaRmxpMzZwWmx4dmVkNWlBZWdYZXA4LVdHaHVlckRvSXdyTmpwdGNGeUI3MHJFLWZKekNVd0QyN3BkZ3B2Ym91SDZ4MUJscV8wZy11ci1zalEzZk1iVTl0OUxQbkgtMklFeWRSNTFaaUNOUGs0NWpBeFgyQ09MWEVYS0ZKQVlxV0VFcnh3QkdsZjYzS0o4WXRKaUs4T0Vaa05teW9zQ0N3eVZVa1RGbU1FV0xnX3prQTQ2akZ1ZlFRNzU0NUk1SHhwaUIwYUUzVHdYWk53WDFBckRmRW53aGFDQWlHU1EwaF93?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pU1NQWjFBcWk4aTJrY0Z6ZzluMFloMm1DeUhvSEp0VXo1YkxuMy1INTM1Q1hTOFVPaTQyUnJreFItaFdVMHltNWFaS0lqa3RyX1NaQ1Itc1E0b2hJUWFGcHVVWW5oTmFwSmQ0T3IxMVdYelFrQmUw?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wNmRYUHgyX3FFWG53X2lQS0Z6S3IwUm9vQjB0VGVNNDRHUVgtejl0Y2J2d1I1cnlzcjdJanRTZHNoWU5KQVR2NnRwMG9PdUlvLVRESXZ1UDJtd3NhZFl4Yjd0RU1lek94SmJTUW1fTXAxczlnMEY4?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 123000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "TLV Partners",
+      "Tiger Global"
+    ]
   },
   {
     "company_name": "Mize",
@@ -854,7 +924,19 @@
     "everywhere_tags": [],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "nGrow",
@@ -864,7 +946,19 @@
     "everywhere_tags": [],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Numica",
@@ -884,7 +978,22 @@
     "everywhere_tags": [],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUppc1U3SEplZVc4RFBVdk13RUI5RzM4aERMN2oxSnFVZjh5b3dHQVJFNVF1cjAzeHRLem1YMjVlVVVtcHR0M2FLTkkzSlBfSU5qTzJKcWVGN25sTEQ3VXFFWkpxcVZUZVh4eDBsMnNUWUx6amFfMVdPTy1jd1A1OW14LTZpRzFpVHpuZDJ1ZGw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjNocklnTWZHR0l0bkFXZUk2RFdKV1duZ1JSaTNMa1doSVMzRzdPa2kzUktZMlRRU18zN1paSUp2ZG1RZWo3RnRSUHdvUldmX2FaT3Y1UGhKNnc3dzE1N2hDcW1NcVAtQm1aLTVSMTloMFg4Y3N4QjNLRHlBYWhHZ0hlb1BKNldydnIyaWdWZjBhXzhva1NNWVBkOTNRcnJOSkhz?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "OGOship",
@@ -894,7 +1003,19 @@
     "everywhere_tags": [],
     "primary_investor": "Flashpoint",
     "source_url": "https://flashpoint.capital/portfolio",
-    "scraped_at": "2026-10-18T21:48:00.231088+00:00"
+    "scraped_at": "2026-10-18T21:48:00.231088+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Omnipack",

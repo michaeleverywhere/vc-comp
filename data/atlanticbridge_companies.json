@@ -301,7 +301,19 @@
     "everywhere_tags": [],
     "primary_investor": "Atlantic Bridge",
     "source_url": "https://www.abven.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.169000+00:00"
+    "scraped_at": "2026-10-17T19:42:01.169000+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Luma Vision",
@@ -447,7 +459,44 @@
     ],
     "primary_investor": "Atlantic Bridge",
     "source_url": "https://www.abven.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.169000+00:00"
+    "scraped_at": "2026-10-17T19:42:01.169000+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20600000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckFMeWVZUlZEVVdvYUtJTG9haE8wUjd5RkVvLWc1Yy1jYzlpeHB3RTBqeC1zRkRpYjhSd2lqVElxTHY3b0FkTnlZUXlEd3haQ050QW1GOF8zeU5KYTBFUUxzOG8xa192NjA1Q05vME5hN0J3TjFTNmtLWUVtZHVmVDRWQURnTno1VFFKNXI2NTFwaTJLLV9GUGNuTnNOOF9qaFF2TFBuWl85My1NQkxPYnQ4Y1BuVkxYblRKRVR3?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 62500000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNY1l1MFd3YV80MWdnM3I3eXFkVFRYQ0U4eVI5VmRvUGdxNmZYTUdxMG11NHpqWXUzeFY0VHRwYzRpSk5nRlA0c0dVQXN6UW5ueFdRbE5NSDVOaEhid25abXRoNmZ5czJxUGVBMGJNajFyV1VVN0pYVFlEZURnRXZEajNtX1YtRkVVUDN3d1p6c3JWajRUT0NUZjV1WVc1NG1JZmNIUGlJcXJMRkx2XzB0NEh0SnhUdERWOXlrM1lnU3I2cFBRUXhNaUxVMWVETjVZZENqLUsxOG5mcWpCU09lWThTd0ZEZUF3cUFVTmtheUxVbTktT2d6V0pGSHZUNUlPamwtc29FSGplLXNqelJyMEgxR29HekM0TWY5SlZlWkh3TDh6YVE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgJBVV95cUxNY1l1MFd3YV80MWdnM3I3eXFkVFRYQ0U4eVI5VmRvUGdxNmZYTUdxMG11NHpqWXUzeFY0VHRwYzRpSk5nRlA0c0dVQXN6UW5ueFdRbE5NSDVOaEhid25abXRoNmZ5czJxUGVBMGJNajFyV1VVN0pYVFlEZURnRXZEajNtX1YtRkVVUDN3d1p6c3JWajRUT0NUZjV1WVc1NG1JZmNIUGlJcXJMRkx2XzB0NEh0SnhUdERWOXlrM1lnU3I2cFBRUXhNaUxVMWVETjVZZENqLUsxOG5mcWpCU09lWThTd0ZEZUF3cUFVTmtheUxVbTktT2d6V0pGSHZUNUlPamwtc29FSGplLXNqelJyMEgxR29HekM0TWY5SlZlWkh3TDh6YVE?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnR4dXRWWGtkcHctUkZwREViLXdPSWNmMVN3UExWQjFESFliOFFET2JPSmZnMXYwSEhqUUFXVVdRZC1BTThHOWtoenhsTUUtcFVTN19WSkRjNTc0UDJLMlNHXzRkRV9ZSzBEXzl3akppRGJmb1EwY1V6aEZKaE45YXpQSXc3OUpkX0lPek9pdlZqRU1TaFZaczViWWNWbVY0TDVGSHloWE9XUlktWDR0RVpzVVZFZlU0S2ZqWA?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVJEc25jbmdFMlFBaHBrc1kyMDVMSi1neUlHeGhrSXp4d2RiME95NmRNZDF6c2NySGdJUjBTT0ZUT1BvdnB2bUgxTFV3Y2x3RFJLNzhscFQweVJIeEdHc3AtRk1PNkI0a29lNlVfOWYyNDJ3WlZyRzFsSXRSQjIwSmo3cHBzQnNqSmNTRWNSVk9hMWxITnY5RFRWMkpLcF9oYldtM216NTBtWnM2OWlrVWZaOUlCUTRsOHZ2VVFiTWMyWVlrYkFzTm1pM2xHdjhUUVF2Nzl0V05IekE?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckFMeWVZUlZEVVdvYUtJTG9haE8wUjd5RkVvLWc1Yy1jYzlpeHB3RTBqeC1zRkRpYjhSd2lqVElxTHY3b0FkTnlZUXlEd3haQ050QW1GOF8zeU5KYTBFUUxzOG8xa192NjA1Q05vME5hN0J3TjFTNmtLWUVtZHVmVDRWQURnTno1VFFKNXI2NTFwaTJLLV9GUGNuTnNOOF9qaFF2TFBuWl85My1NQkxPYnQ4Y1BuVkxYblRKRVR3?oc=5",
+      "https://www.mddionline.com/business/neurent-medical-secures-74m-series-c-funding-to-transform-chronic-rhinitis-treatment",
+      "https://pulse2.com/neurent-medical-e62-5-million-series-c-raised-for-expanding-neuromark-commercially/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 62500000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 83100000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SambaNova",

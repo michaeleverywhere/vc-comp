@@ -580,7 +580,19 @@
     ],
     "primary_investor": "imec.xpand",
     "source_url": "https://imecxpand.com/en/portfolio",
-    "scraped_at": "2026-10-17T20:05:51.724140+00:00"
+    "scraped_at": "2026-10-17T20:05:51.724140+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nagi Bioscience",
@@ -602,7 +614,46 @@
     ],
     "primary_investor": "imec.xpand",
     "source_url": "https://imecxpand.com/en/portfolio",
-    "scraped_at": "2026-10-17T20:05:51.724140+00:00"
+    "scraped_at": "2026-10-17T20:05:51.724140+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 123000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdGw4SVZ1VEwyU2h6NE02bk1pck51eWhTV3RTRm54UDBYaVA1dG9PNzFlUkt6Y0U1cDRlempvZUVhbDRYaHBFQVZnVFF5WFdxRGgyaEZwLWwwS3RSTjlaMGQzT3FOZHBrUW5fVEVNSUhuYWlGQUYzcGxiWHpET3M1ZUpVdjhYV0lOZ1NESGlmbmJHR1ltMlFIMk9MeHN4VDBvUTNSWS1sQUpISms?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 1400000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oc0Jtck9Kc1dEd05ESHBid09wb3VXZVdKWkNhWkdUejNDbUkwQllDLVAtM2xReWJic2xBd05kYUhHcUhzUTJYV05KMGNobWNIenlXRFByZ2NfR19YbW5mMnJNRVNwYTFXdlY2dlZiYnZIOEdzU0hj?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoS3k5RDljUUZ0RHpDWmJWQVBDdWxjUjBYLUZLRDlHel96WkQ3ZUpFLUJtbGtBekhjcDh5UXp0UVFDNTB5RC14dFVEem44eDU2REgzUXdtQmlYbGpiWlR4TG43S2ZPMkp2RnVvS0pyYkxYaHdOaFNod1Nn?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlVpWXV5dlUtQWVDd05Tc05HSEhTOGFNTzkyZWpvaEpUMlhTbFYxN1M4Y3NwU2Zrb2F4b2RqSV9UTDNEU0luZHVEbHotRjRMbjFHenFkd2MxQUhPNVJWSHhhUW1kT2ttV1hVSjdFelVKazRCOUZLcjBJN1UwZ2JvM3RLMVItS3JkTFhCNUk0VnVQSW9zNnAyeVdmTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oc0Jtck9Kc1dEd05ESHBid09wb3VXZVdKWkNhWkdUejNDbUkwQllDLVAtM2xReWJic2xBd05kYUhHcUhzUTJYV05KMGNobWNIenlXRFByZ2NfR19YbW5mMnJNRVNwYTFXdlY2dlZiYnZIOEdzU0hj?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQnQwY2hnNDUxT3VKU2NVMlVMU1h3T0NtOUJWcVl6YS1YdGVVeDZERzZOS3NvS0xrckpwU2VtQ1d4dUVPbXcta21rNmJweVNNNUZhdUJoQjVQQzF5eUI2NjR2S194cmx3aWdBX1paMGhIUkR1cFFRc04tQk1LOEd2bG1pNF9OMzM5Wlg0VGNYR3czcUJIU0hZSVZvdzI?oc=5",
+      "https://news.google.com/rss/articles/CBMihgJBVV95cUxQajk1RGM2R1huU0ZpQ1kyTnlnbEcyU2dvNXlZaUdtcUZVaFB4NE1yOHpyYmpSMWRudmNsQ0tjb2dMc05NVlVNdkJoQ3RPbGlRWThYQnlyYjFhV2c5Q29KLTJmeDk3ek4zMi10NnNjUmUtOFVENUc2bFR2QTRWRWl4cWRRenVGdVZJMXlFRlZpQTJQUkhoeVBLYm5QZmppcEpBQl9iNVluMVE0VjQ3MFpMSHZ2NVU1OXBWcTNPRlJ3dkhTN1FlV0lMaVMzYWNIdUtSQkVWSkUtTEJrZmNPUm5fNFVDM3ZrU0VYaFV2LXRLNFl1ckdoVEIyREZiaFR0QmxMNk11N2pn?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQldlMnZLUUJQdXQwY2ktdmRyRGN0TXFUY1JCemR2NXJaS1dDa1NTd3RjemZGMDN2MFlmVmtmUFZnNGdOMXMxTzU0Y1IyMXVmc1lVR3pudmlsaUpob0ZJX0FEUkRSd2VQTUR3T2V3dm5KYndnTmxESHFfUTBORWNpSHVlYmJEcEQ4VTRYdGFWVkJ1UDJvWWtoS0Q2NXM4RnZqSTA1bS1rcTQwNnhkbmFYa1ZMdDkwdnFWNlNlSENn?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxONmRNTC1zOGRPSDRHM3k1bTZ4d2FHUzdnaFMtTnZZU09lTWJqSV9ZemNRYkVpazRsRWE0Vkh2bVV1NGN3QmRlOXRxQnRHWi1oR3ZqTWpuRGlyX2NlUTNDNU5HM3B5QkN3V09oQXJLaXJkdkZMNXRlMlF5WHoyUWE2adIBgAFBVV95cUxONmRNTC1zOGRPSDRHM3k1bTZ4d2FHUzdnaFMtTnZZU09lTWJqSV9ZemNRYkVpazRsRWE0Vkh2bVV1NGN3QmRlOXRxQnRHWi1oR3ZqTWpuRGlyX2NlUTNDNU5HM3B5QkN3V09oQXJLaXJkdkZMNXRlMlF5WHoyUWE2aQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdGw4SVZ1VEwyU2h6NE02bk1pck51eWhTV3RTRm54UDBYaVA1dG9PNzFlUkt6Y0U1cDRlempvZUVhbDRYaHBFQVZnVFF5WFdxRGgyaEZwLWwwS3RSTjlaMGQzT3FOZHBrUW5fVEVNSUhuYWlGQUYzcGxiWHpET3M1ZUpVdjhYV0lOZ1NESGlmbmJHR1ltMlFIMk9MeHN4VDBvUTNSWS1sQUpISms?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 1400000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1523000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nubis Communications",
@@ -635,7 +686,42 @@
     ],
     "primary_investor": "imec.xpand",
     "source_url": "https://imecxpand.com/en/portfolio",
-    "scraped_at": "2026-10-17T20:05:51.724140+00:00"
+    "scraped_at": "2026-10-17T20:05:51.724140+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 23000000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOFJfcTQ4c0wtNXFOYk9qYlJCMmVkVnBZMkdiYXRINmFMZ0JDcXZWbWI0TFV3X1QxRDViMmNxS1IxVEtoVEVrdFFFY1ZYWFJfaFI3Zlc0TmpLNkhsUzd6cWZOYmJ5cjNrMkxuU203b05sSnBmRm1zU1J0V0xhNEd2SjRXb2JRSGJpNW54YUhyNE1VRU03bDZnTG5pTzNMcmpSaFd3?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 31000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaFRqNDE3LWk1bWw5V1VUTlRLbEZYMVFlZ1BIQXI1OWtDaDNFTDVXTTdBNERUazNzd0F0dGZab0xlSUFDZVRxLU5QcWs3aUE3aFhKb3M0RWpJOE5HUURETkp5ejNMY0s2N2F5ckJmQjA3ZmthdE43R1RCRnh0UFd3em5NcHE4U2dweUFKR3pDQ2xDclZvVGpnVzZUbDBCc1RxSzBFVVBTTmMzTjJvbk1WeTQtd1ZSaWVUS2RRNlRUcjUzVUxtd1JaX1dLVzRJWjk1d2Ztem5TWGVJa2c?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaFRqNDE3LWk1bWw5V1VUTlRLbEZYMVFlZ1BIQXI1OWtDaDNFTDVXTTdBNERUazNzd0F0dGZab0xlSUFDZVRxLU5QcWs3aUE3aFhKb3M0RWpJOE5HUURETkp5ejNMY0s2N2F5ckJmQjA3ZmthdE43R1RCRnh0UFd3em5NcHE4U2dweUFKR3pDQ2xDclZvVGpnVzZUbDBCc1RxSzBFVVBTTmMzTjJvbk1WeTQtd1ZSaWVUS2RRNlRUcjUzVUxtd1JaX1dLVzRJWjk1d2Ztem5TWGVJa2c?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOFJfcTQ4c0wtNXFOYk9qYlJCMmVkVnBZMkdiYXRINmFMZ0JDcXZWbWI0TFV3X1QxRDViMmNxS1IxVEtoVEVrdFFFY1ZYWFJfaFI3Zlc0TmpLNkhsUzd6cWZOYmJ5cjNrMkxuU203b05sSnBmRm1zU1J0V0xhNEd2SjRXb2JRSGJpNW54YUhyNE1VRU03bDZnTG5pTzNMcmpSaFd3?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFdMdVF4OWVTdGpBeFROOFdaZHBmMEUzcGJzRTJydnI4QmdkRGc4OS1JcnhmdU5OZVFpbF8xUmFuS0hrU2YwbkFENDJHaGV1WWdqQVJPM1BRQ0R2akVjTE1iMlFIblo3OGJ3dGlMTXNob1oxNENMQm56Q0l5NUpWVDI0TW5NbncwUlFMaVlzUlFPY3ctODdR?oc=5",
+      "https://futurism.com/light-based-computing-company-optalysys-gets-darpa-funding",
+      "https://www.cityam.com/uk-optical-chip-company-optalysys-bags-21m-in-funding-round/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 31000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "PsiQuantum",

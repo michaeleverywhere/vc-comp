@@ -570,7 +570,22 @@
     "everywhere_tags": [],
     "primary_investor": "ACF Investors",
     "source_url": "https://acfinvestors.com/portfolio",
-    "scraped_at": "2026-10-21T00:58:07.766873+00:00"
+    "scraped_at": "2026-10-21T00:58:07.766873+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.insidermedia.com/news/south-west/67626-micrima-secures-additional-funding",
+      "https://www.pehub.com/micrima-raises-vc/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Monterosa",
@@ -631,7 +646,54 @@
     "everywhere_tags": [],
     "primary_investor": "ACF Investors",
     "source_url": "https://acfinvestors.com/portfolio",
-    "scraped_at": "2026-10-21T00:58:07.766873+00:00"
+    "scraped_at": "2026-10-21T00:58:07.766873+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2650000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yTkxOcER0Ull4dGUtTUZGSl9mNkoxWDhNY1RRcWYzdDhwRmI3b0s3S0htZXR0RUlHd1dUVmVfcVNpbmNnZVNaU0VJZkVjUkFLSXNpT2dsSEdoNTNhcV9DWVpYN1dwY3FBZVJUejhlaE5rS2FiNkRsVE1raw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "GBP",
+        "date": null,
+        "lead_investors": [
+          "Investment Fund",
+          "IFNI"
+        ],
+        "investors": [
+          "Investment Fund",
+          "IFNI"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMVY2am9zb2VndEM1N2t3eTJVeVhqM2pMZUJhZ3Nnc0ZPR3hCWVBOSXFSNjFPYXJHSWF4bG9RTUpPM2I4RTQ1Qk5yeDFCbk1PRGQ3elJ5U2p1WlNzVnM4VGo4cVctcHh5NDlXaEVNejVra3JDNENBaERKZTNyMEVqb0FfRWhnOGJUWEpLT0R4T3VjMG5BZ0hvbml3UnlsQVBUZnI0d0lPdzRLRnhMcENSUENtQnNNZDdHM2ZKcWJBN3VOMUVyQXc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMVY2am9zb2VndEM1N2t3eTJVeVhqM2pMZUJhZ3Nnc0ZPR3hCWVBOSXFSNjFPYXJHSWF4bG9RTUpPM2I4RTQ1Qk5yeDFCbk1PRGQ3elJ5U2p1WlNzVnM4VGo4cVctcHh5NDlXaEVNejVra3JDNENBaERKZTNyMEVqb0FfRWhnOGJUWEpLT0R4T3VjMG5BZ0hvbml3UnlsQVBUZnI0d0lPdzRLRnhMcENSUENtQnNNZDdHM2ZKcWJBN3VOMUVyQXc?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDZpbTBKYU5LUDhqejZuc01OZG5PbkE1c0MzcjBaajVpZTNZU3Z5enA1UzB2YVJvNWRrSzBLUFlRVllobjNEMXpsZWJwYW5TWVE5bzhKZXpCYVJHODZKMlJxT1RwVkhiSTU5WERNTWdzRUtaVDFrODlzRXQ1cHYxRnFTSGZrSGkwUXc?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yTkxOcER0Ull4dGUtTUZGSl9mNkoxWDhNY1RRcWYzdDhwRmI3b0s3S0htZXR0RUlHd1dUVmVfcVNpbmNnZVNaU0VJZkVjUkFLSXNpT2dsSEdoNTNhcV9DWVpYN1dwY3FBZVJUejhlaE5rS2FiNkRsVE1raw?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY3QySWs3c0ZnSVBpeGo2bHRIZ3VRRVVvYjdaM1RqLTBybDVKWGxBM0VnU0Y1WHpLTEhJM3Y1XzNpT3ZzYWFtUHZkN0lwRTR2Y2tnSDk1TEhzTk0zbU9QZ1N0b21CWTduQmVQSmUyZmY0NUlwOXNPNm1KeWltYkZsblpBbV8tckdsTFZXYTZ4ZHdsRWRKb21nWGhfZU1fTURBeUl1THc0VjRxcklfamh2YU5GZ0ZLZHRpUEZUNy1GVUY5dk5Q?oc=5",
+      "https://www.siliconrepublic.com/start-ups/neurovalens-funding-belfast-research-medtech",
+      "https://www.msn.com/en-gb/health/other/neurovalens-secures-6m-in-new-investment-round-led-by-ifni/ar-AA1KLjLn"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "notable_investors": [
+      "Investment Fund",
+      "IFNI"
+    ],
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Nivo",
@@ -678,7 +740,22 @@
     "everywhere_tags": [],
     "primary_investor": "ACF Investors",
     "source_url": "https://acfinvestors.com/portfolio",
-    "scraped_at": "2026-10-21T00:58:07.766873+00:00"
+    "scraped_at": "2026-10-21T00:58:07.766873+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.exchangewire.com/blog/2024/01/17/numbereight-secures-usd2-7m-2-1m-funding-to-deliver-ai-powered-privacy-first-solutions-for-the-ad-industry/",
+      "https://www.mrweb.com/drno/news36143.htm"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "OneID",
@@ -696,7 +773,21 @@
     "everywhere_tags": [],
     "primary_investor": "ACF Investors",
     "source_url": "https://acfinvestors.com/portfolio",
-    "scraped_at": "2026-10-21T00:58:07.766873+00:00"
+    "scraped_at": "2026-10-21T00:58:07.766873+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/orthofuse-2-2-million-seed-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "OTCX",
@@ -716,7 +807,19 @@
     ],
     "primary_investor": "ACF Investors",
     "source_url": "https://acfinvestors.com/portfolio",
-    "scraped_at": "2026-10-21T00:58:07.766873+00:00"
+    "scraped_at": "2026-10-21T00:58:07.766873+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Oxford Medical Simulation",

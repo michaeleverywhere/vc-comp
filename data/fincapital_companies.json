@@ -2016,7 +2016,19 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Metropolis Technologies",
@@ -2036,7 +2048,31 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 167000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTVGNGdEVzEtZXl6VEVsOWpJbWI4d1pTMzNkcTViTG02NDVmd3N6UV96SDk5SF9ZM0dsemdINjVGdDRBQ1dyVS14RlJrV0Q2Y1R0U2xxME1zN3lOWlN2VTJnUnFfZEhOTlRwajF0bFg0azltRXBGSXBXRmhtUERZQWh0VHljLUhvMTNVRk9OT09SNEg3eFNF?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTVGNGdEVzEtZXl6VEVsOWpJbWI4d1pTMzNkcTViTG02NDVmd3N6UV96SDk5SF9ZM0dsemdINjVGdDRBQ1dyVS14RlJrV0Q2Y1R0U2xxME1zN3lOWlN2VTJnUnFfZEhOTlRwajF0bFg0azltRXBGSXBXRmhtUERZQWh0VHljLUhvMTNVRk9OT09SNEg3eFNF?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 167000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 167000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Middleware",
@@ -2270,7 +2306,31 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/neuro-id-raises-7-million-in-series-a-funding/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/neuro-id-raises-7-million-in-series-a-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Numbrs",
@@ -2305,7 +2365,46 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "White Star Capital"
+        ],
+        "investors": [
+          "White Star Capital",
+          "Portage"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZUVBSjlBemppeTBobmhOZXVCcE1xNjVqQVhIUk85ZHduRW5jZXE3UmJERVQ1eGRSeFh4c3lZUnlvUHNOTm5YWU1CZThPMWxmaGFIVzZwRGtEMHJCbHhWdE82V3Q5ZTVTWXdacmU3eEJfSzVBZnZDNmlQcFE5c2lScTZ3OTBrWkhfY1RQXzk1dVZnZkVESjdDM01IQU41djd3QXAyU191U2pwY1RRNDdYRHc3S21hWHBSaTlBVHI0cFRpdktiMGZV?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZUVBSjlBemppeTBobmhOZXVCcE1xNjVqQVhIUk85ZHduRW5jZXE3UmJERVQ1eGRSeFh4c3lZUnlvUHNOTm5YWU1CZThPMWxmaGFIVzZwRGtEMHJCbHhWdE82V3Q5ZTVTWXdacmU3eEJfSzVBZnZDNmlQcFE5c2lScTZ3OTBrWkhfY1RQXzk1dVZnZkVESjdDM01IQU41djd3QXAyU191U2pwY1RRNDdYRHc3S21hWHBSaTlBVHI0cFRpdktiMGZV?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOThoTV9WcXNrOEZHQ2huUTVuNG0tV3JFSHU0OHJqLW9NYTk5Vk96c3NiOHIyRm9hZWtGTm5yRl9pYy1uOUt1czFRVm1NODJCTi1NTVo1U3VJVXgtZkt3QWVDRU9FNGhPYjJEVnJ2SXdxUXVIRWdoaEJQMkViSHpjQm5nMkhCZnBGbkFoeEtJWG1JQ2NZRnBjZXlINUJjdnppcHdLclcxVFNlYlpTWjYtOTdOTURSUQ?oc=5",
+      "https://www.businesswire.com/news/home/20250603492242/en/OatFi-Raises-%2424M-to-Build-the-Modern-Credit-Network-for-B2B-Payments",
+      "https://www.pymnts.com/news/investment-tracker/2025/fintech-oatfi-raises-24-million-for-b2b-embedded-financing-platform/",
+      "https://pulse2.com/oatfi-24-million-raised-for-transforming-modern-credit-network/",
+      "https://www.finextra.com/newsarticle/46098/oatfi-raises-24m-to-build-credit-network-for-b2b-payments"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "White Star Capital",
+      "Portage"
+    ]
   },
   {
     "company_name": "Ocrolus",
@@ -2483,7 +2582,62 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2016-04-13",
+        "investors": [],
+        "source_url": "https://venturebeat.com/business/identify-verification-startup-onfido-raises-25-million-to-inject-more-trust-into-the-sharing-economy/",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2017-09-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLV9nazduY3VYMlI2dGlCUTFPbHp4TXBUQnNsVHA4QkNEWnpodEZWWFVleEFveVdmdWNadlBnTUxORUxGdFk3OTFEcXJ0UTBaallQOTdFd0Nla0RaWVY4TW80X0tSTnNSanUyQTIxdWVSQ2VEaWRqTEFsakVNLTRpVWpyQU12R1lackNNaTA3QjBfQ2g2dXdrN3J0aUZUcDNXalNra2tzWHZnYTZYR1lxM2ltem9pVTBPc1ByTzZ1Mkk?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSlBaNzZGT2ZDdUxYWk5GVjdLRkplbVY5cFZiTFZtWnFNcHBJZkNFVFJYVVFjU1FPZ3Z6a2V1OTVUX3pwTjZtZzRaaGdTTjA1REVoTXFvZ2VKU1pyQTJUTjdmYndRbEdxNTVjU0hVanhkdThlT3FXOERZMmJtNkMzLV9OY1JmaGNLSS1kTw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUTJGRGl0eUlndTdnZktXNGYtNlhZZTZEMlUxSzhxbGw0U1V2dER1RjJpaXNhOGdiamEwazFlMVpvTmN0bUtUMmtid3I2R1RReW9SVjlIWGpxQjktcjUwSEdsUEpqcnBTcldoWHlfSUVhSlVpZ0NmMkNpZ3BuZnEzNzBYNGRPYkQzUjVkWm9R?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSlBaNzZGT2ZDdUxYWk5GVjdLRkplbVY5cFZiTFZtWnFNcHBJZkNFVFJYVVFjU1FPZ3Z6a2V1OTVUX3pwTjZtZzRaaGdTTjA1REVoTXFvZ2VKU1pyQTJUTjdmYndRbEdxNTVjU0hVanhkdThlT3FXOERZMmJtNkMzLV9OY1JmaGNLSS1kTw?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLV9nazduY3VYMlI2dGlCUTFPbHp4TXBUQnNsVHA4QkNEWnpodEZWWFVleEFveVdmdWNadlBnTUxORUxGdFk3OTFEcXJ0UTBaallQOTdFd0Nla0RaWVY4TW80X0tSTnNSanUyQTIxdWVSQ2VEaWRqTEFsakVNLTRpVWpyQU12R1lackNNaTA3QjBfQ2g2dXdrN3J0aUZUcDNXalNra2tzWHZnYTZYR1lxM2ltem9pVTBPc1ByTzZ1Mkk?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmdaMXRMX2NSM1o5TFNkQzI1dmlzZWZncUlodElJdFZURzBjdDJMbUFvdnpEQ3RGQ1ExYnZVdDBZR2g1emVxZW9FclF1bFJYRDZVMVgzSXRNUjlPTVlrRzhiUEQ3bEZSZUJhbmlvQWZvQ19NWVQxVERZUDAzcU1oVUJ4YUIwLWtfUVN5RW9JODg?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUTJGRGl0eUlndTdnZktXNGYtNlhZZTZEMlUxSzhxbGw0U1V2dER1RjJpaXNhOGdiamEwazFlMVpvTmN0bUtUMmtid3I2R1RReW9SVjlIWGpxQjktcjUwSEdsUEpqcnBTcldoWHlfSUVhSlVpZ0NmMkNpZ3BuZnEzNzBYNGRPYkQzUjVkWm9R?oc=5",
+      "https://www.prnewswire.com/news-releases/onfido-raises-50m-led-by-sbi-investment-and-others-to-create-the-identity-verification-standard-for-businesses-globally-300823825.html",
+      "https://venturebeat.com/business/identify-verification-startup-onfido-raises-25-million-to-inject-more-trust-into-the-sharing-economy/",
+      "https://www.finextra.com/pressarticle/65683/onfido-secures-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-27",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "OpenYield",
@@ -2501,7 +2655,34 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYmUxVEpNSDlpYVNWNDhjY1ptcXRYa19pU2RDVWlyUl9neF9GNFdOTm0tbHNpR2h3N0NmYzRrSXhQVXhoeEl1bU5MZkZfb0o5M1hEMzdGMWctTzZDYlZCaVY3UzdqQXJfNUpIQXRuR1dLVENoQkh4X3pXZXh4UzdzUUdqMTRPcjZUMWlvWXpTU1B5Zw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYmUxVEpNSDlpYVNWNDhjY1ptcXRYa19pU2RDVWlyUl9neF9GNFdOTm0tbHNpR2h3N0NmYzRrSXhQVXhoeEl1bU5MZkZfb0o5M1hEMzdGMWctTzZDYlZCaVY3UzdqQXJfNUpIQXRuR1dLVENoQkh4X3pXZXh4UzdzUUdqMTRPcjZUMWlvWXpTU1B5Zw?oc=5",
+      "https://www.prnewswire.com/news-releases/openyield-secures-new-funding-to-transform-the-bond-market-302311761.html",
+      "https://www.crowdfundinsider.com/2024/11/233612-openyields-new-funding-to-be-utilized-to-modernize-bond-trading/",
+      "https://fox59.com/business/press-releases/cision/20241121NY62099/openyield-secures-new-funding-to-transform-the-bond-market/",
+      "https://www.manilatimes.net/2026/06/10/tmt-newswire/globenewswire/openyield-lands-level-markets-as-strategic-investor-and-distribution-partner-to-bring-equity-style-trading-to-bonds/2362700"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Opto Investments",
@@ -2624,7 +2805,19 @@
     ],
     "primary_investor": "Fin Capital",
     "source_url": "https://www.fin.capital/portfolio",
-    "scraped_at": "2026-10-16T21:26:01.514624+00:00"
+    "scraped_at": "2026-10-16T21:26:01.514624+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Playter",

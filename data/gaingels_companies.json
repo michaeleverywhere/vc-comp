@@ -83056,7 +83056,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nile Home",
@@ -93444,7 +93456,55 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 55000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdlp0amFFWlBBbkY3YVZ1S1FKaWx6RExuRUZxVnBCUXJoeFQtLXZuT21IV0NhdFk1NU03V0ZBaEJCYWtKcjFMRWlYQ0IwTGZxSGNnanpqS204RTlTeUFYaXNubW5Sa3loYjl6djNUdDBjVTQ1VllmeTQtMmpFMDBjdjE4bw?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 108000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "GM Ventures"
+        ],
+        "investors": [
+          "GM Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNTC1MWjZYZVBrM3poNnp1R2o0SEg1MHNWd01HWDl5WUR6LTFUZG1pS050dWcxYXV1NUlrSkJlNndiTzJoRWxPY2VwazZuTlEtZEhCakRfcmZhLW03Q21zY1FoblRzNWY2OV8xUk5zV0RWOHA3aUxzbHNyems1WWl0bERCTlBEb2puUk1LQmk5TGRRaEItdGlHeTFBMzhTMFA3T2gtYzFLS0ZpV3VDSTZDYVpxVmpuZWxEVGdoWUhLUGZzeGV3LWVPSHVmUThTV2wxd1p0WnpQdTVGdm9Jb0VLZFFJWHlsTTZKanlYaGh0QnRRd3hiXzVyN29XcXhsTUYyaHJGTl9VVjhSRFhlYW9B?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3a0t3V3FJSXJTbmd4Yy11VEVYbWFZai1SdUhHYlpQdU0tYnJ1akdDMW5kREpmS3JvdWJHRUlZQlNyR0xnc3BjZXVMMnlwVlpNZ09VN2FZTU8yWHEwQ0t4LVFVQ3lJVGlIb3Q2YVNCbFBVZTlNMHdROHRwRHU?oc=5",
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxNTC1MWjZYZVBrM3poNnp1R2o0SEg1MHNWd01HWDl5WUR6LTFUZG1pS050dWcxYXV1NUlrSkJlNndiTzJoRWxPY2VwazZuTlEtZEhCakRfcmZhLW03Q21zY1FoblRzNWY2OV8xUk5zV0RWOHA3aUxzbHNyems1WWl0bERCTlBEb2puUk1LQmk5TGRRaEItdGlHeTFBMzhTMFA3T2gtYzFLS0ZpV3VDSTZDYVpxVmpuZWxEVGdoWUhLUGZzeGV3LWVPSHVmUThTV2wxd1p0WnpQdTVGdm9Jb0VLZFFJWHlsTTZKanlYaGh0QnRRd3hiXzVyN29XcXhsTUYyaHJGTl9VVjhSRFhlYW9B?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYklTSV9WR1NNcTVQSW9FdWhOQ3l0ZUZTQ1RNRVg4RTFVUEJUMEpCR3pVY1A5bXd2QVJ4X0xnOEMwOWV2WDdiYklhOFhBZVpvZV8xRUttdnFzRWFGMXJFQzVGZVowVlh2dTNTSXM3OGluTDd1NHVKNnlKNmt6T3F4SXl6S2FOYkk?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWGNQUWNxMS1LV0FOX2tGTlVITVd3dmk3dUpnRk9OcldsVDkyS2laSTZVVzRiZ2J0dm1UMzN1Zm9VQUVUNzEwX1RzME10djlxdmFYb2k1MW9lNlE3dS1RRHJFSUU1aHpQZ0NvQkFOWDRFRVM4aEpvWkc3dDlPdVhVVHRIblhldGZkUEdMZThXa3Y1QThfeUloTkw1R1AxdUN5RTM1T3VVZWI5NVo5YkE?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yZjlqOWlnVlFfRWZhdzNRQ2s4bVlMZHJSVThORmtsUXBqRHR1b1R3S3Z6dzFiNE96RkgwWDROc0gyaTV1TXRYb3Zfa3YzSmkwRHkybkktTjhPMTNhZy1waC1peDRLTnJpcWQyUlZxNFliWEtHRUNwNGxWbmhIdVnSAX9BVV95cUxPcmY5ajlpZ1ZRX0VmYXczUUNrOG1ZTGRyUlU4TkZrbFFwakR0dW9Ud0t2encxYjRPekZIMFg0TnNIMmk1dU10WG92X2t2M0ppMER5Mm5JLU44TzEzYWctcGgtaXg0S05yaXFkMlJWcTRZYlhLR0VDcDRsVm5oSHVZ?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOelg0NkNLZnpnWU5neHd5anI2eFdIeTBkSE9yd3RjT1FCTGJLdUMwaXYwWWI2clB1UUJoZ01haG50OF9JN3o2TWNsNVE0TW1vd0pncHdoS29UYXNxX0JsU1JYX3ItLWtudmdmazdpcm5SZUpZWVV3QVVCRjdIQWtLSlhOc0N1alk5RExYendmUElrRVF5bXNleWZoTGRyYVFQRG4tRlAtb05CdndkMm1rZWxKdHRta00?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelVGbDNFYkc0ZG9teFdjMzFGMEl1ODJTcjczeVRCdVZ4Z05Db3paMGstREZIcU41ZU13SGdhOG1yWEM5ZGlZUTM0YTVGVlE0Zm5KSUNJemJFSUlobnNtbU16cGNkbTlhbXdObml0aFFuMmlSM3lNVkxBNGdydDJOY3NnbEN2UTFBcWVfSktCRU5VcVZlMXNMSkdwbEQ3eUZjeEdBRFJ2QVg4cWxXRHc?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcjBaT3N2ZXB6NF9SMzMzLWwtSWZMZXNnRTE2SDRiZUpDV2tEUnV3ZFRSNllGNG1pcjhtbmJhSUVVNklNZnNjWFlFYlBMRXp2aUZuX0JkQ3dYTVV4aFU0ZEJwa1NPc3lTRHRBeS1YUnNES1BrR2lsVzFFamhUdmVCcThDcC1VY1d4S0dMZDQtdmRWajVLeWk5S2lEMFljbThQZDBKblhZYl82T3BGSTlMTA?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdlp0amFFWlBBbkY3YVZ1S1FKaWx6RExuRUZxVnBCUXJoeFQtLXZuT21IV0NhdFk1NU03V0ZBaEJCYWtKcjFMRWlYQ0IwTGZxSGNnanpqS204RTlTeUFYaXNubW5Sa3loYjl6djNUdDBjVTQ1VllmeTQtMmpFMDBjdjE4bw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 108000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 163000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "GM Ventures"
+    ]
   },
   {
     "company_name": "PeakMetrics",

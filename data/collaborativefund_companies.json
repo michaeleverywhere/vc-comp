@@ -9688,7 +9688,19 @@
     "everywhere_tags": [],
     "primary_investor": "Collaborative Fund",
     "source_url": "https://collabfund.com/portfolio/",
-    "scraped_at": "2026-10-06T13:27:16.736463+00:00"
+    "scraped_at": "2026-10-06T13:27:16.736463+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mast",
@@ -9882,7 +9894,63 @@
     ],
     "primary_investor": "Collaborative Fund",
     "source_url": "https://collabfund.com/portfolio/",
-    "scraped_at": "2026-10-06T13:27:16.736463+00:00"
+    "scraped_at": "2026-10-06T13:27:16.736463+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5700000.0,
+        "currency": "USD",
+        "date": "2022-03-16",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20220317005034/en/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Pre-Seed",
+        "amount": 850000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNS1TR0FRT1VabS16T2c4bFRFdS1Qa2poRE9vcVg2UHFOS2RoMW1IWXBZcWRoaUZQdG9sLV9zUHVUaEZWekZrYmJJOFlDY0VLVVZtS1poTXVMVUFUOGZvQ1lXem9ka19xdklVWm44NlNod045dndVVE9VOThQazRMZmhOdTlKdjNkRFlUUV9zY3dxbFRJcTI3djl1TVRudDR3QkhHM2ZybHZhUW5tSENuQkFR?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwNTBGa1JQNXlPOUNtRWtkanVHN3ZMdFY3d0owbC1UQldKaUxZelVRNjlJV0pzUWZzLTduY0ljREZlNXNQR3dqalRuN0ptWjFlanZlRF9ia2p5VHlydkxMZGpWNVFSUmgtQktVa3FLNjVUTHFvUFd5cjRUM1Brdw?oc=5"
+      },
+      {
+        "stage": "Pre-Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdHZ6RmxOTDNPV1BPN25fbk92V0dMNG1EeDl0QXpHQnpINS0xVDg4bzhZOHViWjMxeWVmdzJSS3JVdmRqd204NE5CckZlMjAxQ0l2anBrYms2bUhWSEpoeGhZaXEtbi1VZDVFRlp1NWZMdVNHUkRjU2pLS1E2UWxWVll6TXNZTjNrV21pcVJzZnRndFc3aVE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGhscXZhWUJVcEE0SWIxWTlobFVNdGhWN3piRnA1bWFTSXdudWZYT09kZU1ldjZ3T3Q4VDRJcW5FS3RNc2hPVnlwNFp2ZFoyZlVXN2VzRERFTnhqUngwVjFaLTRSVjFiVFFnUGZwWnBhcWRUR0ZRWjN2cFJvYjF5T2h6cnJ2dmtSbDBncGFTSGZZY3Y1OEVIMnNvb3dCVWw2Y3ZDMzdDTmU3VVVKV1VWYWptcHEzMkJLd004R2pjYWRhRFRKVFE?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwNTBGa1JQNXlPOUNtRWtkanVHN3ZMdFY3d0owbC1UQldKaUxZelVRNjlJV0pzUWZzLTduY0ljREZlNXNQR3dqalRuN0ptWjFlanZlRF9ia2p5VHlydkxMZGpWNVFSUmgtQktVa3FLNjVUTHFvUFd5cjRUM1Brdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqMkJaLXBRR0pnMlVLVXpLQjQ4S0pDdE45Z00yU1VCNWtsMlRGQW5VZmROQlI5dXI4clBOaE5KVmVLSnJvRFgxdHQ4MkpNQ1EtRFhwamJhNW5CSVVwM2pwQmhpLTk5ci1Q?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNS1TR0FRT1VabS16T2c4bFRFdS1Qa2poRE9vcVg2UHFOS2RoMW1IWXBZcWRoaUZQdG9sLV9zUHVUaEZWekZrYmJJOFlDY0VLVVZtS1poTXVMVUFUOGZvQ1lXem9ka19xdklVWm44NlNod045dndVVE9VOThQazRMZmhOdTlKdjNkRFlUUV9zY3dxbFRJcTI3djl1TVRudDR3QkhHM2ZybHZhUW5tSENuQkFR?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tckVfb2ZPQmpXQWtQWE1YcmtjVk5fQkhXaURVVGRSVlJXWng4UHhJRXRXTjZEX1lrQ3R0djM2czZCczVwS2NHYkFuNWk2VGpWd29VTGN6RGxleG9EYWpiaHEybEVPeVlOcjZPM0c3elNPOXRVY0I3LVJ1OA?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdHZ6RmxOTDNPV1BPN25fbk92V0dMNG1EeDl0QXpHQnpINS0xVDg4bzhZOHViWjMxeWVmdzJSS3JVdmRqd204NE5CckZlMjAxQ0l2anBrYms2bUhWSEpoeGhZaXEtbi1VZDVFRlp1NWZMdVNHUkRjU2pLS1E2UWxWVll6TXNZTjNrV21pcVJzZnRndFc3aVE?oc=5",
+      "https://www.businesswire.com/news/home/20220317005034/en/",
+      "https://www.just-food.com/news/vegan-honey-start-up-melibio-secures-pre-seed-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 5700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-16",
+    "total_raised": 8750000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Metavoxel Technologies",
@@ -9918,7 +9986,19 @@
     "everywhere_tags": [],
     "primary_investor": "Collaborative Fund",
     "source_url": "https://collabfund.com/portfolio/",
-    "scraped_at": "2026-10-06T13:27:16.736463+00:00"
+    "scraped_at": "2026-10-06T13:27:16.736463+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MicroByre",
@@ -10800,7 +10880,19 @@
     "everywhere_tags": [],
     "primary_investor": "Collaborative Fund",
     "source_url": "https://collabfund.com/portfolio/",
-    "scraped_at": "2026-10-06T13:27:16.736463+00:00"
+    "scraped_at": "2026-10-06T13:27:16.736463+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Numi Foods",
@@ -11892,7 +11984,19 @@
     "everywhere_tags": [],
     "primary_investor": "Collaborative Fund",
     "source_url": "https://collabfund.com/portfolio/",
-    "scraped_at": "2026-10-06T13:27:16.736463+00:00"
+    "scraped_at": "2026-10-06T13:27:16.736463+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Paces AI",
