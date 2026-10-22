@@ -160,20 +160,35 @@
     "primary_investor": "Hiro Capital",
     "source_url": "https://hiro.capital/companies",
     "scraped_at": "2026-10-16T13:30:37.194467+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": "2022-05-23",
+        "investors": [],
+        "source_url": "https://markets.financialcontent.com/wral/article/bizwire-2022-5-23-firestoke-announce-22m-seed-funding-round-led-by-hiro-capital-to-publish-joyful-indie-games-for-a-global-audience",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://balorgames.com/"
+      "https://balorgames.com/",
+      "https://www.businesswire.com/news/home/20220523005568/en/Firestoke-Announce-2.2m-Seed-Funding-Round-Led-by-Hiro-Capital-to-Publish-Joyful-Indie-Games-for-a-Global-Audience",
+      "https://www.gamesindustry.biz/firestoke-raises-usd2-2m-in-seed-funding",
+      "https://www.pocketgamer.biz/paul-farley-firestoke-raises-22-million/",
+      "https://markets.financialcontent.com/wral/article/bizwire-2022-5-23-firestoke-announce-22m-seed-funding-round-led-by-hiro-capital-to-publish-joyful-indie-games-for-a-global-audience"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FitXR",

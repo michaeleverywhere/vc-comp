@@ -336,18 +336,43 @@
     "primary_investor": "New Leaf Venture Partners",
     "source_url": "https://nlvpartners.com/portfolio",
     "scraped_at": "2026-10-20T23:51:58.573962+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 7500000.0,
+        "currency": "USD",
+        "date": "2025-03-03",
+        "investors": [],
+        "source_url": "https://markets.financialcontent.com/prnews/article/bizwire-2025-3-3-flosonics-medical-secures-75-million-cad-venture-debt-from-rbcx-to-scale-transformative-wearable-ultrasound-technology",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWtySFQ4WVBpajl3ZUFzUHdxM2tmZXNNQTZqSmw4b01WRUVSWi1IbXphTDZPS3JrNndWNEhYRmE0Vko0TnYwUHpMNmRVbDM0ZmxjY2FtOGN5b29sTGJWVmVlSnR6WXB0RUZqb1JXN3RRQmFJcS14NzdaMnNUZDY0ZkJiaE9JdlR6cnNKUTVnNUxmMnk3TlAyZA?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWtySFQ4WVBpajl3ZUFzUHdxM2tmZXNNQTZqSmw4b01WRUVSWi1IbXphTDZPS3JrNndWNEhYRmE0Vko0TnYwUHpMNmRVbDM0ZmxjY2FtOGN5b29sTGJWVmVlSnR6WXB0RUZqb1JXN3RRQmFJcS14NzdaMnNUZDY0ZkJiaE9JdlR6cnNKUTVnNUxmMnk3TlAyZA?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeThrMEs4Z2xoTUpNX2swTXZWMGxpaUxoWGg0WFlILXljUEw2engzZkFkSlhLMU5JazhPVENqenllQzl2Q2I5amR1ZHJqSDhMWElkcTdRLTBHSDBrTHRsSXIyY2hER1F5eGNlTG5XQjFRNm9ac0pobHh4bGlaa2luTmFxdEM1aVl3MkJ6VWoxX2VxOVhPbXRfWjdkVm9RUWRSVzVRa0Nfc2hDaHNjaEhWRm1n?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV00zRE5ENEtpYXZOWC1LYlJRck9QeUV1TjB5dFFmdk1udEUzNWVwMjQ2LUQ4ZnJMbTJ5X2s3NkV5QlEwaXBLTmRNVDFxVk5FUmlmS2hpdklEdi1lYXd1NHZhLVpxYjJzTDRyYXI4VzNtWldKb0V5a0JsS1pDTUxoUUREQmx2VEpmLW93Q0xBTlV1bVFzRm13b3IzQ2Y3WVRNNWlnRmhqZ0tsZHIxaVBFUmtQd00yUQ?oc=5",
+      "https://pulse2.com/flosonics-medical-c7-5-million-raised-for-scaling-transformative-wearable-ultrasound-technology/",
+      "https://markets.financialcontent.com/prnews/article/bizwire-2025-3-3-flosonics-medical-secures-75-million-cad-venture-debt-from-rbcx-to-scale-transformative-wearable-ultrasound-technology"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kalderos",

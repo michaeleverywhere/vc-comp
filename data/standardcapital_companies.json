@@ -270,7 +270,19 @@
     "everywhere_tags": [],
     "primary_investor": "Standard Capital",
     "source_url": "https://www.standardcap.com/portfolio",
-    "scraped_at": "2026-10-18T20:07:17.814241+00:00"
+    "scraped_at": "2026-10-18T20:07:17.814241+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Momentic",
@@ -279,7 +291,54 @@
     "everywhere_tags": [],
     "primary_investor": "Standard Capital",
     "source_url": "https://www.standardcap.com/portfolio",
-    "scraped_at": "2026-10-18T20:07:17.814241+00:00"
+    "scraped_at": "2026-10-18T20:07:17.814241+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWd2LURWRUEzVDFYZUQ0N3NuVWdmQXFqTTNVNk1JaDNPeWd1Z3BMUVBWRnU3ejQtX2tPamQxTk1RVzBfNzF2SzZTQS04Sll6NjQ2dVMxSFV6ZXFQVEhDdE5iZnp1M19DV1pOODhyODhSU2M2TW5GdnNuMmMxYU5FNGhsbExBXzF5eTQ4dFE4UQ?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Standard Capital"
+        ],
+        "investors": [
+          "Standard Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONXBTZ3BLZ0h2NmNFZy1ULXctS29tQkY2UUgwUEhwOHdUaVRlQ29WMVVSTjdCMjJKbXg2c3VTclpyVGF4dWtsc0JDSTZtZjNScmMwSl9ENXdRTUtGUWQyWkdvQWFqX0wyZTF6S2NMS0dDQTE2TklXZUw0emJoakF6T2FnUUkxUElJV3pn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbXNMaGJGbU5KRDNHN0V5V2E5VVhvbFlOZXJXVWVLdG9aajBvZV81RVZrOFN4WVN0NEZoUExEVkVnNmdudGNjSGs0anhYYVlQMkxJWmRYQmI5RGFHUHE5cXFRVHFLRXh2UjNVX003MmVUYjJYZE1nRWJqSENYSVpmODM0bFR5S3lnUnJ3akxSRmhpMnpqRXAxVGdPLWY4S3M?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONXBTZ3BLZ0h2NmNFZy1ULXctS29tQkY2UUgwUEhwOHdUaVRlQ29WMVVSTjdCMjJKbXg2c3VTclpyVGF4dWtsc0JDSTZtZjNScmMwSl9ENXdRTUtGUWQyWkdvQWFqX0wyZTF6S2NMS0dDQTE2TklXZUw0emJoakF6T2FnUUkxUElJV3pn?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRjJJUWNnbjd4UDlnSzZ4LW9zZWZsS1RDZUVVZFpUZ1V5X0lQUVRfaUJwNWVuZGRhanAyRFI0cHRrdGpTLWl4ZkRXTjZmb0staHAxZElaNXM0UFdmSFJsMmszbVdnQTN5Z2NxeXp1WjAwQXBsWEJJNzdhMF8tbmhnSm5pQU80X0VtMjVrOXlRam1Dcl9aRURsNXMzREZYQUxXeUE?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWd2LURWRUEzVDFYZUQ0N3NuVWdmQXFqTTNVNk1JaDNPeWd1Z3BMUVBWRnU3ejQtX2tPamQxTk1RVzBfNzF2SzZTQS04Sll6NjQ2dVMxSFV6ZXFQVEhDdE5iZnp1M19DV1pOODhyODhSU2M2TW5GdnNuMmMxYU5FNGhsbExBXzF5eTQ4dFE4UQ?oc=5",
+      "https://techcrunch.com/2025/11/24/momentic-raises-15m-to-automate-software-testing/",
+      "https://siliconangle.com/2025/03/04/momentic-raises-3-7m-redefine-software-testing-ai/",
+      "https://siliconangle.com/2025/11/24/momentic-raises-15m-become-ai-era-source-truth-software-quality/",
+      "https://finance.yahoo.com/news/momentic-raises-15-million-series-142900344.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 18700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Standard Capital"
+    ]
   },
   {
     "company_name": "Revoy",

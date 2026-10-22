@@ -1461,7 +1461,19 @@
     ],
     "primary_investor": "Siddhi Capital",
     "source_url": "https://www.siddhicapital.co/investments",
-    "scraped_at": "2026-10-18T20:07:16.534579+00:00"
+    "scraped_at": "2026-10-18T20:07:16.534579+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mealogic",
@@ -1508,7 +1520,45 @@
     "everywhere_tags": [],
     "primary_investor": "Siddhi Capital",
     "source_url": "https://www.siddhicapital.co/investments",
-    "scraped_at": "2026-10-18T20:07:16.534579+00:00"
+    "scraped_at": "2026-10-18T20:07:16.534579+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdXNma1dRYmtXM2FOQWtYTDNGNXVPcjBIZ0VDZTlPUXhvbWFzVDVCeWo0eTVEQVZiYXVKejU1TzFCTUN0d01GenFrMnZqUllLYV9xRFBicjE5OE5qWnlDTEZveUFVZjIzLUZBT0g1eVlXa3N6UkZ5Zk1KNHNsQnNKbHpneXFrZHJSclVFR1EtTG0xTmtvcnVoSGtwRFg?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10400000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RSc1ozYlZIQnc0bUN0RHphUmlYNFZtWlE4N2JmdUZhVFZYejhEU1ZfZVNsVlN1dC1vcTcyOU94Y2ZDSWdaS3p2M2pTSkQ5U2NWaDZpcEFXMkRKbHlic0hES3hmYXBsWjNDSDFjRy12NWpoNkd0d2FmM3hDOG1ta3p0dG5UTmdKa0RfanZvZGpqdUZfQkhkZno1NjFjZXQzQ0g4Q1hjTnZBM1ZCZlFmMloxdl9OS05sQnJN?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdXNma1dRYmtXM2FOQWtYTDNGNXVPcjBIZ0VDZTlPUXhvbWFzVDVCeWo0eTVEQVZiYXVKejU1TzFCTUN0d01GenFrMnZqUllLYV9xRFBicjE5OE5qWnlDTEZveUFVZjIzLUZBT0g1eVlXa3N6UkZ5Zk1KNHNsQnNKbHpneXFrZHJSclVFR1EtTG0xTmtvcnVoSGtwRFg?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkc2TXpzMERrVDNXVC0yblRZcXpOdURLbjdFeVp0X3VCWHJubzNTZzFCcjNObXNoLXNzYVFIXzJzMlB5TjkxeHhRdTd6elo3Mk5jZ2puQ0lvRE93ZmlHZ00yYU5KRzJyeWNDX3RTVXYzY05RX0NwaGYyOUs5VjByLWswaUl6RzZ4eFdZRzNkTlVuZURtcUZmbWlabGszOVNmY2pDQ3VkaW81eFhLSUxJMHVDM1J3NHZWYWJlM2h3?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3RSc1ozYlZIQnc0bUN0RHphUmlYNFZtWlE4N2JmdUZhVFZYejhEU1ZfZVNsVlN1dC1vcTcyOU94Y2ZDSWdaS3p2M2pTSkQ5U2NWaDZpcEFXMkRKbHlic0hES3hmYXBsWjNDSDFjRy12NWpoNkd0d2FmM3hDOG1ta3p0dG5UTmdKa0RfanZvZGpqdUZfQkhkZno1NjFjZXQzQ0g4Q1hjTnZBM1ZCZlFmMloxdl9OS05sQnJN?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYUVmcXBMUy1iU3NqWlFCTHdtelBSZGx1UFJfYUpTa043YXlyMlRtY1JlV0tWUzJicW14RHJFUm5GdGFhSE1peWs3NENfWlBRNlZuTWVucVpsR0pDM0VjYXdscTMzc2ZEb3VQem91VmE5LW5WdDZCczY3bl9acnludUlLR1lYa213eFJVYTNwY21IdU5WZExISmJhWk13dktpQ0dNNUdMYlXSAa4BQVVfeXFMUDdqYVNocm42TUp3Y1FxOWFESEpZMzdZaFhFUWs3QkJ1b2lIajhfaVB4ek1DbVdVWUdaLXcwZnRCUlRvemg2VHJWMy1CUWlJRFFubVVOREJONmVyZnNtOVAxOUtGR09JZkJrdXVIUnNuV1ZURlNiM09nbGx1V1hxUFpsLUlNd3RIckRGeU1YS2haejNwQkJIXzR0WjRJa0R5ckc5a3hNUEhMRFkyMlBR?oc=5",
+      "https://markets.ft.com/data/announce/detail?dockey=1323-17582283-44GSFD2DE7MG8UD1RHNAPS80T2",
+      "https://pulse2.com/meatly-raises-10-4-million-series-a-to-build-europes-largest-cultivated-meat-facility/",
+      "https://www.businessgreen.com/news/4529323/meatly-build-europes-largest-cultivated-meat-facility-london",
+      "https://www.thegrocer.co.uk/news/meatly-to-build-europes-largest-cultivated-meat-factory-in-london/718603.article"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 10400000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Medium Well",
@@ -1518,7 +1568,19 @@
     "everywhere_tags": [],
     "primary_investor": "Siddhi Capital",
     "source_url": "https://www.siddhicapital.co/investments",
-    "scraped_at": "2026-10-18T20:07:16.534579+00:00"
+    "scraped_at": "2026-10-18T20:07:16.534579+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Michroma",
@@ -1622,7 +1684,46 @@
     "everywhere_tags": [],
     "primary_investor": "Siddhi Capital",
     "source_url": "https://www.siddhicapital.co/investments",
-    "scraped_at": "2026-10-18T20:07:16.534579+00:00"
+    "scraped_at": "2026-10-18T20:07:16.534579+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1lmQjdjbmVvVGEyN3lIVkN2azA4UFpjejhTM01pVmxEcWRQcjdES2dzaHJyb0N2QU5Eak1wcUpfbUJ2NUdsUDl5MDhmRy1yRTZmOXY0VFlEMDR0UHNISkhjaV9yREhnUVAzX2tRTkZZQmRJYnFQbUltTGpLMjZBS3Z5WVRGYWpPTkUxRHgzanZxOFpfWXZBOHRuQjFFYWxzbUE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRnNSaE9FNmFMeGdRUFl4aDJ0RU5tTTJVMGZMY0xqQW9aUFRZamxaVkxYWmp2ZUI4QkJPQTZQWmg2QVdQbUtBd3RLdHYtTHozWkZveG13U1N6amVMdkF5dkxpX1NieFl6VXloeEFDNkwzUUgxY2stR0hYNEFrY2ZDVnJNR0JmUnRidnMxZS1n?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM1lmQjdjbmVvVGEyN3lIVkN2azA4UFpjejhTM01pVmxEcWRQcjdES2dzaHJyb0N2QU5Eak1wcUpfbUJ2NUdsUDl5MDhmRy1yRTZmOXY0VFlEMDR0UHNISkhjaV9yREhnUVAzX2tRTkZZQmRJYnFQbUltTGpLMjZBS3Z5WVRGYWpPTkUxRHgzanZxOFpfWXZBOHRuQjFFYWxzbUE?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWkkwbVRvcmJBZDA1dkdhakNmRzVfaXZsUHd1cS0wTm9uVjRaQ1N3M2ZUSHFDXzR3c3h1U215MHl3NGk0YzJseklpTHNDS0htNjhUckdWZ2xyeWN3dXlsanpxQVdCd1BfcGtfX2xKdU5UT0czTXYzVDF0R19BZVNSZUplWG41MUthNlpMVldvYw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT0NqNVlMRnZLcnA2NTFwZ2tkcTYzblhLNWNEa2dyUWNGVFRTRVdURUJfS3ZWcF90ajM3OGNWbnFBVnM2eVNFWDNOQUVVV3lNSHVnaEtaRzBiZXh5VEptMzI5RzZWOHUxNmVXbzY5WnFkWW1zS2lxYmVOZ1ZMZmg4UGhINFlCTTNabDBwUEt1MjItWlpxMExjZmFzWnU2Smp6dHc0?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRGxmWm00QlNsUE9kN2xtRXJUQ21iOF9oaXM5RjdKNFNFRzJqLXYzT21ubGlXUURzTy1DSVJIVjBTUkp1eDdCdVRZVHV2UlhDN2U3Q3pid185QzUzTkJNRXNiVUpqYmhVd2xOM25HaTlBdm1DNDhHLUphMGV2dG1KcUozS1J4T0k4SjRUdlJzUHZtTkdtQU5VbWViRmJEOW0tUkoySUQ0eW84MFA1akEyOVQta1o2T3g2aUxPejVZczRLNDU3QjFCQw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRnNSaE9FNmFMeGdRUFl4aDJ0RU5tTTJVMGZMY0xqQW9aUFRZamxaVkxYWmp2ZUI4QkJPQTZQWmg2QVdQbUtBd3RLdHYtTHozWkZveG13U1N6amVMdkF5dkxpX1NieFl6VXloeEFDNkwzUUgxY2stR0hYNEFrY2ZDVnJNR0JmUnRidnMxZS1n?oc=5",
+      "https://www.retaildive.com/news/momofuku-goods-raises-seventeen-million-series-a-funding-round/645818/",
+      "https://www.streetinsider.com/PRNewswire/Momofuku+Goods+Announces+New+Growth+Funding+from+Alliance+Consumer+Growth/22133428.html",
+      "https://www.just-food.com/news/momofuku-goods-raises-funding-for-nationwide-expansion/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 29000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mooala",
