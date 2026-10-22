@@ -9185,20 +9185,33 @@
     "primary_investor": "Global Brain",
     "source_url": "https://globalbrains.com/en/portfolio",
     "scraped_at": "2026-10-04T13:14:52.195600+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2022-03-28",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/qunasys-raises-10m-in-its-series-b-funding-led-by-vgi-to-expand-overseas-markets-further-as-a-japan-based-quantum-computer-software-startup-301509556.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://qunasys.com/"
+      "https://qunasys.com/",
+      "https://www.prnewswire.com/news-releases/qunasys-raises-10m-in-its-series-b-funding-led-by-vgi-to-expand-overseas-markets-further-as-a-japan-based-quantum-computer-software-startup-301509556.html",
+      "https://www.asiaone.com/business-wires/qunasys-raises-10m-its-series-b-funding-led-vgi-expand-overseas-markets-further-japan"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FIREBUG",
