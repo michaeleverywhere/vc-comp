@@ -120658,7 +120658,7 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": 4100000,
+    "total_raised": 6700000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
     "last_round_type": "Form D offering (round type not stated)",
@@ -120676,6 +120676,16 @@
         "date_basis": "snippet"
       },
       {
+        "stage": "Undisclosed round type",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2017-02-08",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/rippleshot-raises-2-6-million-140000266.html",
+        "date_basis": "text",
+        "history_new": true
+      },
+      {
         "stage": "Form D offering (round type not stated)",
         "amount": 1500000.0,
         "currency": "USD",
@@ -120690,9 +120700,11 @@
     "funding_source_urls": [
       "https://rippleshot.com/",
       "https://rippleshot.com/post/rippleshot-raises-2-6-million-in-latest-funding-round",
-      "https://www.sec.gov/Archives/edgar/data/1662047/000114420418045854/primary_doc.xml"
+      "https://www.sec.gov/Archives/edgar/data/1662047/000114420418045854/primary_doc.xml",
+      "https://finance.yahoo.com/news/rippleshot-raises-2-6-million-140000266.html",
+      "https://www.finextra.com/pressarticle/67963/rippleshot-nabs-26-million-funding-round"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -146901,14 +146913,26 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": 20000000,
+    "total_raised": 35000000,
     "total_raised_currency": "EUR",
     "total_raised_basis": "sum_of_sourced_rounds",
-    "last_round_type": "Undisclosed round type",
-    "last_round_amount": 20000000.0,
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
     "last_round_currency": "EUR",
-    "last_round_date": null,
+    "last_round_date": "2026-03-26",
     "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "EUR",
+        "date": "2026-03-26",
+        "investors": [
+          "Adriaan Nühn"
+        ],
+        "source_url": "https://thenextweb.com/news/openup-20m-employee-mental-health",
+        "date_basis": "snippet",
+        "history_new": true
+      },
       {
         "stage": "Undisclosed round type",
         "amount": 20000000.0,
@@ -146919,12 +146943,17 @@
       }
     ],
     "grants": [],
-    "funding_status": "unclear-round-type",
+    "notable_investors": [
+      "Adriaan Nühn"
+    ],
+    "funding_status": "seed+",
     "funding_source_urls": [
       "https://openup.com/",
-      "https://openup.com/press/"
+      "https://openup.com/press/",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOODVTRnh4NE5vT2NLT1ZKODg4eFVXdS1wT09rRlFBRm5rWTJENWlIbHNwSDZEbjRuSkVTNHhYdDJxaXVPMnVqWXVkU25PTTk0OVJnLVFFd3RycHYxOHRBWG9uQm94RTVBbUE5TnlGYndla2V2WlA3dGQxeXlVdGZDelI3dm5fakdR?oc=5",
+      "https://thenextweb.com/news/openup-20m-employee-mental-health"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified); history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -230353,7 +230382,7 @@
     "stage": null,
     "first_invested": 2026,
     "status": null,
-    "total_raised": 56852498,
+    "total_raised": 63852498,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
     "last_round_type": "Series A",
@@ -230378,6 +230407,15 @@
         "investors": [],
         "source_url": "https://www.qualitate.io/news/qualitate-announces-25m-series-a",
         "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/qualitate-raises-7-million-bring-130000751.html",
+        "history_new": true
       }
     ],
     "grants": [],
@@ -230385,9 +230423,16 @@
     "funding_source_urls": [
       "https://www.qualitate.io/",
       "https://www.qualitate.io/news/qualitate-announces-25m-series-a",
-      "https://www.sec.gov/Archives/edgar/data/2150632/000215063226000002/primary_doc.xml"
+      "https://www.sec.gov/Archives/edgar/data/2150632/000215063226000002/primary_doc.xml",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRmhrVlVHS1FrSjZRb2JUVmhTWmZuMm5LbngwcGlGNmtVT3VEblRIdXp0ZVF6cDdVRXdmZXAxSEJxVlZFeFBvYndHc3RrVWFna1lhQ3V4djM2TlNaelpLN09Hc1kyWVBiWHB6T0hrckRKUUlrZWRyLUdrNVNzV0Q0Q21fTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNGJudDBsOXVDcEdfcmprdzUzN3djVFJJSEoyN2NoYVRxbnM4ZkpCeFRwSFR3Nk00eEVZMHk0QW5ucV9uMWtUT2JiYWl6NWU4VUhGTG9Qb3JTSjFLLTBCVjR0eVh1WGdydjlNamNiSERfR2lFdkVzRnZqZjlRT3BLN1loaw?oc=5",
+      "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRjQ4ZEZRUUhoR1c3Yms5dHVZbE1vYkdXSnFBNUtzU2dqT2wwUGVwc3FyenU2M0syM1RVUlQ0MHZqbmNFQTJFU3ZUZFhpVmNuQWVtNzFSYWhYTnozSU4wbWtqY0Z6aUNENUVBQmZ3ajhud24zTHJhdmpNUG9rTlRBSUZtRUtzUF96bnU3dFk5a0psdmwwbVg0MUtncU9pTnJXZkQ5Z3lLVVg1ZlBIWUpTbUwtWkNHWFpfNGpaNWdMV3ctcHdENnNPeXZ4cUQzbHlTaUUzVlVWRkVIZHBIcW5JNjFrdFlKX01oZUNmdW1Gd2FMdDYtcUVGSzhIeDhsSTZiRnhjWm1Vd2drWm9fRGw2QmF0Q2cwUXdfN2E0?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOWtnSVkzY2paN01jb0ZCdFRzRmhWM0xlSnBkU09BU2ktZzVyR2phd3FkbEZuODJnNnFUTFdxNWlWSXdxRS03S09lcU1wTmZKcTJLY0ZRSWNUVWYwYTRoRjN5YmNWWVlVQm9lRzVxdHF2WmtkMDZ3aEFuZ1JKbWxDbkthdlAzU2F2R2JpYUFEbFFUVEVDSHk1X0hyTTluNjk4bTV0S3BxM3JnWlhhcHVQbHVHc3hOQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeHdiRFROQzB3ZGNzX0NhLUxuUWQ3d0E2VFpPeENYVHgtNkRfdUlKM09pUlBZVjE4bVVkdjJ0OS1ZV21oX2g3cU1GdjVleXI1TUs3d2xSc3h4aER2V1NTQ25ZdnYtWVlMd3hJNHJWQ0lJUVZEVjR6UFJNb05yd2pRaHFOeGpNaXU0ZW9PT2JUYUJlOExHay1pSjloc2c1ZFJ6SXRBU0dBMTN6cFBFMkZlV1FJZTFLZ0ZUOXFya3dEb1dpMHEwT0JmWUZ2VlJlYy1W?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtMnRnLU5wMzZ6ejQ2SXYwXzRBUFMwOWY4amkzNjdSR1JOYl9rOHNfVzF4R2JlN0QzandnUVhEa1pVWHkwQXZCeXMtZmpZZ2dJX2J6R0VoSG1sMjJ4VmE5a3lZMUJDZlh1d3ZTM0lKMVZIRTg2cmlLdmh6Vmk?oc=5",
+      "https://finance.yahoo.com/markets/stocks/articles/qualitate-raises-7-million-bring-130000751.html"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -242046,10 +242091,10 @@
     "status": null,
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": "Undisclosed round type",
+    "last_round_type": "Series B",
     "last_round_amount": 10000000.0,
     "last_round_currency": "EUR",
-    "last_round_date": "2022-06-23",
+    "last_round_date": "2025-03-03",
     "funding_rounds": [
       {
         "stage": "Series A",
@@ -242070,6 +242115,16 @@
         "date_basis": "snippet"
       },
       {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "EUR",
+        "date": "2025-03-03",
+        "investors": [],
+        "source_url": "https://www.finanznachrichten.de/nachrichten-2025-03/64718152-osivax-secures-strategic-funding-to-accelerate-the-development-of-its-influenza-vaccine-candidates-004.htm",
+        "date_basis": "snippet",
+        "history_new": true
+      },
+      {
         "stage": "Undisclosed round type",
         "amount": 19500000.0,
         "currency": "USD",
@@ -242083,9 +242138,16 @@
     "funding_source_urls": [
       "https://osivax.com/osivax-secures-eur-8-million-of-financing-%e2%80%8b-through-a-series-a-round/",
       "https://osivax.com/osivax-secures-eur-10m-grant-from-bpifrance-to-support-clinical-development-of-ovx836-a-broad-spectrum-influenza-vaccine/",
-      "https://osivax.com/news/"
+      "https://osivax.com/news/",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbHVkSTJLb2l0N1JoNVFzTml6NzZyQTJWOUdNdk9Pbm1wbjdPOUFiRkdMSThVNlpQOG5EbU44ZnlJYUZKR1ZVVVNxZU5mbFBsZ1ZfZTAyUW5Pd0xEVTNUalBIRE1HXzJpckVuVUJQSV9JTGpUMzR5QzhmVEh0N05YOENlQk5BOGZWbmdyV1FOdzZRT3M4ckR3SDhWMmVfcjJNUWp2WGNtLTlqYVdWVDZaaHl6ZjV1RlVGUUp0REQ1Q0ZXX0tDTi13OFhXdFU3d0xMaFVtWA?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBQUt5TW8wLXRZX0U5OE0zeVRiVHkwUW5ORmlxdXZwUDlJOXluYkJha3h0dy1IMEFjNkNkMW5FUlZxS2pXRXBrdE5Qb2N1bGF2WU5BRjM5TFVzX09IWmMydEtrX2wzRFZ6RmNYdmplTTZNU0g2TlFHdF9NTzBCVHM?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWW1ueTB4Yjl5TFhPY2FKcUxqLTFRaFJMVXNXWjdyQUJaZ2pTOG81X21qRXR2S2szdHRxaUtlRXVPSEc3MWt3cUVFamQxQVhSbGhCRTdRVi1BemI1amtWRnA5TzVqNFU0TmUzNDJpZE84TGV0MFJBLXNGdlRMRkFRclBxdjBkdjVn?oc=5",
+      "https://www.businesswire.com/news/home/20250303843963/en/Osivax-Secures-Strategic-Funding-to-Accelerate-the-Development-of-its-Influenza-Vaccine-Candidates",
+      "https://www.streetinsider.com/Business+Wire/Osivax+Receives+Over+EUR+30M+in+Public+Funding+to+Support+Development+of+Universal+Coronavirus+%26amp%3B+Influenza+Vaccines/17091588.html",
+      "https://www.fiercebiotech.com/biotech/french-biotech-osivax-nabs-funding-boost-for-universal-flu-coronavirus-vaccine-work",
+      "https://www.finanznachrichten.de/nachrichten-2025-03/64718152-osivax-secures-strategic-funding-to-accelerate-the-development-of-its-influenza-vaccine-candidates-004.htm"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -440076,14 +440138,24 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": 7000000,
+    "total_raised": 10800000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
-    "last_round_type": "Undisclosed round type",
-    "last_round_amount": 7000000.0,
+    "last_round_type": "Seed",
+    "last_round_amount": 3800000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
+    "last_round_date": "2022-06-07",
     "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3800000.0,
+        "currency": "USD",
+        "date": "2022-06-07",
+        "investors": [],
+        "source_url": "https://betakit.com/payshepherd-closes-3-8-million-cad-to-fuel-north-american-expansion-of-contractor-billing-solution/",
+        "date_basis": "snippet",
+        "history_new": true
+      },
       {
         "stage": "Undisclosed round type",
         "amount": 7000000.0,
@@ -440094,12 +440166,18 @@
       }
     ],
     "grants": [],
-    "funding_status": "unclear-round-type",
+    "funding_status": "seed+",
     "funding_source_urls": [
       "https://www.payshepherd.com/",
-      "https://www.payshepherd.com/blog/7m-funding-round"
+      "https://www.payshepherd.com/blog/7m-funding-round",
+      "https://www.businesswire.com/news/home/20240306181794/en/PayShepherd-Secures-$7M-to-Solve-Heavy-Industrys-Biggest-Challenge-with-Contractor-Management",
+      "https://www.pymnts.com/news/investment-tracker/2024/payshepherd-raises-7-million-for-vendor-management-platform/",
+      "https://betakit.com/payshepherd-closes-3-8-million-cad-to-fuel-north-american-expansion-of-contractor-billing-solution/",
+      "https://betakit.com/contractor-management-platform-payshepherd-closes-7-million-cad-as-product-market-expansion-continues/",
+      "https://www.canadianmanufacturing.com/features/payshepherd-targeting-contract-manufacturers-with-platform-to-sort-out-billing-errors/",
+      "https://financialpost.com/pmn/business-wire-news-releases-pmn/payshepherd-secures-7m-to-solve-heavy-industrys-biggest-challenge-with-contractor-management"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -601152,13 +601230,13 @@
     "stage": null,
     "first_invested": null,
     "status": "acquired",
-    "total_raised": 4660000,
+    "total_raised": 7660000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
-    "last_round_type": "Form D offering (round type not stated)",
-    "last_round_amount": 2900000.0,
+    "last_round_type": "Series A",
+    "last_round_amount": 3000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2015-07-23",
+    "last_round_date": "2016-03-03",
     "funding_rounds": [
       {
         "stage": "Form D offering (round type not stated)",
@@ -601177,16 +601255,30 @@
         "investors": [],
         "source_url": "https://www.sec.gov/Archives/edgar/data/1651131/000165113115000001/primary_doc.xml",
         "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2016-03-03",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/pathmatics-raises-3-million-in-series-a-funding-to-bring-transparency-to-programmatic-advertising-300230084.html",
+        "date_basis": "text",
+        "history_new": true
       }
     ],
     "grants": [],
-    "funding_status": "unclear-round-type",
+    "funding_status": "seed+",
     "funding_source_urls": [
       "https://sensortower.com:443/product/digital-advertising/pathmatics",
       "https://www.sec.gov/Archives/edgar/data/1651131/000165113115000002/primary_doc.xml",
-      "https://www.sec.gov/Archives/edgar/data/1651131/000165113115000001/primary_doc.xml"
+      "https://www.sec.gov/Archives/edgar/data/1651131/000165113115000001/primary_doc.xml",
+      "https://www.prnewswire.com/news-releases/pathmatics-raises-3-million-in-series-a-funding-to-bring-transparency-to-programmatic-advertising-300230084.html",
+      "https://labusinessjournal.com/media/pathmatics-raises-3-million-launches-new-ad-data/",
+      "https://www.mrweb.com/drno/news27044.htm",
+      "https://www.mrweb.com/drno/news22304.htm"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -713992,7 +714084,7 @@
     "stage": null,
     "first_invested": "2023",
     "status": "active",
-    "total_raised": 23000000,
+    "total_raised": 44000000,
     "total_raised_currency": "GBP",
     "total_raised_basis": "sum_of_sourced_rounds",
     "last_round_type": "Undisclosed round type",
@@ -714000,6 +714092,16 @@
     "last_round_currency": "GBP",
     "last_round_date": "2026-01-22",
     "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 21000000.0,
+        "currency": "GBP",
+        "date": "2023-07-17",
+        "investors": [],
+        "source_url": "https://www.cityam.com/uk-optical-chip-company-optalysys-bags-21m-in-funding-round/",
+        "date_basis": "snippet",
+        "history_new": true
+      },
       {
         "stage": "Undisclosed round type",
         "amount": 23000000.0,
@@ -714014,9 +714116,14 @@
     "funding_status": "unclear-round-type",
     "funding_source_urls": [
       "https://optalysys.com/",
-      "https://optalysys.com/resource/optalysys-secures-23m-funding-to-advance-photonic-computing/"
+      "https://optalysys.com/resource/optalysys-secures-23m-funding-to-advance-photonic-computing/",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaFRqNDE3LWk1bWw5V1VUTlRLbEZYMVFlZ1BIQXI1OWtDaDNFTDVXTTdBNERUazNzd0F0dGZab0xlSUFDZVRxLU5QcWs3aUE3aFhKb3M0RWpJOE5HUURETkp5ejNMY0s2N2F5ckJmQjA3ZmthdE43R1RCRnh0UFd3em5NcHE4U2dweUFKR3pDQ2xDclZvVGpnVzZUbDBCc1RxSzBFVVBTTmMzTjJvbk1WeTQtd1ZSaWVUS2RRNlRUcjUzVUxtd1JaX1dLVzRJWjk1d2Ztem5TWGVJa2c?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOFJfcTQ4c0wtNXFOYk9qYlJCMmVkVnBZMkdiYXRINmFMZ0JDcXZWbWI0TFV3X1QxRDViMmNxS1IxVEtoVEVrdFFFY1ZYWFJfaFI3Zlc0TmpLNkhsUzd6cWZOYmJ5cjNrMkxuU203b05sSnBmRm1zU1J0V0xhNEd2SjRXb2JRSGJpNW54YUhyNE1VRU03bDZnTG5pTzNMcmpSaFd3?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFdMdVF4OWVTdGpBeFROOFdaZHBmMEUzcGJzRTJydnI4QmdkRGc4OS1JcnhmdU5OZVFpbF8xUmFuS0hrU2YwbkFENDJHaGV1WWdqQVJPM1BRQ0R2akVjTE1iMlFIblo3OGJ3dGlMTXNob1oxNENMQm56Q0l5NUpWVDI0TW5NbncwUlFMaVlzUlFPY3ctODdR?oc=5",
+      "https://futurism.com/light-based-computing-company-optalysys-gets-darpa-funding",
+      "https://www.cityam.com/uk-optical-chip-company-optalysys-bags-21m-in-funding-round/"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21"
   },
   {
@@ -823907,11 +824014,18 @@
       }
     ],
     "grants": [],
-    "funding_status": "unclear-round-type",
+    "funding_status": "seed+",
     "funding_source_urls": [
       "https://petfolk.com/",
       "https://www.sec.gov/Archives/edgar/data/1985790/000198579023000001/primary_doc.xml",
-      "https://www.sec.gov/Archives/edgar/data/1985790/000198579026000002/primary_doc.xml"
+      "https://www.sec.gov/Archives/edgar/data/1985790/000198579026000002/primary_doc.xml",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOelgyN2hIZ0lmQmRhYjVfM1BsUkZOcEg0LU1VTlQ1ejFCcmMwOEV4RnlUQi1WS1FYWWVjLXFnZkRTSEJYdmh2aGV1YmxCUmN3YlFobHpkdnZLdE0yY1BVUW9PZ1JfZnpSeUZxSjYzZmpLTDFzOXJBY0FSMGdkZERjWHR1cnppcmRPc2JnV0FpTHV6MWdWSm5XNVgwd1c0eDFWMGJ3LTR3?oc=5",
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNV0hrU01uV1owdnc4dm5wWGRBY3Y4emFZaTNKRHE2YURON2FWaWJDNmVnbjJEbExyREw4MGJqblRZX0Y3Y2NsUGltQUwxQVQwRjctSlhwTTZfRUFld3hwWEJrVHNoNmVSbVNuUnU3YVhiRFd4S0w0N1Y2cGpBbDVCcldKZDY2NUtIQkVibE9hUDNMbkVOM1dhMXl0eHRxbDVEeXNWNHJYLWU2ODFNYk1POGJ3NjNrbzB0Ql83VC1BVzBNOTlCajU5Sklpc25FQm92YkxEUi1hTmVEUUxkSDkycFV5U2VWSHdNTG14aDVKb1FINFAzQzlz?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYUx6anpwWm5WaDFfQUhSS1BFQWV0ME9uRi10b0YwODRpUVpfa3RJVUJWX0ZNdW95RFVXZTNLSW55WE9ibHQ3aHY5MEMtQjlpYzN4ekliWUplSC1EUWxoUGxwSUQ2VlpyNzJOaTdza29nZ09JRFhDbzJZVTJMejdZaUloQS1BTEE?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSjN0cG1ZMDZWYWR6RU50cWR4T3g0QWN4d1ZneTRKaU5jX244U21QOE8yY2djNTZFTXFIMFhhbTQzZ0lLMEFDU3piejZwZGlQVFVzU0h0d2R5OFlReFc3ZU5mOXBNMXlHc0V0NzRLcHVBZ2w0SHhjUXZFU1VzOFBMTFFkX04xaUhmUUNJOGhqMk9Fc3lRejRyRnAyTy0?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSlBST21uZTVMMGM1S3gwdGxCZlRsYU9laHBZcUVTUy0zWGFjcm9iNnBIRTBGYWdOQ1l6UDNnODJhSnNrMDNuOERJUEZseTJ2cTlkVEQtNmpRR0VaTFVieDRyclM2eDF3VDFQcjFvLWZoWXlFN2xNVERSWHRjbWJaMnczN3dWMmlBbkpKMWdQenBFcDExM0puQUZpU0tPTGphNHBQQXV6cWpxRlhtYzdYazdWOU91bHFmcVd1eTRvX2JQSi1tcndBRkNhRENOQ0RKN0E2NWR3?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZHh4cURyZWt4OUdPTVFmRGgzR3g2M2VuWFczcmV4ZF9FUU0tQ2hFNDlVZnNOWlA1N0dEWUJESnRRbi1ZYndIcUoxWk1LUlZhMjhIWFNOMWNMVXpkTGZZZHl0YjhiMmZUNHpyekpVM05BbU5xTDRNSzBaT1VYUmJGR19MVS1ENkxXZzBzQW9RbUpIUnRfazVUcVZOZUsyY0hJdXpocmxsWFd3d3dzZXJoNnRKYlBoVTUzUm55bXBXci1SNWd1Z2ZJWUJn?oc=5",
+      "https://www.prnewswire.com/news-releases/petfolk-raises-40m-in-series-b-funding-to-continue-the-evolution-of-veterinary-care-301961324.html"
     ],
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
     "funding_checked": "2026-10-21"
