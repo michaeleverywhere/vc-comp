@@ -4221,18 +4221,51 @@
     "scraped_at": "2026-10-12T21:16:17+00:00",
     "primary_investor": "Foundry Group",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 119500000.0,
+        "currency": "USD",
+        "date": "2021-05-27",
+        "investors": [],
+        "source_url": "https://betakit.com/vendasta-secures-119-5-million-in-venture-funding-after-pausing-ipo-plans/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series E",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-10-11",
+        "investors": [],
+        "source_url": "https://betakit.com/vendasta-closes-20-million-series-e-to-fund-acquisitions-converts-existing-debt-into-equity/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1400000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/economy/policy/articles/canada-funding-ai-workforce-local-133200379.html"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://betakit.com/vendasta-secures-119-5-million-in-venture-funding-after-pausing-ipo-plans/",
+      "https://finance.yahoo.com/economy/policy/articles/canada-funding-ai-workforce-local-133200379.html",
+      "https://betakit.com/vendasta-closes-20-million-series-e-to-fund-acquisitions-converts-existing-debt-into-equity/",
+      "https://www.manilatimes.net/2026/05/07/tmt-newswire/globenewswire/canada-is-funding-the-ai-workforce-for-local-businesses-vendasta-is-building-it/2338594"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 140900000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series E",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-11",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Victorops",

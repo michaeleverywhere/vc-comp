@@ -82579,18 +82579,64 @@
     "primary_investor": "Alumni Ventures",
     "source_url": "https://www.av.vc/portfolio",
     "scraped_at": "2026-10-18T13:43:04.115388+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4500000.0,
+        "currency": "USD",
+        "date": "2025-10-23",
+        "lead_investors": [
+          "Laude Ventures"
+        ],
+        "investors": [
+          "Laude Ventures"
+        ],
+        "source_url": "https://techcrunch.com/2025/10/23/tensormesh-raises-4-5m-to-squeeze-more-inference-out-of-ai-server-loads/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Seed",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "AMD’s AMD Ventures",
+          "CoreWeave",
+          "NVIDIA’s NVentures",
+          "Valley Capital Partners",
+          "Laude Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5RUW53Q0g1eEZ6dk91TWRqT1pDa2xZU3FXNXdqZndfcUY0RVMxMkwxZ1lEZS1Hbjh0S2dxQVlqaDdQQllONUlJd3EyZHl4X3VOQkFuYl9zVE9ST2lsT3M4ZXpPZmd1MFZlMlY2dF9hUWFaUEhSUGlhbmNFdFJVQVRRMWhyU1R0X3hlOTRZZnRZYnFFT2JvQmQtRk9fN0I2Mlg3U3BiMXpINkpsYi13?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5RUW53Q0g1eEZ6dk91TWRqT1pDa2xZU3FXNXdqZndfcUY0RVMxMkwxZ1lEZS1Hbjh0S2dxQVlqaDdQQllONUlJd3EyZHl4X3VOQkFuYl9zVE9ST2lsT3M4ZXpPZmd1MFZlMlY2dF9hUWFaUEhSUGlhbmNFdFJVQVRRMWhyU1R0X3hlOTRZZnRZYnFFT2JvQmQtRk9fN0I2Mlg3U3BiMXpINkpsYi13?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLUpuMWMwZVhBZWo3Nmg1cUtRRzZtMGQxMmxubHJ0ZDgyLTU4ckdaM1dqZVZaQW1fY3YxNGVKRF96SnNCSE1UV3BnR195T3RFam00TGdfQ1FpUzN6b3ZCaW5ONVN1YXI1WW5mV29DeDhfQ3MyNlpJOEpuaU83UFlWNldMSW5SRVphZWVhcm5ocDktVmt3MVczUW1SNlZ3V2ZIM2pJSC1NUnAtWDYzN3VIdGlDVkJLZDlKUG0wRUl3YzZIMjJfTDJCYTRHZw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNODdMSWtrTkM2aV9xVHZVeUlUbGpnb29PMDY4a2N6dXNKdjVqRHB3Vldzb1ZiSzF2VUhqdFFQUWxFeVhaMUFEWTRBVzRPak9CRVVpWFRkVGV4bnFjZTcxeFRFWHpQNDZMS1AzQ2prd21qTWNhYWRKZFc0LWNqUzcyLUMxVDlqNE1MR3lkeVZiZzUxWlVod1FxdU5PQVhkZkpnWGpHY0pmNGhLUQ?oc=5",
+      "https://pulse2.com/tensormesh-4-5-million-seed-funding-raised-for-ai-inference-efficiency/",
+      "https://techcrunch.com/2025/10/23/tensormesh-raises-4-5m-to-squeeze-more-inference-out-of-ai-server-loads/",
+      "https://pulse2.com/tensormesh-20-million-raised-to-scale-kv-caching-infrastructure-for-enterprise-ai-inference/",
+      "https://markets.financialcontent.com/prnews/article/bizwire-2026-5-27-tensormesh-raises-20m-from-investors-including-amd-ventures-coreweave-nventures-launches-tensormesh-inference-to-fix-ais-most-expensive-problem",
+      "https://finance.yahoo.com/news/tensormesh-raises-4-5m-squeeze-160000457.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 24500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-10-23",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Laude Ventures",
+      "AMD’s AMD Ventures",
+      "CoreWeave",
+      "NVIDIA’s NVentures",
+      "Valley Capital Partners"
+    ]
   },
   {
     "company_name": "Teradar",
@@ -89512,10 +89558,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://virdee.ai/"
+      "https://virdee.ai/",
+      "https://finance.yahoo.com/news/virdee-closes-12-4m-series-130000990.html",
+      "https://pulse2.com/virdee-recently-raised-9-million-in-series-seed-funding/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

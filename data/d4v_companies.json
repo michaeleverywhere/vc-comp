@@ -1578,20 +1578,43 @@
     "primary_investor": "D4V",
     "source_url": "https://d4v.com/portfolio/",
     "scraped_at": "2026-10-18T21:48:00.131292+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2018-12-14",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/in/news-releases/umitron-secures-us2-million-project-funding-from-the-inter-american-development-bank-to-deliver-iot-and-ai-technology-to-drive-growth-of-sustainable-aquaculture-in-lake-titicaca-peru-702747392.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/remote-fish-feeding-management-startup-umitron-raises-additional-220000312.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://umitron.com/"
+      "https://umitron.com/",
+      "https://www.prnewswire.com/in/news-releases/umitron-secures-us2-million-project-funding-from-the-inter-american-development-bank-to-deliver-iot-and-ai-technology-to-drive-growth-of-sustainable-aquaculture-in-lake-titicaca-peru-702747392.html",
+      "https://sg.news.yahoo.com/umitron-gets-us-2m-funding-ai-fish-feeding-053845253.html",
+      "https://sg.news.yahoo.com/remote-fish-feeding-management-startup-umitron-raises-additional-220000312.html",
+      "https://www.businesstimes.com.sg/startups-tech/startups/aquaculture-tech-startup-umitron-snags-us2m-funding-peru-project"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-12-14",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "UNBEREAL",
