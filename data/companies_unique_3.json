@@ -1,5 +1,158 @@
 [
  {
+  "company_id": "fleetsmith.com",
+  "name": "Fleetsmith",
+  "website": "https://www.fleetsmith.com/",
+  "domain": "fleetsmith.com",
+  "website_alternates": [
+   "https://www.apple.com/"
+  ],
+  "description": "Fleetsmith helped companies put device management on auto-pilot by automating new device setup, inventory, patching, and security for their Macs, iPhones, iPads, and Apple TVs.",
+  "description_alternates": [
+   "Secure, cloud-based Mac device fleet management for offices and employees"
+  ],
+  "everywhere_tags": [
+   "Cybersecurity",
+   "Transportation / Mobility",
+   "Dev Tools / Cloud",
+   "Future of Work",
+   "Logistics / Supply Chain"
+  ],
+  "location": "San Francisco, CA",
+  "status": "acquired",
+  "exited": true,
+  "vc_firms": [
+   "Menlo Ventures",
+   "Upfront Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Menlo Ventures",
+    "slug": "menlo",
+    "source_row": "data/menlo_companies.json#94",
+    "name_on_source": "Fleetsmith",
+    "matched_by": "name",
+    "stage": "Series B",
+    "first_invested": 2019,
+    "status": "acquired",
+    "url_on_source": "https://www.apple.com/"
+   },
+   {
+    "type": "vc",
+    "name": "Upfront Ventures",
+    "slug": "upfront",
+    "source_row": "data/upfront_companies.json#62",
+    "name_on_source": "Fleetsmith",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": "acquired"
+   }
+  ],
+  "total_raised": 39097045,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Form D offering (round type not stated)",
+   "amount": 29297053.0,
+   "currency": "USD",
+   "date": "2019-04-05"
+  },
+  "funding_round_count": 3,
+  "funding_rounds": [
+   {
+    "stage": "Form D offering (round type not stated)",
+    "amount": 3099997.0,
+    "currency": "USD",
+    "date": "2016-03-14",
+    "investors": [],
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1669507/000166950716000003/primary_doc.xml",
+    "date_basis": "snippet"
+   },
+   {
+    "stage": "Form D offering (round type not stated)",
+    "amount": 6699995.0,
+    "currency": "USD",
+    "date": "2017-09-12",
+    "investors": [],
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1669507/000166950718000001/primary_doc.xml",
+    "date_basis": "snippet"
+   },
+   {
+    "stage": "Form D offering (round type not stated)",
+    "amount": 29297053.0,
+    "currency": "USD",
+    "date": "2019-04-05",
+    "investors": [],
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1669507/000166950719000001/primary_doc.xml",
+    "date_basis": "snippet"
+   }
+  ],
+  "funding_source_urls": [
+   "https://www.channele2e.com/news/fleetsmith-series-b-funding",
+   "https://business.apple.com/",
+   "https://www.sec.gov/Archives/edgar/data/1669507/000166950716000003/primary_doc.xml",
+   "https://www.sec.gov/Archives/edgar/data/1669507/000166950718000001/primary_doc.xml",
+   "https://www.sec.gov/Archives/edgar/data/1669507/000166950719000001/primary_doc.xml"
+  ],
+  "funding_status": "unclear-round-type",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing"
+  ]
+ },
+ {
+  "company_id": "name:fleetup",
+  "name": "FleetUp",
+  "website": null,
+  "domain": null,
+  "description": null,
+  "everywhere_tags": [
+   "Transportation / Mobility"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Sazze Partners"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Sazze Partners",
+    "slug": "sazzepartners",
+    "source_row": "data/sazzepartners_companies.json#36",
+    "name_on_source": "FleetUp",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
   "company_id": "fleetworks.ai",
   "name": "FleetWorks",
   "website": "https://www.fleetworks.ai/",
@@ -251166,9 +251319,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#87",
     "name_on_source": "Ghost Commander",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Form D equity",
     "first_invested": false,
     "status": null,
+    "round": "Form D equity",
+    "amount_raised": "$200,000",
     "date": "Betaworks LiveCamp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -251177,23 +251332,34 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 200000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Equity (SEC Form D)",
+   "amount": 200000,
+   "currency": "USD",
+   "date": "2018-11-21"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.ghostcommander.com/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Equity (SEC Form D)",
+    "amount": 200000,
+    "currency": "USD",
+    "date": "2018-11-21",
+    "investors": [],
+    "source_url": "https://formds.com/"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_source_urls": [
+   "https://www.ghostcommander.com/",
+   "https://formds.com/"
+  ],
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-22",
   "funding_notes": [
+   "Domain ghostcommander.com (interactive Twitch livestream studio). SEC Form D reports $200,000 equity (first sale 2018-11-21); round type not stated.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)"
   ]
  },
@@ -625450,9 +625616,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#98",
     "name_on_source": "Hugging Face",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Series D",
     "first_invested": false,
     "status": null,
+    "round": "Series D",
+    "amount_raised": "$395,000,000",
     "date": "Betaworks BotCamp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -625479,7 +625647,7 @@
     "listed_on_site": true
    }
   ],
-  "total_raised": 235000000,
+  "total_raised": 394000000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
@@ -625488,8 +625656,63 @@
    "currency": "USD",
    "date": "2023-08-24"
   },
-  "funding_round_count": 1,
+  "funding_round_count": 5,
   "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 4000000,
+    "currency": "USD",
+    "date": "2018-05-23",
+    "investors": [
+     "a_capital (Ronny Conway, lead)",
+     "Betaworks",
+     "SV Angel",
+     "Kevin Durant"
+    ],
+    "source_url": "https://techcrunch.com/2018/05/23/hugging-face-raises-4-million-for-its-artificial-bff/"
+   },
+   {
+    "stage": "Series A",
+    "amount": 15000000,
+    "currency": "USD",
+    "date": "2019-12-17",
+    "investors": [
+     "Lux Capital (lead)",
+     "A.Capital",
+     "Betaworks"
+    ],
+    "source_url": "https://techcrunch.com/2019/12/17/hugging-face-raises-15-million-to-build-the-definitive-natural-language-processing-library/"
+   },
+   {
+    "stage": "Series B",
+    "amount": 40000000,
+    "currency": "USD",
+    "date": "2021-03-11",
+    "investors": [
+     "Addition (lead)",
+     "Lux Capital",
+     "A.Capital",
+     "Betaworks"
+    ],
+    "source_url": "https://techcrunch.com/2021/03/11/hugging-face-raises-40-million-for-its-natural-language-processing-library/"
+   },
+   {
+    "stage": "Series C",
+    "amount": 100000000,
+    "currency": "USD",
+    "date": "2022-05-09",
+    "investors": [
+     "Lux Capital (lead)",
+     "Sequoia",
+     "Coatue",
+     "Addition",
+     "a_capital",
+     "SV Angel",
+     "Betaworks",
+     "AIX Ventures"
+    ],
+    "source_url": "https://huggingface.co/blog/series-c"
+   },
    {
     "stage": "Series D",
     "amount": 235000000.0,
@@ -625497,8 +625720,27 @@
     "date": "2023-08-24",
     "investors": [],
     "source_url": "https://techcrunch.com/2023/08/24/hugging-face-raises-235m-from-investors-including-salesforce-and-nvidia/",
-    "date_basis": "url"
+    "date_basis": "url",
+    "source_urls": [
+     "https://techcrunch.com/2023/08/24/hugging-face-raises-235m-from-investors-including-salesforce-and-nvidia/",
+     "https://techcrunch.com/"
+    ]
    }
+  ],
+  "notable_investors": [
+   "a_capital (Ronny Conway, lead)",
+   "Betaworks",
+   "SV Angel",
+   "Kevin Durant",
+   "Lux Capital (lead)",
+   "A.Capital",
+   "Addition (lead)",
+   "Lux Capital",
+   "Sequoia",
+   "Coatue",
+   "Addition",
+   "a_capital",
+   "AIX Ventures"
   ],
   "funding_source_urls": [
    "https://techcrunch.com/2023/08/24/hugging-face-raises-235m-from-investors-including-salesforce-and-nvidia/",
@@ -625508,13 +625750,21 @@
    "https://www.commonroom.io/research/hugging-face/investors-funding/",
    "https://www.texau.com/profiles/hugging-face",
    "https://www.reuters.com/technology/ai-startup-hugging-face-valued-45-bln-latest-round-funding-2023-08-24/",
-   "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
+   "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+   "https://huggingface.co/",
+   "https://www.luxcapital.com/news/our-investment-in-hugging-face",
+   "https://techcrunch.com/2018/05/23/hugging-face-raises-4-million-for-its-artificial-bff/",
+   "https://techcrunch.com/2019/12/17/hugging-face-raises-15-million-to-build-the-definitive-natural-language-processing-library/",
+   "https://techcrunch.com/2021/03/11/hugging-face-raises-40-million-for-its-natural-language-processing-library/",
+   "https://huggingface.co/blog/series-c",
+   "https://techcrunch.com/"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Domain huggingface.co. Seed $4M (May 2018), Series A $15M (Dec 2019, Lux), Series B $40M (Mar 2021, Addition), Series C $100M (May 2022, Lux), Series D $235M (Aug 2023). Total is the sum of these disclosed rounds."
   ]
  },
  {
@@ -946673,10 +946923,12 @@
     "source_row": "data/accelerators/betaworks_companies.json#86",
     "name_on_source": "Journey",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Series A",
     "first_invested": false,
     "status": null,
     "url_on_source": "https://journey.live/",
+    "round": "Series A",
+    "amount_raised": "$10,400,000",
     "date": "Betaworks LiveCamp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -946710,27 +946962,70 @@
   "possible_matches": [
    "journeymeditation.com"
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 10400000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A",
+   "amount": 8000000,
+   "currency": "USD",
+   "date": "2025-07-30"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 2400000,
+    "currency": "USD",
+    "date": "2019-05-07",
+    "investors": [
+     "Canaan (lead)",
+     "Brooklyn Bridge Ventures",
+     "Betaworks",
+     "BDMI",
+     "The Fund",
+     "Nelstone Ventures",
+     "New York Venture Partners"
+    ],
+    "source_url": "https://vator.tv/2019-05-07-journey-raises-24-million-to-launch-its-meditation-app-with-real-time-classes/"
+   },
+   {
+    "stage": "Series A",
+    "amount": 8000000,
+    "currency": "USD",
+    "date": "2025-07-30",
+    "investors": [
+     "Cambrian Growth Partners (lead)",
+     "ManchesterStory"
+    ],
+    "source_url": "https://www.manchesterstory.com/insights/journey-raises-8m-to-replace-outdated-eaps-with-the-first-proactive-mental-health-platform-for-workplaces"
+   }
+  ],
+  "notable_investors": [
+   "Canaan (lead)",
+   "Brooklyn Bridge Ventures",
+   "Betaworks",
+   "BDMI",
+   "The Fund",
+   "Nelstone Ventures",
+   "New York Venture Partners",
+   "Cambrian Growth Partners (lead)",
+   "ManchesterStory"
+  ],
   "funding_source_urls": [
    "https://www.journey.com/",
    "https://journey.ai/",
+   "https://journey.live/",
+   "https://vator.tv/2019-05-07-journey-raises-24-million-to-launch-its-meditation-app-with-real-time-classes/",
+   "https://www.manchesterstory.com/insights/journey-raises-8m-to-replace-outdated-eaps-with-the-first-proactive-mental-health-platform-for-workplaces",
    "https://journey.io/",
    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYUZIRmp2OEVRNTZ1YXVQLUZuWjlJWW90bVJibDRESjJwODBGNWUwSGFydHJWcXZfQzg1ekFDTG1tOXdtSW41SDE0LUc1WHoySUxra3ZmWEkzbERSUXNwQ3VScmlFd3VMYTVRLV9OaWk2R2lJSjAybDI4bE16TVM0WHdvclFiVlZVTnNkemwxZWctaGlVS3BGa245eUF3SDZJTUN6LXh4Qjd5NDhrUDZQeXE4Y0RrUQ?oc=5"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "Domain journey.live (Journey; live meditation app turned workplace mental health platform). $2.4M seed (May 7, 2019, Canaan) and $8M Series A (Jul 30, 2025, Cambrian Growth Partners). Journey Clinical is unrelated. Total is the sum of disclosed rounds.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -948478,11 +948773,13 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_source_urls": [
-   "https://jovo.tech/"
+   "https://jovo.tech/",
+   "https://www.jovo.tech/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-22",
   "funding_notes": [
+   "Domain jovo.tech. A EUR 2M seed led by HTGF (Jan 2024) appears only in an aggregator summary; no primary source found, so not recorded.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -1206648,313 +1206945,6 @@
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)"
-  ]
- },
- {
-  "company_id": "leadpages.com",
-  "name": "Leadpages",
-  "website": "http://leadpages.com/",
-  "domain": "leadpages.com",
-  "description": "Enabling entrepreneurs and marketers to quickly publish websites and landing pages without relying on web developers or freelancers.",
-  "everywhere_tags": [
-   "Dev Tools / Cloud",
-   "Gaming / Media / Entertainment"
-  ],
-  "location": "Minneapolis",
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Drive Capital"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Drive Capital",
-    "slug": "drivecapital",
-    "source_row": "data/drivecapital_companies.json#9",
-    "name_on_source": "Leadpages",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://leadpages.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "leadplus.co.jp",
-  "name": "Leadplus Co., Ltd.",
-  "website": "https://www.leadplus.co.jp/",
-  "domain": "leadplus.co.jp",
-  "description": "One stop digital marketing agency that provides integrated service for Inbound and Outbound marketing.",
-  "everywhere_tags": [],
-  "location": null,
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Salesforce Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Salesforce Ventures",
-    "slug": "salesforceventures",
-    "source_row": "data/salesforceventures_companies.json#179",
-    "name_on_source": "Leadplus Co., Ltd.",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "leadqualify.ai",
-  "name": "LeadQualify",
-  "website": "https://leadqualify.ai/",
-  "domain": "leadqualify.ai",
-  "description": null,
-  "everywhere_tags": [],
-  "location": "Cambridge, MA, USA",
-  "status": null,
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "MIT delta v"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "MIT delta v",
-    "slug": "mitdeltav",
-    "source_row": "data/accelerators/mitdeltav_companies.json#32",
-    "name_on_source": "LeadQualify",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": "2024-01-01",
-    "status": null,
-    "date": "MIT delta v 2024",
-    "investors": "MIT delta v",
-    "source": "MIT delta v",
-    "source_url": "https://entrepreneurship.mit.edu/accelerator/past-teams/",
-    "batch_date": "2024-01-01",
-    "batch_date_precision": "year",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "salesgenius.com",
-  "name": "LeadRocket",
-  "website": "https://www.salesgenius.com",
-  "domain": "salesgenius.com",
-  "description": "Acquired by Callidus Software. Provider of business-to-business e-mail marketing software for sales and marketing professionals. The company also provides customer support, campaign services, training, implementation and integration services.",
-  "everywhere_tags": [
-   "Deeptech / Robotics / AR/VR",
-   "Future of Work"
-  ],
-  "location": "United States",
-  "status": "acquired",
-  "exited": true,
-  "vc_firms": [
-   "Wti"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Wti",
-    "slug": "wti",
-    "source_row": "data/wti_companies.json#734",
-    "name_on_source": "LeadRocket",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": "2006",
-    "status": "acquired"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "leadrpro.com",
-  "name": "LeadrPro",
-  "website": "https://www.leadrpro.com/",
-  "domain": "leadrpro.com",
-  "description": "LeadrPro is the first online marketplace connecting buyers with sellers of Saas products",
-  "everywhere_tags": [
-   "Consumer",
-   "Future of Work"
-  ],
-  "location": null,
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Gaingels"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Gaingels",
-    "slug": "gaingels",
-    "source_row": "data/gaingels_companies.json#1397",
-    "name_on_source": "LeadrPro",
-    "matched_by": "domain",
-    "stage": "Seed",
-    "first_invested": null,
-    "status": "active"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.leadrpro.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)"
-  ]
- },
- {
-  "company_id": "leadsperhour.com",
-  "name": "Leads Per Hour",
-  "website": "https://www.leadsperhour.com",
-  "domain": "leadsperhour.com",
-  "description": "LPH: infraestrutura de agentes de IA para vendas B2B. Três agentes: Prospect (pipeline 24/7), Meet (coaching ao vivo) e Roleplay (treino calibrado) num flywheel fechado. ~100 clientes no Brasil.",
-  "everywhere_tags": [
-   "Future of Work"
-  ],
-  "verticals": [
-   "Produtividade"
-  ],
-  "location": "Brasil, Estados Unidos",
-  "status": null,
-  "linkedin_url": "https://www.linkedin.com/company/leads-per-hour",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Cubo Itau"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Cubo Itau",
-    "slug": "cuboitau",
-    "source_row": "data/accelerators/cuboitau_companies.json#406",
-    "name_on_source": "Leads Per Hour",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Cubo Itaú startup (vitrine)",
-    "investors": "Cubo Itau",
-    "source": "Cubo Itaú",
-    "source_url": "https://cubo.itau/startups-portfolio/leads-per-hour",
-    "linkedin_source": "company website",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://leadsperhour.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  }
 ]

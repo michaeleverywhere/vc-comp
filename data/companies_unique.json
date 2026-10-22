@@ -633376,9 +633376,10 @@
     "source_row": "data/accelerators/betaworks_companies.json#78",
     "name_on_source": "Auxuman",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Undisclosed",
     "first_invested": false,
     "status": null,
+    "round": "Undisclosed",
     "date": "Betaworks Synthetic Camp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -633391,19 +633392,39 @@
   "total_raised_currency": null,
   "total_raised_basis": null,
   "last_round": {
-   "type": null,
+   "type": "Undisclosed",
    "amount": null,
    "currency": null,
-   "date": null
+   "date": "2023-01-31"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://auxuman.space/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed",
+    "amount": null,
+    "currency": "USD",
+    "date": "2023-01-31",
+    "investors": [
+     "Mark Cuban",
+     "Tess Hau",
+     "Betaworks Ventures"
+    ],
+    "source_url": "https://www.prnewswire.com/"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "notable_investors": [
+   "Mark Cuban",
+   "Tess Hau",
+   "Betaworks Ventures"
+  ],
+  "funding_source_urls": [
+   "https://auxuman.space/",
+   "https://www.prnewswire.com/"
+  ],
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain auxuman.space. PR Newswire release (Jan 31, 2023) lists investors Mark Cuban, Tess Hau and Betaworks Ventures; no amount or round type disclosed.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -1052362,9 +1052383,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#83",
     "name_on_source": "Bunch",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Series A",
     "first_invested": false,
     "status": null,
+    "round": "Series A",
+    "amount_raised": "$23,800,000",
     "date": "Betaworks LiveCamp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -1052378,24 +1052401,73 @@
    "bunch.capital",
    "mini.party"
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 23800000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A",
+   "amount": 20000000,
+   "currency": "USD",
+   "date": "2020-09-17"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://bunch.live/"
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 3800000,
+    "currency": "USD",
+    "date": "2018-11-15",
+    "investors": [
+     "London Venture Partners (lead)",
+     "Founders Fund",
+     "Betaworks",
+     "Shrug Capital",
+     "North Zone",
+     "Streamlined Ventures",
+     "500 Startups"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/bunch-raises-3-8m-in-seed-funding-to-bring-group-video-chat-to-mobile-games-300751076.html"
+   },
+   {
+    "stage": "Series A",
+    "amount": 20000000,
+    "currency": "USD",
+    "date": "2020-09-17",
+    "investors": [
+     "General Catalyst (lead)",
+     "Electronic Arts",
+     "Take-Two Interactive",
+     "Ubisoft"
+    ],
+    "source_url": "https://www.businesswire.com/news/home/20200917005244/en/Bunch-Closes-%2420-Million-Series-A-Financing"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "notable_investors": [
+   "London Venture Partners (lead)",
+   "Founders Fund",
+   "Betaworks",
+   "Shrug Capital",
+   "North Zone",
+   "Streamlined Ventures",
+   "500 Startups",
+   "General Catalyst (lead)",
+   "Electronic Arts",
+   "Take-Two Interactive",
+   "Ubisoft"
+  ],
+  "funding_source_urls": [
+   "https://bunch.live/",
+   "https://www.bunch.live/",
+   "https://www.finsmes.com/2018/11/bunch-raises-3-8m-in-seed-funding.html",
+   "https://www.forbes.com/sites/abrambrown/2020/09/17/social-gaming-startup-bunch-snags-20-million-series-a-backing-from-major-game-studios/",
+   "https://www.prnewswire.com/news-releases/bunch-raises-3-8m-in-seed-funding-to-bring-group-video-chat-to-mobile-games-300751076.html",
+   "https://www.businesswire.com/news/home/20200917005244/en/Bunch-Closes-%2420-Million-Series-A-Financing"
+  ],
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain bunch.live (Bunch; party app for multiplayer mobile games). $3.8M seed (Nov 15, 2018, LVP lead) and $20M Series A (Sep 17, 2020, General Catalyst lead). Bunch.capital (Berlin fintech) is unrelated."
   ]
  },
  {
@@ -1084796,9 +1084868,10 @@
    "https://cadmium.app/",
    "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/cadmium"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain cadmium.app. Only aggregator profiles; no funding publicly reported in primary or news sources.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -1106616,9 +1106689,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#88",
     "name_on_source": "Camera IQ",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Series A",
     "first_invested": false,
     "status": null,
+    "round": "Series A",
+    "amount_raised": "$14,000,000",
     "date": "Betaworks VisionCamp",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -1106626,24 +1106701,51 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 7300000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A (additional)",
+   "amount": 5000000,
+   "currency": "USD",
+   "date": "2020-09-24"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Series A (additional)",
+    "amount": 5000000,
+    "currency": "USD",
+    "date": "2020-09-24",
+    "investors": [
+     "Shasta Ventures (lead)"
+    ],
+    "source_url": "https://www.prnewswire.com/"
+   },
+   {
+    "stage": "Seed",
+    "amount": 2300000,
+    "currency": "USD",
+    "date": null,
+    "investors": [
+     "Shasta Ventures (lead)"
+    ],
+    "source_url": "https://vcnewsdaily.com/"
+   }
+  ],
+  "notable_investors": [
+   "Shasta Ventures (lead)"
+  ],
   "funding_source_urls": [
    "https://cameraiq.com/",
-   "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOWpFQnExeEFaSlJlY3FLYTdKSXA0RmVyZWctSUdUQ2xJWm1kR1UtaldJdmx5R3U5cG5ENmxnaWhMUjgtNC1jX3RQR0xhQjlIeFI3bFAxQzYtcjFGa2xIbUEzSm1wdU1jcVY1b0s0ZVFxcGZsWXJRdGdjRmJwa2xqRXMxbm5EdW9STWo1MXVDMVQ2dw?oc=5"
+   "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOWpFQnExeEFaSlJlY3FLYTdKSXA0RmVyZWctSUdUQ2xJWm1kR1UtaldJdmx5R3U5cG5ENmxnaWhMUjgtNC1jX3RQR0xhQjlIeFI3bFAxQzYtcjFGa2xIbUEzSm1wdU1jcVY1b0s0ZVFxcGZsWXJRdGdjRmJwa2xqRXMxbm5EdW9STWo1MXVDMVQ2dw?oc=5",
+   "https://www.prnewswire.com/",
+   "https://vcnewsdaily.com/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain cameraiq.com (Camera IQ; AR marketing platform). $2.3M seed led by Shasta (date not confirmed) and an additional $5M Series A led by Shasta announced Sep 24, 2020, bringing total to over $14M (PR Newswire).",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -1203637,62 +1203739,6 @@
   "funding_rounds": [],
   "funding_source_urls": [
    "https://www.catena-nano.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "catenaclearing.io",
-  "name": "Catena",
-  "website": "https://catenaclearing.io",
-  "domain": "catenaclearing.io",
-  "description": "Catena provides powerful APIs and infrastructure for supply chain developers to easily build and maintain applications.",
-  "everywhere_tags": [
-   "Dev Tools / Cloud",
-   "Logistics / Supply Chain"
-  ],
-  "location": null,
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Teamworthy Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Teamworthy Ventures",
-    "slug": "teamworthy",
-    "source_row": "data/teamworthy_companies.json#16",
-    "name_on_source": "Catena",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   }
-  ],
-  "possible_matches": [
-   "catena-nano.com",
-   "catena.com",
-   "catena.xyz"
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://catenaclearing.io/"
   ],
   "funding_status": "no public funding found (fast pass)",
   "funding_checked": "2026-10-21",
