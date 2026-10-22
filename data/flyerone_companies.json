@@ -1870,20 +1870,32 @@
     "primary_investor": "Flyer One Ventures",
     "source_url": "https://flyerone.vc/portfolio",
     "scraped_at": "2026-10-17T21:48:42.575576+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": "2021-12-03",
+        "investors": [],
+        "source_url": "https://www.eschoolnews.com/newsline/2021/12/03/yaizy-lands-2-1m-seed-investment-to-transform-the-traditional-learning-system-by-turning-kids-passions-into-professions/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://yaizy.io/"
+      "https://yaizy.io/",
+      "https://www.eschoolnews.com/newsline/2021/12/03/yaizy-lands-2-1m-seed-investment-to-transform-the-traditional-learning-system-by-turning-kids-passions-into-professions/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2100000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-03",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zadaa",
