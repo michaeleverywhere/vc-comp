@@ -1283,13 +1283,24 @@
     "primary_investor": "Catalyst Investors",
     "source_url": "https://catalyst.com/portfolios/",
     "scraped_at": "2026-10-18T13:45:27.119857+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2021-07-08",
+        "investors": [],
+        "source_url": "https://www.mrweb.com/drno/news31733.htm",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.reptrak.com/"
+      "https://www.reptrak.com/",
+      "https://www.mrweb.com/drno/news31733.htm"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
