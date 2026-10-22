@@ -126,10 +126,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://agendahero.com/"
+      "https://agendahero.com/",
+      "https://pulse2.com/agenda-hero-5-6-million-closed-to-transform-calendar-management-with-ai/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -221,20 +222,35 @@
     "primary_investor": "Upfront Ventures",
     "source_url": "https://upfront.com/portfolio",
     "scraped_at": "2026-10-18T13:43:05.663890+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTVTOERZNUNQQXBUSE13cjFXb3hqNDZ3QzFmbGowSEtBWFFNSlAwLVlqelpkS1dkUnBsOTdocTdMSi1ZNlp1ZmtjM3VrM09CcHRuejNXa3Nla1BXc0VDOE1WQlBNajNsVUJvaVM1cEhjT2JUYVNFNEdxZEI1bkk4YmRPVEJQV0FzbHJXempTcUlldmwwZ0pvZTVJWVFkdVdibmoxeUlyZExlT2kyZUhaZzNCYW9jRVBlaG9TRUE2Tk5JWE1fOFVxSE53?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.alphaxiv.org/"
+      "https://www.alphaxiv.org/",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTVTOERZNUNQQXBUSE13cjFXb3hqNDZ3QzFmbGowSEtBWFFNSlAwLVlqelpkS1dkUnBsOTdocTdMSi1ZNlp1ZmtjM3VrM09CcHRuejNXa3Nla1BXc0VDOE1WQlBNajNsVUJvaVM1cEhjT2JUYVNFNEdxZEI1bkk4YmRPVEJQV0FzbHJXempTcUlldmwwZ0pvZTVJWVFkdVdibmoxeUlyZExlT2kyZUhaZzNCYW9jRVBlaG9TRUE2Tk5JWE1fOFVxSE53?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUkp4djQ2N1JuVkxRbnVoakF0WnUyZmpUcUg1LTZNTTkxS1B1QjJlZVBvT2FOOWpfcXY2QUNLOHlabjZKQmtOMHl2YUJXZnhyTjR4MENGODFDbXdQeGZHVnVsLXd3SEZKeEVPdXF2T1gySEU4emJzdlppQVNUTHp4QzFpYzA4bHJZdEpCOHhWNC1GeW8?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdEtTZi1DV3JWVXpYX0JpV052YTZWcmNPd2tXRDVOUlNuMFpOQkYwcEFzcElHUXBQaUlUVk5uaHdGaFRaU3FtWVQ5dkVOMG9oWmxJVmUydlBTWW5xUUhzdWRXNkdIc2tRazVKQlU1cTg3UkpzaUg3OGlZR0pTQ3FmSUhfVEpvV3hod1FPaWRzcURjZHpCU0tvMg?oc=5",
+      "https://www.prnewswire.com/news-releases/alphaxiv-raises-7m-seed-round-to-bridge-the-ai-research-to-practice-divide-302619615.html",
+      "https://siliconangle.com/2025/11/19/alphaxiv-raises-7m-funding-become-github-ai-research/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Andrenam",
@@ -2232,7 +2248,19 @@
     ],
     "primary_investor": "Upfront Ventures",
     "source_url": "https://upfront.com/portfolio",
-    "scraped_at": "2026-10-18T13:43:05.663890+00:00"
+    "scraped_at": "2026-10-18T13:43:05.663890+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Grove",

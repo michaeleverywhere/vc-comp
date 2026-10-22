@@ -92,10 +92,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.actasysinc.com/"
+      "https://www.actasysinc.com/",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHp1Mm1DWHBIb3BGNTdGSTI0UkNSTGFEOVF5c0lWN0lBZXNMQnl2Z1JVcG9UMm5yLUlZU1hxYUxibU5KYzhmWHBIek0zRWFCdHhBTkloZlYweWU2dVpBVVRCMjQ1Y0xGWjE0LWR0SC1jemlGYWRza2IwWHVnbkpvbnNIV1RTYmxJb0U1Nkh3M01sNGNCcHc2YjRzcjhfT2lJVEVpOHhiUVU?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -188,18 +189,34 @@
     "primary_investor": "Stage 1 Ventures",
     "source_url": "https://www.stage1ventures.com/companies",
     "scraped_at": "2026-10-18T19:45:52.686558+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2021-06-30",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/fintech-aliaswire-secures-6m-venture-120000442.html",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/fintech-aliaswire-secures-6m-venture-120000442.html",
+      "https://www.crowdfundinsider.com/2021/06/177304-aliaswire-announces-6m-funding-personnel-adds/",
+      "https://www.finextra.com/pressarticle/88377/aliaswire-secures-6-million-in-funding",
+      "https://menafn.com/1102369413/Fintech-Aliaswire-Secures-6M-in-New-Venture-Funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Artlifting",

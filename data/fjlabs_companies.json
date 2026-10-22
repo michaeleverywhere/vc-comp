@@ -61,20 +61,43 @@
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
     "scraped_at": "2026-10-16T21:18:28.960404+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 325000000.0,
+        "currency": "INR",
+        "date": "2026-01-29",
+        "investors": [],
+        "source_url": "https://www.siliconindia.com/startup/startup-funding/1buyai-raises-rs-325-crore-to-cut-electronics-procurement-costs-with-ai-nwid-53247.html",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Seed",
+        "amount": 3900000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/1buy-ai-3-9-million-seed-funding-closed-to-build-ai-operating-system-for-electronics-procurement/"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.1buy.ai/"
+      "https://www.1buy.ai/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRW5UWFFHMzA0SW5mMGhaVzlkLVMtWHM5RjltVkxJREd4aHdPcmhEaURjVTZhZzZWcDNNSmttSE9taDVqSXZIVnRFV1g1M3kyUld2aUNfSVNEY0p3WktRMVFvdXlDQTFCQU5UR0FNQ2hMckV4b0IwcXJ6V0VYNldEXzA5M0JSVkFqYlFiQXREZk9uRFhGb3U4a1l0MWFnOXoyVXFjM1F0bFRkZlFNdFNZSTNKVzIxY29kRXVyenRJaFo2aHhWekdPNUQzN2NNVmdic3fSAdcBQVVfeXFMUDhhU19iY2NSZ1huSnNFekc3SmdvWklRaTV6VkEwaUh2b2tsQXAzd3NWSmZRam9TbktqN3RnWmlmWHVTa2hxdUZlNEdQN3I3R21SYXRXWm05ZVRUX1JrcWpVZ1A4eFV5NEdtRVZwY3VIR3pndEFkUFI2RVF3UEZ2cGtOdlV0S3VKRGc4RXhKR0QyODJtYlBxUGdob0Z1WWZxUHVJZUhuZHpENENNbG0tMmY2QVFOSnpGNXFIX2hPZ3pfNTJvcklxOFpzNlBHYTFxaHlvYXJsck0?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMmJNa3duMzdkSnVSc2ZXMmk3eUk0eVFBaFNLU0gxb0VnTWdVTnFhendsSmdMcnZDX1RqdU4yRnpWVzdDMzl3Y0lFR2prdE1EamhUS21rOWx4WkRvLTZwNFM4aGpaanE0Z21JdmNWZWVqdzFmNlVnenFObVVEQTQtaEdXcmEyZXZ4dDJqemRSc2oyanBQRU5pSXdJa9IBmwFBVV95cUxOMmJNa3duMzdkSnVSc2ZXMmk3eUk0eVFBaFNLU0gxb0VnTWdVTnFhendsSmdMcnZDX1RqdU4yRnpWVzdDMzl3Y0lFR2prdE1EamhUS21rOWx4WkRvLTZwNFM4aGpaanE0Z21JdmNWZWVqdzFmNlVnenFObVVEQTQtaEdXcmEyZXZ4dDJqemRSc2oyanBQRU5pSXdJaw?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMm50WTRzYmhkYmlrOUhtYl9IaUt3WmR4ZDJvTU82Zk5PZ25XT0RxNVUxNjNBalZkdTFpaFk5TXdSLVY1RGRyTkM3Q3VwTm9yV1YwWC0xS0pQS3U1NFpXamI0TGVEek5jMmFjbVM4SE93SXZSZUZXVkc5ZnhkTVlVeFkwNzAyYk96VnpOYjZmUmN5dmV0ajREVHVn?oc=5",
+      "https://pulse2.com/1buy-ai-3-9-million-seed-funding-closed-to-build-ai-operating-system-for-electronics-procurement/",
+      "https://www.siliconindia.com/startup/startup-funding/1buyai-raises-rs-325-crore-to-cut-electronics-procurement-costs-with-ai-nwid-53247.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Seed",
+    "last_round_amount": 325000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": "2026-01-29"
   },
   {
     "company_name": "1v1Me",
@@ -1930,10 +1953,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.alphalit.ai/"
+      "https://www.alphalit.ai/",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSklkQldJb04zY0wxWVE3enlIczBBdUUwTTVuQ3dRWG8xTlhYRVZJQ205WWlRWlNxbXlmZGpUdmtqd0ZEMGh0clN5OUpzendLVHQ1Wk5Jc0ctYVNKMHVfUHNrVWtmZnpPMlpBVDVrN2w3a2RWdzUyMy0wakE0LTgwdFJoRWxkTUc0MVRmLWNjR1JDX2Jqa3BCSG5OWkJFVk15MUNsLWRFMm5rSDBLTFpqYUFtZVdNSXUwbUE1VFRUbkE0RndoNWtfN0J3a2RlajAtc0JVRV9R?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakdTTlRfcFYwUHBYbUExM1BSM1ZDQ1JlTXRhZkhtYlRqM3gyQndhLTFCVjdja3dnWkhJQW1wZndadmRMWVdmN2lENXlZNlc4bi1zWGFyblVFaGp6QTh3RXdqeXBnZXBmb0M4OWdyS2pIM3dpbDFmZWNiNzRnZ1hiT3Zzd0JSakVmZzU1cUJENEg0NTkyeUpSVzBRRFBHQVpVN0dhbFNmY21xWEwzT0o4?oc=5",
+      "https://www.law.com/legaltechnews/2026/01/13/ai-client-intake-startup-alphalit-announces-32m-in-seed-funding-/",
+      "https://www.law360.com/pulse/articles/2429464/automated-legal-intake-co-alphalit-closes-3-2m-seed"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -6372,7 +6399,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Breeze Social",
@@ -14015,7 +14054,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Envoy America",
@@ -33515,7 +33566,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pinch",
@@ -34337,7 +34400,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Polynomic",
@@ -41843,10 +41918,14 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://spothero.com/"
+      "https://spothero.com/",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNVdXaF9KNTQ0d1BaUnozbWtRX3BtZzZoQl8wZ1pmTDBQeFplalZFTThXSmVlOURnbkRqbnRWU0NlZFZ1Z19EdlNkT3ZFUHJFbGpOY1FDY1Q2TTJoZllwNU01VjFiX0sxM194QXZOMXZ5NlF6R1cxd3ltQUV6M0Z1UTZfSHJYdm51YmhOZkRpWldzNEtzMlh6bVVmaTFxWVhwM282VkhGZy16MzFLcXRlOWpYUVRENUFXdjVuNTRZQXJqdw?oc=5",
+      "https://pulse2.com/spothero-raises-50-million/",
+      "https://auto.economictimes.indiatimes.com/news/industry/spothero-raises-50-million-in-series-d-funding/70874484",
+      "https://www.chicagobusiness.com/john-pletz-technology/spothero-lands-50-million-funding"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -51298,7 +51377,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zume",

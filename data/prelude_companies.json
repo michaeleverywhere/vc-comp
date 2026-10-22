@@ -2226,7 +2226,19 @@
     ],
     "primary_investor": "Prelude Ventures",
     "source_url": "https://www.preludeventures.com/portfolio",
-    "scraped_at": "2026-10-05T13:27:42.086598+00:00"
+    "scraped_at": "2026-10-05T13:27:42.086598+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "PLANT PV",
@@ -3508,6 +3520,51 @@
     ],
     "primary_investor": "Prelude Ventures",
     "source_url": "https://www.preludeventures.com/portfolio",
-    "scraped_at": "2026-10-05T13:27:42.086598+00:00"
+    "scraped_at": "2026-10-05T13:27:42.086598+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 44142574.0,
+        "currency": "USD",
+        "date": "2015-06-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1645842/000164584215000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 129595770.0,
+        "currency": "USD",
+        "date": "2016-10-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1645842/000164584216000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 406499907.0,
+        "currency": "USD",
+        "date": "2018-11-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1645842/000164584218000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1645842/000164584215000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1645842/000164584216000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1645842/000164584218000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 406499907.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-11-30",
+    "total_raised": 580238251,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

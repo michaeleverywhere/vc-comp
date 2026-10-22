@@ -1522,20 +1522,34 @@
     "primary_investor": "Taurus Ventures",
     "source_url": "https://www.taurus.vc/portfolio",
     "scraped_at": "2026-10-17T21:11:02.621561+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1800000.0,
+        "currency": "USD",
+        "date": "2019-03-18",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/knowledge-sharing-platform-tigerhall-secures-us-1-8m-005007529.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://tigerhall.com/"
+      "https://tigerhall.com/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdWNGUF9wenNMMWdRZXdVcWlJYVlBYXlaRWxFaDNoaGd4WF9PdmVUQTVtYms2NVR4dnFtSm1iNlhuSjhvT1JfUXVkMWxmWVRaNFpGakdSMGVlMWIzVEFHNUJadXpSZDNSUmRudkctbHJSRDJHTDJjcjEtRkZaUUVkZzRza19WY0ttU1l0MWUyaEFvM1d6?oc=5",
+      "https://sg.news.yahoo.com/knowledge-sharing-platform-tigerhall-secures-us-1-8m-005007529.html",
+      "https://www.businesstimes.com.sg/startups-tech/startups/tigerhall-raises-us2m-funding-led-sequoia-capital-indias-surge-accelerator"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1800000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-03-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Unsupervised",

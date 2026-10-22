@@ -53,20 +53,32 @@
     "primary_investor": "TRGC",
     "source_url": "https://trgc.io/portfolio",
     "scraped_at": "2026-10-18T15:29:25.551046+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2022-01-20",
+        "investors": [],
+        "source_url": "https://cointelegraph.com/news/aleph-im-raises-10m-to-develop-censorship-resistant-data-storage",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://aleph.cloud/"
+      "https://aleph.cloud/",
+      "https://cointelegraph.com/news/aleph-im-raises-10m-to-develop-censorship-resistant-data-storage"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-20",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Althea Network",
@@ -285,7 +297,19 @@
     "everywhere_tags": [],
     "primary_investor": "TRGC",
     "source_url": "https://trgc.io/portfolio",
-    "scraped_at": "2026-10-18T15:29:25.551046+00:00"
+    "scraped_at": "2026-10-18T15:29:25.551046+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "EigenLayer",
@@ -1057,9 +1081,12 @@
     "scraped_at": "2026-10-18T15:29:25.551046+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORXZiN05taG8xZmlpNWh1N3NKdmNfWlBNVWQyOVNxTVNnS1FOQUFyVEgtMW9heHEyX2tUdXBoNXB2cF93Wm5JQWVLZ0haS0tVLVVZOWZZSWpNdW43NzVBeTFLWFQwM0c0c0V1c21zcEpqSDAtc19sMzZsX1hMX3lZdUg4ZlA2b283US12SS1PNDJ0dUVkaEZ1dTE2ZjJJSFFFelRRVUJscXZmNzJLbUlENG5YVHRsdGRwa1NhU2VVamFtTlhzNXB4Z0dBVXJ3QjhYeTV5Z09ldmNEWjhoY0R0MzJYTnZBejZubXdoWk04RzlERDFpNGc?oc=5",
+      "https://cointelegraph.com/news/param-labs-secures-7m-funding-round"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

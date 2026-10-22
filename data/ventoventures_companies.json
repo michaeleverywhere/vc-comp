@@ -30,20 +30,32 @@
     "primary_investor": "Vento",
     "source_url": "https://vento.ventures/portfolio",
     "scraped_at": "2026-10-21T00:35:24.156679+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://startupintros.com/orgs/acousticabio"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.acoustica.bio/"
+      "https://www.acoustica.bio/",
+      "https://www.acoustica.bio/about-us",
+      "https://startupintros.com/orgs/acousticabio"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 50000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "agora labs",
@@ -191,10 +203,16 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://ancora.work/"
+      "https://ancora.work/",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMXNEdndvSkRIRzRGSWNSZnZ4N0JqLUM1dk1mcjE5RTRJaTlpNlU4TThWTzVlMTdsVjhPQmtHcEgzREZFcXdIT1Buc1d6Rzk1Ri1BOHpuemhfUmFjeW53TnhROUVJYjA5elBreXhMYjA4T05kOTB1cGljSGFfZTZfLXU2R2pQVUR0MHJUWlRTYw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcmhObHhOcFZtOUlHcy1aUHlZMld0U2VBaldVUGo5QkVhUXItWlJQT2RYZWFWVUNjTkdDYl96bmFUZWhrMlA0aU5JVHJ4OHlteXZNaVJLbDA1eVZhekQ3SFhYTHd5TnpIQXd3VWlVVl9kMVFQRG5SdGtHTnMyTzVPQ0pGN24taVdRWDdKc2cxSkZqejdNNUdRN19JX1lxU3RuYkV5c191T29XWFptRWh0T0dwcWtSbnc?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDB0S0QwREJRNkhxbWFlckRMRk1wclhvRzNHTUFsczB2TUdlaERWa1NncUVmUjd5WmtPY0h3N3FFNDgwQ08ySXBKek1xRTBBZzdUUlBFS29kblN0Rmd5OUg4QkJ0d0p2eXYzenpXamVnVjdpa0t4RE1qQkt4N2ZMUVB2RkVNM090cERLck9XZXU3UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZjB3WGNyc2Ntd1FUaUkxbUhhN1NDS3JLOTB6bzRnSXg0UXFicHZmUFdFTjE4bS1fRnR2bER3cmduazU0bEdNQ1F4bGlUN0h0SU1GTlBkblhOQTlLZGF2ZGNNT0R3ZmYyVjdVTTJ5NHNnQUhGX29seUNzR3JZeV9UZkpIeENPbTV3WjZjdHFyWWVncnVuSl8yNGI0R1VtUG5GYU9ITEo4d0JxczRwQ24zNUMyRC1XOTFjSlFSQ2NRN0ZhbGdVMHlhMzVSUDJMTUJJN2hOWWlDeDY?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxONGtLcUdjcHFYUEpCYmk4NFVZWWEzeUFXZWJTZnhickpiY3pQbFpybDRpVVItNHFHbnlGUmlqbTBabnBNVUM0emNmc2xlcFhoVmktSGxfVGVhZnVfVlh2dGJjbTdPdDlNUzRaQjhmOWRvOUVGZXRXbFdvVW1mSFlMN210Sk1FRTM1TzJ6cUFoRG0zVWxfbE16ZGlNN0VJNzRYVGt1ZG5MeUo5UGdFb09kdXk2MA?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ2ZFWlR2T1U3blp0RmFCcXZDRXNYVkluOWNRdDlKU3RVMlZHSDN2TEVQSXV1R0hMRVc4NXQ5azFGdzF4ZHJHUDV6WjF6eEdaNUEwak5YNUZUYWxXMEt6bjlTcENuVi1JMEJ6ZzJ0YkhQTVNSNEdPSmJIY0RtdVBRdHB5bTR2a19LZTR4SVgxMU1wMUF2WHFjaVZKbG9LSGRCZ1FaQ25UUXU2aTJPUWVwUDlLX09mbnZDeHlTNFFRWDR6QdIByAFBVV95cUxQQXBkcEtpVk93RlhLREotV3pyTzY5aTJSalJBbENsQVZZWXg1VUNuQmRKRHM0NXU1Y29kS1NUbTZzSGxXZDl4VzJqLWxidG5DMHBiOExkTVhnSXZzNE5hajBkd3h3ZFBJOFdMeXcwVDRFUTJyUWYwQXhLbS1HQ18ya0dQMGl6LXAxRnJQdWZHYmFnODdaTlVkemZ4cnNtQm1qQjVncVNQc2lsTV8zWER5SWYzb1FaMzQzSEU3UWhHTjZSSGJWN2NXQw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

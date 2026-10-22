@@ -203,9 +203,11 @@
     "scraped_at": "2026-10-08T14:44:41.416774+00:00",
     "funding_rounds": [],
     "grants": [],
-    "funding_source_urls": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFpaQk1OTXBCRXZVeUwxU05YNnVRdS1jd2w3SGJ3NTBFZnZ2TmJnbXBxOE9DZDNCYzNrU0xCRzlpXzhXS0RzYmtlNUo2eFQ4dXgtZldubEZnTlVVaEZtN19LWDBmZlJWZHJTa3lDbWFYNFduS1dFVzBHUFBKRzc0TF9NYUpkRDB4aWl3cHpBSk5MQWVqdkE?oc=5"
+    ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -3965,20 +3967,45 @@
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
     "scraped_at": "2026-10-08T14:44:41.416774+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Peak XV’s Surge"
+        ],
+        "investors": [
+          "Peak XV’s Surge"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWjNQbVl4WFRIbDFsbFY3SnJROWd2Z2JEOW9lWHI2cEVITXNDdkxXT0dRb1FpT1JOeXZHY3dkQVVEZW56ZWlib213b1c3VGZ0RW5JMGk4NWt5dWhsMGdqZEN3M0JIcHJhZGRNcXpZV0o5Z3FBRlZvUko5V3dQRmcwZEdvVTFDeTVIdm03X1lmOWZDdExZZlA1QzlFOW1XbjA?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://sixsense.ai/"
+      "https://sixsense.ai/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWjNQbVl4WFRIbDFsbFY3SnJROWd2Z2JEOW9lWHI2cEVITXNDdkxXT0dRb1FpT1JOeXZHY3dkQVVEZW56ZWlib213b1c3VGZ0RW5JMGk4NWt5dWhsMGdqZEN3M0JIcHJhZGRNcXpZV0o5Z3FBRlZvUko5V3dQRmcwZEdvVTFDeTVIdm03X1lmOWZDdExZZlA1QzlFOW1XbjA?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNTNiemxENWZnaFZjMVJvamtpMmM0LWpMSk5tMEVWTGhwLUVxbndwTEQtMkVqWmk3U0g0OXNRaGwyVVBUT1lYLUhNYnNWNGNMY29nQkdqT3ZwU25kNV9ON1FNMk9LLVFub1dzc0M2bGdKQTFmaS1PdmJBNUJDVFk?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPak4zYXVtV3hGdFNybkZkNlFBMk9sS3hlMFg2eFh3cXVlTU95MjVubWxMb05vaHVuaWVMTVVtY25JYzhuYlNCQ2ZlWkhNWGo4WHZJNkNpUTJQTmhnLXMwWVl4Vzl0R0k1YWFyaENISlgtYVpqWHI2M0NfclY1ZlpVcUkybU1LRDl5bFJEcmljaGV6N0s0aFFXbEtmSDJ1SEFBQm9ZNHhaLXJxVFRyZlFUOU1xQ1BqUnRFc0FoVnVB?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTBRc3E0SHJGR29KTENiVXppMnZkRjBib3g5UGNOSlV3WHQ4dExDMmFjbTk2OWdPTUQzVERKRHJoRVJVelBDOHRzWVU5NnRfMjVNN0FGaWRfZWRwYXRNZTVabkxFa2xRNjEyRjBNQTRkQ2hyQjhaSGRBdzlxSzEzTjZKWWhxOEl2UnVDMUd4LWV0bVF1TTN3dnV0SEpkZw?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQWt6dHVNSldHLVNCV19jS3pLMnNFcGlEZEh3bWxNajhHSTZLSlV3YS0wRXV5NWo1MGs4WGN1T2tEZER6aDlvbFl4cTkxdy14aldUTHVmbnR5cmY4LURtNENLWGFBek9xaFBSQmZGUWIwUTNtdElYNm5uUWI5RlhJR3VBeW02RS14eC00RjdCY2dPRzQyZjVjWlZIVDljdnBaMl9Id29YVWlQdHp1d1JyOXdORkJaZzdpRjVNWF8tZDMtQXF5ZGhuaTR4dkhOb2hVT3hBaHhHSVpMMmZGZmlTd3hB0gHnAUFVX3lxTE1tUlNVcDNZV1FjTVhueURqWXJlUTVjbGRHMi03QW5tTUdTMGM0TC1hNzloVGpZUnhZZ21FS0VmU1pOdXlOT3MwRDhWTFA2MWllV0Y1SFNjMWN4WHY4WUkycjlibkRaY1AySE5OcklfSGZaTnFJRWloRGNJQW5aTGI4NUdoQXFheThybVJlY1hTOWhfUEFuTnh3bXpocGs2akRRVjNXclNWZG13Q0xKbWo2YnhfYkVPa0xlWW0tY1B6SzNCeC1ONHVlYnBjdjhhZHZva25xdGdvZU1SZVoyS0xrQnlhb05waw?oc=5",
+      "https://finance.yahoo.com/news/sixsense-raises-8-5m-funding-111100514.html",
+      "https://techcrunch.com/2025/07/31/female-founded-semiconductor-ai-startup-sixsense-raises-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 8500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Peak XV’s Surge"
+    ]
   },
   {
     "company_name": "Skuad",
