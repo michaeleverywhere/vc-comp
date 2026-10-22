@@ -1,63 +1,63 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 187911,
-  "vc_source_rows": 149425,
+  "total_source_rows": 188408,
+  "vc_source_rows": 149922,
   "accelerator_source_rows": 38486,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 108669,
-  "companies_with_2plus_backers": 35162,
-  "companies_with_vc_and_accelerator": 10275,
-  "companies_keyed_by_domain": 75266,
-  "companies_keyed_by_name": 33403,
-  "name_rows_joined_to_domain_company": 23675,
-  "companies_with_possible_matches": 14345,
-  "shared_hosts_treated_as_junk": 219,
-  "companies_with_funding_rounds": 15331,
-  "companies_funding_checked": 69666,
-  "funding_rounds_total": 26848,
-  "research_records_available": 72887,
+  "unique_companies": 108781,
+  "companies_with_2plus_backers": 35235,
+  "companies_with_vc_and_accelerator": 10286,
+  "companies_keyed_by_domain": 75353,
+  "companies_keyed_by_name": 33428,
+  "name_rows_joined_to_domain_company": 23876,
+  "companies_with_possible_matches": 14368,
+  "shared_hosts_treated_as_junk": 220,
+  "companies_with_funding_rounds": 16509,
+  "companies_funding_checked": 76901,
+  "funding_rounds_total": 29127,
+  "research_records_available": 82352,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 19722,
-      "bytes": 39993551,
+      "companies": 18393,
+      "bytes": 39997698,
       "first_company": "!K7",
-      "last_company": "Clouder"
+      "last_company": "Chloris Geospatial"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 20020,
-      "bytes": 39998841,
-      "first_company": "Cloudera",
-      "last_company": "Growth Collective"
+      "companies": 19726,
+      "bytes": 39998191,
+      "first_company": "Chnnl",
+      "last_company": "Glidera"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 20855,
-      "bytes": 39997149,
-      "first_company": "Growth Fit",
-      "last_company": "Musimap"
+      "companies": 20263,
+      "bytes": 39998281,
+      "first_company": "Glidian",
+      "last_company": "Mind Emulation Foundation"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 21454,
-      "bytes": 39999418,
-      "first_company": "Musinsa",
-      "last_company": "Section"
+      "companies": 19959,
+      "bytes": 39999140,
+      "first_company": "Mind Foundry",
+      "last_company": "Restate"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 22414,
-      "bytes": 39999309,
-      "first_company": "Section",
-      "last_company": "xyt"
+      "companies": 21431,
+      "bytes": 39999065,
+      "first_company": "Restaurant.pe",
+      "last_company": "Verifoxx"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 4204,
-      "bytes": 6048276,
-      "first_company": "Xyte",
+      "companies": 9009,
+      "bytes": 14770778,
+      "first_company": "Verify",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
