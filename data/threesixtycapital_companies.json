@@ -2802,20 +2802,33 @@
     "primary_investor": "360 Capital",
     "source_url": "https://www.360cap.vc/portfolio",
     "scraped_at": "2026-10-12T13:48:06.918504+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2017-11-27",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/charitystars-announces-4m-usd-presale-raise-for-aidcoin-to-increase-donation-transparency-660298453.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.charitystars.com/"
+      "https://www.charitystars.com/",
+      "https://www.prnewswire.com/news-releases/charitystars-announces-4m-usd-presale-raise-for-aidcoin-to-increase-donation-transparency-660298453.html",
+      "https://www.philanthropy.com/news/with-new-capital-auction-site-charitystars-eyes-us-push/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-11-27",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bergamotte",

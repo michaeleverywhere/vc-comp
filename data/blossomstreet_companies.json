@@ -331,20 +331,45 @@
     "primary_investor": "Blossom Street Ventures",
     "source_url": "https://www.blossomstreetventures.com/",
     "scraped_at": "2026-10-17T19:19:48.006649+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2019-10-11",
+        "investors": [],
+        "source_url": "https://pulse2.com/celigo-20-million-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 48000000.0,
+        "currency": "USD",
+        "date": "2021-12-13",
+        "investors": [],
+        "source_url": "https://www.demandgenreport.com/financial-news/ipaas-vendor-celigo-secures-48m/7127/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.celigo.com/"
+      "https://www.celigo.com/",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaEk0aU03TUFteTYxUWNpZGxFTFRnMktTZXpWUzFOSTBUdHZyOVkweXp3VGFzQW9jZExmbnJZaHR0RWJlZl9ORWFlcXZ5OVF3dXAyWUFPSTA1V2RHVzAxeEVncElJRm55Q1NIcUFsc1k1ejBZaDN4cHNKM29RTHNYa3Q5TktiVXVvcnBlQkZ3U1VHUGRzcHJscVQ5amJISmlfeFNoenB4amxnYWJPT21aOVRkSlp5QjNWZlFiZGQwcFlDOE1WMGpXVlVpM2M4RHRBM1lPNjlnMXJpQ3BTNEtkbm4xTVo?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0FBTDJIb010al9ZTGJqNDhIWWIzRnRlbmNXU0lYekRhbGN5c3dWb3ZGbnhBRlB4ZWN1ZnBTS0EtZGNZLTB6SUJIcThvU0lxU245Y25vZ1RBbDRUZGdyZnE0anlaM1RsdGVzT19lSHNBTFo1NEoyUjhmMDhSR2F1TVBoMW9QM1RSOWt1elFxRjY5OFo0SVZkWWtRa0Vtb1dOMVIzSThGVHpodE5leFZndS1hMA?oc=5",
+      "https://pulse2.com/celigo-20-million-funding/",
+      "https://www.demandgenreport.com/financial-news/ipaas-vendor-celigo-secures-48m/7127/",
+      "https://venturebeat.com/business/celigo-raises-20-million-for-tools-that-connect-enterprise-apps-and-services/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 68000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 48000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-13",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Chattermill",

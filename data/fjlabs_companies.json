@@ -7618,20 +7618,33 @@
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
     "scraped_at": "2026-10-16T21:18:28.960404+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2023-01-23",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2023/01/23/private-blockchain-sharding-startup-calimero-raises-8-5m/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://calimero.network/"
+      "https://calimero.network/",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMllBS0Jwa3lOX3Y3eDNRSUxRY05QbGZSa2gtNU5od2JkZUFJMlVodllSOHBlSDBpenNzZDZBT0JsMGxDbkc1NnpadVhOUEhiOG9KWlQtN3Z0NVVDVTlKTXhWLVh4VTQtZk9ZYWdQM2FRRzY3ZkJmOXQ5SElMejhEanRqM2hUQXJzaUYtVzZCajFwUlBVbHMwZw?oc=5",
+      "https://siliconangle.com/2023/01/23/private-blockchain-sharding-startup-calimero-raises-8-5m/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 8500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-01-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CallResto",
@@ -10858,7 +10871,32 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWNmUW9VV2tIZnFLNGpfUFg2RkUtRl96MTQ2VFMzXzdHbG5VOWM5c3VLUTBFWXowLTY0NzFCLVpZeEdzSTJZV05qWDM1TklNTmhGREJ2VTJwU3dEZ3RRZTJDdjZlYnl4a3NqdFlEdm1MWjFpMDBlR2pLTmtkTU9OaldBSWtob0tMSmtKZWFVa0FET3p3VHptOWlvSjZPZ19HbDVHMDB4VTNzVThP0gGyAUFVX3lxTFBmQ3RHMUJmcFQwODVpSkdWS1dlSjFMWW9naHlPd1FCaUxoOU9zX25kOFFNN0tzVU5uQ2RseGt5MFVTdlgwYXJwQVhRVGdTOEpfSU5BTGF4RDRyb0F1VnNNSDRhejVEek5ib0pVNWYyVkhsa09FVE5UelhvYjVlVXpwX1NBV0dlNTZqOXFPaGRUWDIxY25wX2J3X3RmaV91eFUyb0EtclhwbmtwVTdZRlFqdXc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWNmUW9VV2tIZnFLNGpfUFg2RkUtRl96MTQ2VFMzXzdHbG5VOWM5c3VLUTBFWXowLTY0NzFCLVpZeEdzSTJZV05qWDM1TklNTmhGREJ2VTJwU3dEZ3RRZTJDdjZlYnl4a3NqdFlEdm1MWjFpMDBlR2pLTmtkTU9OaldBSWtob0tMSmtKZWFVa0FET3p3VHptOWlvSjZPZ19HbDVHMDB4VTNzVThP0gGyAUFVX3lxTFBmQ3RHMUJmcFQwODVpSkdWS1dlSjFMWW9naHlPd1FCaUxoOU9zX25kOFFNN0tzVU5uQ2RseGt5MFVTdlgwYXJwQVhRVGdTOEpfSU5BTGF4RDRyb0F1VnNNSDRhejVEek5ib0pVNWYyVkhsa09FVE5UelhvYjVlVXpwX1NBV0dlNTZqOXFPaGRUWDIxY25wX2J3X3RmaV91eFUyb0EtclhwbmtwVTdZRlFqdXc?oc=5",
+      "https://pulse2.com/cordant-raises-8-million-seed-round-to-build-command-center-for-financial-infrastructure/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 8000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CornerUp",
@@ -11243,7 +11281,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cromatic",
@@ -11751,7 +11801,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Dalia",
@@ -11923,7 +11985,19 @@
     ],
     "primary_investor": "FJ Labs",
     "source_url": "https://www.fjlabs.com/portfolio",
-    "scraped_at": "2026-10-16T21:18:28.960404+00:00"
+    "scraped_at": "2026-10-16T21:18:28.960404+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "deco.cx",
