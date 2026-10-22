@@ -20038,7 +20038,19 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Nuada",
@@ -20512,20 +20524,45 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 4000000.0,
+     "currency": "USD",
+     "date": "2024-01-25",
+     "investors": [],
+     "source_url": "https://techcrunch.com/2024/01/25/dxwand-raises-4m-to-scale-its-conversational-ai-platform-for-enterprises-in-mena/",
+     "date_basis": "url"
+    },
+    {
+     "stage": "Pre-Series A",
+     "amount": 1000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzhRMy10UVYzcUVoY0hnRVBFQzk3M2QwWEw3azVFcF94UC1DTUp4cHA2bHZfNGF4WWhuSGJpWEthOGpsWmYzRlNDWXQxd09hUEF6SzVpMGVTaW5iUVdidWVqbWRvbE5xZnk1MlNiOVdKYmF0d2liWXI0MjktNUNVeXNTc2hoTS14cXg1OGFFY2J2Qnd2cHhLQlJoNEU3LXFyTVFycGpTSTRoOTViVU04?oc=5"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://dxwand.com/"
+    "https://dxwand.com/",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVERhOEdsQllscEhQelpWRmY4aUF2VXBzMzFFUTNwT0k1UjdGODBwS0M2OEZlaDNjVGxrWUVzUzVYWDBYYklKQ2dGSjF2YkoycEswTVJtZ05HY0pGV2ljcjVOaHJiTFpVcTJjem8xeWl1SWVMc1o3WUwxMWxlVlpjRWZGdVVTeEhJOHpaX0d3X3J6Zm1hWlRVNXc5VkZNRF91eFZ5UVVVUVUyOXBkaU55cjhSMnhHZw?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzhRMy10UVYzcUVoY0hnRVBFQzk3M2QwWEw3azVFcF94UC1DTUp4cHA2bHZfNGF4WWhuSGJpWEthOGpsWmYzRlNDWXQxd09hUEF6SzVpMGVTaW5iUVdidWVqbWRvbE5xZnk1MlNiOVdKYmF0d2liWXI0MjktNUNVeXNTc2hoTS14cXg1OGFFY2J2Qnd2cHhLQlJoNEU3LXFyTVFycGpTSTRoOTViVU04?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjlud3k1Uzh1X0laZXFPZVdFLUVSVE5aT0FzaUlhRE84ZWhCbks3ZjBfUElHbDhOOTRIdlVIek4wSmNtb1J0U0RxWGlIb1B4MGZSRVQtdjFNT3RvVUFNR3EzS09hZFIwVkpLbFlkSTZfUVV4ejZ3RnF6dkdKcDAtdnVXZ2UxbkFTYnFoQ1k1S1hROHBqWGNRNDdaaHJyT2JDcHVLNmtTT1NyNnBrYnpnSW05ckVVQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMkFzOFM3SHJhdi10S0RkTVpuNjMzVm0xYkFWVFBNejRNbElIMGpzekpKRkxqNVhfWlpNcFNKbnVWLU1rM2RMVWZCUFl3ZHRfSWMtX2czUmRiakhOQWcxUHdKLVkzYTdZMVp2NGthMTAwTGRJSDZDMWZaZVpLU2JoQ1YxcE5rWTNNTUh5Z1lMM3FONWZoWTBEeDlPN0RMdDNPM2hHY1BLMA?oc=5",
+    "https://techcrunch.com/2024/01/25/dxwand-raises-4m-to-scale-its-conversational-ai-platform-for-enterprises-in-mena/",
+    "https://finance.yahoo.com/news/dxwand-raises-4m-scale-conversational-090427717.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 4000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2024-01-25",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Croivalve",
@@ -22526,7 +22563,36 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 700000.0,
+     "currency": "USD",
+     "date": "2023-06-01",
+     "investors": [],
+     "source_url": "https://www.dawn.com/news/1755935",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Hc0lmODJZdmp6bUh1MVpfY1Q5WC1WZWcxaERYQ0p5WS1qbDY2SXN1TWJGdi1fTmlKWHd0WFE1RUJuMFRSZHBGZw?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbjBfQkh0MUdZWl9oSVg3dXh2WnRnenFRQ1Jzekh0Z2VNeUdOakd2c0g2VHlhQmVBVjEydi0tdXRRRUxCcU9ZaVFYXzJBc3l1d1B1NHFjOElCUW43S2RfT3dnSEVScVA5OE54MzVYOW5UaE91X3ptdHNWaHRLOFJzb1ZHQnlpUTJONjN2VVp3Q0hIQdIBlwFBVV95cUxNaFBOaUdTVGZ4Y0VFcW9PdXV1NnlaS3hnSFcybkRQemhNdTRtMUI2MG1jNjgwZkU3Zzd1SjBiYWtaYWtRLXZTaGpjVDZOUk1VX0h2WXFvTFFZSTk0M0wxME9WV0VYbmtGalROOWl5OU1JaDJIbVZvVVhlM1hBZUQwbERsYVpoR1dYY3FYbzFuZUhjajlrSHo4?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZlZYLU9LQ09wVERkcGZCUmt6aGdmVkVKQnRkS2YyWk02YVFrWTVGemdidkMtNmxWc1RGaGJGS01MS0tSdGQ5dDFyYThyaW53aDhlNnNKa3owUmxhVVc0SXlqQVNqS0h2NHFwMW9palkyb0xTMVI2OHJ4RXl3cjU0QnZYVW0tWV91VWY2R252d2YxeWFUWXUwYzFDRFVVMHM?oc=5",
+    "https://www.dawn.com/news/1755935",
+    "https://www.brecorder.com/news/40245444"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "last_round_type": "Seed",
+   "last_round_amount": 700000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-06-01",
+   "total_raised": 700000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Lypid",
@@ -22911,7 +22977,21 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://oacp.it/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Composable Finance",
@@ -31022,7 +31102,19 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Crowd Supply",
@@ -32215,7 +32307,21 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.businesswire.com/news/home/20240115939100/en/Secret-Double-Octopus-Renowned-Leader-in-Enterprise-Workforce-Authentication-Secures-a-Series-C-Funding-Round-to-Propel-Global-Expansion-of-Innovative-Passwordless-Technology"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Styched",
@@ -32824,20 +32930,59 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 12000000.0,
+     "currency": "USD",
+     "date": "2026-09-03",
+     "lead_investors": [
+      "Prudent Investment Management"
+     ],
+     "investors": [
+      "Prudent Investment Management"
+     ],
+     "source_url": "https://retail.economictimes.indiatimes.com/news/toys-kids-and-baby/babycare/cradlewise-raises-12-million-in-series-a-led-by-3one4-capital/133729395",
+     "date_basis": "snippet"
+    },
+    {
+     "stage": "Seed",
+     "amount": 7000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [
+      "CRV"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/cradlewise-secures-7m-funding-to-help-new-parents-with-baby-sleep-301419189.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://cradlewise.com/en-US"
+    "https://cradlewise.com/en-US",
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYWxmT1B5b2pzYm1vVEFvMm9lRmlZNldXUW9CeDJ2UGtKZHFYZUxCaDNKWU50T19DVnV3OUR1akxoWUVXWTYwckxneUo1UnNaYVBLbmE4bmJEZzRTbEZ0TG9fTXFmUnBjYmRsQWQ1a2c4OUhaVFM0LUwxXzFraXhlLVNfNEg4ZHFYTnZnV3FqOVRHVUFYVF9nbmJaQjVmcDZNbk9md0hEUklFTTNsbkJzcEFDNmR5TGJUZVhvOEhYWmdQQi16RTl2QjRPVFVuYm9pYk9Mc2tjVHVkUE5VRXJoTVdR0gHnAUFVX3lxTE5WUUZGSTAzVVk1YUdYb25sX3pZeHFHSHJ3aUdLNk1iUndPVzFzNkk1cHhrRjhlX29yblVsaDV6a0ZGNS1MZjFlamVhUHVkSzMwZFZ3R2s2bG5wZnhDSnBPMWRrelZLRV9pMVRRelN1UnpEbUZKS1ZxdDljRUY4cXJ5eVgwUllkdFRZSTg2bVNSTUtvNjUxYldpVjFMR2hJVmZjdTA4cndKQnpxSVowVkppcDBvbG5HV09YWWlaMlRCWEVsamhKQmQtdS1FSkMzVHEzMUpNcjdhbHhBTnRDRlJ1ZE1wVC1kVQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdXJ3NTNOUUNUb05qRFBJcFpRM0djb1MyZ042am16SnhxQU1hNldSRmRlNXB3VEpDdkxnOVhNT3k4VnR0YWZuZ3Z6LVhzazhIQS1oTlcxeTBRWVVfN3QxQlBvTnZFTk5TSXBoeExKRExXS0dvQkVnclRsbmZoakZPVzJzd0szR0I0Z0ptOS0zVzVFVmVaRDBCSkxFbTRqcWE3VDJxdDJJdVU?oc=5",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLThTYnJhQVZvYTh6dEItSXM3aFhfc2FvdUtBcWFMU0ZaVU9vamo4RDhDMWNJWmJLVVNNWTlYYlE5N0NBS2dCekJZVjVkUVJxWTd5a0p1cnN3Nm5BeHlHSTNaU2lYMUJJR2g1X2lRTWkwUHhRSWZxX0xidkZzRXZKSWZMM3BfSXh2UElMX3RwM3JNWXdUdVdnQzJmaVdXZDZMb0VaMzltM0dRaVZBY2tOX0dGRnpRRHBpWWp0MUx4dUVGaDJyamdJOTVHSzXSAcwBQVVfeXFMTi04U2JyYUFWb2E4enRCLUlzN2hYX3Nhb3VLQXFhTFNGWlVPb2pqOEQ4QzFjSVpiS1VTTVk5WGJROTdDQUtnQnpCWVY1ZFFScVk3eWtKdXJzdzZuQXh5R0kzWlNpWDFCSUdoNV9pUU1pMFB4UUlmcV9MYnZGc0V2SklmTDNwX0l4dlBJTF90cDNyTVl3VHVXZ0MyZmlXV2Q2TG9FWjM5bTNHUWlWQWNrTl9HRkZ6UURwaVlqdDFMeHVFRmgycmpnSTk1R0s1?oc=5",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOXhZNDJxb2h6R01NOVREeUJINUpSd3NEZG9JN2ZmeldacDNHOVJQM1N1SUlLSnpVRWo4VzFtQXRjSG5JNzhjREFWWGVkNmFoM280WmJ1czlEaWRpOXU3TmRDMHoyY3B1RlhkdUEtM2JDWl9Da2xQclFOT0VyZ3JpSjNKaVBhUmZTOTFGZjc1ejNtMC10MnhUbVNuOC1iRU9jeXBGYjJrSDJQek9qbVl2WUEySnNMZThqNXRQdENOM1JSODZrZFNQMVZwcWxFN2pLZXfSAdcBQVVfeXFMT294NG9fUzJ3Zi1TVUZxaldSNUFIWjB1dkdUS0h4V29zVmNSX2FXeDM3Sk9IUHhVWmRJVThEU19pM01SUkxFMTJNMlBXZDRUcE9RMkdXRFQxYUg2VDNjcmx3WVBlYjNPNGZxZlpVcXNTQlZyeDUzTFpGRERxcWNiWGZUbVd4Z2RabFJPM2h0UnZ1S09HR21PQUtGSUUxNUNCWnFqSW1iRnd3c01oalY0YWp3VXZBa1dHZ2hDUHNOWDlLeGN5dm0wdm1iV1B3YW9raGhsc0hBUlk?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbzV2ZWcyWjk4aHo0U0g2bmZWWDJyRGJxV2p0b0RHZXlKUWlrNmItZVI0bk1wWktXTFlZNzRGUWxUcEZhYWdKaVo3SEZETlprUW1OWVN6WFdkcHhqREdqNm5RaGNIQ3ZBVWZXMktjWEo5QVp5R2lYTjFOXzA4ZklTUm9FQm9qRW9obDJsMjhsN3F3S09UdDhDNzBSdVUtWWNOc2NBVEZGRU1DQWwtM2hOMnRucC1Ta0XSAbcBQVVfeXFMUG81dmVnMlo5OGh6NFNINm5mVlgyckRicVdqdG9ER2V5SlFpazZiLWVSNG5NcFpLV0xZWTc0RlFsVHBGYWFnSmlaN0hGRE5aa1FtTllTelhXZHB4akRHajZuUWhjSEN2QVVmVzJLY1hKOUFaeUdpWE4xTl8wOGZJU1JvRUJvakVvaGwybDI4bDdxd0tPVHQ4QzcwUnVVLVljTnNjQVRGRkVNQ0FsLTNoTjJ0bnAtU2tF?oc=5",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hZlNvV2pYNV8yTEhwdHBEVjQzSTNMTElWVkF4cWY5QUpOV1RBYkE4UVNiaVZWeU1RU094TXZIaEZISmhzTExGTjVzYlg4TlMwblZzV0VCSy1mU0Y4WjFCVFQxajVGbWpSb0JZcGJRSWpXc3ZodUE?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdGdfS3NMSXFETmU4TUpQVE1jbm43RUV3ODlROTdrYlRfX2lIOW1vRTRxTTNxdU1Mc3JGSVRSNmphclY3czdiTkhGWWlpZWd3OTdOV29vemZGZHZrdTk3VTFqd01XVjAyQ0h4ZnJaVTExVnNrRG5DOHRLYXRTSThqSzJ1bW1ac0dZRHBHbENzQktZS3prTjB5WVF1dlNmTzA?oc=5",
+    "https://retail.economictimes.indiatimes.com/news/toys-kids-and-baby/babycare/cradlewise-raises-12-million-in-series-a-led-by-3one4-capital/133729395",
+    "https://www.prnewswire.com/news-releases/cradlewise-secures-7m-funding-to-help-new-parents-with-baby-sleep-301419189.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 19000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 12000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-09-03",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Prudent Investment Management",
+    "CRV"
+   ]
   },
   {
    "name": "Dashlabs",
@@ -32975,7 +33120,22 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.techinasia.com/indonesia-oomph-imj-investment-partners-funding",
+    "https://www.techinasia.com/pakistan-mpos-systems-replace-cash/next"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Trendy Butler",
