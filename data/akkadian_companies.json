@@ -1682,20 +1682,40 @@
     "primary_investor": "Akkadian Ventures",
     "source_url": "https://akkadian.vc/portfolio",
     "scraped_at": "2026-10-17T21:11:02.927871+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 298000000.0,
+        "currency": "USD",
+        "date": "2021-10-14",
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "investors": [
+          "Tiger Global"
+        ],
+        "source_url": "https://cointelegraph.com/news/tradingview-completes-new-funding-round-with-3b-valuation",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.tradingview.com/"
+      "https://www.tradingview.com/",
+      "https://cointelegraph.com/news/tradingview-completes-new-funding-round-with-3b-valuation"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 298000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 298000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-14",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tiger Global"
+    ]
   },
   {
     "company_name": "Transfrvr",

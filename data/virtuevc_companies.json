@@ -570,20 +570,34 @@
     "primary_investor": "Virtue",
     "source_url": "https://virtuevc.com/portfolio",
     "scraped_at": "2026-10-17T20:34:57.283095+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2024-12-12",
+        "investors": [],
+        "source_url": "https://hitconsultant.net/2024/12/12/tuva-health-raises-5m-for-open-source-healthcare-data-platform/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.tuvahealth.com/"
+      "https://www.tuvahealth.com/",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0cyeVh0SHRJSERvUnducEFhNUVzeGc2YWJBbE1LWlJBX05zUVNQQ0xicW1LZGYxRGFiT21HOThYNmNZVzMtaW5vQVE3QWFLSExrNG1pMTF2MGMwYjV5SEVGcE9vdHpwTVBkMXpxQ3EzaHZKZjNpYXktSE1BcHZ4d2JEX09NZlJENnVHZXRqY3hPb3dzbHZSMUo3N0k1R19Ca2czSndkSHNmLW52dEEzVkR4bGVkeUpKVFE?oc=5",
+      "https://pulse2.com/tuva-health-5-million-seed-secured-for-building-open-source-healthcare-data-transformation-platform/",
+      "https://hitconsultant.net/2024/12/12/tuva-health-raises-5m-for-open-source-healthcare-data-platform/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-12-12",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ValleySteer",

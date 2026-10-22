@@ -42,7 +42,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Atomicwork",
@@ -54,7 +66,74 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2025-01-28",
+        "lead_investors": [
+          "Khosla Ventures"
+        ],
+        "investors": [
+          "Khosla Ventures"
+        ],
+        "source_url": "https://yourstory.com/2025/01/atomicwork-raises-25m-in-series-a-funding-led-by-khosla-ventures",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMG5wM3R1dWEzalA3aW5WN0NhdHF3YUJSSVpla0pOMWRWN3JrWGRkalJQRTY5bEk1YzZjclZoZUx4QW1TUDBBZEdDY2hhSnBlejBfR2FFMlpLbE15WS01cTU3cjRibEFMQk9weThEbWdrWW1ndFp6LVdrMXJiUXdpaTRsaEZKOGxFaV9OVTFWeGp3UWxudjktUXBDdTVKVF9kbE5lUXUzTEJNSXpiNUtXRzhFbHREYjRTckxPYw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVRJTnc4YzVOQndnQ3pkUGt1RVBWaUE1dUtpMWNCVEJodWFMUmtzWE5HU3BnWDJqWDBtT2VFTlJuckpBLW9IMW5yTno1RXZ4VDRYSDZVMnpMOXBSOE1seEFQV0doeExaTVd2bGl1Z0pwNDN0TE1oUmliNFZoU1RCWjA1YjducklIYXJNTVdZWjRNZ3FKcWstVVd0Sk5qNy1GSnZtcnZnMWh2dzNSUGhXSmZVenZFd0dzOUsw?oc=5"
+      },
+      {
+        "stage": "Strategic",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/atomicwork-gets-new-strategic-round-led-by-global-enterprise-cios-and-ctos-taking-total-seed-funding-to-14m-302257001.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNktaRlY3ZHpVNWV3REtuNXpBT0gtY1BvSV8yVzB3ZFYzek5qRlJROHBFamJjUjg3YXNtQ0ZteXJGcF94ekdFT0hIQXNQcnRiT1VUSW5kdGdrN0xENnotRzlIazk2ZW5VdVd6eklwckZUVXF3SjdyUjM2Vm5fdlp3c2ZXaGlNX1FHLXRMOEFUSmJzWUtHQ1JEMkxndFlvdEJxRTdWdXFRTTBhRlhzSkIydm9R?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRHIwcVp2VVFneHA2VFI1aTkwMmdtWUZ0am0xZEczS29IbkxycElYMTZOVmlGMFZmRTY5czgzeHFDVDcxaE9xZDlHYTlJNWQ4V2xCem9Hdk9XZDVoblJCSmFpY05kUk1qS1g0Y2l5ZkRFcnRLcDJXSWM4V3RwcTcxWXJqcjZvQU5QQXFyYkxYWTNfSFRKcHNNZWJtMzN4NWl2S0ZoNVNMNzRHRHpJOXpCcFRfTU9jRXVCV2c2OURNbGs4aVI3TndLcEpiWGtZVWRidTh3NA?oc=5",
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNUpGMjNvY0FUMGxVWEkyejhxamdVeU5jb1FNdUVsVGwtaV9jVDBrQlg5Y2VQWEg2LTFKY09TWV9iN3lVSVNZY196Tzd1MldUQmpzU0tiMV90TkxuZ1EzRDBYVFlmSTVGdVJnalJnM2NLVjNnMnptQjE5NFNJMHd3cDFoS0R0MDFjVDlzMDltQXJvZVVabDZMZzB3R1NWa2tacjhIbnMxcUNlZllncUR3VWdCd3N3QWhraVZtVXBsdGdmMnNQdjNEOVBPaTRfeTFSWUpFbWcyZDZzLTlMT2hhOWJKWDZDTUhXRVBGZmYwTXIyZ0pQOUs40gH8AUFVX3lxTE44czRPeUthdFJEM2lJUjZpZGdqVmtPRjFsQ2Q4ektOMmNRMTNHVEhjTk5RLUl1c1BjM3NtR2Q0dzhBWDVtbVV4Z0k2OV9pa1VtNExpaU1DWVpvQUQyVmhoMXFUT3NLX2JXdzVhbG0wTHZYaVlCbFE4N0J6aF9sY2owMHptOUU3VWJSLXdOdW5LZVB0VWJtYVA5V0QtS1M0Q25zakVPSTlXYVAtcjhvQWkwY1RWdG9BNWwxTEtFQlQ5SXB5cFl4SHFaQWxSZGZ6aUNSMTNyVFV1U2k2TWxpMWJZTFg3TkNCZ2kzYks3UEJRQ3FaMGNGMTY1ZmFCVg?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMkxmRnhZZHVEa2xIRFJ1SkpJdWFTNlZxZUVsdHdyRnJoNi10UmFIVFM5WmpXTFRHTktURjZVZDFxRVE3U21aS1BuaFJBVUdXcGRvY3FhYks2dFd1RER6YUdGVGZqUVdQVEZfOTRFbVlFVG5ucEFiSWx0eUVsbTRxOFhuWW1aQk5UTzI0czU5YVRjSERLeDhvYTQ0RFlKTVRGQS1OMUNOdFdHSG5BY083OW5BNTUzZEZKdG1sYVR1LXZpWEJmSFUtekpkZEJ1bVFGNDNhSDhHUUl1d9IB3wFBVV95cUxPYW01cUU4a3lEekZHeHBKTk9kWkR3UGQtQ3BLSm9PQlNHNGJSQy1SNlJIblIyc2pJY0tzNTF0bG9QcjNfNUNRY2ZWa181Sk16dGJkM2hBNzM5dmVHVjVMSDhFbUZnMHhPQUlVbUtyQUUxcDBaR29FS0F5X0M5N2JiaTFzOEdyMFdXX2VyZmRhQlhwcy00WFc2NjR6TFJDTno2bUQ3TFYyeF90QlpOZ0ZXcGtCSnlhNTNIb21oZ2l0OW1mYi1KTlFWOGhLVllNWGg0UmRxWlVNLXREc0tWTFlv?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDBjVmRrR01mQTB2NGxPX2ZiMzBTanhaNkhjRjB0LUFpYmFJbExVUml0VHUzd0RTaTNfY19KZnQzaC1OM1FpaUVDZTZsM1RIZml3dUY0TXpkWmdvdGtRLU02VWE4clp1N2dnRVJtN3dNdllZUzBRU1RkNk12eFVmWmNWYVdyalhfRGZCODRFZEFWNmhDcWNz0gGXAUFVX3lxTFBkMGNWZGtHTWZBMHY0bE9fZmIzMFNqeFo2SGNGMHQtQWliYUlsTFVSaXRUdTN3RFNpM19jX0pmdDNoLU4zUWlpRUNlNmwzVEhmaXd1RjRNemRaZ290a1EtTTZVYThyWnU3Z2dFUm03d012WVlTMFFTVGQ2TXZ4VWZaY1ZhV3JqWF9EZkI4NEVkQVY2aENxY3M?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMG5wM3R1dWEzalA3aW5WN0NhdHF3YUJSSVpla0pOMWRWN3JrWGRkalJQRTY5bEk1YzZjclZoZUx4QW1TUDBBZEdDY2hhSnBlejBfR2FFMlpLbE15WS01cTU3cjRibEFMQk9weThEbWdrWW1ndFp6LVdrMXJiUXdpaTRsaEZKOGxFaV9OVTFWeGp3UWxudjktUXBDdTVKVF9kbE5lUXUzTEJNSXpiNUtXRzhFbHREYjRTckxPYw?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWZlcFFqLUJiSTdTd2oxNVJWS2N6QS05VjIwRnRUN1B5VV93aXZQSGc1dnozWm1taFdObmFPb29RZWE3RTdqb0lwWFp5R2YtZVluQ2xkYjJzRUNvVUVEZjJOU01DR1Y2cDhjZ2RObmtSeTJBTTg4dTVPQTlyOHpDNEp6RG1SeVpJaHhFREtOd2FnTHRYTk5wd3h3?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pXZmRwZElKbUo2eGJURHU1SnJBRzhtcmJsMkFrV09wR2U0MkNJV0dpTjExc1ZLZUtrZlVkcTZDYUozTXFSTGE1VU14TmlDUlZPT1ZPU0U0RWpCdnRfSm1lTFVwWTl2MTlBc0hzd2JPeVB4Z3MzRzBjMU5qaFV3WWZOYjZqeXhleGlUZS1KV082ZWw5MnhyZEFLaUpoWWd2Z2JBcXNCNWJtbjN2STJxdHlXOEN6TDJmYVh1T0xPdnZ4MlRPNHBNadIByAFBVV95cUxPR1pXZmRwZElKbUo2eGJURHU1SnJBRzhtcmJsMkFrV09wR2U0MkNJV0dpTjExc1ZLZUtrZlVkcTZDYUozTXFSTGE1VU14TmlDUlZPT1ZPU0U0RWpCdnRfSm1lTFVwWTl2MTlBc0hzd2JPeVB4Z3MzRzBjMU5qaFV3WWZOYjZqeXhleGlUZS1KV082ZWw5MnhyZEFLaUpoWWd2Z2JBcXNCNWJtbjN2STJxdHlXOEN6TDJmYVh1T0xPdnZ4MlRPNHBNaQ?oc=5",
+      "https://yourstory.com/2025/01/atomicwork-raises-25m-in-series-a-funding-led-by-khosla-ventures",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVRJTnc4YzVOQndnQ3pkUGt1RVBWaUE1dUtpMWNCVEJodWFMUmtzWE5HU3BnWDJqWDBtT2VFTlJuckpBLW9IMW5yTno1RXZ4VDRYSDZVMnpMOXBSOE1seEFQV0doeExaTVd2bGl1Z0pwNDN0TE1oUmliNFZoU1RCWjA1YjducklIYXJNTVdZWjRNZ3FKcWstVVd0Sk5qNy1GSnZtcnZnMWh2dzNSUGhXSmZVenZFd0dzOUsw?oc=5",
+      "https://www.prnewswire.com/news-releases/atomicwork-gets-new-strategic-round-led-by-global-enterprise-cios-and-ctos-taking-total-seed-funding-to-14m-302257001.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-01-28",
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Khosla Ventures"
+    ]
   },
   {
     "company_name": "Awfis",
@@ -80,7 +159,31 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVoyWGNpT0ZrRFBZd0h3T2MteWhKemVuVzdfaHJHM3duOE5lOXlkQ284QnpjaTMyaTc5U2ZhVzBWZXFZOVN0Vi1fX01qU0daUDUxUzBDbjJUU25DZTk1TzhGR1pFd1NINUF1WDVFcjRrSEZPcTR1S0lsNjhuWmZ6ZExwVEs5LXRTS0FockpYTl9iREk?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVoyWGNpT0ZrRFBZd0h3T2MteWhKemVuVzdfaHJHM3duOE5lOXlkQ284QnpjaTMyaTc5U2ZhVzBWZXFZOVN0Vi1fX01qU0daUDUxUzBDbjJUU25DZTk1TzhGR1pFd1NINUF1WDVFcjRrSEZPcTR1S0lsNjhuWmZ6ZExwVEs5LXRTS0FockpYTl9iREk?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BharatPe",
@@ -124,7 +227,74 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2015-12-10",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ldkU3M1pMRWNqRFNacmpHd1FRT2UyR0djamRGTHN2QjhfTG04VTFzV0M1aDBKOWd6V0VlbGRVYlNldE1tcHNQX28waWNnOTFoSWltVGhYcWJVUFZnckprZldmTThqQW1NdnpuZUtNXzUycjg?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": "2017-03-21",
+        "lead_investors": [
+          "Sands Capital"
+        ],
+        "investors": [
+          "Sands Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWktazk0bUN1dk9CcndSbFo2aTFTWjRVbk1Ha00tSVdwR0xBT3QyMzFUU3d4VFlxOUdsUy1TaUVOWjMyUm5keFR1djhRNDUtOWhQaXF5LUs0cU9NVzBnYmpwaXVBS3U1QTJ0d3RGZ3cwTGlFSGlGYktXZVlWdEhCMkRUNExqRkZYd3ZNOVNNUDdPVWo3SE9sRTdDMldGVWVsbHc3SVBBQU5KNmpNRW1PVWhKWlVKdjFRSzdYdlc2a9IBxAFBVV95cUxQdkdJMG5RLXJfY1R2Nzk2cVZneVJvb0pvOUIxbU1EVWM2TmhmakU2NUI4LWNkd2FSeUdjcHJ2N1UtUGN2OGtjdVJ4M3dPUkR5ZDZCYmFyODhFbDBsbGZhQWotRXBJSGpoYlZyUFJMRi1fYmx5eXYwNUVHckNZTDRxRXgzZzRxZ1RxMWdWSi1DZzhmdVQzd04wb3h5TGhncmIxc2tNb0paQ0NBRW9yQ29GQWU1REtPMldNQTFkNlNHU3Y4eFZs?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": "2019-05-02",
+        "lead_investors": [
+          "Goldman Sachs",
+          "Accel"
+        ],
+        "investors": [
+          "Goldman Sachs",
+          "Accel"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEFrQzlfMzRfejlXbHJmc3FyTUVpdm44VVplRVQzVlNmMEhtM0ZJVjdEVDU0VXQ1ZmI3c0dnZloyMWg1WEJHZW1DdVctc0tMS3QxdFZoMC15SlBQdzhZWUIzYTZTVnV6RzVnWFlaR2U2dnJ3QXpzZ3FURElxd3lqaWgwR1UzLVZkTFlacjBxLS0xRF95dTdqQ0pjSmk3Q0Jybm85VVlxemlkNTJkemFHVGNRNXFDWWppMjJldlVXOGEyX3PSAcgBQVVfeXFMT2MwbEI5RGhJaXBaLWl6aVJRUTZNNmh5cjllMHk0a1JBcjVTOENBR2ZxdmxhYkdHSEpiR2xhQ3EtSVh1UkY1QjlmMEw1c0drZFFwSlNQZEM5RkE2REo0OW1IWW1UV3E2WXRRZF9tdGZBRGo4X2VzZTgyYWhPTEtGclFqdG1PUFE0b0VJMUxoSGVfbjZtWXQyZUpoV2QycDJYY1ZzbUF4RXEybXhmNXhKTHZlMEd2dEpMS2RLSGNkcmZkYWRuRjhSN2w?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihwJBVV95cUxNakRYNjV3dDE2VGU3WENNQl9JVDRiTERmbDVlRW5IUDJSS3RHTmR5emtfT01nZHpPZ3RZX2R1b0lQRjIyOFc2VXlrS2U3RS1nQ3FxQnFwaFhMdWtyNzdKQWpQWUdzSDZwajh0QW9SczB0Y3lnQ2EzcGVQTWhuY0xLSnZBUlVUckVPNWFLeWk0U3pjSzVfSzZ0QzQ3MUo2LVpyYlhXYXV4LXBqNlpjcWpaMWIydndOdEVMUXBtQjYwclJINzR3S1RhaV9NRHdsZ0l3N2JTcE43a0NKWVhKb0dHemNucmY5SEppYi13a0NXa3d5ZjhwUzJ2cV9fMDZsbEtXeEIzVGlib9IBjAJBVV95cUxPbEpYRS12NDl6S19UUTlISHBYa0I5VDBXdjRMN2lNWkFVZ3RuQXdBR0tGZGR3NWlheUd2QS1GV2lXZS1TbnNab1VvNnNiME11MVpZY0JZWTY4Nk9sbGU1VTJEeDVyUTVyTll6WHNJeVRPamdGdEk5OG1RaHlQUE1SSDkxOFN0dzU4RUlqOHFROE9NM2ttdVk2YkRNenNOZlI3bGhMeExuc1NrNXFOMEwwUTE1UHotVG45V3A3eXlZdjVtbmhmaU5mZjN0NV9mOGxKTmhYQVI0Ri0zX01yVkFiRlBWNzllWUh2UVNXLUFveXd1X3BpM0FvQ1psOWVidnJnU1dEQkRlNnhPdHZE?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxeHRaeXZrV3pMZGNEQnBGR21xV1hmRkMySnlKemFKalVJUWZYZ2VBV21NODgzYlRRb3gzOVdsR1ZDOUlyalNwSk1WXzRLdDFIX1VHVEhYYjdxQ0E4cVpUNmphQVkzVkNSeEEyNGM0V0s?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEFrQzlfMzRfejlXbHJmc3FyTUVpdm44VVplRVQzVlNmMEhtM0ZJVjdEVDU0VXQ1ZmI3c0dnZloyMWg1WEJHZW1DdVctc0tMS3QxdFZoMC15SlBQdzhZWUIzYTZTVnV6RzVnWFlaR2U2dnJ3QXpzZ3FURElxd3lqaWgwR1UzLVZkTFlacjBxLS0xRF95dTdqQ0pjSmk3Q0Jybm85VVlxemlkNTJkemFHVGNRNXFDWWppMjJldlVXOGEyX3PSAcgBQVVfeXFMT2MwbEI5RGhJaXBaLWl6aVJRUTZNNmh5cjllMHk0a1JBcjVTOENBR2ZxdmxhYkdHSEpiR2xhQ3EtSVh1UkY1QjlmMEw1c0drZFFwSlNQZEM5RkE2REo0OW1IWW1UV3E2WXRRZF9tdGZBRGo4X2VzZTgyYWhPTEtGclFqdG1PUFE0b0VJMUxoSGVfbjZtWXQyZUpoV2QycDJYY1ZzbUF4RXEybXhmNXhKTHZlMEd2dEpMS2RLSGNkcmZkYWRuRjhSN2w?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWktazk0bUN1dk9CcndSbFo2aTFTWjRVbk1Ha00tSVdwR0xBT3QyMzFUU3d4VFlxOUdsUy1TaUVOWjMyUm5keFR1djhRNDUtOWhQaXF5LUs0cU9NVzBnYmpwaXVBS3U1QTJ0d3RGZ3cwTGlFSGlGYktXZVlWdEhCMkRUNExqRkZYd3ZNOVNNUDdPVWo3SE9sRTdDMldGVWVsbHc3SVBBQU5KNmpNRW1PVWhKWlVKdjFRSzdYdlc2a9IBxAFBVV95cUxQdkdJMG5RLXJfY1R2Nzk2cVZneVJvb0pvOUIxbU1EVWM2TmhmakU2NUI4LWNkd2FSeUdjcHJ2N1UtUGN2OGtjdVJ4M3dPUkR5ZDZCYmFyODhFbDBsbGZhQWotRXBJSGpoYlZyUFJMRi1fYmx5eXYwNUVHckNZTDRxRXgzZzRxZ1RxMWdWSi1DZzhmdVQzd04wb3h5TGhncmIxc2tNb0paQ0NBRW9yQ29GQWU1REtPMldNQTFkNlNHU3Y4eFZs?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LeWl4Nk5ONDczb3p1MmJaUnZ4ZlZJWlBqMEJPdVIwS2JoZmlyY0ZKMmxJZGU0QkhybkxXR2VlRFpSNjl2YzVJdmZPMS1zRnFFbnNyR09uVGpuWTktUGdTbnp6WGlYY3VaNnJyRWxxdy0zQmlaQjI5Yk41bDQwZw?oc=5",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ldkU3M1pMRWNqRFNacmpHd1FRT2UyR0djamRGTHN2QjhfTG04VTFzV0M1aDBKOWd6V0VlbGRVYlNldE1tcHNQX28waWNnOTFoSWltVGhYcWJVUFZnckprZldmTThqQW1NdnpuZUtNXzUycjg?oc=5",
+      "https://www.ciol.com/funding-blackbuck-joins-unicorn-club/",
+      "https://timesofindia.indiatimes.com/business/india-business/blackbuck-raises-rs-1050-cr-in-funding-round-led-by-goldman-sachs-investment-partners-accel/articleshow/69132238.cms"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-05-02",
+    "total_raised": 245000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sands Capital",
+      "Goldman Sachs",
+      "Accel"
+    ]
   },
   {
     "company_name": "BlinkIt",
@@ -147,7 +317,21 @@
     "everywhere_tags": [],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc1hqTGV2eEluSFlfY3BWMEZMalhpb3JhVEJxVGhUM0NxQ0Y3VGxJaTIwOWtUaEp1X3NvVi1aM2FNb2lnZFRZc0JpV2ZmeTZ4SUhJbjFsXzJJcVptbUdxb0dFNWYyd1Y5eGxtZzlaMXdENE9zbTA3UHZ0T2N3X0hTVm0xaEdQczRGdWFJSVZONlA3ZU81ZHNkNWVOOVRQVHpVZ0V3?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cafe Coffee Day",
@@ -171,7 +355,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cardekho",
@@ -205,7 +401,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Chargebee",

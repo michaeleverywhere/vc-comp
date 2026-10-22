@@ -39,20 +39,41 @@
     "primary_investor": "Firsthand VC",
     "source_url": "https://www.firsthand.vc/",
     "scraped_at": "2026-10-17T18:05:14.423228+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 7200000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Tyler Hogge"
+        ],
+        "investors": [
+          "Tyler Hogge",
+          "Blank Ventures"
+        ],
+        "source_url": "https://pulse2.com/agree-com-7-2-million-seed-funding-raised-for-invoicing-and-payments-platform/"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://agree.com/"
+      "https://agree.com/",
+      "https://pulse2.com/agree-com-7-2-million-seed-funding-raised-for-invoicing-and-payments-platform/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 7200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tyler Hogge",
+      "Blank Ventures"
+    ]
   },
   {
     "company_name": "ai.work",

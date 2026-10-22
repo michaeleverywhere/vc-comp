@@ -63,21 +63,37 @@
     "primary_investor": "GMO VenturePartners",
     "source_url": "https://gmo-vp.com/portfolio",
     "scraped_at": "2026-10-21T00:01:53.147479+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2015-05-21",
+        "investors": [],
+        "source_url": "https://sg.finance.yahoo.com/news/online-payments-company-2c2p-banks-095335422.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://2c2p.com/",
-      "https://2c2p.com/news/"
+      "https://2c2p.com/news/",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85UVpGZG55ZlVDTFRodHJTWENqMHJ2NVRUVkllR2w2c1YtNG93X1prRkpLVGo1Y3NPYVJYRmd3ZEtJZTc5dWRfeVczTVA5NXlCYU82Z2RLX08tS3p4?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLXRhSnpRSzhuQVZnNjZQbWlVMUhkQUNQdHp5MDJURzJjSG14dzNFOUZMMnVxX0RCSzlMODFEYzJRZEhJNm9RRGRtOUNicng2NlkwMndfOC00emtZaUJWUUpFcHNNNDRZRmJfb1pLOTBfY0ZvSXl0NXhBMjdISnlRMWdHQTBnNlllbnlhZlZNMTI0S1U0Tl9jWm9FODZqb3R2UGc?oc=5",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCY3c3bTNSWEtHZFotUkNlZmkxWGwweWprN2hTbVZwUnhmRWd0bkxkOTV4VDZjSXhnWVRFMXh2VWE4Qk5MLTg0cFFibko3NGxLUV9KaDBHbUVxOWo1?oc=5",
+      "https://sg.finance.yahoo.com/news/online-payments-company-2c2p-banks-095335422.html",
+      "https://sbr.com.sg/financial-services/news/daily-briefing-payments-platform-2c2p-raises-71m-funding-regtech-tookitaki-b"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-05-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Accel Robotics",

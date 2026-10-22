@@ -22,7 +22,19 @@
     ],
     "primary_investor": "FGV Capital",
     "source_url": "https://fgv.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.730790+00:00"
+    "scraped_at": "2026-10-17T21:11:02.730790+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Blockhouse",
@@ -103,7 +115,40 @@
     ],
     "primary_investor": "FGV Capital",
     "source_url": "https://fgv.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.730790+00:00"
+    "scraped_at": "2026-10-17T21:11:02.730790+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11137495.0,
+        "currency": "USD",
+        "date": "2024-11-25",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2047500/000204750024000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmxUZW5rOXg4UzZSeHpObi1KNTRUODczd2dNS0VZc3p5LUp2cGRMQ1dFWnNhSk5tODBCRFpmLVJnMW1KSHplR0pWU21aNG5hY1IzMXJFZ093ZVpLTW9xTUlQUDA3Wm9vTGM5eWNMTEFMZ0ZkWDlHWm1uTmhUenoycHljRjR1WHNKT3BVVTYwemt4Qnc5UnZNX29FWUgwTGk2cV9pZjZHNllTajNiVjRSeTFkT1M?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdk5meXlvV1UyeFpZLWk2S01tQkJtX0EzOUYycExpRXV1SDR5b3V4MEgySXBHbHBzN2xwbVphSXhMSENUNUZVdmJnbm1MVkVVbmtaQkdkUDIwWVFRZTVTOG9YOWlWWXQtN0ZkcjhwUjE4dzREV3l1a0RxZDZjVVJwSWNKRnRTUGpldnpOMGFYMnZNUDc5eWc5dGpJenlKZHJudHpaMGxhYWNsby1PVnlNdks0OWpKdk9PeVBNUmQtTXgyQ29wLUt2ejRUd19XS1JZZGc?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE8za3Q2alEzdzR3UHRFX0E4bWNGSVVJZHdKZGtWR1g1VkdXQlQwNFBVRHRUQ0F0Yng1eGF2Zi14Ym9La1lRR3puZXFrRWxvNUd6elhfaWd2bzdQRjNPQUJWUXdpQnczM0s1OGVKZl92U25rZkZ1ZGc?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN05SLXk4UGMxTEFiM2NLVk96RWR3UGo2b3FBbE1HZ3ZHMG1GMHZPSHd4cld0WHQxM3hnb2Q4MGpsdGthZXdyVmZuRDdfRTNqRlNEYm9YbWNDQXQ0djVkNk81STBEUnpIai1TYnNLZ001T25mZ2kwVHZyX2FwQXdxNjFKRzU4WXZaeHhvNjJvTGlhZXM5cXU1ZUJXb2s5TTFkV1RCLUZGSS1rWjFMUlo2Vm5mNU1RXzVQS1E?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU8ycjN0eDBteHZ5SExpcU9MWnBhODhJQ01hVmpWTHBiN3lsOHpqZkFTS0xXcGRxWVdZT1JfcTNRWUtBcjlOT2pQcUFPa3BqZG9GdFlWRG05S3lqWGZSQWxjYXl3RG44RzhoNmlNSDZ6UVQ1TmdFcUxkRTlWQ1hReVk5REliYU9WaGhZTFczVjBxTks2bWg1WWF1aGw?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkpnUHhnTG10dDRIWkFlZVBEUkVKeTFUdVBla0F1SXpjMDN2TjNDLUdVSjdTemxhLWtrczB6OWRlQm9GdE5BOW9ERENzVGkxUUowNWxiQWllbnZhdkp5ejlVNVduWTFzODJmNkFrUkVSMG9wZHpMdVkzamlHdjRzamxyQWxUb3NJTmVOWHVlWWdvS254eTVNeEwwUlpWVGRIb1E?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNjRNOTRCVkVEWlhrRzBBM1RMRnVoaG80eW9xakRKZVBFRWxDb29tMFRUdTA0bkV0X01XZEJjS0tGM0Uyd0ZqV3ZoWVpIUVl2VXlhX2k5UFI5czhkZ2FlSl9KelN3TmVKVzV4eDNlUTNwR24tcmJTV2VxbVJjSlVHZFJmTGJkVXJBRndab2xR?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMVNtc25Ec2t6c0NxVjNvYnczd2wxVjYwMnJMU1YzTWpGdWFvTE1OdTRpcXZEdG03MlhlYmtfUUhNaFhLQVdkS1RXOVhPRjdfSTY3Mk5NM2RNM0ZYcmIzU0MwNFo0Vk5tdUt6amFXdUlfNVVnTF92aHdWTlRLM09LUDQxYk05LUxkdGJHelVyOTFEQnZPaHhrSHBrYW83VUZiTWNsMnVxVUdERlhLSElOTXFwbUVwblJQWlVhUWxQZw?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/2047500/000204750024000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 11137495.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-25",
+    "total_raised": 11137495,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Conduiit",

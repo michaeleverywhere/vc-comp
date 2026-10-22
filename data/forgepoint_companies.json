@@ -55,20 +55,34 @@
     "primary_investor": "Forgepoint Capital",
     "source_url": "https://forgepointcap.com/companies/",
     "scraped_at": "2026-10-15T13:23:36.771370+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": "2026-01-28",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2026/01/28/adaptive6-scores-28m-series-funding-find-fix-cloud-cost-inefficiencies/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.adaptive6.com/"
+      "https://www.adaptive6.com/",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZHBkTGlIZDM3ZUtySV9JZ084aDlUWVktenJ3R3lJNWNQQmZpNGJaRDh4RU83aXRSMjlXX2tDS3cteVI1UjlpQWptcjBUb25OMWp0TGNCajNLWFNZUmFNbUdPZXlvTEZCczJ6RUNZb3BuTUtxR3pyVTBia2U1MF9PVEp1LXN1WkE0eXhtcXFoaWREaHVSZkN2WFM4UUZBWG1uN3RaaWMtdTFLYms?oc=5",
+      "https://www.ynetnews.com/business/article/b1d7dioibg",
+      "https://siliconangle.com/2026/01/28/adaptive6-scores-28m-series-funding-find-fix-cloud-cost-inefficiencies/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 28000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "AKA Identity",

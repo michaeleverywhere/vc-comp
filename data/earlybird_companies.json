@@ -30,7 +30,19 @@
     "everywhere_tags": [],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/6-wunderkinder-gmbh",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "abaXX Technology AG",
@@ -123,7 +135,44 @@
     ],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/arago",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUE5ab280WExtb2NsSGNWRktFMWVUVlNQQzlRdGNleWlzRU9CdmpEUk91ZFBsQWpkLVJKbGVEUmRqUHg5TGstZjJPZXRpakJidzN1eUF4emVJd0ZHSWxRWk53MDZJVVhkb2ZiZzJYbWdNMllOU2Nwa1FVVWxGTnRzVGlpdEYtTlVIbkpoX0dhaTRGQTlFb3M3Nmk1bS1maGpfcTFhOU9Hb01hNXM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 22100000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQS1gteldiTzRYQVIwVEZUek5lUnhNbVYwblNWRWN1WWUxSE5RMDUyTlhFR0tHcTNnVzlNZlF1eTdZUEREYnNQQmo3Z0J6bnlibF8yR3NWM2VqRDdXVzV6bEtDMUxtZlJlZ2pzRVVSMzRfMGx2U1NpOERJeTZVLVpNSTVzSDVMNTZnU0Q3b2pFUkxkQmhIYV9ZWjJKWkdNcFhSVWFXcTNXcldQSk1UVHd6REpCNFRVdVYtNU1XVkw4aHdraFBTVjNiemE3RWhudE1SNHM4TVVUMTRxVGI1LTI3V2VR?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWFIwd1BYeWRCMDB4LXI0Uzd3bDgtQkZDbGQtbHBSeV9ScVRsUlJOZDVidjJIYkVwdVZPSnBfV2p3M1RncUNCQndId3I0S1JJemFLNF9XWjA4WkMtMGRzcXdrazhsSHZ5Nk4zY1ZLckg0dTNnMWFiQ3cxYkJFaFd4bjRpS19FSjhtc2VpdlFWY2c?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUE5ab280WExtb2NsSGNWRktFMWVUVlNQQzlRdGNleWlzRU9CdmpEUk91ZFBsQWpkLVJKbGVEUmRqUHg5TGstZjJPZXRpakJidzN1eUF4emVJd0ZHSWxRWk53MDZJVVhkb2ZiZzJYbWdNMllOU2Nwa1FVVWxGTnRzVGlpdEYtTlVIbkpoX0dhaTRGQTlFb3M3Nmk1bS1maGpfcTFhOU9Hb01hNXM?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHcxT0hfR3IzcnRVSjJXWklvNFdoYkZEaXRkQW9mUXh1Zmh0YUJORGxNOWdZZGxxc05kMFRQeWZNQXNoSnltUjg5NWxHcDBBaHJxVXVRTGNOcV9vdERybDdVZHhUTTgzdGE0R2NNbjRuRVBSRWM4Wm1BUFZIUGg4MWRxNklPMFlZbGZ4ZGlVMU94c0tmZ1c3Nw?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaWhJRV96Yy1vczlBTThXaU9NNTVWcndjV1MyVHVxUUw4OWVaSDdBNEZzcWpZajlhUjVpTjdvLWNiVFBYVmd5YVZreXVtc3poUEctRGF4Ymd0Z185RWlEX2pZb3drQ0p4aXVKOFpmdVNmd2JiZWdvMmZOUk9CbkhoUTdhQmRpOHZzOEZTOGhaY2NROXBYLVVyeFhDcGlyZm9JcmRfMVBhTWV0cm1XUElSRG80N2FueDlTWnVTMlhvVUdHM2R3?oc=5",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQS1gteldiTzRYQVIwVEZUek5lUnhNbVYwblNWRWN1WWUxSE5RMDUyTlhFR0tHcTNnVzlNZlF1eTdZUEREYnNQQmo3Z0J6bnlibF8yR3NWM2VqRDdXVzV6bEtDMUxtZlJlZ2pzRVVSMzRfMGx2U1NpOERJeTZVLVpNSTVzSDVMNTZnU0Q3b2pFUkxkQmhIYV9ZWjJKWkdNcFhSVWFXcTNXcldQSk1UVHd6REpCNFRVdVYtNU1XVkw4aHdraFBTVjNiemE3RWhudE1SNHM4TVVUMTRxVGI1LTI3V2VR?oc=5",
+      "https://www.newelectronics.co.uk/content/news/deeptech-startup-arago-raises-26m-in-seed-funding-to-slash-ai-energy-consumption",
+      "https://www.datacenterdynamics.com/en/news/photonic-chip-startup-arago-closes-26m-seed-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 22100000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Aris Machina",
@@ -138,7 +187,19 @@
     "everywhere_tags": [],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/aris-machina",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Avrea",
@@ -170,7 +231,19 @@
     "everywhere_tags": [],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/b2x-gmbh",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bayshore",
@@ -303,7 +376,19 @@
     "everywhere_tags": [],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/briefcase",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Carpooling.com",
@@ -908,7 +993,46 @@
     ],
     "primary_investor": "Earlybird",
     "source_url": "https://earlybird.com/companies/companies/isar-aerospace-technologies-gmbh",
-    "scraped_at": "2026-10-02T13:09:48.160674+00:00"
+    "scraped_at": "2026-10-02T13:09:48.160674+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 165000000.0,
+        "currency": "USD",
+        "date": "2023-03-28",
+        "investors": [],
+        "source_url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 270000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmw4VU9hWlpnY1hTbHZ2eXdDeFdET25VdF9tclFzNDdfMFd0WW1oMXJ6dGwtRXpUeWoxdUdhTFBRSTExTERvUUwydmcxb0tGazJYQlJnSVNUbl9LRUc1WFRzTFNFMURybkFkZE1FWGEzcGhyUk4tVjBiRlVyem5hYXZTZjVfMjJKcTMwTVdXVUxQODgtbEFCNFBEdThKNllxUkE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxONDJ4SzFQbWRkRmxfQi0xbEsxUkpTR1NsSmlEaHVfWVp5Sm5GSHFlNG1UNGhteHhnQnF5bTlwM2ZuR2xUSnNBYWhDVFU0aDdOWXlnMnVVTncwRVFfUDdCLVFFUVlLSklKdWtwQmk4NnIxclI3cllYVnN4VjY5dkZPUV9qX21mY0VDQjUwem9uUllFMzd4?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmw4VU9hWlpnY1hTbHZ2eXdDeFdET25VdF9tclFzNDdfMFd0WW1oMXJ6dGwtRXpUeWoxdUdhTFBRSTExTERvUUwydmcxb0tGazJYQlJnSVNUbl9LRUc1WFRzTFNFMURybkFkZE1FWGEzcGhyUk4tVjBiRlVyem5hYXZTZjVfMjJKcTMwTVdXVUxQODgtbEFCNFBEdThKNllxUkE?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWXZtekJqY1ZSSk1hVXB0MXhHQlk2cnNFZmtMR2diaHRDUkowOXFxTlo1U3k2NWYzSm9aeURQbzlCZl9oVllqbmxxODZ3ZEwxTEdUMHpCc2IxU19adUVoaldxUF96eEpwU1JFV1gwYXpTQlhvS2dQQjVNX0VpSENUT1dQVTk3ZFZzWUpIdG53VzlOVV9jZUpSdGtlSEo0eXUwZHpEczZzMmpzNzZPNTZIOGNZU295dFhFejJ6bWF1UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iOEwtNV9VSzBvanlCTTNNMEw0ckQxQU9HX1N2dDVCYWNtV3VIOW5UMS11dkRoQ2RQb3NwSjdlLXpkUkxla1JRUmRtWnlkdGE4U3dIQTNvYThFZkFGVjdFc3pZUnVJWFowOEVhVnpXc1JnYldHUEdWWm5YS0I?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTFBndDU2MkxFa3JJc0c0VVg4SUwwdm1BemwxV2FYMXJ4N1RYQUFVSXpDcHJrT3NDUjdxOU90X3RCcWhwd2dRTjJGc0xZSGV5dmkxQkNsd2FsSjR4SmZVZS1zLUVVUUJQVWU5Vkk4WFdOUQ?oc=5",
+      "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+      "https://satnews.com/2024/06/21/isar-aerospace-extends-series-c-to-more-than-220-million-euros/",
+      "https://satnews.com/2023/03/28/isar-aerospace-secures-million-in-series-c-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 165000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-28",
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Junto Education GmbH",
