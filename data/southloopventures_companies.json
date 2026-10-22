@@ -436,20 +436,33 @@
     "primary_investor": "South Loop Ventures",
     "source_url": "https://www.southloop.vc/portfolio",
     "scraped_at": "2026-10-18T18:25:59.356616+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/spatial-computing-startup-nucleus4d-raises-130000775.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.nucleus4d.com/"
+      "https://www.nucleus4d.com/",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWQ2stZy1HUFBJYnJ4TmxFblQ3TnVPQWZQQVM3UUh0V1lFRXQ1VnBoQ29FdjNYX2pXcldlaEN3bTU5Vmpyd081elNjal9sYnFqRTJjYlB5RnlpNXJ3dDNtV3M1bktxT1BETnR2ekNHd0JSMnVfTEtkMQ?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5UWZDTTFqRjhIWFBwZ04wZEtFdDdiV1dBaHVxQTNOdVcxVkt2a0ZkQjJfWjlLd0VQVkpIWDRSTnpiT2ZwdV8yd1YxVjJ6OXczVGlKWlgtM0lsTHhCQUVaemZ0aWtyWlVnTjRJ?oc=5",
+      "https://finance.yahoo.com/news/spatial-computing-startup-nucleus4d-raises-130000775.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PraxisPro",

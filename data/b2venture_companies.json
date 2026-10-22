@@ -548,20 +548,31 @@
     "primary_investor": "b2venture",
     "source_url": "https://www.b2venture.vc/portfolio",
     "scraped_at": "2026-10-09T13:58:52.477947+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2200000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpRNDRaRHBWdGctUldXMl84bDRkaXdYbFZ3RE12aUFMVXl5c2tBV2tCVlNzVFFwNklTZndkU3RfcmFaLUFQWUUybm45OFVuTUlLcVRPRkg1STh4SzZNRVRFMmdZa3MwYkFHUnExcDdERXBodEtGYUJZMVNnbHEybXlYWkxoVXhMTGRUNTNHN3dUNmNfWUlvNVpfU2pfdw?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.orus-energy.com/"
+      "https://www.orus-energy.com/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpRNDRaRHBWdGctUldXMl84bDRkaXdYbFZ3RE12aUFMVXl5c2tBV2tCVlNzVFFwNklTZndkU3RfcmFaLUFQWUUybm45OFVuTUlLcVRPRkg1STh4SzZNRVRFMmdZa3MwYkFHUnExcDdERXBodEtGYUJZMVNnbHEybXlYWkxoVXhMTGRUNTNHN3dUNmNfWUlvNVpfU2pfdw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2200000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2200000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "eGenesis",

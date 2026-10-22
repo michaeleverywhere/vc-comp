@@ -2197,20 +2197,43 @@
     "primary_investor": "Square Peg",
     "source_url": "https://www.squarepeg.vc/portfolio",
     "scraped_at": "2026-10-07T13:23:27.841211+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-04-22",
+        "lead_investors": [
+          "Square Peg"
+        ],
+        "investors": [
+          "Square Peg"
+        ],
+        "source_url": "https://siliconangle.com/2026/04/22/octen-raises-10m-seed-funding-speed-ai-agent-search-queries/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://octen.ai/"
+      "https://octen.ai/",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3dhSnZYa29pejdmbWs4S0lYQ0dOTjZzYjlwUzhUYTRRZl9NV2o0eEtVOW5KTU1ZMkwyQ3BESXNGSGRTTmp2TGhZSEpicmYyeEh6ZjEwWkYzcno1S0RQTGxZTFItUGJjR0FFSTZ3SEVlVl9lanZEODRjU2txTUtPcWVISXoyc3FwVjJOb2ItZEJTNEE3V1lnZFZuZWw?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tSjNFblU1bHNLNUZCSTJUT19xN2NqamttX0R6TXkxMi1wLTVEeHBHa3BDd0FwUEFzcmZnU0lMUEN6YUZWQl92UVJiX2d4NDZkNHlVRWpyV2tCSkZBY2d3enBCRkpQSEtkMG5GVjlURUhJY2RPNEhDVWxUcVM?oc=5",
+      "https://siliconangle.com/2026/04/22/octen-raises-10m-seed-funding-speed-ai-agent-search-queries/",
+      "https://pulse2.com/octen-10-million-seed-and-new-api-launch-aim-to-redefine-search-infrastructure-for-ai-agents/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-04-22",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Square Peg"
+    ]
   },
   {
     "company_name": "OwnHome",

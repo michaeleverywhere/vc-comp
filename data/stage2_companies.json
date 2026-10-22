@@ -2730,20 +2730,31 @@
     "primary_investor": "Stage 2 Capital",
     "source_url": "https://www.stage2.capital/portfolio",
     "scraped_at": "2026-10-11T13:29:09.550115+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOTl6STFoTk1RekZTUkVEdmxJakMzaU9NRnJsLWo4dzE4VnluN25WeE54ZVkzOXFVS09YNkFsdndONlpnNFVJTXRHWmxvQ0VyT3BTaVlnSG1LWGptb0hodnc1S2xBMTZHcG9fUDRXV2w3NHMwcXdDQmlEM2owdm1SOTlKWQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.getonecrew.com/"
+      "https://www.getonecrew.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOTl6STFoTk1RekZTUkVEdmxJakMzaU9NRnJsLWo4dzE4VnluN25WeE54ZVkzOXFVS09YNkFsdndONlpnNFVJTXRHWmxvQ0VyT3BTaVlnSG1LWGptb0hodnc1S2xBMTZHcG9fUDRXV2w3NHMwcXdDQmlEM2owdm1SOTlKWQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OnScale",

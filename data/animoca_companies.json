@@ -10943,18 +10943,31 @@
     "primary_investor": "Animoca Brands",
     "source_url": "https://www.animocabrands.com/our-portfolio",
     "scraped_at": "2026-10-16T20:23:30.215016+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "crowdfunding",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2019-01-09",
+        "investors": [],
+        "source_url": "https://www.notebookcheck.net/Omnicharge-attracts-over-US-1-million-in-crowdfunding-for-its-impressive-40-300-mAh-power-bank.393051.0.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.notebookcheck.net/Omnicharge-attracts-over-US-1-million-in-crowdfunding-for-its-impressive-40-300-mAh-power-bank.393051.0.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "crowdfunding",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-01-09",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Omnichat",
@@ -11266,20 +11279,40 @@
     "primary_investor": "Animoca Brands",
     "source_url": "https://www.animocabrands.com/our-portfolio",
     "scraped_at": "2026-10-16T20:23:30.215016+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "lead_investors": [
+          "Animoca Ventures"
+        ],
+        "investors": [
+          "Animoca Ventures",
+          "KuCoin Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/in/news-releases/openstamp-raises-seed-round-led-by-animoca-ventures-and-with-participation-from-kucoin-ventures-and-others-302095884.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://openstamp.io/"
+      "https://openstamp.io/",
+      "https://www.prnewswire.com/in/news-releases/openstamp-raises-seed-round-led-by-animoca-ventures-and-with-participation-from-kucoin-ventures-and-others-302095884.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
+    "last_round_type": "Seed",
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "notable_investors": [
+      "Animoca Ventures",
+      "KuCoin Ventures"
+    ]
   },
   {
     "company_name": "OpenZK",
