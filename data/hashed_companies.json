@@ -1309,20 +1309,34 @@
     "primary_investor": "Hashed",
     "source_url": "https://www.hashed.com/portfolio/",
     "scraped_at": "2026-10-16T16:51:06.500274+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4700000.0,
+        "currency": "USD",
+        "date": "2023-07-25",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/delabs-games-raises-4-7-100102766.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.delabs.gg/"
+      "https://www.delabs.gg/",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE04d1cxSVJ4Sl9rcWZwTTFNeXhGREJ0SHZGd3lxZ1h4SFJ4dDFTVUpFRUNIVjJkcmFVa0V1VW5yZFY2b0hNbmwwN0s3OEJma2QxVy1TdUFpSVp6QnhtU1c5a0M5UUlPbVZ4a2NteXNpaFF5QWlZNWlmbEVPRQ?oc=5",
+      "https://finance.yahoo.com/news/delabs-games-raises-4-7-100102766.html",
+      "https://www.pocketgamer.biz/delabs-games-secures-additional-52m-to-accelerate-ai-powered-web3-ambitions/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Delivus",

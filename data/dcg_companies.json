@@ -3736,20 +3736,31 @@
     "primary_investor": "Digital Currency Group",
     "source_url": "https://dcg.co/portfolio",
     "scraped_at": "2026-10-16T16:49:58.240109+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSk1ucFdXbXczZUE3M2h2OG43YVI4QkxLQWU3VktuaGlrNzhsNlRjcnRpdmd5TjNTYktlRDd6SHVnOXpsdjJObGVESFZmX250THZRUV9tMGZIV1dKdjdHNUR3OFNaeWpzSk5ENGdlM0xKZV9kTkVGY0hHWllmSXlzRHRpN1Z4N3NIZDBoR0tvdzNtZEk5U1NiaVF6YkRDWTJDSFVsaFBJQnFrcFBScVFLbGNOTkpyMmNqZWpRTVVha1htZ2xKNUhEek9lVHA?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://doppler.finance/"
+      "https://doppler.finance/",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSk1ucFdXbXczZUE3M2h2OG43YVI4QkxLQWU3VktuaGlrNzhsNlRjcnRpdmd5TjNTYktlRDd6SHVnOXpsdjJObGVESFZmX250THZRUV9tMGZIV1dKdjdHNUR3OFNaeWpzSk5ENGdlM0xKZV9kTkVGY0hHWllmSXlzRHRpN1Z4N3NIZDBoR0tvdzNtZEk5U1NiaVF6YkRDWTJDSFVsaFBJQnFrcFBScVFLbGNOTkpyMmNqZWpRTVVha1htZ2xKNUhEek9lVHA?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dune Analytics",
@@ -5435,7 +5446,19 @@
     ],
     "primary_investor": "Digital Currency Group",
     "source_url": "https://dcg.co/portfolio",
-    "scraped_at": "2026-10-16T16:49:58.240109+00:00"
+    "scraped_at": "2026-10-16T16:49:58.240109+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Immersve",
