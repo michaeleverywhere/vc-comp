@@ -11706,10 +11706,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://commando.dev/"
+      "https://commando.dev/",
+      "https://techcrunch.com/2023/02/16/commandk-funding-lightspeed/",
+      "https://siliconangle.com/2023/02/16/commandk-raises-3m-assist-companies-achieve-higher-security-standards/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -11937,18 +11939,42 @@
     ],
     "primary_investor": "Lightspeed Venture Partners",
     "status": "acquired",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Lightspeed"
+        ],
+        "investors": [
+          "Lightspeed"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY3V0cldYcTZaUzNUMFNQMWtfdV83bS1VMzlraEE4TXg2VkYweFBNT3VrYjk2WHJGcEluV1JHY3g0UjZ2MjBZaHFaY2ZCQTF3WWlRZ3AyNlFmLWM1N2F1NjEtd3AxWGxmN2J0dHF5T1IwQlBlU01uR0YwM3Y4MGc1VmQtVGZDeFhrZWZPTDJxV3ZydUdyUFZ3Z1AzMmRUVmIwcWM2WHQxaTFUM0ZHR1pScUxBdXV5ZnM5QVE?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY3V0cldYcTZaUzNUMFNQMWtfdV83bS1VMzlraEE4TXg2VkYweFBNT3VrYjk2WHJGcEluV1JHY3g0UjZ2MjBZaHFaY2ZCQTF3WWlRZ3AyNlFmLWM1N2F1NjEtd3AxWGxmN2J0dHF5T1IwQlBlU01uR0YwM3Y4MGc1VmQtVGZDeFhrZWZPTDJxV3ZydUdyUFZ3Z1AzMmRUVmIwcWM2WHQxaTFUM0ZHR1pScUxBdXV5ZnM5QVE?oc=5",
+      "https://pulse2.com/confluera-9-million-series-a/",
+      "https://venturebeat.com/business/confluera-raises-9-million-to-intercept-real-time-cyberattacks/",
+      "https://www.streetinsider.com/Business+Wire/Confluera+Raises+%2420+Million+in+oversubscribed+Series+B+round+to+accelerate+adoption+of+autonomous+security+for+Cloud+Infrastructure./16904225.html",
+      "https://venturebeat.com/security/confluera-raises-21-million-for-automated-cyberattack-detection-tracking-and-response/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 9000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 9000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lightspeed"
+    ]
   },
   {
     "company_name": "Cosmart",
@@ -16030,7 +16056,19 @@
       "Future of Work"
     ],
     "primary_investor": "Lightspeed Venture Partners",
-    "status": "active"
+    "status": "active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Eyeview",

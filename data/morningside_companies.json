@@ -781,20 +781,33 @@
     "primary_investor": "Morningside Ventures",
     "source_url": "https://morningside.com/today/portfolio/venture/",
     "scraped_at": "2026-10-17T17:07:59.408564+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 11600000.0,
+        "currency": "USD",
+        "date": "2017-03-28",
+        "investors": [],
+        "source_url": "https://hitconsultant.net/2017/03/28/cognoa-machine-learning-app/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://cognoa.com/"
+      "https://cognoa.com/",
+      "https://venturebeat.com/entrepreneur/cognoa-raises-11-6-million-for-digital-health-platform-that-spots-early-signs-of-autism-in-kids/",
+      "https://hitconsultant.net/2017/03/28/cognoa-machine-learning-app/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 11600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 11600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-03-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CollegeVine",
@@ -1154,7 +1167,19 @@
     ],
     "primary_investor": "Morningside Ventures",
     "source_url": "https://morningside.com/today/portfolio/venture/",
-    "scraped_at": "2026-10-17T17:07:59.408564+00:00"
+    "scraped_at": "2026-10-17T17:07:59.408564+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Enyo Pharma",

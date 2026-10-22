@@ -147,18 +147,32 @@
     "primary_investor": "ABSeed Ventures",
     "source_url": "https://abseed.com.br/portfolio",
     "scraped_at": "2026-10-21T00:58:07.772404+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4600000.0,
+        "currency": "USD",
+        "date": "2023-11-27",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2023/construex-raises-4-6-million-to-digitize-latin-american-construction-industry/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://techcrunch.com/2023/11/27/construction-marketplace-construex-latin-america/",
+      "https://www.pymnts.com/news/investment-tracker/2023/construex-raises-4-6-million-to-digitize-latin-american-construction-industry/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-27",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Conta Simples",

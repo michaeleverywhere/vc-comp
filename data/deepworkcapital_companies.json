@@ -600,7 +600,32 @@
     ],
     "primary_investor": "DeepWork Capital",
     "source_url": "https://www.deepworkcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:12:26.525057+00:00"
+    "scraped_at": "2026-10-19T20:12:26.525057+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4936206.0,
+        "currency": "USD",
+        "date": "2020-03-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1808948/000180894820000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1808948/000180894820000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 4936206.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-03-21",
+    "total_raised": 4936206,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Exowatt",
@@ -673,7 +698,22 @@
     ],
     "primary_investor": "DeepWork Capital",
     "source_url": "https://www.deepworkcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:12:26.525057+00:00"
+    "scraped_at": "2026-10-19T20:12:26.525057+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTJsVDBLLTRZdnRyYWFzMko4NGpKQlVhWUdaUUhZUDBaRkh2MXdJeTZkdmVaS3BZOUlfVFc3X0Y4Z0dTbEstaE9aTWc1ZmZndndCQzQyMFcyNmtKclhSQU55MEhCMDZvVkxRamo2RUVLbHY5LWZQS0FKRWEwSTZyT1hndldjM0RxamxTbi1iWjdSMXRfUnVadXdXQQ?oc=5",
+      "https://www.finanznachrichten.de/nachrichten-2017-10/42038258-fattmerchant-founders-expand-growth-enter-transaction-alley-in-atlanta-after-closing-a-dollar-5-5m-funding-round-with-atlanta-based-vc-firm-payment-proc-256.htm"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "FirmPilot",
