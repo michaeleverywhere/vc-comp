@@ -105,7 +105,19 @@
     ],
     "primary_investor": "Kae Capital",
     "source_url": "https://kae-capital.com/investments/",
-    "scraped_at": "2026-10-16T17:13:08.122678+00:00"
+    "scraped_at": "2026-10-16T17:13:08.122678+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Certa",
@@ -265,7 +277,52 @@
     ],
     "primary_investor": "Kae Capital",
     "source_url": "https://kae-capital.com/investments/",
-    "scraped_at": "2026-10-16T17:13:08.122678+00:00"
+    "scraped_at": "2026-10-16T17:13:08.122678+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1150000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Kae Capital"
+        ],
+        "investors": [
+          "Kae Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmp6U0FpQ1Q0SFlsbnQ0RHVOQmFHZ0dfWnRjLWlpS0d6RmlZczRFeTVvQnpkUmpnblh3cDdxRmF6SUtEeVI1M0VqS3dhbTJ5V0NCMW52S2dZS0kwTlNsdy1WaTZoSTVnUm1BQ2JPdzZGdnhJUXRXRU52M0xGY2wwTDluTHdPMGoyRGYtdm5NVDJ0Wk5l0gGUAUFVX3lxTFBuanpTQWlDVDRIWWxudDREdU5CYUdnR19adGMtaWlLR3pGaVlzNEV5NW9CemRSamduWHdwN3FGYXpJS0R5UjUzRWpLd2FtMnlXQ0IxbnZLZ1lLSTBOU2x3LVZpNmhJNWdSbUFDYk93NkZ2eElRdFdFTnYzTEZjbDBMOW5Md08wajJEZi12bk1UMnRaTmU?oc=5"
+      },
+      {
+        "stage": "Pre-Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZk9FMm9LQVprRkljMkZORHNfMjVpaEF3UE45MG4xOWpOS0lwekZycjFZODJIYXRCNHpOcl80dG5vRnB1X0hYNXNtNXlXaVg0b2IwQjNPWldTa2dId2ZnSUoxeHljMVNIZkZyOVFjU0kzVld4MmZXSGtZN3c0a2M4dlZYbXV3WHRyQWFhanpweG1NRWJ0TnVQNnE2TlZXNENndWtlLVpwV1JJME1lTld6b19hZUJ6LTNC?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcC12RG5KTjllWjdFTlkzbC1tNEF2VkplVnB4eFlseGJqR0ppLWJYNm4wclE3Sjd5THVPdWFlN2pLYUV0cG5BbURJcnpEdy1CUGlRVnlHMDZKWXR3cFVkWmRWR3JlNU9GMENXbml5YUZiSXdSMVcxYjEzWGNHanByLWN1alg1R1RVQU10X1R5TXRpU0tpZEZGOGh6VUdGcU1renNwWGdwLUpITk10dWFtYjVGSy03eENwN2JvVEZyaWpTV2xrMUlad2ZFNy01c0gyZHg3SGlwRXNkU3p4aWZtTnhFbjZ6QdIB6wFBVV95cUxQenhXaXZzdVR3RzE1NFNLUlRxMGVzWkZ0N2RJNkVYTndncDVpYmtUZ2kxYVBZTW1uZEp5cl9CN05KT0NwX0FhN1l1ZDhxZmxva3pKVnd4Rl92LU5VSzBpR1RtNzNyWnVNYjRMdGtfZW5TcUZJZVlRWDc4eV83LS05UFl5ekNTSHIwQ3NiVGZ1Q3RHaE1BTmczV2tUejc2M01pYzh6VTNZZEIyTkkxdXlZb2ExWVFqVjN2MVVyTzh3UkRkZUQtRkttNVVZZmYxT0xrZDRFZE9jV2JnR2t1NXk2eWhFTmhXV296TlhZ?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ29kWEpkTUx3ZTF5bzZ5ZmdvMElRaXpPSThMM0k2UUtWNEpuWjVYNXhmcmFPOHh5dWd3S19OU1gyVTVMT0NxMXE3b1BqMV8yaGQzNk5Qam0tbVV5OFBTOU9GMDl0YVdVaFFnOC1YeEZnTUhWdmRWSi1zRGlFVnQxcjZnVmdvRmstM2FscDM5b0Rwc2FDRzhNRFBFUUJiQWtzZmhJSm53UzUtTENaOGc?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbmp6U0FpQ1Q0SFlsbnQ0RHVOQmFHZ0dfWnRjLWlpS0d6RmlZczRFeTVvQnpkUmpnblh3cDdxRmF6SUtEeVI1M0VqS3dhbTJ5V0NCMW52S2dZS0kwTlNsdy1WaTZoSTVnUm1BQ2JPdzZGdnhJUXRXRU52M0xGY2wwTDluTHdPMGoyRGYtdm5NVDJ0Wk5l0gGUAUFVX3lxTFBuanpTQWlDVDRIWWxudDREdU5CYUdnR19adGMtaWlLR3pGaVlzNEV5NW9CemRSamduWHdwN3FGYXpJS0R5UjUzRWpLd2FtMnlXQ0IxbnZLZ1lLSTBOU2x3LVZpNmhJNWdSbUFDYk93NkZ2eElRdFdFTnYzTEZjbDBMOW5Md08wajJEZi12bk1UMnRaTmU?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZk9FMm9LQVprRkljMkZORHNfMjVpaEF3UE45MG4xOWpOS0lwekZycjFZODJIYXRCNHpOcl80dG5vRnB1X0hYNXNtNXlXaVg0b2IwQjNPWldTa2dId2ZnSUoxeHljMVNIZkZyOVFjU0kzVld4MmZXSGtZN3c0a2M4dlZYbXV3WHRyQWFhanpweG1NRWJ0TnVQNnE2TlZXNENndWtlLVpwV1JJME1lTld6b19hZUJ6LTNC?oc=5",
+      "https://retail.economictimes.indiatimes.com/news/apparel-fashion/jewellery/eternz-raises-pre-series-a-funding-partners-with-timex-group-india/124446097",
+      "https://www.siliconindia.com/startup/startup-funding/startup-eternz-raises-funds-to-expand-jewelry-marketplace-nwid-51564.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Pre-Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "total_raised": 1150000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kae Capital"
+    ]
   },
   {
     "company_name": "Eventifier",

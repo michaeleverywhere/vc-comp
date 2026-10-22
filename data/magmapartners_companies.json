@@ -1947,20 +1947,32 @@
     "primary_investor": "Magma Partners",
     "source_url": "https://magmapartners.com/companies",
     "scraped_at": "2026-10-16T17:26:23.477023+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1900000.0,
+        "currency": "USD",
+        "date": "2021-04-29",
+        "investors": [],
+        "source_url": "https://techcrunch.com/podcast/magicbell-raises-1-9m-to-build-a-plug-and-play-notification-platform-for-product-teams/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.magicbell.com/"
+      "https://www.magicbell.com/",
+      "https://techcrunch.com/podcast/magicbell-raises-1-9m-to-build-a-plug-and-play-notification-platform-for-product-teams/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1900000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1900000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Marqii",

@@ -1876,7 +1876,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Carbon",
@@ -1914,7 +1926,72 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15650000.0,
+        "currency": "USD",
+        "date": "2017-03-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1702453/000170245317000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2019-11-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1702453/000170245319000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 128125000.0,
+        "currency": "USD",
+        "date": "2021-10-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1702453/000170245323000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": "2022-12-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1702453/000170245322000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 260410720.0,
+        "currency": "USD",
+        "date": "2024-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1702453/000170245324000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1702453/000170245317000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1702453/000170245319000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1702453/000170245323000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1702453/000170245322000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1702453/000170245324000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 260410720.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-10",
+    "total_raised": 431685720,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CareBridge",
@@ -1940,7 +2017,31 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV05LSFNSaXJESGZtWUdPc2JvY3RfcjVYeXVpNWM1TnlIR2Z4MEhUNUk2TzN3NDFzdmRRTjVScjMyWkRLQVBNMjFlaTRHT1RFRm5PbkZJcDB5T0FoblVrQ3FNV21La2xGMERlejRQV2Y5R3d1Q1M5dUVFQTh0emVuakllRldNTkphMXc5R2V0WU1lb0JQbkE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV05LSFNSaXJESGZtWUdPc2JvY3RfcjVYeXVpNWM1TnlIR2Z4MEhUNUk2TzN3NDFzdmRRTjVScjMyWkRLQVBNMjFlaTRHT1RFRm5PbkZJcDB5T0FoblVrQ3FNV21La2xGMERlejRQV2Y5R3d1Q1M5dUVFQTh0emVuakllRldNTkphMXc5R2V0WU1lb0JQbkE?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Carmera",
@@ -2104,7 +2205,53 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOT2UxQ0I0Mmh2bkY1ZWhwT1laNmFiUF9sTEc2SlBnRUhMS0c1NzcxaS01RzJUdXllTXdTT2x6MFlTTHZfbF9sYk04dHZETWRnbHVCNUp2MmVZTjdoU3R1TTBsa01ZRHQzMms2RVVxLUJQUHZMZEhWZ00wdXB6X0lBTG15cE5JaF82RFg4dFhUVFFZUkRSb1BsSEl0OXFnOVRNWmRnMjJzT2MycWlHNEVvVzEzZUotN1pSbmZLdHlFZUFxOHFQbDBfY0xIZHhlaGN5UjZhOW14UHBXdFlacVU0d091bWRXTjc0bk5WU0lYem9oQQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 47000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjlNX0xIUjk3WXNSUEFIRkR6TWdnSFBDU1hJejJRbGxIaUdLcmZKaVZHWFB2Y1dYVGdaSFJsOGJkUGNFek03dGJRM3ltLXRIekZFX3l1UnBXNHl3TmRyQXJ6WWJFYVV3eHhXTlh6eWpLQjhuX1RDNzZ0VkpEdUR5czFaV25DWEQ3UEY1RUtIN3Z4VnBGUlE0QWI4YTNaeGMtclEyeTg1VlNReXV1YkpUVUVvd3I?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnFDX19zaDc3cW9QYXd5UDk0UExmanpjT2xlTF9Wa1RIdVF4Nkd4LU1WcUljTEJra2dhRXNVRm5fXy1qYlppYUxtZUJPLXVlSGFpZmgtbTVhUGhfdlVNZG1EZHZ0UThZamFzSlNXZVlxUDh4dW43U3RTMUJKMkR3SGZQMjFMYXpCRkh3ZmdINURLbTM5TFhrTHVQNk5uTVE1bVRLZUIxNzI1ejZfcjAtZ3FGRlVzNFVCWUM0?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnFDX19zaDc3cW9QYXd5UDk0UExmanpjT2xlTF9Wa1RIdVF4Nkd4LU1WcUljTEJra2dhRXNVRm5fXy1qYlppYUxtZUJPLXVlSGFpZmgtbTVhUGhfdlVNZG1EZHZ0UThZamFzSlNXZVlxUDh4dW43U3RTMUJKMkR3SGZQMjFMYXpCRkh3ZmdINURLbTM5TFhrTHVQNk5uTVE1bVRLZUIxNzI1ejZfcjAtZ3FGRlVzNFVCWUM0?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYjRVbXBpaUs1VDlEanFlQVIzb1hWYUNQQjJ2Qmk5SVdRRUxpZVNYLTUtc2hJNUlxMnNza3ZBOHgtTUpra2gzMlpaX1hJSWluUkl5UUJGY3kwRkQ1ZU8wZ0FXTTNXakh4NGUzcjlOczZVZG5pRUVGaFBtT1pNcXdQeE1PQjNuSkJKLWdzU2NEdjlmZnZja2RjSEtJNV9OMkdOTC1zLVc4Z1EtMmFCYUU5Y0F6Yw?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjlNX0xIUjk3WXNSUEFIRkR6TWdnSFBDU1hJejJRbGxIaUdLcmZKaVZHWFB2Y1dYVGdaSFJsOGJkUGNFek03dGJRM3ltLXRIekZFX3l1UnBXNHl3TmRyQXJ6WWJFYVV3eHhXTlh6eWpLQjhuX1RDNzZ0VkpEdUR5czFaV25DWEQ3UEY1RUtIN3Z4VnBGUlE0QWI4YTNaeGMtclEyeTg1VlNReXV1YkpUVUVvd3I?oc=5",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOT2UxQ0I0Mmh2bkY1ZWhwT1laNmFiUF9sTEc2SlBnRUhMS0c1NzcxaS01RzJUdXllTXdTT2x6MFlTTHZfbF9sYk04dHZETWRnbHVCNUp2MmVZTjdoU3R1TTBsa01ZRHQzMms2RVVxLUJQUHZMZEhWZ00wdXB6X0lBTG15cE5JaF82RFg4dFhUVFFZUkRSb1BsSEl0OXFnOVRNWmRnMjJzT2MycWlHNEVvVzEzZUotN1pSbmZLdHlFZUFxOHFQbDBfY0xIZHhlaGN5UjZhOW14UHBXdFlacVU0d091bWRXTjc0bk5WU0lYem9oQQ?oc=5",
+      "https://pulse2.com/cerevance-47-million-closed-to-develop-precision-novel-therapeutics-for-central-nervous-system-diseases/",
+      "https://finance.yahoo.com/sectors/healthcare/articles/cerevance-completes-enrollment-pivotal-phase-120000520.html",
+      "https://markets.financialcontent.com/prnews.investoruprising/article/gnwcq-2026-5-12-cerevance-completes-enrollment-in-pivotal-phase-3-parkinsons-disease-trial-and-closes-oversubscribed-20-million-series-c-to-extend-runway-into-2027"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 112000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Checkmate",
@@ -2217,7 +2364,31 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3BCWFR6QklQVmFGTklBRWtnNENKU1ZfYW5oUVNQak9RMmJQLWR1N2FOQTFnem1QbDc2b1A4YmVsSzEyRi1KcUtrenFRc2ZJUXRJT0xHWU9tdHMyVzFzN2ZTR2JqYWRTZV9JOFBQM2h5TnE2bllfVm43alhSVkMxX2FnTkEtNVF3Nm9JU2VTX3NpVFVwc1FwckhqODRHZw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3BCWFR6QklQVmFGTklBRWtnNENKU1ZfYW5oUVNQak9RMmJQLWR1N2FOQTFnem1QbDc2b1A4YmVsSzEyRi1KcUtrenFRc2ZJUXRJT0xHWU9tdHMyVzFzN2ZTR2JqYWRTZV9JOFBQM2h5TnE2bllfVm43alhSVkMxX2FnTkEtNVF3Nm9JU2VTX3NpVFVwc1FwckhqODRHZw?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 200000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 200000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CircuitHub",
@@ -2243,7 +2414,45 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11305243.0,
+        "currency": "USD",
+        "date": "2015-04-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640171/000164017115000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999925.0,
+        "currency": "USD",
+        "date": "2016-10-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640171/000164017116000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2NrU3pfUkptdS1UNkE2Y3NQcFVQZkIwVEdFNkhRYnVsc3A4ekJjVjhzNWJ6QXA4bGY0aGZOWnFPcVBIeFFBVVFSdDl6YXM2RXNzb1FTMEQ2Z2xJZHRQZEs4aXF4bFVjZm1YY2J3ZEZvaXQ4Ry0tZzQxVE1ieUVPQzJR?oc=5",
+      "https://www.prnewswire.com/news-releases/clarifai-raises-60m-in-series-c-funding-to-bring-ai-to-developers-everywhere-301401202.html",
+      "https://www.finanznachrichten.de/nachrichten-2021-10/54214231-clarifai-raises-dollar-60m-in-series-c-funding-to-bring-ai-to-developers-everywhere-008.htm",
+      "https://www.sec.gov/Archives/edgar/data/1640171/000164017115000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1640171/000164017116000005/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 29999925.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-10-12",
+    "total_raised": 41305168,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ClassPass",
@@ -2316,7 +2525,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Clever",
@@ -2489,7 +2710,72 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2048992.0,
+        "currency": "USD",
+        "date": "2015-04-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1095560.0,
+        "currency": "USD",
+        "date": "2015-08-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8999997.0,
+        "currency": "USD",
+        "date": "2015-10-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 20895333.0,
+        "currency": "USD",
+        "date": "2016-04-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640279/000164027916000006/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 63823447.0,
+        "currency": "USD",
+        "date": "2017-06-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1640279/000164027917000005/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1640279/000164027915000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1640279/000164027916000006/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1640279/000164027917000005/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 63823447.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-06-02",
+    "total_raised": 96863329,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cmd",
@@ -2513,7 +2799,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cognosys",
@@ -2667,7 +2965,31 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb1N1cVBSZTFRQzVXZEd3UTFCZDAxOU5LSmdIZUVXUXVSS29mYTM2enFPRkNhQ0d5Q0xheDh1M2dZWlBXbEFaeUZWTHlHOVRxdjF3MWNfdFpwa3FLVU1sbVFnYmcyRTViMmpYYmx3T2ROYUpzaEppNy0yeDNNRFJ0X0xUa093cXRLYWVnbklGQlRqOFBa?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb1N1cVBSZTFRQzVXZEd3UTFCZDAxOU5LSmdIZUVXUXVSS29mYTM2enFPRkNhQ0d5Q0xheDh1M2dZWlBXbEFaeUZWTHlHOVRxdjF3MWNfdFpwa3FLVU1sbVFnYmcyRTViMmpYYmx3T2ROYUpzaEppNy0yeDNNRFJ0X0xUa093cXRLYWVnbklGQlRqOFBa?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 75000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 75000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Comfy",
@@ -2678,7 +3000,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Compass Therapeutics",
@@ -2932,7 +3266,24 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.eweek.com/enterprise-apps/coreos-raises-12m-for-container-tech-launches-tectonic/",
+      "https://www.datacenterdynamics.com/en/news/coreos-gets-12m-funding-and-launches-product/",
+      "https://www.informationweek.com/it-infrastructure/coreos-gets-28-million-for-tectonic-container-system-development",
+      "https://www.wsj.com/articles/red-hat-acquires-coreos-for-250-million-1517428271"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cosmos",
@@ -2943,7 +3294,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Counsel Health",
@@ -2978,7 +3341,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Crash Override",
@@ -3038,7 +3413,37 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 319000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVhpbHRKNWVjZ29DNW5lTGhibGR3cm9DcXh2aGQyZEl4RG1wVUp2MXMzNTNMNUxRNVRqcUNiRjgwRWIxQ18yQmFHeFZwRmNObjNHcjlpRnkxVXluWHhJLTF0WUFkQnFNV1ZvQzhROThfdWRQMjQyNkxCNktZZGhHemJUNEdVVF9KVGJnVERBRnVQTVg4ZTU2TktLX0VMeEtqTHc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVhpbHRKNWVjZ29DNW5lTGhibGR3cm9DcXh2aGQyZEl4RG1wVUp2MXMzNTNMNUxRNVRqcUNiRjgwRWIxQ18yQmFHeFZwRmNObjNHcjlpRnkxVXluWHhJLTF0WUFkQnFNV1ZvQzhROThfdWRQMjQyNkxCNktZZGhHemJUNEdVVF9KVGJnVERBRnVQTVg4ZTU2TktLX0VMeEtqTHc?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ19FSlJGUnYxa0pzOURZM2dpYlpNZldjZWg1N2xzTGl6Y2c0V2ZXTXRRdjBGR1NLMkFpMnFOU3RVZ3k4dmxsUUhOYTFSZkQ4ZUdGWXN4anB6SkJySTFxRG1uY0QwVElPdFY5MXViTUQ3Zy1Lc203X25JdEJYZmZzZURTRkFkQU5LSm13aTFGcmVpY29wbnZ6NDlqTkFkXzNFQ3NsblpPSU8?oc=5",
+      "https://www.crn.com/news/applications-os/cribl-raises-150m-in-funding-expands-data-observability-pipeline-lineup",
+      "https://techcrunch.com/2024/08/27/data-infrastructure-startup-cribl-raises-319m-at-a-3-5b-valuation/",
+      "https://www.crn.com/news/software/2024/cribl-raises-319m-in-new-funding-boosts-valuation-to-3-5b",
+      "https://finance.yahoo.com/news/cribl-closes-319-million-series-120000378.html",
+      "https://www.dbta.com/Editorial/News-Flashes/Cribl-Closes-319M-in-Funding-Round-to-Disrupt-the-Enterprise-Data-Market-165618.aspx"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 319000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 319000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cur8",
@@ -3102,7 +3507,32 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": "2020-01-28",
+        "investors": [],
+        "source_url": "https://pulse2.com/currencycloud-raises-80-million/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/currencycloud-raises-80-million/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-01-28",
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CyberGRX",
@@ -3159,7 +3589,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DNAnexus",
@@ -3173,7 +3615,55 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 58000000.0,
+        "currency": "USD",
+        "date": "2018-01-02",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43TkFRSjJrNHR6YXZwMUpudjhKN21JSVhWWTZUWjZkT19MbGI3MjlTRHhXRHZGaXhPX3FDWW5IaWh1ck5rN1JMUUZsdk80UGh0ZXFzdTNwX2xuUGw4VFkya2RUaHlqWG5BeHJ0enJfT3FqTXRNZ1E?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2020-06-10",
+        "investors": [],
+        "source_url": "https://pulse2.com/dnanexus-raises-100-million-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQbFoyaEFqMmNscGVrZmRzUUt5cENzNjVoLTcybFpvRUxOUnVIalAteXEzOHdrSk5BZk9nRTB6MF9hUGEybm1kTkQ1WXQxcktoSXpyQ0JTSnpHUm55blNKdXVqZmRCMGxabG44OHE3Q2RmRWM4THlQYmliRFZYeXJwMnNKWldKWmdJTFFYbXRnSE42eDFNMExDRlUxd04tYjFjb3hubHBhY2xITHpzTWprOHB5MG1XRXJDV29mY2tSWDhva2NoWDlNZVVVQ1ZjQUYwalJ6WHRBNEc5MGNWcXRZa3JsamF3NUV6cXlPNE1hakpoR0tyV3BzUEtpdG83QUtuUXV3UzFGZnlYZE93bkUwWUVPekxUcEtfREVVMFBHRU1OZ2poVDJMVG9n?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE43TkFRSjJrNHR6YXZwMUpudjhKN21JSVhWWTZUWjZkT19MbGI3MjlTRHhXRHZGaXhPX3FDWW5IaWh1ck5rN1JMUUZsdk80UGh0ZXFzdTNwX2xuUGw4VFkya2RUaHlqWG5BeHJ0enJfT3FqTXRNZ1E?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQbFoyaEFqMmNscGVrZmRzUUt5cENzNjVoLTcybFpvRUxOUnVIalAteXEzOHdrSk5BZk9nRTB6MF9hUGEybm1kTkQ1WXQxcktoSXpyQ0JTSnpHUm55blNKdXVqZmRCMGxabG44OHE3Q2RmRWM4THlQYmliRFZYeXJwMnNKWldKWmdJTFFYbXRnSE42eDFNMExDRlUxd04tYjFjb3hubHBhY2xITHpzTWprOHB5MG1XRXJDV29mY2tSWDhva2NoWDlNZVVVQ1ZjQUYwalJ6WHRBNEc5MGNWcXRZa3JsamF3NUV6cXlPNE1hakpoR0tyV3BzUEtpdG83QUtuUXV3UzFGZnlYZE93bkUwWUVPekxUcEtfREVVMFBHRU1OZ2poVDJMVG9n?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVF9JcC1vYWpQRElrZXZSdWxKNTgxUjNEVjlra0xDU0xIWjAwVkhUWjN1RTBuMnNzcmplUDhyLU9UYTQtU05mNExTQldZSEZSeE5Gb25LUnE3NWdfdVNmQjF1clVDREJXVDhqT3FJcnUxc0lNQmlXTFY3V1VmYm1ubUtfYUxla1NXU05SSEJzbjY?oc=5",
+      "https://www.streetinsider.com/Business+Wire/DNAnexus+Secures+%24200+Million+Funding+Led+by+Blackstone+Growth+to+Advance+its+Biomedical+Data-Driven+Technology+Platform+for+Precision+Medicine/19741981.html",
+      "https://pulse2.com/dnanexus-raises-100-million-funding/",
+      "https://www.pehub.com/dnanexus-secures-15-million-series-c/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=286387"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06-10",
+    "total_raised": 358000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dandelion Energy",
@@ -3233,7 +3723,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Datanyze",
@@ -3350,7 +3852,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Delphia Therapeutics",
@@ -3363,7 +3877,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Delve Bio",
@@ -3460,7 +3986,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Determined AI",
@@ -3471,7 +4009,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Devoted Health",
@@ -3549,7 +4099,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Digits",
@@ -3560,7 +4122,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Distance",
@@ -3787,7 +4361,38 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 90000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NbFRtZVhRaEVUT1RTQ2pvTjFXdGNKdEZxOF9nZW15a0dSQWdCbFFCOGZ4bWF1NnNwNmtwUktFVnNNc3ZzZXNXNnNNMVhXbW5JeldjODdXRkhOUGlxVlZIUW9yX0Nadzd4ZlJTTkpRUjZqQVpLS3hFalFQZFA3UQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NbFRtZVhRaEVUT1RTQ2pvTjFXdGNKdEZxOF9nZW15a0dSQWdCbFFCOGZ4bWF1NnNwNmtwUktFVnNNc3ZzZXNXNnNNMVhXbW5JeldjODdXRkhOUGlxVlZIUW9yX0Nadzd4ZlJTTkpRUjZqQVpLS3hFalFQZFA3UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZTh4bGVHd1BXbUFQMzdLbEpnLVFJdFZtSDNTU0lmQVFMN0pJMDhramN2aTFGTjdxeEtncVBJcFNKZXE2NU5sWnRGcFhRTERMVlFUUmx5dnBrbkpaM2VlaDlmNFQwVzYyRjlNRW9EdDNUTWRhbWtXQ2FobDYxNlNxc3RjRUZJRGhGWDRNaUxmWjVvd1lpX1Raam5iNzBPTk85M3htLS1yRDh3NG5LZUtVZmx1d25fSmFERVg2QUp0VWpVWlNpUU5LbXVidE5SVFpHYzg1MFBLSnM3VkUyYzFHby0zMnNDdlR4amIxZEFOTGNkSmVoYXppRFpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdmZVWWxXT0UzVk5SZ0N1dVJjcFJJQzF4c3RlTkkteHB3LWswTlRBYWlpVGtiZW9fbmVYNmR1QktKcWp6ZDdTbVFIUF9fUTNEUkVOSFNLNWdGZW5oSy1UQXhDZUF2R3hFZmpLMkNGVWxLVDY4a0VNYThtUFNldVBER043MFJsTF9ySzlLR0tLbnloeE1LVnlFTUJ4X25rSDdaWXoteE45TFV4ZG5rN0JyTUhBdw?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWRTdURXQzlmS1gxSkdOOHNab01wZzR0Y3BobjJTMEU5dlhtZTR1dGFDUVhPNU92c3Z0LTB3amNVVklNR0pBa1FZTXROOTBrbVA2Mlk0UHdHZVJHQThES0phUU1EMDltRm9pTTAxUlhxdWFncGpxWmwzYWlHb2hiOVBhVXRjazBGMTFTUGJlZjZMMy1hQ19uLTdBdw?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVNXMlZsS1FlWWdLeTltcnd4R2Q0cXhqcWU3NlJMbElkYko0aWFpYWVtMnVkcDN4anBESlVHWWNia1hZWV9wYm92Zkl3NFNRcy1KV3VZdmg4SDRLY0VKSjhicnV4N0N1N0pwdkQ1UW5MZ3ZyZ2RqMlk2SHUtYktuZ0F1WQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPam5iMXYzNUJPMU81aWdGVmIwS0ZlNTV0WWFtVzZFYVZNdGVaazBXblBBVmNZMEJuUFJoclJPUDhwMVFRckYwLWZRWElkeDNUdS1SQ2RyOUtpMC1ta05DMTJVUUVmQUh3SDFBcnVITnRTdzBubElFM3hDdzdEOHhWLUozU1ZieUJVeGhJVm52VDJoY3BLY0M2clVSZlRHV1U?oc=5",
+      "https://finance.yahoo.com/news/dualentry-raises-90-million-series-130000863.html",
+      "https://www.pymnts.com/news/artificial-intelligence/2025/dualentry-raises-100-million-for-ai-native-erp-software/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 90000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 90000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Duo Security",
@@ -3800,7 +4405,31 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBNTElJQjdRWF96cjYwNER3U01RWVBEUjU3anRDYU9tVUpFV2FqOE82UXRwR1dBbFpBOHlfQUtsQ2RYXzVKUHFxNGNESEV3Mkh0MmgzYzlBTzhWYU56OE5Xc1owRHA2QmlFTWtQWC1yMU9mRXVPdkNVOURzSl95V2dNNTRFT3dXOG9VZWFqUDUweEhIME5iZDdNX1otWEUy?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejBNTElJQjdRWF96cjYwNER3U01RWVBEUjU3anRDYU9tVUpFV2FqOE82UXRwR1dBbFpBOHlfQUtsQ2RYXzVKUHFxNGNESEV3Mkh0MmgzYzlBTzhWYU56OE5Xc1owRHA2QmlFTWtQWC1yMU9mRXVPdkNVOURzSl95V2dNNTRFT3dXOG9VZWFqUDUweEhIME5iZDdNX1otWEUy?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 70000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 70000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dyno Therapeutics",
@@ -3814,7 +4443,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "EQRx",
@@ -3839,7 +4480,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Editas Medicine",
@@ -3868,7 +4521,23 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.cmswire.com/cms/enterprise-20/egnyte-gets-funding-to-help-bring-ipad-to-the-enterprise-010366.php",
+      "https://www.zdnet.com/article/enterprise-file-storage-services-egnyte-secures-29-5m-in-funding/",
+      "https://www.ciol.com/egnyte-secures-usd295-million-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Element Science",
@@ -3879,7 +4548,32 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 145600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYmRLTEhTRkN3RFFXTzEyckJKaE4xNndBTHVmTlRzSU8yUDBoWEJON2FXOHNVbm5ORnVMZTV3NWJWd0wxZEFLS2E1Z1NTQTJaVjJPeG5xbF9rOWRNbGZCYnNqMFAtTWZUdTFPLUxLbkZNMmtUQ24yXzJpQVdHS3pxYmx6cDlxVVR6bzhCa04wVzNKbGZfUVVrN1pQUWVYLUNuRTRlUzhNWVdWZzl6SmRuREl0LWJZeUM5UHNZMDVIVmdNX1FqQWVKTjdDbmtuMlJOcEN3dXdVN2lDM0Q1cWNfS2JPYkVqckxKN2RIZEZKRHJoOGdhRjItVnhxcjE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSi1rbXY2VWRoVzNiZUlvOHZLNEdFWmYwZE1PeEl2eDN3STB6bGg2ODBLNnRxNmx0ZE80T1E5dC1pZjBla3NCWTlXaVgyQ2lqaVNPV25TSlJ0WEhMc1JLM2drTjBWNHdCcFdLcmFEdElrUl9xUi1NdkpKekxhbzRjNElaTkQwa1V5NEY1RV9NT3JaYVlkMFpUX2syT1RjUk5yVTZKaGRwMW5kZFk1UlE?oc=5",
+      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYmRLTEhTRkN3RFFXTzEyckJKaE4xNndBTHVmTlRzSU8yUDBoWEJON2FXOHNVbm5ORnVMZTV3NWJWd0wxZEFLS2E1Z1NTQTJaVjJPeG5xbF9rOWRNbGZCYnNqMFAtTWZUdTFPLUxLbkZNMmtUQ24yXzJpQVdHS3pxYmx6cDlxVVR6bzhCa04wVzNKbGZfUVVrN1pQUWVYLUNuRTRlUzhNWVdWZzl6SmRuREl0LWJZeUM5UHNZMDVIVmdNX1FqQWVKTjdDbmtuMlJOcEN3dXdVN2lDM0Q1cWNfS2JPYkVqckxKN2RIZEZKRHJoOGdhRjItVnhxcjE?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 145600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 145600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Emergent VR",
@@ -3901,7 +4595,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Encoded Therapeutics",
@@ -3914,7 +4620,37 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series F",
+        "amount": 275000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVEtrdzFabF96aE5UcjRrVF9aMnZkZHU1bEhRbkw3VDFEMTNCNTNVVldqX3V4YU9TWVVrTHBpejJuYVFSSThlMjZPb3hpQ2ZEeWZvUkxXY3U3emxHMWk1MTJvaVdYdUNCVWxxMldXNHUtOU14MXN2SlhZY2V2bFBQbm9yZjlHRGJSV2ZsUlJmZlBxUnlxdlU1eTQtU3IzelhLVHItZWV0RExLOW9oeGVweEl1bXNod3dFOGpMRVRkaW9vVkFGQTM2LXZGcUhWaHROQWM5Ui11ZjZhWXVHWlg3UC1yX3pzdUhZQnplYkVvVW5MYTBVRlN6eU9naDl2dmhKMEdadEhEZjkzdVp0UTd1RndMQl9xUzZXTmVISHhFeWFhNE56QkpYSzFRckhFMmN3N2g1dkR4ZkZvQkN1VEN6bXFzeTB2ZFdYM0JLaURacjk1X0U?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeGUtQTRaeW5UbmpXMThCakI0N3Z1S3VJY0lfZEhJTVQ1R0pJb2NIMjhHeFJmenVWTjI0Z0tsajhvVFo2MnQwSW9LbEZNNDBqMmxncWY5QnV5aXZEVjBLeTN1bmJnY0hXZWlXSm92VS1FazdTaTRTekxhN0I2WGtNM1ItTUhuTGJkbzd5ZGRKdWo5THpmdGVQNDd5eGJKb3JxVDd0UHd6cUJ6VWxxZWhTUzBCWnNvX3ZlTjNseXluR2pDTUxpcG9RZEh3?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWTZfcU9Ec2E1T0stajBiYVBnNW9SSzhQbkhjS1V5eWFzQk9IQzlZaGp6dTUyVll3RzR3LTZKV1pfNWhhbDc5N1VFTUFCdFJpOWt0YjdWb0ZhdUEtcGJIb1ZCZDh4UkVGOGlBR0JoWnRYZVJYcm8tdGthb1FJc1RtWWVtVG82ME5pSGxWUzVGS1Y?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmkzNnFvWGhJOGlUWEVLVUEta3ltbWRWSHBHbmxDd2pxLUl0dS1SQ29zWUtoV1ZQOVpmYlFIUUFERUZabUxnTjJvODlYdjktZ3lEbjVJM2gxbTg0X3VJRVJjWU1FWERPSmIzX2xhTGZaaTh4V05HRWtJeTBxN1RISmN1SGJPTEpyRTZhVWNYWG9Eb28?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTy1nRExsdEFiaXc0cEdRU0VORHJGSExWNmhkYWh6ZXVGaEoyYmxpTEpHRDBUdFBWVG1udE05elBycldDaTBYSVBxZUdzT3ZiY3lrRUVUZ3ctT2RURGkzS0xwQTA3RUgxTWRZTlh4emZsTDF4OG9ZUU5pRnJ0S3ptVnJVam1FQ2Nia05mX2FwWXgwZ0dpeWl3SnltS3FxOWtDOV9vN0NGOW5JMUU3dVphYTZ4QWtBbEJp?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVEtrdzFabF96aE5UcjRrVF9aMnZkZHU1bEhRbkw3VDFEMTNCNTNVVldqX3V4YU9TWVVrTHBpejJuYVFSSThlMjZPb3hpQ2ZEeWZvUkxXY3U3emxHMWk1MTJvaVdYdUNCVWxxMldXNHUtOU14MXN2SlhZY2V2bFBQbm9yZjlHRGJSV2ZsUlJmZlBxUnlxdlU1eTQtU3IzelhLVHItZWV0RExLOW9oeGVweEl1bXNod3dFOGpMRVRkaW9vVkFGQTM2LXZGcUhWaHROQWM5Ui11ZjZhWXVHWlg3UC1yX3pzdUhZQnplYkVvVW5MYTBVRlN6eU9naDl2dmhKMEdadEhEZjkzdVp0UTd1RndMQl9xUzZXTmVISHhFeWFhNE56QkpYSzFRckhFMmN3N2g1dkR4ZkZvQkN1VEN6bXFzeTB2ZFdYM0JLaURacjk1X0U?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kbWxKUDJZcmQyUGhfM3RUM2pRdzRqZzhwZUhNZWlqMzkzZGdlWUdVMXZ6NUF4dklKTGVTU2pfNFlRX3BLTzR1RWZNVGNQbzNtTEY2RWVJN1NHQjEzeEJlV2FDdUx3QWhIWHpMNHV3dnpmZjVVeEE?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLXNBZGtoRmExSlNEdjZmRldZOFBYVDMwcEwwNExYUEJENlpacWRBWUVqMFd0WXQ2OTRkdWpWYWhxU2dCajV0RUxGV09NN3ZIcVM5Tk91dzZVWVY5c1NwWlFaekFZM2tQd3gzVW1MMW9Fbk1wZGJ1WVBNRGV6SmgzTUZIRkljTzZoNUFxVXF4QVFKMUhTN1doNURES1ZGVWpldHFYZXdNZmtia0d3Z2g0NVpyUFhseFXSAbwBQVVfeXFMTUI3TldoLVl1bjBnYS1NeGxhTFl6VGR1Q1hLQUVtNnE1cmpRM3dyTXBFc084TTNtdGlyM2hWTWhBS3hoMThXeWUzc0JNT21iWkpDY0MtdWxkclJaaDNwZGxRWW5uRVFJMnZDQ1FZMWh3RjZjNHNyVkxDRnBwZWZjQVJEaFBJQ0ZjdWdCQUVTckxvemVNalB2S0xQVFNMVFJvMlVJMHlIQ2NlOGJwVFRCWmcwNHh1OG5abVFRbk4?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series F",
+    "last_round_amount": 275000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 275000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Endurosat",
@@ -3954,7 +4690,45 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHpRRDdFcFo4dk90MzZEYVlfM213N0EwYTJDdXVOSGl4b1oxWnhIajdoQk43QjFxS3JiZ2wyRXVGV1Ata0pBSm5pSzBKUFZQNHdFS3g2VGpaam1rczN4TWFUdXhuUXNRY2h4YVpzakZiN3NFenlWR1dPZTd2eHphS2VCellUa2ZvYTRFOGkwVkk2bTM0TEMwUmRRM1N4bDdFalkyX2dEblJGSnJPOXc?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 107000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZlBPR2VUT21TTHY5TTNUNk0tcHRYSlNBcW0wVVVVQUlvbFRBUHlndFNKd3lEN2pTWERBX0xZZzFvRHYzLTFJZEtybWJHODdWalhHZ0RYQ1p5cEtzeWh1cGVuZnhGQkk5VkxDdFdkRFJhanl5TlVOTE4zZWQzZDZmQ2REcVN5MW5vMkdkTDVqZjg0R1dnUWhXSGZZUWY2d0U?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZlBPR2VUT21TTHY5TTNUNk0tcHRYSlNBcW0wVVVVQUlvbFRBUHlndFNKd3lEN2pTWERBX0xZZzFvRHYzLTFJZEtybWJHODdWalhHZ0RYQ1p5cEtzeWh1cGVuZnhGQkk5VkxDdFdkRFJhanl5TlVOTE4zZWQzZDZmQ2REcVN5MW5vMkdkTDVqZjg0R1dnUWhXSGZZUWY2d0U?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTTdzYU9qMndlMWNha01PaXg5dV9OekJBX011WlFKXzJBRm10ZzJaTFpERmlvUjJ5UXAxbFZkZ2RvQ0dHTzhEOXgxUnB5TmM0MURRZ0hiZ0wxcFViSkM5QTd3c0tCdEJTb2xOYTlrNC1CODlRQTA5V2NaVlozRk1MdFdMRmpBTnF4ZVljX0NtY3V0WXpfNl83UE9kc1ZxZUNo?oc=5",
+      "https://news.google.com/rss/articles/CBMixwJBVV95cUxNcXJLaGFCUHkyU3llUzRENldUZm1TaWl1dkEtaXozeFk2R1RaZGJDQ1ZwYVc1eGRHb2U4aDZXd3Nld0h2Y2cwRmpZSTk1eS1VVXJMWFdaM2xTbjJyZHViLWRualdfN2VIZ0xhTk4yS3dUTHZUZVUxMVhJcWdEMTVTRk5Wd2sxVURGVVA3d0RIQjNTc3E3dDhBR2tFeGctSkxucG9BbjdZYlIyaDA2SXlVb25hRmhqMnVIMDJadHlITVM2UUFKWU50aGRaRThHbXAyTE9rb2c4ZWIwaWV6VkRBbnhnWXhZUWpmNnB2Z1c3YUtISHhTdjUwbW0wcFc5WVR5MkVtOVJVa0JyT1NLTFBMRGhuSkhIdE9vZUtWVUNxeGdDNnRYM1hoZlhpUVhsRi1FelVMSEktUlQxZzQtMGk4TVNrSzZsNjA?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHpRRDdFcFo4dk90MzZEYVlfM213N0EwYTJDdXVOSGl4b1oxWnhIajdoQk43QjFxS3JiZ2wyRXVGV1Ata0pBSm5pSzBKUFZQNHdFS3g2VGpaam1rczN4TWFUdXhuUXNRY2h4YVpzakZiN3NFenlWR1dPZTd2eHphS2VCellUa2ZvYTRFOGkwVkk2bTM0TEMwUmRRM1N4bDdFalkyX2dEblJGSnJPOXc?oc=5",
+      "https://finance.yahoo.com/news/epibiologics-raises-107m-protein-degrading-060000575.html",
+      "https://pulse2.com/epibiologics-107-million-series-b-raised-to-advance-tissue-selective-egfr-degrader-and-bispecific-antibody-pipeline/",
+      "https://finance.yahoo.com/news/epibiologics-raises-107m-protein-degrading-060000575.html?fr=sycsrp_catchall"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 107000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 157000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ethos",
@@ -4128,7 +4902,19 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Firefly",
@@ -12471,7 +13257,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "dbt Labs",

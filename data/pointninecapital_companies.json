@@ -1647,7 +1647,43 @@
     "scraped_at": "2026-10-14T21:09:15+00:00",
     "location": "Washington DC, USA",
     "primary_investor": "Point Nine Capital",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2013-03-06",
+        "investors": [],
+        "source_url": "https://thenextweb.com/news/contactually-raises-1-million-seed-round-from-point-nine-capital-boston-seed-and-500-startups",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10828807.0,
+        "currency": "USD",
+        "date": "2015-11-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1572126/000157212615000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thenextweb.com/news/contactually-raises-1-million-seed-round-from-point-nine-capital-boston-seed-and-500-startups",
+      "https://www.mediapost.com/publications/article/195179/",
+      "https://www.sec.gov/Archives/edgar/data/1572126/000157212615000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 10828807.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-11-03",
+    "total_raised": 11828807,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Contentful",

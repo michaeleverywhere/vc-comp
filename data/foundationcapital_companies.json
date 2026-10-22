@@ -441,7 +441,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Branch Insurance",
@@ -486,7 +498,56 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": "2018-03-28",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNclo1UjFqdzFteURKRXhFalZzdlRnTVR6QU9vek5PbjRpSXVrYUh3YThnUlNwU0toNjFYalNXNmpqdHJjS1EtR1prR3RVYm1RekNrdWdsSFVUaE0wY1djT3RyaEtmZWYwcTkzQ2NmWGRqRjF2XzJxSUF3aHl2VnI4bWpSamgyajJaNVFfc0g2YnkzbVEtYm9MeTl1QjJoeXUwa0VKbkQ1YVNhbXlidHdtX2dSRmJCdTlhT3AyMzhZRE1aV3FLdGF0SEZWWnRkNG5aeHM5UnRrVVBHQlo4ekF0Ti1iNGlqMFk0R0FTbVIyZF8wOUpLQlQ3TmZnTU9RTDhsVHc?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 170000000.0,
+        "currency": "USD",
+        "date": "2019-04-08",
+        "lead_investors": [
+          "Foundation Capital",
+          "Visa"
+        ],
+        "investors": [
+          "Foundation Capital",
+          "Visa"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZlZmLVkwSkNpTXdRbVIyck5rSzV3ck52c0M2V2xMdEJNX1ZUVGJIV3NHb0lVZGZobWN2cE1Nazh1QjY3enFkRVdTQUZ4cUVELU1BQTEzVlQ3WFZHSmVDeDU0bFNxSHRSOTdmYzRQRmh0dHNBZVdtV1ZDYXRENDJWVWVHS3Q0U2dacFpGV1B2a0ZtVkVVVTF6Wm9UUFlKUjBvOGhtR2dQay14TE1wbEE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxON0gxZnlyOW5uR2xWSkp1RXRxZlpHTGNTdlpZSy04Z0hqTFl1MENQYjdMdUZFMVR6bVdYbXRTUzZlUVozeGIzNUhYeVVwbG9uelhKZ2JzTnZvNmFWS1RkS1Zna203dlNLVVpLN2hldUJxc1Jmbzk0cTA0cDRPQ29KTGRyaDk4VWZHaWJXZGlwR3ZQVzAzQ0hMR0dpQTlIejBMMUh0aUI1OUpTRUhRQ0dQMWdBdmQtdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxNclo1UjFqdzFteURKRXhFalZzdlRnTVR6QU9vek5PbjRpSXVrYUh3YThnUlNwU0toNjFYalNXNmpqdHJjS1EtR1prR3RVYm1RekNrdWdsSFVUaE0wY1djT3RyaEtmZWYwcTkzQ2NmWGRqRjF2XzJxSUF3aHl2VnI4bWpSamgyajJaNVFfc0g2YnkzbVEtYm9MeTl1QjJoeXUwa0VKbkQ1YVNhbXlidHdtX2dSRmJCdTlhT3AyMzhZRE1aV3FLdGF0SEZWWnRkNG5aeHM5UnRrVVBHQlo4ekF0Ti1iNGlqMFk0R0FTbVIyZF8wOUpLQlQ3TmZnTU9RTDhsVHc?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZlZmLVkwSkNpTXdRbVIyck5rSzV3ck52c0M2V2xMdEJNX1ZUVGJIV3NHb0lVZGZobWN2cE1Nazh1QjY3enFkRVdTQUZ4cUVELU1BQTEzVlQ3WFZHSmVDeDU0bFNxSHRSOTdmYzRQRmh0dHNBZVdtV1ZDYXRENDJWVWVHS3Q0U2dacFpGV1B2a0ZtVkVVVTF6Wm9UUFlKUjBvOGhtR2dQay14TE1wbEE?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc25KTUFsT1FzZHRUcGZZZThJbmlLRllXZkczQlBULXFTcnpZbkpqUzdrOV9jUXd6UUNVQmVDSEZwYnNyZHhhdU9KZ2UzNUw2Q0FGdDFUNkgwQkJLZHdybnhOZFBPUUlVY2xQTnFaT1VrcTJNNVJCdzBHZElCeUN1SnMtaGJlb3Q3ajdZWFY1X1BrN0RjWGVOMkFzdHc0ZG5CV21lcml3Z2xHeHRTOXliOTVnMWFBRHdj?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRmVfclVtanFURENfRWFtTmlkb1JpU3ZmMGVKZGxuc2tfdlVhNFFCdktLSGZzV1c3YVY1YlF5VTV6WFdMVmdBQmhjU1dTN1pPT1NsendyeV9qRzZkZDMtWVA5VmppSTRTNGZlM3gxcTNQR1hXRVVjN3hJVDBmckFZLUVGbUJEN3ZmVEwwYVZtZi1JMGZWaFRMc2RSVE9KUEZCdTFrZ0tOZE1pY2N6Umxz?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 170000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-04-08",
+    "total_raised": 240000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Foundation Capital",
+      "Visa"
+    ]
   },
   {
     "company_name": "Brave",
@@ -597,7 +658,32 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQkVxZFFnbTcxLXUwSmJDc1pFaWtwT0huWTFKcnBOSGhtZHBLTGpiNzEwTXVtZVpjYjFZOTlOUnN0Z2d0MjhqWnBDbUxtUXhzTjZfeHJNektLSWZ6Z3ZIT1pMSlFGWXUtQXBkOHNJUE9STFNia09qVjRWTHAyQ0h6SEwtTDY0QQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQkVxZFFnbTcxLXUwSmJDc1pFaWtwT0huWTFKcnBOSGhtZHBLTGpiNzEwTXVtZVpjYjFZOTlOUnN0Z2d0MjhqWnBDbUxtUXhzTjZfeHJNektLSWZ6Z3ZIT1pMSlFGWXUtQXBkOHNJUE9STFNia09qVjRWTHAyQ0h6SEwtTDY0QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQVDRDRjZvbjY3NU1KRUkzajhwcFdubF85czlqNDhEQWUxME1wU0ZLdV9rOXk2MWJIV0RiWXY1RDVpM1ZERUFSS0F1MU5ZLXY2Sk5EN0ZhM3pVR29qWndJaHJBWjRlY0hiOUF4aUlaR1piOHg4cDJkcWZiYnJFTXFsQk9Ya2J0NGZIZFZ2VGxxdzI1Z2gxdWhiNmJVc05RRXR6cE82Wm1UVWJPTnRZZjVkaEIyRi1CVnNaMTJRbXI0VUVWbkdvQTBUM1B6YUZVcENJVDc0dHg2ZlNMb3pLcEM5QjJQLXdDZUpLWWl5X0NpUVYwUW01VWVqeHUxalpxUU1kc1dqM2h5RjhkNjlrVTZib2toaDh6RUQ5RzBTUUhfZExDU3VyQ3lJY3ZWdFZTTUxTVmZvVC1YcHFDaWFpQ1RmcA?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CatchBack",
@@ -615,7 +701,37 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series H",
+        "amount": 1000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk02YUVjbkt4ak1CQ3JoTTd6NnNNRDZUbXozbU9HaGttNDVraDRsVWxGZ29zZjNrMVNSVFJjMDJLTEVGMFQyS1FMaGVscU9NeU5VWFR0c2lTNzZDZWoybmxJOVpsSjBvdGlpNUZ1cTlWSF9GZEUwUGxhU01oUWVkWEJucEE4eDFSMk93?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk02YUVjbkt4ak1CQ3JoTTd6NnNNRDZUbXozbU9HaGttNDVraDRsVWxGZ29zZjNrMVNSVFJjMDJLTEVGMFQyS1FMaGVscU9NeU5VWFR0c2lTNzZDZWoybmxJOVpsSjBvdGlpNUZ1cTlWSF9GZEUwUGxhU01oUWVkWEJucEE4eDFSMk93?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcnBpaTVEQkdnNEtmRWk2MmNYX3M3eERpdTRPdm5GSTUxSnpVTG9FbFZyNlBsTzY4d0RFSW5vQjJzdnMxQy03c0RNeGlWVHREODRDT0tOdkl1V3hNbUhKV216NTNwWlpSR2ZYemxjay0zVTZETU5pYmZNXzZtX25WeEZib3lLd2RQRFd5QUV3S3JSUURGY3lDWHVpQlQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZV3lkZmJ4Z1BMNWZIbUQxdkc2Q1Zpb0d4dXUzYlFucEpaaVJDd2RPSm91d01yd3E3VUxCa2NjdUZrX1hPdmZlU0pjY0RrTjhDWENrblBqYWw?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU29nSXVrUi02YWFfNXdMamNwNTg0T1NZNTJyWDQwWGNPUDJCNzk3RVBDVEZCeVg3bWJLWTdXYlR6RlY5eHJBcTRBYmRPTkZnY3BGNXJRcklPMUI4bG9UQWx5eF9UakxxQzRKZkE0cGM3N3g3U01zUGp5akZVREIxSmZiam05SDA4amNkWW51QktWMjJTQV9wWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUW9qNnhKemUtdnFsb0sxa2s1cmFsRXc0RjJCaF91STFwSEk1UGowNG9XMXM3bDFBYVZPVVR1dldQRk03OGVkSG5IdzB1WnRIT0Y5aWFNQmtlQm5veHRPdHJpbXFZLUpoYllBV1BJdGR4cTVsYVNERFoyM2VBa28waGRGNnZtaFdueWNYUTYtTm5PSjVUZVM4RDd2YkItZW5y?oc=5",
+      "https://www.theinformation.com/briefings/ai-chip-startup-cerebras-raises-1-billion-23-billion-valuation",
+      "https://thenextweb.com/news/cerebras-ipo-spacex-openai-anthropic-listings"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series H",
+    "last_round_amount": 1000000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1000000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Chegg",
@@ -800,7 +916,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "CloudKnox Security",
@@ -885,7 +1013,54 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 9200000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Element Ventures"
+        ],
+        "investors": [
+          "Element Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORWprd2p1b0dtS2pIQ29PczhEMVcxNm04SFdjeVVwRVFSa0o0X0hnRzBUQjkwRFdlYW9acy10eHhFeU1BeGNOdi05cmZnTHdBSXdHOFJ4SEhiYnNKcmZTVHNsUUZxT2FXbWlGY1lYMUlFbVRJRG5aOC1fV1NTa2YzLUtFOE1wVWZobzBsMFBHR3Jsb1JQUHJkY3ZwY1RhNVAzaTBsMDRtMVUyaVFlVENRdml6NlNPZF9EY0U4WU5FQjBrc2phcDQ4S0wyWQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWk5fVy1wLVFDMFR0aHRQdllrZFF3dHh2QUtUUUxuTjFldGdoWndKM256NV9kV21xWjd1T0VZZFdYa2Z3ZTVXS3lIaVkzZ2RjOVRNR3lBQlM1bm1rbTZYQ09tejZTSnVfODFZVFRIbXFDMXlNQ05fQUR5UnlYU1h2aGJ2UjVjVzhaQWxpWXpUUHJpbzNYb1NaRUJOUjdwcGxIWjA3YW5xLV9La1dNUzNNcFhBRQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWk5fVy1wLVFDMFR0aHRQdllrZFF3dHh2QUtUUUxuTjFldGdoWndKM256NV9kV21xWjd1T0VZZFdYa2Z3ZTVXS3lIaVkzZ2RjOVRNR3lBQlM1bm1rbTZYQ09tejZTSnVfODFZVFRIbXFDMXlNQ05fQUR5UnlYU1h2aGJ2UjVjVzhaQWxpWXpUUHJpbzNYb1NaRUJOUjdwcGxIWjA3YW5xLV9La1dNUzNNcFhBRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxORWprd2p1b0dtS2pIQ29PczhEMVcxNm04SFdjeVVwRVFSa0o0X0hnRzBUQjkwRFdlYW9acy10eHhFeU1BeGNOdi05cmZnTHdBSXdHOFJ4SEhiYnNKcmZTVHNsUUZxT2FXbWlGY1lYMUlFbVRJRG5aOC1fV1NTa2YzLUtFOE1wVWZobzBsMFBHR3Jsb1JQUHJkY3ZwY1RhNVAzaTBsMDRtMVUyaVFlVENRdml6NlNPZF9EY0U4WU5FQjBrc2phcDQ4S0wyWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN0JRS1hjV3RzaXNmVl9SOHdDRXZUUVVxU3p6TWZsNUZzMXhsVG1mRGlZN2RHX3p6cl9DUkY3OERuVEZBMVJNZ204TmlTNnRYUUVmbUxFMzFIYXFGOTVJRXBQVFozeU1aRk0wOGdiTThxaWNsNXhZR3d0Y0M2R2VGWGNlT2c0b3A3bFI3dHQwbWwzQTVaLTAyeXhOX2YyN1FOcnd2X3hDNVNhU0owVDAyU19JX2J0enNhdnpoUU55R0tfUDBEcVdDUg?oc=5",
+      "https://cointelegraph.com/news/coincover-secures-30-million-in-funding-to-strengthen-digital-asset-security",
+      "https://www.cityam.com/coincover-announces-30m-funding-to-fuel-growth-and-foster-trust-in-digital-assets/",
+      "https://techcrunch.com/2023/02/09/coincover-raises-30m-to-help-protect-digital-assets-from-hacks-and-human-error/",
+      "https://uk.finance.yahoo.com/news/crypto-protection-firm-coincover-raises-130000555.html",
+      "https://www.crowdfundinsider.com/2023/02/202463-digital-asset-firm-coincover-raises-30m-to-expand-operations/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 39200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Element Ventures"
+    ]
   },
   {
     "company_name": "ComplyCo",
@@ -903,7 +1078,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Control4",
@@ -912,7 +1099,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ConverzAI",
@@ -930,7 +1129,36 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2017-06-15",
+        "investors": [],
+        "source_url": "https://www.wsj.com/articles/funding-snapshot-intelligent-control-platform-conviva-secures-40-million-1497564007",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZGw4TjJDSFJoVjVBS1c5dFNZakZPRUlOaU9BeXZ3NnhnMGNudHhveDdpdXRlejAxeFB5UjFIUmRaSkFGeHZnSVd0cjlTQU53M3ZENXNhZHB5STk3OFVUaFZ1akRwcmtEUXViX0JKMDhqU01vZWhNMXF1TzBia0l5bTZNS2NBdjZ4ZUZXODB0aHJ3OHRkd0xDbUFQRFlESC1JVi1jZ1FTWjA?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxORzJudTVwaDJjTG04MlQ3ajJwN0oyY0FhWUtSLWM3V0JkSXkzRzFOUWJkODRsYnNxc3FpOFJXeVF2d3RFWVNzbmhIWDBzbmFpSXNIWGsyaEtmNnFDSHBCQUdqdFBOUkJXNjZvT1VEM09CN0Y1Sjhxd3llTXA1TnJJcHlTR21hdEdWRTVFTjNNMWt4N3hfRkRUc3BaUlRmMk5QUFdGcFhzcUNjM2ZWXzM5dmQyWmtnM0cxejFUTDhXV3Y5UmVMLXc?oc=5",
+      "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=118867",
+      "https://www.wsj.com/articles/funding-snapshot-intelligent-control-platform-conviva-secures-40-million-1497564007",
+      "https://www.affaritaliani.it/notiziario/oro_in_rialzo_a_122911_dollari-34295.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-06-15",
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Coverity",
@@ -984,7 +1212,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cube",
@@ -1333,7 +1573,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DoubleZero",
@@ -1385,7 +1637,35 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2021-12-07",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20211208005477/en/Easol-raises-25-million-in-Series-A-funding-to-power-the-rapidly-expanding-experiences-and-travel-market",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMU02MFBOV0JwdkhnWE9UNXRTWURPMDFGY2lNOUQyckRDWVJBMmR2OUhNLXFjbUNOeWdVU09iek5UcEZEd1c4dS12NWlwUEs3M3ROMkc0bTNzbVozZkFUUEVuSHU5MzAzcTFXSkNZdm9GdVIydnAwcVZ2aE45em0wT2x2Wno0X1Z6S090aEc2NVdLUjF5cUZFbWZLRlNxTUJUUTh2RDd5YUM4OF81SEFXYm1VTC14NEgyd0NLdkI5anNzd2xBQzlvN0JFajkwNFAwbThXNTlJS2RMTVFYNFBMZ2JpS2hpcDR0TDdzaktBcHg1ZVhRbkpn?oc=5",
+      "https://www.businesswire.com/news/home/20211208005477/en/Easol-raises-25-million-in-Series-A-funding-to-power-the-rapidly-expanding-experiences-and-travel-market",
+      "https://pulse2.com/leading-experience-commerce-platform-easol-raises-25-million/",
+      "https://www.01net.it/easol-raises-25-million-in-series-a-funding-to-power-the-rapidly-expanding-experiences-and-travel-market/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-07",
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Edelman Financial Engines",
@@ -1396,7 +1676,19 @@
     ],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Eightfold",
@@ -1405,7 +1697,19 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Eloquent AI",
@@ -1423,7 +1727,22 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pehub.com/emeter-raises-125-million/",
+      "https://www.finanznachrichten.de/nachrichten-2008-04/10521295-emeter-announces-dollar-12-million-funding-008.htm"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "EnerNOC",
@@ -1492,7 +1811,32 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 21000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVGVWb0hjUTRVN2RGemlTOE5uSkdnQlVhaDRwY2I0WUZyMjgxcnZPdEROODVOVDRqV0JYUGZMRHVvaUVFWUdwaEdmdFNfWll5WGxDdEJPeGRuMUdGYTFmSFdTS0R3d00?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVGVWb0hjUTRVN2RGemlTOE5uSkdnQlVhaDRwY2I0WUZyMjgxcnZPdEROODVOVDRqV0JYUGZMRHVvaUVFWUdwaEdmdFNfWll5WGxDdEJPeGRuMUdGYTFmSFdTS0R3d00?oc=5",
+      "https://www.victoriaadvocate.com/insurance-ai-leader-evolutioniqs-funding-total-rises-to-33-1m-with-series-b-round-while/article_7e5d17a8-38ed-59f6-b1e3-d0f49606f1a5.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 21000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 21000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ExaCare AI",
@@ -1574,7 +1918,48 @@
     "everywhere_tags": [],
     "primary_investor": "Foundation Capital",
     "source_url": "https://foundationcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:06:12.001369+00:00"
+    "scraped_at": "2026-10-19T20:06:12.001369+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUFppOFNONGJYdHZ2R2NVeDcxbXFnWXlsNWZicFNPWGVRYTQwZkpzMGhaSncxV2JrN3Z0dDFPTUgyRVZDRk9xb2QwN2EzbjM1bHc3Zkt4VDI2VVhnWWltVzlCd3FpRHl2MjdGRDlqYl93UEE1dk5zRHNlemtvbU1YdWxseUJEcUxCX1HSAY8BQVVfeXFMUGQ3ckNJTnRzQlZBTmRkTjMzcmpyQ0pUdWZWWFRkU0Z0UXV4eFlDc3lZV3NDd2M1RGtVbTBGUUZEY2JNdHpXOGZlZ1h1dGtaVHlXN094VU5tOEczd2ZXcU5GanpiLUlzR0NOUzQ0akVoTnBzRlBOSnJkTk4zZHdOdHRNbFNMQlFPMEFrZ2RtWUk?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Gradient Ventures"
+        ],
+        "investors": [
+          "Gradient Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLXZ6MV9Sdm5IRDhmczFxMnlxNXJEdno1SEVHWnZEVWRCV0RRdDIxcmhBTEZUQkRHRGIycTNVVUI5U2NRVkg1czU4ckx0RWtaT0kycVdXMld5cVFTbDBnSzVTaDY2U0Q5LS0zWXpzMjdPWS0wNmpHcmwySWZsd19Od05RZHHSAYoBQVVfeXFMTUF0ZWNtNG41a3dtWXY2LUtxeHRUUHRDSXNUTko2UkVHaVNIbUEyT3pzYmhsZ2REYUxScXNGS0VoVlE0OEtzX2Vaemdfa19RaTZnTFRVeTdycl9hWkFJWTg4TmlLamVJMVJoZzBwcV9qa09lNjA2TFRnWS1fTm5fdnF2d2UyNHhLQnBn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLXZ6MV9Sdm5IRDhmczFxMnlxNXJEdno1SEVHWnZEVWRCV0RRdDIxcmhBTEZUQkRHRGIycTNVVUI5U2NRVkg1czU4ckx0RWtaT0kycVdXMld5cVFTbDBnSzVTaDY2U0Q5LS0zWXpzMjdPWS0wNmpHcmwySWZsd19Od05RZHHSAYoBQVVfeXFMTUF0ZWNtNG41a3dtWXY2LUtxeHRUUHRDSXNUTko2UkVHaVNIbUEyT3pzYmhsZ2REYUxScXNGS0VoVlE0OEtzX2Vaemdfa19RaTZnTFRVeTdycl9hWkFJWTg4TmlLamVJMVJoZzBwcV9qa09lNjA2TFRnWS1fTm5fdnF2d2UyNHhLQnBn?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUFppOFNONGJYdHZ2R2NVeDcxbXFnWXlsNWZicFNPWGVRYTQwZkpzMGhaSncxV2JrN3Z0dDFPTUgyRVZDRk9xb2QwN2EzbjM1bHc3Zkt4VDI2VVhnWWltVzlCd3FpRHl2MjdGRDlqYl93UEE1dk5zRHNlemtvbU1YdWxseUJEcUxCX1HSAY8BQVVfeXFMUGQ3ckNJTnRzQlZBTmRkTjMzcmpyQ0pUdWZWWFRkU0Z0UXV4eFlDc3lZV3NDd2M1RGtVbTBGUUZEY2JNdHpXOGZlZ1h1dGtaVHlXN094VU5tOEczd2ZXcU5GanpiLUlzR0NOUzQ0akVoTnBzRlBOSnJkTk4zZHdOdHRNbFNMQlFPMEFrZ2RtWUk?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 15500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Gradient Ventures"
+    ]
   },
   {
     "company_name": "ForgeRock",
