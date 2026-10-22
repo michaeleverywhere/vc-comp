@@ -5400,20 +5400,31 @@
     "scraped_at": "2026-10-15T21:18:37.692777+00:00",
     "primary_investor": "Insight Partners",
     "site_status": "Current Investment",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 36000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/bit-announces-36m-in-total-funding-to-help-organizations-scale-component-driven-development-301425155.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://bit.dev/"
+      "https://bit.dev/",
+      "https://www.prnewswire.com/news-releases/bit-announces-36m-in-total-funding-to-help-organizations-scale-component-driven-development-301425155.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 36000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 36000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bitrise",
@@ -5844,10 +5855,17 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://bluewhiterobotics.com/"
+      "https://bluewhiterobotics.com/",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclV5T2lyWEgzZkdrdEdpZkpTc2hmRGxZTDk2UnF0MWhoUU9jVkVHa3ZpSktHOGV2WXktWnkxVi02N05KME84SFhTcEE0OTFmRENNRl9SMkNQWS0wam8tQm5RY05rS2lqcmZQdFBDa3dVNTRqano1dm9LQXdLemRNdk9DN29tdEduX0xtS3BuRm1vMHBvZy1yOEhLTHVoemF1NlRPd29jN2pLcXhrSFE?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYXdabzY2bEJDOWhYTkRVRWNtMUdndFFNaWZCZ1IxM21RTXE2ckNiVG80dzFmRlh2UkVwYndTRExweWdzcmZNRVkxTlRuRHNLb05GdFZVbk5meXl1TGN6MHdoNlg2NjFwb05LMV8tOG1hdFVDTDAzamVUMzl4WEZ2MG4wYU9IQVdmQkhHR3hqQmVDYjkzR0kzUg?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcU9TYVplNVNJUzNwbzZfdU9CcDZfY2UyTzJBcmtkaHdrd3ZRY2JORkRTYTR4YXYwcEtyT1k1ejJfbU5kR0hYN0RNV1BkSGhIVHJSQndqYktvOFQxMEM0czdkRFlqazNZU0QyZVJhdUZyU1FWQjNqMGJ5OFRyTVg2VXBwazRGT1JWUDc1OXNBdGlPQ2NIdUpCN01jZUVTeHVrQlVxRVgtMXI?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LbHloUHEwZFNGZVVkOHRMX2J4ei1sY2w4M3dJc0ZRSXQ4U01rMUNRdkdsMkpreDFSTlgwQ245b3pkN1JaLTNYX2pvV1RNc1BJb05INm8xeWtoT04yU3N5TDNoa3B4NWs?oc=5",
+      "https://www.thepacker.com/news/packer-tech/bluewhite-raises-39m-bring-sustainable-autonomous-innovation-farms",
+      "https://www.prnewswire.com/il/news-releases/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide-302041748.html",
+      "https://www.israelhayom.com/2024/01/24/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide/"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -6718,7 +6736,34 @@
     "source_url": "https://www.insightpartners.com/portfolio/",
     "scraped_at": "2026-10-15T21:18:37.692777+00:00",
     "primary_investor": "Insight Partners",
-    "site_status": "Current Investment"
+    "site_status": "Current Investment",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1pwdnR5cmk3WE9PNVVLZzU2YUhmZ194eVgzS3g3YkxzQ3RiTXFoQk9YY0dfaXZRTGltOUJ2bTExa1JyOUNWczJ4RVE2NENvZkd6UEJQX0J2OW1FdmNFT1dmZG9JcmtoYUpaLWRUWUFveGljYlJnbGd4a18tTG9pRURLNG9WZVl3ZTdrYW0yS2hKRmF2SUlJY3FEeTRiNmVLS01WelpHQTBTTmd0VU5zLTZzWWo?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1pwdnR5cmk3WE9PNVVLZzU2YUhmZ194eVgzS3g3YkxzQ3RiTXFoQk9YY0dfaXZRTGltOUJ2bTExa1JyOUNWczJ4RVE2NENvZkd6UEJQX0J2OW1FdmNFT1dmZG9JcmtoYUpaLWRUWUFveGljYlJnbGd4a18tTG9pRURLNG9WZVl3ZTdrYW0yS2hKRmF2SUlJY3FEeTRiNmVLS01WelpHQTBTTmd0VU5zLTZzWWo?oc=5",
+      "https://www.prnewswire.com/news-releases/buynomics-raises-13m-in-series-a-funding-to-power-the-operating-system-for-commercial-decisions-301678152.html",
+      "https://www.pymnts.com/news/investment-tracker/2025/buynomics-raises-30-million-to-expand-virtual-shoppers-system/",
+      "https://kdvr.com/business/press-releases/cision/20221115NY35459/buynomics-raises-e13m-in-series-a-funding-to-power-the-operating-system-for-commercial-decisions/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bynder",

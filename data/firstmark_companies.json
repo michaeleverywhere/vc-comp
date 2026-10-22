@@ -1021,20 +1021,34 @@
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/biodigital/",
     "scraped_at": "2026-10-03T13:18:35.923201+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2013-09-25",
+        "investors": [],
+        "source_url": "https://www.reuters.com/article/business/biodigital-raises-4m-to-build-the-google-earth-for-the-human-body-idUS1905594805/",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.biodigital.com/"
+      "https://www.biodigital.com/",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaU82QVlORmJpUlJxVXFfeFdYVTZTUUViLWtCMW45Snp6eWtUT0s4RGppckp3OTdlZ3pCZ1h1Z3MxczBsVXdkQ3BIZS1PLW1sTHp5ODdOcGxsTFhkaVl2dGhVTG1vaC1rV05IZzBPNWdRakNBS2E3U0hUWHNWVkdiZXRoYUZ4VnZJdklVcU1tQ05aMDZmX2VtX0dPNkR3WUUtXzJnNw?oc=5",
+      "https://www.gpsworld.com/biodigital-announces-4m-funding-to-create-a-3d-model-for-the-human-body/",
+      "https://www.reuters.com/article/business/biodigital-raises-4m-to-build-the-google-earth-for-the-human-body-idUS1905594805/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-09-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bluecore",
@@ -1073,20 +1087,43 @@
     "primary_investor": "FirstMark",
     "source_url": "https://firstmark.com/portfolio/bonusly/",
     "scraped_at": "2026-10-03T13:18:35.923201+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2020-06-01",
+        "investors": [],
+        "source_url": "https://pulse2.com/bonusly-raises-9-million-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 18900000.0,
+        "currency": "USD",
+        "date": "2023-03-01",
+        "investors": [],
+        "source_url": "https://www.dailycamera.com/2023/03/01/bonusly-pulls-down-18-9-million-in-additional-funding/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://bonusly.com/"
+      "https://bonusly.com/",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE41RUhRRDVfNFhfaWk5c3ljRG5rVGhsbEdVTUxIUWhneWZ4YU1BUloxT1l6eFRreWhIUjlVRHk0dXRvdjhtZks3Y3pfbGNqV3JxVGZGWm5uRHM3RjRScHpkRmoxdHU0VUdhLTUyeEFoaGFEeE5ON1NUWFMyRUE?oc=5",
+      "https://pulse2.com/bonusly-raises-9-million-funding/",
+      "https://www.dailycamera.com/2023/03/01/bonusly-pulls-down-18-9-million-in-additional-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 27900000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 18900000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-01",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Boomi",

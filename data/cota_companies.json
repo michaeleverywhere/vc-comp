@@ -808,7 +808,19 @@
     ],
     "primary_investor": "Cota Capital",
     "source_url": "https://www.cotacapital.com/companies/",
-    "scraped_at": "2026-10-16T16:49:44.797343+00:00"
+    "scraped_at": "2026-10-16T16:49:44.797343+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bluesmart",
@@ -899,7 +911,36 @@
     "everywhere_tags": [],
     "primary_investor": "Cota Capital",
     "source_url": "https://www.cotacapital.com/companies/",
-    "scraped_at": "2026-10-16T16:49:44.797343+00:00"
+    "scraped_at": "2026-10-16T16:49:44.797343+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1966279.0,
+        "currency": "USD",
+        "date": "2014-02-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1600810/000160081014000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://venturebeat.com/entrepreneur/boomtrain-raises-12m-to-expand-email-and-notifications-automation-platform/",
+      "https://www.adexchanger.com/platforms/personalization-platform-boomtrain-snags-12m-in-series-a-gets-personal-with-cbs-interactive/",
+      "https://www.streetinsider.com/Press+Releases/Boomtrain+Raises+$12+Million+in+Series+A+Funding/10965881.html",
+      "https://www.mediapost.com/publications/article/260348/boomtrains-12-million-funding-will-further-perso.html",
+      "https://www.sec.gov/Archives/edgar/data/1600810/000160081014000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 1966279.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-02-14",
+    "total_raised": 1966279,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bossa Nova Robotics",
@@ -947,7 +988,33 @@
     "everywhere_tags": [],
     "primary_investor": "Cota Capital",
     "source_url": "https://www.cotacapital.com/companies/",
-    "scraped_at": "2026-10-16T16:49:44.797343+00:00"
+    "scraped_at": "2026-10-16T16:49:44.797343+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2940216.0,
+        "currency": "USD",
+        "date": "2018-01-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1728356/000172835618000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNRWFuVzdGOFAyS2Y2ckN3cEdxY0FmY1BhVmN5MDRGMDVpRk44N2VtYmtRd2Etdm9uN3B2endpUXVsM3BQTlNlVV9qUnM0cG1yU24tLUUzRnRscG5sQVM5eG5YTGlDNG0teEQzSWJQS3pFVDRVd1MxZnhiNkdVaFVkYXNYZklic3BBajdiUC1KWEtpSVRucTR4ZExOWURPZw?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/1728356/000172835618000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2940216.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-01-26",
+    "total_raised": 2940216,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BuildZoom",

@@ -88,7 +88,19 @@
     ],
     "primary_investor": "FGV Capital",
     "source_url": "https://fgv.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.730790+00:00"
+    "scraped_at": "2026-10-17T21:11:02.730790+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Braven",
@@ -103,7 +115,43 @@
     ],
     "primary_investor": "FGV Capital",
     "source_url": "https://fgv.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.730790+00:00"
+    "scraped_at": "2026-10-17T21:11:02.730790+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeVE1dDNwSHNmYXoyNjJKMEJrWUwwbENfNFVoMnJaSW9maFpLWFRvb0l1TnJlZlJTdmRKSEh5ZFM5VU1ZYzR1OVB2Z2pRSjZqaG5KVEpKdWtlQlFkNUZoSXpjUmRvbEVJU0czRDBDRDFmSmUxaWtYemZKREFFazkybC1QUTJIOC1ISDR6MlRLUlJWUldqTG9xOXpmSC02MmJtQ0VvX2o2enVQdw?oc=5"
+      },
+      {
+        "stage": "Seed",
+        "amount": 4600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWNIR1ZhbDBoNHZMMmI5OWtfNFFvSm0zeW5UYzFpWUlTalA5Nm1XVi1WYzhoRDFvc3lSUWQwaHBacWlhSU93UGY3ekJPSnFiMzRtZjBvOEVNWXVydUZPVVZaMTB2Y1RoenRqYkptclUtVDRGYkItTmZIX0w2WVBISXA3SHM4Q1E1dFJaaWE1OEN4aW05c0dwZ0ZiUjVVTE440gGmAUFVX3lxTE1jZGtyUTM5WXZIblVmMkhUVlNVMGxRNHNadzVjWXlfMzA1RE9FYUt3MnpDX0R5ODZOeUYxUTE3Mms2dUx0N0F4RzRFdjdmVTB4TVFWM1ZBZ3lMZnVDLTNqSnZLenROYUJneTRSaTNhQV9PS0k0dVlzMU80RkxNV3dGRUxNUUFmenY2UEp2TlNtS2MyYjhSeWx3eF96OUQzY1luMUJVTEE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWNIR1ZhbDBoNHZMMmI5OWtfNFFvSm0zeW5UYzFpWUlTalA5Nm1XVi1WYzhoRDFvc3lSUWQwaHBacWlhSU93UGY3ekJPSnFiMzRtZjBvOEVNWXVydUZPVVZaMTB2Y1RoenRqYkptclUtVDRGYkItTmZIX0w2WVBISXA3SHM4Q1E1dFJaaWE1OEN4aW05c0dwZ0ZiUjVVTE440gGmAUFVX3lxTE1jZGtyUTM5WXZIblVmMkhUVlNVMGxRNHNadzVjWXlfMzA1RE9FYUt3MnpDX0R5ODZOeUYxUTE3Mms2dUx0N0F4RzRFdjdmVTB4TVFWM1ZBZ3lMZnVDLTNqSnZLenROYUJneTRSaTNhQV9PS0k0dVlzMU80RkxNV3dGRUxNUUFmenY2UEp2TlNtS2MyYjhSeWx3eF96OUQzY1luMUJVTEE?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb3paUWNrWHlsRjZLM2lhcGhtems2X2FHdjJaTDBDLXNfSFhPMUh1MTN0RkhuNlJNWW9fRDZsTm12MnV5RFJIcHVsQnNGM1pmU3pINU1UX3EteWFjYXhkXzRXYTZGTUZjbENxT0VNUTBmcVN3ajEwSkdLWVh1b0diUXVsbk9ROWpqRkVicVBhQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dRSURRYTJtS2hLd1VnOF91eHBINHgxSDBiaFNxSWoxSUljWV84RDIwaFB6TmJPTHdOdHZVOXh1SHlwd1dKSVRpazJydEdMbzh6UHdlNFdya0tCNkdjdHBIUkp1eUZaUWtEaGVVMWwzdXQ2SUFMWXEyS3QzOV9lZU54YkFUVS12U0ZoSkVVQlh5NElOVFpDeEU4YUZzME85WUhyWU8tSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxOemhIbnB0QnRHd3RSX1RBdDZmSmp2RFI1ellkVV9HTWVnb1FzMjFWVHRuYnVYQ2hxVXhOc0FEWWRBeG50cGRpYjl5N1U0Q2hrQmtCT1RvY3FkeDFCTjVHLVhvZHZQMXpERF9pYjNpTUJtcTEtZGxodnFtazdjVGVWUndpdHJnZHFjdXRMYWJFT24xaVBJUWZhNE0wdmctRlBwTlMxaWQwamtDc0RE?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeVE1dDNwSHNmYXoyNjJKMEJrWUwwbENfNFVoMnJaSW9maFpLWFRvb0l1TnJlZlJTdmRKSEh5ZFM5VU1ZYzR1OVB2Z2pRSjZqaG5KVEpKdWtlQlFkNUZoSXpjUmRvbEVJU0czRDBDRDFmSmUxaWtYemZKREFFazkybC1QUTJIOC1ISDR6MlRLUlJWUldqTG9xOXpmSC02MmJtQ0VvX2o2enVQdw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 4600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 5600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Breeze",
