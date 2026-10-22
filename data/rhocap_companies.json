@@ -258,20 +258,42 @@
     "primary_investor": "Rho Capital Partners",
     "source_url": "https://www.rho.com/portfolio",
     "scraped_at": "2026-10-17T17:07:59.355953+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 15500000.0,
+        "currency": "USD",
+        "date": "2018-05-15",
+        "investors": [],
+        "source_url": "https://www.channele2e.com/news/auvik-raises-15-5-million-for-network-rmm-msp-software",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM1lwYmJheWRMcy1XLXJzcC1sOVpIZkp0RERJNkVwTHBkdG4wZVhkcXdXSzQzZTZkOUdKV1h3c2FSZ2o5QXVjbVRqckVjUXpZM3BDWWh5NGpCRV85a0d1VVJtZG9mdnFBc1VDaS11V3BhTFVfRTVBQ3hXcGNGcHpNaHBrV0pZSkZ6Qk90OFZ5VzZITFJmb2t1OW95azhtNUp6?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.auvik.com/"
+      "https://www.auvik.com/",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM1lwYmJheWRMcy1XLXJzcC1sOVpIZkp0RERJNkVwTHBkdG4wZVhkcXdXSzQzZTZkOUdKV1h3c2FSZ2o5QXVjbVRqckVjUXpZM3BDWWh5NGpCRV85a0d1VVJtZG9mdnFBc1VDaS11V3BhTFVfRTVBQ3hXcGNGcHpNaHBrV0pZSkZ6Qk90OFZ5VzZITFJmb2t1OW95azhtNUp6?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOci1ocjluWnU4Y20zd2cxeTR4bVl4bENTVC1OZWhsNDB2NXlJdjhFcFRyZ0x0SW9Cd3gtOG54OW5TdE1iS1VFYW04Y0dkWDFOWFRwWWwtUFg3c1FZVjRwSmZPLWFDMFZfbVFkMDVZOEwxTmdBOFl1a0t6QXlINnE1VkxtSDVlLVBnWGJYR2YySEJQS1VwbDVsR3RR?oc=5",
+      "https://www.channele2e.com/news/auvik-raises-15-5-million-for-network-rmm-msp-software"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 265500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 15500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-05-15",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Backbase",

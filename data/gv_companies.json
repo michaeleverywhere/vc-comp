@@ -1272,7 +1272,19 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Arda Therapeutics",
@@ -1362,7 +1374,58 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 190000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUg1QzN5Wjg1Wk50YVRGeUR1cTRiUHlpWHZwWF8zNUxRamR0dVh2NmlrRm5TdjQ1bmd6cU1MdGxDX091M0k1Mkp1ZjRnZWY2Rl8wRDcxdnZ2LWpBcWVyRFk5Sy03MFlaNU13c19ZMUt5bXpmd0VGNDRMT2c5Wm1zVDRMVXRsXzQ2SzhjOTFTYmJrZGdiVDBNSUpTOUt0UXk1ZjJycEpEbmkzOWtKcXdUSVVzR3E?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 255500000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Andreessen Horowitz",
+          "Accel"
+        ],
+        "investors": [
+          "Andreessen Horowitz",
+          "Accel"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdWJxZ1FsdHZMeGhINjFRanotdEdmcHFvM09DLWx5bGMzcTBWczN0YkRYSlNFZkFWUHZxano3OGNpVGVzbm9iRGVRSVJqRF80RGQ1c3QzdUdyN1phYmJnZlM1NDcwN3E4NXlRRjJiMmR6NWYwOXlJbjA0aUFwdHpNSVpSRURYOTl3Qko3TG81a2QyUmtSS2NURWNpSVc5LXZWbVB6MUJPZ05TTXhQcFV0S2JmbXo4NmlQRUdwRWNn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdWJxZ1FsdHZMeGhINjFRanotdEdmcHFvM09DLWx5bGMzcTBWczN0YkRYSlNFZkFWUHZxano3OGNpVGVzbm9iRGVRSVJqRF80RGQ1c3QzdUdyN1phYmJnZlM1NDcwN3E4NXlRRjJiMmR6NWYwOXlJbjA0aUFwdHpNSVpSRURYOTl3Qko3TG81a2QyUmtSS2NURWNpSVc5LXZWbVB6MUJPZ05TTXhQcFV0S2JmbXo4NmlQRUdwRWNn?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaTUxbFJBdVZjek1MWHpMTXpySHQwZE5WaGl5VUoxS0QzTjFaanBoc1o0dkJySkRGTHNLSHVRRGhhODJ5ZE1kcHBZNndkZWJJS0dlX1NZY05jVXRjdzUyQXgxN0RRQURQMEJpX1FhQV9aUEhBZmI2SklKZlRlV1J0eGdiS1BDUVJKd3NoU2lld0RadlFR?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWWhLanpLVlV6MzcySXZTTnY3ek1DdjM2T1FibUlBUmdwSWRoYy1nU1Jlc3BvNlNNdmhlYktfSHlLUk8xM05FS0E0alRCcUhPZnVQLXFhbjlUY2M1Sk1QNks2ZmJuOFRST0ZiclhZX2ppeVN3akVsT1k5N3pZSG9YR1NEeEcwMUYwcUtNTTNseHRKUkVOWDRxcW5Sa2xkMXRmQUZnOFdxU3hNMU1MTTBHQzEzVmswYmlDSG1r?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRjRwZjNYQVB4TjFrcVBaWGZaSjJJbGNTX1Fhc0syU1VrSXpfVERWeFVtV0NSTXJYWkxQakVaN0dacDhSVzJHMWVySE1UQnhuNWhmZURfQlFyNnBOS0k5QXV2OGdmVnJiUnNsbUVuZ295Ul8xRnIzMHAyLTUxelpYdndLeFQxN2wzYkxPZjF4LTBzemVfblM5Mld4cmxXZnpKRnhLNDVGMjlIbUhsdW1tX2ZSalgyQ2ZZdm5hYlhn?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ2dPU1lrdUdYSnJ1SkF1enJrbnBIeHVVZVZBX3A2aTh3UjZwLWs4YXJFTzB2Q3hmVFdWei1QaG9QUEhWWmRWdVpLODRvejNxWjhmUzV3emtxMDJnT1I3RjhLUklwYnRqM2JGNFZUTFVvcWFfd04wNzR0eDJnbXRzSkItVnFNNXJUek9NZmdIYmpjd0pWYzBuckZqbEU?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcThvVG5zbnAxX0cwLWtGeVFOS0F3N2t6c1hIVjV6b0NvMGNwU1VtUjJNbGhhUjc2S2t3RndlbGxlenhJVjRIZFFGZnlpZkx3ZEgtckJDY2J2NXVOMFlPVHp2bnliam1CUEM4aGp3LTVMUjc2NVZuN2ZUSXl5YndkUTNDUWl5b0c0UjZ0TS1JS1JGdUZUWVk0d0dqLWhxLXNnaVpRM0pRNU1iSE9hbnpBMEdzbDg?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNenVodjFKenI5RXFkRTlOVkRtRmRfeGw3cWxZa1p4RnA3bk0zMzgtaWNuZ215VnJCanFuUlVRTmgtQW5VczlvbmttSUtjVkdwU3lNWldMaXRYdEJZOXhxNWtpeDg4ektidUV0TVBWa2RpV3ZTV04tVWw3SHRuUmVJWm03TVM4VTd5LUFocktFZXB0cUZYOF9RSHFqNEI2MHpsdUo5ZmtFckRlT05qTFMxbnlsdUFaM1oxdmlWdWhFRmxrWFFNLUE?oc=5",
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwSUplanZMS1lMRjNXRGNsaFBUTFBac2ZpczlIQUxGNW5PNUQxa1BPRlFMM1ZIblRIV3MtV2VLeXV4eHdIUUNUTEZIdUFHNHlDZEhPZEJGTDJxUnc5WGkxZXlaSEMySm9lWDhV?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUg1QzN5Wjg1Wk50YVRGeUR1cTRiUHlpWHZwWF8zNUxRamR0dVh2NmlrRm5TdjQ1bmd6cU1MdGxDX091M0k1Mkp1ZjRnZWY2Rl8wRDcxdnZ2LWpBcWVyRFk5Sy03MFlaNU13c19ZMUt5bXpmd0VGNDRMT2c5Wm1zVDRMVXRsXzQ2SzhjOTFTYmJrZGdiVDBNSUpTOUt0UXk1ZjJycEpEbmkzOWtKcXdUSVVzR3E?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 255500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 445500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz",
+      "Accel"
+    ]
   },
   {
     "company_name": "Arrakis",
@@ -1430,7 +1493,22 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.genengnews.com/news/arsanis-wins-e1-2m-for-research-on-antibody-against-hospital-acquired-infections/",
+      "https://www.fiercebiotech.com/biotech/gates-google-backed-arsanis-ties-off-45-5m-series-d-for-mab-infection-trials"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 9 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Artifact",
@@ -1468,7 +1546,51 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": "2020-04-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPb212YU1MV29sWHlFa2ZLQkFISG9xSzVFU0VxOW1ZWlNqNjNwbkhHbmV5el9Lb0hTTlVaZE9pb1pwZm5CYTMyQmtrNkVPa0U2UmszQi01c0p5VXdHX3hKVXI3VGpoTElmR3JZdW9kWWV4OGNPN1RNWHVXQnNMeXFiQTdtMTVkaDFDM2g3Wmc3Q3FiRXZiUmZNeUxyUUJmRU9PamFSWUVqVkR6S2JQM2g5WXU2V3NybmxxRnlzQnhIbHZ5aHAtcDdDdFdOb1NIcDVvOUZvbktfRGxSU2tsQ1VPUm5tVFdnLXNsem5yWmNHcFhOZTFIVmpUWmJNQUZnZ2RFRUY2d2ZIYVg4bDYyY3NnYmVTT1Bhc0VCNVFsTDJVaEVQckFMRkM4NWg0eEZHT2FQeE50blVLaC1QeDF2dzRRc3JaN3NhWXdnTi0wUGZiaw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 147500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUTlFdEUwVkxudnNScEZqaWdYb1NLc21DaWpndnpZRUJMbEVkOHhTMS1wTk1ZQVZqSlFDQzVPYzgzMXJDNUJEczdaMmRwclJZbjgzX0Y2UXU3X3lGSUpsZlBhdFFCY2NRUC1KUzMzczlRc0tqUzE0YXFOZk9yckxQbHhDSlF5cndNZVRtRXVRb2FJb3FESW53WkRGcW1pMTZNNFVDZzZWVHQ3MGhWNy1tYzNhXzhQOVhTVWZYNkJ2NFZwS3BtYl85bkdOc2J4cGdiTnFkZEZfeDNybFJGNm92bTlvQWVhamdObHNvazRBT2pYMWdxWUNv?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 115000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRjZDRHBXYk41SFQ0UTVkclFtTVVJWEJ0SG4xdmVPOVZpamcxRzVvWnAySTJfS01xNV9wWlkyaHBqdlNlVEQyaDRhbm9KcklrWE91WVZYQ0RUV1g1MjdGSVdDRHRsUU5QejZWd1BxRXlBNTlMMENoemJQdWxFSHVIX3I1Mm1rbjNKdElncmo4VUlpcGdrcDVPSjBGM0ZfQzBXN3A2ZXdabGpySUlYOVdZWHRqd0FacnVhTG4xMkZTQlloRmJWSnhmcVA3NWhNY2xHaGdHa1hfQ2diQS0za0JjdFFaenBVZmd0WHN3bEFQMEhGekx0X0Fv?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRjZDRHBXYk41SFQ0UTVkclFtTVVJWEJ0SG4xdmVPOVZpamcxRzVvWnAySTJfS01xNV9wWlkyaHBqdlNlVEQyaDRhbm9KcklrWE91WVZYQ0RUV1g1MjdGSVdDRHRsUU5QejZWd1BxRXlBNTlMMENoemJQdWxFSHVIX3I1Mm1rbjNKdElncmo4VUlpcGdrcDVPSjBGM0ZfQzBXN3A2ZXdabGpySUlYOVdZWHRqd0FacnVhTG4xMkZTQlloRmJWSnhmcVA3NWhNY2xHaGdHa1hfQ2diQS0za0JjdFFaenBVZmd0WHN3bEFQMEhGekx0X0Fv?oc=5",
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUTlFdEUwVkxudnNScEZqaWdYb1NLc21DaWpndnpZRUJMbEVkOHhTMS1wTk1ZQVZqSlFDQzVPYzgzMXJDNUJEczdaMmRwclJZbjgzX0Y2UXU3X3lGSUpsZlBhdFFCY2NRUC1KUzMzczlRc0tqUzE0YXFOZk9yckxQbHhDSlF5cndNZVRtRXVRb2FJb3FESW53WkRGcW1pMTZNNFVDZzZWVHQ3MGhWNy1tYzNhXzhQOVhTVWZYNkJ2NFZwS3BtYl85bkdOc2J4cGdiTnFkZEZfeDNybFJGNm92bTlvQWVhamdObHNvazRBT2pYMWdxWUNv?oc=5",
+      "https://news.google.com/rss/articles/CBMizwJBVV95cUxPb212YU1MV29sWHlFa2ZLQkFISG9xSzVFU0VxOW1ZWlNqNjNwbkhHbmV5el9Lb0hTTlVaZE9pb1pwZm5CYTMyQmtrNkVPa0U2UmszQi01c0p5VXdHX3hKVXI3VGpoTElmR3JZdW9kWWV4OGNPN1RNWHVXQnNMeXFiQTdtMTVkaDFDM2g3Wmc3Q3FiRXZiUmZNeUxyUUJmRU9PamFSWUVqVkR6S2JQM2g5WXU2V3NybmxxRnlzQnhIbHZ5aHAtcDdDdFdOb1NIcDVvOUZvbktfRGxSU2tsQ1VPUm5tVFdnLXNsem5yWmNHcFhOZTFIVmpUWmJNQUZnZ2RFRUY2d2ZIYVg4bDYyY3NnYmVTT1Bhc0VCNVFsTDJVaEVQckFMRkM4NWg0eEZHT2FQeE50blVLaC1QeDF2dzRRc3JaN3NhWXdnTi0wUGZiaw?oc=5",
+      "https://pulse2.com/aspen-neuroscience-115-million-series-c/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 70000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-04-01",
+    "total_raised": 332500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Aspire Health",
@@ -1504,7 +1626,21 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.institutionalinvestor.com/article/2bt029znvrkw6flb7yebk/innovation/astrid-gets-vc-funding-from-google-nexus"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Attio",
@@ -1515,7 +1651,62 @@
     "everywhere_tags": [],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZnBvUWdsMElKUEI0Q3hIb2VKQWpKR3RqdjhCMnJsZjRtZHVOZDJsdVRUSE1vdFpwa3dCaFdvcVRQUWpjcm1jbmlzOWJjQkpVYlRCT0V6M3Z0dmlEaTRUQ3llOHpLUkhVZ0NTTzM0Y3lYSmxqc0Y0LTlCTWJlelVXYlRfYkxfZEE0OFl0V0NPZUl3dW1aaVJEbGhsYWFyejd0NUZkT1lBTFBoQ2xN?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 23500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1M5aDVpYVI2a3JpTlhXWXRUTGViRkVzYm5aRUhONUNsclMwV2dCNHlNc0tBcjR1alpwX0xnZXFxSFpIdGp5WU1maHUxSjVIeWI4aUFUeXBIVVdONmtBb3hjWlFJSUV2M3lER1NzYUdIaC1QYVBUT0RmNWZXdXJJVzRWSXNiUDFsZ1U0RndvRQ?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 52000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGFwdWt0dVA5c2ZIOGZOd3RZang5RXVMWVhqSC1aYkV4eFdYT2Zxbll2cVJaUXdQWnVCSHJ0Z3ZNQU1RNV84SEFHajBZNFhWc210SGw2ZVdhb2lJRDFQcU9GczlHbGF1QlczdmkzZWZabGNNTkNBS2ljd1V5WGRwOGlDMkZBd3RsMVlRci1yeERnSHFPc0cwTC0tV0ZYc2pVRS1OUjhkT1ZPTlhKTHNNc2lleHBZN29qREZzekoyaTVlRHhQZ0VoMWlhODUyNFBNemxpbDdhNA?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 38600000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaThjS3YyLUNVd3RId3ZRLThfRXE1ZkNhcXNIdDhJRkdVNmhlREUwU09iQ2ZQcHRnV2g4cTRYVUViOFM2NUtSeTdTajNkQ1RzMGlkc3lsQWpvc3pMUEtneElOODF0UFZQNm9EOWkyU3hZUk1CdEJUc3NOU3l5anNJX3BBQzNySU1WaHNrOFhrUE42enNNOGxjU3ZGOA?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeTlMa2ZIN1FWZDRpMEphNWhCYkR3TUp0Tm51SHYxV29mblZzVE5paEd5X1l2b0xjQm5UbExMS2w2ZktDRlpnSG1TZE53ZTJaWnZsUExTR3hTZnZXZjgxdm50dHdBOUJXTS1VYmdCR3JNTktRc1dfZXFKOW1DeWJQSUpJN1FHZDBUS0xxYVZ6UGp3UFREZ2kxT2o5ZFA1MEQ3T21FSg?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGFwdWt0dVA5c2ZIOGZOd3RZang5RXVMWVhqSC1aYkV4eFdYT2Zxbll2cVJaUXdQWnVCSHJ0Z3ZNQU1RNV84SEFHajBZNFhWc210SGw2ZVdhb2lJRDFQcU9GczlHbGF1QlczdmkzZWZabGNNTkNBS2ljd1V5WGRwOGlDMkZBd3RsMVlRci1yeERnSHFPc0cwTC0tV0ZYc2pVRS1OUjhkT1ZPTlhKTHNNc2lleHBZN29qREZzekoyaTVlRHhQZ0VoMWlhODUyNFBNemxpbDdhNA?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1M5aDVpYVI2a3JpTlhXWXRUTGViRkVzYm5aRUhONUNsclMwV2dCNHlNc0tBcjR1alpwX0xnZXFxSFpIdGp5WU1maHUxSjVIeWI4aUFUeXBIVVdONmtBb3hjWlFJSUV2M3lER1NzYUdIaC1QYVBUT0RmNWZXdXJJVzRWSXNiUDFsZ1U0RndvRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOG9PVGhSd0xha1dpUnFVNG5YXzc2MkR5WThFSzFGMVI0S0JfbVpVY1F4emU3TVJXQmg5a24zSC1wNFBMZ1d6SDZpQllhZXQtalFmTkE2THh6SmJ3WkZBWVREbmJnS29oTFFCRVpCMUUtQVA4amJBcGd0VlJqZEgwcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13bTJlNU1MVDF4RF84WHFmTkpMM0hrcUZzY1pScU1XbW5GbjR2bFBRQ0pqT0Nwb1RYMUUwb0t1R1BfOTVSeXViVnE2MXZQbHVha1UxZzlwcTh0d0ZvVHFMNWVxNmItV1k1?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUJlbzFWWlc4ancyMUVGbkJSZm8xVVNBREVtTl85UEI5VTl1SlQ2bzM3SEZGbzdGNWY0ckZMSnNUUkNNQW9rMXFGNHU3N1JjRDhuX0h5UkQ5ZGM0TVRtNzlCblNGOTZoaEhYRjVPU2xPRnRxcE1kelBOOG9yWVlDZHBDRjlPamFyT012aHlzQ1lLZ1JDanhxUFpLaHNTdw?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaThjS3YyLUNVd3RId3ZRLThfRXE1ZkNhcXNIdDhJRkdVNmhlREUwU09iQ2ZQcHRnV2g4cTRYVUViOFM2NUtSeTdTajNkQ1RzMGlkc3lsQWpvc3pMUEtneElOODF0UFZQNm9EOWkyU3hZUk1CdEJUc3NOU3l5anNJX3BBQzNySU1WaHNrOFhrUE42enNNOGxjU3ZGOA?oc=5",
+      "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nVUV6NHZBSkxWQXNHdDkwNkNVdm5jZG1ZT085SmZOMW1lRVpmMG9yUU1YcW9LSzB5eWpPZzhMcGNLT0ZNN0lJNFR4a3BTOFN2ZXc?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZnBvUWdsMElKUEI0Q3hIb2VKQWpKR3RqdjhCMnJsZjRtZHVOZDJsdVRUSE1vdFpwa3dCaFdvcVRQUWpjcm1jbmlzOWJjQkpVYlRCT0V6M3Z0dmlEaTRUQ3llOHpLUkhVZ0NTTzM0Y3lYSmxqc0Y0LTlCTWJlelVXYlRfYkxfZEE0OFl0V0NPZUl3dW1aaVJEbGhsYWFyejd0NUZkT1lBTFBoQ2xN?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 38600000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Autolus",
@@ -1529,7 +1720,21 @@
     ],
     "primary_investor": "GV",
     "source_url": "https://www.gv.com/portfolio",
-    "scraped_at": "2026-10-01T13:11:56.640973+00:00"
+    "scraped_at": "2026-10-01T13:11:56.640973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVdpTzFwMWphZzV1TWc0cXo0TWs5X2hCOU5XMFp2dWdEWHdGZGRvV2NLcmRaeHl2X3U2bmQyeDZKTWM4T0N0d1VxUWRwckJfYWIwZWpLVjRialhWcVRMUVRkVWRkY1BiNjlKbFlsUTZQLVdEc0tUd2lwcmNwNXVfVkJUazhkSDQyWkoxWUZ4bkhGeHNZLVdyOHg4clpvSElHeFZpQ0lnbVNUNDQzTXdla1J6YlF4Q2k4a0E?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BBOT",
