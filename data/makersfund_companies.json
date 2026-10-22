@@ -2509,7 +2509,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "World Makers",
@@ -2537,7 +2549,31 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ucFJHN281c0F1MVVnRHVWQm1LU010S2xMM25ibTdncUU1V3o2OFA1V1FaTEk3dGRpWGtYb2FRTmpEWUxMcUstLVBtc1hfNlliZkxQSzJaWE1oSGgxMG40ZENJM01ReDlZSGI2ekFEdWZrcHM?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ucFJHN281c0F1MVVnRHVWQm1LU010S2xMM25ibTdncUU1V3o2OFA1V1FaTEk3dGRpWGtYb2FRTmpEWUxMcUstLVBtc1hfNlliZkxQSzJaWE1oSGgxMG40ZENJM01ReDlZSGI2ekFEdWZrcHM?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "WinZO",
@@ -2562,7 +2598,56 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": "2020-09-03",
+        "investors": [],
+        "source_url": "https://www.livemint.com/companies/start-ups/gaming-startup-winzo-raises-18-million-in-series-b-funding-11599124687385.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Griffin Gaming Partners"
+        ],
+        "investors": [
+          "Griffin Gaming Partners"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOei1IVUZIVUtoOU42RjdjNWV3WER6SHZwRUhaeTgyX19mejJ4d2sxbjVjT3ExVjhfZ2l1bnRvUlFwRk1LVDUxLW5JR2wzRmNJMkU2bUpDVWQtaHluVTRvS0NUR2VTRDRNX3FObTNyU0RUenRVSlVWQ3NUVzFTZTRBdTl5MnJvaXlUa3VqZGc3Qm9Ubmx5VkpOZWtJeDcxZVM2N1E?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaV2cxZzhyMjV3Rzk2WGN6SjFveXV1UXpfNnZHdFdxOFZLbHJSM1hBTTh1OGtGLUstTnJ1a2VuS0dkc19KXzNpM3lHRENZMXFJSmxScDY2S05OM2JsS1VWeGw1bjE0N3FUNXlVNzdVbTNQOXNQRlE?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeUcyamwtRTV0NjRvR0pfMkJ3S0RvUWxKcHpNN1ZKalRVbzdha0RFaVlzTHdNOWptamgzNEp5WGJiYVJwTGVnc3lXWXZiaHUxOVY3ZkZLdVc1Ump5NlFxVDBHVjk0Q2FlSnVRc1hIX09HdlZSYkNGN0dWRTB4dldodUM5NTFlVFU4REZTUDdyVkZaUHhRLUNRc1JEVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lYjhVbGxLa2JGV0NYRUVaVmFwSVFRR3JjZ1dVS3FRcVR6bldCYWsteHNIV3BaREVfWnpZcVZXM0xtV1FVOTVGY3UxZDQtcWZMTUR0aGJ1bVhqLTgzeFN6djZGUGJmcVVEY3oyLXdWV0h4OEVDa1hPNVp3?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOei1IVUZIVUtoOU42RjdjNWV3WER6SHZwRUhaeTgyX19mejJ4d2sxbjVjT3ExVjhfZ2l1bnRvUlFwRk1LVDUxLW5JR2wzRmNJMkU2bUpDVWQtaHluVTRvS0NUR2VTRDRNX3FObTNyU0RUenRVSlVWQ3NUVzFTZTRBdTl5MnJvaXlUa3VqZGc3Qm9Ubmx5VkpOZWtJeDcxZVM2N1E?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uOU5WdEhCTjZ2QUNSbnRtN2NOejBVZXJYdC01MXczWFl4Q19xcmxJQkxxLTZTT2Z5bl9kYS1fNGJ4ZjZQQjFkWFpSWGE2QXpyN1lzbkduV29Idl9nYkxsVTZhWUwxM2pydTlXZ0VxU05jdUxpekdsZmVOZ1BlZw?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR25mUnBZNlZuMnFXRVZRcHI4OS1wQjhuMEpRT0ZDSU01UkM0TElRZ1ZTaUdSX2YtRjFRdjFsWm85RW04Vi1EazJ4VGtBMjVsRS04UUF4bVR5d1ExWmJiT3lBNHJpS0dhQS12MUtWR1pIaGZjSnVEejJYbE13YkEwQk4wcnlFcVQ5ajF2MVBxMGJyRmfSAZMBQVVfeXFMTUduZlJwWTZWbjJxV0VWUXByODktcEI4bjBKUU9GQ0lNNVJDNExJUWdWU2lHUl9mLUYxUXYxbFpvOUVtOFYtRGsyeFRrQTI1bEUtOFFBeG1UeXdRMVpiYk95QTRyaUtHYUEtdjFLVkdaSGhmY0p1RHoyWGxNd2JBMEJOMHJ5RXFUOWoxdjFQcTBickZn?oc=5",
+      "https://www.exchange4media.com/digital-news/winzo-raises-65-million-in-series-c-funding-round-led-by-griffin-gaming-partners-114029.html",
+      "https://www.financialexpress.com/business/brandwagon-winzo-raises-65-million-in-series-c-funding-2282686/",
+      "https://www.livemint.com/companies/start-ups/gaming-startup-winzo-raises-18-million-in-series-b-funding-11599124687385.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 18000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-09-03",
+    "total_raised": 83000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Griffin Gaming Partners"
+    ]
   },
   {
     "company_name": "Wombat Studio",
@@ -2587,7 +2672,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VRCHAT",
