@@ -5660,6 +5660,16 @@
         "date_basis": "snippet"
       },
       {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2024-04-03",
+        "investors": [],
+        "source_url": "https://www.finanzen.net/nachricht/aktien/neurava-raises-over-2m-to-advance-life-saving-epilepsy-monitoring-device-13391659",
+        "date_basis": "text",
+        "history_new": true
+      },
+      {
         "stage": "Form D offering (round type not stated)",
         "amount": 1600000.0,
         "currency": "USD",
@@ -5688,16 +5698,19 @@
       "https://www.neurava.com/about-us",
       "https://www.neurava.com/news",
       "https://www.sec.gov/Archives/edgar/data/1882749/000188274921000001/primary_doc.xml",
-      "https://www.sec.gov/Archives/edgar/data/1882749/000188274925000003/primary_doc.xml"
+      "https://www.sec.gov/Archives/edgar/data/1882749/000188274925000003/primary_doc.xml",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVW0wdWV6Vzh3TmZZZ2diMVBiZVctbGVYejJZU0E5SGZSd3NYTHRrSFBENi1sb090U3dXRmVKekpscVMwMmN1czZsRVpDd0Z2OWxoS2NZWklZZTl4dFYxUkE5MHdmci1YdWEtT19SdDRKeVVxUEExMnRMdTB1TnpVRGgtSEFqNmprZU1YcDkxRWlpVm5WVS1nYXdpWEhjUzBBb2c?oc=5",
+      "https://www.eurekalert.org/news-releases/933431",
+      "https://www.finanzen.net/nachricht/aktien/neurava-raises-over-2m-to-advance-life-saving-epilepsy-monitoring-device-13391659"
     ],
-    "funding_status": "pre-seed or angel only",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 1600000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-10-15",
-    "total_raised": 4256250,
+    "total_raised": 6256250,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
