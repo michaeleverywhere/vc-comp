@@ -2696,7 +2696,33 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 2500000.0,
+     "currency": "EUR",
+     "date": "2025-06-25",
+     "investors": [],
+     "source_url": "https://lios-group.com/news/lios-secures-e2-5-million-eic-accelerator-funding-to-scale-soundbounce/",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://lios-group.com/",
+    "https://lios-group.com/news/lios-secures-e2-5-million-eic-accelerator-funding-to-scale-soundbounce/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 2500000.0,
+   "last_round_currency": "EUR",
+   "last_round_date": "2025-06-25",
+   "total_raised": 2500000,
+   "total_raised_currency": "EUR",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Blaze Energy",
@@ -2889,20 +2915,33 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 9000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLVUyeXFpUGJseF9keGJ0QWVCcm9BREpzeVhmUTJkclpyWlNBN1FrdW1hdzFGUl9iczZwaUVGZXJFMVNsRnVpWjF1bWZXVlVoYno4anJIRWNHeDExTjhyZW9iLWlGb3FDZk40YnE3T2phR2tLWGg1cEltRlhoQTZTQkdLSVFIYXQ3ejZraUZ2Z2ZhVS1qeHJwMDBaRkJJWWY1N0ZlRmxtWWVNYlJmX2lwSVpULVRwemg2UlpCbXVheWRNd2dzWlk3ZVA3UHJ0eVRuQkU0U0JZWFU?oc=5"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.windfall.bio/"
+    "https://www.windfall.bio/",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY0o2cDdvODZ4UV9URGUyMmt2cmxXcXVGdFA1cDA4VjRZUE1ob0NCcWJ3SFQyTHRBLS15ZHJyRFhRSWR3VmNoM2VhQms3WGhrLVVqc3gxOVBKZGNtLU1vbERrcHZzbTN0am44b2hlUUp0YzBjc1Z5MnFLQTI0cGV5V0hOMXFSajl1QjFHSVp5aTg2NzR0SjBfRW5hU0lpU0xtbklWVmQtZ1NlTXZYc2FKUGFVWEdRMnh5UUE?oc=5",
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLVUyeXFpUGJseF9keGJ0QWVCcm9BREpzeVhmUTJkclpyWlNBN1FrdW1hdzFGUl9iczZwaUVGZXJFMVNsRnVpWjF1bWZXVlVoYno4anJIRWNHeDExTjhyZW9iLWlGb3FDZk40YnE3T2phR2tLWGg1cEltRlhoQTZTQkdLSVFIYXQ3ejZraUZ2Z2ZhVS1qeHJwMDBaRkJJWWY1N0ZlRmxtWWVNYlJmX2lwSVpULVRwemg2UlpCbXVheWRNd2dzWlk3ZVA3UHJ0eVRuQkU0U0JZWFU?oc=5",
+    "https://pulse2.com/windfall-bio-methane-to-value-solutions-company-raises-28-million/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 9000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 9000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Cauldron",
@@ -12330,20 +12369,32 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3300000.0,
+     "currency": "USD",
+     "date": "2022-10-31",
+     "investors": [],
+     "source_url": "https://www.businesswire.com/news/home/20221031005195/en/OncoPrecision-Raises-3.3M-Seed-Funding-to-Improve-Cancer-Patient-Outcomes-and-Drug-Development-Efforts-with-%E2%80%9CPatient-Micro-Avatars%E2%80%9D",
+     "date_basis": "url"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://oncoprecision.bio/"
+    "https://oncoprecision.bio/",
+    "https://www.businesswire.com/news/home/20221031005195/en/OncoPrecision-Raises-3.3M-Seed-Funding-to-Improve-Cancer-Patient-Outcomes-and-Drug-Development-Efforts-with-%E2%80%9CPatient-Micro-Avatars%E2%80%9D"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 3300000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 3300000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-10-31",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Lux Bio",
@@ -12995,7 +13046,21 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.irishtimes.com/business/mapflow-secures-3-8m-from-us-investment-firm-1.1197859"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Nat4Bio",
@@ -13106,7 +13171,31 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": null,
+     "date": null,
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc1FyclBXVzdUMUU2ZG5oWFM3TXRUSnQyeVJwcHdEVjJ1anhMYzdwZFZTUVZMYk5LaVNuX2YzV2VwYjU2Y2I4emZvclBVVHNraGVCZ1VHelk0VzdKZFRoMG5EYlNRNUdObWZLbUtQU3Uyb0JaOTRONllSMy1ZZC1vVjY2ZnNNVEpvcTNucGc5UXhlaXBRV0RTUmFhODE2aFludHRFWDJVY0ZRVS1BcGxJYy1xS29QTjljV0hlNUwya3E3ZGV4?oc=5"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.magellanlifesciences.com/",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc1FyclBXVzdUMUU2ZG5oWFM3TXRUSnQyeVJwcHdEVjJ1anhMYzdwZFZTUVZMYk5LaVNuX2YzV2VwYjU2Y2I4emZvclBVVHNraGVCZ1VHelk0VzdKZFRoMG5EYlNRNUdObWZLbUtQU3Uyb0JaOTRONllSMy1ZZC1vVjY2ZnNNVEpvcTNucGc5UXhlaXBRV0RTUmFhODE2aFludHRFWDJVY0ZRVS1BcGxJYy1xS29QTjljV0hlNUwya3E3ZGV4?oc=5"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "last_round_type": "Seed",
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null,
+   "total_raised": null,
+   "total_raised_currency": null
   },
   {
    "name": "LUXSENS",
@@ -13134,7 +13223,21 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://luxsens.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Looking Glass Factory",
@@ -13201,7 +13304,43 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": null,
+     "currency": null,
+     "date": "2021-12-06",
+     "lead_investors": [
+      "Grupo Bimbo"
+     ],
+     "investors": [
+      "Grupo Bimbo",
+      "SOSV"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/superfood-company-livekuna-secures-series-a-funding-to-expand-north-american-footprint-and-fuel-product-innovation-301437504.html",
+     "date_basis": "snippet"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://addfreesources.net/screening-evaluation-forms/",
+    "https://www.prnewswire.com/news-releases/superfood-company-livekuna-secures-series-a-funding-to-expand-north-american-footprint-and-fuel-product-innovation-301437504.html",
+    "https://www.foodbusinessnews.net/articles/20171-livekuna-to-scale-in-n-america-following-series-a"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "last_round_type": "Series A",
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": "2021-12-06",
+   "notable_investors": [
+    "Grupo Bimbo",
+    "SOSV"
+   ],
+   "total_raised": null,
+   "total_raised_currency": null
   },
   {
    "name": "Liberum Bio",
@@ -23592,7 +23731,21 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.majormap.net/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Hydrostasis",
@@ -24569,7 +24722,22 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://lorryz.com/",
+    "https://menafn.com/1104057005/US-based-leading-VC-SOSV-joins-Lorryz-growth-journey"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Property Passbook",
@@ -28558,7 +28726,19 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Microendo",
@@ -29364,20 +29544,32 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 5300000.0,
+     "currency": "USD",
+     "date": "2024-09-13",
+     "investors": [],
+     "source_url": "https://www.smartcompany.com.au/startupsmart/neurode-secures-5-3-million-non-invasive-wearable-adhd-solution/",
+     "date_basis": "snippet"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://neurodelabs.com/"
+    "https://neurodelabs.com/",
+    "https://www.smartcompany.com.au/startupsmart/neurode-secures-5-3-million-non-invasive-wearable-adhd-solution/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5300000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 5300000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2024-09-13",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Vertiq",
@@ -29508,7 +29700,19 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Bite",
@@ -29776,7 +29980,19 @@
    "batch_date": "",
    "batch_date_precision": "",
    "location": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "XIXILAB",
