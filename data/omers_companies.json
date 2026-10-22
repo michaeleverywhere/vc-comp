@@ -2386,20 +2386,34 @@
     "primary_investor": "OMERS Ventures",
     "source_url": "https://www.omersventures.com/companies",
     "scraped_at": "2026-10-10T13:25:40.027334+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": "2020-05-04",
+        "investors": [],
+        "source_url": "https://www.mediapost.com/publications/article/351025/postalio-raises-9-million-in-series-a-funding.html",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.postal.com/"
+      "https://www.postal.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0tVX0M3Mmp0WXJZcjJ0NjJtSnhoMHhEMTBXQUs1T0cxdGEtUzYxbW5nMFpSYmU5ZDd4aFVRQWZlSEkwVkkxcGkwMmMySFhGSm4wMDZ5T004dGNNZGdicTJpRkk2NUhCd0UwUFJaOE92clM5VEJCU240M2h0X0tBTVNhNDJEMmtZeHRsSnhLczFKajlBaHc0Ymczd0xJSXN3bVZnbmFNZw?oc=5",
+      "https://www.mediapost.com/publications/article/351025/postalio-raises-9-million-in-series-a-funding.html",
+      "https://www.b2bmarketing.net/postal-io-announces-a-9-million-series-a-funding-round/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 9000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 9000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-05-04",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PrimaryBid",
