@@ -29,7 +29,19 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "47line",
@@ -651,7 +663,19 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Axalko Bizikletak",
@@ -1980,7 +2004,45 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PLTh5QlpJaTl0UldCQWJrLVFURVlpMHQ3cnlXanlnQkU4aUNRdmh5NzBROTlGZENnNzdoN1pOVkk5TUJER2NlVA?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 37000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVFwOVJ0bGZ4TjdaZXVORTlVX1pCQ2hnUDhlNTVGQ2YycDUxUms5Ykw4ZVdzZ0gxN1BKRUc4bjZoX250S2IxX2F5Y1JDNlNjS0J5NUo2ZGdTUXlCOV9BS2xvMlpHRUpWUEI0RjVqVDIwd2wwbHFHSHBsZVcxN3VlQ0gyVi1VendwWDNldHV4T3hGMVo5Z3M2RUgyelp5aXM5bzFZcnE3S2xUMTRU?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVFwOVJ0bGZ4TjdaZXVORTlVX1pCQ2hnUDhlNTVGQ2YycDUxUms5Ykw4ZVdzZ0gxN1BKRUc4bjZoX250S2IxX2F5Y1JDNlNjS0J5NUo2ZGdTUXlCOV9BS2xvMlpHRUpWUEI0RjVqVDIwd2wwbHFHSHBsZVcxN3VlQ0gyVi1VendwWDNldHV4T3hGMVo5Z3M2RUgyelp5aXM5bzFZcnE3S2xUMTRU?oc=5",
+      "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BRS12Mng5bWtVRXAxLXBsTG81X1U1b3dsMUtzRkRGWVRGNDRyUm0yWkNocU16TFZVbWhiOXNoWnpxdzhXWTBmRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PLTh5QlpJaTl0UldCQWJrLVFURVlpMHQ3cnlXanlnQkU4aUNRdmh5NzBROTlGZENnNzdoN1pOVkk5TUJER2NlVA?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa1ZIUnhiUEJrRWRkc3ZjQUtUN3VrZGlQbEFtQzMxbURpQVFjUTVCM3dPOFJPWDZoclpxWW5VaDVsYmVybjF5TWJGNEhGS2FxbmtQVFVGSVhIbG1BeG9wVmxyN3V4X0Q4N2kxUmcyYlpERmt5ZU45dzVfWHBRRFJPUXBZUW5EMUZnMUZTcUcyUXlUR1JhU3o2SEVYaWNjeG1YVVIzVDN4blPSAa4BQVVfeXFMTmpKeDVKY05NNW1Sb3NxMjQ1M3JUQ1l6TGNJeTRkWUhMM0U3Mm1kNmtSU2o4LTROWU9MX0Z4Vi1sQzQ3emp2MC1HeGRJY21rRzg0RkNZbmJYamZ4M0YtVVpzek9UUmN3X1ZhLTZuVWt6SDlEYUYwZWR6aDVZRlp0ZmU3d291bWREazE0Njc4N0N0N2s5TmRKaHpHWHV4SjVocmtGN0Zzd0lMbFREWkdB?oc=5",
+      "https://www.dawn.com/news/1694892",
+      "https://www.pymnts.com/news/investment-tracker/2022/b2b-ecommerce-startup-dastgyr-raises-37-million-dollars/",
+      "https://www.brecorder.com/news/40179978"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 37000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 40500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Datakrew",
@@ -4700,7 +4762,24 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdEh4UDN0NXQzYUp1WGNHdk1XT1hreW16aGQ0X0hyOUo5bEFWaFdDbE5FSDFHaUlYNEdIaHhPUHFMQkw1TU5IMFhpMGc1b1paUENZTzdSLUdKNXpGZG1MMEZMMUpoODBCQ3Q1dnVrY1hBenA0d2NEUXM0Y2NFajRWa3JWWmIweERWcGdNNklKMTA5a2FseDhYcmJB?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeWROOWUwN1B4NlFCdmUxRGNxSWl6VDhibGlJb1AtMWNzUDJlcXZmeEt0aVlOUEd1a3ZpZDFqN1pCWk5LWFZRMDNLaDZGU1pUYTM1TVhqRmxQSG1oeFRjZGpZZEZJcTFCeE4xNW5lQU9jelVURVJUUUZ0R3dCWU9EQVJGSlQ3TGlJQndheVAzSGhkV3BwN29mMWZVVF80UVdlTm0yZDlzLWtMQ3RkMlNvR28zOUhwVVJHZWVKakJsZjEyRndmN1QwOGhNdw?oc=5",
+      "https://www.businesswire.com/news/home/20211105005723/en/MilkRun-Announces-6-Million-Series-A-Funding-Round-Led-by-Spark-Capital",
+      "https://www.benzinga.com/pressreleases/21/11/b23926658/milkrun-announces-6-million-series-a-funding-round-led-by-spark-capital"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mindhouse",
@@ -4893,7 +4972,19 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Nitricity",
@@ -6623,7 +6714,19 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sleepy Owl Coffee",
@@ -7938,7 +8041,19 @@
     "everywhere_tags": [],
     "primary_investor": "Astir Ventures",
     "source_url": "https://astir.vc/portfolio",
-    "scraped_at": "2026-10-18T18:12:56.837992+00:00"
+    "scraped_at": "2026-10-18T18:12:56.837992+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Yuansfer",
