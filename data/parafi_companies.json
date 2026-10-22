@@ -3034,7 +3034,21 @@
     ],
     "primary_investor": "ParaFi Capital",
     "source_url": "https://parafi.com/portfolio",
-    "scraped_at": "2026-10-16T21:24:04.220623+00:00"
+    "scraped_at": "2026-10-16T21:24:04.220623+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://provenance.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Rabbithole",
@@ -3685,20 +3699,36 @@
     "primary_investor": "ParaFi Capital",
     "source_url": "https://parafi.com/portfolio",
     "scraped_at": "2026-10-16T21:24:04.220623+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 225000000.0,
+        "currency": "USD",
+        "date": "2023-11-30",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/cross-chain-protocol-wormhole-raises-045420571.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://wormhole.com/"
+      "https://wormhole.com/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMW9LZnZfcGllUHNadkR0LTdqR0VXLW54SElWeTFwWl9hOE9TRFVkZmVDVjBQVmNwWVU4UlhsR1J1eHJCYkI1X3NVMVJFV181amhZS19nR1pfWEhzRnVhVmZSc3lMYUxjdVRFbzhLVHItWE5NQWJBY3NSLW9KU1pKVDJNNm9MYnl2M3RURWIyMFRRR2RvUHBiTnM5M1JBS09NY3Y0UlF6X0xVZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXo1N3IyZEx3WTVtbkhXM2NtUHBwcFZvOUdZb3FtcVd5RUlVaVoxX3pqc0taaFJsa0JqVmxHcTl4NndmZDRXcVN4enRPWXhieWN4dWdpNEdGcVpPLUxydVludExyZldMeW5XM0lldnFnUWdPdUJQUVkyQ2xqQzRhM3VreEItOEM2aWtDSENIRXpUYkZPOC1xYzhsSU5HWXBOMlVHSV9QY0ZWWWpQb2JUaXBZX0gya3c?oc=5",
+      "https://finance.yahoo.com/news/cross-chain-protocol-wormhole-raises-045420571.html",
+      "https://finance.yahoo.com/news/wormhole-raises-225-million-2-140000498.html",
+      "https://cointelegraph.com/news/wormhole-raises-225-million-2-5-billion-valuation"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 225000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 225000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Yield Guild Games",

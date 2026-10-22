@@ -1642,10 +1642,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://collegepulse.com/"
+      "https://collegepulse.com/",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjSHNyOXZkQzQxeE1YTHRKemJ5TDdMMG16NXB1emZPSnJXX1N3V0RuV1BXX25IQWRPLUt4Nkk5VTNobFd1TGYtRDQ0QVhMZzJzS0xkODlJOE9hc0FhUkZpLTZfcW04SUhQU0t2ekMyM1dHcTkzWDZN?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4850,7 +4851,19 @@
     "source_url": "https://www.madrona.com/companies",
     "scraped_at": "2026-10-08T23:28:07+00:00",
     "primary_investor": "Madrona Venture Group",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Otto",
@@ -5215,7 +5228,53 @@
     "source_url": "https://www.madrona.com/companies",
     "scraped_at": "2026-10-08T23:28:07+00:00",
     "primary_investor": "Madrona Venture Group",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12100000.0,
+        "currency": "USD",
+        "date": "2021-04-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1786090/000178609021000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11374996.0,
+        "currency": "USD",
+        "date": "2021-11-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1786090/000178609022000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 50500008.0,
+        "currency": "USD",
+        "date": "2021-12-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1786090/000178609022000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://plextrac.com/",
+      "https://www.sec.gov/Archives/edgar/data/1786090/000178609021000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1786090/000178609022000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1786090/000178609022000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 50500008.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-12-22",
+    "total_raised": 73975004,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Plus AI",
@@ -5455,7 +5514,24 @@
     "source_url": "https://www.madrona.com/companies",
     "scraped_at": "2026-10-08T23:28:07+00:00",
     "primary_investor": "Madrona Venture Group",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pulumi.com/",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMW5RV0hrYVlDbDRwZ0NyT254LXVOOXNkdW01bVJjdzdwRGp5clN5NFFGMWw0UXpGdVBNVjc5dDdvQ2JzdXB5X2l1SVpiZS1VaFdsdDl6VkxONjUwSUxKcmNob1ljaUp0bWNzX2JmdmF2RGlEaVI2cmNIWXhmY3BlZWtwdnpEekwyRjJMR3pTM1MtQXplYktkQmp1RDd2WVNaT3ZKUmhNT2xybExFRHV2ZVlLMFhhMjZnWXRJ?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLXZuQ0hKZjdmaEJBOGhjT3VLa0VqUnllOFVrTDh1WEg4aVF6YTFjRTVTMm1XVXEza29DRDNvNTY4Q2lOMFQ3M2ZkaVFDVnZNeXhIOHhJRXlIUDhTTU16cGdvNFZqemRCUjdSV0NMbnNnLUN6d0laQmc2a0stU2ZIWmlaZjVTQ3JSdXFUVE5sZWhfNjBmdy1FU29qMGE0cnpGTWg0ejVZRQ?oc=5",
+      "https://www.streetinsider.com/Business+Wire/Pulumi+Raises+%2437.5M+in+Series+B+Funding+to+Accelerate+Industry-wide+Shift+to+Cloud+Engineering/17521600.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Qumulo",
@@ -6221,7 +6297,44 @@
     "source_url": "https://www.madrona.com/companies",
     "scraped_at": "2026-10-08T23:28:07+00:00",
     "primary_investor": "Madrona Venture Group",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 8500000.0,
+        "currency": "USD",
+        "date": "2026-02-11",
+        "lead_investors": [
+          "Madrona",
+          "FUSE"
+        ],
+        "investors": [
+          "Madrona",
+          "FUSE"
+        ],
+        "source_url": "https://scala.ai/resources/press/scala-emerges-from-stealth-with-8-5m-funding",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://scala.ai/",
+      "https://scala.ai/resources/press/scala-emerges-from-stealth-with-8-5m-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 8500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-11",
+    "total_raised": 8500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Madrona",
+      "FUSE"
+    ]
   },
   {
     "company_name": "SeekOut",
@@ -6792,7 +6905,22 @@
     "source_url": "https://www.madrona.com/companies",
     "scraped_at": "2026-10-08T23:28:07+00:00",
     "primary_investor": "Madrona Venture Group",
-    "site_status": "Acquired"
+    "site_status": "Acquired",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/stratify-raises-4-9-million-funding/",
+      "https://www.vocabulary.com/dictionary/stratify"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Strike Graph",

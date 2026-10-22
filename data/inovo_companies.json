@@ -1297,7 +1297,21 @@
     ],
     "primary_investor": "Inovo VC",
     "source_url": "https://inovo.vc/portfolio",
-    "scraped_at": "2026-10-16T17:01:16.250840+00:00"
+    "scraped_at": "2026-10-16T17:01:16.250840+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pupilmed.pl/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pythagora",
@@ -1716,7 +1730,54 @@
     ],
     "primary_investor": "Inovo VC",
     "source_url": "https://inovo.vc/portfolio",
-    "scraped_at": "2026-10-16T17:01:16.250840+00:00"
+    "scraped_at": "2026-10-16T17:01:16.250840+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "EUR",
+        "date": "2020-10-12",
+        "investors": [],
+        "source_url": "https://sunroof.se/blog/news/sunroof-closed-a-2-million-seed-round-from-top-european-vcs-to-give-tesla-roofs-run-for-its-money/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4500000.0,
+        "currency": "EUR",
+        "date": "2021-04-29",
+        "investors": [],
+        "source_url": "https://sunroof.se/blog/news/sunroof-closes-4-5-million-round-as-it-aims-to-take-on-tesla-and-become-europe-s-largest-solar-energy-marketplace/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Growth",
+        "amount": 15000000.0,
+        "currency": "EUR",
+        "date": "2022-09-13",
+        "investors": [],
+        "source_url": "https://sunroof.se/blog/news/sunroof-raises-15-million-in-a-funding-round-led-by-the-european-growth-equity-fund-klima-energy-transition-fund-to-offer-its-integrated-solar-roofs-to-more-residential-and-commercial-clients-in-europ/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sunroof.se/",
+      "https://sunroof.se/blog/news/sunroof-raises-13-5-million-growth-round-extension-to-bring-its-pioneering-solar-roof-system-to-more-homeowners-worldwide/",
+      "https://sunroof.se/blog/news/sunroof-raises-15-million-in-a-funding-round-led-by-the-european-growth-equity-fund-klima-energy-transition-fund-to-offer-its-integrated-solar-roofs-to-more-residential-and-commercial-clients-in-europ/",
+      "https://sunroof.se/blog/news/sunroof-closed-a-2-million-seed-round-from-top-european-vcs-to-give-tesla-roofs-run-for-its-money/",
+      "https://sunroof.se/blog/news/sunroof-closes-4-5-million-round-as-it-aims-to-take-on-tesla-and-become-europe-s-largest-solar-energy-marketplace/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Growth",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2022-09-13",
+    "total_raised": 21500000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Symmetrical",

@@ -364,7 +364,23 @@
     ],
     "primary_investor": "Visionaries Club",
     "source_url": "https://www.visionaries.vc/",
-    "scraped_at": "2026-10-09T13:41:53.212359+00:00"
+    "scraped_at": "2026-10-09T13:41:53.212359+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tacto.ai/us",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFlLQ2NYTVdNY3U0Rk03OENtS2RBWk9vOXplX1BFWDJhcGRiNjNSRGpRNUtmMTRqSE5SMGlnUFNxZzRIZlNVWTFQelZFWEhILWhxMGlONGRLeDFNak1GVDVLSmNQU1JtalFVWWU5WVg5WUxITy1DX3AyLWJwSHlXVlR3TTRNam0tVjdfV01zcUJKbWc1?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91MDMyVlZOV3lRTHF4REpQaFhtUkYzVVZBSnJER21ad3VjNktRLVpmbGFBZGtKTlpqS2h3UmhyVlBLcDZWNjYxb0l0TmVjS3dwTUt2bF9LM0owRUR0LWw4d1ZuTVkyQQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Black Forest Labs",
@@ -1970,7 +1986,22 @@
     ],
     "primary_investor": "Visionaries Club",
     "source_url": "https://www.visionaries.vc/",
-    "scraped_at": "2026-10-09T13:41:53.212359+00:00"
+    "scraped_at": "2026-10-09T13:41:53.212359+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pledge.io/",
+      "https://finance.yahoo.com/news/pledge-giving-platform-launches-world-091900033.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Qonversion",
@@ -2366,20 +2397,32 @@
     "primary_investor": "Visionaries Club",
     "source_url": "https://www.visionaries.vc/",
     "scraped_at": "2026-10-09T13:41:53.212359+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": "2022-03-29",
+        "investors": [],
+        "source_url": "https://www.finextra.com/pressarticle/92059/spend-management-platform-yokoy-raises-80m-in-series-b-funding-from-sequoia-capital",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.perk.com/"
+      "https://www.perk.com/",
+      "https://www.finextra.com/pressarticle/92059/spend-management-platform-yokoy-raises-80m-in-series-b-funding-from-sequoia-capital"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ziggiz",

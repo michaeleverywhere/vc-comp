@@ -1186,7 +1186,53 @@
     ],
     "primary_investor": "Future Energy Ventures",
     "source_url": "https://fev.vc/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.250143+00:00"
+    "scraped_at": "2026-10-20T21:22:39.250143+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3074999.0,
+        "currency": "USD",
+        "date": "2020-06-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1817275/000181727520000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 350000.0,
+        "currency": "USD",
+        "date": "2023-10-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1817275/000181727523000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 13486322.0,
+        "currency": "USD",
+        "date": "2025-05-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1817275/000181727525000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://stationa.com/",
+      "https://www.sec.gov/Archives/edgar/data/1817275/000181727520000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1817275/000181727523000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1817275/000181727525000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 13486322.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-30",
+    "total_raised": 16911321,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tado GmbH",
@@ -1232,7 +1278,25 @@
     "everywhere_tags": [],
     "primary_investor": "Future Energy Ventures",
     "source_url": "https://fev.vc/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.250143+00:00"
+    "scraped_at": "2026-10-20T21:22:39.250143+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://teraki.com/",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0lMYXpDUGVlZXhpX1ZpNXoxbERVUWNieDVRQ29XTkNxdTFZT29wX0llcE4wT2JrOXRmTU1PTkFVNFZQd3B6MFdmenJGNnBtZmhnUGpCYTYwYktnS2hLeVZsQ1Q4elJ4cDIxOW1GVkFVVkZyaXpjX3lyZE41aWktUVdTa3E3aV81QlpxSklTenNfZm1IWTNFMzhKUTBzOXdWVEdsSmEtaUhEWjN6cU04d2lhRTB0ZmJGUW9ZUmZlWU1sRlkwWnlIVmt0TFRCZw?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMy1QN0N4c2pVLUtmWnhyZGl1b0dMVWU2UkRxUnRCZ3hKcGlHZFlWNDFvYjkxRWt1aG9qNUN6N0lfNEk0MmxfLUx4N0hPSXJZREQ4MXNXWktmX0pZalBXY2QxWkQwYmlHMGpHUlhkOVlNcHBRMVE?oc=5",
+      "https://infotechlead.com/tech/vc-funding-teraki-goodly-kyriba-cb4-spike-nodin-58072",
+      "https://www.newelectronics.co.uk/content/other/teraki-raises-11mn-to-meet-exploding-data-challenges"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Teralytics",

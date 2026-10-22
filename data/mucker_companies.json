@@ -2072,7 +2072,21 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/optimhire/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://optimhire.com/tools/ai-job-auto-applier"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ordermark",
@@ -2340,7 +2354,31 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/proto/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://proto.cx/about/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://proto.cx/",
+      "https://proto.cx/about/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "total_raised": null,
+    "total_raised_currency": null
   },
   {
     "company_name": "Proxima",
@@ -2356,7 +2394,33 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/proxima/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.proxima.ai/blog"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.proxima.ai/",
+      "https://www.proxima.ai/blog",
+      "https://www.proxima.ai/article/series-a"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PushPress",
@@ -2853,7 +2917,43 @@
     ],
     "primary_investor": "Mucker Capital",
     "source_url": "https://mucker.com/company/specright/",
-    "scraped_at": "2026-10-01T13:12:11.506375+00:00"
+    "scraped_at": "2026-10-01T13:12:11.506375+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 8800000.0,
+        "currency": "USD",
+        "date": "2019-04-29",
+        "investors": [],
+        "source_url": "https://www.specright.com/press-releases/specright-raises-8-8-million-to-advance-supply-chain-software/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2021-07-13",
+        "investors": [],
+        "source_url": "https://www.specright.com/press-releases/specright-raises-30-million-series-b-to-support-explosive-growth/",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.specright.com/",
+      "https://www.specright.com/press-releases/specright-raises-30-million-series-b-to-support-explosive-growth/",
+      "https://www.specright.com/press-releases/specright-raises-8-8-million-to-advance-supply-chain-software/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-13",
+    "total_raised": 38800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Surefyre",

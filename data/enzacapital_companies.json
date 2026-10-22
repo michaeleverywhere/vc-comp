@@ -304,10 +304,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.gigmile.com/"
+      "https://www.gigmile.com/",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaUNsYjV4Z0p1MWVjX29UWEFwSWZLdl83WUJDSHRDdDN5azNDQV9UVXdxOW9OaHRkdWpuY3JOUnhONUpJbWZjVWxvVC03dGVKZTNNQkMyV3RiZEFRZXVCcXBickJLeGVCMmtNUWk1cmNWekRmOGo1YThIdzRTVjVqNW5FdDlfbkNEal9BUWZKZnowa1QzWW03RE4xTWdveUJPV0RxUmQyd04xaGtZWDBFUEkwWEdxVk5DbncxVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQckxHX2Z5Z2piU28wRTdaTjlkRDNWN0xFYS1PTlRXZ3lQb2c5RnN4SFlGdmxMY2xDRzVuRF9xdloyc1lhbnMxaFBtdE9EbkRJWmpfMjQ5dWl6a0xJaTh4TnJ0Ukx5SEl6XzRTdWhoOGh1ejBkQW83YlJnaFB2a2NNMVIzckxWS2F0SDFfTmt4aTlsN0h6YzJRQUVPM0ljWjhoU2N2MlVYUDVQT01qQXpUYk15ZEpPZ1k3dzRfY0JERHF3WllXOEZteA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -642,7 +644,19 @@
     ],
     "primary_investor": "Enza Capital",
     "source_url": "https://enza.capital/portfolio",
-    "scraped_at": "2026-10-20T21:21:10.787194+00:00"
+    "scraped_at": "2026-10-20T21:21:10.787194+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Quro",
@@ -805,7 +819,74 @@
     "everywhere_tags": [],
     "primary_investor": "Enza Capital",
     "source_url": "https://enza.capital/portfolio",
-    "scraped_at": "2026-10-20T21:21:10.787194+00:00"
+    "scraped_at": "2026-10-20T21:21:10.787194+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 780000.0,
+        "currency": "USD",
+        "date": "2015-02-02",
+        "investors": [],
+        "source_url": "https://gotugende.com/tugende-secures-usd-780k-to-fill-ugandas-roads-with-motorcycle-taxi-drivers/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 6300000.0,
+        "currency": "USD",
+        "date": "2020-10-05",
+        "investors": [],
+        "source_url": "https://gotugende.com/tugende-closes-6-3m-toyota-tsusho-backed-series-a-investment-round/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3600000.0,
+        "currency": "USD",
+        "date": "2021-03-31",
+        "investors": [],
+        "source_url": "https://gotugende.com/tugende-secures-3-6m-fresh-equity-from-partech-and-enza-to-help-meet-intense-demand-for-productive-asset-finance/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Debt financing",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": "2021-12-20",
+        "investors": [],
+        "source_url": "https://gotugende.com/ending-2021-strong-tugende-closes-17m-in-additional-debt-investment/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": "2022-06-16",
+        "investors": [],
+        "source_url": "https://gotugende.com/tugende-raises-pre-series-b-round-with-current-new-investors-including-womens-world-banking/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://gotugende.com/",
+      "https://gotugende.com/news/",
+      "https://gotugende.com/tugende-raises-pre-series-b-round-with-current-new-investors-including-womens-world-banking/",
+      "https://gotugende.com/tugende-closes-6-3m-toyota-tsusho-backed-series-a-investment-round/",
+      "https://gotugende.com/ending-2021-strong-tugende-closes-17m-in-additional-debt-investment/",
+      "https://gotugende.com/tugende-secures-3-6m-fresh-equity-from-partech-and-enza-to-help-meet-intense-demand-for-productive-asset-finance/",
+      "https://gotugende.com/tugende-secures-usd-780k-to-fill-ugandas-roads-with-motorcycle-taxi-drivers/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2022-06-16",
+    "total_raised": 10680000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Turaco",

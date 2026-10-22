@@ -1226,7 +1226,80 @@
     "everywhere_tags": [],
     "primary_investor": "Akkadian Ventures",
     "source_url": "https://akkadian.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.927871+00:00"
+    "scraped_at": "2026-10-17T21:11:02.927871+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1000.0,
+        "currency": "USD",
+        "date": "2015-10-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655741/000165574115000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 200.0,
+        "currency": "USD",
+        "date": "2016-02-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655741/000165574116000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1049978.0,
+        "currency": "USD",
+        "date": "2016-03-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655741/000165574117000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5026653.0,
+        "currency": "USD",
+        "date": "2017-04-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1655741/000167824417000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Zeev Ventures"
+        ],
+        "investors": [
+          "Zeev Ventures"
+        ],
+        "source_url": "https://reali.com/press"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://reali.com/",
+      "https://reali.com/press",
+      "https://www.sec.gov/Archives/edgar/data/1655741/000165574115000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1655741/000165574116000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1655741/000165574117000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1655741/000167824417000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5026653.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-04-13",
+    "total_raised": 256077831,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Zeev Ventures"
+    ]
   },
   {
     "company_name": "Reputation",
@@ -1307,7 +1380,23 @@
     ],
     "primary_investor": "Akkadian Ventures",
     "source_url": "https://akkadian.vc/portfolio",
-    "scraped_at": "2026-10-17T21:11:02.927871+00:00"
+    "scraped_at": "2026-10-17T21:11:02.927871+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.microsoft.com/en-us/security/business/solutions/integrated-security-operations-center",
+      "https://www.eweek.com/security/riskiq-raises-30.5-million-in-series-c-funding-to-support-future-growth/",
+      "https://venturebeat.com/security/riskiq-funding/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Roofstock",

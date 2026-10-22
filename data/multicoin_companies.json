@@ -3390,7 +3390,21 @@
     ],
     "primary_investor": "Multicoin Capital",
     "source_url": "https://multicoin.capital/portfolio",
-    "scraped_at": "2026-10-16T13:29:14.249118+00:00"
+    "scraped_at": "2026-10-16T13:29:14.249118+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pipe.network/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Portals",
@@ -3546,7 +3560,43 @@
     ],
     "primary_investor": "Multicoin Capital",
     "source_url": "https://multicoin.capital/portfolio",
-    "scraped_at": "2026-10-16T13:29:14.249118+00:00"
+    "scraped_at": "2026-10-16T13:29:14.249118+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 145360.0,
+        "currency": "USD",
+        "date": "2022-03-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1919444/000191944422000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7500000.0,
+        "currency": "USD",
+        "date": "2022-05-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1919444/000191944422000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://quadrata.com/",
+      "https://www.sec.gov/Archives/edgar/data/1919444/000191944422000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1919444/000191944422000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 7500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-17",
+    "total_raised": 7645360,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "RabbitX",
@@ -3715,7 +3765,21 @@
     ],
     "primary_investor": "Multicoin Capital",
     "source_url": "https://multicoin.capital/portfolio",
-    "scraped_at": "2026-10-16T13:29:14.249118+00:00"
+    "scraped_at": "2026-10-16T13:29:14.249118+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://saffron.finance/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Salad Ventures",
@@ -4693,20 +4757,36 @@
     "primary_investor": "Multicoin Capital",
     "source_url": "https://multicoin.capital/portfolio",
     "scraped_at": "2026-10-16T13:29:14.249118+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 225000000.0,
+        "currency": "USD",
+        "date": "2023-11-30",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/cross-chain-protocol-wormhole-raises-045420571.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://wormhole.com/"
+      "https://wormhole.com/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMW9LZnZfcGllUHNadkR0LTdqR0VXLW54SElWeTFwWl9hOE9TRFVkZmVDVjBQVmNwWVU4UlhsR1J1eHJCYkI1X3NVMVJFV181amhZS19nR1pfWEhzRnVhVmZSc3lMYUxjdVRFbzhLVHItWE5NQWJBY3NSLW9KU1pKVDJNNm9MYnl2M3RURWIyMFRRR2RvUHBiTnM5M1JBS09NY3Y0UlF6X0xVZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXo1N3IyZEx3WTVtbkhXM2NtUHBwcFZvOUdZb3FtcVd5RUlVaVoxX3pqc0taaFJsa0JqVmxHcTl4NndmZDRXcVN4enRPWXhieWN4dWdpNEdGcVpPLUxydVludExyZldMeW5XM0lldnFnUWdPdUJQUVkyQ2xqQzRhM3VreEItOEM2aWtDSENIRXpUYkZPOC1xYzhsSU5HWXBOMlVHSV9QY0ZWWWpQb2JUaXBZX0gya3c?oc=5",
+      "https://finance.yahoo.com/news/cross-chain-protocol-wormhole-raises-045420571.html",
+      "https://finance.yahoo.com/news/wormhole-raises-225-million-2-140000498.html",
+      "https://cointelegraph.com/news/wormhole-raises-225-million-2-5-billion-valuation"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 225000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 225000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-11-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Yield.xyz",
@@ -4739,21 +4819,39 @@
     "primary_investor": "Multicoin Capital",
     "source_url": "https://multicoin.capital/portfolio",
     "scraped_at": "2026-10-16T13:29:14.249118+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 57000000.0,
+        "currency": "USD",
+        "date": "2025-06-25",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2025/zama-raises-57-million-for-end-to-end-encryption-solution-for-blockchains/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.zama.org/",
-      "https://www.britannica.com/event/Battle-of-Zama-Roman-Carthaginian-history"
+      "https://www.britannica.com/event/Battle-of-Zama-Roman-Carthaginian-history",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcjJvUnE4R1Rla2JqMnVXVDd3RDZlWW9HU0pINVZjX1ZRNnQtdExUeTFmUGpIREpTMDFxLVZ6THpUZGhMRFlkSnZ6YlY3Y0NEQnVEcF81Y3ZhNlB6eXNuUk9SWm5DZlZyWU40ZVA4V1lHVWduemt2NVVRQ2VUNElNZnlaTTcteVdLdGp2VzE2VFRKTmpWemd5VDVqeXI5TkNpRE1aeWhNX2hhWU9vVlV5RWpUT1ZRS0tZbVhRMDJxY3kxNzda?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc29yanZuZ08xZEV4cjB1LS1lV1pmSThZaE4wcEJYSUluMnRaYXphNUR6WkJyeXdESFR0QnZSd0tUQUFwZDlKdWd6ejhpOEhjVmFzdFFBanI3dm5sWUVURGRXblZyeVBxTmVYaUtHRmwwZWxxYWhVd25RakdZT0hFQW5HdzE?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbk5xeEFNLVFpa2M5d2xiSDN1MnB3SUdMZTZWVTdNcEQ3TmdCNTVOWmlsVGV4YlY4YVNxT3J5c2p1NVZqVzF6QjdmMzZUUXFQdUJYSjlEUndfaG9RVVBnd0xwYmJCeXhTaW9ZYnV5dk9sd3ZwVEpodGt6d1RyWkJ0cWFRbXIyOVFNM2ZyMThBd3JuTmduSlhtag?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVTFuM2ZyRGhHN3NLSGxyRUhKZEZ3WUxqdUFObDJIM2RhUDFPRE9Wa0RrbG4tX2Z2U3owdTk0bTk4NWppb1pJaU1TeWY5SmZxeDgySXZSYkNaQktOLW9uWXNyQTZtU0RnTDRsN1dfdWttWjJrckJGZDc1TkhNcm9mc3FyYWFlMkhrMlh4T1dVa0ZXSzNnc0JZcklYMHMxN3phZE1YYzlyNTBGd3VQSXZveg?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbC1aWmZEMmM3c2NkYkRJQmJQQzFMcFdVLXpaejhtaTUyajAzSV9lcWw4cDJjM2tja241eFVORWJyM3V6ckdPVFRyc05BR2kyTktENEdKNXdzaXVwRjNvR2VqRTdGa1QwRGF6TWI3WXlVQkc3bkY3b01jMGxWeUJ3YUY3Sk41ZlFSdW9UVjZ2SzJOVlk2Tlg2eHBoVDlLVE5YM25qVTNYN2R1Y3pEMGk5X0ZZQXNUcVc0emFsbUgwNnZBUjNzUmhFRUR2YmhaYmg5X2VZ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUVmWG82UUp6bXlUbzVKcXVHVzRtajAxdFBPLXRRWDZHZW9iQnpwdURWWi0wcW82RzBtOWVWRFZMSGlnNG5fMXo4bzZqdGJWQVhIbFRmWDhnNDREQlVhcWVESHBjOWFYN2RfSndyek43SzZlTGRRU1lvY0p4V05SelBpZk82Z1JaWWV4aGh3a3hLR21FTGxaZXlOT2M4aE1pN19SSWdXTWc?oc=5",
+      "https://www.pymnts.com/news/investment-tracker/2025/zama-raises-57-million-for-end-to-end-encryption-solution-for-blockchains/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 57000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 57000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-25",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "zkMe",

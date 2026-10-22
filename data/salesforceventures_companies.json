@@ -3529,10 +3529,16 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://autogenai.com/"
+      "https://autogenai.com/",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOW5CNnYtMG9DbVdRZGdzdGY5Y0xhMGZkcXR5X2s3VzJMb0lmclFDN3RMY2NRZ2doR013dHNrTnhGUXBoZlpBN0p2MlJpVzcxeFB6UzZxemUzeHIwM1loaXNZeTcwTmdCcW1tU0dtS0hOU3ozam9oTWp4RHdrMzQyT2s1QkdZMzJXNkhuRzMwdko3dEQ1aFJnZUl2ZGRMZW44eURBclNQN1Q4QWMyOUtBb29QanE0UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOW9PNHc3c090aHBCN2FtaV9pMTNEUVBvUlNWOENaLUw3TUl0NjJEcXozOEZCQTM5aDZIMUwyNGdIckUwd3RKTE0xTVhjOGxicWlhMkNtUW9QNGJ6TDRtcFFIeC1oMjdxbldkeWFicW1oeXp0d0pZemdyeVE5eXVWNEZ6NmZhU19UVzBHWlNGaEltSk9uRFoyNjZkeTFEV2NfMVlOSWlITzJEZUJEWGlYNzdEMTJXNFFIamJ5X0tHbTc3aFN2?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb2JOU0tMNzk1ZWlLclZqUENHSHV0Zko3NllzSmcxbHJoLXFETks3bVRoMjdic015OHlKdzdFM0xocHBla2hNemV6NmZGWmItZ2NrVFFRNDJNc3hNZ2x2aUZiWENTQXRaRHc4X1gySDVmSy1kQkFodl92d0xheXc4Zll1LXpRZTNtQjlmVWNvRm9VcDlxWlJzS3JKZzlpVXlfMjJIVDdKRjh5TENVZDVfbkpaSklmeGdmVXpSYXpkMEVaV1lvUGJrRzFHajA5R0hFSXRiUA?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQjl3UFEwRzVzZ3BHa2x1RGdCR0xyeHBWRlNlZm5xOVF1YmhCaWZOU3VWdGtPWnBSZmJ6bVRhejJ0dEtITFpBSUFwZGt4WVFwWldVZ2FSZzk4dFljRU5kdkhBLVFUdGdQbWc4NEc2eGJHMTFIdVRma3M0RXVZRU5jZHZqTmZTUm5BeS1LSVI2dU01S1ZUT3luSG5KMlNjTklYaGJqaVVWUk85VEd6dy1aNEdfVVB5b2tqUnEtM01JeUl1LTV0VXJHN3lRNHExQQ?oc=5",
+      "https://finance.yahoo.com/news/london-ai-firm-autogen-raises-143836196.html",
+      "https://www.standard.co.uk/business/london-ai-firm-autogen-raises-22-3-million-transform-procurement-with-generative-ai-b1097196.html?itm_source=Internal&itm_channel=homepage_banner&itm_campaign=breaking-news-ticker"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -4163,7 +4169,33 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/primer/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2026-01-07",
+        "investors": [],
+        "source_url": "https://www.sayprimer.com/blog/announcing-12m-series-a-fundraise",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sayprimer.com/",
+      "https://www.sayprimer.com/blog/announcing-12m-series-a-fundraise"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-07",
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Poised",
@@ -4188,7 +4220,32 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/poised/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://poised.com/about-us"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://poised.com/",
+      "https://poised.com/about-us"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 4500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Superside",
@@ -9429,7 +9486,40 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/refundid/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Afterpay-backed AP Ventures"
+        ],
+        "investors": [
+          "Afterpay-backed AP Ventures"
+        ],
+        "source_url": "https://refundid.com/about-us"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://refundid.com/",
+      "https://refundid.com/about-us"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Afterpay-backed AP Ventures"
+    ]
   },
   {
     "company_name": "8Squad",
@@ -16896,7 +16986,63 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/starburst/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-01-06",
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "investors": [
+          "Andreessen Horowitz",
+          "Salesforce Ventures"
+        ],
+        "source_url": "https://www.starburst.io/blog/unicorn-valuation-workhorse-values-part-2-of-our-series-c-announcement/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series D",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.starburst.io/blog/starburst-announces-250m-series-d/"
+      },
+      {
+        "stage": "Series B",
+        "amount": 42000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.starburst.io/blog/starburst-announces-42-million-series-b/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.starburst.io/",
+      "https://www.starburst.io/blog/",
+      "https://www.starburst.io/blog/starburst-announces-250m-series-d/",
+      "https://www.starburst.io/blog/unicorn-valuation-workhorse-values-part-2-of-our-series-c-announcement/",
+      "https://www.starburst.io/blog/starburst-announces-100m-series-c-led-by-andreessen-horowitz/",
+      "https://www.starburst.io/blog/starburst-announces-42-million-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-01-06",
+    "total_raised": 392000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Andreessen Horowitz",
+      "Salesforce Ventures"
+    ]
   },
   {
     "company_name": "Soul Machines",
@@ -17491,7 +17637,22 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/resilinc/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNGNVEtMWF5YXJjVDNmOEtvcUMwMmZzS1d1MS10SVJ1a3NMaWZSYnpvUlBocjlUQ0xGVXk4b2pUanVMdm1nc3RJa2xpTDRhSnNnOWxQWmtzcFpsaGVjUmdEM1BwMjQyX1N4aWY4NnJVSVNDUkxsVE0tTnVMdHNURVVQVUJNTnlFZU0yS3VKcEJWbTZPNldBc1lYYkxFTzdXZ1lsN0NXRWZUQkRTSF92VDZDZGVLcExlazdwN3dNaGlEUmI5MDgzaUVLV0tKcnVXbS0xSmxDYjRZcVE0?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUeEl4RXhnMXpuaDJsOUZwbTYzRHRXWGs5MGZ3OE1VUjFTZnQ5cThTWlpUT2dCWVV6cUE0bVJBUkRENkREZnFkSENxdHZObGFTTFB2Q0dxNzdzc2hESkJoWjdzSDFxSHF6aFY0OU41MkJvX1ZEUjI0?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Replicant",
@@ -17681,7 +17842,21 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/pymetrics/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://venturebeat.com/entrepreneur/pymetrics-raises-8-million-for-job-matching-with-ai-and-neuroscience-games/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Propel Software Solutions, Inc.",
@@ -23792,7 +23967,34 @@
     "primary_investor": "Salesforce Ventures",
     "profile_url": "https://salesforceventures.com/companies/squirro/",
     "source_url": "https://salesforceventures.com/portfolio/",
-    "scraped_at": "2026-10-10T13:37:48.710800+00:00"
+    "scraped_at": "2026-10-10T13:37:48.710800+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2017-07-07",
+        "investors": [],
+        "source_url": "https://squirro.com/squirro-blog/squirro-completes-financing-round-10-million-led-orange-growth-capital",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://squirro.com/",
+      "https://squirro.com/squirro-blog/squirro-completes-financing-round-10-million-led-orange-growth-capital",
+      "https://squirro.com/news-and-events/news/squirro-completes-financing-round-of-10-million-led-by-orange-growth-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-07-07",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Spenmo",

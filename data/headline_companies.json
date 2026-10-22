@@ -2431,7 +2431,21 @@
     ],
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
-    "scraped_at": "2026-10-06T13:31:30.371093+00:00"
+    "scraped_at": "2026-10-06T13:31:30.371093+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.rdstation.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Olist",
@@ -5445,7 +5459,21 @@
     ],
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
-    "scraped_at": "2026-10-06T13:31:30.371093+00:00"
+    "scraped_at": "2026-10-06T13:31:30.371093+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.passeidireto.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Shopmonkey",
@@ -7759,7 +7787,33 @@
     ],
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
-    "scraped_at": "2026-10-06T13:31:30.371093+00:00"
+    "scraped_at": "2026-10-06T13:31:30.371093+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.rob.co/en-us/resources/news/press/robco-series-c"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.rob.co/en-us",
+      "https://www.rob.co/en-us/resources/news/press/robco-series-c",
+      "https://www.rob.co/resources/news/press/robco-series-c"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stotles",
@@ -8057,18 +8111,31 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2017-09-28",
+        "investors": [],
+        "source_url": "https://www.finextra.com/pressarticle/70893/regtech-startup-apiax-secures-15-million-in-seed-funding",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.finextra.com/pressarticle/70893/regtech-startup-apiax-secures-15-million-in-seed-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-28",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Attio",
@@ -8365,10 +8432,16 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.firstaml.com/"
+      "https://www.firstaml.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVJRZVBhOEJoUW41UEdUeUFIZXByazMwblRPYmZBUWZ3ZWVjRVZpR2Z2aU81M1huaTVFWWk2d0N1NW41ckl4UWwwZjVVMGExOWs4SEJxVWV4ZzlZaXYtSGQ2ZkowQXZuVER2WS16MWliaHNFMjdyTG55aFhlZWZfd3R2VQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVDlmZXFpOFJ6aTFsNlpXcWVtX09DdjFoVTFqQkpORlFuVGJpUG1pa1F3Y1RxS0ZZNEFGaXI2cklDeGJFWE9jZHlmdUxzRjhwcHJ1MktlRHc4bGVvRFh4YkpWWjJYc1VrSTBYd2ZxdE5YdVpCXy1JQW1HWGJyaG0tV1VRM1c3YlhndFdLUkdLSDk3cUp4TVRnWU5vTndVaDRhTlB6OWw3dUlIbHNZZGdLTi0zUnYtY2dNTzZzQV9aWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV3FvTHRsY0UwNVBHbHY4Z0FQWGp0UXpUV3dELWcwTndWZEk5dkZvUjZkX2w3Y1RmX01qUzZLclFDR2dBbnNFTEU3N05QbkpFb3JwV0ZHaWJHeWlwZVNmUWJiRVBPQjQ0OEtRdnR6SXMwUW93WHRIUEhxUm1oY1FWQV9fTlRCbzY0?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVDkzY3gtU2pHVThfb0p6M2V2SFFiNlBuOF9tc3otTHlYM05RS0NabUM1czRFdkNsSGJiYjdmYW96ZmZhWHB5MWNLQlRFT0dmNkxYNmQtVlpIbHV4Yzc3RGNKbkZmVTZSZVd4SjZYc2htRU5fZWE2ZG55UVpweDNESnA3c0ZZM3pNMW5oTWZCQkpZaWdZQkRfN2JtbWtYRjdWS1B1YzN3bFFkYkNmYlhBTFRUZw?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmRnNGJSUkJpNG5XUDhJSEVzZ1hjTkd1WnpBZWxmWUhfRGlMYklYdmFwT0EwbFd5ZkJTcFl1YmpKX3NtX1NXdkdhMEdRTHVEaUJ5dC1fUnd2cHRZX0d0ZUJDMzVpZXFWUjRVUVYtV1VIbWxFdmdXUHR5d281SjhpbmthUGxKQmZIV3JHbXFQOF9fckFZaGZfaGJJRHN2Z0MwQmp0TF9KQnhoS3ZqQXc?oc=5",
+      "https://www.businesswire.com/news/home/20211101005460/en/First-AML-Raises-$21-Million-in-Series-B-Funding-to-Replace-Businesses-Due-Diligence-Stack"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,

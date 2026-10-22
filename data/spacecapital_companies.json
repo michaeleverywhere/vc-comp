@@ -2481,7 +2481,33 @@
     ],
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
-    "scraped_at": "2026-10-14T13:22:00.412345+00:00"
+    "scraped_at": "2026-10-14T13:22:00.412345+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 12337241.0,
+        "currency": "USD",
+        "date": "2024-02-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1832095/000183209524000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.roadio.ai/",
+      "https://www.sec.gov/Archives/edgar/data/1832095/000183209524000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 12337241.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-14",
+    "total_raised": 12337241,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rocket Lab",
@@ -2695,7 +2721,24 @@
     ],
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
-    "scraped_at": "2026-10-14T13:22:00.412345+00:00"
+    "scraped_at": "2026-10-14T13:22:00.412345+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://speqtralquantum.com/",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEhwVXZldmhBNUdJMWdodS01RW9nTldtYlBMSkNfSTIzUkluU0Fnczc4ekhIcjZ4ZE1LSHZFRHBOdEUzb0VqNWx2cEVhdWpIdjlTUThkZVJaUVF0VW84LU8wdHRObXk2dkN6X3drTlRLUWF0VEtKbWROblpfSHk0SjByTUJ1ZmpjUzQwd3VneDZCbXR6dGxPMXg0MnZCejdnS3hTc2thejlxQ2xhaFhKSEdRQkpPaXhBdndvVzdwZ3Jmeks3ZXNMUVdTMUd6ZEE?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wcFNQc1hHSENJalRnT0RDV05sNU42bC12M1FVMGZFVm5rU18xVkVOaVVMNXlhT2xUVndhQktEYmg4Y3gtbGVkalo1czJNbGlfMTdvellYQlh6RFRjNFNacDlOcU4tSDhXb2VNOGZfWko?oc=5",
+      "https://www.businesstimes.com.sg/startups-tech/startups/spacetech-startup-speqtral-secures-us8.3m-in-funding-round-led-by-temasek-unit"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Threaded",

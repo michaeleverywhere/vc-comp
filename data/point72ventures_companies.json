@@ -2822,10 +2822,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://focal.systems/"
+      "https://focal.systems/",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQY1ZYX3VZN1NVc2xOeEZKV21NMTFuUmd5QU5iSkJHSmswS3N1VkNTRjVuMUFlTnhHOVRnLWNmS0RxeVdkVWMxRXpWMWVFUFZXckRhbTg0OWdFWGIwdnlBOHF6Z0NEMFE4emFtM3NMalJ1Z0c0T3hoMFBHSHYwX1g3VDVyc3l4T2JCU2ZzOTFSTTNEdk5rVXhFYlphZ2Q1U1JWSWxwTmRnaEcxeTk3WDlURExwRkw2aGpQWU51YzBpY0xkQ3NyNGl2ZVR3?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -5009,7 +5010,42 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2638666.0,
+        "currency": "USD",
+        "date": "2020-08-26",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1831786/000183178620000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15999999.0,
+        "currency": "USD",
+        "date": "2021-04-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1831786/000183178621000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1831786/000183178620000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1831786/000183178621000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 15999999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-04-16",
+    "total_raised": 18638665,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ProjectDiscovery",
@@ -5412,7 +5448,19 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Rivet Industries",
@@ -5488,7 +5536,42 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4706218.0,
+        "currency": "USD",
+        "date": "2015-07-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1648681/000164868115000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 24999991.0,
+        "currency": "USD",
+        "date": "2017-11-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1648681/000164868118000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1648681/000164868115000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1648681/000164868118000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 24999991.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-11-08",
+    "total_raised": 29706209,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rune",
@@ -6209,7 +6292,35 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2022-01-11",
+        "investors": [],
+        "source_url": "https://www.bizjournals.com/sanfrancisco/news/2022/01/11/construction-tech-startup-supplyhound.html",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT29mWWZ2dlIwTGh6RnFvYWFXQW9SNDVFcXFYRnQwbzlPa0RWNVhDdkxjU0dfRTlqaFl4RHo0MmI3ZUFvN1VneHFRR2pCU3VtVzQ4MnhuemR1U09yUnFELUt6ZE9zUkxxcUZER2NkdUF0SmlRYlQtS3U2U3U1TVRaTUUwcWEweUFnVmFjbzFRTlo1cGNCcVRXdm5hbVEwNjRDdUhMakFNRlViakNTQlZFSXBxVlBibV9QTTlZS05JRmtLUHFWdVp1N0JDT2xqd095?oc=5",
+      "https://www.prnewswire.com/news-releases/supplyhound-raises-2-5-million-in-seed-funding-from-point72-ventures-and-others-301459238.html",
+      "https://www.bizjournals.com/sanfrancisco/news/2022/01/11/construction-tech-startup-supplyhound.html",
+      "https://www.streetinsider.com/PRNewswire/SupplyHound+Raises+%242.5+Million+in+Seed+Funding+from+Point72+Ventures+and+others/19452982.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-01-11",
+    "total_raised": 2500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Swapp",
@@ -6230,7 +6341,25 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://swapp.ai/",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jdUhjWUJJY2J3dDI1T2FTakljQWZvQzc5OFVOQkdFZnl6bnE4TVhMLXRwck1mN2dJaGJVc205aFBBcDhReXpiN3VqbXd6YzA4RlZhaFp0aWcxUmloTDQxSTkwLVFKc00?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaUhXMEprY1VjYnVTWE8zOXY3d1htWFFsNWZZaUVEcW15UDdfc3o3YWpTcV9UNFpFa09iTDRsakNkWThicHRfcnhvUjJOWTZzX1NyRlotUlpFOGl4THAzeHFhMjl3eTlCU0t3RUE4c3R2M1o4WWp2UUh5VFhmUU1DNGp4V3hnbFdrWW5tSGVsbFgxYWgyLUxqSjRNcGNPVjlRMHBSY01nZ3QxRHU2WDRfSi0yaGtoZjBRb1VERFpHMWNEMzNzbTBiQXJKbHR3Yk9ScEE?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CbUpscDdDZlpnTExYSjJpY056cnVoaHNBUGNnOXVOUWFabEJYZlUtY3pOX2xYcDcyMHc5M1AzSEZwdFJFNl93MG1CeF80Q3k2RjZueW9ITGdfMElseloyMlNlS2t6a2RXZGVMVC1iLUZ1OVVTZXJr?oc=5",
+      "https://venturebeat.com/ai/swapp-raises-7-million-to-automate-construction-planning-with-ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Syncfy",
@@ -6251,7 +6380,33 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2022-12-11",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2022/latam-open-finance-platform-syncfy-raises-10m-in-seed-round/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://syncfy.com/",
+      "https://www.pymnts.com/news/investment-tracker/2022/latam-open-finance-platform-syncfy-raises-10m-in-seed-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-12-11",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Syntracts",
@@ -6319,7 +6474,43 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3530000.0,
+        "currency": "USD",
+        "date": "2025-02-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2060063/000206006325000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999986.0,
+        "currency": "USD",
+        "date": "2025-11-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2060063/000206006325000003/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://talemonster.games/",
+      "https://www.sec.gov/Archives/edgar/data/2060063/000206006325000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2060063/000206006325000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 29999986.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-17",
+    "total_raised": 33529986,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tektonic",
@@ -6553,7 +6744,32 @@
     ],
     "primary_investor": "Point72 Ventures",
     "source_url": "https://p72.vc/portfolio/",
-    "scraped_at": "2026-10-14T13:16:47.665273+00:00"
+    "scraped_at": "2026-10-14T13:16:47.665273+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 13500000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.tradeledger.io/resources/trade-ledger-raises-ps13-5-million-in-series-a-funding"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tradeledger.io/",
+      "https://www.tradeledger.io/resources/trade-ledger-raises-ps13-5-million-in-series-a-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 13500000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "total_raised": 13500000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TradeIt",
