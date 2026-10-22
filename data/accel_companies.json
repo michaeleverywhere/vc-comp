@@ -1025,7 +1025,19 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "VMWare",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Airbyte",
@@ -2831,20 +2843,45 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmVUTkV6OUJoTkhRVjB5M2tjYl9qT05pZVlKZTZUaVNBWVc0TkFhSWZuTFJLajdYSldENmt3LXpKenFnMUpudDM4U2h6LUEzTmI4V0JMNEh4djVYOHZQTUlIMzB3WVdsWTZHbGluLWNHdjgtQ05FcjR2Z293YWY3b3pMRjVoYU9jc3h6N3o5YjVDNXB6THZ3T18wRktPZTZtRWd6aUhGbjFBN19vbmN6SHNyZjFHVFdtT3hlY2hvUGFmeE9r0gHKAUFVX3lxTE5ZWUxmNVdwbnlfd0V4X3RTOTNFRkdnUVJBeVVXaFdXNHdsU2tDNWtqamRKSUx0cU5YUkd2d1JmM0JrQmRpejZVU2FlenM3dWt0RFBhQlRWQno0eE83eHpVMjN2czZvRm1rRk1FZ09EaUo0UFFSbkVqeVE5TWozS2JYOHpEZmZFcFhvUGFEc1I2ajh5UW5Ocmc4ZmVzZEJtTFBpSjRLMWZ0RkNPRnV1b2V3S3Yyb1UtQ0lqSV9SUzBJQnVfbjIwWTB2NVE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdG9xT3d5ZWRsbjlaRXdobV9Gd2RLenNmSU5RTTBTZ2N4anVab01TajlzeUJlTFZ3ckFaWV9oTU1MdndUbUIzSG01TTdOakJyTkhPdXJ2M3daT3F0emZNSlJmMC1iMjJXUzk1eDVyMkdVOEhLX0pJQVU0WUJCLUZKRk5pSUJBZ3p4N0hnV0xiMnpNeXMxbXc?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.arrakistechnologies.ai/"
+      "https://www.arrakistechnologies.ai/",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4RUNVUWVGcVJPTzFXT2JUTE5NMDJ3bGwzOTJ2SE9XTlV6N05MSEd3ZVdTVkVEYTVka0lDVUxkX2pWSFBPUkZBdnFtZTAtcE1YS1FyY0RkMHBkMW5HT2ZuUHZIZUptVzNCRk5kblJJLUh2S3VRUHh0dWFjUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uWHlJc3VTZW9oaFRhRElSWS1zVTZIb3FjenA3VHJNa1psUTRsVjFobTc0ZUdLR09wUFFoS1o5RUFCTWNGYkFxcXg4Zm9sd3g0SnR1VXpMV3UyaHFrXzVVQkx1MmIyM1hBeVY0dldoNjAxT2l5Z3ZHcFVhUjVRZw?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdG9xT3d5ZWRsbjlaRXdobV9Gd2RLenNmSU5RTTBTZ2N4anVab01TajlzeUJlTFZ3ckFaWV9oTU1MdndUbUIzSG01TTdOakJyTkhPdXJ2M3daT3F0emZNSlJmMC1iMjJXUzk1eDVyMkdVOEhLX0pJQVU0WUJCLUZKRk5pSUJBZ3p4N0hnV0xiMnpNeXMxbXc?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSEMtc3EtbVdQa2UtSWE0dVJ0cmplMC1wRTBzMi0wbDEzZlVIb0pJdjJMd1dyTGhCRzhFQXFyMmxYQjVhQkpCdU9IUVlpTlFlZk1KVG9rQnpEU0pZSnFPakU2QVIybVpmb3U2cmRLVndVb28tUTF0ay0wNEhoWkJOdnk2OXZ5RnBzMFFCR1hnNElqVUxTN2NF0gGXAUFVX3lxTFBIQy1zcS1tV1BrZS1JYTR1UnRyamUwLXBFMHMyLTBsMTNmVUhvSkl2Mkx3V3JMaEJHOEVBcXIybFhCNWFCSkJ1T0hRWWlOUWVmTUpUb2tCekRTSllKcU9qRTZBUjJtWmZvdTZyZEtWd1Vvby1RMXRrLTA0SGhaQk52eTY5dnlGcHMwUUJHWGc0SWpVTFM3Y0U?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmVUTkV6OUJoTkhRVjB5M2tjYl9qT05pZVlKZTZUaVNBWVc0TkFhSWZuTFJLajdYSldENmt3LXpKenFnMUpudDM4U2h6LUEzTmI4V0JMNEh4djVYOHZQTUlIMzB3WVdsWTZHbGluLWNHdjgtQ05FcjR2Z293YWY3b3pMRjVoYU9jc3h6N3o5YjVDNXB6THZ3T18wRktPZTZtRWd6aUhGbjFBN19vbmN6SHNyZjFHVFdtT3hlY2hvUGFmeE9r0gHKAUFVX3lxTE5ZWUxmNVdwbnlfd0V4X3RTOTNFRkdnUVJBeVVXaFdXNHdsU2tDNWtqamRKSUx0cU5YUkd2d1JmM0JrQmRpejZVU2FlenM3dWt0RFBhQlRWQno0eE83eHpVMjN2czZvRm1rRk1FZ09EaUo0UFFSbkVqeVE5TWozS2JYOHpEZmZFcFhvUGFEc1I2ajh5UW5Ocmc4ZmVzZEJtTFBpSjRLMWZ0RkNPRnV1b2V3S3Yyb1UtQ0lqSV9SUzBJQnVfbjIwWTB2NVE?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanFvWlRfdm9HbWNGa0h5d2JoTjlmQ2NhSjRqS01uaFBjcTNRdThCZnZ1Rld5VGxhMFlZWlJxM3BUM0x6Tl93ZmRNNUMwQWlkUksyR2JENm9xd1lBYW83WlZxUzVab1VDSjQ2M1RYV0FJYVFVUzNMajViWk8xYWZGQVpSX2pTc1RXR1VtWWJNSTNmbmpLTS1hcmFkdUZMMmV2WklsRUVsSFlyMFh6N3RYbkQxY1RKdTU0MTF6MnRycw?oc=5",
+      "https://pulse2.com/arrakis-raises-30-million-series-a-to-expand-platform-for-deploying-ai-agents-across-industrial-operations/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 38000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ArrowPoint Communications",
