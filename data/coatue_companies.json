@@ -7655,7 +7655,19 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Jetify",
@@ -11919,20 +11931,33 @@
     "description": "A collection of powerful productivity tools all within an extendable launcher.",
     "primary_investor": "Coatue",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORkg0VzN1QTdMY2pSUm95bXk3ejZwYmxtV3RqRlgzR09NeVdVdDFvaDB6bHM1bVBPb3NwSzItWEN2MFlleTBNX1I1SEhxS01sdVhFNTB0aVJ0eTFlYWtvYVVDVklFaExoVzRJbGVENGdIV1NmRWtrQ2pmdVg1dHYySUZWeHl3d1g2OTRGTWtuTG56ZENNd19KX0QzZGc1bWZIYlVDN3ZMWkhRQQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.raycast.com/"
+      "https://www.raycast.com/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORkg0VzN1QTdMY2pSUm95bXk3ejZwYmxtV3RqRlgzR09NeVdVdDFvaDB6bHM1bVBPb3NwSzItWEN2MFlleTBNX1I1SEhxS01sdVhFNTB0aVJ0eTFlYWtvYVVDVklFaExoVzRJbGVENGdIV1NmRWtrQ2pmdVg1dHYySUZWeHl3d1g2OTRGTWtuTG56ZENNd19KX0QzZGc1bWZIYlVDN3ZMWkhRQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUU1WT0Raejh5cEVTXzdNejBuQWw0TG1VbzdqdUthT1pxZEpaME8zdElYb1Jua1cwcUhyc3BUOFZKdFI4NzROY3ZmS3VWSDh0NVRGWmtZM3g3Q1BYaVI4UnJtbmFfamc1VkphYzItLWRkRHRLeWc3LWZoS3dMQlM2QmtseFZRc2d4THg5UHRFWFhCb3E0V09jX0FyVE56Y1dkaFc3UlV0cjA2ekZKTGpDTDBEbEpSRkZBdlZXQXVQWWFoN3F5alBIWTdR?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWpWemdvcEpleFJkOTNSR2hZQm9PeEhXVjhFSFdGbHNvd2N3RGY5bXk3SlFkeE93M1dDVHJSdmt5UVBkN1dMd2RYcXM0Tk1iQ1p3NHk3WEp0QlpJZmNGcWtDNkJPaTB2bFlZQ1hGTGR2aVRTb3BOal9aN0doRENpVGVsTFlabUNRaV9GdnFJNFhoVTFRYjVRNDBYeFpBdw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rebel Foods",
@@ -16095,20 +16120,52 @@
     "description": "WisdomAI delivers agentic analytics and context-aware AI agents to automate data insights, transform enterprise analytics, and drive business outcomes with proactive, conversational tools.",
     "primary_investor": "Coatue",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2025-11-12",
+        "lead_investors": [
+          "Kleiner",
+          "Nvidia",
+          "Kleiner Perkins"
+        ],
+        "investors": [
+          "Kleiner",
+          "Nvidia",
+          "Kleiner Perkins"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/wisdomai-raises-50-million-to-lead-the-next-generation-of-ai-analytics-and-business-intelligence-302613280.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.wisdom.ai/"
+      "https://www.wisdom.ai/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGVFZllSYXY3UlNfYVNpek5PRUlfcnVCTWpBNGI1RFdYUHZTWGR4V1U3VFV2M2dDUFdieENwWTFWZTBWY25RVGlacXZBRHJPX2c2b0tuMzh3ckN2TEVJaDVlUGFQc2dYbWVCRG1WcjV2bmVHbVBLX0hsd1RtSkppR1RCTWUtMkFkOEZobnUzQWRJZ0U2THNBckZidTFnbGxqblpndC15RQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNTJ3STJrNlMtZTFqZ0VkeGZueDNMbzgxQ0VoRUlXTmJIcmtiRFRDOGN6TjQzb00xejRfQ1JBdEpwN0dpZGN0N0ZzR1pESHk4U2hlWl9XSW5ZUkdKb295WHVBRWY4ZklJMTFPMU9FSk1MM0NfdVEweWF1akNkM1hTWkp3MkNHMF9saGc2dG1DMjVNNUEyaUdVSlVwSXlIZnVoTG83N3Z3MlVldmt6UEE?oc=5",
+      "https://www.msn.com/en-us/money/other/wisdomai-raises-50m-led-by-kleiner-and-nvidia/ar-AA1Qrszp",
+      "https://www.prnewswire.com/news-releases/wisdomai-raises-50-million-to-lead-the-next-generation-of-ai-analytics-and-business-intelligence-302613280.html",
+      "https://techcrunch.com/2025/11/12/ai-data-startup-wisdomai-has-raised-another-50m-led-by-kleiner-nvidia/",
+      "https://pulse2.com/wisdomai-50-million-closed-to-advance-autonomous-ai-analytics-for-the-enterprise/",
+      "https://siliconangle.com/2025/11/12/ai-analytics-startup-wisdomai-nabs-50m-investment/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-12",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kleiner",
+      "Nvidia",
+      "Kleiner Perkins"
+    ]
   },
   {
     "company_name": "Wish",

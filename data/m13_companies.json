@@ -389,7 +389,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bonobos",
@@ -1279,7 +1291,52 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2015-11-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZVd1eE1QeEpWY0xsbkFPS0xYS09vbC1lbjJwWnY1dGVjOXB2YjhGS2JiSkpVWjVQT3BLdm80aWU3S3pfMWpQX0hxX1doaEVlV3lLY3ZMMU9PTlFLNDN0bGQ4bWJsT1Npc2JQRk1OdFN6VHlTZS14X1llVF8wRjIzalI4eURiNThrb3llTC1TRksxVDlNXzFJSjJ5dEh0NXJTeDlSakktaHc3OVJkekFNQkhKQjlrWFJiSHZ3YjRtVXdPZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUJKbWFwc18xLUdleW5RMXcwU1V3R0tiRUdLYXhBdXUzeEhKT0NfT3lUV2d5ek9qZUxXZUZWQUM5c1phRVNTdHJXeThWTERhekFuVEZfdTlNN255UVhfbjVyTnJCcUdvU3VsMURaV1Zvb2pWdkJmS2pEOVl6ZW85ZzFIemdCRlRaUDNWdDlBbi1TaFZWZDMyT2xNVW1xVjNoOHdPeUpwRTRhNEhYOFRJMWZmNjU?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-11-05",
+    "total_raised": 53000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Homelister",
@@ -1410,7 +1467,42 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU1UzdExFQ296T3JBaFlGU2dIQ0NiM0FiSDJyMzd2X1VMUy1tclhhSm5CRFZEZWw5SzJmVFVtVkUwZS1zZzRxYzNVUFFYZWRIMWo2ckt0VzVKVGFVUnA4eHJUSDlWakhNOERJS0c2Ylljckpha3AwNHA5cDVlR1hiOGtxOVZydV9NUC1nT1BjTzF2cHVJZ0NMT0ZzU0J4cFQxeHpMa0JBT1JMdw?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVDFqMEQxTkQ0SldYbkhiSHJsc0U1eDBmYUYyWkMxOFM2QnFmcjA2b2k2SXU2NkVOaEZUazNSdFZoRlhkdmFkUXdtU2hBbGRBelNJbVd4Q19ZdW1lSlhETWQ1c0hYZTNJWDFpT0RBVGctMElXVGkyRjZuemFpTTRnSVdSY2ZkekVEXzRSeHBMOVd4MnJLOS03ZndaNEdUQk5HRVhJRFZiaTVETkcxYjFkUnQwSnZtOHU5amlVdkxIb2lOUFBITnZnaFBrZlpMZV9BbHlHSVNn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU1UzdExFQ296T3JBaFlGU2dIQ0NiM0FiSDJyMzd2X1VMUy1tclhhSm5CRFZEZWw5SzJmVFVtVkUwZS1zZzRxYzNVUFFYZWRIMWo2ckt0VzVKVGFVUnA4eHJUSDlWakhNOERJS0c2Ylljckpha3AwNHA5cDVlR1hiOGtxOVZydV9NUC1nT1BjTzF2cHVJZ0NMT0ZzU0J4cFQxeHpMa0JBT1JMdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVDFqMEQxTkQ0SldYbkhiSHJsc0U1eDBmYUYyWkMxOFM2QnFmcjA2b2k2SXU2NkVOaEZUazNSdFZoRlhkdmFkUXdtU2hBbGRBelNJbVd4Q19ZdW1lSlhETWQ1c0hYZTNJWDFpT0RBVGctMElXVGkyRjZuemFpTTRnSVdSY2ZkekVEXzRSeHBMOVd4MnJLOS03ZndaNEdUQk5HRVhJRFZiaTVETkcxYjFkUnQwSnZtOHU5amlVdkxIb2lOUFBITnZnaFBrZlpMZV9BbHlHSVNn?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYWFBc2o3aDljanRPdVNBZThERU43OVJodDZQbk9TNVRCYmZ0cjNMNXFCTzhNZVdxSXBQOGtXREhpN3VENnRGYVRtLTNFUDhTLWxHQVdpVTI2TmFpdGZ5TmJyd21NamU4bkUxUFBSRm9ZTjE4MXFyVWpwbnU0MnAyUU1jOXp6V0ZySHdBSnVEYmM5blNGeGFFTUpsOWlndHFZSGJaQ2p6M3RaMWNGV3g1REFnZWJsN2ZXOFdfRDdCa3d5MW5oblc0bjNDNUQtc1ZqN0E?oc=5",
+      "https://pulse2.com/jackpocket-50-million-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 120000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 170000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Jimini",
@@ -1498,7 +1590,32 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT1lBWW5DUzNDcENCUGFsQVR3NEdmaVhtNDJ6YzFBd2dfaEJYUjNTaDZhVzBfM1pPVENJNnpLZ25CWWMtX2Z6VVU5clRYQWZQMDBlRndvMkNjN2xxMEpITU9haWwzRlgtb3hmRjl0Sk81aWdsMFI5ZzE1WUNkck9WYQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSWxCX0p5b3VlZGdhcUU1Q0lPNWVKNnE2TkF5Mm1NaThHeVQtWVIyOExqU2w3bjd0REY0dU9oZGxabi0xcktYNkdjMUFHZkw5SE9fWU1OMHhaZ2FxVWRrczlNdHlHQklkdnZyUGQ1N2s0MzlDTWZwNnFTLXpyc01CUnpxb3ZTZkdvTEg4RXJGMmZDSEF6eHl4QXVreDZFbUhPd194VjJYUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT1lBWW5DUzNDcENCUGFsQVR3NEdmaVhtNDJ6YzFBd2dfaEJYUjNTaDZhVzBfM1pPVENJNnpLZ25CWWMtX2Z6VVU5clRYQWZQMDBlRndvMkNjN2xxMEpITU9haWwzRlgtb3hmRjl0Sk81aWdsMFI5ZzE1WUNkck9WYQ?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 18000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 18000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "KeVita",
@@ -1687,7 +1804,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "LOU",
@@ -1781,7 +1910,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Matterport",
@@ -1886,7 +2027,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Mento",
@@ -2105,7 +2258,72 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2025-05-21",
+        "lead_investors": [
+          "Accel"
+        ],
+        "investors": [
+          "Accel",
+          "NFX",
+          "Lightspeed Faction",
+          "Castle Island Ventures",
+          "Flybridge"
+        ],
+        "source_url": "https://www.businesswire.com/news/home/20250522683658/en/OpenFX-Raises-%2423M-in-Initial-Funding-to-Revolutionize-Cross-Border-Payments-with-Real-Time-FX-Settlement-Capabilities",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series A",
+        "amount": 94000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Accel",
+          "Atomico"
+        ],
+        "investors": [
+          "Accel",
+          "Atomico"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmZoVXVoR0Y4X2VZTTV0N243dkRHZlJTa0t2d2FneEpKVDlVNm44Rjdya1IzelZSdWx0OEVkOVNCSVRfVC1LelR3RGxCcEpneFZ2SDUzQ1FZbkN6cTFVR0lQQW1KdmhFNGdQME1NUHdsbkFmamE2OG1ENWJsd2dFWnJZd2xzeWF1enluTEJVWXdEMmdwN2p2MTZaVkljX2hlTmlGaTd5M0xSdTh3V1cwaks4ZHp1VVVhMzZTVHJaSGU?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmZoVXVoR0Y4X2VZTTV0N243dkRHZlJTa0t2d2FneEpKVDlVNm44Rjdya1IzelZSdWx0OEVkOVNCSVRfVC1LelR3RGxCcEpneFZ2SDUzQ1FZbkN6cTFVR0lQQW1KdmhFNGdQME1NUHdsbkFmamE2OG1ENWJsd2dFWnJZd2xzeWF1enluTEJVWXdEMmdwN2p2MTZaVkljX2hlTmlGaTd5M0xSdTh3V1cwaks4ZHp1VVVhMzZTVHJaSGU?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQmtwUVZaSUpNS0M0MlFKT3RiT2VXM2NaN3hnT0tFVHcyRDVJaHRYRTcwVnZGNEVoNWxvY21Pbm9SUnVxemZTNlRMRzZRYkh1WXR2bFdRcVFxa0dSd0lJNjZnOFZ2RXhhRW5MTk5zYWJ6cy1wajdOVjZnNGx5emNXYWhJSHZ2RmZ5OEJXZEtJLVNFRUVreXBYd19uTUs4NG5CUk11UG51UmRXSFJtcGcwVDA2UnhrUXBPVmJTbWp5TlFySVQ4UWhhVVBR?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDZKMTdPZnZfTnBCcFVFd3lrekRaV0xJZWpUd18yM2VTWjlQZmtsSWpxWlNPZVQxWGwzLXBCU0sxWmVodGhKSnU0LW5GWWJzX2JncWhPSjZuSnAySlU0c3pfUENMbEE2NFdBU0dlY1ZsYW8wa3cwRjlyTVc0d3hvT2w3ZEdkQnRKN2JGaVFtWGh0eVN4WnVycHgzTkZBeVlfc2IzYjdfRTd0SVUtWWN6Q0h3LVlIWWN0LWt3bGpWc19XMVN4bWs5WmNsekE2X19sTjVV?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUF9VZnI1dl80VzVEd3FmWk02SjVJWko3Z2d2REJ1R21MOFg2TTJ3aFFmV2FSekNNUm9YTnJWOW5jN1BTQXBXRlBCX1J5UC1qemd6Zmx0MmNoVGpyek9KSVNjRzk3VzJaVGN0LUJZNF94ODdfZW9WcGl5Sld6UFQtS0pvSEFXbFNQSFplYk5JWjhQYmdoNG95SWEwdGhnYVRWTlE?oc=5",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWlhqWlcwaXI0WE5Vbjl0MHZZci1xR2dvRXJnM0JhRjQ2YU4tQnluX0Fjem5HUXU1LWI5QjNHV1UzS3pHaGlLTHVMVmpLbFRHbzYxcG5iUkFaY3F2bXFoTEpQVE42NVI3dk45V0JuUW5tc0ZHdm5SUTY3czV0RktiMW5rd1NMT3pBdXRTbGNFbHVtZ1VsRUpTZGRYUGVsMjlRcXlIcmlBTXFDODcxeWV4Z3FPR0xvczVfR1FENTNmYXNROUZqS1h0VmpUeGVXSFQzNjdVNEdzbUgwWTdkVkHSAeMBQVVfeXFMTlFFWmtyWVlRaWhlUGFUaTdPVDZCMDlfdWZDRmZQZ3M4WmhWU3dMM1RTSUI1bVFCc01aa2hCYnlRamNxSUY4cDNwdUl4WEpRMmFZVmRyN0dGb05rM1RTNlJuRnduZ3hDLXBkVVdIWDhUYUJpVURKTXotZ0xMdUNIZW5FbVY1WHowVkI5SGVTUXNMdEhmcFM4b19fN1lMRVFsZXNTd0ppUDlfTk9xb3dfel9jMVVMR0d0aDIxcG5zNnFNZXczYUtyVDBIMnZnN3UybEd3TURLTlJQYmtOZENOWnp5Vms?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTThXTWtmVzVEUE41dEY2T0tXM2JFVmJwQWdlS1ViUGtKMEpOeVZma0VYLXphbVc3M25NbTZlb2QwZkRyVjRCVFQtWWRwTHBmVDBKa0FNd04xQmZNVDlXeHJqYncxd2pSOEJpdXFzazRFQWV4RUtSQXpZTFVHT3pobXh0TUowdTJGRG82YUNpbVktZFphUHNnVGgwdklEbWx0aGRuUw?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdV9nb09pdlQ2ZHlsamcyMjd4RjR4SjNPUXRIMzZyNGliNlp2STdPa0tvVUxjSlNfMnFHaGpjTGlZR3Y1aURQZDZfVmp0OVE1a0hnanBfdUR3WkVXRjdOdU9sekswOHg0T3NYWnJSdXRGQmJmbnVJT1VVMmZ4ZWlZakhVX3haZVhyRGpLVXNIbHRqUWxORFJwSjZMVzQ2SERwMzNzbklnNWd2QWRVN003WTFnWl9kZDgtOThEWUdPWkplWmpyU3c?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSnVZbW9wNVZNV0lWNUpUSV96VGpsblhDdGFoYzRxRUNnbEoyMlNlQXpFVEt2MUp5NUNHdU1Cc29ON1ZwbGszRUNsaGxaNEpZRTBHVjVMMTFKMHBjOGc0ejVQX3ZBa3p0OUh5ZkFCYU1pLVp0ZWh5akJWejBDWW1nV2JMaUp2ekVDeGx5SElyNExpVTdENWRFOUN2UUdTWGMwbnRHU2NOU293cUNtaUNva3RYQjBZdzZ6TmtkREJ4anFQbmdQQk8zc1ZOdzhNYlg1Tm85TzlZaE9tVi1Td2JEbFYtRWc5d0NySzNidThaSFFGQlltOHUwbWdqYzdHMlZvSWMzX2tvMWI?oc=5",
+      "https://www.businesswire.com/news/home/20250522683658/en/OpenFX-Raises-%2423M-in-Initial-Funding-to-Revolutionize-Cross-Border-Payments-with-Real-Time-FX-Settlement-Capabilities"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-21",
+    "total_raised": 117000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Accel",
+      "NFX",
+      "Lightspeed Faction",
+      "Castle Island Ventures",
+      "Flybridge",
+      "Atomico"
+    ]
   },
   {
     "company_name": "Options MD",
@@ -2199,7 +2417,32 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWpPWmZYVEtYWDdYWV9OZG5oNGkwMkRLQmxoeWhCMVA2UklFMXJGU2ExTF9rQ1NkTjBoZTNTMmFCWGwta1Q1LXExaXdNTUVDWE9Qd1NYN19VMUxOd1l0WHlNaXRXTDFmMWpqV2tvdjhFNFdTdFI0UU4tZFRlS2IwRVhReWpQazJTdHEzaTJRRDJkUDFtTlMxcVJZaDNmOVUxd01GbjhfRklKaXluampVdml5bXRtUQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWpPWmZYVEtYWDdYWV9OZG5oNGkwMkRLQmxoeWhCMVA2UklFMXJGU2ExTF9rQ1NkTjBoZTNTMmFCWGwta1Q1LXExaXdNTUVDWE9Qd1NYN19VMUxOd1l0WHlNaXRXTDFmMWpqV2tvdjhFNFdTdFI0UU4tZFRlS2IwRVhReWpQazJTdHEzaTJRRDJkUDFtTlMxcVJZaDNmOVUxd01GbjhfRklKaXluampVdml5bXRtUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1Z6eEtKQlRaSTIzUGNjbXBxUlJzU2RzM0c1TEdWOXdLd3NNb3NuMUkteEl2dmtmaFQ0ZTdMRDhGMndQbmFuNTFrTzJET2wzbVlXcGw5ZGlySnZZZGZMUjRfM0tFSm5ES3MwVU5OajBjVTIzTS1tQmFyaS12SlNzYU5XRTV5eDNhTXJzXzFlaEtlYVNSZkpNZ2s5aWNIanYybFd0czJB?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PIKL",
@@ -2248,7 +2491,34 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXVGRFpzRFpuTVplNHpuOUp0Q3hXc3dQRVRxWlV5NHRSU1o5eHNmSXFnck5uNDJ1TzloRS1qSVBCSDRRaUxTS0lVZDFLTzBsN0swR2xFLWxVMXJzUzVSRUFpcER1Vi1ocUtpV3BFUGV3bGtVZUZjUE5vQU4zREZKa1NiVXZDcmJGSEFEajRQOWtDN3BPT01TY1R5bjhZTUxGOUhKbQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTlE1RFBPRGRlSGk1ZVNyVW1qM2xwVEs2SUVWOHBud3otVGh2dFAxT3ZFMTlNU0wzWlZQWjZrVlVnYlBEQmFESlFJN24tWkV6RmR2aWZXVUpCblZlbm93YTBSa2dsMFJUNHNJNFhDemlfU0k1dlNWWEZrcjl6Tk0wRS04UmtGdjZ5VUdwRE4xelBzUHV4RDhkZWpqaVk1eGhGVUpjWmNHcl9VRU9oY21UU2hrbVRaWnhPeS1RSXdPNEZWckRFQ3ZUNWFxZw?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbmtMOEg4MGRiWUxxcTJZWE5TZk14Q09vX19uNVlkTm91Wml6dW1Kb0U1VmhPX3VNUVJkRGxoWDRxeTFhSDFYanM4Qk1nU0FGY2JUWjc5WV9MUW5oSjlIRjVqOUNKN0ZBZW5xWllNaXpjZlU3aE1OWHRCaFdaSERGZFBOaUxzTnNuSXE4N2JLOFNGcGFXczE2YTVvUWNkaHpPSHRCdl9FYkVHZm4x?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXVGRFpzRFpuTVplNHpuOUp0Q3hXc3dQRVRxWlV5NHRSU1o5eHNmSXFnck5uNDJ1TzloRS1qSVBCSDRRaUxTS0lVZDFLTzBsN0swR2xFLWxVMXJzUzVSRUFpcER1Vi1ocUtpV3BFUGV3bGtVZUZjUE5vQU4zREZKa1NiVXZDcmJGSEFEajRQOWtDN3BPT01TY1R5bjhZTUxGOUhKbQ?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVDVLRWdoSDcwaW5DY2l1emRWeUdwbEZmSm4tUUpsYXhwOGoxdkRicDFVWEZQcTdKUUhnaXJaTUhVUzV0dzZpRFU5MjRDbUd1TktoOHZQbEZoOG94cU5JS2I2MmxWQVJsUjZmclprWWF6cnV4R1pCcDcxWTk3andyYzMxOEd2ajNfcEpVTGg2WTlwLUliWTZqSlRwT3NpSmpMajU4Zno4M0pWclNmM0I0?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1000000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 1000000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Play",
@@ -2264,7 +2534,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Play Money Studios",
@@ -2503,7 +2785,19 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "River Financial",
@@ -3074,7 +3368,32 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 111000000.0,
+        "currency": "USD",
+        "date": "2016-06-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2VSUWNrMWdpQW5lZWlvUGZZYkZub3dsazVQdXZaYnB0ZDFtRzFvd0RuaDRfeGtWREhlb2RHTS1fRkQwVTVyT3lIRVhlT0VLQWdqOXRRTW1mUERfNW83Ym41V2VUVndVQ1hQN3hwMV9raHlfYXZaa0ZRWkZJbTUtX2VVajBfd1NEbmd3WTNKamZaTnNDMml0cnRpV3lWRWE0YkoxN1pB?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2VSUWNrMWdpQW5lZWlvUGZZYkZub3dsazVQdXZaYnB0ZDFtRzFvd0RuaDRfeGtWREhlb2RHTS1fRkQwVTVyT3lIRVhlT0VLQWdqOXRRTW1mUERfNW83Ym41V2VUVndVQ1hQN3hwMV9raHlfYXZaa0ZRWkZJbTUtX2VVajBfd1NEbmd3WTNKamZaTnNDMml0cnRpV3lWRWE0YkoxN1pB?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 111000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-06-27",
+    "total_raised": 111000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Toki Commerce",
@@ -3305,7 +3624,33 @@
     ],
     "primary_investor": "M13",
     "source_url": "https://www.m13.co/portfolio",
-    "scraped_at": "2026-10-09T13:43:06.142514+00:00"
+    "scraped_at": "2026-10-09T13:43:06.142514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYjVWakZHNzJVUjdmclRpWVRZbDZSMjZfc2RJNVdKcnRzZHdkTGpUb09GTjhxZ2h3d1Q4anc3UzgyVkhFMDdRZVJnaU5XZjRzdVR4S2ZmYkR4WmhmUUFObXd4RTd0dDQxWXlEWEdXRWtmZGk4M043bk43OFdKWnM0cHB5YnpOTk5uSzFTUGNuWE9WU1h4emlGYU1XejFjaDBBMVV0UWZHaS1nOG9wUEV1anFtLXByeXlFWkxRUHJWTnVqcjBCeG9yZnlMOVlyMFdJbUxKemVFLW9JSWxTbFdsag?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYjVWakZHNzJVUjdmclRpWVRZbDZSMjZfc2RJNVdKcnRzZHdkTGpUb09GTjhxZ2h3d1Q4anc3UzgyVkhFMDdRZVJnaU5XZjRzdVR4S2ZmYkR4WmhmUUFObXd4RTd0dDQxWXlEWEdXRWtmZGk4M043bk43OFdKWnM0cHB5YnpOTk5uSzFTUGNuWE9WU1h4emlGYU1XejFjaDBBMVV0UWZHaS1nOG9wUEV1anFtLXByeXlFWkxRUHJWTnVqcjBCeG9yZnlMOVlyMFdJbUxKemVFLW9JSWxTbFdsag?oc=5",
+      "https://finance.yahoo.com/news/wellthy-raises-25-million-drive-160000816.html",
+      "https://www.vccircle.com/cipla-backed-health-tech-startup-wellthy-raises-funding-from-saama-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 35000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "WorkMade",

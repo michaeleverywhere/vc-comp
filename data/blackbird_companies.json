@@ -3416,20 +3416,42 @@
     "primary_investor": "Blackbird Ventures",
     "source_url": "https://www.blackbird.vc/portfolio",
     "scraped_at": "2026-10-07T13:24:21.685306+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2016-09-09",
+        "investors": [],
+        "source_url": "https://www.smartcompany.com.au/startupsmart/mentorloop-closes-300000-seed-round-valuing-the-melbourne-startup-at-2-million/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2026-02-16",
+        "investors": [],
+        "source_url": "https://anthillonline.com/tech-startup-mentorloop-announces-725000-raise-three-leading-venture-funds/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://mentorloop.com/"
+      "https://mentorloop.com/",
+      "https://www.smartcompany.com.au/startupsmart/mentorloop-closes-300000-seed-round-valuing-the-melbourne-startup-at-2-million/",
+      "https://anthillonline.com/tech-startup-mentorloop-announces-725000-raise-three-leading-venture-funds/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mint",

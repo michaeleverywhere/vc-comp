@@ -545,7 +545,19 @@
     "everywhere_tags": [],
     "primary_investor": "Aleka Capital",
     "source_url": "https://alekacapital.com/",
-    "scraped_at": "2026-10-18T18:28:57.993830+00:00"
+    "scraped_at": "2026-10-18T18:28:57.993830+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Profi",
@@ -575,7 +587,46 @@
     "everywhere_tags": [],
     "primary_investor": "Aleka Capital",
     "source_url": "https://alekacapital.com/",
-    "scraped_at": "2026-10-18T18:28:57.993830+00:00"
+    "scraped_at": "2026-10-18T18:28:57.993830+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTjd1WHM2eUlYRW1kTURwTWk4b05hNFJvTjVVZjI1ZVF5dWFidERySDJXTUcxR3VhOTlMeTY3SlBYb0VHa011SWdOUUllUEdTZ1NVUkJDQmpBakdfc2dzdHN2b3VYX1NKcVdVWWFmT1NXNklBd2EwSnBYUWV5ZFlHVVZHMXkzalUzcWZBWU5vUzNhMEFfVFZNMFBMZWpYOUZyVEQyTmhzN1k0bWRGRU5xSjNxekxLS3JTdXJxUzFZcDJsWUF2dnRYTERTZEYyeFhjanc?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORG5aWVQwUDZtdkQyZmQ1MGlNZjd5ZFdmWmhSMkRnS2hDc3ZyOGVHbVp4dDBzNzZyTXBFZEJ6cl9XVEJkdEsxek1JX1FhWEw0dW1HZFZCYjRydTl6Q2VZVmZGTnRtaFNSLTc1WnU4WHNrWGJrdGNSd1VrUERhcXZ2MWE5YkxqZlh3Y2h2eUxZYUNwUnQ3Tk9NYUYzRGxaZUFTdExkRjltdw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxORG5aWVQwUDZtdkQyZmQ1MGlNZjd5ZFdmWmhSMkRnS2hDc3ZyOGVHbVp4dDBzNzZyTXBFZEJ6cl9XVEJkdEsxek1JX1FhWEw0dW1HZFZCYjRydTl6Q2VZVmZGTnRtaFNSLTc1WnU4WHNrWGJrdGNSd1VrUERhcXZ2MWE5YkxqZlh3Y2h2eUxZYUNwUnQ3Tk9NYUYzRGxaZUFTdExkRjltdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTjd1WHM2eUlYRW1kTURwTWk4b05hNFJvTjVVZjI1ZVF5dWFidERySDJXTUcxR3VhOTlMeTY3SlBYb0VHa011SWdOUUllUEdTZ1NVUkJDQmpBakdfc2dzdHN2b3VYX1NKcVdVWWFmT1NXNklBd2EwSnBYUWV5ZFlHVVZHMXkzalUzcWZBWU5vUzNhMEFfVFZNMFBMZWpYOUZyVEQyTmhzN1k0bWRGRU5xSjNxekxLS3JTdXJxUzFZcDJsWUF2dnRYTERTZEYyeFhjanc?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aWmtSQzlMWlVwM29ieVFRVDVteEs0bmZSN082MktmR3VmS1VWeEtERktXMVVXTmZMQkVhc3VHaTM2TURGaUtETVd5NHl2RHBMTFk2LU1DeGRhWUtoY19lbmhpUG1EdmRGNmNvRXVjUDdSSHk0WWMzWkRpWmNpUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVG9VNHNieExuWUZ6a2ZWeXJpZ2tUOUgwcjZDeHZNNHJiSWdVQ2Y1N05pSV9TSWZaMHlRYzFMYzNZUlR1clI2Sm1PSDh5VjNmZ3ZySmpieW5tZFd6RUczRXVOSDR6amdPZVhLb0tuWGZQbDlJUXl6dzl0WXUxU1BKTmtVOGZsenVsOEd0YUlJc0h0NklfTGVlZGM0UGY3eTRtWUJrLXEwNkQ5N19kRng4VFFPQ0wzUnZkRG50ODYxck1seTRKb2pJUmNZRUVIVTk2UHY5eWQyN3JmZw?oc=5",
+      "https://finance.yahoo.com/news/sanas-raises-65-million-series-170000906.html",
+      "https://pulse2.com/sanas-65-million-series-b-secured-to-accelerate-real-time-speech-understanding-technology/",
+      "https://siliconangle.com/2025/02/19/sanas-gets-65m-funding-expand-real-time-accent-translation-software/",
+      "https://www.generation-nt.com/communiques-presse/sanas-raises-65-million-series-b-accelerating-global-adoption-of-2055357"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 65000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 97000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Superworld",
@@ -661,7 +712,38 @@
     "everywhere_tags": [],
     "primary_investor": "Aleka Capital",
     "source_url": "https://alekacapital.com/",
-    "scraped_at": "2026-10-18T18:28:57.993830+00:00"
+    "scraped_at": "2026-10-18T18:28:57.993830+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3290000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [
+          "Heron Rock"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjRUcl9KTmNpbnN2cGRabzhmeS14UjdpNlQ3am4xaDN2V0VwcDJSNVJqclRqNE8xQlJOazJIVXZCejRVZEsxQVl5Sy1YTHpsd2F4NUF4d2UzWEdSb08xLWxwOHAwNlRKVWNrTk1fLTVrMGJlYkNaMnQ3ZWNsNHFRUVVJdzNqd1ZKaktROUJXWmxCczVpcG4xeTFfMVFsT3BVYXhvM1IycG54bUNMajRCOVpxQlZqR2otb25zaVF1cw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjRUcl9KTmNpbnN2cGRabzhmeS14UjdpNlQ3am4xaDN2V0VwcDJSNVJqclRqNE8xQlJOazJIVXZCejRVZEsxQVl5Sy1YTHpsd2F4NUF4d2UzWEdSb08xLWxwOHAwNlRKVWNrTk1fLTVrMGJlYkNaMnQ3ZWNsNHFRUVVJdzNqd1ZKaktROUJXWmxCczVpcG4xeTFfMVFsT3BVYXhvM1IycG54bUNMajRCOVpxQlZqR2otb25zaVF1cw?oc=5",
+      "https://www.hypebot.com/music-for-psychedelic-therapy-provider-wavepaths-raises-4-5m-video/",
+      "https://www.medindia.net/health-press-release/Wavepaths-Raises-45-Million-to-Expand-Experiential-Music-Platform-for-Psychedelic-Therapy-554468-1.htm"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 3290000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "total_raised": 3290000,
+    "total_raised_currency": "GBP",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Heron Rock"
+    ]
   },
   {
     "company_name": "Zesty",
@@ -671,6 +753,23 @@
     "everywhere_tags": [],
     "primary_investor": "Aleka Capital",
     "source_url": "https://alekacapital.com/",
-    "scraped_at": "2026-10-18T18:28:57.993830+00:00"
+    "scraped_at": "2026-10-18T18:28:57.993830+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZREdjVDNvbzZHU2NZTTRNNkFTQk5mdDRhc0NNZWpVSGI4YW4wRXJDWEsycmhLbXlKRzUyWG9JdFhubmNmWklUb0I0SWxIOVlwc3p6RmlCRlJFME1KNTl0ZDNlclRkTGs?oc=5",
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQkFPYlJFckNHaXlxZWJSaXF1RnA3Q25OMXFFRWJUQ3EtOHFIMXJXOUdNNTJiNU5KTVA3VnB6Nk15WnRXTG9obHpJazlMTEVqcnh3WlV3WlJGUlVhcThMaGdjdm5FU3hudzlZOXRXeHh3cWJEZUFDblVBVmR1aHZPRmRhMjhhZFRuTFc5WmxvOGtUeXBLQUwtbWtDbF9tSlVsVjc0bzlTLTZ2YXNETUZicXNFM0RQWGNPWHo3QU55OWFyUzY4aG94X0RzSDB0azh4Ym5hR3B6UTN2eUdKSmtF?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ucFFsdUMxb1ZkSzB2S2hKNUtxMVNvcVRrWmEySkRlWU5SRDBaR1dVWEVKNDhlejhhbHpfejBtcU45MmlObnptLWhOUW90VEMwMVE1MlR0bzhfM0NkSVZTdlNJcU0wNkoxM0JDZVF2UlRtZjRORjBr?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5neHRoMWxNcVBLRHhKTHdIZ1V1dU9PNWJGTzNlRmJHZVJCV3AyZ2NoemlYNEwzYkMyeFJOMFVoZnA5OHZvMm1YLVg0dWExWWg5amgzNWRWWnpLVGFZemRfN2kyQ0NzbVR2NGNfX3VWUUNnbldEbGlJ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   }
 ]

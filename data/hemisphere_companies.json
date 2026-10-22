@@ -729,7 +729,19 @@
     "everywhere_tags": [],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cabify",
@@ -1985,7 +1997,52 @@
     "everywhere_tags": [],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2015-11-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZVd1eE1QeEpWY0xsbkFPS0xYS09vbC1lbjJwWnY1dGVjOXB2YjhGS2JiSkpVWjVQT3BLdm80aWU3S3pfMWpQX0hxX1doaEVlV3lLY3ZMMU9PTlFLNDN0bGQ4bWJsT1Npc2JQRk1OdFN6VHlTZS14X1llVF8wRjIzalI4eURiNThrb3llTC1TRksxVDlNXzFJSjJ5dEh0NXJTeDlSakktaHc3OVJkekFNQkhKQjlrWFJiSHZ3YjRtVXdPZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUJKbWFwc18xLUdleW5RMXcwU1V3R0tiRUdLYXhBdXUzeEhKT0NfT3lUV2d5ek9qZUxXZUZWQUM5c1phRVNTdHJXeThWTERhekFuVEZfdTlNN255UVhfbjVyTnJCcUdvU3VsMURaV1Zvb2pWdkJmS2pEOVl6ZW85ZzFIemdCRlRaUDNWdDlBbi1TaFZWZDMyT2xNVW1xVjNoOHdPeUpwRTRhNEhYOFRJMWZmNjU?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-11-05",
+    "total_raised": 53000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hologram",
@@ -2102,7 +2159,45 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOTRPYW02RkNSUDdZd2w4RmZ3aUE5THV6dFZ0NUlHeWZDZU9MRGdiWUF0SWxZZVltZkFyQ09jZXJJWFJ0RjNtbmpzRnhZR0VrR2dyckVNdkJLTWgza1huVUZMNXJHdVk2dzBYTG1TRElOWmFHOVZXSDl2amlZeS0zN1FUOHVsZzdLQ3pFV0pSS0t6Sy1ScDFLRTVJWFR3SHoyc0ZYUllpV19QNlBUQ2pNR3hqejh5Zw?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWWNONFVFR21JbFBIMklFRUppOEE1QW9MaG95Sjl3RF9mLVByNTZWV3VKa3hIZjJNdl9KR0hieksxeDJnZzZKbHF2U3RsNl83QVpndXJ4R1JCLTdsMjIyZ21ySU9vWVY0N2F2RTlSSGNCdGZPaDM0d0xUSzBfZ05IQ2NjNzhQM3M?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWWNONFVFR21JbFBIMklFRUppOEE1QW9MaG95Sjl3RF9mLVByNTZWV3VKa3hIZjJNdl9KR0hieksxeDJnZzZKbHF2U3RsNl83QVpndXJ4R1JCLTdsMjIyZ21ySU9vWVY0N2F2RTlSSGNCdGZPaDM0d0xUSzBfZ05IQ2NjNzhQM3M?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFFQak9TRkxLX0dIbVA0akpPT3pvV0tWQW1SN3lDRWU0dzVuSEp3UjVLTG55czJmR05XMlhFTzYxQzBTOWtseDhiWmpUeDJOVW5DSE9vZ0F2dVhFRnc0dVRUX2piUVVjWFFkaHluZFlvR1ZvdElDdUc0bWt6XzcwUUlWcmZQQVRFN0pZbWwtN2xwTFpVQ3o2U0t5VkZTNWk2bHozZmI5TGhYUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOTRPYW02RkNSUDdZd2w4RmZ3aUE5THV6dFZ0NUlHeWZDZU9MRGdiWUF0SWxZZVltZkFyQ09jZXJJWFJ0RjNtbmpzRnhZR0VrR2dyckVNdkJLTWgza1huVUZMNXJHdVk2dzBYTG1TRElOWmFHOVZXSDl2amlZeS0zN1FUOHVsZzdLQ3pFV0pSS0t6Sy1ScDFLRTVJWFR3SHoyc0ZYUllpV19QNlBUQ2pNR3hqejh5Zw?oc=5",
+      "https://finance.yahoo.com/news/hydrosat-raises-60m-series-b-110000023.html",
+      "https://finance.yahoo.com/news/hydrosat-announces-20m-funding-track-120000009.html",
+      "https://ca.finance.yahoo.com/news/hydrosat-closes-another-10m-funding-140024551.html",
+      "https://pulse2.com/hydrosat-20-million-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "IDbyDNA",
@@ -2325,7 +2420,43 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": "2020-11-10",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk1BRmkzcEl5OTduM0RodVQ0aHpjRzliS3lXRmdYWGtUcFdpVFZJOWFQQjJVbEpSakZCLTFmUS1ROXJ4b0xXYWV1M1l1WGhVU25SN1gyUEJjR3ZOWFpZR2JoRGlXVFl1RnRvU3pvcUxlSmRLcFBCQ2dOTTJIUzREM0JqNk1waVFOWWtFeW9DdkZjMUhKck1qVkFCa3BlZ0tJamxuSlBrMG1oU0wxdjU0VDJERzUxTWRGd09XZA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-01-18",
+        "investors": [],
+        "source_url": "https://pulse2.com/jumpcloud-raises-100-million-in-series-e-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb2xKNFM5bTBGTDNpQVJUWDdteHBvTHhfUXpGX1lLRVdpYXlKZWE0MlhvTFVqMDd6U29lUk05WHFuQlVieWw2OGlJRXF0WUtxa0JBdWlSUHRxTnQ0RkJqZi1odXJRR1NzZ2xpQkFHclFzQ1hSUGxaeFJLd3hBelF5QU1CZVk5N2Nw?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk1BRmkzcEl5OTduM0RodVQ0aHpjRzliS3lXRmdYWGtUcFdpVFZJOWFQQjJVbEpSakZCLTFmUS1ROXJ4b0xXYWV1M1l1WGhVU25SN1gyUEJjR3ZOWFpZR2JoRGlXVFl1RnRvU3pvcUxlSmRLcFBCQ2dOTTJIUzREM0JqNk1waVFOWWtFeW9DdkZjMUhKck1qVkFCa3BlZ0tJamxuSlBrMG1oU0wxdjU0VDJERzUxTWRGd09XZA?oc=5",
+      "https://pulse2.com/jumpcloud-raises-100-million-in-series-e-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series E",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-01-18",
+    "total_raised": 175000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kanler",
@@ -2381,7 +2512,32 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2100000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSkRfalRsazlKYWZ5Z2txdjFvd2lreEFVSTM4MmZsLTRfbTdJUG1fT05ldmN6Q3BWcDBmWXRrcF9hZWlNUFBfOWQxTEVSMng3MDM4N3Jrc2VrbEE1U0xuZnNGTmhUclhJSDgtVGx5QXJNVHk4WExLS29ueEJ6LXhGVHNpcDRkQmhsZUUzZzFmSy1HN2I2N2c4Mk1yRVlyOWl6eHRBODA3MEtjWDF0d2JpcEdDQ0NuVW55M3dSRzFWcFVrQkkxeHc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSkRfalRsazlKYWZ5Z2txdjFvd2lreEFVSTM4MmZsLTRfbTdJUG1fT05ldmN6Q3BWcDBmWXRrcF9hZWlNUFBfOWQxTEVSMng3MDM4N3Jrc2VrbEE1U0xuZnNGTmhUclhJSDgtVGx5QXJNVHk4WExLS29ueEJ6LXhGVHNpcDRkQmhsZUUzZzFmSy1HN2I2N2c4Mk1yRVlyOWl6eHRBODA3MEtjWDF0d2JpcEdDQ0NuVW55M3dSRzFWcFVrQkkxeHc?oc=5",
+      "https://www.electronicsweekly.com/news/business/kubos-raises-2m-2024-05/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 2100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Lambda School",
@@ -2581,7 +2737,31 @@
     "everywhere_tags": [],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFdlTkJWUzVSNG8tZ3Y1QnRvZW02SmxwX0tDVzVYLXprY3U3ck9Nbk9YemFBWkUzSTlseG13Q0tZd3gxRTBYdmd1VUItM1Rkb2lFaVBBangyTUxSSHdudjJNNFJfTmF4VThKbXRUYlp3c0FIckRWMGd2djRqblVJcVF0VWhvdkZ1RDdSR3I5NXg1dHZPY2dFdng1WUxXSkVJS0ozMA?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFdlTkJWUzVSNG8tZ3Y1QnRvZW02SmxwX0tDVzVYLXprY3U3ck9Nbk9YemFBWkUzSTlseG13Q0tZd3gxRTBYdmd1VUItM1Rkb2lFaVBBangyTUxSSHdudjJNNFJfTmF4VThKbXRUYlp3c0FIckRWMGd2djRqblVJcVF0VWhvdkZ1RDdSR3I5NXg1dHZPY2dFdng1WUxXSkVJS0ozMA?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 5 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Matternet",
@@ -2734,7 +2914,35 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series D",
+        "amount": 39000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa01iRkdkdU9aTldWNGxtZXlCeXU1SG1YSktPV2VieVc5c29Wa0hremlEczN0RlkzVUFaQ01wd19rZE5VX25SSExYUUhDNTBRbmI5TzA2ZEJRNnFhT1hBaDYzQkREWW1QbVhzMjFWaG1MRWdOUGI5Q29XR21qWkh1ZUxCNGNKSnZMT0JlWmJVM211TlktWkphQU5hODQ4WFhmVmZMSU0xR3NNNWlnNTFfWVdSMXJzTGVfZ043MnJ5R0VucXVlVG1QM3pfamxUNjY4VEEtRnlIemhJUQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFVwb3ptTTdHVDVaeWlyQW5Ia2M1S0hObmljbnIxbHhLbGFFdUF3YkRneUJZWUFlcldhc3plUC1oYmJReG0xaDNyWFl4cXdrWVB1UVRDWmRnUW5Zd1NuQmNiX0pEd3ppMU5rd1VXTWI3SnNnRnlVdmZhU3p0c0JRRjZ5dS03Qk1yY1FRQU1rTGdva3JpUGt3SUk5V3NwQm01Y3RvNktvdDZnZw?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa01iRkdkdU9aTldWNGxtZXlCeXU1SG1YSktPV2VieVc5c29Wa0hremlEczN0RlkzVUFaQ01wd19rZE5VX25SSExYUUhDNTBRbmI5TzA2ZEJRNnFhT1hBaDYzQkREWW1QbVhzMjFWaG1MRWdOUGI5Q29XR21qWkh1ZUxCNGNKSnZMT0JlWmJVM211TlktWkphQU5hODQ4WFhmVmZMSU0xR3NNNWlnNTFfWVdSMXJzTGVfZ043MnJ5R0VucXVlVG1QM3pfamxUNjY4VEEtRnlIemhJUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYTRfZ2QyVURJX2V2Mk01N1kzZTdtQTNxR3BHRi1uamJ1RkxobjFTVmdXdGN1aHhENW5jN0VjQzRIMDlLYmJCWDkwcTluLS1Kdmd5ZHluQkgyWlhfQzAtZjVMa0RwYi1oOEVGaVFDejRQUHMzMUI5NEhFWFh2RlVfLVVDeGM5UEt1WFhmR1FPTldQZTFiU3dNVnZXekpLUmNSYk9JMHJfeUl2RHFmODdBWFpRSjk5a1NuelNhWG9JWGJzeS1ldUl4ZA?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT0dnQUY4b0tvVUFKRU1ZZWJ0b21pMFVVdVNFTzJ4RkdQVG56cGwzOHMtRG1sRHpOTzF2dXBNcTdjY0x0Sjl5NWFJR2gwaTc2S0pwWHVGSUVWWWpjMXl2cmh4ZU43ckt1Qlpra2FLNXkzMHRnUVBGS3pETU9CWDNhOEtWRkNjMVBneWFmWXRRWFpkaUZ1blJuTDFhbld1VHdoZmdLT01sU2s4NDk2WTh0Mi1raXNoNGhYU1htcmNxbDVhMjJ4NXU3WnItamQxYXg2aU53dmZ3U2g?oc=5",
+      "https://www.just-food.com/news/kellogg-tyson-take-part-in-mycotechnologys-latest-funding-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 39000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "MycoWorks",
@@ -2748,7 +2956,36 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 125000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSWZTbUJlRk11QkE1d1hxTHRNdVpUV1lqSHBJWk00enFpR3BXeWxacFJGN2d2SW5qSUd4OWk2VHJuMC1FU2FnTGVsR1otUW1OV3hCWnVLYWRKczN6dDViZW4tc0x4eWQ2YkxhYktrMHFVbDh3WFlCR3huRkI1eVFNZC1BMEdQeFdmSWNtVWZRNUtTZ3pMR19ZZUZfU3FpcldFUVNQR3hWa2Q1OUVfU0xKYkQ2M3I3NldhLS0zQXZOc1ZWcnVvdjEwN2ZYSVVndWdVdnM1eUZMMy1EYzdx?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSWZTbUJlRk11QkE1d1hxTHRNdVpUV1lqSHBJWk00enFpR3BXeWxacFJGN2d2SW5qSUd4OWk2VHJuMC1FU2FnTGVsR1otUW1OV3hCWnVLYWRKczN6dDViZW4tc0x4eWQ2YkxhYktrMHFVbDh3WFlCR3huRkI1eVFNZC1BMEdQeFdmSWNtVWZRNUtTZ3pMR19ZZUZfU3FpcldFUVNQR3hWa2Q1OUVfU0xKYkQ2M3I3NldhLS0zQXZOc1ZWcnVvdjEwN2ZYSVVndWdVdnM1eUZMMy1EYzdx?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR2hwb1FzVlEyYzhYZW5aTmU3SEJSeGlybWtab21yZWhCMGF6RnBsVmIyVW1VN3d1ZHVVZ1ZVa3lkRlo0WFJsRXFrVkI1bkg0RDBMaHU4dHEydm1UejlySzFwamE2cFhUMkJsR0JtMllybkJjTGlqczc1QUFjdUVmOGdjZmJ2LWRoSG5Kb0FUTDczOHo2TVE?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHaC1tZ21ObVFGX3hRUDlVMktHdjlMZ2ZTd3prMlBlWktDTFp2WGJSdG41d2JUMjZWSjBaN29sMnYxbzV3S3ZkeVVyeG9adFRlcjJYazQycGs4dVZTUEJ1MVZ5LUpVSFN2T1ZVZlhrMU5jNXZ2NEE?oc=5",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNkZGbk9xM1ozNHFFSVl0MXR1bG15bjloQXJ4cXRZeUEyS2w5TjIxRWFnQ0RxYlNiVWtGYW5qN3FfSW50VEVXT3A3VjBsV19qYXdXYzhPWlBpakFmc0RMMVZrbE5GSk1zU20yTXBoekx6YThpRDVDMVprZnNVandSWURVWUdzYnVBbkhTMmR1emFJbFVHWnU3NU1IMVpadkFwZk9GNjBKWTVLbnVqbFNPRk1iYWgzeUtwU1k0TzJSS25OaFdUOWFz?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhRzhKR2ZjT0xWN19DczR6UVIxVmdwU2x4eXhxMDBLZXh1eF9QLXljYTFvdmtkVF90VW5jM3loak9HeTMzRGZBU3hmQ0ZQQy1QUHhSdWlNVnJDM0kyVGJxbjlpLVNvZlZoZkFiUTJmc1pjYk5r?oc=5",
+      "https://biofuelsdigest.com/mycoworks-lands-125m-series-c-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 125000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 125000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mycroft AI",
@@ -2984,7 +3221,64 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2015-04-21",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZXo5SFV2a1BIc3djRUZTOXBMbHZXczdJYWxHaUQ1UzZRRXpCeWZiTXdPMWRqSHhPbFpfcGtaU3NBSXFZQzlrZnU1cUZMdzU1eXExTXByV3lYZndNYUN4WlJRTkQydTFmYTE0ZHdTeW9UajZYazBKbHJPREUtZWRNTXpOc3lCbWwxaUdlaVVIMFQ2NDEwWDB1aUJhWFdEQ09TcHJmUW9sMTY3WUJ1MDA5LWRQbjg4X2JoVk5MYU5xSGg?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 14000000.0,
+        "currency": "USD",
+        "date": "2020-10-30",
+        "lead_investors": [
+          "Kennet Partners"
+        ],
+        "investors": [
+          "Kennet Partners"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelhkZncxVVZ6MHVkU3NNcnJKSHpLT3JaWFBETTJHeDBJcmYyNV90NWdSTVJObTloMWMwVUpPcUswX1EzaDl2blMtVG5ROWhyTnNPaHI3Tm1RTDUyUXk0VE9GTmljYlJpNXN5QmFuYjBKejB1VTRjSGdLcHU2OFlzVGd4aXFpNXdtSXhmcUllMExjQ1RaN01hdC1qUlJBMUE2QWVyYV9KdlpJSS1xWlE?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalc4ZXZUYmhKNkxMbnVYY1QtWGh6VG1uU2Q1RmZSbFMwNWZLdGI1MlBOczdTMXV2ZVBlUHRjVzNkbnRnVE4xOFg1OFo5aWZXWHMweEYyWUc3emJWTHUxRGo4blduSEVKVHVjemI1MDc3MjlFZF9vNzc5YWRnMzNwcU5ZM0NLRWcwNkNjMTdpby1ydw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelhkZncxVVZ6MHVkU3NNcnJKSHpLT3JaWFBETTJHeDBJcmYyNV90NWdSTVJObTloMWMwVUpPcUswX1EzaDl2blMtVG5ROWhyTnNPaHI3Tm1RTDUyUXk0VE9GTmljYlJpNXN5QmFuYjBKejB1VTRjSGdLcHU2OFlzVGd4aXFpNXdtSXhmcUllMExjQ1RaN01hdC1qUlJBMUE2QWVyYV9KdlpJSS1xWlE?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalc4ZXZUYmhKNkxMbnVYY1QtWGh6VG1uU2Q1RmZSbFMwNWZLdGI1MlBOczdTMXV2ZVBlUHRjVzNkbnRnVE4xOFg1OFo5aWZXWHMweEYyWUc3emJWTHUxRGo4blduSEVKVHVjemI1MDc3MjlFZF9vNzc5YWRnMzNwcU5ZM0NLRWcwNkNjMTdpby1ydw?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSmsyalQ0WE1JTF9GRDB5eVl5MVIxRENhQVppeXgycTVBQnhuNlRub2hZN2ZvLXRjNUVpYlJiN3gzc0xDYTdYYXowOTZBV0EzMEJhUXFJRWxCb19EN25kLU1XYXlFODQycWxtRkVvVmk3eGVIY3J3VGV1NUdHOGNBNnRMVFJnejdZQlhBX05VdXVTTnZK?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZXo5SFV2a1BIc3djRUZTOXBMbHZXczdJYWxHaUQ1UzZRRXpCeWZiTXdPMWRqSHhPbFpfcGtaU3NBSXFZQzlrZnU1cUZMdzU1eXExTXByV3lYZndNYUN4WlJRTkQydTFmYTE0ZHdTeW9UajZYazBKbHJPREUtZWRNTXpOc3lCbWwxaUdlaVVIMFQ2NDEwWDB1aUJhWFdEQ09TcHJmUW9sMTY3WUJ1MDA5LWRQbjg4X2JoVk5MYU5xSGg?oc=5",
+      "https://pulse2.com/last-mile-delivery-management-company-onfleet-secures-23-million/",
+      "https://www.businesswire.com/news/home/20220607005530/en/Onfleet-Raises-%2423M-Series-B-Funding-to-Help-Businesses-Optimize-and-Scale-Last-Mile-Delivery-Operations",
+      "https://wwd.com/sourcing-journal/logistics/onfleet-last-mile-delivery-software-ecommerce-14-million-series-a-1238761048/",
+      "https://www.pymnts.com/news/investment-tracker/2022/last-mile-delivery-firm-onfleet-raises-23m-in-series-b-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 14000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-10-30",
+    "total_raised": 39000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kennet Partners"
+    ]
   },
   {
     "company_name": "Orbital Insight",
@@ -3278,7 +3572,40 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNemRPYThsTGphU3NObnMyNktUYWFJc3ViNzVtWFBBN1RLaW03TXZ1MEtLSXY5cHZxdFNRaWZ1SjRrMm10Q1JHaFpmN1RkUkhMNkVEbE1xXzUxZklvcHNlNHpxNjJ0RG80aDNrY00zb1puZEU1YWktOVQxQ3pkMm9ybVJrQ2xvZ19pVlk3bHdFbEwzcFJZRlJvVmdTV252RU5rTUZucTBiRQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW11OEtuVW8tSVp6X0h1eGxTRVYxeFpYTU1jTnNzem9ubzROOHdFbkN1aE1hcGptNXlDVjJEMTlmQ1NudzRpVWF0NkJTSUsxUDcycUpHWDJtN1VnNGNQMUgwYkJuRy1nOFRYcENyUFRaOFZGaWFnRHZoWU5kd0phN2V3bktTRHI0aGV1akpLemszNHoxX1J0bkN0cVYwa3BK?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW11OEtuVW8tSVp6X0h1eGxTRVYxeFpYTU1jTnNzem9ubzROOHdFbkN1aE1hcGptNXlDVjJEMTlmQ1NudzRpVWF0NkJTSUsxUDcycUpHWDJtN1VnNGNQMUgwYkJuRy1nOFRYcENyUFRaOFZGaWFnRHZoWU5kd0phN2V3bktTRHI0aGV1akpLemszNHoxX1J0bkN0cVYwa3BK?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNemRPYThsTGphU3NObnMyNktUYWFJc3ViNzVtWFBBN1RLaW03TXZ1MEtLSXY5cHZxdFNRaWZ1SjRrMm10Q1JHaFpmN1RkUkhMNkVEbE1xXzUxZklvcHNlNHpxNjJ0RG80aDNrY00zb1puZEU1YWktOVQxQ3pkMm9ybVJrQ2xvZ19pVlk3bHdFbEwzcFJZRlJvVmdTV252RU5rTUZucTBiRQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 2700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rebag",
@@ -3398,7 +3725,22 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://markets.financialcontent.com/prnews/article/247pressrelease-2024-4-16-ripcord-closes-32m-in-new-funding-fueling-next-phase-of-growth-and-innovation",
+      "https://www.reuters.com/article/technology/ripcord-raises-40m-in-funding-led-by-icon-ventures-idUSFWN1L30NU/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ripio",
@@ -3551,7 +3893,19 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sheertex",
@@ -3618,7 +3972,43 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": "2019-09-11",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkZ3TnQ4N2l1SDNlZC0yZ09hNkRablIzTlZOMzE4aWVfWVd0d2RYTVBKRGdEczRKbUVRUVFJeXpkZ0gtaXFnQUl4MlVBckJ0WlBvd2trdWMydDI3aXVpaFlSRkZyYzdfQWV3dWtlejh2MUwzc0xkUFd5VEJGUnY0TFh3a0IzUzg3Uk9QUVhsLXJ6NEtKSE1RV2ROY2o5SzRCWlRUdUl1cmZpdlk?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 28000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON05naHoyYWdVQVRQc2xtNlRna29EalQtRWlfa2NFNUEzajQxMlp1QlM0OXdrQjRoUS1rbHI1Yl9PRDB4dmpVX241QVNYSzdwcDRuVC1pRlRuc0tKMjRZU0tieVZyYV9WbmtKYjk2S2JOVGJYVUY4dFk2VGhVeFVMRGZmZmxFSmlIUXhuVU54ME1FNUViWWdfRUxhSm5MdFJxcUpN?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxON05naHoyYWdVQVRQc2xtNlRna29EalQtRWlfa2NFNUEzajQxMlp1QlM0OXdrQjRoUS1rbHI1Yl9PRDB4dmpVX241QVNYSzdwcDRuVC1pRlRuc0tKMjRZU0tieVZyYV9WbmtKYjk2S2JOVGJYVUY4dFk2VGhVeFVMRGZmZmxFSmlIUXhuVU54ME1FNUViWWdfRUxhSm5MdFJxcUpN?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGUzSml2UmprN3huVUVpaF9aSUNvZHZudmUtRzRjNnZWWlpCY1dWbVNqVnVvRXJBVFJUTWpXQkZ5RHFkWUpoajVORzhPc0VIZmxWWDMzZGh2SlpTM1ItYU5JSzlobHpNVzA3amxOWFhqZ0h4c2Fob2NhWTVxZnFzREtqMDVBdnVBWU50S3Y5amlwUG1zOHFZWGlJcUtQVS1OT2VCaURDM2g?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkZ3TnQ4N2l1SDNlZC0yZ09hNkRablIzTlZOMzE4aWVfWVd0d2RYTVBKRGdEczRKbUVRUVFJeXpkZ0gtaXFnQUl4MlVBckJ0WlBvd2trdWMydDI3aXVpaFlSRkZyYzdfQWV3dWtlejh2MUwzc0xkUFd5VEJGUnY0TFh3a0IzUzg3Uk9QUVhsLXJ6NEtKSE1RV2ROY2o5SzRCWlRUdUl1cmZpdlk?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0xBVDByWTZvalJ5T2VXRk9LbE1Pdk0tZ1FfaEJwSHZmb25xQmRKY0ZCZDlCSFJpV3NtQ2ZkdzQtRXZQbWJvdlBlb2dEdXdKbUZzUHEwNDdVY0pCT2JRUDJ5WnBReGttbEQ3TGF5UjdmeTdqamU3ZkI1ZDBQaS1MREZKVFpkTlVsTEgzQUd0U1E2b1k?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-09-11",
+    "total_raised": 54000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SkinnyDipped",
@@ -3786,7 +4176,19 @@
     "everywhere_tags": [],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Teachable",
@@ -3868,7 +4270,19 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Trusted Insight",
@@ -4004,7 +4418,19 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Voyager Space Holdings",
@@ -4072,7 +4498,32 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOT0hDQUU4VWg2ZEtIZGh6NktabmNxQkJhd2ptVDlHNVFncVBPci1CVzBNWE9hNXBXd1VhSGRsNUtfMkppMnM3cHRHSkxQckU0N2M3eWNObk1HY0trQVJyUjhGR0d4LWYwbE4wYnh0dklCclAyeGpKOVRleFlmMFpfTVdnWDZuNG92cmhjSl9YdDhDam9fR2g2U0dTZ0gxU21KZzltcnloRFpuZjFJMGpseUJreDFKUVRWZThoU3l0bnBUTkxLZFRlVURFNVhfOXdfRDhBX0ZRQlBEWTFfYnNZUXBRYXdQb1dwbkZqVDBwNV93aVdHVGU2T1NmaEY3ekRSWHNGTzVyeXEzWFNqUGFSRzRKU1dzdFJoUER5aUI5c01RTktmcHc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgJBVV95cUxOT0hDQUU4VWg2ZEtIZGh6NktabmNxQkJhd2ptVDlHNVFncVBPci1CVzBNWE9hNXBXd1VhSGRsNUtfMkppMnM3cHRHSkxQckU0N2M3eWNObk1HY0trQVJyUjhGR0d4LWYwbE4wYnh0dklCclAyeGpKOVRleFlmMFpfTVdnWDZuNG92cmhjSl9YdDhDam9fR2g2U0dTZ0gxU21KZzltcnloRFpuZjFJMGpseUJreDFKUVRWZThoU3l0bnBUTkxLZFRlVURFNVhfOXdfRDhBX0ZRQlBEWTFfYnNZUXBRYXdQb1dwbkZqVDBwNV93aVdHVGU2T1NmaEY3ekRSWHNGTzVyeXEzWFNqUGFSRzRKU1dzdFJoUER5aUI5c01RTktmcHc?oc=5",
+      "https://www.wsj.com/articles/funding-snapshot-preschool-startup-wonderschool-receives-2-1-million-1515431727"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wrapify",
@@ -4134,7 +4585,24 @@
     ],
     "primary_investor": "Hemisphere Ventures",
     "source_url": "https://www.hemisphere.com/companies.html",
-    "scraped_at": "2026-10-17T18:05:14.529607+00:00"
+    "scraped_at": "2026-10-17T18:05:14.529607+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZREdjVDNvbzZHU2NZTTRNNkFTQk5mdDRhc0NNZWpVSGI4YW4wRXJDWEsycmhLbXlKRzUyWG9JdFhubmNmWklUb0I0SWxIOVlwc3p6RmlCRlJFME1KNTl0ZDNlclRkTGs?oc=5",
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQkFPYlJFckNHaXlxZWJSaXF1RnA3Q25OMXFFRWJUQ3EtOHFIMXJXOUdNNTJiNU5KTVA3VnB6Nk15WnRXTG9obHpJazlMTEVqcnh3WlV3WlJGUlVhcThMaGdjdm5FU3hudzlZOXRXeHh3cWJEZUFDblVBVmR1aHZPRmRhMjhhZFRuTFc5WmxvOGtUeXBLQUwtbWtDbF9tSlVsVjc0bzlTLTZ2YXNETUZicXNFM0RQWGNPWHo3QU55OWFyUzY4aG94X0RzSDB0azh4Ym5hR3B6UTN2eUdKSmtF?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ucFFsdUMxb1ZkSzB2S2hKNUtxMVNvcVRrWmEySkRlWU5SRDBaR1dVWEVKNDhlejhhbHpfejBtcU45MmlObnptLWhOUW90VEMwMVE1MlR0bzhfM0NkSVZTdlNJcU0wNkoxM0JDZVF2UlRtZjRORjBr?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5neHRoMWxNcVBLRHhKTHdIZ1V1dU9PNWJGTzNlRmJHZVJCV3AyZ2NoemlYNEwzYkMyeFJOMFVoZnA5OHZvMm1YLVg0dWExWWg5amgzNWRWWnpLVGFZemRfN2kyQ0NzbVR2NGNfX3VWUUNnbldEbGlJ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zeus Living",

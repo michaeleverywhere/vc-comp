@@ -4983,7 +4983,63 @@
     ],
     "primary_investor": "Cota Capital",
     "source_url": "https://www.cotacapital.com/companies/",
-    "scraped_at": "2026-10-16T16:49:44.797343+00:00"
+    "scraped_at": "2026-10-16T16:49:44.797343+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7582473.0,
+        "currency": "USD",
+        "date": "2018-08-13",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1751020/000175102018000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2019-10-30",
+        "investors": [],
+        "source_url": "https://pulse2.com/truebill-15-million-funding/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16999983.0,
+        "currency": "USD",
+        "date": "2020-10-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1751020/000175102020000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2021-05-31",
+        "investors": [],
+        "source_url": "https://www.bizjournals.com/washington/inno/newsletter/24024872?limit=20&skip=100",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/truebill-15-million-funding/",
+      "https://pulse2.com/personal-finance-app-company-truebill-raises-45-million/",
+      "https://www.bizjournals.com/washington/inno/newsletter/24024872?limit=20&skip=100",
+      "https://www.sec.gov/Archives/edgar/data/1751020/000175102018000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1751020/000175102020000003/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 45000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-31",
+    "total_raised": 84582456,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tubi",
@@ -5439,7 +5495,55 @@
     ],
     "primary_investor": "Cota Capital",
     "source_url": "https://www.cotacapital.com/companies/",
-    "scraped_at": "2026-10-16T16:49:44.797343+00:00"
+    "scraped_at": "2026-10-16T16:49:44.797343+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4099999.9999999995,
+        "currency": "USD",
+        "date": "2013-07-10",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/zoomdata-secures-41-million-in-series-a-funding-led-by-columbus-nova-for-big-data-visualization-214881101.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": "2014-07-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581184/000158118414000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2016-01-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1581184/000158118416000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDlOR0NyUHd0VG5GV0dnMnNxaFo4MjktR2htbzN5TjJsMDBnV0kybGd1WWwwNnlwM2FPVG1TZE5DbEdueElucGRvSWxhamNrNXhtY0FmQUJ3ajhjVTFzTlBpQVVseFFYVU1vX2JxaFJaSHFWSlBYdTlfZHZCaHNrbjBJbUc3S1Jqa1NYVzlGWHNPejdmUXlOQ0FsaWZxbmJtN2VMTVZ2cnFZMWpXU3ZQemlWdUdhOHZTWGVWYnAyYWM?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEh0aDYwTnA5V0dVZGhWNDJ4RHpuUWhFVHBWZXluTlhnS3llX0ozV0dYbk90T3RVTWZzclRxSVNBWFFJalk5V2pUM2NPM0FHcG9PSnE3UkY3UWM0YmJPSE5BdGlmMGp3YUlPZWVEcDFTR1FEbG1YcXdkbHpuM2JOaE4xSXZZWVE?oc=5",
+      "https://www.prnewswire.com/news-releases/zoomdata-secures-41-million-in-series-a-funding-led-by-columbus-nova-for-big-data-visualization-214881101.html",
+      "https://venturebeat.com/entrepreneur/zoomdata-gets-17m-to-help-your-company-analyze-big-data/",
+      "https://www.sec.gov/Archives/edgar/data/1581184/000158118414000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1581184/000158118416000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-01-20",
+    "total_raised": 46100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zymergen",

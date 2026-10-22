@@ -1825,7 +1825,19 @@
     "everywhere_tags": [],
     "primary_investor": "First Cheque",
     "source_url": "https://www.firstcheque.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:53.493973+00:00"
+    "scraped_at": "2026-10-17T20:05:53.493973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Maplemonk",
@@ -1910,7 +1922,57 @@
     "everywhere_tags": [],
     "primary_investor": "First Cheque",
     "source_url": "https://www.firstcheque.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:53.493973+00:00"
+    "scraped_at": "2026-10-17T20:05:53.493973+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": "2020-09-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNmJ6MGlWNFFIa1lmN2xQZmFYLTZEMlZISmpKY1EybEhYdE4xeW02c3Y4VWNVX29EdG9jSmNCd0RnRk9PR29ab1UyMTByZTBBZWgzcXlZaTlOTEg4WWpEU3UxOHJSMktCZ1dRM0tzWTY3X3JhMmRZVG1Bckl5MFJyVGQ3alBXZw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 144000000.0,
+        "currency": "USD",
+        "date": "2020-09-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tZGd5Ni1PNG9YSDJwb3h6Y2V5OFgyMkxSUkxocVZUNU5CQ1h3azZpWkJRMnJvcmtZaks5bFZ2VFRvNjZCSUJRdHcyZDhyR1lQNmJwNk1Rb2thdGpyZXBhQW1iOVZlWkxZS3JYdFlhOTlpY09NdUVJS3JSVnY?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 110000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHE4amhGX1BDUkhqN0lsbTlOU3hxZk9yMXo1bWxMYTJLbWJ2OGYtR0xJclBZRUhVUWdZdUsweWFxV1BEVW9HRFVkaWpSMlY2Sm1YcXV3bWh0OWpkMXRZOFBzXy1QV2VWdldLU3JpRmRXZkdDc3p1M3RNNGh2bEFqbExqX1RzdUU?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN1VybF83emxXTnYxazRHckxnUWU4Y2xWRDBqSzIzTzd0cUVRSzF2T3JDQnNWZ3JSdExfa3FTanhKYU85d25LcnBHNm5aZHVOd2lnUm9URXJsOGZPeENERUpVMkNhQTVwRm5kSU9lOGplMF8tU3ItTllIRFd0Z3pYanNldGw3bThBUFBlLXJ0Ykx1bGNDSzdIcFUyX1ZSSnhsX3JGemVMRzhlN0ExRjNINA?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pV3BMZm16VEtyT0tMYlRSMzVDVmVkdTBpVVVVTm5INDZrVUxwd1pkeVI3Znhhbk9GMU96b1ZhaHoyNU40RDJveE5hQkFmUC1BemZiSHVLMDVHMjdXN08zdC1YYV9xa2N3?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRmF4NXJVNnRLckF0c3o5QVFVMkM1V1oxU205UGxPY1FfQzRETHNYSzZxUjF2SkJ1dzN4emxPTDRnbjJBTHVLS0MzSWZzRUJMZzJBOVFnVjVIVVNlLXphMzFSOW9Xb2JzVXV4emh2cENHSExkYUFzWEhfNGtHSlNWbEJNTVpzejdZU1l6Q3pKcWV5ODJ5QVpmRkItOUlhUDBSZERHZTNWS042UFpZYnZ5UTAxTlgyRFY5WG1xMA?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR1lTZGVGY3ZxQ2hvV0VhSWN6YUgxX3BjUTh6WVNQU3V2WGRKQl9hcFF6MFFnaWwtbnNPeGxDMHlPWG5DVXljdldTSnBqMjhDRjJXcm81LWZxRGExc21GY1NkNDIteVp3VV9kUm9MSTVjbmZSamZvT3dTSmtIeGxSckVYajJaQl82dUcxamZ5M1Y2UE1hMU5SQnVCeDlkRDhPV1lHUXB5SnVKdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSWdvUm1za2pWa1Z1MUpWek05OHRsZHR0V3pjMm93QlB5QTFCSkJ0X3ZabGd1UXpSWVdRd3RwM3VmNnJ0cUNMT0ZTeEFjN3dWMFhqUTJSWHZYN1pqQjhNUTlEN0JKWTRhdW54djNWMTF4bzUzaXJ6cllSR1ZpVUFua0Z0NkZsVEhtSGJnTERWUEJ1WWtheFp5UXpuaDZzR2hmSFJQMVNGTnZSWENKbTd0OFgyYWFTMTJyZUJNWUdaZGZ0RnN2N1pkTWtKUlAxT1dhT09QYTB1OWR6bzZoRVh1a1hNS3gyNTkyOE1ULWswRzFvT3JscFlESHg2MWEtd2ZzTEE?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNmJ6MGlWNFFIa1lmN2xQZmFYLTZEMlZISmpKY1EybEhYdE4xeW02c3Y4VWNVX29EdG9jSmNCd0RnRk9PR29ab1UyMTByZTBBZWgzcXlZaTlOTEg4WWpEU3UxOHJSMktCZ1dRM0tzWTY3X3JhMmRZVG1Bckl5MFJyVGQ3alBXZw?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHE4amhGX1BDUkhqN0lsbTlOU3hxZk9yMXo1bWxMYTJLbWJ2OGYtR0xJclBZRUhVUWdZdUsweWFxV1BEVW9HRFVkaWpSMlY2Sm1YcXV3bWh0OWpkMXRZOFBzXy1QV2VWdldLU3JpRmRXZkdDc3p1M3RNNGh2bEFqbExqX1RzdUU?oc=5",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOemU4MThZWkdUb2g0Vk1ORDFGb1k1YnpDZmlxLTdfVU5mcmdPMDVGdXpmbVNwMkF2YmpMTXBZSm9vZnFYXzdjSEVpUEF2Y3Y4MUZRQWZKVDA2RUZ1WkFpNmc1NjdiVWlNZXpkM24ycHFwRHNfdmVjUHJkV2JvZmFDbUJaRmdGdVZmaEM3Mi1ET3pNODRBTHFmdWliLTB6dlc2MDEwVkJuSFJMcWM1Wm42Rlp0WG1GUW1JaF9HV2JuYl81Y2ZiaUVkdmJIZ2tkVTRBU1haYWhwRlRhT1ZOT3FERGp3WDlSczA?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tZGd5Ni1PNG9YSDJwb3h6Y2V5OFgyMkxSUkxocVZUNU5CQ1h3azZpWkJRMnJvcmtZaks5bFZ2VFRvNjZCSUJRdHcyZDhyR1lQNmJwNk1Rb2thdGpyZXBhQW1iOVZlWkxZS3JYdFlhOTlpY09NdUVJS3JSVnY?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-09-08",
+    "total_raised": 334000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mingout",
@@ -2909,7 +2971,19 @@
     "everywhere_tags": [],
     "primary_investor": "First Cheque",
     "source_url": "https://www.firstcheque.vc/portfolio",
-    "scraped_at": "2026-10-17T20:05:53.493973+00:00"
+    "scraped_at": "2026-10-17T20:05:53.493973+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wealth42",

@@ -2878,7 +2878,24 @@
     ],
     "primary_investor": "Bonfire Ventures",
     "source_url": "https://bonfirevc.com/companies",
-    "scraped_at": "2026-10-15T13:22:53.107894+00:00"
+    "scraped_at": "2026-10-15T13:22:53.107894+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/pathmatics-raises-3-million-in-series-a-funding-to-bring-transparency-to-programmatic-advertising-300230084.html",
+      "https://labusinessjournal.com/media/pathmatics-raises-3-million-launches-new-ad-data/",
+      "https://www.mrweb.com/drno/news27044.htm",
+      "https://www.mrweb.com/drno/news22304.htm"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pendo",
@@ -3453,20 +3470,35 @@
     "primary_investor": "Bonfire Ventures",
     "source_url": "https://bonfirevc.com/companies",
     "scraped_at": "2026-10-15T13:22:53.107894+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2026-01-26",
+        "investors": [],
+        "source_url": "https://www.webwire.com/ViewPressRel.asp?aId=349668",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.tryrisotto.com/"
+      "https://www.tryrisotto.com/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxObjhqaGJBR2ZUR2IySGlwSW1scnctZy1SS0g3Z1dqLTNkUEdkOV9XOWlxNW5yWTl2MmZzTVhYa2NPeGNrUWVvZjRwUDBnSTIzcDdyVXh3TFAxQlhFLUllVkVoNDdqUjI4SXJqQjhPLUlXZzFlZXRmTWt2VEl2M0Nhb2J3ZUh2MExkajlUSS1YRjUtVmZJWFc2OE90Q3JaT0QzOWt0d2RRRFVXV2dZ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQakxVNmJuZlJrRDg1RnZFSTFhcnI3ejdkS3dfNDVlY2lQb3RJWWVEVGFMWWRPQTNKNG1rSXRpc1BxMGNUQl9xSHpQc3lIZ0JRZEstZTJtNDd5cDRtZW56Z1hYcmFWRXd6bDZ1NURBODY3aW1NOXdVMUsyZVVBNF83S3UwcUh4V1FkQU9BVV93?oc=5",
+      "https://pulse2.com/risotto-10-million-seed-funding/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=349668"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-26",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rockbot",

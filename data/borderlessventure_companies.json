@@ -7,7 +7,19 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Akash",
@@ -583,7 +595,52 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2015-11-05",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 32000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MTnRoM2ZnRDI4SUtyVXA0VXdKZkZ1dFpBSHhSWEVRQ283M3UtYkZjTHFLWF9jRkd6bFpkUV9BVDRkeVJPX0p5a1VDOWhqVTlXVEptbnhOZVFfOFptbDVGV1J2UkdPT1NS?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc3ZGVXg5dDBJVU1lN0RXUEtKMlN4YW5WSzVvVDZ6SmxFYTA3NEVCak5zODlkMlZPQ0ZjSmZOcHpXblc1cTNweC02N3RocExGTjFFLWFPdEs4eXYzMlQ4T1RvbTRsRXdyd2xnYmZXeEVmeGtVdTY0R3hjQ1V2RlF3NW56RjBXYWUyOV9zc0s4aUxQRVVYRkFqWkJ4b2oxeF8waC1Ia2xDR0QzVE12V0VMZzBURmtFRXZ6T25MY2taVEttT1UyRUN0SlA0UmUwQmczeXhqYkZaMUxqSmNYUV8tOUhaSlFFZWZqUWdOc0hlMndWWWM?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZVd1eE1QeEpWY0xsbkFPS0xYS09vbC1lbjJwWnY1dGVjOXB2YjhGS2JiSkpVWjVQT3BLdm80aWU3S3pfMWpQX0hxX1doaEVlV3lLY3ZMMU9PTlFLNDN0bGQ4bWJsT1Npc2JQRk1OdFN6VHlTZS14X1llVF8wRjIzalI4eURiNThrb3llTC1TRksxVDlNXzFJSjJ5dEh0NXJTeDlSakktaHc3OVJkekFNQkhKQjlrWFJiSHZ3YjRtVXdPZw?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUJKbWFwc18xLUdleW5RMXcwU1V3R0tiRUdLYXhBdXUzeEhKT0NfT3lUV2d5ek9qZUxXZUZWQUM5c1phRVNTdHJXeThWTERhekFuVEZfdTlNN255UVhfbjVyTnJCcUdvU3VsMURaV1Zvb2pWdkJmS2pEOVl6ZW85ZzFIemdCRlRaUDNWdDlBbi1TaFZWZDMyT2xNVW1xVjNoOHdPeUpwRTRhNEhYOFRJMWZmNjU?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa2ZOcDlhWHpfc29oY1M5ZURHVVU5dnBta2ZZVGJUV3ZtcmJsdjluNDZubXpQMVIxSjRFMXBSTXNfTjJjakdtczl4ZTIyRVZDcE9TcHNXVS1DcFVBelZpNHRtUFJuTjVfRmFwa1h3RVpSaENqaVUtU0h5OFpIZV95dw?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-11-05",
+    "total_raised": 53000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hotspotty",
@@ -757,7 +814,32 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZF9pNWJpcWNpYnRpM2FkeGt3QUo3S0hBOVFWVTJHOTZNZDdXc0IycVR3TVpnU1c5Z3diRlZDY01YZFY3Mko3QlpYWjFQODJGX0gwMjZBai1iLXRteGlnVkNTbkQ2UE96TTZ5bmJTSnRIRkNzSElqcHNCQzF0blJpbUpQUnlHank3eEtiOFYwNHB6d1pXdm9xYURBeDhrT3k3MUZCVWhfQXNPem45Ykhnc0JwZEJMYVEwS3diYi13?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZF9pNWJpcWNpYnRpM2FkeGt3QUo3S0hBOVFWVTJHOTZNZDdXc0IycVR3TVpnU1c5Z3diRlZDY01YZFY3Mko3QlpYWjFQODJGX0gwMjZBai1iLXRteGlnVkNTbkQ2UE96TTZ5bmJTSnRIRkNzSElqcHNCQzF0blJpbUpQUnlHank3eEtiOFYwNHB6d1pXdm9xYURBeDhrT3k3MUZCVWhfQXNPem45Ykhnc0JwZEJMYVEwS3diYi13?oc=5",
+      "https://finance.yahoo.com/news/decentralized-video-protocol-livepeer-raises-110000595.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mawari",
@@ -767,7 +849,44 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTFoyYWh4cE9hLTRxUzdNRDZCVDZiU1I5ZDhCdklZbmczTXJFbjdFTTF2Rk1hb0RJU1ZpeEw5bDUwS0tPVWl2Z0Z4ekhnSENjMktYdENJeXFHOEpNYW5kSHlxVUVOUktwSFBUNmxaRy0xWUhUenMyaVllTHRsLXFiOElfeVd3TkhyMTlmTlAxdVpDS0daanV0Y0lxNDFPdnVxWVVVLXI0dGxRUm53Z0N0eWxWUDd6cTJRU3B4aVJFSUVsNjhsejNDLTZ4WXV1MjVzRU80NWI2Y1B6OG5QRm9wZmV4TUJwZGdRLU9oNmk0RzdVUQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10800000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmZ3UW1SZk9FUWNzenFLNFhMZ2gwekFOcE0zV25ZNmEyZkN6UmZIYzlCWURkS2pFcy1nVnF1bGxXUUsyYXdSUGpuOFVhazBUTDR3T1JOQ2R0c3FTRkt6aFRSd2dubG5fSWFoYTJRb0JrMUtnVkxvS2Nfb2RHV0ZOR3dJSVBGRy12SEVaUEM4VUVDV0ZGalZyYWZIQ3ZwS3pxQ0xCcFBlS2QwbEZEb2JqcXFONGFKdEwzaVV1T0lxa0hwZw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmZ3UW1SZk9FUWNzenFLNFhMZ2gwekFOcE0zV25ZNmEyZkN6UmZIYzlCWURkS2pFcy1nVnF1bGxXUUsyYXdSUGpuOFVhazBUTDR3T1JOQ2R0c3FTRkt6aFRSd2dubG5fSWFoYTJRb0JrMUtnVkxvS2Nfb2RHV0ZOR3dJSVBGRy12SEVaUEM4VUVDV0ZGalZyYWZIQ3ZwS3pxQ0xCcFBlS2QwbEZEb2JqcXFONGFKdEwzaVV1T0lxa0hwZw?oc=5",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTFoyYWh4cE9hLTRxUzdNRDZCVDZiU1I5ZDhCdklZbmczTXJFbjdFTTF2Rk1hb0RJU1ZpeEw5bDUwS0tPVWl2Z0Z4ekhnSENjMktYdENJeXFHOEpNYW5kSHlxVUVOUktwSFBUNmxaRy0xWUhUenMyaVllTHRsLXFiOElfeVd3TkhyMTlmTlAxdVpDS0daanV0Y0lxNDFPdnVxWVVVLXI0dGxRUm53Z0N0eWxWUDd6cTJRU3B4aVJFSUVsNjhsejNDLTZ4WXV1MjVzRU80NWI2Y1B6OG5QRm9wZmV4TUJwZGdRLU9oNmk0RzdVUQ?oc=5",
+      "https://www.forbes.com/sites/charliefink/2024/11/07/mawari-raises-108-million-to-launch-tokenized-spatial-streaming-network/",
+      "https://br.advfn.com/noticias/CHAINWIRE/2024/artigo/94619409",
+      "https://news.bitcoin.com/mawari-raises-10-8-million-strategic-funding-to-scale-spatial-computing/",
+      "https://www.investing.com/news/cryptocurrency-news/mawari-raises-108-million-strategic-funding-to-scale-spatial-computing-3634806"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 17300000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mayan Finance",
@@ -799,7 +918,19 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MPCH.io Labs",
@@ -943,7 +1074,19 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "OSPREY FUNDS",
@@ -1075,7 +1218,19 @@
     "everywhere_tags": [],
     "primary_investor": "Borderless Capital",
     "source_url": "https://www.borderlesscapital.io/portfolio",
-    "scraped_at": "2026-10-17T22:12:46.991799+00:00"
+    "scraped_at": "2026-10-17T22:12:46.991799+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Quantum Temple",

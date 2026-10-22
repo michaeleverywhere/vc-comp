@@ -739,7 +739,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "FEZ Inc.",
@@ -963,7 +975,56 @@
     ],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZGttQU5LLVVyWlFtM2UxTmw3anFzQ09SWjFMaG1RUTduYms4TW9qOVY2ckd2bUwyR0NmQkZFZWQxbTNpbWI2UHpaaFpiQmdoNVFPQWF3UVI4Zm5tQWsxYnBZVDZubmZHUTBHVmw2ZVl4aElEdmc4b0tRYURmX09PV3FQbmZEdFBJSFBlLUJfQTd3VEpFNUtqVGs4ZVplaWxPd2wzaGdCcHVhU0t6S2EyTjV2Z0RwcDhLQ25pMjZCN1JwdktlZEdOWHhZTEtobjRtMi1KTTB5bDA3X1A3TzdpUFVVYkRUOGdBZEE?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 44000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmlydDhzSmFHUl8yaG5ZMjlzSEZSUVJrdTlJUHpkdi16NGZWY2tNNDg5WFQ4WFhQREVkZVpRdmJCeXpESkl3SEg5dHh6c1ZBLXVuSTlyZ3hYeWVoMFR5T2cxd1pTY3U1bWZOdk1PTExIY2U1Zk1RZ1pGakVkZ3FyOXpnaVZ5Q3RfdkwtdlRGYWt2MjVKaW1vY01jcG1WaWFkNFRYaWozMkp5VHRnd0ZB?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMC1KcEgxOUczT3FjNERjaGJmT1hwNTE4ejBLYU9IYXdlVmJ5eXVIb19kd0N4SUt0RFRMSTZWbzdOemJoWlZEMUpGR2VReHdJM1lDRFZSejJUV2tzblY1R0NIbXJUXzRmdXhmTEhkVVFfWV9nTHdUUDhvMmQyNzVvRVV5bDloa01tXzBPX20yZUNNZG9rdHJDWEU2VWk2amdGZTRSU0U5cVE3ZXU4aXZMTk5JYXlMdw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMC1KcEgxOUczT3FjNERjaGJmT1hwNTE4ejBLYU9IYXdlVmJ5eXVIb19kd0N4SUt0RFRMSTZWbzdOemJoWlZEMUpGR2VReHdJM1lDRFZSejJUV2tzblY1R0NIbXJUXzRmdXhmTEhkVVFfWV9nTHdUUDhvMmQyNzVvRVV5bDloa01tXzBPX20yZUNNZG9rdHJDWEU2VWk2amdGZTRSU0U5cVE3ZXU4aXZMTk5JYXlMdw?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsOFhrODRCckh5aXhnWXhnSHVFZy03cm41YnEzblNBOUUwTTZUVkFuX3psVEZnNTJFTlVjMklpRzRORkhBeUpKZFhwUUZiRlVkTnRnTXI1WUpkMy05LXp0NzltSnBpZmg0NmhjU0JyZkQ5TkVyemk3cy1hRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSFRpWUJMcXpDaW1HamY1eEFVVG5QTk4xYlZGaTZ3YnlYNDlBeV9hdnRURDk1SXNzekpUMXc4WXo2MEhQWDdEQlpjRC0zd2RFOFBfX1puNk9hSEVFRkJOcjB5blM5VnotV2tDWWhPNWVNVVk4WG9fWlhuX0F0Q2Nzd3duMmdub2c5Wk1rZnpRcXltRkczMkNPaW5uV0VGSW1hV3FpVlY3blRVb0RISTJsdVNWMG93ckZWenR2LWdZVWlwRTZxZU1mUDBKVXVKS0JKbGc?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTG1nUlNDaENNd1pvNE9EVU9LLTlnUGtPSTJ4aXEwcHNiR3F3ZlJVYWlneVJYb1hfS1RObGpQU2JyOFA4M1F1QklwSzZMNVhVSEE2QnJXb2hnaGVQS1ByM1hJckJDczJFTVZCOGtyM1FZMGZfd1hCdlNUb2hqV2F4VjZJSXdMZw?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDFHWUdsbHBOb1NublhOUThsSk9wbkpfMlBqVHR4NUtrT3Z6VjNING1MTzRYNUhXWDFiRzZTREhocGxRRTY0dXExQ3RlLWRqM0VmX3RsS0dtWV9UVjBEOVIzWWJLejJzcTBtMkx2RGFkbGhCdkI4MTdFWmZScEo5TWpLUjNtMWhFQkV4dGw2cWhuU0hsRlRQUWlLSEQ0ZEk2QUJwMzYxUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMU5qVWRXbnRIRy1oTmNkZFRsZGx5LW9MRW03SEFRaU1OYlFXQ0pJRDFMdllsX3pENmw3MkRURXdTbzBrVC1VenRQcVNscGJnTWFVRFJ6SVV2V1pxYzdGcmJhbWY1TGlpb1hSdUdDWDVKMm1tZS1iUHNpWmJ4Qm5HekdZcnJPSTRZOEdvV2lXNnZmSHRlNHJ1dmtQMmZrQWxJMUV2dXZwVTFFNTJPUWpIVjVYWHpzbkQtTzJIU01teFh6c3NYSzJ4NEhOQkJyOUJhdXc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmVqeFVsRmFmS2Z4MXB6ZWotbmw1TC1UWk56bGE4ckVoSko1b3VOaDFsTjFMeHdaNWpBUmw4Nzg3Zmt0M3dVR3M1UnpxWmg0LURtY1ozeHVoUGR6RnRCdzRYb1ZBNlpzVGhPbktKeFNiWE1pT2tEdTFiX21XeTU5eWxHczVvVGhuZy1rNThQS0U4MkFVRkdBLXZR?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXBPX096ZVdCSmhzZ3hmQU95Z3RFM0lXaWVDM1VydDN0OWVsQ3lPSndOUjBHcU1rM0Zibjk5a3ZuYTAwZ05IOVpBLTJIcFpoRWJZM0FkeFFQaTB5Q3RxcFZtZlBqUFpXTC1IT0ZVb1Y1ejliWFFZclpkSjNnSzZHRldPX29wR1d3SXJzTGlKTGRGSXNZdURENWdkNlEzMEE1WFAzbw?oc=5",
+      "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZGttQU5LLVVyWlFtM2UxTmw3anFzQ09SWjFMaG1RUTduYms4TW9qOVY2ckd2bUwyR0NmQkZFZWQxbTNpbWI2UHpaaFpiQmdoNVFPQWF3UVI4Zm5tQWsxYnBZVDZubmZHUTBHVmw2ZVl4aElEdmc4b0tRYURmX09PV3FQbmZEdFBJSFBlLUJfQTd3VEpFNUtqVGs4ZVplaWxPd2wzaGdCcHVhU0t6S2EyTjV2Z0RwcDhLQ25pMjZCN1JwdktlZEdOWHhZTEtobjRtMi1KTTB5bDA3X1A3TzdpUFVVYkRUOGdBZEE?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmlydDhzSmFHUl8yaG5ZMjlzSEZSUVJrdTlJUHpkdi16NGZWY2tNNDg5WFQ4WFhQREVkZVpRdmJCeXpESkl3SEg5dHh6c1ZBLXVuSTlyZ3hYeWVoMFR5T2cxd1pTY3U1bWZOdk1PTExIY2U1Zk1RZ1pGakVkZ3FyOXpnaVZ5Q3RfdkwtdlRGYWt2MjVKaW1vY01jcG1WaWFkNFRYaWozMkp5VHRnd0ZB?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 209600000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hayden AI Technologies, Inc",
@@ -1169,7 +1230,43 @@
     ],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": "2020-11-10",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk1BRmkzcEl5OTduM0RodVQ0aHpjRzliS3lXRmdYWGtUcFdpVFZJOWFQQjJVbEpSakZCLTFmUS1ROXJ4b0xXYWV1M1l1WGhVU25SN1gyUEJjR3ZOWFpZR2JoRGlXVFl1RnRvU3pvcUxlSmRLcFBCQ2dOTTJIUzREM0JqNk1waVFOWWtFeW9DdkZjMUhKck1qVkFCa3BlZ0tJamxuSlBrMG1oU0wxdjU0VDJERzUxTWRGd09XZA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series E",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-01-18",
+        "investors": [],
+        "source_url": "https://pulse2.com/jumpcloud-raises-100-million-in-series-e-funding/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb2xKNFM5bTBGTDNpQVJUWDdteHBvTHhfUXpGX1lLRVdpYXlKZWE0MlhvTFVqMDd6U29lUk05WHFuQlVieWw2OGlJRXF0WUtxa0JBdWlSUHRxTnQ0RkJqZi1odXJRR1NzZ2xpQkFHclFzQ1hSUGxaeFJLd3hBelF5QU1CZVk5N2Nw?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk1BRmkzcEl5OTduM0RodVQ0aHpjRzliS3lXRmdYWGtUcFdpVFZJOWFQQjJVbEpSakZCLTFmUS1ROXJ4b0xXYWV1M1l1WGhVU25SN1gyUEJjR3ZOWFpZR2JoRGlXVFl1RnRvU3pvcUxlSmRLcFBCQ2dOTTJIUzREM0JqNk1waVFOWWtFeW9DdkZjMUhKck1qVkFCa3BlZ0tJamxuSlBrMG1oU0wxdjU0VDJERzUxTWRGd09XZA?oc=5",
+      "https://pulse2.com/jumpcloud-raises-100-million-in-series-e-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series E",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-01-18",
+    "total_raised": 175000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kaizen Platform, Inc.",
@@ -1253,7 +1350,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Libry, Inc.(former forEst, Inc.)",
@@ -1281,7 +1390,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Lisnr, Inc.",
@@ -1295,7 +1416,22 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.newswire.com/view/content/lisnr-lands-intel-capital-and-series-b-funding-totaling-10-9526818",
+      "https://www.bizjournals.com/cincinnati/news/2015/11/03/lisnr-takes-big-big-step-with-multimillion-dollar.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Lisse Co., Ltd.",
@@ -1421,7 +1557,21 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/metawave-funding-denso/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "METRON",
@@ -1519,7 +1669,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "mov inc.",
@@ -1783,7 +1945,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pixie Dust Technologies, Inc.",
@@ -2223,7 +2397,19 @@
     ],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Senseye Ltd.",
@@ -2417,7 +2603,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Techtouch, Inc.",
@@ -2736,7 +2934,51 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 23000000.0,
+        "currency": "USD",
+        "date": "2019-08-08",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeG9VZWFfcHF2d2ZTeDMwQVRFcWhvUUJNSFVpNS1SeTJiYnRyaFh1a0xHM3A0VUFwNzNsRWphUHFlXzkwX0FvWFlIZ0dZTmMxRU1zTS13cmFKQkY4MnM5S296N0pUUkFRdG9xb255Z3dpbEJXeHNZLVM4Wk5ZQXU1Qms4bkdsdG1TbmppMzRJYVlaNjVWcFlhRnNZTWdCNDZ2ZXU3VXFKVQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ITHJGTDVYSjU5VkdvN1ZWX2dRWTJMZUR6ZzZDUE1reVV1TDRXMWhYSVNVdVliTVlydzJCeG1BMDMybmdDNUxhRFc2QkVGSnU2VTFvVHhPZnhKUkhmeUZ6WEhpUVVYSXFYTUJHdmVfOVI3TFcxY0E?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GbktWaXk5Y0lrRFN6bGU5QUdhOUVYejl0WjBaZXgzSExQaUJNbHBmWENjbk9UZDVFMTUwQ2xfdnJJdm8yQ0ZqSncydDZHQkZkRFE3TlFSenc4M2M1dG94cjJEQUxXSWlrbHFEakRZV1llT1hoalE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GbktWaXk5Y0lrRFN6bGU5QUdhOUVYejl0WjBaZXgzSExQaUJNbHBmWENjbk9UZDVFMTUwQ2xfdnJJdm8yQ0ZqSncydDZHQkZkRFE3TlFSenc4M2M1dG94cjJEQUxXSWlrbHFEakRZV1llT1hoalE?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ITHJGTDVYSjU5VkdvN1ZWX2dRWTJMZUR6ZzZDUE1reVV1TDRXMWhYSVNVdVliTVlydzJCeG1BMDMybmdDNUxhRFc2QkVGSnU2VTFvVHhPZnhKUkhmeUZ6WEhpUVVYSXFYTUJHdmVfOVI3TFcxY0E?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNU1pYQ2R0ZUVpWVczUXNYTjltTm5vM2owY05tdkpFendCYnlzd1dqQTdINkZXN25xOWk0WkNmNmUyRmx4YnZERXZFd0o0UFBTUUlwNV9PWXhkZGZGakhnTmQ4N3JUc2Q3cUREa1ByRS1nb0pOWjNz?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeG9VZWFfcHF2d2ZTeDMwQVRFcWhvUUJNSFVpNS1SeTJiYnRyaFh1a0xHM3A0VUFwNzNsRWphUHFlXzkwX0FvWFlIZ0dZTmMxRU1zTS13cmFKQkY4MnM5S296N0pUUkFRdG9xb255Z3dpbEJXeHNZLVM4Wk5ZQXU1Qms4bkdsdG1TbmppMzRJYVlaNjVWcFlhRnNZTWdCNDZ2ZXU3VXFKVQ?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 23000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-08",
+    "total_raised": 135000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wasabi Technologies, Inc.",
@@ -2778,7 +3020,19 @@
     "everywhere_tags": [],
     "primary_investor": "NTT Docomo Ventures",
     "source_url": "https://www.nttdocomo-v.com/en/portfolio/",
-    "scraped_at": "2026-10-17T20:35:00.110094+00:00"
+    "scraped_at": "2026-10-17T20:35:00.110094+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wiliot Ltd.",
