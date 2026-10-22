@@ -3626,6 +3626,16 @@
     "primary_investor": "Floodgate",
     "funding_rounds": [
       {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2020-07-07",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/replenysh-raises-2-million-seed-130017122.html",
+        "date_basis": "snippet",
+        "history_new": true
+      },
+      {
         "stage": "Series A",
         "amount": null,
         "currency": null,
@@ -3640,10 +3650,15 @@
     "grants": [],
     "funding_source_urls": [
       "https://replenysh.com/",
-      "https://replenysh.com/blog/series-a"
+      "https://replenysh.com/blog/series-a",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaGhmMWczLVZFVG84QXRmX2RwTDFGYUlJRTJfN2EyaGZBbnlGajRLaE9wdFFiSzBfSVBZMGlxQUg5cDVGanZsRVU5cmx6Nmc4cHh2YUlaamhrMzhJN3FzSmJsbDlMZFRwM0dKbG80dXdXTUhOOVNremFfU3UwQ2ZKZE9TM0JqSXo0ajctd2Z5ZDI4eGFtdkdxNGg5OE1VdnpyT3JZNllSUWxOeEtk?oc=5",
+      "https://finance.yahoo.com/news/replenysh-raises-8m-expand-recycled-110000231.html",
+      "https://www.ocbj.com/oc-homepage/replenysh-raises-8m-in-series-a-round/",
+      "https://www.streetinsider.com/Press+Releases/Replenysh+Raises+Series+A+to+Build+the+Digital+Supply+Chain+for+Recycled+Materials/24726794.html",
+      "https://finance.yahoo.com/news/replenysh-raises-2-million-seed-130017122.html"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series A",
     "last_round_amount": null,
@@ -3652,8 +3667,9 @@
     "notable_investors": [
       "Incite"
     ],
-    "total_raised": null,
-    "total_raised_currency": null
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Roo",
