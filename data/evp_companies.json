@@ -62,20 +62,51 @@
     "primary_investor": "Equity Venture Partners",
     "source_url": "https://www.evp.com.au/companies",
     "scraped_at": "2026-10-16T17:25:02.583766+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1100000.0,
+        "currency": "USD",
+        "date": "2015-11-26",
+        "lead_investors": [
+          "Tank Stream Ventures"
+        ],
+        "investors": [
+          "Tank Stream Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTGltaEhIcHZJS2NKMW1CTER2QmhfWHhRZWJVTXBrMWUxMlA0WFhza0lRVi1lTU14a2V2enRtSGlxYkZmeDFDVTRGRENES0lFZFF6c3hIN3k3MmRrZ0lIbl9TeExoTFJrVEh3aURWQ1AwdEV1YWNLSVFCcnh1c05LTlRKZ1p3blNMYThfaEF3V2VmWVpJYWZJODVlUnp3c0d1RVYxZ21NQklPNmZPQjhWdU9VbDlCakl5cndYZGl6ei1tQQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series A",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2020-12-30",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWlzWDRTdGlJSkpNOEt3RkRxY0R6RXg2MG1naHZfZ1dwcEJmNlhWd2doYm05MmFxWE9kNzF3SHJzWUpBLTBTMW9OZEs4bldDQTU3N3dlcV9KNU9DYUpEcDFqVlZRbVFTbE9HUUxOSWJvQ1Z0VlhPSWQ3SElQdHlia2RPakhFd2dSejNMRFdSa1RWb3VmeFhmTjRWcnllMXRUNk05M3dud05CVFhWdXZtQ1FDNA?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://biteable.com/"
+      "https://biteable.com/",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWlzWDRTdGlJSkpNOEt3RkRxY0R6RXg2MG1naHZfZ1dwcEJmNlhWd2doYm05MmFxWE9kNzF3SHJzWUpBLTBTMW9OZEs4bldDQTU3N3dlcV9KNU9DYUpEcDFqVlZRbVFTbE9HUUxOSWJvQ1Z0VlhPSWQ3SElQdHlia2RPakhFd2dSejNMRFdSa1RWb3VmeFhmTjRWcnllMXRUNk05M3dud05CVFhWdXZtQ1FDNA?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTGltaEhIcHZJS2NKMW1CTER2QmhfWHhRZWJVTXBrMWUxMlA0WFhza0lRVi1lTU14a2V2enRtSGlxYkZmeDFDVTRGRENES0lFZFF6c3hIN3k3MmRrZ0lIbl9TeExoTFJrVEh3aURWQ1AwdEV1YWNLSVFCcnh1c05LTlRKZ1p3blNMYThfaEF3V2VmWVpJYWZJODVlUnp3c0d1RVYxZ21NQklPNmZPQjhWdU9VbDlCakl5cndYZGl6ei1tQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSEUyaU94TmRPa1ZHQlIwTDFHUEtlU2l1aGwwdmgwbVBSd0lRdDN0bENFRzRmQUJLY3ljaFBsTWpLQUpDSlpQdlRmZXdoNkFFWXhZNjJIMHV1Mk5xR1ZVdVZ4SlpERWNIaTd3b0haX1JGWUl3U1dJOHhma2lGVTloalQ5Q3p2MHVyWGdCNVVBQ0dUR3p2cEc5MTVnazN0NWxBY0FpOUdLSHVmcUYtV3JKUmVuQUczbmpRU3F0ODQyenljWjM4cUZZMVF0Vks3NEUybzg0Q0dISGlMN2lyUkRhaEVhdEFTSVNMNGJKeGZNSmQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 8100000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-12-30",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Tank Stream Ventures"
+    ]
   },
   {
     "company_name": "BlendAI",
@@ -100,20 +131,31 @@
     "primary_investor": "Equity Venture Partners",
     "source_url": "https://www.evp.com.au/companies",
     "scraped_at": "2026-10-16T17:25:02.583766+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWi1TYXZoa2NsNEUxY1ItLXhLX0lLVXFpaGFuMTMtaW91ek5CRWhQcURZbzJ6VWJFWTR4THhKSFluQ3lONDNQTDl4WFYyQTZaaDZUTHA2cDl3RnNsU0dnYTlIVWQ1M0dDckNydXpBN0xicU5JNGJreU0zTWZZbFNaTmlBaUFQaHBqRVdDZlMzTGhSaHUyYVZoLW5iVWw0SnhqZGJ1N1B1NjZNc2d4WWFEODRfSTY5VXhDcDdr?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://blend-ai.com/"
+      "https://blend-ai.com/",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWi1TYXZoa2NsNEUxY1ItLXhLX0lLVXFpaGFuMTMtaW91ek5CRWhQcURZbzJ6VWJFWTR4THhKSFluQ3lONDNQTDl4WFYyQTZaaDZUTHA2cDl3RnNsU0dnYTlIVWQ1M0dDckNydXpBN0xicU5JNGJreU0zTWZZbFNaTmlBaUFQaHBqRVdDZlMzTGhSaHUyYVZoLW5iVWw0SnhqZGJ1N1B1NjZNc2d4WWFEODRfSTY5VXhDcDdr?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bluethumb",

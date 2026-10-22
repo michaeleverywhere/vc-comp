@@ -5445,18 +5445,32 @@
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
     "scraped_at": "2026-10-17T13:34:37.248312+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 9250000.0,
+        "currency": "USD",
+        "date": "2014-03-31",
+        "investors": [],
+        "source_url": "https://www.hypebot.com/bandpage-raises-925-million-in-new-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_source_urls": [
+      "https://www.hypebot.com/bandpage-raises-925-million-in-new-funding/",
+      "https://www.billboard.com/music/music-news/bandpage-secures-925-million-in-new-funding-round-6029386/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 9250000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 9250000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-03-31",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bang Networks",
@@ -5474,7 +5488,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bankroll Club",
@@ -5523,7 +5549,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Beacon",
@@ -5633,7 +5671,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bee Cave Games",
@@ -5747,20 +5797,52 @@
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
     "scraped_at": "2026-10-17T13:34:37.248312+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "ABS Capital"
+        ],
+        "investors": [
+          "ABS Capital",
+          "Intel Capital",
+          "Blue Lagoon Capital",
+          "TDF Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/beep-secures-additional-25m-in-funding-from-abs-capital-intel-capital-blue-lagoon-capital-tdf-ventures-and-hidden-creek-management-301507068.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://ridebeep.com/"
+      "https://ridebeep.com/",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWGVrc1NGd1FyTG8zejRXMV80bTdBYmllTWp2c2t2TTByZHgteE02NnNLNm1HdE1KWGstLVF5T2FyYmpGS0dmS1Q5eDFfZ3VJQzZnUHNiQmd3cVY1dEVVekJZNE93U1hGM2EzLXZEWkU3Qm9QenphTHZoU0tWRkZEYVVjaDRMaG1kQWtwSDdhTGtaN1QtYTB1bFVOQUszdE1Oc04yTlNQUjdXRnlpd2lkZnN1dzltZWloU19Hc1RZMkl2cTFHemRURERFVjNHWW1fOFFuRDRKT2JubXpN?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaXdINmZwMEIybXlDanRBTzNBR0NBbXJYb2lQS0xUU3VlSk1KNnJOdGtoNTdvVU9Wd212d3loV3BneVVDOVZ4NHAweWxTZ0VEc1BJalNZcmo3bmJhNE5RM0xZOGRvZ0MtRUNfbkRZTWRKd0JWdWl3TlRobnJXYUx5QUlGWnpPRUNSd3M0dVR4NG5pVENINVJlMEdLc3hTMmZTc2swTGZtTW1EZlJHYnNjQTE5VndaZlJZYVI3VHdYNmlsY1pMNHlxdzNid292Y2FGTW42SXhQdHFMUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZkJScG43R2syczJqZDBQNks2dmZxRkljdTJkTlFSMzJEZjlDTlBQZFFMN184VmdPV0pJX3FmWFZ6eW9VcWpaMWJLSjlXelVpWDRKbDhheU5Va016SjZEdWpuajJOaTVFMV90MHdub0txLVlGOUc2R3d6cjI2bThBUzc5ODJRTEh1aFVnVTd4bUg?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYkRKRnBlS3l3bXNPcEhCSmlJd0cxNzNXVEt0enpUdTBFS0pfdWo0b3lzZmxockN5Z3VZeVM2WW0wVUJjWGF5X0lnMXFnNlRtLTdFcWNSSzFyQVgxX2hobGRNNGZON04yVGI2djAxVDdjWWllSmcxbm9ZVFY1My1EeVloaHJ3b3lGMU1IVlNhMmE?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGRKTXBYYThBczFVVnlUYTFCZHN0cm5yNlpjSVZVOWJWbEhvT0gyU2dpWHZvSTktS1pQeG9xSjRIc2NFY1VXbUlkV0RWVlRmSUZxVW9JZTl6VmdfdlFMUVNHbDV5T0V2Z2tLNXlSLVdJYWZJSVNDRVNhZHMtdHNCMUp3RFN2aUs4elh0blZGU0NXOC1CLVl3NDNNUFRCYndJLXhyOEg1ME1fbmVEaWs0?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamo4OTBHNzhaaXh1b0lxR2s2UnV2NUJLcUxOb0N6clBNeDROMHdzQ1p4ck5Pem5kNDVjQnNjaXhzZ1hzQXZ0d3h3d2tCclpVdk12YWNya1M4aTMwb3dCanhJQWFHRWpVa1VRTmVlLUVTakFObjI1cGhnNnpYcmZkaDN6UnNsSFZ5a3NaN0gxUjk3VVBUQV92bGE1aWZYT0FZQUljU3RfRjc1dU9wUHlv?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbnFacWRrWVFNZHdvLXkyZGtNcFNJaDUtVndDWktZdWppdWRFUUNIUTExS0N2YW9WSVNJQy10OUVsRUFZOXF2U1RiZlNLdVViWG15TjRISGJJMGdkTENaOEJmNV9fNGtHTmtjNlU4dUE4Qnllck9sTDdpN1BTbmUtY1NEUlJ4dEdVY1RybUlWNnVQbkI5d2Ew0gGXAUFVX3lxTFBucVpxZGtZUU1kd28teTJka01wU0loNS1Wd0NaS1l1aml1ZEVRQ0hRMTFLQ3Zhb1ZJU0lDLXQ5RWxFQVk5cXZTVGJmU0t1VWJYbXlONEhIYkkwZ2RMQ1o4QmY1X180a0dOa2M2VTh1QThCeWVyT2xMN2k3UFNuZS1jU0RSUnh0R1VjVHJtSVY2dVBuQjl3YTA?oc=5",
+      "https://www.prnewswire.com/news-releases/beep-secures-additional-25m-in-funding-from-abs-capital-intel-capital-blue-lagoon-capital-tdf-ventures-and-hidden-creek-management-301507068.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "ABS Capital",
+      "Intel Capital",
+      "Blue Lagoon Capital",
+      "TDF Ventures"
+    ]
   },
   {
     "company_name": "Behalf",
@@ -5912,7 +5994,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Betaworks",
@@ -5995,7 +6089,21 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.pehub.com/nuance-to-acquire-bevocal/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Big Run Studios",
@@ -6148,7 +6256,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Bioabsorbable Therapeutics",
@@ -6167,7 +6287,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Biolojic Design",
@@ -6497,7 +6629,19 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Blackstratus",
@@ -6938,7 +7082,21 @@
     ],
     "primary_investor": "Western Technology Investment",
     "source_url": "https://www.westerntech.com/companies",
-    "scraped_at": "2026-10-17T13:34:37.248312+00:00"
+    "scraped_at": "2026-10-17T13:34:37.248312+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://venturebeat.com/entrepreneur/bloomspot-gets-9m-to-grow-its-high-end-daily-deals-site/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BloomThat",

@@ -225,7 +225,19 @@
     ],
     "primary_investor": "DOMO Invest",
     "source_url": "https://domo.vc/portfolio/",
-    "scraped_at": "2026-10-16T20:24:58.288767+00:00"
+    "scraped_at": "2026-10-16T20:24:58.288767+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "BankMe",
@@ -240,7 +252,32 @@
     ],
     "primary_investor": "DOMO Invest",
     "source_url": "https://domo.vc/portfolio/",
-    "scraped_at": "2026-10-16T20:24:58.288767+00:00"
+    "scraped_at": "2026-10-16T20:24:58.288767+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2023-12-27",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZQWZ6b2ZQUTRyUmtfU1NKX19OR0ppYUY4M2ItVHdEZUlSNWFMNlJTNW12SThLM0EtS3ZDcG1kNXBCRnlyTVJzeHlTUHFMcVNjS2FmWV81cVhKQ2dHbmstREVBV1BfU01PSHBKNFhzaU1wWFBPM1HSAXtBVV95cUxQbVNoNkhwanlwbVpaaTZpOUl1NEVsRUhZUFNra1hVRDJvM1VvVXJfY01QZWpqQmxvNm9ZSXd0bENNamtvOU1jV1FOQXhWZGd2dVIwRjhtYzd0a1FKVUFtTm1fbEZFMHYwQmVaT1RzdU00bUtZSHRJT0NHUlU?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZQWZ6b2ZQUTRyUmtfU1NKX19OR0ppYUY4M2ItVHdEZUlSNWFMNlJTNW12SThLM0EtS3ZDcG1kNXBCRnlyTVJzeHlTUHFMcVNjS2FmWV81cVhKQ2dHbmstREVBV1BfU01PSHBKNFhzaU1wWFBPM1HSAXtBVV95cUxQbVNoNkhwanlwbVpaaTZpOUl1NEVsRUhZUFNra1hVRDJvM1VvVXJfY01QZWpqQmxvNm9ZSXd0bENNamtvOU1jV1FOQXhWZGd2dVIwRjhtYzd0a1FKVUFtTm1fbEZFMHYwQmVaT1RzdU00bUtZSHRJT0NHUlU?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-27",
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Bloxs",
