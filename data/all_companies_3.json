@@ -218837,17 +218837,41 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
+    "total_raised": 11500000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series A",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2018-08-16",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 3500000.0,
+        "currency": "EUR",
+        "date": "2016-10-10",
+        "investors": [],
+        "source_url": "https://www.siliconrepublic.com/start-ups/roomex-series-a-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 8000000.0,
+        "currency": "EUR",
+        "date": "2018-08-16",
+        "investors": [],
+        "source_url": "https://www.siliconrepublic.com/start-ups/roomex-funding-business-travel-draper-esprit",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://www.siliconrepublic.com/start-ups/roomex-series-a-funding",
+      "https://www.siliconrepublic.com/start-ups/roomex-funding-business-travel-draper-esprit",
+      "https://www.independent.ie/business/irish/dublin-headquartered-firm-roomex-raises-8m-to-develop-global-hotel-booking-platform/37222545.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -669666,19 +669690,44 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://sailemedical.com/"
+    "total_raised": 2200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-14",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": "2026-05-14",
+        "lead_investors": [
+          "Matchstick Ventures"
+        ],
+        "investors": [
+          "Matchstick Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/saile-raises-2-2m-oversubscribed-pre-seed-round-led-by-matchstick-ventures-to-address-structural-gaps-in-healthcare-staffing-and-credentialing-302772424.html",
+        "date_basis": "snippet"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "notable_investors": [
+      "Matchstick Ventures"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_source_urls": [
+      "https://sailemedical.com/",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaDRaQTZ5MkVFYXdWeXRoSk1kWDF3X3U4M0RwMEs4bmtIZV9FN2p6aHNnMUJ5ZG01YnJSQVhZTG1mcVkySGR6cl94Y3F1NWp5cXFVZmJrMmNMbHh1b19MQzVhcGZFRmpOcl9hRTdBYUUyLWVkLXdxY1ZCUmRXbEFQOWE0STMwZGxGQ0wtdzVKY19MWkItcHY5MjJjSjVwbk4zSmhN?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kal9JM2VFT1c1bElzQUlZWWt5SU5mX3Vqalg3OVY0Y3lHanF0SFluZjNwVHhIbTY3RlAyX3NuUUd6MDJpZTF2alhDRUNnaE04c1BBeDB2ajU1MUQzU3A1NGtTSGxFSmdxdV9xT3NEWHBtRDd4ZHNwTHhMZnYwdzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kUEo5clNPRk1DcXJmUUIzdmI3Z3ZKaGgwbkYzWmxQdE1ORDdrNFBZSDFIcXJucGZTRFQwTkc5bmdIZDhFemlITXNIR0F3Ui1BblhOME56cVJackNuRVZYbg?oc=5",
+      "https://pulse2.com/saile-2-2-million-raised-for-healthcare-staffing-and-credentialing-platform/",
+      "https://www.prnewswire.com/news-releases/saile-raises-2-2m-oversubscribed-pre-seed-round-led-by-matchstick-ventures-to-address-structural-gaps-in-healthcare-staffing-and-credentialing-302772424.html",
+      "https://siliconangle.com/2026/05/14/saile-raises-2-2m-reduce-paperwork-healthcare-staffing/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -879301,19 +879350,30 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 190000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 190000000.0,
+    "last_round_currency": "EUR",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.rohlik.cz/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 190000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM200N29BLUZkMkdqTmRHNTJ5cV9raXZhTFJRdDRPaGRicTZvNUFBamVyR2J2QjFxeUE5aHBLMkV2bzk5d3ZSSncwNmkwWGhfb0poZ0JCWGRJc3J6VXVwblE1ajlLMHktMV8yekw4OG1fNFlUT1hQWGs1SE5KSGl1TW9hcGQ0cDRDc29Eb0RMY295NmxCWnl5WmIyZ0xDU2RZOFUxQlBSM2JSMzlMZGo5R25ya1RjRmZMd1QxTA?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.rohlik.cz/",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM200N29BLUZkMkdqTmRHNTJ5cV9raXZhTFJRdDRPaGRicTZvNUFBamVyR2J2QjFxeUE5aHBLMkV2bzk5d3ZSSncwNmkwWGhfb0poZ0JCWGRJc3J6VXVwblE1ajlLMHktMV8yekw4OG1fNFlUT1hQWGs1SE5KSGl1TW9hcGQ0cDRDc29Eb0RMY295NmxCWnl5WmIyZ0xDU2RZOFUxQlBSM2JSMzlMZGo5R25ya1RjRmZMd1QxTA?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
