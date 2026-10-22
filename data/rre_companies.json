@@ -1446,20 +1446,35 @@
     "scraped_at": "2026-10-11T21:03:34.649114+00:00",
     "primary_investor": "RRE",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/biztrip-ai-raises-1-5-130000886.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.biztrip.ai/"
+      "https://www.biztrip.ai/",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JckRNQnlXakhDM0hXcHhyZ1JfRkFxSDJraEE4UHFlMUY0bGM5Skl3eUM1SUdSYmdsejh3VVU2bU1vM1B4SEdXLUkxUUxNcmpSbE40SkFGSHlVUlZOOXhJY3ZURjRPbkd2M1MxZlVqdWdDeTNoeHRNTUQ3SHlaTTg?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkFRV0xmeXJYSHM0aVVRLXUzODNTV0k1VXFzdEh5bXBhZEFGM0tjeHlrcmY3VFFZa25YcDRySGM3Q2tPYnVabjlGTjRYbHZuaWVoSlRoU3R3a0NvWllCSVJ1UXV6T3U5Ujd2b0xlTjhOV0ZnQTZKNzVTbC0wX1VudDFacUNXRGpLVXNGYkNjaUxjd3k1NDVZX3dMZ1pocnpSZXVoREV3VUV6T2JUM3VKNHo0dw?oc=5",
+      "https://finance.yahoo.com/news/biztrip-ai-raises-1-5-130000886.html",
+      "https://pulse2.com/biztrip-ai-adds-1-5-million-tranche-as-pre-seed-funding-reaches-2-5-million/",
+      "https://markets.financialcontent.com/prnews.pre/article/bizwire-2026-2-2-biztrip-ai-raises-15-million-in-new-pre-seed-funding"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BlackSky (NYSE: BKSY)",
@@ -2315,7 +2330,22 @@
     "source_url": "https://rre.com/portfolio",
     "scraped_at": "2026-10-11T21:03:35.967110+00:00",
     "primary_investor": "RRE",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.lightreading.com/services/certeon-bags-15m",
+      "https://www.pehub.com/certeon-secures-15m/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Certificate Hero",

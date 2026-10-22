@@ -397,7 +397,23 @@
     ],
     "primary_investor": "DeepWork Capital",
     "source_url": "https://www.deepworkcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:12:26.525057+00:00"
+    "scraped_at": "2026-10-19T20:12:26.525057+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSjZVdjI1dV8xMUVSN1ZLcmpYaWhjOHVveGRFVmxnOFlMajJKNWhmTFU5QXRWQzRDVGlFclkxajJKRmt5LUdJSWQwSEZSMDB2SWRZTVJlZ3VYSk1PWjhuajVKMFlwV3Y2ZmQxRzVyZXlKbkl4d0NKNG01UUZnamNySk9jWFYyTzF3QTFTcW0zbDlzcHVDUXdXX0o4ZlJfVXlmZUF0cUYya2lGYnU5RjVLb1ZYRUFUWkwwMHpXV3JPQUs3Wk1YaG5QaGNOc0NhVGVfaS05ZTVEWTJkYzRJVTMySHJ0RlZxNGd6RHRB?oc=5",
+      "https://www.businesswire.com/news/home/20220630005091/en/Neurotech-Startup-Canaery-Secures-Over-4-Million-in-Seed-Funding-to-Digitize-the-Sense-of-Smell",
+      "https://www.businesswire.com/news/home/20220630005091/en/Neurotech-Startup-Canaery-Secures-Over-%244-Million-in-Seed-Funding-to-Digitize-the-Sense-of-Smell"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cardurion Pharmaceuticals, Inc.",
@@ -495,7 +511,52 @@
     ],
     "primary_investor": "DeepWork Capital",
     "source_url": "https://www.deepworkcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:12:26.525057+00:00"
+    "scraped_at": "2026-10-19T20:12:26.525057+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 600000.0,
+        "currency": "USD",
+        "date": "2024-06-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2028130/000202813024000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3777952.0,
+        "currency": "USD",
+        "date": "2025-03-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2028130/000202813025000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2026-02-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2028130/000202813026000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/2028130/000202813024000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2028130/000202813025000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2028130/000202813026000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-11",
+    "total_raised": 9377952,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Circuitry.AI",

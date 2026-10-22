@@ -458,7 +458,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Capillary Technologies",
@@ -518,7 +530,57 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2013-11-14",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOanRUWnBKZXNRcElENVoyVjJvcWxuUjZkNDBXa01aS3dvbjJKS3J4RlU5ak0xMlRhYjM0bHAxd3h4cFBtTFY3UmY0NUJOUlFwNDIxNk50eHYzWlZrSEVpQXVRS1VYdlVBM2RCQUh2UVJoZzl5MHBUZXBkaXR6a0FrVkdxdGhQSE9sb2QxbkJhM1c5b3hHU0dZcUNYZHNBek5nTlkzTg?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": "2016-08-01",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU09ad1dEb05kMEZfMVBmMnU2Wm9rTzZ6WmdRV1JTWUJqXzQ1WWtIQUR1a1JsVzhJRGZLUzJHZHhJNktvQmVhZGROcWJGRWN6Rl8weHZUV3JwQnRIVEpvTWJWLXduV2UxU3hzRVlVNmxUUUxOdGlsQlBtUDB6THo2S2R3ZmdKbE5ZRjZoX1pMWGk0c2hBZWZpT2VZeUJ6d0JEaGZod2EtYjQ5LVNuNTN0cjlMTGxPeHY4RG5ZUENGZEVWNFh6QkNGSXk1ZVd0VTVMRnpnekI1NNIB3AFBVV95cUxNLWVoMVh6aDQxNnNfa0l1NjloZGRWTmlLS1ZjZ1VhYTlGU0pxZzUzNzFvWXBjNWQ4NDZrYUhlMmxaNHF0TTlfRl9uZlVwTjR1bGI3aFhEdjhkTlc2YktycG1yQzhzZE5PTVJBRkotOU04UjI4ZGRZTWMwTDdpR2lvNm5oZjRidTFHLXgtWmtKWEhvOFlVVTg0dGlibHpoODIzZ1QwRzk0VkdGYXlFODhnREIySDl6eGt1bENwYnV5QTlQdmdCZThKQUV4X2RyQVhmeWxKRUJnRFpSNE1O?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 85000000.0,
+        "currency": "USD",
+        "date": "2018-05-13",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aU1U3RXE5ZXNTNlB4YjY1MGVZZ3ZyaG4wbG9sam1YaGNKNl83aFdLMzVsVDdqVGRVWngzeWdLaFJIc2k2ejMwRUhVZ2NpVXMzaXVFODlwbGRZV0JTMDctM01GNHk2dw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aU1U3RXE5ZXNTNlB4YjY1MGVZZ3ZyaG4wbG9sam1YaGNKNl83aFdLMzVsVDdqVGRVWngzeWdLaFJIc2k2ejMwRUhVZ2NpVXMzaXVFODlwbGRZV0JTMDctM01GNHk2dw?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa1FqdV9lRlZuWDYwU0JteFJ1Sk5YV002YTc3Y0ZNOXdKNXd4TVVERDlKZ1V2TXJjM1JTQ2ZWNXJObFZOTmExTVN5LTNIR0xBX01zd3U1TlpqSHQ0REdoZnZ1d1doVzFJTGVoN29vQU4zdTN3R3lLTndXcU11YTlNcUhJeGEwR0tPb09qUGpB0gGTAUFVX3lxTE1MbDNQaG9EOS1GU1prcDFLa1NmQklQaHZwTUhsU3k0eGlRS0M4UDY3QktKNWlCdnZRWXFmWm1IM2NjaU1sTmptM01QT2FMSjAyTkkzbTY5Q1gyZ19aWlpwY0I2Q3Y4SXYxdjhpSTlyZmFLMm1hX2htcy15QjNzSldxTVNBcEFQcG1vR3dQV1J4MUxQdw?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5NTF2LTgzeWU5YmcxbUZjclBxRHJqNUxxLVkyYktxODI0OXFSYWl5ekgwQVlXMlVZRWx5dkhZWWE4RDRPanBuWDhWQndmWGxaZ0MyOHliUDV3dnF4eWRNTExmMTBKUDRGVHN3QUpObUFyOTRvM05r?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU09ad1dEb05kMEZfMVBmMnU2Wm9rTzZ6WmdRV1JTWUJqXzQ1WWtIQUR1a1JsVzhJRGZLUzJHZHhJNktvQmVhZGROcWJGRWN6Rl8weHZUV3JwQnRIVEpvTWJWLXduV2UxU3hzRVlVNmxUUUxOdGlsQlBtUDB6THo2S2R3ZmdKbE5ZRjZoX1pMWGk0c2hBZWZpT2VZeUJ6d0JEaGZod2EtYjQ5LVNuNTN0cjlMTGxPeHY4RG5ZUENGZEVWNFh6QkNGSXk1ZVd0VTVMRnpnekI1NNIB3AFBVV95cUxNLWVoMVh6aDQxNnNfa0l1NjloZGRWTmlLS1ZjZ1VhYTlGU0pxZzUzNzFvWXBjNWQ4NDZrYUhlMmxaNHF0TTlfRl9uZlVwTjR1bGI3aFhEdjhkTlc2YktycG1yQzhzZE5PTVJBRkotOU04UjI4ZGRZTWMwTDdpR2lvNm5oZjRidTFHLXgtWmtKWEhvOFlVVTg0dGlibHpoODIzZ1QwRzk0VkdGYXlFODhnREIySDl6eGt1bENwYnV5QTlQdmdCZThKQUV4X2RyQVhmeWxKRUJnRFpSNE1O?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOanRUWnBKZXNRcElENVoyVjJvcWxuUjZkNDBXa01aS3dvbjJKS3J4RlU5ak0xMlRhYjM0bHAxd3h4cFBtTFY3UmY0NUJOUlFwNDIxNk50eHYzWlZrSEVpQXVRS1VYdlVBM2RCQUh2UVJoZzl5MHBUZXBkaXR6a0FrVkdxdGhQSE9sb2QxbkJhM1c5b3hHU0dZcUNYZHNBek5nTlkzTg?oc=5",
+      "https://sg.news.yahoo.com/carousell-raises-us-70-80m-series-c-funding-082037199.html",
+      "https://sg.finance.yahoo.com/news/singaporean-marketplace-app-carousell-snags-145927651.html",
+      "https://sg.news.yahoo.com/carousell-raises-1m-funding-expands-malaysia-indonesia-150007662.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 85000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-05-13",
+    "total_raised": 121000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cars24",
@@ -565,7 +627,25 @@
     "everywhere_tags": [],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR05MdmRNOENmRDRFemFqd1JMY2NrNHlzYzFQbnBzemVJajVmVHdGNXJjUTR2QkhaUTd2ZW1ocFBaeERvcTlSYUh5TVBXb2VWUWJzaVF2VklVbzB6LTVIT0F2MHlSWVJ4Zy15Zmx0RWQ0Yk5PUEwzeVBUZlhJSjVMYnU5Y2JHWXZFYWRjcTR5TjRySE1YVWtZdC1NUHF1XzFPUWZSSGhRUHpCbGR5VnZPbTZEbGFra0ViRlNVd2NKaE96cTdW?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORDMwYXZPSUNsamlzS1BsZ21jODRPY1dsTXpaT285MTZwWU9XZ1dVRjBoTkdPTGpHeGt2dkxseWdYYVFqa0J3RjdEZldhcVhPcXlwQXFoZlpFVXdXbjdDSTV1dml2bUVkN2dkUWdkMlZjUDJ6RlBSdEpEN3doQWNFSEVZV3J4djBkaDhkOGlVdWFEQ0NHQ3d2VE4wT0xJSlR4a1k4WDhmUExOLXUxVVNmYTNOVTV2d0RQa0s4LVdfNXJMSlNjVDdIOElpRExRRzJrVXZV?oc=5",
+      "https://vulcanpost.com/665579/circles-life-edbi-funding/",
+      "https://www.straitstimes.com/business/companies-markets/telco-start-up-circleslife-snags-funding-from-warburg-pincus",
+      "https://www.businesstimes.com.sg/startups-tech/startups/digital-telco-startup-circleslife-bags-funding-warburg-pincus"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Cloudnine",
