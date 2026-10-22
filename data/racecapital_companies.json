@@ -1374,20 +1374,33 @@
     "primary_investor": "Race Capital",
     "source_url": "https://race.capital/companies",
     "scraped_at": "2026-10-20T13:52:57.121230+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5645000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/shinami-raises-5-645-million-in-seed-funding-to-be-the-consensys-for-move-302310664.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.shinami.com/"
+      "https://www.shinami.com/",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUJTeXZrNUtwZXlXdUVGZGVqbDZFb0pmbmE4QjlLSm9ULU9VSWdSNHgxS19jV2RGRVo3WVpnTmplNWpLMEdURHRFUmpPbFR1UndOdGxlenFwOHhwWjZzSDFpakJDMVJEVXZ3Y2d2clVJMS1YcXIyeVBOc2dDaUM1YjdrNWJkNFVBc1dkUy1pVDVINHRncVUtZml0LVk3dEkw?oc=5",
+      "https://www.prnewswire.com/news-releases/shinami-raises-5-645-million-in-seed-funding-to-be-the-consensys-for-move-302310664.html",
+      "https://www.kron4.com/business/press-releases/cision/20241120SF56669/shinami-raises-5-645-million-in-seed-funding-to-be-the-consensys-for-move/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5645000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 5645000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Skypilot",

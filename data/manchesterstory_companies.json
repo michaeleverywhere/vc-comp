@@ -987,20 +987,32 @@
     "primary_investor": "ManchesterStory",
     "source_url": "https://www.manchesterstory.com/portfolio",
     "scraped_at": "2026-10-17T18:05:13.757523+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakppUkdoNERxRWZfdEJqVklkVzBvT1poM0lma2JVMXZTdG9aSncyNUllUHZ2NDJGN2NveFRPTWNYb1Z1MGp1Y2VaQXVrU2NmdlBabVp0dDVITGlxU21UX1o2MkdMeFR2bmhnZVFlckRBN0lsY2pMOTFOOEphcFVSU003WHFzTmJ6ZEhBS0lhNzBoTXdm?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://stitchstudio.ai/"
+      "https://stitchstudio.ai/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNakppUkdoNERxRWZfdEJqVklkVzBvT1poM0lma2JVMXZTdG9aSncyNUllUHZ2NDJGN2NveFRPTWNYb1Z1MGp1Y2VaQXVrU2NmdlBabVp0dDVITGlxU21UX1o2MkdMeFR2bmhnZVFlckRBN0lsY2pMOTFOOEphcFVSU003WHFzTmJ6ZEhBS0lhNzBoTXdm?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdW1TUU1ERXczVGJvb2V5bVM4V1VkZXJUdWs1OEtPQXg1UmpHemdjR0dTVUpsT1RKUVhLTER0QXUzUGhQT1lRaGZQVkNNbUltOThoa0FxY3BRT2xMWVVMSlU2cEtNeUZLTEF5ejNTVk40SjJUSDBISGhsNDlFYnB5dWVBQjdnSWFZ0gGYAUFVX3lxTFBrMHZfR0xVZWJXb3k0NjZVSGZGbUVYbkUzclBZZXRjWTNyZmVGQnR4MXdwcnV0cElKQUx2d1psdkFtSkFnV2daajhVeUh4dTFnN0tqeF9aTUVYX1RYMmk1WXpFSkZHd1JTbm1Jd0lWSmZjaVhGVWY1ckxibGpUU0JZZjNIRzRlSmdieWJBdzh0QnZXYy1SNzVF?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Trailblazer",

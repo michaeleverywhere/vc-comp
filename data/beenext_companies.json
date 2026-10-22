@@ -4359,18 +4359,55 @@
     "primary_investor": "BEENEXT",
     "source_url": "https://www.beenext.com/portfolio/",
     "scraped_at": "2026-10-08T14:44:41.416774+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2017-10-04",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/singapore-startup-solarhome-provides-cheap-solar-energy-home-065646727.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "debt financing",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2018-12-05",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/pay-energy-startup-solarhome-raises-us-10m-debt-035738847.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "crowdfunding",
+        "amount": 13700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0pSZ2kwMmNZMnlGUW9pOFhwOWpHTmh2UmhMQkdic0tWUWFxNWFhYnRFMS04YmttLVF5M2FNUDVqQ0hXczE5RnUxY05BVmdmNVNWWDJ3am01MndRZVBsNVNlNDJ2U0ZxeHUzMXpZbENFNjEzU0x0dmdZX19YQjhSNGNGOUxZLVp3aUVfalhtX2paQW0yZ01pdWhOUnp4Rm9vbmZzQ0F1Ry1iUXhFdWhEOUxGYS1sd3ZEdXFPOA?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0pSZ2kwMmNZMnlGUW9pOFhwOWpHTmh2UmhMQkdic0tWUWFxNWFhYnRFMS04YmttLVF5M2FNUDVqQ0hXczE5RnUxY05BVmdmNVNWWDJ3am01MndRZVBsNVNlNDJ2U0ZxeHUzMXpZbENFNjEzU0x0dmdZX19YQjhSNGNGOUxZLVp3aUVfalhtX2paQW0yZ01pdWhOUnp4Rm9vbmZzQ0F1Ry1iUXhFdWhEOUxGYS1sd3ZEdXFPOA?oc=5",
+      "https://sg.news.yahoo.com/singapore-startup-solarhome-provides-cheap-solar-energy-home-065646727.html",
+      "https://sg.news.yahoo.com/pay-energy-startup-solarhome-raises-us-10m-debt-035738847.html",
+      "https://www.businesstimes.com.sg/companies-markets/energy-commodities/grid-power-provider-solarhome-bags-first-debt-funding",
+      "https://www.techinasia.com/solarhome-pre-series-a-funding",
+      "https://www.pv-tech.org/solarhome-bags-more-funding-to-expand-into-myanmar-indonesia-and-cambodia/",
+      "https://www.pv-tech.org/solarhome-raises-us10-million-in-debt-financing-for-myanmar-expansion/",
+      "https://www.straitstimes.com/business/companies-markets/solar-power-startup-solarhome-raises-137m-debt-from-crowdfunding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
+    "total_raised": 13700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Series A",
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": "2017-10-04",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sorted",

@@ -8433,20 +8433,33 @@
     "primary_investor": "K5 Global",
     "source_url": "https://k5global.com/companies",
     "scraped_at": "2026-10-16T21:32:42.169517+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/sequifi-raises-6-7-million-130000461.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://sequifi.com/"
+      "https://sequifi.com/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTlFfaUItaGpIU1FWNmFxSWF0WGlfYm5JSHJGbk5ubnVtV1BDWVczYjk1bFk2cU5CWkpIakZmMHhudGdsOVVaSGUxZ2ZobmxTdWNzZFN3clpaSEFXRzQ5SkNNM0RrV1BqRUlIZWtaTVdnT1Y4SU5LaVhycVFvckpDLVF4dEhxRU53dDZIcHRYdjNOR1dXNENlQjN3SzhleW5MZXc?oc=5",
+      "https://finance.yahoo.com/news/sequifi-raises-6-7-million-130000461.html",
+      "https://www.finanzen.net/nachricht/aktien/sequifi-raises-6-7-million-seed-round-to-power-real-time-pay-workforce-retention-for-america-s-essential-home-services-industry-14764649"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6700000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 6700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Service Titan",

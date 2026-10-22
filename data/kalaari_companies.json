@@ -3525,20 +3525,33 @@
     "primary_investor": "Kalaari Capital",
     "source_url": "https://kalaari.com/portfolio",
     "scraped_at": "2026-10-05T13:24:06.014638+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2015-10-02",
+        "investors": [],
+        "source_url": "https://www.livemint.com/Companies/zwCNKSTbcsdm7sYexzarpO/Shopalyst-raises-2-million-from-Kalaari-Capital.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.shopalyst.com:443/"
+      "https://www.shopalyst.com:443/",
+      "https://www.livemint.com/Companies/zwCNKSTbcsdm7sYexzarpO/Shopalyst-raises-2-million-from-Kalaari-Capital.html",
+      "https://www.vccircle.com/shopalyst-gets-2m-series-round-kalaari"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-10-02",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Signzy",
@@ -3904,20 +3917,45 @@
     "primary_investor": "Kalaari Capital",
     "source_url": "https://kalaari.com/portfolio",
     "scraped_at": "2026-10-05T13:24:06.014638+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Kalaari Capital’s CXXO"
+        ],
+        "investors": [
+          "Kalaari Capital’s CXXO"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUWRnLWR4R2toSEwtMmFWem8yUThsMzM1bkxNOVE3b1RTVDUtXzgzX3pMVG1EOTdpTy1SYkFIeUJidHdobGd4Wko3SkNjb0ZuaGduMUdlemZkcmxCcmRXUC13dnJSNGlIVzYtdUJ0QXowRkY1WDc5eWhiMmZDVEljV2I2eURHUDhLUEVPQkpZa1paZWhRZWhjMEw3dVRmSW0zaS04eVlhU1VuTC1EeC12UDhDbFBTR1dlUVlfVllqcTVmSUFJaVh2dnE2QTVlMzBmZE9kT1F1MNIB3AFBVV95cUxQN1VTMV9LSTNmMXVPOF9lUk9TWFh4THAxdlRJc3ExX1hKQTZoQndmUUs1R3hxZWM0ZDIwTVQ3bGl2SW9KTFJ3NTR0OE5IMUtnUUJKN01LUnhMOGNrX2xQV0R1d3NRTHNiYjFOaEFabzE1Zk5adDVjNmFLLVd5YTl0bnVFYUo0c0dnZmpnUmJXb0s3dW1nbjdoZDNPak1WNVR0YnlmajB6el9iSDJScVhDTW1ZQzRfU3JhOHdMVjAtX050WFpJbVBJMFRac01OQmVIc1JwVWR3Zk9JWTE4?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://superbryn.com/"
+      "https://superbryn.com/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUWRnLWR4R2toSEwtMmFWem8yUThsMzM1bkxNOVE3b1RTVDUtXzgzX3pMVG1EOTdpTy1SYkFIeUJidHdobGd4Wko3SkNjb0ZuaGduMUdlemZkcmxCcmRXUC13dnJSNGlIVzYtdUJ0QXowRkY1WDc5eWhiMmZDVEljV2I2eURHUDhLUEVPQkpZa1paZWhRZWhjMEw3dVRmSW0zaS04eVlhU1VuTC1EeC12UDhDbFBTR1dlUVlfVllqcTVmSUFJaVh2dnE2QTVlMzBmZE9kT1F1MNIB3AFBVV95cUxQN1VTMV9LSTNmMXVPOF9lUk9TWFh4THAxdlRJc3ExX1hKQTZoQndmUUs1R3hxZWM0ZDIwTVQ3bGl2SW9KTFJ3NTR0OE5IMUtnUUJKN01LUnhMOGNrX2xQV0R1d3NRTHNiYjFOaEFabzE1Zk5adDVjNmFLLVd5YTl0bnVFYUo0c0dnZmpnUmJXb0s3dW1nbjdoZDNPak1WNVR0YnlmajB6el9iSDJScVhDTW1ZQzRfU3JhOHdMVjAtX050WFpJbVBJMFRac01OQmVIc1JwVWR3Zk9JWTE4?oc=5",
+      "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNHNRYzFKVnBUT3Fib0VjSWhtZUc3S0p3VG9pS2pqeE56X29GSlNxeHdNTXQtRlkxRUlTSWpjMFp1alUyc1o5TmM1ek9kNDk4ZW5ONTBhT2dLbmJRNnhqVDZYSlVmYWRCbng0V0xoZE9ERmZNWlRxWGszVEsydW9tSThJTGdWc05vSU80Tkp5NkNHVlpac3B5WUJhZ2psem1sQVQ4amJBQ0V1MzFkTUp0ODB3eEhWUHl6LXlxZlZSVGYxQ1ppcmxKUk81cVI5YjgzSE5kZ3RpSG9QNktVSEt5dFdOWnlNZG5wTTN0VmFNUzFPVVRRQzctXzhR0gH_AUFVX3lxTE9PWFJmTURJMjBuOFJpUXZNNVQ4Szg2SHRLY0x6Qy00ejhhb0xBN0twZkk2Z0R5c2VCbFJ3cDMxcnhMRlJ1eWNnNW9OUmFEZkVZVlpsUHZxNTRYalBnZXhMOTVtcWZDb1djRExpNEFBSWtmX1hKaFk5cGozenFFVzZOWi0tMy1qcDRQZWFVcDV5bUJHOE9WTDRaZVZuaDZxaXF1bTVWSTNBMU01dlZEWkMzWjBLQmo0Smd4aGFVYmloc1MzQTdHcXZBbEVDQ3dOeTNEUVNzWkF3RDQtcVhCdTFURGQwaWp3c0xMNTlHUHczYzBpclhOUG9LempZYjdvMA?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVVdFaDNXZWlKbHFqVDh1TnlHVVVsanVXWFY0QnhselBQd0pENmt0OFRMUC1lNmFaSzZHTVVNSjl1WURTTHR2Vk0xRGZLZ3hlMnAyNjN0bVFvaUhzU3dDVXMtXzlpM1JUSV93UFRkeG5VYkEzbm9TdWlnTXJZd1BZT2pkQmhWQ3VFYnVRd09ScVZUSjY5Z1J0X3ZvVmw?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0htWENWYnZUQlFXWFdzVExSOU1uSnhvR2RHZkhKSGRqMkd4R0VGZHVfQVVhQlJjdDlfM1lieGxRMGlaYWpKSEZLdmMtVzl2VUZjZFlya3d2LUJSMFdUV1ctdW1XSmlBR0VlWlZyWFZhUi1PMTNtVE1EWTRxTmpza1NSME5lV3dDYWVFYnJBRUd4WFRr0gGUAUFVX3lxTE1zSG1YQ1ZidlRCUVdYV3NUTFI5TW5KeG9HZEdmSEpIZGoyR3hHRUZkdV9BVWFCUmN0OV8zWWJ4bFEwaVphakpIRkt2Yy1XOXZVRmNkWXJrd3YtQlIwV1RXVy11bVdKaUFHRWVaVnJYVmFSLU8xM21UTURZNHFOanNrU1IwTmVXd0NhZUVickFFR3hYVGs?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOFNJak9XRm9JV0o1d2JmZnBxMUVxbzAzd2JwTklKdzRwZmhrdjl4TXZGdnJRbEItbS1vX0pIZmFIM01paXZiZFFwR1g1clowTWJEbHlQUUxrOXlxOHpUZEloZXUxaFd1UUlsX1NETkdxc2tDTl9oaU9ERl90VkZTQjNjRW96NnRWZ1MzQTRSTXFJQzhSeU1LWDEtN21YSjA3M0R6Xy1vVC1JLWJTV1ZFWG1xX2RRb3VsSmdtMmdTSzhwMmQ1OGRQS2RLQzA4ZjVvQ0lEZWZZc20?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxORWpBMW1ZVWt2MF85YzRUWmFaU1h4MFFDZF82M2FfdENGQ1NNQmNFd1RVbm5DczlCc0M0cVItZFNqMkVBZGp5THJUNUZhOG1JNVpLY0l1X013cjE2RnRyeVF4RU04a3VYYVJPalBYeElhVlZxZDM3X2dXZmliYWVveDE5YWZ3OVZ4dXJRejlJWHh1Zng2cXByenBVQWFnVFZCbVA4c2Vpb0lzUmVZNWZubWx1SGlZYkE?oc=5",
+      "https://yourstory.com/2025/12/voice-ai-startup-superbryn-raises-funds-from-kalaari-capitals-cxxo"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 1200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kalaari Capital’s CXXO"
+    ]
   },
   {
     "company_name": "Swift",

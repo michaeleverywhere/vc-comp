@@ -4691,18 +4691,36 @@
     "primary_investor": "Golden Ventures",
     "source_url": "https://www.golden.ventures/portfolio",
     "scraped_at": "2026-10-07T13:40:39.034287+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 44000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://betakit.com/shakepay-secures-44-million-series-a-led-by-qed-investors-to-roll-out-more-bitcoin-products/"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY2JBd2VnNU5fblgyTnpjMmM2VmMyXzNXamo1cGJxbEg5SWRyS0VkLWRtZkR2Y0gxME5JemJycndCS1dydzhtUFNuQVZMNHktZXBrSDVkZGxkT1BJa3I0OHJDdVZrenBLcEZOYmxWOWZUc25LSFNDdGphWko0WEEybHRXdDBoeVc5OUVZUzB5a255SG5XbEpHTklreGY4MTV0b1EtajBGVDdGT1ZxUS1EWDhn?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CMmd4Nk5tZHZvb2xiZW02NTRyd0JhdVIyaXBBQ1FGdy1rYVpOeE9VeDNEYUZjcmNtaHE4a3RsRGw5R1JSUkU3a2VkTi1rTHdSbmpDMmpISWtTZ3Y1UTY0dm9HM19SWnVsbFZQRENfWjNUWFZRdDJv?oc=5",
+      "https://cointelegraph.com/news/canadian-bitcoin-platform-shakepay-raises-35m-in-series-a-funding",
+      "https://betakit.com/shakepay-secures-44-million-series-a-led-by-qed-investors-to-roll-out-more-bitcoin-products/",
+      "https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/canadas-leading-bitcoin-platform-shakepay-closes-44m-cad-842btc-in-series-a",
+      "https://finance.yahoo.com/news/shakepay-raises-35m-help-canadians-110000353.html",
+      "https://www.investing.com/news/cryptocurrency-news/canadian-bitcoin-platform-shakepay-raises-35m-in-series-a-funding-2744391"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 44000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 44000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Shakudo",

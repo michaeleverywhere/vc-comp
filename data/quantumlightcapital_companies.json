@@ -1704,20 +1704,37 @@
     "primary_investor": "Quantumlight Capital",
     "source_url": "https://quantumlightcapital.com/",
     "scraped_at": "2026-10-18T18:12:57.669994+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 78000000.0,
+        "currency": "USD",
+        "date": "2025-04-08",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/turkeys-sipay-raises-78m-expand-092212063.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://sipay.com.tr/"
+      "https://sipay.com.tr/",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcENMQ0RUVVQ2el9kdTdSQTNRM2EtY2RDenBWZXc3MTBRZWZGYnNmQlNZM1psMW9wTWt4cFYyMFRLeGhEcWlRcE5uM1U2NWt6S014QWRvOUp4OWhBUTkyTHdvWWZ6a19fSXJOdU82WVNhcHY2ZVJmSDZnUVNxR3Q0eXdxSVp6QzdZb2ZGam5CVWN4ZFpuWGpwM3RfUnQ4Z3lycjNWaQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdTN6aGVtVHVNVjNYdUoydmU1X1lEZ1BGR3UwRGVyQWRNYm5VcV9BVVVpVTRlTEg1c1pCQ1VfV2p1Sm4wMkFQUXBOYnJlUDNBRWhrNDRtR1JsbjdWcVZpenYtTVozU1lrVTlTaGppR3AzZk4xY0F1dzhDUWVBSEN6NFU5eGFxNld6Qk8yZE5BTGFKUllhUWJPcUhrNTFEbWI4cDVtN1NB?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wLWFsb2JkcTkteW8tcjg5VnhScGtwcjNBVjdHWjlmZ192MU5GOVBNeWRueXlHZ0xtOWVnVXJneU5rcTdaRTRQampYNkhwQV9GOGp3OHlzWVZnazJWTVpjSQ?oc=5",
+      "https://finance.yahoo.com/news/turkeys-sipay-raises-78m-expand-092212063.html",
+      "https://pulse2.com/sipay-78-million-series-b-raised-at-875-million-valuation-for-payment-and-embedded-finance-platform/",
+      "https://www.crowdfundinsider.com/2024/06/225961-turkey-fintech-sipay-raises-15-million-series-a/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 78000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 78000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-08",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Thatch",
