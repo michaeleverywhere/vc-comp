@@ -2281,18 +2281,60 @@
     "primary_investor": "Crane Venture Partners",
     "source_url": "https://crane.vc/portfolio",
     "scraped_at": "2026-10-06T13:29:06.686160+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2023-05-04",
+        "investors": [],
+        "source_url": "https://inc42.com/buzz/edufund-bags-3-5-mn-funding-help-parents-save-childrens-education/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2025-07-21",
+        "lead_investors": [
+          "Cercano Management",
+          "MassMutual Ventures"
+        ],
+        "investors": [
+          "Cercano Management",
+          "MassMutual Ventures"
+        ],
+        "source_url": "https://yourstory.com/2025/07/edufund-raises-6-million-funding-cercano-massmutual-edtech-fintech",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbWNlUzhvSWladXRuZ2RTWE5tbGZjR1JSN2RKLW5TZEhJcDNpWmtMMVFFNWRZVkFYZUhKbkpreklxc05xR0d3V1hsUFRDMEJLS0RpdGZEbzVwSTdQRFRVN3U1aUdiazBERkJaZldqMElveXZOZ01PZlBpd3Y3OTBndDRjLUdNWmdvX1BzUXMzTE1KSUs0U1lGUGtqREZ2TzDSAZ8BQVVfeXFMTW1jZVM4b0lpWnV0bmdkU1hObWxmY0dSUjdkSi1uU2RISXAzaVprTDFRRTVkWVZBWGVISm5Ka3pJcXNOcUdHd1dYbFBUQzBCS0tEaXRmRG81cEk3UERUVTd1NWlHYmswREZCWmZXajBJb3l2TmdNT2ZQaXd2NzkwZ3Q0Yy1HTVpnb19Qc1FzM0xNSklLNFNZRlBrakRGdk8w?oc=5",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOczdWNnlaZ2dKaHRYd0VieVZieXBQM1hQbkR3NEU3NkpmZjM2QXV0TkpiM1BjZllPUGFSSDF1UmczZmM3Z3BSY2FXN2VxeUVoTmw4RFdLSWN2YU5Yd3VqZFUxbW1YMGowR2EwM1B1M3JVV2sycDUzZU5rcFk1aEFTeWlhb0VZTzZTc0JGRmtFb2VhUGotUERobUN3S19PY2FXOGx5MnFKNVhEcFhkMmZ6a3lQTHVLMlM5N3I0UUdfTkVpSU05TGU3WTNFLVRQU0V2Q1Z1RHdsOE9KV3BNb0xOdEhjV1Q1MmRhaElobkxXRk45ZFFR0gH6AUFVX3lxTFA1eU1pdDNTU2FFa21ha0RDd0JXN2xIM0V0UTBlNkxlUk50UkVrRDJSdjR3SThMWmdHUFJCYkVaVkVFajN4cXJ2NWpEN0lqckNWYm96Tnl2blY1RllPX0ZzN3Byc2EzVDVBWDVNZEtFM2FDeEhrQ3JrTGFPdzNtbEJBMk1QVFQ1dC1JZXVFWjZfbGJMSFpUREd2UnpEOUZJMzEtbThfSk5MbHJDQlJtZ196RmNhMC1KTVNSNHFsWkk3MGpEeWtYMEN6by04MERibldGS1hfSzNLNXI3QTkxZHlYeS1Nem5Fb2RGTXp4aG5MU0dGRWVsenhZYkE?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNkRvX3ZxU1R0N2tZd0VmVTg1V2JvYUN5a2xubWJjOWZWRkJtRFh0NnhsVVI3OTAxRnNlS1Q5ek9zYXVwOWphbGw4OXJOeG42OUN6ZE12RTJjOFA1VmNnU2pGMGw4YWRmNEhaTWhodFZnNWR4SXo0akNJd2hRTTRYVXZPRGJjc0lnWXNrNWlJOHFMcjZLUDY3a2NUWk9PTjJ1ZGFMbWhCTDhrRC1ZMjVQYUFHWjNWSlBBT0pzSXlXek80RUptNTdBenhNZVU5YktsdS1NNTZRaFRPc2hXV3lPdTRMeE5mWnRqUmluNWtSNVF4WXfSAfgBQVVfeXFMUDhsN20xem1aRThVT19aQ091bDljSFlRM1RVdWlJSWVvX1ZzYVV1dDIwVTJvM0dvam1qZC0tdTRpZVNlRXFLRzZ5UnU4dkNwRDVRMGRrdndSVUxLOWN3SW9JUzZRdl9qRGJzb3FsdS1wSWN6Z2ZTd3d0Y0xJLWllakliZ2pPRXhFbVpzQ3lNM2t1cHJ2RjdaRGl0RHBGdk9WQjZjcVhoQ3FZTTZTQlVvUUg3NC1Td0h0SE81VTJUZHRrNjF6N216NWp4R1lKS3NtZHVGclBVVFJ4anBIbk1sWnk4SDVxQkRIcExwWkFoUFk3RFFJVVBqYVo?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDF6SERNSVBtVXl2VW9wSHk3WjgtX2lNMHFIWVJDelFLb0w4Z3RrYTJpMmh4bDdkckJzRTJnbFBRRzVBTC14UTQ2VDFqUEZoOEw1RkhQZk5TSWMzbmdUV2R6Z0xsTzF2RjcwemNZNC1vd0hMWk1RSXRlZzlNRWlwWEhnNVlEMW15SDdvdDNjbzhQaE1FcG9Hekh0TXo3cFQxZ1BzX0l3?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMzFTamoyVERfUFVwazE2T2VNWlQ3Q01vTjZfZmFfRktMR1Y3UmN5amhDdHVYMnJuQ1FEZFFEZlZQS01aUVZmYlBLZENNQXZyQ0R5MlhHQ2hiV1VpVHFyYkVGdE55OGo4RlFpNndQSGx1aGg4WXdCb0NTeC1oajdvM2ZDbzhDV2NLUDBpTWl5U1VnMUF1Vk9JUDZMb0ZxWTNMV3B1a3Q0RTBFUlE?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa2JYbno0Sy1WY1UxQm9zOE5WQ1NmTzdqekR6Qno5V0hCSnpwY3lQRzB2cUlnMVNZOUNSS1hnRVhVd1FoN3oxa3dxbXdreWt4TmtxQ2FNZVl1QjlySWk3UnFQUEJQa3M4RDYtMTRzdE9NbzQ1VEtVQ3VOOFRreVY1dTVCcXhzSnZGd2U5c3NpZmt5NC1SdVZjU3ZTR3E?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOFNxbE5oYlIyZXFLbFlVVGV2R1Jxczl0TzNSOGFMdV9iczMydWdIaGFfQ1NfS19LcFN2ZnE1ZG9uSzhFZ1NrLW5kdi1ReUZYbHFyYmNhcWtySE9TMDYtLWpHOEFXN1ozNEFBd2pFTV96a28wUzlnbndiNHJtaUthdGxkTF9yVTdHd0RMTkIwVkNlUGM?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVdqTE5aQ2Y0Mk5SLTZsTzVIczNueVJmbkpEWkE3QmJZOFc2LXp6ZGNfcGxabjJsYlVLLWhESXdKSV9ORGswUmVGZzFEcEVaMndyVDluTExrbHFpc3lwQVFlWmZJUXJRLWRqdk5odWdqMTNzZjNjRDQwbC1HQmtWWWpoVzNYMXlWeG5NZWJfNWtUcXU4UDNBREZLclFWYVBVdG54d2ZB0gGrAUFVX3lxTE42d0M5bGNiLU0tTzA4QlNybU05UlNtUER0dEFqdGhvNGpMWVhqQjJSU01ZV0htQnpxQnozSnczeXI1ZkM5TlQzdDBsYnRJM3JfTXdnMFdNUXZmcmVUR2o5MldPeFlDblo1X0JxUEhKLThrUXVMLTNuMEtWYnNWLUZGTHFyVUp6dl9Qd3NqLUFPX3NWSFFlc0ctNE44aVN2WXdnYkZZSW54Z2dudw?oc=5",
+      "https://inc42.com/buzz/edufund-bags-3-5-mn-funding-help-parents-save-childrens-education/",
+      "https://yourstory.com/2025/07/edufund-raises-6-million-funding-cercano-massmutual-edtech-fintech"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 9500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-21",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Cercano Management",
+      "MassMutual Ventures"
+    ]
   },
   {
     "company_name": "IMMIX",

@@ -829,7 +829,19 @@
     ],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "INQUIS MEDICAL",
@@ -841,7 +853,47 @@
     ],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2024-11-03",
+        "investors": [],
+        "source_url": "https://venturebeat.com/business/inquis-medical-announces-40-million-series-b-financing-to-accelerate-advancement-of-aventus-thrombectomy-system-addressing-venus-thromboembolic-diseases",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 75000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQT2xPejlWTFFEN25reUJXNzNYMEYwckZqT0pMUExNTmNvTUFaTU12emlSNmw2b05IS3FQWVNRaUV3d2NqbVNaT1o5YmVuMkxZOGpGbUtRWUZZbFJqRVRDY3RiaThsazFWZDJVLTBKNExLUVRuLUZWSzZHZlh2aU5zRndrenR1YzFsMlJKSTY2QTRJWWZFVGozaWVxWWh6X1VnOERvV2JrTDhsRTBTeXNWdDkxNjNSSE9CZjBSWWFjeXNKOWZpdzdoZVd1a0VaOU9sLVdTQjFEMEVxcUtzUnZLM3g0NjVPdHJnQl9kdmp6aTBJRWJZeGJ4aDR0U0phaTRaZ1ZDeXRSUG1rZw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3U2JuTGRrekZSYWZtTE9nbWxsbXhrLUxMdnNVdjhtNGgwZTIwald2M041S1UzWmNQRWJGYl9EVmJMQXlHNXJ5RHg1Y080YzB0a0txLWpheWhrWUdUT0RNOXpUa3JLX05EUGFTQS1Odw?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBX09wLUpVUEUzVEV5TGo3cjBUNE5KVTh4SXNSMUcxMy0weVkzTlhULTRnTTJZcFpINzhwOFByRUFHTTlsaGJlV3NZZ3RsOTl1Vi1wVURtVGIzWWdqQUZ5RFNwaWI2ZDNUeWtzdzRmUGVnNzdzUWNialVR?oc=5",
+      "https://news.google.com/rss/articles/CBMiigJBVV95cUxQT2xPejlWTFFEN25reUJXNzNYMEYwckZqT0pMUExNTmNvTUFaTU12emlSNmw2b05IS3FQWVNRaUV3d2NqbVNaT1o5YmVuMkxZOGpGbUtRWUZZbFJqRVRDY3RiaThsazFWZDJVLTBKNExLUVRuLUZWSzZHZlh2aU5zRndrenR1YzFsMlJKSTY2QTRJWWZFVGozaWVxWWh6X1VnOERvV2JrTDhsRTBTeXNWdDkxNjNSSE9CZjBSWWFjeXNKOWZpdzdoZVd1a0VaOU9sLVdTQjFEMEVxcUtzUnZLM3g0NjVPdHJnQl9kdmp6aTBJRWJZeGJ4aDR0U0phaTRaZ1ZDeXRSUG1rZw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IVUd1cVo4UmFGODFuNXlEN2lhQ3pISmFhb0FkTE1IRlJsUGMxa3FFaG5abWpyRG95YkZNWXk2Nm9kZVdiUjRhcklRaTdPTTlCdWotX01vVm9VRDFORnRBSG9mRGtyejB6SVh6aEFTbXRaMHVYYXFZVHFrVUFUdw?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVHJsQ0JBemdYd0hrdm92c1RUNjkwMUVtaVN0a3ZTU005QVhSWjZFYjlvNkRqNFY5SDlid1kwdEx3MENyZUxUcVYxeTM5T1FKOXFSZXcyNU5LWHFwTUExc0doUTVmeHZWNEJaaEY5bk12U1A4YlAwYk9GY0FhcE53MElkaERfZ3ZHYUQwQ2lMZWNsWG9DSFE?oc=5",
+      "https://finance.yahoo.com/news/inquis-medical-secures-40m-funding-103225299.html",
+      "https://venturebeat.com/business/inquis-medical-announces-40-million-series-b-financing-to-accelerate-advancement-of-aventus-thrombectomy-system-addressing-venus-thromboembolic-diseases",
+      "https://pulse2.com/inquis-medical-thrombectomy-systems-focused-company-raises-40-million-series-b/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-11-03",
+    "total_raised": 115000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "LAPLACE INTERVENTIONAL",
