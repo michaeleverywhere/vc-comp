@@ -460488,19 +460488,33 @@
     "stage": null,
     "first_invested": null,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.honeywell.com/us/en/solutions/ot-cybersecurity/cyber-insights"
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-11-27",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2017-11-27",
+        "investors": [],
+        "source_url": "https://www.prnewswire.co.uk/news-releases/scadafence-secures-10-million-in-funding-to-protect-smart-manufacturing-and-critical-infrastructure-660144813.html",
+        "date_basis": "snippet"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.honeywell.com/us/en/solutions/ot-cybersecurity/cyber-insights",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRbzFQZjVyUnlLaVM1Z1p5em9xTE9FdlI5WkNxMjVBbUJQa3hlOGVVN3lRZ095RG94allfMG5KelktazZ3eTV2R09DMkFqRDNCa21KOWlGTElhTjZHNzlvQ2lGY1dEUHM?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3elJRWFdYaVRrbEFmRlh0dlk5T0M4U2ZsTGhyS1ktM1hmY0N5VTlwYmR5czBEd0lPQ0dqbmhsaktUbmVacTFPS3NYR1RTdG1hNlRCcGRSNEpEV2dHV1BpMlJGQkMza0RTcXdSNDVlYjYxTEloVXlV?oc=5",
+      "https://www.prnewswire.co.uk/news-releases/scadafence-secures-10-million-in-funding-to-protect-smart-manufacturing-and-critical-infrastructure-660144813.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {

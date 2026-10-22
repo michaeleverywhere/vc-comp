@@ -2091,20 +2091,32 @@
     "primary_investor": "Viola Group",
     "source_url": "https://www.viola-group.com/portfolio/",
     "scraped_at": "2026-10-08T14:44:42.873530+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY3Z6SXpsZnFxeUVvVjlmeFFqQ05UcDgwRnFHcFV5MzIzLXVHczMzcVlLdXlGQXZ1X2Y0NHNVajYwR01MNExZLUc1R3ltVkVsWUJqb1VWV3NMbF9tMHA1ZTNUZ1R6MzNsUzNHV0ZoZTkzbFNhQUl5c0VGamw4a0k1b2U4Q2IwSDRLVXA2dg?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.solarwinds.com/service-desk"
+      "https://www.solarwinds.com/service-desk",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY3Z6SXpsZnFxeUVvVjlmeFFqQ05UcDgwRnFHcFV5MzIzLXVHczMzcVlLdXlGQXZ1X2Y0NHNVajYwR01MNExZLUc1R3ltVkVsWUJqb1VWV3NMbF9tMHA1ZTNUZ1R6MzNsUzNHV0ZoZTkzbFNhQUl5c0VGamw4a0k1b2U4Q2IwSDRLVXA2dg?oc=5",
+      "https://www.newsobserver.com/news/business/article10280897.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 30000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "nilos",
