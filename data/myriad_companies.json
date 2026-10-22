@@ -849,18 +849,35 @@
     "primary_investor": "Myriad Venture Partners",
     "source_url": "https://www.myriadventures.com/portfolio",
     "scraped_at": "2026-10-17T17:07:59.274981+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2024-06-12",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/pyte-announces-5m-in-funding-to-advance-private-and-secure-data-utilization-and-collaboration-for-every-enterprise-302170244.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1UFFlc1JWb0VJU2s5S0lsUDg4TVdyM09DUGJkejA4MmtvLUcyblRyX0tqVWZiQzFaVEY2OUkxcHVjVXRZSEJ0SElydU1GblRwSzhTZlJGTzJUaEIySk5ZZEFB?oc=5",
+      "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNR01CUGVOTUJDZ01zWlB6Sm5OTkpva3NxUXgzemlwTldBRm5rbTlzbThmS1dnSWRNaXNkVm9LS0sxMkdpdC1LeXV4aUU2TEVnYllGYzhLb1hvZ0JfeEZDajRaWlpYVXF6OFlzQ1luclFBMXI1OXNvT0ZCWk95OW5aOXdjOHVKUmppa04yMVU5SVFsX181SUpvRTZUTXh0U0pNNGpFd2J5WGFBSlY3WHpqZ3BWWmpDQzRsUFdZYTR0VGZteTJJb2hnMy1kaDVPN1U3aTUtdEF3YVdQSVFqRW1uSTBVVVB3cG1LVFdaZjZ3RElzMmIxYmFKOUxKT3FyQ0U?oc=5",
+      "https://www.prnewswire.com/news-releases/pyte-announces-5m-in-funding-to-advance-private-and-secure-data-utilization-and-collaboration-for-every-enterprise-302170244.html",
+      "https://pulse2.com/pyte-secure-computation-platform-company-raises-5-million/",
+      "https://siliconangle.com/2024/06/12/pyte-secures-5m-expand-secure-computation-regulated-industries/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-12",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Quadric",

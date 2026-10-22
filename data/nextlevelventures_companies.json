@@ -1528,20 +1528,33 @@
     "primary_investor": "Next Level Ventures",
     "source_url": "https://www.nextlevelvc.com/portfolio",
     "scraped_at": "2026-10-20T21:21:10.106060+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 7750000.0,
+        "currency": "USD",
+        "date": "2024-02-19",
+        "investors": [],
+        "source_url": "https://www.cmswire.com/the-wire/pulsate-raises-775m-in-series-a-funding-backed-by-trustage-ventures-and-curql/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.pulsatehq.com/"
+      "https://www.pulsatehq.com/",
+      "https://www.cmswire.com/the-wire/pulsate-raises-775m-in-series-a-funding-backed-by-trustage-ventures-and-curql/",
+      "https://techcrunch.com/2015/02/01/paypal-and-dunnhumby-put-1-2m-into-pulsate-a-location-marketing-startup/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7750000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 7750000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-19",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "RenoFi",
