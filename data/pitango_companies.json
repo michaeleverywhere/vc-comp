@@ -2206,20 +2206,46 @@
     "primary_investor": "Pitango",
     "source_url": "https://www.pitango.com/portfolio/",
     "scraped_at": "2026-10-08T14:45:11.105912+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-03-15",
+        "investors": [],
+        "source_url": "https://hitconsultant.net/2023/03/15/protai-raises-20m-to-build-an-oncology-drug-discovery-pipeline/",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Seed",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90UHZyc1hQcHB1Sk9aYmNsRkJiYUxPb3F4ZEVUUllmVHdleERWazNUM2JiOHVoLWx0MWNsSmJ3THZKaFRBTmg3SEp6T1Znb0tCZG9qVHdsNTR6Y1l2ZDdTdW5uTzdyQUZvZE9CZHVJZUFXUW5tRjRj?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://protai.bio/"
+      "https://protai.bio/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUVlEVTBLNGVWRUc3OXBFbDV4bnpGMUNoQXhKendfdEZZTlRBVFlwSVhPd3Uwc1RubEJ1eXlFZ2JrWUNjMFFzWldWQ1VkSE1zdDlKbTllT2tsWVpSdFlUNmlicnJjaVZja3FRMEczMXFCTnQtTFFxaEpwZ19Xd2dDM29NWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE90UHZyc1hQcHB1Sk9aYmNsRkJiYUxPb3F4ZEVUUllmVHdleERWazNUM2JiOHVoLWx0MWNsSmJ3THZKaFRBTmg3SEp6T1Znb0tCZG9qVHdsNTR6Y1l2ZDdTdW5uTzdyQUZvZE9CZHVJZUFXUW5tRjRj?oc=5",
+      "https://pulse2.com/ai-powered-drug-discovery-company-protai-raises-8-million/",
+      "https://hitconsultant.net/2023/03/15/protai-raises-20m-to-build-an-oncology-drug-discovery-pipeline/",
+      "https://hitconsultant.net/2022/01/05/protai-drug-discovery-platform-funding/",
+      "https://www.jpost.com/business-and-innovation/all-news/article-734409",
+      "https://www.israelhayom.com/2022/01/07/ai-based-drug-discovery-startup-protai-emerges-from-stealth-raises-8m-in-seed-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 28000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-03-15",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "CareFam",

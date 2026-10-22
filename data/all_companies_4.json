@@ -181457,19 +181457,56 @@
     "stage": "Pre-Seed / Seed",
     "first_invested": 2025,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.prosperr.io/"
+    "total_raised": 5550000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Seed",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-12-23",
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 1550000.0,
+        "currency": "USD",
+        "date": "2024-06-17",
+        "lead_investors": [
+          "Gokul Rajaram"
+        ],
+        "investors": [
+          "Gokul Rajaram"
+        ],
+        "source_url": "https://www.thehindubusinessline.com/info-tech/prosperrio-raises-155-million-in-pre-seed-funding-led-by-gokul-rajaram/article68300217.ece",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2025-12-23",
+        "investors": [],
+        "source_url": "https://inc42.com/buzz/prosperr-io-raises-4-mn-to-simplify-tax-management/",
+        "date_basis": "snippet"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "notable_investors": [
+      "Gokul Rajaram"
+    ],
+    "funding_status": "pre-seed or angel only",
+    "funding_source_urls": [
+      "https://www.prosperr.io/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUEtvUFJpaXJXbW5JN1E0YWp0U0pwalhLdTVidFpCSDlhSkJ4RnhVeDRNRWI5Vjd2YmY1MUl3Z2Y0SThPVzAyRjZQSlpTanFUanFJYlV5WmlGTVBYMEI5RlV1Uk92Z0wxd29UM1BvYTY3T2VLWmVhLVhsMWZmT3hLZUpoUjhfYUtSMDhDMktjS01qOWdWb0ZBSU9VRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMDlQWWhoU0lUQy1JRzdKRUlka3hOSi1fcm9KaEJaQWFQY3dkUEY1dmRiaXFvTldfcnVFODhBLTdXQUtHQURTbnRUNHBZLUF3cFNwcE0zT2sxWThwTVFPZEZRUWtaSTBSZEZIQ0lDWHlhR0JacFJWU3o3ZXRIZEx1ZjNtZ1RnX1RlNTVQR3JKT0hXLTllTnppZExET3BQeE5GRGp0MGF4NUdQZ25JRjJ6Z2VGemZGQUhDbUFLUUliX241LXJYeG5FbWJXYVJJUEtsdzRFTzJmVmtlQmF2ZjFCNTQ2a0ZjdE9VeHExUXpac3c3U1B1eFl5V9IB_gFBVV95cUxPbzBEVUliUTFvcm5kODFLU2JVYjNLSldoUFJZVXlhaF9yTkppMnRObnVhRmJ1a3k4S2ExTExxWTlYSkxsVEFDbk1TdFYzRktVbEhlcVJuVWZPVmZBNmxJcXE5Q0FtUnowVFRTODh5UWVNOTRUZ2V3dTcwSW9wNnBkUW9LWk5qYWpUcnJMVzJ4OVJ4bHJIRVYwMWptb2dfZXNMSFVMMUk3cTM0X3ZpWTFoUUZOdTBvSDZTZGVqak1oajF1TTlvWlhqeDBXNXVUUmFkUE9tdmRXUXp4Mm5YakJuX0VqeUhIQUM1eTk5bEl1a1ZzUUxpSGdTel9qWnVtQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSUE2NUVYRzVtWXN5eVBZMHh0RV96ZGZOemJoR3Q0aldtYmlzRzVEdk0wcTVjQmJHa2U2bXIwMmdJNW5DWjQwVS1jTGpqb294SWU2SnJyWFNuLW56YlY5cUlmNWFCVW1MaWxZVTU3dHRGSjUxUHo1Zmt1dTlRWFlCb25ZSWttYUZtUlUyVkJ3?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWNJTkJTNG1MQjg5SXREMVhFX21wNmNHQS1PVTlIelZld1NjWS1pZWMzWE1aaFB4NjY0aWRHUmJEUDdNUHp2alJjZXRHWXhRcjNKaHd6OERLcUl0RmhGUVJjb1Z3ZTE3bjdvUmdkaXVTSkxLaWpVNTJwRnphYWNJY0JpWUZqSlBEaUJnOVFCamxXZENvc0R1amZ1ak5hbnlWSDdOMFJkVllENjZFWWVwS2xaelZ0YmhaSkE0Yy1RQUXSAcYBQVVfeXFMTkZvdGxtTHl1aU04Z1FrUFFlTTdNNmNSekNhSTR3c1lqRGRkbHVWVDNsWS1qNEpMTnAweE9mT3lNNHhCVWRBZ1JlR21uelRmQUFMNnljaWJWak1hZ1c0dzRTakxzQTZPdGtlUDYyVjY2Nmd5UHZvN3phb3djNkJyV0w3Z2lEUjFZampVRkhsX1VXWTdFRzBuZDR2WEl2QlZuRGNGMzFNLU9yT1k4ekNJOG1icjYySzU2ZlFKZjI5X0JJQ3dmQ0Zn?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWkhtTmNKWWlPSzRfUzVZdWZndkZIVFE0cFZMd3U4d0lIblk3cXFZdzZlTlpHeEx3Y09kSHZKUTRRV2NrQVBhYlp0ajg0WVlzbXo5bHNKbGhOblBGX3VxaTVacVBydlV2dVVQMVg2b0Zib216T3V2S0k4R1RLcEdDV09Cc1lCTlVIeFVQeVZNV0d6UzgzaU41TnlXd2xiLXZGaXE2SEN1b2lJNk12cS1jTkd3UdIBswFBVV95cUxOWkhtTmNKWWlPSzRfUzVZdWZndkZIVFE0cFZMd3U4d0lIblk3cXFZdzZlTlpHeEx3Y09kSHZKUTRRV2NrQVBhYlp0ajg0WVlzbXo5bHNKbGhOblBGX3VxaTVacVBydlV2dVVQMVg2b0Zib216T3V2S0k4R1RLcEdDV09Cc1lCTlVIeFVQeVZNV0d6UzgzaU41TnlXd2xiLXZGaXE2SEN1b2lJNk12cS1jTkd3UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeURlOE81TjZHMmVMNkRLeEtiZlRrSFFTYUFLbG5uMkxvUEtjTm5sWldCMnJnTUhCbmdfS2tVQV8wWDVjQmZYU0ZmOFFKaEZxNldlbzAyNnl2Wm1HZXhFN1ZYdWp6MEI1cGMxdUtOVWJtM3RrOEFweEFXdkJ0U2ktOUdDN0FSM282NlNHTFRELUVjZ1lwN3UwSHhsVFl2OVdleHNjN0s3b1g3cmFhOVg4SEhmSkIxZw?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWS03ZEktZ1p1SGZ4WVZxaWNBbE1lNGRIa21zOE1iaWtZVk5FSElNV2g3OXBxb0Y4ZHUxdWhscHd4LWYtTVE0c1FKUTFQV3BaYV9sVlp2Y1R4XzBaeE5nV2hXNjFqSHpyMV9HaVpTcVFOdFhfVi1tVnVNY2VlZWtuUkU1cTlKbEU?oc=5",
+      "https://www.thehindubusinessline.com/info-tech/prosperrio-raises-155-million-in-pre-seed-funding-led-by-gokul-rajaram/article68300217.ece",
+      "https://inc42.com/buzz/prosperr-io-raises-4-mn-to-simplify-tax-management/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -521374,19 +521411,36 @@
     "stage": null,
     "first_invested": null,
     "status": "acquired",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 35000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 35000000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://www.prophetx.co/lobby/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 35000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMm1iT1hLdURNbk13V3QxSUxKc0h0WW5QNmlzc0k1elgxaEJMUDBfREQxQVkxSDhhbmZwOF9ZMTgya2FXeTVLS2hNd2J1bmxhMGp4WFNwbktOaWlGN1A4bzE5clNfSGdYamxXUm45T0xBbVF3MWpUN0ZzMVVuMFpyNHhlWDUzVlllWUFVS2RpQ3k1WVBfTTRGSnIxcDJjc09tNGc?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://www.prophetx.co/lobby/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMm1iT1hLdURNbk13V3QxSUxKc0h0WW5QNmlzc0k1elgxaEJMUDBfREQxQVkxSDhhbmZwOF9ZMTgya2FXeTVLS2hNd2J1bmxhMGp4WFNwbktOaWlGN1A4bzE5clNfSGdYamxXUm45T0xBbVF3MWpUN0ZzMVVuMFpyNHhlWDUzVlllWUFVS2RpQ3k1WVBfTTRGSnIxcDJjc09tNGc?oc=5",
+      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxORzNrSS12YS1YQkJtcG1XWW5jRWxGVnVEVW15d2F2aWkzODQyM2FUcGNnclFkOUx3Z25vLU9oVHZOZXRMemNVaE5KeTJaX1laSW1vR2tTNG1wN0hrc3lmd0VPWGRNTy15a1pCTy1pR2JNaG9oYVA4N2JoWHQ4VGh3Y0VqNGV0eW1FcVA5b0Z3SnVTQkt0QkJqRHhOMl84X3NueUttSVp5cHN5NjBFTkFEMFhVX0d6VTctRHFHS3pkaW1RNEtva0NYTHBzdllZU0U2SHc3UFZqT1plT0dWSGxVdk1pbHZVWHBjQXFFOUxBV3RubnI0a1h6Qy1XM1E?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yRy0yRUlxaHdVTG43UjFCdkJYSEJwSWhGaW40a2tuZFdBSU4yclFleWRLTzBBTUJaVW5VejB0a01yLWhzZVIycU1TeHR1NnVfdm1MdXpJaXEydTQySUwtRFdSdlpjd2k0MGZUUTBCeThKa3dONGc?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMkJXa0tiQXdjb2xjRE9CV3ZNZ3R1T0dsNGg1Wm1mQTE1NDQ0dGZ2WWJrTW5BcTZPa2ZocmdkT0xjZnJrU0hvVkVOdHN1dDJRTzJKeFhHYVJrNm5vZS11TlVTcFNKbkpnZU5rVnN1dGZrVTQySDVYUW15djlkNVVmZ0JRQ3oyS09TdDU0Njd5T3VUTXlIZldyRFFxZ2VvSE0?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY2ltV0tZUGJraFd1RGNtM0RFdlQwQTJKZUxfdFBUb2YtaGVsbHRyTnBxWkNNelJXUVk0Y3NRUnBDT1dSeXlJZ2tKTExzWTJGYkRTd0NjNkt0S29tRVZhTDk1clpidjUwMmVDUHNidjNLNFlud3dlYWIxXzZ3ZEprME4wNXM2T3V3RDlnalJGeE1hSGpQODBhMWdjT1FLZHpyV0JSdUVSbDZ6bmZrY1Z2eXd6STBjZGlfZUZ3Y1ZwUEppcHphb0FBc3ZMS21iOHNLMDRzaUNhYWpwMmM?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeS04S3BmRE9PRXNKRFFpbUxlZHEwTkU1eTVRcV9JZHJfc2oxdHZCQVNuNDlkZmtVSm92Y01Sdi1yTEJHOUdzSGMtOGJaMFZGYTR5dXdOY2dYRGhfNU5QaWwyVk8yQXFVN25oVTRjUGc0SUY4Q2tEeEtXUGQ0TFkyaDMtNjNubi1ialM0S0lrSEJMOEVmNFFnN0libml0TGFlenNSNEJJV3BGdDJ2cUdpLVhyQUdIZ0dpa3ZxdFBJYzZMQlI2UmhYMg?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdkwycEZVOXpSOWItNFBIV1prWUx3My1McFdYc0swcGdUX1JhMTFiVV9VUnN0RDREajNlb3pUeTE5V2d2aUdIakZpeHY3R29lbGlEQlkwMU1PaUNyaU5CbU9vcmYyaEpDeEhIb1VwcHlZUmFmdTJVVnN0WkFodUZfUFZ0S1VEakpVelJZSElhNnpmQkx1MmdzbTF6MWlTUlpfeklvdGMtemxMdDNQa2VjNQ?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
