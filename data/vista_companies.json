@@ -1239,7 +1239,19 @@
     ],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fusion Risk Management",
@@ -1425,7 +1437,45 @@
     ],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35875000.0,
+        "currency": "USD",
+        "date": "2012-01-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1538005/000153800512000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 56732632.0,
+        "currency": "USD",
+        "date": "2015-09-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1538005/000153800515000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN251ZTRHZm9meW1RQXhwM05BanZzRURxbURHYlFxVUo0TC1DNkdFMDRXaG1HeDh6a090TFJxU2NMd0E3RERXTWpZX2Y0YlRVaUxMLTZZV2RDajFIZ2YtUmdfZHN4TEJWdlNWdE1jbmllWEtDTEJ3ZDFoTHhCZWhiM0kyMXV4bkVGTG5WeVYyZDd2YUEyYWpuM0tCMHlKLTV5MERyVFhPamowVHEySEZaZ2o1MUVVWmJwUEZIdXR6emtrdw?oc=5",
+      "https://finance.yahoo.com/news/exclusive-recruitment-software-maker-icims-010254979.html",
+      "https://financialpost.com/pmn/business-pmn/recruitment-software-maker-icims-raises-funding-from-ta-associates-after-pulling-ipo",
+      "https://www.sec.gov/Archives/edgar/data/1538005/000153800512000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1538005/000153800515000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 56732632.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-09-18",
+    "total_raised": 92607632,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Infoblox",
@@ -1483,7 +1533,52 @@
     ],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999987.0,
+        "currency": "USD",
+        "date": "2013-12-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1473705/000147370514000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2015-02-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1473705/000090571815000287/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27000070.0,
+        "currency": "USD",
+        "date": "2015-07-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1473705/000090571815000652/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1473705/000147370514000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1473705/000090571815000287/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1473705/000090571815000652/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 27000070.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-07-17",
+    "total_raised": 61000057,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "InvoiceCloud",
@@ -1505,7 +1600,19 @@
     ],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "JAGGAER",
@@ -1523,7 +1630,19 @@
     "everywhere_tags": [],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Jamf",
@@ -1627,7 +1746,19 @@
     "everywhere_tags": [],
     "primary_investor": "Vista Equity Partners",
     "source_url": "https://www.vistaequitypartners.com/about/companies/",
-    "scraped_at": "2026-10-16T20:08:27.573280+00:00"
+    "scraped_at": "2026-10-16T20:08:27.573280+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Klarna",

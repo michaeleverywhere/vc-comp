@@ -7,7 +7,25 @@
     "primary_investor": "Genoa Ventures",
     "source_url": "https://genoavc.com/portfolio",
     "scraped_at": "2026-10-20T23:46:56.553033+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2023-10-31",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/aqtual-raises-16-million-in-series-a-funds-301972198.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/aqtual-raises-over-30m-scales-123900943.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://aqtual.com/",
@@ -16,17 +34,21 @@
       "https://fundup.ai/recently-funded-startups/company/cEMLR4ekijkXWX5MRPe0/aqtual-inc",
       "https://indexed.vc/companies/aqtual",
       "https://www.citybiz.co/article/716513/aqtual-raises-31m-in-series-b/",
-      "https://siliconflash.com/aqtual-secures-31-million-in-series-b-investment-round/"
+      "https://siliconflash.com/aqtual-secures-31-million-in-series-b-investment-round/",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEh4OHRGZ1dvSWM4QmNmeWdORE43dzlnSzQ5QWVRQkNkN3RsUVZvWEY3cnljRUx4bDZ2T2pvVklJa2FoZERKR1oxcFd6VmxBbEgySExJS0NPY1h6UmQ2UFZzQlRPNFhSN3p6b1cyM3ZIN0FGU0lFbXdwR29FaXgybC1sNlFOWkx4UFE?oc=5",
+      "https://www.prnewswire.com/news-releases/aqtual-raises-16-million-in-series-a-funds-301972198.html",
+      "https://finance.yahoo.com/news/aqtual-raises-over-30m-scales-123900943.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 46000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 16000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-31",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Attune",

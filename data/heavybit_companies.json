@@ -584,7 +584,19 @@
     ],
     "primary_investor": "Heavybit",
     "source_url": "https://www.heavybit.com/portfolio",
-    "scraped_at": "2026-10-03T13:17:33.591211+00:00"
+    "scraped_at": "2026-10-03T13:17:33.591211+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Antfly",
@@ -2253,20 +2265,32 @@
     "primary_investor": "Heavybit",
     "source_url": "https://www.heavybit.com/portfolio",
     "scraped_at": "2026-10-03T13:17:33.591211+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12500000.0,
+        "currency": "USD",
+        "date": "2022-08-19",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFZkRjBnY0Z4Q0pNNF9GeWE1b2M5WkhrWHZidGRrYmQ5WG15QmQ1Wl9LeXFwbnFOWVUyNE1RYTgwd3RRbXZrWlZFYTNOM3djeFhta1RIX3RFeWlfSTFHdk9Qenp2VmVOWDFxcTFjM2lZZTFGUV9vWW5GYzJqU0VtcndMYzczaVVRYTJpMjNHMV9mdw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.mobot.io/"
+      "https://www.mobot.io/",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFZkRjBnY0Z4Q0pNNF9GeWE1b2M5WkhrWHZidGRrYmQ5WG15QmQ1Wl9LeXFwbnFOWVUyNE1RYTgwd3RRbXZrWlZFYTNOM3djeFhta1RIX3RFeWlfSTFHdk9Qenp2VmVOWDFxcTFjM2lZZTFGUV9vWW5GYzJqU0VtcndMYzczaVVRYTJpMjNHMV9mdw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 12500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 12500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-19",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Brace",

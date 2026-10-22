@@ -460,7 +460,19 @@
     ],
     "primary_investor": "Momenta Ventures",
     "source_url": "https://momenta.vc/portfolio-v2",
-    "scraped_at": "2026-10-17T18:50:51.609053+00:00"
+    "scraped_at": "2026-10-17T18:50:51.609053+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Fleet Space",
@@ -473,7 +485,54 @@
     ],
     "primary_investor": "Momenta Ventures",
     "source_url": "https://momenta.vc/portfolio-v2",
-    "scraped_at": "2026-10-17T18:50:51.609053+00:00"
+    "scraped_at": "2026-10-17T18:50:51.609053+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 26400000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGNm5LNWlHUXJreFQ3MkVzY2gyYmU1QThwU1F5NFZxa0ZaVVJqc092YkRmc2dNTGc3c3dEbllYMkxzeVIyeFd6dkx1WkFKakZoS0NaQXlB?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM3N2YXFCV1pfZFRQR0E0WDlZdHlZcGZiZHp5RVZyWkhmZnFadkVmTU91WGpKRmhCamIwWkNrOXlNZUgtZGhNQl9rbHpSSW1iOUczQmlRVlBFdHRKX19yOWRweUMyM0NKR0ZaT0NHRjFmYm96NENiWTFibkFTRmVJZ3pvWHIzZm5IZjVTM29nZnJDNUp0bkdtN1duWFRCek8zbmlzMjhiZw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOOXNfNTJnQy01dzNzazB6bHhDNFFPem5hMG50MXF5VUJfaUdWempITnFITDhaNUZ0ajdMcDNEcks3bE9DeXdfSGZ2UFlEd2pBRXNWU1U4Ym1oNWJxRlNaUnJUX3BPamtTbTdhT1pISzAxakJzWVVScW1iY1YtSmVQeG1ZY3g3WWpPUmNsWDlaTk5KRnJfV3d6ZGwybkdLOWN2UUQzOU9WdDFUZmRDbkg0M1hiWnJmTWtXTnNPcjIwVF9ocUVXdENpX1dWanR1TFFnUFBZVzRpNWg1WUJHNXdqbTBpZ2pWemNGekNiTF9WaVMzbFBTVTlBWjFWaFZSeXk1bWhrOE4xMEdmaFItaGlPWGhEdXNldw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM3N2YXFCV1pfZFRQR0E0WDlZdHlZcGZiZHp5RVZyWkhmZnFadkVmTU91WGpKRmhCamIwWkNrOXlNZUgtZGhNQl9rbHpSSW1iOUczQmlRVlBFdHRKX19yOWRweUMyM0NKR0ZaT0NHRjFmYm96NENiWTFibkFTRmVJZ3pvWHIzZm5IZjVTM29nZnJDNUp0bkdtN1duWFRCek8zbmlzMjhiZw?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd2FlaDh0N2NkR3lfUmc2TXlvQTdmTktxUXRwa1pMSzUtMzNrSTdwUGh2bFpHUEU0WVU4dVZiQkdzYThzOFZ4dUNLYUtySVFFbF8tWFp6dVJXU2hVUTQ3bkJQOThaTWl2UXl6aGF3X3M0SkIyNlJ2UWNobUlSZUlJaC1pWndqQ2tpNG9Da2NudmVQNnE3T3N2TTlmcXNRUXR6ZC1STHJYZnpWaHh6ZE4w?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYTJiZFZoNFRQc0hUejIyR1Ixb3hINFZVUG03bjJURjU3NTNzcDZmZmZDQV9fc1pGNlZGRDJqU0VIdHdST08wTUZnODJWUWVoNmZ1Y2ZRNmpwZEhFdHZFNmtCTUh0U09HYmRVbmo5YjJWdFhzSGF4ZW1qVC1pajk0aW1kSlh6NDJUUlJaWGx5aXF1UjU4QU9NNzUtckFlR3NLY2ZvdW0zSEh3VEt1bndHel8xQVkwd01yaE9sRw?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZXdQSTRlRVRnd1JwV0FjNzZYNzU4b3Ryd1piODljOExSN081b2M4UWh3NHlsNVVHU19QWUQ2dXNSR2RQX2RKQ0stcy1yc0Z5Wk5EWXQ5U2NqQ0N6cDllYkQtLWZfbTc1MDhrdHdpRVlEWXV0ZVF5YV9aQ29MSDVybFRLblpGdl9vZ01jbk13U0xzWHdFWkl3SG5MLS01TEh5?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc0ZmVWoyRll1WFQ1ckNlSjFuTmE2UzM2SmdBTkdrWHAtb1lSZ201VGYzcy1LWi0tLVVYR0tjTXh6OHlSNzAwQ0h2Q2xISmFERTlVenNLYVJra0dvdDQyc1FUbEJFQnRGeUozSHRkZmNFbGpkZWQ3OWhRVU05SHZHeGhSQlJYdzBkYi1OT183MTJCLUFlRmNJRUdHVlhnaWdXTlVqZ21wbnZNQ2RCTGc?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRWxQMnhUNUJkV1gta2xZeWZwUlVzdUI0TU53dzRZcVp5WFp2TWt0LU9BYTFYVnBsRlR0UUFMbFlQQ21sT0hVRFVqOU01X3M3TE9EbzA5RmxSdWk1ak1OWUk1eFFTQi1QQzdDeEh2dUZCWVdlc282UHl1OU9PT3FpSEk1ampzbGlWaGFjTXVhZlMtV3lRSU9OaG01eU94US16cEVhd1dNVHVFUzdEMERCZ184cVJ6b3Z4ei03ZmJnbjF5M0JxczQyVGF4NFYweUtjU1JKRzRhcmI?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGNm5LNWlHUXJreFQ3MkVzY2gyYmU1QThwU1F5NFZxa0ZaVVJqc092YkRmc2dNTGc3c3dEbllYMkxzeVIyeFd6dkx1WkFKakZoS0NaQXlB?oc=5",
+      "https://news.google.com/rss/articles/CBMilgJBVV95cUxOOXNfNTJnQy01dzNzazB6bHhDNFFPem5hMG50MXF5VUJfaUdWempITnFITDhaNUZ0ajdMcDNEcks3bE9DeXdfSGZ2UFlEd2pBRXNWU1U4Ym1oNWJxRlNaUnJUX3BPamtTbTdhT1pISzAxakJzWVVScW1iY1YtSmVQeG1ZY3g3WWpPUmNsWDlaTk5KRnJfV3d6ZGwybkdLOWN2UUQzOU9WdDFUZmRDbkg0M1hiWnJmTWtXTnNPcjIwVF9ocUVXdENpX1dWanR1TFFnUFBZVzRpNWg1WUJHNXdqbTBpZ2pWemNGekNiTF9WaVMzbFBTVTlBWjFWaFZSeXk1bWhrOE4xMEdmaFItaGlPWGhEdXNldw?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 276400000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Foresight AI",
@@ -569,7 +628,27 @@
     "everywhere_tags": [],
     "primary_investor": "Momenta Ventures",
     "source_url": "https://momenta.vc/portfolio-v2",
-    "scraped_at": "2026-10-17T18:50:51.609053+00:00"
+    "scraped_at": "2026-10-17T18:50:51.609053+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNDlpeVpQSkJXTHZfWGp2NXcwMzFxbTI2X0gycFgwNDhkMk1HVkVGWDlVZzdOd0FwTkktV1dMdWtKaFlRclBLcDJ6bEo4TlF6YjJ0c3AtVHVGd0xVY19aWFZOWmhvSHMyQWUyMUl3blgtd1JkS054VEhuRGdJYm1hLWh0U3FPNTlyUFRhbVI3cw?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTFFXcEw5Z2JLRXVVLVFzRWszMHBuSk0za21wc2U1RklfUlNBdjBvdWR2WTdNSDI2UU5qOHlpYXRHcU9KN2M2Tm1kc0hyVkVCS2Y1S05mTzh4M1BreUdrLVRlVzdEUm5mRTFLS0pGZ2Nic2tlU0tYQlRacTA3SG5BZkVkeUNBcWlzeVo1VTdoWkJCbDFTbEhrczNB?oc=5",
+      "https://pulse2.com/highbyte-industrial-software-company-raises-12-million/",
+      "https://www.prnewswire.com/news-releases/highbyte-raises-3-5-million-seed-round-to-speed-growth-in-industrial-dataops-market-301439713.html",
+      "https://www.prnewswire.com/news-releases/highbyte-announces-series-a-raise-to-accelerate-growth-in-industrial-dataops-market-302123790.html",
+      "https://www.mainebiz.biz/article/portland-industrial-software-startup-highbyte-raises-12m/",
+      "https://www.streetinsider.com/PRNewswire/HighByte+Announces+Series+A+Raise+to+Accelerate+Growth+in+Industrial+DataOps+Market/23098438.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 8 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "InSkill",
