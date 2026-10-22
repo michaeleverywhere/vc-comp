@@ -1340,7 +1340,61 @@
     "everywhere_tags": [],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 250000.0,
+        "currency": "USD",
+        "date": "2019-03-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1777284/000177728419000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2019-05-18",
+        "investors": [],
+        "source_url": "https://pulse2.com/nashville-based-production-music-startup-soundstripe-secures-4-million/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2025-04-09",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMW1Qd2owajhjeVlFQXpsQm1fM19uUWVibElEYW9RcFlkZ2w3RGxoRzd1UXRPVk9GYXVPeVVWbHBtaDZIUWRrd2k5MUMzZUpHbWpMN0NuU1pveXZxdFV2RmFtTlBDOUtDcVNQRTJzYjVYc0hWZEZBVjcteHhzZTVwUXk5Q1dCNnM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 9000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcGp0M05ZSTBZSXdhZzM5NGtlYmhLc3h0a2ZvZDlvdEN6d01oUXk4SE5YdFdJaXlYR1BQcjB4YlVmWGpqRXFsZl9XZk1Db0FRTVZTRVc5R1k4TVBjRWQ1NGdxbHZPTVV4M1dSdVo5dXRSaEg3Smw1QkRnTTFQamNDLURVcGZad0N1QWtQNE1yNGdhWUVpRk80clBqa2EtYU5nSlVfcTJKcmdLVnBQc3pjbzlGc2xCRmRMT3VVZFA3V2pTU2hQX0Vmakln?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcGp0M05ZSTBZSXdhZzM5NGtlYmhLc3h0a2ZvZDlvdEN6d01oUXk4SE5YdFdJaXlYR1BQcjB4YlVmWGpqRXFsZl9XZk1Db0FRTVZTRVc5R1k4TVBjRWQ1NGdxbHZPTVV4M1dSdVo5dXRSaEg3Smw1QkRnTTFQamNDLURVcGZad0N1QWtQNE1yNGdhWUVpRk80clBqa2EtYU5nSlVfcTJKcmdLVnBQc3pjbzlGc2xCRmRMT3VVZFA3V2pTU2hQX0Vmakln?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMW1Qd2owajhjeVlFQXpsQm1fM19uUWVibElEYW9RcFlkZ2w3RGxoRzd1UXRPVk9GYXVPeVVWbHBtaDZIUWRrd2k5MUMzZUpHbWpMN0NuU1pveXZxdFV2RmFtTlBDOUtDcVNQRTJzYjVYc0hWZEZBVjcteHhzZTVwUXk5Q1dCNnM?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rOHNSNEl3ZkRhaUVMeUxTOE9hRzJfWlVvRE9kZnJrS2tTOWo2U0Q3YkVnNk5IaUNMNmdFa0p0LWowU1JiSXVCeFZmY3BVVjczX0xZTl8yNGJ2enpBM2JVQXgtUjcwYW53THJwbmo5eUx2dFdk?oc=5",
+      "https://pulse2.com/nashville-based-production-music-startup-soundstripe-secures-4-million/",
+      "https://www.sec.gov/Archives/edgar/data/1777284/000177728419000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-09",
+    "total_raised": 15250000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SplashOne Robotics",
@@ -1353,7 +1407,19 @@
     ],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Switchyards",

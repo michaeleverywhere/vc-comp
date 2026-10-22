@@ -2692,7 +2692,19 @@
     ],
     "primary_investor": "Celesta Capital",
     "source_url": "https://www.celesta.vc/portfolio",
-    "scraped_at": "2026-10-16T21:19:18.632146+00:00"
+    "scraped_at": "2026-10-16T21:19:18.632146+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Stathera",
@@ -2713,7 +2725,47 @@
     ],
     "primary_investor": "Celesta Capital",
     "source_url": "https://www.celesta.vc/portfolio",
-    "scraped_at": "2026-10-16T21:19:18.632146+00:00"
+    "scraped_at": "2026-10-16T21:19:18.632146+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-05-19",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTXNRRjRUOGZRelR0N1BxTTdtMzl3TG5jYndsRXFYNVY2TVlQNUtqSkZNUnlnX1Iyb3hOc1J1U2NGbHZSaG40R1VhYlZHNjlWTV96RzNWRDg1Z2JmeGJGY0hVbW1tRWRORFJsSElxX2NwdHZGVDV0NkhYc3B6VmFlNGw5WFFWZGk2SERERHdUcmdxcWx1Vy1vTEh4RVptSXh3OE9rMWlR?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 55000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXBEM290SGVNX1dkUDdnX194aEJpbE1tXzVvTUNTMEl0Rjl5a2VXYzE5QTVaSnREanhCM2ZUOUg3UVJ0ejJyN0hZcWxTeVJqa0VSM2wtcl9ldUcwN2xuUEVlTDBGN3RjTjB6eS1zX2JwRkxWazU5dUx1REExTjdpOTB2TVc2OWl2?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXBEM290SGVNX1dkUDdnX194aEJpbE1tXzVvTUNTMEl0Rjl5a2VXYzE5QTVaSnREanhCM2ZUOUg3UVJ0ejJyN0hZcWxTeVJqa0VSM2wtcl9ldUcwN2xuUEVlTDBGN3RjTjB6eS1zX2JwRkxWazU5dUx1REExTjdpOTB2TVc2OWl2?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXJfMzNWUTdJYVVYZmsxNjU3U0lMcmNwOVN5S1puOV9SclluRlZJMldfcXJNSGxySTFsT3ZEWDYzaWM5RHMtcnd5Tnd6RHFsV05pVV9RMFZxa0tzOVR0LW9nOG1HSXRxMVdIUk94MWh4ZkwyT1JXVGl0dFdESUx4SUcxeWVzQVAyTFVRR2g1ZTY1SkliYVJCX2VTZmkxVW8wYlJja1UtRXpXd0dwTEMtYUtxaW1iTUx1bUdn?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWno3dm50b1UtVnFFbDJUemt1UUdNOEJwUmowN1BfTk1Gc2JVeGpNN0xUUU5IQThDRm5RaGJsS3ZTbmp2TmJoQ0IwOFM4N1UzOTE0VjRyZTkxVC1NOHBGMlNkdXFfSHh3UHB6SVJ4TC1LR2FoZWNMeVZhUlVjeDlDRm5FVVY1WFZ1YndFRzVabWhkTHNlZUJmeVVsdldSaUNqSm1ieg?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLVhTZjR6YjZnS2RQTzVzZmRzekxESFNiWjhPQ0M2V2xqakdxdW1Rd0JPWmRlQkZXUGk3UEREb09aTUpJVHZVY05KMmpQbnFTd0dSbGFJQTAxQTJ3WXVPQkdYV250MkVLUVN0TGpxcnNONmNrbUV3a1hESGY2WWFuczBZZlFHTkJJc2hueVdsTHVCOWF5Z0hxendONFlyaS1J0gGmAUFVX3lxTE42ZFdWT3N4c0dZU2tEQjMzeEQzemVOYzFZQXZiZk1SRkxsSlVweFdPVTBkeWVRYWVyOGF2MEFwdTBKTUNHcHc5Q0J6VHVGa3FUU0dmaFRzVW5NN1h0Q1I2OXA3WFE0Wm1VcmNhQTFqc2ViZXdrZVFPNzF6Rl8wUmE4N0ZWZy1TYVBqZTVZYnAxaGllanNmNXpBbVh4NmswUS1MYjNETEE?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTXNRRjRUOGZRelR0N1BxTTdtMzl3TG5jYndsRXFYNVY2TVlQNUtqSkZNUnlnX1Iyb3hOc1J1U2NGbHZSaG40R1VhYlZHNjlWTV96RzNWRDg1Z2JmeGJGY0hVbW1tRWRORFJsSElxX2NwdHZGVDV0NkhYc3B6VmFlNGw5WFFWZGk2SERERHdUcmdxcWx1Vy1vTEh4RVptSXh3OE9rMWlR?oc=5",
+      "https://ca.finance.yahoo.com/news/stathera-announces-us-55-million-130000924.html",
+      "https://pulse2.com/stathera-raises-55-million-series-b-to-scale-silicon-timing-for-ai-data-centers/",
+      "https://siliconangle.com/2026/06/30/stathera-nabs-35m-make-vacuum-sealed-silicon-oscillators-ai-chips/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-19",
+    "total_raised": 75000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Stellapps",
@@ -2733,7 +2785,68 @@
     ],
     "primary_investor": "Celesta Capital",
     "source_url": "https://www.celesta.vc/portfolio",
-    "scraped_at": "2026-10-16T21:19:18.632146+00:00"
+    "scraped_at": "2026-10-16T21:19:18.632146+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "lead_investors": [
+          "Blume Ventures"
+        ],
+        "investors": [
+          "Blume Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd3F5R2FnczRDYVNmQTBuUFVMWE13Smp3dG1FMEpmY2FaR0I3M19NSmdvRndaenFGbDMzYXdPeEcwbDZGVWloR21naWpZYjk3MTVtMGh2UGlGclpsbTNHNzl1RlctN1FrV2V5SFJvcXpMSENnN0NBUV85UDZSSzlqS19ZcHNzTU9SMHJMYTJuVXBvMThQd0lDQTRieldfU1M2UkQzMjY2NNIBrwFBVV95cUxPNzhTTC14cHduTDJHdmk4NjR5TmtoN2Fmd0RNaFlia3pDYWNDZ0F6SXI1bmRHTUJHMGsyMTZGZ3ZJX0J4c0dLSG4tVmprOWVaS0EwUmtDMTZqd3VlbklHVGwxZ3VqMzR4ZXd3T3V2M1NWYVBoazJCX0dGYmhHVzhhSmpnbFZWenJMMGxha3FZX0xJNUVGbzd2b3A1eGswYUVMX01zS0trREtjaDJ1d3lZ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Nutreco"
+        ],
+        "investors": [
+          "Nutreco"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYnlaSEgwcXNmLW1rd3NDVlZQSHV2bV9yaHRJNkQzbTk4SWNnRUlybkdYc2hXT3k5Sl9qaFZRTTZEVjAyV0JWY3hDQnd5WU9xdDFTdzdqNzlfQ1lBMUctbTY1RFVNMWJDX0xFSkdjX1BFWWdaR3VQcFVHdFF3cW96VXNvLU9uci1lUmFVdUN3aXI0bU1Dc0tsVzJSSkVKSENMUmNvbTVDTUFYLWlmal9VMFJXUFVJRUNsZTFN0gHAAUFVX3lxTFB1YUtHc0NiRE1YbjREblAzeUc2NGhaYk9jSHFSUVlFNUZaM3hHZmUzRHpVdTR1QmlRS2ZFYzJaQjhPck1IQzRxdmZJY2VsdllDS2tNQ3JFSGFQdlBfdTN6czI2M1B0elZMZHRibW1oUXpKcHE1bEpKSnBFZmVjQ244OW9sWFFnb3d2U1hTc3R0SVpkMXctb0twdXMwOXpuaXVLRV9EbXFweXBJRUhvc0FrWURYazE4eWxZeWRwdjR4bQ?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZldhZkxWRGV0V1Izc1JyNG1wMnl0R0lENXdUT05xQ3U4WjE3Y1hjbnE1c3JFd05ldEtNWk45QkVRUGJzcVp4ZDRHMUNhSGxsMW5NWGd3TTFCczVjVmlxRWNFNlBWanRqRXFOY0lCeExQcTlIY196ZHd5WW01MGhFeUtUV2ZrZF9tbGVjZ2t4bWNvMEUySjZlQXVkX0tsNlhiMEhnZ3Rja0JuclNtR2pGS3c5R1ZvSEZHZFpHbHdqb0pSdWw3anAzTVJxVm5pUFNYOXNFaWxra9IB3AFBVV95cUxQazFtZEJwRUdNdjJ5UmxyTkNpSWNvLW1CNmVGYU9Hb2h5YUItU0d0YjYxS21ERHAybTdhMnhxYlFHYzhZcnRKQ1hFdklzQWt5dllHVW9WS1BmbGptSFk5X1dQNmNkQWhybVFlWnJCSnVOMTlJb1F6YmVJYkk2bVhROUhJbGxaVGZQOGdNQnlNX0lMTmdUanp3d1NkeS1mcXZXd2ZnUnpjVFhqdkpjR1FjSFJaR1p5UFRKWUY0bnlnNEJtOE11aVFBNVFmMWxpSXplWlhZZ0RFcVF5UmFU?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZldhZkxWRGV0V1Izc1JyNG1wMnl0R0lENXdUT05xQ3U4WjE3Y1hjbnE1c3JFd05ldEtNWk45QkVRUGJzcVp4ZDRHMUNhSGxsMW5NWGd3TTFCczVjVmlxRWNFNlBWanRqRXFOY0lCeExQcTlIY196ZHd5WW01MGhFeUtUV2ZrZF9tbGVjZ2t4bWNvMEUySjZlQXVkX0tsNlhiMEhnZ3Rja0JuclNtR2pGS3c5R1ZvSEZHZFpHbHdqb0pSdWw3anAzTVJxVm5pUFNYOXNFaWxra9IB3AFBVV95cUxQazFtZEJwRUdNdjJ5UmxyTkNpSWNvLW1CNmVGYU9Hb2h5YUItU0d0YjYxS21ERHAybTdhMnhxYlFHYzhZcnRKQ1hFdklzQWt5dllHVW9WS1BmbGptSFk5X1dQNmNkQWhybVFlWnJCSnVOMTlJb1F6YmVJYkk2bVhROUhJbGxaVGZQOGdNQnlNX0lMTmdUanp3d1NkeS1mcXZXd2ZnUnpjVFhqdkpjR1FjSFJaR1p5UFRKWUY0bnlnNEJtOE11aVFBNVFmMWxpSXplWlhZZ0RFcVF5UmFU?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOHdtRDk0ZElXd0c1SGVVOHQwdVo5OXFmOEdFZ3laZC1mS3ZSWUdBb3VaOXhjc1RVWm1yb1F6QWxibUJUM2tsZmFuNVA1eWs4VUp5SnlXTzNIR1FPbEF2MFhxUHh6NnZCWHdLNE9tNFk2elJzLVpSRmhkcHZuVFN5a2x0aU9paWgwV05SY0NiRjZ5VlFxWXZMakQyR2JaeUlY0gGgAUFVX3lxTE04d21EOTRkSVd3RzVIZVU4dDB1Wjk5cWY4R0VneVpkLWZLdlJZR0FvdVo5eGNzVFVabXJvUXpBbGJtQlQza2xmYW41UDV5azhVSnlKeVdPM0hHUU9sQXYwWHFQeHo2dkJYd0s0T200WTZ6UnMtWlJGaGRwdm5UU3lrbHRpT2lpaDBXTlJjQ2JGNnlWUXFZdkxqRDJHYlp5SVg?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYnlaSEgwcXNmLW1rd3NDVlZQSHV2bV9yaHRJNkQzbTk4SWNnRUlybkdYc2hXT3k5Sl9qaFZRTTZEVjAyV0JWY3hDQnd5WU9xdDFTdzdqNzlfQ1lBMUctbTY1RFVNMWJDX0xFSkdjX1BFWWdaR3VQcFVHdFF3cW96VXNvLU9uci1lUmFVdUN3aXI0bU1Dc0tsVzJSSkVKSENMUmNvbTVDTUFYLWlmal9VMFJXUFVJRUNsZTFN0gHAAUFVX3lxTFB1YUtHc0NiRE1YbjREblAzeUc2NGhaYk9jSHFSUVlFNUZaM3hHZmUzRHpVdTR1QmlRS2ZFYzJaQjhPck1IQzRxdmZJY2VsdllDS2tNQ3JFSGFQdlBfdTN6czI2M1B0elZMZHRibW1oUXpKcHE1bEpKSnBFZmVjQ244OW9sWFFnb3d2U1hTc3R0SVpkMXctb0twdXMwOXpuaXVLRV9EbXFweXBJRUhvc0FrWURYazE4eWxZeWRwdjR4bQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZVRONzNIZzdERXhDYWh4SjRSTXhtMnRfT2ZXck9WVXc0c3hzWFVrRW5NZWJtYzhoX2xrS0VpUHcwc3dGdmpHTjUyUTBPa2dCQWFUTnNxNFZTVkpxb1JrZ0d3U1lXVWd4cllHdXBRaFVwMTBMa2JwWFRpdHdjckFkNUMwQmh5Qm4wZWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFdYRFBacTFQWHhxYks5VWp1YzZraUQ4NGZld0E3b1pnaWhtWFFWMnNTclFGVjFTMVpNTnBjamRhSmZWQWFNdVlCcGRUU1p2OERMeVlzbUVKc2ZxVFBEWndTYUQtVmg2cGFsSmZNaXUxRTgySVduaDYyY0RlY0VqSElBaS1lcXVQeGxjd1lfOFVqVXZLM3JHNUxuR01sVDZzbFVDTUNWYzPSAa4BQVVfeXFMT3FCSk04SUFoU0prRk9YODNuMXhLUG54OGN4WDQzTUpnWWV3LUtQQzhLRmFkNTExUXJtTDU0RjJsR1dZUVBUR0F6LVM2ZkxGOTFDV0tXSGY0OW9LbG1wdXF4bGNEcHYtS3Z5eVNxZGRKSXlfRnRFWkt6X3htNWNhaENCWk1CODRUV1ZGUVBGb3REZFZjZ2dmeEx5bWpxd3JwSEl2SzlBa2lKVTdoWV9R?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeU1URjh1VThUdmlickt5WDZ5X0xtRTNJSUhHdDlNdFM0Zi1XUlNiczZzQTRVZjE3a3NjSWg0TG5zM0xzcXlQOVBVZ1g3enJqd2FaeHl5LU4wRU4wa1EyTGR3ZVR4Z1hvaTZQNWxBMVg1ZWgwZnpGVnlodTlVb0pfa0RiTkZLUXAwYmJIYm1BcGpBU0x5YlpKWlk0ckphb1hRd0ZYSkd3TVprQ1ZaY3FzOFA1SmtfWW5ScW1EM0JWTWZBVFBjRTRTV01zaHJIbTduTFBictIB2gFBVV95cUxOakJrUXk5a3F1MHF2UDhQLUpaU25RWURJWjZxUVRudktnQkg4Yjd1Vy12RURtMnZvS0lKalAxM0dLcXdvTlJQZGFINnFmSzBRZnU1OV9Wa2lZa0g5cEMzd0hvUm5RX1lTUXpra29WV1NhNlFqZTZPODQwbHdMcGF4UFdzQXFqcEluejJCMVF5bjRwdHZCNWFieG4tZTFaNGFDNFpxWlBPeDFjRG5YV2tZSzIyd0FFNlpHcUJSNG9OS09felNqOHl4TGRQRWZFYXZuVzFLZTg4OFM3Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd3F5R2FnczRDYVNmQTBuUFVMWE13Smp3dG1FMEpmY2FaR0I3M19NSmdvRndaenFGbDMzYXdPeEcwbDZGVWloR21naWpZYjk3MTVtMGh2UGlGclpsbTNHNzl1RlctN1FrV2V5SFJvcXpMSENnN0NBUV85UDZSSzlqS19ZcHNzTU9SMHJMYTJuVXBvMThQd0lDQTRieldfU1M2UkQzMjY2NNIBrwFBVV95cUxPNzhTTC14cHduTDJHdmk4NjR5TmtoN2Fmd0RNaFlia3pDYWNDZ0F6SXI1bmRHTUJHMGsyMTZGZ3ZJX0J4c0dLSG4tVmprOWVaS0EwUmtDMTZqd3VlbklHVGwxZ3VqMzR4ZXd3T3V2M1NWYVBoazJCX0dGYmhHVzhhSmpnbFZWenJMMGxha3FZX0xJNUVGbzd2b3A1eGswYUVMX01zS0trREtjaDJ1d3lZ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQjdDUzJSbmhwQU1CWWVlaHFZbG9tSVUyajkwR0tCTU9ZRnZydzlRZmt4TENvMGhfNkZzdk1SQXFEREoxY0h2dXZBVU9MNXFrMzhMeS1KQ1BDTGFNUW1MdDlCNmd4T3Z2dEZJWUZmUjIzVjk2Y2l5VHMyejMtM1JYazdhbE1sSFJ1UjBzaktB0gGOAUFVX3lxTE9CN0NTMlJuaHBBTUJZZWVocVlsb21JVTJqOTBHS0JNT1lGdnJ3OVFma3hMQ28waF82RnN2TVJBcURESjFjSHZ1dkFVT0w1cWszOEx5LUpDUENMYU1RbUx0OUI2Z3hPdnZ0RklZRmZSMjNWOTZjaXlUczJ6My0zUlhrN2FsTWxIUnVSMHNqS0E?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 44000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Blume Ventures",
+      "Nutreco"
+    ]
   },
   {
     "company_name": "TagoreTech",

@@ -1470,7 +1470,19 @@
     "everywhere_tags": [],
     "primary_investor": "Blue Venture Fund",
     "source_url": "https://blueventurefund.com/portfolio",
-    "scraped_at": "2026-10-17T21:48:42.062459+00:00"
+    "scraped_at": "2026-10-17T21:48:42.062459+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Solera Health",
@@ -1479,7 +1491,46 @@
     "everywhere_tags": [],
     "primary_investor": "Blue Venture Fund",
     "source_url": "https://blueventurefund.com/portfolio",
-    "scraped_at": "2026-10-17T21:48:42.062459+00:00"
+    "scraped_at": "2026-10-17T21:48:42.062459+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2017-01-04",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUc1dNcVlZcUxBQmtXcEpoLXJmcUFaMTh6U0w3YXVScWtPTEhfTGV5QlhGSHFwbUxPbFJ2WVloNk1pazNRM0x4WDk2VHlDelNyaXFyRGFMSmdEZXY3azJISA?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series E",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wczhGejI3cy1lQkEzckZaSE9YckpfTmdlU0VIT0I3NmVMVDhhWUxzdFNJYWdhYzEzbG9qNUd4TnZ6LUpETnVqRDMwSjdlYXp5U1ZNNkc3OS1Xa0ROSlZvZU1JZXk?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wczhGejI3cy1lQkEzckZaSE9YckpfTmdlU0VIT0I3NmVMVDhhWUxzdFNJYWdhYzEzbG9qNUd4TnZ6LUpETnVqRDMwSjdlYXp5U1ZNNkc3OS1Xa0ROSlZvZU1JZXk?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUc1dNcVlZcUxBQmtXcEpoLXJmcUFaMTh6U0w3YXVScWtPTEhfTGV5QlhGSHFwbUxPbFJ2WVloNk1pazNRM0x4WDk2VHlDelNyaXFyRGFMSmdEZXY3azJISA?oc=5",
+      "https://medcitynews.com/2025/01/solera-health-funding/",
+      "https://pulse2.com/solera-health-40-million-series-e-raised-to-streamline-digital-healthcare-delivery/",
+      "https://finance.yahoo.com/news/health-care-corporation-co-leads-140000820.html",
+      "https://hitconsultant.net/2025/01/14/solera-health-secures-40m-to-expand-access-to-digital-healthcare/",
+      "https://www.mobihealthnews.com/news/183m-new-funding-solera-health-looks-beyond-diabetes-prevention"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 7 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-01-04",
+    "total_raised": 45000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Somatus",
