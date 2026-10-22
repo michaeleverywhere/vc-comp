@@ -2254,7 +2254,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TEN X YOU",
@@ -2316,7 +2328,63 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 120000000.0,
+        "currency": "USD",
+        "date": "2022-04-29",
+        "investors": [],
+        "source_url": "https://www.livemint.com/companies/news/turtlemint-gets-series-e-funding-of-120-million-11651256697738.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "GGV Capital"
+        ],
+        "investors": [
+          "GGV Capital"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQS2xYTlRhRmxraFo3ck9ZSFZOTXdhZ3ZRRVliM1k4OE05NnBrMkhpamw2WE1YTVNKZGt1ckpEZWxhNHdKZ3RpOEVucEtyNzgwX3VzR0kwYzZrN0xnR05PeUVtY0s1dUYxd2FWRnpXc3F3X2RLMkczaFBobzYwMWZlXy1jcTFRbGZwcEhrVjR3WHRBZlpIMlVlaU9HcTIxTXNabmp2WG5jeTFjblRGZW5iUkhyY0wzLWJVaEZSQm42VzlYZWVTZjNQMW4xTEpvaGRrTHNQWDl1d1VLMUnSAeABQVVfeXFMUDhtamJlejBZRDRtTkpYOUpwWXZhazVYdUdqc1Z0bmtxaGYzV3l4WWpFSjdoTE40bTc5NGJJc3BMSDdsWEZvMkNxVDZVYWVCMXg2cXRjT0pxUUtsNkQ3b3lDeFZ2VF8xZ096X2l4MmR2UzhkTXNEYmt3QWU2NjZfaGlMaElDd1ZUN09TYllyU0hDdWdCUlpWSUFJNlVBbmJJbzI1UUlGVXJMbks5SWs0SEdXalhQT0NUXy1nNUpEUUZXNHl4ZnJJRFRJWG1tZFVMaUQzakVHRVAzNFRobk55eko?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 46000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://inc42.com/buzz/insurtech-startup-turtlemint-bags-46-mn-jungle-ventures/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRGloLUFsdG4zanNDcHpab1VtSndBeFVQeTJCdE0wekc2MkFZQXpoZEtrRHk5WFNlNnc5VzhBOFdOdUhyMkF6R3ZtSUR5Y1lreWZWMmFlQ2dLYTd0Yi1scWQwYVMxTm52T09KeEdvemJxaXh2VDBQWVB0Ul9HMTdGZDhjcENNRDJSYi1BZXhGNGlwLURiRnNseGFmcS1fc21RcjB0aEsxb3EzYXdB?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNelNsVVEyZWVIQm81NlJkbjBRZnY3MXpabEIwS2NiNlpwUnEtWDE2T1ZRS1RSVmRDd2VPYjhWLVlqVTRVajQwZGxRbDZCYUtDR3VOSm1PekZ0NGZwZ3JwamRCa29Tb2VjQWFkRV9iTVFyQ2NodUhpakJHd1NpZ1VWbGY1MEpOYmxVQVMxbHFqMXYtTnRJc05Ja3REVFRYWFE0X3kxVDZWY2labnNjRWNyc19iZVVPdUZlTHZvUzFVM1NPZkRhUTVReUZn0gHPAUFVX3lxTE9xUzJVamo0RlpaLTRLR1NLYkpUelpsTEdPUmdSUDgzZXNlUHloQzg2QWF0ei1YdEZUNHlRMGYyNXpYTjV1U2tZWVlOalFsM2FFUEJucWZZaUZjV2VHVHNaeVhVbE5UWUg4cnU3al9GUUx0TE4zQ01oOUMwVXJtUmgtRmlWV0JFVXZjTVBId3Jxa19XLVJtRk1KeDRwemxrVEZKWnVxeGo0YkgyZEs5bzhJZkdrUFI3YWZGRVRxVUR0bDlVVHB5SGdBbnE3UGNIWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdTNnWFltVTRaV2kzLVVmQUtaM21XVkVEamtWR09fVUNLV1NZMzczdHE2Wkd4ZVVMRVlBMjJObWtsWkg4dFRTZ2drSWRuZGpUZTJtTFluQXdOaUpoRGxwR0lfWTc3ZGpKNkpGVHBwUWsyZzR4LVBwN0s5dFRrNlZTckkwdDNNVlZWTlZxWdIBjAFBVV95cUxOdTNnWFltVTRaV2kzLVVmQUtaM21XVkVEamtWR09fVUNLV1NZMzczdHE2Wkd4ZVVMRVlBMjJObWtsWkg4dFRTZ2drSWRuZGpUZTJtTFluQXdOaUpoRGxwR0lfWTc3ZGpKNkpGVHBwUWsyZzR4LVBwN0s5dFRrNlZTckkwdDNNVlZWTlZxWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84Xy11NWtRakhicWJyS01oV0tqcmNDOXBpaFNDUmMzdUFVXzBoV3BaVmZPcEswSjJnR2s0cThNVktwaWdPSDVtd18yV3VjYmRYWVBmV1FUeTN2Mm1qVk9rejh1VW12ejQ?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mSzMyLTBIR3lBNi1ERGhXR1VjRFZMYVVPZXRKaTNOWl9NZHZ6OEFwb3BuMWJqRkxhZ1FrMThlazFwbzRhQ3BlcFdsU0p6amNhU2JJZkVlNXc0blpxdDItUTBCdjR1WUVLb0J5STZPWVR5Ymlf?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQS2xYTlRhRmxraFo3ck9ZSFZOTXdhZ3ZRRVliM1k4OE05NnBrMkhpamw2WE1YTVNKZGt1ckpEZWxhNHdKZ3RpOEVucEtyNzgwX3VzR0kwYzZrN0xnR05PeUVtY0s1dUYxd2FWRnpXc3F3X2RLMkczaFBobzYwMWZlXy1jcTFRbGZwcEhrVjR3WHRBZlpIMlVlaU9HcTIxTXNabmp2WG5jeTFjblRGZW5iUkhyY0wzLWJVaEZSQm42VzlYZWVTZjNQMW4xTEpvaGRrTHNQWDl1d1VLMUnSAeABQVVfeXFMUDhtamJlejBZRDRtTkpYOUpwWXZhazVYdUdqc1Z0bmtxaGYzV3l4WWpFSjdoTE40bTc5NGJJc3BMSDdsWEZvMkNxVDZVYWVCMXg2cXRjT0pxUUtsNkQ3b3lDeFZ2VF8xZ096X2l4MmR2UzhkTXNEYmt3QWU2NjZfaGlMaElDd1ZUN09TYllyU0hDdWdCUlpWSUFJNlVBbmJJbzI1UUlGVXJMbks5SWs0SEdXalhQT0NUXy1nNUpEUUZXNHl4ZnJJRFRJWG1tZFVMaUQzakVHRVAzNFRobk55eko?oc=5",
+      "https://www.livemint.com/companies/news/turtlemint-gets-series-e-funding-of-120-million-11651256697738.html",
+      "https://inc42.com/buzz/insurtech-startup-turtlemint-bags-46-mn-jungle-ventures/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series E",
+    "last_round_amount": 120000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-04-29",
+    "total_raised": 196000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "GGV Capital"
+    ]
   },
   {
     "company_name": "Twin Health",
@@ -2350,7 +2418,19 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vini Cosmetics",
@@ -2384,7 +2464,28 @@
     ],
     "primary_investor": "Peak XV Partners",
     "source_url": "https://www.peakxv.com/our-companies",
-    "scraped_at": "2026-10-15T13:22:53.084038+00:00"
+    "scraped_at": "2026-10-15T13:22:53.084038+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdW5qRGtpbGdFSGJRcWxHNE1PdXBBeDZaOEZ4OEJyOW5KYXZsaTVac2FISS13cktkN2pUQndOSkJXYUFocVhZT0laTkNEWDYtQk1XaTRwMHYtU2xmY25QOHZ0b0ZuVjFLVTFhV0kzdUNGS3V2NTA2U3d1ZUZhMWhvbjUzUmpHdEJKMGdMUXdtTGJjZ1RsVUdaNkZNUUlSbi1VMDBYLTFMTGRSVjQyRS04bzEydURUR1J2RndUSNIBxAFBVV95cUxQc0dsQXNaTElxeGt5cktvemV3Qms2YUJERHRZcV8tUmpkckdrWEowaUZkTGlzM3JVTy14YTFyWUlyN1ZxSnB1NlBWVkpFalNfbW92THM3dlBpd2hQelhaMHYzSDNSbkVvRm1UaUZ3aUc1RHNnbmdfSEJuQjJ6UVJEZmFBRllOWTg5eE9yN2tJTmRKcldXZ2lCTzVGa3p3Q2g2bldUd0ZSU09MeHJUSjRhNkVwcHBETEpkT0FuNGxsd1RBaERZ?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUVRwenFGVlVscTBJWVVlcmozckVWY3Zfa3d1SHJ3eF9vZGhlbnBveEQwUzNhTUd3emhMSnZaRHAzaGJBNzdmenBfcGFGRjRkS1BJckJscloxa3cxQWxic1ZXRWlBb2R6Zkt3bmFhbm03R1llWElFQ1BwUmcySFJqcG5Rc0l5NzVHWm1hUk81V19ZN1lUdE43RFI4TWdkcEM5REpYRGhPa0NFcXluYnRLVnl0Q3RnbUh3djRsWUxOd09QTEZPRUV0bW85ONIB0AFBVV95cUxPdFo3WnFSOExVVFdpWFBHNTc2VVhQRTBVQ0NTTERxMTF3cWU0NjVwVVFnVUVyTEIxNzlKWFZyWkF6b3FNeWNGOUZuMkpSRHBIeks0SGQ4bWxjOWp0NUNSOFhQLUxtWTRQRGhrSFg4RVRxVzJPZVBZODdYWGstNk5ST2hndGpnc1hkcFhYSWVLdFB4Znl3SUhUREdEMU1GSURDakF5X2Frc3pmNkg5MmlWLU95MHhSSVhoTWgtM1NQWnhfNGRFbTdoR2V0aGpWS2g3?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeVNYQkxRT1VyWjNkdkpQOWVQYlVTQ1VFR09GQmloM3RzT2VUTHlwbGJZX19Gdm9VYmtsRGhleTlzSWIxMnhBcDhiQ3RnSlpmOEo4YTRvdGI0azEta3JjdUw4OTN6SzN6QW56b2ZSakNvbFVQWkFNVVZnRlVEZEd2VmxiOUNJX0JjM2ZubHNudjlROXZWWDRmQ2Y0eUh6TzhQTGUwTEluUF9NeVVhUWZsbGJYVnJTNVBjMnR2TjlPYjJEdm1BcmNISHQ5dWNsQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTHJiNDdLOTdUUUlQUTZIWFEtUXdvUVV0VmJYUTZTbzdFUERKVy1oblRhRmwzdXJqcDhMM0xncmFXdWtCYTJPblUtMUsyUE1DQVhoclUzNTkwdk9ueXZxQUs5SW5IanF4QWtFU2xsTFJFTW5WM0JFX3JrRjlMRDBlNnNlVzJCdlBqTWNkYTFyX2ZCblJu?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVktyS3oxaGlrcF9PZktFZHJiMjd1UlJVeE4xdU5UTlJoc0VwZ2JuRndHU2NqZTdRRHhNYXV1VThSRml5Y0MtbWFkelBYUC13elRIcm1MRzdBUGxzVWxGX3VtelI0SFB0c3NfUXVSRFRQOEt0QTg2NHdnSU9pTG9KOE15bDNucFhLd1ZYWFR3NmNHMWoycENZRzR3czY3bFJ6eXNEcGNJMUJlY0R1dGtTam1WOEhJYUxfVDBOQVR3cmZRUENiakFjbENyamZ5TFZqb3BqZkFZZ9IB3AFBVV95cUxPMm14ZnRodlVxMHBUc0lDbkMxTUVObnpheXJ0SHJaWEVpMEdCZjdNSURZaTh6Mkx1TXVWUDlfWWpjU180bEhDUmMxdFQ1SGJtcDQ5bXU3OTBnN3YzRm96VGVvY1VZQk1GcnUtZzhEdmtVMWpPZ0lnT2FzXzRHcjZSN3NTVDlZTU1aQmVKU3hvZWZqMVg4bjJmWVFsLUx2aUdvUE9lN2sxRXVNZGM2NkQ5NS1HR0RNLW5xWWFwbTZwVm5uc2xzNG16N3luaGRpYk1oRWZaU2o1dEpyVmNj?oc=5",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZmhMWjNuMTRobnRRNVhnYzhfMEJQclIxUGtrb29tWFI4eV9Fc0hVLWUyYWJiR1FPbzM3VWVTMVRnREltYXRxOHRIWHRrMC1JWTRWUXJiN1JBMV9ZSXhHSy15WElQb1NaYUs3cWZXaXFlRUxpRlJIRXF4OThiSnBRRlRRM0tCUWQwQjItc3lSWF91Z2hEa1hFZlVIckVoOWFVUzlrQ0JxM2pwM2RjRk1NYUlyTTI0WHIyODgtZVlZd09nV2VYcldiNUVxeXN1b1YxMkFrVzd2WmZyRTBnQjVmN3VKc9IB6AFBVV95cUxNU18tZmFJSGQ4Wl85XzJ1bnBPRm5xZ0NKLWtyV0xkMkVLanlkMGJkdjB6a0hsTUNFUTdPOXJsUE5xNGlHMHlsZXJTOXpVUXJjZzVyMno2aTR5RGY5U1dWSHZ3cTB6LTBFMjA1cGFkSHVDLXJMWWxpWTlRa05zejNJbjVJb2kxckswNko4TVNkN3l6ZTNFcWhrRWZLZWNsNTdHWG5NOUVkX3hPazFPQzF4M1BLR3Nka2RBR1pWakE3RGpXcjZ0V05xY3B2aWxrWFdNbGJaUEU2TUZCeDBUZGo3TFQ5UU5PMVNu?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVmVRSkx1TGFZd21LSnpVOFhFYmlDNjJWYjdOUlVaTlIwQmZsZGpSa2g1dkFSdnNEcl8zZDh0VWhCX3NpU1FSLXJFRW1QMlloUGpfSTFpY2YyRERFaG5uSVhYaHlOeG13SFJOSzJ5MFJObENyZ2Z5U3JuRFNWNGk2dDItMjVTa1puMFk2M1Etc0tFMFJaTFdOUWprY9IBmwFBVV95cUxQVmVRSkx1TGFZd21LSnpVOFhFYmlDNjJWYjdOUlVaTlIwQmZsZGpSa2g1dkFSdnNEcl8zZDh0VWhCX3NpU1FSLXJFRW1QMlloUGpfSTFpY2YyRERFaG5uSVhYaHlOeG13SFJOSzJ5MFJObENyZ2Z5U3JuRFNWNGk2dDItMjVTa1puMFk2M1Etc0tFMFJaTFdOUWprYw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMjVGM3BQVF9BMHlFaTl1N09DZktsS3pST3dXM2NBeFM2TkQxSGVyeWJOeG9hY1EtQld1M01Hd0xRcU9rckVWdXIwNzJvSHBhalBRY2ZIZWVpMWpjcHhxLU1QVS1wYlVaLUlVVEdpb1Y3RGI3eW9zNndpUTN4dUk0M2YyemloSm9scUhWTnJnWXlxaU5OcVdmSXFpTVlfM2FuNGdV?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zomato",

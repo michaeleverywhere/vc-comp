@@ -2053,7 +2053,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Superhuman",
@@ -2143,7 +2155,54 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 85000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ25qOW0yRGt0S1hXMjg1MDZyenVkalVkYzBrWlA0TVZHanRIYV9DdmI4aU4wM2U4UU15THFSYWhMZk1hVmhVaFlGQm8xdEVRT0JwelRTU3hfZTdPUk53N3hINXdVVm9LSlc4RUdOVkxBMWlEbTljdzN5amxicUtIT3RSdW5XNXNkZHkwMngzWjM?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 130000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeXFPbWE4ejBURWpzazQ2R3JCYnUxQ21xbUNoamdkeFFsWWlmWUlnS0RlQlc2Nlg4STNwdkRIS1M4MjVDXzhuczgtcmNBRElZUjhtYkl6dGVJYkstR1dva1BXd3BnVXNkODRCT0NvT3IwS215TmM5dFRGbXBHS3p1NkRDZk5PMlNaMkNTTUZNYkhrT1o0ZDJ2TA?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVXdiMGE1Q3dYMmlUZkdmYXFQWG1UZFRXZlJqa0FvRmVQR2FwT0NUN254ZWU3T1dhVVgtcFg1RFZ4cHotWFZTdUdqckdWUUV6dk90RU9ZZ1ZXVHk1NTBfOERtQ2o1MnRmdDJIbUVESnFKVFZZTGN3eXNBUXJBRmtoY2Q0dDBPWUdFTnBHdWczMW1ORUx4c1dqbGpB?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVXdiMGE1Q3dYMmlUZkdmYXFQWG1UZFRXZlJqa0FvRmVQR2FwT0NUN254ZWU3T1dhVVgtcFg1RFZ4cHotWFZTdUdqckdWUUV6dk90RU9ZZ1ZXVHk1NTBfOERtQ2o1MnRmdDJIbUVESnFKVFZZTGN3eXNBUXJBRmtoY2Q0dDBPWUdFTnBHdWczMW1ORUx4c1dqbGpB?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeXFPbWE4ejBURWpzazQ2R3JCYnUxQ21xbUNoamdkeFFsWWlmWUlnS0RlQlc2Nlg4STNwdkRIS1M4MjVDXzhuczgtcmNBRElZUjhtYkl6dGVJYkstR1dva1BXd3BnVXNkODRCT0NvT3IwS215TmM5dFRGbXBHS3p1NkRDZk5PMlNaMkNTTUZNYkhrT1o0ZDJ2TA?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ25qOW0yRGt0S1hXMjg1MDZyenVkalVkYzBrWlA0TVZHanRIYV9DdmI4aU4wM2U4UU15THFSYWhMZk1hVmhVaFlGQm8xdEVRT0JwelRTU3hfZTdPUk53N3hINXdVVm9LSlc4RUdOVkxBMWlEbTljdzN5amxicUtIT3RSdW5XNXNkZHkwMngzWjM?oc=5",
+      "https://finance.yahoo.com/news/sword-health-now-valued-4-130105217.html",
+      "https://finance.yahoo.com/news/sword-health-raises-40-million-113000147.html",
+      "https://www.mobihealthnews.com/news/sword-health-raises-40m-4b-valuation-expands-mental-health",
+      "https://hitconsultant.net/2025/06/17/sword-health-raises-40m-launches-ai-powered-mental-health-solution-mind/",
+      "https://medcitynews.com/2025/06/sword-health-fundraise-mental/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 255000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Talka",
@@ -2163,7 +2222,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Timeleft",
@@ -2183,7 +2254,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "tl;dv",
@@ -2350,7 +2433,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Velvet Formula",
@@ -2391,7 +2486,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Volt Games",
@@ -2490,7 +2597,19 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zeyton",
@@ -2549,6 +2668,31 @@
     ],
     "primary_investor": "Shilling",
     "source_url": "https://www.shilling.vc/portfolio",
-    "scraped_at": "2026-10-17T18:50:40.032465+00:00"
+    "scraped_at": "2026-10-17T18:50:40.032465+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLS0xRFpEZXVMV1A4UExPSXRmNVBRYTd2Q1lwQWcxcFBaX0JRTU45SXlBT1M5dXc4LXk5MzNNN09tbXh4SHZWRFZ5MFZHX1BCNEJCYl9tTVFKeEtCSjB6dDFFWlFqMTRlT2dPX3B1aFRHekRWeGZUYUlhOFRHM0NQRi02N1JRQk1ZekZPbGtPMlhwb3R2dmRHVGFYU3VHcjhwRktEenZvMVlRZHo4NjJlQ2tR?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLS0xRFpEZXVMV1A4UExPSXRmNVBRYTd2Q1lwQWcxcFBaX0JRTU45SXlBT1M5dXc4LXk5MzNNN09tbXh4SHZWRFZ5MFZHX1BCNEJCYl9tTVFKeEtCSjB6dDFFWlFqMTRlT2dPX3B1aFRHekRWeGZUYUlhOFRHM0NQRi02N1JRQk1ZekZPbGtPMlhwb3R2dmRHVGFYU3VHcjhwRktEenZvMVlRZHo4NjJlQ2tR?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUFaU0lRUnJCck5IV2RUZVdkS3ZNeFBmUkJoSUhsZ2VDMFB5eTF3QWNzN1FlcExqakdqOXd4WnN0ZXJod1VoRG1TdWZITkFSa1JwdGlqZGU3Q3VhM1k2OGFsWXR2dk5WX0dYeHNrWkhqU3NELWdnRXhRX2J3SDVKSS0xM2Y5elRCbGJJTzRTT2w5Qk5oNHlxb3pnU2oyR0VS?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 3000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

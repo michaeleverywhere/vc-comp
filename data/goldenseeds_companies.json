@@ -656,7 +656,34 @@
     ],
     "primary_investor": "Golden Seeds",
     "source_url": "https://www.goldenseeds.com/our-companies",
-    "scraped_at": "2026-10-16T23:04:28.823339+00:00"
+    "scraped_at": "2026-10-16T23:04:28.823339+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2502567.0,
+        "currency": "USD",
+        "date": "2017-05-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1707003/000170700317000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVJYd1BQYm1kelRkVzFfajUwRVBXT2NRX3RrOG4za0hTSE1pcm0yYmZNbjlWWHBmaFlBd0lwaTVoTDNvSHYyMVV3VFBvdnUtR2ZCS3lqdnBMTF9kWmxBUWxEWWlWZ2RMN2ctRHJkUVg2WjdZMTA5cjlkeU5qN0Q2US1VYw?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOUNiZ1BHdW1CalJrMEo1elpmYWs3OGNvQk5fQ3dFeEdJOHpXNEs1amFwMTBEY0h4bWN5SUxJbmk4ZlBCMmNxbXBEVlB3bjdpNlpFNXljTGxfN3AzZDJaREM2RDBGbjJnZlFFYWMyNjVsN1NxcHpsWDV3N2FBY3ZOTGE3c1RRdjVPYUJuOUdaZ0M0NGJQNVhHSmFiZTV5dTBHOWRMZGFjbFBKZXFkVXRjTHR0TUZIajdxYmxQTw?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/1707003/000170700317000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2502567.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-05-10",
+    "total_raised": 2502567,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Design2Launch",

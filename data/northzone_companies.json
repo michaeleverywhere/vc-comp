@@ -315,7 +315,19 @@
     ],
     "primary_investor": "Northzone",
     "source_url": "https://northzone.com/portfolio/xbow",
-    "scraped_at": "2026-10-02T13:09:50.404285+00:00"
+    "scraped_at": "2026-10-02T13:09:50.404285+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tandem Health",
@@ -331,7 +343,55 @@
     ],
     "primary_investor": "Northzone",
     "source_url": "https://northzone.com/portfolio/tandem-health",
-    "scraped_at": "2026-10-02T13:09:50.404285+00:00"
+    "scraped_at": "2026-10-02T13:09:50.404285+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUXVfenJWSDY2Y2FSaHBleWI2RTFDTTFRRzZLSy1GUTdBMmlwSW5tVzNvUzgyeGdQQTFvOUZuWTE4MVZHTzRNUnBlbGEtVDNBRmNrX2hpeXk3d09ndlUzcHQ5VWhUcDM0NEdONTBiOFlsQ1ZJT0Zvd0FEZmZXd1NLR1NiOVdxSEFiVVRockdsSGxEZ2tJazIyMThXRXdocE10S1ZtbU5uNl9JVy1fVGNGOU9IYjY?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "EU"
+        ],
+        "investors": [
+          "EU"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlKdVB5RGZVYW9zc1BEenIwQUZudml5eENpRkZKN2I0TWxOZEVhTWFIWGJISWJwVWVBVG1fZFlqc1prRU5vTEkybmNPMHlrQ0Ztdl9ibXBvZXV6N1QxWFhBQUhPaUZQOW9qV0Q2SExqN1VwUXI0SGo3dkxmQnp0RWFZU0EyZHo4TlppdzltWVhibnZCV1QtYzNn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlKdVB5RGZVYW9zc1BEenIwQUZudml5eENpRkZKN2I0TWxOZEVhTWFIWGJISWJwVWVBVG1fZFlqc1prRU5vTEkybmNPMHlrQ0Ztdl9ibXBvZXV6N1QxWFhBQUhPaUZQOW9qV0Q2SExqN1VwUXI0SGo3dkxmQnp0RWFZU0EyZHo4TlppdzltWVhibnZCV1QtYzNn?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTWF2a09KeHVYaFk4Q1dwLUpsdWhBUzBRUVhPNUJqWkJVVzNvNVVWRTRsYUJCOXMySzVHZ0N0NUlrbk1HMDhQQUJMM0lfOGo4c3E2ZXB6bXpNQXBpeGFVcTRBbFhQdmpMVm0tcXFhMHo1Z0FNNy04ZjhzdVY0MU04YVpHZGtqUlNOSV9sZExKSklWZ3A5TkRJ?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaGl4S2l5N2I2V1BtcVVOUlIzUjBmOEtiLXFjd29Bd1Y1M2E4bEZjLXNnRElZOTZzR3JLV2dDWTdMcHhab3V4YVB5VkYtTUVKZzRYUS03WUdfMkx5T0FLSk1VZlZuM1BzbUJsOTVPeWVValRQdUpxMkJ4bkx0SzN6MGlFdzlvQjd2a0VJTm0tLU1PQmpmU0pqd1hJUWtBSTBMS1QzZ0lIbDd3RnlreVVKMXYwQnZ0bWtxNllSYTVSY2VkSWJrVF9WNWRSaw?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMjE5V21DRkM1TnVFUlVVQTk2VTV0RGotNmppWkNyMjhYZUFYMll4b3ZVeWo0dzNmOHVfSG5CLXMxTWRZZXNpUmZOdThfOWtmQlRBdVdBVllxaFo0Y2otcEFVTElxSjR1M09nS3gtcFNGZHNaRDhVcW82VXdYaEdvT3VUUTRCUWVLSE02RUVZcG13Z0E0elo4?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTFBaQmExV0swczZQdmZWb1lHWFhKRENNMUR5VGU4VmVRZE9MMjJVZlNGTGNNUGpNMXJBR2lvczZGNzh0X2U2VTFrMGNncmVkcWxlX1dtMlJpOGlYUU1SdnpxLU8xTkhDOWFETEw0WTlMVEw3Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lQVI3RktfMzdxWTk5NXZOV1NmZlhabVNza1Jick1SdlREUXNNeG5MZWh6QWx3TWZhRFFBTDVjQVlpRmxQWkpJRGctX04zNHJoSWZZ?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHlaWER6Y1R1S19LOGU2NHQyZldXSC1lNGU4cHd4cVFiRzBiZi1UQm1ZdTBESDQzYXhUTEZwdmlScWg1emxPSkRyUUZXeERnaHJSTjNNTmx4MUlkcV9WdU0xb0ljNTJkdkV3UlhDRUtOTFlwNnJTZklaSUNHZzBPbkhJR0V4aFg1VXRiQTdHWDY?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRm5mMVVSQ2tZNVVSVERTMy1JMmowUnJNRnBhOXBUOVJJTnZLdXphZ0xDa1B1WkxhcE0tdW5UWlNwZWlQVUEzY2c2a2pONHE1WUI2cC1ucEd2aVBaRFNCdDFwYkxMeENaRGR6YjhwcE91enJEb0VibFQ2Sm5UV1pLbS1tMGwtZHRqN3JldGJMNTd4Ql9aaFE?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUXVfenJWSDY2Y2FSaHBleWI2RTFDTTFRRzZLSy1GUTdBMmlwSW5tVzNvUzgyeGdQQTFvOUZuWTE4MVZHTzRNUnBlbGEtVDNBRmNrX2hpeXk3d09ndlUzcHQ5VWhUcDM0NEdONTBiOFlsQ1ZJT0Zvd0FEZmZXd1NLR1NiOVdxSEFiVVRockdsSGxEZ2tJazIyMThXRXdocE10S1ZtbU5uNl9JVy1fVGNGOU9IYjY?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "EU"
+    ]
   },
   {
     "company_name": "GC AI",
@@ -975,7 +1035,25 @@
     "everywhere_tags": [],
     "primary_investor": "Northzone",
     "source_url": "https://northzone.com/portfolio/topline-pro",
-    "scraped_at": "2026-10-02T13:09:50.404285+00:00"
+    "scraped_at": "2026-10-02T13:09:50.404285+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFNsUUYzRUJCWExITGdMTk1TRDZoN3drTFl3YlVkRzYzaDRLenRZN3JHcU4xREdBMUNtTDRmWkRNVHFoMm5CTUVhY3RzdjFLeGhMQS13WGE4RDhFNDZ3b1NMQWxkaUI0dGFOOXcwU2xGVkcxMjczYXJHZEdnNVplWlNvSnlCVU5iRVQwWTZva19rVUVQWTFja2h3alVNNnpObXlYN1NjMkdtdw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYVhGVS1BS3VhVlpUWVBYUjRTNTljanhxNl9qQkRTVjVLT29HaHl1WkdGcVRrTDI5UGJKZ0Y2NWRURDJvdVdYRVJIVGVnRGp5LUpwS29RaVlRTzlIbTNfd08tbDJSUnZVS2o3azdhQ0g0bEZHczBhTXRweFpnREVocU93Z2Y0dw?oc=5",
+      "https://finance.yahoo.com/news/topline-pro-announces-27m-transform-150000560.html",
+      "https://pulse2.com/topline-pro-27-million-raised-to-transform-local-home-services-into-ai-based-businesses/",
+      "https://www.woodtv.com/business/press-releases/cision/20230731NY70306/topline-pro-announces-12m-in-series-a-funding-to-reshape-economic-opportunity-in-home-services/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TrueLayer",

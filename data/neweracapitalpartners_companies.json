@@ -73,18 +73,46 @@
     "primary_investor": "New Era Capital Partners",
     "source_url": "https://neweracp.com/portfolio",
     "scraped_at": "2026-10-20T21:22:39.327128+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15500000.0,
+        "currency": "USD",
+        "date": "2024-09-30",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/apono-raises-15-5m-series-a-funding-for-ai-driven-least-privilege-solution-set-to-disrupt-traditional-access-security-302261412.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 34000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/apono-raises-34m-series-b-to-redefine-privileged-access-for-the-agentic-era-302618621.html"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSEkzMWFTZ3pfQ0dEcUxjT0RqUEV4amh4ejNVdmV4U192M1dWRzc5Q3hxMHk3Z2U1VzNxUFExQTltMUp4R05JS25EcVR6MWhfbkt5OGR3LWxLdjl0blFPTGEwZERKZFZHeWRiSEhFWjYyTlBLSWhlS3diZE1meDMtb1owQWgwVFhVZUFMSTVHQzF4SVBXSGprMWlwc2oycVBzaVFmUU9IdkUxY1VfNVgtVUFneGlxdGxhOUFHMUZuMlhHUVRndEVPUzh5N2NlRWc?oc=5",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE93czE5QUZtTFJSRENla0kwUHZzVTZvckprRnhRQi1WTThvanV2SksyYkJqT0w0WnQ1MHdhMHI0N2hRMExmdHlndFpvTU1tWGxUT3RaMGNVQldDeW1WcW92VTRRUThMUjZMVGc?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSEc2OEhHcHdtV3NWOWc3OFdzOUpuU004Zi1zbXFCVGJ6U3hhaFpaVU01RjFNMTVDejBEcDlCMjhicGoyQXJVbUpOUTk3NUc2NElpcTgtamxxRlJaRzh4alVwTjhwRXJUQ1FqY2hOSTVKeXRFNFpvbnQ0eFo0MnNaSTI5eWYzZUFqNGxZX25rQ0JCMVhR?oc=5",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxOcmNGa1E0RUlpZFhUeHRHTnNNY2FWQXVUQTlvTnF6OEpBb2VFNV9FLXlpS1JjR0N3bVE1T3BOZXFjZnVUTXQtQnRUS0s1Z3VSTFlhZ0Q0UnJ2NmQwTFE5OFNUcGpua1JTaHJQdTFqbC1HQ1RWdW9fOGhqZHdFTTVrakRfdVFLaHcwelRlNXFRb0xkLXBPNGVzNk1FTGplbUp5VUtpMG5lZWxJNllVWHU4RmJaOXBOaFBNZW1SRmo2Q1NiRTFTblYtTUxtaW1sRUh2OF9lb3EzTXVzVG1sYmdJeXZQNHZYMHNLeExSRG5mMVpLbG5HMGJqYnEtZUI4eFNLZkFF?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Cc3pGakJHWlRTeUltOEZEYVJXWVBxbXhjdkxQa3dQMGU3TkM1LVFlemdXYnZIXzJwWk5qTHMwLXhpbm1lVE1KTE9qTk94aEtQVVlzSEw4S2dlUll1UTBzM0F2aHp6QmVk?oc=5",
+      "https://www.prnewswire.com/news-releases/apono-raises-15-5m-series-a-funding-for-ai-driven-least-privilege-solution-set-to-disrupt-traditional-access-security-302261412.html",
+      "https://www.prnewswire.com/news-releases/apono-raises-34m-series-b-to-redefine-privileged-access-for-the-agentic-era-302618621.html",
+      "https://pulse2.com/apono-cloud-access-governance-company-raises-15-5-million-series-a/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 49500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 15500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-09-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Assured Allies",
