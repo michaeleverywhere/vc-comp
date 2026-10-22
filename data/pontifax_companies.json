@@ -273,20 +273,37 @@
     "primary_investor": "Pontifax",
     "source_url": "https://pontifax.com/portfolio",
     "scraped_at": "2026-10-20T21:05:36.015033+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": "2024-07-17",
+        "investors": [],
+        "source_url": "https://www.nasdaq.com/press-release/cytoreason-secures-80m-ourcrowd-nvidia-pfizer-and-thermo-fisher-scientific-scale-its",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.cytoreason.com/"
+      "https://www.cytoreason.com/",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGI1T21aR21QNGt5VWdIaUtyRktfOHhUQm51amhvLThlOHdTamIxU21zbG1OV19FMlN5NDN1RjJkZlQ3ckMzdG8wSmhxLTFXSWJhWThacjl6NU1ic1NRWkc3dFNwV1BwSEdpWWdHNm9JWDJHVFhOdHNrT1pGTXlIRmstSEtMLXZIS2dSbjB1YmlHa1A5bTc2cDJNNTl3c003dk1VVGp3N1lVN2JmMkQ3NjR3?oc=5",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uS2RXSzdsZzBPbEhzNlRoOVkyMnFFbmdJakZMY2tHZ09YQ2JEc21KclJUZ3ZSUy1ySEt4TjdDWmZQalRqNXRTNjg5RkpfQWtkckRQNUdDaDVWVEJ0a1lNT0hoLUJ4d2s?oc=5",
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2aWxLOU9kX2FJQjU0UWFzTjBmTUotTUNlWktuMFRUWjlIT1RPZU1WWVlwblo1UkJkNEFmU3o5a3BQUEtheTB3dkpvRzgtZEVhYUQ0RWxWeE9jZlpYYmhGSVVSSzNCQXNi?oc=5",
+      "https://pulse2.com/cytoreason-80-million-raised-to-develop-computational-disease-models-for-predictive-insights/",
+      "https://www.businesswire.com/news/home/20240717912688/en/5682821/CytoReason-Secures-80M-from-OurCrowd-NVIDIA-Pfizer-and-Thermo-Fisher-Scientific-to-Scale-Its-AI-Disease-Models-and-Establish-US-Hub-in-Cambridge-Massachusetts",
+      "https://www.nasdaq.com/press-release/cytoreason-secures-80m-ourcrowd-nvidia-pfizer-and-thermo-fisher-scientific-scale-its"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-17",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Eloxx Pharmaceuticals",
