@@ -2688,18 +2688,32 @@
     "source_url": "https://fika.vc/portfolio",
     "scraped_at": "2026-10-13T21:07:41+00:00",
     "primary_investor": "Fika Ventures",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2021-11-04",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/propelo-raises-12m-ai-driven-154516877.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmdncjJCUmFvTmY3T05CVW1udkk2MXRDUzZab0JkclRUYXY0WnluaWJLZ3FSUXd0MnNOVTNVOTdBLWVOODZ6QWpicDNlcHpBQXBPYWM1ci11QWNIRUhvSHBKSHRRaktlemF5Tms4cWJlRWRINmk0MTVFLVktY2pXdUhtWHFVWFNrVklKWlhvaS1tNXlFSHVLbDhfNmtwS2lFU0VkZTBB?oc=5",
+      "https://finance.yahoo.com/news/propelo-raises-12m-ai-driven-154516877.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-04",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PullRequest (Acq by HackerOne)",

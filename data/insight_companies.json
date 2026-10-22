@@ -35829,20 +35829,43 @@
     "scraped_at": "2026-10-15T21:18:37.692777+00:00",
     "primary_investor": "Insight Partners",
     "site_status": "Current Investment",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2020-01-22",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/promethium-raises-6m-in-funding-300991110.html",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": "2022-02-18",
+        "investors": [],
+        "source_url": "https://www.zdnet.com/article/promethiums-goal-to-deliver-collaborative-analytics-is-bolstered-by-fresh-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://promethium.ai/"
+      "https://promethium.ai/",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSjJrRnJQRVgwZzFjRjZUUFRfVnBMeWdEcFhNNjczcU9iQkpUTmtNc29sT29FbjJOQVUzUkZIVzZUY2pDNVBtUWRUWFFOZE92a1VkTWhEV2o1LUhlOTM5U1loRTE1eDYtRTctdDNIUDB6emNnUUpVZWc4enVxdmJ5NjNXcjhkYzh0YkFVdk9PdWVMMFlqaTB6UHBmalp4Z0dKMkVlVlM5dUtxU2lLT2Vj?oc=5",
+      "https://www.zdnet.com/article/promethiums-goal-to-deliver-collaborative-analytics-is-bolstered-by-fresh-funding/",
+      "https://www.prnewswire.com/news-releases/promethium-raises-6m-in-funding-300991110.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 32000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Promptfoo",
