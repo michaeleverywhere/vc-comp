@@ -35522,7 +35522,22 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "Fortive Corporation",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://servicechannel.com/",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFhrWEVZQ29oZ3I3SmVDN2VOX1hHeFFGTzhaR1RSRU1rNW1QTEhPMlh4RnFxVFdZeXlNeGplR0ZUSWktUDN5THdtOWJyZGFRc3JNZ0UxTTFJaGc0TEJxWU91MkV0aG9zbW9yWkJ2LWN1c3VScTBvMm9udlhqWHh1akFaRjU3akFlbEpvdWpEZjJHcHFnOWFEbWhxLTBkZzMzWDNuMHhR?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Shift Technology",
@@ -35734,7 +35749,32 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://shorebird.dev/blog/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://shorebird.dev/",
+      "https://shorebird.dev/blog/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Showroomprive.com",
@@ -35955,7 +35995,73 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 8600000.0,
+        "currency": "USD",
+        "date": "2009-08-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1470328/000147032810000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4999998.0,
+        "currency": "USD",
+        "date": "2011-04-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1470328/000147032811000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2012-03-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1470328/000147032812000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3000001.0,
+        "currency": "USD",
+        "date": "2013-11-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1470328/000147032813000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 39800000.0,
+        "currency": "USD",
+        "date": "2014-04-08",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1470328/000147032814000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://silverrailtech.com/",
+      "https://www.sec.gov/Archives/edgar/data/1470328/000147032810000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1470328/000147032811000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1470328/000147032812000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1470328/000147032813000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1470328/000147032814000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 39800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-04-08",
+    "total_raised": 71399999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Simility",
@@ -36080,7 +36186,72 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "HPE",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5750000.0,
+        "currency": "USD",
+        "date": "2011-12-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000003/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 500000.0,
+        "currency": "USD",
+        "date": "2012-09-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000004/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 25696360.0,
+        "currency": "USD",
+        "date": "2012-09-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000005/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 56583954.0,
+        "currency": "USD",
+        "date": "2013-11-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1474946/000147494613000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 175000007.0,
+        "currency": "USD",
+        "date": "2015-03-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1474946/000147494615000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1474946/000147494612000005/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1474946/000147494613000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1474946/000147494615000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 175000007.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-03-04",
+    "total_raised": 263530321,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Simplismart",
@@ -37727,7 +37898,43 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": "2026-09-11",
+        "investors": [],
+        "source_url": "https://www.spendflo.com/blog/11-million-series-a",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4400000.0,
+        "currency": "USD",
+        "date": "2026-09-15",
+        "investors": [],
+        "source_url": "https://www.spendflo.com/blog/spendflo-funding-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.spendflo.com/",
+      "https://www.spendflo.com/blog/11-million-series-a",
+      "https://www.spendflo.com/blog/spendflo-funding-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-15",
+    "total_raised": 15400000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Spindle Technologies",
@@ -38478,7 +38685,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://staderlabs.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Stairwell",
@@ -38862,7 +39083,33 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWllnNF9mbUwwQlJTM25uM0JFbkVseGdIV2hNTkVrLTI3cmRGUWNZcDhkcUNBMlNOd3J4TWdmbFpsUGxpRG1JaFFhOW8xLW1LT2ZrcVhtdHNrLTMzQlhtNmJwZ1RhRElVbFlUdGRYdk5XWk90c0hETTBLMWZXUk1xdjdzc1k5RktZSkFHWWRWSlh0LTI4VTF6YllIZWdWN3VJZ0RrV0tBMUU0UVBQQTFsdVJVeTBUNEp0ZTZ4TVNRc0M3YUllY1N5UmR4REpVeHJkMk5jejYwNXhZRVpmX19Bd0p2WkE0emZDeU5IWDRaeEJNTHdpZmhuTUVSVUlOQWNIc2c?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWllnNF9mbUwwQlJTM25uM0JFbkVseGdIV2hNTkVrLTI3cmRGUWNZcDhkcUNBMlNOd3J4TWdmbFpsUGxpRG1JaFFhOW8xLW1LT2ZrcVhtdHNrLTMzQlhtNmJwZ1RhRElVbFlUdGRYdk5XWk90c0hETTBLMWZXUk1xdjdzc1k5RktZSkFHWWRWSlh0LTI4VTF6YllIZWdWN3VJZ0RrV0tBMUU0UVBQQTFsdVJVeTBUNEp0ZTZ4TVNRc0M3YUllY1N5UmR4REpVeHJkMk5jejYwNXhZRVpmX19Bd0p2WkE0emZDeU5IWDRaeEJNTHdpZmhuTUVSVUlOQWNIc2c?oc=5",
+      "https://www.securitysystemsnews.com/article/styra-raises-40-million-in-series-b-funding-for-cloud-native-applications",
+      "https://www.dbta.com/Editorial/News-Flashes/Styra-Raises-40-Million-in-Latest-Funding-Round-147008.aspx"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 40000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Sumeria",
@@ -39164,7 +39411,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.superpayments.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Supercell",
@@ -40033,7 +40294,23 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.anaplan.com/",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1lQR2pUYVV3bnNOZ3Y3RVJJR1gxeWN4TVdiSkZPbmdRemVkNVFOMWh6MUx1ZFFVam4zN3oxbFZfMzZYRVJSN3dHWXZPUUllVlNyNTk3TzcxdE1HcVZJam5IbmQxY2VWbUdhZk1lS0g1QlU4dWd6NFBXWVI4TkhYLVVtaWxzS3k0WHVFWU50cDh3VzhweWMwM1RyNkYwOGphdlhYMS1neU5vTmp1UTBpUXktZ0xSczc1NDVsR2l0bENha0o1?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb0FSdnBfUGtZVXdNRmR5Y2xOX0dLaEpzQ3F4VzE3WGMwM3JyYkRZS1pVbC1kN21fRXNqbEZLLWxpd0dPYXdiSWEyNWZUU2FIRzA0bmx2THdLNkdGT085UUZQdElEZlBYZ0pNb3JaVFFGZFpLMjdZTl9LMzN3Zl84NEZrNmJiOWJTeEZ5LUktemllYndQQUljN0o3YldSajBYOUNXWUpPZVpKejNXcm9PMjRaX1pOR3d3TnBHaFQwMDlpazNYRWc?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sysdig",
@@ -40585,7 +40862,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://temaetfs.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tenable",
@@ -40852,7 +41143,43 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 599999.0,
+        "currency": "USD",
+        "date": "2019-12-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1803183/000180318320000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4600000.0,
+        "currency": "USD",
+        "date": "2022-02-28",
+        "investors": [],
+        "source_url": "https://testsigma.com/blog/testsigma-raises-4-6m-from-accel-and-strive-to-simplify-test-automation/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://testsigma.com/",
+      "https://testsigma.com/blog/testsigma-raises-4-6m-from-accel-and-strive-to-simplify-test-automation/",
+      "https://www.sec.gov/Archives/edgar/data/1803183/000180318320000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-28",
+    "total_raised": 5199999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Teya",
@@ -40992,7 +41319,23 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQWVvTHk3cG1SdUtwcG82MUFZXzZieHZJVUptV3Bjcm1mb1NSbFJtZXJ0SDNXSzN6Sy04bG1NeDREb3BOTXl1WWg1U2ZweHpVN1NQbEdkLTByOFh3aG9vS09pRTQ3R2VkNmNwWElJam94QTh5RVB5VkdrcXNNTkU5b0xTNVM1REZkNE5TNVRKSzVZQko0STNhYkIzS214ZnRTX2tsVA?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3gyUXg4MGdjRGFiSkUzSHBtSG5oanZxOHRjSGRMeFQ4bTItZGk5WEFPX3JsUVlkR0dWN2MtYmFEcXZzdTVqcU1Mc0NBZThmcHprVFIxWDJ4MjZFcGhhMEJPQ09ZV3MyeFdzXzlQLWtqT09qT3JJbjIwNzRvdDJNMmZrdXVXbEZycnpUTFdGdVlLRWsyRFROcjVuWmZGMXVvZ3JyVXo4X2VrSDgxUGdiWHhDWlhrNEFocFJNUktVWW05T0Iw?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWFRYNlUzNUk3MHJTbnJjZ3MwVVJjOGY1M2FuMFVRSmRqTEpveGRWLTNYYnZHaTNkdTJqLW1jcTg4a1hPWkt3T0FUcFNRSG9MWlJ6eEk1RW13dkNGQjB0eE1ZOHpvZ214VF9ZcWtab244T21pTUlZcXBzN1NiWkxiTF90XzhlTFpGU0trRHU2eHptV0NvMllPMl9INTFlOV9jS25lZUxZVG9KUURxODVfT2U5bkFQRGVXVTRjYU80SzZPVU0?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Thinking Machines",
@@ -41153,7 +41496,21 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "Cognition",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tierzero.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Time is Ltd",
@@ -41436,7 +41793,46 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Accel"
+        ],
+        "investors": [
+          "Accel"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12bWc2UDZmNGZOT3pNdDA0c1pvYVd3Q3VYQU0tZkxmQmt5V3M4bmk2aVlQdTRxVFNVX0NkcXptSjhFNFF6TnUyRUFHVUoxRXpNZjFTSW94SmFxbHo1Y0xsSUJ5RDF1OEE4bUFJRUVzREJ2ME9DR19n?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tonkean.com/",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2lCVVN2LUhNLWxaWU5OZTRXekYtVW9aQ3FxTUdPNnlqcHJZTC1jTkpnVmx2VWU2eUtvSW1kNGhfRm9haEtYQzdHMDhqaUVoNlpBT2RPb2JsYWF3aFNLVTVwZXlvWUJzVlk4U1lBVDNwQVVJS29DUjQzYmwwOUJwM2h2N3FmdVFqZGtTak5pak14WnBhX2ctSUphMnZGYVBzZnB2MFpUWFlQVWI4bzNCUTh1MlBId2s?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWw1bm9rRnJFZHNhLV9MbUJ6YXExbEw1SThBNS1NUTdwbTB6aU1hd25VZ2x4WTZrWGRrWDV3b0NqaU11eHI0MTZ3V1J1T3pXTGxBcExwclQxSkktM3VXWkw3Wk00TlV4dlV2YnVBcXJqT0lZcUlUa3UzU3Nmd25hT1ptV1FRMlpWdFdWNEE2dnhLSVJ5Nno0?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlcVRLRUF1NnEtTlVfSk5iamc3aWFILW9OVXpSZGNicnhqcXdTbFZLb0xQZFVJM25oWnJJWUljNGk0Z2VZTUktbDJubEU3MEE2WjdmdmdTN1IzajRULXgwZFJIOVdmMWtPWUdLbEo0VnVwY2g0LU5VSzVidEg?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE12bWc2UDZmNGZOT3pNdDA0c1pvYVd3Q3VYQU0tZkxmQmt5V3M4bmk2aVlQdTRxVFNVX0NkcXptSjhFNFF6TnUyRUFHVUoxRXpNZjFTSW94SmFxbHo1Y0xsSUJ5RDF1OEE4bUFJRUVzREJ2ME9DR19n?oc=5",
+      "https://pulse2.com/tonkean-24-million-funding/",
+      "https://www.prnewswire.com/news-releases/tonkean-secures-50m-series-b-round-from-accel-to-further-its-mission-to-reinvent-enterprise-business-operations-301319489.html",
+      "https://finance.yahoo.com/news/tonkean-raises-50m-series-b-140053797.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Accel"
+    ]
   },
   {
     "company_name": "Trace Data",
@@ -41477,7 +41873,19 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tracebit",
@@ -41799,7 +42207,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://transitapp.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Travelstop",
@@ -43016,7 +43438,33 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30030008.0,
+        "currency": "USD",
+        "date": "2021-07-12",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1892846/000189284621000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.unitq.com/",
+      "https://www.sec.gov/Archives/edgar/data/1892846/000189284621000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 30030008.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-12",
+    "total_raised": 30030008,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Unmannd",
@@ -43243,7 +43691,53 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "IPO",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2999999.0,
+        "currency": "USD",
+        "date": "2012-08-21",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1557127/000155712712000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 45500000.0,
+        "currency": "USD",
+        "date": "2015-01-28",
+        "investors": [],
+        "source_url": "https://www.usertesting.com/company/newsroom/press-releases/usertesting-secures-455-million-series-c-round-led-accel-partners",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2020-03-19",
+        "investors": [],
+        "source_url": "https://www.usertesting.com/company/newsroom/press-releases/usertesting-announces-100m-funding-round",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.usertesting.com/",
+      "https://www.usertesting.com/company/newsroom/press-releases/usertesting-secures-455-million-series-c-round-led-accel-partners",
+      "https://www.usertesting.com/company/newsroom/press-releases/usertesting-announces-100m-funding-round",
+      "https://www.sec.gov/Archives/edgar/data/1557127/000155712712000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-03-19",
+    "total_raised": 148499999,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "VComply",
@@ -43607,7 +44101,51 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Growth",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2019-06-10",
+        "lead_investors": [
+          "TCV"
+        ],
+        "investors": [
+          "TCV"
+        ],
+        "source_url": "https://www.vectra.ai/blog/vectra-will-keep-working-to-secure-the-cloud-with-the-just-announced-100-million-in-funding",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 36000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.vectra.ai/about/news/vectra-raises-36-million-to-enable-enterprises-to-hunt-cyberattacks-in-real-time"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vectra.ai/",
+      "https://www.vectra.ai/blog/vectra-will-keep-working-to-secure-the-cloud-with-the-just-announced-100-million-in-funding",
+      "https://www.vectra.ai/about/news/vectra-raises-100-million",
+      "https://www.vectra.ai/about/news/vectra-raises-36-million-to-enable-enterprises-to-hunt-cyberattacks-in-real-time"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Growth",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-06-10",
+    "total_raised": 136000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "TCV"
+    ]
   },
   {
     "company_name": "Vedantu",
@@ -43880,7 +44418,28 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.venwiz.com/",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjlQaVZHSVFHMl93M3pWT3ZMNDN0NXl3N3B5bHBDTnJabEpkeGhiR21ua3g2V25zR0xKLXc4ajdJdWkxTk5xc2VMcnJIZEhNb1EyUmRPa29Ja2FXRG50VXNFOTdWbGFqNlAtTFc4bUd1OC1WNjZ4RWZEZ1R0YmFTM0VOdU05TkNxTWFlT2xiUVNDUkJiWDNKb0RMU1lHbzBaMDJMag?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa0ZOdkhzNF9tQU1MdTFtMlgzUWtpQ3FKZDI0VU1LUGFPRlJBQXdHVERtandqOTJmeGU4dzJReHlIem44OVRIXzUzSGVrSklfTnVYT2FNN3g5bmdlb1FUU3BRSXB3LXpUMTB6SjVWejZUMEZCd0FKX0hqdnJobHgtVm94UXc3YUZsZWt2Y2V6b2p2MzJVak1FOS1rbVlYRkJYZm1GbGh6SHE3NjE5R3B5QnZDUHRCXzRuSFl0STZlRlJpcHI0bnJSQkRlc9IB0gFBVV95cUxPVWtoUVgyVElkb09oZDJCdWhNYUQwbGpvRlRPdzdJZGxSR3E0TXA4UlJFUmJJc0cyRC1oTVpMVE9DXzdaNjVxQ0s0a21QcVM5eHcxLUlwY1Y3YzRnSW9PSnFsSGhHWldpZzhEeGg3STZhNEdzS2V3VUFJekZ6Yl81QkZDUW45d2xCczBraHZjMXlfSFF6dDdXdWlGYlp1WWpvTkZ0Nm5WQmxlbXdwbWNZSVd6c2JVWXZ4YTNoRjZhb3Fkdk4wLUNjeE1oQVNXWGZYWUE?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeU94ZHk3RnplcG1lU3lmR1lzR3FnQWZGUVJYTDFLdFV4SFZkSUtrMkZ0YTBSTGxYWTYxZW1oZjFDX2dxVlQ3U3BZdjhjT1VKSUlqdWNGa05kcFNiUVpoSGJwMW4xMzZsVmdXWHlXbEcybVo2X00yMGZ0NzBDcmt3cVhFVHo5Vk1JVEZkNzVBUEpyenlDYXVSWWVla2hTRkw4UTlfTFM3VkVsTnNz?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3QwUElZNmVhMUlIUGlSZWFIMjEwMm5BaEl2eklIbGl2LUxURmNlcXdfaldfMmIweHRuU2hhQ2VEU3UxUDNPVkJLY0FuVk5hc0lkV1hpSTVxcENXX2YtSkdDaThyQWEzMFI2TU9NU3RUeGJMdHhMNGljdkZrZEt1UjRyOFdLazhxLWt2dUlWQkNWS3NPQVBDZmlRaDN3cjduU2dfVE9BaGZIYUpQXzZuY19n?oc=5",
+      "https://www.thehindubusinessline.com/companies/venwiz-raises-83-mn-in-series-a-funding-led-by-sorin-investments/article66511291.ece",
+      "https://timesofindia.indiatimes.com/venwiz-raises-usd-8-3-million-in-funding-round-led-by-sorin-investments/articleshow/97942031.cms",
+      "https://www.vccircle.com/accelbacked-venwiz-raises-8-3-mn-in-series-a-round"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vercel",
@@ -44447,7 +45006,22 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "Cloudflare",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://voidzero.dev/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbThDOGJfSDJYY1VBLW5pOGdON3hoSXdDWkZEZjJxbC1MU0JmUHp4NUZGWmRmUklhbjBGdkJBNnM5Q2lVeW1UbHZ3WnRyWHhJRjlBaV9VTVRwTWpwcldOMEQzNFdPUVg2SWEzUG91RlkxM1RMME1hOGptLTdOeXZ1ZndoZ283OXB5YzQxa0d4YVpwV0x5dWVhSG5SZVBya09DNTRYRGFKMlV5QkZQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vorlon",
@@ -45227,7 +45801,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wizard.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wonder",
@@ -46092,7 +46680,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://gillesbarbier.dev/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zenoti",
@@ -46340,7 +46942,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zingroll.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zinier",
@@ -46377,7 +46993,45 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 90000000.0,
+        "currency": "USD",
+        "date": "2019-12-12",
+        "investors": [],
+        "source_url": "https://www.zinier.com/blog/zinier-raises-90m-to-transform-field-service-workforces-with-ai-driven-automation",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.zinier.com/blog/zinier-closes-oversubscribed-series-b-funding-round"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.zinier.com/",
+      "https://www.zinier.com/blog/zinier-closes-oversubscribed-series-b-funding-round",
+      "https://www.zinier.com/es/blog/zinier-closes-oversubscribed-series-b-funding-round",
+      "https://www.zinier.com/fr/blog/zinier-closes-oversubscribed-series-b-funding-round",
+      "https://www.zinier.com/de/blog/zinier-closes-oversubscribed-series-b-funding-round",
+      "https://www.zinier.com/blog/zinier-raises-90m-to-transform-field-service-workforces-with-ai-driven-automation"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 90000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-12-12",
+    "total_raised": 90000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zoca",
@@ -46414,7 +47068,40 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "USD",
+        "date": "2025-05-21",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/zoca-raises-6m-accel-transform-130000823.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zoca.com/",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZEk2MUJqYUQyT3ZPN0JEeXphQ0NraU1XTTIzcUJsclhOVlFVN1RTWkVsTjB3dGQzdmpKM2tXNjlWLTg2MkItbG44MWNrNmhiR3JYT2t6VXBNbGxHZ0xNdU1WcXV1MDBlZGM5Yl8zRTNPa3B4MmNjS0xoaXlyZlRaN0p1YkJHa1JFQ0hfaDRXemFWSmdsbHFBOGJDZTRUNjJUdGlQLU5HdWxpcUNSNmlPVU9KZkU2SFRLaEtYTmpqWExsSDUzRnY4SFpIS0lTTXhHLU9aWDJEWGxLQ2FS?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeTAtaERFQko4ak5nTV9XelF0aDhaR04tUFI3bXhFZGRTcGNiWGVHWmtMQzBZWjZHTy1BZWo5Y3luejluNTlmMlJhRmlVV3haZGpqTVBvc2cxY3FleDNPanZObzlGd3NtMHlHY2xYdDBKUXk2YWhWWEhJSzFoc05DUXZhTXJTcmpDclJ2b21JU0czeFhYeVBFci1UbDNqbVRVaHRCWlVsSXJUTkdJTUozaXRsWmlsTlAzcUNlNHJzaXEwU1lubC1pUmZLSVY1SEVj0gHWAUFVX3lxTE83RG1JQ29reC16MzJfLXEzVU1vcmtSSktYRmtCanJvUVlwTDJQc1RfZWROaklSTl9VSFdiRElaM1cwZkVFeEdRMnZiM1pZbUNKamV2ZVA3aU5tckR0Y05BLUZGUzVuUk9vYi12dlFaaDdFa0ZGdFpEMXNaOVlCZ1V2dmMwMVVEOERwY0gtZkh2aFk5b0ljQThVX09tSllFY3l3eEVfZHRxakFmTFFRMVdxcElZLW1iMV9Ld3czazhMN0NiQ3F4SDJHUzY1cl8tNDdURk5nV1E?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMmphQUdhcDlEVkZ5V25vdExNQllMU2RabnRad1dSZGEySkJQcTZ0QnRicXNaX2VvVG1LQ1BWWkUwRHg4cGgwaHZzQ1pXQWkyNGtKTEU2MVJpQjI3c2dOSUp6MEE1T2lWeDFsY1J6SGRLVHN4LTZ1bGZzeFFVSVpURnV4el90WEwybmc?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTG92MnhlcGlTN3BBX1pIdXY1bGQyZnk0Q296M0FIbkpSY1BIeUdmVm1OSi1KRnNVX2g4TWk3ZlhtUmkxVGtQWXQxMmxRWl9BTHpjVEhza282RGt5enpZYUZLNVBRRW5FYWpkS3QxSm01akRTa1dYN0F4cGh5WVVCdGg3ai1vd3RkOHBpenlnb1RJR0FpQkE?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjU3bzkzaHlwYWk1MklYTDdrYTNkem1rdGNocFBaNFVOS3hDZHQwY2hmMDZDYnZOcm5iX19MLTN6dUw5ME9fRzllUVd4R0NWMXdjckh1b0hUdXp0VEFsaFJDTFdPZDFJdnQ4WElhamsyUWZidEk0OXNlWkJBZi1iS3QtZzFmdFRzR2k0Q2lnZjZkRkE4dGtMVHVPdnNjRnRPaGhEbUNxUjFSNlQtXzNZMXE1WV96X1Ut0gG4AUFVX3lxTFBCNTdvOTNoeXBhaTUySVhMN2thM2R6bWt0Y2hwUFo0VU5LeENkdDBjaGYwNkNidk5ybmJfX0wtM3p1TDkwT19HOWVRV3hHQ1Yxd2NySHVvSFR1enRUQWxoUkNMV09kMUl2dDhYSWFqazJRZmJ0STQ5c2VaQkFmLWJLdC1nMWZ0VHNHaTRDaWdmNmRGQTh0a0xUdU92c2NGdE9oaERtQ3FSMVI2VC1fM1kxcTVZX3pfVS0?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaTJNVGxUZUhJMWV1MzYyMm9KWFlNVEU5STJhcE84MlBuRkNrQTd3bzdGU3lLTkl2QVZ6NlRlR1FzbUdlWWNVcC0zWFlsSnZ0elEzUzdYbVJ5RjlsVWdQQUo5Y2dKdU95cThadEppcVFOdVAwa1RoN2tnM1hoMlpUSWFwWTjSAYQBQVVfeXFMT2kyTVRsVGVISTFldTM2MjJvSlhZTVRFOUkyYXBPODJQbkZDa0E3d283RlN5S05JdkFWejZUZUdRc21HZVljVXAtM1hZbEp2dHpRM1M3WG1SeUY5bFVnUEFKOWNnSnVPeXE4WnRKaXFRTnVQMGtUaDdrZzNYaDJaVElhcFk4?oc=5",
+      "https://yourstory.com/ai-story/agentic-ai-startup-zoca-bags-6m-funding-round-accel",
+      "https://finance.yahoo.com/news/zoca-raises-6m-accel-transform-130000823.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-05-21",
+    "total_raised": 6000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zolve",
@@ -47132,7 +47819,21 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vlt.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tweed",
@@ -47174,6 +47875,18 @@
     "last_seen": "2026-09-09",
     "listed_on_site": false,
     "delisted_date": "2026-09-15",
-    "delisted_commit": "51ae7ca"
+    "delisted_commit": "51ae7ca",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   }
 ]

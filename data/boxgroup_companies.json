@@ -9186,7 +9186,101 @@
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
     "scraped_at": "2026-10-02T21:09:07.251315+00:00",
-    "location": "New York City"
+    "location": "New York City",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 800000.0,
+        "currency": "USD",
+        "date": "2014-07-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1615716/000161571614000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2455757.0,
+        "currency": "USD",
+        "date": "2015-06-05",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1615716/000123191915000013/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11453385.0,
+        "currency": "USD",
+        "date": "2017-11-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1615716/000123191917000057/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2017-12-12",
+        "lead_investors": [
+          "Comcast Ventures"
+        ],
+        "investors": [
+          "Comcast Ventures"
+        ],
+        "source_url": "https://sevenrooms.com/press/sevenrooms-brings-on-comcast-ventures-as-first-institutional-investor-in-8m-round/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9694998.0,
+        "currency": "USD",
+        "date": "2018-10-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1615716/000123191919000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 10200000.0,
+        "currency": "USD",
+        "date": "2019-07-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1615716/000161571619000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2020-06-25",
+        "investors": [],
+        "source_url": "https://sevenrooms.com/press/sevenrooms-raises-50m-series-b-round-with-providence-strategic-growth/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sevenrooms.com/",
+      "https://sevenrooms.com/press/sevenrooms-raises-50m-series-b-round-with-providence-strategic-growth/",
+      "https://sevenrooms.com/press/sevenrooms-brings-on-comcast-ventures-as-first-institutional-investor-in-8m-round/",
+      "https://www.sec.gov/Archives/edgar/data/1615716/000161571614000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1615716/000123191915000013/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1615716/000123191917000057/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1615716/000123191919000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1615716/000161571619000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-06-25",
+    "total_raised": 92604140,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Comcast Ventures"
+    ]
   },
   {
     "company_name": "Sherpalabs",
@@ -9663,7 +9757,22 @@
     ],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.adp.com/",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVThzU1VEejRxWnNRLUp6U1E5TDByLTZ2Z0JfZllYZVk3OEYzYVdDRlBzdmd1aDdfU3JIOGVSbjZQWEVrZmJSSzJ5WE0wcWhGVHhkZlBsOFh1XzJnbUMzYlVHSkZtLXA5d2RZaGdSMFV4THJUSmxTRlN2MHpKNl9TTTg4cnRvb1U5MXoxVmFlbldueks4SjQ2SDJkN0NtcGZZVG5fUDhXVEg0Q0Z5NkFRanlHMHVvcmc0djdEVTFOUVZSUDg?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Spacious",
@@ -9705,7 +9814,22 @@
     ],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://span.app/",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanRacnZKcjRUUk1QSWpDeEFLSzdfU3ZobHV5T0JOd1R5bTJsdmxVSU1uVXZ5c20yNUhWZm8xVGFiMHc0OU9vNVdPVm9TZmRITkZyUU0wWERRbEwxZHRqdTVVZHI3NDl4d0VkY014TUJYY3hIR2NYczdzTGVOTWJFU0ViSno2dUNLdnRwTklPV3NTNXVkRWs5NnlEX1p0YlpKRmF4bTlPTDBXQ2tLbllUaEgzR25GSlFELWlNRFVTQjNVRFEyVDlyREUwc1E3STNReXVMNVFoUmFpZw?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Spawn",
@@ -10448,7 +10572,21 @@
     ],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.superdial.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Things",
@@ -10517,7 +10655,21 @@
     "everywhere_tags": [],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.timbereye.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Titanvest",
@@ -11379,7 +11531,34 @@
     "everywhere_tags": [],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2024-06-04",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/viaduct-raises-10-million-series-120000381.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.viaduct.ai/",
+      "https://finance.yahoo.com/news/viaduct-raises-10-million-series-120000381.html",
+      "https://pulse2.com/viaduct-10-million-raised-to-solve-and-predict-product-failures/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-04",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vialtrials",
@@ -11842,7 +12021,21 @@
     ],
     "primary_investor": "BoxGroup",
     "source_url": "https://boxgroup.com/portfolio",
-    "scraped_at": "2026-10-02T21:09:07.251315+00:00"
+    "scraped_at": "2026-10-02T21:09:07.251315+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.zatv.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zeal",

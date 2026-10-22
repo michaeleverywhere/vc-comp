@@ -1041,7 +1041,25 @@
     ],
     "primary_investor": "Boston Seed Capital",
     "source_url": "https://bostonseed.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.197553+00:00"
+    "scraped_at": "2026-10-17T19:42:01.197553+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.serent.ai/",
+      "https://serentcapital.com/",
+      "https://serentcapital.com/portfolio/",
+      "https://www.businesswire.com/news/home/20260708094037/en/Serent-Capital-Raises-Oversubscribed-%241.3-Billion-Fund-VI-to-Partner-with-Founder-Led-Software-and-Technology-Enabled-Services-Companies",
+      "https://finance.yahoo.com/technology/articles/serent-capital-raises-oversubscribed-1-220500152.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Smarterer",
@@ -1067,7 +1085,43 @@
     ],
     "primary_investor": "Boston Seed Capital",
     "source_url": "https://bostonseed.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.197553+00:00"
+    "scraped_at": "2026-10-17T19:42:01.197553+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-07-22",
+        "investors": [],
+        "source_url": "https://www.soterosoft.com/news_events/sotero-secures-5-million-for-data-security-as-a-service-platform/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": "2022-07-25",
+        "investors": [],
+        "source_url": "https://www.soterosoft.com/news_events/sotero-closes-8-million-seed-extension-funding-round-to-support-exponential-growth-as-the-leader-in-the-data-security-market/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.soterosoft.com/",
+      "https://www.soterosoft.com/news_events/sotero-closes-8-million-seed-extension-funding-round-to-support-exponential-growth-as-the-leader-in-the-data-security-market/",
+      "https://www.soterosoft.com/news_events/sotero-secures-5-million-for-data-security-as-a-service-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 8000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-07-25",
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Splash Sports",
@@ -1086,7 +1140,35 @@
     ],
     "primary_investor": "Boston Seed Capital",
     "source_url": "https://bostonseed.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.197553+00:00"
+    "scraped_at": "2026-10-17T19:42:01.197553+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 14500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tSW9QNlRkNmZ0RDEwTjhZRXktbi1hVjZhYmZEdUNJMmpjUWlESC1WRm1mVDRraFVxdDY0Mzkxd0poME5DXzRqR0c3Ti1GV2NzT0wzOHhnOUkxekdDVUt0NFk1c2xHazhOb01yVGFXMXNBekFpYWFwTWZibXZzZ9IBgwFBVV95cUxNZnV2dFRLZ2JLSGhqZEFkOElyVzFDMnNQWkQ5cng3bzdnYkRnS0pITlJjUVhCLW5hRl9tZDJOUDV1ZExsZXNSRmozTk83ZnE2OHhnRERQX2U5bXp1ZU1sRnpWYXk2cXlwVUdUX0NjZ2hOWTNlVktuZmxCaDZhdUlpOFFZZw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://splashsports.com/",
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQemFtZVJ2YVQwamt1M0dQQWJ3V05vd2tWNXlFaTlGQ0lqZU04b0UybE9waWEzbFBRUHdOck4zMTNKZlk4WU0taHZMRjU5WjFYLUNJb1llalRUaVo2eGNqZWFjc1IxVnZIMEtmcXZBNXBwMDlzUXJZVjJlNWFrcXFYQWZRZl94X3ByMW00X244Mk1CV05YaEV2QThrc01TRVlvVlhDUURZUmE5X2xPaXh4MDhqQzFHMjVJTkF6R2NhNUlJMnhqdmpR?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE40bHhtMWRDbGpLMnF3SjVMckJlUDcyTDIzNFdEQWhrdzZ0WnJJbTV1WDY2QUoyTEpNOEhaODdNTzIzS0RwR0R0WUlaT3E0dXBZTW5uQ2JrZjhyai1UVklUT3ktVllyR1VYaENrWmw5ZnFtMmFW?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tSW9QNlRkNmZ0RDEwTjhZRXktbi1hVjZhYmZEdUNJMmpjUWlESC1WRm1mVDRraFVxdDY0Mzkxd0poME5DXzRqR0c3Ti1GV2NzT0wzOHhnOUkxekdDVUt0NFk1c2xHazhOb01yVGFXMXNBekFpYWFwTWZibXZzZ9IBgwFBVV95cUxNZnV2dFRLZ2JLSGhqZEFkOElyVzFDMnNQWkQ5cng3bzdnYkRnS0pITlJjUVhCLW5hRl9tZDJOUDV1ZExsZXNSRmozTk83ZnE2OHhnRERQX2U5bXp1ZU1sRnpWYXk2cXlwVUdUX0NjZ2hOWTNlVktuZmxCaDZhdUlpOFFZZw?oc=5",
+      "https://finance.yahoo.com/news/splash-sports-raises-14-5m-130000691.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 14500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 14500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vested",
@@ -1100,7 +1182,23 @@
     ],
     "primary_investor": "Boston Seed Capital",
     "source_url": "https://bostonseed.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.197553+00:00"
+    "scraped_at": "2026-10-17T19:42:01.197553+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://vested.co/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ21KbHlrM0FUSEx6S1dIQzhud2xoOXI5YUlOazNBRDBEcjRoeDZCZ2hDdkQ3TEo0NmM1LVZIUVhNbmZBc09saTUydzRaY19JLUZ5b05HSWZkVlY1XzdWZmEtQWozdDVOVzRuSkVOc25GX3lPS3dBY0NqVjROSEZpU0o3WU53QjUwWWdPNXRjUmlfTFU?oc=5",
+      "https://vested.co/start"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VulcanForms",
@@ -1117,7 +1215,34 @@
     ],
     "primary_investor": "Boston Seed Capital",
     "source_url": "https://bostonseed.com/portfolio/",
-    "scraped_at": "2026-10-17T19:42:01.197553+00:00"
+    "scraped_at": "2026-10-17T19:42:01.197553+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 220000000.0,
+        "currency": "USD",
+        "date": "2026-01-30",
+        "investors": [],
+        "source_url": "https://www.vulcanforms.com/press/vulcanforms-raises-220-million-in-new-financing-to-scale-its-leading-u-s-integrated-digital-metal-manufacturing-platform/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.vulcanforms.com/",
+      "https://www.vulcanforms.com/press/",
+      "https://www.vulcanforms.com/press/vulcanforms-raises-220-million-in-new-financing-to-scale-its-leading-u-s-integrated-digital-metal-manufacturing-platform/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 220000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-01-30",
+    "total_raised": 220000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Weven",

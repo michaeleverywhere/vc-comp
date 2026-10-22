@@ -1132,7 +1132,23 @@
     ],
     "primary_investor": "MTech Capital",
     "source_url": "https://mtechcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.252674+00:00"
+    "scraped_at": "2026-10-20T21:22:39.252674+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://mystack.com/",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xbHUweVhhTXd6OVYwTzkzdkFhT3ppU3luX3cxZzFzeGJhWmRwME9sRzBpd05JTGhWbmZyN2lBMGswN0RDQVJKeEVvaWZRR0Q0NjZGeVZReXRLU1Q2UVh1QkJ0QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02bkRHR25Bb2hWeWVNc1R3dWhCbVVJcnplel9CZlV5Q000UWlqWWl4TXlkVGNWdkZ2SWJQLWsySDNjeUY0VThaRlNPbVNERk82TkduX3Iydm9rVmJUTFRiVWltWQ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Stere",
@@ -1360,7 +1376,43 @@
     ],
     "primary_investor": "MTech Capital",
     "source_url": "https://mtechcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.252674+00:00"
+    "scraped_at": "2026-10-20T21:22:39.252674+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2021-05-25",
+        "investors": [],
+        "source_url": "https://verituity.com/verituity-announces-10-million-series-a-funding-to-accelerate-its-digital-payments-platform",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18800000.0,
+        "currency": "USD",
+        "date": "2024-06-21",
+        "investors": [],
+        "source_url": "https://verituity.com/verituity-raises-18-8m-to-accelerate-its-b2b-and-b2c-verified-payout-platform",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://verituity.com/",
+      "https://verituity.com/verituity-raises-18-8m-to-accelerate-its-b2b-and-b2c-verified-payout-platform",
+      "https://verituity.com/verituity-announces-10-million-series-a-funding-to-accelerate-its-digital-payments-platform"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 18800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-06-21",
+    "total_raised": 28800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Voxel",
@@ -1385,6 +1437,31 @@
     ],
     "primary_investor": "MTech Capital",
     "source_url": "https://mtechcapital.com/portfolio",
-    "scraped_at": "2026-10-20T21:22:39.252674+00:00"
+    "scraped_at": "2026-10-20T21:22:39.252674+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": "2024-06-25",
+        "investors": [],
+        "source_url": "https://zuub.com/blog/dental-news/zuub-secures-series-a-funding-to-expand-ai-dental-automation-solutions/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zuub.com/",
+      "https://zuub.com/blog/dental-news/zuub-secures-series-a-funding-to-expand-ai-dental-automation-solutions/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": "2024-06-25",
+    "total_raised": null,
+    "total_raised_currency": null
   }
 ]

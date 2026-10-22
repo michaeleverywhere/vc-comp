@@ -1762,7 +1762,23 @@
     ],
     "primary_investor": "Equity Venture Partners",
     "source_url": "https://www.evp.com.au/companies",
-    "scraped_at": "2026-10-16T17:25:02.583766+00:00"
+    "scraped_at": "2026-10-16T17:25:02.583766+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR1JvWk9ObHdVTU4xNnhLR2hnNU1hZDJvS0o0WWt3dmxveEMwTVhMbEt3NEV6SlRYbDV4elBqQ0dlenk0eFdoNDVyVkJIU2F4Sk10R280ZDA0TW9jTzcyVXVEWk5RS0tDQ2RxUldVbEFwalp3OVd3M2dIeUJxemN5cW5XY05pTldheUYxOE02U01xQdIBlwFBVV95cUxNOWJwd2xYdnVmblRpOGpxQjlud19HWFg3Uk0wa1VkRGdwb0EtRWFjYnR4dVo1TjBBTVVTQ0dpR3hUeWxfUzV3NDF4aGg5U3VjQTNwMDk3Z2NpeHhFWjBNR1dETGlhbmhaN3FpOUkxS3REQ2cwMHVmakt0aHNLTEx0ZDVITmhfZlA4eGFPWE94Q25jREd2LUgw?oc=5",
+      "https://finance.yahoo.com/news/siteminder-gets-funding-boost-financial-204253106.html",
+      "https://www.aol.com/news/siteminder-gets-funding-boost-financial-204253106.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Smartabase",
@@ -1899,7 +1915,43 @@
     ],
     "primary_investor": "Equity Venture Partners",
     "source_url": "https://www.evp.com.au/companies",
-    "scraped_at": "2026-10-16T17:25:02.583766+00:00"
+    "scraped_at": "2026-10-16T17:25:02.583766+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2025-02-21",
+        "investors": [],
+        "source_url": "https://splose.com/resources/the-handover/splose-secures-5-million-to-transform-the-allied-health-industry",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 46000000.0,
+        "currency": "USD",
+        "date": "2026-02-08",
+        "investors": [],
+        "source_url": "https://splose.com/resources/the-handover/splose-secures-landmark-46m-series-a-to-help-allied-health-practitioners",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://splose.com/",
+      "https://splose.com/resources/the-handover/splose-secures-landmark-46m-series-a-to-help-allied-health-practitioners",
+      "https://splose.com/resources/the-handover/splose-secures-5-million-to-transform-the-allied-health-industry"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 46000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-08",
+    "total_raised": 51000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SprintSuite",

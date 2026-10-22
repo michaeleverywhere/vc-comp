@@ -1179,10 +1179,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.bytekitchen.io/"
+      "https://www.bytekitchen.io/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWpGU3AwYXJmR2RnZWtldmRGUDZJTXc1OGVhYl9RbmFqR0lpSW9majZhMW1lcnJibW40Ty0wMVphZnlEdDNjM0UyMnBGOEdMOU5fWXRER1pUaWh1Z0oxZHpKRDBOdjZYcjB4TVllQVk0WGRlX2dYLVZVdjV2VnRSOHN1NU90M2lSRkNkM2JlY3FEU2s?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSGZaUzUtVTE5MzluSmNRb2pfem9DVVpEcS1Jczh0VXhrZmJjNDN2N1RBekVXT2J3TDY5WUJqNzBkNUozbXlOclU5UUozRnQzb0x2aXJ2MVJld3BCN2pFSW84UzBmZEZrMjhSOWxrRTlRemdLWjR3R1VBUElKZzlkYVVtTFRmR0R1MlRIQWl1WUlkdy0zMnVaNA?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -5080,7 +5082,45 @@
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
     "primary_investor": "Crosslink Capital",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6500000.0,
+        "currency": "USD",
+        "date": "2020-06-16",
+        "investors": [],
+        "source_url": "https://syncari.com/blog/syncari-announces-6-5m-seed-and-new-board-members-including-former-founder-of-mulesoft/",
+        "date_basis": "text"
+      },
+      {
+        "stage": "Series A",
+        "amount": 17300000.0,
+        "currency": "USD",
+        "date": "2021-05-18",
+        "investors": [],
+        "source_url": "https://syncari.com/press-release/syncari-raises-17-3m-series-a/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://syncari.com/",
+      "https://syncari.com/press-release/syncari-closes-series-b-as-fortune-1000-enterprises/",
+      "https://syncari.com/press-release/syncari-raises-17-3m-series-a/",
+      "https://syncari.com/blog/syncari-announces-6-5m-seed-and-new-board-members-including-former-founder-of-mulesoft/",
+      "https://syncari.com/blog/letter-from-the-ceo-announcing-our-series-a-funding-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 17300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-18",
+    "total_raised": 23800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TakeLessons",
@@ -5095,7 +5135,33 @@
     ],
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
-    "primary_investor": "Crosslink Capital"
+    "primary_investor": "Crosslink Capital",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7000000.0,
+        "currency": "USD",
+        "date": "2014-03-24",
+        "investors": [],
+        "source_url": "https://venturebeat.com/entrepreneur/takelessons-closes-7m-to-connect-students-teachers",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/takelessons-raises-7-million-in-venture-funding-252242251.html",
+      "https://venturebeat.com/entrepreneur/takelessons-closes-7m-to-connect-students-teachers"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-03-24",
+    "total_raised": 7000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Telegraph",
@@ -5195,7 +5261,19 @@
     ],
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
-    "primary_investor": "Crosslink Capital"
+    "primary_investor": "Crosslink Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TiVo",
@@ -5395,7 +5473,21 @@
     ],
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
-    "primary_investor": "Crosslink Capital"
+    "primary_investor": "Crosslink Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.synaptics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VanishID",
@@ -5411,7 +5503,34 @@
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
     "primary_investor": "Crosslink Capital",
-    "site_status": "Current"
+    "site_status": "Current",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2025-04-22",
+        "investors": [],
+        "source_url": "https://vanishid.com/resources/press-releases/vanishid-secures-10m-in-funding-as-it-launches-digital-ceo-protection-offering/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://vanishid.com/",
+      "https://vanishid.com/resources/in-the-news/securityweek-picnic-corporation-rebrands-to-vanishid-raises-10-million/",
+      "https://vanishid.com/resources/press-releases/vanishid-secures-10m-in-funding-as-it-launches-digital-ceo-protection-offering/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-04-22",
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Vectice",
@@ -5765,7 +5884,21 @@
     ],
     "source_url": "https://www.crosslinkcapital.com/portfolio",
     "scraped_at": "2026-10-07T21:06:31+00:00",
-    "primary_investor": "Crosslink Capital"
+    "primary_investor": "Crosslink Capital",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.rcom.co.in/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "YotaScale",

@@ -443,10 +443,11 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://www.centinelre.com/"
+      "https://www.centinelre.com/",
+      "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUHdXczdoZUF1Y1h4TGpXZkNHd05pN0s5V1lIVTN5bEk0Ujg3S05ObXNQVW1iaHYwX3hpMER5ME9kalpueHExdFc5dW5VZGwxRmV2T1lzbUhFaUR6UnVseDFMd1daTmx4d05yUHZCZmpnWkJIOVBIcjNJcW8tZk1CeWkzZ1hVZ09IR1ZNaHpsZHFYMUxkX0FUUi1fQnhZSTBrdnVyU1FxazNsSHR4NjBsT25UV2NKblU5R1ktazBZMzBDVkYtZy01WFgxUzNyVWVGWkhHWHlWbFdhS1AzcWJaeDJEbTU1TXlwdFhnQVVWbkhHUlhCSG1XZkFqLXFjTlZzZVlGcw?oc=5"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1555,7 +1556,53 @@
     ],
     "primary_investor": "National Grid Partners",
     "source_url": "https://ngpartners.com/",
-    "scraped_at": "2026-10-21T00:01:53.092619+00:00"
+    "scraped_at": "2026-10-21T00:01:53.092619+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2020-08-10",
+        "investors": [],
+        "source_url": "https://transcendinfra.com/news/transcend-announces-series-seed-financing/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2021-05-12",
+        "investors": [],
+        "source_url": "https://transcendinfra.com/news/transcend-raises-10m-to-accelerate-sustainable-design/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2023-07-31",
+        "investors": [],
+        "source_url": "https://transcendinfra.com/news/transcend-raises-20m-series-b/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://transcendinfra.com/",
+      "https://transcendinfra.com/news/transcend-raises-20m-series-b/",
+      "https://transcendinfra.com/news/transcend-raises-10m-to-accelerate-sustainable-design/",
+      "https://transcendinfra.com/news/transcend-announces-series-seed-financing/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-07-31",
+    "total_raised": 33000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "TS Conductor",
@@ -1567,7 +1614,32 @@
     ],
     "primary_investor": "National Grid Partners",
     "source_url": "https://ngpartners.com/",
-    "scraped_at": "2026-10-21T00:01:53.092619+00:00"
+    "scraped_at": "2026-10-21T00:01:53.092619+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://tsconductor.com/news/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tsconductor.com/",
+      "https://tsconductor.com/news/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Uniphore",
@@ -1663,6 +1735,22 @@
     ],
     "primary_investor": "National Grid Partners",
     "source_url": "https://ngpartners.com/",
-    "scraped_at": "2026-10-21T00:01:53.092619+00:00"
+    "scraped_at": "2026-10-21T00:01:53.092619+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://viridiparente.com/",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXV3Q1R6eUdlT2pfeWQ3LXB2VUlFMnlwVGJSTGJZUU1lWG5OZU83UWotZm5pQUMxcU9XR01pNmozaGtTQ0J1c0ZNUDZERy1fUXdtcnZ3VVB2WUJ2T3llcFJ0cHZtV25tdkpyajN2b2VEdzE5WWJma1l4RHljYVE1WTNPd3NzYy10V3lRbmhoLXVNNkd2X2tZYV92LTJJVXZaT0dXcFl5QW9tMFYzcHZJOThDNGhvekFZWTUtcXFPUlNzSDdBZzdqRFF4M1JheXRGVlFJdDRhZXp2dw?oc=5",
+      "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcy1uYmRMcHFUT2JrQTQ2akFHRHNiMEhTMEFOeTE3MEpRM2J5Y2VHQmRxWmU0Z2NJX2hKRXA4M2dqeVgtaHp6c0QxZXd5N0RhNTZrWC1WTDhORlcySEY4WjRYbGwwMllmSFhuR19zQzczMjNkVXZPZHlTZVdmTUdpdXp3d3lHU013NTdSWVFQX0JjQ1N1dFpwT1JHRGU0aGMySm9TNURMVHVmOTEyZlA1RlhWZjJaSFloVXBSVlZCdDYzTTlNTGp6SXBrcFJSYTJrVFFVNHJSRDZkajdSR0dUNk42TUpHVFdrY2c5SFFDcElBWXRlbVZ6RGhLR084TkZtVVdsa3RaTDEzeXFjNmFZ?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   }
 ]

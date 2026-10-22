@@ -13092,7 +13092,53 @@
     "description": "American spaceflight company",
     "location": "Broomfield, Louisville",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1412184290.0,
+        "currency": "USD",
+        "date": "2021-12-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1899675/000189967521000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30560200.0,
+        "currency": "USD",
+        "date": "2022-01-28",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1899675/000189967523000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 550000000.0,
+        "currency": "USD",
+        "date": "2026-03-02",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1899675/000189967526000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sierraspace.com/",
+      "https://www.sec.gov/Archives/edgar/data/1899675/000189967521000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1899675/000189967523000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1899675/000189967526000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 550000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-02",
+    "total_raised": 1992744490,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SiFive",
@@ -13818,7 +13864,24 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Query across sources with data federation, Trino, and Apache Iceberg, while limiting the need to copy data.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.starburst.io/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM3RMV3liRGxHbTVjbmhGcGVyeVNXNDRMZzgydGo2NTQ1NldIdmpTRjBnckR4cm9VZE5kcXZobU9YRlRSZm9PbTRmcWtwZGJRcl96U2F3WXB4aVFreVhqNTNZY2ZwbFpIQmppU1h6aWxyN1RKYXAtVFJRLUZISDNKdm9DMVhQbXJlc2dFX2dLYk9Ld0RuUTVGM2hIRzl4Sk9HVlVCV2ItWkpTQQ?oc=5",
+      "https://pulse2.com/starburst-100-million-series-c-funding-and-1-2-billion-valuation/",
+      "https://www.crn.com/news/applications-os/big-data-startup-starburst-raises-100m-in-funding-now-valued-at-1-2b"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "StarkWare",
@@ -14539,7 +14602,21 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Play, share your games, and get better, all in one place.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://taketaketake.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tamara",
@@ -14950,7 +15027,36 @@
     "source_url": "https://www.coatue.com/portfolio",
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.twaice.com/newsroom/seed-extension"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.twaice.com/",
+      "https://www.twaice.com/newsroom",
+      "https://www.twaice.com/newsroom/seed-extension",
+      "https://www.twaice.com/newsroom/seed-funding",
+      "https://www.twaice.com/newsroom/series-a",
+      "https://www.twaice.com/newsroom/series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 11000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Uber",
@@ -15307,7 +15413,25 @@
     "scraped_at": "2026-10-05T21:01:49.269663+00:00",
     "description": "Uplight supports energy providers around the world with clean energy solutions for customer engagement and grid flexibility management.",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://uplight.com/",
+      "https://news.google.com/rss/articles/CBMimAJBVV95cUxPaVlMR3h3NUdGQzN2dW1DU1ZVMHMwMG9xUjgtSEhGejY4T012WVY3VTdFd0RNOVUwaGtqM0NzdVJmZzJjRlU1c01xSUs3TFhRS1NlcEdKY3hsejNlaDk2RHZsLWhEeDZkMXRMV2lFUjExMDZFbHlxNjh5TG1RRy1yXzZtSmwwZDZybjVCSjB6UzRuQ2dQc2FVMjd5SEJwMVgxdWVxVldYTHZkdENsOTRhbGhpRklod1JZV0M4ckt2MF9QenFsOFptcVpKWDV0YTA2Qjdod05zd2ZFRFVkeWRfZ2NiMm5YRVpNQlFGS3JHbEppT1lxNWhaRERPd3N2RGxZblYtTnUxdjhXSE9ZSlRXaDVGLUZUZ1Ey?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZDFMVk9maUx2TTJNVW9VOENMblBzeXFOZmVydlRmWEx3NElNSG52WmZhaEdMcFhDNWhaYnBWR1k5MmJnclFMZm9NcUROejM5ZXh2YlpPRklrX1hlSGVFdlZJcWJCYWgtQV9vUGFZQTJCX2Y3YTZCaTM4cXZsbkc5V0pJLXBuZ3J0RWlWUXZRQnVCamRCdGJmVjd3S2xQZHIzZ3NUUzNzU1AtZ1ByZzFUQ0t3UGg?oc=5",
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUDh3dEJnWnEwWGZpMjRwc2dzQ3FhNGo2MXNPRl9hbUVLSmdTNTd1bnJFbEFXem5IWHJRNlBibWcyWEFxMDNyaFpYbktBbWJxdDc3VjZXaTZ3dGNRbzhfYWZPVDNwTG5QcDhOZ2hmZ2J6SncwVjJmUjZTRHptdkV5cFZ4enNsLWpqTTd4Rkhrc3BRXzZlVGgyLUlpOS10SXlJdG5XMGs2NDJkUEgwbTFQN2xFbFJfUTNDVDU4aHFkb0JWSlVqellXUWtUZ1FuRWY5clFqQTVvSlpOcS1feFNzMHpCVEVCTHdQU0RoZA?oc=5",
+      "https://uplight.com/press/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "UpStream",
@@ -15630,7 +15754,19 @@
     "description": "a company develops data access and in-memory computing tools to improve the existing data analytics ecosystem",
     "location": "Mountain View",
     "primary_investor": "Coatue",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "WeaveGrid",

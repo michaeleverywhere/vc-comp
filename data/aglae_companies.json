@@ -2596,7 +2596,21 @@
     "everywhere_tags": [],
     "primary_investor": "Aglaé Ventures",
     "source_url": "https://aglaeventures.com/companies/",
-    "scraped_at": "2026-10-17T20:34:58.942164+00:00"
+    "scraped_at": "2026-10-17T20:34:58.942164+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.thrivepal.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Twentyeight Health",
@@ -2988,6 +3002,42 @@
     "everywhere_tags": [],
     "primary_investor": "Aglaé Ventures",
     "source_url": "https://aglaeventures.com/companies/",
-    "scraped_at": "2026-10-17T20:34:58.942164+00:00"
+    "scraped_at": "2026-10-17T20:34:58.942164+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2018-03-30",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1737021/000173702118000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 28207026.0,
+        "currency": "USD",
+        "date": "2019-07-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1737021/000173702119000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://100thieves.com/",
+      "https://www.sec.gov/Archives/edgar/data/1737021/000173702118000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1737021/000173702119000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 28207026.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-07-03",
+    "total_raised": 30707026,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]

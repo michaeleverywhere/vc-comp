@@ -13796,20 +13796,32 @@
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
     "scraped_at": "2026-10-16T17:06:35.923514+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2400000.0,
+        "currency": "USD",
+        "date": "2023-08-16",
+        "investors": [],
+        "source_url": "https://pulse2.com/harvard-startup-basys-ai-closes-2-4-million-in-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://basys.ai/"
+      "https://basys.ai/",
+      "https://pulse2.com/harvard-startup-basys-ai-closes-2-4-million-in-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2400000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-08-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Batelle",
@@ -30654,20 +30666,37 @@
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
     "scraped_at": "2026-10-16T17:06:35.923514+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbzMzRTJrcEtxM1doY2IxMTFsWlM5V2lrYzdDWEZWNmhNc3VTaGQzQnFQczZaNmc0RUxJalZBbVVpT1U2V05XQlhUbTE1a0E3Z0g1Rlp0UmR0V3htcjRLZVhDbld6U0VUSjhoa0VLbW00ZG1pMklJMjBBUW41MEFhSUNVdGd6Zk9yNVlRci1GNnVSRFFYRWZyM2sxOUpLdw?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://cosine.sh/"
+      "https://cosine.sh/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxQbzMzRTJrcEtxM1doY2IxMTFsWlM5V2lrYzdDWEZWNmhNc3VTaGQzQnFQczZaNmc0RUxJalZBbVVpT1U2V05XQlhUbTE1a0E3Z0g1Rlp0UmR0V3htcjRLZVhDbld6U0VUSjhoa0VLbW00ZG1pMklJMjBBUW41MEFhSUNVdGd6Zk9yNVlRci1GNnVSRFFYRWZyM2sxOUpLdw?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kSTlwTXBDNEozWFVLTE9LVU5mTWtPQjdwMll6NTF5ODdha0hBQVl3OG40Y3YwZ0tMSXdRVHFJOUFSb19iZjRwQmhoUHlaZWVuNmwweDBCU29MWWp4Qk5jbzhLSWY1LTdYWi1kaVdRTkxkQzdK?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJeDFYc09ncUtVbnRWanZKdVFvQzRIYmZhSzBzX2hhR3AwLWxHQ3ZXeUd4TDR0RXRmLUZKdTh6d3BKcmt4Ukh3S3RIemZ0TWI3bkRMV1dvakJlYS1jeFRIYWVMSUF1UExzX1ZiZUx5UTNHYzlj?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVU51OVNlbDc5ckdRd1NyUUFORnRXRWgwRWVzY0l3aHBjcDFEUF9pS3pzRmFjTWdCelNzdXI3ZHdocV81bWNFVDVNUVlCaXpLQVY1RE1zTmszVFlSOUYxRTJGSDdjaXZkLVVta2tWRGtUVEgzanRQNGMtTGNtVERrSE5oWWhZZDdiWjZKV01mUVBNNmJ0ODRmX1V2WVhYanc5ZTBlNmdUekdJcDlOckhzNDYzTFhiVS1wSjdQZXZn?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjhRcFFvRWtrYXhldmRnQm1fUng5X18xbWl4NEdKek1oZk45YjhQcDRfOTJFbmZia1ZfM0Z2c2lPb282dExHT2xtWnI5QTBLNEFXUjRUWm9GTmZRdzZ6SzYtWTlXcmJNR2J5Tklub0NMY09wOVJtNWlkVDU4ZGo2MTZKOHg1V25LV1NRN3pBNnhMT0lSN3NHLVJKTEhYQ2kydEwybjVpRXNQWkk2?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdmlRMWg0cFYtWnpYVGtBaDFMR0FONHZmSVd0Uk1FZjJUUmkyQWdwQ1hzVUpGMzZ3OW1ELWRZT3lreE8yNGFxdDBZWDQ4dzFScU05X0J5MFhqM0t4aUU4WUZsMWRmSGM2TXg4SUVjLWFjUk1xUGxJU3ViVzdtZnZtQXBWNU9GUFF4TVB2OXlycV9kQzlVVEpHbF95Rms1RWRP?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdHlxZXR0cUhGNnR3TFB0ZTRCSkgyS2JRdUdIdW1IaGloREhJR2JuUGRuRmZ5S2JuSE94cVBDcjZGWTIwNEwwWlNMYUl6SGFoQXpCS1ZGaFp2cDFKTTZlbkp6V1pVaE1HV044YXA2SFNFZWRmYkZSX2J2M01aWlVBa3FOYkloZ1E2cVZ1Ymp3?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Cove",
@@ -35441,20 +35470,35 @@
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
     "scraped_at": "2026-10-16T17:06:35.923514+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 13000000.0,
+        "currency": "USD",
+        "date": "2019-08-06",
+        "investors": [],
+        "source_url": "https://www.mobihealthnews.com/news/asia/singapore-based-patient-intelligence-platform-docdoc-raises-13m",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.docdoc.com:443/"
+      "https://www.docdoc.com:443/",
+      "https://sg.finance.yahoo.com/news/doctor-discovery-platform-docdoc-raises-035126139.html",
+      "https://www.mobihealthnews.com/news/asia/singapore-based-patient-intelligence-platform-docdoc-raises-13m",
+      "https://vulcanpost.com/671481/docdoc-funding-13m-singapore/",
+      "https://www.businesstimes.com.sg/startups-tech/startups/docdoc-raises-us13m-total-funds-hit-us246m"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 13000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 13000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-08-06",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dock Health",
@@ -54954,7 +54998,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.thehedgehogcompany.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Helaxy",
@@ -107431,7 +107489,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.saturndynamics.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Say",
@@ -110399,7 +110471,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sicona",
@@ -110518,7 +110602,32 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.sifthealthcare.com/news/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sifthealthcare.com/",
+      "https://www.sifthealthcare.com/news/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Siftwell",
@@ -110987,7 +111096,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcnB6bW01SHNCSmVweWhheUdPeUtBWnFiallzbjNNOHFsWmRjTHppOXdVZzZxUlVyUzk3X0RaTWdINmItZnBxOFlPaEt3aTZxU0FPeDEyM0JGTmE4Z1h5clJlWlZoNjJaN3N4Sl90REJqQzN6QUlKUnZFM0FwREcxZGpmVkNjWHNHOXFLN25FbVJuQUp4ZjRTQ3BGZ9IBoAFBVV95cUxPVlRsRmM3UzR4elFBa092cmN0U2hlM0Z0eU1lYWZ5U3BHVlRnM0VuUXdsOUUxWHRXMnRFS2QyRXlTRTFELVFQNld2NWN5QkY4Qm9taXoxdDhta2hHZUZYWjRpUVFDSk82RndoSUM1OVJUZUJ0cmlnSzd0cGtUYVM1TDdXX1ZJcjlMRElpOGdvbTV2bHhiVkZOTW1HRzBUTTRP?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 8 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Simplist",
@@ -112301,7 +112424,35 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2023-02-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVVdyenlGUnZWYURrWUhZbE1FQi1UUmxqZEN0QjNhREJKaGhNa3U3TlpiMDlNWWhSM19uMEZ0YlppejVjMERpZGp5aDBmeG1RSklLTElyS20zdDJ0UkszSDgxNmdSUFViYUFpSEdmOE5GWHV3RzFKeDI5ZFdnN0hwM2pyZ1Z6R283Nl8zTm1oTFFEM01nMTVZODVxR3NJTXhRVkhQVDNZaV9zX3RGaTJLcTVWNjF2a3ZWOVRlRw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVVdyenlGUnZWYURrWUhZbE1FQi1UUmxqZEN0QjNhREJKaGhNa3U3TlpiMDlNWWhSM19uMEZ0YlppejVjMERpZGp5aDBmeG1RSklLTElyS20zdDJ0UkszSDgxNmdSUFViYUFpSEdmOE5GWHV3RzFKeDI5ZFdnN0hwM2pyZ1Z6R283Nl8zTm1oTFFEM01nMTVZODVxR3NJTXhRVkhQVDNZaV9zX3RGaTJLcTVWNjF2a3ZWOVRlRw?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVkVxS05DQmZOS3RRVXlGTGxWZ3RFcldmT2JtWGVVVXdhNndIZkZtTy05bXltLWhnUzQtcHlDZlMyS3l2akRfUmpXZjBpWmJNUHJnY3BEWnRlX0ZKR3I0VS1vWWNzX0dYX1JIdVFrUlJ0cTUxdFhRRmoxNDlwQUk0dnpXcnlFTFNTLVQ2ZDNqOGpPQQ?oc=5",
+      "https://markets.financialcontent.com/streetinsider/article/bizwire-2023-2-23-slync-secures-24-million-in-funding-to-accelerate-growth-for-logistics-technology-provider",
+      "https://www.streetinsider.com/Business+Wire/Slync+Secures+%2424+Million+in+Funding+to+Accelerate+Growth+for+Logistics+Technology+Provider/21264618.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-02-23",
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Small Door",
@@ -113105,7 +113256,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.solhealth.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SolarMente",
@@ -114180,7 +114345,22 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.bringsoul.life/",
+      "https://thebridge.jp/en/2026/04/photo-electron-soul-completes-funding-round-of-approximately-%c2%a5900-million-for-semiconductor-wafer-inspection-technology"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sound Credit",
@@ -114327,7 +114507,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sourcererai.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sourse",
@@ -114471,7 +114665,27 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://spaceperspective.com/",
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE84VWZJdkJGd2dWTEp3aTZuSlRlMW1LUjByRF80UXN4Umd1cXlITkgyYk13RlM0bko2MGZ1cnJTdktXRkdHbko1bDl6emo5UzlrWU8tUWRhbFM0Q3pYUHZVNjU4OHNyeE8xNEE?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vU2s3SjlYOW9xdmNTOVBfaWs1YnlJTGNLYVBMdDZkQnQ2akpZSjhLZ2Y1UldNSmRvQ0FSVlh5MmVlSXlkU3ZZZm9MbmdLWEQ1YWMtbEJxd0NWMk42a3hsVzNXYmxLaVNYZjUxc1BaZVMxSUI2cUVUU1pR?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd28xdUloRWp6VFNablp0dzNKeUNrWVl6b1RqSlM1YXdxVGtNS0QyZDR1YWtLa016NkpLWmcxQlVjZ1ZKR1ZSbU9QZ1FtSVhDenRDQktWMHpHcnhSNVlrZjVsZnlaMWdZVWxQb19oTmttcll6MVlXYnhuQkV2aEhFb3VUb1lCUkFET0lodzN0bDRBMmFBMDIzZXVRVlplcURNdk9naVZxWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcXp0RVp6UXdKTXd5SmJkUjNlcWFMTzFQSXdoX0RZM2lTR3B5YWdNTnJiY3p4RFIxM3RUYm1GQ1J6TlV1XzlQYUN1VThKcmltVlRNUDZYYUo4R0dSWGp6Qmo2M29teGt4dHdlVjRnTkV1azU1NlhySnZjMXRxSE9qRTJLTGFCSXd2ODYzMXRsUnNzSEV1emNabW5yQzQ5VDcwSFVDcXlrcks2TlB5bmJEVFJNWmk3bG55YmlPVnJwQm1IemNYT1JFdlhZNk5sUFBBVWp3aHc3RGhtcnY2VVE?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHhINXBIVm44UVVSVHpqSUdOV0RsR2tTWnFCdTZvb3prVGFDbFJKamtXWDBndlo5cTh1RjlLSTNkZXN1bHotRTM4WGpEWkJjY0xib29FNjFBQi1RNzl3d2xibmJnRmJueDU4NVZvaTVYUWxPSTB4M3AwUUM4QzEzdUNSbkcySXJKVG1ibF9ySWZxT1M5?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3Z6R2gzbk5rS0t1STdkbVhRU0dNWVBBT1VNQlQ2aFNLMlZsd0V4djZEYmNPWjN0YndlTHJ4N3JxbHdlbW9Yb0ZWa2hIQkZfOXdHbHM5NHhId3Y0c3BKNmRMdW5qVnB2NjlSNXBpV0xQeFVjUDJBTC1UQjhDUkd2WEh5N29BcGZfZ1pyTGRudnpFdGZVV2NxUkt3?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SpaceAlpha",
@@ -114654,7 +114868,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://sparkgrills.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Spark Neuro",
@@ -115752,7 +115980,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SQUID",
@@ -115996,7 +116236,33 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2022-06-30",
+        "investors": [],
+        "source_url": "https://www.inman.com/2022/06/30/stake-secures-12m-in-series-a-funding-to-incentivize-renters/",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://stake.rent/",
+      "https://www.inman.com/2022/06/30/stake-secures-12m-in-series-a-funding-to-incentivize-renters/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-30",
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "STAN",
@@ -116410,7 +116676,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://staris.tech/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Starlab Space",
@@ -117620,7 +117900,28 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.halfmoonnails.com/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUVhMOVM2bkRkT3NTaHMzSXRVXzBmQ2hGVVd3Mmo1THo0YW80RWh3bGdVaUZFZFlOZmx5RVh0TWVZWWQzR3FjSkRlS1l4YzhrcWJYcXo5bnFodlVmM2wxbU9GOXFqd3p3b19QTWZIRmhSanhuRktvcU1jSlplOGhZY3o5UzExM3VuaWtGQjlDcU5HNnpwNnRF?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRTJGZXFoUXhKX3hYLUtUMDI2Wi1UNDN6anJyRUxzWUNwTVdVN0lhUEpVdGRBLUJYN2Y2eTNoN2xXSldTcVlHOUw2RC0yVFFFX2pITFIxQ0Fkcm42bml5Y2V4eDE2Y2FlaTR3em5EdDBtVHAweWpVcWVaUVdRLUlqbnkxVEtUTlZzWC1zdnBaQ1ptSXF2cEhUa25pMXhQUzhzWDBEeWJqM051UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcTcwa21LeU1qSWZWMzRlS1UtaWFQb2hXM2hHeHJZYTE5UW40WllySjJQalNoeF91ekNVSDc4b1ZDSEJSY2hPSUhfZEJjZkdHWGhueUF6ckZDU2UwOGRCX3R3R196RlBOZTlvNXF3WjlqWk5qWkdDbWg1UjR2RVVlTWlCWDlYN3RhWGpFdFRuY2E3bktIVUduNEQ0RkFxZHJXRUhaOFhhcnI?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1dWdW5mSWJSb0NlSTdscVFlZXBmbk9VMjZvSVdCeU5lNjlpNXpMVzRFMVVWdUtGbHlWay1Da2F5UjlyWm02QVBwOXp1WHJCMUNzTVpFZUl2WnhVVVRfUllNYUpjWEpxYVV2TngzdXNBSTB5XzAzUEZQb21ISzFUZEkwOTlJRnFreWVaM0hQX3hQNEVwWTZUNW5oX0g3R3ZBSlNGaDZ5Mks5UHZrVTJXX3NNZ25xb2vSAbwBQVVfeXFMTWpkYWJ2RUFSYzJHZkRoVko4VXp2eG00alJGSTBfSVF2QkFQZlROVU1LeTlqQUprcHlrOURtZEFuMExSN3YwT3pGeEJTbHg1Z29hOFBNU19GLVZnRURzdVR5Vjl5RmNHbW81UElaQmZjOXFvR2VjRjR5eWUzT19rNkc1aVJfX1FBc2ptTEFqOVc4TXJTVDB1N0puQzN5UGhkaU9iM1Rza3ZBVlFYWF9iZ0owdkpxak44UkRPQ0k?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nTHd5RlFCWHRkT2VMQVlUNjE5Nk5nem5jSWVXZVN3OVBFeEwwRlhPNURrcGh0bkhxVGdtRWhidmk5aVRWS3lXdkg0VTBWX3VEZDZyMEVzZXM?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE1lVUtwcnJhcDZMLWl6dF84ZVItU3BTV2dJc1Qwd0xOd1RjblZTanJnandfWEVtRHpoc1ZBeldpWnRXMUh5MDdmcXVSYXVSMkVtQUp4MVVSWVhtMmtXMGE4MXhmbkRqcGo2SU9LTWI5MnFiQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUW5mWXVCWmg0Um1XdWVsMDJhVlZKelVQcm5uZXVMdHVKVW5MaGpqX0tQc2FvcE5ROTRWdzJzakdEcTJuV0FEQl9kSGRkWnBkTUh6cldMUXpOXzZuc3ZleThDakd4TG5jWVBqSWQySVloQi1yMmwzWU03MjhQUDNOWGtjMmdPMUI5MWx2WmFnbFZ6YnRYaGc0R3M1RVU2aDZnZW4yTVpWVnY0dDdvTjlzeFp3RmdnZ3lwd0JoUklVanZNZS1FeXIyMkE1MUxUZXgz?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Strivr",
@@ -117894,7 +118195,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "STXT",
@@ -118510,7 +118823,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sundial.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sundial Foods",
@@ -118863,7 +119190,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.besuper.ai/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Superluminal",
@@ -119269,7 +119610,45 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2021-10-05",
+        "lead_investors": [
+          "Declaration Partners",
+          "Kinnevik"
+        ],
+        "investors": [
+          "Declaration Partners",
+          "Kinnevik"
+        ],
+        "source_url": "https://www.sureapp.com/newsroom/press-release-sure-closes-100m-series-c-round-led-by-declaration-partners-and-kinnevik-to-expand-and-accelerate-embedded-insurance-programs",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sureapp.com/",
+      "https://www.sureapp.com/newsroom/press-release-sure-closes-100m-series-c-round-led-by-declaration-partners-and-kinnevik-to-expand-and-accelerate-embedded-insurance-programs",
+      "https://www.sureapp.com/md/newsroom/press-release-sure-closes-100m-series-c-round-led-by-declaration-partners-and-kinnevik-to-expand-and-accelerate-embedded-insurance-programs"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series C",
+    "last_round_amount": 100000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-05",
+    "total_raised": 100000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Declaration Partners",
+      "Kinnevik"
+    ]
   },
   {
     "company_name": "SureIn",
@@ -119694,7 +120073,43 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11144895.0,
+        "currency": "USD",
+        "date": "2021-02-01",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1902811/000190281122000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29999999.0,
+        "currency": "USD",
+        "date": "2021-11-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1902811/000190281122000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://swimply.com/",
+      "https://www.sec.gov/Archives/edgar/data/1902811/000190281122000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1902811/000190281122000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 29999999.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-11-19",
+    "total_raised": 41144894,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Swing Therapeutics",
@@ -121124,7 +121539,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tapcart",
@@ -121216,7 +121643,36 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2022-06-30",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/taskhuman-announces-20-million-series-130000583.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzJ4c04zU3ZsR2o0VlFxN0hYTDdTeTdrUkEyR0NYM0wxX1Nnbk5lc2lfb3dnYW5OUkEzX0kyR042UWZNY0xXU29ZLWc5MDR3NEx1SUJvSVlBdDBUdDV1eFpLNkpUMVNDcm5FTHctZ0lLaFJrOVpzUUJXTE83Yko0U3Z1YTg?oc=5",
+      "https://finance.yahoo.com/news/taskhuman-announces-20-million-series-130000583.html",
+      "https://techcrunch.com/2022/06/30/taskhuman-lands-20m-to-expand-its-virtual-coaching-platform/",
+      "https://www.prnewswire.com/news-releases/impact-venture-capital-co-invests-with-madrona-usvp-zoom-and-others-in-taskhumans-20m-series-b-to-amplify-human-well-being-and-productivity-in-the-digital-world-301590358.html",
+      "https://itnewsonline.com/GlobeNewswire/TaskHuman-Announces-USD20-Million-in-Series-B-Funding-to-Bring-Real-Time-Holistic-Coaching-to-the-Masses/44787"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series B",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-30",
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tasklet",
@@ -121915,7 +122371,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.tempoplatform.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tenet Industries",
@@ -122034,7 +122504,38 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2023-10-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSW05YWZwNi00YkFGMkI1MG1xcXZZQkZpbnRER3N5aEpkd1dndlRCd2N0T2lITWo5MGdSbi1JaHRGRTBXdHRpZ3pvVkJsR2JDWGpUMlBTM0w0dGhNLUR1cE9TaEo1R0lGMllBeEFldjlZZ1E5NGNvenJRRURtNGV2eWs5M0Zmdlk0NE9vSTBrR1RjdFI0V0pNZUxhV0EyT1lPN2hJRWNTMkgxcU5icmlMem1lZ3lJTi1EcHYxekpYOG1jTDhlQi1Ba3dDcExzbzczS0F1Mw?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://ternary.app/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWtoQjVVcnRvcG5ZVVd2STVfbUJZOTRaVWwxeHU2RWtUMVpSZGZoNU1yanlBbU5JUWt0ak50MFlDODVLUm1IZ0lNeGRPYlZNamVPamE1cEhUZXZVQnZuR0pSR29CNmpNaU9kTW1yQzY4ZUxFNUFmYmlKWF9NT2N2TU4wMkE3N091THlneDc4bjBUTXJWLUNOMWhmaFBnUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSW05YWZwNi00YkFGMkI1MG1xcXZZQkZpbnRER3N5aEpkd1dndlRCd2N0T2lITWo5MGdSbi1JaHRGRTBXdHRpZ3pvVkJsR2JDWGpUMlBTM0w0dGhNLUR1cE9TaEo1R0lGMllBeEFldjlZZ1E5NGNvenJRRURtNGV2eWs5M0Zmdlk0NE9vSTBrR1RjdFI0V0pNZUxhV0EyT1lPN2hJRWNTMkgxcU5icmlMem1lZ3lJTi1EcHYxekpYOG1jTDhlQi1Ba3dDcExzbzczS0F1Mw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iMW1teTBMNi1FNk4yVGh4UWpHR2U1alcxSmw0cGc2OVNfUEFMN1JraVUzeDkyWmlhQW1POXNGM3pLLURTOWdJeW9hTVJNdlVZS0dmdE1XSjNFSU5FeFRMQVdXMEM1aEdiY1BYd2hTUTQ0SGU5TFZiTlZWRy1xZw?oc=5",
+      "https://www.businesswire.com/news/home/20231023417439/en/Ternary-Raises-%2412M-in-Series-A-Funding-to-Deliver-Cloud-Financial-Intelligence",
+      "https://techcrunch.com/2023/10/23/ternary-a-cloud-spend-management-startup-raises-12m/",
+      "https://www.streetinsider.com/Business+Wire/Ternary+Raises+%2412M+in+Series+A+Funding+to+Deliver+Cloud+Financial+Intelligence/22299601.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-10-23",
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ternwheel",
@@ -122057,7 +122558,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.ternwheel.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Terraformation",
@@ -122901,7 +123416,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "The List",
@@ -123490,7 +124017,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://thnks.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Thorntale",
@@ -123591,7 +124132,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ThreatQuotient",
@@ -124073,7 +124626,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.timeless.day/en"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tiny Health",
@@ -124306,7 +124873,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://togethertogether.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Together AI",
@@ -124472,7 +125053,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sanas.ai/tomato.ai-now-part-of-sanas"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TomboyX",
@@ -124540,7 +125135,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWGk0R1RoYy16X3JIV25pWF9XT3JQYl9ubEhNTVpRQ0o5UDNZcGk1dFIzSVZwTThaVGtsWWcyVEQ1YkFqUy15X3JYX2lzT0t1bkJXS2Q4cWxqVkxzbXV5T00taU1pNWd6Vmt2cXJPQVVfRXVOWjJuSWpha0hpbjBHbmhKVzlhM1NIb0hYUjAxdmlINXN4OXNEZllTcjZKZEU?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tomtex",
@@ -125004,7 +125613,25 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.hellotrace.io/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQzlOMU1UODVNN3FxQnA0cU1rTWlXWU5icUdKc1ZvMW5saHRoOG5fcTBqTExsZThFYWJ2NWZTalN6TEhYamlVY0F4MFNqTjBvSUo4MERhVWJrWjl5VTc0TWhQUHhiUTdiQ044RlpmOVdYX1d5UE12MU5GaTZYUkZrUWJpSldtYlRYNTFjZ2lZdXZnRm8?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3ktWVpXeGo1aFN2b0hEVXQ1OVdINDZ4TU9BRDVDdmpTQUktNk9kSHNxRS04a1NfNWFnT2Q0NHo0ZC10QklfVDhHc2dvbjlvSDJrVmdLaWpPcW0yVWh3b19namg2TUNyTUVFQldkX0pmVGJOT2hEc2hXa3B4aG9vN3dEQW5pU1hOVEt6cGFBRDVId1dFemYxcw?oc=5",
+      "https://www.prnewswire.com/news-releases/trace-announces-65-2m-in-funding-following-record-breaking-year-in-growth-301524020.html",
+      "https://www.msn.com/en-us/money/general/trace-secures-funding-from-axogen-for-nerve-imaging-technology/ar-AA294td1"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Trace 3D",
@@ -125405,7 +126032,38 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQR0ZiMkVOR1RTYVlpb0ZMMVZNZ0prVjV2Y2gwWkZtQVBmWlVHb2w1X1BwaTJJSWJLUUdnLTIyaEJfN3c1WEJJLWdjR2RNRVRxOHBod3hueGM0bFZPZEdGb1FNMm93ZXRsdHFxRUNYSWFSU25DTzhDdTFLZlV3MWpxa1hhdzZvU0dlV3JxNnZiQk1qTkowVjhKMDBXcXJ2bGFrLUVWTHZHWTV3ZVRqS1ZyYUdJQUNSaWdGS0xMR29EX1dhUmRCTDZFa1hhRzU2Rk9jbUQtcFBoa1BCV0hPdktxUWM5U3F6TjJmRTduRzVGSktKc2NweHpjdVRsTGR3dmUxd0pDcWNNS2VsblNhdnd0YVJFMGNxSEE4NzZPekhoWnZGSmM?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.transcriptabio.com/",
+      "https://news.google.com/rss/articles/CBMiowJBVV95cUxQR0ZiMkVOR1RTYVlpb0ZMMVZNZ0prVjV2Y2gwWkZtQVBmWlVHb2w1X1BwaTJJSWJLUUdnLTIyaEJfN3c1WEJJLWdjR2RNRVRxOHBod3hueGM0bFZPZEdGb1FNMm93ZXRsdHFxRUNYSWFSU25DTzhDdTFLZlV3MWpxa1hhdzZvU0dlV3JxNnZiQk1qTkowVjhKMDBXcXJ2bGFrLUVWTHZHWTV3ZVRqS1ZyYUdJQUNSaWdGS0xMR29EX1dhUmRCTDZFa1hhRzU2Rk9jbUQtcFBoa1BCV0hPdktxUWM5U3F6TjJmRTduRzVGSktKc2NweHpjdVRsTGR3dmUxd0pDcWNNS2VsblNhdnd0YVJFMGNxSEE4NzZPekhoWnZGSmM?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmZfX2k0T2wzMlE1Yjk2bXhZY1NLclU3ZDJIbFk3ZHNGOUxlSElmclNqN05Pb1p0SnN1b3gyYkY2VG1fcFhCOUhMQlBPNWpTZFZXcDdQRFU1ZFNtM2lucU5mdDF3RnRJOHVqeGxzZTRienJNMmE3V1AxdjZJS2l2ZHY3YkNWNVNSa2VEckRpc19SMTM3MEZZcWNBQk1GOF9WT1o3MW8tSnFYZXdkRXBJM05NckpxdkcxNy1GSDVlWkVDOWdfY1gtZ2ZR?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXZTZTNHaGVNbEtQX053bE1oYXBmTXBmeVV3WnJmOFdyX3N5d0pfa2pMby1BWU1wZHVDQ242ZktUaTItX015WjItel9PMlZiRElhYnRtWnJVRTRuT19aRnBuMTVjRUhKeXExdlVrM0RwdnVGVThSakVIdFQtaEx4aEtPYTFPbEYtN3BUNlpPbTdnN2FKQ05Kc2FDZ2ZUVDN6aldrRHp4X0YxYXNvQk92YXJ6aURJQ2ZXelJRcUFBek0?oc=5",
+      "https://finance.yahoo.com/healthcare/articles/transcripta-bio-announces-24-million-163600450.html",
+      "https://www.bioworld.com/articles/732897-transcripta-bio-raises-funding-to-advance-neuro-pipeline",
+      "https://www.morningstar.com/news/business-wire/20260721361541/transcripta-bio-announces-24-million-in-funding-to-advance-ai-powered-drug-discovery-platform-for-neurological-and-neuromuscular-diseases",
+      "https://markets.financialcontent.com/prnews.pressre/article/bizwire-2026-7-22-transcripta-bio-announces-24-million-in-funding-to-advance-ai-powered-drug-discovery-platform-for-neurological-and-neuromuscular-diseases"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 24000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Transmute",
@@ -125751,7 +126409,22 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trendalytics.co/",
+      "https://blog.trendalytics.co/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Trendio",
@@ -125858,7 +126531,32 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 4700000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.trially.ai/blog"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.trially.ai/",
+      "https://www.trially.ai/blog"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 4700000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Trials.ai",
@@ -125890,7 +126588,22 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://trials.ai/",
+      "https://pulse2.com/concordare-trials-raises-funding-led-by-surface-ventures-to-digitize-clinical-trial-protocols/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tribevest",
@@ -126113,7 +126826,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.trojan-bio.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TrueFoundry",
@@ -126631,7 +127358,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.turnsignl.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tuyo Health",
@@ -127043,7 +127784,33 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4800000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa19BTUFEUzhyWXVSbWlMbmRBVXBCUEpEZjd6RTR1RWxiLUdSNm05SDRONnFhTXVzaHRWSVNaaTE4N09EQ1l2bkcxRXlIcFpFUDJvUXY3UkdtSm9VdVMtWFpsYTBFTHU4cWV1RXBmUFRUNVZSWGl6TkhCakdEYVJZR25zaFA2R2hTU21heFFkdDAyNHdGS2ZvSkYxZ2huQWdyQ1E?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa19BTUFEUzhyWXVSbWlMbmRBVXBCUEpEZjd6RTR1RWxiLUdSNm05SDRONnFhTXVzaHRWSVNaaTE4N09EQ1l2bkcxRXlIcFpFUDJvUXY3UkdtSm9VdVMtWFpsYTBFTHU4cWV1RXBmUFRUNVZSWGl6TkhCakdEYVJZR25zaFA2R2hTU21heFFkdDAyNHdGS2ZvSkYxZ2huQWdyQ1E?oc=5",
+      "https://finance.yahoo.com/news/ugami-raises-4-8m-seed-130700557.html",
+      "https://www.streetinsider.com/globe+newswire/ugami+raises+$4.8m+seed+funding+round+to+back+the+complete+financial+solution+for+gamers/19904533.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 4800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 4800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Uh Oh Labs",
@@ -128156,7 +128923,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://bocoranrtphariini.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ureeka",
@@ -130339,7 +131120,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kajabi.com/product/communities"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vibran",
@@ -130517,7 +131312,23 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://videoelephant.com/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDQ2RXIwVktGZjcxa2NJUzU3ZDhOcUdQaXNuaWNTMFlHM1N6M2xTa0l5NEtBT3hfTXZUYXozTW1EczdySmp3SUxLVnlzbUQyQkZtQzhZeWkwM21xZm1YRGhTN3g2X3FrVXlpeXVhSlJJbGFXTUd5cmZrNlp4YjFTMzNoVTNHWkJOTTFiR1NoOXN3Qk1TRHA1RlU1SnpXbHlUNUdfbFRDZEtwc3BjNmNRTVR5MGVsOHFy?oc=5",
+      "https://www.irishtimes.com/business/technology/dublin-based-videoelephant-raises-5-5m-to-expand-its-content-1.3947831"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vidya Health",
@@ -131029,7 +131840,39 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 31000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Oak HC"
+        ],
+        "investors": [
+          "Oak HC"
+        ],
+        "source_url": "https://vitalize.care/"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://vitalize.care/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 31000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 31000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Oak HC"
+    ]
   },
   {
     "company_name": "VitroLabs",
@@ -132281,7 +133124,28 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMUE4STlxNUNURTB5UzRYQ3BSeE52YlJZZW1xOVpucHZ1M09SQnFIN05UYTlPeW04aFhsSG5xMExsaWROdmxGd3Q0R1BoTTVZWk9PYll6MExSYXJvZmc3aUllMGZfbl9aXzE4UWJqb3hBREpYZW9HS2hldkdlUjNQT1ZYLVpjWC1NcldrcnZ0cF8zbmtjejhRWURib2dteERuZS11UVVHRnRNaFJ6Z1JfMzFLMmprT0RwZ0dibnl2a2ptWFk0ZFdvX01jWTljb3NyaHBBc0RJRVN4UWJwd0hld0VMMzl3cU1JXzBXc2dubUttb1ZkbC1qb1BHOXU1ZXph?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQWlFS0VMbTJwLXVJenhkQ1VqdWVXQmZRNUtkbC1sTUNqeW1qZDNoUnY1dDc4UDl3ZjM5eThiUnFwTERwN3NybUI5aS05S3I4WjFvV3BPZlpSVEZnTkRUalFJalFWTlNEYW14bkNRTnl3b2wyc3RoX3M4VFItNXBQZ09KMkJhcUdjXzlNZDBvYldabmVzN3lpRTNReHB6Q3NOM09NanJ4MEtSeC1TZmVXSjJIUWVlQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQ1p5ZG50X2xmbUNGU1F5b0czVE9TYWIwVkJWcVFSTmVRRWR1S2JPVUUxVFAyTEFncWJOYkFrWW5WX0dUY05qRVhrTTdORDM2R3lsYnZqREgtcHpIblh5ci1kOFpSdHJTSjctOGJ6V3lqNFM0d1V3X1pNRUdlcDJDXw?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNjhudERnMkVyN2YzLXdYbjBFWUpDQTE3eWVKbVBacXZYbDFqZ3NZRVVYNjlGaHQ2UUd3R1dxbEs0SDVDanhjV0ROaHVSc2kxdm9BUlBqQ2t3ZlpidmlTNEs0aWF0YXBwWnktamhBaTgwblJWVUlRVzVYSzRRMjFFRGFXXzliZ1N0bVpjTlo1VTQyeTNiV2dKcXNpbS1IdVNnSGtVY3FNTTQ2UVVkZ2ZZWnVn?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcGxQcnRJMWcyTDl0T0pRaFYyMlVBaExucmNyZE9LLTJaMDR5bFNXY256TUZVTUtjSzZaRE5WaDJYT0pidlFDRldRTE00bEhYVmF2NERCMFNNYVFOemhtRnpuMWtoVktXb0RmTGFGX1RrN284SW5nREZGWE1yRjZhREhwOTFwenp1OFdHM2xWcHRGMFFNMDhv?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORzVONHdmQjZWVnotNk1EZlBPYWI4QlM5ZVFjOVRpd2ZWeXNZR2hKamN0dlp1ZkhWd09oMXR4MmtUQXNhZzVUN2VUZ3FUOEx2Rl9SRFM2aF9qcmVBVHhZS2hzYUZzMDNYc2VzZXAwLWZhWGZLdlhQUVlGLTlUNVZCWmJHT2lzbVZLSzdpQnhuMHVRdk5Wa0NxaVV0d3YyaVRpaDVXbEJialYzdkpqR0tWRGRFMTMzbVVTVFAtVjhGRXRsQTExTzBzeVVwbE5uM2c2Umc?oc=5",
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sVFh5TGVyWE9ST0plRkpmdEJGX016TFFDaXB3ZWRPTU42djdUcDJfQ2hQMG5VN3VJZFdFUTJ0d1F4WHp0TkM3emphV1BSSGpPVmlaRDJYQmxYYkxranVUTlRB0gFnQVVfeXFMT2pGaWtmeTIzLS1YX0tTU0ZRZTA0VW55ai1yM2R5T1lRZW1TUGUxckNEanRBTExBZlZMT3ozTWtGZWtQR3JQcDZhREFhUTZOcFU5LWRiaENIdHdwZkc4ZjE4X1RGVFA0Zw?oc=5",
+      "https://www.prnewswire.com/news-releases/wally-raises-25-million-to-scale-nations-fastest-growing-oral-care-membership-with-unlimited-cleanings--diagnostics-302901486.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Walrus",
@@ -132361,7 +133225,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wand.app/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Warmly",
@@ -132461,7 +133339,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://warmspace.io/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wasoko (fka. Sokowatch)",
@@ -132603,7 +133495,19 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wave Life",
@@ -132682,7 +133586,31 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6350000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.wavelydx.com/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wavelydx.com/news"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Seed",
+    "last_round_amount": 6350000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 6350000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Wax",
@@ -132781,7 +133709,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.webacy.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Webee",
@@ -133104,7 +134046,25 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wandb.ai/site",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0V3MWVKNmE2azdoa3BfcWNYbmY5N3lZTVpyb19oWXZibms3WUpvbDRPeThjQWU5eTZKN1liUDZfZ3ZVUGNBV2FGN3dBRkc0Z05YNUE1akpwS2M2cVN6ZG5jaUtNaUFXb2FCUE5kdm5fMFhWYlZ6dTh4QlJ6dFc0aUtDb3FZR0FWdkNkUlF0YkRFNVBTaDlReWtRa3pWdk42RHV4eGxpYjVncHRxVzVoVTI4MHRLdmZuTmJ3d1FMSEk?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XWlNHcjhzWmVQZW9pZXJYbWFrOGlpMTEyR0JDU0JXRjZqR1F5ZTVQekdfWGlxSVpXZVJDWUQ1ZVpjNEhyQ3lDa0pTalBaSmVaeG1iSVNrcXdCbzhVcFFYY3JMaFYwZVFVc01acDZqRmpqNXpOUWIyZ0tGZkM?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yN1BaXzhkMTlKM3RlOUJRNUdJUDF5azBCTFhhS3lfOEpvZXpadEQ5ci0tVWJLWE5uU0R4cjlXNzVMR19sZGZNMFNXUElkdlFmbkVCQm1MLUJPdDlLVktubXRyNFNXdWp4MVkzRUpHUTYxQTBhRXFWSV92NHk4Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbExaM2E5Ym42NDloeWRoeExWVXdCZi0yZXlPclVpQXEydV9xaW5ONG01SERJaGJRSnNLVDFTdUJIZkpQSDd2eTZjM3gwUjRyV1BJQ1JJQldreUpPRTc2emFlNDdWcXFNbkRMUHgtVGFXak1QQVdjYlpOal9YQVg5Qk9xOHpKZ0ZnRXljbTF4U2FwQTFhd2xWZGh5c0VFN0E?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Welcome",
@@ -133713,7 +134673,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.wickedsaints.studio/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wild Earth",
@@ -133741,7 +134715,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wildearth.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wild West Systems",
@@ -133767,7 +134755,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://wildwestsystems.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wildfire Systems",
@@ -135017,7 +136019,54 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": "2017-07-20",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1712522/000141588917001992/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2019-12-17",
+        "investors": [],
+        "source_url": "https://xendoo.com/blog/fort-lauderdale-based-xendoo-raises-3-5m/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 2551168.0,
+        "currency": "USD",
+        "date": "2022-05-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1712522/000171252222000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://xendoo.com/",
+      "https://xendoo.com/blog/fort-lauderdale-based-xendoo-raises-3-5m/",
+      "https://xendoo.com/blog/funding-news-xendoo-raises-3-54-million-in-seed-round/",
+      "https://www.sec.gov/Archives/edgar/data/1712522/000141588917001992/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1712522/000171252222000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 2551168.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-05-24",
+    "total_raised": 7251168,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Xona Space Systems",
@@ -135581,7 +136630,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSVRvODhmNDdwcTBhLVRRWjJIaHFqaDFSMk5EcGdMTEJXMlBRYXFWMnlmazJWODBrMWJPbVpQeThjOENvQTNwVU81TkNQTWFhYmRSc3hBeGdWUVkxNUFJT1hJYVlQSUpTTlgySlp5ZEtfODZESElxQm8xX2haTlJYZmR4bFpjWjB2cjNxS0piYWhOaUk?oc=5"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "YKB",
@@ -135749,7 +136812,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://lovefromyours.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Yuca",
@@ -135774,7 +136851,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.yuca.live:443/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Yumi",
@@ -136076,7 +137167,35 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 18000000.0,
+        "currency": "USD",
+        "date": "2025-09-30",
+        "investors": [],
+        "source_url": "https://zania.ai/blog/series-a-fundraise-announcement",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zania.ai/",
+      "https://zania.ai/blog",
+      "https://zania.ai/newsroom",
+      "https://zania.ai/blog/series-a-fundraise-announcement"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Series A",
+    "last_round_amount": 18000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-09-30",
+    "total_raised": 18000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Zapp",
@@ -136228,7 +137347,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.zeffy.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zeguro",
@@ -136975,7 +138108,21 @@
     ],
     "primary_investor": "Gaingels",
     "source_url": "https://gaingels.com/portfolio/",
-    "scraped_at": "2026-10-16T17:06:35.923514+00:00"
+    "scraped_at": "2026-10-16T17:06:35.923514+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://zingroll.com/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Zipline",

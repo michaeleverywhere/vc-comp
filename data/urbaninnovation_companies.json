@@ -318,10 +318,12 @@
     "funding_rounds": [],
     "grants": [],
     "funding_source_urls": [
-      "https://coinrule.com/"
+      "https://coinrule.com/",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSGtJQV9RQmRYM0JJQTNXSGpBRVRReFRFcmxUaldqdXV5ZkFoN09BQzZDeGNrMWVtYU1ESWdYaG5UR3k1ZnhxbXl5eWtwQW5EWmdmU1pIREYwdUZuWFhUU0dWWmJVTS1tT3hhb3A3RGpUdEFFd3JNbnZtOWpETkNmcmZXQi1hYUJoMTgw?oc=5",
+      "https://finance.yahoo.com/news/coinrule-automated-crypto-trading-platform-192956856.html"
     ],
     "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
@@ -1429,7 +1431,53 @@
     "everywhere_tags": [],
     "primary_investor": "Urban Innovation Fund",
     "source_url": "https://www.urban.vc/portfolio",
-    "scraped_at": "2026-10-16T23:04:34.064898+00:00"
+    "scraped_at": "2026-10-16T23:04:34.064898+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4121612.0,
+        "currency": "USD",
+        "date": "2025-05-09",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2068880/000206888025000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9649977.0,
+        "currency": "USD",
+        "date": "2026-06-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2068880/000206888026000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.sent.dm/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sent.dm/",
+      "https://www.sent.dm/news",
+      "https://www.sent.dm/news/series-a",
+      "https://www.sec.gov/Archives/edgar/data/2068880/000206888025000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/2068880/000206888026000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-21",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 9649977.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-06-04",
+    "total_raised": 25771589,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Solarcycle",
@@ -1772,7 +1820,21 @@
     ],
     "primary_investor": "Urban Innovation Fund",
     "source_url": "https://www.urban.vc/portfolio",
-    "scraped_at": "2026-10-16T23:04:34.064898+00:00"
+    "scraped_at": "2026-10-16T23:04:34.064898+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://visage.jobs/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-21",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Voatz",
