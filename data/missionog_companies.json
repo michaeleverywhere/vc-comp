@@ -263,6 +263,26 @@
     "scraped_at": "2026-10-17T20:34:59.684888+00:00",
     "funding_rounds": [
       {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2018-02-07",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/detroit-startup-autobooks-announces-10m-124903023.html",
+        "date_basis": "snippet",
+        "history_new": true
+      },
+      {
+        "stage": "Series B",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2021-03-11",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/autobooks-raises-25m-in-series-b-funding-301245851.html",
+        "date_basis": "text",
+        "history_new": true
+      },
+      {
         "stage": "Series C",
         "amount": 50000000.0,
         "currency": "USD",
@@ -276,16 +296,21 @@
     "funding_source_urls": [
       "https://www.autobooks.co/",
       "https://blog.autobooks.co/press",
-      "https://blog.autobooks.co/press/autobooks-announces-50m-series-c-led-by-macquarie-capital"
+      "https://blog.autobooks.co/press/autobooks-announces-50m-series-c-led-by-macquarie-capital",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaVBsakVrbE0zam0xNF9sUDdpSHAxdVRWUUpMYnRsdHl3eTRtMFB2d2REeFAzWklJbnRFNDAtQUl0ZTZHQ1d0dmdEdlBxaEpaVXAxZWlfSXU1cTRtanRjWjNsRkRaNjBiSWRrWnNFTjNvZVh2Skg3UUVIdGc1SEx1WlhBczFMNldNa1FHamVTZw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOVJORGNvYzlkbzRSN2hfc0pyblBQVkZsQ0FBamRrN212dld3MHJQVnVhMm1FU2Nua3ZnbWJlWWt4SGtlem1IVmZJRDRNV0FqR2ZDT21qeVJvN2N3SWJEbnRZU0tjemlqRW43Zk5oamV4ZElxMjhkTUgtaV81bDRTVElTNE1rWVZHX0xYMU1tbTBTNV9SaDE3VVhwaGNOVnVRRUVXWkI5YXBnQQ?oc=5",
+      "https://finance.yahoo.com/news/detroit-startup-autobooks-announces-10m-124903023.html",
+      "https://www.prnewswire.com/news-releases/autobooks-raises-25m-in-series-b-funding-301245851.html",
+      "https://pulse2.com/autobooks-raises-25-million-in-series-b/"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified); history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series C",
     "last_round_amount": 50000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-06-21",
-    "total_raised": 50000000,
+    "total_raised": 85000000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds"
   },
