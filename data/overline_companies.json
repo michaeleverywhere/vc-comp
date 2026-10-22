@@ -622,7 +622,21 @@
     "everywhere_tags": [],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://pulse2.com/pickleheads-2-5-million-seed-secured-to-elevate-pickleball-on-court-experience/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pyrrhus Aero",
@@ -646,7 +660,53 @@
     ],
     "primary_investor": "Overline",
     "source_url": "https://overline.vc/",
-    "scraped_at": "2026-10-17T19:19:51.069883+00:00"
+    "scraped_at": "2026-10-17T19:19:51.069883+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 7700000.0,
+        "currency": "USD",
+        "date": "2020-07-14",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1819328/000181932820000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 35289354.0,
+        "currency": "USD",
+        "date": "2020-11-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1819328/000181932820000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 44711945.0,
+        "currency": "USD",
+        "date": "2021-07-07",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1819328/000181932821000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMllEUGVJall3b2Nfc2Z1Tk1NaXl1UmJIYWlEa1FxaGxOY1ZscWFmMWlZMHRwZ2sxaUVSRlBIVlh2Q05MZlZRMU5DTHBYekplSmc4V0FiTzBWSk1yNlJSRWx5LVQyV1g1V0dZcWEzTlBsNzBmVHNZN0F5VGVsU3BfeUJRYTlwV0hrQy1Qc3hNMkl5Q1BZVmRTSFNodUFBTTIzUUd1TzBBbFZadWc3d1FueHBRUU50bHkyMEJlcmQyaHk3WUxMYXVWejZQa2V1ckNzS3NCUG1tWQ?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/1819328/000181932820000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1819328/000181932820000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1819328/000181932821000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 44711945.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-07",
+    "total_raised": 87701299,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Resultid",

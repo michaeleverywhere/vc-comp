@@ -584,7 +584,19 @@
     "everywhere_tags": [],
     "primary_investor": "Cortado Ventures",
     "source_url": "https://cortado.ventures/portfolio-new/",
-    "scraped_at": "2026-10-17T22:12:49.968916+00:00"
+    "scraped_at": "2026-10-17T22:12:49.968916+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Quantum Space",
@@ -606,7 +618,47 @@
     "everywhere_tags": [],
     "primary_investor": "Cortado Ventures",
     "source_url": "https://cortado.ventures/portfolio-new/",
-    "scraped_at": "2026-10-17T22:12:49.968916+00:00"
+    "scraped_at": "2026-10-17T22:12:49.968916+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 16978041.0,
+        "currency": "USD",
+        "date": "2021-08-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1879840/000187984021000002/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 27262308.0,
+        "currency": "USD",
+        "date": "2022-08-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1879840/000187984022000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNczd0Uzc1WE1UZDdtVjc5dzhNWUpxRzVlWTNrVzdRUGlnVzdHcjNCdjFEb0o0V2tiSmtJRHNYLTJLejA1c1VpWEF3YzdHZ2haUVRUNExCU1ZmRmloN1lmbWFlREpPRldEYVBmU3pRZlRpWlJpd29YLUUweG9nYTFhX08xLUtVVkRzYkd3VGw0VW5UT2w2Q0RTVndtLWlwdkluMFBSQmhn?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMUFBUmkxTXZCcU80MTZyblVibXUtV21fVm1WaGRhN1J4aDdHVWNadWYtZWxfaGNKWFhJT21tX3NITDZ6NHBzMDFBQjFVY2Y5a0p4QlBZTHcwZDhXRWVVSDJFSFh3RGZhYjNrZGxVNEdtWXVkVVFpZFhPODVnUWVkamR4MGFzWjJDLTdtY29hNXh5QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOHNJZU1pakZIX0hQZUppcEZzd096X0dTcnprZWhpcG9YOW85V3NCQzExWHdCVlVLbnFDVko5dlhZU1d4RWRvMldrY2hmeWZaWl9Fb2RiXy1xSExyOEdQZTRYYzBSS2NLaHlCUlRyN2hZUllsQmVCTlJkQUdFOGJydVdNN2pjUlpha1RSbnJ4cWR3VDA2LW9iOUUzcUt1amZpeXlYb0M3VmJhWk1XY0tPYWtKNnE3bjRsLWdRa3lveEV3UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUjBYUWRoLXUyUVd0X1VDR2VhVDlWOEVvb0t4YUlwV2t5RGVXTVdLdFFhd3dXc29zclFWc3ZTems5bGliUnM1WklQZG9RRU81NTNPNFFtWVNpWmpSMXYxYTk1cUFDblE2WjZLcTkwb0NQZ1BXNWItb0dicThQOVQ3SnFMU0t5T2JNc0NUdExHeUZVVU00Zkt2VzhzTk1yekNWeC1yaHBuSUNUUWx0QXhBQUNrTW1JeXBYc1JCLVFRTEZKeGdnODZQNDJhRGpwem9HTFp0ODFGSUJncW4zbXh6ZXlXLTBVMHAyVzRMamtjNmI1OThNUldWYlFmRS1VS2xuNDRGRE82dWdvZ2JCazV6MTVpenZ6dw?oc=5",
+      "https://news.google.com/rss/articles/CBMimgJBVV95cUxOUWdkNExqU1k4ekRPNF9BWTRTbnZkUDlwRXVpMnkyRFhZbnRLUmNtdTJlMm1XS3plaVROVy0zN2N3Wnl4ZGt4SlFiVkZiMVZhOG1FTm1sU1RsaWlxTTZYUGhRNXNTbHRIaGhDdWhGOFNqNHNLYUg2OEVpUFZ3NVhIeEJBNTVIM2xtQ0VrWXI4c0FQWDdrQWswOXhFWWlQVWJSVEEyQnZyYmJWWDhOVElmR19hdDJZTVh1TkRlM1pTSENkaEI3cmY1QjhsSEFSZWRuVHFwSXN2SWlPZHRTcDBsWkRFYXA4eF9DLUJxX01pTEQ1SWplNDlxOXBkMVlab2dUVmNWbVcxUWpTVjR1akR0ZllWSzR2eVI2M1E?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/1879840/000187984021000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1879840/000187984022000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 27262308.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-08-15",
+    "total_raised": 44240349,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Relativity6",
@@ -690,7 +742,21 @@
     "everywhere_tags": [],
     "primary_investor": "Cortado Ventures",
     "source_url": "https://cortado.ventures/portfolio-new/",
-    "scraped_at": "2026-10-17T22:12:49.968916+00:00"
+    "scraped_at": "2026-10-17T22:12:49.968916+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.msn.com/en-us/entertainment/gaming/bentonville-based-sober-sidekick-secures-7-6m-in-funding/ar-AA1Sf9MC"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sway",

@@ -1404,7 +1404,24 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TcEthUUZfMktKTDZjejg1dHBKRUdyMnNaNXpFVkF4d000ZFVXWnFsdGVkWUE3WnVIelVaa2xSaWRrSkR1OVhJalBrX3JZNTUtLU1UVmhpcF90dDd3MW5uTGdmRkhLNkZPNlhFaWZuWWVnaEJ4Y2hRMWEtUQ?oc=5",
+      "https://www.financialexpress.com/archive/quikr-closes-rs-200-mn-series-b-funding/496075/",
+      "https://sg.finance.yahoo.com/news/quikr-gets-90-million-funding-045536690.html",
+      "https://www.deccanchronicle.com/150407/business-companies/article/quikr-raises-rs-900-crore-funding-invest-mobility"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "RapidMiner",
@@ -1436,7 +1453,45 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 29002882.0,
+        "currency": "USD",
+        "date": "2015-04-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1429970/000142997015000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5978362.0,
+        "currency": "USD",
+        "date": "2015-10-27",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1429970/000142997016000004/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcExTcG5GalA5SXFzTjdRWFRpZjhfb0Itb29fZlIzVFZvTHh3dlVGZHRuYXROblp5NmFIMHRzSzJ0UXN6bHhNT2JvN2VNdEE4dDFSN2I0MklQeF9vcEtNb0Q1RllHdUV2WERRWHYtbXdjcl9CV2U4TW1yTVJNUm1rVWttM2hIdTRjSXV5WUExemxNM1hBNzVERGlRbkZ2LXVMXzlVSXZjWDJlM0dMTmpaOG53WVpTZHFvX3JXVkpYZjRWaFZF?oc=5",
+      "https://www.retaildive.com/news/retailnext-scores-125m-in-new-funding/387520/",
+      "https://wwd.com/business-news/financial/feature/retailnext-secures-125-million-in-new-funding-10111858/",
+      "https://www.sec.gov/Archives/edgar/data/1429970/000142997015000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1429970/000142997016000004/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 5978362.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-10-27",
+    "total_raised": 34981244,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rocket Fuel",
@@ -1480,7 +1535,44 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWW5aYWZBeDZkTnZ5Xy15T05GNU1tXzdMZmJDQklYUElBRFM1RklwUF9RdGpIM2hRbE1aZklFY0Q2aEdtbE85UkhqMHVHT256Q2g1SGJrMWJCSmhfQXh3NWhLQ0lycVRvdUdzemExWVg3QlJmeDdYYk9JYnlrVWNONlVEWDZIMkg0T2UyN3ZkTmd1M19pdVpRWg?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1NLLV9SR3VWTFVmME54YzJJSHpkeXZNYldWTl9yX25YUHh0NjBYRWN4dE1iSlVnc284YjJhV2xwLXdVQnU1eTZzUkNXQVRCMnUyVlZaYmJWZWJzZ3dRSFUtMlp6SzVXNWVEM2t3MTNyM1huWFF1TVdOY1NLQVgzSFI3RVN1cHgx?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcDZfQ2V4S0NDb0RYdjMzSEhaNTVTSWFRcG9GUTZoWmpfU2RPOTlFcDhKUVRMMGZsTV9VZ3FhSi1pMUpoZ0xfejVUR2g3Tnd0dXg5T05icjZnSjRvLWQzbmxjeG96THJRdUVLRXhSdVhhbUhjczRJdy1XQnJZS09OQkozSzNBNHUyRlRhcU9oU2hFNlVJcHBkZHZR?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1NLLV9SR3VWTFVmME54YzJJSHpkeXZNYldWTl9yX25YUHh0NjBYRWN4dE1iSlVnc284YjJhV2xwLXdVQnU1eTZzUkNXQVRCMnUyVlZaYmJWZWJzZ3dRSFUtMlp6SzVXNWVEM2t3MTNyM1huWFF1TVdOY1NLQVgzSFI3RVN1cHgx?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWW5aYWZBeDZkTnZ5Xy15T05GNU1tXzdMZmJDQklYUElBRFM1RklwUF9RdGpIM2hRbE1aZklFY0Q2aEdtbE85UkhqMHVHT256Q2g1SGJrMWJCSmhfQXh3NWhLQ0lycVRvdUdzemExWVg3QlJmeDdYYk9JYnlrVWNONlVEWDZIMkg0T2UyN3ZkTmd1M19pdVpRWg?oc=5",
+      "https://www.retaildive.com/news/scandit-secures-80m-in-funding-as-covid-19-drives-demand-for-contactless-m/578601/",
+      "https://www.prnewswire.com/news-releases/scandit-the-smart-data-capture-leader-announces-150m-series-d-investment-led-by-warburg-pincus-301478154.html",
+      "https://www.siliconrepublic.com/start-ups/scandit-computer-vision-startup-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 110000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Scintil Photonics",
@@ -1585,7 +1677,38 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8560000000.0,
+        "currency": "INR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc3dHdm1YbHlVNk5TQV9wSUpsdktXakhGVG1sajJLQS1iOER2cm5kOWE1ckxmcGQ1ZFplSEdfdVZSNW9rb20wOUE5T3l5LXktcXpqR3JwSGlIWTFndlN4S1lKU3h5cllVbXZFMEJVZmd6WDNKVDd1b21JZ01hM2UzWk9GcTFKeEU1WDU0cjFjc2FHNkp1RmFUdnhGX2didXpVQUpNNzA2WWtxNjFELXQ2aWRhQ2RULWZCRE44YlF0Q0FFUVhuSVB2TEtBcFl5bkxvWnNJdUc5V2c3REw0MlI5aW14OWFxSk9VNTVVdjNpdlJGWGPSAfMBQVVfeXFMT3N3R3ZtWGx5VTZOU0FfcElKbHZLV2pIRlRtbGoyS0EtYjhEdnJuZDlhNXJMZnBkNWRaZUhHX3VWUjVva29tMDlBOU95eS15LXF6akdycEhpSFkxZ3ZTeEtZSlN4eXJZVW12RTBCVWZnelgzSlQ3dW9tSWdNYTNlM1pPRnExSnhFNVg1NHIxY3NhRzZKdUZhVHZ4Rl9nYnV6VUFKTTcwNllrcTYxRC10NmlkYUNkVC1mQkROOGJRdENBRVFYbklQdkxLQXBZeW5Mb1pzSXVHOVdnN0RMNDJSOWlteDlhcUpPVTU1VXYzaXZSRlhj?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcTlvTjd2LWp5bmF6c1RwT2lRRXQweGxBclB5ZUZRRjRlbEVibEVwUkl2UEx2M3NscGI0Y2lSNHhmOE92WEZ4VUdXMjIwWUwtcHRqeVcyeWh4VlhLank2Q2hwZFBiaE9YcTg5c1JzMk5pVjRkRWpnZjB1RFRsMmFPeUp5VDBYdlBrWHRZZ0ZIWExlRGdsX1ZqX0lKMndlMGpoVk1GZ2R5X05hNW1tbnBRZmVWUGM0aGR0WmJ4M0xmS2FjUdIBxwFBVV95cUxQVG9FeW44Qms1cXROckdwa05rNEJ4dWFlV2ZkaVR4dXJoWU9EYXRQYk1GRHg2d2ZvMnh1NkRLeWdlbmhKSFVJZzZCeWpDM3BaSlRsa3RWazVOLUhyT2E4YlRFUVRfSVlCalBRWmx1QVoxS0xmRDJ2UlRPMlpiYm5BRVZUcHV6Z0I2bTJKT1QwYkVHeERhNUNZVWhFcTBINzhNQzNqTEIzcjdydkd6Zkhpb0pEb1dyQnlkSnlGRTlTOW1UdS1HUVhj?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXlxWFE5b3NYRndoeURqX3laUThCSEpIYmNkNnZ3UzZfOHFTcV85NkFFeWlrd2VRaklpM0dDaWd1X2VlY2NfcWU3eHM1VHJIMXZYVXFCN0NRQlVjMG9seDRTRmpLUl9xLWtjTzMyc3BiMWNRd3NzTGJQUXpra1VxX0hYNVBvUGtoazF4M1U1TElxeGNNOXpRYTFfalk3bmQtcTduOWhZNWNqZW12MzUydU02RXhlNFE?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM2tLcFFORzNHXzN3SzFITG9DWUtEX2tOdnBEQ3JBVkwzUzZBeFRpTEROMmNKYUNDOE5sUVFNZHQ2bUdEUnFNdVU5dGtWazY2Y2gxQ3RUVE42d3c1ZGRVRkNkUGxPTFRYTlduc1NENVloRVdSRlgzd0NHS2ZrcXBWU1RXbjBhUEo5clpJ0gGLAUFVX3lxTE8za0twUU5HM0dfM3dLMUhMb0NZS0Rfa052cERDckFWTDNTNkF4VGlMRE4yY0phQ0M4TmxRUU1kdDZtR0RScU11VTl0a1ZrNjZjaDFDdFRUTjZ3dzVkZFVGQ2RQbE9MVFhOV25zU0Q1WWhFV1JGWDN3Q0dLZmtxcFZTVFduMGFQSjlyWkk?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcl9zelNnSzFkNGJ2Rnlub2dSUkROZHIxX3ItRkY0aHhIXy1ReFh4VDMzT2Vvdk5vR1FpWl81QkpSWk9CODNGSGhNdHNnMXZyUkpfalFmSWoyNjZIR3JrWGgxMzVBdG13bWtRNmJjZ0pDMVVCaUZiZV9TV2h4VEZjaE9MUFZaLWpiYXpyZHB3cFFYeDh2bkM0UlRkZHFxeHJKcEdXMy1sLXZWcVBObm9pdWFJVjNuNEhlVDBxX2cxRERaTnBo0gHLAUFVX3lxTE5TT1FTaHI0Nnp3ZGdrS1dlTzdFcWZNY0YydHhzczBka1BkNzdnYXkzSVpuMkZLSDN2XzQ5Ynk3eUkxZWRkZGZFc2xGREhsTWs3UWFHREE3T2pjYXVLX0NBWktwR1RPNjJNSk1tREZxTkJsdHVaZTB6Ml81SGp5TE4wa3Q1R2M3eHAxQVhJUHVMWUcwWmRXTGtNRlJ2ZFhwdU9GS1pncEFvWm9tU2tRUzYwSVY5TUVucWVqbGt5ZmQtWjBOSzNUZ0dSNUNF?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXZodlprdTh0b295ZVdQMm9UcEtTSkdiZGV6elpmNjVia29GWUJta2NlcWxham5xa0Z6QktlNWV3R2dtVlk1b1N6RUpZNHd6bXQtY3o1Y3ZVN1JWTFFWeElmbFVqcFM3bk1pVV9xdDU0T21ZMUFjWUYtNzhBcXhlVk9VOEZCb1BFcVRoejBubw?oc=5",
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc3dHdm1YbHlVNk5TQV9wSUpsdktXakhGVG1sajJLQS1iOER2cm5kOWE1ckxmcGQ1ZFplSEdfdVZSNW9rb20wOUE5T3l5LXktcXpqR3JwSGlIWTFndlN4S1lKU3h5cllVbXZFMEJVZmd6WDNKVDd1b21JZ01hM2UzWk9GcTFKeEU1WDU0cjFjc2FHNkp1RmFUdnhGX2didXpVQUpNNzA2WWtxNjFELXQ2aWRhQ2RULWZCRE44YlF0Q0FFUVhuSVB2TEtBcFl5bkxvWnNJdUc5V2c3REw0MlI5aW14OWFxSk9VNTVVdjNpdlJGWGPSAfMBQVVfeXFMT3N3R3ZtWGx5VTZOU0FfcElKbHZLV2pIRlRtbGoyS0EtYjhEdnJuZDlhNXJMZnBkNWRaZUhHX3VWUjVva29tMDlBOU95eS15LXF6akdycEhpSFkxZ3ZTeEtZSlN4eXJZVW12RTBCVWZnelgzSlQ3dW9tSWdNYTNlM1pPRnExSnhFNVg1NHIxY3NhRzZKdUZhVHZ4Rl9nYnV6VUFKTTcwNllrcTYxRC10NmlkYUNkVC1mQkROOGJRdENBRVFYbklQdkxLQXBZeW5Mb1pzSXVHOVdnN0RMNDJSOWlteDlhcUpPVTU1VXYzaXZSRlhj?oc=5",
+      "https://sg.finance.yahoo.com/news/indian-logistics-firm-shadowfax-raises-121507208.html",
+      "https://techcrunch.com/2024/02/27/shadowfax-speeds-ahead-with-100m-funding-as-instant-delivery-boom-fuels-growth/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 8560000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": null,
+    "total_raised": 8560000000,
+    "total_raised_currency": "INR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Shippeo",
@@ -1656,7 +1779,71 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 103000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "SoftBank"
+        ],
+        "investors": [
+          "SoftBank"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc3ctaFRHZzE4Z2VzRUxjWV9QVmJocmlBLWRQWDR2NE9TaGh6UTRfMXRLUTdoYzZfUTN1S00tS1E2VDVmLTgtVUtLcXdOaWw0Y1Y0cGJLTzFvUVpFVDJZeUk4Tml4TVFROUVzWlZiUWtnakVTYUVJSmtJbkMxQ0RkeHFKT0JtcE1lQWdNM3NYSndFbXF1RENQSzFjVkJZN0o3NDNFSklwLUJleW5ZcGVIaE8tMU82d1RuaV9DcEdGZ1psUi1RVUJwcEQ0bll0R3fSAdQBQVVfeXFMTUpiVk5ONFV6LVAzVWRhWWx6R3I4X0h2NXA0Q0Fha0RyQVlNVC1ldVJTMC1mNGVHNWZpUFNjR2NnUUQyU0Z1Q1EwRVFfZUlORVdTQ1RyaC1GY0pvc0JKcDdNSi1PQmRlMnotUzkzQWNvNkNtTGRlb0hfNG9rT3huV0ZLWDFhOHdSc0NxRVdsLWhCeGp4NTBsVjhXNHB1Z255SENZVlR2SzByU0ZfNy14ZUFFbzhvLWd3QTVLcDVCd1pIcWZjTmZPR2gycF9TY29UeDhiNno?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 37000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Intel Capital",
+          "Innovation Endeavors"
+        ],
+        "investors": [
+          "Intel Capital",
+          "Innovation Endeavors"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMzU1VE9YOXlGREZYQ1dkVTB0dEYtQ2xjZVhPUllYdmllN3AydmtUdEM0Ym9qT2VoUmdJbGNoWU4wd3RKaTlXcWhDQjVfS3BEOXVyMjB3VXdBcnBKNUNTc0phQkZ3aXhScTVhbXE1aF9KVHlRckRuOXZyak1YZVpaNC1fRUZzRm03ZjBhdHdwUGhKQQ?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQV9nVHJMSHNXUWhIbDJ6dlFrUG5FYUNSeWtzaXg5N2dhYXhqTmEzQ2Fha2o5bUlfYWx0bjduNXByd2pBck92cmQxcTg5UHVJelRSalZRVzNCUlJBbnpCTXJnSlRKQlp2bzk1clZqZFlFcUZFYTFYNXI1NWoya0RXaWtQUE54Y2Ewb0NuMFRnTG1nME1zU19oVmZSMDVwVGZaNVhhSk5fSjRYVklhOEdfSkQ1Z3g?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmQ4MEtXTGQwTWpGVjhZLTNPQ0RWQnd6cENNdFdkU0ZEU1phRHZMMmZ5dVNKRS04dXlrN1FOTXFWeklHT3BPOThVV0RvRHhFZVpYbm9qQ21zcmZ5NlRpeXI0Qnh5VlZDSWxTaFdMSFpKMXFmREViYnRnRHRrS0gzUzVOVTJpVEhqWE02MW1B?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNUVGU1ppNk9WQUpTejJxVEZwUGpHNWg3T0QzdXR5YUZvenhIbmxNcl8zSzFwdkk2VFczY2lobGhkQ09Qcm5YLW9QZDA1XzhmNmtpcEpTczBjQnlmWkNSOXBNLWprQldsVG5oMU50b2doTTQxQU9yeWdsamF4MF9DTG9VNVBDb1ltak1RNnJ0RV84UEh3QlFNU2YzMWhZeUlJRFE3aXhtNA?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQV9nVHJMSHNXUWhIbDJ6dlFrUG5FYUNSeWtzaXg5N2dhYXhqTmEzQ2Fha2o5bUlfYWx0bjduNXByd2pBck92cmQxcTg5UHVJelRSalZRVzNCUlJBbnpCTXJnSlRKQlp2bzk1clZqZFlFcUZFYTFYNXI1NWoya0RXaWtQUE54Y2Ewb0NuMFRnTG1nME1zU19oVmZSMDVwVGZaNVhhSk5fSjRYVklhOEdfSkQ1Z3g?oc=5",
+      "https://news.google.com/rss/articles/CBMikgJBVV95cUxPdjZXbng2WERXVktzQlRqS2FMdi10MWRNUWo4aDZjSG8zT0VYRDhfcVd4MGpocy10c3V6RXVsYmc2eVZja0FfUEthOUlQSU9WdEtWWnBMaU03YkM1LVVFQWQ1SGRhYnc5bGdhUXdMQmJGOHNsbjVhZWZwelkxUndPVG9JNDBReUNWb0FiMHpFUXA1M0psLTN5VUx5SzFJUDRPUnFwcnZDVDV2RjNqcGNXRGk3VkI1Wm03TlhjemhqWFdCeEdQaVFJRS12ZzJqUkR5V2FnQnhPV2NhdTJ3cEJKeVBDbGE1bFhHSzFyMnFIOTc5OEY2bkF2Yk5DSV84emZ6bUpqZnc2VVJCQjkySFRjZ1ZB0gGXAkFVX3lxTE1VSmpKckZvVzY3ZjQ1LWIxOTV6YXpLQUpNTXltYUwwd3M3d2NHZWxDYXlXa1F0YU9temRHeXVya3NJSlpQRGI0OXVXdk9LVndhRGFZU1piSmRkRm5MWVY5XzFOeTF4Mm53M2lxb0Y5LUZNLWdKUF90WkVkMkVtSFYybFFnNHl2WXltS0prTXJEUUpuSlEzTjdUeWZUU2dSOVgzeUdwcHVUY1JVajJVOE1VYllSYlFaRDB6RHBDblg1dFFzR2d6Vms1dXdoaEtoRURIRjQyUnVRaDh1ZkdTeWhvZnVBdi1Db2c4ODY4TWhPXzRVSHFfOGNWS1VZalhDand0c29uckFRZkRfV1gzVmdZMzh6SVZaRQ?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMzU1VE9YOXlGREZYQ1dkVTB0dEYtQ2xjZVhPUllYdmllN3AydmtUdEM0Ym9qT2VoUmdJbGNoWU4wd3RKaTlXcWhDQjVfS3BEOXVyMjB3VXdBcnBKNUNTc0phQkZ3aXhScTVhbXE1aF9KVHlRckRuOXZyak1YZVpaNC1fRUZzRm03ZjBhdHdwUGhKQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNM2tLNDY2UmpvLUdhQm54Sy1mT3dsY01NU29fdmdQczByLVpRSTJ6S0k4U2lFQk81ajgwOWR3UFNXa2w3S3RTNElpMUZZU1k0WWRqQ0k0RjRXWWU5R2s4UmFPQVlkY19qWlBIS1VZSklCbVlfc3lEckxBUXNxMWlIZFpMbmdfb0lLNFpkQUkzbzJhTVd3S3hJS0Nra2cxSUpWZGR5TWtVSnNoX3R2MFlqVVVEUmlEWnlzM01fZzJHSkQ5ai1yamQ2TkFwMl8xeHBwU0Y2Y3ZnS1diaFZUNFdmc0tqMzVtdjdkTExDcXdPVURYeXJB?oc=5",
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc3ctaFRHZzE4Z2VzRUxjWV9QVmJocmlBLWRQWDR2NE9TaGh6UTRfMXRLUTdoYzZfUTN1S00tS1E2VDVmLTgtVUtLcXdOaWw0Y1Y0cGJLTzFvUVpFVDJZeUk4Tml4TVFROUVzWlZiUWtnakVTYUVJSmtJbkMxQ0RkeHFKT0JtcE1lQWdNM3NYSndFbXF1RENQSzFjVkJZN0o3NDNFSklwLUJleW5ZcGVIaE8tMU82d1RuaV9DcEdGZ1psUi1RVUJwcEQ0bll0R3fSAdQBQVVfeXFMTUpiVk5ONFV6LVAzVWRhWWx6R3I4X0h2NXA0Q0Fha0RyQVlNVC1ldVJTMC1mNGVHNWZpUFNjR2NnUUQyU0Z1Q1EwRVFfZUlORVdTQ1RyaC1GY0pvc0JKcDdNSi1PQmRlMnotUzkzQWNvNkNtTGRlb0hfNG9rT3huV0ZLWDFhOHdSc0NxRVdsLWhCeGp4NTBsVjhXNHB1Z255SENZVlR2SzByU0ZfNy14ZUFFbzhvLWd3QTVLcDVCd1pIcWZjTmZPR2gycF9TY29UeDhiNno?oc=5",
+      "https://www.telecomtv.com/content/access-evolution/skylo-raises-30m-in-oversubscribed-funding-round-52462/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 30000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 170000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "SoftBank",
+      "Intel Capital",
+      "Innovation Endeavors"
+    ]
   },
   {
     "company_name": "Song Guo",
@@ -1774,7 +1961,19 @@
     "everywhere_tags": [],
     "primary_investor": "NGP Capital",
     "source_url": "https://www.ngpcap.com/companies/anybotics",
-    "scraped_at": "2026-10-17T22:12:47.436389+00:00"
+    "scraped_at": "2026-10-17T22:12:47.436389+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Terret",

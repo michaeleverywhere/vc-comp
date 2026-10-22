@@ -3148,7 +3148,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "RepVue",
@@ -3170,7 +3182,37 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [
+          "TDF Ventures"
+        ],
+        "source_url": "https://www.prnewswire.com/news-releases/repvue-closes-5-million-in-new-funding-to-transform-how-sales-professionals-make-career-decisions-301551604.html"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE51T05qaFNERWxHdXVlWFQ1YzUxRWZDZHV6VmQ3VW5rc01kLWw0RGp2NWN0b1dWUWxXdmgtZEg1R09oeEdwV2cwc05qSnN2NnhxbEtfendFYlJDVW5IS3hJWF9LbnpoQnc0ZUFqYmxrUDloVWJFb1BJTg?oc=5",
+      "https://www.prnewswire.com/news-releases/repvue-closes-5-million-in-new-funding-to-transform-how-sales-professionals-make-career-decisions-301551604.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 5000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "TDF Ventures"
+    ]
   },
   {
     "company_name": "Revefi",
@@ -3193,7 +3235,46 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": "2023-09-26",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20230927769280/en/Revefi-Attracts-10.5M-in-Seed-Funding-to-Transform-the-Data-Observability-Space",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWklQanpyLXdXenN1aktGRmpHdGMxY0o1N2s4MlRORW5Xb3hKZnotci1vU29sMnFoWFAtWlpGMTR2QURyWWRuMGVzVTU1RUpzekVKQ0gtaEdtdHdxSXhaemVOVS1iLXhGLXM3ZVJDZ0tHWjNVRzFNdVVkWjE2Y1NhTw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWklQanpyLXdXenN1aktGRmpHdGMxY0o1N2s4MlRORW5Xb3hKZnotci1vU29sMnFoWFAtWlpGMTR2QURyWWRuMGVzVTU1RUpzekVKQ0gtaEdtdHdxSXhaemVOVS1iLXhGLXM3ZVJDZ0tHWjNVRzFNdVVkWjE2Y1NhTw?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE56RGtEQzdVbFdBaFBERXcyMThicVhXNlpXam9lalRMSDE0QkJiLU5zbmRuQWZmd0FjT0VDeHF5U0NoVXNsVmF4XzNrWW1aN3dDSDh4VUFLbEVldVd1WEs4TF9kQlpnU09wM19ZMUtqUmN4MlV2eXR5TTZCSjFMcDQ?oc=5",
+      "https://venturebeat.com/data-infrastructure/revefi-secures-10-5m-in-seed-funding-launches-ai-powered-enterprise-data-platform/",
+      "https://www.businesswire.com/news/home/20230927769280/en/Revefi-Attracts-10.5M-in-Seed-Funding-to-Transform-the-Data-Observability-Space",
+      "https://siliconangle.com/2023/09/27/revefi-raises-10-5m-seed-funding-disrupt-data-observability-industry/",
+      "https://www.geekwire.com/2024/data-observability-startup-revefi-raises-20m/",
+      "https://venturebeat.com/ai/revefi-secures-10-5m-in-seed-funding-launches-ai-powered-enterprise-data-platform"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 10500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-09-26",
+    "total_raised": 30500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Roam HQ",
@@ -3400,7 +3481,19 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Speedchain",
@@ -3426,7 +3519,31 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 111000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOaC1zMWVsZXUtaFFZdG5tUGlHbU5ZbHMwcTc1ZHdiMUd6NDFBU182RklFcVdVRzdhTkczMFN2WDVLbXBzVzRBS0VEam1KSFZ3RVRHRm40b2N5eC1KLUxxS1phdkVOX0p0Skk3TFJOa0dCdHdQTGFHVWFDT2duVUVPY2lSUHotazNnSWdnMEcxdzRTUzN2MGVoSmlzU21BWFFSOW9EMF96Y1pSeHNjZWFiQmdZRmhxeFc2TjhuSkhSeVVPUThvQUlsNjNhRGpPSFJvVm9VRTV5NC1rYUYycGt1Q201ZzRJZ2Zfb1hBOUtNVWdZcVdEQVF1SWRjZEJ6T2RCRGhGX0tRNmdWQUJtQ1VmTFhn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgJBVV95cUxOaC1zMWVsZXUtaFFZdG5tUGlHbU5ZbHMwcTc1ZHdiMUd6NDFBU182RklFcVdVRzdhTkczMFN2WDVLbXBzVzRBS0VEam1KSFZ3RVRHRm40b2N5eC1KLUxxS1phdkVOX0p0Skk3TFJOa0dCdHdQTGFHVWFDT2duVUVPY2lSUHotazNnSWdnMEcxdzRTUzN2MGVoSmlzU21BWFFSOW9EMF96Y1pSeHNjZWFiQmdZRmhxeFc2TjhuSkhSeVVPUThvQUlsNjNhRGpPSFJvVm9VRTV5NC1rYUYycGt1Q201ZzRJZ2Zfb1hBOUtNVWdZcVdEQVF1SWRjZEJ6T2RCRGhGX0tRNmdWQUJtQ1VmTFhn?oc=5",
+      "https://www.prnewswire.com/news-releases/speedchain-raises-111m-in-equity-and-debt-financing-to-accelerate-expansion-and-innovation-for-construction-and-project-spending-302549502.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Spekit",
@@ -3451,7 +3568,34 @@
     ],
     "primary_investor": "GTMfund",
     "source_url": "https://www.gtmfund.com/portfolio/",
-    "scraped_at": "2026-10-17T13:33:59.880015+00:00"
+    "scraped_at": "2026-10-17T13:33:59.880015+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 12200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVlJEeFhWMjlHbE5uMWV2ajRCSkcyRE1jZmpvbnlrZzdyUTAxck95ci1leXVEM2JFZTBFaXFRM0ZVcmxvOGNsa2M1cW9xaVRnSGNMTDFteTlNS0w2VHpMdVdaSzd5cTBJX3I5ajRCcDhjYXFOazBkcXNiUmUteHFlZzNWSVMyUVIzZk9Ya0ZJOE9aci1GTC1RRk5WNkFza05IYWhNbDVSZzlOZmRnel9DMm54YngtYkt5QTdHbHg5SzBLRkRBZms4VEZwT3FGVGJvUS1FXzZLOTR5YXpzZGNLdUFaLTRJamM?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVlJEeFhWMjlHbE5uMWV2ajRCSkcyRE1jZmpvbnlrZzdyUTAxck95ci1leXVEM2JFZTBFaXFRM0ZVcmxvOGNsa2M1cW9xaVRnSGNMTDFteTlNS0w2VHpMdVdaSzd5cTBJX3I5ajRCcDhjYXFOazBkcXNiUmUteHFlZzNWSVMyUVIzZk9Ya0ZJOE9aci1GTC1RRk5WNkFza05IYWhNbDVSZzlOZmRnel9DMm54YngtYkt5QTdHbHg5SzBLRkRBZms4VEZwT3FGVGJvUS1FXzZLOTR5YXpzZGNLdUFaLTRJamM?oc=5",
+      "https://www.yahoo.com/news/spekits-2-5-million-financing-235223494.html",
+      "https://www.brecorder.com/news/40152800",
+      "https://dailytimes.com.pk/880881/spekit-raises-45m-to-reinvent-training-for-remote-teams/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 12200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 12200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Statusphere",
