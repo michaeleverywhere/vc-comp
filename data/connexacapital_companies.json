@@ -60,7 +60,52 @@
     "everywhere_tags": [],
     "primary_investor": "Connexa Capital",
     "source_url": "https://connexacapital.com/companies",
-    "scraped_at": "2026-10-21T00:25:18.091079+00:00"
+    "scraped_at": "2026-10-21T00:25:18.091079+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 510000.0,
+        "currency": "USD",
+        "date": "2023-02-17",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1984164/000198416423000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 5000001.0,
+        "currency": "USD",
+        "date": "2024-04-22",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1984164/000198416424000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 11549991.0,
+        "currency": "USD",
+        "date": "2026-03-04",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1984164/000198416426000002/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1984164/000198416423000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1984164/000198416424000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1984164/000198416426000002/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 11549991.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-04",
+    "total_raised": 17059992,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Halo Cars",

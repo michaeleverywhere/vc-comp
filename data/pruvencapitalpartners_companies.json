@@ -193,7 +193,19 @@
     "everywhere_tags": [],
     "primary_investor": "PruVen Capital Partners",
     "source_url": "https://www.pruvencap.com/portfolio/",
-    "scraped_at": "2026-10-18T15:29:26.409076+00:00"
+    "scraped_at": "2026-10-18T15:29:26.409076+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Coherent",
@@ -242,7 +254,72 @@
     ],
     "primary_investor": "PruVen Capital Partners",
     "source_url": "https://www.pruvencap.com/portfolio/",
-    "scraped_at": "2026-10-18T15:29:26.409076+00:00"
+    "scraped_at": "2026-10-18T15:29:26.409076+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 21000000.0,
+        "currency": "USD",
+        "date": "2014-08-19",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSjZzZWo1b3hQVlROVkJ3dmFldkZHVEJoUC1nY3V4TF85R0tYVENNNDJQaFFBM0lYMzdEV29OZVNuRlFQd2pKM1pPSkpxeHBhcXdWM1QzNUxQMTJtdzlkVkVCZXAtWG9DTUM4MTZOQVpjOS1KTU0xMkFNQzFOQkhuQnBGUQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series C",
+        "amount": 67180000.0,
+        "currency": "USD",
+        "date": "2017-07-31",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41cS14ams4M2tKbW9NZERENWJUVng4R0VZdlJMRUNvRlhXZkVzU0RGTUNBcDZmX3BvTEVKczlNOFZfMTRSdncwNjBaTXBaQmU3M1VyRVNsNnhVLU9qenFoVnpSZVY0bDlfYVpDMXVB?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series E",
+        "amount": 206000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Sapphire Ventures"
+        ],
+        "investors": [
+          "Sapphire Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObkR2c1FGaDVOZzBoTDc1WjdnNkpWVHhkbUEtN2hlanhaS1VtdXQyRHpJY3dnZ0lXOWY3eFVkWWFkMlVQdDZRZDdBX2VxbUl2VEV3ZWI5OE5mNVc2WFZQbWMyVDViSzlwTzdydmk0VnBuSE1iWVFRY2MtWDlGdVJ6OHhTUWo4N19EZ1d0S3hfYTBpU2dqdG1vbTNEZmU0dUVUaVFFc2plaFRFWk1Oa1E?oc=5"
+      },
+      {
+        "stage": "Series G",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLWZJdHJlNGtBVFEySW1MSlVFb0pfbFl2N1dEUnRfUkd2SUhpN3hNZFpUYy1kNXFDaEp0d2p5a0ZFbEw4OGZ3ZWxKZWk5OWdzYy1WZzBadDU5VDRxM2dOVXZ2WnB6NFYwN2pqMXl3Z2xNWEpfVVVLM25ONGg1UU43N1VjSk82N0g0XzFFUA?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLWZJdHJlNGtBVFEySW1MSlVFb0pfbFl2N1dEUnRfUkd2SUhpN3hNZFpUYy1kNXFDaEp0d2p5a0ZFbEw4OGZ3ZWxKZWk5OWdzYy1WZzBadDU5VDRxM2dOVXZ2WnB6NFYwN2pqMXl3Z2xNWEpfVVVLM25ONGg1UU43N1VjSk82N0g0XzFFUA?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaTd1dC0xTEVrWjBTT0NRRC1YVzZoS2NEY18zaFZKZmFRVGtxQUQtS0wwQk9yR1k2MHJmRENrZnRqbV9nRkUzREx4TTdFZHFXMzVyajdybDNvX2FrX0xsanNiZTJFR3AwejVkb3BjTzhUOFhORWtKRWpsM2lsOUJtcFNtbjg1Nl9PUy1jWGVnZWxuM2JZd0l2V0RQWlhReVZIZE9pYlprQkJVWUM4VTM0Sw?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxObkR2c1FGaDVOZzBoTDc1WjdnNkpWVHhkbUEtN2hlanhaS1VtdXQyRHpJY3dnZ0lXOWY3eFVkWWFkMlVQdDZRZDdBX2VxbUl2VEV3ZWI5OE5mNVc2WFZQbWMyVDViSzlwTzdydmk0VnBuSE1iWVFRY2MtWDlGdVJ6OHhTUWo4N19EZ1d0S3hfYTBpU2dqdG1vbTNEZmU0dUVUaVFFc2plaFRFWk1Oa1E?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTZvb0R5TktUa1I3czZjSWZvR0NFZzFsTU9pYUFQZHdZc0hqWDVRcHF4alB3Ym5iSDJoX0RDdmtGanBEZGZuWXF1WERiUU9LdGZpMWVJaHAyWV8zR1dFMktORHNHVUhISnRvZEJpSkFBRURtUGR2OXRLb0ttRlc2MDlweldUWHhFNEVrWWEteU94NFVWVVFkcDlXVzhkODhsNm1NdU5BdHk3RWZGRTFr?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE41cS14ams4M2tKbW9NZERENWJUVng4R0VZdlJMRUNvRlhXZkVzU0RGTUNBcDZmX3BvTEVKczlNOFZfMTRSdncwNjBaTXBaQmU3M1VyRVNsNnhVLU9qenFoVnpSZVY0bDlfYVpDMXVB?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSjZzZWo1b3hQVlROVkJ3dmFldkZHVEJoUC1nY3V4TF85R0tYVENNNDJQaFFBM0lYMzdEV29OZVNuRlFQd2pKM1pPSkpxeHBhcXdWM1QzNUxQMTJtdzlkVkVCZXAtWG9DTUM4MTZOQVpjOS1KTU0xMkFNQzFOQkhuQnBGUQ?oc=5",
+      "https://pulse2.com/datarobot-300-million-series-g-funding-and-6-3-billion-valuation/",
+      "https://pulse2.com/datarobot-206-million-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 67180000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-07-31",
+    "total_raised": 594180000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Sapphire Ventures"
+    ]
   },
   {
     "company_name": "Deed",
@@ -460,7 +537,34 @@
     "everywhere_tags": [],
     "primary_investor": "PruVen Capital Partners",
     "source_url": "https://www.pruvencap.com/portfolio/",
-    "scraped_at": "2026-10-18T15:29:26.409076+00:00"
+    "scraped_at": "2026-10-18T15:29:26.409076+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2800000.0,
+        "currency": "USD",
+        "date": "2024-07-16",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20240717578276/en/GovPort-Raises-2.8-Million-from-PruVen-Capital-and-Fin-Capital-to-Accelerate-Growth",
+        "date_basis": "url"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN0FmSmNQWk8yNkJscUVRRmxZM2tVRXZLZjYwcDMxWS12ZVl5Z0R4d0xsSXF2NEtjRVB2LVNqVmwtaXhJUGFrWk5zQm4zY3lkTy1ZNlhEUFlxNUVtVEQ5bHBZMkJwbE14UTRZNURSeUI2YldEeTRhMk02VEMwWG1EYVNPLVhLM2dLRlozUE52ejcwOVpZRGltUENsdnRDV0RjZ2dGUlh2NjJrRjdELUFPbnc2VHN2WGxKNERNQXZDbkRrelF6VnNaVnRrYnpNLU5RY3A0WFFFME42UGM?oc=5",
+      "https://www.businesswire.com/news/home/20240717578276/en/GovPort-Raises-2.8-Million-from-PruVen-Capital-and-Fin-Capital-to-Accelerate-Growth",
+      "https://www.01net.it/govport-raises-2-8-million-from-pruven-capital-and-fin-capital-to-accelerate-growth/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-07-16",
+    "total_raised": 2800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Grab",
