@@ -271,7 +271,19 @@
     "source_url": "https://www.accel.com/companies",
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "IPO",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "ANSR",
@@ -2559,7 +2571,19 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "acquired",
     "acquirer": "CA Technologies",
-    "primary_investor": "Accel"
+    "primary_investor": "Accel",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Arista",
@@ -3201,21 +3225,38 @@
     "scraped_at": "2026-10-12T21:14:27.265885+00:00",
     "status": "active",
     "primary_investor": "Accel",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17500000.0,
+        "currency": "USD",
+        "date": "2026-09-03",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/exclusive-german-ai-startup-atira-120000677.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://atira.ai/",
-      "https://atira.ai/news"
+      "https://atira.ai/news",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdS1PcHVGaENFRWl6Mk5uelU2Slc1NHVVWVc1V0pCR3pKWmtYWWpzeUc4ZXg2WFZNdXo3SURudmhIRWl1UDV5YWlyblhhQTNYZVA4Q2Z6T1Y1bTF4Vy1kOUN5ZFEwMXRZYXhUbEE1cEswdE10T2NDY2dGTWREbWoxY3NzVzljbGlVeWkzejFfcnVGT3ZzOWRjZzh6TUY1M3U5VHFlUG9LZ2FxSExZOU9ja1ZsbzFuUi1pcDYxbDkyUmhScHFnNWNqeXUzcFdMVmVDbUNoOU5QT0FrWXNtX2c?oc=5",
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqY1V2THpvZHRNZWw2QU9PUWRFUllOTi1MVmdKcUNGb2wxYmhTbGRvWWo2T3k3c3JFLUpuMkduNVQtaWh2Nk1tZDZudzc2SzM0dUVpb3Q2bHUxMkEyTHRfTVdkVVJzX3ZnY2VPUV9aRXJQX0k2?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkduMlRMTVNqeElFNG5IUmx0T0xsNmR6dTJROWJzT0VzSzlyVHcwXzV5ZlY5dXgtRzVReXlTNXBSTjFmalZnUjk4Tmh6ekh3YTdTMnExaTBhUGdKczh0M0dQUktVVXB6RDMzaXFEeUpIRy1EN2Rob1BBNHZhak85R2xyaG1BWW93c1ZzeG83YTlWY0xDSlJCaTFRQ0tkY2NEYkxFVWM2YUVxZHctYnRUOWVn?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUjBrZTBJbFZwMzBSNHcwblk5N1IybHA5VUItS001MlVxM2RpOHlMVlpEQ0ZGZHdFNmZnXzd3dGRIODV0RXNNZmN4ck92dktuellRQzJNVy04alZCeTRzLVdocXpQTjlIQ0pFY2Nxa3RDU3VOYVFZMHY0OWFwYXJEVk45VVlwT0x1dWpKUzA0WWhGb3J5RkE?oc=5",
+      "https://finance.yahoo.com/technology/ai/articles/exclusive-german-ai-startup-atira-120000677.html",
+      "https://pulse2.com/atira-raises-17-5-million-to-build-ai-orchestration-platform-for-industrial-sales-engineering/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 17500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 17500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-09-03",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Atlas",

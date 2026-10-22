@@ -176,7 +176,52 @@
     ],
     "primary_investor": "DeepWork Capital",
     "source_url": "https://www.deepworkcapital.com/portfolio",
-    "scraped_at": "2026-10-19T20:12:26.525057+00:00"
+    "scraped_at": "2026-10-19T20:12:26.525057+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1274986.0,
+        "currency": "USD",
+        "date": "2016-09-16",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1684003/000089706917000133/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 294018.0,
+        "currency": "USD",
+        "date": "2017-10-31",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1684003/000089706918000071/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3283020.0,
+        "currency": "USD",
+        "date": "2020-07-10",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1684003/000168400320000001/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1684003/000089706917000133/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1684003/000089706918000071/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1684003/000168400320000001/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 3283020.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-07-10",
+    "total_raised": 4852024,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Artist Growth",

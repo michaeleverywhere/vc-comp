@@ -169,7 +169,19 @@
     "everywhere_tags": [],
     "primary_investor": "Newfund",
     "source_url": "https://newfundcap.com/portfolio/1",
-    "scraped_at": "2026-10-17T19:42:01.972331+00:00"
+    "scraped_at": "2026-10-17T19:42:01.972331+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Apptopia",
@@ -178,7 +190,54 @@
     "everywhere_tags": [],
     "primary_investor": "Newfund",
     "source_url": "https://newfundcap.com/portfolio/1",
-    "scraped_at": "2026-10-17T19:42:01.972331+00:00"
+    "scraped_at": "2026-10-17T19:42:01.972331+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2700000.0,
+        "currency": "USD",
+        "date": "2016-11-23",
+        "lead_investors": [
+          "Ashton Kutcher's VC"
+        ],
+        "investors": [
+          "Ashton Kutcher's VC"
+        ],
+        "source_url": "https://www.pocketgamer.biz/mobile-market-intelligence-firm-apptopia-raises-27-million/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2021-05-11",
+        "investors": [],
+        "source_url": "https://www.pocketgamer.biz/apptopia-series-c-20-000-000-dollars/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbncwM2cyLUtHUWU3T3RsR25IWjZudUdDOWp0WEREN0lBRzgzUG55WGR1Q1hRejFILWMxLXNJaGVXZXlnX2JtWjVCYnZHNmtDNFg0NzhsQzNyQU1xMERTanhFTW1DMlRadk4wWGhKRnBfNS1ob2Q0MzkzeElULTRtSlFn?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMjQtcVpMTnVYbzctdkFpdUFlVVV1dEJ2d3RqeW1lOVNBSDllSExJckxJYmtGZGVZQVBZSF9Za0Q4ek1WLW9hZlJqcENTaF9HWjVyLWFTbGg1MDZvdGZZTzdkSjJJQTY4TnAzTGNQR0kzQ0tOR0s5d3c2ekM4Ym1aMjJSQW5XQdIBiwFBVV95cUxNNGl3aXZNQTFQZXRXS1RRY3VVWTQ0cUxDa01GZ2QwSkRxb3h2bW1PRW9uOWVkLUtyZ1BLeU9wZDBzbHlLeGpvXy13Q3FUYndMSUdnd1lWeTJMMEZqZl9IdmZfekx3ZTQ3N2hzeEVXR196cDBXWVZXMGdVMjVrdFRPdHRyT0JUR0RIa2xR?oc=5",
+      "https://pulse2.com/competitive-intelligence-company-apptopia-raises-20-million/",
+      "https://www.pocketgamer.biz/mobile-market-intelligence-firm-apptopia-raises-27-million/",
+      "https://www.pocketgamer.biz/apptopia-series-c-20-000-000-dollars/",
+      "https://www.gamesindustry.biz/apptopia-raises-usd20m-in-series-c-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-05-11",
+    "total_raised": 22700000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Ashton Kutcher's VC"
+    ]
   },
   {
     "company_name": "Arenametrix",
