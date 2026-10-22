@@ -529,7 +529,19 @@
     ],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "EMBOLINE",
@@ -539,7 +551,51 @@
     "everywhere_tags": [],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Bridge",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2020-01-31",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GaEJvaDQ2VDlGTmo1bm1CZTNmYzBueWdGejM2cS1nV216SzBDbFVILW56YS1yRERLLUg2Y1MxTjI0eVFvZzNBSGtTcDZJdFNvTUZnbXV5aF84S2J0SXUxYjhhWGZGMzVEWUVCYQ?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series B",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOV9ZTFBsUXhLdkJyOEtId0xaRVF0UTdWbzRjUVA3X0ZHUm5PakVtcHNiUElxcFdvYkVEZFRsZmpjVi16Z2R2SFRfamlMRm1rUll2UF83TVhQRC1oWXR3bTQzUk9ZcjMzay1nYWlnTnF0bXB2U3lFdHl1clZGLWhjclhHN2NnQXZf?oc=5"
+      },
+      {
+        "stage": "Series D",
+        "amount": 55000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNc1A3NHNGeVB1Z094MnRMWFJKc1BGNjlReTlfczdqMG92enU2cW16bHdjbTA2VExSamVtN1FxS3dpd0ZmVFQtODFwMkpSYjVQeDcxSUQ5N2VjOGRTMEFHNUNBbHBQV19UcDNRaTd6RE05M3IwOXdIWlBJS0pxaDY2dzJsWUpqOG41cGtSNmVnWGdSeHdqS3NyVXBxLVFCbktwSWZhWGdxVHpWTHVpZ0pSbkFtdExSYnBXeXl2ODdmbF9CN1NZRHB4cWdnSENtTFVkNXVfNzRjRVBmcU1JUE1KU0hacENoODM5ai1HZFdPdFZoUDdSdWRMd1FsbFRybHJCSi1sMFpLaG5LVFBhdGM1S1VOZTlneE1VcE1EZHNwNGRHcnRoQUJZWW1iMVBXLTFLTktDQV9pTEFjYTVHMUFtZExzV1V1YzFmY0dKbUpFNHJxTTFyNHc?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GaEJvaDQ2VDlGTmo1bm1CZTNmYzBueWdGejM2cS1nV216SzBDbFVILW56YS1yRERLLUg2Y1MxTjI0eVFvZzNBSGtTcDZJdFNvTUZnbXV5aF84S2J0SXUxYjhhWGZGMzVEWUVCYQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOV9ZTFBsUXhLdkJyOEtId0xaRVF0UTdWbzRjUVA3X0ZHUm5PakVtcHNiUElxcFdvYkVEZFRsZmpjVi16Z2R2SFRfamlMRm1rUll2UF83TVhQRC1oWXR3bTQzUk9ZcjMzay1nYWlnTnF0bXB2U3lFdHl1clZGLWhjclhHN2NnQXZf?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNc1A3NHNGeVB1Z094MnRMWFJKc1BGNjlReTlfczdqMG92enU2cW16bHdjbTA2VExSamVtN1FxS3dpd0ZmVFQtODFwMkpSYjVQeDcxSUQ5N2VjOGRTMEFHNUNBbHBQV19UcDNRaTd6RE05M3IwOXdIWlBJS0pxaDY2dzJsWUpqOG41cGtSNmVnWGdSeHdqS3NyVXBxLVFCbktwSWZhWGdxVHpWTHVpZ0pSbkFtdExSYnBXeXl2ODdmbF9CN1NZRHB4cWdnSENtTFVkNXVfNzRjRVBmcU1JUE1KU0hacENoODM5ai1HZFdPdFZoUDdSdWRMd1FsbFRybHJCSi1sMFpLaG5LVFBhdGM1S1VOZTlneE1VcE1EZHNwNGRHcnRoQUJZWW1iMVBXLTFLTktDQV9pTEFjYTVHMUFtZExzV1V1YzFmY0dKbUpFNHJxTTFyNHc?oc=5",
+      "https://pulse2.com/emboline-20-million-raised-for-embolic-protection-technology-platform/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Bridge",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2020-01-31",
+    "total_raised": 70000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "EPIMAB BIOTHERAPEUTICS",
