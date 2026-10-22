@@ -30368,20 +30368,31 @@
     "primary_investor": "Alumni Ventures",
     "source_url": "https://www.av.vc/portfolio",
     "scraped_at": "2026-10-18T13:43:04.115388+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/formlogic-20-million-funding/"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://formlogic.com/"
+      "https://formlogic.com/",
+      "https://pulse2.com/formlogic-20-million-funding/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Formulary",
@@ -30561,20 +30572,57 @@
     "primary_investor": "Alumni Ventures",
     "source_url": "https://www.av.vc/portfolio",
     "scraped_at": "2026-10-18T13:43:04.115388+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 85000000.0,
+        "currency": "USD",
+        "date": "2024-08-19",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20240820406515/en/Fortera-Secures-$85M-to-Accelerate-the-Global-Deployment-of-Low-Carbon-Cement-Production",
+        "date_basis": "url"
+      },
+      {
+        "stage": "Series B",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "lead_investors": [
+          "Temasek",
+          "Khosla Ventures"
+        ],
+        "investors": [
+          "Temasek",
+          "Khosla Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPLW1XdkRINzBWMVZLeVMyN0VCNXA5NzR0WjdKUVh4WXBHZ09USWhtWnI5aEhna1dnYzlLNGxWcVpQZlU4Ukl1NnBvc3djNUFVd1J2MGlmSmRrRGt4VHBVV19EUno0Q2g2TUdzLUNUbTd0QmR6XzNsX1R5X2RobHVzWHhVRkVPNTRIUWNWSll2dTdoWV9tOW41M21UQ3hibDdsMHJLU3N5cnpTWXRMdlNZOTRLelNjN3VraVdFc2Z1U3QwR3NjNmRTODlITjBELWw1WlV1ZW5aeGhDV3h1SXZjSGVGVi04ZU4taEZ4S0luanBDU1ozSkhaUm96Q2JlZjhBRVc5UXRnQXN0Z2k0d05abnByR215cWMzbVIzOFhjejNYdGc?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://forteraglobal.com/"
+      "https://forteraglobal.com/",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcEFheVQ4X0FxYjJZOFJ5Ty1lb3kyXzdraW5JcHZKU0M4NGpiMTRDQjJEWWYxcjhSb3lfc0JNUVBwNS14TnhZamxMRFZvWHF6ZVR1OU5XMFlsQkdHblhyVmVHNGdrUGxzZERhNUV3SldqUXh5cTI3STIydUE2Tmc5M3NCMGFPQlROT1p2Yk9sOEl4TEU?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRXZMVFBuVURFTVhqY0tkaWE4LVFNemxjQW9iN3VyYlBsbHhQckFUQlRtekdRcDJ5aWRmOWpxUkFlbkNXTmtkMWlDS3l0ZWg3RUpMTkxlTEs4cmJGUHpfU0NVVmJ1ZmRwRFExZGRxRUZ6UkZVbWE1OW1USjMwR04xSjJocGJ4Z2J0RXRJdlVyWC1XWU1fVFhRM25Td1I4azdrVzc4aVZoWUVac1hycm9seDVWZTllUUpHRHhzZ3llLUw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowJBVV95cUxPLW1XdkRINzBWMVZLeVMyN0VCNXA5NzR0WjdKUVh4WXBHZ09USWhtWnI5aEhna1dnYzlLNGxWcVpQZlU4Ukl1NnBvc3djNUFVd1J2MGlmSmRrRGt4VHBVV19EUno0Q2g2TUdzLUNUbTd0QmR6XzNsX1R5X2RobHVzWHhVRkVPNTRIUWNWSll2dTdoWV9tOW41M21UQ3hibDdsMHJLU3N5cnpTWXRMdlNZOTRLelNjN3VraVdFc2Z1U3QwR3NjNmRTODlITjBELWw1WlV1ZW5aeGhDV3h1SXZjSGVGVi04ZU4taEZ4S0luanBDU1ozSkhaUm96Q2JlZjhBRVc5UXRnQXN0Z2k0d05abnByR215cWMzbVIzOFhjejNYdGc?oc=5",
+      "https://www.businesswire.com/news/home/20250923902212/en/Fortera-Secures-Microsoft-Funding-for-Low-Carbon-Cement-Production",
+      "https://www.businesswire.com/news/home/20240820406515/en/Fortera-Secures-$85M-to-Accelerate-the-Global-Deployment-of-Low-Carbon-Cement-Production",
+      "https://finance.yahoo.com/news/fortera-secures-microsoft-funding-low-100000372.html",
+      "https://www.streetinsider.com/Business+Wire/Fortera+Secures+Microsoft+Funding+for+Low-Carbon+Cement+Production/25362474.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 85000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 85000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-08-19",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Temasek",
+      "Khosla Ventures"
+    ]
   },
   {
     "company_name": "Foundation Alloy",

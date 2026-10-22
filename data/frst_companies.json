@@ -509,20 +509,31 @@
     "primary_investor": "Frst",
     "source_url": "https://www.frst.vc/",
     "scraped_at": "2026-10-16T17:01:59.912727+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3400000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbzVXX0pyOVFoQzhsQ2piRG9BSjlDb3ZoZEV4R3NUdWtPNU8ySWM5cDA5Mk42dnZZUTV2dmpfNE45Z2FwSW1zVU5fRlM2eFNWWnBZd1FxblN6U01lSEVreU9yd0tTN2JQelk3UlU4VlBjZGp3c0lSN0FYWkV0bXhmSDM2dm9NOUdxUmd5UXo0cGpWRDRNSGJmQmJFTQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://freedaai.com/"
+      "https://freedaai.com/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbzVXX0pyOVFoQzhsQ2piRG9BSjlDb3ZoZEV4R3NUdWtPNU8ySWM5cDA5Mk42dnZZUTV2dmpfNE45Z2FwSW1zVU5fRlM2eFNWWnBZd1FxblN6U01lSEVreU9yd0tTN2JQelk3UlU4VlBjZGp3c0lSN0FYWkV0bXhmSDM2dm9NOUdxUmd5UXo0cGpWRDRNSGJmQmJFTQ?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3400000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3400000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Helical",

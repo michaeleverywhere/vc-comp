@@ -352,20 +352,34 @@
     "primary_investor": "Charlotte Fund",
     "source_url": "https://charlottefund.com/",
     "scraped_at": "2026-10-20T23:51:57.921438+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/franzy-closes-2-2-million-120000458.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://franzy.com/"
+      "https://franzy.com/",
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdUdTMTBxYXV0ZXZSV1kxcWU4UkNkVmZLZjdVaWFUVkR0c25Pa3FXMUlCOVVaeUo5YVJhRFliMlNtdGIzdHN3SVhuYy1hVlluRXZMR2wwVmVYaFV6WFV1d2xnUkRBVTVLQVpZamJNZFdzU3puQ0JEbTRhU2l5U1BDRVlCbC1GclBuUkk1TVUyMXhvSzdTQXV5dHdyR3I1bXlvcEZwdXh2MUNEUXVLdDBrOWNpU0hQSHNiZVRkbFBYQlVTMHJzZ2pkWDFSd1c2SkpRNzA1VWpWVHhWMW9xUHRzRkVWMFI5eXpVeDdJ?oc=5",
+      "https://pulse2.com/franzy-2-2-million-seed-funding-secured-for-first-dedicated-franchise-resale-marketplace/",
+      "https://www.businesswire.com/news/home/20250715041188/en/Franzy-Closes-%242.2-Million-Seed-Round-to-Launch-the-First-Dedicated-Franchise-Resale-Marketplace",
+      "https://finance.yahoo.com/news/franzy-closes-2-2-million-120000458.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Geli",

@@ -4728,7 +4728,22 @@
     ],
     "primary_investor": "Octopus Ventures",
     "source_url": "https://octopusventures.com/portfolio/",
-    "scraped_at": "2026-10-08T14:41:54.918519+00:00"
+    "scraped_at": "2026-10-08T14:41:54.918519+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjZEQ1BEZ2hQWFI4ZktaT1VSb2tLUkVLWGc1OFlFc1J5YVZuUEpyWkFveUk4LVYwTnNZM1Mtejd1YnlMOVZnZ1RiZ1FndjhRUi01dThXQzVJZGhqaTM3ZFdVYU00TG1SZ3E1Z2hpT0JNclpCMGc5SkQ1QkdzVXBNWUU0ZzQyeHVYUWsyT2xaSmZ2dWZEdDh6VzJ5T19IVWY1OUxkUTZoR0JfeTFIWW1vazA2bVI5eW1lVUhzanJDQmZrWkMyTk5LaGJhVXA?oc=5",
+      "https://www.telecompaper.com/news/natterbox-secures-gbp-7-5-million-funding-to-support-global-expansion--1334863"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Pelago (formerly Quit Genius)",
@@ -10793,18 +10808,32 @@
     "primary_investor": "Octopus Ventures",
     "source_url": "https://octopusventures.com/portfolio/",
     "scraped_at": "2026-10-08T14:41:54.918519+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 5000000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/fluidly-raises-5-million/"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNDVibHpSaE1xRjNhZXgtYkhuWlVRS3pPQ1F4TWJBNkNiTEZ3OHVXRzJ2ZEo1RTBQblRjeW9sd1dCaExaUzJ0d3N3LXRzdmJLR0JNNWo3c25MZWJKVkJoTzdvOWU0aWxEcXMzQzM2Z3F1M09XX0p0a05oWmtlYWtoaGdXWWdYZ09xWXY5T3hyT2poZ1RONWpBRA?oc=5",
+      "https://pulse2.com/fluidly-raises-5-million/",
+      "https://www.finextra.com/pressarticle/76345/fluidly-raises-5-million-in-series-a-funding"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5000000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Series A",
+    "last_round_amount": 5000000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mango Sciences",

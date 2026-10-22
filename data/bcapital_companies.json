@@ -1571,18 +1571,34 @@
     "primary_investor": "B Capital",
     "source_url": "https://b.capital/portfolio/",
     "scraped_at": "2026-10-09T13:45:58.800095+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2024-02-26",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2024/02/26/ai-app-startup-flowgpt-raises-10m-funding/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQXV1Wlc5MWtpWS1RU2lWSzhaS1pBQTBvNTNOeEs5ZGR3TEdCUi16NENyRzlUaUF3RzBJZDJfSUZSTHhIWUhKRkZxbTNYT2NGc21MN1J0ejlnNVJSR29QR0lNY0lmRENFQVFFZFp3NkNqblZIMTc5emZYRHNIWWlDODhERDA?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa2piU18zS1pUX1hVYldpTWcwWGprYy04MnQ2aExXeUphVDhXV24wVWV5MjdNcFFfQTlYRHk4T3dyVlRQV0haM3QyRlJTczZQQnRkMnBubmtQUVQ3aEpNSlo0Sk95SUNJRnZ6Q3QwRTJ3WDBySWdKQlRwc0RsVFFZSUR3?oc=5",
+      "https://www.prnewswire.com/news-releases/flowgpt-the-open-ecosystem-ai-platform-raises-10m-302070574.html",
+      "https://siliconangle.com/2024/02/26/ai-app-startup-flowgpt-raises-10m-funding/"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-02-26",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Forest",

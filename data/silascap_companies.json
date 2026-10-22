@@ -410,18 +410,31 @@
     "primary_investor": "Silas Capital",
     "source_url": "https://silascapital.com/portfolio",
     "scraped_at": "2026-10-17T21:11:04.020008+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/freestyle-closes-10m-series-a-funding-led-by-silas-capital-302711004.html"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/freestyle-closes-10m-series-a-funding-led-by-silas-capital-302711004.html",
+      "https://finance.yahoo.com/news/freestyle-closes-10m-series-funding-130000971.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Heartbeat",

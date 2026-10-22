@@ -705,20 +705,38 @@
     "primary_investor": "Fresco Capital",
     "source_url": "https://fresco.vc/portfolio/",
     "scraped_at": "2026-10-16T23:04:36.796508+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2012-05-10",
+        "investors": [],
+        "source_url": "https://www.pocketgamer.biz/frenzoo-raises-1-million-for-upcoming-me-girl-fashion-games/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.frenzoo.com/"
+      "https://www.frenzoo.com/",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxRk5KOHJoTXAwLWdNSW9qaTY0WW1BWUtVQnJsd3lScEpxTXM1N0VsNk9PbTBYUzBqNTJrOVB1VUNKUVJwbmo1WTQ0a3dya0NfVHpKd2N2NU05WHlIa3hobA?oc=5",
+      "https://www.pocketgamer.biz/frenzoo-raises-1-million-for-upcoming-me-girl-fashion-games/",
+      "https://www.gamesindustry.biz/frenzoo-raises-usd1-million-for-me-girl-lifestyle-gaming-concept",
+      "https://www.pocketgamer.biz/frenzoo-raises-usd-1-million/",
+      "https://betakit.com/frenzoo-raises-1m-to-deliver-social-games-for-women/",
+      "https://www.mobileworldlive.com/old_latest-stories/developer-frenzoo-expand-girl-apps-1m-funding/",
+      "https://www.adweek.com/performance-marketing/frenzoo-raises-1m-launches-metropolis-cross-game-universe/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2012-05-10",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "General Assembly",

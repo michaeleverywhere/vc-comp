@@ -287,20 +287,43 @@
     "primary_investor": "Relay Ventures",
     "source_url": "https://www.relayventures.com/portfolio/",
     "scraped_at": "2026-10-13T13:33:17.661321+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": "2023-12-12",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/friendlier-secures-5m-accelerate-nationwide-110000091.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 2500000.0,
+        "currency": "USD",
+        "date": "2023-12-18",
+        "investors": [],
+        "source_url": "https://betakit.com/friendlier-closes-5-million-seed-extension-for-reusable-packaging-solution/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.friendlier.com/"
+      "https://www.friendlier.com/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZWlKV21EMXg1ZTZxQ2dYTVdFQUJGZG15X3lxTWYta3o2SWdROGV1UzVFNjhJWlZtSWpDSTFUQ2JQUVpWVU1DZk9STC0wN2tXRTlGOGVuRE9IWWRBZmN0RzE0RUtFdm1VZzNKTmVNR1FmU1JoTEp5MVd0ZFpzdEdLcy1jbUVYcXVTQUNTODNsWV9KS193NWR1Mkx0TQ?oc=5",
+      "https://finance.yahoo.com/news/friendlier-secures-5m-accelerate-nationwide-110000091.html",
+      "https://betakit.com/friendlier-closes-5-million-seed-extension-for-reusable-packaging-solution/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 7500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-12-18",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Goodbuygear",

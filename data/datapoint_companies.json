@@ -663,20 +663,34 @@
     "primary_investor": "Data Point Capital",
     "source_url": "https://www.datapointcapital.com/datapoint-portfolio/",
     "scraped_at": "2026-10-16T23:04:31.271910+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 150000.0,
+        "currency": "USD",
+        "date": "2016-09-14",
+        "investors": [],
+        "source_url": "https://inc42.com/flash-feed/flocareer-150k-funding/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://flocareer.com/"
+      "https://flocareer.com/",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbHFMRXNTZXNtVFZlWHZsOHF2VG5iOG9TNVY3WXhHNEppWkJIc21wb1pKdHF3UWM3N2Q5blo4WVZDRlhPQ28ydFJMR3BSNlJnbWtPNUZDd1BQSWM2WFdkRko2WjdBVWpjMWVjbGQzeUFvU3g4RjdmQ2pPWUtCYU5ZTHNHMWZTc1RqNG5SOXlXbFZPeGNkRlNpUlRwR3VxSVlVN0VHYlJ6VHk5dE1IaDRiZ29Zd0Nsd3hSQWcyZkQta1dDSUXSAcgBQVVfeXFMUDdPVnUyZVR6djNZOWlMOHotOTBLR2Y5UWlNYk1WcWVyRzY2Rkk3anVqOVVNVWltU05XLS1fajJLU2NkUkVOWlRtb0ZNZFVPUllHbVhiWEFSOGpVRkR0TjlMZTRTWkNGRzJKcWNLdEluT09VLTZza21MdFJzai11UklkN3FUbVIzREtGTFdiSVU1clg3M2FDRkI1aTVwUXB4YzNxZE00M0RGVHhlZkFBUjBacXJ4czlKOFU5LVp5SWY4dDgyVEFERFc?oc=5",
+      "https://inc42.com/flash-feed/flocareer-150k-funding/",
+      "https://timesofindia.indiatimes.com/city/bengaluru/flocareer-gets-5-7-million/articleshow/87048942.cms"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 150000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 150000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2016-09-14",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "FloorFound",
