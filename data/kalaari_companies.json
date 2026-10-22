@@ -2925,18 +2925,46 @@
     "primary_investor": "Kalaari Capital",
     "source_url": "https://kalaari.com/portfolio",
     "scraped_at": "2026-10-05T13:24:06.014638+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2026-04-20",
+        "lead_investors": [
+          "Kalaari Capital"
+        ],
+        "investors": [
+          "Kalaari Capital"
+        ],
+        "source_url": "https://yourstory.com/ai-story/nudgebee-bags-3-million-funding-led-by-kalaari-capital",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2RZVF9GVTFmYnFoam9GM3l4Q2pQR3dSdWVSYmo5WEl1SHEwQjV1emVwUmdseVlvdkJYMXhqdFpYOURGa1lYVWpLNndEUmlRTC1paGF4TUd1RXA4UjBIZzQyVi1rNXRtSzFwNmk2N2hkUHZQSnRZNlVhblNPUXh1U0pGM3dUd2F3Y0dCU3dXMGVZZw?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcEhBQmtCYzZoVFp4U2JXTktXQjBhNzA5anNmaXF6OHJwWDRvNW92VlZiWkd6SWlqV253V0FmeVphRm9MREMwVzUzUktnX2FuTk9kSi1iRndUeGptc2dENjJYNDBSdWEzUTdWUmVUMkFUNUloVktpc0Z3Y3dtMEIya2JLQ0JlOTd5SVJoM2lid1Q1cldiYTB4N2N4YmZ3Snc1UC1JZkViQlE3NE0tWlNjTnA3dXRJREhseEhPWmFnWDJzeFl5cW80bHB2VmFsMVRPWEHSAdcBQVVfeXFMUC11UngyMnNGSmlFa243eGJBdFlrWlpnUENfdTZRZ1RpZDRaUHRPUnJaeGZ0VU1MQnUyOEFXMUNiVl9qTjZ4SFphTUNzbVFWd2tlTlFDS0RSc0pIUW0tZ2IzOGExRzZkMmtwdjZ4SHJRaUlvRllOaUFSZGNMZG16YmRUR0FQdUp0d3NqX3dhZUJYcXJVMWJMRm5zVXlCZnZEZktxbTMxb19Cd3JJZWFUMU1VenFJMGFkLUpNX3Q2THNURlluME5MbFFpcmtxNktWb3EzVGoxblU?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVE5FTER6Qkh5eUo5dEw5QnZUajVQWGNYRnRpeTEzYk0zVWdrdGVIaDlYMExVbHQyRG9vbzY3OWJrS2JjT1R2MmpZNHUzMGJtbkN4Ml90UW9RNXBzZ2pWZU1ORmJLRlVfdXZ4UGFCOHB2MjdGQ1VhUHFKd2pobEFqdVhPZlhGMWoyVHF3RTRHeDNQNG93dWN2SEhDZm5QUGhhdWFfTXlhYzl2WWRjXzJvU3hPYVdEV09lY3Q4UzNhNUZyNU44U3fSAcYBQVVfeXFMTlRORUxEekJIeXlKOXRMOUJ2VGo1UFhjWEZ0aXkxM2JNM1Vna3RlSGg5WDBMVWx0MkRvb282Nzlia0tiY09UdjJqWTR1MzBibW5DeDJfdFFvUTVwc2dqVmVNTkZiS0ZVX3V2eFBhQjhwdjI3RkNVYVBxSndqaGxBanVYT2ZYRjFqMlRxd0U0R3gzUDRvd3VjdkhIQ2ZuUFBoYXVhX015YWM5dllkY18yb1N4T2FXRFdPZWN0OFMzYTVGcjVOOFN3?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcGFZOGt3QVl6UE9fZXlkMGRMR1dvcXlTd1A1cHJLMzRkXzA0SGQ4ZnhGWUJ4QzRTS1ZrMExQT0JqaEZULVRqbDZ3b1hkdlA5R2pDNjhDVDNFdUFINk16Znh6X044eUxzMjBSSklVQ2VUZDNmejg1VmNEcGxoLUFkczJhaVFmLVY2UGI2WEJR?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUhwRzYwRVJWVDFMbi1yOXVZQTVpQ3JmVHAtd2t1bFlxVmV4NVYzbEZSQVNQQndTVGJWQ1l4WGJuVjlRc0QtQlhQaXpuamVsdDBrcnhDdDR3cERKVFFYUDlrQmw3MXdONUdwcmE2RVBiOXJIWjhtdkE1bTlWYWVMSkM5SHJzNUVwMi15UTVlUDVFM1lzSlBqYmowQS3SAZwBQVVfeXFMUGFIcEc2MEVSVlQxTG4tcjl1WUE1aUNyZlRwLXdrdWxZcVZleDVWM2xGUkFTUEJ3U1RiVkNZeFhiblY5UXNELUJYUGl6bmplbHQwa3J4Q3Q0d3BESlRRWFA5a0JsNzF3TjVHcHJhNkVQYjlySFo4bXZBNW05VmFlTEpDOUhyczVFcDIteVE1ZVA1RTNZc0pQamJqMEEt?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE1qNGxYOE93WTkyMVVmMjQ3cTAtLThRTzlzbHd2REZoemhNbDBMUjJkQ2ZvWTduM0VTWHhSVUloMWQ3a1VKNXlSR0UxUnhJU2NYTld2YVFoci1DSHY3SWtzdXRVU2RMTXZ2Q2ljSWR3MlZOLVprZE94QkptWjU?oc=5",
+      "https://www.msn.com/en-in/money/news/ai-platform-nudgebee-raises-3-million-in-funding-from-kalaari-capital/ar-AA21lAen",
+      "https://yourstory.com/ai-story/nudgebee-bags-3-million-funding-led-by-kalaari-capital"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-04-20",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Kalaari Capital"
+    ]
   },
   {
     "company_name": "Pascal AI",

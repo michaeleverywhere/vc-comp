@@ -1317,20 +1317,34 @@
     "primary_investor": "The LegalTech Fund",
     "source_url": "https://legaltech.com/portfolio",
     "scraped_at": "2026-10-20T21:05:35.593077+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2025-11-12",
+        "investors": [],
+        "source_url": "https://www.law.com/legaltechnews/2025/11/12/ai-driven-patent-research-platform-nlpatent-announces-3m-investment-round-/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.clerq-ip.com/"
+      "https://www.clerq-ip.com/",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZXlTTk9wVUF6WDExYWU0U05ZeW9QNDJKaDlTYW5FYmcwX19yUkYyTlVsRUFpUmdsNlI2cHFOZFptN1YtSkVTOXVFRm5pN2tTdmlROVdnTlV3cVJqMGdwVUFfc2k2ZWdUckt1dERSX3ZUT0ZfaGJ1Q1RWYTBiODRzemh3?oc=5",
+      "https://www.law.com/legaltechnews/2025/11/12/ai-driven-patent-research-platform-nlpatent-announces-3m-investment-round-/",
+      "https://www.law360.com/pulse/articles/1824287/patent-search-startup-nlpatent-raises-1-5m-in-seed-funding"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-11-12",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Noetica",

@@ -4993,20 +4993,32 @@
     "primary_investor": "Elaia",
     "source_url": "https://elaia.com/portfolio",
     "scraped_at": "2026-10-08T14:44:43.052651+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5400000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/nuclia-announces-5-4m-seed-funding-to-advance-ai-powered-search-releases-open-source-nucliadb-301528597.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.progress.com/agentic-rag"
+      "https://www.progress.com/agentic-rag",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUd3NktwYWdSRmF6LUR4UkJZM1NwOFpiRTNQbUplZnc4eVZ0M2JmcGhxMnFaanF5bThOWnBvZ0p0X1dVWHZsT0d1UUdYbjExeTQ1UVBlTHJGcjQwVTE4ei10WGNKRzYxdFltNDh0aFhYdXhEaC1uR1B6Z3lXWkVaeUFJZ2R0d3ZrU0U0VVRieTVMTkxvWmdQdzZtdFczS1ZGMTM4aXNNRVI1bGM?oc=5",
+      "https://www.prnewswire.com/news-releases/nuclia-announces-5-4m-seed-funding-to-advance-ai-powered-search-releases-open-source-nucliadb-301528597.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 5400000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 5400000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "OGOsecurity",

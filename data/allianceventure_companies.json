@@ -1112,20 +1112,43 @@
     "primary_investor": "Alliance Venture",
     "source_url": "https://alliance.vc/portfolio/",
     "scraped_at": "2026-10-17T20:05:50.961991+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 6500000.0,
+        "currency": "USD",
+        "date": "2026-03-17",
+        "investors": [],
+        "source_url": "https://www.law360.com/pulse/articles/2453865/norway-startup-newcode-ai-raises-6-5m",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": null,
+        "currency": null,
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/newcode-ai-raises-series-a-to-build-ai-platform-for-legal-industry/"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.newcode.ai/"
+      "https://www.newcode.ai/",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNjNkZGNoZC1xQnROVGJiNXRta1ZLTl9Pb1JpMFd1WE9sSFc3M3FXSkpBQkVseXVXYUt4UHR1OWRhalRhZm9QYS0xdE5ySTVPbl9fWGdrUWtZUDRnZU1sd1prR1pNdFNmRzZUZ3J4cXZNM01VdXY2bjFacXI1dnkzT05UY1R2dDZFbVpBU2lYY9IBlAFBVV95cUxNT1o2eFNvR3RUd1FDZm44Y1NhRUROdzlVZW5pWk5xcTN5UHNfMnNDZzNBNENNN3RYQ2U2ZTdfU1Z0XzlLRmdzRnI5UHJlVXFQOE9DZ25yMnQ3NlZMbEw0TmZXS1dQVEk0dWE5Y3lHTV9fQ1hIS3JVYWxJOW5aNnNUbE9TTGF1bXZySVNVZzdaREdHalBX?oc=5",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxObmQ2cnRlS2VCckxQUXdjdkRLV1liSGlMYm1TOFUySmRGSUtlWFRka051OURZYm1HSWhXLTNRZFM2dThmMS1CVVFFRndWRjh2WV9XVUJWTnF6bU5LTnF1ZmtLZklzdFhQQ1Z2TzJjOEY1ZDJHWE5PWmEyeEdvbU5CYjVza9IBVkFVX3lxTFBtbDhZTUNBZGZFNENjcjdFQXNobFJpWDBwOExDdmx3OFk4OUMtZUd2ckdqWVdBd0tQVjQ4REFxbTB4Z0w3dWhpRnducDg1VUVIU2hkekFn?oc=5",
+      "https://pulse2.com/newcode-ai-raises-series-a-to-build-ai-platform-for-legal-industry/",
+      "https://www.law360.com/pulse/articles/2453865/norway-startup-newcode-ai-raises-6-5m"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 6500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-17",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Northern.tech",
