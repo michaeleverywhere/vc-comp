@@ -491535,9 +491535,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#46",
     "name_on_source": "Armilla",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Seed",
     "first_invested": false,
     "status": null,
+    "round": "Seed",
+    "amount_raised": "$4,500,000",
     "date": "Betaworks AI Camp: Augment",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -491583,17 +491585,32 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": 7000000,
+  "total_raised": 11500000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 7000000.0,
+   "type": "Seed",
+   "amount": 4500000,
    "currency": "USD",
-   "date": null
+   "date": "2024-02-15"
   },
-  "funding_round_count": 1,
+  "funding_round_count": 2,
   "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 4500000,
+    "currency": "USD",
+    "date": "2024-02-15",
+    "investors": [
+     "Mistral Venture Partners (lead)",
+     "MS&AD Ventures",
+     "SixThirty Ventures",
+     "Morgan Creek Digital",
+     "Y Combinator",
+     "Greenlight Re"
+    ],
+    "source_url": "https://www.armilla.ai/resources/armilla-ai-raises-4-5m-in-seed-funding-to-safeguard-enterprises-from-the-risks-of-ai-with-backing-from-mistral-venture-partners-and-leading-insurance-providers"
+   },
    {
     "stage": "Undisclosed round type",
     "amount": 7000000.0,
@@ -491603,6 +491620,14 @@
     "source_url": "https://betakit.com/y-combinator-and-yoshua-bengio-backed-armilla-ai-secures-6-million-cad-in-new-funding/"
    }
   ],
+  "notable_investors": [
+   "Mistral Venture Partners (lead)",
+   "MS&AD Ventures",
+   "SixThirty Ventures",
+   "Morgan Creek Digital",
+   "Y Combinator",
+   "Greenlight Re"
+  ],
   "funding_source_urls": [
    "https://startupintros.com/orgs/armilla-ai",
    "https://www.insurtechinsights.com/armilla-ai-raises-us4-5-million-seed-funding-round-to-mitigate-ai-risks-for-enterprises/",
@@ -491611,13 +491636,16 @@
    "https://privatecapitaljournal.com/armilla-ai-secures-seed-extension-funding-led-by-mistral-venture-partners/",
    "https://theaiinsider.tech/2024/02/16/armilla-ai-raises-4-5m-in-seed-funding-to-safeguard-enterprises-from-the-risks-of-ai-with-backing-from-mistral-venture-partners-and-leading-insurance-providers/",
    "https://coverager.com/armilla-ai-raises-4-5-million/",
-   "https://betakit.com/y-combinator-and-yoshua-bengio-backed-armilla-ai-secures-6-million-cad-in-new-funding/"
+   "https://betakit.com/y-combinator-and-yoshua-bengio-backed-armilla-ai-secures-6-million-cad-in-new-funding/",
+   "https://www.armilla.ai/",
+   "https://www.betaworks.com/camp/ai-camp-augment"
   ],
-  "funding_status": "unclear-round-type",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Domain armilla.ai (Armilla AI, Toronto; AI liability insurance / Lloyd's coverholder). $4.5M (~CAD 6M) seed led by Mistral Venture Partners, announced Feb 15, 2024. The Jan 2026 '$25M' headlines are insurance coverage limits, not equity. An earlier undated 'undisclosed $7M' entry was the same CAD 6M seed (mis-converted) and was combined into this row. Betaworks AI Camp: Augment (2023) company; camp investment terms not publicly itemized."
   ]
  },
  {
@@ -621294,10 +621322,12 @@
     "source_row": "data/accelerators/betaworks_companies.json#28",
     "name_on_source": "Autoplay",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Pre-seed",
     "first_invested": false,
     "status": null,
     "url_on_source": "https://www.autoplay.ai/",
+    "round": "Pre-seed",
+    "amount_raised": "$2,100,000",
     "date": "Betaworks AI Camp: Native Applications",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -621307,24 +621337,42 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 2100000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Pre-seed",
+   "amount": 2100000,
+   "currency": "USD",
+   "date": "2024-10"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.autoplay.ai/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Pre-seed",
+    "amount": 2100000,
+    "currency": "USD",
+    "date": "2024-10",
+    "investors": [
+     "Betaworks"
+    ],
+    "source_url": "https://www.trysignalbase.com/news/funding/autoplay-secures-2.1-million-in-pre-seed-funding-to-revolutionize-software-productivity-with-ai-agents"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "notable_investors": [
+   "Betaworks"
+  ],
+  "funding_source_urls": [
+   "https://www.autoplay.ai/",
+   "https://wellfound.com/company/autoplay-4/funding",
+   "https://www.betaworks.com/camp/ai-camp-native-applications",
+   "https://www.trysignalbase.com/news/funding/autoplay-secures-2.1-million-in-pre-seed-funding-to-revolutionize-software-productivity-with-ai-agents"
+  ],
+  "funding_status": "pre-seed or angel only",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain autoplay.ai (Autoplay; AI agents/reusable prompt commands for software productivity). Company-announced $2.1M pre-seed (Oct 2024; republished by Signalbase). Betaworks AI Camp: Native Applications (2024) company; camp investment terms not publicly itemized. (AutoPlay AI 2018 $50K and Robocast 'AutoPlay' are unrelated.) No priced seed."
   ]
  },
  {
@@ -824700,9 +824748,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#47",
     "name_on_source": "Bionic Health",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Seed",
     "first_invested": false,
     "status": null,
+    "round": "Seed",
+    "amount_raised": "$3,000,000",
     "date": "Betaworks AI Camp: Augment",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -824711,25 +824761,55 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 3000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Seed",
+   "amount": 3000000,
+   "currency": "USD",
+   "date": "2023-03-21"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 3000000,
+    "currency": "USD",
+    "date": "2023-03-21",
+    "investors": [
+     "Oak HC/FT",
+     "Shasta Ventures",
+     "Entrepreneur First",
+     "Zeal Capital Partners",
+     "Bascom Ventures",
+     "Alumni Ventures (Towerview)"
+    ],
+    "source_url": "https://techcrunch.com/2023/03/21/bionic-health-raises-3m-for-its-ai-health-clinic-using-gpt-4-and-other-ml-models-to-design-better-preventative-care/"
+   }
+  ],
+  "notable_investors": [
+   "Oak HC/FT",
+   "Shasta Ventures",
+   "Entrepreneur First",
+   "Zeal Capital Partners",
+   "Bascom Ventures",
+   "Alumni Ventures (Towerview)"
+  ],
   "funding_source_urls": [
    "https://thrivebetter.com/",
-   "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSmtTZHBvV0RraG1rQ2NsZXpvUkdHQjRtQ1dzem5ZX1RLY09xbXlJcU40ZlowZlJ6bENoZ1RuSzN5Q21US1RRUmhuZmdqVE5IYnpVcWFKa2UtUnJrTG9KWElrQkZRQjdRNW5qdjJId3FjQkZ4SElRU2xMTnp6WmUzTjVLZFZGbHRXLVdfeVYwZFBjczJIaFZXdUYzcnp4WGhJWWZlX1hfRlNBMTZYM21CUzBPc2pvbGVmdVVwTnpoNWphbW5UaXhrQmVtT1ZYLThnR0plVWRYV0ZsMG0xRW9uRENZQ0w?oc=5"
+   "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSmtTZHBvV0RraG1rQ2NsZXpvUkdHQjRtQ1dzem5ZX1RLY09xbXlJcU40ZlowZlJ6bENoZ1RuSzN5Q21US1RRUmhuZmdqVE5IYnpVcWFKa2UtUnJrTG9KWElrQkZRQjdRNW5qdjJId3FjQkZ4SElRU2xMTnp6WmUzTjVLZFZGbHRXLVdfeVYwZFBjczJIaFZXdUYzcnp4WGhJWWZlX1hfRlNBMTZYM21CUzBPc2pvbGVmdVVwTnpoNWphbW5UaXhrQmVtT1ZYLThnR0plVWRYV0ZsMG0xRW9uRENZQ0w?oc=5",
+   "https://www.bionichealth.com/",
+   "https://www.axios.com/local/raleigh/2023/03/21/bionic-health-led-by-startup-veterans-raises-3m-raleigh",
+   "https://www.av.vc/blog/bionic-health-ai-powered-health-guidance",
+   "https://www.betaworks.com/camp/ai-camp-augment",
+   "https://techcrunch.com/2023/03/21/bionic-health-raises-3m-for-its-ai-health-clinic-using-gpt-4-and-other-ml-models-to-design-better-preventative-care/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Domain bionichealth.com (Bionic Health, Durham NC; AI health clinic; CEO Robbie Allen). $3M seed announced Mar 21, 2023 (TechCrunch/Axios). Betaworks AI Camp: Augment (2023) company; camp investment terms not publicly itemized.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -877693,14 +877773,16 @@
    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSEUtdTQ1dWdyRW0yZGdLVG5Wd1VnQ0p5QlNlZjctaXFreDRfcjJ5bjFnR28zX2FzQTNJR2xORXVXbExnQXRRYXROY20taFZVZGFhZE1BRlRQTmlabXJTNnY0bFExOE9PQ0xCakpiM0ZEeUFwVVZ5QjBtZi1wNWxEZ3BweV85MlllWUx2SW5YeUZvWHF1azEzN3IwajFYMnEtM1ZxX21ZeTc2Y2RMZWc?oc=5",
    "https://news.google.com/rss/articles/CBMixAFBVV95cUxOREpTa1kwR2hDRmpWckNueG56OE0tUWF6QzRmY2lzUk9hSk1lSGJBSkNILUxCblB3OGZWcUVxa2h1aWE4QVl3X0R4VkpMMjRRNmRqdVlDamtXMTByZFdEQktKUEprTzdRLUZXbTVVeWg1anZ6b0U4akE0VEdTX0ZudE1rU1U0WGozaGl0NG1vR0p5aXpzVUxUQ3NuMlREQVRBOTI1WHd5MWdMV3NOVjg0NXVZOHBsM1hRb3FrRmE4TTM1aGZC?oc=5",
    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcmF0QWU1VkxXTjRfejFjR1BXNWFadC01MGRkSExoT2lHcGNtZlY0dVBoNTFYRlBIYjA1aHpjUnhTdzgxWlZad3U0RUxjTTU2T21YeGI2VGdUR2ZWdFFOTE8ySS1jX2JwT0RMb1M5Z0stMUp3MU15MnhNY1c3V0FtVWRCVEswRWdxRkxYT0tPN0U2akVkeGRwd01qcExDUFRyZTRGbExrVzdKa0h6OXdiOG94OUw?oc=5",
-   "https://cointelegraph.com/news/blockchain-com-s-value-rockets-to-14b-after-new-funding-round-reports"
+   "https://cointelegraph.com/news/blockchain-com-s-value-rockets-to-14b-after-new-funding-round-reports",
+   "https://www.blockchain.art/"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
    "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Input domain blockchain.art. Search results are generic blockchain/AI articles. No funding publicly reported."
   ]
  },
  {
@@ -1091768,9 +1091850,11 @@
     "source_row": "data/accelerators/betaworks_companies.json#30",
     "name_on_source": "Camera Intelligence",
     "matched_by": "domain",
-    "stage": null,
+    "stage": "Seed",
     "first_invested": false,
     "status": null,
+    "round": "Seed",
+    "amount_raised": "$2,000,000",
     "date": "Betaworks AI Camp: Native Applications",
     "investors": "Betaworks",
     "source": "Betaworks",
@@ -1091780,17 +1091864,31 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": 1400000,
+  "total_raised": 2000000,
   "total_raised_currency": "GBP",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
    "type": "Seed",
-   "amount": 1400000.0,
-   "currency": "GBP",
-   "date": null
+   "amount": 2000000,
+   "currency": "USD",
+   "date": "2025-09-02"
   },
-  "funding_round_count": 1,
+  "funding_round_count": 2,
   "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 2000000,
+    "currency": "USD",
+    "date": "2025-09-02",
+    "investors": [
+     "Betaworks (lead)",
+     "F4 Fund",
+     "Next Wave (via Flybridge)",
+     "7percent Ventures",
+     "Digital Catapult"
+    ],
+    "source_url": "https://startupsmagazine.co.uk/article-camera-intelligence-raises-2m-seed-ai-powered-camera"
+   },
    {
     "stage": "Seed",
     "amount": 1400000.0,
@@ -1091800,14 +1091898,27 @@
     "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeE00Q1pDZHNzR1ZCQWhRcWF5U2xoTkx3bzRIdXFDZDNubVFHWjNsUktIWlhMdzgybW1YZXNzLV9aWVdPcTRudmZHbUl1WTdZZGRzaDV5elVfUlVSNTRMdXVjXzFfZ0N0ZHhuNHlFX0htQXhwT0FGQmNNZzJjUnpabzExNDBvTWt2WV9wNEg3N2wyQVE?oc=5"
    }
   ],
+  "notable_investors": [
+   "Betaworks (lead)",
+   "F4 Fund",
+   "Next Wave (via Flybridge)",
+   "7percent Ventures",
+   "Digital Catapult"
+  ],
   "funding_source_urls": [
-   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeE00Q1pDZHNzR1ZCQWhRcWF5U2xoTkx3bzRIdXFDZDNubVFHWjNsUktIWlhMdzgybW1YZXNzLV9aWVdPcTRudmZHbUl1WTdZZGRzaDV5elVfUlVSNTRMdXVjXzFfZ0N0ZHhuNHlFX0htQXhwT0FGQmNNZzJjUnpabzExNDBvTWt2WV9wNEg3N2wyQVE?oc=5"
+   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeE00Q1pDZHNzR1ZCQWhRcWF5U2xoTkx3bzRIdXFDZDNubVFHWjNsUktIWlhMdzgybW1YZXNzLV9aWVdPcTRudmZHbUl1WTdZZGRzaDV5elVfUlVSNTRMdXVjXzFfZ0N0ZHhuNHlFX0htQXhwT0FGQmNNZzJjUnpabzExNDBvTWt2WV9wNEg3N2wyQVE?oc=5",
+   "https://cameraintelligence.com/",
+   "https://theaiinsider.tech/2025/09/05/camera-intelligence-raises-2m-to-launch-ai-powered-camera-platform-for-creators/",
+   "https://www.startupmag.co.uk/funding/camera-intelligence-raised-1500000/",
+   "https://www.betaworks.com/camp/ai-camp-native-applications",
+   "https://startupsmagazine.co.uk/article-camera-intelligence-raises-2m-seed-ai-powered-camera"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Domain cameraintelligence.com (Camera Intelligence, UK; AI-native camera for creators). $2M (~GBP 1.5M) seed closed Sep 2, 2025, led by Betaworks with F4 Fund, Next Wave via Flybridge, 7pc Ventures and Digital Catapult.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
