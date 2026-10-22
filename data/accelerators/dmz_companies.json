@@ -5334,21 +5334,33 @@
    "batch_date": "",
    "batch_date_precision": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1910000.0,
+     "currency": "USD",
+     "date": "2022-05-31",
+     "investors": [],
+     "source_url": "https://finance.yahoo.com/news/manzil-announces-1-91m-equity-131000422.html",
+     "date_basis": "snippet"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://www.manzil.co/ca",
-    "https://www.manzil.co/"
+    "https://www.manzil.co/",
+    "https://finance.yahoo.com/news/manzil-announces-1-91m-equity-131000422.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1910000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1910000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-05-31",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "MeazureUp",
@@ -5690,7 +5702,38 @@
    "linkedin_source": "company website",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1500000.0,
+     "currency": "USD",
+     "date": "2023-09-18",
+     "investors": [],
+     "source_url": "https://www.businesswire.com/news/home/20230919150133/en/Leadership-Development-Platform-Monark-Raises-1.5M-Seed-Round",
+     "date_basis": "url"
+    }
+   ],
+   "grants": [],
+   "funding_source_urls": [
+    "https://leadwithmonark.com/",
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTUdQemJrbi03SUlpVWlzT2l6S3ptWkI1UGZMTWhTS1NyYXdmOWpNVUY3SUFhczltU0FXREFDSzZ4R3JKelRfRFdLcUJYOExBTngtYUJVZTBtRmFweFVWNHlndEVlR2dkWlY2RFFoX29fWWpOWWtOV19Rem01UjdJTGFnYW9NZEpWR3d4elBuazIxeVhRX0pFb1BUQ0xYRnVsWDdWWGRaNlBrX1cxT3NCQUhrdFEyQ1RCZEJ6NF9VR0VWWTJXQTZ0ZjJOQ2tVdTNiSlpZZnFhSlc3ZjVyaWc?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlgtbktXM3lhSlZMQmxMZDdRLVN2WGFBekllVlE3MFI5SjE0VU9IVDFmRGFTQmtKaGQ2U1M0ekQ4Q29yc2tRcmdyZm81V3RhbVg5RTEteXluOF9DRWdHM2JGYUZnYndabWx6ZG9GX0JnZ3NUTFZoOWlyUFFHeGQ1OFp6eUdRc2lEYXZuLVRmZlNINTZOOWFRN2dfUWdZc19FUDRvcFVMRzdxTjA?oc=5",
+    "https://finance.yahoo.com/news/monark-raises-8-1m-strategic-163000845.html",
+    "https://www.businesswire.com/news/home/20230919150133/en/Leadership-Development-Platform-Monark-Raises-1.5M-Seed-Round",
+    "https://www.prnewswire.com/news-releases/monark-markets-announces-2-2m-seed-round-302283050.html",
+    "https://betakit.com/monark-closes-1-5-million-led-by-storytime-capital-to-modernize-leadership-development/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "last_round_type": "Seed",
+   "last_round_amount": 1500000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-09-18",
+   "total_raised": 1500000,
+   "total_raised_currency": "USD",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Monosens",
@@ -5715,7 +5758,21 @@
    "status": "Alumni",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://monosens.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "MoveMate",
@@ -5778,7 +5835,21 @@
    "status": "Alumni",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://moviamedia.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Mr. Turing",
@@ -5801,7 +5872,21 @@
    "status": "Alumni",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://mrturing.ai/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "My Kitchen Ops",
@@ -5824,7 +5909,21 @@
    "status": "Current",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.mykitchenops.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "myLaminin Corp.",
@@ -5871,7 +5970,21 @@
    "status": "Alumni",
    "batch_date": "",
    "batch_date_precision": "",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://perks.com/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "NextGen Sound",

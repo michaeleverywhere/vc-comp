@@ -507,7 +507,22 @@
    "linkedin_url": "",
    "batch_date": "2025-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd3FhX2E1VElvUkFQYi1mdkpfcUJZUDl2ZHpjV1RwRUxtbmxEV09HTi1BVmVJWmMyZ1NKdjJqZ2RFOGluenhRQUUxXzNOWXd4dXRBQ2hVYUNfNEZiYUZLVjB2TWlJTkVNSm45ZnExbGJmR1lQdHBfTTJmZEtpZmhMUjB1RHM4ZmtobUZzR0d2TkNqZC1TTkNz?oc=5",
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1Nub0h3WVRoMTAtUFU0OXphOVB5ZEdMRUxsWV9rNjVKVEQ5Z1V0S0p2di1KRUxfTVpxU1NySEt3Y1RWU21RdEE5UDRxNldoUTZSeExsS2V4Wk1VZV9Xei1CakZJNE9MSWc4RW5Nem90UGFwNzFjVXpieFNuRE5ZeHk3anZNVDZIT2tKRmtyMnFaT3R5ZHc?oc=5"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Pancho",
@@ -2277,7 +2292,19 @@
    "linkedin_url": "",
    "batch_date": "2022-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Multitude Insights",
@@ -4746,7 +4773,21 @@
    "linkedin_url": "",
    "batch_date": "2018-01-01",
    "batch_date_precision": "year",
-   "most_recent_batch": false
+   "most_recent_batch": false,
+   "funding_rounds": [],
+   "grants": [],
+   "funding_source_urls": [
+    "https://www.moving.health/"
+   ],
+   "funding_status": "no public funding found (fast pass)",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_checked": "2026-10-22",
+   "total_raised": null,
+   "total_raised_currency": null,
+   "last_round_type": null,
+   "last_round_amount": null,
+   "last_round_currency": null,
+   "last_round_date": null
   },
   {
    "name": "Pluto",
@@ -5615,20 +5656,34 @@
    "batch_date": "2017-01-01",
    "batch_date_precision": "year",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 1700000.0,
+     "currency": "USD",
+     "date": "2019-02-14",
+     "investors": [],
+     "source_url": "https://sg.news.yahoo.com/philippine-focussed-blockchain-remittance-startup-sendfriend-secures-us-090332469.html",
+     "date_basis": "snippet"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://sendfriend.io/"
+    "https://sendfriend.io/",
+    "https://sg.news.yahoo.com/philippine-focussed-blockchain-remittance-startup-sendfriend-secures-us-090332469.html",
+    "https://www.americanbanker.com/payments/news/sendfriend-lands-funding-for-ripple-based-remittance-service",
+    "https://finance.yahoo.com/news/ripple-mastercard-barclays-invest-ripple-144400170.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1700000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 1700000.0,
+   "last_round_currency": "USD",
+   "last_round_date": "2019-02-14",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Sigma Ratings",
