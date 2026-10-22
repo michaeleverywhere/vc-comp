@@ -143,7 +143,19 @@
     "everywhere_tags": [],
     "primary_investor": "Baroda Ventures",
     "source_url": "https://www.barodaventures.com/companies",
-    "scraped_at": "2026-10-18T15:34:09.298917+00:00"
+    "scraped_at": "2026-10-18T15:34:09.298917+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 9 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DogVacay",
@@ -152,7 +164,45 @@
     "everywhere_tags": [],
     "primary_investor": "Baroda Ventures",
     "source_url": "https://www.barodaventures.com/companies",
-    "scraped_at": "2026-10-18T15:34:09.298917+00:00"
+    "scraped_at": "2026-10-18T15:34:09.298917+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "USD",
+        "date": "2012-06-28",
+        "investors": [],
+        "source_url": "https://betakit.com/dogvacay-raises-more-money-from-andreessen-horowitz-to-continue-growth/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2014-11-10",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hMXNRZXR3TC1GM2h6MV9qSEdHSDNIWVo0c0ctR3NFUzVEcFRpM1JWa3RnUVZydWJFTy1CQzU4MGJqcHJESDN1Tk43djNobnhwMjJnQzFEVTlRNUxNNFRoNHRGbXRDcU5uVUE?oc=5",
+        "date_basis": "rss"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hMXNRZXR3TC1GM2h6MV9qSEdHSDNIWVo0c0ctR3NFUzVEcFRpM1JWa3RnUVZydWJFTy1CQzU4MGJqcHJESDN1Tk43djNobnhwMjJnQzFEVTlRNUxNNFRoNHRGbXRDcU5uVUE?oc=5",
+      "https://www.cnet.com/tech/services-and-software/pet-sitter-finding-service-dogvacay-gets-more-funding/",
+      "https://finance.yahoo.com/news/dogvacay-airbnb-dogs-just-raised-151600945.html",
+      "https://betakit.com/dogvacay-raises-more-money-from-andreessen-horowitz-to-continue-growth/",
+      "https://sg.finance.yahoo.com/news/dogvacay-airbnb-dogs-just-raised-191647471.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2014-11-10",
+    "total_raised": 26000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Embrace",

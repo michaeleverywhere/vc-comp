@@ -952,7 +952,19 @@
     "primary_investor": "AgFunder",
     "profile_url": "https://agfunder.com/portfolio/dataspanai/",
     "source_url": "https://agfunder.com/portfolio/",
-    "scraped_at": "2026-10-11T13:29:20.432679+00:00"
+    "scraped_at": "2026-10-11T13:29:20.432679+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "DeHaat",
@@ -972,7 +984,49 @@
     "primary_investor": "AgFunder",
     "profile_url": "https://agfunder.com/portfolio/dehaat/",
     "source_url": "https://agfunder.com/portfolio/",
-    "scraped_at": "2026-10-11T13:29:20.432679+00:00"
+    "scraped_at": "2026-10-11T13:29:20.432679+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2019-03-17",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbHlFejRhSzlkcjB2QVhoamV0T1lVTmR1Q3hPaFk2c1Qxa1RRZG5pSDhSaEkwaVRXb3VManVVQ0lDazdVbmtpUFE0a0hUNXE2SWFWb05EYzljYzU4U1BmejFRazg2eWVXWV9PVjdsWEI1cVJZbnE1d2lmVTFwamhSMDM2NHpXSWdNaTZuaDFEMWFRZXhhLXF2M0Z2MXpqRXYxdFpkZlZpR01KX1d2dmJ6OEU3ZHc?oc=5",
+        "date_basis": "rss"
+      },
+      {
+        "stage": "Series D",
+        "amount": 115000000.0,
+        "currency": "USD",
+        "date": "2021-10-27",
+        "investors": [],
+        "source_url": "https://www.livemint.com/companies/start-ups/dehaat-nets-115-mn-in-series-d-funding-11635274997564.html",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbHlFejRhSzlkcjB2QVhoamV0T1lVTmR1Q3hPaFk2c1Qxa1RRZG5pSDhSaEkwaVRXb3VManVVQ0lDazdVbmtpUFE0a0hUNXE2SWFWb05EYzljYzU4U1BmejFRazg2eWVXWV9PVjdsWEI1cVJZbnE1d2lmVTFwamhSMDM2NHpXSWdNaTZuaDFEMWFRZXhhLXF2M0Z2MXpqRXYxdFpkZlZpR01KX1d2dmJ6OEU3ZHc?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcmN5RGQ5dHBoNmxvb0NqdWs4d0VYRlhRSmNfa3Q2MjJsc1Y0T0dKMDBhcHd6SFJ4UWNBZHdBYUJYVXhzbW5IcURUTTVwd195MVFCd3JaV2lIRXhtU0R6OGtzMDZBbld0V2IwSnV6aW1LNEtlSTU0clVwWmtNckJEWFRVQWM4SmlnREg5di1Ha3B3dw?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ21EaHZtUE9DaDBtTjBYTmNfQnJqc2M3UnQ1d2JQV0t4eTZqQkg4aFdyZkhvN1FRY0xYMkdMOFdXWjkycG03UF9yZ2pScy1SRkt1aExJSF80ZWFCUkkwNnJEbUdzOFlFV2Q2VEtLVGFmZ0pfNktKdDRXR3JhdWExZXg0Vjc2MWpwTzJKSzczUEJFejdMY09HR2RDamtjYlhJZUgtajJQTFJiTTAzc0liZEZVNmdvaXBlbUl5UjNSRHU1dmdQbHZBZ29na3I1QldLRXB1N0UxcFg4TFXSAeABQVVfeXFMTjdHb0trbFNTT29wZ0l0ZHJsOHFSMDNaQVAtbUFDWjg3bDdPUy1VX0gxZGxGSEZCWjFUUlF4UW5rM2w1UGg3V1ZfR0pvbFpQSkt5dTFWVm84d3FxdGwtN1ZRclNzNUNNMnhyLXotOVA2YXB5TXhWbW9meUFGLTlHUkZwRzdmM0hrU0Q3REdyRGFJZG1aVk9ISkpBUTRiVUU4Z05qN2Z0dlVhWWdET0pQSENTVklYY25weUxVcWNxVXU4RFp6YWozMGROemhBdENTbzVUZW56MENxdVVJVUNpLS0?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVkFrbVJtUlBUMHFaTkhHbVNjaFNlUDliRVI2VlEtSkQxcFU4S05DbDlnbXlmZWc3cU5yYlo4ZUMzS3MwTEwzMWFJbERpeGpmQjV0MHRmY1ZRQmUtZzQwQk12a3VUU1d3SmNNV0xMbHdpSS1RblB0ZmdMcnBBYlRlcVk2cnQwdlRLZ05qWjZLMDduM1dSZVBmVA?oc=5",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX3BFZDNzRHhRalE4Q29hS3RVVVJoaWd3ekc3dHhzR0dUVnlIWEdpYW1rbmpMekdVT21nU0trZGwzSHhxMmtTXzNQNnVHZS1mNUZHSFZOR3pRekRlaDRLS2Frc3U3bXRkaEJvRGU3N051cUlWVjBYUjkyVkZMb19yeWh6WnZmMVlzWURJaEt5R290NzhvQW1qaFJMZF9UWE9JajcwVGJsMGVvazE3WmY0Y0JadjUtTm1DdXg1Q3FvM2V5cjM3TWdoMHZGSjNVVk9YdVNtanRKNlNUNjJwbXNtQ9IB5gFBVV95cUxOcHlLbnVqeGFPMjRBMmt1WVRTN3R1djI3OFRXb3h1SlY5MmZUVEQ0dGdUMWhkWGhPWS1Md05HM1daMXh3SEN0QWJTYWlMb0c3THZiQ0VWaTZ0MXgyVXlBVVpkTW0tQVBmRDJ5bkstMVQ1MEhQOXBKVEV5N3hiSkJjbWdRVlQ0WUtNTXBRWnd2cmFmdzhTWEZNY2xULWJnSTNYQ0gzeWZPcU9zVUd5OEMxWXRnTEhfWHdZaGFudS1LT0s5dVN2R3puMDhvb2VCbEJhV3BYcmJadlVRZFNyOC1LYTVmZjlXZw?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN3A1ejY2ODdETXhUemZqX2lEaXczaWkwdXRuMVN6NWxGQWdYUEVIbl8yVzlrRnVSaWVXOXl3S05xb2hScTRqUlpoaWQ3dUZ4LVBEUVZ4TVNvMjNQb3IwTGVuV1FHSFFQYlZOQjEtMWlaZTllREdhQzBLSjZ0VEdmT3NJTHVtTE5TekRfak03aE5kNnJPOEFyVVZZbFlrMjE5M3NFVVhDUUNHX1FSaWfSAbYBQVVfeXFMTmc3V2R4X3IxeU9GQ1cwZzBTcjBzckRlM1FaQmd4X1UxZE9rejJOTjN2ODJjTWcwUWVrTVpwalBjTnBBXzBYVXFIcjdoTXNxaTZJZUs5MkxIZ0lyS0M2ZktFeEx2YjZtTmtVMi1wRDFrbmpGZW1GemJ4ZVFkVDRIWDFsTFRGUFFFeGgzaV8xSDB5dDFsQUNkODZxb2lMWjZXSHZMdFVjSW5WVFdPU1d6MmV1cF9LZVE?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYkQxNjB3R1hLNGczdjN0YnJRbHltTnZCUGtZNm5iS0hOVVRLOHpHTkRLbGdVOGxGcWE1SXduaml0YzZfMWR1dWVFTXlaV25tQlZHMVI2dVZKTjktZnQ3cHl0Z3FaMDdVWUNfVDY5UUhCSU82RkZPSGdIb0xyN1Y5bnk3Umd0SnBBWDBhcDRrb2thRXdSYjFrVHF30gGaAUFVX3lxTE1iRDE2MHdHWEs0ZzN2M3RiclFseW1OdkJQa1k2bmJLSE5VVEs4ekdOREtsZ1U4bEZxYTVJd25qaXRjNl8xZHV1ZUVNeVpXbm1CVkcxUjZ1VkpOOS1mdDdweXRncVowN1VZQ19UNjlRSEJJTzZGRk9IZ0hvTHI3VjlueTdSZ3RKcEFYMGFwNGtva2FFd1JiMWtUcXc?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNWFXYzJwbjIxRzNtbGI2M0FNeEhwZXhUalZFQWl0Zms4M3NtcmpqaUpqaFM0cGYtQS16WkJHZWsxcm5vcE50TElXRmNUX3RSRU52TUtjQlhRSWdFM1g3U2hzSVc0SF81djhSXzV4Ym1XRUFCU2pxVC1Bd3l6WExYcUZvZUJWUWRBdHBfUzJJUVJjY3ZEb1N3OVFIYWxobjhMWXVaZ0JYYjZwTmI2SnFpag?oc=5",
+      "https://www.livemint.com/companies/start-ups/dehaat-nets-115-mn-in-series-d-funding-11635274997564.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series D",
+    "last_round_amount": 115000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-27",
+    "total_raised": 119000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Eclipse",
