@@ -143725,17 +143725,33 @@
     "stage": null,
     "first_invested": 2008,
     "status": "acquired",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
+    "total_raised": 17000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series B",
+    "last_round_amount": 17000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2008-10-28",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": "2008-10-28",
+        "investors": [],
+        "source_url": "https://www.pocketgamer.biz/playfish-raises-17m-and-eyes-new-platforms/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE05c3FvbmMwdWVPZ0Jmd1Nnb0Q4ODhXbVczQUF1WXlRb3dnRXNLVkhCb2s2VVl2MjJmNDVQdUVWd3V5ZDBXTk9MOFFMcDFLUHRadnJ4Q1pFNWRPQktqRW1hYy1lRjZZMTZSMDdIc3pTWGt0dGJaT1Bj?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WV1BVNXU3SmRVbm1Yay01RFJWSVNNQzJjeGhGLTZVbGFrQW9wdm5qemlIblZMYWtBdDFOTGJDN2IyQ2tHZ1ZLTWZZU2dCbjBQMnhHTmFBOENpNVRCT3h2eXlsNEk3dGQtMTh0b2ZITldqc1dua09NVElabw?oc=5",
+      "https://mcvuk.com/development-news/playfish-bags-17m-vc-funding/",
+      "https://www.pocketgamer.biz/playfish-raises-17m-and-eyes-new-platforms/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -726706,19 +726722,45 @@
     "stage": null,
     "first_invested": 2025,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://pluro.in/"
+    "total_raised": 1250000000,
+    "total_raised_currency": "INR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series A",
+    "last_round_amount": 1250000000.0,
+    "last_round_currency": "INR",
+    "last_round_date": "2025-10-31",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 1250000000.0,
+        "currency": "INR",
+        "date": "2025-10-31",
+        "lead_investors": [
+          "Bessemer"
+        ],
+        "investors": [
+          "Bessemer"
+        ],
+        "source_url": "https://yourstory.com/2025/10/fertility-startup-pluro-raises-rs-125-cr-series-a-funding-bessemer",
+        "date_basis": "url"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "notable_investors": [
+      "Bessemer"
+    ],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://pluro.in/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVGI3amxwMnFyaFJuMHJaS3QyOTBvQW5QQ3BpdU5fRmcxYU9ON0ZQdlRiNGlaejRHeFJWZWdSbTdCa1hGQ3I5Q2thOWZubXQxOU8xTmNhbGM4T3V4WWZ1MEVHUXlhUURzVWtGaDdHOWdzbl9Wa1Y0LUdMTmRnQkpxR2U0aUhUdW9TSTV1VmM3cVlVcFItUzZB?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWlRIQ3dFenRMMmMyd0Z6LTFjUFZRcWF4RmR5QllLa3diejV6NlpmWTNUVW1JamxBc0hXTDl5eVl1OTRQYW5EZXFIOWVzLWMwQ1BZWVpQNmFLRFQtUHkzOFNMNTRyQm5kTWlNX0JXaVh3NWJ0aXRWYVZQRS1zYkNsZEtXUjFIUERWQmpjLW5KbWlNc19lWFNKbkxiYXFVUlUtYWfSAaoBQVVfeXFMT3RQeVFaYW1MZnV0X0RIUnpjTlBicExaVTd4ZUQ2WmUxa0l1ektUbXVXakdrajFUeDJ2d01BcHlUU3ItVGlaOXVBblJaYTVsdktrU3Y1ODhlZDVoMXMzNlN3MTVDZ1VCelV0dHhTblFPaDB2WEkyTW5nTnhyWFV1RnlYdDU3X3hvSHU2a25wajBGX3lHQjV3aEdGWGh3cDE0OFotQlJEZzF3Ymc?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXN4azdOZGxHNUtLVms2ZWZISmFlV3FWZ241U1FUVnNEZWNkeU40V2Y3ZXNCbEtlOFlDaFdIOWZOLU4zQXoyazRxT3BlejJuWnVUT0dEY3FJV3pybXQwNmg1NmtyWFYtX1NmaElaMkNTY0dnSnVwUW9fc0NPc2ozRkx6ZTNjWS1ZVzVYN2JCNGhqY184WUlNY3hKTGg?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNd3NkdHV6QlhjSElDeUtRU190MU9QQXluOXBqOUQ0eXRTNEFVQzAzOUNrWUpRWTZ4WWJfOW1PNl9NVFJobGlDYlBPdERUZjJnTWFvSGVYa3FhZmY5VFpoMkNjQmFzWDQyeHJReGNBRFhUQW1QNUNnUTJrTVRDUWcyYk1ZZVNFRFpaRHNNOWw5RXdQMGF0TVZZVkNKWXNGWTBpOHpRWU5LRjBnY0x1Z3dYbE0zZU5XNmdGMHN6Z0ZYQzFadFNfZy1ZZDZsOHA4bG01NkRSc056aEFpSE0tZzJwRkRlNWhxbGllSHhNTDM4SFhqNkZ6Ni0xcVVuakhabnduRXNlVDk3UzPSAY4CQVVfeXFMTTloZEd2NmNJenFYeC12S1VBWFVoTlZLZmhzUDRoS1ctQUR1RkV3UEFPYk9JYUh1LVZTcjUydXVDSmdoNkRpNWdHa2hJamxZZVVVSGF5aEwxSjg2QXRibkZNRmt4OTZOOXQ2aXFYd2tWMFNMaHdVeUdaUXlfa3FsTUs0eGZqdkg5NXFQX1BKWUxxUUxMYUZZSkIxOGFDQ05ON0hXVFZTeFNfLWYtdS1IVF8ydUVyVmRjemVsT1VocDR4T0tOWkRqbUdBeERFSEpkUXotWWhId202Q19YZkQyVl9NTzB3RG9DMWQ4bkIxTWthZW9FSnNYTUV3bnNjTWszaHF4OUxrWnB3UFlzR21R?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ1FNY3FwZ3RzcC1uZGlMakhndElvUVJMN2p0ZGd2ZkVYSlVhU2NTWndEaU5sazZlbEc0ckpPNUZhbk04ZEI2QldHRGx5X290U19OUVBFV1hiMXAwVmNmX1hQWlZkblYzZ3dGU2tweUVMeDZZckF0Z1kxMnhvcTQ3cVQydFRSdkREcVQwYWc2TEk2V2gyX0xTM1J3eFpsUkpMX0MtbzAzYWd5Ml9hREk5aEJaWTh5S3U4TjRHLWhYVzlOQUVPcklQOG1QTm1Wc2xDbzlfcFYtanE3UdIB3wFBVV95cUxOLWMzaWVyckpSZ0NkWTB3TVV0bUo5MUtyMjE3VFRWMXk1V0wxV19IMUk0SV9DUVF6VUVtMG1WdnMzSTA1QU9IRXR1MlQ3V2J6a1FPajA1UmlIUGhpUDZIZnBTNlJVR2VSYTd6MTNhOXhIenBxMTdvalJrZGpvWUlUUExxcFNpdWRfQldYSlVyU2hEakNzTU9ZMHBSWE16Mm9vX2htMlRMak53R2IyMVBOSURMSUNyLUFMOHFJTHhWV2dOOFFYbUp3TDF5WmNBa0tQNkZMWXU5bGx4ZDloNVhN?oc=5",
+      "https://yourstory.com/2025/10/fertility-startup-pluro-raises-rs-125-cr-series-a-funding-bessemer",
+      "https://www.siliconindia.com/startup/startup-funding/pluro-raises-rs-125-crore-series-a-funding-from-bessemer-nwid-51947.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
