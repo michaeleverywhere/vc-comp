@@ -9117,22 +9117,24 @@
     "site_status": "Current",
     "funding_rounds": [
       {
-        "stage": "Series C",
-        "amount": 100000000.0,
-        "currency": "USD",
-        "date": "2026-07-23",
-        "investors": [],
-        "source_url": "https://www.nourish.com/blog/nourish-announces-series-c",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Series B",
         "amount": 70000000.0,
         "currency": "USD",
-        "date": "2026-07-23",
+        "date": "2025-04-23",
         "investors": [],
         "source_url": "https://www.nourish.com/blog/nourish-announces-series-b",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "press release dateline"
+      },
+      {
+        "stage": "Series C",
+        "amount": 100000000.0,
+        "currency": "USD",
+        "date": "2026-05-19",
+        "investors": [],
+        "source_url": "https://www.nourish.com/blog/nourish-announces-series-c",
+        "date_basis": "verified_source",
+        "date_source": "press release dateline"
       }
     ],
     "grants": [],
@@ -9144,15 +9146,16 @@
       "https://www.nourish.com/blog/nourish-announces-series-b"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series C",
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-07-23",
+    "last_round_date": "2026-05-19",
     "total_raised": 170000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Numeric",

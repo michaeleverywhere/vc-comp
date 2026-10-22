@@ -5293,30 +5293,32 @@
     "site_status": "Active",
     "funding_rounds": [
       {
+        "stage": "Undisclosed round type",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2019-09-12",
+        "investors": [],
+        "source_url": "https://www.argyle.com/blog/argyle-raises-2-6m-from-checkr-and-bain-capital-ventures",
+        "date_basis": "verified_source",
+        "date_source": "prnewswire 300915666"
+      },
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2020-10-15",
+        "investors": [],
+        "source_url": "https://www.argyle.com/blog/argyle-raises-20m-series-a-led-by-bain-capital-ventures",
+        "date_basis": "verified_source",
+        "date_source": "baincapitalventures.com announcement"
+      },
+      {
         "stage": "Series C",
         "amount": 30000000.0,
         "currency": "USD",
         "date": "2024-03-05",
         "investors": [],
         "source_url": "https://www.argyle.com/blog/argyle-secures-30m-in-funding-to-bolster-growth-of-the-payroll-connectivity-platf",
-        "date_basis": "snippet"
-      },
-      {
-        "stage": "Undisclosed round type",
-        "amount": 2600000.0,
-        "currency": "USD",
-        "date": "2026-01-20",
-        "investors": [],
-        "source_url": "https://www.argyle.com/blog/argyle-raises-2-6m-from-checkr-and-bain-capital-ventures",
-        "date_basis": "snippet"
-      },
-      {
-        "stage": "Series A",
-        "amount": 20000000.0,
-        "currency": "USD",
-        "date": "2026-01-20",
-        "investors": [],
-        "source_url": "https://www.argyle.com/blog/argyle-raises-20m-series-a-led-by-bain-capital-ventures",
         "date_basis": "snippet"
       }
     ],
@@ -5328,15 +5330,16 @@
       "https://www.argyle.com/blog/argyle-secures-30m-in-funding-to-bolster-growth-of-the-payroll-connectivity-platf"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
-    "last_round_type": "Undisclosed round type",
-    "last_round_amount": 2600000.0,
+    "last_round_type": "Series C",
+    "last_round_amount": 30000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-01-20",
+    "last_round_date": "2024-03-05",
     "total_raised": 52600000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Finix",
@@ -7776,22 +7779,24 @@
     "site_status": "Active",
     "funding_rounds": [
       {
-        "stage": "Series B",
-        "amount": 30000000.0,
-        "currency": "USD",
-        "date": "2025-07-01",
-        "investors": [],
-        "source_url": "https://www.jupiterone.com/blog/jupiterone-raises-30-million-series-b-led-by-sapphire-ventures",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Undisclosed round type",
         "amount": 19000000.0,
         "currency": "USD",
-        "date": "2025-07-01",
+        "date": "2020-09-16",
         "investors": [],
         "source_url": "https://www.jupiterone.com/blog/jupiterone-announces-19m-a-round",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "techcrunch.com/2020/09/16"
+      },
+      {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2021-05-04",
+        "investors": [],
+        "source_url": "https://www.jupiterone.com/blog/jupiterone-raises-30-million-series-b-led-by-sapphire-ventures",
+        "date_basis": "verified_source",
+        "date_source": "siliconangle 2021/05/04 + prnewswire 301283071"
       }
     ],
     "grants": [],
@@ -7801,15 +7806,16 @@
       "https://www.jupiterone.com/blog/jupiterone-announces-19m-a-round"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series B",
     "last_round_amount": 30000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2025-07-01",
+    "last_round_date": "2021-05-04",
     "total_raised": 49000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Rubrik",

@@ -849,6 +849,16 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/1881537/000188153721000001/primary_doc.xml"
       },
       {
+        "stage": "Series A",
+        "amount": 18500000.0,
+        "currency": "USD",
+        "date": "2021-09-15",
+        "investors": [],
+        "source_url": "https://www.mutinyhq.com/blog/mutiny-raises-series-a-from-sequoia-capital-and-world-class-cmos-for-its-no-code-conversion-platform",
+        "date_basis": "verified_source",
+        "date_source": "forbes 2021/09/15"
+      },
+      {
         "stage": "Form D offering (round type not stated)",
         "amount": 49077788.0,
         "currency": "USD",
@@ -861,19 +871,11 @@
         "stage": "Series B",
         "amount": 50000000.0,
         "currency": "USD",
-        "date": "2026-01-30",
+        "date": "2022-04-20",
         "investors": [],
         "source_url": "https://www.mutinyhq.com/blog/mutiny-raises-50m-series-b-to-help-companies-turn-wasted-marketing-spend-into-revenue",
-        "date_basis": "snippet"
-      },
-      {
-        "stage": "Series A",
-        "amount": 18500000.0,
-        "currency": "USD",
-        "date": "2026-01-30",
-        "investors": [],
-        "source_url": "https://www.mutinyhq.com/blog/mutiny-raises-series-a-from-sequoia-capital-and-world-class-cmos-for-its-no-code-conversion-platform",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "prnewswire 301526401"
       }
     ],
     "grants": [],
@@ -885,15 +887,16 @@
       "https://www.sec.gov/Archives/edgar/data/1881537/000188153722000001/primary_doc.xml"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series B",
     "last_round_amount": 50000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-01-30",
+    "last_round_date": "2022-04-20",
     "total_raised": 140067744,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Newton",

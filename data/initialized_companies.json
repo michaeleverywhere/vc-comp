@@ -758,19 +758,10 @@
     "scraped_at": "2026-10-01T21:10:52.023179+00:00",
     "funding_rounds": [
       {
-        "stage": "Series A",
-        "amount": 15500000.0,
-        "currency": "USD",
-        "date": "2026-04-10",
-        "investors": [],
-        "source_url": "https://runautomat.com/blog/automat-raises-15-5m-series-a",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Seed",
         "amount": 3750000.0,
         "currency": "USD",
-        "date": "2026-04-10",
+        "date": "2023-09-06",
         "lead_investors": [
           "Initialized"
         ],
@@ -779,7 +770,18 @@
           "Khosla Ventures"
         ],
         "source_url": "https://runautomat.com/blog/fundraising-announcement",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "post dated 9.6.2023"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15500000.0,
+        "currency": "USD",
+        "date": "2025-11-19",
+        "investors": [],
+        "source_url": "https://runautomat.com/blog/automat-raises-15-5m-series-a",
+        "date_basis": "verified_source",
+        "date_source": "post dated 11.19.2025"
       }
     ],
     "grants": [],
@@ -789,12 +791,12 @@
       "https://runautomat.com/blog/fundraising-announcement"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series A",
     "last_round_amount": 15500000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-04-10",
+    "last_round_date": "2025-11-19",
     "total_raised": 19250000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",

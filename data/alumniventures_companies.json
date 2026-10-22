@@ -70003,22 +70003,24 @@
     "scraped_at": "2026-10-18T13:43:04.115388+00:00",
     "funding_rounds": [
       {
-        "stage": "Series A",
-        "amount": 24000000.0,
-        "currency": "USD",
-        "date": "2026-09-24",
-        "investors": [],
-        "source_url": "https://www.rime.ai/resources/rime-series-a-announcement",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Seed",
         "amount": 5500000.0,
         "currency": "USD",
-        "date": "2026-09-24",
+        "date": "2025-05-29",
         "investors": [],
         "source_url": "https://www.rime.ai/resources/seed",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "post dated May 29, 2025"
+      },
+      {
+        "stage": "Series A",
+        "amount": 24000000.0,
+        "currency": "USD",
+        "date": "2026-07-15",
+        "investors": [],
+        "source_url": "https://www.rime.ai/resources/rime-series-a-announcement",
+        "date_basis": "verified_source",
+        "date_source": "post dated July 15, 2026"
       }
     ],
     "grants": [],
@@ -70029,15 +70031,16 @@
       "https://www.rime.ai/resources/seed"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified) | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series A",
     "last_round_amount": 24000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-09-24",
+    "last_round_date": "2026-07-15",
     "total_raised": 29500000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Rinse",
@@ -71594,22 +71597,24 @@
     "scraped_at": "2026-10-18T13:43:04.115388+00:00",
     "funding_rounds": [
       {
-        "stage": "Series C",
-        "amount": 65000000.0,
-        "currency": "USD",
-        "date": "2026-08-20",
-        "investors": [],
-        "source_url": "https://www.sagehealth.com/blog/sage-raises-65m-in-series-c-funding",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Series B",
         "amount": 35000000.0,
         "currency": "USD",
-        "date": "2026-08-20",
+        "date": "2024-12-05",
         "investors": [],
         "source_url": "https://www.sagehealth.com/blog/sage-secures-35-million-series-b-funding-a-letter-from-our-ceo",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "post dated December 5, 2024"
+      },
+      {
+        "stage": "Series C",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2026-03-05",
+        "investors": [],
+        "source_url": "https://www.sagehealth.com/blog/sage-raises-65m-in-series-c-funding",
+        "date_basis": "verified_source",
+        "date_source": "post dated March 5, 2026"
       }
     ],
     "grants": [],
@@ -71624,15 +71629,16 @@
       "https://www.sagehealth.com/blog/sage-secures-35-million-series-b-funding-a-letter-from-our-ceo"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series C",
     "last_round_amount": 65000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-08-20",
+    "last_round_date": "2026-03-05",
     "total_raised": 100000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Sagence AI",

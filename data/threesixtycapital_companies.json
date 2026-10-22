@@ -1606,22 +1606,24 @@
     "scraped_at": "2026-10-12T13:48:06.918504+00:00",
     "funding_rounds": [
       {
-        "stage": "Undisclosed round type",
-        "amount": 18000000.0,
-        "currency": "EUR",
-        "date": "2026-01-23",
-        "investors": [],
-        "source_url": "https://www.c12qe.com/news/c12-raises-18-million-euros-to-accelerate-the-development-of-quantum-computing-with-its-unique-approach",
-        "date_basis": "snippet"
-      },
-      {
         "stage": "Seed",
         "amount": 10000000.0,
         "currency": "USD",
-        "date": "2026-01-23",
+        "date": "2022-10-06",
         "investors": [],
         "source_url": "https://www.c12qe.com/news/press-release-c12-fundraising-10md",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "press release date"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 18000000.0,
+        "currency": "EUR",
+        "date": "2024-06-20",
+        "investors": [],
+        "source_url": "https://www.c12qe.com/news/c12-raises-18-million-euros-to-accelerate-the-development-of-quantum-computing-with-its-unique-approach",
+        "date_basis": "verified_source",
+        "date_source": "press release dateline"
       }
     ],
     "grants": [],
@@ -1634,14 +1636,15 @@
       "https://www.c12qe.com/news/press-release-c12-fundraising-10md"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 18000000.0,
     "last_round_currency": "EUR",
-    "last_round_date": "2026-01-23",
+    "last_round_date": "2024-06-20",
     "total_raised": null,
-    "total_raised_currency": null
+    "total_raised_currency": null,
+    "notable_investors": []
   },
   {
     "company_name": "Unseenlabs",

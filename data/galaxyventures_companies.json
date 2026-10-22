@@ -90,7 +90,24 @@
     "primary_investor": "Galaxy Ventures",
     "source_url": "https://ventures.galaxy.com/portfolio",
     "scraped_at": "2026-10-17T17:50:50.676930+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2025-07-10",
+        "lead_investors": [
+          "Paradigm"
+        ],
+        "investors": [
+          "Paradigm"
+        ],
+        "source_url": "https://www.theblock.co/news/deals/2025-07-10-paradigm-50-million-stablecoin-agora-362005",
+        "date_basis": "verified_source",
+        "date_source": "The Block 2025-07-10; Fortune 2025-07-10",
+        "moved_from": "payscale.com (Agora name collision)"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.fintechfutures.com/fintech-start-ups/real-estate-investment-management-start-up-agora-lands-34m-series-b",
@@ -102,15 +119,19 @@
       "https://cointelegraph.com/news/stablecoin-agora-secures-50m-investment-paradigm",
       "https://www.thesaasnews.com/news/agora-raises-34-million-in-series-b"
     ],
-    "funding_status": "no public funding",
+    "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-10",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Paradigm"
+    ]
   },
   {
     "company_name": "Aleo",

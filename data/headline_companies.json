@@ -5528,6 +5528,16 @@
         "source_url": "https://www.sec.gov/Archives/edgar/data/1786593/000178659319000001/primary_doc.xml"
       },
       {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2019-09-24",
+        "investors": [],
+        "source_url": "https://www.shopmonkey.io/blog/shopmonkey-10-million-series-a-will-help-auto-shops-thrive",
+        "date_basis": "verified_source",
+        "date_source": "post 'Published on September 24th, 2019'"
+      },
+      {
         "stage": "Form D offering (round type not stated)",
         "amount": 24995997.0,
         "currency": "USD",
@@ -5540,19 +5550,11 @@
         "stage": "Series B",
         "amount": 25000000.0,
         "currency": "USD",
-        "date": "2021-03-30",
+        "date": "2020-08-27",
         "investors": [],
         "source_url": "https://www.shopmonkey.io/blog/shopmonkey-raises-a-25-million-series-b-led-by-bessemer-venture-partners",
-        "date_basis": "snippet"
-      },
-      {
-        "stage": "Series A",
-        "amount": 10000000.0,
-        "currency": "USD",
-        "date": "2021-03-30",
-        "investors": [],
-        "source_url": "https://www.shopmonkey.io/blog/shopmonkey-10-million-series-a-will-help-auto-shops-thrive",
-        "date_basis": "snippet"
+        "date_basis": "verified_source",
+        "date_source": "post 'Published on August 27th, 2020'"
       },
       {
         "stage": "Series C",
@@ -5577,7 +5579,7 @@
       "https://www.sec.gov/Archives/edgar/data/1786593/000178659320000002/primary_doc.xml"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Series C",
     "last_round_amount": 75000000.0,
@@ -5585,7 +5587,8 @@
     "last_round_date": "2021-10-26",
     "total_raised": 144995997,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Recurly",
@@ -8902,21 +8905,23 @@
     "funding_rounds": [
       {
         "stage": "Undisclosed round type",
-        "amount": 18000000.0,
+        "amount": 8000000.0,
         "currency": "USD",
-        "date": "2026-03-11",
+        "date": "2025-08-12",
         "investors": [],
-        "source_url": "https://www.getthread.com/service-magic-blog/thread-raises-18m-to-power-the-next-era-of-msp-service",
-        "date_basis": "snippet"
+        "source_url": "https://www.getthread.com/service-magic-blog/thread-raises-8m-to-power-the-future-of-ai-for-msps-and-welcomes-new-ceo-michael-evers",
+        "date_basis": "verified_source",
+        "date_source": "crn.com August 12, 2025"
       },
       {
         "stage": "Undisclosed round type",
-        "amount": 8000000.0,
+        "amount": 18000000.0,
         "currency": "USD",
-        "date": "2026-03-11",
+        "date": "2025-12-17",
         "investors": [],
-        "source_url": "https://www.getthread.com/service-magic-blog/thread-raises-8m-to-power-the-future-of-ai-for-msps-and-welcomes-new-ceo-michael-evers",
-        "date_basis": "snippet"
+        "source_url": "https://www.getthread.com/service-magic-blog/thread-raises-18m-to-power-the-next-era-of-msp-service",
+        "date_basis": "verified_source",
+        "date_source": "businesswire 20251217"
       }
     ],
     "grants": [],
@@ -8926,15 +8931,16 @@
       "https://www.getthread.com/service-magic-blog/thread-raises-8m-to-power-the-future-of-ai-for-msps-and-welcomes-new-ceo-michael-evers"
     ],
     "funding_status": "unclear-round-type",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | 2026-10-21 date check: round dates re-verified from the source article / public press (shared crawl dates removed)",
     "funding_checked": "2026-10-21",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 18000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2026-03-11",
+    "last_round_date": "2025-12-17",
     "total_raised": 26000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": []
   },
   {
     "company_name": "Helcim",
