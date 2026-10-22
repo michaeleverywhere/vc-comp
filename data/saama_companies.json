@@ -1004,20 +1004,47 @@
     "primary_investor": "Saama Capital",
     "source_url": "https://saama.vc/portfolio/",
     "scraped_at": "2026-10-16T21:40:22.700649+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Debt financing",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": "2017-08-03",
+        "investors": [],
+        "source_url": "https://inc42.com/buzz/lendingkart-funding-fintech/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 87000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jMU5sR09RTDN4eFpDMDEwWWlXa0tXZUthYURDMDNmTkYzeW1oU0JkdHd5QXVsUkdwb3Y5ZXh0SS0xRzVjM0VTbHdsQ2x1Mkk0QVdjR1VPeUdDV0hyMzlr?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.lendingkart.com/"
+      "https://www.lendingkart.com/",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2FVZmxjNDZIemp0OENuUFhUME1Mem1Ld0lUZEd6SWtzMWllOGlJdUoyMjdDZDVtNG9tU0NBSEJ6ZGROZTYyQk1yZ3FrUmdKazRXdFRzWGhsVWVzY0xXX3JIdFQ5b2NaWVhUSm9wMWh5TmhwYjUyVDh5T0xqMG5IVGFoNllRbTdKVDZHbGh6eDZjRnF4cml6Y0dhOURUQmFzb3RjYjhYdFc0NW9lbVI2cU52ZEZHY1hGbnd3bTRLOUhKSFV2NGpURzZHZkdTdlhTS3B5RjcxZGJIZ9IB3wFBVV95cUxOTjc2WERqLXc4VThCNk1SLXhPbXlDNjZjWklaRGlnSXdfRmI2LW5fY2JjbjZ5TkxNdDBFcmh3ZjU4Vm1rai0zWTFWVnVHUFQyUmdFNEFlakp6dk1va2ZiOVUwdU5GdWtrVTBUcE1pNktDX2ZILUo5WGtoRlJKM1VXSEVrTlJMWVl1N0g1aVFJVlQwdnYtb2JMT3RYOGxCNlQ2R1RIcGpTSXk2OU5XX196TEFzc1ZDamNTRXpEWXI2eVVhQXZsY2tEUkxMdkQzSXdYd0JtUXNXWkt4Ulk2czJz?oc=5",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONFN3V1hJMnFzUmlxd2Z0SVhCTHB4ZFRWbEtCejF0VjJvX1F3TC1UVTl6dk1Hc1NXTjVWZWlhQnNIazBpNlV0c0ZnQXVoRmlFLWRBUDFpY2h3endiY3VJOVRINC1mZnFuZHJzdjFfNjczdngtZHNlNzFFMGJJcHh2N2J4SjF4SHAyRW1NbFNQZWt0OUpQRC1LRkUzMzZLUk1oQkVnWGlrNXFxUEV2N181czRnb2hGMXhpeU5DSGtseXNzUm96T1hTc3Z0N2FNamRqY0duRWVMODFrdjQy0gHiAUFVX3lxTE8zTWY4N0VVOG1sVndGc2hQd1RhU2xwQTdkQW9jR2lfQmlJckJMc0NDNWVwYUtxbDk2YVZGMkJjVDBqb3hwb0plUnVUWnJQODJUbm91UWh3VTQ2ejZJVTF4N1VmY2Zpa28xLU5PaW55NjI5Nlh5TUJSRTFFbUlpNU9acVN4c3lJX3hqUXVhbjJ2TnN1TFpiSm9Dcmpjd2w0aWdrTG5XVTZtalFKOHFYajR4dU51dmFuZEpsQ09pTlJTeFhwRkdHLVAtWnVFN0I1MzVrSUh3cjRsZi1ITS0wMkZwS1E?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNGVmeTdjTWNCb0x6SUQ1YkJBclhwMlNlTHQ4eWtRUkZ4VmFQNVZ2QXRTNlNtX0k0ZjFPcmlldy1uRU1LRE9NbGloMlp4QmU1T05McGxmaGZSek0yQm9TSHJpaHc5QTFhTmozbHhNRms0dl9BUHNrVjFLRm01dVlHMlR5bjJtUzlSbzhj?oc=5",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdklYaUxUaFlPekJIVXIzdXZabTRCY0RQLVM5NG85UGd3UkNlYnlyZmNRdWF5aWZxNmYweVctOU83ZTFqZHktQlVDMnBNcmFjVnItelowZ1F5TUEycVJjSWw2eDdXSHAyRGFwSWhFVldkeHZTOWxfcTNjRnZocEVXRnRQMUdjcUZ5UHhNWE5veW1HUU9UcWxMejJ3cUtVbWtMWmlJYjU0a0swby00TDNRQ2N6N292VktJZWJkbFVsVnVsUmFqZXQ4UUlvTEJNbkxxaF9B0gHYAUFVX3lxTFBLT0F0d05Td09ud1pzUTF0bjN3ZjluTTlJSjJVaDJMOUp1U1ZJTWVFZW41TEJVX192Tm9YeWQ5WlpmRjdYem1VcDdJZy1OVDRaVFJPLXhZVlRWdmNNMDlJcndGcUdaTVhqOUhtZXpZcTJYb2lmUTVpSTR3U2FYUWNGYlo1SmpDWXNqZGM5Z284dnYxdURGVU02d1lOSF9UZHhaM0JtM3lxRHhYREVFOXFvYU5idW9sMUFINlZjMklGWXlDLUpDNGtaOFhJeTF2cU92b2Y2azA3Vw?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWU1WVS1GeDdYZUkxUnNoRzhodWxhXzQzTFdzWWNLU2VUb0xxX2dnSURoQm5kYjJsM0hNZnZkUGFKc2ZUQnJpMFlpV3REZ0tjMmdxMEJ4U25PcnNkYnN6NWh5ZVBmaDNHVGxDSTltMWF2U08wc25YYnZFbk9kMDBjRU1LTGJrR1FFWjNWYQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jMU5sR09RTDN4eFpDMDEwWWlXa0tXZUthYURDMDNmTkYzeW1oU0JkdHd5QXVsUkdwb3Y5ZXh0SS0xRzVjM0VTbHdsQ2x1Mkk0QVdjR1VPeUdDV0hyMzlr?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVGpyenhBLUZOdnhEUGpGRkhQcDF3S2JBSmdfWEhUZE80emdqYzVLMHZGMVk5VnQyeWdBczl6SmxxV2VwbjNpQWU5cWdtRHY2ci01TUJqWkZXSWNiRnVDT3NDZGJiLVhoQ2c3RWdORjBCaE1UYXp0bTRJUXgxTkdETXh1LUYzVjVJSlRReG5EdGQxRFNZZnZhQkZR0gGaAUFVX3lxTE1UanJ6eEEtRk52eERQakZGSFBwMXdLYkFKZ19YSFRkTzR6Z2pjNUswdkYxWTlWdDJ5Z0FzOXpKbHFXZXBuM2lBZTlxZ21EdjZyLTVNQmpaRldJY2JGdUNPc0NkYmItWGhDZzdFZ05GMEJoTVRhenRtNElReDFOR0RNeHUtRjNWNUlKVFF4bkR0ZDFEU1lmdmFCRlE?oc=5",
+      "https://inc42.com/buzz/lendingkart-funding-fintech/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 87000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 87000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mezi",

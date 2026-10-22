@@ -6397,20 +6397,31 @@
       "fund I"
     ],
     "primary_investor": "Hustle Fund",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSFM2b0RwSjQ3WWpkWGV5ODVkWU42NGQxMG5LcXpZWWdfNXFvenoxaTZOcHJWYTcyZ2dLYWM2NVRuV0xEVEpKcENOazdxRlFKc2RSTVJ5eEFjbXpYdmZFRjBqZnNHeHlYSzl6VVRTX1RQUUE0SWFkNHpmaW8wQ05NZnJRaF9GMjMxQlFockt6aUgxaWJLOWVYSk80SXpfMTBmYjlEbkNkLW84bkI2?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.karunalabs.com/"
+      "https://www.karunalabs.com/",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSFM2b0RwSjQ3WWpkWGV5ODVkWU42NGQxMG5LcXpZWWdfNXFvenoxaTZOcHJWYTcyZ2dLYWM2NVRuV0xEVEpKcENOazdxRlFKc2RSTVJ5eEFjbXpYdmZFRjBqZnNHeHlYSzl6VVRTX1RQUUE0SWFkNHpmaW8wQ05NZnJRaF9GMjMxQlFockt6aUgxaWJLOWVYSk80SXpfMTBmYjlEbkNkLW84bkI2?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Kaster | Protrakr | TargetDocs",
@@ -19848,7 +19859,19 @@
     "last_seen": "2026-07-22",
     "listed_on_site": false,
     "delisted_date": "2026-10-16",
-    "delisted_commit": "f79831d"
+    "delisted_commit": "f79831d",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tribe",

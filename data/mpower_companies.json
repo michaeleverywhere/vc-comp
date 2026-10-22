@@ -909,7 +909,19 @@
     "everywhere_tags": [],
     "primary_investor": "MPower Partners",
     "source_url": "https://www.mpower-partners.com/portfolio",
-    "scraped_at": "2026-10-18T15:29:27.109919+00:00"
+    "scraped_at": "2026-10-18T15:29:27.109919+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Teal Health",
@@ -1010,7 +1022,54 @@
     "everywhere_tags": [],
     "primary_investor": "MPower Partners",
     "source_url": "https://www.mpower-partners.com/portfolio",
-    "scraped_at": "2026-10-18T15:29:27.109919+00:00"
+    "scraped_at": "2026-10-18T15:29:27.109919+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1800000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGVlZ3lQemFUaG5ocjNwRDlJZGkyU25uUUZOZkdqdDIyOGhFeXhZTzBJdzVUUWV0M2JDLTU2V3BqamxGNHpyaTZEWktVUnpjQjJ2b1JzSkljQjdpUC1IMFFrRUlaVWw4aEprUUdJVUFFOGlicnRFcTVsYTUwRmpzMW44bGI1TTRYSWU5d2hqWWp3U1Nsdml2YzNKVjh1UlE?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Airbus Ventures"
+        ],
+        "investors": [
+          "Airbus Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUFFNRmVteTdZMGFHQmVXTnF3VDVrLTVJZFBuS3FWT1pkUVhUZGExX1hPOG9MZVhmU2k4cTZ2T2Y2aTd1ZFlxR3BJMnA3aFRLWWJmZTQyUTN2ZDBWQlpldHhKWjN6a0toZjNMRXFHLTBaV01XWDhMdDJaMzZ6dlhoQ0ZBWGJhcVJHbEN4TUpPRzNKeHZlN3I1YjBDOUI0NE05SEo0UmtvZGxKVjNTMzFaZlhiMVQwUGQ5LWZSTWN3?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRi0yYkUzUExGMEV2M3pfWGszYTVBMDVJdnpuRXE3djVEWGthOUprNzJGdHpkRjNKU3EtVlhDZllWVFh0b2JuMFhzeUtWNjh3YWlmdGlKZUVDNHVOcEZ2N0txRkZ1YkU2OEpQLXVzMVg1Vm1fRy15MWFOd2JtenNqUm9lSm9jUkV3SXc3ZTkwdzdKRjJTakNKaDFLQ1VIUUVHeTdyRUlVNlAxbTdsNlhXQUstUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGVlZ3lQemFUaG5ocjNwRDlJZGkyU25uUUZOZkdqdDIyOGhFeXhZTzBJdzVUUWV0M2JDLTU2V3BqamxGNHpyaTZEWktVUnpjQjJ2b1JzSkljQjdpUC1IMFFrRUlaVWw4aEprUUdJVUFFOGlicnRFcTVsYTUwRmpzMW44bGI1TTRYSWU5d2hqWWp3U1Nsdml2YzNKVjh1UlE?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUFFNRmVteTdZMGFHQmVXTnF3VDVrLTVJZFBuS3FWT1pkUVhUZGExX1hPOG9MZVhmU2k4cTZ2T2Y2aTd1ZFlxR3BJMnA3aFRLWWJmZTQyUTN2ZDBWQlpldHhKWjN6a0toZjNMRXFHLTBaV01XWDhMdDJaMzZ6dlhoQ0ZBWGJhcVJHbEN4TUpPRzNKeHZlN3I1YjBDOUI0NE05SEo0UmtvZGxKVjNTMzFaZlhiMVQwUGQ5LWZSTWN3?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNkw5eGxVbGo5LXFjRllpQWFaNF9TODlOWFBxTzJEVXpZWGxIMThVM0FYX0hoMHRYWldZcTZWVVd5M2M4cnhRcTVGcUplNlVCOElYeERFb0hfM1F4ZTJGRVl6WGp2TUduTEZaMDVLaXFEUGhsNHdSS2FORmgxcktMX0ZLX0R0dkdpUTNjYXNleVNuNVY1bTFMeXh4MFhaMXVVVUw2Q25zZHpkMWRpYUs2cTlDbi04Znp0MDJISU1zU19ZZw?oc=5",
+      "https://finance.yahoo.com/news/wireless-laser-communications-startup-transcelestial-223851921.html",
+      "https://www.straitstimes.com/business/companies-markets/singapore-based-transcelestial-raises-25m-in-seed-funding-to-deliver",
+      "https://www.businesstimes.com.sg/startups-tech/laser-comms-startup-transcelestial-raises-us10-million-led-airbus-ventures",
+      "https://www.businesstimes.com.sg/startups-tech/startups/transcelestial-raises-s25m-seed-funding-deliver-internet-satellites-lasers"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 11800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Airbus Ventures"
+    ]
   },
   {
     "company_name": "TXP Medical",

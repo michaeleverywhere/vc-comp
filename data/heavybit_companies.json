@@ -186,7 +186,19 @@
     ],
     "primary_investor": "Heavybit",
     "source_url": "https://www.heavybit.com/portfolio",
-    "scraped_at": "2026-10-03T13:17:33.591211+00:00"
+    "scraped_at": "2026-10-03T13:17:33.591211+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Autumn",
@@ -625,18 +637,37 @@
     "primary_investor": "Heavybit",
     "source_url": "https://www.heavybit.com/portfolio",
     "scraped_at": "2026-10-03T13:17:33.591211+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2024-08-19",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20240820679651/en/5699228/Kubiya-Raises-a-Fresh-6M-to-Launch-AI-Teammates-A-New-Way-for-Developers-to-Delegate-DevOps-Tasks-to-a-Trusted-Digital-Colleague",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pQTVfQXliV3Y0Vy1FZDh3a2xQcjZpcURvUXAwTVVMQU1VVzJlQ2I4VTV2LXJpbHZaQU1uVDQxM2JaSl95VWNMbjctU0R5cGowZWdiX1RDYjRXZEVGanp2XzNsaUI3UjhGaVE?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTFBENFdrQ1lrNHVxbHl0WERxSjZ2WXdHYTAwdmR3aFRPa0VkUFZBaDZBTWpyQV9RSlp0NEw4d3pMRUY5VVBXZ0s4RHB1V3gzYVBfQUh6TVpxdFlCUFVUWDFvRi04U3otNnhMRVpQb2x3b0poN0JuUUF3dw?oc=5",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE0waHV4SG5EbXVMRHJoMmVCSUxiSE91UURTX3dGUlBFdFlYMGlpWjFJUFVoZzhxNmZxMEVaTmMzY1owZ1pIMk1GN2RXQUI5c0VoSWxMcmQzVGVGS3ZIaUE3REdUeGx1TVRSOGI0NEVWRFZWbnEwM19mV09NLWxKdw?oc=5",
+      "https://news.google.com/rss/articles/CBMilwJBVV95cUxQUjY1ZVRCSi1yQ1FHWjdpZmFhMzNKdWRQYWhMbFNpQ3J6VlpMR0ZLUVdpeTZEVEdzOU5saDhNQmhVQlVEYlV5SFNuU1FjSzY0WlhvSXQtNmxvTWJGT0RmdGQ5OG8xLTVFVnloQi1IcVVhTzFJc3pZV3pWeVA4ZENrc0x4LVNaQkh1cTJCQk4wQnAzVlhTcWZvektlaUp2ckhmeDRvTnpTTVAxX2NfdHBOaFBOYkNRalgxOXZKS3p5UEpCTTR3VzJDX2tuYnNNX29BZEZXOVBzQ1M4RXNuSHVyaS16U1psNkMyc0h0Tjh1QWUtYUlvSTVfSzdwNkxEUVVESjlUOHJGcGFnTU5SRDh3QzNoNjM1RGc?oc=5",
+      "https://www.businesswire.com/news/home/20240820679651/en/5699228/Kubiya-Raises-a-Fresh-6M-to-Launch-AI-Teammates-A-New-Way-for-Developers-to-Delegate-DevOps-Tasks-to-a-Trusted-Digital-Colleague",
+      "https://pulse2.com/kubiya-conversational-ai-solution-company-raises-12-million-seed/",
+      "https://pix11.com/business/press-releases/cision/20221018LN06969/the-siri-for-devops-kubiya-raises-6m-in-seed-funding-to-accelerate-the-growth-of-its-unparalleled-conversational-ai-virtual-assistant-for-devops/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 12000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-08-19",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Miso Labs",
@@ -994,7 +1025,19 @@
     ],
     "primary_investor": "Heavybit",
     "source_url": "https://www.heavybit.com/portfolio",
-    "scraped_at": "2026-10-03T13:17:33.591211+00:00"
+    "scraped_at": "2026-10-03T13:17:33.591211+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Paper Compute",

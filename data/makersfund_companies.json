@@ -2134,7 +2134,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "The Game Band",
@@ -2198,7 +2210,44 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 37500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTlTZElQTEVRSkJPdllfVUN2TEp5LS1lUXFyNlB6SlZtVUlRNWxKRG1tR1I1dVFiTDVzbVRjbHA0NHFza1lqN3BRcW1rNXVITXQ2ajQzUmN0eDJkdlEtZ1ZvYTdiOUlhVGdNOHF3ZmFMa3pMSkdoQ3U2RUVOd09Wcmo4emJ4T1Fhb2RqWA?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM0YzcW50RXhLdkZ1Z1dXM0EweWhRZy1qdjVTTnowblRHR1RXeVhRMW5TNzhLSVJ6R1AyWDI0bnJvSk1RY3N3RVZzbFpnM0tuVnhQYnRLUnF0UE82UmtldWI3UnVKR1c5NmhEUWVxdkF5UVdqU0lLdUZybUtoby1ZeTk3MHp0c1lpUnI2eGlKQUpnQWd1VDd1TkI2R19oZ1dnenRPa0NkallqYTBmZDZ4TUlGWjE3Y3g5dTJuZVBHTEIzVEtuU0Z2cDRyQWxoWXRWLXF3ZUpHdFFxdw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTlTZElQTEVRSkJPdllfVUN2TEp5LS1lUXFyNlB6SlZtVUlRNWxKRG1tR1I1dVFiTDVzbVRjbHA0NHFza1lqN3BRcW1rNXVITXQ2ajQzUmN0eDJkdlEtZ1ZvYTdiOUlhVGdNOHF3ZmFMa3pMSkdoQ3U2RUVOd09Wcmo4emJ4T1Fhb2RqWA?oc=5",
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM0YzcW50RXhLdkZ1Z1dXM0EweWhRZy1qdjVTTnowblRHR1RXeVhRMW5TNzhLSVJ6R1AyWDI0bnJvSk1RY3N3RVZzbFpnM0tuVnhQYnRLUnF0UE82UmtldWI3UnVKR1c5NmhEUWVxdkF5UVdqU0lLdUZybUtoby1ZeTk3MHp0c1lpUnI2eGlKQUpnQWd1VDd1TkI2R19oZ1dnenRPa0NkallqYTBmZDZ4TUlGWjE3Y3g5dTJuZVBHTEIzVEtuU0Z2cDRyQWxoWXRWLXF3ZUpHdFFxdw?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTZHYW5RUWRkcDY3NTF2YU5UTGVpdUZEN1hEcVBUM0Vzd2toX3RfSGI3N0JNSnFqSjhoS2pLTVNtbjlWUnVtSGlBMndkLXNZWkxDeFA0YkkxbkhfcURXd0J2LXJUQW52S01keUQ0VXQ0aXlRUmc2VGgtM3BIUXprYm1tTWI?oc=5",
+      "https://www.pocketgamer.biz/theorycraft-games-raises-50-million-in-funding/",
+      "https://appdevelopermagazine.com/search/$50m-in-funding-raised-by-theorycraft-games",
+      "https://www.gamesindustry.biz/theorycraft-games-raises-50m-in-series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 87500000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Treasure Play",
@@ -2224,7 +2273,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Vento Games",
@@ -2585,7 +2646,32 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 225000.0,
+        "currency": "USD",
+        "date": "2017-09-15",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1717294/000118374017000172/primary_doc.xml",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1717294/000118374017000172/primary_doc.xml"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 225000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2017-09-15",
+    "total_raised": 225000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Two Hat Security",
@@ -2610,7 +2696,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "TinyBuild",
@@ -2636,7 +2734,42 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 3750014.0,
+        "currency": "USD",
+        "date": "2017-10-03",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1719978/000171997817000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2019-02-15",
+        "investors": [],
+        "source_url": "https://www.gamesindustry.biz/tinybuild-raises-usd15-million-in-series-a-funding",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.gamesindustry.biz/tinybuild-raises-usd15-million-in-series-a-funding",
+      "https://www.sec.gov/Archives/edgar/data/1719978/000171997817000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-02-15",
+    "total_raised": 18750014,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SuperData",
@@ -2661,7 +2794,19 @@
     ],
     "primary_investor": "Makers Fund",
     "source_url": "https://www.makersfund.com/portfolio",
-    "scraped_at": "2026-10-14T13:33:05.430195+00:00"
+    "scraped_at": "2026-10-14T13:33:05.430195+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Savage Game Studios",

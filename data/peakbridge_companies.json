@@ -732,7 +732,19 @@
     "everywhere_tags": [],
     "primary_investor": "PeakBridge",
     "source_url": "https://peakbridge.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:50:41.926438+00:00"
+    "scraped_at": "2026-10-17T18:50:41.926438+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tastewise",
@@ -744,7 +756,54 @@
     ],
     "primary_investor": "PeakBridge",
     "source_url": "https://peakbridge.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:50:41.926438+00:00"
+    "scraped_at": "2026-10-17T18:50:41.926438+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 5000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wcnFXc0QwRDFjWGc5WmVUb2lTV3Y0eGIyNWlTVlZ6Tm9RNlF1Z1dHN2p6UUVMVlpMZXJvMWZLRnB3dTZzZzVKREs2RkdqQy02b3c3MDJyTlBYUXV2NDJldFk3TC00akZLT21GekNqYUpjUS1TZ0Fj?oc=5"
+      },
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "TELUS Global Ventures"
+        ],
+        "investors": [
+          "TELUS Global Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWUFYUGZYd0RvSmNzY29nZHQ5cFN4NW8waWJmekdWQ0E5eVloMExMTWNBa3ZRVUlWNGNxR1IzN3NDa3V4Si1ocERfRTNPM2pXOVhscFZZaHFSZU94UEl3QklEMzIwZUtsLU4ybkZDQ0dja0FTSURfcFZUUVFpLXM5QWU1Q1RZM3N0WXVzckc3YVUwSkotYTljSUhFOHhRUHF3U1YzaURybVc1N1o0WV9TWVV6aGlrV01MWkpIQU9zeEFUNkgtNE1kSHY5SXUwMExWeElnNFlGXzU4b3RrUGhqQ0QzaGNhWkV5VFRBQzV1VlhWUQ?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuZEJ1Z0VSdGFvNXVpUVg2clpvbTF1MVlxZDduNHRic3pMTGlaWHN2MDBDV1NfRTl6MFQ3QXlWZ2VLbW8zQkwyVTVxdkZFSXBRSl9KZkVaUjRTRkRnM05LMWxiMk53VFN3?oc=5",
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWUFYUGZYd0RvSmNzY29nZHQ5cFN4NW8waWJmekdWQ0E5eVloMExMTWNBa3ZRVUlWNGNxR1IzN3NDa3V4Si1ocERfRTNPM2pXOVhscFZZaHFSZU94UEl3QklEMzIwZUtsLU4ybkZDQ0dja0FTSURfcFZUUVFpLXM5QWU1Q1RZM3N0WXVzckc3YVUwSkotYTljSUhFOHhRUHF3U1YzaURybVc1N1o0WV9TWVV6aGlrV01MWkpIQU9zeEFUNkgtNE1kSHY5SXUwMExWeElnNFlGXzU4b3RrUGhqQ0QzaGNhWkV5VFRBQzV1VlhWUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUWVTU3M1VVJUbjlNUmQ1UTNNVVJDVnJQQ2NuY0tsdDFCYXhvNlBUYllYMXpyNlNaVTJwWlYxT3Z6YVBJUlJqN2pGOGlIUzdTZEtEN3lleEpFTl9vZkdmM2xpZ0hJdFl0b09qLVZpNy1EVmR2T1N6ZWhMczR1RHdkdmtmZTZNOGE5NjBoV1FaNmF4Y3h4TFhPMTRrZ2MzRkgyZTBQaUVZZGR3WnpaX0lKNTVNZzVZQVZEZFNWMENCaUI5emRYWjgwZQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNDNtaUZ6d2N2YllCSndQTVdCc01qcGxVTXpIVDl2OE9aMmx5aUZ4NzVRY0YwUEtwR0NHV3JiVUdwWF9TTmhXLVpvUHpHRlJmSUVWZmFmY3ZQOWEwWnF3NUtrbWllcHRVNndPcEJoZmN0b0taeWpEaFhyUlBuLXFDRzc5em1aMU5reXYtQg?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeGN2T3h4Zms2Zk5zbWl5QXY5cXFxLU1vMFZhZlJBSS00VXZpby03dnB1T0k3Q0oySEwxZVM4d2YyekNnaFhYYldEVS13U3owRVcyRXBydnVpUWpicmdUVG1RTHZlRERMdGZSaHdhVEpvamFyRWNBajF6Vmx2V3hDamZlenZxTHJQQzQ4RVk5VFN5dEFwZEpCVjh2QXhGSDEtRTBV?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0dkNDJZdEtIal91UnVjeU5mQ0RrVkZ2ZjJnSzZkd3NRSVNZNzRjdzVtRmpLLS1Sbmg0ZUtmWUZRNTB0alp6WFgxRVY3RUhmXzhPeWp2d2FBWmZpbWh4Qjg0M0x4S2hDelVldElIRDc0allqVExXQU5jVTF3SlNNeUtWcFd0YXRwbnQ0YmtIdklXOEVKeGRpWWVTNEJoeEFBVFVHNXN3?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wcnFXc0QwRDFjWGc5WmVUb2lTV3Y0eGIyNWlTVlZ6Tm9RNlF1Z1dHN2p6UUVMVlpMZXJvMWZLRnB3dTZzZzVKREs2RkdqQy02b3c3MDJyTlBYUXV2NDJldFk3TC00akZLT21GekNqYUpjUS1TZ0Fj?oc=5",
+      "https://pulse2.com/tastewise-5-million-in-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 55000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "TELUS Global Ventures"
+    ]
   },
   {
     "company_name": "TEORA",
@@ -754,7 +813,19 @@
     "everywhere_tags": [],
     "primary_investor": "PeakBridge",
     "source_url": "https://peakbridge.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:50:41.926438+00:00"
+    "scraped_at": "2026-10-17T18:50:41.926438+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "The Mediterranean Food Lab (MFL)",
@@ -766,7 +837,19 @@
     ],
     "primary_investor": "PeakBridge",
     "source_url": "https://peakbridge.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:50:41.926438+00:00"
+    "scraped_at": "2026-10-17T18:50:41.926438+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "UKKO",
@@ -804,7 +887,19 @@
     ],
     "primary_investor": "PeakBridge",
     "source_url": "https://peakbridge.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:50:41.926438+00:00"
+    "scraped_at": "2026-10-17T18:50:41.926438+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "VANILLA VIDA",
