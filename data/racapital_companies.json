@@ -7542,18 +7542,44 @@
     "primary_investor": "RA Capital Management",
     "source_url": "https://www.racap.com/portfolio",
     "scraped_at": "2026-10-16T16:56:38.429357+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "convertible note",
+        "amount": 2000000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSk1TMGRmVXNoWF9keGVpejFIdU5MbTYwOWt2aDg1MXR5Z3hPajhGYVZ2WnNJeXFpNDJ0X1BFZ1JNRlpQblZvSjRqMk1UbmZNQWM0d2Rjejc5ejdacm0xWl9HNWsxVW5WVkJGdUdIZUY1bm5mZzQzaDUtZVNLTGNOR2ZPWUx6U1JrNVRDdTlLM2hVbUd1Vm1JQll4MUxNZw?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2600000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYV9xN0ZKcmI4U19MY3JBVklhSk1lcEk4ZDhnRDZDTnhIZjFPYTN2MExZMmFUZTZ3T3g3R2VBREY2bS1yMXYyRGpjLWtudjVYZHQ2MXdBVWFWTjNNVUhmVG93UkYwYmJNZW9NUmRPcVlGZWpkLWJpTkM0cGlVeHl6bDVLcWhfb2ExakJOSy01c2o4UQ?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNSk1TMGRmVXNoWF9keGVpejFIdU5MbTYwOWt2aDg1MXR5Z3hPajhGYVZ2WnNJeXFpNDJ0X1BFZ1JNRlpQblZvSjRqMk1UbmZNQWM0d2Rjejc5ejdacm0xWl9HNWsxVW5WVkJGdUdIZUY1bm5mZzQzaDUtZVNLTGNOR2ZPWUx6U1JrNVRDdTlLM2hVbUd1Vm1JQll4MUxNZw?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYV9xN0ZKcmI4U19MY3JBVklhSk1lcEk4ZDhnRDZDTnhIZjFPYTN2MExZMmFUZTZ3T3g3R2VBREY2bS1yMXYyRGpjLWtudjVYZHQ2MXdBVWFWTjNNVUhmVG93UkYwYmJNZW9NUmRPcVlGZWpkLWJpTkM0cGlVeHl6bDVLcWhfb2ExakJOSy01c2o4UQ?oc=5",
+      "https://finance.yahoo.com/news/moderna-gets-funding-h5-pandemic-145400714.html?fr=yhssrp_catchall",
+      "https://www.bostonglobe.com/2025/12/18/business/moderna-gets-funding-bird-flu-shot-after-hhs-ends-contract/",
+      "https://money.usnews.com/investing/news/articles/2025-12-18/moderna-secures-up-to-54-3-million-funding-for-bird-flu-vaccine-from-global-coalition",
+      "https://www.bloomberg.com/news/articles/2025-12-18/moderna-gets-funding-for-bird-flu-shot-after-hhs-ends-contract",
+      "https://www.yahoo.com/news/articles/moderna-secures-54-3-million-120149376.html"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 4600000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 2600000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "NapiGen",

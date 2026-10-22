@@ -4496,20 +4496,31 @@
     "primary_investor": "Project A",
     "source_url": "https://www.project-a.vc/companies/montamo",
     "scraped_at": "2026-10-02T13:09:50.033986+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 2100000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUnBGSnBYa1dHNGltNlZ4dUNUWnhSOGZVeUF5eEV0V3oxYkJ4ekRhNFl1N2MyV2tWdXg0c2ZFY0RLYmFLZ28tRWNVUVR5OElWY2ItVDU0c3NZdXF3eWU1WkZob3VJQjF5djk3NkpBczI2VGIzQWw4c2VWV3RrU1czT296SVpmS3pzRGR0NmR4aTkzNHc2Z0cxajhxbHAzXzgybHBDejRKYmNRNGJvMWJfbllJWnBJVVdIUTBkTkUzQ29Ic3NOQWJncWVZdjNzNE5MY1RQMVVCeUw2WHF2?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.montamo.com/"
+      "https://www.montamo.com/",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUnBGSnBYa1dHNGltNlZ4dUNUWnhSOGZVeUF5eEV0V3oxYkJ4ekRhNFl1N2MyV2tWdXg0c2ZFY0RLYmFLZ28tRWNVUVR5OElWY2ItVDU0c3NZdXF3eWU1WkZob3VJQjF5djk3NkpBczI2VGIzQWw4c2VWV3RrU1czT296SVpmS3pzRGR0NmR4aTkzNHc2Z0cxajhxbHAzXzgybHBDejRKYmNRNGJvMWJfbllJWnBJVVdIUTBkTkUzQ29Ic3NOQWJncWVZdjNzNE5MY1RQMVVCeUw2WHF2?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 2100000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 2100000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Loopline",

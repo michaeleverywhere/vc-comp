@@ -21667,19 +21667,37 @@
     "stage": null,
     "first_invested": 2025,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Seed",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://getmodus.com/"
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://thenextweb.com/news/modus-10m-seed-insight-partners-context-warehouse-enterprise-ai"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://getmodus.com/",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZS1ZVC0yTmljVnhKYnpVN3lLS2FwM21SVG5JRDE3RGpkOS1uVlUtSmpwUTVrd0JoYng3b3NhQzNIVGFPaFBSclZ2R21GTVJHdk9Sb2xoeWR0MzJscEF3ckhtVWJBN3NaMmlSaWF0a0V1THVaN08yZTFPU1R0OFRnel9xNkladF9IZkJXa3BQYVVfRnJ3MmZVSTdkVGJmZTdJcG1WbUgwZWdGbWl3NE1JY2lwWjlST2VJc2pqdUdRTGNyVm1fUVRDTUxub0RldE5LRnc?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVHhCNEgwbFZJZGR5eG9FQXN5R0FWRzQ0YThWWTJMUUpXTHpvSUNmdEw2ZFhacWtLcEF1MG1fMVFBXzN1cTdISEpOVDJBU3MyWlJKZVJidi1lOTRKZS1TUE44VFhuVVVEVjYzUVpPOWdqNmczRG1MS0x4T212US1ka2taNUpvWUJuelRWYVBSWXA1bTRTakVTcmtxclRmcFVBMDNqeFhSN1hFNFN1cGpvbng3Q3dFeWIwSDFzRnowcnZOZw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMVpVa01MMmdoSDBIZnFhNDhGZ0pDME15TFRZdk9tOVl3ZUt6c0k3S1hYbFpFTkNrTmROZ3dyMjdlZEF5aWtYTnBOYmU2NUlSb0tsNFBybEdzNGNCdzdDanE0NXdWcHRjYWNpV0dDbWtnR3FBWm1qSlVpTVIxWEFYWUtsU2FFUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNalJpRC13NnpTaThfNGRzM1lodV9tX0FnbV9DdXBDQVRnMzI0dk51RHItVHRxNmZFdmFxVUdEUFRTV2o2dnRSSEJBTkpvZ2FTZE1oY2JRUlpnbUQ1blhmWi1fWThRUDI5Skg4czFkeDJ6azVOdFBaN2hPRVhZdnk2emt3?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE81dDV5XzJOUmh1MENOQlhfdmFNNHJrQ3E1enBzS21paGExMmNvT190RXdYWmxvOHlSek94VGVmblMzMXRmeGpLd180OXBwN2dPc1NzVUdzaWs3Mk9yazVKeXY5ZnBONHVFem1ZQnBn0gFuQVVfeXFMTzV0NXlfMk5SaHUwQ05CWF92YU00cmtDcTV6cHNLbWloYTEyY29PX3RFd1habG84eVJ6T3hUZWZuUzMxdGZ4akt3XzQ5cHA3Z09zU3NVR3NpazcyT3JrNUp5djlmcE40dUV6bVlCcGc?oc=5",
+      "https://www.businesswire.com/news/home/20260407062528/en/Modus-Raises-%2485-Million-Led-by-Lightspeed-to-Build-AI-Native-Accounting-Firm",
+      "https://www.cpapracticeadvisor.com/2026/04/07/modus-raises-85-million-in-funding-for-ai-native-accounting-technology/181119/",
+      "https://thenextweb.com/news/modus-10m-seed-insight-partners-context-warehouse-enterprise-ai"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -55312,17 +55330,29 @@
     "stage": "Seed",
     "first_invested": 2024,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 1000000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Seed",
+    "last_round_amount": 1000000.0,
+    "last_round_currency": "EUR",
     "last_round_date": null,
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1000000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/moncyte-health-raises-eur-1-060000188.html"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://finance.yahoo.com/news/moncyte-health-raises-eur-1-060000188.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -187996,19 +188026,52 @@
     "stage": null,
     "first_invested": null,
     "status": null,
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://moladin.com/"
+    "total_raised": 43200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1200000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-07-12",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1200000.0,
+        "currency": "USD",
+        "date": "2018-07-12",
+        "investors": [],
+        "source_url": "https://sg.news.yahoo.com/indonesia-motorcycle-buying-platform-moladin-raises-us-1-041335331.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series A",
+        "amount": 42000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Sequoia Capital India",
+          "Northstar Group"
+        ],
+        "investors": [
+          "Sequoia Capital India",
+          "Northstar Group"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbmo3RHJzd3RoX1JaUlp6WTA5eWZiSk5zM28wM0FWQTFZQUFZUjUxZG1oejlmWmJ6R3J2VXRoSFZiREIxaEZiSEtmaEhKSjJXQl92bi1qakZ0Ynp1eUtJcngwazhLY2puTFlpaHFtRllCcVduMS1zMm9OcE9UbkhlcmdHV01XQjRwYl9VMkVyQkJoa3lXenlFdGRPR29SbDZ2Y184b28tdnVtWmgwY3BzMnFCZ21JenJJSktZaUlMUlZzellYcjlRRWE0ZjV0TUxFbjhIQTRBc1FDOVBHekFBd1BmVWFacmc?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "notable_investors": [
+      "Sequoia Capital India",
+      "Northstar Group"
+    ],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://moladin.com/",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbmo3RHJzd3RoX1JaUlp6WTA5eWZiSk5zM28wM0FWQTFZQUFZUjUxZG1oejlmWmJ6R3J2VXRoSFZiREIxaEZiSEtmaEhKSjJXQl92bi1qakZ0Ynp1eUtJcngwazhLY2puTFlpaHFtRllCcVduMS1zMm9OcE9UbkhlcmdHV01XQjRwYl9VMkVyQkJoa3lXenlFdGRPR29SbDZ2Y184b28tdnVtWmgwY3BzMnFCZ21JenJJSktZaUlMUlZzellYcjlRRWE0ZjV0TUxFbjhIQTRBc1FDOVBHekFBd1BmVWFacmc?oc=5",
+      "https://www.techinasia.com/moladin-secures-funding-east-ventures?ai-allowed=1",
+      "https://sg.news.yahoo.com/indonesia-motorcycle-buying-platform-moladin-raises-us-1-041335331.html"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -393622,17 +393685,29 @@
     "stage": null,
     "first_invested": 2020,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series B",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ2RQWmd3bDQ2ZjBDXzd2NVZLelZscEJlTFhES0ItTGM4U0I1alVlNFd5aEp3Q0hnRGw2YklFbmZaVmhMcERpOUZUQXl1a2NjNWpzWHhibXh3Ym1NaGVjRXQ3WnlMS3VvTTdnbWY0SlFJYTdWb1pzM1B2THJhMkJxWkhmTVZidEpiQXdXcVFFcG1Ydm10TE5Ibk14enpPZ2d6X3VrNmFZZm45Z21KeEhoRjNIWWJqRTlPbnhXU0xRNG1iQkpGMDR2Z0ZsQVdxR1NpWTE3c25XQmpTODRUdTFsM1RyNjlaVjZx?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ2RQWmd3bDQ2ZjBDXzd2NVZLelZscEJlTFhES0ItTGM4U0I1alVlNFd5aEp3Q0hnRGw2YklFbmZaVmhMcERpOUZUQXl1a2NjNWpzWHhibXh3Ym1NaGVjRXQ3WnlMS3VvTTdnbWY0SlFJYTdWb1pzM1B2THJhMkJxWkhmTVZidEpiQXdXcVFFcG1Ydm10TE5Ibk14enpPZ2d6X3VrNmFZZm45Z21KeEhoRjNIWWJqRTlPbnhXU0xRNG1iQkpGMDR2Z0ZsQVdxR1NpWTE3c25XQmpTODRUdTFsM1RyNjlaVjZx?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -443857,12 +443932,28 @@
     "last_round_currency": null,
     "last_round_date": null,
     "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://mydawa.com/"
+    "grants": [
+      {
+        "name": "Grant",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": "2023-07-03",
+        "source_url": "https://techcrunch.com/2023/07/03/kenyas-mydawa-aims-to-be-an-all-in-one-health-platform-backed-by-20-million-funding/"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "grants only",
+    "funding_source_urls": [
+      "https://mydawa.com/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEN3QlZMMHBFT2pBak9mZWNpSmpaWTFjYWhYYThyanNUeGVwMGltdXhBNUZHLTFwZkRubmhFWWF4c3UxM2VqUkJpdGxLNnk0QUNzbmtkeFJDdWFwWWd5TEZ6NlJYYUdpQ1RnRlRkYXhxZ1NfeVVjVVVZZ0tIWW5ta2twajZHb3dmRDFpa3Rsak5DVFVfU1Fod1EtaUJKbWs?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMTZ3NXBKb250cEtFaS1ib2tTNURUQ3loSGkwNzJaQmpZM25sYVFZZXlLa0t6al9pVldLVFp1SlRhbTZsOVZPR2F0Q1JaNXpRbFJiMWZ4eEc4SC1uZXVlaEUtNXItalBrNmV4Mk41eDFiNldCT3hiTWFrVXg5QkRtUDlrckhFdWFZaGkzNXVBUmc3Qk5Yakc3elR5REI0a0ZnM2c1VWJvZ3VQRy1LM1RoUW9rS1N2enpmQzdyS0MzY29hbWlCRC1NZ0tCSVRRTUZEWmc?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HQ01PbjhSLWZNQ19henp5VjRHZTNndEthanRlYlRyX1lKSTdMWl9NQUdkZVQ4dzdSUm03UktCYW0wTkxEWi01NWhQdzFYQzlUM3N4VU9rTFMweFp4NExqcGNsTUFRQlNBbGVTUkVsSG9nbE5mUXg4?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3lCeDc0bVNJWEpGY1VQbUpiVnBISjJ5VnhUeF8weVRZcVNhdkZwWldvTHhYaUlCS3FmelF1Qi1MaGtUbXpFc2pSc3pUc2gwa1NQcFdEc0oxcFRFa3VGRXd1QkhFOTNKM2RNM0ZrbnQtTTBnaWFtYWdSeHpMZXN1ak5scnlSV0txUXFRdEdWNWllbE1YcE9kcWgxT1JhUnFwVVlPeWxqQTV5RlUxQ09FUG9PQ0k3dw?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWnVSdFBhcTZpdGVLX0J3LUc2MFNudXJaTGdaYVNDWkJMakVtQjJncFZjdndDMnRCcDlvRmlqSHlBN285WlZ4MW9UTXFjUWJoSnJ1dUp6WEg2c1FCeVJrbHJ4Ulo5czRmcHBYM0JxM3daMXRPSGF2ajVJa2I1VFJaa0xoQmk?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnNja3BBS29uVG16X3Nmb2Rhd1JNc0pNdzFBaWxNdXhNTnZNalcxbjBjeTA4eGlqeEw2WUFyeEhwcmFfSnhKNjRkbTVQMHFjbTdoVDNVZWktWWsyWlVDWDFxZTNNRVVIUXlnOVdfc01RLUZoaW5IcW82NmVSbmRzS3UzdkxiSVhvcEpKWWNHR0VabFlSZlllbnJJbTZyWE5jTHNZb3FuQmZYcjA?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUTBzbzlIUUZlOWpvUG01WGE2b0JxU2lDRlU0czNILURWOW1yeVFKMllPTTM0U2NBZ2xLTTVYUzJGMm9iYkxxWUN0Q2R1WWdkRUxyLTZ6SVVfbzFMaUxtcVVYUXdaelF4V3YwemNneXI2eHZCdnZUN2Q4QUJTbVM0NEs2YVY2aG1teUh2b0ZUeUhyUWlHSTFQMA?oc=5",
+      "https://techcrunch.com/2023/07/03/kenyas-mydawa-aims-to-be-an-all-in-one-health-platform-backed-by-20-million-funding/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -481841,17 +481932,35 @@
     "stage": null,
     "first_invested": null,
     "status": "active",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "total_raised": 5800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5800000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5800000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUpPRVR0Y3BxVWl0REVlR1RmSWtKV0k2MFBTRXk4bzhpQlFzTmlob2FSWURybm9KbldkNTRTT0tnbjVjdFRRQWQ0MFE2YjZ6WFpVd1NVV3RQaHUwcEdBN3g4cmxNTFl5QkFMb2RKSEJFQ2tIZ3pkWGJsM2hpOHpIT2JLZFhvMTU4ZXNVTk9DUUxHSEk2bkFPa1lWdGJibWc2cjVR?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUJhbjBKYkJuZi1Hby1YeDZKOGJoY0hfcm9ZYkVXbi1FbkxNaFhGajhpdG1IY0tWNElVSEVETy1PYmpBcVN0RnY4cGJQcmxWbUxpemZ3QmRnbWlTaHhOSHllMXVmMGhMN3EyZzBrRFpvSnV3cUJXVTUwV2V1NUotX2xCYjBlSVBLQUMxQ216cm03djJMUzliaGI5RV9zalg0Y0R1SlU4aHhfYjY3bXM0SzVLbHI?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWUpPRVR0Y3BxVWl0REVlR1RmSWtKV0k2MFBTRXk4bzhpQlFzTmlob2FSWURybm9KbldkNTRTT0tnbjVjdFRRQWQ0MFE2YjZ6WFpVd1NVV3RQaHUwcEdBN3g4cmxNTFl5QkFMb2RKSEJFQ2tIZ3pkWGJsM2hpOHpIT2JLZFhvMTU4ZXNVTk9DUUxHSEk2bkFPa1lWdGJibWc2cjVR?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0Q0TFN5eGNZTHFfOERyYmRHVUVsLURiLXo1ODVOMThyRjV2ZDVNZHFhdFpfbXNjVHdmdTBUa1dCV09UR1dKaXFjeTdoTWNDTjBJY2wxX1BKeDZVY3pvUno1UWFZc2plNzJMOXcwLWdyVThMcDBFcGF5MUhQeFFzZXFWOTE3RlpLbGFkdnJ3M29lS09KdkdyajhYMDAwc1BDQnpiQ0ZkOA?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMExudzVmTGNrR1ZPMi1KaWpMUjlxbk01RW02bEk0MHc5SUN0aFQ4QTNkLVZWdDI3TGNLTGJxclQ3NW02QndTaTNqenBSaktGMng0VVRNX010Tm5Ebld3bDh0NGo2dWxxVnp0SGZQS1dRMkJnanRoOG9vT1pTd0xFcWE5bG03RGh0QldF?oc=5",
+      "https://www.cartoonbrew.com/business/motorica-raises-5-8m-for-its-game-animation-ai-platform-248114.html",
+      "https://www.desertsun.com/press-release/story/1626/motorica-raises-e5m-to-lead-the-generative-ai-revolution-in-character-animation/",
+      "https://www.forbes.com/sites/charliefink/2025/06/24/motorica-raises-5-million-to-replace-mocap-with-generative-ai/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -603749,9 +603858,13 @@
     "grants": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_source_urls": [
-      "https://cloud.name-coach.com/"
+      "https://cloud.name-coach.com/",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdjFyNFRLa1RVSXJESHFLa1p3SU1fN3lqbjdFdkdXZXRLOU5WWGZUcS0yMThQUmpoZWRjdzQ0MHNLWjRHMnhQS0xIZlRZQXZGb2lySEhBRFN4U19WaEQ2cURDOUpGenRQZWh1S21QdGpwanBsZjBia3gwMlhIYVl1VnVjYjl2R3pVM1AtcE1QN3hQZXJMdDZydW56alRnM25MWkJIZjRZNA?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbWp5QlZMYWVLRW15WEplUjV1UmtnY3FrMHJSamF4M2VNeGpkU082UzdzUG5OR0t2SktjLVJuTmxUNWtuajN0eWxNUnYyRjJHdWVRUkxaOFU0LUNMVTM2SG9nU2doQkhZdDV2dHRzQ2JneHpadnVHVE9nOUROQ0lCSnp3bmk?oc=5",
+      "https://finance.yahoo.com/news/namecoach-lands-8-million-series-142500429.html",
+      "https://techcrunch.com/2022/11/17/namecoach-raises-cash-to-teach-users-how-to-correctly-pronounce-names/"
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -683231,17 +683344,50 @@
     "status": "active",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "AUD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://modoenergy.com/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNThLajQwZFk2Z2psUzhPYll5ZzdNOERoRk1RR0VqdXpJTjZtYUlZaVhrbEVFRkpGQU9heXRxQUtWM2l5UmhVNHpQRW4xQUxLeVBJcWZtYlRJZThGZ0dTSWg5VnJYdTJRdFFEeTJWZ2g1NWY2a2NEMGpyNnVXemV0MFd3UU9UYXZpbnNadElnaHlSaThqc1VTc2gyTXdqUFpXUS0xVDc2cjkxQWlvNXdPQTUtamdNTDRsUHltZUI3X3NEUVh4VnpZOWRtTjZRS2V4dnFfYUpERmp6bV9z?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/modo-energy-secures-17-million-in-growth-funding-from-cibc-innovation-banking/"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 24000000.0,
+        "currency": "AUD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVd3eUZ6enIyOHJGWHdtdXpNaTlwUzlPQWdUMlBHb0pUUXEwNW5DMVJyM3lrYktpYXJRS3g5Y2oycWZLTHlLWW9TMU5HeXUtcFFvMmdGSTNLclowSkdDTklxbTRhaVVZVENOSTBSSnJZZlI1QVg2Y3IteTJEM3hHNXR3cVFqTU41RnpFbzdGMXdsTFFIbnkzaVMwSjhENWJMTmd3OThXQlBLdw?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://modoenergy.com/",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNl9SazdGY1BXX1ZVa0xHY2pVVjZKMHYwM1JPcXB5Mm1td21aSmlia2xGWHdRSkpPWC1oS3dxMWdDNU5ZM041OUdnQ0VTLWNRaVN5dkVCcF9PZDRfYS1laVMwT0E3LWFBZ3gyaDZZLTdlb0RUVGd1N3NNSGpIY2s5TzU2RUZPc05vSEZieTdyNVdLLWl1T0xnQTNQQkNoczhvbFBNQkc0dFV1MHVNRWkya0w5M0FDM19rZU9vSVpGbEhrMk16alVZeUw3ODMwNl9EaG9Tag?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVd3eUZ6enIyOHJGWHdtdXpNaTlwUzlPQWdUMlBHb0pUUXEwNW5DMVJyM3lrYktpYXJRS3g5Y2oycWZLTHlLWW9TMU5HeXUtcFFvMmdGSTNLclowSkdDTklxbTRhaVVZVENOSTBSSnJZZlI1QVg2Y3IteTJEM3hHNXR3cVFqTU41RnpFbzdGMXdsTFFIbnkzaVMwSjhENWJMTmd3OThXQlBLdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQalVSU2FnNnJXTE5qYUo1UHVub00zbXZMQ0t3RXg1TEJfcFZ6UTNnTEtwbnNnOFhhZXlTWGJNb2FLSnduamVobXZ0LUVSekJtTHg4eFNRaTJYWDRrTUZRRTVCYnhaejdaaVFaNHFsbFNob1lfQUJrZUt3TExua2NzbkNlTE1waTV0QmY5bmxidW9saGxWNF9GMnFxQ2JJLVFtOGFlQkl3MXE?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNcGlQWEx3YkR0bzNSSzRNdHBxdDlocmhMVU9jRm9xU3d0dUVJQ0VNTC1SWkFQVzBVZG5Xc0dsbDBYSy14dHRVLVlrNnBjcWtDbFJNejlPV1dhV1p5ZmlESTA4NE85cXg4VHZEWWlKZjNyeHcyLUhFSVNBTXU2dUVfd2FsamdTQ25zWWtpeWQxMmMzanltTVhuUXNHaVEzUdIBowFBVV95cUxPQU9kcGdydDkweE1QWUJ5SWtBQVBwLVpONHVyLXl5dFNIZy1McHVyWVYxV1p0WGRoOXhNam5maTlpSWROSldveWxST0F2OElDckpDbjN2T3JxNU5mVU5iWWc3UVIxWmpZdGp6VjNuWmNLaHhTRmUwMmZLNVFqTEMwc0NUcXJDWkFYZFBzTFhCNEpLRXpVbjRPVDBxTlR1dXBzQ0pJ?oc=5",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNThLajQwZFk2Z2psUzhPYll5ZzdNOERoRk1RR0VqdXpJTjZtYUlZaVhrbEVFRkpGQU9heXRxQUtWM2l5UmhVNHpQRW4xQUxLeVBJcWZtYlRJZThGZ0dTSWg5VnJYdTJRdFFEeTJWZ2g1NWY2a2NEMGpyNnVXemV0MFd3UU9UYXZpbnNadElnaHlSaThqc1VTc2gyTXdqUFpXUS0xVDc2cjkxQWlvNXdPQTUtamdNTDRsUHltZUI3X3NEUVh4VnpZOWRtTjZRS2V4dnFfYUpERmp6bV9z?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1VsUTJiWUdNSVJwT29PVHFJMWc2RS1hYW1ralVJejVLUnpGckpHTlFlN3FpaURRdWtFaGZuV3RKTmw0TVRld2FId0NnRzFXaWplMk1pVFBHb3FvRW5NdUdtMUNXblJNaDAwYWFqMTJEMEs5MDRPcTBFWHBuWlhDa19HSlFFSDFydzRV?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVk5LZUl0R3RpbzhTaDBZRkJFTWRzY09RWTAxRmtaWFI5TDl5NldQZ1VORTJnRS1HT3hEbFd3SjhmNlluR2pxbFV3TkoyY2NlR1UyRlVHalB0LUQyZkpLbDdMdWowUzI3OW5kZU9wYjRxYjVUVG5hdE51NHFZWW05RmlpdUZDTEpPRTNXaFJKTVZGZU9mRnIwWVpNbUNWd0ItSnFFSl9mV1Q0SjduZXJvM3YxV0JoQ0xFVkhqSnFPNENHcGZZMXZRSi1YUEcyaVZtX1J6NVoycw?oc=5",
+      "https://pulse2.com/modo-energy-secures-17-million-in-growth-funding-from-cibc-innovation-banking/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -693224,17 +693370,50 @@
     "status": null,
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 24000000.0,
+    "last_round_currency": "AUD",
     "last_round_date": null,
-    "funding_rounds": [],
-    "grants": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [
-      "https://modoenergy.com/"
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNThLajQwZFk2Z2psUzhPYll5ZzdNOERoRk1RR0VqdXpJTjZtYUlZaVhrbEVFRkpGQU9heXRxQUtWM2l5UmhVNHpQRW4xQUxLeVBJcWZtYlRJZThGZ0dTSWg5VnJYdTJRdFFEeTJWZ2g1NWY2a2NEMGpyNnVXemV0MFd3UU9UYXZpbnNadElnaHlSaThqc1VTc2gyTXdqUFpXUS0xVDc2cjkxQWlvNXdPQTUtamdNTDRsUHltZUI3X3NEUVh4VnpZOWRtTjZRS2V4dnFfYUpERmp6bV9z?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 17000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/modo-energy-secures-17-million-in-growth-funding-from-cibc-innovation-banking/"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 24000000.0,
+        "currency": "AUD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVd3eUZ6enIyOHJGWHdtdXpNaTlwUzlPQWdUMlBHb0pUUXEwNW5DMVJyM3lrYktpYXJRS3g5Y2oycWZLTHlLWW9TMU5HeXUtcFFvMmdGSTNLclowSkdDTklxbTRhaVVZVENOSTBSSnJZZlI1QVg2Y3IteTJEM3hHNXR3cVFqTU41RnpFbzdGMXdsTFFIbnkzaVMwSjhENWJMTmd3OThXQlBLdw?oc=5"
+      }
     ],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "grants": [],
+    "funding_status": "unclear-round-type",
+    "funding_source_urls": [
+      "https://modoenergy.com/",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNl9SazdGY1BXX1ZVa0xHY2pVVjZKMHYwM1JPcXB5Mm1td21aSmlia2xGWHdRSkpPWC1oS3dxMWdDNU5ZM041OUdnQ0VTLWNRaVN5dkVCcF9PZDRfYS1laVMwT0E3LWFBZ3gyaDZZLTdlb0RUVGd1N3NNSGpIY2s5TzU2RUZPc05vSEZieTdyNVdLLWl1T0xnQTNQQkNoczhvbFBNQkc0dFV1MHVNRWkya0w5M0FDM19rZU9vSVpGbEhrMk16alVZeUw3ODMwNl9EaG9Tag?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVd3eUZ6enIyOHJGWHdtdXpNaTlwUzlPQWdUMlBHb0pUUXEwNW5DMVJyM3lrYktpYXJRS3g5Y2oycWZLTHlLWW9TMU5HeXUtcFFvMmdGSTNLclowSkdDTklxbTRhaVVZVENOSTBSSnJZZlI1QVg2Y3IteTJEM3hHNXR3cVFqTU41RnpFbzdGMXdsTFFIbnkzaVMwSjhENWJMTmd3OThXQlBLdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQalVSU2FnNnJXTE5qYUo1UHVub00zbXZMQ0t3RXg1TEJfcFZ6UTNnTEtwbnNnOFhhZXlTWGJNb2FLSnduamVobXZ0LUVSekJtTHg4eFNRaTJYWDRrTUZRRTVCYnhaejdaaVFaNHFsbFNob1lfQUJrZUt3TExua2NzbkNlTE1waTV0QmY5bmxidW9saGxWNF9GMnFxQ2JJLVFtOGFlQkl3MXE?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNcGlQWEx3YkR0bzNSSzRNdHBxdDlocmhMVU9jRm9xU3d0dUVJQ0VNTC1SWkFQVzBVZG5Xc0dsbDBYSy14dHRVLVlrNnBjcWtDbFJNejlPV1dhV1p5ZmlESTA4NE85cXg4VHZEWWlKZjNyeHcyLUhFSVNBTXU2dUVfd2FsamdTQ25zWWtpeWQxMmMzanltTVhuUXNHaVEzUdIBowFBVV95cUxPQU9kcGdydDkweE1QWUJ5SWtBQVBwLVpONHVyLXl5dFNIZy1McHVyWVYxV1p0WGRoOXhNam5maTlpSWROSldveWxST0F2OElDckpDbjN2T3JxNU5mVU5iWWc3UVIxWmpZdGp6VjNuWmNLaHhTRmUwMmZLNVFqTEMwc0NUcXJDWkFYZFBzTFhCNEpLRXpVbjRPVDBxTlR1dXBzQ0pJ?oc=5",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNThLajQwZFk2Z2psUzhPYll5ZzdNOERoRk1RR0VqdXpJTjZtYUlZaVhrbEVFRkpGQU9heXRxQUtWM2l5UmhVNHpQRW4xQUxLeVBJcWZtYlRJZThGZ0dTSWg5VnJYdTJRdFFEeTJWZ2g1NWY2a2NEMGpyNnVXemV0MFd3UU9UYXZpbnNadElnaHlSaThqc1VTc2gyTXdqUFpXUS0xVDc2cjkxQWlvNXdPQTUtamdNTDRsUHltZUI3X3NEUVh4VnpZOWRtTjZRS2V4dnFfYUpERmp6bV9z?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1VsUTJiWUdNSVJwT29PVHFJMWc2RS1hYW1ralVJejVLUnpGckpHTlFlN3FpaURRdWtFaGZuV3RKTmw0TVRld2FId0NnRzFXaWplMk1pVFBHb3FvRW5NdUdtMUNXblJNaDAwYWFqMTJEMEs5MDRPcTBFWHBuWlhDa19HSlFFSDFydzRV?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVk5LZUl0R3RpbzhTaDBZRkJFTWRzY09RWTAxRmtaWFI5TDl5NldQZ1VORTJnRS1HT3hEbFd3SjhmNlluR2pxbFV3TkoyY2NlR1UyRlVHalB0LUQyZkpLbDdMdWowUzI3OW5kZU9wYjRxYjVUVG5hdE51NHFZWW05RmlpdUZDTEpPRTNXaFJKTVZGZU9mRnIwWVpNbUNWd0ItSnFFSl9mV1Q0SjduZXJvM3YxV0JoQ0xFVkhqSnFPNENHcGZZMXZRSi1YUEcyaVZtX1J6NVoycw?oc=5",
+      "https://pulse2.com/modo-energy-secures-17-million-in-growth-funding-from-cibc-innovation-banking/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {
@@ -830214,8 +830393,10 @@
     "funding_rounds": [],
     "grants": [],
     "funding_status": "no public funding found (fast pass)",
-    "funding_source_urls": [],
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://inc42.com/buzz/orios-and-nea-backs-digital-entertainment-content-platform-missmalini/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21"
   },
   {

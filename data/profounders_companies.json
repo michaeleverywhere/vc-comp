@@ -1199,18 +1199,41 @@
     "primary_investor": "PROfounders Capital",
     "source_url": "https://www.profounderscapital.com/portfolio",
     "scraped_at": "2026-10-17T19:19:46.870330+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1400000.0,
+        "currency": "GBP",
+        "date": "2020-10-21",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/mindlabs-raises-1-4-million-120055559.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2021-10-07",
+        "investors": [],
+        "source_url": "https://uk.finance.yahoo.com/news/mindlabs-gets-3-5m-seed-090336503.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeko3cXZZMUlDaHk2S2VKQkpBNzNQWk5mRXR3S2VuZF9RcDc5SGRRMlp4MnJTc3hhN3RrYmdJZzBwU285dzNTWVczRWQzSFU0aWZLdUViQS1qQ0x6ZHhwV3pZUFg3MjlScVJXX3VwVXhzYll0dHd3ODNoVWhBaHI4dk1fQkRCdHZsejFFdmdERGhuLWtkWGc?oc=5",
+      "https://finance.yahoo.com/news/mindlabs-raises-1-4-million-120055559.html",
+      "https://uk.finance.yahoo.com/news/mindlabs-gets-3-5m-seed-090336503.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Seed",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-10-07"
   },
   {
     "company_name": "Moves",
