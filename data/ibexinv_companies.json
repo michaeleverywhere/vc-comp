@@ -1090,7 +1090,19 @@
     "everywhere_tags": [],
     "primary_investor": "Ibex Investors",
     "source_url": "https://www.ibexinvestors.com/private-portfolio",
-    "scraped_at": "2026-10-17T21:11:03.815566+00:00"
+    "scraped_at": "2026-10-17T21:11:03.815566+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Ray Security",
@@ -1101,7 +1113,31 @@
     ],
     "primary_investor": "Ibex Investors",
     "source_url": "https://www.ibexinvestors.com/private-portfolio",
-    "scraped_at": "2026-10-17T21:11:03.815566+00:00"
+    "scraped_at": "2026-10-17T21:11:03.815566+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XU2M3VUQxajBfZzVueEZtQzZ6ejMzajBOR3ZINlBuVHBNemxjQ1hiMThtUVlmcF84bjVKMzMwcmppNUJmVFFIU2ozcU1scE1lU0Nxb0xLbGpLcmdpVHMxbVNrWlhtVXpr?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XU2M3VUQxajBfZzVueEZtQzZ6ejMzajBOR3ZINlBuVHBNemxjQ1hiMThtUVlmcF84bjVKMzMwcmppNUJmVFFIU2ozcU1scE1lU0Nxb0xLbGpLcmdpVHMxbVNrWlhtVXpr?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Seed",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Reclaim Security",
@@ -1112,7 +1148,55 @@
     ],
     "primary_investor": "Ibex Investors",
     "source_url": "https://www.ibexinvestors.com/private-portfolio",
-    "scraped_at": "2026-10-17T21:11:03.815566+00:00"
+    "scraped_at": "2026-10-17T21:11:03.815566+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Acrew Capital"
+        ],
+        "investors": [
+          "Acrew Capital",
+          "QP Ventures"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sYjV4cElyQWpVdHpibFRlMExBX3Y3TnFycGVJQVBjM1ktbXk0VTBhektGWTdFcWtKZUhGV1dhdUx2WFVlWXFhaUt0bXlxcl95RmQ4SDlqZ21DR0RZVjRhS0tfaWtqWlNm?oc=5"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 26000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHBGLWdKLXVDTllwZnUybnFxLTlkUWo5RzFnenRwN3FQbXVXTFItZ2ZxSmt3MFhKUG9ESVYteHhhWURtdzFyb1NIMF9JRjhYY19oc3ZQOVBoT3VEcUduS0xuWVZYaEN1dkhwYWlqVVRwQXRjVGc2TGQ4WmtIbTh0dDNwZS1yQWRBY05QS28wYVBZSUdlSFRSWFdWcVZ4d04wXzlzWHZjZ0ZqVHhTS3VVRmtEemFRSzZCdEVWUS1PWVY?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sYjV4cElyQWpVdHpibFRlMExBX3Y3TnFycGVJQVBjM1ktbXk0VTBhektGWTdFcWtKZUhGV1dhdUx2WFVlWXFhaUt0bXlxcl95RmQ4SDlqZ21DR0RZVjRhS0tfaWtqWlNm?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU2RFcmV4ZlBDZFVYSDg1S0lQbExaOE51bFY5ZU94WEhpeU1zclg3VDM0ZnkwdUZDRURiMUFOX3BaSmFDa3l1YWtDUkYyd1NkWnpVMzVFUzQxb3dVLWJ5NjN2U2t4ejc0RjJUZElHak9UbC1PN29wcVhmaG5taVBnZUo4dHZQRFZlblJwNjJEWEV6RmVt0gGaAUFVX3lxTE43dXgzVzJLdDhYbjFZZ0p6Q2ZXeDltb1hHR3FETnBsTU9LRXBhM3oyRi10MnB5SU1odVFTMEVSaldBUTU4Y1V5NTZoVnprekpoT3dQQmpXZWhLa2h5VlpvdHU4czdET0JWY2lDeWMwcERfQy1KVHNXclUySkdRNXJQeDNZWlltUUV4dVdsX25pbDJEODk2bjZNTXc?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHBGLWdKLXVDTllwZnUybnFxLTlkUWo5RzFnenRwN3FQbXVXTFItZ2ZxSmt3MFhKUG9ESVYteHhhWURtdzFyb1NIMF9JRjhYY19oc3ZQOVBoT3VEcUduS0xuWVZYaEN1dkhwYWlqVVRwQXRjVGc2TGQ4WmtIbTh0dDNwZS1yQWRBY05QS28wYVBZSUdlSFRSWFdWcVZ4d04wXzlzWHZjZ0ZqVHhTS3VVRmtEemFRSzZCdEVWUS1PWVY?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdWtWMVdIQmZxQnZiYldMXy01NExjWjJPS05OX2tvY3NqRVJwWnB6NnVqenJ3LTY2OTViOFY4cllwTHVGa0Zfa0cwMU9qZDNreHVrWDBGX1FrYzdBeDQ1YkNfWW1iZkZYZTBBWUU1bTJIZGJVaTdOenREOUZ6ZG5LaERscjhrVmZvVTRndm5sbEJ0N2g0NzFFMUN1SExkLVk0Q1ROMmRWRQ?oc=5",
+      "https://pulse2.com/reclaim-security-26-million-raised-for-ai-driven-cybersecurity-remediation-platform/",
+      "https://finance.yahoo.com/news/reclaim-security-raises-26m-eliminate-165400462.html",
+      "https://www.helpnetsecurity.com/2026/03/05/reclaim-security-26-million-funding/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 26000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 46000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Acrew Capital",
+      "QP Ventures"
+    ]
   },
   {
     "company_name": "Revv",

@@ -365,20 +365,33 @@
     "primary_investor": "GITV",
     "source_url": "https://gitv.vc/portfolio",
     "scraped_at": "2026-10-21T00:36:35.353402+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBENXhRaDMtWXh4S2puZjhqSUVUbmVhZHZxbnN2TmsyWjQ2aHoycTM3d01OOEktSVRCNExHY1F2eks3a3FzZzlTUjhHSUp3bkNRc09NRFFzWDZCc1ZaQ2k0TjdtMTh1UWs?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.hoopo.com/"
+      "https://www.hoopo.com/",
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBENXhRaDMtWXh4S2puZjhqSUVUbmVhZHZxbnN2TmsyWjQ2aHoycTM3d01OOEktSVRCNExHY1F2eks3a3FzZzlTUjhHSUp3bkNRc09NRFFzWDZCc1ZaQ2k0TjdtMTh1UWs?oc=5",
+      "https://totaltele.com/iot-tracking-solutions-provider-hoopo-raises-3-5-million-in-seed-funding/",
+      "https://www.benzinga.com/news/19/07/14016550/geolocation-startup-hoopo-announces-partnership-with-polymer-logistics"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Infinite Uptime",

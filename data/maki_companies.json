@@ -470,7 +470,19 @@
     "primary_investor": "Maki.vc",
     "profile_url": "https://maki.vc/case/revonte/",
     "source_url": "https://maki.vc/portfolio/",
-    "scraped_at": "2026-10-10T13:17:30.756303+00:00"
+    "scraped_at": "2026-10-10T13:17:30.756303+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Tracksight",
@@ -899,7 +911,51 @@
     "primary_investor": "Maki.vc",
     "profile_url": "https://maki.vc/case/quanscient/",
     "source_url": "https://maki.vc/portfolio/",
-    "scraped_at": "2026-10-10T13:17:30.756303+00:00"
+    "scraped_at": "2026-10-10T13:17:30.756303+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3900000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUxQSUo2TV9ieGN3WnUwamQzOFdvNTBnVVlueWZVWlZFc1Jta2twV2ExeXFndFdLd0x3Y2hueTRtZld6Y1pxY0RzNG40TVgzX3ZFZlhxYXFpbWxpbUxtSm01NGt5TnQ5WFU0T05sZFhCOTBmZEpqT3gybzFvX0hDVDVIVjlGdFcxM1lmclB6QnBRWlVBSjVqWWJ2eU9kbHRSTkZSQ0V2N0M2YWVrd0FQbVN3?oc=5"
+      },
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "EUR",
+        "date": null,
+        "lead_investors": [
+          "Danish"
+        ],
+        "investors": [
+          "Danish"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYl9ONjBVd3JBRkVOb3N6ZzV4TG5qSFEyUjR4dE5KY3o5ZGt5ZnVfdFoyVW0tSlVKeEdBczJpUy1hX1FLMVJwTVhUdE5TV0dmS19TRHJwb2dWa3ZfNXloT2F3RHIzYzdSUVgtUXFJbnRabno4WnRfNjdVdEtqWk9aSjBuUGkteEdLeWduSEVLbnFZaEVtcmhwV3VwSmhJQVpaTnluWktsUU1yOENXMlRCZXBNcFZfMXZYWFFqNHUxcEdVcno4M3BmaDIxWHFaclR2ZGltOGpmcHZPeWtmZzBhR1FWYmZmV0dGNWlwaklTNFl5d9IB9wFBVV95cUxPbnUxOHNla0d4XzVUMkRoTi0zeWhMX1JnMUp1R2xCMmprZDJScEp4d1RmRGw2bDZZeE9hS294QXc2enBFdG51MTZRVGZmUjd2OS05SHpyU0VUQjlDNS1EWFpld2RydDB2UEJDSWZ3X0FOLTlWMmwwcmg5TkpYTkw3d0l1Zlp6RjlPRDktenVKYnVpdjF0eDNPS1MtY0FXQWlQWElZbGNJYnFKMEFnYl9EYlZzT0lBTElpcTFqVUNicUw1NWNjZ3FCektGZzI0SGhLemJ2NGx2NUNIY0xoeVI1cHNtS3h2NFZmQWYtd0lncVVaZm5oVmEw?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYl9ONjBVd3JBRkVOb3N6ZzV4TG5qSFEyUjR4dE5KY3o5ZGt5ZnVfdFoyVW0tSlVKeEdBczJpUy1hX1FLMVJwTVhUdE5TV0dmS19TRHJwb2dWa3ZfNXloT2F3RHIzYzdSUVgtUXFJbnRabno4WnRfNjdVdEtqWk9aSjBuUGkteEdLeWduSEVLbnFZaEVtcmhwV3VwSmhJQVpaTnluWktsUU1yOENXMlRCZXBNcFZfMXZYWFFqNHUxcEdVcno4M3BmaDIxWHFaclR2ZGltOGpmcHZPeWtmZzBhR1FWYmZmV0dGNWlwaklTNFl5d9IB9wFBVV95cUxPbnUxOHNla0d4XzVUMkRoTi0zeWhMX1JnMUp1R2xCMmprZDJScEp4d1RmRGw2bDZZeE9hS294QXc2enBFdG51MTZRVGZmUjd2OS05SHpyU0VUQjlDNS1EWFpld2RydDB2UEJDSWZ3X0FOLTlWMmwwcmg5TkpYTkw3d0l1Zlp6RjlPRDktenVKYnVpdjF0eDNPS1MtY0FXQWlQWElZbGNJYnFKMEFnYl9EYlZzT0lBTElpcTFqVUNicUw1NWNjZ3FCektGZzI0SGhLemJ2NGx2NUNIY0xoeVI1cHNtS3h2NFZmQWYtd0lncVVaZm5oVmEw?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmhpeEVhZ0FxU0pReFlNNkwxaG1ueVFNNHBZcm9kQlhNM2ZuaFFsSWpqeWNYaVoxN2JyVTNMeUtlOFZrOVU1Z3BFaVp5eXctMkVWaHpDbExVMVZfT2FzNDF1M3lvZkJpWHc3eUlPSW11NHR3TTcxS0ZGV1Z5QzcxdmZ30gGCAUFVX3lxTE5yaGl4RWFnQXFTSlF4WU02TDFobW55UU00cFlyb2RCWE0zZm5oUWxJamp5Y1hpWjE3YnJVM0x5S2U4Vms5VTVncEVpWnl5dy0yRVZoekNsTFUxVl9PYXM0MXUzeW9mQmlYdzd5SU9JbXU0dHdNNzFLRkZXVnlDNzF2Znc?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUxQSUo2TV9ieGN3WnUwamQzOFdvNTBnVVlueWZVWlZFc1Jta2twV2ExeXFndFdLd0x3Y2hueTRtZld6Y1pxY0RzNG40TVgzX3ZFZlhxYXFpbWxpbUxtSm01NGt5TnQ5WFU0T05sZFhCOTBmZEpqT3gybzFvX0hDVDVIVjlGdFcxM1lmclB6QnBRWlVBSjVqWWJ2eU9kbHRSTkZSQ0V2N0M2YWVrd0FQbVN3?oc=5",
+      "https://pulse2.com/quanscient-raises-e10-million-to-advance-quantum-and-ai-native-hardware-engineering/",
+      "https://thenextweb.com/news/quanscient-raises-10m-series-a-quantum-multiphysics"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 13900000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Danish"
+    ]
   },
   {
     "company_name": "Aisti",
@@ -978,7 +1034,31 @@
     "primary_investor": "Maki.vc",
     "profile_url": "https://maki.vc/case/qdi-systems/",
     "source_url": "https://maki.vc/portfolio/",
-    "scraped_at": "2026-10-10T13:17:30.756303+00:00"
+    "scraped_at": "2026-10-10T13:17:30.756303+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7500000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQVdDTVNzMVRfeXhYa0lKX1RpVWtya29lV0F4TW1EaXQ1c1FuNTZfRFh2alY2OW1USFFhWUFYRUN0VHI1RkMwQ2NRTllfQmpWOTNTRGZjZ0JoZ1ZhdzhTOEl4WlNYdE92alVPbExmdWNlRGZIVE9PZlI3dG1keWN1NW92NUIzLXFZbko2MUU2MU54bUhXaHpEUTVxUWViSjlWOXpqS0RBUXBLQUdZLWgwLUY3RzhqVmNtS253?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQVdDTVNzMVRfeXhYa0lKX1RpVWtya29lV0F4TW1EaXQ1c1FuNTZfRFh2alY2OW1USFFhWUFYRUN0VHI1RkMwQ2NRTllfQmpWOTNTRGZjZ0JoZ1ZhdzhTOEl4WlNYdE92alVPbExmdWNlRGZIVE9PZlI3dG1keWN1NW92NUIzLXFZbko2MUU2MU54bUhXaHpEUTVxUWViSjlWOXpqS0RBUXBLQUdZLWgwLUY3RzhqVmNtS253?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7500000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "total_raised": 7500000,
+    "total_raised_currency": "EUR",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "ogoship",
@@ -1888,7 +1968,21 @@
     "primary_investor": "Maki.vc",
     "profile_url": "https://maki.vc/case/qmill/",
     "source_url": "https://maki.vc/portfolio/",
-    "scraped_at": "2026-10-10T13:17:30.756303+00:00"
+    "scraped_at": "2026-10-10T13:17:30.756303+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.businessinsider.com/qmill-finnish-quantum-computing-startup-raises-seed-funding-vcs-2024-9"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "cherrypick",

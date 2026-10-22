@@ -9285,18 +9285,59 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 16000000.0,
+        "currency": "USD",
+        "date": "2022-03-21",
+        "investors": [],
+        "source_url": "https://betakit.com/bootstrapped-since-2008-helcim-raises-16-million-for-stripe-style-payment-solution/",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 53000000.0,
+        "currency": "USD",
+        "date": "2026-08-21",
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/small-business/articles/helcim-raises-53-million-series-153100760.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 38000000.0,
+        "currency": "USD",
+        "date": "2026-08-23",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/smbs/2026/helcim-raises-38-million-to-fill-small-business-banking-void/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSzhLZnp5MkZ5aFd4dE01MW1YQjR6ZDkybmowUmZTS2lHbFY2Uk1fSEJBeDkwT0o3djdnRzI1ZVNiUFZ4ZU1uU2FTLVhLazdCSFJNSGE5dHFlTENoSERvN1ZaWGdWNUZyUW8tVldxWU1pRkhXYnJNM1NxMC1DMm1sdWZucFZMSDI4MWhxM1E3eHZMOWJJQW8xZWRR?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOempNRlRVcklmNnBIMnNWWDBKT2RfcEsxbV9hVHd3TzBQNkRSemxnTWZhTXI4UVYxRUstbEhoT2htRmhic0t2OGZSNTIyRnM2X0xNRWlQRnZ0UVhPVTZ4YkJVNC1kNmhkNnpGNzBhUXRkR3NuOXJWbHptUXdPZ2l0UmgwQmlneEZwN1AzMDMySEU?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZi1XNS1hN0VrRDJqZEQwTXIyWkZnZ2pOOS1JWUZYdzRFNG90SlMtUjA5Zy1UUTk1MU1OSTdnYWpQTDlaeXNsbjZ6WG9wZGpZaTRVaTh6dm10Y1lJQW1NT0pHRlhSQXhob3ZSdjY1WnV0MTNkaUVpUW9jMlp2Q2NDMHBjUnNfOVJxZjA5SjluZTZTSkFfcWZ3czhiOC10LTh6SHJkQ0xiMUM3NU9NVVhaWUZHZ0lwUGgzQVE?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQXp6VVVIaTVoeUNhSWlNZGM5RU9iYjVBZkZmYXRZZWdFdjMxd2JJRkJlaFZPXzBRNS1fMWNQUWNiVVZtTk5vRDQxR1Jzb0JwcElTazNXai1PUXN1elk5UkljRUtmUG1jZnZ0UUM5amE5MHRhczNqRjJudlYzQVo5RFEtN2lSQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVZjWXFsYVZLN2JSeW53OHhwbTZacGFaMEhVX0p5Znk5NVliS2lrdmJtZUlTc2JZcjRyb0t4dGhjUUZUVTNycUQ1NklEV3NRbEdnaWN4T2Z5NVMxRGxiLVp1SUdBclBjVEh2S2RTTUNIQUNnbTNCRVlQVGlPM0JzQjBMQVEwTjRoYVFITUxrc0xoal9hYVJBTFctM0FZLUxmanV3SEVKS0lMYlB6Rk5PMU0tVWlVcWNmTm9sX2FGTWZOQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkRDTTBPRDN2ZUpiNXUxWUlsZ2RfcmFaSXBiekJuTlVFVkNSeWlEeGxaODJkOVJwNVhJMmZMeW04TzlYdEhRM1pmcGZnSWhHclpnYTQ4cGZRT0NuWXpPSXhNMkUtMWdLVFo4RWlxZ3FnY1Z3S3Y1NTJlUTBWeUlDSHl2RUw2cXBob2R3RGhsMWR5alA5aDNv0gGXAUFVX3lxTE1SRENNME9EM3ZlSmI1dTFZSWxnZF9yYVpJcGJ6Qm5OVUVWQ1J5aUR4bFo4MmQ5UnA1WEkyZkx5bThPOVh0SFEzWmZwZmdJaEdyWmdhNDhwZlFPQ25Zek9JeE0yRS0xZ0tUWjhFaXFncWdjVndLdjU1MmVRMFZ5SUNIeXZFTDZxcGhvZHdEaGwxZHlqUDloM28?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEZKVzZvOUd5Z0tFOExKcmFQVWZ6eXNBZUNCMnB5UWtoZGhxSjBaRFljY1h5V0JmaTZnMTQ1bkEtUExMXzRFbW9UUmUxTm1CYjhvR0VRMFRNSHRjT2RLV091YTJraUdSZEZFTV9ZS253RUNMaGpEWGtfV05wY0RmczJtNWNZVGlfV0Jjc196dUIxV2U3STRlYQ?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHNPMmY5WVFheG1PWWI0SzFGMVlWWThpSm5NZ01sb3ExX3VpT2FEYjEwYm5WZzhtTE40Uko5aVBnenRpSFQxMXVseWQyVmIzcFRqR3hlRFRwTU9PX3FOWmdJUzVidzBEdlJkYy1hQi1mZUFrb3FKNDdJeTRUQWJHa3U3azA2Z0hybDNCZkNMOEhiejQ3RldxUWFUUDhYU1NHZWRCWFoyX2Q5ZEN3eGtXTVkwYks?oc=5",
+      "https://betakit.com/bootstrapped-since-2008-helcim-raises-16-million-for-stripe-style-payment-solution/",
+      "https://finance.yahoo.com/small-business/articles/helcim-raises-53-million-series-153100760.html",
+      "https://www.pymnts.com/smbs/2026/helcim-raises-38-million-to-fill-small-business-banking-void/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 107000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 38000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-08-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "UXCam",
