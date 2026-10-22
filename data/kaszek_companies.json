@@ -2646,20 +2646,34 @@
     "primary_investor": "Kaszek",
     "source_url": "https://www.kaszek.com/companies/",
     "scraped_at": "2026-10-08T14:45:10.094871+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVTI0dVZpdE9XSFRZeGpkaTVGRS1FRGxOaEFTN1RnWFZlLWpBdUlfRUZRZUNNRGpvZXR1cEZOX1pCazh2MzF2R3JnVG85Z1RrN1FqTkJoQk9iZmtoMmlZUkpGVlY3VVM0UlM0Vi1vNGZoaEhZRnpRMzF5UHJYMHl3Yk9oMzJDb3lnWWZ3MmIweVZoQQ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.loggi.com/"
+      "https://www.loggi.com/",
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00ZjIxd3lfMG5jU1M5cjdTS1diS1NqVnMyblNYVEtPMC1jRktsbzNhTUJka1NxS2tMRTFqc0pBdDhUbVZmTllma0t2VXBoTlhEbGEtSHFfWDNxaWI4d2tVRW9yOFnSAWpBVV95cUxPQklEc0IzV3JnSDZQRG43Q2JHbGJTdkw1OXZlVXYzdFRFMUdIQ0JKU3MtcmdiRTMyMUJtQ1ZBVzJWWGJQREE0VTNWalBvdlltSE9xRkY0VDVHT29uZkVxSEZKZ2ctcldtSGV3?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVTI0dVZpdE9XSFRZeGpkaTVGRS1FRGxOaEFTN1RnWFZlLWpBdUlfRUZRZUNNRGpvZXR1cEZOX1pCazh2MzF2R3JnVG85Z1RrN1FqTkJoQk9iZmtoMmlZUkpGVlY3VVM0UlM0Vi1vNGZoaEhZRnpRMzF5UHJYMHl3Yk9oMzJDb3lnWWZ3MmIweVZoQQ?oc=5",
+      "https://finance.yahoo.com/news/brazil-delivery-app-loggi-raises-030100799.html",
+      "https://www.reuters.com/article/world/africa/refile-brazil-delivery-app-loggi-raises-over-200-mln-in-new-funding-round-idUSL2N2KY0J8/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 150000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "LoveMondays",

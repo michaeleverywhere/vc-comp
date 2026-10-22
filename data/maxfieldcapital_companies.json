@@ -283,20 +283,33 @@
     "primary_investor": "Maxfield Capital",
     "source_url": "https://maxfield.vc/",
     "scraped_at": "2026-10-20T20:50:03.194690+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3500000.0,
+        "currency": "USD",
+        "date": "2015-07-16",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/personal-cybersecurity-company-logdog-raises-35-million-a-round-introduces-support-for-twitter-515769401.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://getlogdog.com/"
+      "https://getlogdog.com/",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSXVpSVZkM1dFYVg0VW5iaV9fdWdZRldmNExEYUlpZENlUGhUYVV1akJWZEM3SlBmNTY0dlFoU1MzT1plWVFNWmpQM0h6TXlQWERHMlZ2bUVueGpHYk4zVUc0WkhHa1ptTTVQbXRUX0RZTVFxOWJELXZzVTFVVXVmUXphTdIBiAFBVV95cUxNM1BRVXdHQktXRndpOXRZVzBDci12YUtaTl9kXzBfSWVreGdJNC1UdEpiRnJEc2FaMC15YmRpc2p0NXFfMGF2ZFY1Q0gwTlQxT2w1QW5PWFNCeDQzRnozNFhheml0QjN5eWhhRDNOS1BaNFdJemNxbkl2VmRPX3EzV2s4alBMTmoy?oc=5",
+      "https://www.prnewswire.com/news-releases/personal-cybersecurity-company-logdog-raises-35-million-a-round-introduces-support-for-twitter-515769401.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 3500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-07-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Machinio",

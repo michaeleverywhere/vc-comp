@@ -2296,18 +2296,30 @@
     "primary_investor": "Expa",
     "source_url": "https://www.expa.com/companies",
     "scraped_at": "2026-10-09T13:35:21.158821+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTDNtMFhTdFpWdFlKcmtocEpaOEVnMTFRYk83ajRmWVpDRFFpTDZWaGltTU01Q2QzQ0lCaXpQLXVDRzZiaEM2aHRJbmk1ampkSFZpSjhhcFNrSVVhdnc4VnBieGR2UHE2N2owZVFiQVpqbVhEQks4enNDSmNXZ3VIdElHQ0FjSC05MjR5aDJLanphQVdMb3YwTVZuampJVTZLZERUMHhWU2JtMkRrRUpKX2xyaGM1NU1uclczQm9JYkltSjhYOTBROGtKZEdqLURfTWtqd3pjeHNCVnAyWE8zZEpHcWl1TVB5?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTDNtMFhTdFpWdFlKcmtocEpaOEVnMTFRYk83ajRmWVpDRFFpTDZWaGltTU01Q2QzQ0lCaXpQLXVDRzZiaEM2aHRJbmk1ampkSFZpSjhhcFNrSVVhdnc4VnBieGR2UHE2N2owZVFiQVpqbVhEQks4enNDSmNXZ3VIdElHQ0FjSC05MjR5aDJLanphQVdMb3YwTVZuampJVTZLZERUMHhWU2JtMkRrRUpKX2xyaGM1NU1uclczQm9JYkltSjhYOTBROGtKZEdqLURfTWtqd3pjeHNCVnAyWE8zZEpHcWl1TVB5?oc=5"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 3000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 3000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Merlin Guides",
