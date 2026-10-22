@@ -1583,7 +1583,19 @@
     ],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SETPOINT MEDICAL",
@@ -1595,7 +1607,57 @@
     ],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTlpKNVoyeGNBRDhHXzNYX21nNGJaM1B5M251MDB3WGd2RExCbUd4R1BBbzAtU3RNM1lBZ3QydzUxWnBtQlFrU0kxVTF6N2FYRHViNFQ1Snpvand2c0RhQmVud0RjdTM4aTNKaDZwbHdsOS1Cb1FXRUMyQ0hWdzdZX2JNdkdaMGgzYVE?oc=5"
+      },
+      {
+        "stage": "Series C",
+        "amount": 140000000.0,
+        "currency": "USD",
+        "date": null,
+        "lead_investors": [
+          "Elevage Medical Technologies",
+          "Ally Bridge Group"
+        ],
+        "investors": [
+          "Elevage Medical Technologies",
+          "Ally Bridge Group"
+        ],
+        "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNzlad1hwdHJzYTA4X2lDSzExNVh5QXBxS2FkZXVhcXNpN3BWMTFuUW8xUnZGSy03UzMwdTRhNEFSRm0yRVF5RFYyb24yNERUUDNxeTZhZV9rRUdXZ3hXNy16R3RTZUJyemNYbEM0OXM2ZE1LQVUtZDNNeVBwQ2JCaVp3?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNzlad1hwdHJzYTA4X2lDSzExNVh5QXBxS2FkZXVhcXNpN3BWMTFuUW8xUnZGSy03UzMwdTRhNEFSRm0yRVF5RFYyb24yNERUUDNxeTZhZV9rRUdXZ3hXNy16R3RTZUJyemNYbEM0OXM2ZE1LQVUtZDNNeVBwQ2JCaVp3?oc=5",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY3ZzeTluSGY0RURHa3NGWnpGZFdPU1JBaGxOUlFOV2lDR1BVRXQ5ZnBSdU44OTNLblBOT05jeWRLaURVRXNTbjc5TWpEekFOSkNRSWZ2ZzNISl9zUlJrV0hwQWJjekJwRHNNN2FSU3UxWWJETTRGYnhMQ2h0OWFmZFBSMVNKM0duaHJ5NkpEaTRDdGJIYkJFa28talNMaUNWQmhib0tzTVQ2RTZkWEN1NEY3aFpmSEZaN3FZ?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNVDJjRWwxMlJ3UEs2NWY3SlpmS3ZNNGpvVUFwN25xQkU3RE5DMnE3ZUpndlZPNUxwazE1bFRoUnNiNHM4ZVE1ejZIQXpTdE5yWUs2U0s3R1JYZG5PQzFEd29aSFhoOTFsRzRCMVlQdE9TQUNwZ0JGbnladUVFVXFhRDNSOGhkemhXQ1dMTVd0MTJjR0tJVlVqX19mVUh1UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTlpKNVoyeGNBRDhHXzNYX21nNGJaM1B5M251MDB3WGd2RExCbUd4R1BBbzAtU3RNM1lBZ3QydzUxWnBtQlFrU0kxVTF6N2FYRHViNFQ1Snpvand2c0RhQmVud0RjdTM4aTNKaDZwbHdsOS1Cb1FXRUMyQ0hWdzdZX2JNdkdaMGgzYVE?oc=5",
+      "https://news.google.com/rss/articles/CBMirgJBVV95cUxQcmdaZWY0a1RJZG8ycnEtZU5ISG1uU214T0hIWkNYZlludmdielFfMGtXN3ZXV2czZmltc3ZIOC1ZWVctMnVwZEVsUk80RXh0TUpVSDJYNEFZSFpvLW81TV9JbEtnVkI3WU85QkhwT1J5NGFxWU5JbWxPODFJRW14LUwwS3pGaEFzb19mdmFvSGJ3bDNpaXpnM2JhWVRrWklkSTR3bDkzZ2tta0tScVYwOHYxaW9Fc2xJc0ItODdCSFhVdDFIRUtaYWZTNWIzSUNHSnZpX0VGYmF3SnFZSC1zUzJmb19wRUVGeTEzWFZTaFJNbWNSYmtPZ0tsM2ZtUm82b3kwQU5hclNuQzFLbVZOUDZsbE1oblhRNUlFSkwteUJIRlRLSUpnNFZfUjY1QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0hBY3U5ZHRPczF2ci1RMFdQbGdTMjU5RzhrYldWdzhTM2RSRzFfcVBNaXMtMkVTNUJ2NmtNUEM5VXFBZmJYNmVwOGVjeTZycWVPemh5SjRKRXprWTY5Y2FJajZRaXZtNVJHaVFUU0ZaZ2tlQnJ3SF9fNUpFbDV4Z2ZDS2RDam8tdmZ2dkFR?oc=5",
+      "https://hitconsultant.net/2025/08/11/setpoint-medical-raises-140m-to-support-commercialization-of-rheumatoid-arthritis-therapy/",
+      "https://pulse2.com/setpoint-medical-140-million-raised-to-develop-therapies-for-chronic-autoimmune-diseases/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_checked": "2026-10-22",
+    "last_round_type": "Series C",
+    "last_round_amount": 140000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 220000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Elevage Medical Technologies",
+      "Ally Bridge Group"
+    ]
   },
   {
     "company_name": "SightStream",
@@ -1605,7 +1667,19 @@
     "everywhere_tags": [],
     "primary_investor": "ShangBay Capital",
     "source_url": "https://www.shangbaycapital.com/portfolio-companies",
-    "scraped_at": "2026-10-18T15:29:25.630235+00:00"
+    "scraped_at": "2026-10-18T15:29:25.630235+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "SKYHAWK THERAPEUTICS",

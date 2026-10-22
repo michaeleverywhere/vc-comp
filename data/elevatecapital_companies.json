@@ -1005,18 +1005,33 @@
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
     "scraped_at": "2026-10-17T18:26:26.198426+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 6300000.0,
+        "currency": "USD",
+        "date": "2018-10-16",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/hubb-secures-6-3-million-in-series-b-funding-300731735.html",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_source_urls": [
+      "https://www.prnewswire.com/news-releases/hubb-secures-6-3-million-in-series-b-funding-300731735.html",
+      "https://www.businesstravelnews.com/Meetings/Meetings-Tech-Startup-Hubb-Puts-New-Funding-to-Work-with-New-Hire",
+      "https://infotechlead.com/tech/tech-funding-corero-hubb-dc-systems-syncron-numerify-56539"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 6300000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 6300000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-10-16",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hue Noir",
@@ -2328,7 +2343,19 @@
     ],
     "primary_investor": "Elevate Capital",
     "source_url": "https://elevate.vc/portfolio/",
-    "scraped_at": "2026-10-17T18:26:26.198426+00:00"
+    "scraped_at": "2026-10-17T18:26:26.198426+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Sentry AI",

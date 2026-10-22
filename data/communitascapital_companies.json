@@ -814,20 +814,34 @@
     "primary_investor": "Communitas Capital Partners",
     "source_url": "https://communitascapital.com/portfolio",
     "scraped_at": "2026-10-20T21:26:47.486298+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://finance.yahoo.com/news/icreditworks-raises-60m-fuel-growth-211000659.html"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.icreditworks.com/"
+      "https://www.icreditworks.com/",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaVhNSnJfUE50SDJoNV8wbkdhZTh3M2pSUktpUjI1UHgybzlBX2xUUDVnbURfeWc3eWU2MVdQSnlHWG82QnRqRFVWZXFQVTB5SVFwMWp3T0xYUW9vTG9FUU8xc0QwWERuTmJLdzdYZTNrYk9HVkxlRUJaLS1wSHltZmUxUHJ4R0paX1YxbGxWUGgtVnlWdVV3TmY0NjFPYVVsQkpVWUdXWEM1V1VsVHM2a0Z3YzJadw?oc=5",
+      "https://pulse2.com/icreditworks-60-million-closed-to-drive-growth/",
+      "https://finance.yahoo.com/news/icreditworks-raises-60m-fuel-growth-211000659.html",
+      "https://www.streetinsider.com/PRNewswire/iCreditWorks+Raises+%2460M+to+Fuel+Growth+and+Sector+Expansion/24637314.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "limy",

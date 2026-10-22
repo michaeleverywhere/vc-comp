@@ -3001,20 +3001,33 @@
     "primary_investor": "Lifeline Ventures",
     "source_url": "https://lifelineventures.com/companies/",
     "scraped_at": "2026-10-14T13:13:15.324467+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 500000.0,
+        "currency": "EUR",
+        "date": "2013-01-30",
+        "investors": [],
+        "source_url": "https://arcticstartup.com/indooratlas-raises-e0-5-million-for-indoor-navigation-based-on-magnetic-fields/",
+        "date_basis": "snippet"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.indooratlas.com/"
+      "https://www.indooratlas.com/",
+      "https://arcticstartup.com/indoor-atlas-raises-10-million-from-baidu/",
+      "https://arcticstartup.com/indooratlas-raises-e0-5-million-for-indoor-navigation-based-on-magnetic-fields/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 500000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 500000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": "2013-01-30",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Intergrid",
@@ -5756,7 +5769,22 @@
     ],
     "primary_investor": "Lifeline Ventures",
     "source_url": "https://lifelineventures.com/companies/",
-    "scraped_at": "2026-10-14T13:13:15.324467+00:00"
+    "scraped_at": "2026-10-14T13:13:15.324467+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3JvZGR2Z0gtTDJ0dm5lSnpMRUQ3aWQ4YVFCem1YeEh0ZlN0c0VNZEJJWW83SEpKdExZWmZySU9CS3JWOWRRbXRTdXUxYmpGYVdvRHBjbGhRbjZLSVNGbUpXbWd6S0tsOVJJNkZLSFp6M1lhbFVtdEdIanVid3FPdi1WRHRrLXFPb0kyUGhFdG4tRWw5dmhJSEk5YTF0bjdlVllQeW1PR1hYcjkwY1Jr?oc=5",
+      "https://pulse2.com/saltz-e20-million-raised-for-food-supply-marketplace-expansion-across-europe/"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-22",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "School Day",

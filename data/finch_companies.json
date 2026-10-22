@@ -559,20 +559,33 @@
     "primary_investor": "Finch Capital",
     "source_url": "https://finchcapital.com/portfolio",
     "scraped_at": "2026-10-17T19:41:57.884114+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11100000.0,
+        "currency": "USD",
+        "date": "2022-03-10",
+        "investors": [],
+        "source_url": "https://www.nasdaq.com/press-release/bnpl-fintech-in3-secures-%2411.1m-series-a-from-finch-capital-partners-with-worldline",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://payin3.eu/"
+      "https://payin3.eu/",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUF9jTFlUQzBpMVFKRS1QNW9lUkVGT3dJWjBDdlVsVThnWjJqLWNCY1NCd1E3Y21XOTlZbVN4aVFaZ3BIR3FOMVdKVUJxNlU4dDgxdUlRT2ROb2EzbjhiSlY3bkgxR2FSakpqRVktcUhuLXlQWlIxWXFCTUNDNGZ0azF3d2Y2em5Jcl9CZndaMmhIUQ?oc=5",
+      "https://www.nasdaq.com/press-release/bnpl-fintech-in3-secures-%2411.1m-series-a-from-finch-capital-partners-with-worldline"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 11100000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 11100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-10",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Intelliment Security",
