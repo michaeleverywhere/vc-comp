@@ -2892,20 +2892,36 @@
     "primary_investor": "Forgepoint Capital",
     "source_url": "https://forgepointcap.com/companies/",
     "scraped_at": "2026-10-15T13:23:36.771370+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 20000000.0,
+        "currency": "USD",
+        "date": "2025-06-19",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2025/06/19/tadaweb-raises-20m-scale-open-source-intelligence-platform-enhanced-ai/",
+        "date_basis": "url"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://tadaweb.com/"
+      "https://tadaweb.com/",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMklJeFk0QVBva3d0aGowVEFwaFpobjFrcmM1WlRUenduMjFOM3oxYVNwaVhONnNiUjBUUEhRMmZfNHIwbWdWVG50S1RrM2haSzlUeHR5SDRfTmN3aVpkNlFZWnJLMGd2MGFRVF84cXlUMlpjY1drQnQ2QWMya1VORDgxYjdWbDItcTU3SA?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGVkd180S1RoSmRnWWZ1MTRqYjhWNzBpNGhObVVzSmttazFxOXM3aDUxbHlBUjhBMUIwdDN5R1dKd0VfTkZQamN1TjVweGcwUUhuSTNjeU00S1RlSXk0T3RWSGJoa2lPVlFpalRIRS03dF9GNmptaWxMdkdMaWdXRVgxUEpWRkVheXYwSGJXcnROSS1GRnl0am9YNnJOWTd2Vlp4QVZRTzBFS3dxNlFjUE1MYUVsNHBMUTFwTy1DWS1qMWtZZGVLMExmNzlpc1dPNEE?oc=5",
+      "https://www.businesswire.com/news/home/20250619691508/en/Tadaweb-raises-%2420-million-to-scale-Small-Data-PAI-and-OSINT-Operating-System",
+      "https://siliconangle.com/2025/06/19/tadaweb-raises-20m-scale-open-source-intelligence-platform-enhanced-ai/",
+      "https://www.01net.it/tadaweb-raises-20-million-to-scale-small-data-pai-and-osint-operating-system/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 20000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 20000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-06-19",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tessian (Proofpoint)",

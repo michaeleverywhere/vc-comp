@@ -1295,21 +1295,39 @@
     "primary_investor": "Headline",
     "source_url": "https://headline.com/portfolio",
     "scraped_at": "2026-10-06T13:31:30.371093+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 25000000.0,
+        "currency": "USD",
+        "date": "2026-06-29",
+        "investors": [],
+        "source_url": "https://www.webwire.com/ViewPressRel.asp?aId=356951",
+        "date_basis": "rss"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.taxwire.com/",
-      "https://www.taxwire.com/blog/sales-tax-compliance-guide-for-series-b-companies"
+      "https://www.taxwire.com/blog/sales-tax-compliance-guide-for-series-b-companies",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9NOVBhY1NkWXdoejZjMUhwTWVlengxYkZieXhoZGRZYkZHNjAteV85TlBTcmJySEpUaWRiQ0xXMTRFWFZscHU0N1drWDdhX2M0Vk5fdDlPdlNOdmFtRV8yNEh4ckdjblhjak9oZ1hvRkZ4ck5Nc0V1cUxSVnYtOU5iN05nMHJXejNTUjJyaDJGNlh6N1hqOG4xXzZ4Mlk?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUE0zVnE4V3NqUTlLcm9sQWZiX1lCY18wMFFrWVd6a0JyZ0VfcGdRck9aM3FfRjdfdjdYTmhPMXVIMzVHd25FcGNPSG1QaERMZDFiSy01dmc5MDdwQXJ3TFhNR2w4RjFwRUJnaEt3MjFHV3BoLUhQMWs4X1F5ajRmc0MzRE93M2FzcUNMNw?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDJmLUZ1N0twMUt6U0FFUWUtc0I1MTRrSVJ0RGM3U3laSDRYRFBkUFVTblE0RDhiOTEtOTNDSlVPRnBnVkZwREE4ODZVTFVyNlFBU2JyOEcyMG51T2VZV0FBQlV4bFlrTkJkd2w2bzZYaU5jcGVWdXRDX2RsUkx2TVdLT3NrZ1VpMEFEbzM1SUhldGxVbmQ0TGlxaVRUeHJlajRSUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxONDFhNHhQbzJmLUhpNUtSREtXMUZMNHBTSGR0VmE3aGd3T0F6SV9NU1FyRVdpRGtOSWtfR1FOak5FNUFwRTBpZF9oSUpVV3lSckpxb2JVaEcwdzNHNUdpWk1aYjZTRmtadHYxQlNZUjRkOTRuMFZZaWZXX01WLWN5Ukk4MHBjZl9RMWJTV2twel9DOFV4V3dDS0ZTYU_SAaIBQVVfeXFMT3R2QVVWWnRxYUdGU3ZBemRRU2oyVXMzUVNXV2ZNdTVJVFBNYlpRWGdLeTFYcERneVg1WVdpTXltNlpDNmxJRTFJbzBrOXZycTFtMkxhYVNOdHhHQmVoVDV6cDRiLVNWSWJZcDVXbVhBUVBOZFJlRlYtbTZSNVpLaldwMGsxZWd3NE52UmJyVnFOb0lhVWVia0xIa1RKQlRoTnNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zemtOU1U5andIaVBZME9USEpBQ18zaUlpbVFmX2NtcjV1ZEhFM2dqcHdJdk9qUy1fVUZTNDk1VWc1eUEtY0dRNVpmWVcydWxSZjhUZkVsUVQtZ2p0NHVGRw?oc=5",
+      "https://pulse2.com/taxwire-raises-25-million-series-a-to-scale-indirect-tax-compliance-platform/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=356951"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 25000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 25000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-06-29",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Honeycomb",
