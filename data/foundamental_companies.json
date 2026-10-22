@@ -267,20 +267,35 @@
     "primary_investor": "Foundamental",
     "source_url": "https://www.foundamental.com/portfolio",
     "scraped_at": "2026-10-16T23:04:30.039860+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVlprZEZkT0MyU1pXdkdsOXRNRHVnYXE3TVVRSXBoMnFCUzdHX0dvNWNYVWppbHpQaHh5OE5BRlJLVWVReU16NzRMMnVSeDVBckhPZHBYemhpV2MzeVlDaUpPN3ZXNG1lNmlFT1E4ZjhaU2JqdFlTbVpJOUtEWC1pbjZtZUwxRUZsNkpELU5fMG9LMk9JeWxZ?oc=5"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.carbonbuilt.com/"
+      "https://www.carbonbuilt.com/",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVlprZEZkT0MyU1pXdkdsOXRNRHVnYXE3TVVRSXBoMnFCUzdHX0dvNWNYVWppbHpQaHh5OE5BRlJLVWVReU16NzRMMnVSeDVBckhPZHBYemhpV2MzeVlDaUpPN3ZXNG1lNmlFT1E4ZjhaU2JqdFlTbVpJOUtEWC1pbjZtZUwxRUZsNkpELU5fMG9LMk9JeWxZ?oc=5",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlRQTVVVakxYWHBzWE5GZTVibU9tc3JQeTBOc3lOSE5ucWZGVklob1EzeTgtSGdqdk1tUnlnZnpmTUVBem1mdjN5ZzFIeERTRE9rQklaeDR3eXBWX1pTcXRjNkRYMWEzUXRTQ0s1QWlwUnB5aEkwTmtqRlZHNDVzNnVfUEdabE50Y2VxZG16NEQ?oc=5",
+      "https://finance.yahoo.com/news/carbonbuilt-closes-10-million-series-130000535.html",
+      "https://labusinessjournal.com/technology/carbonbuilt-raises-10m-series-funding-co2-concrete/",
+      "https://finance.yahoo.com/news/carbonbuilt-closes-10-million-series-142400063.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Conversant",
