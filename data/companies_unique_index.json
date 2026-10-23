@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 188409,
-  "vc_source_rows": 149922,
+  "total_source_rows": 191795,
+  "vc_source_rows": 153308,
   "accelerator_source_rows": 38487,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 108782,
-  "companies_with_2plus_backers": 35235,
-  "companies_with_vc_and_accelerator": 10286,
-  "companies_keyed_by_domain": 75353,
-  "companies_keyed_by_name": 33429,
-  "name_rows_joined_to_domain_company": 23876,
-  "companies_with_possible_matches": 14368,
-  "shared_hosts_treated_as_junk": 220,
-  "companies_with_funding_rounds": 21803,
-  "companies_funding_checked": 107727,
-  "funding_rounds_total": 38662,
+  "unique_companies": 110450,
+  "companies_with_2plus_backers": 35881,
+  "companies_with_vc_and_accelerator": 10479,
+  "companies_keyed_by_domain": 76954,
+  "companies_keyed_by_name": 33496,
+  "name_rows_joined_to_domain_company": 24263,
+  "companies_with_possible_matches": 14637,
+  "shared_hosts_treated_as_junk": 224,
+  "companies_with_funding_rounds": 21821,
+  "companies_funding_checked": 107761,
+  "funding_rounds_total": 38684,
   "research_records_available": 123117,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17032,
-      "bytes": 39998669,
+      "companies": 17087,
+      "bytes": 39998121,
       "first_company": "!K7",
-      "last_company": "Casual Nomad"
+      "last_company": "Cascade AI"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 16953,
-      "bytes": 39999647,
-      "first_company": "CASUS Technologies AG",
-      "last_company": "Flagcat"
+      "companies": 17034,
+      "bytes": 39998754,
+      "first_company": "Cascade Bancorp",
+      "last_company": "Fire Aside"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17343,
-      "bytes": 39998853,
-      "first_company": "Flagler Health",
-      "last_company": "Latimer Controls"
+      "companies": 17432,
+      "bytes": 39998296,
+      "first_company": "Fire Memos",
+      "last_company": "KYCK"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17187,
-      "bytes": 39999722,
-      "first_company": "Latin America Soccer Investments",
-      "last_company": "PandoLogic"
+      "companies": 17282,
+      "bytes": 39998258,
+      "first_company": "KYD Labs",
+      "last_company": "Overdrive Health"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17058,
-      "bytes": 39999733,
-      "first_company": "PandoPartner",
-      "last_company": "Smartworkforce"
+      "companies": 17118,
+      "bytes": 39999063,
+      "first_company": "Overeasy",
+      "last_company": "Sirific"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17351,
-      "bytes": 39996910,
-      "first_company": "Smartwyre",
-      "last_company": "Whataburger"
+      "companies": 17393,
+      "bytes": 39998772,
+      "first_company": "Sirigen",
+      "last_company": "VYTL"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 5858,
-      "bytes": 11449359,
-      "first_company": "Whatagraph",
+      "companies": 7104,
+      "bytes": 14187236,
+      "first_company": "VytronUS",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
