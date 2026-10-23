@@ -8546,18 +8546,30 @@
     "primary_investor": "Kapor Capital",
     "source_url": "https://www.kaporcapital.com/portfolio/",
     "scraped_at": "2026-10-08T14:44:55.846847+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXBFdFg3Y3FKOWhVbXNQeVlQMTFNemw2MFltQVhRdldMVnpJdHlxU1hRZ3NNRDV0N2pNTGJRQl8yZTYxRnJ2WS1WeXo2eDlQS1V3MU1aQm5HbS1BdmFEVUVyMDN5b1JiNHZyWkwyX29oN2k0TEQ1WXJGT3FvM1NQRlZSdDhLX3Vpenkxdi1wV0Q5Y29mLUVlN0pRbmlNb3pJUGFGRi0yZlZqcHFWNXVwTHptRl8?oc=5"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXBFdFg3Y3FKOWhVbXNQeVlQMTFNemw2MFltQVhRdldMVnpJdHlxU1hRZ3NNRDV0N2pNTGJRQl8yZTYxRnJ2WS1WeXo2eDlQS1V3MU1aQm5HbS1BdmFEVUVyMDN5b1JiNHZyWkwyX29oN2k0TEQ1WXJGT3FvM1NQRlZSdDhLX3Vpenkxdi1wV0Q5Y29mLUVlN0pRbmlNb3pJUGFGRi0yZlZqcHFWNXVwTHptRl8?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 10000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Verificient",
