@@ -95095,19 +95095,48 @@
   "total_raised_currency": null,
   "total_raised_basis": null,
   "last_round": {
-   "type": null,
+   "type": "Financing round led by HSBC (multi-million, type not stated)",
    "amount": null,
    "currency": null,
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.chekk.me/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Financing round led by HSBC (multi-million, type not stated)",
+    "amount": null,
+    "currency": "USD",
+    "date": "",
+    "investors": [
+     "HSBC Alternatives (lead)",
+     "SOSV",
+     "Standard Chartered (SC Ventures)"
+    ],
+    "source_url": "https://www.chekk.me/hsbc-invests-in-chekk/",
+    "source_urls": [
+     "https://www.chekk.me/hsbc-invests-in-chekk/",
+     "https://www.chekk.me/standard-chartered-joins-chekks-multi-million-dollar-financing-round-to-support-growth-of-kyc-company/"
+    ],
+    "stage_alternates": [
+     "Same round extension (Standard Chartered joins)"
+    ]
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "notable_investors": [
+   "HSBC Alternatives (lead)",
+   "SOSV",
+   "Standard Chartered (SC Ventures)"
+  ],
+  "funding_source_urls": [
+   "https://www.chekk.me/",
+   "https://fintechnews.hk/19017/funding/stanchart-joins-chekks-multi-million-dollar-funding-round/",
+   "https://www.chekk.me/hsbc-invests-in-chekk/",
+   "https://www.chekk.me/standard-chartered-joins-chekks-multi-million-dollar-financing-round-to-support-growth-of-kyc-company/"
+  ],
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-22",
   "funding_notes": [
+   "Domain chekk.me (Hong Kong KYC/KYB digital identity). Multi-million-dollar round led by HSBC with SOSV, later joined by Standard Chartered (company posts); amounts, dates and round type not stated.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -135868,11 +135897,15 @@
   },
   "funding_round_count": 0,
   "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_source_urls": [
+   "https://www.prnewswire.com/news-releases/ginkgo-bioworks-acquires-circularis-to-strengthen-capabilities-in-cell-and-gene-therapy-301639685.html"
+  ],
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain circularisbiotech.com (circular-RNA promoter screening; IndieBio 2015). No publicly reported round beyond IndieBio accelerator investment (aggregator-only). Acquired by Ginkgo Bioworks Oct 2022. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found."
   ]
  },
  {
@@ -143496,11 +143529,13 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_source_urls": [
-   "https://www.citydata.ai/"
+   "https://www.citydata.ai/",
+   "https://citydata.ai/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain citydata.ai. No publicly reported equity round or grant. Ex-LOTaDATA; seed/grant figures only on Bouncewatch/Dealroom. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -332547,6 +332582,7 @@
     "url_on_source": "https://contango.xyz",
     "domain_alias": "contango.xyz",
     "round": "Seed",
+    "amount_raised": "$4,000,000",
     "date": "SOSV dlab 04",
     "programs": [
      "SOSV Consortium"
@@ -332558,25 +332594,56 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 4000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Seed",
+   "amount": 4000000,
+   "currency": "USD",
+   "date": "2022-07-14"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 4000000,
+    "currency": "USD",
+    "date": "2022-07-14",
+    "investors": [
+     "ParaFi (lead)",
+     "CMS Holdings",
+     "Amber Group",
+     "GSR Markets",
+     "Cumberland",
+     "AngelDAO",
+     "Spartan Group",
+     "Coinbase Ventures"
+    ],
+    "source_url": "https://medium.com/contango-xyz/contango-raises-4m-in-a-round-led-by-parafi-to-bring-expirable-futures-to-defi-9424a943741a"
+   }
+  ],
+  "notable_investors": [
+   "ParaFi (lead)",
+   "CMS Holdings",
+   "Amber Group",
+   "GSR Markets",
+   "Cumberland",
+   "AngelDAO",
+   "Spartan Group",
+   "Coinbase Ventures"
+  ],
   "funding_source_urls": [
    "https://www.contango.live/",
-   "https://contango.xyz/"
+   "https://contango.xyz/",
+   "https://www.coindesk.com/markets/2022/07/14/dex-contango-pushes-retro-alternative-to-perps-with-expirable-futures",
+   "https://medium.com/contango-xyz/contango-raises-4m-in-a-round-led-by-parafi-to-bring-expirable-futures-to-defi-9424a943741a"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "Domain contango.xyz (DeFi expirable futures/perps). $4M seed led by ParaFi announced Jul 14, 2022 (round closed Dec 2021). TANGO token allocations excluded."
   ]
  },
  {
@@ -341947,12 +342014,14 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_source_urls": [
-   "https://www.watershedpnw.com/"
+   "https://www.watershedpnw.com/",
+   "https://convalesce.co/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain convalesce.co. No publicly reported equity round or grant. IndieBio Class 7 (2018) accelerator investment only. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found."
   ]
  },
  {
@@ -516711,12 +516780,14 @@
   "funding_source_urls": [
    "https://www.daltonbioanalytics.com/",
    "https://prospeo.io/c/dalton-bioanalytics-revenue",
-   "https://www.preqin.com/data/profile/asset/dalton-bioanalytics-inc-/346136"
+   "https://www.preqin.com/data/profile/asset/dalton-bioanalytics-inc-/346136",
+   "https://daltonbioanalytics.com/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain daltonbioanalytics.com. No publicly reported equity round or grant. IndieBio/SOSV seed (2019) appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found."
   ]
  },
  {
@@ -637920,24 +637991,57 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 500000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
+   "type": "Pre-Series A",
    "amount": null,
    "currency": null,
-   "date": null
+   "date": "2017-05"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Angel round",
+    "amount": 500000,
+    "currency": "USD",
+    "date": "2016-10",
+    "investors": [
+     "Udaan Angels",
+     "others"
+    ],
+    "source_url": "https://www.livemint.com/Companies/X1wrqNHOXPiEK5NNwPvRJO/Deyor-Adventures-raises-500000.html"
+   },
+   {
+    "stage": "Pre-Series A",
+    "amount": null,
+    "currency": "USD",
+    "date": "2017-05",
+    "investors": [
+     "Venture Catalysts (lead)",
+     "REAPRA Ventures"
+    ],
+    "source_url": "https://timesofindia.indiatimes.com/business/india-business/deyor-camps-raises-pre-series-a-funding-from-venture-catalysts/articleshow/58497267.cms"
+   }
+  ],
+  "notable_investors": [
+   "Udaan Angels",
+   "others",
+   "Venture Catalysts (lead)",
+   "REAPRA Ventures"
+  ],
   "funding_source_urls": [
    "https://www.deyor.in/",
-   "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTndYTHBaMnZ0T0luMDlaRko0TlZUOENJQWNaMnBSMURObndmc0ExZzU4cGgxTURKZ2VKN0FJQ2Yybzh2SktQVHBVS3FuWnFFT0ViaE13THlzbERSVGZ5UXNoVWdBQndmUWZmdlB5TFJrbDNDMnRnanZpSEdOV19kdUNNczVYNy05VzVUczl4SXdZTmQ1ckdBYWpJdFBxWHdWSFpSOEUwU1VKTlhUNlNHRGdzRER5X2d1azRDSXRmTkVONnM1ZXVCQjhR?oc=5"
+   "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTndYTHBaMnZ0T0luMDlaRko0TlZUOENJQWNaMnBSMURObndmc0ExZzU4cGgxTURKZ2VKN0FJQ2Yybzh2SktQVHBVS3FuWnFFT0ViaE13THlzbERSVGZ5UXNoVWdBQndmUWZmdlB5TFJrbDNDMnRnanZpSEdOV19kdUNNczVYNy05VzVUczl4SXdZTmQ1ckdBYWpJdFBxWHdWSFpSOEUwU1VKTlhUNlNHRGdzRER5X2d1azRDSXRmTkVONnM1ZXVCQjhR?oc=5",
+   "https://inc42.com/flash-feed/deyor-500k/",
+   "https://www.livemint.com/Companies/X1wrqNHOXPiEK5NNwPvRJO/Deyor-Adventures-raises-500000.html",
+   "https://timesofindia.indiatimes.com/business/india-business/deyor-camps-raises-pre-series-a-funding-from-venture-catalysts/articleshow/58497267.cms"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain deyorcamps.com / deyor.in (India adventure camps). $500K angel round Oct 2016 (Mint); undisclosed pre-Series A led by Venture Catalysts May 2017 (Times of India). 2020 Chinaccelerator/SOSV seed only on aggregators. Total left blank.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -728250,11 +728354,14 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_source_urls": [
-   "https://www.downapp.com:443/"
+   "https://www.downapp.com:443/",
+   "https://techcrunch.com/2017/01/20/casual-dating-app-down-acquired-by-paktor/",
+   "https://mixergy.com/interviews/what-didnt-kill-colin-hodge-made-him-stronger/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain downapp.com (DOWN, ex-Bang With Friends). Founder said in a Mixergy interview it had raised a little over $1M; the Dec 2013 $1M seed (Great Oaks, Tim Draper) is only on trackers. Acquired by Paktor Jan 2017.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -753530,17 +753637,44 @@
   "total_raised_currency": null,
   "total_raised_basis": null,
   "last_round": {
-   "type": null,
+   "type": "Seed+",
    "amount": null,
    "currency": null,
-   "date": null
+   "date": "2026-06-22"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed+",
+    "amount": null,
+    "currency": "USD",
+    "date": "2026-06-22",
+    "investors": [
+     "Skeleton Key (lead)",
+     "Merck Global Health Innovation Fund",
+     "CQDM",
+     "Real Ventures",
+     "Anges Québec"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/dropgenie-raises-seed-financing-to-accelerate-commercialization-of-its-first-product-302804959.html"
+   }
+  ],
+  "notable_investors": [
+   "Skeleton Key (lead)",
+   "Merck Global Health Innovation Fund",
+   "CQDM",
+   "Real Ventures",
+   "Anges Québec"
+  ],
+  "funding_source_urls": [
+   "https://www.finsmes.com/2026/06/dropgenie-closes-seed-financing.html",
+   "https://www.prnewswire.com/news-releases/dropgenie-raises-seed-financing-to-accelerate-commercialization-of-its-first-product-302804959.html"
+  ],
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain drop-genie.com (Montreal/Boston gene-editing automation; IndieBio). Undisclosed Seed+ round Jun 22, 2026 led by Skeleton Key (company press release)."
   ]
  },
  {
@@ -886231,6 +886365,7 @@
     "first_invested": false,
     "status": null,
     "round": "Series A",
+    "amount_raised": "$23,000,000",
     "date": "SOSV Orbit Startups - MOX 02",
     "programs": [
      "SOSV Consortium"
@@ -886248,25 +886383,42 @@
    "elsaspeak.com",
    "holaelsa.es"
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 23000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series C",
+   "amount": 23000000,
+   "currency": "USD",
+   "date": "2023-09-12"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series C",
+    "amount": 23000000,
+    "currency": "USD",
+    "date": "2023-09-12",
+    "investors": [
+     "UOB Venture Management (lead)"
+    ],
+    "source_url": "https://www.businesswire.com/news/home/20230912548387/en/Leading-Language-App-ELSA-Raises-%2423M-C-Round-Launches-ELSA-AI-Tutor-to-Revolutionize-Learning-English-Using-Generative-AI"
+   }
+  ],
+  "notable_investors": [
+   "UOB Venture Management (lead)"
+  ],
   "funding_source_urls": [
    "https://elsaspeak.com/en",
    "https://news.google.com/rss/articles/CBMijgJBVV95cUxPUXVmQ0gxblJjb3pnM290VTNmMjM2Z3BBVGxnOE0xYWViZkw3WHZNU29qTGhiSzdTU1Q4cU9uOUJwYXA4cU45TXIwVzY2eGRoeXdKZ3JvV0FDWF9rZ2xRYmNKY0F4VTZYN2lhaHg1b2Utems1SzhkbU9tUFVka3hOY0xyNU1KOXQ3THpvdVljYl9oYUl6aWIxZy1LdVdiQ2djTUZMVFprNWpsTjlpMnBMNVk0TFpyMFpIUU02RlY5b2RRaklVMHprT005Q01tazdGYkhaZHd2LVlQRm96Vmx0LTRDeUJlNERYVHFBR0tJbDhObnBUR1FTbWFodzlQeHdUN0F3NFhoVzB3X0VTcnc?oc=5",
-   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OZUxmVVhOZXZ0ZDhYejUtM29BWjdmSFJHcTBFa1FlR3k3UmJyUXFnNl9pby1FaEdwT1Bob3Nkc1VCNDBXQ3g0YWNyRTBqNElMaFVZb2FHdE1qbGI0?oc=5"
+   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OZUxmVVhOZXZ0ZDhYejUtM29BWjdmSFJHcTBFa1FlR3k3UmJyUXFnNl9pby1FaEdwT1Bob3Nkc1VCNDBXQ3g0YWNyRTBqNElMaFVZb2FHdE1qbGI0?oc=5",
+   "https://techcrunch.com/2023/09/12/elsa-series-c/",
+   "https://www.businesswire.com/news/home/20230912548387/en/Leading-Language-App-ELSA-Raises-%2423M-C-Round-Launches-ELSA-AI-Tutor-to-Revolutionize-Learning-English-Using-Generative-AI"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain elsanow.io / elsaspeak.com (ELSA Corp., AI English pronunciation app). $23M Series C Sep 12, 2023 led by UOB Venture Management. Earlier Series A/B not captured this pass; amount_raised = Series C only.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -1100398,6 +1100550,7 @@
     "status": null,
     "url_on_source": "http://fairmart.app",
     "round": "Seed",
+    "amount_raised": "$1,500,000",
     "date": "HAX 2020",
     "programs": [
      "SOSV HAX"
@@ -1100411,24 +1100564,43 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 1500000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Seed",
+   "amount": 1500000,
+   "currency": "USD",
+   "date": "2022-04-06"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.fairmart.app/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 1500000,
+    "currency": "USD",
+    "date": "2022-04-06",
+    "investors": [
+     "Quest Ventures (co-lead)",
+     "Entrepreneur First (co-lead)"
+    ],
+    "source_url": "https://technode.global/2022/04/06/singapores-fairmart-raises-1-5m-seed-round-co-led-by-quest-ventures-and-entrepreneur-first/"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "notable_investors": [
+   "Quest Ventures (co-lead)",
+   "Entrepreneur First (co-lead)"
+  ],
+  "funding_source_urls": [
+   "https://www.fairmart.app/",
+   "https://www.questventures.com/press/fairmart-raises-usd1-5m-in-seed-funding/",
+   "https://technode.global/2022/04/06/singapores-fairmart-raises-1-5m-seed-round-co-led-by-quest-ventures-and-entrepreneur-first/"
+  ],
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "Domain fairmart.app (Singapore retail inventory digitisation). S$2M (US$1.5M) seed Apr 2022 co-led by Quest Ventures and Entrepreneur First."
   ]
  },
  {
@@ -1194698,284 +1194870,6 @@
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "firlogic.com",
-  "name": "Fir Logic",
-  "website": "https://www.firlogic.com/",
-  "domain": "firlogic.com",
-  "description": null,
-  "everywhere_tags": [],
-  "location": "Waterloo, Canada",
-  "status": null,
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Accelerator Centre"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Accelerator Centre",
-    "slug": "acceleratorcentre",
-    "source_row": "data/accelerators/acceleratorcentre_companies.json#76",
-    "name_on_source": "Fir Logic",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Accelerator Centre alumni/roster",
-    "investors": "Accelerator Centre",
-    "source": "Accelerator Centre",
-    "source_url": "https://www.acceleratorcentre.com/our-startups/",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.firlogic.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "firaresearch.com",
-  "name": "Fira",
-  "website": "https://firaresearch.com/",
-  "domain": "firaresearch.com",
-  "description": "Financial research platform for investment firms Fira accelerates financial research for investment analysts by instantly searching and analyzing thousands of pages of company filings and earnings reports, delivering source-cited answers and verifiable calculations. Our mission is to build a comprehensive research platform that integrates seamlessly with internal and external data sources, handles research and analysis, generates investment documents, and automates repetitive workflows. This frees investment professionals to focus on what matters most: building relationships and making strategic decisions.",
-  "everywhere_tags": [
-   "FinTech / Insurance"
-  ],
-  "verticals": [
-   "B2B -> Finance and Accounting"
-  ],
-  "location": "London, England, United Kingdom",
-  "status": "Active",
-  "team": "Alex Tkachenko",
-  "linkedin_url": "https://www.linkedin.com/company/fira-ai",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Y Combinator"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Y Combinator",
-    "slug": "ycombinator",
-    "source_row": "data/accelerators/ycombinator_companies.json#3896",
-    "name_on_source": "Fira",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": "2025-01-01",
-    "status": "Active",
-    "date": "YC W25",
-    "investors": "Y Combinator",
-    "source": "YC",
-    "source_url": "https://www.ycombinator.com/companies/fira",
-    "founders_fetched": true,
-    "batch_date": "2025-01-01",
-    "batch_date_precision": "season",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://firaresearch.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "firahealth.com",
-  "name": "Fira Health",
-  "website": "https://firahealth.com/",
-  "domain": "firahealth.com",
-  "description": null,
-  "everywhere_tags": [
-   "Health"
-  ],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "Dorm Room Fund"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Dorm Room Fund",
-    "slug": "dormroom",
-    "source_row": "data/dormroom_companies.json#94",
-    "name_on_source": "Fira Health",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "name:fireandsteel",
-  "name": "Fire and Steel",
-  "website": null,
-  "domain": null,
-  "description": null,
-  "everywhere_tags": [],
-  "location": "Canada",
-  "status": null,
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Next Canada"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Next Canada",
-    "slug": "nextcanada",
-    "source_row": "data/accelerators/nextcanada_companies.json#250",
-    "name_on_source": "Fire and Steel",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": "2022-01-01",
-    "status": null,
-    "date": "Next Canada Next Founders , 2022",
-    "investors": "Next Canada",
-    "source": "Next Canada",
-    "source_url": "https://directory.nextcanada.com/directory/ventures/",
-    "batch_date": "2022-01-01",
-    "batch_date_precision": "year",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "fireaside.com",
-  "name": "Fire Aside",
-  "name_alternates": [
-   "FireAside"
-  ],
-  "website": "https://www.fireaside.com/",
-  "domain": "fireaside.com",
-  "description": null,
-  "everywhere_tags": [],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "Convective Capital",
-   "Marin Sonoma Impact Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 2,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Convective Capital",
-    "slug": "convectivecapital",
-    "source_row": "data/convectivecapital_companies.json#5",
-    "name_on_source": "FireAside",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Marin Sonoma Impact Ventures",
-    "slug": "msiv",
-    "source_row": "data/msiv_companies.json#5",
-    "name_on_source": "Fire Aside",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.fireaside.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]

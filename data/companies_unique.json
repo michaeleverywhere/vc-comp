@@ -1186114,6 +1186114,7 @@
     "first_invested": false,
     "status": null,
     "round": "Series A",
+    "amount_raised": "$10,100,000",
     "date": "SOSV Portfolio: Sean O'Sullivan",
     "programs": [
      "SOSV Other"
@@ -1186130,24 +1186131,42 @@
    "carma.com.au",
    "joincarma.com"
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 5600000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A",
+   "amount": 5600000,
+   "currency": "USD",
+   "date": "2010-12"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series A",
+    "amount": 5600000,
+    "currency": "USD",
+    "date": "2010-12",
+    "investors": [
+     "SOSventures (lead)"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/avego-receives-56-million-in-investment-111852474.html"
+   }
+  ],
+  "notable_investors": [
+   "SOSventures (lead)"
+  ],
   "funding_source_urls": [
    "https://gocarma.com/",
-   "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tYWVQTkc1MnNVOTVncWJzd3hENWFKMHhRZzRBaXJTYTRqRGQxQnV2Yi10R25NcWxxZHpuczNPQVp0R2tMcXZmWXVxOGxxNHF3clB0NVhZSjJKZ3F3dEh0amc2cmsydmdUcXRyN2t5ZmRYQnNRN0tiZDZfOVo?oc=5"
+   "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tYWVQTkc1MnNVOTVncWJzd3hENWFKMHhRZzRBaXJTYTRqRGQxQnV2Yi10R25NcWxxZHpuczNPQVp0R2tMcXZmWXVxOGxxNHF3clB0NVhZSjJKZ3F3dEh0amc2cmsydmdUcXRyN2t5ZmRYQnNRN0tiZDZfOVo?oc=5",
+   "https://www.electronicsweekly.com/technology-startups/general-technology-startups/irish-ride-sharing-startup-rai-2010-12/",
+   "https://www.finsmes.com/2010/12/avego-raises-5-6m-in-series-a-venture-funding.html",
+   "https://www.prnewswire.com/news-releases/avego-receives-56-million-in-investment-111852474.html"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain gocarma.com (Carma Technology, formerly Avego, Cork/Austin). $5.6M Series A Dec 2010 led by SOSventures, after $4.5M earlier seed (total $10.1M per release). Later convertible notes/debt only on aggregators.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
