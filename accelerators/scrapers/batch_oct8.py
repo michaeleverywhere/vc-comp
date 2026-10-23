@@ -210,14 +210,25 @@ def startupbootcamp():
 
 
 # ---------------- Lanzadera ----------------
+def _lz_get(url, timeout=60):
+    """Lanzadera rate-limits bursts with a 'One moment, please...' JS page; back off and retry."""
+    import time
+    for i in range(6):
+        r = S.get(url, timeout=timeout)
+        if "One moment, please" not in r.text[:3000]:
+            return r
+        time.sleep(15 * (i + 1))
+    return r
+
+
 def lanzadera():
     tax = {}
     for t in ("batch", "sectores", "modelos"):
         tax[t] = {x["id"]: _h.unescape(x["name"]) for x in
-                  S.get(f"https://lanzadera.es/wp-json/wp/v2/{t}?per_page=100", timeout=60).json()}
+                  _lz_get(f"https://lanzadera.es/wp-json/wp/v2/{t}?per_page=100").json()}
     posts = []
     for pg in range(1, 20):
-        r = S.get(f"https://lanzadera.es/wp-json/wp/v2/startups?per_page=100&page={pg}", timeout=60)
+        r = _lz_get(f"https://lanzadera.es/wp-json/wp/v2/startups?per_page=100&page={pg}")
         if r.status_code != 200 or not r.json():
             break
         posts += r.json()
@@ -235,8 +246,10 @@ def lanzadera():
 
     def detail(r):
         try:
-            h = get(r["source_url"], timeout=30)
+            h = _lz_get(r["source_url"], timeout=30).text
         except Exception:
+            return r
+        if "One moment, please" in h[:3000]:
             return r
         main = h.split("Skip to content", 1)[-1]
         m = re.search(r'<a[^>]+href="(https?://(?!lanzadera\.es|marinadeempresas|[a-z.]*linkedin|[a-z.]*facebook|[a-z.]*instagram|[a-z.]*twitter|[a-z.]*youtube|www\.google|edem)[^"]+)"[^>]*>\s*(?:<[^>]+>\s*)*https?://', main)
@@ -248,7 +261,7 @@ def lanzadera():
             r["team"] = f.group(1).strip()
         return r
 
-    with ThreadPoolExecutor(12) as ex:
+    with ThreadPoolExecutor(3) as ex:
         out = list(ex.map(detail, out))
     for r in out:  # batch label like SEPT26 / MAR25 / ENE23
         m = re.search(r"(ENE|FEB|MAR|ABR|MAY|JUN|JUL|AGO|SEPT|OCT|NOV|DIC)(\d\d)", r["date"])
