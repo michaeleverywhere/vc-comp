@@ -1187304,14 +1187304,14 @@
     "status": "active"
    }
   ],
-  "total_raised": 42500000,
+  "total_raised": 50000000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": "Series B",
-   "amount": 35000000.0,
+   "type": "Undisclosed round type",
+   "amount": 7500000.0,
    "currency": "USD",
-   "date": "2021-04-21"
+   "date": "2025-08-27"
   },
   "funding_round_count": 2,
   "funding_rounds": [
@@ -1187341,7 +1187341,7 @@
     "stage": "Undisclosed round type",
     "amount": 7500000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2025-08-27",
     "investors": [
      "TTV Capital",
      "Mubadala Capital",
@@ -1187379,8 +1187379,9 @@
   "funding_status": "seed+",
   "funding_checked": "2026-10-23",
   "funding_notes": [
-   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | 2026-10-23 hand-verified: Series B date corrected to 2021-04-21 (PR Newswire release; fintechfutures article dated April 21, 2021), $7.5M round 2025-08-27 (Business Wire via Yahoo Finance); misfiled \"grants\" removed.",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | 2026-10-23 hand-verified: Series B date corrected to 2021-04-21 (PR Newswire release; fintechfutures article dated April 21, 2021), $7.5M round 2025-08-27 (Business Wire via Yahoo Finance); misfiled \"grants\" removed. | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | 2026-10-23 hand-verified: Series B date corrected to 2021-04-21 (PR Newswire release; fintechfutures article dated April 21, 2021), $7.5M round 2025-08-27 (Business Wire via Yahoo Finance); misfiled \"grants\" removed. | 2026-10-23: round-2 date restored by hand after clean.py dropped it; the source page shows \"LOS ANGELES, August 27, 2025--(BUSINESS WIRE)\".",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | 2026-10-23 hand-verified: Series B date corrected to 2021-04-21 (PR Newswire release; fintechfutures article dated April 21, 2021), $7.5M round 2025-08-27 (Business Wire via Yahoo Finance); misfiled \"grants\" removed. | 2026-10-23: round-2 date restored by hand after clean.py dropped it; the source page shows \"LOS ANGELES, August 27, 2025--(BUSINESS WIRE)\"."
   ]
  },
  {
@@ -1204445,110 +1204446,6 @@
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "whatagraph.com",
-  "name": "Whatagraph",
-  "website": "https://whatagraph.com",
-  "domain": "whatagraph.com",
-  "description": "Whatagraph is a marketing intelligence platform that connects, standardizes, and reports on multi-source marketing data in one place. It helps agencies deliver accurate, customizable reports at scale, and get actionable insights for growth.",
-  "description_alternates": [
-   "Provides data visualization and reporting platform for digital marketing agencies and teams."
-  ],
-  "everywhere_tags": [
-   "Data & Analytics"
-  ],
-  "verticals": [
-   "Emerging Tech",
-   "Data Management"
-  ],
-  "location": "Lithuania",
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Inventure",
-   "Open Circle Capital"
-  ],
-  "accelerators": [
-   "Rockstart"
-  ],
-  "backer_count": 3,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Inventure",
-    "slug": "inventure",
-    "source_row": "data/inventure_companies.json#48",
-    "name_on_source": "Whatagraph",
-    "matched_by": "domain",
-    "stage": "Seed",
-    "first_invested": 2020,
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Open Circle Capital",
-    "slug": "opencirclecapital",
-    "source_row": "data/opencirclecapital_companies.json#15",
-    "name_on_source": "Whatagraph",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "accelerator",
-    "name": "Rockstart",
-    "slug": "rockstart",
-    "source_row": "data/accelerators/rockstart_companies.json#242",
-    "name_on_source": "Whatagraph",
-    "matched_by": "domain",
-    "stage": "Series A",
-    "first_invested": "2016-01-01",
-    "status": null,
-    "url_on_source": "https://whatagraph.com/",
-    "round": "Series A",
-    "date": "Rockstart 2016",
-    "investors": "Rockstart",
-    "source": "Rockstart",
-    "source_url": "https://rockstart.com/portfolio/",
-    "rockstart_domain": "Emerging Tech",
-    "batch_date": "2016-01-01",
-    "batch_date_precision": "year",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": "Series A",
-   "amount": null,
-   "currency": null,
-   "date": "2021-10-19"
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Series A",
-    "amount": null,
-    "currency": null,
-    "date": "2021-10-19",
-    "investors": [],
-    "source_url": "https://whatagraph.com/blog/articles/whatagraph-series-a-funding",
-    "date_basis": "snippet"
-   }
-  ],
-  "funding_source_urls": [
-   "https://whatagraph.com/",
-   "https://whatagraph.com/blog/articles/whatagraph-series-a-funding"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  }
 ]
