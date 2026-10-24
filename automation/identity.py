@@ -450,6 +450,8 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "founderful":     ('Wingman Ventures',),
     "riversideacceleration":     ('Riverside Acceleration Capital',),
     "drapertriangle":     ('Draper Triangle',),
+    "praeturaventures":     ('Praetura',),
+    "contextventures":     ('Context VC',),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
