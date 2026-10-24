@@ -1,5 +1,641 @@
 [
  {
+  "company_id": "name:kx",
+  "name": "KX",
+  "website": null,
+  "domain": null,
+  "description": null,
+  "everywhere_tags": [],
+  "location": null,
+  "status": "active",
+  "exited": false,
+  "vc_firms": [
+   "TA Associates"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "TA Associates",
+    "slug": "ta",
+    "source_row": "data/ta_companies.json#162",
+    "name_on_source": "KX",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": "active"
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "not researched (ambiguous short name key; manual check needed)",
+  "funding_checked": "2026-10-23",
+  "funding_notes": [
+   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+  ]
+ },
+ {
+  "company_id": "kxmicroflow.com",
+  "name": "Kxmicroflow",
+  "website": "https://www.kxmicroflow.com/",
+  "domain": "kxmicroflow.com",
+  "description": "Kxmicroflow is a technology-driven startup founded by a core team of graduates from the University of Science and Technology of China (USTC), bringing together top talent across fluid dynamics, mechanical engineering, chemical processes, automation control, and industrial equipment. Leveraging USTC's strong R&D capabilities, we have successfully developed lab-scale, pilot-scale, and industrial-grade microchannel reactor systems while cultivating a team of industry-leading continuous flow process experts. Guided by green chemistry principles, we are committed to advancing safer, more sustainable, and more efficient chemical production for the future.",
+  "everywhere_tags": [
+   "Climate / Sustainability",
+   "Consumer",
+   "Future of Work"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Linear Capital"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Linear Capital",
+    "slug": "linearcapital",
+    "source_row": "data/linearcapital_companies.json#29",
+    "name_on_source": "Kxmicroflow",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.kxmicroflow.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "kyanhealth.com",
+  "name": "Kyan",
+  "website": "http://kyanhealth.com",
+  "domain": "kyanhealth.com",
+  "description": "Kyan is a Singapore-headquartered biotech company providing personalised medicine solutions for cancer patients.",
+  "everywhere_tags": [
+   "BioTech",
+   "Health"
+  ],
+  "location": "Singapore",
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Altara Ventures",
+   "GreyMatter"
+  ],
+  "accelerators": [],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Altara Ventures",
+    "slug": "altara",
+    "source_row": "data/altara_companies.json#5",
+    "name_on_source": "Kyan",
+    "matched_by": "name",
+    "stage": "Pre-Series A / Series A",
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "GreyMatter",
+    "slug": "greymatter",
+    "source_row": "data/greymatter_companies.json#13",
+    "name_on_source": "Kyan",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.kyanhealth.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "name:kyanhealth",
+  "name": "Kyan Health",
+  "website": null,
+  "domain": null,
+  "description": "Kyan addresses organizational health and employee health/well-being needs at the same time, end-to-end.",
+  "everywhere_tags": [
+   "Future of Work"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Joyance Partners"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Joyance Partners",
+    "slug": "joyance",
+    "source_row": "data/joyance_companies.json#85",
+    "name_on_source": "Kyan Health",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMHpwdDdwendBM3VHRGZOc0k4MERJT2g5bUI3OVdwN2dmbUhkUTZRcUI1OTdLTkJiNmVndS1MbFVDZUtZbFRQVVYwM3RnZDVmdlFFeHVxTm1ZNW5nSW1mUGE5M2Q3YmhBdGNwU3Q3SDd6TzczaHRHV0pxN0Y4bVoxaGtiQ2gwZUlKZ0xDZXpEVnVDYlpXTklxWkllN29STWhqRHZzZzd6blJiTUY0cmZnVWN4VXB2aGg0akdCRWc0ajBNMWVXWTJSc0tWMEs3NE9UQlBwbkhadmJCZm5uSFJRZXBn?oc=5",
+   "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yUFZiaTQ4Ym1sSldhekRhUjhsYmw4UjdMR0k1ZzJKdk9sVnlfQWlxdXNlRUVHNC1nUlpwRERtTV9XVmd2RVR0T1IxQVd0TkhHaWRPdA?oc=5"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)"
+  ]
+ },
+ {
+  "company_id": "kyantechnologies.com",
+  "name": "KYAN Technologies",
+  "website": "https://kyantechnologies.com/",
+  "domain": "kyantechnologies.com",
+  "description": "Personalised optimisation of drug and dose combination for treatment of cancer",
+  "everywhere_tags": [
+   "BioTech"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "K3 Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "K3 Ventures",
+    "slug": "k3ventures",
+    "source_row": "data/k3ventures_companies.json#29",
+    "name_on_source": "KYAN Technologies",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "kyanda.co.ke",
+  "name": "Kyanda Africa",
+  "website": "https://www.kyanda.co.ke",
+  "domain": "kyanda.co.ke",
+  "description": "Kyanda Africa is a revolutionary fintech platform that provides businesses and individuals with convenient and reliable money transfer solutions. Their network of agents, API gateway, and various access channels such as USSD, Mobile App & Whatsapp Chatbots make it easy for you to use our services in a way that fits your needs. In addition to money transfers, we also offer a wide range of financial services such as utility bill payments, insurance, and more. With over 5.7 million serviced users in Kenya and South Africa over the years, we have a proven track record of delivering top-quality service to our customers.",
+  "everywhere_tags": [
+   "Dev Tools / Cloud",
+   "FinTech / Insurance"
+  ],
+  "verticals": [
+   "Afritech ASIP"
+  ],
+  "location": "Kenya",
+  "status": null,
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Startupbootcamp"
+  ],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Startupbootcamp",
+    "slug": "startupbootcamp",
+    "source_row": "data/accelerators/startupbootcamp_companies.json#511",
+    "name_on_source": "Kyanda Africa",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "date": "Startupbootcamp Afritech ASIP",
+    "investors": "Startupbootcamp",
+    "source": "Startupbootcamp",
+    "source_url": "https://startupbootcamp.org/startup/kyanda-africa",
+    "last_seen": "2026-10-22",
+    "listed_on_site": true
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://kyanda.co.ke/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "kyash.co",
+  "name": "Kyash",
+  "name_alternates": [
+   "Kyash Inc.",
+   "Kyash Inc"
+  ],
+  "website": "https://kyash.co/",
+  "domain": "kyash.co",
+  "description": "Founded in 2015, Kyash has built proprietary full-stack banking infrastructure from the ground up to offer mobile-first consumer-facing digital wallets in Japan as well as the modern APIs to business partners for issuing and processing Visa cards.",
+  "description_alternates": [
+   "Personal money transfer/ payment settlement services"
+  ],
+  "everywhere_tags": [
+   "FinTech / Insurance",
+   "Consumer",
+   "Dev Tools / Cloud"
+  ],
+  "location": "Japan",
+  "status": "active",
+  "exited": false,
+  "vc_firms": [
+   "Altos Ventures",
+   "JAFCO Group",
+   "Partech",
+   "W Inc."
+  ],
+  "accelerators": [],
+  "backer_count": 4,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Altos Ventures",
+    "slug": "altos",
+    "source_row": "data/altos_companies.json#64",
+    "name_on_source": "Kyash",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "JAFCO Group",
+    "slug": "jafco",
+    "source_row": "data/jafco_companies.json#138",
+    "name_on_source": "Kyash Inc.",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": "2016",
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "Partech",
+    "slug": "partech",
+    "source_row": "data/partech_companies.json#119",
+    "name_on_source": "Kyash",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": "active"
+   },
+   {
+    "type": "vc",
+    "name": "W Inc.",
+    "slug": "winc",
+    "source_row": "data/winc_companies.json#33",
+    "name_on_source": "Kyash Inc",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "https://www.kyash.co/"
+   }
+  ],
+  "total_raised": 2800000000,
+  "total_raised_currency": "JPY",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Series D",
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 2800000000.0,
+    "currency": "JPY",
+    "date": null,
+    "investors": [],
+    "source_url": "https://pulse2.com/kyash-raises-jpy-1-5-billion-funding/"
+   },
+   {
+    "stage": "Series D",
+    "amount": null,
+    "currency": null,
+    "date": null,
+    "investors": [],
+    "source_url": "https://www.kyash.co/"
+   }
+  ],
+  "funding_source_urls": [
+   "https://marketrealist.com/p/is-kyash-legit/",
+   "https://pulse2.com/kyash-raises-jpy-1-5-billion-funding/",
+   "https://www.streetinsider.com/Press+Releases/Kyash+Announces+US%2445+Million+Series+C+Funding+From+Global+Venture+Capital+Firms+As+It+Heads+Into+Banking/16686385.html",
+   "https://www.law360.com/articles/1258721/japanese-fintech-kyash-lands-45m-series-c-funding-round",
+   "https://news.bitcoin.com/japanese-fintech-firm-kyash-raises-41-million-jack-dorseys-block-participates-in-funding/",
+   "https://www.kyash.co/"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "name:kybelesgarden",
+  "name": "Kybele's Garden",
+  "website": null,
+  "domain": null,
+  "description": null,
+  "everywhere_tags": [
+   "Cybersecurity"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Sente Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Sente Ventures",
+    "slug": "senteventures",
+    "source_row": "data/senteventures_companies.json#14",
+    "name_on_source": "Kybele's Garden",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "askkyber.com",
+  "name": "Kyber",
+  "website": "https://askkyber.com/",
+  "domain": "askkyber.com",
+  "description": "Instantly draft, review, and send complex regulatory notices. With Kyber, companies operating in regulated industries can quickly draft, review, and send complex regulatory notices. For example, when Branch Insurance's claims team has to settle a claim, instead of spending hours piecing together evidence to draft a complex notice, they can simply upload the details of the claim to Kyber, auto-generate multiple best in-class drafts, easily assign reviewers, collaborate on notices in real-time, and then send the letter to the individual the notice is for. Kyber not only saves these teams time, but significantly improves consistency, compliance, and personalization.",
+  "description_alternates": [
+   "ChatGPT for Enterprise Support"
+  ],
+  "everywhere_tags": [
+   "Cybersecurity",
+   "FinTech / Insurance",
+   "Future of Work",
+   "RegTech/Gov/Legal"
+  ],
+  "verticals": [
+   "B2B -> Operations",
+   "Generative AI",
+   "SaaS",
+   "Insurance",
+   "Enterprise",
+   "Regtech"
+  ],
+  "location": "New York City, NY, USA",
+  "status": "active",
+  "status_alternates": [
+   "Active"
+  ],
+  "team": "Arvind Sontha",
+  "linkedin_url": "https://www.linkedin.com/company/ask-kyber",
+  "exited": false,
+  "vc_firms": [
+   "Gaingels"
+  ],
+  "accelerators": [
+   "Y Combinator"
+  ],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Gaingels",
+    "slug": "gaingels",
+    "source_row": "data/gaingels_companies.json#1377",
+    "name_on_source": "Kyber",
+    "matched_by": "domain",
+    "stage": "Seed",
+    "first_invested": null,
+    "status": "active"
+   },
+   {
+    "type": "accelerator",
+    "name": "Y Combinator",
+    "slug": "ycombinator",
+    "source_row": "data/accelerators/ycombinator_companies.json#1135",
+    "name_on_source": "Kyber",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": "2023-01-01",
+    "status": "Active",
+    "url_on_source": "https://askkyber.com",
+    "date": "YC W23",
+    "investors": "Y Combinator",
+    "source": "YC",
+    "source_url": "https://www.ycombinator.com/companies/kyber",
+    "founders_fetched": true,
+    "batch_date": "2023-01-01",
+    "batch_date_precision": "season",
+    "most_recent_batch": false
+   }
+  ],
+  "possible_matches": [
+   "joinkyber.com",
+   "kyber.media",
+   "kyber.tech"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.askkyber.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "kyber.media",
+  "name": "Kyber",
+  "website": "http://kyber.media",
+  "domain": "kyber.media",
+  "description": "Kyber",
+  "everywhere_tags": [
+   "Cybersecurity"
+  ],
+  "location": "France",
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Kima Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Kima Ventures",
+    "slug": "kima",
+    "source_row": "data/kima_companies.json#451",
+    "name_on_source": "Kyber",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "askkyber.com",
+   "joinkyber.com",
+   "kyber.tech"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://kyber.tech/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
   "company_id": "kyber.tech",
   "name": "Kyber",
   "website": "https://kyber.tech/",
@@ -831,7 +1467,9 @@
     "source_url": "https://lanzadera.es/startups/kylia/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -5740,7 +6378,9 @@
     "source_url": "https://lanzadera.es/startups/kampe/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -7415,7 +8055,9 @@
     "source_url": "https://lanzadera.es/startups/la-diez-milanesa/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -7528,7 +8170,9 @@
     "source_url": "https://lanzadera.es/startups/la-folie/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -8641,7 +9285,9 @@
     "source_url": "https://lanzadera.es/startups/la-pizarra-del-dt/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -11624,7 +12270,9 @@
     "source_url": "https://lanzadera.es/startups/labia/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -17090,7 +17738,9 @@
     "source_url": "https://lanzadera.es/startups/laiadesk/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -62398,7 +63048,9 @@
     "source_url": "https://lanzadera.es/startups/lealtad-verde/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -84074,7 +84726,9 @@
     "source_url": "https://lanzadera.es/startups/lema/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -96377,7 +97031,9 @@
     "source_url": "https://lanzadera.es/startups/lerium/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -100478,7 +101134,9 @@
     "source_url": "https://lanzadera.es/startups/letterbucket/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -117182,7 +117840,9 @@
     "source_url": "https://lanzadera.es/startups/liceia-ai/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -117313,7 +117973,9 @@
     "source_url": "https://lanzadera.es/startups/licenseware/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -119324,7 +119986,9 @@
     "source_url": "https://lanzadera.es/startups/life-challenge/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -142938,7 +143602,9 @@
     "source_url": "https://lanzadera.es/startups/limbium/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -171908,7 +172574,9 @@
     "source_url": "https://lanzadera.es/startups/lithosport/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -177080,7 +177748,9 @@
     "source_url": "https://lanzadera.es/startups/live-fresh-biotech/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -188187,7 +188857,9 @@
     "source_url": "https://lanzadera.es/startups/llum-social/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -188377,7 +189049,9 @@
     "source_url": "https://lanzadera.es/startups/lluquiiiiii/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -208383,7 +209057,9 @@
     "source_url": "https://lanzadera.es/startups/logispro/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -234584,7 +235260,9 @@
     "source_url": "https://lanzadera.es/startups/loveobsessed/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -269419,7 +270097,9 @@
     "source_url": "https://lanzadera.es/startups/lup/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "possible_matches": [
@@ -274180,7 +274860,9 @@
     "source_url": "https://lanzadera.es/startups/luyoa/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -278359,7 +279041,9 @@
     "source_url": "https://lanzadera.es/startups/lymon/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -288788,7 +289472,9 @@
     "source_url": "https://lanzadera.es/startups/maat-impact/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -299660,7 +300346,9 @@
     "source_url": "https://lanzadera.es/startups/madrid-content-school/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -307068,7 +307756,9 @@
     "source_url": "https://lanzadera.es/startups/magicpack/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -355040,7 +355730,9 @@
     "source_url": "https://lanzadera.es/startups/marina-garcia/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -355735,7 +356427,9 @@
     "source_url": "https://lanzadera.es/startups/marinerob/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -364032,7 +364726,9 @@
     "source_url": "https://lanzadera.es/startups/marnific/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -368610,7 +369306,9 @@
     "source_url": "https://lanzadera.es/startups/mas-events/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -368773,7 +369471,9 @@
     "source_url": "https://lanzadera.es/startups/mas-mayor-tech/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -369308,7 +370008,9 @@
     "source_url": "https://lanzadera.es/startups/masco-beauty/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -370436,7 +371138,9 @@
     "source_url": "https://lanzadera.es/startups/maska/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -371730,7 +372434,9 @@
     "source_url": "https://lanzadera.es/startups/massa-greens/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -376375,7 +377081,9 @@
     "source_url": "https://lanzadera.es/startups/match-biosystems/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -383505,7 +384213,9 @@
     "source_url": "https://lanzadera.es/startups/matil/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -397997,27 +398707,55 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 30000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Seed",
+   "amount": 30000000.0,
+   "currency": "USD",
+   "date": "2026-10-22"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 30000000.0,
+    "currency": "USD",
+    "date": "2026-10-22",
+    "lead_investors": [
+     "Peak XV"
+    ],
+    "investors": [
+     "Peak XV",
+     "Tola Capital",
+     "South Park Commons",
+     "INCE Capital",
+     "Alumni Ventures"
+    ],
+    "source_url": "https://www.tmcnet.com/usubmit/2026/10/22/10468566.htm",
+    "history_new": true
+   }
+  ],
+  "notable_investors": [
+   "Peak XV",
+   "Tola Capital",
+   "South Park Commons",
+   "INCE Capital",
+   "Alumni Ventures"
+  ],
   "funding_source_urls": [
    "https://www.southparkcommons.com/companies/maxinsights/",
    "https://www.maxinsights.ai/",
    "https://www.sec.gov/Archives/edgar/data/2100231/0002100231-25-000001.txt",
-   "https://robottoday.com/suppliers-discovery/maxinsights"
+   "https://robottoday.com/suppliers-discovery/maxinsights",
+   "https://www.tmcnet.com/usubmit/2026/10/22/10468566.htm"
   ],
-  "funding_status": "unclear-round-type",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-20",
   "funding_notes": [
-   "Maxinsights (maxinsights.ai, matches input; legal name reported as Maxinsights Corporation), San Francisco; human egocentric video, motion-capture and tactile training/evaluation data for physical AI and robotics. Founders Yuguang (YG) Yuan (CEO) and Kun Wang (CTO); founded 2024. Outside money is evidenced by an SEC Form D for 'AVSF - Maxinsights 2025, LLC', an Alumni Ventures single-company SPV (filed Dec 18, 2025, first sale Dec 4, 2025, $110,000 sold), but no press release or reputable news states the company's round type or amount. Trackers/directories only (PitchBook snippet, RobotToday, 1lux; not used as primary sources) report seed rounds dated Mar 21, 2025 and Nov 25, 2025 with investors including Tola Capital, Alumni Ventures, Top Harvest Capital, HSG, Plug and Play and SPC; amounts undisclosed and unverified."
+   "Maxinsights (maxinsights.ai, matches input; legal name reported as Maxinsights Corporation), San Francisco; human egocentric video, motion-capture and tactile training/evaluation data for physical AI and robotics. Founders Yuguang (YG) Yuan (CEO) and Kun Wang (CTO); founded 2024. Outside money is evidenced by an SEC Form D for 'AVSF - Maxinsights 2025, LLC', an Alumni Ventures single-company SPV (filed Dec 18, 2025, first sale Dec 4, 2025, $110,000 sold), but no press release or reputable news states the company's round type or amount. Trackers/directories only (PitchBook snippet, RobotToday, 1lux; not used as primary sources) report seed rounds dated Mar 21, 2025 and Nov 25, 2025 with investors including Tola Capital, Alumni Ventures, Top Harvest Capital, HSG, Plug and Play and SPC; amounts undisclosed and unverified. | Maxinsights (maxinsights.ai, matches input; legal name reported as Maxinsights Corporation), San Francisco; human egocentric video, motion-capture and tactile training/evaluation data for physical AI and robotics. Founders Yuguang (YG) Yuan (CEO) and Kun Wang (CTO); founded 2024. Outside money is evidenced by an SEC Form D for 'AVSF - Maxinsights 2025, LLC', an Alumni Ventures single-company SPV (filed Dec 18, 2025, first sale Dec 4, 2025, $110,000 sold), but no press release or reputable news states the company's round type or amount. Trackers/directories only (PitchBook snippet, RobotToday, 1lux; not used as primary sources) report seed rounds dated Mar 21, 2025 and Nov 25, 2025 with investors including Tola Capital, Alumni Ventures, Top Harvest Capital, HSG, Plug and Play and SPC; amounts undisclosed and unverified.; round watch 2026-10-24: new round from news, verified on the company site or an article carrying the company domain",
+   "Maxinsights (maxinsights.ai, matches input; legal name reported as Maxinsights Corporation), San Francisco; human egocentric video, motion-capture and tactile training/evaluation data for physical AI and robotics. Founders Yuguang (YG) Yuan (CEO) and Kun Wang (CTO); founded 2024. Outside money is evidenced by an SEC Form D for 'AVSF - Maxinsights 2025, LLC', an Alumni Ventures single-company SPV (filed Dec 18, 2025, first sale Dec 4, 2025, $110,000 sold), but no press release or reputable news states the company's round type or amount. Trackers/directories only (PitchBook snippet, RobotToday, 1lux; not used as primary sources) report seed rounds dated Mar 21, 2025 and Nov 25, 2025 with investors including Tola Capital, Alumni Ventures, Top Harvest Capital, HSG, Plug and Play and SPC; amounts undisclosed and unverified.; round watch 2026-10-24: new round from news, verified on the company site or an article carrying the company domain"
   ]
  },
  {
@@ -409994,7 +410732,9 @@
     "source_url": "https://lanzadera.es/startups/me-renta/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -411190,7 +411930,9 @@
     "source_url": "https://lanzadera.es/startups/meallink/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -429417,7 +430159,9 @@
     "source_url": "https://lanzadera.es/startups/mediterranean-routes/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -436238,7 +436982,9 @@
     "source_url": "https://lanzadera.es/startups/medusa-bay/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -460458,7 +461204,9 @@
     "source_url": "https://lanzadera.es/startups/mensajero-digital-nexafirma/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -463214,7 +463962,9 @@
     "source_url": "https://lanzadera.es/startups/mentoor/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -477463,7 +478213,9 @@
     "source_url": "https://lanzadera.es/startups/meria/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -490985,7 +491737,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2024-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -492510,7 +493264,9 @@
     "source_url": "https://lanzadera.es/startups/metaqare/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -506141,7 +506897,9 @@
     "source_url": "https://lanzadera.es/startups/mi-direccion-europea-mde/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -516295,7 +517053,9 @@
     "source_url": "https://lanzadera.es/startups/midatec/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -519900,7 +520660,9 @@
     "source_url": "https://lanzadera.es/startups/mifood/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -523857,7 +524619,9 @@
     "source_url": "https://lanzadera.es/startups/miinta/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -525762,7 +526526,9 @@
     "linkedin_source": "company website",
     "batch_date": "2021-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -530203,7 +530969,9 @@
     "linkedin_source": "company website",
     "batch_date": "2018-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "possible_matches": [
@@ -532480,7 +533248,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2020-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -533783,7 +534553,9 @@
     "source_url": "https://lanzadera.es/startups/mimosa-blu/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -535115,7 +535887,9 @@
     "source_url": "https://lanzadera.es/startups/mind-makers/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -536630,7 +537404,9 @@
     "source_url": "https://lanzadera.es/startups/mindchef/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -551621,7 +552397,9 @@
     "source_url": "https://lanzadera.es/startups/minsenzia/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -565615,7 +566393,9 @@
     "source_url": "https://lanzadera.es/startups/misclub-es/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -581575,7 +582355,9 @@
     "source_url": "https://lanzadera.es/startups/mobbiz/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -600374,7 +601156,9 @@
     "source_url": "https://lanzadera.es/startups/modoru-biotech/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -616650,7 +617434,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2022-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -629485,7 +630271,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2020-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -630618,7 +631406,9 @@
     "source_url": "https://lanzadera.es/startups/monolegal/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -645920,7 +646710,9 @@
     "source_url": "https://lanzadera.es/startups/moradai/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -657586,7 +658378,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2019-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -668842,7 +669636,9 @@
     "source_url": "https://lanzadera.es/startups/moviinn/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -670980,7 +671776,9 @@
     "source_url": "https://lanzadera.es/startups/mowlabs/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -681030,7 +681828,9 @@
     "source_url": "https://lanzadera.es/startups/mube/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -683015,7 +683815,9 @@
     "source_url": "https://lanzadera.es/startups/muemue-home/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -691570,7 +692372,9 @@
     "source_url": "https://lanzadera.es/startups/muntatges-ximo/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -691681,7 +692485,9 @@
     "source_url": "https://lanzadera.es/startups/mune/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -693339,7 +694145,9 @@
     "source_url": "https://lanzadera.es/startups/murisana/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -698494,7 +699302,9 @@
     "source_url": "https://lanzadera.es/startups/mute-garage/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -699674,7 +700484,9 @@
     "source_url": "https://lanzadera.es/startups/muvail-systems/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -709806,7 +710618,9 @@
     "source_url": "https://lanzadera.es/startups/mydance/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -718615,7 +719429,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2021-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -721614,7 +722430,9 @@
     "source_url": "https://lanzadera.es/startups/mystherai/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -725297,7 +726115,9 @@
     "source_url": "https://lanzadera.es/startups/myurbanscoot/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -741762,7 +742582,9 @@
     "source_url": "https://lanzadera.es/startups/nanofreeze-inc/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -743389,7 +744211,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2022-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -747604,7 +748428,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2021-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -752466,7 +753292,9 @@
     "source_url": "https://lanzadera.es/startups/nasapp/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -760168,7 +760996,9 @@
     "linkedin_source": "company website",
     "batch_date": "2019-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -774943,7 +775773,9 @@
     "source_url": "https://lanzadera.es/startups/neare-clothes/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -781684,7 +782516,9 @@
     "source_url": "https://lanzadera.es/startups/neety/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -819489,7 +820323,9 @@
     "source_url": "https://lanzadera.es/startups/neuroblock/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -826211,7 +827047,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2020-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -842139,7 +842977,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2023-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": 1000000,
@@ -842424,7 +843264,9 @@
     "source_url": "https://lanzadera.es/startups/nexa/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -844787,7 +845629,9 @@
     "source_url": "https://lanzadera.es/startups/nexi-health/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -849752,7 +850596,9 @@
     "source_url": "https://lanzadera.es/startups/nextbit/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "possible_matches": [
@@ -855543,7 +856389,9 @@
     "source_url": "https://lanzadera.es/startups/nexus/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "possible_matches": [
@@ -864646,7 +865494,9 @@
     "investors": "Lanzadera",
     "source": "Lanzadera",
     "source_url": "https://lanzadera.es/startups/nidus/",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -881233,7 +882083,9 @@
     "source_url": "https://lanzadera.es/startups/niubiq/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -887582,7 +888434,9 @@
     "source_url": "https://lanzadera.es/startups/nob-166/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -895822,7 +896676,9 @@
     "source_url": "https://lanzadera.es/startups/noetia/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -899874,7 +900730,9 @@
     "source_url": "https://lanzadera.es/startups/nomaak/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -900376,7 +901234,9 @@
     "source_url": "https://lanzadera.es/startups/nomad-bee/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -915518,7 +916378,9 @@
     "source_url": "https://lanzadera.es/startups/northern-spain-travel/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -926350,7 +927212,9 @@
     "source_url": "https://lanzadera.es/startups/nous/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "possible_matches": [
@@ -929988,7 +930852,9 @@
     "source_url": "https://lanzadera.es/startups/novahiring/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -987265,7 +988131,9 @@
     "source_url": "https://lanzadera.es/startups/obelance/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -992887,7 +993755,9 @@
     "source_url": "https://lanzadera.es/startups/ocbo/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1006208,7 +1007078,9 @@
     "source_url": "https://lanzadera.es/startups/odas/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1007848,7 +1008720,9 @@
     "source_url": "https://lanzadera.es/startups/odelyne-technology/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1016097,7 +1016971,9 @@
     "source_url": "https://lanzadera.es/startups/offlovin/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1026567,7 +1027443,9 @@
     "source_url": "https://lanzadera.es/startups/ola-creators/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1033288,7 +1034166,9 @@
     "source_url": "https://lanzadera.es/startups/olorama/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1037955,7 +1038835,9 @@
     "source_url": "https://lanzadera.es/startups/omek-biotech/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1043182,7 +1044064,9 @@
     "source_url": "https://www.conceptionx.org/portfolio",
     "batch_date": "2024-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -1071167,7 +1072051,9 @@
     "source_url": "https://lanzadera.es/startups/onepool/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1073832,7 +1074718,9 @@
     "source_url": "https://lanzadera.es/startups/onesto/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1077231,7 +1078119,9 @@
     "source_url": "https://lanzadera.es/startups/ongres/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1080840,7 +1081730,9 @@
     "source_url": "https://lanzadera.es/startups/onorato-ai/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1081207,7 +1082099,9 @@
     "source_url": "https://lanzadera.es/startups/onpack/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1090199,7 +1091093,9 @@
     "source_url": "https://lanzadera.es/startups/oona/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1119822,7 +1120718,9 @@
     "source_url": "https://lanzadera.es/startups/opospills/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1162199,7 +1163097,9 @@
     "source_url": "https://lanzadera.es/startups/origrip/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1163854,7 +1164754,9 @@
     "linkedin_source": "company website",
     "batch_date": "2025-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -1178929,7 +1179831,9 @@
     "source_url": "https://lanzadera.es/startups/otai-akham/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1183488,7 +1184392,9 @@
     "source_url": "https://lanzadera.es/startups/otrebe/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1196847,7 +1197753,9 @@
     "source_url": "https://lanzadera.es/startups/outs-world/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -1199765,985 +1200673,6 @@
   "funding_rounds": [],
   "funding_source_urls": [
    "https://brand.site/Ouvatech"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ouvidordigital.com.br",
-  "name": "Ouvidor Digital",
-  "website": "https://ouvidordigital.com.br",
-  "domain": "ouvidordigital.com.br",
-  "description": "O Ouvidor Digital é uma multinacional presente em mais de 30 países, referência em soluções para gestão da cultura ética. Apoiamos 1.600+ empresas com um ecossistema para prevenir, detectar e tratar assédio, corrupção e condutas inadequadas, fortalecendo governança e conformidade com a NR-01.",
-  "everywhere_tags": [
-   "Climate / Sustainability"
-  ],
-  "verticals": [
-   "ESG"
-  ],
-  "location": "Argentina, Brasil, Chile, Colômbia, México, Uruguai",
-  "status": null,
-  "linkedin_url": "https://www.linkedin.com/company/ouvidor-digital",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Cubo Itau"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Cubo Itau",
-    "slug": "cuboitau",
-    "source_row": "data/accelerators/cuboitau_companies.json#199",
-    "name_on_source": "Ouvidor Digital",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Cubo Itaú startup (vitrine)",
-    "investors": "Cubo Itau",
-    "source": "Cubo Itaú",
-    "source_url": "https://cubo.itau/startups-portfolio/ouvidor-digital",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://ouvidordigital.com.br/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "name:ova",
-  "name": "OVA",
-  "website": null,
-  "domain": null,
-  "description": null,
-  "everywhere_tags": [
-   "Logistics / Supply Chain"
-  ],
-  "verticals": [
-   "Supply Chain"
-  ],
-  "location": "Canada/Global",
-  "status": null,
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Creative Destruction Lab"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Creative Destruction Lab",
-    "slug": "creativedestructionlab",
-    "source_row": "data/accelerators/creativedestructionlab_companies.json#1239",
-    "name_on_source": "OVA",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Creative Destruction Lab",
-    "investors": "Creative Destruction Lab",
-    "source": "Creative Destruction Lab",
-    "source_url": "https://creativedestructionlab.com/companies/ova/",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovagen.ie",
-  "name": "Ovagen",
-  "website": "https://ovagen.ie/",
-  "domain": "ovagen.ie",
-  "description": null,
-  "everywhere_tags": [],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "DeepIE Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "DeepIE Ventures",
-    "slug": "deepieventuresmanagement",
-    "source_row": "data/deepieventuresmanagement_companies.json#9",
-    "name_on_source": "Ovagen",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://ovagen.ie/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovalfi.com",
-  "name": "Oval",
-  "name_alternates": [
-   "Oval Labs"
-  ],
-  "website": "https://www.ovalfi.com/",
-  "domain": "ovalfi.com",
-  "description": "Stablecoin treasury solutions for emerging markets",
-  "everywhere_tags": [
-   "FinTech / Insurance",
-   "Web3 / Crypto"
-  ],
-  "location": "Nigeria",
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Mosaic Ventures",
-   "Musha Ventures",
-   "Tioga Capital Partners"
-  ],
-  "accelerators": [],
-  "backer_count": 3,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Mosaic Ventures",
-    "slug": "mosaicventures",
-    "source_row": "data/mosaicventures_companies.json#30",
-    "name_on_source": "Oval",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": "2022",
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Musha Ventures",
-    "slug": "musha",
-    "source_row": "data/musha_companies.json#108",
-    "name_on_source": "Oval",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Tioga Capital Partners",
-    "slug": "tiogacapitalpartners",
-    "source_row": "data/tiogacapitalpartners_companies.json#20",
-    "name_on_source": "Oval Labs",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://ovalfi.com/"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://ovalfi.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovasave.com",
-  "name": "Ovasave",
-  "website": "https://www.ovasave.com/",
-  "domain": "ovasave.com",
-  "description": "We simplify your fertility and egg-freezing journey. Our innovative solutions offer a seamless, integrated, and digitally enabled experience, connecting women with a vetted network of top fertility clinics.",
-  "everywhere_tags": [
-   "BioTech",
-   "Health"
-  ],
-  "verticals": [
-   "Health and Life Sciences"
-  ],
-  "location": "AE",
-  "status": null,
-  "linkedin_url": "https://www.linkedin.com/company/ovasave",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Hub71"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Hub71",
-    "slug": "hub71",
-    "source_row": "data/accelerators/hub71_companies.json#15",
-    "name_on_source": "Ovasave",
-    "matched_by": "domain",
-    "stage": "Pre-Seed",
-    "first_invested": false,
-    "status": null,
-    "round": "Pre-Seed",
-    "date": "Hub71 Cohort 12",
-    "investors": "Hub71",
-    "source": "Hub71",
-    "source_url": "https://www.hub71.com/startups/ovasave",
-    "cohort_number": "12",
-    "linkedin_source": "company website",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": 1200000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 1200000.0,
-   "currency": "USD",
-   "date": null
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Undisclosed round type",
-    "amount": 1200000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONjRzZGNabUZSSzdia1dQS09ySGNUVnI2QzFXWDVmbEJwU3BITGowdEJZTlE4SGpMMlJsZDFCbTJvSDEwaUFIUDZKVUwwbDJfTE0zNFFadUUwZDJGTDBBNmozRWphenJieXFJOVU3MXhhblo2T1RIclJaN1QyLXRHbnE2S0w0bzIwQUpPczlNRmJfcDZueTZaS0R2bWtCNjdrMmFfeFk1RUVtT2w3Nkduclln?oc=5"
-   }
-  ],
-  "funding_source_urls": [
-   "https://www.ovasave.com/",
-   "https://news.google.com/rss/articles/CBMisgFBVV95cUxONjRzZGNabUZSSzdia1dQS09ySGNUVnI2QzFXWDVmbEJwU3BITGowdEJZTlE4SGpMMlJsZDFCbTJvSDEwaUFIUDZKVUwwbDJfTE0zNFFadUUwZDJGTDBBNmozRWphenJieXFJOVU3MXhhblo2T1RIclJaN1QyLXRHbnE2S0w0bzIwQUpPczlNRmJfcDZueTZaS0R2bWtCNjdrMmFfeFk1RUVtT2w3Nkduclln?oc=5",
-   "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tZG5jVlV1VGZiR3g0ODgxZkJ1UUwtZ3E3dllDZ0tOYU02Z29RNlFWaUl3bVJRbzRWODdPTkFvWHl3Vk5BNTNYQXJFNVpCc0hNb0M3MGlTX2RLN1R3SGtqMVloWnB0NzdRakhWUUEtZEZrM0pUZmNiOUt6MA?oc=5",
-   "https://www.msn.com/en-us/money/markets/femtech-ovasave-raises-us-1-2-million-pre-seed-round/ar-AA1JQzZ0",
-   "https://gulfbusiness.com/en/2025/health-care/hub71-startup-ovasave-raises-1-2m-pre-seed-round/"
-  ],
-  "funding_status": "unclear-round-type",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "name:ovascience",
-  "name": "OvaScience",
-  "website": "https://en.wikipedia.org/wiki/OvaScience",
-  "domain": null,
-  "description": "OvaScience is a biotechnology company focused on female infertility. OvaScience (NASDAQ: OVAS) became a public company in 2012.",
-  "everywhere_tags": [
-   "BioTech",
-   "Health"
-  ],
-  "location": null,
-  "status": "Public",
-  "exited": true,
-  "vc_firms": [
-   "Bessemer Venture Partners"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Bessemer Venture Partners",
-    "slug": "bessemer",
-    "source_row": "data/bessemer_companies.json#321",
-    "name_on_source": "OvaScience",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": 2014,
-    "status": "Public"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 6 same-name SEC Form D filing(s) not used (identity not verified)"
-  ]
- },
- {
-  "company_id": "name:ovatemp",
-  "name": "OVATEMP",
-  "website": null,
-  "domain": null,
-  "description": "Ovatemp is the only personalized fertility and health management platform for women of all ages.",
-  "everywhere_tags": [],
-  "verticals": [
-   "Femtech",
-   "Mobile"
-  ],
-  "location": "Newtonville, Massachusetts, United States",
-  "status": null,
-  "linkedin_url": "https://www.linkedin.com/company/ovatemp",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Techstars"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Techstars",
-    "slug": "techstars",
-    "source_row": "data/accelerators/techstars_companies.json#1006",
-    "name_on_source": "OVATEMP",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": "2015-01-01",
-    "status": null,
-    "date": "Sprint, powered by Techstars 2015",
-    "investors": "Techstars",
-    "source": "Techstars",
-    "programs": [
-     "Sprint Accelerator, powered by Techstars"
-    ],
-    "first_session_year": 2015,
-    "is_accelerator_company": true,
-    "source_url": "https://www.techstars.com/portfolio",
-    "batch_date": "2015-01-01",
-    "batch_date_precision": "year",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "name:ovation",
-  "name": "Ovation",
-  "website": null,
-  "domain": null,
-  "description": "Enterprise financial wellness platform helping financial institutions, employers, and benefits providers educate and empower their clients with personalized financial tools.",
-  "everywhere_tags": [
-   "FinTech / Insurance"
-  ],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "SUM Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "SUM Ventures",
-    "slug": "sumvc",
-    "source_row": "data/sumvc_companies.json#24",
-    "name_on_source": "Ovation",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "possible_matches": [
-   "ovation.io",
-   "ovationup.com"
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovation.io",
-  "name": "Ovation",
-  "website": "https://ovation.io",
-  "domain": "ovation.io",
-  "description": "Ovation is a genomic data company committed to unlocking the potential of human genomic data to accelerate precision medicine. By generating high-quality genomic data linked to rich, longitudinal phenotypic data at population scale, Ovation enables life sciences researchers to advance drug discovery and development more efficiently.",
-  "description_alternates": [
-   "Ovation is a next-generation clinical informatics company."
-  ],
-  "everywhere_tags": [
-   "BioTech",
-   "Health"
-  ],
-  "location": null,
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Madrona Venture Group",
-   "SignalFire"
-  ],
-  "accelerators": [],
-  "backer_count": 2,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Madrona Venture Group",
-    "slug": "madronaventuregroup",
-    "source_row": "data/madronaventuregroup_companies.json#121",
-    "name_on_source": "Ovation",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "SignalFire",
-    "slug": "signalfire",
-    "source_row": "data/signalfire_companies.json#66",
-    "name_on_source": "Ovation",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active",
-    "url_on_source": "https://www.ovation.io/"
-   }
-  ],
-  "possible_matches": [
-   "ovationup.com"
-  ],
-  "total_raised": 33500000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 12000000.0,
-   "currency": "USD",
-   "date": "2023-01-19"
-  },
-  "funding_round_count": 2,
-  "funding_rounds": [
-   {
-    "stage": "Undisclosed round type",
-    "amount": 21500000.0,
-    "currency": "USD",
-    "date": "2021-06-23",
-    "lead_investors": [
-     "SignalFire"
-    ],
-    "investors": [
-     "SignalFire",
-     "Madrona Venture Group",
-     "Borealis Ventures",
-     "StageDotO"
-    ],
-    "source_url": "https://www.ovation.io/ovation-raises-21-5m-to-help-clinical-laboratories-and-researchers-reduce-the-time-and-cost-of-drug-development/",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 12000000.0,
-    "currency": "USD",
-    "date": "2023-01-19",
-    "investors": [],
-    "source_url": "https://www.ovation.io/wsj-ovation-gathers-funding-to-extend-research-network/",
-    "date_basis": "snippet"
-   }
-  ],
-  "notable_investors": [
-   "SignalFire",
-   "Madrona Venture Group",
-   "Borealis Ventures",
-   "StageDotO"
-  ],
-  "funding_source_urls": [
-   "https://www.ovation.io/",
-   "https://www.ovation.io/ovation-raises-21-5m-to-help-clinical-laboratories-and-researchers-reduce-the-time-and-cost-of-drug-development/",
-   "https://www.ovation.io/wsj-ovation-gathers-funding-to-extend-research-network/"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovationup.com",
-  "name": "Ovation",
-  "website": "https://ovationup.com",
-  "domain": "ovationup.com",
-  "description": "Developer of an actionable guest feedback platform designed to drive revenue for multi-unit restaurants. The company's platform tracks and figures out the enterprise's loyal customers and assists them in leaving positive online reviews, as well as provides customer feedback and increases social media following, enabling businesses to monitor and measure their web presence and engage increased customers by improving their online marketing strategies.",
-  "everywhere_tags": [
-   "Dev Tools / Cloud",
-   "Gaming / Media / Entertainment",
-   "Health"
-  ],
-  "location": "United States",
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "500 Global",
-   "TIA Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 2,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "500 Global",
-    "slug": "500global",
-    "source_row": "data/500global_companies.json#1409",
-    "name_on_source": "Ovation",
-    "matched_by": "domain",
-    "stage": "Series A",
-    "first_invested": "2018-12-07",
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "TIA Ventures",
-    "slug": "tiaventures",
-    "source_row": "data/tiaventures_companies.json#24",
-    "name_on_source": "Ovation",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "possible_matches": [
-   "ovation.io"
-  ],
-  "total_raised": 21200000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 3000000.0,
-   "currency": "USD",
-   "date": "2026-02-09"
-  },
-  "funding_round_count": 5,
-  "funding_rounds": [
-   {
-    "stage": "Seed",
-    "amount": 3200000.0,
-    "currency": "USD",
-    "date": "2021-11-17",
-    "investors": [],
-    "source_url": "https://ovationup.com/news-releases-ovation-closes-seed-round-of-3-2-million/",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 2000000.0,
-    "currency": "USD",
-    "date": "2022-09-27",
-    "investors": [],
-    "source_url": "https://ovationup.com/news-releases-ovation-secures-2-million/",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 4000000.0,
-    "currency": "USD",
-    "date": "2023-06-27",
-    "investors": [],
-    "source_url": "https://ovationup.com/4-million-raised/",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Series A",
-    "amount": 9000000.0,
-    "currency": "USD",
-    "date": "2024-06-20",
-    "investors": [],
-    "source_url": "https://ovationup.com/ovation-announces-series-a-funding/",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 3000000.0,
-    "currency": "USD",
-    "date": "2026-02-09",
-    "investors": [],
-    "source_url": "https://ovationup.com/3-million-round/",
-    "date_basis": "snippet"
-   }
-  ],
-  "funding_source_urls": [
-   "https://ovationup.com/",
-   "https://ovationup.com/news-releases-ovation-closes-seed-round-of-3-2-million/",
-   "https://ovationup.com/4-million-raised/",
-   "https://ovationup.com/ovation-announces-series-a-funding/",
-   "https://ovationup.com/news-releases-ovation-secures-2-million/",
-   "https://ovationup.com/3-million-round/"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovationcxm.com",
-  "name": "OvationCXM",
-  "name_alternates": [
-   "Ovationcxm"
-  ],
-  "website": "https://www.ovationcxm.com",
-  "domain": "ovationcxm.com",
-  "description": "OvationCXM, a dba under Boomtown Network Inc., is the Customer Experience Management company helping businesses and their partner ecosystems deliver exceptional customer experiences with complete visibility and precise control so they can own the journey, guide the experience and unleash the benefits.",
-  "description_alternates": [
-   "An AI-infused customer experience management technology company.",
-   "Take friction out of customer onboarding and servicing operations with OvationCXM's orchestration technology for financial services."
-  ],
-  "everywhere_tags": [
-   "FinTech / Insurance",
-   "Future of Work"
-  ],
-  "location": null,
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "Commerce Ventures",
-   "Freestyle Capital",
-   "JumpStart Ventures",
-   "Moonshots Capital",
-   "Nyca Partners",
-   "Telstra Ventures",
-   "Titanium Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 7,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Commerce Ventures",
-    "slug": "commerceventures",
-    "source_row": "data/commerceventures_companies.json#78",
-    "name_on_source": "Ovationcxm",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Freestyle Capital",
-    "slug": "freestyle",
-    "source_row": "data/freestyle_companies.json#71",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active",
-    "url_on_source": "https://www.ovationcxm.com/"
-   },
-   {
-    "type": "vc",
-    "name": "JumpStart Ventures",
-    "slug": "jumpstartventures",
-    "source_row": "data/jumpstartventures_companies.json#69",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.ovationcxm.com/"
-   },
-   {
-    "type": "vc",
-    "name": "Moonshots Capital",
-    "slug": "moonshots",
-    "source_row": "data/moonshots_companies.json#52",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.ovationcxm.com/"
-   },
-   {
-    "type": "vc",
-    "name": "Nyca Partners",
-    "slug": "nyca",
-    "source_row": "data/nyca_companies.json#68",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active",
-    "url_on_source": "https://www.ovationcxm.com/"
-   },
-   {
-    "type": "vc",
-    "name": "Telstra Ventures",
-    "slug": "telstraventures",
-    "source_row": "data/telstraventures_companies.json#24",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Titanium Ventures",
-    "slug": "titaniumventures",
-    "source_row": "data/titaniumventures_companies.json#67",
-    "name_on_source": "OvationCXM",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   }
-  ],
-  "total_raised": 20000000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Series C",
-   "amount": 20000000.0,
-   "currency": "USD",
-   "date": "2022-09-14"
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Series C",
-    "amount": 20000000.0,
-    "currency": "USD",
-    "date": "2022-09-14",
-    "investors": [],
-    "source_url": "https://www.thesaasnews.com/news/ovationcxm-raises-20-million-in-series-c",
-    "date_basis": "snippet"
-   }
-  ],
-  "funding_source_urls": [
-   "https://www.ovationcxm.com/resources/news",
-   "https://www.fintechfutures.com/cx/customer-experience-management-platform-boomtown-rebrands-as-ovationcxm-raises-20m",
-   "https://www.thesaasnews.com/news/ovationcxm-raises-20-million-in-series-c",
-   "https://startupintros.com/orgs/ovationcxm",
-   "https://prospeo.io/c/ovationcxm-revenue",
-   "https://fintech.global/2022/09/19/crm-software-provider-ovationcxm-lands-20m/",
-   "https://www.preqin.com/data/profile/asset/ovationcxm/161783",
-   "https://jumpstart.vc/boomtown-rebrands-to-ovationcxm-lands-20m-in-funding-fueled-by-record-growth-and-significant-customer-expansion/"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "ovee.me",
-  "name": "Ovee",
-  "website": "https://www.ovee.me/",
-  "domain": "ovee.me",
-  "description": "Feeling overwhelmed by your sexual or reproductive health? Ovee is here to help you find the products or resources that are right for you!",
-  "everywhere_tags": [
-   "BioTech",
-   "Health"
-  ],
-  "verticals": [
-   "HealthTech & Biotech"
-  ],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Parallel18"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Parallel18",
-    "slug": "parallel18",
-    "source_row": "data/accelerators/parallel18_companies.json#339",
-    "name_on_source": "Ovee",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Parallel18 P18 Gen 7",
-    "investors": "Parallel18",
-    "source": "Parallel18",
-    "source_url": "https://parallel18.com/startup-directory/",
-    "description_source": "company website meta description",
-    "p18_generation": "7",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.ovee.me/",
-   "https://tryovee.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "oveit.com",
-  "name": "OVEIT",
-  "website": "https://oveit.com/",
-  "domain": "oveit.com",
-  "description": "Run your attraction without the software struggle",
-  "everywhere_tags": [
-   "Consumer",
-   "FinTech / Insurance",
-   "Transportation / Mobility"
-  ],
-  "verticals": [
-   "Retail",
-   "Business Services",
-   "FinTech",
-   "Transportation & Mobility"
-  ],
-  "location": "Austin",
-  "status": null,
-  "linkedin_url": "https://www.linkedin.com/company/oveit",
-  "exited": false,
-  "vc_firms": [],
-  "accelerators": [
-   "Capital Factory"
-  ],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "accelerator",
-    "name": "Capital Factory",
-    "slug": "capitalfactory",
-    "source_row": "data/accelerators/capitalfactory_companies.json#105",
-    "name_on_source": "OVEIT",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "date": "Capital Factory All Access",
-    "investors": "Capital Factory",
-    "source": "Capital Factory",
-    "source_url": "https://www.capitalfactory.com/portfolio/oveit",
-    "linkedin_source": "company website",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://oveit.com/"
   ],
   "funding_status": "no public funding found (fast pass)",
   "funding_checked": "2026-10-22",

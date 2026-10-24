@@ -1,5 +1,1394 @@
 [
  {
+  "company_id": "name:vybe",
+  "name": "Vybe",
+  "website": null,
+  "domain": null,
+  "description": "In your corner for demo day and beyond.",
+  "everywhere_tags": [],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Orange Collective"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Orange Collective",
+    "slug": "orangecollective",
+    "source_row": "data/orangecollective_companies.json#117",
+    "name_on_source": "Vybe",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "vybe.build",
+   "vybenetwork.com"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vybe.build",
+  "name": "Vybe",
+  "website": "https://vybe.build/",
+  "domain": "vybe.build",
+  "description": "Secure internal apps. Built by AI in seconds. Powered by your data. We're 2 repeat YC founders. We founded Plato (W16, sold to Coda) and Wolfia (S22). Quang lead Product/GTM for Coda Solutions and Fabien is ex-SWE at Meta and lead Engineering at Wealthfront before. We’re building Vybe: \"Lovable for internal apps\". We come with pre-built building blocks: Integrations (Gmail, Gcal, Github, Jira, etc.), SSO and AI tools (Websearch, Summarization etc.) so anyone in a company can build and launch internal AI-powered apps. Vibe coding is dramatically lowering the barrier for non-technical users to create full web apps. Lovable, Replit, Bolt, Google, Canva, Figma all launched their vibe-coding platforms. People love them. They're great for prototyping, but it's difficult to roll out inside a company for internal use cases for those reasons: 1. Data: If you want to connect your existing data (e.g. Salesforce, Gmail, Jira), you'd need to rebuild the API auth, pagination, etc. 2. SSO: If you build 20 apps, you'll have 20 different logins 3. Security: AI-built apps have massive risk of exposing data, especially if built by non developers So companies are stuck in the old world: clunky spreadsheets, rigid SaaS solutions or complex no-code tools. Time to build!",
+  "description_alternates": [
+   "AI builder for internal and secure enterprise ready applications.",
+   "Vybe enables teams to build secure internal applications rapidly using AI and data integrations, enhancing productivity for both engineers and business users."
+  ],
+  "everywhere_tags": [
+   "Cybersecurity",
+   "Data & Analytics",
+   "Dev Tools / Cloud",
+   "Future of Work"
+  ],
+  "verticals": [
+   "B2B -> Engineering",
+   "Product and Design"
+  ],
+  "location": "United States of America",
+  "location_alternates": [
+   "San Francisco, CA, USA"
+  ],
+  "status": "Active",
+  "team": "Quang Hoang, Fabien Devos",
+  "linkedin_url": "https://www.linkedin.com/company/107383717",
+  "exited": false,
+  "vc_firms": [
+   "Fjor Founders Fund",
+   "Hawktail",
+   "Kima Ventures"
+  ],
+  "accelerators": [
+   "Y Combinator"
+  ],
+  "backer_count": 4,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Fjor Founders Fund",
+    "slug": "fjor",
+    "source_row": "data/fjor_companies.json#52",
+    "name_on_source": "Vybe",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "Hawktail",
+    "slug": "hawktail",
+    "source_row": "data/hawktail_companies.json#101",
+    "name_on_source": "Vybe",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "https://www.vybe.build/"
+   },
+   {
+    "type": "vc",
+    "name": "Kima Ventures",
+    "slug": "kima",
+    "source_row": "data/kima_companies.json#937",
+    "name_on_source": "Vybe",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "http://vybe.build"
+   },
+   {
+    "type": "accelerator",
+    "name": "Y Combinator",
+    "slug": "ycombinator",
+    "source_row": "data/accelerators/ycombinator_companies.json#4449",
+    "name_on_source": "Vybe",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": "2025-04-01",
+    "status": "Active",
+    "url_on_source": "https://www.vybe.build",
+    "date": "YC X25",
+    "investors": "Y Combinator",
+    "source": "YC",
+    "source_url": "https://www.ycombinator.com/companies/vybe",
+    "founders_fetched": true,
+    "batch_date": "2025-04-01",
+    "batch_date_precision": "season",
+    "most_recent_batch": false
+   }
+  ],
+  "possible_matches": [
+   "vybenetwork.com"
+  ],
+  "total_raised": 10000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Seed",
+   "amount": 10000000.0,
+   "currency": "USD",
+   "date": "2025-12-10"
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 10000000.0,
+    "currency": "USD",
+    "date": "2025-12-10",
+    "investors": [],
+    "source_url": "https://www.vybe.build/blog/vybe-raises-10m-seed-funding",
+    "date_basis": "snippet"
+   }
+  ],
+  "funding_source_urls": [
+   "https://www.vybe.build/",
+   "https://www.vybe.build/blog",
+   "https://www.vybe.build/blog/vybe-raises-10m-seed-funding"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vybenetwork.com",
+  "name": "Vybe",
+  "website": "https://www.vybenetwork.com/",
+  "domain": "vybenetwork.com",
+  "description": null,
+  "everywhere_tags": [],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Ryze Labs"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Ryze Labs",
+    "slug": "ryzelabs",
+    "source_row": "data/ryzelabs_companies.json#44",
+    "name_on_source": "Vybe",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "vybe.build"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.vybenetwork.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vy-carb.com",
+  "name": "Vycarb",
+  "website": "https://www.vy-carb.com",
+  "domain": "vy-carb.com",
+  "description": "Vycarb is a Brooklyn-based firm that enables decentralized carbon removal through real-time, autonomous, and direct detection of CO2 in water.",
+  "description_alternates": [
+   "Vycarb is developing permanent, low-cost, and fully-measured carbon capture, removal, and storage solutions using water and minerals."
+  ],
+  "everywhere_tags": [
+   "Climate / Sustainability",
+   "Dev Tools / Cloud",
+   "Transportation / Mobility",
+   "Web3 / Crypto"
+  ],
+  "verticals": [
+   "Climate Tech",
+   "Blue Carbon"
+  ],
+  "location": "United States",
+  "status": null,
+  "linkedin_url": "https://www.linkedin.com/company/vycarb",
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Brinc",
+   "Hatch Blue"
+  ],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Brinc",
+    "slug": "brinc",
+    "source_row": "data/accelerators/brinc_companies.json#86",
+    "name_on_source": "Vycarb",
+    "matched_by": "domain",
+    "stage": "Early",
+    "first_invested": false,
+    "status": null,
+    "round": "Early",
+    "date": "Brinc",
+    "investors": "Brinc",
+    "source": "Brinc",
+    "source_url": "https://brinc.io/our-portfolio",
+    "most_recent_batch": false
+   },
+   {
+    "type": "accelerator",
+    "name": "Hatch Blue",
+    "slug": "hatchblue",
+    "source_row": "data/accelerators/hatchblue_companies.json#11",
+    "name_on_source": "Vycarb",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": false,
+    "status": null,
+    "url_on_source": "https://vy-carb.com/",
+    "date": "Hatch Blue portfolio (Hatch Accelerator Fund II)",
+    "investors": "Hatch Blue",
+    "source": "Hatch Blue",
+    "source_url": "https://www.hatch.blue/portfolio",
+    "most_recent_batch": false
+   }
+  ],
+  "possible_matches": [
+   "vycarb.com"
+  ],
+  "total_raised": 5000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Undisclosed round type",
+   "amount": 5000000.0,
+   "currency": "USD",
+   "date": null
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 5000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdDY2WVRpQWdHLXJOWkhNRG9PcHIybS1lX0psWDZSQ2Q3Wk1HUnVseWp0alZpaUZBMWdacWJ3UkJrdUNJMGpYZTk0R29pY2dVbnI0RF9ZNEt1ajhCNFViVTFuemE5bzZEUkdaTGRETXp4X3R4SG5oMXNYNVRNd09KTzRrZV9TbzdNNTZj?oc=5"
+   }
+  ],
+  "funding_source_urls": [
+   "https://vycarb.com/",
+   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdDY2WVRpQWdHLXJOWkhNRG9PcHIybS1lX0psWDZSQ2Q3Wk1HUnVseWp0alZpaUZBMWdacWJ3UkJrdUNJMGpYZTk0R29pY2dVbnI0RF9ZNEt1ajhCNFViVTFuemE5bzZEUkdaTGRETXp4X3R4SG5oMXNYNVRNd09KTzRrZV9TbzdNNTZj?oc=5",
+   "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYy1NODdIemRGWm9aV1dsWThmNmY0RXNtWVNPZG5mSktvdUhjejRNbloxYjUzQmFqVTVNQWpWVkcyRGx0TmpZUGs5MXVIa21qSmt3dG1rMWp5YkUwbkQyREROZ0lnUFhoWHdNOXp0VkpWLXl4X2VlUFlfOGFrOTBWc183TXVpd3M?oc=5"
+  ],
+  "funding_status": "unclear-round-type",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vycarb.com",
+  "name": "Vycarb",
+  "website": "https://vycarb.com/",
+  "domain": "vycarb.com",
+  "description": "Vycarb provides a low-cost, modular ocean carbon removal system with real-time MRV for precise, verifiable CO₂ sequestration. Its closed-loop, low-energy design enables scalable and environmentally safe deployment.",
+  "everywhere_tags": [
+   "Climate / Sustainability",
+   "Dev Tools / Cloud"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Collaborative Fund",
+   "MOL Switch"
+  ],
+  "accelerators": [],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Collaborative Fund",
+    "slug": "collaborativefund",
+    "source_row": "data/collaborativefund_companies.json#594",
+    "name_on_source": "Vycarb",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "MOL Switch",
+    "slug": "molswitch",
+    "source_row": "data/molswitch_companies.json#13",
+    "name_on_source": "Vycarb",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "vy-carb.com"
+  ],
+  "total_raised": 5000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Seed",
+   "amount": 5000000.0,
+   "currency": "USD",
+   "date": null
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 5000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://vycarb.com/press"
+   }
+  ],
+  "funding_source_urls": [
+   "https://vycarb.com/",
+   "https://vycarb.com/press"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "name:vyertechnologies",
+  "name": "Vyer Technologies",
+  "website": null,
+  "domain": null,
+  "description": "Vyer Technologies creates web-based, interactive 3D visualisations.",
+  "everywhere_tags": [
+   "PropTech"
+  ],
+  "verticals": [
+   "PropTech"
+  ],
+  "location": "Stockholm, Sweden",
+  "status": null,
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Sting"
+  ],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Sting",
+    "slug": "sting",
+    "source_row": "data/accelerators/sting_companies.json#117",
+    "name_on_source": "Vyer Technologies",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": "2017-01-01",
+    "status": null,
+    "date": "Sting 2017 cohort",
+    "investors": "Sting",
+    "source": "Sting",
+    "source_url": "https://www.sting.co/companies/vyer-technologies",
+    "batch_date": "2017-01-01",
+    "batch_date_precision": "year",
+    "most_recent_batch": false
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vyldness.de",
+  "name": "Vyld",
+  "website": "https://www.vyldness.de/",
+  "domain": "vyldness.de",
+  "description": "Healthy, sustainable and ocean friendly period products from seaweed.",
+  "everywhere_tags": [
+   "Climate / Sustainability"
+  ],
+  "location": null,
+  "status": null,
+  "linkedin_url": "https://www.linkedin.com/company/vyld",
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Village Capital"
+  ],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Village Capital",
+    "slug": "vilcap",
+    "source_row": "data/accelerators/vilcap_companies.json#143",
+    "name_on_source": "Vyld",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": false,
+    "status": null,
+    "date": "Village Capital alumni",
+    "investors": "Village Capital",
+    "source": "Village Capital",
+    "source_url": "https://vilcap.com/our-alumni",
+    "description_source": "company website meta description",
+    "linkedin_source": "company website",
+    "most_recent_batch": false
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": "Seed",
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": null,
+    "currency": null,
+    "date": null,
+    "investors": [],
+    "source_url": "https://www.vyldness.de/press"
+   }
+  ],
+  "funding_source_urls": [
+   "https://www.vyldness.de/",
+   "https://www.vyldness.de/press",
+   "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0WjRzTTl1Zkh6UmcwWHBrUk1IX1BZUXZGUkZEX0tIeTAtQkNtZjRhbW41NF9pTXprcHdtWXBJUEhVdkd3TEloc1g3c0lSMWJKbHAtTUh4ckdEUQ?oc=5",
+   "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZcUozNWdXUlBJdVFJQ0ZvVkNSMnZJNWNHbF9MaWEyZEo3X2l3akFSWUl2cExBQmJ4ODl3NW54cUN5RDV2REEtRW5nV2RVVExsRVJJ?oc=5"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vylitworld.com",
+  "name": "Vylit",
+  "website": "http://www.vylitworld.com",
+  "domain": "vylitworld.com",
+  "description": null,
+  "everywhere_tags": [],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "A-Force Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "A-Force Ventures",
+    "slug": "aforceventures",
+    "source_row": "data/aforceventures_companies.json#13",
+    "name_on_source": "Vylit",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": 2700000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Seed",
+   "amount": 2700000.0,
+   "currency": "USD",
+   "date": "2025-09-25"
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 2700000.0,
+    "currency": "USD",
+    "date": "2025-09-25",
+    "lead_investors": [
+     "Windmill Chain"
+    ],
+    "investors": [
+     "Windmill Chain"
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc29KdjhxZ3h3Z0VvMlVfY3paTkZkYm44RmlwazV1VWZ6b051RjZ6eVRwRnVfMHU5LVF6bmhCQkxfQkVfX28ybUlEOWZCODJPVXltZlFqX0J6dlh1MHVzVkJacHNrS0xzZ0ZFMDE2ZjVsQTlIWEpFMXZkZE9VbTk4VU92LTVkUWswZzhNNFdWeHVhal9rUExybjdyMk1WVGZ5TkRxWk10RFVQNVAzMVFlWXlPUGg?oc=5",
+    "date_basis": "rss"
+   }
+  ],
+  "notable_investors": [
+   "Windmill Chain"
+  ],
+  "funding_source_urls": [
+   "https://vylitworld.com/",
+   "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc29KdjhxZ3h3Z0VvMlVfY3paTkZkYm44RmlwazV1VWZ6b051RjZ6eVRwRnVfMHU5LVF6bmhCQkxfQkVfX28ybUlEOWZCODJPVXltZlFqX0J6dlh1MHVzVkJacHNrS0xzZ0ZFMDE2ZjVsQTlIWEpFMXZkZE9VbTk4VU92LTVkUWswZzhNNFdWeHVhal9rUExybjdyMk1WVGZ5TkRxWk10RFVQNVAzMVFlWXlPUGg?oc=5",
+   "https://finance.yahoo.com/news/2-7m-funding-vylit-unveils-130000938.html",
+   "https://www.alleywatch.com/2025/09/vylit-social-creator-platform-adult-content-monetization-kailey-magder-ami-gan/"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)"
+  ]
+ },
+ {
+  "company_id": "vylvet.co",
+  "name": "Vylvet",
+  "website": "https://vylvet.co",
+  "domain": "vylvet.co",
+  "description": "The BeautyGoGo app helps Black women by offering immediate delivery or pick up of niche products from a variety of local retailers called beauty supply stores",
+  "everywhere_tags": [
+   "CPG",
+   "Consumer",
+   "Logistics / Supply Chain"
+  ],
+  "verticals": [
+   "Beauty",
+   "Mobile commerce",
+   "Supply chain technology"
+  ],
+  "location": "Redford, Michigan, United States",
+  "status": null,
+  "linkedin_url": "https://www.linkedin.com/company/beautygogo-inc",
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Techstars"
+  ],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Techstars",
+    "slug": "techstars",
+    "source_row": "data/accelerators/techstars_companies.json#3063",
+    "name_on_source": "Vylvet",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": "2024-01-01",
+    "status": null,
+    "date": "Techstars Detroit powered by J.P. Morgan 2024",
+    "investors": "Techstars",
+    "source": "Techstars",
+    "programs": [
+     "Techstars Detroit powered by J.P. Morgan"
+    ],
+    "first_session_year": 2024,
+    "is_accelerator_company": true,
+    "source_url": "https://www.techstars.com/portfolio",
+    "former_name": "BeautyGoGO",
+    "batch_date": "2024-01-01",
+    "batch_date_precision": "year",
+    "most_recent_batch": true
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://vylvet.co/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "getvymo.com",
+  "name": "Vymo",
+  "website": "https://getvymo.com",
+  "domain": "getvymo.com",
+  "website_alternates": [
+   "https://emcap.substack.com/"
+  ],
+  "description": "Vymo drives sales productivity ground up for frontline personnel, sales managers, and business leaders through intelligent nudges and industry playbooks. Vymo is the Sales Acceleration Platform of choice for leading Financial Institutions around the globe and is trusted by more than 200,000 salespeople across 60+ global enterprises such as Berkshire, AIA, FE Credit, Generali, AXA, Sunlife, and HDFC Bank. Recent Content Arcee AI on Why Open-Weights Are a National Bet, Not a Business Model October 9, 2026 Rethinking Communication for Human and AI Teams September 24, 2026 Our Investment in Verda: A Full-Stack AI Cloud September 22, 2026",
+  "description_alternates": [
+   "Sales Accelerator for Financial Institutions",
+   "Vymo is a mobile-first Personal Sales Assistant that captures sales activities automatically, learns from top performers in the team, and then coaches sales people contextually to do more."
+  ],
+  "everywhere_tags": [
+   "FinTech / Insurance",
+   "Future of Work",
+   "CPG",
+   "Consumer",
+   "Dev Tools / Cloud",
+   "Gaming / Media / Entertainment"
+  ],
+  "verticals": [
+   "Fintech"
+  ],
+  "location": null,
+  "status": "Private",
+  "status_alternates": [
+   "active"
+  ],
+  "exited": false,
+  "vc_firms": [
+   "Emergence Capital",
+   "Gaingels"
+  ],
+  "accelerators": [
+   "Plug and Play APAC"
+  ],
+  "backer_count": 3,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Emergence Capital",
+    "slug": "emergence",
+    "source_row": "data/emergence_companies.json#79",
+    "name_on_source": "Vymo",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": "2019",
+    "status": "Private",
+    "url_on_source": "https://emcap.substack.com/"
+   },
+   {
+    "type": "vc",
+    "name": "Gaingels",
+    "slug": "gaingels",
+    "source_row": "data/gaingels_companies.json#2748",
+    "name_on_source": "Vymo",
+    "matched_by": "domain",
+    "stage": "Series C",
+    "first_invested": null,
+    "status": "active"
+   },
+   {
+    "type": "accelerator",
+    "name": "Plug and Play APAC",
+    "slug": "plugandplayapac",
+    "source_row": "data/accelerators/plugandplayapac_companies.json#317",
+    "name_on_source": "Vymo",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": false,
+    "status": null,
+    "url_on_source": "http://www.getvymo.com/",
+    "date": "Plug and Play APAC startup (Fintech)",
+    "investors": "Plug and Play APAC",
+    "source": "Plug and Play APAC",
+    "source_url": "https://www.plugandplayapac.com/our-startups",
+    "most_recent_batch": false
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": "Series C",
+   "amount": null,
+   "currency": null,
+   "date": "2022-02-24"
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series C",
+    "amount": null,
+    "currency": null,
+    "date": "2022-02-24",
+    "investors": [],
+    "source_url": "https://www.prnewswire.com/news-releases/vymo-raises-series-c-funding-to-empower-remote-sales-teams-301489412.html",
+    "date_basis": "snippet"
+   }
+  ],
+  "funding_source_urls": [
+   "https://vymo.com/us/",
+   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbU5oeHhIakwwd09YYlRvZFRiOE1uODJQTW1kd3pKdnNmSFg4MUlkd2wtekxlLXdkS19zSnNya05QYVlBTUxhbW5sUUswbzlrSEpPTmJ1amlCWFAxYzZBZ3I3Zi14VmFmMXBoZ0x2WVhWYWR0c1VkSElpN1JkdGZHeWNrQWNwS09rcS1zYjBmMkw1TEdHM040OGdrQkh5S0x6amNaaWN0TjNzaDdTWkJCcEo3U0ZWa1lCZUk1R0RCMUZCcklaVHBoaDlVTkFKTE1ncXfSAdcBQVVfeXFMTk9QOGRSdEd3YUpFbTB1MWY2QnJaNlVna0IxNFowUlpGVG9jMGJZN2NLcTRuWDdNOTB5RnpUczlka1pROVJyNTVBb0k0dGl4aWZDM3JEb1RfSHU1U3I4R29sSjV3UmE5ODVCWXhCWEE4dDBVaG45VEs0T2pxS0lNd2JQTG91TWpobDVRdW9xUjR6c0xZRGJ4OE5wTlhUSHlWbU9JQWlGbFVNYS1aMEtNaHB2OVpyVEV2TzE5NzZkc3R1c0JlLU80MHIxWTNjWDVZSkFZZkdqSmM?oc=5",
+   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUWlGUWRCalBsV3FVaVREZ0YyQkpydFp0aVZfZUxaaGk1SG1PSW1UZ054VG54emhVRVpFc29wN3prbzZFQ2lDUHNMemxSeXFQa2JvZ01VVDBsdVVBQkJpb1YwbkJQTExiaFR4NkZ5VzY3M0tjc1VuYUdGVDBucGZ6OWNBdEh4QnJXa3FN0gGTAUFVX3lxTFAzWmw1VDhuWTRtUkt3WmMxUDA5TU5oLW5xMUYxOEZ2Wk9QRTRNdDFZZThaV216ZW1WbjFJcXVjaWVLaFlvazNib2xYd2JWUV9sdm1UdEZULWNFRHd5YWZnbGRGVnNWRzE3VHBfa1ZVTEhmWjJzRGRfdE12MEhZUHlic2wxSHNGeU9nRW9DWWRfNlIyZw?oc=5",
+   "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNWQ2cmliZl9FX0YtQU5zbHJnbG9jMHRFTGxFZk9rUHZqWjhVX2duSVRyd1VIZ0hwV2lybHdfTXdub0hxaC1DS05WQjJyX0FFUU1DQmF0VGFkZk5pNzBqUUtHWlBpRVhGSXNGRUtUZzk4VmR0NlRHZkZHQi1vX3BOWHlyS25iNmxLZnAyTVJlZTNfWDF4VzhvN1JOQWR3bWvSAaQBQVVfeXFMTzFDVnhQTURmRzJ0T1hMS3N2NDZtS1FXRXVFOTh5NnFMdy1FVHFQcDhTYnU1dTB2WXNOUXRKZHoxRm1YVjR3MEJ2MjNWOFFRc1hLaDFFTHhlVk5sVkxsczl2WVVzUnhSRjZrSnVhaEo4b281QXhBcHZVaF9jV2xuWXk4blRLbXhyX2k3RGVBTmdMNk9KcmlBYmNNXzVFNGJUUjB3X2o?oc=5",
+   "https://www.prnewswire.com/news-releases/vymo-raises-series-c-funding-to-empower-remote-sales-teams-301489412.html",
+   "https://www.financialexpress.com/business/industry-vymo-raises-5-mn-funding-from-sequoia-india-451888/",
+   "https://www.thehindubusinessline.com/companies/vymo-raises-22-million-in-series-c-funding/article65077684.ece"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vyncacare.com",
+  "name": "Vynca",
+  "name_alternates": [
+   "Vynca Care"
+  ],
+  "website": "https://www.vyncacare.com",
+  "domain": "vyncacare.com",
+  "description": "VyncaCare is a serious illness management platform that helps care teams manage their most vulnerable populations. The company couples Advance Care Planning (ACP) software with virtual palliative care services to holistically improve patient outcomes and quality of life.",
+  "everywhere_tags": [
+   "Cybersecurity",
+   "Health"
+  ],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Generator Ventures",
+   "Marram Ventures",
+   "Questa Capital"
+  ],
+  "accelerators": [],
+  "backer_count": 3,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Generator Ventures",
+    "slug": "generatorvc",
+    "source_row": "data/generatorvc_companies.json#12",
+    "name_on_source": "Vynca Care",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "Marram Ventures",
+    "slug": "marramventures",
+    "source_row": "data/marramventures_companies.json#23",
+    "name_on_source": "Vynca",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   },
+   {
+    "type": "vc",
+    "name": "Questa Capital",
+    "slug": "questacapital",
+    "source_row": "data/questacapital_companies.json#21",
+    "name_on_source": "Vynca",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "vyncahealth.com"
+  ],
+  "total_raised": 40300000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Series B",
+   "amount": 10300000.0,
+   "currency": "USD",
+   "date": "2019-06-27"
+  },
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Series B",
+    "amount": 10300000.0,
+    "currency": "USD",
+    "date": "2019-06-27",
+    "investors": [],
+    "source_url": "https://pulse2.com/advance-care-planning-solution-company-vynca-raises-10-3-million/",
+    "date_basis": "snippet"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 30000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRDZaVUtVN3VWdWc0VS1HbVRTTGdfaFdqMENjZThhcmZxTUFLUlZlbk9IWmlKQzdtODNxM3BKZkpMbWloVFNPTVhqVlZXTXpISEd5ejkxamt2bjRZeGJlZ2E3bjkyWV9uZHZaVENIZHlMRENHOHpRNnNUWWNPNE9oS2N0MVg4LU1fb0pxRFFTSGhFbEJxZUdhcVdzdFk0ajdtT094dl9xQ2VJc29OZHF4RU5qY0w5QmxxcWRwbk02dHhIMHhGdTR4WEZkREhYbkgwVmVJ?oc=5"
+   }
+  ],
+  "funding_source_urls": [
+   "https://www.vyncacare.com/",
+   "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRDZaVUtVN3VWdWc0VS1HbVRTTGdfaFdqMENjZThhcmZxTUFLUlZlbk9IWmlKQzdtODNxM3BKZkpMbWloVFNPTVhqVlZXTXpISEd5ejkxamt2bjRZeGJlZ2E3bjkyWV9uZHZaVENIZHlMRENHOHpRNnNUWWNPNE9oS2N0MVg4LU1fb0pxRFFTSGhFbEJxZUdhcVdzdFk0ajdtT094dl9xQ2VJc29OZHF4RU5qY0w5QmxxcWRwbk02dHhIMHhGdTR4WEZkREhYbkgwVmVJ?oc=5",
+   "https://pulse2.com/advance-care-planning-solution-company-vynca-raises-10-3-million/",
+   "https://hitconsultant.net/2022/01/31/vynca-integrated-palliative-care-platform/"
+  ],
+  "funding_status": "unclear-round-type",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)"
+  ]
+ },
+ {
+  "company_id": "vyncahealth.com",
+  "name": "VyncaCare",
+  "website": "https://vyncahealth.com/",
+  "domain": "vyncahealth.com",
+  "description": "Serious illness and palliative care management platform",
+  "everywhere_tags": [
+   "Health"
+  ],
+  "location": "Palo Alto, CA",
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "OCA Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "OCA Ventures",
+    "slug": "ocaventures",
+    "source_row": "data/ocaventures_companies.json#72",
+    "name_on_source": "VyncaCare",
+    "matched_by": "domain",
+    "stage": "Series B",
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "possible_matches": [
+   "vyncacare.com"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "name:vyne",
+  "name": "VYNE",
+  "name_alternates": [
+   "Vyne"
+  ],
+  "website": "https://www.tarabut.com/",
+  "domain": null,
+  "description": "Vyne is a full-stack account-to-account payment solution using open banking for merchants.",
+  "description_alternates": [
+   "Secure health information exchange solutions"
+  ],
+  "everywhere_tags": [
+   "Cybersecurity",
+   "FinTech / Insurance"
+  ],
+  "location": "London",
+  "status": "realized",
+  "status_alternates": [
+   "active"
+  ],
+  "exited": false,
+  "vc_firms": [
+   "Accel-KKR",
+   "Hearstventures"
+  ],
+  "accelerators": [],
+  "backer_count": 2,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Accel-KKR",
+    "slug": "accelkkr",
+    "source_row": "data/accelkkr_companies.json#160",
+    "name_on_source": "VYNE",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": "realized"
+   },
+   {
+    "type": "vc",
+    "name": "Hearstventures",
+    "slug": "hearstventures",
+    "source_row": "data/hearstventures_companies.json#48",
+    "name_on_source": "Vyne",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": "active"
+   }
+  ],
+  "possible_matches": [
+   "payvyne.com",
+   "vynehr.com"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "payvyne.com",
+  "name": "Vyne",
+  "name_alternates": [
+   "vyne"
+  ],
+  "website": "https://www.payvyne.com",
+  "domain": "payvyne.com",
+  "description": "Vyne uses open banking to power account-to-account payments for online businesses, setting the course for the future of payments. Customers pay directly from their bank account and payments are completed in seconds, bypassing expensive and slow traditional methods.",
+  "description_alternates": [
+   "มังงะแปลไทยครบแนว อัปเดตทุกวัน อ่านฟรี จดจำตำแหน่งได้ | payvyne.com",
+   "Open Banking-enabled payments for eCommerce"
+  ],
+  "everywhere_tags": [
+   "FinTech / Insurance",
+   "Consumer"
+  ],
+  "verticals": [
+   "Fintech"
+  ],
+  "location": "France",
+  "status": "active",
+  "exited": false,
+  "vc_firms": [
+   "Entrée Capital",
+   "Partech",
+   "Seedcamp",
+   "Venrex"
+  ],
+  "accelerators": [
+   "Seedcamp"
+  ],
+  "backer_count": 5,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Entrée Capital",
+    "slug": "entreecapital",
+    "source_row": "data/entreecapital_companies.json#55",
+    "name_on_source": "Vyne",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": "active"
+   },
+   {
+    "type": "vc",
+    "name": "Partech",
+    "slug": "partech",
+    "source_row": "data/partech_companies.json#259",
+    "name_on_source": "Vyne",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": "active",
+    "url_on_source": "https://www.payvyne.com/"
+   },
+   {
+    "type": "vc",
+    "name": "Seedcamp",
+    "slug": "seedcamp",
+    "source_row": "data/seedcamp_companies.json#171",
+    "name_on_source": "vyne",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "http://payvyne.com"
+   },
+   {
+    "type": "vc",
+    "name": "Venrex",
+    "slug": "venrex",
+    "source_row": "data/venrex_companies.json#163",
+    "name_on_source": "Vyne",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "https://www.payvyne.com/"
+   },
+   {
+    "type": "accelerator",
+    "name": "Seedcamp",
+    "slug": "seedcamp",
+    "source_row": "data/accelerators/seedcamp_companies.json#176",
+    "name_on_source": "vyne",
+    "matched_by": "domain",
+    "stage": "Seed",
+    "first_invested": null,
+    "status": null,
+    "url_on_source": "http://payvyne.com",
+    "round": "Seed",
+    "amount_raised": "$15,500,000",
+    "date": "Seedcamp 2019",
+    "investors": "Seedcamp",
+    "source": "Seedcamp",
+    "source_url": "https://seedcamp.com/our-companies/"
+   }
+  ],
+  "possible_matches": [
+   "vynehr.com"
+  ],
+  "total_raised": 15500000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Seed",
+   "amount": 15500000,
+   "currency": "USD",
+   "date": "2021-09-23"
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 15500000,
+    "currency": "USD",
+    "date": "2021-09-23",
+    "investors": [
+     "Hearst Ventures",
+     "Entrée Capital",
+     "TriplePoint",
+     "Seedcamp",
+     "Venrex",
+     "Founder Collective",
+     "Partech",
+     "Alex Chesterman",
+     "Charlie Delingpole",
+     "Will Neale"
+    ],
+    "source_url": "https://techcrunch.com/2021/09/23/vyne-raises-15-5m-seed-round-to-grow-its-merchant-focused-open-banking-solutions/"
+   }
+  ],
+  "notable_investors": [
+   "Hearst Ventures",
+   "Entrée Capital",
+   "TriplePoint",
+   "Seedcamp",
+   "Venrex",
+   "Founder Collective",
+   "Partech",
+   "Alex Chesterman",
+   "Charlie Delingpole",
+   "Will Neale"
+  ],
+  "funding_source_urls": [
+   "https://fintech.global/2021/09/23/vyne-closes-uks-largest-seed-round-of-any-open-banking-startup/",
+   "https://www.businesswire.com/news/home/20240903018887/en/Tarabut-Acquires-UK-Payments-Platform-Vyne-Ahead-of-New-MENA-Regulatory-Requirements",
+   "https://www.fintechfutures.com/paytech/tarabut-buys-a2a-payments-platform-vyne",
+   "https://www.wamda.com/en/2024/09/tarabut-acquires-uk-payments-platform-vyne",
+   "https://techcrunch.com/2021/09/23/vyne-raises-15-5m-seed-round-to-grow-its-merchant-focused-open-banking-solutions/"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-14",
+  "funding_notes": [
+   "payvyne.com verified (Vyne, London open-banking account-to-account payments for merchants; CEO Karl MacGregor). $15.5M seed (Sept 2021) from Hearst Ventures, Entrée Capital, TriplePoint, Seedcamp, Venrex, Founder Collective, Partech and angels (lead not specified; billed as UK's largest open-banking seed). Acquired by Bahrain/Saudi open-banking platform Tarabut; deal closed 1 Aug 2024 (announced Sept 2024), terms undisclosed."
+  ]
+ },
+ {
+  "company_id": "vynehr.com",
+  "name": "VYNE",
+  "website": "https://vynehr.com/",
+  "domain": "vynehr.com",
+  "description": "La consultora que reinventa la selección de talento cualificado.",
+  "everywhere_tags": [
+   "Future of Work"
+  ],
+  "verticals": [
+   "IA",
+   "Servicios"
+  ],
+  "location": "Valencia, Spain (Lanzadera)",
+  "status": null,
+  "team": "Iván Lorenzo",
+  "exited": false,
+  "vc_firms": [],
+  "accelerators": [
+   "Lanzadera"
+  ],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "accelerator",
+    "name": "Lanzadera",
+    "slug": "lanzadera",
+    "source_row": "data/accelerators/lanzadera_companies.json#48",
+    "name_on_source": "VYNE",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": "2026-09-01",
+    "status": null,
+    "date": "Lanzadera SEPT26",
+    "investors": "Lanzadera",
+    "source": "Lanzadera",
+    "source_url": "https://lanzadera.es/startups/vyne/",
+    "batch_date": "2026-09-01",
+    "batch_date_precision": "month",
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
+   }
+  ],
+  "possible_matches": [
+   "payvyne.com"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://vynehr.com/",
+   "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrMFo2RDlvMmNnZXhnb1kyckdxSmR2MThHQnhiUmVzMEtzbWd1ZnVVUzJ3YVlOUUZaZWc4bE9LSGY0OGRUWTNSMXdDSEREVkJaRUx4ejdrUHNGYlpnelRla3I5M3liTmZRTlNwOEQ3TDdwbHA5N1c0Q2szTQ?oc=5",
+   "https://www.finextra.com/pressarticle/89434/account-to-account-payments-startup-vyne-raises-155-million-in-seed-funding",
+   "https://www.pymnts.com/news/investment-tracker/2021/open-banking-firm-vyne-completes-15-5m-seed-round/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vynetherapeutics.com",
+  "name": "VYNE Therapeutics",
+  "website": "https://vynetherapeutics.com/",
+  "domain": "vynetherapeutics.com",
+  "description": "VYNE Therapeutics (NASDAQ: MNLO) is a late-stage biopharmaceutical company focused on the development and commercialization of serlopitant for the treatment of pruritus (itch) associated with dermatologic conditions such as atopic dermatitis, psoriasis and prurigo nodularis. Formerly Menlo Therapeutics.",
+  "everywhere_tags": [
+   "BioTech",
+   "Health"
+  ],
+  "location": "Menlo Park, CA",
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "F-Prime Capital"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "F-Prime Capital",
+    "slug": "fprimecapital",
+    "source_row": "data/fprimecapital_companies.json#357",
+    "name_on_source": "VYNE Therapeutics",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": 2015,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)"
+  ]
+ },
+ {
+  "company_id": "name:vyng",
+  "name": "Vyng",
+  "website": null,
+  "domain": null,
+  "description": null,
+  "everywhere_tags": [],
+  "location": null,
+  "status": null,
+  "exited": false,
+  "vc_firms": [
+   "Inspiration Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Inspiration Ventures",
+    "slug": "inspirationventures",
+    "source_row": "data/inspirationventures_companies.json#24",
+    "name_on_source": "Vyng",
+    "matched_by": "name",
+    "stage": null,
+    "first_invested": null,
+    "status": null
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-22",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+  ]
+ },
+ {
+  "company_id": "vyntelligence.com",
+  "name": "Vyntelligence Ltd",
+  "website": "https://vyntelligence.com/",
+  "domain": "vyntelligence.com",
+  "description": "AI-powered video platform improving safety, costs, and decision speed.",
+  "everywhere_tags": [
+   "Gaming / Media / Entertainment"
+  ],
+  "location": null,
+  "status": "active",
+  "exited": false,
+  "vc_firms": [
+   "Octopus Ventures"
+  ],
+  "accelerators": [],
+  "backer_count": 1,
+  "backers": [
+   {
+    "type": "vc",
+    "name": "Octopus Ventures",
+    "slug": "octopusventures",
+    "source_row": "data/octopusventures_companies.json#44",
+    "name_on_source": "Vyntelligence Ltd",
+    "matched_by": "domain",
+    "stage": null,
+    "first_invested": null,
+    "status": "active"
+   }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://vyntelligence.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-21",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+  ]
+ },
+ {
   "company_id": "vyoma.space",
   "name": "Vyoma",
   "website": "https://www.vyoma.space/",
@@ -27252,7 +28641,9 @@
     "source_url": "https://lanzadera.es/startups/watermelonco/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    },
    {
     "type": "accelerator",
@@ -38929,7 +40320,9 @@
     "investors": "Lanzadera",
     "source": "Lanzadera",
     "source_url": "https://lanzadera.es/startups/waynabox/",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -41697,7 +43090,9 @@
     "source_url": "https://lanzadera.es/startups/wazoo/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -56961,7 +58356,9 @@
     "source_url": "https://lanzadera.es/startups/wedify/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -58551,7 +59948,9 @@
     "source_url": "https://lanzadera.es/startups/weekend-solutions/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -67127,7 +68526,9 @@
     "source_url": "https://lanzadera.es/startups/wellbeinn/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -72279,7 +73680,9 @@
     "source_url": "https://lanzadera.es/startups/wemigo/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -72739,7 +74142,9 @@
     "source_url": "https://lanzadera.es/startups/wend/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -76138,7 +77543,9 @@
     "source_url": "https://lanzadera.es/startups/wesolving-finance-s-l/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -76193,7 +77600,9 @@
     "source_url": "https://lanzadera.es/startups/wespeak/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -97911,7 +99320,9 @@
     "source_url": "https://lanzadera.es/startups/wilapp/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -98709,7 +100120,9 @@
     "source_url": "https://lanzadera.es/startups/wild-rain-cosmetics/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -106395,7 +107808,9 @@
     "source_url": "https://lanzadera.es/startups/windfit/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -149763,7 +151178,9 @@
     "source_url": "https://lanzadera.es/startups/world-challenge-game/",
     "batch_date": "2024-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -165091,7 +166508,9 @@
     "source_url": "https://lanzadera.es/startups/x-emotos/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -222620,7 +224039,9 @@
     "source_url": "https://lanzadera.es/startups/yorsio/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -243140,7 +244561,9 @@
     "source_url": "https://lanzadera.es/startups/zaindari/",
     "batch_date": "2025-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -246214,7 +247637,9 @@
     "investors": "Lanzadera",
     "source": "Lanzadera",
     "source_url": "https://lanzadera.es/startups/zapato-feroz/",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -248097,7 +249522,9 @@
     "source_url": "https://lanzadera.es/startups/zapup/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -275856,7 +277283,9 @@
     "source_url": "https://lanzadera.es/startups/zerion/",
     "batch_date": "2026-09-01",
     "batch_date_precision": "month",
-    "most_recent_batch": true
+    "most_recent_batch": true,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": 22200000,
@@ -307145,7 +308574,9 @@
     "source_url": "https://lanzadera.es/startups/zomai/",
     "batch_date": "2026-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
@@ -314048,7 +315479,9 @@
     "source_url": "https://lanzadera.es/startups/zoundroom/",
     "batch_date": "2025-03-01",
     "batch_date_precision": "month",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "last_seen": "2026-10-23",
+    "listed_on_site": true
    }
   ],
   "total_raised": null,
