@@ -7504,21 +7504,35 @@
     "status": null
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 40000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Seed",
+   "amount": 40000000.0,
+   "currency": "USD",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "not researched (ambiguous short name key; manual check needed)",
-  "funding_checked": "2026-10-23",
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 40000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://0g.ai/press",
+    "rotation_new": "2026-10-24"
+   }
+  ],
+  "funding_source_urls": [
+   "https://0g.ai/",
+   "https://0g.ai/press"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -7693,21 +7707,35 @@
     "status": null
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 40000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Seed",
+   "amount": 40000000.0,
+   "currency": "USD",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_status": "not researched (ambiguous short name key; manual check needed)",
-  "funding_checked": "2026-10-23",
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 40000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://0g.ai/press",
+    "rotation_new": "2026-10-24"
+   }
+  ],
+  "funding_source_urls": [
+   "https://0g.ai/",
+   "https://0g.ai/press"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -8072,20 +8100,28 @@
     "date": "2025-11-17",
     "investors": [],
     "source_url": "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/36191095/0xbow-closes-3-5m-round-for-compliant-crypto-privacy-technology-following-ethereum-foundation-integration/",
-    "date_basis": "rss"
+    "date_basis": "rss",
+    "source_urls": [
+     "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/36191095/0xbow-closes-3-5m-round-for-compliant-crypto-privacy-technology-following-ethereum-foundation-integration/",
+     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdWRWaGctNnltQ2lxNG10ckpNaHQzZjByNTd3THFuS1p5S3dOcGhQSVltaXdQbU45SjRrOVdYNUF2cENwS0FwRE8ya1MxOW53S25GcDhTNUExOWJoRldIX3JtSUc1RGNWWnpjR1dESTBYc2NJRHpndDIxWFgxS0JyWC15Q1ZzOVFNVDNF?oc=5"
+    ],
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
    "https://www.manilatimes.net/2025/11/19/tmt-newswire/globenewswire/0xbow-closes-35m-round-for-compliant-crypto-privacy-technology-following-ethereum-foundation-integration/2226849",
    "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/36191095/0xbow-closes-3-5m-round-for-compliant-crypto-privacy-technology-following-ethereum-foundation-integration/",
    "https://menafn.com/1110362634/0Xbow-Closes-35M-Round-For-Compliant-Crypto-Privacy-Technology-Following-Ethereum-Foundation-Integration",
-   "https://0xbow.io/"
+   "https://0xbow.io/",
+   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdWRWaGctNnltQ2lxNG10ckpNaHQzZjByNTd3THFuS1p5S3dOcGhQSVltaXdQbU45SjRrOVdYNUF2cENwS0FwRE8ya1MxOW53S25GcDhTNUExOWJoRldIX3JtSUc1RGNWWnpjR1dESTBYc2NJRHpndDIxWFgxS0JyWC15Q1ZzOVFNVDNF?oc=5"
   ],
   "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -13716,24 +13752,39 @@
     "status": null
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 4000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A",
+   "amount": 4000000.0,
+   "currency": "USD",
+   "date": "2015-10-15"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://17hats.com/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series A",
+    "amount": 4000000.0,
+    "currency": "USD",
+    "date": "2015-10-15",
+    "investors": [],
+    "source_url": "https://www.prnewswire.com/news-releases/17hats-raises-4m-led-by-wavemaker-partners-300158017.html",
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_source_urls": [
+   "https://17hats.com/",
+   "https://www.prnewswire.com/news-releases/17hats-raises-4m-led-by-wavemaker-partners-300158017.html",
+   "https://www.pehub.com/wavemaker-partners-leads-4-mln-series-a-funding-in-17hats/"
+  ],
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -20526,10 +20577,9 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -20640,7 +20690,7 @@
    "https://www.21shares.com/en-eu"
   ],
   "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
@@ -20716,10 +20766,9 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -21064,10 +21113,10 @@
   },
   "funding_round_count": 0,
   "funding_rounds": [],
-  "funding_status": "not researched (ambiguous short name key; manual check needed)",
-  "funding_checked": "2026-10-23",
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -33629,6 +33678,25 @@
     "first_invested": "2011-07-05",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://410labs.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -42150,10 +42218,9 @@
    "https://www.6kinc.com/news/press-release/6k_closes_series_e_funding/"
   ],
   "funding_status": "seed+",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
   ]
  },
  {
@@ -48251,10 +48318,10 @@
    "https://www.99.co/"
   ],
   "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -48284,6 +48351,22 @@
     "first_invested": null,
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -56761,17 +56844,28 @@
     "status": "active"
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 5000000,
+  "total_raised_currency": "EUR",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Undisclosed round type",
+   "amount": 5000000.0,
+   "currency": "EUR",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 5000000.0,
+    "currency": "EUR",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmVHMnQzZjZnb0p3SlhIMlJpQUo3RjM5MVBUYlQtcjJuQU1tOHlFaURuRV9pbkhBRWRSc1diUW9kWHlIYnZwUWVtRGRmeTk1OTFRN3EtbDB1WGptcGlYekowOUZtOWl4U29IRjhsbWpCZS05SWFKaHQ5YmFkamVXNkIwY0stUnVmM2RSbkJLS3FLYzFXWUdCTWRHNktYVGhibGEzbmtCR0lkUERQeW5seFVXREstTThONzJNRHNYRlgwM1ppWFJ2dUhlV0tDcG52?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
   "funding_source_urls": [
    "https://aardaia.com/",
    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmVHMnQzZjZnb0p3SlhIMlJpQUo3RjM5MVBUYlQtcjJuQU1tOHlFaURuRV9pbkhBRWRSc1diUW9kWHlIYnZwUWVtRGRmeTk1OTFRN3EtbDB1WGptcGlYekowOUZtOWl4U29IRjhsbWpCZS05SWFKaHQ5YmFkamVXNkIwY0stUnVmM2RSbkJLS3FLYzFXWUdCTWRHNktYVGhibGEzbmtCR0lkUERQeW5seFVXREstTThONzJNRHNYRlgwM1ppWFJ2dUhlV0tDcG52?oc=5",
@@ -56779,11 +56873,11 @@
    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRU5wYW5jMENQMmhYMFNkWFNiVUJhdWIyUXctbXBQN2lPQWJ6bXFWMkduSHVVNXZ0eXpnWDJJUmlyeTlrTkRyVXBvdmlQWU9nQ0FEbG03Y3lNbXJ5QzhINjdGS0lhMTNWQWVOOGJ5Wld4WjZJcHhxa2RHeUQ5QVpJNXZGS0ZnOEh1a2w40gGQAUFVX3lxTFBvUC16TS1tZ3dBeVZsYkt0QjFscEpna0lqRXJBbUlPcUNZRXFhc0xsWWpNNVhCdy1Uay1iOGpyS3MxdjJEUUdMV1dnRzlBLVlDbkdkZjJIWWVaTGs1S2k0bUh2VXlqcFlNSS14eldYa1piWXk0N2tfcWtJUTJVY18zYnVoSU1DNUhiRmFQU1ZZYQ?oc=5",
    "https://pulse2.com/aardaia-raises-e5-million-to-develop-new-crops-from-wild-plants/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -67594,6 +67688,25 @@
     "first_invested": null,
     "status": "exited"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://ablepay.no/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -74903,7 +75016,9 @@
     "currency": "USD",
     "date": null,
     "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oOEFEN0RIWjg2VmVmd2lNcTBoc2VBemdfazduZTE5YzFXeTlhdF9CRU9HV1JvLXFPLXliUmd5ZzZGZFlnOVpwanhjaURCWEnSAVRBVV95cUxQN0dxeVNoeFhISFZnT2ZRY0NyV0gwbHJJNFFRWjNNYjdid0VwN3dRMGlWQjlsc2owWEVVYzRRU2ZTTDQ3ZlUzLXpSOGl5d3JlR2FMdWE?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oOEFEN0RIWjg2VmVmd2lNcTBoc2VBemdfazduZTE5YzFXeTlhdF9CRU9HV1JvLXFPLXliUmd5ZzZGZFlnOVpwanhjaURCWEnSAVRBVV95cUxQN0dxeVNoeFhISFZnT2ZRY0NyV0gwbHJJNFFRWjNNYjdid0VwN3dRMGlWQjlsc2owWEVVYzRRU2ZTTDQ3ZlUzLXpSOGl5d3JlR2FMdWE?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Series A",
@@ -74926,7 +75041,7 @@
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -77181,6 +77296,22 @@
   "possible_matches": [
    "acall.inc",
    "acall.jp"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -143704,6 +143835,36 @@
     "first_invested": null,
     "status": "acquired"
    }
+  ],
+  "total_raised": 12000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
+  "last_round": {
+   "type": "Series B",
+   "amount": 12000000.0,
+   "currency": "USD",
+   "date": "2012-06-27"
+  },
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series B",
+    "amount": 12000000.0,
+    "currency": "USD",
+    "date": "2012-06-27",
+    "investors": [],
+    "source_url": "https://thenextweb.com/news/chinese-mobile-ad-platform-adwo-grabs-12m-in-series-b-funding-led-by-translink-and-japans-vangoo",
+    "date_basis": "snippet",
+    "rotation_new": "2026-10-24"
+   }
+  ],
+  "funding_source_urls": [
+   "https://thenextweb.com/news/chinese-mobile-ad-platform-adwo-grabs-12m-in-series-b-funding-led-by-translink-and-japans-vangoo"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -197042,7 +197203,8 @@
     "source_url": "https://www.themap.co/startups",
     "batch_date": "2021-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "funding_first_checked": "2026-10-21"
    },
    {
     "type": "accelerator",
@@ -197062,7 +197224,8 @@
     "valuation_band": "$0-10m",
     "batch_date": "2023-01-01",
     "batch_date_precision": "year",
-    "most_recent_batch": false
+    "most_recent_batch": false,
+    "funding_first_checked": "2026-10-21"
    }
   ],
   "total_raised": null,
@@ -197080,10 +197243,9 @@
    "https://www.designonce.ai/"
   ],
   "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -198067,10 +198229,9 @@
    "https://www.fintechweekly.com/magazine/articles/ai21-series-d-funding-nvidia-google"
   ],
   "funding_status": "seed+",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist"
   ]
  },
  {
@@ -209858,7 +210019,7 @@
    "type": "Series A",
    "amount": 12500000.0,
    "currency": "USD",
-   "date": null
+   "date": "2025-10-08"
   },
   "funding_round_count": 1,
   "funding_rounds": [
@@ -209866,9 +210027,12 @@
     "stage": "Series A",
     "amount": 12500000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2025-10-08",
     "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcUVwRmtNR0hsZHJMcUZCajhibTdPYXJLbFkxT3d3ZExVUXVFS1ZUUXdZemhnTEpKUUZSMl9hbGVUWXpSYVRCU1IyZjE3bjNnZDA4Rm0yelJzY3UzWUFkQzBVUnh2bVB2VDFNMEpaSFdmRUtKSTFUTFUzWHAwZnMtajhDUzZYcEJ0ZnV1X0ZXOTI?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcUVwRmtNR0hsZHJMcUZCajhibTdPYXJLbFkxT3d3ZExVUXVFS1ZUUXdZemhnTEpKUUZSMl9hbGVUWXpSYVRCU1IyZjE3bjNnZDA4Rm0yelJzY3UzWUFkQzBVUnh2bVB2VDFNMEpaSFdmRUtKSTFUTFUzWHAwZnMtajhDUzZYcEJ0ZnV1X0ZXOTI?oc=5",
+    "date_source_url": "https://www.prnewswire.com/news-releases/aiprise-a-y-combinator-backed-startup-used-by-fortune-500-enterprises-closes-12-5m-led-by-headline-to-simplify-global-compliance-302577329.html",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
@@ -214121,27 +214285,39 @@
     "status": "acquired"
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 11000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Undisclosed round type",
+   "amount": 11000000.0,
+   "currency": "USD",
+   "date": "2020-04-13"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 11000000.0,
+    "currency": "USD",
+    "date": "2020-04-13",
+    "investors": [],
+    "source_url": "https://pulse2.com/airbrake-11-million-funding/",
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
   "funding_source_urls": [
    "https://www.airbrake.io/",
    "https://pulse2.com/airbrake-11-million-funding/",
    "https://www.siliconrepublic.com/start-ups/airbrake-funding-code-error-monitoring-software"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -238641,6 +238817,25 @@
     "first_invested": "2022-08-26",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://akasia.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -259348,26 +259543,37 @@
     "status": "active"
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 7500000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Pre-Seed",
+   "amount": 7500000.0,
+   "currency": "USD",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Pre-Seed",
+    "amount": 7500000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WGlza2hxVkp5eU5JNDZPem0tS19Oa19PWl82SmVvbWdHZXZva01ScDk1empqWmljZHVRa2lXbUc4TTVCbC1FVnB6UXZzcHAzazY0?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
   "funding_source_urls": [
    "https://alephsurgical.com/",
    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WGlza2hxVkp5eU5JNDZPem0tS19Oa19PWl82SmVvbWdHZXZva01ScDk1empqWmljZHVRa2lXbUc4TTVCbC1FVnB6UXZzcHAzazY0?oc=5"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "pre-seed or angel only",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -302986,22 +303192,35 @@
     "status": null
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 8000000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
+   "type": "Series A",
+   "amount": 8000000.0,
+   "currency": "USD",
+   "date": "2022-02-16"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.alongside.care/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Series A",
+    "amount": 8000000.0,
+    "currency": "USD",
+    "date": "2022-02-16",
+    "investors": [],
+    "source_url": "https://betakit.com/alongside-closes-8-million-series-a-to-merge-its-hr-tools-with-careerbeacons-jobs-site/",
+    "date_basis": "snippet",
+    "rotation_new": "2026-10-24"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-22",
+  "funding_source_urls": [
+   "https://www.alongside.care/",
+   "https://betakit.com/alongside-closes-8-million-series-a-to-merge-its-hr-tools-with-careerbeacons-jobs-site/",
+   "https://www.newswire.ca/news-releases/alongside-raises-8-million-cad-to-create-an-experience-job-seekers-deserve-817960739.html"
+  ],
+  "funding_status": "seed+",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
@@ -350114,6 +350333,22 @@
     "first_invested": null,
     "status": "acquired"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -399039,11 +399274,11 @@
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
    "type": "Seed",
-   "amount": 4200000.0,
-   "currency": "USD",
-   "date": "2022-08-09"
+   "amount": null,
+   "currency": null,
+   "date": "2023-09-06"
   },
-  "funding_round_count": 3,
+  "funding_round_count": 4,
   "funding_rounds": [
    {
     "stage": "Seed",
@@ -399053,6 +399288,17 @@
     "investors": [],
     "source_url": "https://www.antaris.space/news/satellite-software-innovator-antaris-announces-close-of-42-million-seed-funding-round-to-accelerate-development-of-software-solutions-for-space",
     "date_basis": "snippet"
+   },
+   {
+    "stage": "Seed",
+    "amount": null,
+    "currency": null,
+    "date": "2023-09-06",
+    "investors": [],
+    "source_url": "https://www.antaris.space/news/press-release-new-funding",
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Seed",
@@ -399089,7 +399335,8 @@
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified); monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -456253,25 +456500,38 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 6000000,
+  "total_raised_currency": "EUR",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Seed",
+   "amount": 6000000.0,
+   "currency": "EUR",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Seed",
+    "amount": 6000000.0,
+    "currency": "EUR",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbzRobGdsVXBQNzlPT2xBVlJCTUMxeVlaNmQ5YVczdHRmOHRTcTZqcVZsMWZvb0JhdTM5QkhRSmljMG5xODRJZkUwWHRIcFo2LWhkVVpTZ2oyYktrQmhLUjdFQ2U5VFBjZUEtaVVZTlBwRHBRbWpvWHpXVTFmX0ZlN2w1SDBVb2dD?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
   "funding_source_urls": [
    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbzRobGdsVXBQNzlPT2xBVlJCTUMxeVlaNmQ5YVczdHRmOHRTcTZqcVZsMWZvb0JhdTM5QkhRSmljMG5xODRJZkUwWHRIcFo2LWhkVVpTZ2oyYktrQmhLUjdFQ2U5VFBjZUEtaVVZTlBwRHBRbWpvWHpXVTFmX0ZlN2w1SDBVb2dD?oc=5",
-   "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb2pXMHFURkNUeGJVZVk0aU5GUTBKeFhRMEM1QjZHQVFtM2FjRVc1TkJkMHN3NjBFb0R0NFRFSnlNcDJUX0RCQnlCZGFQU3IteW9NR25odEEzUGNfSVpMOE1GRkFYd1A0X3RNUk1RemVOOVpUOUx1US1SSURpbGJIWQ?oc=5"
+   "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb2pXMHFURkNUeGJVZVk0aU5GUTBKeFhRMEM1QjZHQVFtM2FjRVc1TkJkMHN3NjBFb0R0NFRFSnlNcDJUX0RCQnlCZGFQU3IteW9NR25odEEzUGNfSVpMOE1GRkFYd1A0X3RNUk1RemVOOVpUOUx1US1SSURpbGJIWQ?oc=5",
+   "https://aquabattery.com/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -476203,10 +476463,22 @@
    "type": "Undisclosed round type",
    "amount": 17000000.0,
    "currency": "USD",
-   "date": null
+   "date": "2024-07-25"
   },
   "funding_round_count": 3,
   "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 17000000.0,
+    "currency": "USD",
+    "date": "2024-07-25",
+    "investors": [],
+    "source_url": "https://www.geekwire.com/2024/archera-raises-17m-to-help-companies-get-cloud-discounts-without-long-term-commitments/",
+    "history_new": true,
+    "date_source_url": "https://www.geekwire.com/2024/archera-raises-17m-to-help-companies-get-cloud-discounts-without-long-term-commitments/",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
+   },
    {
     "stage": "Series B",
     "amount": null,
@@ -476222,15 +476494,6 @@
     "date": null,
     "investors": [],
     "source_url": "https://www.archera.ai/newsroom/series-a"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 17000000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://www.geekwire.com/2024/archera-raises-17m-to-help-companies-get-cloud-discounts-without-long-term-commitments/",
-    "history_new": true
    }
   ],
   "funding_source_urls": [
@@ -483251,7 +483514,7 @@
     "url_on_source": "http://www.arcticwolf.com/"
    }
   ],
-  "total_raised": 946000000,
+  "total_raised": 1022000000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
@@ -483260,8 +483523,19 @@
    "currency": "USD",
    "date": "2021-07-13"
   },
-  "funding_round_count": 6,
+  "funding_round_count": 8,
   "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 16000000.0,
+    "currency": "USD",
+    "date": "2018-01-11",
+    "investors": [],
+    "source_url": "https://arcticwolf.com/resources/press-releases/arctic-wolf-secures-16m-in-new-funding/",
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   },
    {
     "stage": "Series C",
     "amount": 45000000.0,
@@ -483278,6 +483552,17 @@
     ],
     "source_url": "https://arcticwolf.com/resources/press-releases/arctic-wolf-lands-45-million-in-new-funding-to-accelerate-company-growth/",
     "date_basis": "text"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 60000000.0,
+    "currency": "USD",
+    "date": "2020-03-11",
+    "investors": [],
+    "source_url": "https://arcticwolf.com/resources/press-releases/arctic-wolf-raises-60-million-to-further-fuel-the-companys-exponential-growth/",
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Series E",
@@ -483344,13 +483629,18 @@
    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYVJZaFVCTjVxaC1jUTI5cFUyRkE3UlFHMVdIR3dwZ09uUEw4cGp3Um5JUE9HbGt5bDBPelQ3S3VvcGM0S2szVnFiMTdkQ29QZ29OWVdrU29jYzRPLWM2WkNOVVpRUldwQWxEM21GQlJLRjhZWlE0ZVlwNnNDR3diM0hlNWRIWHA4NlphODY0dUJoRkZ3S1RLSTA4enFrcl96b3pCVUkyZ093QQ?oc=5",
    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUHhNSXdneDlKRDFTckNSTXVYcHY1QXM4cklfTnhZSXo2UjRjN3ItVWRIUWdfLUVpSlRpUXBURWZaZWRKbFBWcUNlVTFUWHRPbWZNZU9lY0FjN1JEQ2gwOVdUY3hjaVBndVhaLVZNUGVJM1pXa0poYlpMVHowS01pOWdpMXFQLWdVSlUwQlM3OEJFZFQxckxnSWU5YzVHbVNQbFl1MzE2bjg4OVE?oc=5",
    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSHpjcjV4c1BnR0FwOFk1UThtVnI3dWhGVF85bzItUTNieUZSTW5TOW8tbmJKanJ6NThYVmNqY2xKRDNxaHJ1NG1fckFvOTJKQUdqSndHZWZOSnRCcndzRGVQT3BCLVBzRVRZXy14VG9hclhJWXpROThQckZWcFZFVzVlTUFDck9qa0J0VVliWmpaQ2V3MDFvQXNZWEUyNUJ2bFZsZWV3c2hURng3ZlhDMUxFSXdRaXhNR3J3?oc=5",
-   "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNVJ3ci1xTjJmbFN5Xzc2dXVwYnRBUjFtQmxaTXFNVEZwY2duMXlIZlRNZnhRNzBUczVXeE1kV1g3RUNfV0FNalQ4TTJMbmxxUjhndWxaVGdTTU9hRWlGTjdDTjNrVUNRWGp3OVlkMlMtdGFzWFlJbzBhYTBROXNlLU9lekhkNk9tUGViaTZ6ZkR4MHdJTUFnYU1KcXVYN0hiMlU4?oc=5"
+   "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNVJ3ci1xTjJmbFN5Xzc2dXVwYnRBUjFtQmxaTXFNVEZwY2duMXlIZlRNZnhRNzBUczVXeE1kV1g3RUNfV0FNalQ4TTJMbmxxUjhndWxaVGdTTU9hRWlGTjdDTjNrVUNRWGp3OVlkMlMtdGFzWFlJbzBhYTBROXNlLU9lekhkNk9tUGViaTZ6ZkR4MHdJTUFnYU1KcXVYN0hiMlU4?oc=5",
+   "https://arcticwolf.com/",
+   "https://arcticwolf.com/resources/press-releases/arctic-wolf-secures-16m-in-new-funding/",
+   "https://arcticwolf.com/resources/press-releases/arctic-wolf-raises-60-million-to-further-fuel-the-companys-exponential-growth/",
+   "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkd3NU12MGZ2aXpEeXlHcm5LWEJ5OTZINlNiTDA3U3BvOVdBOVNNOEtJak44VVBCNDRNakdacnBNWktKR3VOZWoxRm85YUZlVnF5QzdFbGlaMGZSZ3BiQTBaZFZyZDVyVGhsV09nNmE4SmFlOU1CMzR2Sm00dHUwTGFIM1VzOHVubHp0MHhjMTdZbkRtUm5Tc0QwYldNemhYb3c?oc=5"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -488033,20 +488323,47 @@
   "total_raised_currency": null,
   "total_raised_basis": null,
   "last_round": {
-   "type": null,
+   "type": "Investment round (type not stated)",
    "amount": null,
    "currency": null,
-   "date": null
+   "date": "2022-10"
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://ardrabio.com/"
+  "funding_round_count": 1,
+  "funding_rounds": [
+   {
+    "stage": "Investment round (type not stated)",
+    "amount": null,
+    "currency": "CAD",
+    "date": "2022-10",
+    "investors": [
+     "Bioindustrial Innovation Canada (Sustainable Chemistry Alliance Fund, lead)"
+    ],
+    "source_url": "https://ardrabio.com/news/press-release-1/"
+   }
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "grants": [
+   {
+    "name": "Ontario Genomics award (animal-free heme scale-up)",
+    "amount": 150000,
+    "currency": "CAD",
+    "date": "2025-01",
+    "source_url": "https://www.ontariogenomics.ca/awarded-project/ardra-bio/"
+   }
+  ],
+  "notable_investors": [
+   "Bioindustrial Innovation Canada (Sustainable Chemistry Alliance Fund, lead)"
+  ],
+  "funding_source_urls": [
+   "https://ardrabio.com/",
+   "https://betakit.com/synthetic-biology-startup-ardra-is-brewing-up-big-plans-with-its-fermentation-technology/",
+   "https://www.ontariogenomics.ca/awarded-project/ardra-bio/",
+   "https://ardrabio.com/news/press-release-1/"
+  ],
+  "funding_status": "unclear-round-type",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "Domain ardrabio.com (Ardra, Toronto fermentation-made natural flavours/fragrances; IndieBio). Company release (Jan 25, 2023): Bioindustrial Innovation Canada led a round that closed Oct 2022 (amount/type undisclosed). Ontario Genomics award (CAD 150K, Jan 2025) recorded as grant."
   ]
  },
  {
@@ -499800,7 +500117,7 @@
     "status": null
    }
   ],
-  "total_raised": 19000000,
+  "total_raised": 89000000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
@@ -499809,7 +500126,7 @@
    "currency": "USD",
    "date": "2021-09-28"
   },
-  "funding_round_count": 1,
+  "funding_round_count": 2,
   "funding_rounds": [
    {
     "stage": "Series A",
@@ -499824,6 +500141,16 @@
     ],
     "source_url": "https://arize.com/blog/arize-series-a-ml-observability/",
     "date_basis": "snippet"
+   },
+   {
+    "stage": "Series C",
+    "amount": 70000000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1veWhkVjlQd09zakM5c0RuM0FrTGRqTElEVHN2VXZ2Q0d1WUhqSzkyYktZZ1A1aEFwMTMySVlvSHpwbWJ5NHBGcGU5a0hlRWttai1PZHNVTldOVDVB?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    }
   ],
   "notable_investors": [
@@ -499837,13 +500164,15 @@
    "https://multiples.vc/private-comps/arize-ai",
    "https://pulse2.com/ml-observability-company-arize-ai-raises-19-million/",
    "https://www.finsmes.com/2021/09/arize-ai-raises-19m-in-series-a-financing.html",
-   "https://arize.com/blog/arize-series-a-ml-observability/"
+   "https://arize.com/blog/arize-series-a-ml-observability/",
+   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1veWhkVjlQd09zakM5c0RuM0FrTGRqTElEVHN2VXZ2Q0d1WUhqSzkyYktZZ1A1aEFwMTMySVlvSHpwbWJ5NHBGcGU5a0hlRWttai1PZHNVTldOVDVB?oc=5"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified); monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -501671,6 +502000,29 @@
     "first_invested": null,
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.arkeabio.com/",
+   "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVndOV3Z4TE1mZ2FOdUduQkdQUGhpU25PQml0NmthWkxuSFZDcUwzYkRBdk92S1JuUG13bWRnWHg3Uzh1UF9NNG42VDQ4TU9hT21ZU2dVM1pnUGNYUFNMRlZyUEFJbzNnVGo4YUxzRUpOS0RlbWZsMms1ZGtjTndxTklkZ2pLX0N5cENaXzJyRG9fZ1hRRFF6QUZjWFo?oc=5",
+   "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3AxUGp0YWpoZS1WejlSQ0pMeXhlV3RLV2huN1pFc3JTcHFSdzM3dzhiUTVmd0FJejJTU2JkMjJZUjZMWEhveDVvZmdwSHF4WDhiMkF6ZWtnSVNqLWJRaXA0bUdKZ19tUGI3M1BSaVF6S2dKUGh0M0FNZWZjeG13NWF3?oc=5",
+   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV3VLWmxTVWhwYkZvSEdoTWJhTUdSTnJiMUs0YkJFN0RCbGl0MEtVbkRlU1NfQVI4enliamxuUmNuNHVDQi1WbjZzQzNtVDVaRVBBLXlHZmxsem5UOURqNDZudElCXzR3ZjJ6dEJkZ0Y4eGc0R0xyaXVEcnhXMXFXaXowRGc5YWxFeHBYUE03cmpoVTVWT0lXb091eVNNOHcxMDNLNERzR2tlNWQxRC14Yl91RDl4Sm5LMVRN?oc=5",
+   "https://pulse2.com/arkeabio-26-5-million-raised-to-develop-vaccine-for-reducing-livestock-methane-emissions/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -514406,16 +514758,16 @@
     "status": null
    }
   ],
-  "total_raised": 30000000,
+  "total_raised": 60000000,
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": "Series B",
+   "type": "Undisclosed round type",
    "amount": 30000000.0,
    "currency": "USD",
-   "date": "2021-05-06"
+   "date": "2024-07-18"
   },
-  "funding_round_count": 1,
+  "funding_round_count": 2,
   "funding_rounds": [
    {
     "stage": "Series B",
@@ -514425,16 +514777,34 @@
     "investors": [],
     "source_url": "https://arrcus.com/news/arrcus-raises-30m-series-b-funding-led-by-lightspeed-venture-partners",
     "date_basis": "snippet"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 30000000.0,
+    "currency": "USD",
+    "date": "2024-07-18",
+    "investors": [],
+    "source_url": "https://arrcus.com/news/arrcus-continues-networking-innovation-fueled-by-new-30m-investment",
+    "date_basis": "text",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
    "https://arrcus.com/",
-   "https://arrcus.com/news/arrcus-raises-30m-series-b-funding-led-by-lightspeed-venture-partners"
+   "https://arrcus.com/news/arrcus-raises-30m-series-b-funding-led-by-lightspeed-venture-partners",
+   "https://arrcus.com/news/arrcus-continues-networking-innovation-fueled-by-new-30m-investment",
+   "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWXBJRlA1SEZkdG42ZGpPWi1sMC1kdHJnZnczaWpSOUtlVm52TDNScXNDdk9qckE3SzVuYS14TXFMb0F5cEdOTUdOZVlVazl1UU9FSks4cF9KWTlLTHFuTnd2OGhPMkk5VGgtSWRpck0yZFQxd3BaUlhaY2ktWHhiRW1JNXhkQ1ZLc1dEQWQwNXQwWHEtS3dtOXo2RjFyOGNIRDNMa29SblB2R09oVmVEX1ZFeG4?oc=5",
+   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMFBIMm1HZzA3RVJCSkUxNmpRck9DMDExWDBxOG0zNUFkSWpjWmtFQWg1R21lRTBsQVRUck5FRWVJRlBLR2RaenBzWkYzdnlpZWEyZGJJWE9BeXhrMm5ueFkzUThNd1pta3JHQlAtSXZYNDEtVlJ6MXE3cGxOUm9oNDFWOGNOQzFJaGdORzlzaTFna0FFM2hIcHViZkxCTlFaWjBWY1ZtcUFuVEtTUGNxb2M5eFFVXzFrTWp3?oc=5",
+   "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM2t6b2JPajQ2ZWk0RWlxM1N0ZlA4Q3RHWkROeVVuSkhSSWhWUm9Fb2UxbU9ZNVJPakhXYzNRX1Nkc2ZPdTh3QTctNHl0UzAyNXRaRzZJU1hPOXNscTN3RTRSOHRVZ1RtR0RLdk1BUFhZbTFLMW1tQ3JUWUljeWN2em12ZGpRamx1ZjhFSFJfQ283Uk43SzlGZjJ6Y2I4MEk?oc=5",
+   "https://www.lightreading.com/routing-switching/arrcus-bags-65m-in-funding-for-virtualized-routing-and-switching-infrastructure",
+   "https://www.datacenterdynamics.com/en/news/arccus-raises-50m-in-funding-towards-5g-data-center-and-multi-cloud-networking-markets/"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -519594,7 +519964,7 @@
    "type": "Series B",
    "amount": 132000000.0,
    "currency": "USD",
-   "date": null
+   "date": "2025-07-29"
   },
   "funding_round_count": 2,
   "funding_rounds": [
@@ -519602,21 +519972,27 @@
     "stage": "Series A",
     "amount": 90000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2023-12-07",
     "investors": [],
     "source_url": "https://www.prnewswire.com/news-releases/artbio-raises-oversubscribed-and-upsized-90-million-series-a-financing-to-progress-pipeline-and-isotope-technology-development-for-new-class-of-alpha-radioligand-therapies-302008226.html",
     "source_urls": [
      "https://www.prnewswire.com/news-releases/artbio-raises-oversubscribed-and-upsized-90-million-series-a-financing-to-progress-pipeline-and-isotope-technology-development-for-new-class-of-alpha-radioligand-therapies-302008226.html",
      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTU1UeENETGFQZ1ZRMHVfMEFKZnNFaUpGN2l1TFJENld1bEh4cGt3QlBOV1kwYWZjUUZtRFNHM3JucXduTndxSUQ3UlVwRVhIMWY2LXAtYk5jTDhPMFFuM2dxekZILW9lWUVVTmYwRjBsX1p5a2l2WXhiM3g0UzlpakVRUWFOc2FTM1dmUG1TYXRIaFBmQ2Z1WlY4WHEzaWk5TXdZ?oc=5"
-    ]
+    ],
+    "date_source_url": "https://www.prnewswire.com/news-releases/artbio-raises-oversubscribed-and-upsized-90-million-series-a-financing-to-progress-pipeline-and-isotope-technology-development-for-new-class-of-alpha-radioligand-therapies-302008226.html",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Series B",
     "amount": 132000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2025-07-29",
     "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAya1JQdzl0VV81ZUNTLXZQVHlMY0RoZHN2ckdDVmd3ZXpXYzhQVElad1NOWVB4RFBCU0dHUVBMU3hCY2lhR3FJUGdTaHNVa0hkcWsw?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAya1JQdzl0VV81ZUNTLXZQVHlMY0RoZHN2ckdDVmd3ZXpXYzhQVElad1NOWVB4RFBCU0dHUVBMU3hCY2lhR3FJUGdTaHNVa0hkcWsw?oc=5",
+    "date_source_url": "https://www.newswise.com/articles/artbio-announces-132-million-series-b-financing-to-advance-pipeline-of-alpha-radioligand-therapies-and-expand-manufacturing-and-supply-chain-infrastructure",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
@@ -532015,9 +532391,9 @@
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
    "type": "Series A",
-   "amount": 11000000.0,
+   "amount": 31000000.0,
    "currency": "EUR",
-   "date": "2025-10-01"
+   "date": "2026-01-12"
   },
   "funding_round_count": 2,
   "funding_rounds": [
@@ -532039,9 +532415,16 @@
     "stage": "Series A",
     "amount": 31000000.0,
     "currency": "EUR",
-    "date": null,
+    "date": "2026-01-12",
     "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDNndFZyU2tHSXJtdTAzX01BVWNsYjhlalpaMGVBT2hDN2djdlQzVVVBM252dUFXNFptRkRfQTNrRm10TXlxRXN4NEdVNjhnU0N2VWdrc0YxSERlM1RjZGoyeFZBc2RkcHhTNnhrS3FIWWlSUUhEUzIzQ2lJeU5Vb0oxODZib3BabEVmcEQxYWpOYUd0a0VXMWxR?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDNndFZyU2tHSXJtdTAzX01BVWNsYjhlalpaMGVBT2hDN2djdlQzVVVBM252dUFXNFptRkRfQTNrRm10TXlxRXN4NEdVNjhnU0N2VWdrc0YxSERlM1RjZGoyeFZBc2RkcHhTNnhrS3FIWWlSUUhEUzIzQ2lJeU5Vb0oxODZib3BabEVmcEQxYWpOYUd0a0VXMWxR?oc=5",
+    "source_urls": [
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDNndFZyU2tHSXJtdTAzX01BVWNsYjhlalpaMGVBT2hDN2djdlQzVVVBM252dUFXNFptRkRfQTNrRm10TXlxRXN4NEdVNjhnU0N2VWdrc0YxSERlM1RjZGoyeFZBc2RkcHhTNnhrS3FIWWlSUUhEUzIzQ2lJeU5Vb0oxODZib3BabEVmcEQxYWpOYUd0a0VXMWxR?oc=5",
+     "https://www.arx-robotics.com/article/arx-robotics-raises-eu31m-series-a"
+    ],
+    "date_basis": "snippet",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    }
   ],
   "notable_investors": [
@@ -532062,7 +532445,8 @@
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -599066,6 +599450,17 @@
     "history_new": true
    },
    {
+    "stage": "Series A",
+    "amount": 12000000.0,
+    "currency": "USD",
+    "date": "2025-01-23",
+    "investors": [],
+    "source_url": "https://dev.attentive.ai/blog/attentive-ai-completes-12m-series-a-round-to-expand-ai-offerings-for-the-construction-industry",
+    "date_source_url": "https://www.prnewswire.com/in/news-releases/attentiveai-completes-12m-series-a-round-to-expand-ai-offerings-for-the-construction-industry-302358625.html",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
+   },
+   {
     "stage": "Series B",
     "amount": 30500000.0,
     "currency": "USD",
@@ -599073,14 +599468,6 @@
     "investors": [],
     "source_url": "https://dev.attentive.ai/blog/attentive-ai-secures-30-5m-series-b-to-make-ai-the-backbone-of-preconstruction",
     "date_basis": "snippet"
-   },
-   {
-    "stage": "Series A",
-    "amount": 12000000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://dev.attentive.ai/blog/attentive-ai-completes-12m-series-a-round-to-expand-ai-offerings-for-the-construction-industry"
    },
    {
     "stage": "Undisclosed round type",
@@ -612026,6 +612413,17 @@
    },
    {
     "stage": "Undisclosed round type",
+    "amount": 5300000.0,
+    "currency": "USD",
+    "date": "2024-10-04",
+    "investors": [],
+    "source_url": "https://www.augmodo.com/news",
+    "date_source_url": "https://www.greenbot.com/augmodo-million-investment/",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
+   },
+   {
+    "stage": "Undisclosed round type",
     "amount": 37500000.0,
     "currency": "USD",
     "date": "2025-07-17",
@@ -612033,14 +612431,6 @@
     "source_url": "https://www.geekwire.com/2025/spatial-computing-startup-augmodo-raises-37-5m-for-high-tech-badges-worn-by-retail-store-workers/",
     "date_basis": "snippet",
     "history_new": true
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 5300000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://www.augmodo.com/news"
    },
    {
     "stage": "Undisclosed round type",
@@ -615017,7 +615407,7 @@
    "type": "Series A",
    "amount": 12000000.0,
    "currency": "USD",
-   "date": null
+   "date": "2026-05-18"
   },
   "funding_round_count": 1,
   "funding_rounds": [
@@ -615025,14 +615415,17 @@
     "stage": "Series A",
     "amount": 12000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2026-05-18",
     "lead_investors": [
      "Emkan Capital"
     ],
     "investors": [
      "Emkan Capital"
     ],
-    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDEyYmVaRHVtdXlJM2JCTUN2ejFkajJQVTZmMFIwX3VEajNtSWNNMGZFcURpSDRrck1ybnJ6WUl2ZlNnajhWUGtGOVRzb196YUpGc01SRWNzb19fdkk2QUwyNjNTU2hnT1p3eUsxQjZtSzNpUGNfc2FuVTh3LUVvbUZhX3Y0VlViSVFEc2JuMA?oc=5"
+    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDEyYmVaRHVtdXlJM2JCTUN2ejFkajJQVTZmMFIwX3VEajNtSWNNMGZFcURpSDRrck1ybnJ6WUl2ZlNnajhWUGtGOVRzb196YUpGc01SRWNzb19fdkk2QUwyNjNTU2hnT1p3eUsxQjZtSzNpUGNfc2FuVTh3LUVvbUZhX3Y0VlViSVFEc2JuMA?oc=5",
+    "date_source_url": "https://www.pymnts.com/healthcare/2026/aumet-raises-12-million-for-ai-driven-pharmaceutical-procurement/",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    }
   ],
   "notable_investors": [
@@ -630753,7 +631146,8 @@
    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVXprcTZEaGJhSHQ3ZVhpUTJZRlphYnNZb3RYd3hqZVV5MjE3T2JOdUhlazBUdmd1d3VlcE83VU5UWEQzMS1CZ2lXclhmMk1HdFpjeGNHb0RMZENVUkVhUlo1T3Y5aS1HWkllX2JSWEFOcDdsZy01M21pMFhVN0ZrZlUxMmRkNkxIeGF6UmlBWHhZdHFabFdoV3dTNnNZMG1vbWc?oc=5",
    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYlBvc2FmQm9VR3pKRF9NYzRhcEwwWXA5NkdLakprenBqMmozNjdqS3JERW9kaExuQXJ2Qzh1LTdFVk4tR05CTldjM0RUSU12Zy1MemFmRk80ZzVtWm1lS1hwM0txNDBHdUd4Z2J0YU5NbE1CTlJMUW4wNGlkTm9PT0xkZXVUTDBFZXhKRkRtbjZvSEQ2MEE?oc=5",
    "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcy1POXp6OUp0V3M4UGwxTXBLMkRrbnZWcmZHSk44OU1nZURMZWJRVlFLNkIwYndSbHFmQ0lHYllCNUpua25DbjZ4X21pSHlJNFppXy1CVTg3X0RxcVdEUmU1clN0WjlKd2dBV2QtbmdJYTN3d25Gd0NUNUI4a1JmOV9n?oc=5",
-   "https://www.wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital"
+   "https://www.wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital",
+   "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9nSW1zRVc0d2IyV0JFMmZaTDF0QWlaTzJsVnVmY1NpcDZDUFFoWTRJM3BEVUdMQ3RKak91a0JBYw?oc=5"
   ],
   "funding_status": "no public funding found (fast pass)",
   "funding_checked": "2026-10-22",
@@ -687029,9 +687423,12 @@
     "stage": "Series A",
     "amount": 17000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2026-09-24",
     "investors": [],
-    "source_url": "https://axya.co/blog/series-a-announcement"
+    "source_url": "https://axya.co/blog/series-a-announcement",
+    "date_source_url": "https://www.prnewswire.com/news-releases/axya-secures-17-million-cad-in-funding-to-help-manufacturers-modernize-procurement-with-ai-302888441.html",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Seed",
@@ -695995,10 +696392,10 @@
   },
   "funding_round_count": 0,
   "funding_rounds": [],
-  "funding_status": "not researched (ambiguous short name key; manual check needed)",
-  "funding_checked": "2026-10-23",
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -717337,13 +717734,67 @@
   "total_raised_currency": null,
   "total_raised_basis": null,
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Undisclosed round type",
+   "amount": 10300000.0,
+   "currency": "USD",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 4,
+  "funding_rounds": [
+   {
+    "stage": "Pre-Series A",
+    "amount": 2350000.0,
+    "currency": "USD",
+    "date": null,
+    "lead_investors": [
+     "Blume Ventures"
+    ],
+    "investors": [
+     "Blume Ventures"
+    ],
+    "source_url": "https://inc42.com/buzz/bambrew-secures-funding-to-increase-supply-capacity/",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 7000000.0,
+    "currency": "USD",
+    "date": null,
+    "lead_investors": [
+     "Blume Ventures"
+    ],
+    "investors": [
+     "Blume Ventures"
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORW5uVzJ5anJKc1Y5NXg5R3NCTTRvM0lQT0tUeGVtTDRJbU10QzdIMDdFYlp1TXdHUEJwb0dwZlZlRnZSendqZXF2cUdZRWlrY2ZGdFMxX2dQVEdWREs3TEFrdkZWTEFiZHQ2SW9JN1pOUURVTmRtcm5iZ3U1QWw5Skk5ZGZUUjktVklVenplNjhZZ25TQWtOanhLVXdHR3g4dTNoSjk4MUY0WjdEVmdtTVExOTVBMTJSVFZHN3NZMzdEd0NuYzVha3BmaUVCbVFRQTdxTXNwZnNrSFHSAeABQVVfeXFMUFQ3VjN4Nm1pR2JfNG1nZHJCZ00yVXRsM3MwQndlQTc1UUdaRDE4MS04Wnp0cDFrS1BEc3M4T2k2SWlvcGUweU1rOWhYXzJuLWRZYndLOXE1eDhrTFVTd25kUFZhbU5XUUQwc081WnR4YWxtMXI4dHlnTldFYzNrUnNzcHBZbmhzdDBIUWMtaWZ1Nmp0R0h5VUtpeWRzSlpCR3kzTVNXUUcxV01RZTdlVXd6ZVZuSlZWeXhPald3S0tEbUF5RWJzMFQ3NXpsc290akliRU13RU95YlRoYm91Nms?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 900000000.0,
+    "currency": "INR",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVDM0dWVRNEYyR1BMWUlyUXNKYzBwWkM4X096MWlaZHRzVmJUV3pYNWVjUXYtUkJKYnNoRTVidGZORjF2Tk1uOVJWR1JhVDd1TlVfSUFXOWtfdzhEaGhVWm1jamxwdWFndV9ueXNVQ3RhRXlvaTdSdHNrREVEdDhjU29HNWo3aUJrUFNrWTJ1S1JteVdvOXlVUjhUYUFQdUJ6UWdqbHByUDE2WWRnaGZsb21TWTFjcTJhUlV1emxzWjlzMkxPZXkzcUNlMNIBywFBVV95cUxQVDM0dWVRNEYyR1BMWUlyUXNKYzBwWkM4X096MWlaZHRzVmJUV3pYNWVjUXYtUkJKYnNoRTVidGZORjF2Tk1uOVJWR1JhVDd1TlVfSUFXOWtfdzhEaGhVWm1jamxwdWFndV9ueXNVQ3RhRXlvaTdSdHNrREVEdDhjU29HNWo3aUJrUFNrWTJ1S1JteVdvOXlVUjhUYUFQdUJ6UWdqbHByUDE2WWRnaGZsb21TWTFjcTJhUlV1emxzWjlzMkxPZXkzcUNlMA?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   },
+   {
+    "stage": "Undisclosed round type",
+    "amount": 10300000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeWROb1ZGN2xlLUtySEhydnhlQWw1b0FDeUhxQU1oSjBYOE93SmdKOWR1bDAzemthRk1Sb29aZmNGNm4xRjBlRjZCR3hDVjRXNlI2N1R6dS02d1JEUHhpLWU4anI3WTBDVW1Mc2RjbFlzaGlsc3ltUDVnY2JvRVBkVjJmb0M4Zw?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
+  "notable_investors": [
+   "Blume Ventures"
+  ],
   "funding_source_urls": [
    "https://www.bambrew.in/",
    "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeWROb1ZGN2xlLUtySEhydnhlQWw1b0FDeUhxQU1oSjBYOE93SmdKOWR1bDAzemthRk1Sb29aZmNGNm4xRjBlRjZCR3hDVjRXNlI2N1R6dS02d1JEUHhpLWU4anI3WTBDVW1Mc2RjbFlzaGlsc3ltUDVnY2JvRVBkVjJmb0M4Zw?oc=5",
@@ -717352,13 +717803,16 @@
    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRDZnc0xzVW5meWdLUzcza0g2SWNKYkVLcllYQ3dGTDhyVF95WmpNM2VWT0RQbkhXenBId2MzNy1FZjI5LTVudWQ1STVoSkJVSkhZRTFXdTZLek5EQVdISUoyZ1pHVmNDUUItOEF0enlDT0RVekRnOGQwQ2pUN3ZnNGZDM2VUdGM?oc=5",
    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTmZWalRfdnFpaThFdkgtOHBLRDcySzZOdzN6dG1BdkVaUURpQkxMcUEzdThYMXVLdXh3TjdkTHlsdzA2RzgtMXNkczd1RkJLUGlHSGJneXhhNjFyVy1wMnR3a25OT05tcDRTQlhvWlRNb3hUV3I4WmtjdXFISURmTkNwVDM5TjFEN1ZmUVUxeFZ0eFVtTDZzVk9ERkR6X1VLZGdmdXc5QVBuU3hUbVFWZzlmVnFSaFd1QjVHU1A1cEEzUQ?oc=5",
    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZVVZeHQzNHZOX0hmM01LSDZnNVdaQ2Z6bkFxYnlmc05rZDZaWWFTblB6Uy03LWJaZXJNQ2RkNFFlcFE0d1NXcXhpSmxDWVA1clhoSGgxX2N4bXB3OExuTllSVWZ1dUd5US1pR1p2dTJqb0lKNG1nYVg5OE44dHN1T1JzVWFqN2RfTGlmUngyYUNRQ0pLMkw4NjdZZXFqT1BvMlVQSW9tRHctRkZuSDRlRHVpaTcxSmFmSFlQNFBXLXBhZnNyT21mRnlRVnR4TEw30gHQAUFVX3lxTE9lVVl4dDM0dk5fSGYzTUtINmc1V1pDZnpuQXFieWZzTmtkNlpZYVNuUHpTLTctYlplck1DZGQ0UWVwUTR3U1dxeGlKbENZUDVyWGhIaDFfY3htcHc4TG5OWVJVZnV1R3lRLWlHWnZ1MmpvSUo0bWdhWDk4Tjh0c3VPUnNVYWo3ZF9MaWZSeDJhQ1FDSksyTDg2N1llcWpPUG8yVVBJb21Edy1GRm5INGVEdWlpNzFKYWZIWVA0UFctcGFmc3JPbWZGeVFWdHhMTDc?oc=5",
-   "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOEJVOFRleWFsdlFxbVdqa1hhRWhfR19ZSUp0VTczaTQtdS04SmdQaW1BN3VMajlSbWRQT2o5VW5CeHg0b3Fja0VkSXdGWVNYYlVCaHZaNTZZVTY3NlN1anFvRVZRWTJoaUR0UnZPcVEtdDZXbktYQjRNNEtlcUg2R29UVFZxSjdFUXRZMW9QNDdpaGRhanRFSUNPRG4zVmZuMUVxbGRoRS1MdXdKUm9zQU94U1JYWmJEV2w0Z1RGMEdwc0U5ODV4RTFSTmxXZXdzWFFGT0lrcl9ad1k?oc=5"
+   "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOEJVOFRleWFsdlFxbVdqa1hhRWhfR19ZSUp0VTczaTQtdS04SmdQaW1BN3VMajlSbWRQT2o5VW5CeHg0b3Fja0VkSXdGWVNYYlVCaHZaNTZZVTY3NlN1anFvRVZRWTJoaUR0UnZPcVEtdDZXbktYQjRNNEtlcUg2R29UVFZxSjdFUXRZMW9QNDdpaGRhanRFSUNPRG4zVmZuMUVxbGRoRS1MdXdKUm9zQU94U1JYWmJEV2w0Z1RGMEdwc0U5ODV4RTFSTmxXZXdzWFFGT0lrcl9ad1k?oc=5",
+   "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVDM0dWVRNEYyR1BMWUlyUXNKYzBwWkM4X096MWlaZHRzVmJUV3pYNWVjUXYtUkJKYnNoRTVidGZORjF2Tk1uOVJWR1JhVDd1TlVfSUFXOWtfdzhEaGhVWm1jamxwdWFndV9ueXNVQ3RhRXlvaTdSdHNrREVEdDhjU29HNWo3aUJrUFNrWTJ1S1JteVdvOXlVUjhUYUFQdUJ6UWdqbHByUDE2WWRnaGZsb21TWTFjcTJhUlV1emxzWjlzMkxPZXkzcUNlMNIBywFBVV95cUxQVDM0dWVRNEYyR1BMWUlyUXNKYzBwWkM4X096MWlaZHRzVmJUV3pYNWVjUXYtUkJKYnNoRTVidGZORjF2Tk1uOVJWR1JhVDd1TlVfSUFXOWtfdzhEaGhVWm1jamxwdWFndV9ueXNVQ3RhRXlvaTdSdHNrREVEdDhjU29HNWo3aUJrUFNrWTJ1S1JteVdvOXlVUjhUYUFQdUJ6UWdqbHByUDE2WWRnaGZsb21TWTFjcTJhUlV1emxzWjlzMkxPZXkzcUNlMA?oc=5",
+   "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMS14ZmY3UmpmZXVhY0ZiQ2I1ZElvZ20zcHF4WVY1YVMycjFlRU4yRUdNcEN4VTFuVkRHalpFTXQyRmZCY0Y0TXB4UzJNeTZjVERTbzZRYjVaU2pkSkdHWmNlNXNZWTRSeXdyVldCd2hHQnkxT2FEdC12NjRHeXBTcEJyTGVwMlhZaVlLc2hhS2NlbW9KQkRIWWwxSU9Rc3dQd1VGbFFBTkg2eWg0Zi1jRU9KZ1dJWVRuak5nc0RR0gHDAUFVX3lxTE84bnFhb25iaUhnQ0FWVnJaWW1OUnd6YXFCeXJBWWZuWnJYcDA3aGZiR3hOSTQxQ3RQLUxhdWdJMGxDbFNpS0w5Zl9PcmNaMGtEM3dlM0tLb1VlcWF4ZG9LWTlTRUFDbWdqbkxrNzd0RkxmQXg5aHQ1TVFNVDBRaWowb1UwUEdtUldPVTYzcFNVN3NlZGJ1QnNpdTBPdXN1REZsakIyS2xGdG9Wcmo4U3U0ODBZN1NRME5SV21TbWlSaVRWUQ?oc=5",
+   "https://inc42.com/buzz/bambrew-secures-funding-to-increase-supply-capacity/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -725719,11 +726173,14 @@
   "funding_round_count": 0,
   "funding_rounds": [],
   "funding_source_urls": [
-   "https://www.decisionpt.com/"
+   "https://www.decisionpt.com/",
+   "https://www.businesswire.com/news/home/20230912684999/en/Sound-Point-Capital-Provides-Financing-to-Support-the-Acquisition-of-Barcoding",
+   "https://www.decisionpt.com/about-us/news-events/barcoding-inc-and-decisionpoint-systems-merge-to-create-business-of-scale/"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "no public funding",
   "funding_checked": "2026-10-21",
   "funding_notes": [
+   "Domain barcoding.com (Barcoding, Inc., Baltimore supply-chain automation integrator). No venture round found. Acquired by Graham Partners in Sep 2023 (buyout supported by a Sound Point Capital senior secured credit facility - debt, excluded) and merged with DecisionPoint Systems in Jul 2024.",
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
@@ -736665,6 +737122,25 @@
     "first_invested": "2014-05-07",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://basharsoft.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -744240,6 +744716,25 @@
     "first_invested": "2023-08-07",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.bayapay.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -862584,10 +863079,10 @@
   "total_raised_currency": "USD",
   "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": "Pre-Seed",
-   "amount": 586000.0,
+   "type": "Series C",
+   "amount": 60000000.0,
    "currency": "USD",
-   "date": null
+   "date": "2022-03-09"
   },
   "funding_round_count": 2,
   "funding_rounds": [
@@ -862595,14 +863090,17 @@
     "stage": "Series C",
     "amount": 60000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2022-03-09",
     "investors": [],
     "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSnJMREZRaU1uSzRNR0ExbV9lRmtHUWEtanVscjdHZHZCUkpDWFUzVmgyTV9YcmhJMFRUSzJnUUdzYkdvbXoxRnNlZGJJRjBaNFpSb2VkVjZsOGctZ1RCcnlEbEFaMFVoMUl0VmtZRU92X3ZtR183TFdrNWpJRVM2djRfQTNrWG92dmFZN3NGVXJrQVhXQXYwdHJXZ3RNaF92QTVQLV9IaWp0a2tnQUdEbU41OXJkVGxQdXllamprWVJxMnY2VWpkUlBvR3RKTmxXUDhESA?oc=5",
     "date_conflict": true,
     "source_urls": [
      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSnJMREZRaU1uSzRNR0ExbV9lRmtHUWEtanVscjdHZHZCUkpDWFUzVmgyTV9YcmhJMFRUSzJnUUdzYkdvbXoxRnNlZGJJRjBaNFpSb2VkVjZsOGctZ1RCcnlEbEFaMFVoMUl0VmtZRU92X3ZtR183TFdrNWpJRVM2djRfQTNrWG92dmFZN3NGVXJrQVhXQXYwdHJXZ3RNaF92QTVQLV9IaWp0a2tnQUdEbU41OXJkVGxQdXllamprWVJxMnY2VWpkUlBvR3RKTmxXUDhESA?oc=5",
      "https://birdeye.com/press/birdeye-raises-60m-series-c-funding-led-by-accel-kkr-to-help-local-businesses-grow/"
-    ]
+    ],
+    "date_source_url": "https://www.webwire.com/ViewPressRel.asp?aId=286336",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    },
    {
     "stage": "Pre-Seed",
@@ -936667,6 +937165,22 @@
     "first_invested": null,
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -936699,6 +937213,22 @@
     "first_invested": null,
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -961142,6 +961672,26 @@
   ],
   "possible_matches": [
    "joinbonnet.com"
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://bonnet.co.nz/",
+   "https://londonlovesbusiness.com/bonnet-raises-5-5m-in-funding-from-gv-and-lightspeed/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -999154,17 +999704,46 @@
     "most_recent_batch": false
    }
   ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
+  "total_raised": 10250000,
+  "total_raised_currency": "USD",
+  "total_raised_basis": "sum_of_sourced_rounds",
   "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
+   "type": "Pre-Series A",
+   "amount": 6400000.0,
+   "currency": "USD",
    "date": null
   },
-  "funding_round_count": 0,
-  "funding_rounds": [],
+  "funding_round_count": 2,
+  "funding_rounds": [
+   {
+    "stage": "Undisclosed round type",
+    "amount": 3850000.0,
+    "currency": "USD",
+    "date": null,
+    "investors": [],
+    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXdQVlc0MnVNQzZuU2hFTEhpQklFWWFXUWNBSWoyOTJMWW5CS1BEc1daaFBRb0IyaUVtc1VLSVg2S2M5UWt2Qjl3T1pHRFJTdEQtOEU4QzZCd2tYWUVXTEwtaVZRWF9qSVVIZHJRMk4zYjk5aV9kV01SQncxeWRFWUd6ZEplSUQyS2RUNEVRMWJWY3RDQUdyVUNLdEQtUC1XS045UnJtMXpTaFh2cHUtUWZBb1h6WXhmV1VMMnhWOUVzQdIBzgFBVV95cUxOZld3UGo1Rnlsb3VJblJSa0VqWEJ0X2FVOUNNVTJTOTZFaVhIc2g4dEtkRTdfR2hDekVlcElSTlBXNGItUG1MbjFlTTlrR1ZWTlNFM1VvWlpTQ2VSY0NzalR2blVFcEpJUkphZ3o0cHRWanNBU2ZHZDlmcFp2V3A5cElNelY0RzNVZDNvOUUwLUU3bUlBM040cFVrX3VQTDBCczc5RG15WDRGc1ZuUE5jbXloMGJOblp1eW5fTDdjV2JIcmpOUi1LeF9nUkFsZw?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   },
+   {
+    "stage": "Pre-Series A",
+    "amount": 6400000.0,
+    "currency": "USD",
+    "date": null,
+    "lead_investors": [
+     "Prosus Ventures"
+    ],
+    "investors": [
+     "Prosus Ventures"
+    ],
+    "source_url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQN1puVXE0OUR5b0lDak5WWEVyYlhJV01USGhTSHlhWmNnbzV3OWI0VVA0QkxYOXg2YWs2cl9wdmJTSVh1RFZFcE94YURpdEZhcFUxcWNGeG1VTFVZc3JmSEZobWkwMGN4U2xHUHcza1V5Z3FqQ3VVdU9Oci0yZDF5bm1KbENiTndGejVaTUg0V19GNlR4SmtvcTFPd3Fybmx4X0J3N09nZTl6a253eWdVOWxjTlVLZFVycFlScC14VE9heW5Qb0pfNHJqUHlmUG1TZHRRWEhWUlJWUDc0RVZTUDNfQjZzdVVnTzFTYUxpMEg5YUFydWdYNFJiMWJOMk8zdDJWcGcyeFViNlJRQW9FOGZLUDdaQ29WS1F6YWFYeDN0NjZtLVNoTF9hT0dsT29D?oc=5",
+    "history_new": true,
+    "rotation_new": "2026-10-24"
+   }
+  ],
+  "notable_investors": [
+   "Prosus Ventures"
+  ],
   "funding_source_urls": [
    "https://news.google.com/rss/articles/CBMisAJBVV95cUxQN1puVXE0OUR5b0lDak5WWEVyYlhJV01USGhTSHlhWmNnbzV3OWI0VVA0QkxYOXg2YWs2cl9wdmJTSVh1RFZFcE94YURpdEZhcFUxcWNGeG1VTFVZc3JmSEZobWkwMGN4U2xHUHcza1V5Z3FqQ3VVdU9Oci0yZDF5bm1KbENiTndGejVaTUg0V19GNlR4SmtvcTFPd3Fybmx4X0J3N09nZTl6a253eWdVOWxjTlVLZFVycFlScC14VE9heW5Qb0pfNHJqUHlmUG1TZHRRWEhWUlJWUDc0RVZTUDNfQjZzdVVnTzFTYUxpMEg5YUFydWdYNFJiMWJOMk8zdDJWcGcyeFViNlJRQW9FOGZLUDdaQ29WS1F6YWFYeDN0NjZtLVNoTF9hT0dsT29D?oc=5",
    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXdQVlc0MnVNQzZuU2hFTEhpQklFWWFXUWNBSWoyOTJMWW5CS1BEc1daaFBRb0IyaUVtc1VLSVg2S2M5UWt2Qjl3T1pHRFJTdEQtOEU4QzZCd2tYWUVXTEwtaVZRWF9qSVVIZHJRMk4zYjk5aV9kV01SQncxeWRFWUd6ZEplSUQyS2RUNEVRMWJWY3RDQUdyVUNLdEQtUC1XS045UnJtMXpTaFh2cHUtUWZBb1h6WXhmV1VMMnhWOUVzQdIBzgFBVV95cUxOZld3UGo1Rnlsb3VJblJSa0VqWEJ0X2FVOUNNVTJTOTZFaVhIc2g4dEtkRTdfR2hDekVlcElSTlBXNGItUG1MbjFlTTlrR1ZWTlNFM1VvWlpTQ2VSY0NzalR2blVFcEpJUkphZ3o0cHRWanNBU2ZHZDlmcFp2V3A5cElNelY0RzNVZDNvOUUwLUU3bUlBM040cFVrX3VQTDBCczc5RG15WDRGc1ZuUE5jbXloMGJOblp1eW5fTDdjV2JIcmpOUi1LeF9nUkFsZw?oc=5",
@@ -999174,11 +999753,11 @@
    "https://www.smartcompany.com.au/startupsmart/brainfish-nets-3-85-million-ai-customer-support-challenges/",
    "https://markets.financialcontent.com/prnews.investoruprising/article/bizwire-2025-7-8-brainfish-lands-64m-pre-series-a-led-by-prosus-ventures-to-revolutionize-ai-powered-customer-experience-and-open-headquarters-in-the-united-states"
   ],
-  "funding_status": "no public funding found (fast pass)",
+  "funding_status": "seed+",
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -1037871,6 +1038450,25 @@
     "first_invested": "2017-09-30",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://brikorobotics.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1064919,6 +1065517,25 @@
     "first_invested": null,
     "status": "Active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://buildpartner.com/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1069585,6 +1070202,22 @@
     "first_invested": "2024",
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1091515,7 +1092148,7 @@
    "type": "Seed",
    "amount": 7000000.0,
    "currency": "USD",
-   "date": null
+   "date": "2021-08-11"
   },
   "funding_round_count": 1,
   "funding_rounds": [
@@ -1091523,9 +1092156,12 @@
     "stage": "Seed",
     "amount": 7000000.0,
     "currency": "USD",
-    "date": null,
+    "date": "2021-08-11",
     "investors": [],
-    "source_url": "https://www.prnewswire.com/news-releases/byondxr-secures-7m-seed-funding-to-help-brands-create-3d-virtual-shopping-environments-deepening-engagement-with-customers-301353165.html"
+    "source_url": "https://www.prnewswire.com/news-releases/byondxr-secures-7m-seed-funding-to-help-brands-create-3d-virtual-shopping-environments-deepening-engagement-with-customers-301353165.html",
+    "date_source_url": "https://www.prnewswire.com/news-releases/byondxr-secures-7m-seed-funding-to-help-brands-create-3d-virtual-shopping-environments-deepening-engagement-with-customers-301353165.html",
+    "date_filled": "2026-10-24",
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
@@ -1096862,18 +1097498,31 @@
     "date": "2025-10-28",
     "investors": [],
     "source_url": "https://www.c1.ai/news/press-release/conductorone-raises-79-million-series-b",
-    "date_basis": "text"
+    "date_basis": "text",
+    "source_urls": [
+     "https://www.c1.ai/news/press-release/conductorone-raises-79-million-series-b",
+     "https://uk.finance.yahoo.com/news/conductorone-raises-79-million-series-130000290.html"
+    ],
+    "rotation_new": "2026-10-24"
    }
   ],
   "funding_source_urls": [
    "https://www.c1.ai/",
-   "https://www.c1.ai/news/press-release/conductorone-raises-79-million-series-b"
+   "https://www.c1.ai/news/press-release/conductorone-raises-79-million-series-b",
+   "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmhPYTBzOTJGbnZkOUFfR2RfSHVOMEhSLVBSQXJVNERUY2pLVGhRYndoRjZqc3hPQkFxeUFhRHpBUzNFMV9RNm1IbGcwUHExUjdVRnJGZXhBZW9pd2tBSkh5VHo3Q3ZSSGRmZUIwXzV6d3RCVWJZZ2lONGxDMXRwaDlfWklTeVHSAYwBQVVfeXFMTk5BR0JIWkFlMTg2cXNTWUhwYUtmQm5hc21oYzBkR3NsOEFvb3d1OEtUS1NKcnNaR1E4d0htbjlPa0o4V2JiTWVybVA5dW9ULTJwbzQ5b2NJbTA2YWlUQnhoWDdkQzVBQnN5WTJaQkcyY2REV1doQkxyS0F6T2swQmVWNHVuNDE2Rm5VQVQ?oc=5",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRGtCUHhVVEtDXzBzLU13VlZEYW5pelA5RWo5LW1OWE9YTWRGNEw3WFN3dE80dFNsTk9rR0V5SVRKRnJzR19YU0h5V1dKMjY2RENBc3VaVm5tRFZaSFAzVDlDQWxqbEtDOWR6cXh4X18tenIzZUlHR3NkVFhGZUtTNm5tZ0RqUVd2QnNPVzhfY3Yxanht?oc=5",
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd2xZWXFjZUk2azJ0TXdlTFNUQS1TMlhJNzVsRWdpQVdxdElGQWEzbFJLSVMta3hHeVNaNnBLa1ZXVzVDdllPc1JmZ3ZtU1JxMlBrY3RaQVZyNGxCV2tBVTdLRUJRZ0x5dXlOekNLOVl6Y29zMEk5OUw4NTNQOTdDX0ZibWRkbTh2bWhnZXlac1hOYnpoME5qSzIxYVEya1JpZmxIdnd2ODdTT0IxalE?oc=5",
+   "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSU5zOTZSSFEwd2RpZVVjWnVKQ3dQa1ltcDdBX1V5Wk1INnV4LTBxc3hoalEzdEFXQk5iR1VDejFmTGpOUXFJay1XVWZlbWVKYW4xRGRsTmxRWXA5M1I0b0VMU2VJdE96YUwxWWc4Q0JoNjVBN0dBTXdoUW8xSlI0R3VEWVJnWjhpanRWWXI3RG5BZloydlB4bmpCZml5U21hQUJfM1R5UEttemhtYWYxUmdSTzlPZw?oc=5",
+   "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSnpQMzBKODJPUGNsUE9oUDVXeGwybXE4VFRpVjVWVG1uN2lOWm5wSUxRQkUyUk1FaDIxQWJlMm8xdmRGVlQtUTZOX0JUTW5qUDR0RjNoa0FabDdHcjJnTEQwaWgtYmtBUU1vQUNjNnhWdzBVTlZOaUpUMWFTQVBqTmJPZmNhZw?oc=5",
+   "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMTFEYW5naDMxajB5MnBiYndxblJ3cDFBN0NGOHZNOUthQnc1U1NwN0ZOaE9FSTlnSU1ET19MTV9MaDRBOU51QWF0SURabllKRjZRLW5XQW10bU1HQjBWcUlKMi1sN0RtNXJ5cVJWZ0ItMHI4TVEtUTIwYVQyU29yNlBFdTBkUXRfMFpvRkFqeERvS3NZOUplbkJuYw?oc=5",
+   "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPY0lGOUt0dm95UjRpYkVaUVRJMDlBUjNKME5sa1Q5dEgtNFhSYUkySGgwVnpNbzBqcl9iaEFIMTh3bTNGQ3lZZTMzRmo0MGV0MDlkYWp4RkowWVI1QkpZZDNONGhXdUFJbVpWT01ESHhSVEt5WmxRdExqZ2c5YnQ3cmZyUjdSVVdidTlOalNETUs2alVEMW9SaEZMRUpPZllwYWZPM1M0Q0NkekZNVkk5eFFxc2ZncHZmWllwYkhmLXg3LVc3c1IteW52ZU1MNXViM3J5WWo2SkN6YXg1ZU5tZllIOEY?oc=5",
+   "https://uk.finance.yahoo.com/news/conductorone-raises-79-million-series-130000290.html"
   ],
   "funding_status": "seed+",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1098417,7 +1099066,7 @@
   },
   "funding_round_count": 0,
   "funding_rounds": [],
-  "funding_status": "not researched (ambiguous short name key; manual check needed)",
+  "funding_status": "insufficient information to identify (ambiguous short name; 1 row(s) not identifiable from firm data)",
   "funding_checked": "2026-10-23",
   "funding_notes": [
    "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
@@ -1098488,7 +1099137,7 @@
    "https://c3.ai/news/c3-iot-closes-new-financing-at-a-1-4-billion-valuation"
   ],
   "funding_status": "seed+",
-  "funding_checked": "2026-10-23",
+  "funding_checked": "2026-10-24",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
    "Name-only row whose normalized key is too short to search automatically (it lumps unrelated companies, e.g. \"name:x\"). Not searched by the fast pass; NOT applied to GitHub rows; needs manual research. No data invented."
@@ -1135824,19 +1136473,42 @@
     "amount": 14000000.0,
     "currency": "USD",
     "date": null,
-    "investors": [],
-    "source_url": "https://www.canceriq.com/news"
+    "investors": [
+     "Merck Global Health Innovation Fund",
+     "Amgen Ventures",
+     "HealthX Ventures"
+    ],
+    "source_url": "https://www.canceriq.com/news",
+    "source_urls": [
+     "https://www.canceriq.com/news",
+     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOHdOZ2w3MlpVTHAyenUtci16NmFqT1p0Tl9lR3V0V0J4RmNMdUE3WnZJN2Rxdjd1N0hrbUlHR3lRcWlwUHN5N3VrRTl1dkdxYnRJRWlkSHM2VS1Eem93QTlrZnZXNkwwUjVIeVoyUnNDNGo0RjZTVklrV0Iydmo3SDRsNERTT2dQYlhoUGhsd1VaT21wY19FTEdkYUxOck9HbHFvZnpjSERmdTA4X1JHUURhWFQyVnU3TEN4WDUzWldxVUJJX0QtUk9mX0FOZncyX2xGV2hiQ1FubGp0dnVLZjd5bjhBaS1nd3czekk0TVZLV0NTZ284dHdxdEZXV28?oc=5"
+    ],
+    "lead_investors": [
+     "Merck Global Health Innovation Fund",
+     "Amgen Ventures"
+    ],
+    "history_new": true,
+    "rotation_new": "2026-10-24"
    }
+  ],
+  "notable_investors": [
+   "Merck Global Health Innovation Fund",
+   "Amgen Ventures",
+   "HealthX Ventures"
   ],
   "funding_source_urls": [
    "https://www.canceriq.com/",
-   "https://www.canceriq.com/news"
+   "https://www.canceriq.com/news",
+   "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOHdOZ2w3MlpVTHAyenUtci16NmFqT1p0Tl9lR3V0V0J4RmNMdUE3WnZJN2Rxdjd1N0hrbUlHR3lRcWlwUHN5N3VrRTl1dkdxYnRJRWlkSHM2VS1Eem93QTlrZnZXNkwwUjVIeVoyUnNDNGo0RjZTVklrV0Iydmo3SDRsNERTT2dQYlhoUGhsd1VaT21wY19FTEdkYUxOck9HbHFvZnpjSERmdTA4X1JHUURhWFQyVnU3TEN4WDUzWldxVUJJX0QtUk9mX0FOZncyX2xGV2hiQ1FubGp0dnVLZjd5bjhBaS1nd3czekk0TVZLV0NTZ284dHdxdEZXV28?oc=5",
+   "https://www.streetinsider.com/Business+Wire/CancerIQ+Raises+%2414M+Series+B+Funding+to+Improve+Access+to+Innovations+in+Cancer+Early+Detection+and+Prevention/19721198.html",
+   "https://www.builtinchicago.org/articles/canceriq-raises-14m-healthtech-cancer-hiring"
   ],
   "funding_status": "seed+",
   "funding_checked": "2026-10-22",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)"
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified); monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)"
   ]
  },
  {
@@ -1182866,6 +1183538,22 @@
     "first_invested": "2022",
     "status": null
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1186973,6 +1187661,25 @@
     "first_invested": "2024-09-03",
     "status": "active"
    }
+  ],
+  "total_raised": null,
+  "total_raised_currency": null,
+  "total_raised_basis": null,
+  "last_round": {
+   "type": null,
+   "amount": null,
+   "currency": null,
+   "date": null
+  },
+  "funding_round_count": 0,
+  "funding_rounds": [],
+  "funding_source_urls": [
+   "https://www.caresense.com:443/"
+  ],
+  "funding_status": "no public funding found (fast pass)",
+  "funding_checked": "2026-10-24",
+  "funding_notes": [
+   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
   ]
  },
  {
@@ -1200937,675 +1201644,6 @@
   "funding_checked": "2026-10-21",
   "funding_notes": [
    "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carsome.my",
-  "name": "Carsome",
-  "website": "https://www.carsome.my",
-  "domain": "carsome.my",
-  "description": "Operator of an online car-selling platform intended to connect customers to used car dealers. The company offers a range of services that include car inspection, ownership transfer to financing as well as offers a curated selection of cars to individuals who wish to buy pre-owned cars, enabling customers to sell cars within a day with no fee and no hassle.",
-  "description_alternates": [
-   "Southeast Asia’s integrated car e-commerce platform digitising used-car buying, selling, inspection, and ownership processes."
-  ],
-  "everywhere_tags": [
-   "Transportation / Mobility",
-   "Consumer",
-   "FinTech / Insurance",
-   "Logistics / Supply Chain"
-  ],
-  "location": "Malaysia",
-  "location_alternates": [
-   "MALAYSIA"
-  ],
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "500 Global",
-   "Gobi Partners",
-   "Ondine Capital",
-   "Spiral Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 4,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "500 Global",
-    "slug": "500global",
-    "source_row": "data/500global_companies.json#326",
-    "name_on_source": "Carsome",
-    "matched_by": "domain",
-    "stage": "Series D",
-    "first_invested": "2015-08-28",
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Gobi Partners",
-    "slug": "gobi",
-    "source_row": "data/gobi_companies.json#32",
-    "name_on_source": "Carsome",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.carsome.my/"
-   },
-   {
-    "type": "vc",
-    "name": "Ondine Capital",
-    "slug": "ondinecapital",
-    "source_row": "data/ondinecapital_companies.json#2",
-    "name_on_source": "Carsome",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.carsome.my/"
-   },
-   {
-    "type": "vc",
-    "name": "Spiral Ventures",
-    "slug": "spiralventures",
-    "source_row": "data/spiralventures_companies.json#8",
-    "name_on_source": "Carsome",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.carsome.my/"
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": "Series B",
-   "amount": null,
-   "currency": null,
-   "date": "2018-03-08"
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Series B",
-    "amount": null,
-    "currency": null,
-    "date": "2018-03-08",
-    "investors": [],
-    "source_url": "https://vulcanpost.com/634944/carsome-series-b-funding-malaysia/",
-    "date_basis": "snippet"
-   }
-  ],
-  "funding_source_urls": [
-   "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeXozLXVlcUxhdngyOUVRY0xxaURiclhsOFpQNjAxdGYybGZqRm5EZ2tGSEQyTy1KbkNUbWp3WHVWOUFEdm1GRTJDT00wSFhXOWVTeVprbjByQ196UnZhVXdUcnVQeXh5RER2ZlQ0SVlMalFHQUtUc0ZfcHBwaGI4YWtVOC1zb2s1NERIamlNdUJkNmpIOUQ3Q2g3Vmo3WENPSF9RampZQQ?oc=5",
-   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUdES0I3dE53TndmcFdFTmdKNEdSNmNzclZyejloeWRpUlREVFp6M0JkOWdScklZVHBqWGxVUmp4NDlVcnlIOGd2MUFvMHdES21DOEQ0YjhtZTlsNVZXREJ2enpfblh0S1MzS0kxejA5Qkk4V3pMRzMyV1FmN3dBX254c1JVdlFhX3dvYm54ZjlEeVRQeHRlWnRlbld3bGNGRHhRVklzWGlrV0NXSnRHYnAyNUxlbWVrZDRia1IzSEhaUQ?oc=5",
-   "https://news.google.com/rss/articles/CBMirwFBVV95cUxQczEzOW43VXl4TjNGWGQySl9yQXRIWm5HWVUtamRhNkVaRjI0Y0hKLXFZM2RNVlZ1U3JxZmRkeUdnajYtT0NpdFFXODh5YXc2OXVKaE96UHBjMXBfYW0yNXZDNW5LQTE5NkpMMWRNSGJTUnFSSENkYXFUNjllZ1RmZlNDWTVNd2tJX1VycUtfaVlvdmRiRkE5UnZKV2p4UkozZGk4NmFfY1dIUWRUN2FJ?oc=5",
-   "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV1pFS1N1UzFqZVQ2aE1SY0RDVEdEMEdOcHNCYnlGQ2hraVRFY0dWdjB4a0poU2R5Rm43RUtzZzBTN0RwNTY1OFhyUUFRVnh2c01scEZmRjJIWmRWS3BTWHJTTWx2ZzdZQlRVLVVka0NIWWpmRzhsLWViT0Z4dnI2bUcyZjZSZjB4N1lpZmlITXl5UUc3bkVUdld6UjMxUXEzdEhnWVk5S29vc3lzOVpYMWdUZi1teTJ2bnM5YnF0TG8teEFXYW1mZ0dPRdIBvgFBVV95cUxPRjJfcEtKRjV3M3p0bk1obmJGTUliOFRmRzRoQ3ZpdTR6amxkT0dRa3dXLVE5b05JYkkwRGZWSnVFcVNYVnFFWFUwcFRYZmpSaXNaeWhvWk11WnlUYXdWY0xBVnFIZGRBX2ZSNi1idFVTeUNRclJFRHhLYS1DWnhNLXlxTDZuMmJndU9FM1BqUjg5RUZaV1VNWVZNcXBhQjRwYVdXUWJoZXpFeU1RQkkwanl4S25yMFA0VWxnNy13?oc=5",
-   "https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0VOc2lORmlnVUVXUzA0NllWa2M2aDRJamYyc1E2Ni1KTldkTS01M0t2SWVTT2duanZxbWhZa1g3cUg2NXJqaGtVU0xTTXpQUGNWa1VZT0xlTlQ2NEFZb2xhZHhTVFhvbWc?oc=5",
-   "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHJJS2tsdjMyb0Z6Rmp4ODd1OFJfRFlOWk9aOHotSnozUVNWbWlMUDJyZ2RCaFp2WDl2U3dRWHIwTTNSWGkza1IwRzBBZDltdVlrVm12YUxMRFlpQXA1LVE5WWZFS09wbnBUdG4wYlNzUHhnWlRWZGFhUGN6Z1lqeDkyUzFEb2k2aVl0dUg5LS01RlRtNnItOUxDN25UWkh3MzU3RTBHVkFHX2s5cHlEa3pBSQ?oc=5",
-   "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUmgwSG9aTW1kS3lxQll6NEJ6ZGZIT0FMcUVPdzFfeUpoOUpOamNjZVpqWFByZmd1NzVtaW1TS0pJcnBGSVJCSy1jZUkxMEMybzcxbmk2dzJaNS1LN05YNTNuejI0emFMNjgyNy1HblhTSHhMY3V6TWhreVo1Zk9KcXV4MFdTVmdRSFROYVVvVkhZdnJpSS1Bblc0ajJJaW1jS2RfbVBENkNDczRxVlNjQkI0S2dFeUZrMnRqUDF1RmN2OVR3MTkyR2R3OGo0azdOcVdfYg?oc=5",
-   "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSFBMdFNmV05zbkFiUlE3WkRYdmZrQVVnTkU0Wkw0OEpGWnh3c042U25RLWZ2Q1dDekltVnNsWlB2aTc1akh0STM5R2FVUEJIZVMtU1JTRmUwbW9TNXFFaTJzX3pOU0FYTlRqQVRWS0Q0UGFqcHk0b2pwZDlIamZTMmJ0SlBOdDNZQTBGZVRWZy1PaUNPeWdrZkdRc19zQmQ5VndoREpB?oc=5",
-   "https://vulcanpost.com/634944/carsome-series-b-funding-malaysia/"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carsoncreekranch.com",
-  "name": "Carson Creek Ranch",
-  "website": "https://carsoncreekranch.com/",
-  "domain": "carsoncreekranch.com",
-  "description": null,
-  "everywhere_tags": [],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "Unknown Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Unknown Ventures",
-    "slug": "unknownventures",
-    "source_row": "data/unknownventures_companies.json#2",
-    "name_on_source": "Carson Creek Ranch",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://www.carsoncreekranch.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carsonlife.com",
-  "name": "Carson Life",
-  "website": "http://www.carsonlife.com and evaavo.com",
-  "domain": "carsonlife.com",
-  "website_alternates": [
-   "http://www.carsonlife.com/"
-  ],
-  "description": "Carson Life, Inc. is holding Company for natural health and beauty products focused on the Hispanic market. The Company currently holds two brands under its umbrella: Carson Life and Eva+Avo. Carson Life’s products include offerings in the hair care, weight loss, skin care, vitamins and rejuvenation categories. The Carson Life brand offers high quality products with natural ingredients at affordable prices. Eva+Avo is an eco-friendly and sustainable hair care and body care brand made of natural ingredients like avocado, rosemary, cacao, vitamins and mystic herbs. Currently you can find the products in over 12,000 stores in retailers such as Walmart, Walgreens, HEB, Target, Giant Eagle and CVS in the USA and Puerto Rico. Also through Walmart.com, Target.com, Amazon and CarsonLife.com.",
-  "everywhere_tags": [
-   "CPG",
-   "Climate / Sustainability",
-   "Consumer",
-   "PropTech"
-  ],
-  "verticals": [
-   "Consumer Goods",
-   "Commerce and Shopping",
-   "Community and Lifestyle"
-  ],
-  "location": "Miami, Florida",
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "CSA Partners"
-  ],
-  "accelerators": [
-   "gener8tor"
-  ],
-  "backer_count": 2,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "CSA Partners",
-    "slug": "csapartnersllc",
-    "source_row": "data/csapartnersllc_companies.json#2",
-    "name_on_source": "Carson Life",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "http://www.carsonlife.com/"
-   },
-   {
-    "type": "accelerator",
-    "name": "gener8tor",
-    "slug": "gener8tor",
-    "source_row": "data/accelerators/gener8tor_companies.json#34",
-    "name_on_source": "Carson Life",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": "2015-01-01",
-    "status": null,
-    "amount_raised": "$17,000,000 cumulative funding (per gener8tor)",
-    "date": "gener8tor Madison Accelerator 2015",
-    "investors": "gener8tor",
-    "source": "gener8tor",
-    "source_url": "https://www.gener8tor.com/portfolio",
-    "program_type": "gBETA",
-    "batch_date": "2015-01-01",
-    "batch_date_precision": "year",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://en.carsonlife.com/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carstar.com",
-  "name": "CARSTAR",
-  "website": "https://www.carstar.com/",
-  "domain": "carstar.com",
-  "description": "CARSTAR is the largest franchise network of automotive collision repair shops in North America.",
-  "everywhere_tags": [
-   "Consumer",
-   "Transportation / Mobility"
-  ],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "Roark Capital"
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Roark Capital",
-    "slug": "roark",
-    "source_row": "data/roark_companies.json#13",
-    "name_on_source": "CARSTAR",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": 3000000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 3000000.0,
-   "currency": "USD",
-   "date": null
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Undisclosed round type",
-    "amount": 3000000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://www.carstar.com/blog/carstar-gearing-up-for-shine-month-fundraising-to-fight-cystic-fibrosis/"
-   }
-  ],
-  "funding_source_urls": [
-   "https://www.carstar.com/",
-   "https://www.carstar.com/blog/carstar-gearing-up-for-shine-month-fundraising-to-fight-cystic-fibrosis/",
-   "https://www.carstar.com/blog/carstar-honors-contributors-of-carstar-franchise-partners-across-north-america-for-fundraising-to-fight-cystic-fibrosis/"
-  ],
-  "funding_status": "unclear-round-type",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carstay.jp",
-  "name": "Carstay, Inc.",
-  "website": "https://carstay.jp/ja/company",
-  "domain": "carstay.jp",
-  "description": null,
-  "everywhere_tags": [],
-  "location": null,
-  "status": null,
-  "exited": false,
-  "vc_firms": [
-   "W Inc."
-  ],
-  "accelerators": [],
-  "backer_count": 1,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "W Inc.",
-    "slug": "winc",
-    "source_row": "data/winc_companies.json#6",
-    "name_on_source": "Carstay, Inc.",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": null,
-  "total_raised_currency": null,
-  "total_raised_basis": null,
-  "last_round": {
-   "type": null,
-   "amount": null,
-   "currency": null,
-   "date": null
-  },
-  "funding_round_count": 0,
-  "funding_rounds": [],
-  "funding_source_urls": [
-   "https://carstay.jp/ja/"
-  ],
-  "funding_status": "no public funding found (fast pass)",
-  "funding_checked": "2026-10-21",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "carswitch.com",
-  "name": "Carswitch",
-  "website": "https://carswitch.com",
-  "domain": "carswitch.com",
-  "description": "Operator of an online car marketplace intended to assist in the transaction of used cars. The company's marketplace inspects, warrants, photographs, advertises, collects calls, filters prospective buyers, attends test drives, and handles paperwork, enabling users to easily buy old cars and avail insurance, financing, and transfer ownership.",
-  "everywhere_tags": [
-   "Consumer",
-   "FinTech / Insurance",
-   "Transportation / Mobility"
-  ],
-  "location": "United Arab Emirates",
-  "status": "active",
-  "exited": false,
-  "vc_firms": [
-   "500 Global",
-   "BY Venture Partners",
-   "EQ2 Ventures"
-  ],
-  "accelerators": [],
-  "backer_count": 3,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "500 Global",
-    "slug": "500global",
-    "source_row": "data/500global_companies.json#327",
-    "name_on_source": "Carswitch",
-    "matched_by": "domain",
-    "stage": "Series B",
-    "first_invested": "2018-09-12",
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "BY Venture Partners",
-    "slug": "byvp",
-    "source_row": "data/byvp_companies.json#8",
-    "name_on_source": "Carswitch",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "EQ2 Ventures",
-    "slug": "eq2ventures",
-    "source_row": "data/eq2ventures_companies.json#6",
-    "name_on_source": "Carswitch",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   }
-  ],
-  "total_raised": 1000000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 1000000.0,
-   "currency": "USD",
-   "date": null
-  },
-  "funding_round_count": 1,
-  "funding_rounds": [
-   {
-    "stage": "Undisclosed round type",
-    "amount": 1000000.0,
-    "currency": "USD",
-    "date": null,
-    "investors": [],
-    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WTmVQa1ZsR2Jsal9PSDBkWDJaYWFjY2UtWnFBU1dJNW5wUDI4c3BKVXNYdHp1QUxSMlhSZkhVRHRFMHVvMmRTbW0zaG1kNVBnMW05cXhoTmg4d9IBX0FVX3lxTE5JNmNyNF9UUUdieGxkUWpOdk1NZXZIRFFpaWxEMXVYLTlac3pKbl96eURTb1FtZnJLcGNEOTFnbXlySmRFOWsxWGFTM3JhaGlZMmlzZkhMdk9BeGJaR09r?oc=5"
-   }
-  ],
-  "funding_source_urls": [
-   "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WTmVQa1ZsR2Jsal9PSDBkWDJaYWFjY2UtWnFBU1dJNW5wUDI4c3BKVXNYdHp1QUxSMlhSZkhVRHRFMHVvMmRTbW0zaG1kNVBnMW05cXhoTmg4d9IBX0FVX3lxTE5JNmNyNF9UUUdieGxkUWpOdk1NZXZIRFFpaWxEMXVYLTlac3pKbl96eURTb1FtZnJLcGNEOTFnbXlySmRFOWsxWGFTM3JhaGlZMmlzZkhMdk9BeGJaR09r?oc=5",
-   "https://carswitch.com/uae"
-  ],
-  "funding_status": "unclear-round-type",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist"
-  ]
- },
- {
-  "company_id": "cart.com",
-  "name": "Cart.com",
-  "name_alternates": [
-   "Cart"
-  ],
-  "website": "https://cart.com/",
-  "domain": "cart.com",
-  "description": "Cart.com is the first end-to-end eCommerce solutions provider delivering a fully integrated and owned suite of software, services and infrastructure to scale businesses online. Founded by ecommerce veterans to be the premiere Ecommerce-as-a-Service (ECaaS) provider, Cart.com is on a mission to put brands back in charge of their ecommerce journey and their customer relationships. Today, Cart.com offers a wealth of business solutions including online store software; digital marketing, fulfilment, and financial services; customer service capabilities; and unified analytics across all areas of commerce and marketing performance so brands of any size can work with a single partner to access the same capabilities as the world’s largest ecommerce companies.",
-  "description_alternates": [
-   "Cart.com is the leading provider of commerce software, logistics and expert services for multichannel businesses. From our suite of AI-enabled ecommerce and order management software to our nationwide network of fulfillment and distribution centers, Cart.com unifies commerce data and capabilities to help B2C, D2C and B2B companies reduce cost and accelerate growth.",
-   "An e-commerce software and services company offering the tools and infrastructure to scale businesses online.",
-   "Cart.com is the leading provider of unified commerce and logistics solutions that enable B2C and B2B companies to sell and fulfill anywhere their customers are.",
-   "Commerce software, fulfillment, and logistics",
-   "Cart.com is creating e-commerce as a service."
-  ],
-  "everywhere_tags": [
-   "Dev Tools / Cloud",
-   "Consumer",
-   "FinTech / Insurance",
-   "Logistics / Supply Chain",
-   "Future of Work",
-   "Data & Analytics",
-   "Gaming / Media / Entertainment"
-  ],
-  "verticals": [
-   "Marketing tech",
-   "Automation",
-   "Sales",
-   "E-Commerce"
-  ],
-  "location": "Houston, TX",
-  "location_alternates": [
-   "Texas, USA"
-  ],
-  "status": "active",
-  "linkedin_url": "https://www.linkedin.com/company/cartdotcom",
-  "exited": false,
-  "vc_firms": [
-   "Active Capital",
-   "Fin Capital",
-   "Gaingels",
-   "Helium-3 Ventures",
-   "Kube VC",
-   "Mercury Fund",
-   "Moonshots Capital",
-   "Oak HC/FT",
-   "Titancapital"
-  ],
-  "accelerators": [
-   "Capital Factory"
-  ],
-  "backer_count": 10,
-  "backers": [
-   {
-    "type": "vc",
-    "name": "Active Capital",
-    "slug": "activecapital",
-    "source_row": "data/activecapital_companies.json#10",
-    "name_on_source": "Cart",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Fin Capital",
-    "slug": "fincapital",
-    "source_row": "data/fincapital_companies.json#20",
-    "name_on_source": "Cart.com",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Gaingels",
-    "slug": "gaingels",
-    "source_row": "data/gaingels_companies.json#489",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": "Series B",
-    "first_invested": null,
-    "status": "active",
-    "url_on_source": "https://www.cart.com"
-   },
-   {
-    "type": "vc",
-    "name": "Helium-3 Ventures",
-    "slug": "helium3ventures",
-    "source_row": "data/helium3ventures_companies.json#3",
-    "name_on_source": "Cart.com",
-    "matched_by": "name",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Kube VC",
-    "slug": "kubevc",
-    "source_row": "data/kubevc_companies.json#5",
-    "name_on_source": "Cart",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null,
-    "url_on_source": "https://www.cart.com/"
-   },
-   {
-    "type": "vc",
-    "name": "Mercury Fund",
-    "slug": "mercuryfund",
-    "source_row": "data/mercuryfund_companies.json#19",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active",
-    "url_on_source": "http://www.cart.com/"
-   },
-   {
-    "type": "vc",
-    "name": "Moonshots Capital",
-    "slug": "moonshots",
-    "source_row": "data/moonshots_companies.json#8",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": null
-   },
-   {
-    "type": "vc",
-    "name": "Oak HC/FT",
-    "slug": "oakhcft",
-    "source_row": "data/oakhcft_companies.json#18",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": null,
-    "status": "active"
-   },
-   {
-    "type": "vc",
-    "name": "Titancapital",
-    "slug": "titancapital",
-    "source_row": "data/titancapital_companies.json#23",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": "Series B",
-    "first_invested": 2021,
-    "status": "active"
-   },
-   {
-    "type": "accelerator",
-    "name": "Capital Factory",
-    "slug": "capitalfactory",
-    "source_row": "data/accelerators/capitalfactory_companies.json#56",
-    "name_on_source": "Cart.com",
-    "matched_by": "domain",
-    "stage": null,
-    "first_invested": false,
-    "status": null,
-    "url_on_source": "https://cart.com",
-    "date": "Capital Factory Texas Fund I",
-    "investors": "Capital Factory",
-    "source": "Capital Factory",
-    "source_url": "https://www.capitalfactory.com/portfolio/cart-com",
-    "linkedin_source": "company website",
-    "most_recent_batch": false
-   }
-  ],
-  "total_raised": 50000000,
-  "total_raised_currency": "USD",
-  "total_raised_basis": "sum_of_sourced_rounds",
-  "last_round": {
-   "type": "Undisclosed round type",
-   "amount": 50000000.0,
-   "currency": "USD",
-   "date": "2025-05-12"
-  },
-  "funding_round_count": 2,
-  "funding_rounds": [
-   {
-    "stage": "Series C",
-    "amount": null,
-    "currency": null,
-    "date": "2023-06-28",
-    "investors": [],
-    "source_url": "https://cart.com/newsroom/cart-com-series-c-funding-round",
-    "date_basis": "snippet"
-   },
-   {
-    "stage": "Undisclosed round type",
-    "amount": 50000000.0,
-    "currency": "USD",
-    "date": "2025-05-12",
-    "investors": [],
-    "source_url": "https://cart.com/newsroom/cart-com-raises-additional-50-milion",
-    "date_basis": "snippet"
-   }
-  ],
-  "funding_source_urls": [
-   "https://cart.com/newsroom/cart-com-raises-additional-50-milion",
-   "https://cart.com/newsroom/cart-com-series-c-funding-round",
-   "https://www.tamradar.com/funding-rounds/cart-com-growth-180m",
-   "https://houston.innovationmap.com/cartcom-180m-growth-capital-2675554335.html",
-   "https://finance.yahoo.com/news/e-commerce-startup-cart-com-191046522.html",
-   "https://www.thesaasnews.com/news/cart-com-raises-50m-at-1-6b-valuation/",
-   "https://www.digitalcommerce360.com/2026/03/05/cart-com-180-million-funding-logistics-network-ai/",
-   "https://houston.innovationmap.com/cart-com-2672171544.html"
-  ],
-  "funding_status": "seed+",
-  "funding_checked": "2026-10-22",
-  "funding_notes": [
-   "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-   "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 12 same-name SEC Form D filing(s) not used (identity not verified)"
   ]
  }
 ]
