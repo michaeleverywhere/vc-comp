@@ -445,6 +445,8 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "5ycapital":     ('5Y Capital', '5ycap.com'),
     "rethinkimpact":     ('Rethink Impact Ventures', 'rethinkimpact.com'),
     "omnivore":     ('Omnivore Partners', 'Omnivore VC', 'omnivore.vc'),
+    "inoviacapital":     ('Inovia',),
+    "nextviewventures":     ('NextView',),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
