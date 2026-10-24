@@ -24508,9 +24508,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_source_urls": [
+    "https://vicirobotics.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain vicirobotics.com. No publicly reported equity round or grant. Vici Robotics (San Jose retail RaaS robotics; HAX). Seed/convertible-note rounds (2021, 2023, 2024) appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -24568,7 +24570,7 @@
    "linkedin_url": "https://www.linkedin.com/company/swag-kicks",
    "team": "Hamza Sheikh, Mateen Ansari, Nofal Khan",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,400,000",
    "date": "SOSV Orbit Startups - MOX 11",
    "verticals": "E-Commerce",
    "programs": [
@@ -24587,18 +24589,63 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 200000,
+     "currency": "USD",
+     "date": "2021",
+     "investors": [
+      "undisclosed"
+     ],
+     "source_url": "https://www.arabnews.pk/pakistan/pakistani-second-hand-online-clothing-platform-rakes-in-12-million-in-foreign-funding-2252096"
+    },
+    {
+     "stage": "Seed",
+     "amount": 1200000,
+     "currency": "USD",
+     "date": "2023-02-16",
+     "investors": [
+      "i2i Ventures (lead)",
+      "Techstars Toronto",
+      "CrossFund",
+      "Rose Lake Ventures",
+      "Elevation Ventures",
+      "i5 Capital",
+      "STAK Group",
+      "angels"
+     ],
+     "source_url": "https://www.brecorder.com/news/40226674"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.dawn.com/news/1737641",
+    "https://www.i2iventures.com/press",
+    "https://www.arabnews.pk/pakistan/pakistani-second-hand-online-clothing-platform-rakes-in-12-million-in-foreign-funding-2252096",
+    "https://www.brecorder.com/news/40226674"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain swag-kicks.com (Swag Kicks, Karachi pre-loved sneakers/fashion recommerce). $1.2M seed led by i2i Ventures announced Thu Feb 16, 2023 (Business Recorder, Dawn, Arab News) with Techstars Toronto, CrossFund and others; Arab News also reports a $200K pre-seed in early 2021. amount_raised = sum of the two public rounds.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1400000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1200000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-02-16",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "undisclosed",
+    "i2i Ventures (lead)",
+    "Techstars Toronto",
+    "CrossFund",
+    "Rose Lake Ventures",
+    "Elevation Ventures",
+    "i5 Capital",
+    "STAK Group",
+    "angels"
+   ]
   },
   {
    "name": "The Money Club",
@@ -24674,18 +24721,35 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "True Ventures (lead)"
+     ],
+     "source_url": "https://www.dentons.com/en/sean-delgiallo"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://biobase.whitefordresearch.com/companies/membio",
+    "https://www.dentons.com/en/sean-delgiallo"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain membio.ca (Membio, Mississauga single-use bioreactors for cell therapy; IndieBio). Dentons attorney bio: advised Membio on its Series Seed financing led by True Ventures (no amount/date). $3.2M seed (Apr 2020) figure appears only on aggregators. Bioreactor technology acquired by ABEC (2024).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Series Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "True Ventures (lead)"
+   ]
   },
   {
    "name": "Harmony Baby Nutrition",
@@ -24829,7 +24893,7 @@
    "linkedin_url": "https://www.linkedin.com/company/fancy-cellar",
    "team": "Bertrand Moreau, Sophie Benchimol",
    "round": "",
-   "amount_raised": "",
+   "amount_raised": "EUR 250,000",
    "date": "SOSV Orbit Startups - Chinaccelerator 06",
    "verticals": "E-Commerce",
    "programs": [
@@ -24848,20 +24912,43 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Investment round (type not stated)",
+     "amount": 250000,
+     "currency": "EUR",
+     "date": "2016-03-07",
+     "investors": [
+      "Fred & Farid Digital Investment Fund",
+      "SOSV",
+      "AngelVest",
+      "Chinaccelerator"
+     ],
+     "source_url": "https://www.maddyness.com/2016/03/07/fred-farid-fancy-cellar/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.hugedomains.com/domain_profile.cfm?d=fancycellar.com"
+    "https://www.hugedomains.com/domain_profile.cfm?d=fancycellar.com",
+    "https://sosv.com/company/fancycellar/",
+    "https://www.maddyness.com/2016/03/07/fred-farid-fancy-cellar/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain fancycellar.com (Fancy Cellar, Shanghai boutique French wine e-tailer/WeChat digital sommelier; Chinaccelerator). Maddyness (Mar 7, 2016): Fred & Farid Digital Investment Fund joined a EUR 250,000 round alongside SOSV, AngelVest and Chinaccelerator; round type not stated.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 250000,
+   "total_raised_currency": "EUR",
+   "last_round_type": "Investment round (type not stated)",
+   "last_round_amount": 250000,
+   "last_round_currency": "EUR",
+   "last_round_date": "2016-03-07",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Fred & Farid Digital Investment Fund",
+    "SOSV",
+    "AngelVest",
+    "Chinaccelerator"
+   ]
   },
   {
    "name": "Zymochem",
@@ -24933,7 +25020,7 @@
    "linkedin_url": "https://www.linkedin.com/company/mendel-ai",
    "team": "Ruchi Deshpande, Karim Galil, Shaheryar Ahmed, Wael Salloum",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$20,000,000",
    "date": "IndieBio 04",
    "verticals": "Data & Information Tech; Human Health; Therapeutics",
    "programs": [
@@ -24953,18 +25040,63 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2000000,
+     "currency": "USD",
+     "date": "2017",
+     "investors": [
+      "undisclosed"
+     ],
+     "source_url": "https://techcrunch.com/2021/06/07/mendel-raises-18m-to-tease-out-data-structure-from-medicines-disparate-document-trove/"
+    },
+    {
+     "stage": "Series A",
+     "amount": 18000000,
+     "currency": "USD",
+     "date": "2021-06-07",
+     "investors": [
+      "DCM (lead)",
+      "OliveTree",
+      "Zola Global Investors",
+      "Millennium Technology Value Partners",
+      "Launch Capital",
+      "SOSV",
+      "BootstrapLabs",
+      "Mark Goldstein"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20210607005621/en/Clinical-AI-Technology-Leader-Mendel-Raises-%2418M-in-New-Capital"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.mobihealthnews.com/news/mendel-scores-18m-series-emr-data-organizing-software",
+    "https://www.finsmes.com/2021/06/mendel-raises-18m-in-series-a-funding.html",
+    "https://techcrunch.com/2021/06/07/mendel-raises-18m-to-tease-out-data-structure-from-medicines-disparate-document-trove/",
+    "https://www.businesswire.com/news/home/20210607005621/en/Clinical-AI-Technology-Leader-Mendel-Raises-%2418M-in-New-Capital"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain mendel.ai (Mendel, San Jose/Cairo clinical AI). $18M Series A led by DCM announced Jun 7, 2021 (BusinessWire); TechCrunch notes an earlier $2M seed in 2017. amount_raised = sum of these public rounds (other seed extensions only on aggregators).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 20000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 18000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-06-07",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "undisclosed",
+    "DCM (lead)",
+    "OliveTree",
+    "Zola Global Investors",
+    "Millennium Technology Value Partners",
+    "Launch Capital",
+    "SOSV",
+    "BootstrapLabs",
+    "Mark Goldstein"
+   ]
   },
   {
    "name": "Mimio Health",
@@ -24973,7 +25105,7 @@
    "linkedin_url": "https://www.linkedin.com/company/mimiohealth",
    "team": "Caitlin Beatty, Chris Rhodes",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,750,000",
    "date": "IndieBio SF 11",
    "verticals": "Consumer Bio; Human Health; Nutrition & Wellness",
    "programs": [
@@ -24993,20 +25125,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1750000,
+     "currency": "USD",
+     "date": "2023-03",
+     "investors": [
+      "Better Ventures (lead)",
+      "SOSV",
+      "Thia Ventures",
+      "What If Ventures",
+      "R42",
+      "Gaingels"
+     ],
+     "source_url": "https://medium.com/better-ventures/fasting-in-pill-our-investment-in-mimio-health-16034e9bc7ad"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://mimiohealth.com/"
+    "https://mimiohealth.com/",
+    "https://www.prweb.com/releases/mimio-health-commercially-launches-groundbreaking-biomimetic-based-on-the-science-of-fasting-to-promote-cellular-health-and-longevity-301961672.html",
+    "https://medium.com/better-ventures/fasting-in-pill-our-investment-in-mimio-health-16034e9bc7ad"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Domain mimiohealth.com (Mimio Health, fasting-mimetic supplements; IndieBio). $1.75M seed led by Better Ventures with SOSV, Thia, What If Ventures, R42, Gaingels (Better Ventures post / launch PR, 2023).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1750000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1750000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-03",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Better Ventures (lead)",
+    "SOSV",
+    "Thia Ventures",
+    "What If Ventures",
+    "R42",
+    "Gaingels"
+   ]
   },
   {
    "name": "Swap Robotics",
@@ -25077,18 +25236,34 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Strategic investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024-02-06",
+     "investors": [
+      "EMURGO Africa"
+     ],
+     "source_url": "https://www.emurgo.africa/blog/posts/emurgo-africa-announces-strategic-investment-in-fig-paving-the-way-for-de-fi-lending-solutions-in-pan-african-markets"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.emurgo.africa/blog/posts/emurgo-africa-announces-strategic-investment-in-fig-paving-the-way-for-de-fi-lending-solutions-in-pan-african-markets"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain fig.finance / figfinance.io (Fig Finance, SME lending automation / DeFi credit for Africa; SOSV dlab). EMURGO Africa announced a strategic investment on Feb 6, 2024 (amount undisclosed). A 2022 ~$1M seed with dlab/Signum appears only on aggregators.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Strategic investment (round type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2024-02-06",
+   "notable_investors": [
+    "EMURGO Africa"
+   ]
   },
   {
    "name": "xFuel",
@@ -25377,8 +25552,8 @@
    "funding_source_urls": [
     "https://kotal.co/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain kotal.co. No publicly reported equity round or grant. Kotal (open-source blockchain node tooling; SOSV dlab). Convertible notes (2021-2022) led by dlab appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -25636,7 +25811,7 @@
    "linkedin_url": "https://www.linkedin.com/company/composable-finance",
    "team": "Brainjar Composable",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$39,000,000",
    "date": "SOSV dlab 03",
    "verticals": "Blockchain; Fintech",
    "programs": [
@@ -25657,20 +25832,84 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Strategic funding round (type not stated)",
+     "amount": 7000000,
+     "currency": "USD",
+     "date": "2021-06-01",
+     "investors": [
+      "Advanced Blockchain AG (lead)",
+      "Rarestone Capital (lead)",
+      "Alameda Research",
+      "Blockchain Capital",
+      "Divergence Ventures",
+      "Spartan Group"
+     ],
+     "source_url": "https://cointelegraph.com/news/composable-finance-raises-7m-for-cross-chain-and-cross-layer-defi-interoperability"
+    },
+    {
+     "stage": "Series A",
+     "amount": 32000000,
+     "currency": "USD",
+     "date": "2022-03-31",
+     "investors": [
+      "Coinbase Ventures",
+      "GSR",
+      "Ignite",
+      "Fundamental Labs",
+      "LongHash Ventures",
+      "Figment",
+      "New Form Capital",
+      "Blockchain Capital",
+      "Yunt Capital",
+      "Jump Capital",
+      "Polytope Capital",
+      "NGC Ventures",
+      "SOSV",
+      "Spartan Group"
+     ],
+     "source_url": "https://www.globenewswire.com/news-release/2022/03/31/2414197/0/en/composable-finance-raises-32-million-series-a-for-cross-chain-composability.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://composable.finance/"
+    "https://composable.finance/",
+    "https://composablefi.medium.com/composable-finance-raises-32-million-in-series-a-39e70aeff23a",
+    "https://composablefi.medium.com/composable-finance-closes-7-million-funding-round-with-strategic-investors-69db8d099384",
+    "https://cointelegraph.com/news/composable-finance-raises-7m-for-cross-chain-and-cross-layer-defi-interoperability",
+    "https://www.globenewswire.com/news-release/2022/03/31/2414197/0/en/composable-finance-raises-32-million-series-a-for-cross-chain-composability.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain composable.finance (Composable Finance, cross-chain DeFi infrastructure; SOSV dlab). $7M strategic round led by Advanced Blockchain and Rarestone (Jun 2021) and $32M Series A (GlobeNewswire, Mar 31, 2022). Caveat: crypto project; release does not say whether the rounds were equity or token-linked.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 39000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 32000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-03-31",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Advanced Blockchain AG (lead)",
+    "Rarestone Capital (lead)",
+    "Alameda Research",
+    "Blockchain Capital",
+    "Divergence Ventures",
+    "Spartan Group",
+    "Coinbase Ventures",
+    "GSR",
+    "Ignite",
+    "Fundamental Labs",
+    "LongHash Ventures",
+    "Figment",
+    "New Form Capital",
+    "Yunt Capital",
+    "Jump Capital",
+    "Polytope Capital",
+    "NGC Ventures",
+    "SOSV"
+   ]
   },
   {
    "name": "Grounded AI",
@@ -25856,7 +26095,7 @@
    "linkedin_url": "https://www.linkedin.com/company/investoasia",
    "team": "Smriti Tomar, Tushar Vyas",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,500,000",
    "date": "SOSV Orbit Startups - MOX 10",
    "verticals": "Fintech",
    "programs": [
@@ -25875,20 +26114,74 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed (undisclosed)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2020-08-18",
+     "investors": [
+      "SOSV (MOX)",
+      "AngelList India",
+      "IIIT Hyderabad Seed Fund",
+      "Rohit Chanana",
+      "Ajith Karimpana",
+      "Rebalance angels"
+     ],
+     "source_url": "https://yourstory.com/2020/08/funding-fintech-startup-stack-finance-seed-capital-sosv-angellist"
+    },
+    {
+     "stage": "Seed",
+     "amount": 4500000,
+     "currency": "USD",
+     "date": "2021-12-16",
+     "investors": [
+      "Y Combinator",
+      "Harvard Management",
+      "Goodwater Capital",
+      "Soma Capital",
+      "Uncommon Capital",
+      "Earlsfield Capital",
+      "Magic Fund",
+      "AngelList"
+     ],
+     "source_url": "https://www.thehindubusinessline.com/money-and-banking/automated-investing-platform-stack-raises-45-mn-in-seed-round-from-ycombinator-others/article37969709.ece"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTlYMXBkenV2czB1d19saWF6aklMNUNmVjZDSEtHeHlXUUxmbXB2czRPTmk3WVBna284SmxPNjl3TUlvQ1FMWTVqUlZZdllGMkRINnBVMDgxY0hRLWN0cTFXVFJsRXpBYmR1dVRSYXlVT3RxNUVkMlBPemlkUXlscmI4STZRUWxXMWxDT0p0ZXJNUXh4c1UyZDRxOA?oc=5"
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTlYMXBkenV2czB1d19saWF6aklMNUNmVjZDSEtHeHlXUUxmbXB2czRPTmk3WVBna284SmxPNjl3TUlvQ1FMWTVqUlZZdllGMkRINnBVMDgxY0hRLWN0cTFXVFJsRXpBYmR1dVRSYXlVT3RxNUVkMlBPemlkUXlscmI4STZRUWxXMWxDT0p0ZXJNUXh4c1UyZDRxOA?oc=5",
+    "https://inc42.com/buzz/investment-startup-stack-raises-4-5-mn-from-y-combinator-harvard-management-others/",
+    "https://www.vccircle.com/automated-investing-platform-stack-raises-4-5-from-ycombinator-others",
+    "https://yourstory.com/2020/08/funding-fintech-startup-stack-finance-seed-capital-sosv-angellist",
+    "https://www.thehindubusinessline.com/money-and-banking/automated-investing-platform-stack-raises-45-mn-in-seed-round-from-ycombinator-others/article37969709.ece"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain stackfinance.co (Stack / Stack Finance, Bengaluru automated investing app, founder Smriti Tomar; MOX). Undisclosed seed from SOSV/MOX, AngelList India et al. (YourStory, Aug 18, 2020); $4.5M seed with Y Combinator, Harvard Management, Goodwater et al. announced Thu Dec 16, 2021 (BusinessLine).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 4500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 4500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-12-16",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "SOSV (MOX)",
+    "AngelList India",
+    "IIIT Hyderabad Seed Fund",
+    "Rohit Chanana",
+    "Ajith Karimpana",
+    "Rebalance angels",
+    "Y Combinator",
+    "Harvard Management",
+    "Goodwater Capital",
+    "Soma Capital",
+    "Uncommon Capital",
+    "Earlsfield Capital",
+    "Magic Fund",
+    "AngelList"
+   ]
   },
   {
    "name": "dcSpark",
@@ -25897,7 +26190,7 @@
    "linkedin_url": "https://www.linkedin.com/company/dcspark",
    "team": "Carolina Rossi, Melissa Simmons, Sebastien Guillemot, Robert Kornacki, Nicolás Arqueros",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,400,000",
    "date": "SOSV dlab 03",
    "verticals": "Blockchain; Enterprise Software",
    "programs": [
@@ -25916,20 +26209,48 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1400000,
+     "currency": "USD",
+     "date": "2021",
+     "investors": [
+      "WaveGP (IOHK)",
+      "Graph Ventures",
+      "SOSV",
+      "p23",
+      "Antarticx",
+      "angels"
+     ],
+     "source_url": "https://medium.com/dcspark/introducing-dcspark-bddd8d82269a"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://dcspark.io/"
+    "https://dcspark.io/",
+    "https://sosv.com/company/dcspark/",
+    "https://projectcatalyst.io/proposers/dcspark",
+    "https://medium.com/dcspark/introducing-dcspark-bddd8d82269a"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain dcspark.io (dcSpark, Cardano ecosystem builder, Milkomeda sidechains; SOSV dlab). Company blog 'Introducing dcSpark' (2021): ~$1.4M seed from WaveGP, Graph Ventures, SOSV, p23, Antarticx and angels. Also funded via Cardano Project Catalyst (community treasury grants, incl. a $400K Catalyst loan - not equity).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1400000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1400000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "WaveGP (IOHK)",
+    "Graph Ventures",
+    "SOSV",
+    "p23",
+    "Antarticx",
+    "angels"
+   ]
   },
   {
    "name": "Sophie Society",
@@ -25962,8 +26283,8 @@
    "funding_source_urls": [
     "https://sophiesociety.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain sophiesociety.com. No publicly reported equity round or grant. Sophie Society (Amazon seller conversion tools; Chinaccelerator/Orbit). Convertible note/seed rounds appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -26000,10 +26321,28 @@
    "location": "",
    "most_recent_batch": false,
    "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "grants": [
+    {
+     "name": "UKRI Digital Security by Design (DSbD) programme funding",
+     "amount": null,
+     "currency": "GBP",
+     "date": "",
+     "source_url": "https://www.verifoxx.com/post/verifoxx-awarded-dsbd-programme-funding-to-advance-privacy-enhancing-data-security-solutions"
+    },
+    {
+     "name": "Sovereign AI Phase 2 funding",
+     "amount": null,
+     "currency": "GBP",
+     "date": "",
+     "source_url": "https://www.verifoxx.com/post/verifoxx-wins-sovereign-ai-phase-2-funding-to-advance-ai-assurance-capability"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.verifoxx.com/post/verifoxx-awarded-dsbd-programme-funding-to-advance-privacy-enhancing-data-security-solutions",
+    "https://www.verifoxx.com/post/verifoxx-wins-sovereign-ai-phase-2-funding-to-advance-ai-assurance-capability"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Domain verifoxx.com (Verifoxx, UK privacy-preserving identity verification / PETs; SOSV dlab). Company news: awarded UKRI Digital Security by Design (DSbD) programme funding and Sovereign AI Phase 2 funding (amounts not stated in snippet). Seed round appears only on aggregators.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -26019,7 +26358,7 @@
    "linkedin_url": "https://www.linkedin.com/company/upsidefoods",
    "team": "Uma Valeti",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$608,000,000",
    "date": "IndieBio 02",
    "verticals": "Alt Protein; Climate Tech; Future Food",
    "programs": [
@@ -26039,20 +26378,104 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 17000000,
+     "currency": "USD",
+     "date": "2017-08-23",
+     "investors": [
+      "DFJ (lead)",
+      "Cargill",
+      "Bill Gates",
+      "Richard Branson",
+      "Atomico",
+      "SOSV"
+     ],
+     "source_url": "https://techcrunch.com/2017/08/23/billionaires-and-big-ag-are-joining-venture-investors-to-fund-lab-grown-meat/"
+    },
+    {
+     "stage": "Series B",
+     "amount": 161000000,
+     "currency": "USD",
+     "date": "2020-01-22",
+     "investors": [
+      "SoftBank Group (lead)",
+      "Norwest (lead)",
+      "Temasek (lead)",
+      "Cargill",
+      "Tyson Foods",
+      "Bill Gates",
+      "Richard Branson",
+      "Kimbal Musk"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/with-breakthrough-161-million-series-b-funding-round-leading-cell-based-meat-company-memphis-meats-aims-to-bring-products-to-consumers-for-the-first-time-300990865.html"
+    },
+    {
+     "stage": "Series C",
+     "amount": 400000000,
+     "currency": "USD",
+     "date": "2022-04-21",
+     "investors": [
+      "Temasek (co-lead)",
+      "Abu Dhabi Growth Fund (co-lead)",
+      "Baillie Gifford",
+      "Givaudan",
+      "John Doerr",
+      "SALT fund",
+      "Synthesis Capital",
+      "Cargill",
+      "Tyson Foods",
+      "SoftBank Vision Fund 2",
+      "Norwest Venture Partners",
+      "SOSV (IndieBio)"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/upside-foods-raises-a-400m-series-c-round-to-commercialize-cultivated-meat-at-scale-301529998.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://upsidefoods.com/"
+    "https://upsidefoods.com/",
+    "https://www.reuters.com/article/markets/asia/lab-grown-meat-producer-memphis-meats-raises-161-million-in-funding-led-by-soft-idUSKBN1ZL2OJ/",
+    "https://techcrunch.com/2022/04/21/upside-foods-bites-into-400m-round-to-serve-cultivated-meat-later-this-year/",
+    "https://steve.blog/2017/08/23/excited-for-the-future-of-meat-the-series-a-for-upside-foods-aka-memphis-meats/",
+    "https://techcrunch.com/2017/08/23/billionaires-and-big-ag-are-joining-venture-investors-to-fund-lab-grown-meat/",
+    "https://www.prnewswire.com/news-releases/with-breakthrough-161-million-series-b-funding-round-leading-cell-based-meat-company-memphis-meats-aims-to-bring-products-to-consumers-for-the-first-time-300990865.html",
+    "https://www.prnewswire.com/news-releases/upside-foods-raises-a-400m-series-c-round-to-commercialize-cultivated-meat-at-scale-301529998.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+   "funding_status": "seed+",
+   "funding_notes": "Domain upsidefoods.com (UPSIDE Foods, formerly Memphis Meats, Berkeley cultivated meat; IndieBio). Series A $17M led by DFJ (Aug 23, 2017); Series B $161M led by SoftBank, Norwest, Temasek (Jan 2020); Series C $400M co-led by Temasek and ADG (Apr 21, 2022, valuation >$1B). Company states total raised $608M (Apr 2022). SEC Form D (Mar 2022, ~$400M) = Series C.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 578000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series C",
+   "last_round_amount": 400000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-04-21",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "DFJ (lead)",
+    "Cargill",
+    "Bill Gates",
+    "Richard Branson",
+    "Atomico",
+    "SOSV",
+    "SoftBank Group (lead)",
+    "Norwest (lead)",
+    "Temasek (lead)",
+    "Tyson Foods",
+    "Kimbal Musk",
+    "Temasek (co-lead)",
+    "Abu Dhabi Growth Fund (co-lead)",
+    "Baillie Gifford",
+    "Givaudan",
+    "John Doerr",
+    "SALT fund",
+    "Synthesis Capital",
+    "SoftBank Vision Fund 2",
+    "Norwest Venture Partners",
+    "SOSV (IndieBio)"
+   ]
   },
   {
    "name": "Tumi Robotics",
@@ -26061,7 +26484,7 @@
    "linkedin_url": "https://www.linkedin.com/company/tumi-robotics",
    "team": "Claudia Akamine, Francisco Fabián Cuéllar Córdova",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$250,000",
    "date": "HAX 2020",
    "verticals": "Hard Tech; Robotics",
    "programs": [
@@ -26080,20 +26503,37 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Accelerator investment (HAX; $100K cash + $150K services)",
+     "amount": 250000,
+     "currency": "USD",
+     "date": "2020-07-08",
+     "investors": [
+      "HAX (SOSV)"
+     ],
+     "source_url": "https://andina.pe/ingles/noticia-peruvian-startup-receives-250000-investment-from-hax-hardware-accelerator-804838.aspx"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://tumirobotics.com/en/"
+    "https://tumirobotics.com/en/",
+    "https://contxto.com/en/peru/tumi-robotics-hax-accelerator/",
+    "https://andina.pe/ingles/noticia-peruvian-startup-receives-250000-investment-from-hax-hardware-accelerator-804838.aspx"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain tumirobotics.com (Tumi Robotics, Lima mining inspection robots; HAX). Andina (Jul 8, 2020): US$250K from HAX ($100K cash, $150K services). Accelerator check only.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 250000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Accelerator investment (HAX; $100K cash + $150K services)",
+   "last_round_amount": 250000,
+   "last_round_currency": "USD",
+   "last_round_date": "2020-07-08",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "HAX (SOSV)"
+   ]
   },
   {
    "name": "Esports XO",
@@ -26102,7 +26542,7 @@
    "linkedin_url": "https://www.linkedin.com/company/esportsxo",
    "team": "Rohit Raj, Utsav Xo, Vikas Goel",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,100,000",
    "date": "SOSV Orbit Startups - Chinaccelerator 21",
    "verticals": "Media; SaaS",
    "programs": [
@@ -26122,20 +26562,69 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1100000,
+     "currency": "USD",
+     "date": "2021-12-27",
+     "investors": [
+      "We Founder Circle",
+      "Wami Capital",
+      "SOSV",
+      "Mumbai Angels Network",
+      "SucSEED Indovation Fund",
+      "The Gaming Lounge",
+      "FAAD Network"
+     ],
+     "source_url": "https://www.thehindubusinessline.com/companies/tournament-discovery-platform-esportsxo-raises-11-million/article38053108.ece"
+    },
+    {
+     "stage": "Funding round (type not stated; ongoing)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2023-12-05",
+     "investors": [
+      "Orbit Startups (SOSV)",
+      "SucSEED Indovation Fund",
+      "Mumbai Angels",
+      "WeFounderCircle",
+      "Imperial Holdings"
+     ],
+     "source_url": "https://indianstartupnews.com/news/esportsxo-raises-funding-from-sosv-s-orbit-startups-and-sucseed-indovation-fund-1758971"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://esportsxo.gg/"
+    "https://esportsxo.gg/",
+    "https://www.vccircle.com/gaming-startup-esportsxo-raises-seed-funding-from-we-founder-circle-others",
+    "https://www.animationxpress.com/games/esportsxo-announces-funding-round-led-by-sosvs-orbit-startups-and-sucseed-indovation-fund/",
+    "https://www.thehindubusinessline.com/companies/tournament-discovery-platform-esportsxo-raises-11-million/article38053108.ece",
+    "https://indianstartupnews.com/news/esportsxo-raises-funding-from-sosv-s-orbit-startups-and-sucseed-indovation-fund-1758971"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain esportsxo.gg (EsportsXO, Bengaluru esports tournament platform; Orbit Startups). $1.1M seed from We Founder Circle, Wami Capital, SOSV et al. (BusinessLine Dec 27, 2021; VCCircle calls it seed); undisclosed ongoing round with Orbit Startups et al. (Dec 5, 2023).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 1100000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Funding round (type not stated; ongoing)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2023-12-05",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "We Founder Circle",
+    "Wami Capital",
+    "SOSV",
+    "Mumbai Angels Network",
+    "SucSEED Indovation Fund",
+    "The Gaming Lounge",
+    "FAAD Network",
+    "Orbit Startups (SOSV)",
+    "Mumbai Angels",
+    "WeFounderCircle",
+    "Imperial Holdings"
+   ]
   },
   {
    "name": "Pulsenics",
@@ -26167,10 +26656,11 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.pulsenics.com/"
+    "https://www.pulsenics.com/",
+    "https://pulsenics.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain pulsenics.com. No publicly reported equity round or grant. Pulsenics (Toronto electrochemical diagnostics; HAX). 2020 HAX seed check appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -26417,20 +26907,45 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [
-    "https://ardrabio.com/"
+   "funding_rounds": [
+    {
+     "stage": "Investment round (type not stated)",
+     "amount": null,
+     "currency": "CAD",
+     "date": "2022-10",
+     "investors": [
+      "Bioindustrial Innovation Canada (Sustainable Chemistry Alliance Fund, lead)"
+     ],
+     "source_url": "https://ardrabio.com/news/press-release-1/"
+    }
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "grants": [
+    {
+     "name": "Ontario Genomics award (animal-free heme scale-up)",
+     "amount": 150000,
+     "currency": "CAD",
+     "date": "2025-01",
+     "source_url": "https://www.ontariogenomics.ca/awarded-project/ardra-bio/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://ardrabio.com/",
+    "https://betakit.com/synthetic-biology-startup-ardra-is-brewing-up-big-plans-with-its-fermentation-technology/",
+    "https://www.ontariogenomics.ca/awarded-project/ardra-bio/",
+    "https://ardrabio.com/news/press-release-1/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain ardrabio.com (Ardra, Toronto fermentation-made natural flavours/fragrances; IndieBio). Company release (Jan 25, 2023): Bioindustrial Innovation Canada led a round that closed Oct 2022 (amount/type undisclosed). Ontario Genomics award (CAD 150K, Jan 2025) recorded as grant.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Investment round (type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2022-10",
+   "notable_investors": [
+    "Bioindustrial Innovation Canada (Sustainable Chemistry Alliance Fund, lead)"
+   ]
   },
   {
    "name": "PriceOye",
@@ -26610,7 +27125,7 @@
    "linkedin_url": "https://www.linkedin.com/company/playtoome",
    "team": "Keerthivasan Subramaniam",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "INR 35,000,000",
    "date": "SOSV Orbit Startups - MOX 07",
    "verticals": "Media",
    "programs": [
@@ -26629,21 +27144,71 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Series A",
+     "amount": 20000000,
+     "currency": "INR",
+     "date": "2018-08-31",
+     "investors": [
+      "Arihant Patni (lead)",
+      "Bhaskar Raju Konduru",
+      "Goverdhan Singh Jamwal",
+      "Akhileshwaran Krishnan",
+      "Venture Catalysts"
+     ],
+     "source_url": "https://www.vccircle.com/arihant-patni-others-back-live-entertainment-firm-playtoome-via-venture-catalysts"
+    },
+    {
+     "stage": "Accelerator investment (SOSV MOX, undisclosed)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2019-12-14",
+     "investors": [
+      "SOSV (MOX)"
+     ],
+     "source_url": "https://inc42.com/buzz/playtoome-raises-funds-from-sosv-to-connect-audience-artists/"
+    },
+    {
+     "stage": "Seed",
+     "amount": 15000000,
+     "currency": "INR",
+     "date": "",
+     "investors": [
+      "Newport Holdings LLP",
+      "Ramesh Sundaresan",
+      "Deb Dasgupta"
+     ],
+     "source_url": "https://www.vccircle.com/arihant-patni-others-back-live-entertainment-firm-playtoome-via-venture-catalysts"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://www.vccircle.com/arihant-patni-others-back-live-entertainment-firm-playtoome-via-venture-catalysts",
-    "https://inc42.com/buzz/playtoome-raises-funds-from-sosv-to-connect-audience-artists/"
+    "https://inc42.com/buzz/playtoome-raises-funds-from-sosv-to-connect-audience-artists/",
+    "https://yourstory.com/2019/08/risers-accelerator-funding-zeleno-cosmeto-food-playtoome"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain playtoome.com (Playtoome, Bengaluru live-streamed concerts; MOX 07). VCCircle (Aug 31, 2018): Rs 2 crore pre-Series A from angels via Venture Catalysts, after a Rs 1.5 crore seed from Newport Holdings; Risers Accelerator investment (Aug 2019) and undisclosed SOSV/MOX funding (Inc42, Dec 14, 2019). Caveat: rounds are largely angel-funded but publicly labelled seed/pre-Series A.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 35000000,
+   "total_raised_currency": "INR",
+   "last_round_type": "Accelerator investment (SOSV MOX, undisclosed)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2019-12-14",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Arihant Patni (lead)",
+    "Bhaskar Raju Konduru",
+    "Goverdhan Singh Jamwal",
+    "Akhileshwaran Krishnan",
+    "Venture Catalysts",
+    "SOSV (MOX)",
+    "Newport Holdings LLP",
+    "Ramesh Sundaresan",
+    "Deb Dasgupta"
+   ]
   },
   {
    "name": "Trikl",
@@ -26651,7 +27216,7 @@
    "website": "http://trikl.co",
    "linkedin_url": "https://www.linkedin.com/company/trikl-tech",
    "team": "Haseeb Siddiqui",
-   "round": "",
+   "round": "Pre-seed",
    "amount_raised": "",
    "date": "SOSV Orbit Startups - Chinaccelerator 21",
    "verticals": "Fintech",
@@ -26672,18 +27237,42 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed (undisclosed)",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "Hi2 Global",
+      "Kube VC",
+      "Sabr Capital",
+      "Cordoba Ventures",
+      "WE& Capital"
+     ],
+     "source_url": "https://www.menabytes.com/elphinstone-trikl/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.menabytes.com/elphinstone-trikl/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain trikl.co (Trikl, Karachi automated investing / digital asset management app; MOX). MENAbytes (Oct 29, 2024): had raised an undisclosed pre-seed round from Hi2 Global, Kube VC, Sabr Capital, Cordoba Ventures, WE& Capital before being acquired by Elphinstone (Oct 2024, seven-figure valuation).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-seed (undisclosed)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "Hi2 Global",
+    "Kube VC",
+    "Sabr Capital",
+    "Cordoba Ventures",
+    "WE& Capital"
+   ]
   },
   {
    "name": "Hackster",
@@ -26715,10 +27304,12 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.hackster.io/"
+    "https://www.hackster.io/",
+    "https://ir.avnet.com/news-releases/news-release-details/avnet-acquires-hackster-inc",
+    "https://www.sec.gov/Archives/edgar/data/8858/000000885817000007/avt-20170126ex9917623a5.htm"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain hackster.io (Hackster, Seattle hardware developer community; HAX). SOSV investments (2013, 2015) appear only on aggregators; no public round announcement found. Avnet acquired a majority interest in Nov 2016 and the remainder in Jan 2017 (Avnet IR / SEC exhibit). Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -26852,20 +27443,63 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "KRW",
+     "date": "2020",
+     "investors": [
+      "Bluepoint Partners"
+     ],
+     "source_url": "http://www.majormap.kr/14/?bmode=view&idx=17867656"
+    },
+    {
+     "stage": "Pre-Series A",
+     "amount": null,
+     "currency": "KRW",
+     "date": "2022-08-05",
+     "investors": [
+      "TapAngel Partners",
+      "SOSV"
+     ],
+     "source_url": "http://www.majormap.kr/14/?bmode=view&idx=17867656"
+    },
+    {
+     "stage": "Series A",
+     "amount": null,
+     "currency": "KRW",
+     "date": "2024-12-12",
+     "investors": [
+      "Nextrans",
+      "Korea SMEs and Startups Agency (KOSME)"
+     ],
+     "source_url": "https://www.sedaily.com/article/13993949"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.majormap.net/"
+    "https://www.majormap.net/",
+    "https://www.startuptoday.kr/news/articleView.html?idxno=45279",
+    "http://www.majormap.kr/14/?bmode=view&idx=17867656",
+    "https://www.sedaily.com/article/13993949"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain majormap.net / majormap.kr (Major Map, Seoul AI college-major search/career planning; MOX). Company press: seed from Bluepoint Partners (2020); pre-Series A from TapAngel Partners and SOSV (Aug 5, 2022, undisclosed); Seoul Economic Daily (Dec 12, 2024): Series A from Nextrans and KOSME (undisclosed).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Series A",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2024-12-12",
+   "notable_investors": [
+    "Bluepoint Partners",
+    "TapAngel Partners",
+    "SOSV",
+    "Nextrans",
+    "Korea SMEs and Startups Agency (KOSME)"
+   ]
   },
   {
    "name": "Hydrostasis",
@@ -27246,10 +27880,12 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.decisionpt.com/"
+    "https://www.decisionpt.com/",
+    "https://www.businesswire.com/news/home/20230912684999/en/Sound-Point-Capital-Provides-Financing-to-Support-the-Acquisition-of-Barcoding",
+    "https://www.decisionpt.com/about-us/news-events/barcoding-inc-and-decisionpoint-systems-merge-to-create-business-of-scale/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain barcoding.com (Barcoding, Inc., Baltimore supply-chain automation integrator). No venture round found. Acquired by Graham Partners in Sep 2023 (buyout supported by a Sound Point Capital senior secured credit facility - debt, excluded) and merged with DecisionPoint Systems in Jul 2024.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -27357,7 +27993,7 @@
    "website": "http://play140.com",
    "linkedin_url": "",
    "team": "Tom Monaghan",
-   "round": "",
+   "round": "Seed",
    "amount_raised": "",
    "date": "SOSV Portfolio: Cyril Ebersweiler",
    "verticals": "Media",
@@ -27377,18 +28013,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed (undisclosed)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2011-06-01",
+     "investors": [
+      "Ojas Venture Partners",
+      "SOS Ventures (SOSV)",
+      "Ty Danco (angel)"
+     ],
+     "source_url": "https://economictimes.indiatimes.com/news/company/corporate-trends/infosys-co-founder-ns-raghavans-ojas-venture-joins-hand-with-china-vc-for-us-startup/articleshow/8673925.cms"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://economictimes.indiatimes.com/news/company/corporate-trends/infosys-co-founder-ns-raghavans-ojas-venture-joins-hand-with-china-vc-for-us-startup/articleshow/8673925.cms"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain play140.com (Play140, Boston social text-based games; Chinaccelerator). Economic Times (Jun 1, 2011): Ojas Venture Partners to provide part of Play140's seed capital alongside SOS Ventures and angel Ty Danco; amount undisclosed. $500K figure and 2012 Oomba acquisition appear only on aggregators.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Seed (undisclosed)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2011-06-01",
+   "notable_investors": [
+    "Ojas Venture Partners",
+    "SOS Ventures (SOSV)",
+    "Ty Danco (angel)"
+   ]
   },
   {
    "name": "Digi Bio",
@@ -27421,8 +28077,8 @@
    "funding_source_urls": [
     "https://digi.bio/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain digi.bio. No publicly reported equity round or grant. Digi.Bio (Amsterdam digital-microfluidics single-cell chips; IndieBio EU). A new round with Koninklijke Rotra Groep, SOSV and Innovatiefonds Noord-Holland (Apr 2025) and an earlier Innovatiefonds investment are announced only in LinkedIn posts (not used). Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -27735,10 +28391,11 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.tesarakt.com/"
+    "https://www.tesarakt.com/",
+    "https://tesarakt.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain tesarakt.com. No publicly reported equity round or grant. Tesarakt (Columbia spin-off, MRI-based AI for Parkinson's/Alzheimer's; IndieBio). $250K 2022 IndieBio check appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -27754,7 +28411,7 @@
    "linkedin_url": "https://www.linkedin.com/company/neupeak",
    "team": "Anshul Porwal, Div Gill, Raffaella Di Mattia",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "CAD 1,161,664",
    "date": "HAX 2020",
    "verticals": "AgTech; Robotics",
    "programs": [
@@ -27774,18 +28431,44 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_rounds": [
+    {
+     "stage": "Class Seed Preferred share financing",
+     "amount": 1161663.75,
+     "currency": "CAD",
+     "date": "2022-04-08",
+     "investors": [
+      "undisclosed"
+     ],
+     "source_url": "https://www.fasken.com/en/solution/clientwork/2022/10/leading-agriculture-robotics-company-in-their-class-seed-preferred-share-financing"
+    }
+   ],
+   "grants": [
+    {
+     "name": "NRC IRAP contribution - robotic strawberry harvester swarm",
+     "amount": 292700,
+     "currency": "CAD",
+     "date": "2022-09-01",
+     "source_url": "https://search.open.canada.ca/grants/record/nrc-cnrc,172-2022-2023-Q2-995150,current"
+    }
+   ],
+   "funding_source_urls": [
+    "https://search.open.canada.ca/grants/record/nrc-cnrc,172-2022-2023-Q2-995150,current",
+    "https://www.fasken.com/en/solution/clientwork/2022/10/leading-agriculture-robotics-company-in-their-class-seed-preferred-share-financing"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain neupeak.com (Neupeak Robotics, Burnaby BC autonomous strawberry harvesting; HAX). Fasken: Class Seed Preferred financing totaling CAD 1,161,663.75, final closing Apr 8, 2022 (investors not named in source). NRC IRAP contribution CAD 292,700 (Sep 2022-Aug 2023) recorded as grant.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1161664,
+   "total_raised_currency": "CAD",
+   "last_round_type": "Class Seed Preferred share financing",
+   "last_round_amount": 1161663.75,
+   "last_round_currency": "CAD",
+   "last_round_date": "2022-04-08",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "undisclosed"
+   ]
   },
   {
    "name": "Presso",
@@ -27971,8 +28654,8 @@
    "funding_source_urls": [
     "https://solidoxmotors.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain solidoxmotors.com. No publicly reported equity round or grant. Solid Ox Motors (SOFC range extenders for trucks; IndieBio). IndieBio seed check (2022) appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -28049,22 +28732,52 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2016-10",
+     "investors": [
+      "Cathay Capital"
+     ],
+     "source_url": "https://www.cathaycapital.com/luxury-brand-group-shopal-completes-series-b-financing-round-of-rmb-200-million/"
+    },
+    {
+     "stage": "Series B+",
+     "amount": 200000000,
+     "currency": "CNY",
+     "date": "",
+     "investors": [
+      "Youngor Group (lead)",
+      "Cathay Capital"
+     ],
+     "source_url": "https://www.cathaycapital.com/luxury-brand-group-shopal-completes-series-b-financing-round-of-rmb-200-million/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://us.ushopal.com/",
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGpnTDhmcjRVaDljTVZMWm5relRFbXo5T29fcVF4dmpPSVd6ZlBNT29leWpuV1llZHdPTW91TVF4UDhCOUN0czNVelJyMjFKOEUtRHNQRTJZQ3NjNHp3SnhtbFFNT0FsRml4RjFKOTRQc01iZkxWZW8yUUVqYmVvMXcxYUFMZktuSy12bw?oc=5",
-    "https://www.marketing-interactive.com/ushopal-new-round-of-funding"
+    "https://www.marketing-interactive.com/ushopal-new-round-of-funding",
+    "https://www.issuewire.com/luxury-brand-group-shopal-raises-rmb-200-million-series-b-led-by-youngor-group-1613830162156360",
+    "https://36kr.com/p/1722553384961",
+    "https://www.cathaycapital.com/luxury-brand-group-shopal-completes-series-b-financing-round-of-rmb-200-million/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain us.ushopal.com (USHOPAL, formerly Shopal, Shanghai new-luxury brand group / Bonnie & Clyde stores; Chinaccelerator 07). Cathay Capital: RMB 200M Series B+ led by Youngor Group with Cathay (Cathay first invested Oct 2016); earlier investors Lianjie Capital, Dianliang Capital, SOSV. Close date unclear (Cathay post dated May 2020; other reports 2018), so left blank. 36Kr also reports an earlier 'hundred-million RMB' Series B. amount_raised left blank (incomplete).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 200000000,
+   "total_raised_currency": "CNY",
+   "last_round_type": "Investment (round type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2016-10",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Cathay Capital",
+    "Youngor Group (lead)"
+   ]
   },
   {
    "name": "Pulse Industrial",
@@ -28073,7 +28786,7 @@
    "linkedin_url": "https://www.linkedin.com/company/pulseindustrial",
    "team": "Bryan Fedorak, Thomas Uhlenbruck",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,900,000",
    "date": "HAX 2019",
    "verticals": "Climate Tech; Hard Tech; Industrial IoT",
    "programs": [
@@ -28093,20 +28806,71 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [
-    "https://pulseindustrial.ca/"
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1900000,
+     "currency": "USD",
+     "date": "2021-04-28",
+     "investors": [
+      "GreenSky Accelerator Fund III",
+      "Momenta Partners",
+      "SOSV",
+      "Celtic House Asian Partners",
+      "First Inflection"
+     ],
+     "source_url": "https://greensky.vc/pulse-industrial-raises-us1-9-million-seed-round/"
+    },
+    {
+     "stage": "Venture round (type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2023-03-28",
+     "investors": [
+      "Momenta (lead)",
+      "Celtic House Asia Partners",
+      "SOSV",
+      "Phoenix VP"
+     ],
+     "source_url": "https://www.pulseindustrial.com/pressrelease-momentaandpulse"
+    }
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "grants": [
+    {
+     "name": "Sustainable Development Technology Canada (SDTC) funding",
+     "amount": 3500000,
+     "currency": "CAD",
+     "date": "2022",
+     "source_url": "https://betakit.com/pulse-industrial-secures-3-5-million-from-sdtc-to-improve-safety-in-industrial-plants/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://pulseindustrial.ca/",
+    "https://betakit.com/pulse-industrial-secures-3-5-million-from-sdtc-to-improve-safety-in-industrial-plants/",
+    "https://momenta.vc/insights/smart-energy-venture-capital-pulse-industrial",
+    "https://greensky.vc/pulse-industrial-raises-us1-9-million-seed-round/",
+    "https://www.pulseindustrial.com/pressrelease-momentaandpulse"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain pulseindustrial.ca (Pulse Industrial, Waterloo ON AI steam-trap failure monitors; HAX). US$1.9M seed (GreenSky, Apr 28, 2021); undisclosed round led by Momenta (company PR, Mar 28, 2023); SDTC CAD 3.5M non-dilutive funding (BetaKit, 2022) recorded as grant. Assets (digital monitor + subscription service) purchased by Spirax Sarco Feb 21, 2025.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 1900000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Venture round (type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2023-03-28",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "GreenSky Accelerator Fund III",
+    "Momenta Partners",
+    "SOSV",
+    "Celtic House Asian Partners",
+    "First Inflection",
+    "Momenta (lead)",
+    "Celtic House Asia Partners",
+    "Phoenix VP"
+   ]
   },
   {
    "name": "Chi Botanic",
@@ -28115,7 +28879,7 @@
    "linkedin_url": "https://www.linkedin.com/company/chi-botanic",
    "team": "Jonathan Meuser, Robert Jinkerson",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$2,200,000",
    "date": "IndieBio 09",
    "verticals": "Climate Tech; Future Food; Industrial Bio",
    "programs": [
@@ -28134,23 +28898,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
+   "funding_rounds": [
+    {
+     "stage": "Equity raised to date (round types not stated; approx.)",
+     "amount": 2200000,
+     "currency": "USD",
+     "date": "2023-05",
+     "investors": [
+      "undisclosed"
+     ],
+     "source_url": "https://agfundernews.com/plant-cell-culture-ready-for-prime-time-in-food-and-nutraceuticals"
+    }
+   ],
+   "grants": [
+    {
+     "name": "USDA SBIR Phase I grant (plant cell-cultured vanilla)",
+     "amount": 175000,
+     "currency": "USD",
+     "date": "2023",
+     "source_url": "https://www.newswire.com/news/chi-botanic-inc-awarded-competitive-usda-sbir-phase-i-grant-for-plant-22028457"
+    }
+   ],
    "funding_source_urls": [
     "https://aventure.vc/companies/chi-botanic-alameda-ca-us",
     "https://www.webdisclosure.com/press-release/chi-botanic-nasdaq-chi-botanic-inc-awarded-competitive-usda-sbir-phase-i-grant-for-plant-cell-cultured-vanilla-TLYQu8WPK8J",
     "https://www.newswire.com/news/chi-botanic-inc-awarded-competitive-usda-sbir-phase-i-grant-for-plant-22028457",
-    "https://www.accessnewswire.com/newsroom/en/biotechnology/chi-botanic-inc.-awarded-competitive-usda-sbir-phase-i-grant-for-plant-cell-cultured-v-752904"
+    "https://www.accessnewswire.com/newsroom/en/biotechnology/chi-botanic-inc.-awarded-competitive-usda-sbir-phase-i-grant-for-plant-cell-cultured-v-752904",
+    "https://agfundernews.com/plant-cell-culture-ready-for-prime-time-in-food-and-nutraceuticals"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain chibotanic.com (Chi Botanic, California plant-cell-culture aloe/vanilla/citrus; IndieBio). AgFunderNews (May 5, 2023): CEO says it has raised around $2.2M so far plus a similar amount in non-dilutive grants/co-development, and was seeking a ~$6M seed (target, not a closed round; aggregator '$6M seed' not used). USDA SBIR Phase I grant ($175K) for plant-cell vanilla.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2200000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Equity raised to date (round types not stated; approx.)",
+   "last_round_amount": 2200000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-05",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "undisclosed"
+   ]
   },
   {
    "name": "SuperWorld",
@@ -28183,8 +28971,8 @@
    "funding_source_urls": [
     "https://superworldapp.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain superworldapp.com. No publicly reported equity round or grant. SuperWorld (AR virtual world / virtual real estate; SOSV dlab). 2021-2022 angel and corporate rounds appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -28255,7 +29043,7 @@
    "linkedin_url": "https://www.linkedin.com/company/wayfinder-biosciences",
    "team": "Jason Fontana, David Sparkman-Yager",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$6,000,000",
    "date": "IndieBio SF 12",
    "verticals": "Biopharma; Computational Bio; Human Health; Industrial & Research Tools; Industrial Bio; Therapeutics",
    "programs": [
@@ -28274,20 +29062,67 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series Seed",
+     "amount": 3500000,
+     "currency": "USD",
+     "date": "2022-10-17",
+     "investors": [
+      "Notation Capital (co-lead)",
+      "Divergent Capital (co-lead)",
+      "SOSV (IndieBio)",
+      "BoxOne Ventures",
+      "Notley Biosciences",
+      "Reinforced Ventures",
+      "Genesis Consortium",
+      "Conscience VC",
+      "Social Starts",
+      "Overlap Holdings"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/wayfinder-biosciences-raises-3-5m-to-program-rna-301647781.html"
+    },
+    {
+     "stage": "Funding round (type not stated)",
+     "amount": 2500000,
+     "currency": "USD",
+     "date": "2023-10",
+     "investors": [
+      "Exor Ventures (lead)"
+     ],
+     "source_url": "https://www.siliconlegal.com/sls-client-wayfinder-biosciences-raises-2-5mm-round-from-exor-ventures/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.wayfinderbio.com/"
+    "https://www.wayfinderbio.com/",
+    "https://www.genomeweb.com/business-news/wayfinder-biosciences-raises-35m-seed-funding",
+    "https://www.prnewswire.com/news-releases/wayfinder-biosciences-raises-3-5m-to-program-rna-301647781.html",
+    "https://www.siliconlegal.com/sls-client-wayfinder-biosciences-raises-2-5mm-round-from-exor-ventures/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain wayfinderbio.com (Wayfinder Biosciences, Seattle RNA-targeting small molecules; IndieBio). $3.5M series seed co-led by Notation Capital and Divergent Capital (PR Newswire, Oct 17, 2022); $2.5M round led by Exor Ventures (Silicon Legal Strategy, 2023). amount_raised = sum of public rounds.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 6000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Funding round (type not stated)",
+   "last_round_amount": 2500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-10",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Notation Capital (co-lead)",
+    "Divergent Capital (co-lead)",
+    "SOSV (IndieBio)",
+    "BoxOne Ventures",
+    "Notley Biosciences",
+    "Reinforced Ventures",
+    "Genesis Consortium",
+    "Conscience VC",
+    "Social Starts",
+    "Overlap Holdings",
+    "Exor Ventures (lead)"
+   ]
   },
   {
    "name": "Unlocked Labs",
@@ -28397,20 +29232,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2022-07-28",
+     "investors": [
+      "UM6P Ventures"
+     ],
+     "source_url": "https://www.newswire.com/news/um6p-ventures-invests-in-climate-crop-an-indiebio-company-to-enhance-21780890"
+    },
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2022-08",
+     "investors": [
+      "Zero Carbon Capital"
+     ],
+     "source_url": "https://www.zerocarbon.vc/news/more-food-less-land-zcc-invests-in-climatecrop"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://climate-crop.com/"
+    "https://climate-crop.com/",
+    "https://www.newswire.com/news/um6p-ventures-invests-in-climate-crop-an-indiebio-company-to-enhance-21780890",
+    "https://www.zerocarbon.vc/news/more-food-less-land-zcc-invests-in-climatecrop"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain climate-crop.com (ClimateCrop, Israel gene-edited photosynthesis/starch storage; IndieBio). UM6P Ventures investment announced Jul 28, 2022; Zero Carbon Capital announced its seed investment Aug 2022. Amounts undisclosed; later convertible notes appear only on aggregators.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2022-08",
+   "notable_investors": [
+    "UM6P Ventures",
+    "Zero Carbon Capital"
+   ]
   },
   {
    "name": "GIVN Goods",
@@ -28439,20 +29301,35 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2018-10-17",
+     "investors": [
+      "Wolfpack Brands (lead)"
+     ],
+     "source_url": "https://www.prweb.com/releases/Wolfpack_Brands_Invests_in_GIVN_Water/prweb15819487.htm"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://givnwater.com/"
+    "https://givnwater.com/",
+    "https://www.prweb.com/releases/Wolfpack_Brands_Invests_in_GIVN_Water/prweb15819487.htm"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain givnwater.com (GIVN Goods / GIVN Water, Atlanta B-Corp spring water; SOSV food program). PRWeb (Oct 17, 2018): closed a seed round led by Wolfpack Brands (Todd Ehrlich joins board); amount undisclosed. Totals shown on aggregators not used.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2018-10-17",
+   "notable_investors": [
+    "Wolfpack Brands (lead)"
+   ]
   },
   {
    "name": "ViaBot",
@@ -28550,10 +29427,11 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.echo54.com/"
+    "https://www.echo54.com/",
+    "https://getperimeter.co/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain getperimeter.co. No publicly reported equity round or grant. Perimeter (outdoor home-invasion monitoring; HAX) - getperimeter.co now redirects to echo54.com (Echo54 / Perimeter AI Inc., camera-free people detection). Not the wildfire-response 'Perimeter' (perimeterplatform.com). Seed round with SOSV appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -28569,7 +29447,7 @@
    "linkedin_url": "https://www.linkedin.com/company/plantruption",
    "team": "Piyali Chakraborty, Jennifer O’Brien",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$500,000",
    "date": "IndieBio SF 12",
    "verticals": "Alt Protein; Climate Tech; Consumer Bio; Future Food",
    "programs": [
@@ -28590,20 +29468,37 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Accelerator investment (IndieBio)",
+     "amount": 500000,
+     "currency": "USD",
+     "date": "2021-09-18",
+     "investors": [
+      "SOSV (IndieBio)"
+     ],
+     "source_url": "https://www.irishtimes.com/business/agribusiness-and-food/irish-plant-based-seafood-start-up-nets-a-place-on-us-accelerator-1.4677179"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.sea-believe.com/"
+    "https://www.sea-believe.com/",
+    "https://vegconomist.com/investments-finance/fundraising/sea-and-believe/",
+    "https://www.irishtimes.com/business/agribusiness-and-food/irish-plant-based-seafood-start-up-nets-a-place-on-us-accelerator-1.4677179"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain sea-believe.com (Sea & Believe, formerly Plantruption, Irish seaweed plant-based seafood; IndieBio). Irish Times (Sep 18, 2021): raised $500K (EUR 426K) from SOSV on entering IndieBio; planning a EUR 1.5M round. vegconomist (May 25, 2022): commitments for half of a planned $3M raise, SOSV among backers - close not confirmed. Enterprise Ireland New Frontiers participant.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Accelerator investment (IndieBio)",
+   "last_round_amount": 500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-09-18",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "SOSV (IndieBio)"
+   ]
   },
   {
    "name": "RizLab Health",
@@ -28843,7 +29738,7 @@
    "linkedin_url": "https://www.linkedin.com/company/15199950",
    "team": "Nathaniel Bernard Roquet, Hyunjun Park",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$54,000,000",
    "date": "IndieBio 04",
    "verticals": "Climate Tech; Industrial Bio; Sustainable Manufacturing",
    "programs": [
@@ -28862,20 +29757,79 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 9000000,
+     "currency": "USD",
+     "date": "2018-06-25",
+     "investors": [
+      "New Enterprise Associates (lead)",
+      "OS Fund",
+      "Day One Ventures",
+      "Line",
+      "Data Collective",
+      "Green Bay Ventures",
+      "AME Cloud Ventures",
+      "Industry Ventures"
+     ],
+     "source_url": "https://www.biospace.com/boston-s-catalog-secures-9-million-in-funding-to-advance-dna-data-storage-technology"
+    },
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2020-09-09",
+     "investors": [
+      "Horizons Ventures (lead)",
+      "Airbus Ventures"
+     ],
+     "source_url": "https://www.globenewswire.com/news-release/2020/09/09/2090846/0/en/DNA-based-Data-Storage-and-Computation-Provider-CATALOG-Founded-by-MIT-Scientists-Raises-10-Million.html"
+    },
+    {
+     "stage": "Series B",
+     "amount": 35000000,
+     "currency": "USD",
+     "date": "2021-09-30",
+     "investors": [
+      "Hanwha Impact (lead)",
+      "Horizons Ventures"
+     ],
+     "source_url": "https://techcrunch.com/2021/09/30/dna-based-data-storage-platform-catalog-raises-35m-series-b-to-scale-its-dna-computation/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.biomemory.com/"
+    "https://www.biomemory.com/",
+    "https://www.prnewswire.com/news-releases/biomemory-acquires-the-assets-of-catalog-boosting-its-ambitions-in-dna-data-storage-and-computing-302705489.html",
+    "https://www.biospace.com/boston-s-catalog-secures-9-million-in-funding-to-advance-dna-data-storage-technology",
+    "https://www.globenewswire.com/news-release/2020/09/09/2090846/0/en/DNA-based-Data-Storage-and-Computation-Provider-CATALOG-Founded-by-MIT-Scientists-Raises-10-Million.html",
+    "https://techcrunch.com/2021/09/30/dna-based-data-storage-platform-catalog-raises-35m-series-b-to-scale-its-dna-computation/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain catalogdna.com (CATALOG, Boston DNA data storage/computation; IndieBio) - domain now redirects to biomemory.com. $9M seed led by NEA (BioSpace, Jun 25, 2018); $10M Series A led by Horizons Ventures (GlobeNewswire, Sep 9, 2020; company said $21M total then); $35M Series B led by Hanwha Impact (TechCrunch, Sep 30, 2021; company said total ~ $60M). amount_raised = sum of three public rounds ($54M). Biomemory acquired Catalog's assets (announced Mar 2026).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 54000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series B",
+   "last_round_amount": 35000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-09-30",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "New Enterprise Associates (lead)",
+    "OS Fund",
+    "Day One Ventures",
+    "Line",
+    "Data Collective",
+    "Green Bay Ventures",
+    "AME Cloud Ventures",
+    "Industry Ventures",
+    "Horizons Ventures (lead)",
+    "Airbus Ventures",
+    "Hanwha Impact (lead)",
+    "Horizons Ventures"
+   ]
   },
   {
    "name": "mFluiDX",
@@ -28904,18 +29858,34 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2019-03",
+     "investors": [
+      "Charkarp Capital"
+     ],
+     "source_url": "https://www.charkarp.com/news-1/2019/3/18/charkarp-capital-invested-mfluidx"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.charkarp.com/news-1/2019/3/18/charkarp-capital-invested-mfluidx"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain mfluidx.com (mFluiDx, UC Berkeley spin-off low-cost microfluidic isothermal DNA diagnostics; IndieBio). Charkarp Capital announced an investment Mar 18, 2019 (amount undisclosed); company described as Gates Foundation funded. NIH SBIR grant totals appear only on aggregators (not verified at source).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Investment (round type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2019-03",
+   "notable_investors": [
+    "Charkarp Capital"
+   ]
   },
   {
    "name": "Perennial",
@@ -28924,7 +29894,7 @@
    "linkedin_url": "https://www.linkedin.com/company/perennial-sciences",
    "team": "Craig Deebank, Sara Bonham",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$2,500,000",
    "date": "IndieBio 03",
    "verticals": "Future Food",
    "programs": [
@@ -28941,20 +29911,43 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Funding to date (round types not stated)",
+     "amount": 2500000,
+     "currency": "USD",
+     "date": "2019-04",
+     "investors": [
+      "Collaborative Fund",
+      "Powerplant Ventures",
+      "SOSV",
+      "family offices"
+     ],
+     "source_url": "https://www.fooddive.com/news/new-plant-based-beverage-targets-older-consumers/551863/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://liveperennial.com/"
+    "https://liveperennial.com/",
+    "https://www.prnewswire.com/news-releases/perennial-launches-to-champion-the-50-and-harness-the-power-of-plants-to-keep-them-at-the-top-of-their-game-300822351.html",
+    "https://www.fooddive.com/news/new-plant-based-beverage-targets-older-consumers/551863/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain liveperennial.com (Perennial, plant-based adult nutrition beverages for 50+, co-founded by Beyond Meat co-founder Brent Taylor; SOSV food program). Domain now parked/for sale. Food Dive (Apr 4, 2019, citing BevNET): raised $2.5M so far from Collaborative Fund, Powerplant Ventures, SOSV and family offices. Not the soil-carbon Perennial (perennial.earth).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Funding to date (round types not stated)",
+   "last_round_amount": 2500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2019-04",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Collaborative Fund",
+    "Powerplant Ventures",
+    "SOSV",
+    "family offices"
+   ]
   },
   {
    "name": "TomTex",
@@ -29325,9 +30318,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://moiraibiodesign.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain moiraibiodesign.com. No publicly reported equity round or grant. Moirai Biodesign (computational mRNA/RNA design services; IndieBio). SOSV seed check (2023) appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -29404,20 +30399,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021-11-03",
+     "investors": [
+      "Continental Grain (lead)",
+      "SOSV"
+     ],
+     "source_url": "https://www.citybiz.co/article/169825/ingredient-optimized-announces-series-a-fundraise/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.becomeio.com/"
+    "https://www.becomeio.com/",
+    "https://thespoon.tech/ingredient-optimized-raises-series-a-funding-to-expand-protein-enhancement-tech/",
+    "https://www.citybiz.co/article/169825/ingredient-optimized-announces-series-a-fundraise/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain plasmanutrition.com (Plasma Nutrition Inc., operating as Ingredient Optimized / ioProtein; SOSV food program). citybiz (Nov 3, 2021): Series A led by Continental Grain (Brian Loeb joins board) with SOSV; amount undisclosed. Not Ingenious Ingredients (ING2).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Series A",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2021-11-03",
+   "notable_investors": [
+    "Continental Grain (lead)",
+    "SOSV"
+   ]
   },
   {
    "name": "MicroSynbiotiX",
@@ -29549,20 +30562,68 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Syndicate investment round (type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2018-01-25",
+     "investors": [
+      "New York Innovation Venture Capital Fund",
+      "Plum Alley",
+      "Tamiami Angel Funds",
+      "BELLE Capital USA",
+      "Connectivity Ventures"
+     ],
+     "source_url": "https://vyv.tech/press-releases/vital-vio-inc-closes-new-investment-round-to-expand-applications-of-its-patented-technology-and-adoption-of-its-germ-killing-leds/"
+    },
+    {
+     "stage": "Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2020-12",
+     "investors": [
+      "undisclosed"
+     ],
+     "source_url": "https://vyv.tech/press-releases/vyv-announces-groundbreaking-inactivation-and-killing-of-viruses-with-its-antimicrobial-light-technology/"
+    },
+    {
+     "stage": "Investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021-01-25",
+     "investors": [
+      "Citi Impact Fund"
+     ],
+     "source_url": "https://www.bizjournals.com/albany/news/2021/01/25/vyv-gets-investment-from-citibank.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://vyv.tech/"
+    "https://vyv.tech/",
+    "https://www.finsmes.com/2021/01/citi-impact-fund-makes-investments-in-seven-companies.html",
+    "https://vyv.tech/press-releases/vital-vio-inc-closes-new-investment-round-to-expand-applications-of-its-patented-technology-and-adoption-of-its-germ-killing-leds/",
+    "https://vyv.tech/press-releases/vyv-announces-groundbreaking-inactivation-and-killing-of-viruses-with-its-antimicrobial-light-technology/",
+    "https://www.bizjournals.com/albany/news/2021/01/25/vyv-gets-investment-from-citibank.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain vyv.tech (Vyv, formerly Vital Vio, Troy NY UV-free antimicrobial LED lighting; HAX). Company PR (Jan 25, 2018): closed syndicate round with NY Innovation Venture Capital Fund, Plum Alley, Tamiami Angel Funds, BELLE Capital, Connectivity Ventures; company PR says Series A closed at end of 2020 (amount undisclosed); Citi Impact Fund investment (Albany Business Review, Jan 25, 2021). $11.5M 2023 figure appears only on aggregators.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Investment (round type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2021-01-25",
+   "notable_investors": [
+    "New York Innovation Venture Capital Fund",
+    "Plum Alley",
+    "Tamiami Angel Funds",
+    "BELLE Capital USA",
+    "Connectivity Ventures",
+    "undisclosed",
+    "Citi Impact Fund"
+   ]
   },
   {
    "name": "General Sense",
@@ -29695,7 +30756,7 @@
    "linkedin_url": "https://www.linkedin.com/company/12901348",
    "team": "Spencer Price, Henry Michaelson, Gabriel Nipote",
    "round": "Series A",
-   "amount_raised": "",
+   "amount_raised": "$1,900,000",
    "date": "IndieBio Food-X 08",
    "verticals": "AI & Machine Learning; Food Software",
    "programs": [
@@ -29712,20 +30773,40 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1400000,
+     "currency": "USD",
+     "date": "2019-05-15",
+     "investors": [
+      "E&A Venture Capital (lead)",
+      "SOSV"
+     ],
+     "source_url": "https://www.prweb.com/releases/food-tech-innovator-halla-raises-1-4-million-seed-round-to-expand-personalization-technology-for-online-grocers-848519527.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://maintenance.wynshop.com/"
+    "https://maintenance.wynshop.com/",
+    "https://thespoon.tech/halla-raises-1-4m-seed-round-pivots-to-focus-on-ai-powered-grocery-recommendations/",
+    "https://www.finsmes.com/2019/05/halla-raises-1-4m-in-seed-funding.html",
+    "https://www.prweb.com/releases/food-tech-innovator-halla-raises-1-4-million-seed-round-to-expand-personalization-technology-for-online-grocers-848519527.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Domain halla.io (Halla, LA grocery AI 'Taste Intelligence'; Food-X). PRWeb (May 15, 2019): $1.4M seed led by E&A Venture Capital with SOSV; company said this brings total equity raised to $1.9M (amount_raised per company statement).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1400000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1400000,
+   "last_round_currency": "USD",
+   "last_round_date": "2019-05-15",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "E&A Venture Capital (lead)",
+    "SOSV"
+   ]
   },
   {
    "name": "Abbot’s Butcher",
@@ -29989,9 +31070,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://whatsalon.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain whatsalon.com. No publicly reported equity round or grant. WhatSalon (Cork salon booking app; SOSV). Silicon Republic (Dec 17, 2018): acquired by Constellation Software's Jonas division for ~EUR 15M (per Sunday Business Post); investors North Cork Enterprise Board, Enterprise Ireland, SOSV and private investors, but no round amounts/dates disclosed. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -30244,20 +31327,48 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 6100000000,
+     "currency": "KRW",
+     "date": "2020-07-07",
+     "investors": [
+      "KB Investment"
+     ],
+     "source_url": "https://marketinsight.hankyung.com/article/202007072661u"
+    },
+    {
+     "stage": "Strategic investment (25% stake)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021-03",
+     "investors": [
+      "NAVER Webtoon"
+     ],
+     "source_url": "https://www.navercorp.com/en/media/pressReleasesDetail?seq=30505"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.tappytoon.com:443/en/comics/discover"
+    "https://www.tappytoon.com:443/en/comics/discover",
+    "https://marketinsight.hankyung.com/article/202007072661u",
+    "https://www.navercorp.com/en/media/pressReleasesDetail?seq=30505"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain tappytoon.com (Tappytoon, operated by Contents First, Seoul global webtoon platform; Chinaccelerator). Hankyung Market Insight (Jul 7, 2020): KB Investment made a KRW 6.1B Series A investment in Tappytoon. NAVER press release (Jun 13, 2021): NAVER Webtoon acquired 25% of Contents First's shares in March 2021 (amount undisclosed). Later Series B2 and totals appear only on aggregators; amount_raised left blank.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 6100000000,
+   "total_raised_currency": "KRW",
+   "last_round_type": "Strategic investment (25% stake)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2021-03",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "KB Investment",
+    "NAVER Webtoon"
+   ]
   },
   {
    "name": "WakeCap",
@@ -30384,9 +31495,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://vitinitiative.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain vitinitiative.com. No publicly reported equity round or grant. The VIT Initiative / Vigilant Technologies (Pittsburgh wearable posture/injury-prevention; HAX). Acquired by Sword Health (Oct 2021, Sword newsroom/Fierce Healthcare); press mentions former investors but no public round details; $25K 2020 seed appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -30662,7 +31775,7 @@
    "linkedin_url": "https://www.linkedin.com/company/xrobotics",
    "team": "Roman Sharapov, Denis Rodionov",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$2,500,000",
    "date": "HAX 2019",
    "verticals": "Hard Tech; Robotics",
    "programs": [
@@ -30681,22 +31794,45 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2500000,
+     "currency": "USD",
+     "date": "2025-06-11",
+     "investors": [
+      "FinSight Ventures (lead)",
+      "SOSV",
+      "MANA Ventures",
+      "Republic Capital"
+     ],
+     "source_url": "https://sosv.com/xrobotics-raises-2-5m-as-countertop-robots-raises-cook-up-25000-pizzas-a-month/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://www.xrobotics.io/",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU29IUEg1LUNQSFJmSERwakxEcTVVeTNBZU1RMlllR0x6aUU3dmRidk84WXBLSENwR0QzcGN1TEpVekoyd21xQ1F5NlpmeExVS3dxaktWSjlsRHE0U1QySElVUENQVXI2bm10eThKNHVHZVRzd0wxbXlKOFl2ZnF6M1I5YVdBYi1YcXBiMmZnckJrcjNCNmtQMUlBMTNZQm8?oc=5",
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVXlkNzVQM09fRzhjbWNXcW1ZWEdFYWlZMGJpVV9mMEx4ZXF5cTVfajBBTlhLUWRSWHZlOWF6eWVWZXpjLUNyZmRKVFVFSmFmQVV0Y0dSMzAyN3J1alV0TF9GV1pXZ0Z4X1dld3V2VGtMaThvY21Jd1d2NzZNTTBRRkpaU0pOZFo0UUtTTzR3cmZWc3ZMS2M2NmRBMXpXTlhvYUFHSjgzSjAtMGVoZGhVV2NxTQ?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVXlkNzVQM09fRzhjbWNXcW1ZWEdFYWlZMGJpVV9mMEx4ZXF5cTVfajBBTlhLUWRSWHZlOWF6eWVWZXpjLUNyZmRKVFVFSmFmQVV0Y0dSMzAyN3J1alV0TF9GV1pXZ0Z4X1dld3V2VGtMaThvY21Jd1d2NzZNTTBRRkpaU0pOZFo0UUtTTzR3cmZWc3ZMS2M2NmRBMXpXTlhvYUFHSjgzSjAtMGVoZGhVV2NxTQ?oc=5",
+    "https://foodondemand.com/07162025/xrobotics-raises-millions-for-production-of-pizza-making-robots/",
+    "https://sosv.com/xrobotics-raises-2-5m-as-countertop-robots-raises-cook-up-25000-pizzas-a-month/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain xrobotics.io (XRobotics, San Francisco xPizza Cube countertop pizza robot; HAX). SOSV (Jun 11, 2025): $2.5M seed led by FinSight Ventures with SOSV, MANA Ventures, Republic Capital. amount_raised = that round (earlier HAX checks not public).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 2500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-06-11",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "FinSight Ventures (lead)",
+    "SOSV",
+    "MANA Ventures",
+    "Republic Capital"
+   ]
   },
   {
    "name": "Surface",
@@ -30705,7 +31841,7 @@
    "linkedin_url": "https://www.linkedin.com/company/surface-robot",
    "team": "Du Ling",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "CNY 6,000,000",
    "date": "HAX China 2020",
    "verticals": "Hard Tech; Robotics",
    "programs": [
@@ -30724,18 +31860,38 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": true,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Angel",
+     "amount": 6000000,
+     "currency": "CNY",
+     "date": "2023-03-21",
+     "investors": [
+      "Qihai Capital (lead)",
+      "HAX"
+     ],
+     "source_url": "http://www.chuangtouzhijia.com/news/12689.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://pitchhub.36kr.com/project/1713136345458946",
+    "http://www.chuangtouzhijia.com/news/12689.html"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain surobopilot.com (Surface / SuroboPilot, Shanghai AI robotic surface finishing; HAX). Chuangtouzhijia (Mar 21, 2023): RMB 6M angel round led by Qihai Capital with HAX. Earlier 2020 seed appears only on aggregators.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 6000000,
+   "total_raised_currency": "CNY",
+   "last_round_type": "Angel",
+   "last_round_amount": 6000000,
+   "last_round_currency": "CNY",
+   "last_round_date": "2023-03-21",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Qihai Capital (lead)",
+    "HAX"
+   ]
   },
   {
    "name": "FleetOperate",
@@ -30770,8 +31926,8 @@
    "funding_source_urls": [
     "https://fleetoperate.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain fleetoperate.com. No publicly reported equity round or grant. FleetOperate (truck driver-as-a-service marketplace; SOSV/dlab). Convertible notes 2021-2022 appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
