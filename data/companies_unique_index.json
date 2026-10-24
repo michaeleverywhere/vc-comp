@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 191795,
-  "vc_source_rows": 153308,
+  "total_source_rows": 194210,
+  "vc_source_rows": 155723,
   "accelerator_source_rows": 38487,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 110450,
-  "companies_with_2plus_backers": 35881,
-  "companies_with_vc_and_accelerator": 10479,
-  "companies_keyed_by_domain": 76954,
-  "companies_keyed_by_name": 33496,
-  "name_rows_joined_to_domain_company": 24262,
-  "companies_with_possible_matches": 14637,
-  "shared_hosts_treated_as_junk": 224,
-  "companies_with_funding_rounds": 21859,
-  "companies_funding_checked": 107761,
-  "funding_rounds_total": 38739,
+  "unique_companies": 111293,
+  "companies_with_2plus_backers": 36362,
+  "companies_with_vc_and_accelerator": 10646,
+  "companies_keyed_by_domain": 77804,
+  "companies_keyed_by_name": 33489,
+  "name_rows_joined_to_domain_company": 24397,
+  "companies_with_possible_matches": 14920,
+  "shared_hosts_treated_as_junk": 227,
+  "companies_with_funding_rounds": 21896,
+  "companies_funding_checked": 107784,
+  "funding_rounds_total": 38783,
   "research_records_available": 123118,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17085,
-      "bytes": 39999341,
+      "companies": 17105,
+      "bytes": 39983906,
       "first_company": "!K7",
-      "last_company": "Cascade"
+      "last_company": "Cart.com"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17026,
-      "bytes": 39998646,
-      "first_company": "Cascade",
-      "last_company": "FiO Lab"
+      "companies": 17079,
+      "bytes": 39999099,
+      "first_company": "Carta",
+      "last_company": "Findmeashoe"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17424,
-      "bytes": 39999529,
-      "first_company": "FION Energy",
-      "last_company": "KWT Group"
+      "companies": 17441,
+      "bytes": 39998015,
+      "first_company": "FindMeCure",
+      "last_company": "Krak"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17273,
-      "bytes": 39999175,
-      "first_company": "KX",
-      "last_company": "Ouvatech"
+      "companies": 17312,
+      "bytes": 39997541,
+      "first_company": "Kraka",
+      "last_company": "OS Studios"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17117,
-      "bytes": 39999496,
-      "first_company": "Ouvidor Digital",
-      "last_company": "Sipli"
+      "companies": 17130,
+      "bytes": 39999218,
+      "first_company": "OS3",
+      "last_company": "Signant Health"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17385,
-      "bytes": 39999895,
-      "first_company": "SipMargs",
-      "last_company": "Vyatta"
+      "companies": 17420,
+      "bytes": 39998481,
+      "first_company": "Signapse",
+      "last_company": "ViVOtech"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 7140,
-      "bytes": 14277198,
-      "first_company": "Vybe",
+      "companies": 7806,
+      "bytes": 15802695,
+      "first_company": "Vivox",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
