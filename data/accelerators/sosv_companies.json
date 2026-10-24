@@ -18798,8 +18798,8 @@
    "funding_source_urls": [
     "https://cancangroup.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain cancangroup.com. No publicly reported equity round or grant. CanCan Group (Shanghai/HK SME finance SaaS, founder Katherine Lui). 2016 Chinaccelerator/Orbit/SOSV seed check appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -19045,10 +19045,11 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://bubbleye.com:443/"
+    "https://bubbleye.com:443/",
+    "https://bubbleye.ai/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain bubbleye.ai. No publicly reported equity round or grant. Bubbleye (Taipei mobile UA automation, MOX 01). Seed (May 2019) and Series A led by Darwin Venture Management (Nov 2019) appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -19083,18 +19084,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed investment (round type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "Calm/Storm Ventures",
+      "Mithril Capital",
+      "firstminute capital"
+     ],
+     "source_url": "https://www.calmstorm.vc/portfolio/natural-uti-treatment-stealth-mode"
+    }
+   ],
+   "grants": [
+    {
+     "name": "Innovate UK Biomedical Catalyst feasibility grant",
+     "amount": null,
+     "currency": "GBP",
+     "date": "",
+     "source_url": "https://digitalhealth.london/redefining-womens-intimate-health-with-microbiome-biotech-led-solutions"
+    }
+   ],
+   "funding_source_urls": [
+    "https://digitalhealth.london/redefining-womens-intimate-health-with-microbiome-biotech-led-solutions",
+    "https://www.calmstorm.vc/portfolio/natural-uti-treatment-stealth-mode"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain p-happi.com (P.Happi / B.Y.M. Technologies, London; Bdellovibrio intimate-microbiome serum; IndieBio NY 01). Calm/Storm Ventures portfolio page lists it with co-investors Mithril Capital and firstminute capital (no amount/date/round type). DigitalHealth.London case study: secured an Innovate UK Biomedical Catalyst feasibility grant (amount not stated). Seed rounds with amounts appear only on aggregators.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Undisclosed investment (round type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "Calm/Storm Ventures",
+    "Mithril Capital",
+    "firstminute capital"
+   ]
   },
   {
    "name": "Bramble",
@@ -19189,7 +19219,7 @@
    "linkedin_url": "https://www.linkedin.com/company/bosquefoods",
    "team": "Isabella Iglesias-Musachio",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$3,000,000",
    "date": "IndieBio NY 03",
    "verticals": "Alt Protein; Climate Tech; Future Food",
    "programs": [
@@ -19209,18 +19239,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2022-05-17",
+     "investors": [
+      "FoodLabs (lead)",
+      "Happiness Capital",
+      "SOSV",
+      "Blue Horizon",
+      "Blue Impact",
+      "Arman Anatürk (angel)"
+     ],
+     "source_url": "https://www.greenqueen.com.hk/bosque-foods-mycelium-whole-meat/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://vegconomist.com/investments-finance/investments-acquisitions/mycelium-based-whole-cut-meat-alternatives/",
+    "https://www.eu-startups.com/2022/05/fueling-the-transition-to-a-more-sustainable-food-system-berlin-based-bosque-foods-cooks-up-e2-8-million/",
+    "https://www.greenqueen.com.hk/bosque-foods-mycelium-whole-meat/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain bosquefoods.com (Berlin, mycelium whole-cut meat via solid-state fermentation). $3M (~EUR 2.8M) seed announced May 17, 2022, led by FoodLabs with Happiness Capital, SOSV, Blue Horizon, Blue Impact and angel Arman Anatürk.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 3000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 3000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-05-17",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "FoodLabs (lead)",
+    "Happiness Capital",
+    "SOSV",
+    "Blue Horizon",
+    "Blue Impact",
+    "Arman Anatürk (angel)"
+   ]
   },
   {
    "name": "Booster AgTech",
@@ -19229,7 +19288,7 @@
    "linkedin_url": "https://www.linkedin.com/company/4788515",
    "team": "Sebastián Galdeano, Marcos Alvarado",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$500,000",
    "date": "IndieBio Food-X 03",
    "verticals": "AgTech; Food Supply Chain Solutions",
    "programs": [
@@ -19249,18 +19308,40 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Early capital from SOSV, Food Angels and Argentine angels (round type not stated)",
+     "amount": 500000,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "SOSV",
+      "Food Angels",
+      "Argentine angel investors"
+     ],
+     "source_url": "https://infonegocios.info/infotecnologia/la-aplicacion-boosteragro-ya-cubre-17-millones-de-hectareas"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://agfundernews.com/exclusive-latam-agronomic-platform-agrosmart-acquires-boosteragro-to-expand-weather-support",
+    "https://infonegocios.info/infotecnologia/la-aplicacion-boosteragro-ya-cubre-17-millones-de-hectareas"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain boosteragro.com (BoosterAgro, Buenos Aires agro-weather app; Food-X 03). InfoNegocios: financed with US$500K of venture capital from SOSV, Food Angels and Argentine angels (no priced round named). Acquired by Agrosmart (Brazil) in 2021, terms undisclosed (AgFunderNews). Aggregator-only $405K 'seed' (2019) not used.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Early capital from SOSV, Food Angels and Argentine angels (round type not stated)",
+   "last_round_amount": 500000,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "SOSV",
+    "Food Angels",
+    "Argentine angel investors"
+   ]
   },
   {
    "name": "Blink",
@@ -19364,7 +19445,7 @@
    "linkedin_url": "https://www.linkedin.com/company/insightgenieai",
    "team": "",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$4,000,000",
    "date": "SOSV Orbit Startups - Chinaccelerator 19",
    "verticals": "Fintech",
    "programs": [
@@ -19383,20 +19464,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4000000,
+     "currency": "USD",
+     "date": "2022-09-30",
+     "investors": [
+      "HSBC Asset Management (lead)"
+     ],
+     "source_url": "https://techcrunch.com/2022/09/30/hsbc-investment-singapore-customer-intelligence-risk-assessment-startup-bizbaz-seed-round/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://insightgenie.ai/"
+    "https://insightgenie.ai/",
+    "https://insightgenie.ai/hsbc-investment/",
+    "https://finovate.com/finovate-global-singapore-mas-embraces-esg-hsbc-invests-in-customer-intel-specialist-bizbaz/",
+    "https://techcrunch.com/2022/09/30/hsbc-investment-singapore-customer-intelligence-risk-assessment-startup-bizbaz-seed-round/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain insightgenie.ai (InsightGenie, formerly Bizbaz; Singapore/HK alternative credit scoring). $4M seed round led by HSBC Asset Management reported by TechCrunch Sep 30, 2022 (company news page mirrors it).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 4000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 4000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-09-30",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "HSBC Asset Management (lead)"
+   ]
   },
   {
    "name": "Bitome, Inc.",
@@ -19469,9 +19568,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://bitholla.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain bitholla.com. No publicly reported equity round or grant. bitHolla (Seoul, HollaEx white-label exchange software). 2017 Chinaccelerator/Orbit seed check appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -19527,7 +19628,7 @@
    "website": "http://bison.co",
    "linkedin_url": "https://www.linkedin.com/company/2235483",
    "team": "Rasmus Goksor, David Backman",
-   "round": "",
+   "round": "Series A",
    "amount_raised": "",
    "date": "SOSV Portfolio: Sean O'Sullivan",
    "verticals": "Fintech",
@@ -19548,18 +19649,54 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2016-10-11",
+     "investors": [
+      "Hamilton Lane (lead)",
+      "GrandBanks Capital",
+      "Accomplice"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/bison-announces-series-a-investment-round-and-launch-of-new-software-platform-cobalt-300342527.html"
+    },
+    {
+     "stage": "Venture round (type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2018-01-08",
+     "investors": [
+      "FINTOP Capital (lead)",
+      "Hamilton Lane",
+      "GrandBanks Capital"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/bison-announces-new-round-of-investment-for-private-markets-software-product-suite-cobalt-300578726.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.finsmes.com/2016/10/bison-raises-series-a-funding-round.html",
+    "https://www.prnewswire.com/news-releases/bison-announces-series-a-investment-round-and-launch-of-new-software-platform-cobalt-300342527.html",
+    "https://www.prnewswire.com/news-releases/bison-announces-new-round-of-investment-for-private-markets-software-product-suite-cobalt-300578726.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain bison.co (Bison = Boston Illiquid Securities Offering Network; Cobalt GP/LP private-markets analytics, Boston). Series A led by Hamilton Lane with GrandBanks and Accomplice announced Oct 11, 2016; further round led by FINTOP Capital announced Jan 8, 2018. Amounts undisclosed.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Venture round (type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2018-01-08",
+   "notable_investors": [
+    "Hamilton Lane (lead)",
+    "GrandBanks Capital",
+    "Accomplice",
+    "FINTOP Capital (lead)",
+    "Hamilton Lane"
+   ]
   },
   {
    "name": "BirdShades",
@@ -19691,7 +19828,7 @@
    "linkedin_url": "https://www.linkedin.com/company/biolumen",
    "team": "Paolo Costa",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,500,000",
    "date": "IndieBio 09",
    "verticals": "Consumer Bio; Microbiome; Nutrition & Wellness",
    "programs": [
@@ -19710,18 +19847,37 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Private investment (round type not stated; cumulative)",
+     "amount": 5500000,
+     "currency": "USD",
+     "date": "2023-04",
+     "investors": [
+      "undisclosed private investors"
+     ],
+     "source_url": "https://agfundernews.com/future-food-tech-biolumen-reduces-glycemic-impact-of-processed-foods"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_source_urls": [
+    "https://biolumen.tech/",
+    "https://www.pepsico.com/newsroom/press-releases/2021/pepsico-selects-10-emerging-innovators-to-grow-the-next-generation-of-wellness-technologies-services-and-ingredients",
+    "https://agfundernews.com/future-food-tech-biolumen-reduces-glycemic-impact-of-processed-foods"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain biolumen.tech (BioLumen, Monch Monch structured fiber; IndieBio 09; PepsiCo Greenhouse 2021). AgFunderNews (Apr 2023): has raised $5.5M from undisclosed private investors; round types not stated.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Private investment (round type not stated; cumulative)",
+   "last_round_amount": 5500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-04",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "undisclosed private investors"
+   ]
   },
   {
    "name": "BioAesthetics",
@@ -19826,7 +19982,7 @@
    "linkedin_url": "https://www.linkedin.com/company/biggo",
    "team": "Tyson Chen, Kevin Yen",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,000,000",
    "date": "SOSV Orbit Startups - MOX 03",
    "verticals": "E-Commerce; Media",
    "programs": [
@@ -19846,20 +20002,41 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A (first close)",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2019-11",
+     "investors": [
+      "SOSV",
+      "Uni-President Group",
+      "Kyber Capital"
+     ],
+     "source_url": "https://www.jumpstartmag.com/biggo-product-search-engine-raises-us5m-series-a-from-sosv-uni-president-and-kyber-capital/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://funmula.com/"
+    "https://funmula.com/",
+    "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=c09ff5dc-01da-4cf8-83fc-6f930e3c3e59",
+    "https://www.jumpstartmag.com/biggo-product-search-engine-raises-us5m-series-a-from-sosv-uni-president-and-kyber-capital/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain funmula.com / biggo.com (BigGo product search engine, Funmula Co., Taipei; MOX 03). US$5M Series A first close Nov 2019 with SOSV, Uni-President and Kyber Capital (Jumpstart, MoneyDJ).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A (first close)",
+   "last_round_amount": 5000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2019-11",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "SOSV",
+    "Uni-President Group",
+    "Kyber Capital"
+   ]
   },
   {
    "name": "Betagged",
@@ -19910,7 +20087,7 @@
    "linkedin_url": "https://www.linkedin.com/company/assembletobegreat",
    "team": "Avrell Stokes, Cortez Bryant, Cortney Woodruff",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$450,000",
    "date": "SOSV Orbit Startups - Chinaccelerator 10",
    "verticals": "Education & EdTech; Media",
    "programs": [
@@ -19930,18 +20107,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 450000,
+     "currency": "USD",
+     "date": "2021-02",
+     "investors": [
+      "Stand Together Ventures Lab (lead)",
+      "Arlan Hamilton",
+      "SOSV",
+      "Tiffany Haddish",
+      "Law Roach",
+      "Mack Maine"
+     ],
+     "source_url": "https://afrotech.com/online-education-platform-begreattv-closes-450k-seed-investment-lands-tiffany-haddish-as-investor"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://techcrunch.com/2021/02/05/begreattv-to-offer-masterclass-like-courses-taught-by-black-and-brown-innovators/",
+    "https://stventureslab.com/insights/press-releases/stand-together-ventures-lab-announces-investment-in-begreattv",
+    "https://afrotech.com/online-education-platform-begreattv-closes-450k-seed-investment-lands-tiffany-haddish-as-investor"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain be-great.tv (BeGreatTV, later Assemble; courses by Black and brown innovators; Chinaccelerator 10). $450K seed investment closed Feb 2021, led by Stand Together Ventures Lab with Arlan Hamilton, SOSV and celebrity angels. Caveat: largely angel-backed, counted as seed because publicly reported as a seed round.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 450000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 450000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-02",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Stand Together Ventures Lab (lead)",
+    "Arlan Hamilton",
+    "SOSV",
+    "Tiffany Haddish",
+    "Law Roach",
+    "Mack Maine"
+   ]
   },
   {
    "name": "Beeflow",
@@ -20063,8 +20269,8 @@
     "https://sg.news.yahoo.com/malaysia-beam-raises-funding-sosv-artesian-expand-china-091734908.html",
     "https://shopbeam.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain beamstart.com. No publicly reported equity round or grant. BEAMSTART (Singapore startup community/news platform that itself launched a US$10M early-stage fund in 2020); no round raised by the company found. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -20225,7 +20431,7 @@
    "linkedin_url": "https://www.linkedin.com/company/avidbots-corp",
    "team": "Faizan Sheikh, Pablo Molina, Ken Anderson",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$107,000,000",
    "date": "HAX 04",
    "verticals": "AI & Machine Learning; Hard Tech; Robotics",
    "programs": [
@@ -20244,18 +20450,79 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series B",
+     "amount": 23600000,
+     "currency": "USD",
+     "date": "2019-03-21",
+     "investors": [
+      "True Ventures (lead)",
+      "Next47",
+      "BDC Capital",
+      "KCPL",
+      "Real Ventures",
+      "GGV Capital",
+      "SOSV",
+      "500 Startups Canada"
+     ],
+     "source_url": "https://betakit.com/avidbots-raises-31-5-million-cad-series-b-for-floor-cleaning-robots/"
+    },
+    {
+     "stage": "Series C",
+     "amount": 70000000,
+     "currency": "USD",
+     "date": "2022-09-27",
+     "investors": [
+      "Jeneration Capital (lead)",
+      "True Ventures",
+      "Next47",
+      "SOSV",
+      "GGV Capital",
+      "BDC Capital",
+      "Golden Ventures",
+      "Kensington Capital Partners",
+      "BMO Capital Partners",
+      "Golden Vision Capital",
+      "Nicola Wealth"
+     ],
+     "source_url": "https://betakit.com/avidbots-closes-70-million-usd-series-c-round-to-grow-fleet-of-commercial-cleaning-robots/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding",
-   "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://avidbots.com/news/avidbots-news-avidbots-raises-23-6m-in-series-b-funding",
+    "https://avidbots.com/news/avidbots-raises-70m-in-series-c-funding",
+    "https://betakit.com/avidbots-raises-31-5-million-cad-series-b-for-floor-cleaning-robots/",
+    "https://betakit.com/avidbots-closes-70-million-usd-series-c-round-to-grow-fleet-of-commercial-cleaning-robots/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain avidbots.com (Kitchener ON, Neo autonomous floor scrubbers; HAX 04). Series B US$23.6M (C$31.5M) Mar 21, 2019 led by True Ventures (total VC then $47M); Series C US$70M Sep 27, 2022 led by Jeneration Capital (no secondary/debt); total funding to date $107M per BetaKit/company. Earlier 2017 True Ventures round not itemised.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 93600000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series C",
+   "last_round_amount": 70000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-09-27",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "True Ventures (lead)",
+    "Next47",
+    "BDC Capital",
+    "KCPL",
+    "Real Ventures",
+    "GGV Capital",
+    "SOSV",
+    "500 Startups Canada",
+    "Jeneration Capital (lead)",
+    "True Ventures",
+    "Golden Ventures",
+    "Kensington Capital Partners",
+    "BMO Capital Partners",
+    "Golden Vision Capital",
+    "Nicola Wealth"
+   ]
   },
   {
    "name": "Atmosoar",
@@ -20286,8 +20553,8 @@
    "funding_source_urls": [
     "https://atmosoar.io/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain atmosoar.io. No publicly reported equity round or grant. Atmosoar (UAV weather/flight-safety software; Chinaccelerator 09). 2016 accelerator check appears only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -20450,10 +20717,11 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://www.vistancenetworks.com/"
+    "https://www.vistancenetworks.com/",
+    "https://www.nytimes.com/1996/04/23/business/company-news-cascade-communications-plans-to-buy-arris-networks.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Arris Networks Inc. (1990s networking/access equipment company; input domain arris.com belongs to unrelated ARRIS/CommScope). Listed in Sean O'Sullivan's SOSV portfolio. No publicly reported venture round found; acquired by Cascade Communications (announced Apr 23, 1996, NYT). Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -20531,20 +20799,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed (token round: 10M API3 tokens sold to funds)",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2020-11-12",
+     "investors": [
+      "Placeholder (lead)",
+      "Pantera Capital",
+      "Accomplice",
+      "CoinFund",
+      "Digital Currency Group",
+      "Hashed"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20201112005673/en/API3-Raises-%243M-to-Solve-the-Blockchain-API-Connectivity-Problem"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://api3.org/"
+    "https://api3.org/",
+    "https://medium.com/api3/api3-closes-seed-round-with-six-major-funds-67677b82ed8b",
+    "https://medium.com/api3/the-api3-public-token-distribution-event-has-ended-644e984f50fc",
+    "https://www.businesswire.com/news/home/20201112005673/en/API3-Raises-%243M-to-Solve-the-Blockchain-API-Connectivity-Problem"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain api3.org (API3 DAO, first-party blockchain oracles; SOSV dlab 02). Nov 12, 2020: $3M 'seed' led by Placeholder, structured as a sale of 10M API3 tokens (2-year vesting); public token distribution (~$23M USDC) went to the DAO treasury. Token sales are not equity, so amount_raised left blank and status unclear-round-type.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
    "last_round_type": null,
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "Placeholder (lead)",
+    "Pantera Capital",
+    "Accomplice",
+    "CoinFund",
+    "Digital Currency Group",
+    "Hashed"
+   ]
   },
   {
    "name": "AnimalBiome",
@@ -20552,8 +20847,8 @@
    "website": "http://animalbiome.com",
    "linkedin_url": "https://www.linkedin.com/company/15232747",
    "team": "Holly H. Ganz, PhD",
-   "round": "",
-   "amount_raised": "",
+   "round": "Series A",
+   "amount_raised": "$24,130,944",
    "date": "IndieBio 04",
    "verticals": "Consumer Bio; Industrial Bio; Microbiome; Nutrition & Wellness",
    "programs": [
@@ -20573,21 +20868,60 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 8600000,
+     "currency": "USD",
+     "date": "2021-08-04",
+     "investors": [
+      "Cargill (lead)",
+      "SOSV (IndieBio)",
+      "Moai Capital",
+      "Digitalis Ventures",
+      "Michelson Found Animal Foundation",
+      "R/GA Ventures"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/animalbiome-closes-8-6-million-series-a-investment-round-positioning-the-pet-microbiome-innovator-to-create-novel-microbial-cocktails-for-companion-animals-301347830.html"
+    },
+    {
+     "stage": "SEC Form D equity offering (round type not stated)",
+     "amount": 15530944,
+     "currency": "USD",
+     "date": "2024-09",
+     "investors": [
+      "dsm-firmenich Venturing (reported)"
+     ],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1868043/000186804324000001/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://www.animalbiome.com/",
-    "https://www.amazon.com/stores/AnimalBiome/page/D1DF58F2-A1D8-4844-ADC8-1D6596E96AD1"
+    "https://www.amazon.com/stores/AnimalBiome/page/D1DF58F2-A1D8-4844-ADC8-1D6596E96AD1",
+    "https://www.petfoodprocessing.net/articles/14945-animalbiome-earns-investment-from-cargill",
+    "https://www.prnewswire.com/news-releases/animalbiome-closes-8-6-million-series-a-investment-round-positioning-the-pet-microbiome-innovator-to-create-novel-microbial-cocktails-for-companion-animals-301347830.html",
+    "https://www.sec.gov/Archives/edgar/data/1868043/000186804324000001/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain animalbiome.com (Animal Microbiome Analytics, Inc., Oakland CA; pet microbiome tests/supplements; IndieBio 04). $8.6M Series A led by Cargill closed Aug 4, 2021 (company release). SEC Form D filed Sep 10, 2024 by Animal Microbiome Analytics, Inc. for $15,530,944 (dsm-firmenich Venturing reported as investor). amount_raised = sum of these two.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 24130944,
+   "total_raised_currency": "USD",
+   "last_round_type": "SEC Form D equity offering (round type not stated)",
+   "last_round_amount": 15530944,
+   "last_round_currency": "USD",
+   "last_round_date": "2024-09",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Cargill (lead)",
+    "SOSV (IndieBio)",
+    "Moai Capital",
+    "Digitalis Ventures",
+    "Michelson Found Animal Foundation",
+    "R/GA Ventures",
+    "dsm-firmenich Venturing (reported)"
+   ]
   },
   {
    "name": "AngelList",
@@ -20675,8 +21009,8 @@
    "funding_source_urls": [
     "https://ampyourgood.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain ampyourgood.com. No publicly reported equity round or grant. Amp Your Good (crowd-feeding food drives; Food-X 02). Food-X/SOSV accelerator check and convertible note only on aggregators; a Kiva Zip loan campaign (debt) is not equity. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21078,7 +21412,7 @@
    "linkedin_url": "https://www.linkedin.com/company/aja-labs",
    "team": "Suna Lumeh, Osahon Ojeaga",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$2,500,000",
    "date": "IndieBio SF 11",
    "verticals": "Climate Tech; Consumer Bio; Nutrition & Wellness; Women's Health",
    "programs": [
@@ -21098,18 +21432,53 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 2500000,
+     "currency": "USD",
+     "date": "2022-12-01",
+     "investors": [
+      "Impact America Fund (co-lead)",
+      "Better Ventures (co-lead)",
+      "SOSV IndieBio (co-lead)",
+      "Diishan Imira",
+      "Overlap Holdings",
+      "Joshua Mailman Foundation",
+      "Making of Black Angels",
+      "Commune Angels",
+      "Debut Capital"
+     ],
+     "source_url": "https://www.finsmes.com/2022/12/aja-labs-raises-2-5m-in-seed-funding.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.prnewswire.com/news-releases/black-owned-fiber-and-material-science-firm-aja-labs-raises-2-5mm-ahead-of-launching-patent-pending-hair-extensions-made-from-plants-301690747.html",
+    "https://www.beautyindependent.com/powered-2-5m-seed-funding-plant-based-hair-extensions-brand-nourie-launch/",
+    "https://www.finsmes.com/2022/12/aja-labs-raises-2-5m-in-seed-funding.html"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain ajalabs.co (Aja Labs, Raleigh NC; plant-based hair fiber brand Nourie; IndieBio SF 11). $2.5M seed co-led by Impact America Fund, Better Ventures and SOSV's IndieBio, announced Dec 1, 2022.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 2500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-12-01",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Impact America Fund (co-lead)",
+    "Better Ventures (co-lead)",
+    "SOSV IndieBio (co-lead)",
+    "Diishan Imira",
+    "Overlap Holdings",
+    "Joshua Mailman Foundation",
+    "Making of Black Angels",
+    "Commune Angels",
+    "Debut Capital"
+   ]
   },
   {
    "name": "AiSight",
@@ -21160,7 +21529,7 @@
    "linkedin_url": "https://www.linkedin.com/company/alora-wave",
    "team": "Luke Young, Rory James Hornby",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$1,400,000",
    "date": "IndieBio 09",
    "verticals": "AgTech; Climate Tech",
    "programs": [
@@ -21180,20 +21549,53 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Investment round (type not stated)",
+     "amount": 1400000,
+     "currency": "USD",
+     "date": "2022-04-07",
+     "investors": [
+      "Toyota Ventures",
+      "Mistletoe"
+     ],
+     "source_url": "https://www.foodnavigator.com/Article/2022/04/07/Ocean-ag-startup-ALORA-unveils-the-most-salt-tolerant-terrestrial-plants-on-the-planet-raises-1.4m/"
+    },
+    {
+     "stage": "Undisclosed round (type not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2026-03-04",
+     "investors": [
+      "Neglected Climate Opportunities Fund (Grantham Environmental Trust) (lead)",
+      "Toyota Ventures"
+     ],
+     "source_url": "https://www.finsmes.com/2026/03/alora-raises-funding.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.alora.world/"
+    "https://www.alora.world/",
+    "https://www.prnewswire.com/news-releases/alora-creates-salt-tolerant-rice-plants-rebrands-to-expand-scope-and-recieves-investment-from-toyota-ventures-and-mistletoe-301520207.html",
+    "https://www.prnewswire.com/news-releases/alora-appoints-adam-helms-as-ceo-secures-funding-from-grantham-environmental-trust-and-toyota-ventures-302701895.html",
+    "https://www.foodnavigator.com/Article/2022/04/07/Ocean-ag-startup-ALORA-unveils-the-most-salt-tolerant-terrestrial-plants-on-the-planet-raises-1.4m/",
+    "https://www.finsmes.com/2026/03/alora-raises-funding.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain alora.world (ALORA, formerly Agrisea; gene-edited salt/heat-tolerant crops; Norwich UK / Ontario; IndieBio 09). US$1.4M raised from investors incl. Toyota Ventures and Mistletoe (FoodNavigator, Apr 7, 2022); undisclosed round led by the Neglected Climate Opportunities Fund with Toyota Ventures (Mar 2026, with CEO Adam Helms appointment). Round types not stated; amount_raised = 2022 figure only.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 1400000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Undisclosed round (type not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2026-03-04",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Toyota Ventures",
+    "Mistletoe",
+    "Neglected Climate Opportunities Fund (Grantham Environmental Trust) (lead)"
+   ]
   },
   {
    "name": "Aeromutable",
@@ -21221,20 +21623,52 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [
-    "https://www.aeromutable.com/"
+   "funding_rounds": [
+    {
+     "stage": "Series Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "True Wealth Ventures"
+     ],
+     "source_url": "https://truewealthvc.com/portfolio-items/aeromutable/"
+    }
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "grants": [
+    {
+     "name": "NSF SBIR Phase I",
+     "amount": 225000,
+     "currency": "USD",
+     "date": "",
+     "source_url": "https://www.sbir.gov/portfolio/1613893"
+    },
+    {
+     "name": "NSF SBIR Phase II",
+     "amount": 1000000,
+     "currency": "USD",
+     "date": "2023-04",
+     "source_url": "https://www.sbir.gov/portfolio/1613893"
+    }
+   ],
+   "funding_source_urls": [
+    "https://www.aeromutable.com/",
+    "https://www.sbir.gov/portfolio/1613893",
+    "https://truewealthvc.com/february-1-2022-twv-fund-i-impact-report-driving-energy-savings-on-the-road/",
+    "https://truewealthvc.com/portfolio-items/aeromutable/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain aeromutable.com (Aeromutable Corp., San Diego; active trailer aerodynamics; HAX). True Wealth Ventures portfolio page confirms participation in its Series Seed round (amount/date not disclosed; TWV first wrote about it Jan-Feb 2022). Company historically funded by federal research grants: NSF SBIR Phase I ($225K) and Phase II (~$1M, 2023) per SBIR.gov.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Series Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "True Wealth Ventures"
+   ]
   },
   {
    "name": "Adore Me",
@@ -21243,7 +21677,7 @@
    "linkedin_url": "https://www.linkedin.com/company/adore-me",
    "team": "Morgan Hermand-Waiche, Sam Waiche, Gary Bravard",
    "round": "Growth",
-   "amount_raised": "",
+   "amount_raised": "$8,500,000",
    "date": "SOSV Portfolio: Cyril Ebersweiler",
    "verticals": "E-Commerce",
    "programs": [
@@ -21262,20 +21696,41 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series B",
+     "amount": 8500000,
+     "currency": "USD",
+     "date": "2013-07-22",
+     "investors": [
+      "Upfront Ventures",
+      "Mousse Partners",
+      "Redhills Ventures"
+     ],
+     "source_url": "https://www.prweb.com/releases/adore_me_raises_8_5_million_in_vc_funding/prweb10950695.htm"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.adoreme.com/"
+    "https://www.adoreme.com/",
+    "https://www.victoriassecretandco.com/static-files/755fabd0-6964-459a-9f02-dc7e280fe43e",
+    "https://www.prweb.com/releases/adore_me_raises_8_5_million_in_vc_funding/prweb10950695.htm"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 4 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Domain adoreme.com (Adore Me, NYC lingerie e-commerce; SOSV/Food-X-era portfolio). $8.5M B round closed Jul 22, 2013 (company release). Acquired by Victoria's Secret & Co. on Nov 1, 2022 for $400M (8-K). Later 2022 growth financing only on aggregators, so not logged; amount_raised = disclosed Series B only.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 8500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series B",
+   "last_round_amount": 8500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2013-07-22",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Upfront Ventures",
+    "Mousse Partners",
+    "Redhills Ventures"
+   ]
   },
   {
    "name": "VegaX",
@@ -21348,9 +21803,12 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://sosv.com/company/supplybetter/",
+    "https://www.crowdfundinsider.com/2014/06/41751-alchemist-accelerators-enterprise-startups-partner-angellist-transmuting-uncommon-startups-gold/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain supplybetter.com (SupplyBetter, SF marketplace matching engineers with contract manufacturers). Only accelerator checks (Alchemist Accelerator, 2013; SOSV, 2014) are public; no priced round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21473,9 +21931,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://pushme.co/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain pushme.co. No publicly reported equity round or grant. Pushme (London; swappable-battery charging for e-bikes/scooters; HAX 11). Seed amounts appear only on aggregators. Acquired (acqui-hire) by TIER Mobility in Jan 2020 (TechCrunch, https://techcrunch.com/2020/02/21/tier-series-b-2/). Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21491,7 +21951,7 @@
    "linkedin_url": "https://www.linkedin.com/company/protera-bio",
    "team": "Francia Navarrete, Juan Duarte, Leonardo Álvarez, Rodrigo Infante",
    "round": "Series A",
-   "amount_raised": "",
+   "amount_raised": "$10,000,000",
    "date": "IndieBio 04",
    "verticals": "Climate Tech; Future Food; Industrial Bio; Nutrition & Wellness",
    "programs": [
@@ -21511,20 +21971,42 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2021-07-28",
+     "investors": [
+      "Sofinnova Partners (lead)",
+      "Grupo Bimbo",
+      "ICL Planet Startup Hub"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20210728005200/en/Protera-Announces-Final-Close-of-Its-%2410M-Series-A-Led-by-Sofinnova-Partners"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.proterabio.com/"
+    "https://www.proterabio.com/",
+    "https://www.finsmes.com/2021/07/protera-closes-10m-series-a-funding.html",
+    "https://www.foodnavigator.com/Article/2021/07/30/Protera-prepares-to-bring-diverse-clean-label-sustainable-proteins-to-market-with-10m-series-A-fundraise/",
+    "https://www.businesswire.com/news/home/20210728005200/en/Protera-Announces-Final-Close-of-Its-%2410M-Series-A-Led-by-Sofinnova-Partners"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain proterabio.com (Protera Biosciences; AI-designed functional food proteins; IndieBio). Final close of $10M Series A led by Sofinnova Partners announced Jul 28, 2021.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 10000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 10000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-07-28",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Sofinnova Partners (lead)",
+    "Grupo Bimbo",
+    "ICL Planet Startup Hub"
+   ]
   },
   {
    "name": "PowerHouse Dynamics",
@@ -21532,8 +22014,8 @@
    "website": "http://powerhousedynamics.com",
    "linkedin_url": "https://www.linkedin.com/company/powerhouse-dynamics",
    "team": "Dan Kaplan, Carsten Steenberg, Martin Flusberg",
-   "round": "",
-   "amount_raised": "",
+   "round": "Series B",
+   "amount_raised": "$9,000,000",
    "date": "SOSV Portfolio: Sean O'Sullivan",
    "verticals": "Sustainable Manufacturing",
    "programs": [
@@ -21552,20 +22034,49 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2011-11-01",
+     "investors": [],
+     "source_url": "https://www.wsj.com/articles/DJFVW00020111101e7b1rxwr6"
+    },
+    {
+     "stage": "Series B",
+     "amount": 6000000,
+     "currency": "USD",
+     "date": "2014-05",
+     "investors": [
+      "Point Judith Capital (co-lead)",
+      "Constellation Technology Ventures (co-lead)"
+     ],
+     "source_url": "https://venturebeat.com/business/powerhouse-dynamics-raises-6m-in-series-b-funding"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://powerhousedynamics.com/"
+    "https://powerhousedynamics.com/",
+    "https://www.sec.gov/Archives/edgar/data/1460517/000146051714000001/0001460517-14-000001.txt",
+    "https://www.prnewswire.com/news-releases/university-of-michigan-ross-school-of-business-student-led-social-venture-fund-invests-in-powerhouse-dynamics-255624311.html",
+    "https://www.wsj.com/articles/DJFVW00020111101e7b1rxwr6",
+    "https://venturebeat.com/business/powerhouse-dynamics-raises-6m-in-series-b-funding"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 11 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed+",
+   "funding_notes": "Domain powerhousedynamics.com (PowerHouse Dynamics, Newton MA; SiteSage energy/asset management). $3M Series A (WSJ, Nov 1, 2011) and $6M Series B led by Point Judith Capital and Constellation Technology Ventures (May 2014; SEC Form D shows $6.3M offering, $5.9M sold).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 9000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series B",
+   "last_round_amount": 6000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2014-05",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Point Judith Capital (co-lead)",
+    "Constellation Technology Ventures (co-lead)"
+   ]
   },
   {
    "name": "Skygauge Robotics",
@@ -21644,20 +22155,55 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2022-01",
+     "investors": [
+      "Accion Venture Lab (co-lead)",
+      "SOSV (co-lead)",
+      "Investible",
+      "Khoo Investment",
+      "Seedstars",
+      "Vulpes",
+      "Brightness Capital",
+      "Astor",
+      "BANSEA",
+      "Antler"
+     ],
+     "source_url": "https://www.accion.org/news/myrobin-id-workforce-as-a-service-marketplace-announces-close-of-pre-series-a-led-by-accion-venture-lab-sosv/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://myrobin.id/"
+    "https://myrobin.id/",
+    "https://e27.co/funding-roundup-staffany-raises-us3-4m-myrobin-id-closes-pre-series-a-20220120/",
+    "https://www.bansea.org/post/sosv-antler-join-pre-series-a-funding-of-workforce-marketplace",
+    "https://www.accion.org/news/myrobin-id-workforce-as-a-service-marketplace-announces-close-of-pre-series-a-led-by-accion-venture-lab-sosv/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain myrobin.id (MyRobin.ID, Indonesian blue-collar workforce-as-a-service marketplace; MOX). Undisclosed pre-Series A led by Accion Venture Lab and SOSV, announced Jan 2022.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-Series A",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2022-01",
+   "notable_investors": [
+    "Accion Venture Lab (co-lead)",
+    "SOSV (co-lead)",
+    "Investible",
+    "Khoo Investment",
+    "Seedstars",
+    "Vulpes",
+    "Brightness Capital",
+    "Astor",
+    "BANSEA",
+    "Antler"
+   ]
   },
   {
    "name": "M5Stack",
@@ -21665,7 +22211,7 @@
    "website": "http://www.m5stack.com/",
    "linkedin_url": "https://www.linkedin.com/company/m5stack",
    "team": "Lai Jingming",
-   "round": "",
+   "round": "Pre-A",
    "amount_raised": "",
    "date": "HAX China 01",
    "verticals": "Consumer Devices; Hard Tech",
@@ -21686,20 +22232,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-A",
+     "amount": null,
+     "currency": "USD",
+     "date": "2019-01",
+     "investors": [
+      "Cloud Angel",
+      "SOSV"
+     ],
+     "source_url": "https://m.36kr.com/p/1724576251905"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://m5stack.com/"
+    "https://m5stack.com/",
+    "https://pitchhub.36kr.com/project/2316565683325193",
+    "https://m.36kr.com/p/1724576251905"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain m5stack.com (M5Stack / Mingzhan Information, Shenzhen modular IoT dev kits; HAX). 36Kr reports an undisclosed Pre-A round (Jan 2019) from Cloud Angel and SOSV. Espressif Systems took a controlling stake in 2024 (value undisclosed).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-A",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2019-01",
+   "notable_investors": [
+    "Cloud Angel",
+    "SOSV"
+   ]
   },
   {
    "name": "Ocheng",
@@ -21727,9 +22291,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://ocheng.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain ocheng.com. No publicly reported equity round or grant. OCheng (Shanghai social CRM; Chinaccelerator). Only SOSV/Chinaccelerator seed check and aggregator-listed 2018 round; no primary source. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21809,18 +22375,36 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed (accelerator)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2020-02",
+     "investors": [
+      "SOSV (MOX)"
+     ],
+     "source_url": "https://hybrid.co.id/post/moodah-kembangkan-aplikasi-catatan-keuangan-targetkan-ukm-yang-terdampak-pandemi/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://sosv.com/company/moodah/",
+    "https://kr-asia.com/meet-the-ten-startups-in-moxs-eighth-cohort",
+    "https://hybrid.co.id/post/moodah-kembangkan-aplikasi-catatan-keuangan-targetkan-ukm-yang-terdampak-pandemi/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain moodah.id (PT Solusi Moodah Indonesia, SME bookkeeping app; MOX 8). Only SOSV/MOX pre-seed accelerator funding (Feb 2020, undisclosed) is public.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-seed (accelerator)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2020-02",
+   "notable_investors": [
+    "SOSV (MOX)"
+   ]
   },
   {
    "name": "Kountermove",
@@ -21850,9 +22434,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://kountermove.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain kountermove.com. No publicly reported equity round or grant. Kountermove (fantasy combat sports). Only an undisclosed SOSV seed check on aggregators; reportedly acquired by DraftKings in Feb 2016 (aggregator-only, terms undisclosed). Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21909,7 +22495,7 @@
    "linkedin_url": "https://www.linkedin.com/company/unicorn-biotechnologies",
    "team": "Adam Glen, Jack Reid",
    "round": "Series A",
-   "amount_raised": "",
+   "amount_raised": "$3,200,000",
    "date": "HAX 2021",
    "verticals": "Alt Protein; Climate Tech; Hard Tech; Robotics; Therapeutics",
    "programs": [
@@ -21930,20 +22516,48 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3200000,
+     "currency": "USD",
+     "date": "2022-04-21",
+     "investors": [
+      "Acequia Capital (lead)",
+      "SOSV",
+      "Marinya Capital",
+      "Alumni Ventures",
+      "C3",
+      "CULT Food Science"
+     ],
+     "source_url": "https://techcrunch.com/2022/04/21/unicorn-bio-is-building-the-hardware-to-scale-cultivated-meat-from-lab-to-table/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.unicornb.io/"
+    "https://www.unicornb.io/",
+    "https://hax.co/unicorn-bio-to-build-modular-automated-bioreactors-for-cultivated-meat-sector/",
+    "https://nordic9.com/news/unicorn-bio-raised-32-million-seed-round-led-by-acequia-joined-by-sosv-marinya-capital-alumni-ventures-c3-and-cult-food-science/",
+    "https://techcrunch.com/2022/04/21/unicorn-bio-is-building-the-hardware-to-scale-cultivated-meat-from-lab-to-table/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain unicornb.io (Unicorn Biotechnologies, London; modular bioreactors for cultivated meat; HAX). $3.2M seed led by Acequia Capital announced Apr 21, 2022 (TechCrunch).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 3200000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 3200000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-04-21",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Acequia Capital (lead)",
+    "SOSV",
+    "Marinya Capital",
+    "Alumni Ventures",
+    "C3",
+    "CULT Food Science"
+   ]
   },
   {
    "name": "Heartland Brothers",
@@ -21974,9 +22588,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://heartlandbrothers.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain heartlandbrothers.com. No publicly reported equity round or grant. Heartland Brothers (US farm meats to Chinese consumers; Chinaccelerator). Only an undisclosed SOSV/Chinaccelerator seed check (2017) on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -21992,7 +22608,7 @@
    "linkedin_url": "https://www.linkedin.com/company/2085168",
    "team": "Ben Liao, Paul Wu",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,000,000",
    "date": "SOSV Portfolio: William Bao Bean",
    "verticals": "SaaS",
    "programs": [
@@ -22009,18 +22625,41 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Venture round (type not stated)",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2012-06",
+     "investors": [
+      "SingTel Innov8",
+      "Mitsui & Co.",
+      "MediaTek (existing)"
+     ],
+     "source_url": "https://www.finsmes.com/2012/06/cayman-based-general-mobile-corporation-raises-5m-funding.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.medianama.com/2012/06/223-mobile-app-solutions-provider-general-mobile-raises-5m-from-innov8-mitsui/",
+    "https://www.mobileworldlive.com/singtel/g-mobi-picks-up-us5m-funding/",
+    "https://www.finsmes.com/2012/06/cayman-based-general-mobile-corporation-raises-5m-funding.html"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain generalmobi.com (General Mobile Corporation / Gmobi, Cayman-registered, Taipei/Shanghai; mobile internet/app-store platform for emerging markets; Chinaccelerator). $5M from SingTel Innov8 and Mitsui & Co. with existing investor MediaTek (Jun 2012); round type not stated.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Venture round (type not stated)",
+   "last_round_amount": 5000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2012-06",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "SingTel Innov8",
+    "Mitsui & Co.",
+    "MediaTek (existing)"
+   ]
   },
   {
    "name": "GloCoach",
@@ -22095,8 +22734,8 @@
    "funding_source_urls": [
     "https://forwardrobotics.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain forwardrobotics.com. No publicly reported equity round or grant. Forward Robotics Inc. (Kitchener ON; VTOL crop-spray drones; HAX). Only government grants/accelerator support reported, on aggregators; no priced round found. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -22175,9 +22814,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://efanswer.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain efanswer.com. No publicly reported equity round or grant. eFanswer (celebrity-biography crowdwriting; Chinaccelerator 11). Small SOSV/Chinaccelerator and angel checks appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -22315,18 +22956,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Venture funding as Kibits (type/amount not stated)",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "GV (Google Ventures)",
+      "Charles River Ventures",
+      "General Catalyst"
+     ],
+     "source_url": "https://venturebeat.com/entrepreneur/cisco-acquires-collaborate-com-to-show-its-hip-to-the-byod-trend/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://venturebeat.com/entrepreneur/cisco-acquires-collaborate-com-to-show-its-hip-to-the-byod-trend/"
+   ],
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Domain collaborate.com (Collaborate.com, Boston; mobile document sharing/tasks; pivoted from group-messaging app Kibits, founded 2011). VentureBeat says Kibits was backed by Google Ventures, Charles River Ventures, General Catalyst and others; round type/amount not disclosed in primary sources. Acquired by Cisco Dec 17, 2013 (terms undisclosed).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Venture funding as Kibits (type/amount not stated)",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "GV (Google Ventures)",
+    "Charles River Ventures",
+    "General Catalyst"
+   ]
   },
   {
    "name": "Hurdle",
@@ -22490,10 +23151,12 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [
-    "https://decorworld.com.tw/"
+    "https://decorworld.com.tw/",
+    "https://techcrunch.com/2013/06/24/appfuel-launch/",
+    "https://www.prweb.com/releases/tune_unifies_mobile_measurement_products_into_one_tune_marketing_console/prweb12820878.htm"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain appfuel.me (Appfuel, mobile app cross-promotion; Chinaccelerator, Boost.vc). TechCrunch (Jun 24, 2013): raised a 'six-figure' amount from advisors, grants and accelerators (Chinaccelerator, Boost.vc). Technology later folded into TUNE's Marketing Console (2015).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -22574,8 +23237,8 @@
    "funding_source_urls": [
     "https://angelvestgroup.com/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain angelvestgroup.com. No publicly reported equity round or grant. AngelVest Group is a Shanghai-based angel investor group (an investor, not a venture-backed startup); no fundraising of its own beyond its 2012-vintage AngelVest Fund. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -22611,20 +23274,38 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Accelerator investment",
+     "amount": 250000,
+     "currency": "USD",
+     "date": "2015",
+     "investors": [
+      "IndieBio (SOSV)"
+     ],
+     "source_url": "https://medium.com/indiebio-sf/indiebio-funds-15-new-biotechs-in-sf-4aeba04a46e5"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://amino.bio/"
+    "https://amino.bio/",
+    "https://indiebio.co/company/amino-labs/",
+    "https://amino.bio/pages/about-us",
+    "https://medium.com/indiebio-sf/indiebio-funds-15-new-biotechs-in-sf-4aeba04a46e5"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain amino.bio (Amino Labs, Toronto; genetic-engineering education kits; IndieBio 2015). Only IndieBio's accelerator investment (up to $250K, 2015) plus a crowdfunding campaign are public; no priced round.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 250000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Accelerator investment",
+   "last_round_amount": 250000,
+   "last_round_currency": "USD",
+   "last_round_date": "2015",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "IndieBio (SOSV)"
+   ]
   },
   {
    "name": "Alternative Plants",
@@ -22675,8 +23356,8 @@
    "website": "https://jumpbikes.com/",
    "linkedin_url": "https://www.linkedin.com/company/jumpbikes",
    "team": "Nick Foley, Marcin Pyla, Justin Wiley, Ryan Rzepecki",
-   "round": "",
-   "amount_raised": "",
+   "round": "Series A",
+   "amount_raised": "$10,000,000",
    "date": "SOSV Portfolio: Sean O'Sullivan",
    "verticals": "Industrial IoT; Transportation Tech",
    "programs": [
@@ -22695,20 +23376,47 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2018-01-16",
+     "investors": [
+      "Menlo Ventures (lead)",
+      "Sinewave Ventures",
+      "Esther Dyson",
+      "SOSV",
+      "OurCrowd"
+     ],
+     "source_url": "https://techcrunch.com/2018/01/16/social-bicycles-raises-10-million-series-a-round-rebrands-as-jump-bikes/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://jumpbikes.com/"
+    "https://jumpbikes.com/",
+    "https://venturebeat.com/business/jump-bikes-locks-in-10-million-for-bike-sharing-launches-dockless-stations-in-san-francisco",
+    "https://www.finsmes.com/2018/01/jump-bikes-raises-10m-in-funding.html",
+    "https://techcrunch.com/2018/04/03/jump-bikes-weighing-uber-acquisition-investment-offers/",
+    "https://techcrunch.com/2018/01/16/social-bicycles-raises-10-million-series-a-round-rebrands-as-jump-bikes/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain jumpbikes.com (JUMP Bikes, formerly Social Bicycles, NYC/SF dockless e-bike share; HAX). $10M Series A led by Menlo Ventures announced Jan 16, 2018 with the rebrand; acquired by Uber in Apr 2018.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 10000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 10000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2018-01-16",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Menlo Ventures (lead)",
+    "Sinewave Ventures",
+    "Esther Dyson",
+    "SOSV",
+    "OurCrowd"
+   ]
   },
   {
    "name": "Protonintel",
@@ -22946,9 +23654,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://zio-health.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain zio-health.com. No publicly reported equity round or grant. ZiO Health (London; point-of-care diagnostics). Convertible note and Innovate UK grant reported only on aggregators/social posts; no primary source for a priced round. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
@@ -23024,20 +23734,35 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Series A",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "July Ventures"
+     ],
+     "source_url": "https://www.julyventures.com/investments/confirmu"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://confirmu.com/"
+    "https://confirmu.com/",
+    "https://www.julyventures.com/investments/confirmu"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain confirmu.com (ConfirmU, Singapore/Bangalore; gamified psychometric credit scoring). July Ventures' portfolio page lists its investment at Pre-Series A stage; amounts/dates only on aggregators.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-Series A",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "July Ventures"
+   ]
   },
   {
    "name": "Lipa Later",
@@ -23066,18 +23791,46 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Series A (equity and debt)",
+     "amount": 12000000,
+     "currency": "USD",
+     "date": "2022-01-13",
+     "investors": [
+      "Cauris Finance (co-lead)",
+      "Lateral Frontiers VC (co-lead)",
+      "GreenHouse Capital (co-lead)",
+      "SOSV IV LLC",
+      "Sayani Investments",
+      "Axian Financial Services"
+     ],
+     "source_url": "https://techcrunch.com/2022/01/13/kenyan-bnpl-startup-lipa-later-eyes-more-african-markets-after-raising-12-million/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://disruptafrica.com/2023/09/29/kenyan-fintech-startup-lipa-later-raises-3-4m-debt-funding-targets-more/",
+    "https://techtrendske.co.ke/2023/09/27/lipa-later-closes-5m-debt-raise-targets-to-raise-an-additional-20m/",
+    "https://techcrunch.com/2022/01/13/kenyan-bnpl-startup-lipa-later-eyes-more-african-markets-after-raising-12-million/"
+   ],
+   "funding_status": "seed+",
+   "funding_notes": "Domain lipalater.com (Lipa Later, Nairobi BNPL; MOX). $12M pre-Series A equity+debt round led by Cauris Finance, Lateral Frontiers VC and GreenHouse Capital (TechCrunch, Jan 13, 2022; equity/debt split not disclosed, so amount_raised left blank); earlier undisclosed 2020 investment by Uncovered Fund. Sep 2023 KES 500M privately placed debt issue (debt, not equity).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
    "last_round_type": null,
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "Cauris Finance (co-lead)",
+    "Lateral Frontiers VC (co-lead)",
+    "GreenHouse Capital (co-lead)",
+    "SOSV IV LLC",
+    "Sayani Investments",
+    "Axian Financial Services"
+   ]
   },
   {
    "name": "Zeemo.ai",
@@ -23111,8 +23864,8 @@
    "funding_source_urls": [
     "https://zeemo.ai/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Domain zeemo.ai. No publicly reported equity round or grant. Zeemo.ai (AI video captioning tools). Seed rounds (2021-2022, reportedly led by Artesian VC) appear only on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -23169,7 +23922,7 @@
    "linkedin_url": "https://www.linkedin.com/company/imotorbike",
    "team": "Manuel Pedro, Gil Carmo",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$10,000,000",
    "date": "SOSV Orbit Startups - MOX 12",
    "verticals": "E-Commerce; Marketplaces",
    "programs": [
@@ -23188,20 +23941,48 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2025-01-22",
+     "investors": [
+      "Headline (lead)",
+      "Ondine",
+      "500 Global",
+      "Gobi Partners",
+      "Astor Management",
+      "Endeavor Catalyst"
+     ],
+     "source_url": "https://news.imotorbike.com/en/2025/01/imotorbike-raises-10m-in-series-a-funding-to-expand-in-southeast-asia/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://imotorbike.com/my/en/"
+    "https://imotorbike.com/my/en/",
+    "https://technode.global/2025/01/22/malaysias-imotorbike-completes-series-a-funding-with-10m-to-drive-regional-growth/",
+    "https://vulcanpost.com/879615/imotorbike-malaysia-used-motorcycles-series-a-funding/",
+    "https://news.imotorbike.com/en/2025/01/imotorbike-raises-10m-in-series-a-funding-to-expand-in-southeast-asia/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain imotorbike.com (iMotorbike, Kuala Lumpur used-motorcycle marketplace; MOX). US$10M Series A led by Headline, announced Jan 22, 2025 (company newsroom, TNGlobal).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 10000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 10000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-01-22",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Headline (lead)",
+    "Ondine",
+    "500 Global",
+    "Gobi Partners",
+    "Astor Management",
+    "Endeavor Catalyst"
+   ]
   },
   {
    "name": "Pricepally",
@@ -23309,7 +24090,7 @@
    "linkedin_url": "https://www.linkedin.com/company/mowito",
    "team": "Puru Rastogi",
    "round": "Pre-Seed",
-   "amount_raised": "",
+   "amount_raised": "$3,000,000",
    "date": "HAX 2021",
    "verticals": "Hard Tech; Robotics",
    "programs": [
@@ -23330,7 +24111,22 @@
    "batch_date_precision": "year",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-seed",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2026-07-07",
+     "investors": [
+      "Version One Ventures (lead)",
+      "All In Capital",
+      "Unisol",
+      "iSeed",
+      "angels"
+     ],
+     "source_url": "https://www.business-standard.com/companies/news/physical-ai-startup-mowito-raises-3-million-to-scale-industrial-robots-126070700624_1.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://www.mowito.ai/",
@@ -23340,17 +24136,28 @@
     "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOW1HYkloZklEQWpSU3FXaUhlX1U2eG9rRDRDZFU0TC12dzU2bzhjTGpIV3gySTI4MmZ5bXZpMzJ3VG9kZUJ5ZV8xSEhCNlhXaHZENHZvaE42ME5JX2VPbEN1NEktUHJuQjR4d3lSdllrejlxM3VDeVRfU3dLODJuejB2aHU3TUFFZ1EzRG1nTmktOFNjcFVLMDRkRkZxUDRBd3pfSXVhdlJrMGpCanhEazR3MXktNWl6VnJrb3NPY3VMWGoxUTdTLXgwUGRBdWV2Q19jak9PcGpXeFBUUTl4UmtfUGxVNG54eS1jOXA4NkwtQdIB9wFBVV95cUxNYnRnek85dzNPbi03aFF6UzgyaTFpdWRlMWpIVENkRkNEbndNcVhaTHMtTkZaOUhkRWxrVG9QT3dZQUpRRGFPX19jcTJ5NmF4LUxNOFV6MnowZ3ZPckhETkcwV2ItRk1ST002ZzVQZDVoTFk4WnR5WFdfYUgxS0Fjd2htZ0RTdlNGR245ZERsS1JLUXV4MlNaeTZ0enNhSEdfcUxpZmpEcGdCWWxhdkQtTkNTSEhJQ3M5dUZLS2dwVkg0RzRmMDN6Y2NWV3l4QXdJVHNId0REYkZJcXR3cXlETld1RklVZG9LY083bWFZeWExVWlRcDFZ?oc=5",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUFRzakJVMENILWdKUEw0QlZpV29SNElVUUlGTWIxOFVoVWxWNG84MXF4WWtQSU1EZHhCWUNlNUphRkthOEpFODRrSl96NUhjUEdiU3ZiNTdpSnRmNUlRWDlrNXNGWEtadWFzZ210a0hIbXI5NUJXX2MybUtfNEFWcWpJWjZ4OFFH?oc=5",
     "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTnJaYklsN1ptTTZ1TG9Cbll2THFSdExXbmNtZkpydFlLcEdqdGlveVZXX2xWUlRLRWkwNnVBejZZVjRWeU11dG9STnUxMEF4YmhCTUo4RWt1eHo2Sm9MZVR1dk5JWTNOeTRtZnYzdjY0bk9rMEFSbnFUWXU1QWo0TTRpT3Rob19PdVNWb2YzazZqTHhxOUtyLWs5SEs4Z3FJbzI4TmFMRENpc2ZOZnRtdURpRzRyRVNyRWt6UVhhQW85ZVlNU0NzekdJUkhUUk1oZHp4UGNHNlFXVzR1WGptQUFSSHQ1bUdrV3U5VE93?oc=5",
-    "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVN2emNjOVRmNVJLazljOUNhdzFodEstMTMtZTA5Y2dEeU1zdkk5aDcxVmctaEk4OUxCQjZmN3ZOdjNvejVYX3J0QkNJN2FfMndjMGVlbWpES3dJQ0p0U0cyRHZmWVFORkI5dWZwb0RESW9IMFg3NE1RWHZHSUwzVWZoOUxMdXlMZFQwcFpmRUE4YUxCRXFnLU56R1dkeUhwMFZiYmdoYzRYeHFkS3NjVGdYcHZBaFZxdE1aNFZjaUhIQUZPb2dR0gHHAUFVX3lxTFAxU3Z6Y2M5VGY1UktrOWM5Q2F3MWh0Sy0xMy1lMDljZ0R5TXN2STloNzFWZy1oSTg5TEJCNmY3dk52M296NVhfcnRCQ0k3YV8yd2MwZWVtakRLd0lDSnRTRzJEdmZZUU5GQjl1ZnBvRERJb0gwWDc0TVFYdkdJTDNVZmg5TEx1eUxkVDBwWmZFQThhTEJFcWctTnpHV2R5SHAwVmJiZ2hjNFh4cWRLc2NUZ1hwdkFoVnF0TVo0VmNpSEhBRk9vZ1E?oc=5"
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVN2emNjOVRmNVJLazljOUNhdzFodEstMTMtZTA5Y2dEeU1zdkk5aDcxVmctaEk4OUxCQjZmN3ZOdjNvejVYX3J0QkNJN2FfMndjMGVlbWpES3dJQ0p0U0cyRHZmWVFORkI5dWZwb0RESW9IMFg3NE1RWHZHSUwzVWZoOUxMdXlMZFQwcFpmRUE4YUxCRXFnLU56R1dkeUhwMFZiYmdoYzRYeHFkS3NjVGdYcHZBaFZxdE1aNFZjaUhIQUZPb2dR0gHHAUFVX3lxTFAxU3Z6Y2M5VGY1UktrOWM5Q2F3MWh0Sy0xMy1lMDljZ0R5TXN2STloNzFWZy1oSTg5TEJCNmY3dk52M296NVhfcnRCQ0k3YV8yd2MwZWVtakRLd0lDSnRTRzJEdmZZUU5GQjl1ZnBvRERJb0gwWDc0TVFYdkdJTDNVZmg5TEx1eUxkVDBwWmZFQThhTEJFcWctTnpHV2R5SHAwVmJiZ2hjNFh4cWRLc2NUZ1hwdkFoVnF0TVo0VmNpSEhBRk9vZ1E?oc=5",
+    "https://versionone.vc/announcing-our-investment-in-mowito-physical-ai-for-robot-arms-in-manufacturing/",
+    "https://entrackr.com/snippets/physical-ai-startup-mowito-raises-3-mn-led-by-version-one-ventures-12141325",
+    "https://www.business-standard.com/companies/news/physical-ai-startup-mowito-raises-3-million-to-scale-industrial-robots-126070700624_1.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Domain mowito.in (Mowito, Bengaluru/Detroit physical-AI robotics; HAX). $3M pre-seed led by Version One Ventures (Jul 2026). Pre-seed only, so not counted as priced seed.",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 3000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Pre-seed",
+   "last_round_amount": 3000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-07-07",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Version One Ventures (lead)",
+    "All In Capital",
+    "Unisol",
+    "iSeed",
+    "angels"
+   ]
   },
   {
    "name": "IPOR Labs",
@@ -23359,7 +24166,7 @@
    "linkedin_url": "https://www.linkedin.com/company/ipor-labs",
    "team": "Lukasz Muzyka, Darren Camas",
    "round": "Seed",
-   "amount_raised": "",
+   "amount_raised": "$5,550,000",
    "date": "SOSV Orbit Startups - Chinaccelerator 13",
    "verticals": "Blockchain; Fintech",
    "programs": [
@@ -23379,20 +24186,37 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 5550000,
+     "currency": "USD",
+     "date": "2022-04-20",
+     "investors": [
+      "Arrington Capital (lead)"
+     ],
+     "source_url": "https://blog.ipor.io/announcing-5-55m-in-funding-for-the-ipor-protocol-109470d9e5a2"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://ipor.io/"
+    "https://ipor.io/",
+    "https://www.thepaper.cn/newsDetail_forward_17742418",
+    "https://blog.ipor.io/announcing-5-55m-in-funding-for-the-ipor-protocol-109470d9e5a2"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain ipor.io (IPOR Labs, DeFi interest-rate benchmark and derivatives; SOSV dlab). $5.55M seed round led by Arrington Capital announced Apr 20, 2022 (IPOR blog).",
    "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5550000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 5550000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-04-20",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Arrington Capital (lead)"
+   ]
   },
   {
    "name": "Goama",
@@ -23525,20 +24349,51 @@
    "batch_date_precision": "",
    "location": "",
    "most_recent_batch": false,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series B (two tranches)",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021-12",
+     "investors": [
+      "FG Venture (lead)",
+      "Xicheng Jinrui (lead)"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/accelerate-large-scale-development-of-mobile-robot-youibot-has-completed-b-series-round-of-financing-exceeding-rmb-300-million-301450652.html"
+    },
+    {
+     "stage": "Series C",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024-06",
+     "investors": [
+      "Hefei Dongcheng Industry Investment (lead)"
+     ],
+     "source_url": "https://www.dealstreetasia.com/stories/youibot-series-c-400222"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
-    "https://en.youibot.com/"
+    "https://en.youibot.com/",
+    "https://technode.com/2021/12/29/softbank-backed-industrial-robot-maker-youibot-raises-47-million/",
+    "https://www.iotworld.com.cn/html/News/202406/900ff90dfd0f2bdb.shtml",
+    "https://www.prnewswire.com/news-releases/accelerate-large-scale-development-of-mobile-robot-youibot-has-completed-b-series-round-of-financing-exceeding-rmb-300-million-301450652.html",
+    "https://www.dealstreetasia.com/stories/youibot-series-c-400222"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed+",
+   "funding_notes": "Domain youibot.com (YouiBot / Youaizhihe, Shenzhen autonomous mobile robots; HAX). Series B rounds totaling over RMB 300M (~$47M) led by FG Venture and Xicheng Jinrui (Dec 2021); Series C led by Hefei Dongcheng Industry Investment (Jun 2024, amount undisclosed). amount_raised left blank (B amount is an 'over RMB 300M' figure).",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Series C",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2024-06",
+   "notable_investors": [
+    "FG Venture (lead)",
+    "Xicheng Jinrui (lead)",
+    "Hefei Dongcheng Industry Investment (lead)"
+   ]
   },
   {
    "name": "Mushroom Cups",
@@ -23611,9 +24466,11 @@
    "most_recent_batch": false,
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://mychirp.com/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Domain mychirp.com. No publicly reported equity round or grant. Chirp (radar/thermal ambient sensing for seniors; HAX). Only HAX/SOSV accelerator investment reported, on aggregators. Web search found only aggregator profiles (Crunchbase/PitchBook/Tracxn/Dealroom/CB Insights etc.), which are not used as sources; no press release, news report or company announcement of a round found.",
    "funding_checked": "2026-10-21",
    "total_raised": null,
    "total_raised_currency": null,
