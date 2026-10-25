@@ -455,6 +455,7 @@ _ALT_NAMES: dict[str, tuple[str, ...]] = {
     "blackfinchventures":     ('Blackfinch',),
     "goldhouseventures":     ('Gold House',),
     "whitecapventurepartners":     ('Whitecap',),
+    "runventures":     ('Signal Peak Ventures',),
     "electric":     ('Electric Capital Management',),
     "weekend":     ('Weekend.fund',),
     "griffin":     ('Griffin Gaming',),
