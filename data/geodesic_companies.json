@@ -1107,10 +1107,12 @@
         "stage": "Series C",
         "amount": 75000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2026-02-02",
         "investors": [],
         "source_url": "https://www.nasdaq.com/press-release/fieldguide-raises-75m-series-c-goldman-sachs-help-audit-and-advisory-firms-grow",
-        "history_new": true
+        "history_new": true,
+        "date_source_url": "https://www.nasdaq.com/press-release/fieldguide-raises-75m-series-c-goldman-sachs-help-audit-and-advisory-firms-grow",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -1127,14 +1129,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
-    "funding_checked": "2026-10-21",
-    "last_round_type": "Series B",
-    "last_round_amount": 30000000.0,
+    "funding_checked": "2026-10-24",
+    "last_round_type": "Series C",
+    "last_round_amount": 75000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2024-03-26",
+    "last_round_date": "2026-02-02",
     "total_raised": 122000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Figma",
@@ -3613,7 +3616,18 @@
     "primary_investor": "Geodesic Capital",
     "source_url": "https://geodesiccap.com/portfolio/",
     "scraped_at": "2026-10-16T22:34:21.078314+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 305000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.together.ai/blog/announcing-our-series-c",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.reuters.com/legal/transactional/together-ai-raises-800-million-83-billion-valuation-2026-07-01/",
@@ -3623,17 +3637,27 @@
       "https://www.datacenterdynamics.com/en/news/together-ai-seeks-1bn-in-funding-report/",
       "https://recentfunding.com/companies/together-ai/",
       "https://www.nytimes.com/2026/07/01/business/dealbook/together-ai-funding.html",
-      "https://valueaddvc.com/pulse/company/together"
+      "https://valueaddvc.com/pulse/company/together",
+      "https://www.together.ai/",
+      "https://www.together.ai/blog/announcing-our-series-c",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2FDQXdtMjduaGlBRWV1ZksxRDdWWk1kT2s5cHY2OS0xSkkwU2VCbjdHQXdsZGZqWTlYdXE0ZUE1anZLWFpQLXhmYjFZaS1RcmpGTWw4WnlSeVZfUEVDMVpQNE5qdXFfc1pVNGs5UmI2WUFSNG1hRnJUeUhLN0dBZEprcm5Bbkl5RGhjMVhvN0hPYXFSdEIzaWx1dGl6N2lTbVRtLUdLOFhMUnc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdlhfRXRfNzJlRmk5a1dfN1FVbTdMWUFmM0pHLUxxOGNmT0sxU21NNlhLck1hQW0yY1hQT0ZqQ1otN0hMekx3V2dVTEFhNS1JclFMSTlGWjJwQ19TWEJGLXlIT0JjeWppSGtTTzctN1R1ai11TlJJS0FMc3FiMFdZM3lQUm1GaU1qOFY2czVjSC1RcUsxT3c2YkFn?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xR0dUZ1MySThTcy1VNGIxbmdhbWdMMGVSU3JUNllEbHdLLWdQV3VVQ3I2eXlIT3pNSHNybExDQld2VW9CMW1ab2xhT091ZlBPUmtLaG15TnF0WUg5Q25BVElyMHVvdkxpa1dkem1NRE5QSVZFM3k3RkxPSEs?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3pNeE82YlRqQ2JQbUd3andBenJvcExTdS1qMENHVVNKeW1ralFpc2pzUFltcUU4QVZjel8yVlNKbVRSMGNBN3JSOWJQQkVkM2pEYmk4NjB0UnNFTjh0V3R6MVI1SDhPa3lVSnB4TmhCbHVlVElQcWI5QkFoNXRwS3pQUVM3Rk9WYU91dERWbkVFU0hTSmc?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc19mTVJOcVAxbjFxWXZHMVpmcjJ2YVhCZ1BlTzI4SFNUMVE0WmZ6Rmk5amR5RXhDZ1NxbUNDNmJJSG9SS0FjNy15dmtXczZYbzRRb0ZROEw0SGo3T3ozMXdCb2xDcm5IVFV6ZlNfcExhR0tERHpodllaMENVb1hvRGpMVlFlUThzSVhXV0pudVJPSzJCaHVDci1CU1pySzZiakU5Yk1ZUzBCWm5KZVV5RTRUcEM4OE9EQUZRYWM0UU1YSHFhdk9udw?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWU5uUVZwb054Y3gtUnhsS0R2NXhGcG9lRnJjWmYwYkZYS2hHYk5yS2tQLVFiU25RRExjRXZueWJpeXpNVFNNbnFJb0RJSmx1Z3g5dFNMYkZxRXpNSWdxMHpOcFpzbTVtaVh2TF9OSE93STBDa1Z1MlJ2YjJzY1QwenRvNVNuRXNwa1BmRFZaSTk4SUlIY2FObEFZbDBTVDloN1J2SklubllIRENpQkwwQ2EwWXpOUzg1THVVY0hn?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 305000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 305000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Traceable",

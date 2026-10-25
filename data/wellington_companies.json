@@ -51,13 +51,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Acrivon",
@@ -509,14 +510,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 146000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series C",
     "last_round_amount": 91000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-11-02",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Anchorage Financial",
@@ -1859,13 +1861,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Centessa",
@@ -3109,14 +3112,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 393464040,
     "total_raised_currency": "USD",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 103399723.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-12-08",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Faire",
@@ -4746,18 +4750,71 @@
     "primary_investor": "Wellington Management",
     "source_url": "https://www.wellington.com/en/capabilities/private-investing/our-investments",
     "scraped_at": "2026-10-13T13:33:51.685675+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1095000.0,
+        "currency": "USD",
+        "date": "2018-08-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1757419/000175741918000001/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 4043858.0,
+        "currency": "USD",
+        "date": "2019-10-29",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1757419/000175741919000002/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Series A",
+        "amount": 12000000.0,
+        "currency": "USD",
+        "date": "2022-06-07",
+        "investors": [],
+        "source_url": "https://techcrunch.com/2022/06/07/kinside-helps-parents-find-and-afford-quality-pre-screened-childcare/",
+        "date_basis": "url",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 3000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://pulse2.com/kinside-3-million-funding/",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_source_urls": [
+      "https://daycare.urbansitter.com/",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV0VEU3Y4ZDFVUWY0a3NGOHBGdE05N1l5NVlDZ1ZEd0k0RjY0WUFhZnFCaW5vS25UbHJmQjd4MDlZbXFUb0dCMzdyOVRrNmFSTEJTZm9ZZmloTzBQS1JFX3A4MWhKb3hscHoxb0U2QUZIN1BaeDlWeGRFQktWT0xYUHZoQzh6NUlNWGh3bjBLRTctZjhOZXEtNjRHNUtkTjN0WWpPQ1pn?oc=5",
+      "https://techcrunch.com/2022/06/07/kinside-helps-parents-find-and-afford-quality-pre-screened-childcare/",
+      "https://pulse2.com/kinside-3-million-funding/",
+      "https://www.sec.gov/Archives/edgar/data/1757419/000175741918000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1757419/000175741919000002/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 20138858,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-06-07",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "klarna",
@@ -4822,14 +4879,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 800000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-07-11",
     "total_raised": 2910000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Korsana Biosciences",
@@ -4854,13 +4912,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "KYC Hospitality",

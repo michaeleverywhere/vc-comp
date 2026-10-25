@@ -622,13 +622,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Arca",
@@ -996,13 +997,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Bend Financial (Acquired)",
@@ -1567,14 +1569,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 207000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-01-26",
     "total_raised": 207000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Bolt",
@@ -3917,9 +3920,11 @@
         "stage": "Series A",
         "amount": 16000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2025-06-11",
         "investors": [],
-        "source_url": "https://www.farsight-ai.com/news/series-a-announcement"
+        "source_url": "https://www.farsight-ai.com/news/series-a-announcement",
+        "date_source_url": "https://finance.yahoo.com/news/farsight-raises-16m-funding-announces-130000328.html",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -3929,14 +3934,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 2 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 16000000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
+    "last_round_date": "2025-06-11",
     "total_raised": 16000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Fi",
@@ -4836,13 +4842,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "HuffPost (Acquired)",
@@ -5325,6 +5332,17 @@
     "site_status": "Active",
     "funding_rounds": [
       {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2020-01-24",
+        "investors": [],
+        "source_url": "https://kindbody.com/press-article/kindbody-raises-15m-series-a-to-reinvent-modern-womens-health-care/",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
         "stage": "Series B",
         "amount": 32000000.0,
         "currency": "USD",
@@ -5332,6 +5350,17 @@
         "investors": [],
         "source_url": "https://www.builtinnyc.com/articles/kindbody-raises-32m-hiring",
         "date_basis": "snippet"
+      },
+      {
+        "stage": "Series C",
+        "amount": 62000000.0,
+        "currency": "USD",
+        "date": "2021-06-25",
+        "investors": [],
+        "source_url": "https://kindbody.com/press-article/kindbody-announces-largest-fertility-raise-in-history-with-62m-series-c-funding/",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
       },
       {
         "stage": "Undisclosed round type",
@@ -5352,18 +5381,26 @@
       "https://vcnewsdaily.com/kindbody/venture-capital-funding/dtntwlrqcs",
       "https://finance.yahoo.com/news/fertility-startup-kindbody-set-cut-190402778.html",
       "https://www.fertilitybridge.com/news-articles/kindbody-100m-debt-investment-perceptive-advisors",
-      "https://www.mobihealthnews.com/news/fertility-company-kindbody-raises-25m-morgan-health"
+      "https://www.mobihealthnews.com/news/fertility-company-kindbody-raises-25m-morgan-health",
+      "https://kindbody.com/",
+      "https://kindbody.com/press-article/gwyneth-paltrow-gabrielle-union-hannah-bronfman-and-other-influential-celebrities-join-kindbody-in-largest-femtech-raise-of-2021/",
+      "https://kindbody.com/our-new-funding-and-reinventing-fertility-healthcare/",
+      "https://kindbody.com/press-article/kindbody-raises-15m-series-a-to-reinvent-modern-womens-health-care/",
+      "https://kindbody.com/press-article/kindbody-announces-largest-fertility-raise-in-history-with-62m-series-c-funding/",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE02c2hNbjlWdDZjOF9PTFZnZVBQbHZhRkhTakVHcFpuYWZPSE9CT0k5NUl6MGlMWUx2T05iTGRfVW95ekFIMG9fd1lGUXRPU05mNy12WWs5c1JMSGRHOTRBMGdhVUhjWkZSRGlCeWJSZnBZTmk2TnY4?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2FpdV8yUmg4OG5SWmhDQW5HSHJXeFU1QXBxTmtvMXltVXpKaFMtZXVNMkQ3MnVDSVA1d2lST1BPb3BKWV9SZHItV0lPdlBvTElpb0ptV3pCbmFCUWJPRHdLeVNiR2kxbVRzLVhyVnlJNURtS2c1RGhOZExxNjlMb0ZyQlpjR0V5RHVwRG5tSFJubFNQR2xNTnl0OGRSNUhyR190UnFzM01ac2gxSTRxc0RB?oc=5"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2023-03-02",
-    "total_raised": 132000000,
+    "total_raised": 209000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Kindo",
@@ -6118,13 +6155,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Metapath (Acquired)",
@@ -6338,13 +6376,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Mobot",
@@ -6653,13 +6692,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Netsertive",
@@ -6806,13 +6846,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "NodeSource",
@@ -10653,7 +10694,18 @@
     "scraped_at": "2026-10-11T21:03:47.908993+00:00",
     "primary_investor": "RRE",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 11000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbV9hUUxkNWZWd3hLTEFiV2JZemR6MHpWXzlyOW80RjY2QUpHYVozZ2IwZ2haMnJueERNWVRua2J5U1VGSVVKRTVZWWROYmRJeTd1UktKUll3anNtam85bXVieklldWpIVUZ5Mmw3QmpFMG5oUFZWVjJLSDJRX3R3REEwX19hMDFHSlJQenJUQmlYbE9NWGIxcQ?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://truemarkets.co/",
@@ -10663,15 +10715,17 @@
       "https://finance.yahoo.com/news/true-markets-raises-11m-series-140000346.html",
       "https://www.coindesk.com/business/2025/05/20/true-markets-raises-11m-in-series-a-launches-mobile-first-defi-trading-app-on-solana"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 11000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 11000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ursa",
@@ -11172,13 +11226,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "WayUp (Acquired)",

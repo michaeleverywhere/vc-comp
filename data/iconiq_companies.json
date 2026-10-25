@@ -980,13 +980,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Benchling",
@@ -2419,13 +2420,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "DeepL",
@@ -3100,14 +3102,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 393464040,
     "total_raised_currency": "USD",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 103399723.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-12-08",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Fastly",
@@ -3672,14 +3675,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-09-28",
     "total_raised": 285000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "GitLab",
@@ -4131,6 +4135,17 @@
         "investors": [],
         "source_url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation/",
         "date_basis": "url"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1800000000.0,
+        "currency": "USD",
+        "date": "2026-07-13",
+        "investors": [],
+        "source_url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/",
+        "date_basis": "url",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
       }
     ],
     "grants": [],
@@ -4143,18 +4158,22 @@
       "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa2k5SkJUVEI1MnlVZS1fS3NEMUc1encta0c2RjlhTVE4ODBqaU9OVzItZThlYTNkaUF6VGNmZloxXzhLWFlHYlpWQmFGdElNREZKcXU3UjgtZDkwS25NREV0Mi1jbm9GVU1hNFZRRmpvUjFiaFVOblNLRWdpdTZxTWhUWGtTLURBNWVKNGpsSG9ESG9j?oc=5",
       "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd2tuSTRsa1RQUjQzRHNVallkcjZJSTM2YjRoM1ktOFhPbUxhY21MS0ZTVzhRb1NMTTBSTml5RmdpMnR2eUZxMzBHUGZtOFU2YVlVMGR1YThiMnBEdGFhWFdmZUJDbEkwdURhd2dmVzdtc2FXLTNJQm91MW9EdmtEa2xaUmJCakVrVDkzX2dxNTlUb3dKQ2RXRGc0N2lWejN0SGJiZGNNbVHSAa4BQVVfeXFMTURxdVpDRnV0LXNSRHZ3VUZtQnhiWEJtQjJ3MElYMU9YUEwxY1JOUlk2OVR1ZUtDbHJuazl3cWpPMGVab3RRR1o0cjQ2bzdrT2ZrZ2hrbVdiV21QWGlURHl0NUlZaDF4RGVpaHZlVlplX016Wl9yWHpPT09xazBuQUVEVTN6c2RfVXo1RGtwVUw5RTdGdGswcllPeWdmZHpoVzg1WU5SRWY1NlVxeDF3?oc=5",
       "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYzlVMEhfTURUOUJEeGJlaXJEcDQ2U2xGTXBCcmdxTWhyalcyZXNqX25mSmY3RFRDSUNpQXVZMW14T1pTYmxsb1FJVmcwNmlSaWoxS1MxcWZCbTI1TGZGd0VSRnRLU1R4N3NzdFU5dVpMaW9rYl85M2tQclA3YTF1QXhzUDk5bFJKQktnbm41bE1XNDcyVm1YNjVBYnFFVVE?oc=5",
-      "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation/"
+      "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation/",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHZ1QVZ4eDJIeTlBU3dMYVF5TlZtU3phMXhxcHI3NVRwc01XeUZkSTY1ZkdOeFNRR1gyRWtrQkhEclhCVkxpZzNCb2l6M0R0LVA1aUZjRm02ZE9aMzNXYXdFTkpfM19UUG1lMzVGZDhnNVJkb3VxSE1mWTBWd0VSSnd4OFJOdk1nMnI4UFdqM2Z6azlrZG5HS3Z1Um82QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXNUNlZmbWNyMzN5WWdlNElTMmtiQUVnbDhvUmdoWVpaXy1fbjVxcGJnd3VNdVlvdEVkYTIzR2FLZHBZbE9EbzhmZW9yNEtIbmVFMUdhMkFGaVdVSmdkLU4tc0tmckphWnRZeFdad21xaTA4b3Q1a3lhNE00YV9WR2dqRFJ6cDVqM3RwRXhBdkJZNGZWQmVkcUZXcUduN0hPMGpISHF3S185QQ?oc=5",
+      "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
     "total_raised": 450000000,
     "total_raised_currency": "EUR",
-    "last_round_type": "Series C",
-    "last_round_amount": 450000000.0,
-    "last_round_currency": "EUR",
-    "last_round_date": "2024-07-11",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1800000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-07-13",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Heptagon Advanced Micro-Optics",

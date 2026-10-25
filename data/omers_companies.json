@@ -2417,14 +2417,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 9000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series A",
     "last_round_amount": 9000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2020-05-04",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "PrimaryBid",
@@ -2879,13 +2880,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Ultimate",
@@ -3030,6 +3032,23 @@
     "scraped_at": "2026-10-10T13:25:40.027334+00:00",
     "funding_rounds": [
       {
+        "stage": "Series B",
+        "amount": 200000000.0,
+        "currency": "USD",
+        "date": "2024-06-18",
+        "lead_investors": [
+          "Uber",
+          "Khosla Ventures"
+        ],
+        "investors": [
+          "Uber",
+          "Khosla Ventures"
+        ],
+        "source_url": "https://waabi.ai/insights/waabi-series-b-announcement",
+        "date_source_url": "https://www.cnbc.com/2024/06/18/uber-khosla-nvidia-invest-in-autonomous-trucking-startup-waabi.html",
+        "date_filled": "2026-10-24"
+      },
+      {
         "stage": "Series C",
         "amount": 1000000000.0,
         "currency": "USD",
@@ -3042,21 +3061,6 @@
         ],
         "source_url": "https://techcrunch.com/2026/01/28/waabi-raises-1b-and-expands-into-robotaxis-with-uber/",
         "date_basis": "url"
-      },
-      {
-        "stage": "Series B",
-        "amount": 200000000.0,
-        "currency": "USD",
-        "date": null,
-        "lead_investors": [
-          "Uber",
-          "Khosla Ventures"
-        ],
-        "investors": [
-          "Uber",
-          "Khosla Ventures"
-        ],
-        "source_url": "https://waabi.ai/insights/waabi-series-b-announcement"
       }
     ],
     "grants": [],
@@ -3072,7 +3076,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 1000000000.0,
     "last_round_currency": "USD",
@@ -3081,9 +3085,10 @@
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
-      "Khosla Ventures",
-      "Uber"
-    ]
+      "Uber",
+      "Khosla Ventures"
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Wattpad",

@@ -69,13 +69,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Atomic",
@@ -166,13 +167,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Blissway",
@@ -191,13 +193,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Brex",
@@ -472,20 +475,35 @@
     "primary_investor": "Open Opportunity Fund",
     "source_url": "https://theopportunityfund.com/companies/",
     "scraped_at": "2026-10-17T22:12:49.654912+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.demandgenreport.com/financial-news/drift-raises-60m-in-funding-to-build-b2b-equivalent-of-amazon/5002/",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.salesloft.com/platform/chat-agents"
+      "https://www.salesloft.com/platform/chat-agents",
+      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMGdpVUdsN3JJTkFCc2xVNjF0NU5HWm1wMHVvYTZJa0JBQXlHaXpYSVQ5UDVGSVdwa2loUTYzUm1BQUhaQlpQOVI4UUhfbGlfVThsemdxWkJOc0t5NERXcXVjb0otTGh5VjBoR0U2LXhIeEdPYXJPc2w5REVUUFVpUHZRUmhoTEd6YXprUU1wVWdrZ2FGUndLZGpoeDI2OUJ6YjZwM0JydjJMR3BBcV9YdWlBbjB0VDNVcGMweThRQm5obGZUajB2a1NvYndqVk5oQzEtRl81dmJ4aTQ2TlJxMlJnejhkcER6QmktVm1FZ1dUZGhhMHppRlJiZ1M?oc=5",
+      "https://www.demandgenreport.com/financial-news/drift-raises-60m-in-funding-to-build-b2b-equivalent-of-amazon/5002/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Eight Sleep",
@@ -1260,13 +1278,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Nestybox",

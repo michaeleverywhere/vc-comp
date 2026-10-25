@@ -479,13 +479,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Bezero Carbon",
@@ -1572,7 +1573,29 @@
     "primary_investor": "Molten Ventures",
     "source_url": "https://www.moltenventures.com/portfolio/all",
     "scraped_at": "2026-10-12T13:41:41.276222+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 6000000.0,
+        "currency": "GBP",
+        "date": "2021-03-15",
+        "investors": [],
+        "source_url": "https://www.siliconrepublic.com/start-ups/focalpoint-6m-improve-gps-signals",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 8000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUGRkd1FUcUtZcElKczRFOUx5cjJvM0RaYnVBejJfTWNQV0RYRFFacEJVSlN5SEQxRGRmazM3WkNDbHhOU1FmbmFQd01KMEFCb1lUT1JSOGtlbm01YVdlNHlyWS1NMDFLUHlWald5RlM5X0xnX0tyTFh5M2M5MDVlRUV3bUt6MkJ5YW00?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://focalpointpositioning.com/",
@@ -1581,15 +1604,16 @@
       "https://www.siliconrepublic.com/start-ups/focalpoint-6m-improve-gps-signals",
       "https://www.telecompaper.com/news/focalpoint-raises-gbp-6-million-in-series-b-funding--1375942"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 6000000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2021-03-15",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Form3",
@@ -3205,13 +3229,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Polymodels",

@@ -1054,7 +1054,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Muon Space (muonspace.com, the domain given in the input), Mountain View, CA; builds LEO satellite constellations and was founded in 2021 (CEO Jonny Dyer). Rounds: $10M seed led by Costanoa (Oct 2021), $25M Series A led by Radical Ventures (Aug 2022), $56.7M Series B led by Activate Capital (Aug 2024), $89.5M Series B1 led by Congruent (Jun 2025; only $44.5M of it is equity, the other $45M is credit facilities and is excluded), and $250M Series C led by Eclipse (Aug 2026). The company says total equity is 'more than $386M', which matches the sum of the sourced equity rounds. Acquired Starlight Engines (propulsion) in 2025.",
-    "funding_checked": "2026-10-20",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 250000000,
     "last_round_currency": "USD",
@@ -1086,7 +1086,8 @@
       "Woven Capital",
       "ACME Capital",
       "Overlap Holdings"
-    ]
+    ],
+    "funding_first_checked": "2026-10-20"
   },
   {
     "company_name": "Resilire",
@@ -3061,14 +3062,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 70000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2023-08-02",
     "total_raised": 163000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Chainguard",
@@ -3715,13 +3717,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Ensemble AI",
@@ -4044,7 +4047,18 @@
     "profile_url": "https://salesforceventures.com/companies/together-ai/",
     "source_url": "https://salesforceventures.com/portfolio/",
     "scraped_at": "2026-10-10T13:37:48.710800+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 305000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.together.ai/blog/announcing-our-series-c",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.reuters.com/legal/transactional/together-ai-raises-800-million-83-billion-valuation-2026-07-01/",
@@ -4054,17 +4068,27 @@
       "https://www.datacenterdynamics.com/en/news/together-ai-seeks-1bn-in-funding-report/",
       "https://recentfunding.com/companies/together-ai/",
       "https://www.nytimes.com/2026/07/01/business/dealbook/together-ai-funding.html",
-      "https://valueaddvc.com/pulse/company/together"
+      "https://valueaddvc.com/pulse/company/together",
+      "https://www.together.ai/",
+      "https://www.together.ai/blog/announcing-our-series-c",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2FDQXdtMjduaGlBRWV1ZksxRDdWWk1kT2s5cHY2OS0xSkkwU2VCbjdHQXdsZGZqWTlYdXE0ZUE1anZLWFpQLXhmYjFZaS1RcmpGTWw4WnlSeVZfUEVDMVpQNE5qdXFfc1pVNGs5UmI2WUFSNG1hRnJUeUhLN0dBZEprcm5Bbkl5RGhjMVhvN0hPYXFSdEIzaWx1dGl6N2lTbVRtLUdLOFhMUnc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdlhfRXRfNzJlRmk5a1dfN1FVbTdMWUFmM0pHLUxxOGNmT0sxU21NNlhLck1hQW0yY1hQT0ZqQ1otN0hMekx3V2dVTEFhNS1JclFMSTlGWjJwQ19TWEJGLXlIT0JjeWppSGtTTzctN1R1ai11TlJJS0FMc3FiMFdZM3lQUm1GaU1qOFY2czVjSC1RcUsxT3c2YkFn?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xR0dUZ1MySThTcy1VNGIxbmdhbWdMMGVSU3JUNllEbHdLLWdQV3VVQ3I2eXlIT3pNSHNybExDQld2VW9CMW1ab2xhT091ZlBPUmtLaG15TnF0WUg5Q25BVElyMHVvdkxpa1dkem1NRE5QSVZFM3k3RkxPSEs?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3pNeE82YlRqQ2JQbUd3andBenJvcExTdS1qMENHVVNKeW1ralFpc2pzUFltcUU4QVZjel8yVlNKbVRSMGNBN3JSOWJQQkVkM2pEYmk4NjB0UnNFTjh0V3R6MVI1SDhPa3lVSnB4TmhCbHVlVElQcWI5QkFoNXRwS3pQUVM3Rk9WYU91dERWbkVFU0hTSmc?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc19mTVJOcVAxbjFxWXZHMVpmcjJ2YVhCZ1BlTzI4SFNUMVE0WmZ6Rmk5amR5RXhDZ1NxbUNDNmJJSG9SS0FjNy15dmtXczZYbzRRb0ZROEw0SGo3T3ozMXdCb2xDcm5IVFV6ZlNfcExhR0tERHpodllaMENVb1hvRGpMVlFlUThzSVhXV0pudVJPSzJCaHVDci1CU1pySzZiakU5Yk1ZUzBCWm5KZVV5RTRUcEM4OE9EQUZRYWM0UU1YSHFhdk9udw?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWU5uUVZwb054Y3gtUnhsS0R2NXhGcG9lRnJjWmYwYkZYS2hHYk5yS2tQLVFiU25RRExjRXZueWJpeXpNVFNNbnFJb0RJSmx1Z3g5dFNMYkZxRXpNSWdxMHpOcFpzbTVtaVh2TF9OSE93STBDa1Z1MlJ2YjJzY1QwenRvNVNuRXNwa1BmRFZaSTk4SUlIY2FObEFZbDBTVDloN1J2SklubllIRENpQkwwQ2EwWXpOUzg1THVVY0hn?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 305000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 305000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Ensemble AI",
@@ -5582,13 +5606,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Sonar Software",
@@ -8185,7 +8210,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Angel",
     "last_round_amount": 1000000.0,
     "last_round_currency": "USD",
@@ -8195,7 +8220,8 @@
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
       "NEA"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Electric AI",
@@ -9770,13 +9796,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Q-CTRL",
@@ -16706,13 +16733,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Cooladata",
@@ -22728,14 +22756,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series G",
     "last_round_amount": 312000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-02-08",
     "total_raised": 414000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "GO1",
@@ -22844,13 +22873,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Coffee.ai Inc.",
@@ -26828,14 +26858,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 36000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series A",
     "last_round_amount": 34000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-09-21",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Snoop",
@@ -27891,7 +27922,18 @@
     "profile_url": "https://salesforceventures.com/companies/paper/",
     "source_url": "https://salesforceventures.com/portfolio/",
     "scraped_at": "2026-10-10T13:37:48.710800+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.finsmes.com/2026/07/paper-raises-34m-in-series-a-funding.html",
@@ -27901,17 +27943,25 @@
       "https://www.thesaasnews.com/news/paper-raises-34m-series-a/",
       "https://finance.yahoo.com/technology/ai/articles/paper-raises-34-million-series-130000344.html",
       "https://justainews.com/companies/funding-news/paper-raises-34-million-to-build-design-tools-for-the-ai-coding-era/",
-      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era"
+      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era",
+      "https://paper.co/",
+      "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wcmZEYUJMTmw4QlNrUFhXem54bV9oR2s5MmVQRHdiQ1lQS3JGc0dGWDMtNWYyWWMzUUhMUmpzNTRwTTZGVVhKU0QxQVk4SDFUaEZQNE55M040VVRFb1VONWw5NWZTRFNHSGtndDdzTlhacDhRaGNxRjBJeXNkdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2RKeTBna2FjOXYyVXdKVU5FaFhfcjNvZW45eDJ3WjZnbWVjM29rVkk2UG5jZ0h2ZFlibVZXcWNlMU0xR3hhR0hfc2JZM1VuMjhNZzdlRHdSSmVjLU1TdGpUVDVWMG1UUzVsVllyVW5lVjFwLW45TkRPektNWkJhMHpJSlFlbF9teGVLclRsWFVZTzRlVGs4OThLYy1ucnVxSkpB?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOM09rX1UxTmktbVRpaEhWcTBhM0NUMkMtY0RDaThDekpZcE93d2lCQnRxT0lLSUdnZE1TU1VmTE9XVjUzempUaHBCNEl6QmhBcEFnUTJHeW1aQWliUTJKMGp0a1hpS25EeFI3U2w0djRqdVE0MjV5NmlnWkFJdEtoUnYxU1ZyVXQ0ZjU1M2xwbTVuRzhxYUYwVEVzaDVTdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdUJQck5mQkRYQU1BTkdKQW5YT2dqMnphaTcwOWl5UWtKV3RlUXFXek1zQkZsTEo5dFFOVUJuWVZYaUV1RGlSQnhRVkgyeUhmcm92VWN6QUxXWFRaYjJsamI2OTUzQTc5WnRIajNyN2hKdTlhbENpeW1uWldOSS1raGdFZEtIUFBXUlNOSXZON29QdGlNeU5FUXYtS0tiRE1OMURQQ3VPQXVVb0g4U1g1TEI2QUYtMG84MklLNE5RMmJwVVhObVpFNFpzMnlFbHdONFRBdDVCWVhSTE9UeFc1TUQ4bzhLbU96ZFZ1NFRtUmxqNkk3VHc?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 1600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Overflow",
@@ -28650,7 +28700,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 33000000.0,
     "last_round_currency": "USD",
@@ -28661,7 +28711,8 @@
     "notable_investors": [
       "GGV Capital",
       "Salesforce Ventures"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "ixLayer",
@@ -29010,7 +29061,19 @@
     "profile_url": "https://salesforceventures.com/companies/popmenu/",
     "source_url": "https://salesforceventures.com/portfolio/",
     "scraped_at": "2026-10-10T13:37:48.710800+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 65000000.0,
+        "currency": "USD",
+        "date": "2021-06-11",
+        "investors": [],
+        "source_url": "https://markets.financialcontent.com/prnews.pressrelease/article/bizwire-2021-6-11-popmenu-raises-65m-funding-round-led-by-tiger-global-to-accelerate-ai-powered-digital-solution-for-restaurants",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxQejZTSkk1djhpZVpZLTlsQWNBT3M2ZUFUQXpQOWE0dzJLUXpjRDg5QWJtcGplaGFlNUs0b0NFT3ZVczFRMGFBWjg2cHpKc0FWZGRUcWFuS0lJQlY3UW56TzJXVVFvbnB5TlA4aUgyUldEd3RyaE5ERVhrbEtyU2lkXzJTT3REelRHOHpBSTI0V25uLXdMNDd0ZnloSWFtM3JGZnJGaVpfbV9aWVZ6dnR2WHp0QQ?oc=5",
@@ -29022,15 +29085,17 @@
       "https://www.businesswire.com/news/home/20210611005326/en/CORRECTING-and-REPLACING-Popmenu-Raises-%2465M-Funding-Round-Led-by-Tiger-Global-to-Accelerate-A.I.-Powered-Digital-Solution-for-Restaurants",
       "https://markets.financialcontent.com/prnews.pressrelease/article/bizwire-2021-6-11-popmenu-raises-65m-funding-round-led-by-tiger-global-to-accelerate-ai-powered-digital-solution-for-restaurants"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 65000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 65000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-06-11",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Fountain",
@@ -29912,14 +29977,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 207000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-01-26",
     "total_raised": 207000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Ortto inc.",

@@ -456,14 +456,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 8000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2023-03-31",
     "total_raised": 40843775,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Medisafe",
@@ -636,20 +637,39 @@
     "primary_investor": "7wireVentures",
     "source_url": "https://www.7wireventures.com/portfolio/om1/",
     "scraped_at": "2026-10-14T13:28:38.691114+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 85000000.0,
+        "currency": "USD",
+        "date": "2021-07-16",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/real-world-data--technology-company-om1-closes-85-million-financing-to-make-healthcare-more-measured-precise-and-pre-emptive-301335615.html",
+        "date_basis": "text",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.om1.com/"
+      "https://www.om1.com/",
+      "https://www.mobihealthnews.com/news/health-outcomes-ai-company-om1-lands-21m-series-b-funding",
+      "https://www.mobihealthnews.com/news/om1s-real-world-evidence-analytics-banks-50m-series-c",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/om1-gains-21m-in-new-funding/",
+      "https://www.fiercehealthcare.com/tech/om1-scores-85m-to-build-out-clinical-data-network-ai-analytics-models",
+      "https://www.prnewswire.com/news-releases/real-world-data--technology-company-om1-closes-85-million-financing-to-make-healthcare-more-measured-precise-and-pre-emptive-301335615.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 85000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 85000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2021-07-16",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Override",
@@ -999,14 +1019,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 10000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-01-30",
     "total_raised": 10000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Zerigo Health",

@@ -152,14 +152,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
     "last_round_date": null,
     "total_raised": 100000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Anzu",
@@ -223,13 +224,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "BIGCOMMERCE",
@@ -3137,20 +3139,22 @@
     "scraped_at": "2026-10-17T19:19:52.070933+00:00",
     "funding_rounds": [
       {
+        "stage": "Series C",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": "2025-09-10",
+        "investors": [],
+        "source_url": "https://replit.com/news/funding-announcement-series-c",
+        "date_source_url": "https://finance.yahoo.com/news/replit-closes-250-million-funding-151500665.html",
+        "date_filled": "2026-10-24"
+      },
+      {
         "stage": "Undisclosed round type",
         "amount": 400000000.0,
         "currency": "USD",
         "date": "2026-03-11",
         "investors": [],
         "source_url": "https://replit.com/blog/replit-raises-400-million-dollars"
-      },
-      {
-        "stage": "Series C",
-        "amount": 250000000.0,
-        "currency": "USD",
-        "date": null,
-        "investors": [],
-        "source_url": "https://replit.com/news/funding-announcement-series-c"
       }
     ],
     "grants": [],
@@ -3166,14 +3170,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 400000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-03-11",
     "total_raised": 650000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "RetailNext",
@@ -3388,14 +3393,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 12000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-05-04",
     "total_raised": 27837792,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "shef",
@@ -3438,11 +3444,16 @@
       "https://vcnewsdaily.com/shef/venture-capital-funding/lpydhqycgk",
       "https://www.ordering.co/blog/shef-the-home-cook-revolution-feeding-america/",
       "https://www.prnewswire.com/news-releases/shef-raises-8-8m-to-help-talented-cooks-make-a-meaningful-income-by-selling-homemade-food-to-their-communities-301116038.html",
-      "https://techcrunch.com/2023/03/01/food-marketplace-shef-series-b/"
+      "https://techcrunch.com/2023/03/01/food-marketplace-shef-series-b/",
+      "https://shef.com/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb1RjaWxnVHlPLWZBNFJMTkFVNjJTdjJ2U2xEalk3Yzk4VzZmbmdxbkd2M1ZjRmRtM0tQT0gwdzJZaFZCT1QxbDl0TlR5WFZaQ3lSc0VHX0Y4TmlYY1ViMTQ3UGtHOXhhMnZZWE9mWlVvRk9FVVczMEl3Ny1xNlI4TktZVGR1YkN1VF9xWlpmT3NnbXpmSmIwbW1pR0drQXZMQ19jVVI5d1I4SktHNkdDODU4aG5ReXN4bmFuMkxnRnZ4SmFnMm5SOXFsYTlWZThtbnUyZWRITQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcHlGZ0ZhWnpUNEVReUppanBqc1E5ZjRFbHpBQWhkNktTZnlqT0lnQ2JfTUlnT0V0QWhpN3ZNUzZTaVFiRFRvV243N2NZaXdTQVlER1BYQmpEMXN5ai1NcS1uX1JMal9mN3BQMjh0ZlJPeGJZRzJ6UE1WbW5IWjlmejhFelBFd0p6U1ZIUWNn?oc=5",
+      "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZVI1TUpLdE9uNXNNdWxqSlp5a1NvR1M5NmpxcnFvYTRVTFhjYndlQ1l0d3FBTEtrMHZQSXB5U0RHUUgyU1kzVThFMjdVa3pTTkMxVE0wNTNPTHFkOHRjc0RkM0RrN3ZyY2dKemVlampZRXVPWnp1TTdLQjY1X01JZGYxcldfY0ZkQm1ZczVrVldKWEY4M0ltdUVYOTdBcndLSm5ydUprTjVKb1NhZmRDWVpWcDdhZERMdWdqNHJJLVN2UFZVVmppcktzQWZIek9LWVRjbEJJQ0JBcmxvamR3SnZaNlh3VmgxNTREQnhSUnhxaHZwc1E1bDVn?oc=5",
+      "https://www.prnewswire.com/news-releases/shef-raises-20m-series-a-round-to-create-more-opportunities-for-talented-cooks-to-make-a-meaningful-income-from-home-301304354.html"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 20000000.0,
     "last_round_currency": "USD",
@@ -3453,7 +3464,8 @@
     "notable_investors": [
       "Y Combinator",
       "Craft Ventures"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "SHOPRUNNER",

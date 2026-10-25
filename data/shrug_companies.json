@@ -318,13 +318,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Avalanche Energy",
@@ -2047,14 +2048,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 10000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2020-09-28",
     "total_raised": 10000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "AdQuick",
@@ -2670,14 +2672,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 38000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-04-09",
     "total_raised": 38000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Sandbox VR",
@@ -3155,24 +3158,55 @@
     "primary_investor": "Shrug Capital",
     "source_url": "https://www.shrug.vc/portfolio",
     "scraped_at": "2026-10-13T13:33:08.997072+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": "2021-05-11",
+        "investors": [],
+        "source_url": "https://www.memorahealth.com/news/memora-health-closes-10-5m-financing-led-by-andreessen-horowitz-to-modernize-care-delivery",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-02-15",
+        "investors": [],
+        "source_url": "https://www.memorahealth.com/news/health-care-communications-startup-raises-40m-to-streamline-complex-patient-care",
+        "date_basis": "rss",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://f4.fund/startups/memorahealth",
       "https://startupintros.com/orgs/memora-health",
       "https://www.bizjournals.com/sanfrancisco/inno/stories/fundings/2023/04/18/memora-health-30m-funding-round-patient-care.html",
       "https://medhealthoutlook.com/memora-raises-40-million-in-series-b-plans-to-transform-care-delivery-experience/",
-      "https://www.axios.com/pro/health-tech-deals/2023/04/18/exclusive-memora-inputs-30m-for-care-automation"
+      "https://www.axios.com/pro/health-tech-deals/2023/04/18/exclusive-memora-inputs-30m-for-care-automation",
+      "https://www.memorahealth.com/",
+      "https://www.memorahealth.com/news/health-care-communications-startup-raises-40m-to-streamline-complex-patient-care",
+      "https://www.memorahealth.com/news/memora-health-announces-40m-financing-to-scale-platform-for-simplifying-complex-care-delivery",
+      "https://www.memorahealth.com/news/memora-health-closes-10-5m-financing-led-by-andreessen-horowitz-to-modernize-care-delivery",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnlnTFh3NWtEenlXd1U5bmdsZ0FNMi15RG11eTBraTcycmpZYVBQbEMyTHl5WTd4RDQ1d0U5b19LU2dDVk9vVGRVMllXZ3lobnl3ZGFTWDh0OG1GTk8wZ1poZHU4cXl3ZnhBUlgtX25jLWctenBTRnZ2ZG9NbThmbTU2Z3NKV0VLUFZ2TWdqX3hLMExURXRzUmVQZHdTdll0aGc?oc=5",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxNM0VhQldJdERyZWstcU1TaEEwVm5vWDFjOVRmd2p6Uzh0RE5mOTFSM29fYzlVaXZOOXJfS3FIc0FHYnlWT2p5R2QzalhIeDFHbEllV25DNEFibWF6djVYSlJmRU14N3lhbHBlQkM4WXdqR3BSUTd2SnlreGE2bHNQc2VIT0gwMEJpRDR2LTZIRDFOWkROVDBaSVhuZFFOajg4Y193SHF2T3VhMHh2UWlLM2JfeWtjLTdpOUdPM2FzLUVhZF9ta2NTVG1ycW8zWGlsVk1VaEszZVkwaW54MzBLR2RXWUwtLUktSUhKbjZxWHQ2VDdGQWJvZl9GVTloZU1aOUE?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 50500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-15",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Overtime",

@@ -37,13 +37,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Articheck",
@@ -427,7 +428,29 @@
     "primary_investor": "Walking Ventures",
     "source_url": "https://walking.vc/",
     "scraped_at": "2026-10-20T20:20:29.792432+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 7200000.0,
+        "currency": "GBP",
+        "date": "2017-03-14",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRlVBTWNDaDNRX3BPZXdrV3pCMWFCSW1vUURCZ0szc2FnMFg1MXE5ZUx1VjBqcFlNaVJ2cGM4WnpVYlQxRzBNaVMxM3JfMlRiVFd3VWVuUDdENXVVZ21LNmdNbFdnZTN3am5uUmdzazN3QXIwQ01sb0tzLUtmRXNfamlJbklHRncwc0RISkp2czc5bHlfS29NODhpLUE5MVpIZmpRdlotb1VTMWVndzdNZkotemZlVHd5d3F1Zw?oc=5",
+        "date_basis": "rss",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 27000000.0,
+        "currency": "GBP",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaFZ6dDU2b0VFbXNvcTBuNGwyd1BiRkJVcW9jOC1fUDl1Y05oR3psclcwV1B1Qm5tVldfNTVCVndzWHFJdnVXYlg2SU9kdUZMM1BoZlJ5MUN1OHlrR1FIb3RPaW40MFhvYU1lZFpNZ2lZREYzUHdlb0E3OHlQVWQySU10VzF6STgtOTR1UDFMUGF6ZFE5RXN4R1FXa2NlOGgwY0d0WW1yQXY0VTlKMHdGUWFHVHRyTUtXakN0Uw?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.goodlord.com/",
@@ -439,15 +462,17 @@
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM2RwLXE2MDgzVFVyX2tEUmE4eDdjWWVtQ3NWOEhqSDU2aUtmMlNJeXVlQVNHc090TXllc3ZWVHlhdXo3LUE5WnprYmQwN2RLNG12ZjdBbkVxUnNSZTJrMG44WmF3VXB6SE0wMFJRRS1IeFhxMkxXZnJmTnAxNzgwMGFvT1RWbHVTZl9FRGp5OHNQNEnSAaMBQVVfeXFMT3FIU0dhdGVOb2lxN0ZaaXh2enNkQzEzbGM2TnVyWFRlbzUzR1VyTzlITWZpRmVqY3BkNTc1WjhZVVMzTnI0YmZQZzZzOW1yN3FlQmV2RF9EX2syTDhCbTBhTDItRjdzbFBlX2ZUUmRzTTZPdWZYVzJwczZCV05kMVRGV3F0TnVHdlFOSnRZc3hYNXhJSi14NFBoNlNSNTdLby1NMA?oc=5",
       "https://www.cityam.com/paypal-renting-proptech-startup-goodlord-just-landed/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 34200000,
+    "total_raised_currency": "GBP",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 7200000.0,
+    "last_round_currency": "GBP",
+    "last_round_date": "2017-03-14",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hands HQ",

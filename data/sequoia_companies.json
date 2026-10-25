@@ -730,14 +730,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 146000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series C",
     "last_round_amount": 91000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-11-02",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Amplitude",
@@ -1882,7 +1883,7 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 31000000,
     "total_raised_currency": "USD",
     "last_round_type": "Undisclosed round type",
@@ -1892,7 +1893,8 @@
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
       "Sequoia"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Barracuda",
@@ -2778,13 +2780,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "BridgeBio",
@@ -2969,13 +2972,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "CafePress",
@@ -4466,6 +4470,17 @@
           "Wing Venture Capital"
         ],
         "source_url": "https://www.cohesity.com/newsroom/press/cohesity-announces-250-million-in-series-e-funding/"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 150000000.0,
+        "currency": "USD",
+        "date": "2024-04-11",
+        "investors": [],
+        "source_url": "https://siliconangle.com/2024/04/11/cohesity-completes-late-stage-funding-ibm-nvidia-expands-ibm-partnership/",
+        "date_basis": "url",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
       }
     ],
     "grants": [],
@@ -4477,16 +4492,25 @@
       "https://www.sdxcentral.com/news/cohesity-lifts-250m-funding-round-buffs-up-25b-valuation/",
       "https://www.cohesity.com/newsroom/press/cohesity-announces-250-million-in-series-e-funding/",
       "https://www.texau.com/profiles/cohesity",
-      "https://startupintros.com/orgs/cohesity"
+      "https://startupintros.com/orgs/cohesity",
+      "https://www.cohesity.com/",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1pfY2JYWmZXVzg3bDdjQmk2S1VtSkZKamhQNmJBRWlFQlAxTXZ6UXZEbVZzMXNkMUxZdm50ZGp5Tm9va25QN1pNWW9rWm04ZkpMb1VxbnpBSkhYUkt2eUQzNnBKckw5ZGRUVGNDRWZOTG12a1d2TGNtYlhfdVpCNUg4YkI2R3J3bF96Mm1Zb08zYldFekdnU0xaOFV4amw3?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUkNEZU5UcXRFVHhtUlMxTUhqUzFZN1dCMEVYTDYyQjkwMU5FcXFXUllfeGIzTzJLMm5nYV9HOUZxVG5sdWR2S1dWQU8zTV93dnluRjkyeS1CRVBsa243by1WWGRSMU9BeGs2elB6YkZsUnVOUHd5dmZ6QjBNNnV4Q1NUTlBnNkFwZ2lMand0U201RkFTYnduYzhsRFJ2UVlzMTNqdkdadDBvWG4zeWc?oc=5",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NblU3cHdJRXl0T1Npc1J1TmdvcFFHNjdITzJqRlVsZ3Z4SVZsQ0pZWEk2MHh1ZlJ6MnNxb1lqN1RqdVc5MzZLOW9Ja2pZQ3g5N1FfYk1CUTRoTTRfVGxIN0RZZVlzR2hnMUZsSGRjamlHVjlJWklIU09jUWdTZXM?oc=5",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE02TGpadHBZeFd5VnFiZEZVbE9POGpsQ1A1RldIZ0s4eEU2dTA3T050VjVuOW92NFVGUF9CQ2JLTkpPNlZJRElCd2tnVDVPQUhrbGc4YmQ1eXJaUzNGWVJhb3puYU95bm12SnhwakNBNkJqb3PSAXhBVV95cUxNMWFiNVkxZlM5YUJZemtYTnY4aUdBUzZuMlctYkwwU0NjeU5NeVcwdk1VWV9qNjZwbnZRTHhya2I0N0RCT2ZJSUNQUGZxVG1ZTFNqQXVQTE5SS3NCNGtNYmpSWXA0bWoxTmhDTjUxcDVrZzFSQS1GMzU?oc=5",
+      "https://pulse2.com/cohesity-250-million-funding-and-2-5-billion-valuation/",
+      "https://pulse2.com/cohesity-raises-strategic-funding-from-nvidia/",
+      "https://www.crn.com/news/storage/300104856/cohesity-closes-massive-250m-funding-round-with-investments-from-softbank-hpe-cisco",
+      "https://siliconangle.com/2024/04/11/cohesity-completes-late-stage-funding-ibm-nvidia-expands-ibm-partnership/"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "last_round_type": "Series E",
-    "last_round_amount": 250000000.0,
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 150000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2020-04-09",
-    "total_raised": 590000000,
+    "last_round_date": "2024-04-11",
+    "total_raised": 740000000,
     "total_raised_currency": "USD",
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
@@ -4494,7 +4518,8 @@
       "Foundation Capital",
       "Greenspring Associates",
       "Wing Venture Capital"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Commons",
@@ -4541,13 +4566,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Commure",
@@ -5617,13 +5643,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Decart",
@@ -6291,20 +6318,35 @@
     "source_url": "https://www.sequoiacap.com/companies/drift",
     "scraped_at": "2026-10-15T21:21:42.527391+00:00",
     "primary_investor": "Sequoia Capital",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series C",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.demandgenreport.com/financial-news/drift-raises-60m-in-funding-to-build-b2b-equivalent-of-amazon/5002/",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.salesloft.com/platform/chat-agents"
+      "https://www.salesloft.com/platform/chat-agents",
+      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMGdpVUdsN3JJTkFCc2xVNjF0NU5HWm1wMHVvYTZJa0JBQXlHaXpYSVQ5UDVGSVdwa2loUTYzUm1BQUhaQlpQOVI4UUhfbGlfVThsemdxWkJOc0t5NERXcXVjb0otTGh5VjBoR0U2LXhIeEdPYXJPc2w5REVUUFVpUHZRUmhoTEd6YXprUU1wVWdrZ2FGUndLZGpoeDI2OUJ6YjZwM0JydjJMR3BBcV9YdWlBbjB0VDNVcGMweThRQm5obGZUajB2a1NvYndqVk5oQzEtRl81dmJ4aTQ2TlJxMlJnejhkcER6QmktVm1FZ1dUZGhhMHppRlJiZ1M?oc=5",
+      "https://www.demandgenreport.com/financial-news/drift-raises-60m-in-funding-to-build-b2b-equivalent-of-amazon/5002/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 60000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Dropbox",
@@ -6908,13 +6950,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Empirik",
@@ -13117,14 +13160,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 800000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-07-11",
     "total_raised": 2910000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Knowde",
@@ -16642,14 +16686,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 750000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-06-08",
     "total_raised": 750000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "NUVACORE",
@@ -18732,13 +18777,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "PicsArt",
@@ -18797,14 +18843,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 130000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-08-26",
     "total_raised": 130000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Pilot",
@@ -26200,13 +26247,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Two",

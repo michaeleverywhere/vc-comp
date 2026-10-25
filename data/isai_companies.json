@@ -798,9 +798,11 @@
         "stage": "Undisclosed round type",
         "amount": 25000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2026-06-09",
         "investors": [],
-        "source_url": "https://finance.yahoo.com/sectors/technology/articles/earlytrade-raises-25m-deploy-agentic-120000040.html"
+        "source_url": "https://finance.yahoo.com/sectors/technology/articles/earlytrade-raises-25m-deploy-agentic-120000040.html",
+        "date_source_url": "https://finance.yahoo.com/sectors/technology/articles/earlytrade-raises-25m-deploy-agentic-120000040.html",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -816,14 +818,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 25000000,
     "total_raised_currency": "USD",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 25000000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "last_round_date": "2026-06-09",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Ecoworks",
@@ -973,13 +976,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Expensya",
@@ -1334,14 +1338,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Seed",
     "last_round_amount": 2100000.0,
     "last_round_currency": "EUR",
     "last_round_date": null,
     "total_raised": 2100000,
     "total_raised_currency": "EUR",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Groupcorner",
@@ -2175,12 +2180,25 @@
     "scraped_at": "2026-10-17T19:19:46.859980+00:00",
     "funding_rounds": [
       {
+        "stage": "Series A",
+        "amount": 21000000.0,
+        "currency": "USD",
+        "date": "2025-01-29",
+        "investors": [],
+        "source_url": "https://www.pymnts.com/news/investment-tracker/2025/naboo-raises-21-million-dollars-expand-corporate-event-planning-tool/",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
         "stage": "Series B",
         "amount": 70000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2026-02-10",
         "investors": [],
-        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3FyM2dBNFhoZGFzdGdabF9WQmZpMGhqWjMwZHdlNExUdW9qQ01wbnJrSUdKUUtUTVVsMUtJYmZYdnJ6REpGdzRuZkk5Ym9HNEg5a3FfRjVFdE02U3Itek9XZXdPaFIzRTY0b2JVQjNySnVmN3JWX0VwUzVPT3I3cDlhcG53OG1GXzFZM1BzUkxNTl90elplUThuQm9WbE13TzJiRzAtMVRwSHFicV9UVTZR?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3FyM2dBNFhoZGFzdGdabF9WQmZpMGhqWjMwZHdlNExUdW9qQ01wbnJrSUdKUUtUTVVsMUtJYmZYdnJ6REpGdzRuZkk5Ym9HNEg5a3FfRjVFdE02U3Itek9XZXdPaFIzRTY0b2JVQjNySnVmN3JWX0VwUzVPT3I3cDlhcG53OG1GXzFZM1BzUkxNTl90elplUThuQm9WbE13TzJiRzAtMVRwSHFicV9UVTZR?oc=5",
+        "date_source_url": "https://thenextweb.com/news/naboo-raises-70m",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -2192,18 +2210,21 @@
       "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdXJqS0p5dHhwRjQyMFd2S1AyWWJzSzBuLUt3UUd5TVZKc3dCQTlmdWRSd0lYMFJUMGZMeWY0UWNwVHlEajFhMVhJWlJWaDFIallPNzF2RjR0Zkxab2JZa0pZeHZoRVRfYUx1dklmOWhIZU1aZDROZ1I1NnR0bV96NWlibURoTmpRQ3lKNWtlYWlkUjFEVFlnTnln?oc=5",
       "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa2Y5MXNKNFJWV0w1X1Uwc2ppMGZabDhJMFdSRlJQMjlIWUtDVlJFQ2JQRWczX3V2V2kwNkVhV0Z4NEhSNTlwS1EwZS1KRFMwLUVoenBoamw2SjZ6aUh1Tnh4VHZtZ0RRalhUemszODgtM3NQYUdId05ydGdITHRXS19n0gGCAUFVX3lxTE5rZjkxc0o0UlZXTDVfVTBzamkwZlpsOEkwV1JGUlAyOUhZS0NWUkVDYlBFZzNfdXZXaTA2RWFXRng0SFI1OXBLUTBlLUpEUzAtRWh6cGhqbDZKNnppSHVOeHhUdm1nRFFqWFR6azM4OC0zc1BhR0h3TnJ0Z0hMdFdLX2c?oc=5",
       "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ma1QxVFh5bDc1YVNOQjI0UjZhNkhkekU2TmRua3hYTHlLRllXOUJoWGpjVjk1SHp5TzVaOVBWNFN1dFZhVlRXZUd0UU1iZDMwY1BIT3ZxQmtob0djOXhZNVpjNE5kRk5RcVg3dXdJdlE2VFNtTEF3ZUhBa3Y?oc=5",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2RRUEFad1owYUxod0x2ZU04UHZDWktEZ09uR1ItX1ZudmtkUDdTZ1lUUjZ2RG1vN2FGRllhUFd0ejZKcl9udzlNX2RlZ1dMajRzMktRYWhQQ3VzekcyekdFYUY0bUVDZTVFUUE1OWViaEw0VzByb25fc1VJdHpOdnRGWFZtcUdGMkdmMmhMRHNMNXJqZ09UdWtQbE1haGNna1AwS1dLZ1dMVkMzc3JrcXd4Ukk4ZGhUcGdad3RB?oc=5"
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2RRUEFad1owYUxod0x2ZU04UHZDWktEZ09uR1ItX1ZudmtkUDdTZ1lUUjZ2RG1vN2FGRllhUFd0ejZKcl9udzlNX2RlZ1dMajRzMktRYWhQQ3VzekcyekdFYUY0bUVDZTVFUUE1OWViaEw0VzByb25fc1VJdHpOdnRGWFZtcUdGMkdmMmhMRHNMNXJqZ09UdWtQbE1haGNna1AwS1dLZ1dMVkMzc3JrcXd4Ukk4ZGhUcGdad3RB?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPelVHV3J2QUxWQjJtX3RQQnhXSGFPVHh4Vllmbzc1Tk13UExfcVBFNHppZ2w5Vk1aM3dBRk05ZEFhQmktYXZhRTNHOVpFVzRuczczcmt1c2FhczZnY1c1Rm1SUW1rVlUxbDRtSXNhc2Nmb1JucnVQaklDZFpFcjNmcQ?oc=5",
+      "https://www.pymnts.com/news/investment-tracker/2025/naboo-raises-21-million-dollars-expand-corporate-event-planning-tool/"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": 70000000,
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 91000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series B",
     "last_round_amount": 70000000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "last_round_date": "2026-02-10",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "NuxtJS",
@@ -3441,14 +3462,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 14300000,
     "total_raised_currency": "USD",
     "last_round_type": "Series A",
     "last_round_amount": 10000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-09-23",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Tripndrive",

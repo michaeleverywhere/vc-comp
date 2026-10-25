@@ -385,21 +385,34 @@
     "scraped_at": "2026-10-12T21:11:35.023430+00:00",
     "primary_investor": "a16z",
     "site_status": "Active",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Pre-Seed",
+        "amount": 7500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WGlza2hxVkp5eU5JNDZPem0tS19Oa19PWl82SmVvbWdHZXZva01ScDk1empqWmljZHVRa2lXbUc4TTVCbC1FVnB6UXZzcHAzazY0?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://alephsurgical.com/",
       "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WGlza2hxVkp5eU5JNDZPem0tS19Oa19PWl82SmVvbWdHZXZva01ScDk1empqWmljZHVRa2lXbUc4TTVCbC1FVnB6UXZzcHAzazY0?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "pre-seed or angel only",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 7500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Pre-Seed",
+    "last_round_amount": 7500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "The Horowitz Andreessen Academy (HAA)",
@@ -988,13 +1001,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Aktis Oncology",
@@ -1996,7 +2010,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "bioagelabs.com confirmed (aging/obesity therapeutics). amount_raised is sum of sourced Series A–D only ($10.9M+$23M+$90M+$170M); Series C PR said ~$127M raised to date incl. earlier seed not separately detailed. IPO Sep 2024 (Nasdaq:BIOA) excluded from equity total per rules.",
-    "funding_checked": "2026-10-20",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series D",
     "last_round_amount": 170000000,
     "last_round_currency": "USD",
@@ -2033,7 +2047,8 @@
       "Lilly Ventures",
       "Amgen Ventures",
       "Andreessen Horowitz Bio + Health"
-    ]
+    ],
+    "funding_first_checked": "2026-10-20"
   },
   {
     "company_name": "Blockspring",
@@ -2667,13 +2682,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Cardiogram",
@@ -3375,13 +3391,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Cursor",
@@ -3579,13 +3596,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "DeepMap",
@@ -3696,14 +3714,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-state+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 74999988.0,
     "last_round_currency": "USD",
     "last_round_date": "2015-07-10",
     "total_raised": 74999988,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "DigitalOcean",
@@ -7116,24 +7135,55 @@
     "scraped_at": "2026-10-12T21:11:35.023430+00:00",
     "primary_investor": "a16z",
     "site_status": "Acquired",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 10500000.0,
+        "currency": "USD",
+        "date": "2021-05-11",
+        "investors": [],
+        "source_url": "https://www.memorahealth.com/news/memora-health-closes-10-5m-financing-led-by-andreessen-horowitz-to-modernize-care-delivery",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-02-15",
+        "investors": [],
+        "source_url": "https://www.memorahealth.com/news/health-care-communications-startup-raises-40m-to-streamline-complex-patient-care",
+        "date_basis": "rss",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://f4.fund/startups/memorahealth",
       "https://startupintros.com/orgs/memora-health",
       "https://www.bizjournals.com/sanfrancisco/inno/stories/fundings/2023/04/18/memora-health-30m-funding-round-patient-care.html",
       "https://medhealthoutlook.com/memora-raises-40-million-in-series-b-plans-to-transform-care-delivery-experience/",
-      "https://www.axios.com/pro/health-tech-deals/2023/04/18/exclusive-memora-inputs-30m-for-care-automation"
+      "https://www.axios.com/pro/health-tech-deals/2023/04/18/exclusive-memora-inputs-30m-for-care-automation",
+      "https://www.memorahealth.com/",
+      "https://www.memorahealth.com/news/health-care-communications-startup-raises-40m-to-streamline-complex-patient-care",
+      "https://www.memorahealth.com/news/memora-health-announces-40m-financing-to-scale-platform-for-simplifying-complex-care-delivery",
+      "https://www.memorahealth.com/news/memora-health-closes-10-5m-financing-led-by-andreessen-horowitz-to-modernize-care-delivery",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMnlnTFh3NWtEenlXd1U5bmdsZ0FNMi15RG11eTBraTcycmpZYVBQbEMyTHl5WTd4RDQ1d0U5b19LU2dDVk9vVGRVMllXZ3lobnl3ZGFTWDh0OG1GTk8wZ1poZHU4cXl3ZnhBUlgtX25jLWctenBTRnZ2ZG9NbThmbTU2Z3NKV0VLUFZ2TWdqX3hLMExURXRzUmVQZHdTdll0aGc?oc=5",
+      "https://news.google.com/rss/articles/CBMiggJBVV95cUxNM0VhQldJdERyZWstcU1TaEEwVm5vWDFjOVRmd2p6Uzh0RE5mOTFSM29fYzlVaXZOOXJfS3FIc0FHYnlWT2p5R2QzalhIeDFHbEllV25DNEFibWF6djVYSlJmRU14N3lhbHBlQkM4WXdqR3BSUTd2SnlreGE2bHNQc2VIT0gwMEJpRDR2LTZIRDFOWkROVDBaSVhuZFFOajg4Y193SHF2T3VhMHh2UWlLM2JfeWtjLTdpOUdPM2FzLUVhZF9ta2NTVG1ycW8zWGlsVk1VaEszZVkwaW54MzBLR2RXWUwtLUktSUhKbjZxWHQ2VDdGQWJvZl9GVTloZU1aOUE?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 50500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-02-15",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Metronome",
@@ -9123,13 +9173,14 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Strategic",
     "last_round_amount": null,
     "last_round_currency": null,
     "last_round_date": null,
     "total_raised": null,
-    "total_raised_currency": null
+    "total_raised_currency": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Reflektive",
@@ -11075,13 +11126,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Swell",
@@ -11371,13 +11423,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Tasty Labs",
@@ -17168,13 +17221,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Belong",
@@ -17564,13 +17618,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Bitski",
@@ -20332,13 +20387,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Co:Create",
@@ -22822,25 +22878,27 @@
     "site_status": "Active",
     "funding_rounds": [
       {
-        "stage": "Series E",
-        "amount": 300000000.0,
-        "currency": "USD",
-        "date": "2025-10-17",
-        "investors": [],
-        "source_url": "https://fintech.global/2025/10/17/payroll-giant-deel-bags-300m-at-17-3bn-valuation/"
-      },
-      {
         "stage": "Series D",
         "amount": 425000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2021-10-18",
         "lead_investors": [
           "Coatue"
         ],
         "investors": [
           "Coatue"
         ],
-        "source_url": "https://www.deel.com/blog/weve-raised-our-series-d/"
+        "source_url": "https://www.deel.com/blog/weve-raised-our-series-d/",
+        "date_source_url": "https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/deel-raises-425m-in-series-d-funding-to-continue-transforming-the-future-of-work",
+        "date_filled": "2026-10-24"
+      },
+      {
+        "stage": "Series E",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": "2025-10-17",
+        "investors": [],
+        "source_url": "https://fintech.global/2025/10/17/payroll-giant-deel-bags-300m-at-17-3bn-valuation/"
       }
     ],
     "grants": [],
@@ -22858,7 +22916,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series E",
     "last_round_amount": 300000000.0,
     "last_round_currency": "USD",
@@ -22868,7 +22926,8 @@
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
       "Coatue"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Deepcell",
@@ -24297,14 +24356,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 100000000.0,
     "last_round_currency": "USD",
     "last_round_date": null,
     "total_raised": 100000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "E-3 Tech",
@@ -24811,14 +24871,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 35000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-03-09",
     "total_raised": 35000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "ElevenLabs",
@@ -26430,13 +26491,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Fei Protocol",
@@ -27228,13 +27290,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Flowcarbon",
@@ -28455,13 +28518,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Gamma.app",
@@ -29720,13 +29784,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Harvey",
@@ -30590,9 +30655,11 @@
         "stage": "Series B",
         "amount": 73000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2024-01-11",
         "investors": [],
-        "source_url": "https://www.hyperexponential.com/newsroom/series-b-announcement"
+        "source_url": "https://www.hyperexponential.com/newsroom/series-b-announcement",
+        "date_source_url": "https://techcrunch.com/2024/01/11/hyperexponential-a16z-insurance/",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -30604,14 +30671,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
-    "last_round_type": "Form D offering (round type not stated)",
-    "last_round_amount": 34999767.0,
+    "funding_checked": "2026-10-24",
+    "last_round_type": "Series B",
+    "last_round_amount": 73000000.0,
     "last_round_currency": "USD",
-    "last_round_date": "2023-12-20",
+    "last_round_date": "2024-01-11",
     "total_raised": 107999767,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Ideogram",
@@ -34864,9 +34932,11 @@
         "stage": "Series A",
         "amount": 20000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2026-10-21",
         "investors": [],
-        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnVPTXlOYTZWLV9tZnNERUt4T0RYUTQyVFMtZXFfczlwbHZqdE54eTZuTmE4QklWQ3lJdkJPbHhTQlRvSWE0a1RnQVFKbU9wY3BIQUY5TV9QZzdtQWNEWG9lV2EtNDcyNFo1LUZYTlpnQWc5Z1dISl9rcnR5UWs4cEg0ZlVPSmRuV250ZFpxTlcyQWZVeTcycDIzVWo5NzNsb1pXTk1JRS1TaXlydVQtMmg3TzQ?oc=5"
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnVPTXlOYTZWLV9tZnNERUt4T0RYUTQyVFMtZXFfczlwbHZqdE54eTZuTmE4QklWQ3lJdkJPbHhTQlRvSWE0a1RnQVFKbU9wY3BIQUY5TV9QZzdtQWNEWG9lV2EtNDcyNFo1LUZYTlpnQWc5Z1dISl9rcnR5UWs4cEg0ZlVPSmRuV250ZFpxTlcyQWZVeTcycDIzVWo5NzNsb1pXTk1JRS1TaXlydVQtMmg3TzQ?oc=5",
+        "date_source_url": "https://finance.yahoo.com/technology/ai/articles/longeye-raises-20m-series-more-144800066.html",
+        "date_filled": "2026-10-24"
       }
     ],
     "grants": [],
@@ -34881,14 +34951,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 20000000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
+    "last_round_date": "2026-10-21",
     "total_raised": 20000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Longitude Labs",
@@ -36981,13 +37052,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Metatheory",
@@ -37035,13 +37107,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Method",
@@ -40009,14 +40082,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 16000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series A",
     "last_round_amount": 16000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-12-10",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Octant Bio",
@@ -43167,14 +43241,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Seed",
     "last_round_amount": 15000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-07-22",
     "total_raised": 15000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Practice",
@@ -45221,20 +45296,22 @@
     "site_status": "Active",
     "funding_rounds": [
       {
+        "stage": "Series C",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": "2025-09-10",
+        "investors": [],
+        "source_url": "https://replit.com/news/funding-announcement-series-c",
+        "date_source_url": "https://finance.yahoo.com/news/replit-closes-250-million-funding-151500665.html",
+        "date_filled": "2026-10-24"
+      },
+      {
         "stage": "Undisclosed round type",
         "amount": 400000000.0,
         "currency": "USD",
         "date": "2026-03-11",
         "investors": [],
         "source_url": "https://replit.com/blog/replit-raises-400-million-dollars"
-      },
-      {
-        "stage": "Series C",
-        "amount": 250000000.0,
-        "currency": "USD",
-        "date": null,
-        "investors": [],
-        "source_url": "https://replit.com/news/funding-announcement-series-c"
       }
     ],
     "grants": [],
@@ -45250,14 +45327,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 400000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-03-11",
     "total_raised": 650000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Resend",
@@ -47822,11 +47900,16 @@
       "https://vcnewsdaily.com/shef/venture-capital-funding/lpydhqycgk",
       "https://www.ordering.co/blog/shef-the-home-cook-revolution-feeding-america/",
       "https://www.prnewswire.com/news-releases/shef-raises-8-8m-to-help-talented-cooks-make-a-meaningful-income-by-selling-homemade-food-to-their-communities-301116038.html",
-      "https://techcrunch.com/2023/03/01/food-marketplace-shef-series-b/"
+      "https://techcrunch.com/2023/03/01/food-marketplace-shef-series-b/",
+      "https://shef.com/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb1RjaWxnVHlPLWZBNFJMTkFVNjJTdjJ2U2xEalk3Yzk4VzZmbmdxbkd2M1ZjRmRtM0tQT0gwdzJZaFZCT1QxbDl0TlR5WFZaQ3lSc0VHX0Y4TmlYY1ViMTQ3UGtHOXhhMnZZWE9mWlVvRk9FVVczMEl3Ny1xNlI4TktZVGR1YkN1VF9xWlpmT3NnbXpmSmIwbW1pR0drQXZMQ19jVVI5d1I4SktHNkdDODU4aG5ReXN4bmFuMkxnRnZ4SmFnMm5SOXFsYTlWZThtbnUyZWRITQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcHlGZ0ZhWnpUNEVReUppanBqc1E5ZjRFbHpBQWhkNktTZnlqT0lnQ2JfTUlnT0V0QWhpN3ZNUzZTaVFiRFRvV243N2NZaXdTQVlER1BYQmpEMXN5ai1NcS1uX1JMal9mN3BQMjh0ZlJPeGJZRzJ6UE1WbW5IWjlmejhFelBFd0p6U1ZIUWNn?oc=5",
+      "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZVI1TUpLdE9uNXNNdWxqSlp5a1NvR1M5NmpxcnFvYTRVTFhjYndlQ1l0d3FBTEtrMHZQSXB5U0RHUUgyU1kzVThFMjdVa3pTTkMxVE0wNTNPTHFkOHRjc0RkM0RrN3ZyY2dKemVlampZRXVPWnp1TTdLQjY1X01JZGYxcldfY0ZkQm1ZczVrVldKWEY4M0ltdUVYOTdBcndLSm5ydUprTjVKb1NhZmRDWVpWcDdhZERMdWdqNHJJLVN2UFZVVmppcktzQWZIek9LWVRjbEJJQ0JBcmxvamR3SnZaNlh3VmgxNTREQnhSUnhxaHZwc1E1bDVn?oc=5",
+      "https://www.prnewswire.com/news-releases/shef-raises-20m-series-a-round-to-create-more-opportunities-for-talented-cooks-to-make-a-meaningful-income-from-home-301304354.html"
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 20000000.0,
     "last_round_currency": "USD",
@@ -47837,7 +47920,8 @@
     "notable_investors": [
       "Y Combinator",
       "Craft Ventures"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Shibuya",
@@ -48009,13 +48093,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Shop Rodeo",
@@ -48170,13 +48255,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Sky Mavis",
@@ -50373,14 +50459,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Seed",
     "last_round_amount": 11000000.0,
     "last_round_currency": "EUR",
     "last_round_date": null,
     "total_raised": 11000000,
     "total_raised_currency": "EUR",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Story Protocol",
@@ -52586,14 +52673,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series E",
     "last_round_amount": 125000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-09-02",
     "total_raised": 317000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Tigris Data",
@@ -54049,13 +54137,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Uniswap",
@@ -56194,14 +56283,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 25000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-01-11",
     "total_raised": 25000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "WorkBoard",
@@ -56348,14 +56438,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 1000000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-02-18",
     "total_raised": 1000000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Worldcoin",
@@ -56410,13 +56501,14 @@
     ],
     "funding_status": "no public funding",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Wrapbook",

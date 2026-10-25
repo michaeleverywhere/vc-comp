@@ -396,13 +396,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Asymm",
@@ -764,14 +765,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 5330535.0,
     "last_round_currency": "USD",
     "last_round_date": "2021-02-22",
     "total_raised": 5330535,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "echo3D",
@@ -2017,7 +2019,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Muon Space (muonspace.com, the domain given in the input), Mountain View, CA; builds LEO satellite constellations and was founded in 2021 (CEO Jonny Dyer). Rounds: $10M seed led by Costanoa (Oct 2021), $25M Series A led by Radical Ventures (Aug 2022), $56.7M Series B led by Activate Capital (Aug 2024), $89.5M Series B1 led by Congruent (Jun 2025; only $44.5M of it is equity, the other $45M is credit facilities and is excluded), and $250M Series C led by Eclipse (Aug 2026). The company says total equity is 'more than $386M', which matches the sum of the sourced equity rounds. Acquired Starlight Engines (propulsion) in 2025.",
-    "funding_checked": "2026-10-20",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series C",
     "last_round_amount": 250000000,
     "last_round_currency": "USD",
@@ -2049,7 +2051,8 @@
       "Woven Capital",
       "ACME Capital",
       "Overlap Holdings"
-    ]
+    ],
+    "funding_first_checked": "2026-10-20"
   },
   {
     "company_name": "Nanoracks",
@@ -3125,7 +3128,62 @@
     "primary_investor": "Space Capital",
     "source_url": "https://www.spacecapital.com/portfolio",
     "scraped_at": "2026-10-14T13:22:00.412345+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 9999989.0,
+        "currency": "USD",
+        "date": "2021-08-18",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920779/000192077922000001/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 30695681.0,
+        "currency": "USD",
+        "date": "2024-04-19",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920779/000192077924000004/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 74599990.0,
+        "currency": "USD",
+        "date": "2025-06-06",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920779/000192077925000002/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 169999953.0,
+        "currency": "USD",
+        "date": "2026-03-24",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920779/000110465926039134/primary_doc.xml",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Series D",
+        "amount": 250000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0dJd05EcmlzWnRMbkNEWWoxclBEN2dXaFJqeTZOVDh2c0lLWi1VMkcwT3hXRFJMTWsxMFdZOG8wV0RVMERrZUNndTRFcUN4N2REQk9TaVJQbkpRZERjMzlMVVgyRVdRWF9VWk5oOWZ3a2tsX09IUnlzMHJ5TFU1dzhYcVdOM1FZQWlGLTVvR0tEaEcxTzR0OUtTQWlLdlJscHJUdFFXdnYwS0NyMGRPSFh5dDVib2RP?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://satnews.com/2024/05/10/xona-space-systems-raises-million/",
@@ -3135,17 +3193,27 @@
       "https://www.tamradar.com/funding-rounds/xona-series-c-170m",
       "https://raising.fi/news/xona-space-systems-series-c-march-2026",
       "https://payloadspace.com/xona-raises-92m-for-unhackable-pnt-constellation/",
-      "https://spacenews.com/xona-raises-19-million-series-a-funds-for-satellite-navigation-service/"
+      "https://spacenews.com/xona-raises-19-million-series-a-funds-for-satellite-navigation-service/",
+      "https://www.xonaspace.com/",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0dJd05EcmlzWnRMbkNEWWoxclBEN2dXaFJqeTZOVDh2c0lLWi1VMkcwT3hXRFJMTWsxMFdZOG8wV0RVMERrZUNndTRFcUN4N2REQk9TaVJQbkpRZERjMzlMVVgyRVdRWF9VWk5oOWZ3a2tsX09IUnlzMHJ5TFU1dzhYcVdOM1FZQWlGLTVvR0tEaEcxTzR0OUtTQWlLdlJscHJUdFFXdnYwS0NyMGRPSFh5dDVib2RP?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSURxVFJYS2x2d2VFMk91TFpOQU0yRzBIMDVlQW1POVBsUERVLV9YTnBIMUJaMzVpNHgwdTNxcUFHWHpZZEQtVWVQamZvWUhJRF90bktIaWlYZjJkRHVCZ0ZwelhBbUtEdGZYVFktcDVzVUd2UGZwNXJVemNyWW1hdzc1OXA3aDhJQmRqSUtKcGwwN1VrdmxkYmxramlvQ1Jib2pidmlmZmtieHRpcGpZMWRab1M4ZE1h?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdnRFakFZR09RNk1CMlJIWTNXZ3lVbTh6X0pKMXUwLUxEcEUtcjV5SUNpWmx0c3dfSlgzSWhvc0xqaVBHV2k0QnVZMjNXaEJCUkM4MHFyLWxvWVRtN2p6OGNBSTV5dzNTb3V6MFh2SzhfOFpmN0oxbjMwSnd2ZXFKaGdwUlZtVUhSZENxaXdlUURtUQ?oc=5",
+      "https://www.sec.gov/Archives/edgar/data/1920779/000192077922000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1920779/000192077924000004/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1920779/000192077925000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1920779/000110465926039134/primary_doc.xml"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 535295613,
+    "total_raised_currency": "USD",
+    "last_round_type": "Form D offering (round type not stated)",
+    "last_round_amount": 169999953.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-03-24",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "York Space Systems",

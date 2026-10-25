@@ -349,14 +349,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 1000000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-02-18",
     "total_raised": 1000000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "AMI Labs",
@@ -1847,7 +1848,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Domain motherscience.com (Malassezin skincare). Axios: $6.2M total VC by May 2023, mostly Nov 2022 seed plus small earlier SAFE; amount_raised = 6.2M + 3.5M.",
-    "funding_checked": "2026-10-20",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed stage",
     "last_round_amount": 3500000,
     "last_round_currency": "USD",
@@ -1863,7 +1864,8 @@
       "H Venture Partners",
       "others",
       "Greycroft (lead)"
-    ]
+    ],
+    "funding_first_checked": "2026-10-20"
   },
   {
     "company_name": "Coactive AI",
@@ -2432,7 +2434,18 @@
     "source_url": "https://www.greycroft.com/portfolio/together-ai/",
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
     "location": "San Francisco",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 305000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.together.ai/blog/announcing-our-series-c",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.reuters.com/legal/transactional/together-ai-raises-800-million-83-billion-valuation-2026-07-01/",
@@ -2442,17 +2455,27 @@
       "https://www.datacenterdynamics.com/en/news/together-ai-seeks-1bn-in-funding-report/",
       "https://recentfunding.com/companies/together-ai/",
       "https://www.nytimes.com/2026/07/01/business/dealbook/together-ai-funding.html",
-      "https://valueaddvc.com/pulse/company/together"
+      "https://valueaddvc.com/pulse/company/together",
+      "https://www.together.ai/",
+      "https://www.together.ai/blog/announcing-our-series-c",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT2FDQXdtMjduaGlBRWV1ZksxRDdWWk1kT2s5cHY2OS0xSkkwU2VCbjdHQXdsZGZqWTlYdXE0ZUE1anZLWFpQLXhmYjFZaS1RcmpGTWw4WnlSeVZfUEVDMVpQNE5qdXFfc1pVNGs5UmI2WUFSNG1hRnJUeUhLN0dBZEprcm5Bbkl5RGhjMVhvN0hPYXFSdEIzaWx1dGl6N2lTbVRtLUdLOFhMUnc?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdlhfRXRfNzJlRmk5a1dfN1FVbTdMWUFmM0pHLUxxOGNmT0sxU21NNlhLck1hQW0yY1hQT0ZqQ1otN0hMekx3V2dVTEFhNS1JclFMSTlGWjJwQ19TWEJGLXlIT0JjeWppSGtTTzctN1R1ai11TlJJS0FMc3FiMFdZM3lQUm1GaU1qOFY2czVjSC1RcUsxT3c2YkFn?oc=5",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xR0dUZ1MySThTcy1VNGIxbmdhbWdMMGVSU3JUNllEbHdLLWdQV3VVQ3I2eXlIT3pNSHNybExDQld2VW9CMW1ab2xhT091ZlBPUmtLaG15TnF0WUg5Q25BVElyMHVvdkxpa1dkem1NRE5QSVZFM3k3RkxPSEs?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3pNeE82YlRqQ2JQbUd3andBenJvcExTdS1qMENHVVNKeW1ralFpc2pzUFltcUU4QVZjel8yVlNKbVRSMGNBN3JSOWJQQkVkM2pEYmk4NjB0UnNFTjh0V3R6MVI1SDhPa3lVSnB4TmhCbHVlVElQcWI5QkFoNXRwS3pQUVM3Rk9WYU91dERWbkVFU0hTSmc?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc19mTVJOcVAxbjFxWXZHMVpmcjJ2YVhCZ1BlTzI4SFNUMVE0WmZ6Rmk5amR5RXhDZ1NxbUNDNmJJSG9SS0FjNy15dmtXczZYbzRRb0ZROEw0SGo3T3ozMXdCb2xDcm5IVFV6ZlNfcExhR0tERHpodllaMENVb1hvRGpMVlFlUThzSVhXV0pudVJPSzJCaHVDci1CU1pySzZiakU5Yk1ZUzBCWm5KZVV5RTRUcEM4OE9EQUZRYWM0UU1YSHFhdk9udw?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWU5uUVZwb054Y3gtUnhsS0R2NXhGcG9lRnJjWmYwYkZYS2hHYk5yS2tQLVFiU25RRExjRXZueWJpeXpNVFNNbnFJb0RJSmx1Z3g5dFNMYkZxRXpNSWdxMHpOcFpzbTVtaVh2TF9OSE93STBDa1Z1MlJ2YjJzY1QwenRvNVNuRXNwa1BmRFZaSTk4SUlIY2FObEFZbDBTVDloN1J2SklubllIRENpQkwwQ2EwWXpOUzg1THVVY0hn?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 305000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 305000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Axios HQ",
@@ -5655,14 +5678,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series D",
     "last_round_amount": 175000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2019-04-02",
     "total_raised": 266000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Cardless",
@@ -6261,13 +6285,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Haystack",
@@ -6406,18 +6431,50 @@
     "source_url": "https://www.greycroft.com/portfolio/lightricks/",
     "scraped_at": "2026-10-01T13:11:49.948596+00:00",
     "location": "Jerusalem",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wTm1BRTNLMHJ2b0tVSUlqMWxGeEZhRWVQMXJVb1VUOFFjbmlGU3ZnMnc3QXgxWEJVUlRLLWtWNnN4aGtWOXNuNm5fclZIWUJwYlhaejZOZThvR1JTM2hvelNXU1N2S0FDSHlJNGxB?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Series C",
+        "amount": 135000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbjFKS2Y4SVNnTy04MkVBcFQ4WjVSTG5feFZtXzA3aFBuVXYzYnotbjlvd3BjeWZjRTdRMDJXeVByaTZNc3ZUQzVERk9rc2dhY1daSnh4d29ZLXJDc2c2aVlxUzVZZTByNWVoWWhrcjJ2blRVWGR0bzJJWGFZWHZjU0lXX2ZrV0pCajNPbDRiT2xjS0lFVWttN3duSFNUczNHUUFfbNIBqgFBVV95cUxNMUF4OTNKR2I2RHg3d1RXejVXa3JaTW9lU2NjRzU3eTBsUmQxcEZoRHRoLUZ3N0tma3dvMHM4MW9tMWxNVkVEM0VpSF9zSUVmZmozZ3ZJRWlnWDBGWGs3WEZ5alppUjJGdHZDQU9Lbk5yZXlHRVlnQzlsenNjSmxhLW52ZDJDOGgxN0p0THVwSXh3MmtUYmtSejAyRnF1bG1QUUZEZjhRRHZadw?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_source_urls": [
+      "https://www.lightricks.com/",
+      "https://www.lightricks.com/post/lightricks-award-winning-app-developer-raises-130m-series-d-to-power-expansion-and-champion-creator-economy",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbjFKS2Y4SVNnTy04MkVBcFQ4WjVSTG5feFZtXzA3aFBuVXYzYnotbjlvd3BjeWZjRTdRMDJXeVByaTZNc3ZUQzVERk9rc2dhY1daSnh4d29ZLXJDc2c2aVlxUzVZZTByNWVoWWhrcjJ2blRVWGR0bzJJWGFZWHZjU0lXX2ZrV0pCajNPbDRiT2xjS0lFVWttN3duSFNUczNHUUFfbNIBqgFBVV95cUxNMUF4OTNKR2I2RHg3d1RXejVXa3JaTW9lU2NjRzU3eTBsUmQxcEZoRHRoLUZ3N0tma3dvMHM4MW9tMWxNVkVEM0VpSF9zSUVmZmozZ3ZJRWlnWDBGWGs3WEZ5alppUjJGdHZDQU9Lbk5yZXlHRVlnQzlsenNjSmxhLW52ZDJDOGgxN0p0THVwSXh3MmtUYmtSejAyRnF1bG1QUUZEZjhRRHZadw?oc=5",
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wTm1BRTNLMHJ2b0tVSUlqMWxGeEZhRWVQMXJVb1VUOFFjbmlGU3ZnMnc3QXgxWEJVUlRLLWtWNnN4aGtWOXNuNm5fclZIWUJwYlhaejZOZThvR1JTM2hvelNXU1N2S0FDSHlJNGxB?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaWjFEdG5tQkRtaHA3ZzdaZnluQ2ljRHhIU212ZGItSFlfSW03MG5EM2xta2tJQ3VadjB5Y1BTdGV3bkxXQkstZGxHVUpjcTBZSkVQR3RnRGJRUXU2Z1RXX1ZmQ1UtWUNYS2tWY2xCYy1wYUVqWkVv?oc=5",
+      "https://pulse2.com/lightricks-raises-135-million-funding-1-billion-valuation/",
+      "https://www.siliconrepublic.com/start-ups/lightricks-funding-facetune",
+      "https://www.timesofisrael.com/israels-photo-editing-apps-maker-lightricks-raises-135m-at-1b-valuation/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 195000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series C",
+    "last_round_amount": 135000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "BlueX Trade",
@@ -6442,13 +6499,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Anycart",
@@ -8321,14 +8379,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 13499998.0,
     "last_round_currency": "USD",
     "last_round_date": "2019-07-01",
     "total_raised": 19499981,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Nom Nom",
@@ -11253,12 +11312,13 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   }
 ]

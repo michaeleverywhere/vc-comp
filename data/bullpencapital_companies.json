@@ -1568,7 +1568,18 @@
     "primary_investor": "Bullpen Capital",
     "source_url": "https://bullpencap.com/companies",
     "scraped_at": "2026-10-02T21:09:07.673847+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.finsmes.com/2026/07/paper-raises-34m-in-series-a-funding.html",
@@ -1578,17 +1589,25 @@
       "https://www.thesaasnews.com/news/paper-raises-34m-series-a/",
       "https://finance.yahoo.com/technology/ai/articles/paper-raises-34-million-series-130000344.html",
       "https://justainews.com/companies/funding-news/paper-raises-34-million-to-build-design-tools-for-the-ai-coding-era/",
-      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era"
+      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era",
+      "https://paper.co/",
+      "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wcmZEYUJMTmw4QlNrUFhXem54bV9oR2s5MmVQRHdiQ1lQS3JGc0dGWDMtNWYyWWMzUUhMUmpzNTRwTTZGVVhKU0QxQVk4SDFUaEZQNE55M040VVRFb1VONWw5NWZTRFNHSGtndDdzTlhacDhRaGNxRjBJeXNkdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2RKeTBna2FjOXYyVXdKVU5FaFhfcjNvZW45eDJ3WjZnbWVjM29rVkk2UG5jZ0h2ZFlibVZXcWNlMU0xR3hhR0hfc2JZM1VuMjhNZzdlRHdSSmVjLU1TdGpUVDVWMG1UUzVsVllyVW5lVjFwLW45TkRPektNWkJhMHpJSlFlbF9teGVLclRsWFVZTzRlVGs4OThLYy1ucnVxSkpB?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOM09rX1UxTmktbVRpaEhWcTBhM0NUMkMtY0RDaThDekpZcE93d2lCQnRxT0lLSUdnZE1TU1VmTE9XVjUzempUaHBCNEl6QmhBcEFnUTJHeW1aQWliUTJKMGp0a1hpS25EeFI3U2w0djRqdVE0MjV5NmlnWkFJdEtoUnYxU1ZyVXQ0ZjU1M2xwbTVuRzhxYUYwVEVzaDVTdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdUJQck5mQkRYQU1BTkdKQW5YT2dqMnphaTcwOWl5UWtKV3RlUXFXek1zQkZsTEo5dFFOVUJuWVZYaUV1RGlSQnhRVkgyeUhmcm92VWN6QUxXWFRaYjJsamI2OTUzQTc5WnRIajNyN2hKdTlhbENpeW1uWldOSS1raGdFZEtIUFBXUlNOSXZON29QdGlNeU5FUXYtS0tiRE1OMURQQ3VPQXVVb0g4U1g1TEI2QUYtMG84MklLNE5RMmJwVVhObVpFNFpzMnlFbHdONFRBdDVCWVhSTE9UeFc1TUQ4bzhLbU96ZFZ1NFRtUmxqNkk3VHc?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 1600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "SpaceIQ",
@@ -2862,22 +2881,36 @@
     "primary_investor": "Bullpen Capital",
     "source_url": "https://bullpencap.com/companies",
     "scraped_at": "2026-10-02T21:09:07.673847+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": "2018-08-18",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdDlNRXlJUlVnVjdneWNBQmlrbGQtWEl6c1ZBVjdodnZSbl9HZ25LUzdHNVVkOXBnazJoNUFUaTlLd2NTU21OeEt6OTE0OF9qcnY1eG9rZzVMSFpiVWJYNUV3MkVSUUc0aVI1OXZ2RWU2Y1Y5bmpCenpiT3FCREdNdjYtMmtQZTNsUEJnUGJCdzJQX1lLLV9FOHkzNkJZcFM1TGRzdTl3?oc=5",
+        "date_basis": "rss",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://6over3.com/",
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdDlNRXlJUlVnVjdneWNBQmlrbGQtWEl6c1ZBVjdodnZSbl9HZ25LUzdHNVVkOXBnazJoNUFUaTlLd2NTU21OeEt6OTE0OF9qcnY1eG9rZzVMSFpiVWJYNUV3MkVSUUc0aVI1OXZ2RWU2Y1Y5bmpCenpiT3FCREdNdjYtMmtQZTNsUEJnUGJCdzJQX1lLLV9FOHkzNkJZcFM1TGRzdTl3?oc=5",
       "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUw2WHBuWDVCMFRrQ01GaEVpY1NpRTdZYXdJbU42Vmgtd0Y4b2VwTHp4UEZfY1JfUWRqMjBkNWxpQlF2LXBSMmEwRDRDVnlkZExSWHNrdzFWZzJRc2ZpTjFiQzdTN1NDTnZCenMzYmZJZnpjQVh2WXRHbjBvWGowU1FsbTM4bXpCRndEVTB4UWQ1WndJY0FZMHRBdTNXdi1KYWtZM2dCMWN1YVJ6YWpCa05LUUNNZw?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified) | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified); monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 1500000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 1500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-08-18",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Hemster",
@@ -2904,13 +2937,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Starcity",
@@ -3841,13 +3875,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Merchbar",

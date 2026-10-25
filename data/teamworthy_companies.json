@@ -916,13 +916,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "ExecOnline",
@@ -1905,13 +1906,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "navidence.com",
@@ -3355,14 +3357,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": 27000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-06-17",
     "total_raised": 27000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "User Interviews",
@@ -3544,21 +3547,34 @@
     "scraped_at": "2026-10-16T16:51:07.243569+00:00",
     "funding_rounds": [
       {
+        "stage": "Series B",
+        "amount": 30000000.0,
+        "currency": "USD",
+        "date": "2019-04-02",
+        "investors": [],
+        "source_url": "https://www.vestwell.com/blog/vestwell-continues-to-redefine-retirement-announcing-a-usd30-million-series-b-to-fuel-growth",
+        "date_basis": "text",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Series D",
+        "amount": 125000000.0,
+        "currency": "USD",
+        "date": "2023-12-20",
+        "investors": [],
+        "source_url": "https://www.vestwell.com/news/an-american-fintech-success-story-vestwell-raises-usd125m-series-d",
+        "date_conflict": true,
+        "date_source_url": "https://techcrunch.com/2023/12/20/vestwell-raises-125m-in-preempted-round-of-funding-to-help-businesses-power-workplace-savings-programs/",
+        "date_filled": "2026-10-24"
+      },
+      {
         "stage": "Series E",
         "amount": 385000000.0,
         "currency": "USD",
         "date": null,
         "investors": [],
         "source_url": "https://www.reuters.com/technology/savings-platform-vestwell-raises-385-million-2-billion-valuation-2026-02-18/",
-        "date_conflict": true
-      },
-      {
-        "stage": "Series D",
-        "amount": 125000000.0,
-        "currency": "USD",
-        "date": null,
-        "investors": [],
-        "source_url": "https://www.vestwell.com/news/an-american-fintech-success-story-vestwell-raises-usd125m-series-d",
         "date_conflict": true
       }
     ],
@@ -3571,18 +3587,25 @@
       "https://finance.yahoo.com/news/vestwell-raises-385m-funding-doubling-221526035.html",
       "https://www.vestwell.com/news/an-american-fintech-success-story-vestwell-raises-usd125m-series-d",
       "https://www.prnewswire.com/news-releases/vestwell-raises-385-million-to-power-the-future-of-saving-302691042.html",
-      "https://www.fintechfutures.com/venture-capital-funding/vestwell-doubles-valuation-with-385m-series-e"
+      "https://www.fintechfutures.com/venture-capital-funding/vestwell-doubles-valuation-with-385m-series-e",
+      "https://www.vestwell.com/",
+      "https://www.vestwell.com/news",
+      "https://www.vestwell.com/blog/vestwell-continues-to-redefine-retirement-announcing-a-usd30-million-series-b-to-fuel-growth",
+      "https://www.vestwell.com/blog/vestwell-raises-usd8-million-in-series-a",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkMzbmEwdm8ycGVIRHdUbUhPTHFDMUNIaWZEYWFneEg2a3dWRjB1OTNQREJQVVlIWklNN01oZ3AtYWhKTVFFZTM5VV9xdkFHVTUxVGkyR2twZ3RCNk43SE1sWWt3NjBFQ1BZS1ZUM2lGV3RFV3FmMHVXMXVsUE9sTmY4a3M0d2EzaEpIRkhDYnl1YVBn?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeXJ1dGIycFhHTHQyVFE5djhoMlBJNG5qLVNTQndnR1g2NXlsS05SZFNYa0d6VnJNVWNJZDZvUW5uSUdrMTZKVTdGSnBKZ2VVLXhlZEJhU3FTd2lhNXdRWFZ3SmRGdjBjaElFQ01iUldrYndBOTk3TjNJWjV0Q0hQMWMxajN3VEFwUUdzd1BSSW9aV2E1STk4N1NsYTR2dHY0QXN6eGpkc2sxMWZWTWg5dV93?oc=5"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series D",
     "last_round_amount": 125000000.0,
     "last_round_currency": "USD",
-    "last_round_date": null,
-    "total_raised": 510000000,
+    "last_round_date": "2023-12-20",
+    "total_raised": 540000000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Vetcove",

@@ -443,9 +443,11 @@
         "stage": "Series A",
         "amount": 17000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2026-09-24",
         "investors": [],
-        "source_url": "https://axya.co/blog/series-a-announcement"
+        "source_url": "https://axya.co/blog/series-a-announcement",
+        "date_source_url": "https://www.prnewswire.com/news-releases/axya-secures-17-million-cad-in-funding-to-help-manufacturers-modernize-procurement-with-ai-302888441.html",
+        "date_filled": "2026-10-24"
       },
       {
         "stage": "Seed",
@@ -470,14 +472,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; history pass: news search for every other round (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 12000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2026-09-24",
     "total_raised": 35900000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "BenchSci",
@@ -2497,13 +2500,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "LoginRadius",
@@ -3022,7 +3026,18 @@
     "primary_investor": "Real Ventures",
     "source_url": "https://realventures.com/portfolio/",
     "scraped_at": "2026-10-07T13:16:20.723058+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1600000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://www.finsmes.com/2026/07/paper-raises-34m-in-series-a-funding.html",
@@ -3032,17 +3047,25 @@
       "https://www.thesaasnews.com/news/paper-raises-34m-series-a/",
       "https://finance.yahoo.com/technology/ai/articles/paper-raises-34-million-series-130000344.html",
       "https://justainews.com/companies/funding-news/paper-raises-34-million-to-build-design-tools-for-the-ai-coding-era/",
-      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era"
+      "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era",
+      "https://paper.co/",
+      "https://paper.co/blog/gradeslam-raises-16-million-in-seed-financing",
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wcmZEYUJMTmw4QlNrUFhXem54bV9oR2s5MmVQRHdiQ1lQS3JGc0dGWDMtNWYyWWMzUUhMUmpzNTRwTTZGVVhKU0QxQVk4SDFUaEZQNE55M040VVRFb1VONWw5NWZTRFNHSGtndDdzTlhacDhRaGNxRjBJeXNkdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2RKeTBna2FjOXYyVXdKVU5FaFhfcjNvZW45eDJ3WjZnbWVjM29rVkk2UG5jZ0h2ZFlibVZXcWNlMU0xR3hhR0hfc2JZM1VuMjhNZzdlRHdSSmVjLU1TdGpUVDVWMG1UUzVsVllyVW5lVjFwLW45TkRPektNWkJhMHpJSlFlbF9teGVLclRsWFVZTzRlVGs4OThLYy1ucnVxSkpB?oc=5",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOM09rX1UxTmktbVRpaEhWcTBhM0NUMkMtY0RDaThDekpZcE93d2lCQnRxT0lLSUdnZE1TU1VmTE9XVjUzempUaHBCNEl6QmhBcEFnUTJHeW1aQWliUTJKMGp0a1hpS25EeFI3U2w0djRqdVE0MjV5NmlnWkFJdEtoUnYxU1ZyVXQ0ZjU1M2xwbTVuRzhxYUYwVEVzaDVTdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdUJQck5mQkRYQU1BTkdKQW5YT2dqMnphaTcwOWl5UWtKV3RlUXFXek1zQkZsTEo5dFFOVUJuWVZYaUV1RGlSQnhRVkgyeUhmcm92VWN6QUxXWFRaYjJsamI2OTUzQTc5WnRIajNyN2hKdTlhbENpeW1uWldOSS1raGdFZEtIUFBXUlNOSXZON29QdGlNeU5FUXYtS0tiRE1OMURQQ3VPQXVVb0g4U1g1TEI2QUYtMG84MklLNE5RMmJwVVhObVpFNFpzMnlFbHdONFRBdDVCWVhSTE9UeFc1TUQ4bzhLbU96ZFZ1NFRtUmxqNkk3VHc?oc=5"
     ],
-    "funding_status": "no public funding",
-    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist | Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 1600000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1600000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "PartnerStack",
@@ -3186,14 +3209,15 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 10800000.0,
     "last_round_currency": "USD",
     "last_round_date": null,
     "total_raised": 10800000,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "PermissionClick",
@@ -3345,14 +3369,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 20000000,
     "total_raised_currency": "USD",
     "last_round_type": "Series B",
     "last_round_amount": 20000000.0,
     "last_round_currency": "USD",
     "last_round_date": "2022-12-13",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Plotly",

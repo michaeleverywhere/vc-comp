@@ -1179,7 +1179,7 @@
     ],
     "funding_status": "unclear-round-type",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Undisclosed round type",
     "last_round_amount": 20000000.0,
     "last_round_currency": "GBP",
@@ -1190,7 +1190,8 @@
     "notable_investors": [
       "Accel",
       "General Catalyst"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Tillion",
@@ -1459,25 +1460,27 @@
     "scraped_at": "2026-10-04T13:14:53.151648+00:00",
     "funding_rounds": [
       {
-        "stage": "Series E",
-        "amount": 300000000.0,
-        "currency": "USD",
-        "date": "2025-10-17",
-        "investors": [],
-        "source_url": "https://fintech.global/2025/10/17/payroll-giant-deel-bags-300m-at-17-3bn-valuation/"
-      },
-      {
         "stage": "Series D",
         "amount": 425000000.0,
         "currency": "USD",
-        "date": null,
+        "date": "2021-10-18",
         "lead_investors": [
           "Coatue"
         ],
         "investors": [
           "Coatue"
         ],
-        "source_url": "https://www.deel.com/blog/weve-raised-our-series-d/"
+        "source_url": "https://www.deel.com/blog/weve-raised-our-series-d/",
+        "date_source_url": "https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/deel-raises-425m-in-series-d-funding-to-continue-transforming-the-future-of-work",
+        "date_filled": "2026-10-24"
+      },
+      {
+        "stage": "Series E",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": "2025-10-17",
+        "investors": [],
+        "source_url": "https://fintech.global/2025/10/17/payroll-giant-deel-bags-300m-at-17-3bn-valuation/"
       }
     ],
     "grants": [],
@@ -1495,7 +1498,7 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series E",
     "last_round_amount": 300000000.0,
     "last_round_currency": "USD",
@@ -1505,7 +1508,8 @@
     "total_raised_basis": "sum_of_sourced_rounds",
     "notable_investors": [
       "Coatue"
-    ]
+    ],
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Reliably",
@@ -2378,13 +2382,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Acurable",

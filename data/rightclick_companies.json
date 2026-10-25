@@ -7,20 +7,36 @@
     "primary_investor": "Right Click Capital",
     "source_url": "https://www.rightclickcapital.com/portfolio/",
     "scraped_at": "2026-10-16T23:04:38.095664+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 4000000.0,
+        "currency": "USD",
+        "date": "2015-10-15",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/17hats-raises-4m-led-by-wavemaker-partners-300158017.html",
+        "date_basis": "snippet",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://17hats.com/"
+      "https://17hats.com/",
+      "https://www.prnewswire.com/news-releases/17hats-raises-4m-led-by-wavemaker-partners-300158017.html",
+      "https://www.pehub.com/wavemaker-partners-leads-4-mln-series-a-funding-in-17hats/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 4000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 4000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2015-10-15",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "8i",

@@ -52,13 +52,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-22",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-22"
   },
   {
     "company_name": "Aervio",
@@ -825,13 +826,14 @@
     "funding_source_urls": [],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Coachbetter",
@@ -2454,23 +2456,49 @@
     "primary_investor": "TheVentureCity",
     "source_url": "https://www.theventure.city/companies",
     "scraped_at": "2026-10-17T18:50:40.457532+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 22000000.0,
+        "currency": "USD",
+        "date": "2018-02-23",
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbFc1Q3FHVVRZTS04OHh1Q1JwY1FtVndHWFFEOHlwR3NMdjFJQ004TERuYnAwR2RWVVZGX3BXdHNUWHBocUIydUJNUk8zeVB5SmlLTkJUZzg0dlAzUEZTby02YllKOEVLeWFzUHJrOVlpRzl6V2xkd2FIdDhBUUN4UXdGR3ZkNGpYdzhtTVFiTWsyMl9xeGE2X3BjYUpfWS1NOEYtZzF2LW02RW0wdWh5alp3VHRiUUZ3bGxBYWFzc1RkYnFya1pscndXQ0VDSGRwWmlLMTJ3?oc=5",
+        "date_basis": "rss",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      },
+      {
+        "stage": "Series C",
+        "amount": 70000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://recargapay.com.br/about",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://recargapay.com.br/",
       "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVXQzYXRySkZOa0VPV1g5SlRjaHpFVlhPcnpwN3hzcWR2Wk1iWkt0cXlFOHBDMGwtLTh2N2xJSHlkTEtWSFF2WVJZQ1JFeVpaR3g4dG03U1ItSFJiU1ZhYlRId0xXSlVtckJvTTFIU29rT0FLX2ZWcHJRbFdYWm9tQ3c1cWg5bkhaNjdpTG1oOGYxSUFaTUlYWkNoMVhCMXpZbDhxLVZIczVRckVYT0ZF?oc=5",
       "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbFc1Q3FHVVRZTS04OHh1Q1JwY1FtVndHWFFEOHlwR3NMdjFJQ004TERuYnAwR2RWVVZGX3BXdHNUWHBocUIydUJNUk8zeVB5SmlLTkJUZzg0dlAzUEZTby02YllKOEVLeWFzUHJrOVlpRzl6V2xkd2FIdDhBUUN4UXdGR3ZkNGpYdzhtTVFiTWsyMl9xeGE2X3BjYUpfWS1NOEYtZzF2LW02RW0wdWh5alp3VHRiUUZ3bGxBYWFzc1RkYnFya1pscndXQ0VDSGRwWmlLMTJ3?oc=5",
-      "https://www.pymnts.com/news/investment-tracker/2021/brazil-recargapay-raises-70m-to-expand-payments-app/"
+      "https://www.pymnts.com/news/investment-tracker/2021/brazil-recargapay-raises-70m-to-expand-payments-app/",
+      "https://recargapay.com.br/about",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlRKMUFwZEJ6anpKaUNIVkg2cWdCWFVNdjVNNERFNjhjQzVmYzNibjJjMFllazR4eE1PTFFBNWtacVFJQ282RVZweEp5M2JRbjBYR0ZOUkhtUXN5OFVEOVIwUHR3MnFfdTlGWlIyOG9Dakx0TE96SHVuM1UtVHB0VzljR0w?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 92000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series B",
+    "last_round_amount": 22000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2018-02-23",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Reloadly",

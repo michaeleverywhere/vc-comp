@@ -12,7 +12,18 @@
     "primary_investor": "LoftyInc Capital",
     "source_url": "https://loftyinc.vc/portfolio/",
     "scraped_at": "2026-10-17T21:11:02.647324+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5100000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oOEFEN0RIWjg2VmVmd2lNcTBoc2VBemdfazduZTE5YzFXeTlhdF9CRU9HV1JvLXFPLXliUmd5ZzZGZFlnOVpwanhjaURCWEnSAVRBVV95cUxQN0dxeVNoeFhISFZnT2ZRY0NyV0gwbHJJNFFRWjNNYjdid0VwN3dRMGlWQjlsc2owWEVVYzRRU2ZTTDQ3ZlUzLXpSOGl5d3JlR2FMdWE?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMlkwN3VCeE5lMk1pR3pLWVFsalNRWnR6X19ncTRlWkpGd2I3dkkxVUVBZ2RLR1dBQjFWdkFMQ29pN3dFRDBhMkEzX2lpZHpubmUxdTF0Wl9xZElkNlU2dkpwdHNiM29TTE50Ullob3FIOWNHUVNYb1JXVTRMOVUtNDlZczdlT2p5TGx2cHJNUG4xcFE?oc=5",
@@ -21,15 +32,17 @@
       "https://finance.yahoo.com/news/abwaab-raises-20m-series-led-100023757.html",
       "https://www.arabnews.com/business/jordans-edtech-abwaab-raises-20m-series-a-round-1968386"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 5100000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 5100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Akiba",
@@ -220,14 +233,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-city+distinctive-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Form D offering (round type not stated)",
     "last_round_amount": 4124986.0,
     "last_round_currency": "USD",
     "last_round_date": "2025-09-30",
     "total_raised": 46756375,
     "total_raised_currency": "USD",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Ando",
@@ -249,13 +263,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Appruve",
@@ -1550,21 +1565,35 @@
     "primary_investor": "LoftyInc Capital",
     "source_url": "https://loftyinc.vc/portfolio/",
     "scraped_at": "2026-10-17T21:11:02.647324+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 2000000.0,
+        "currency": "USD",
+        "date": "2023-05-26",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/metalex-raised-2m-in-seed-funding-led-by-endura-capital-management-301835978.html",
+        "date_basis": "text",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDQ0SUsweVhCRVdrNDdhYmprbmUybVI3eU96YTl5NWJpYXBMWjJtcElSa09oWC1sOVFXZm5qbHFzWTdOclNDQS1FSG9YZXIxcl94Q1M4amNGWi01UG1FVTJRT1N3UWMxdTdPc3N0dGpXSnJVM0xOUUV3Z1VCQ0d6X2NacjRvVDJmazhIdE1zTFdVa2V6YlR4NGtBcXdNRnZpQUJxZ0hWMUIwNGFyV2ppSTdqbmtjR0JiQUVyWGlZMA?oc=5",
       "https://www.prnewswire.com/news-releases/metalex-raised-2m-in-seed-funding-led-by-endura-capital-management-301835978.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 2000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 2000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-05-26",
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Money Hash",
@@ -1954,14 +1983,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": 1900000,
     "total_raised_currency": "USD",
     "last_round_type": "Strategic",
     "last_round_amount": 1900000.0,
     "last_round_currency": "USD",
     "last_round_date": "2023-09-07",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Norebase",

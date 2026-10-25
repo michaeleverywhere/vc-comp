@@ -277,13 +277,14 @@
     ],
     "funding_status": "no public funding found (fast pass)",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "total_raised": null,
     "total_raised_currency": null,
     "last_round_type": null,
     "last_round_amount": null,
     "last_round_currency": null,
-    "last_round_date": null
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "Cleyrop",
@@ -467,14 +468,15 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series B",
     "last_round_amount": 14000000.0,
     "last_round_currency": "EUR",
     "last_round_date": null,
     "total_raised": 34000000,
     "total_raised_currency": "EUR",
-    "total_raised_basis": "sum_of_sourced_rounds"
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "EvidenceHunt",
@@ -1024,7 +1026,18 @@
     "primary_investor": "Keen Venture Partners",
     "source_url": "https://www.keenventurepartners.com/portfolio",
     "scraped_at": "2026-10-17T20:05:51.742601+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 750000.0,
+        "currency": "EUR",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeFctN1k1NVdEUWRyS1RaTFVtVkhwR29uQ2hMNFRUc1dpcHN3M3A0QndsTGpaNW82X3BxSEVWMTVwTnctNm1ybDRSZFJDYjNnMGVpZ05yQW5ReU9Hd3ZudjdpckZ3NkhNRjFZUl9OcEo0WW90ZGlhYldrRGl5OThZNmhwZ20xLVEtZHJ3aGhjZlgtSDA1VWVCZ3Z2aEFfYUJCOFNEQUJGTHNQUEotSzI1UFlTMXFmWk9CMWl0eldKZlBTWHFId1E2NVdrdkFRaGVhN25V?oc=5",
+        "history_new": true,
+        "rotation_new": "2026-10-24"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://qneiform.com/",
@@ -1033,15 +1046,17 @@
       "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeFctN1k1NVdEUWRyS1RaTFVtVkhwR29uQ2hMNFRUc1dpcHN3M3A0QndsTGpaNW82X3BxSEVWMTVwTnctNm1ybDRSZFJDYjNnMGVpZ05yQW5ReU9Hd3ZudjdpckZ3NkhNRjFZUl9OcEo0WW90ZGlhYldrRGl5OThZNmhwZ20xLVEtZHJ3aGhjZlgtSDA1VWVCZ3Z2aEFfYUJCOFNEQUJGTHNQUEotSzI1UFlTMXFmWk9CMWl0eldKZlBTWHFId1E2NVdrdkFRaGVhN25V?oc=5",
       "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUcHk3aDJUOU04RHBJc3B3eEpaT3Fod0hPM3ZsUHpfbEhQRGQ4RGVFMlJUcjBjcGt1UjF3OFhZMlZJZXdONnktV1ZYT1laM01RNVNGaHZqNjJlYTRYYm52SXJ0S1NscTZEd1d3LUhR?oc=5"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-24",
+    "total_raised": 750000,
+    "total_raised_currency": "EUR",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 750000.0,
+    "last_round_currency": "EUR",
+    "last_round_date": null,
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Rescale",
@@ -1288,13 +1303,14 @@
     ],
     "funding_status": "seed+",
     "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-21",
+    "funding_checked": "2026-10-24",
     "last_round_type": "Series A",
     "last_round_amount": null,
     "last_round_currency": null,
     "last_round_date": "2023-11-29",
     "total_raised": null,
-    "total_raised_currency": null
+    "total_raised_currency": null,
+    "funding_first_checked": "2026-10-21"
   },
   {
     "company_name": "VonWood",
