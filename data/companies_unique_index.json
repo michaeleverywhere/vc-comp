@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 194214,
-  "vc_source_rows": 155726,
+  "total_source_rows": 195472,
+  "vc_source_rows": 156984,
   "accelerator_source_rows": 38488,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 111293,
-  "companies_with_2plus_backers": 36362,
-  "companies_with_vc_and_accelerator": 10647,
-  "companies_keyed_by_domain": 77804,
-  "companies_keyed_by_name": 33489,
-  "name_rows_joined_to_domain_company": 24397,
-  "companies_with_possible_matches": 14920,
-  "shared_hosts_treated_as_junk": 227,
-  "companies_with_funding_rounds": 21999,
-  "companies_funding_checked": 107884,
-  "funding_rounds_total": 38954,
+  "unique_companies": 111778,
+  "companies_with_2plus_backers": 36602,
+  "companies_with_vc_and_accelerator": 10685,
+  "companies_keyed_by_domain": 78210,
+  "companies_keyed_by_name": 33568,
+  "name_rows_joined_to_domain_company": 24548,
+  "companies_with_possible_matches": 15062,
+  "shared_hosts_treated_as_junk": 230,
+  "companies_with_funding_rounds": 22036,
+  "companies_funding_checked": 107906,
+  "funding_rounds_total": 39017,
   "research_records_available": 123240,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17090,
-      "bytes": 39999240,
+      "companies": 17116,
+      "bytes": 39999194,
       "first_company": "!K7",
-      "last_company": "Carré Mobility"
+      "last_company": "Caroline School"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17042,
-      "bytes": 39996774,
-      "first_company": "Carré technologies (Hexoskin)",
-      "last_company": "Finary"
+      "companies": 17043,
+      "bytes": 39998857,
+      "first_company": "CarOnSale",
+      "last_company": "Filecoin"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17418,
-      "bytes": 39998990,
-      "first_company": "Finary.com",
-      "last_company": "Koshy"
+      "companies": 17423,
+      "bytes": 39998797,
+      "first_company": "Filed",
+      "last_company": "Komli Media"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17283,
-      "bytes": 39999626,
-      "first_company": "KOSKA Corporation",
-      "last_company": "Orionis Biosciences"
+      "companies": 17300,
+      "bytes": 39998909,
+      "first_company": "Komment",
+      "last_company": "Orca"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17104,
-      "bytes": 39999169,
-      "first_company": "ORIS Intelligence",
-      "last_company": "SiembraCo"
+      "companies": 17112,
+      "bytes": 39998586,
+      "first_company": "Orca",
+      "last_company": "Shopdeca"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17388,
-      "bytes": 39997685,
-      "first_company": "SIEMonster",
-      "last_company": "Vitalliance"
+      "companies": 17382,
+      "bytes": 39996359,
+      "first_company": "ShopDeck",
+      "last_company": "Viologen"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 7968,
-      "bytes": 16198208,
-      "first_company": "Vitally",
+      "companies": 8402,
+      "bytes": 17071147,
+      "first_company": "Viome",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
