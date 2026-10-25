@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 194210,
-  "vc_source_rows": 155723,
-  "accelerator_source_rows": 38487,
+  "total_source_rows": 194214,
+  "vc_source_rows": 155726,
+  "accelerator_source_rows": 38488,
   "unnamed_source_rows_skipped": 0,
   "unique_companies": 111293,
   "companies_with_2plus_backers": 36362,
-  "companies_with_vc_and_accelerator": 10646,
+  "companies_with_vc_and_accelerator": 10647,
   "companies_keyed_by_domain": 77804,
   "companies_keyed_by_name": 33489,
   "name_rows_joined_to_domain_company": 24397,
   "companies_with_possible_matches": 14920,
   "shared_hosts_treated_as_junk": 227,
-  "companies_with_funding_rounds": 21996,
-  "companies_funding_checked": 107880,
-  "funding_rounds_total": 38947,
+  "companies_with_funding_rounds": 21999,
+  "companies_funding_checked": 107884,
+  "funding_rounds_total": 38954,
   "research_records_available": 123240,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17098,
-      "bytes": 39999507,
+      "companies": 17090,
+      "bytes": 39999240,
       "first_company": "!K7",
-      "last_company": "Carsnip"
+      "last_company": "Carré Mobility"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17052,
-      "bytes": 39996208,
-      "first_company": "Carsome",
-      "last_company": "Finch"
+      "companies": 17042,
+      "bytes": 39996774,
+      "first_company": "Carré technologies (Hexoskin)",
+      "last_company": "Finary"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17426,
-      "bytes": 39998518,
-      "first_company": "Finch",
-      "last_company": "Kountermove"
+      "companies": 17418,
+      "bytes": 39998990,
+      "first_company": "Finary.com",
+      "last_company": "Koshy"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17290,
-      "bytes": 39999246,
-      "first_company": "Kouo",
-      "last_company": "Oro Labs"
+      "companies": 17283,
+      "bytes": 39999626,
+      "first_company": "KOSKA Corporation",
+      "last_company": "Orionis Biosciences"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17113,
-      "bytes": 39999749,
-      "first_company": "Oro Money",
-      "last_company": "Sifteo"
+      "companies": 17104,
+      "bytes": 39999169,
+      "first_company": "ORIS Intelligence",
+      "last_company": "SiembraCo"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17395,
-      "bytes": 39998546,
-      "first_company": "Siftery, Inc.",
-      "last_company": "Vitrue Health"
+      "companies": 17388,
+      "bytes": 39997685,
+      "first_company": "SIEMonster",
+      "last_company": "Vitalliance"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 7919,
-      "bytes": 16070148,
-      "first_company": "Vitrus",
+      "companies": 7968,
+      "bytes": 16198208,
+      "first_company": "Vitally",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
