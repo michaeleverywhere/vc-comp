@@ -562,7 +562,18 @@
    "batch_date": "",
    "batch_date_precision": "",
    "most_recent_batch": true,
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Undisclosed round type",
+     "amount": 3000000.0,
+     "currency": "USD",
+     "date": null,
+     "investors": [],
+     "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdGRpSFpQZG4wV1h1Yzg1eVNQbEFzdXRDY1p6U0o5YWdYUDh4bkhzV3B2NEt5aVZZVkE5WmR2ZXRId3gyZHZkODlaV2Z6LUlPOVFuVTBCLWZhLUFpY2ZGVzROanNKTm9qZW5ZRTdrc05CVGRHMHh3T2F3ZU5PeE16SUFVZ0FiVTlSS1B3X05RU19jZ1RUQnMzTlE3YUhtX015U1Y5RUVNMV9FOG5EU19tUmg1ZDNMVjVoWlhSZWQ4NDVPWjNNSFQ3dldjcTZVQQ?oc=5",
+     "history_new": true,
+     "rotation_new": "2026-10-24"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://winichfarms.com/",
@@ -573,15 +584,17 @@
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjFkUkhQQWlGOHAyenhLN2d1LTVFN0lPX1lSSXJqLVQ3QXdGRUNOYnd5NkFZR3QzcldmMWplbERNaU03QXpCbGQyT3hWSEJsZ0VUNUpuVGRlWkFRa3Jrb1N4ZFBkbzdqWVFaRVhyeHdSLUE4N1FmaUV4QTZCUzNZamw2ZWNhb3Q5SkRlajRtNnVTV1U4TUlCaHBBQkhpdWVRT1pfWTNic3ZZc0ZQcHF0MVRCcU1TNGw2?oc=5",
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VTzUwcHpON1hEZ25ORndLX2loeXZJZjNFYjFjaWhoX1p2VWdJWDk2bUxfZC1NVDVuMUpuSXhiSDRrMkl3N2I5ZlFZOW9WQmpCQVVkQkdKbnZ6ZGJRYThGSFlJWVJuTTVuN1FWM1dvVWw?oc=5"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "funding_checked": "2026-10-21",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "funding_status": "unclear-round-type",
+   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; monthly rotation recheck 2026-10-24: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+   "funding_checked": "2026-10-24",
+   "total_raised": 3000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Undisclosed round type",
+   "last_round_amount": 3000000.0,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "funding_first_checked": "2026-10-21",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Isidore",
@@ -847,13 +860,14 @@
    ],
    "funding_status": "no public funding found (fast pass)",
    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
-   "funding_checked": "2026-10-22",
+   "funding_checked": "2026-10-24",
    "total_raised": null,
    "total_raised_currency": null,
    "last_round_type": null,
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "funding_first_checked": "2026-10-22"
   },
   {
    "name": "Synnefa",
@@ -1337,13 +1351,14 @@
    ],
    "funding_status": "no public funding found (fast pass)",
    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
-   "funding_checked": "2026-10-21",
+   "funding_checked": "2026-10-24",
    "total_raised": null,
    "total_raised_currency": null,
    "last_round_type": null,
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "funding_first_checked": "2026-10-21"
   },
   {
    "name": "Schoolable",
