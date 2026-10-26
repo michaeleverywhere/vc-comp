@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 196556,
+  "total_source_rows": 197945,
   "vc_source_rows": 158068,
-  "accelerator_source_rows": 38488,
+  "accelerator_source_rows": 39877,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 112384,
-  "companies_with_2plus_backers": 36777,
-  "companies_with_vc_and_accelerator": 10713,
-  "companies_keyed_by_domain": 78412,
-  "companies_keyed_by_name": 33972,
-  "name_rows_joined_to_domain_company": 24680,
-  "companies_with_possible_matches": 15104,
-  "shared_hosts_treated_as_junk": 230,
-  "companies_with_funding_rounds": 22081,
-  "companies_funding_checked": 107915,
-  "funding_rounds_total": 39080,
+  "unique_companies": 113233,
+  "companies_with_2plus_backers": 37025,
+  "companies_with_vc_and_accelerator": 10950,
+  "companies_keyed_by_domain": 78691,
+  "companies_keyed_by_name": 34542,
+  "name_rows_joined_to_domain_company": 24887,
+  "companies_with_possible_matches": 15167,
+  "shared_hosts_treated_as_junk": 233,
+  "companies_with_funding_rounds": 22082,
+  "companies_funding_checked": 107927,
+  "funding_rounds_total": 39082,
   "research_records_available": 123228,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17154,
-      "bytes": 39999557,
+      "companies": 17191,
+      "bytes": 39999463,
       "first_company": "!K7",
-      "last_company": "Caring (케어링)"
+      "last_company": "Careteam"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17117,
-      "bytes": 39991585,
-      "first_company": "Caring.com",
-      "last_company": "Fieldglass"
+      "companies": 17171,
+      "bytes": 39999166,
+      "first_company": "Careteam Technologies",
+      "last_company": "Ferry (formerly ThirdRails)"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17422,
-      "bytes": 39999018,
-      "first_company": "Fieldguide",
-      "last_company": "Knowzilla"
+      "companies": 17468,
+      "bytes": 39999598,
+      "first_company": "Ferry Health",
+      "last_company": "Klarent"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17362,
-      "bytes": 39997698,
-      "first_company": "Knox",
-      "last_company": "Optina Diagnostic"
+      "companies": 17434,
+      "bytes": 39999213,
+      "first_company": "Klarify",
+      "last_company": "OpenProse"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17169,
-      "bytes": 39998360,
-      "first_company": "Optina Diagnostics",
-      "last_company": "Shelter"
+      "companies": 17195,
+      "bytes": 39999639,
+      "first_company": "OpenQ",
+      "last_company": "Sertifier"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17369,
-      "bytes": 39999184,
-      "first_company": "Shelter Share",
-      "last_company": "ViaSight"
+      "companies": 17444,
+      "bytes": 39996367,
+      "first_company": "Sertis",
+      "last_company": "Vergent Bioscience"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 8791,
-      "bytes": 17886455,
-      "first_company": "VIASWEAT",
+      "companies": 9330,
+      "bytes": 19136678,
+      "first_company": "VergeSense",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
