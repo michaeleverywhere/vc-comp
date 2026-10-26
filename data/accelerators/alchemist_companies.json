@@ -2279,8 +2279,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "no public funding",
+   "funding_notes": "DiffEnder (diffender.com). No public funding found beyond Alchemist.",
    "funding_checked": "2026-10-24",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2306,18 +2306,36 @@
    "location": "Milpitas, CA 95035, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2026-02",
+     "investors": [
+      "Capitalize VC (lead)",
+      "The Artemis Fund"
+     ],
+     "source_url": "https://theartemisfund.com/perspectives/our-investment-in-atronousai-to-power-the-intelligent-data-layer-of-commerce/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://theartemisfund.com/perspectives/our-investment-in-atronousai-to-power-the-intelligent-data-layer-of-commerce/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Atronous.ai seed led by Capitalize VC with The Artemis Fund (Artemis post Feb 27, 2026). Aggregators report $3M on 2026-02-20; amount/exact date not shown on primary source.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2026-02",
+   "notable_investors": [
+    "Capitalize VC (lead)",
+    "The Artemis Fund"
+   ]
   },
   {
    "name": "Kropply",
@@ -2338,8 +2356,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Only the Alchemist accelerator check found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2367,18 +2385,38 @@
    "location": "New York, NY, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_rounds": [
+    {
+     "stage": "Pre-Seed",
+     "amount": 550000,
+     "currency": "USD",
+     "date": "2023-01",
+     "investors": [],
+     "source_url": ""
+    }
+   ],
+   "grants": [
+    {
+     "name": "GENIUS NY accelerator award/investment",
+     "amount": 500000,
+     "currency": "USD",
+     "date": "2024-10-29",
+     "source_url": "https://esd.ny.gov/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://esd.ny.gov/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "GENIUS NY $500K award announced Oct 29, 2024 by Empire State Development. $550K pre-seed Jan 2023 per aggregators only (no primary source).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 550000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Pre-Seed",
+   "last_round_amount": 550000,
+   "last_round_currency": "USD",
+   "last_round_date": "2023-01",
+   "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
    "name": "Pipedata AI",
@@ -2401,8 +2439,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Now Acro. Accelerator only.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2431,19 +2469,41 @@
    "location": "Santa Clara, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1100000,
+     "currency": "USD",
+     "date": "2019-09-12",
+     "investors": [
+      "212 (lead)",
+      "500 Istanbul",
+      "angels"
+     ],
+     "source_url": "https://webrazzi.com/2019/09/12/mall-iq-1-1-milyon-dolar-yatirim-aldigini-duyurdu/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://webrazzi.com/2019/09/12/mall-iq-1-1-milyon-dolar-yatirim-aldigini-duyurdu/",
+    "https://medium.com/212vc/our-investment-in-mall-iq-1d3214d0f4df"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Mall IQ $1.1M seed led by 212 (Webrazzi Sep 12, 2019).",
    "funding_checked": "2026-10-24",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null,
-   "funding_first_checked": "2026-10-22"
+   "total_raised": 1100000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1100000,
+   "last_round_currency": "USD",
+   "last_round_date": "2019-09-12",
+   "funding_first_checked": "2026-10-22",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "212 (lead)",
+    "500 Istanbul",
+    "angels"
+   ]
   },
   {
    "name": "11Sight",
@@ -2463,9 +2523,11 @@
    "linkedin_url": "",
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.11sight.com/about-us"
+   ],
+   "funding_status": "unclear round type",
+   "funding_notes": "11Sight (conversational AI for automotive). Aggregators (CB Insights, VCBacked) list a Series A; no primary source found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2494,6 +2556,19 @@
    "linkedin_url": "",
    "funding_rounds": [
     {
+     "stage": "Seed",
+     "amount": 2900000,
+     "currency": "USD",
+     "date": "2019-09-02",
+     "investors": [
+      "Crosscut Ventures (lead)",
+      "Precursor Ventures",
+      "The Helm",
+      "Correlation Ventures"
+     ],
+     "source_url": "https://www.fuseinventory.com/blog/fuse-funding-announcement"
+    },
+    {
      "stage": "Form D offering (round type not stated)",
      "amount": 2999998.0,
      "currency": "USD",
@@ -2505,18 +2580,25 @@
    ],
    "grants": [],
    "funding_source_urls": [
-    "https://www.sec.gov/Archives/edgar/data/1896751/000189675121000001/primary_doc.xml"
+    "https://www.sec.gov/Archives/edgar/data/1896751/000189675121000001/primary_doc.xml",
+    "https://www.fuseinventory.com/blog/fuse-funding-announcement"
    ],
-   "funding_status": "unclear-round-type",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+   "funding_status": "seed or later",
+   "funding_notes": "Fuse $2.9M seed (company blog Sep 2, 2019). SEC Form D $2,999,998 on 2021-07-19 (type not stated).",
    "funding_checked": "2026-10-22",
    "last_round_type": "Form D offering (round type not stated)",
    "last_round_amount": 2999998.0,
    "last_round_currency": "USD",
    "last_round_date": "2021-07-19",
-   "total_raised": 2999998,
+   "total_raised": 5899998,
    "total_raised_currency": "USD",
-   "total_raised_basis": "sum_of_sourced_rounds"
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Crosscut Ventures (lead)",
+    "Precursor Ventures",
+    "The Helm",
+    "Correlation Ventures"
+   ]
   },
   {
    "name": "Nanovascular Technologies, Inc.",
@@ -2539,8 +2621,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Only the $30K Alchemist check on aggregators.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2567,18 +2649,35 @@
    "location": "Hayward, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Equity crowdfunding",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "Wefunder investors"
+     ],
+     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2107814"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://frontierbio.com/",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2107814"
+   ],
+   "funding_status": "unclear round type",
+   "funding_notes": "Frontier Bio: Reg CF (Wefunder) per SEC Form C; aggregator Seedtable lists $1.3M seed led by Portfolia (no primary source); company cites $7M raised, round type unclear.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Equity crowdfunding",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": null,
+   "notable_investors": [
+    "Wefunder investors"
+   ]
   },
   {
    "name": "Domos Labs",
@@ -2599,8 +2698,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear round type",
+   "funding_notes": "Aggregators only (CB Insights): Series A from Scale Leap Capital; acquired by CUJO AI Apr 2025. No primary source.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2630,9 +2729,11 @@
    "linkedin_url": "",
    "funding_rounds": [],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://techcrunch.com/2015/02/20/box-acquires-airpost/"
+   ],
+   "funding_status": "no public funding",
+   "funding_notes": "Acquired by Box Feb 20, 2015 (TechCrunch). Funding only on aggregators.",
    "funding_checked": "2026-10-24",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2665,8 +2766,8 @@
     "https://news.google.com/rss/articles/CBMipgJBVV95cUxQRlY4NnZ3MFlSWm13Z1liX2E2cGJ0cGVPbjRzRmRUX2NsbnFWM0l5U0ZjOV93anVjT3hET055QUFOMUNHUTBIeTNJeUhtZDVPYkxxajRlRVhwRExFSnppVTBJUzhtRWltd3g5YTRLUVVTUzdMUWZvV3Y1MDE2ZG95T0w0ZFJmVEM5MXF0a0dOOFdDdG9veU1xeGlBdWRQRHJ6U1A5M3dCZEVqdXkyWnhSMENiOUcxZTZKQzY2MVhTOHYwOEJwaVVweVVzVGs3aXZqWThxLURDZGtuTExWd2N2ellxX2psWG1nRVAxaVl0cE5MWllPQXFUaERydFotb0JOdTVndnViaFFrOUlHY1hnV1ZzQU9odHZUcUlLQm40U2YySy1tdFE?oc=5",
     "https://www.nola.com/news/business/new-orleans-based-fluence-secures-series-a-funding/article_aec204ee-8d3d-505e-9e3b-997be556a3b0.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 1 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "no public funding",
+   "funding_notes": "No public funding found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2693,18 +2794,48 @@
    "location": "New York, NY, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed + Series A",
+     "amount": 18000000,
+     "currency": "USD",
+     "date": "2023-10",
+     "investors": [
+      "CRV",
+      "Fika Ventures",
+      "Index Ventures"
+     ],
+     "source_url": "https://siroai.notion.site/"
+    },
+    {
+     "stage": "Series B",
+     "amount": 50000000,
+     "currency": "USD",
+     "date": "2025-05-22",
+     "investors": [],
+     "source_url": "https://finance.yahoo.com/news/siro-raises-50m-series-b-200900314.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://finance.yahoo.com/news/siro-raises-50m-series-b-200900314.html",
+    "https://siroai.notion.site/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Siro: $18M seed+Series A (Oct 2023, CRV/Fika/Index, company announcement) and $50M Series B (May 22, 2025).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 68000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series B",
+   "last_round_amount": 50000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-05-22",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "CRV",
+    "Fika Ventures",
+    "Index Ventures"
+   ]
   },
   {
    "name": "CryptoMove",
@@ -2727,21 +2858,37 @@
    "location": "",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 6000000,
+     "currency": "USD",
+     "date": "2018-01-12",
+     "investors": [
+      "Social Capital (lead)"
+     ],
+     "source_url": "https://fintech.global/2018/01/12/cybersecurity-startup-cryptomove-closes-6m-series-a/"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ29tZjczRWhpRUoyV25hRFU3ZU5hRENxR2N0cUNINEg5Q0NWWmQ0ajJEVEpFbWFfa3N2OGIzajBhVUdRRmhUWGxQa2tDYWRfMGRHSDBlY0Y4Ym5xM2VjczlYVktBX0JhMG5USU5rRjFkb2VFRVYwYWJ2dDZfQXktRVZoZVBsZUtjWjdmaWxIR2s4ODF1R2FKTjFIVUJCaGxYektGcjJkSmZMN2tqTGszalR4VGM?oc=5",
-    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX2tGMkRJc25KRnZESkdhbzNRQTY3WElaclN3U1dZT3lhOFpoM1pQVnlqdHZGOEV0aXZCWThtQndKVmR3NkhHM2ZxS3poZmRwY29HUVA2NzFBMjZoYnRHVEVpVkNSdE5LbHMybkVwMkxxdFBHd3dQa0hoN01CWEVTOFVaQQ?oc=5"
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX2tGMkRJc25KRnZESkdhbzNRQTY3WElaclN3U1dZT3lhOFpoM1pQVnlqdHZGOEV0aXZCWThtQndKVmR3NkhHM2ZxS3poZmRwY29HUVA2NzFBMjZoYnRHVEVpVkNSdE5LbHMybkVwMkxxdFBHd3dQa0hoN01CWEVTOFVaQQ?oc=5",
+    "https://fintech.global/2018/01/12/cybersecurity-startup-cryptomove-closes-6m-series-a/"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; 3 same-name SEC Form D filing(s) not used (identity not verified)",
+   "funding_status": "seed or later",
+   "funding_notes": "CryptoMove $6M Series A led by Social Capital.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 6000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 6000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2018-01-12",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Social Capital (lead)"
+   ]
   },
   {
    "name": "artlabs",
@@ -2761,18 +2908,46 @@
    "location": "Los Angeles, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2021-01",
+     "investors": [
+      "Kültepe",
+      "EGİAD Melekleri"
+     ],
+     "source_url": "https://kirbiyik.av.tr/"
+    },
+    {
+     "stage": "Venture (unspecified)",
+     "amount": 700000,
+     "currency": "USD",
+     "date": "2022-06-13",
+     "investors": [],
+     "source_url": "https://www.einpresswire.com/article/576220243/artlabs-raises-700k-to-democratize-3d-ar-content-generation-for-ecommerce-and-metaverse"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://kirbiyik.av.tr/",
+    "https://www.einpresswire.com/article/576220243/artlabs-raises-700k-to-democratize-3d-ar-content-generation-for-ecommerce-and-metaverse"
+   ],
+   "funding_status": "unclear round type",
+   "funding_notes": "artlabs pre-seed Jan 2021 at $2M valuation; raised $700K (EIN Presswire, Jun 13, 2022), round type not stated.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 700000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Venture (unspecified)",
+   "last_round_amount": 700000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-06-13",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Kültepe",
+    "EGİAD Melekleri"
+   ]
   },
   {
    "name": "Timekit",
@@ -2793,18 +2968,35 @@
    "location": "California, USA",
    "status": "Acquired",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1700000,
+     "currency": "USD",
+     "date": "2017-01-17",
+     "investors": [
+      "Connect Ventures (lead)"
+     ],
+     "source_url": "https://techcrunch.com/2017/01/17/timekit/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://techcrunch.com/2017/01/17/timekit/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Timekit $1.7M seed led by Connect Ventures (TechCrunch).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1700000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1700000,
+   "last_round_currency": "USD",
+   "last_round_date": "2017-01-17",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Connect Ventures (lead)"
+   ]
   },
   {
    "name": "Visage",
@@ -2822,18 +3014,39 @@
    "location": "San Francisco, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 7000000,
+     "currency": "USD",
+     "date": "2021-03-18",
+     "investors": [
+      "First Analysis (lead)",
+      "Urban Innovation Fund",
+      "Newfund"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/visage-raises-7m-series-a-led-by-first-analysis-to-streamline-candidate-sourcing-for-large-enterprise-employers-301249499.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.prnewswire.com/news-releases/visage-raises-7m-series-a-led-by-first-analysis-to-streamline-candidate-sourcing-for-large-enterprise-employers-301249499.html"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Visage $7M Series A (PR Newswire Mar 18, 2021).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 7000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 7000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-03-18",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "First Analysis (lead)",
+    "Urban Innovation Fund",
+    "Newfund"
+   ]
   },
   {
    "name": "Faber",
@@ -2854,8 +3067,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear round type",
+   "funding_notes": "Faber (Vancouver construction-labor marketplace). Aggregators only: seed Sep 2017, ~$3M seed Nov 2018, $2M convertible Dec 2019. No primary source.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -2883,18 +3096,14 @@
    "funding_rounds": [
     {
      "stage": "Series B",
-     "amount": 40000000.0,
+     "amount": 40000000,
      "currency": "USD",
-     "date": "2025-07-21",
-     "lead_investors": [
-      "Playground Global"
-     ],
+     "date": "2025-07-22",
      "investors": [
-      "Playground Global",
-      "Boardman Bay Capital Management"
+      "Playground Global (lead)",
+      "Boardman Bay Capital"
      ],
-     "source_url": "https://www.businesswire.com/news/home/20250722775465/en/xLight-Raises-%2440-Million-Series-B-to-Revolutionize-Semiconductor-Manufacturing",
-     "date_basis": "url"
+     "source_url": "https://www.xlight.com/"
     }
    ],
    "grants": [],
@@ -2905,21 +3114,22 @@
     "https://www.businesswire.com/news/home/20250722775465/en/xLight-Raises-%2440-Million-Series-B-to-Revolutionize-Semiconductor-Manufacturing",
     "https://www.optics.org/news/xlight-lands-40m-for-novel-euv-source",
     "https://pulse2.com/xlight-40-million-series-b-raised-for-transforming-semiconductor-manufacturing/",
-    "https://thenextweb.com/news/xlight-euv-350m-asml-euclyd"
+    "https://thenextweb.com/news/xlight-euv-350m-asml-euclyd",
+    "https://www.xlight.com/"
    ],
-   "funding_status": "seed+",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed or later",
+   "funding_notes": "xLight $40M Series B led by Playground Global (Business Wire / company, Jul 2025).",
    "funding_checked": "2026-10-22",
    "last_round_type": "Series B",
-   "last_round_amount": 40000000.0,
+   "last_round_amount": 40000000,
    "last_round_currency": "USD",
-   "last_round_date": "2025-07-21",
+   "last_round_date": "2025-07-22",
    "total_raised": 40000000,
    "total_raised_currency": "USD",
    "total_raised_basis": "sum_of_sourced_rounds",
    "notable_investors": [
-    "Playground Global",
-    "Boardman Bay Capital Management"
+    "Playground Global (lead)",
+    "Boardman Bay Capital"
    ]
   },
   {
@@ -2941,18 +3151,35 @@
    "location": "San Francisco, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2021-10-06",
+     "investors": [
+      "Stakeboat Capital"
+     ],
+     "source_url": "https://www.business-standard.com/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.business-standard.com/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Ozonetel $5M Series A from Stakeboat Capital (Business Standard, Oct 6, 2021).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 5000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 5000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-10-06",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Stakeboat Capital"
+   ]
   },
   {
    "name": "testRigor",
@@ -2970,18 +3197,37 @@
    "location": "San Francisco, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 4000000,
+     "currency": "USD",
+     "date": "2021-08-24",
+     "investors": [
+      "Flashpoint (lead)",
+      "Y Combinator"
+     ],
+     "source_url": "https://techcrunch.com/2021/08/24/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://techcrunch.com/2021/08/24/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "testRigor $4M seed led by Flashpoint (TechCrunch Aug 24, 2021).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 4000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 4000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2021-08-24",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Flashpoint (lead)",
+    "Y Combinator"
+   ]
   },
   {
    "name": "Frontleaf (acquired Zuora)",
@@ -3002,18 +3248,39 @@
    "location": "",
    "status": "Acquired",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Angel",
+     "amount": 450000,
+     "currency": "USD",
+     "date": "2014-01",
+     "investors": [
+      "Alchemist Accelerator",
+      "Zillionize",
+      "angels"
+     ],
+     "source_url": "https://www.zillionize.com/2014/03/14/zillionize-invests-in-frontleaf-a-saas-based-customer-success-management-solution-for-b2b-companies/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.zillionize.com/2014/03/14/zillionize-invests-in-frontleaf-a-saas-based-customer-success-management-solution-for-b2b-companies/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Frontleaf raised ~$450K from Alchemist and angels (VentureBeat, Jan 2014); Zillionize invested (Mar 14, 2014). Acquired by Zuora May 2015.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 450000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Angel",
+   "last_round_amount": 450000,
+   "last_round_currency": "USD",
+   "last_round_date": "2014-01",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Alchemist Accelerator",
+    "Zillionize",
+    "angels"
+   ]
   },
   {
    "name": "Syntonym",
@@ -3031,18 +3298,44 @@
    "location": "London, UK",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Venture (unspecified)",
+     "amount": 900000,
+     "currency": "USD",
+     "date": "2023-03-16",
+     "investors": [],
+     "source_url": "https://apyventures.com/en/blog/syntonym-a-generative-artificial-intelligence-startup-has-raised-900-k-in-investment"
+    },
+    {
+     "stage": "Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "2026-06",
+     "investors": [
+      "AI Startup Factory"
+     ],
+     "source_url": "https://ceelegalmatters.com/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://apyventures.com/en/blog/syntonym-a-generative-artificial-intelligence-startup-has-raised-900-k-in-investment",
+    "https://ceelegalmatters.com/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Syntonym raised $900K (APY Ventures, Mar 2023); seed from AI Startup Factory Jun 2026, amount undisclosed (CEE Legal Matters).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
+   "total_raised": 900000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
    "last_round_amount": null,
    "last_round_currency": null,
-   "last_round_date": null
+   "last_round_date": "2026-06",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "AI Startup Factory"
+   ]
   },
   {
    "name": "PhiTech",
@@ -3062,18 +3355,35 @@
    "location": "Gebze, Kocaeli, Türkiye",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Venture (unspecified)",
+     "amount": 2400000,
+     "currency": "USD",
+     "date": "2026-04-13",
+     "investors": [
+      "Entertech VC (lead)"
+     ],
+     "source_url": "https://www.phitech.bio/post/phitech-raises-2-4m-to-advance-multi-omics-ai-platform-for-rare-diseases-and-cancer"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.phitech.bio/post/phitech-raises-2-4m-to-advance-multi-omics-ai-platform-for-rare-diseases-and-cancer"
+   ],
+   "funding_status": "unclear round type",
+   "funding_notes": "PhiTech $2.4M round led by Entertech VC (company post Apr 13, 2026); round type not stated.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 2400000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Venture (unspecified)",
+   "last_round_amount": 2400000,
+   "last_round_currency": "USD",
+   "last_round_date": "2026-04-13",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Entertech VC (lead)"
+   ]
   },
   {
    "name": "Impruver, Inc",
@@ -3094,8 +3404,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Aggregators only (~$70K incl. Alchemist).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3123,10 +3433,20 @@
    "status": "Active",
    "linkedin_url": "",
    "funding_rounds": [],
-   "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "grants": [
+    {
+     "name": "Women and Career foundation seed grant",
+     "amount": 2250000,
+     "currency": "NGN",
+     "date": "2025-11",
+     "source_url": "https://businessday.ng/"
+    }
+   ],
+   "funding_source_urls": [
+    "https://businessday.ng/"
+   ],
+   "funding_status": "grants only",
+   "funding_notes": "Ntapi received a ₦2.25M seed grant (BusinessDay/Punch, Nov 2025).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3157,8 +3477,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "unclear round type",
+   "funding_notes": "Utrust (now xMoney): 2017 token sale (~$21M, not equity); Sep 2025 $21.5M strategic round led by Sui Foundation per aggregator CoinCarp only.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3183,18 +3503,39 @@
    "location": "Toronto, ON, Canada",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2024-10-16",
+     "investors": [
+      "Innospark Ventures (lead)",
+      "Draper Associates",
+      "First Star Ventures"
+     ],
+     "source_url": "https://www.businesswire.com/news/home/20241016165581/en/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.businesswire.com/news/home/20241016165581/en/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Phaseshift US$3M (C$4.1M) seed (Business Wire Oct 16, 2024).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 3000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 3000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2024-10-16",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Innospark Ventures (lead)",
+    "Draper Associates",
+    "First Star Ventures"
+   ]
   },
   {
    "name": "Kaspix",
@@ -3217,8 +3558,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "No public funding found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3246,8 +3587,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Aggregator-only info (not used).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3274,18 +3615,37 @@
    "location": "San Francisco, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1000000,
+     "currency": "USD",
+     "date": "2013-07",
+     "investors": [
+      "Red Dot Ventures",
+      "SPRING Singapore"
+     ],
+     "source_url": "https://venturebeat.com/security/digify-lets-you-read-secret-documents-that-will-self-destruct-on-your-mobile-device/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://venturebeat.com/security/digify-lets-you-read-secret-documents-that-will-self-destruct-on-your-mobile-device/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Digify $1M seed Jul 2013 (VentureBeat).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2013-07",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Red Dot Ventures",
+    "SPRING Singapore"
+   ]
   },
   {
    "name": "Akify Labs",
@@ -3306,8 +3666,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Seed Jul 2026 reported only by PitchBook (not used).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3337,8 +3697,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Bootstrapped (start-up.ro).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3376,13 +3736,34 @@
      "date_basis": "snippet"
     },
     {
-     "stage": "Series A",
-     "amount": 10000000.0,
+     "stage": "Seed",
+     "amount": 2500000,
      "currency": "USD",
-     "date": "2021-10-06",
+     "date": "2019-10-01",
+     "investors": [
+      "Global Brain (lead)",
+      "Salesforce Ventures",
+      "Archetype Ventures"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/autify-provider-of-ai-powered-zero-code-software-testing-automation-platform-announces-2-5-million-seed-round-300928272.html"
+    },
+    {
+     "stage": "Series A",
+     "amount": 10000000,
+     "currency": "USD",
+     "date": "2021-10-05",
+     "investors": [
+      "World Innovation Lab (lead)"
+     ],
+     "source_url": "https://techcrunch.com/2021/10/05/"
+    },
+    {
+     "stage": "Series B",
+     "amount": 13000000,
+     "currency": "USD",
+     "date": "2024-06-17",
      "investors": [],
-     "source_url": "https://www.prnewswire.com/news-releases/japanese-startup-autify-raises-10m-series-a-to-advance-software-testing-automation-through-no-code-solution-301393791.html",
-     "date_basis": "snippet"
+     "source_url": "https://www.prnewswire.com/"
     }
    ],
    "grants": [],
@@ -3391,18 +3772,27 @@
     "https://www.streetinsider.com/PRNewswire/Autify+Raises+%2413+Million+in+Series+B+Funding+and+Launches+Zenes%2C+an+Autonomous+AI+Agent+for+Software+Quality+Assurance/23364484.html",
     "https://pulse2.com/autify-quality-engineering-ai-company-secures-13-million/",
     "https://www.taiwannews.com.tw/news/5891690",
-    "https://www.sec.gov/Archives/edgar/data/1782325/000178232519000002/primary_doc.xml"
+    "https://www.sec.gov/Archives/edgar/data/1782325/000178232519000002/primary_doc.xml",
+    "https://www.prnewswire.com/news-releases/autify-provider-of-ai-powered-zero-code-software-testing-automation-platform-announces-2-5-million-seed-round-300928272.html",
+    "https://techcrunch.com/2021/10/05/",
+    "https://www.prnewswire.com/"
    ],
-   "funding_status": "seed+",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+   "funding_status": "seed or later",
+   "funding_notes": "Autify $2.5M seed (Oct 2019), $10M Series A led by WiL (Oct 2021), $13M Series B (Jun 2024).",
    "funding_checked": "2026-10-22",
-   "last_round_type": "Series A",
-   "last_round_amount": 10000000.0,
+   "last_round_type": "Series B",
+   "last_round_amount": 13000000,
    "last_round_currency": "USD",
-   "last_round_date": "2021-10-06",
-   "total_raised": 13069997,
+   "last_round_date": "2024-06-17",
+   "total_raised": 28569997,
    "total_raised_currency": "USD",
-   "total_raised_basis": "sum_of_sourced_rounds"
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Global Brain (lead)",
+    "Salesforce Ventures",
+    "Archetype Ventures",
+    "World Innovation Lab (lead)"
+   ]
   },
   {
    "name": "Aatonomy",
@@ -3427,8 +3817,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Only PitchBook-reported accelerator checks (Cornell, Alchemist); not used.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3455,18 +3845,35 @@
    "location": "Buenos Aires, Argentina",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Seed",
+     "amount": 200000,
+     "currency": "USD",
+     "date": "",
+     "investors": [
+      "GRIDX"
+     ],
+     "source_url": "https://www.iprofesional.com/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.iprofesional.com/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Qumir Nano ~US$580K across equity, grants and prizes; GRIDX invested $200K (iProfesional).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 200000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Pre-Seed",
+   "last_round_amount": 200000,
+   "last_round_currency": "USD",
+   "last_round_date": null,
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "GRIDX"
+   ]
   },
   {
    "name": "redfly.ai",
@@ -3489,8 +3896,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Alchemist only.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3521,8 +3928,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Alchemist only.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3550,18 +3957,35 @@
    "location": "Palo Alto, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Series A",
+     "amount": 11000000,
+     "currency": "USD",
+     "date": "2022-03-22",
+     "investors": [
+      "Reach Capital (lead)"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/student-built-degree-progression-platform-raises-11-million-to-empower-students-and-solve-higher-educations-major-challenge-301507815.html"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://www.prnewswire.com/news-releases/student-built-degree-progression-platform-raises-11-million-to-empower-students-and-solve-higher-educations-major-challenge-301507815.html"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Stellic $11M Series A (PR Newswire Mar 22, 2022).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 11000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Series A",
+   "last_round_amount": 11000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2022-03-22",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Reach Capital (lead)"
+   ]
   },
   {
    "name": "NanoVMs",
@@ -3582,18 +4006,39 @@
    "location": "",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 1500000,
+     "currency": "USD",
+     "date": "2018-04-16",
+     "investors": [
+      "Initialized Capital (lead)",
+      "Bloomberg Beta",
+      "Hack VC"
+     ],
+     "source_url": "https://techcrunch.com/2018/04/16/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://techcrunch.com/2018/04/16/"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "NanoVMs (formerly DeferPanic) $1.5M seed (TechCrunch Apr 16, 2018).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1500000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 1500000,
+   "last_round_currency": "USD",
+   "last_round_date": "2018-04-16",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Initialized Capital (lead)",
+    "Bloomberg Beta",
+    "Hack VC"
+   ]
   },
   {
    "name": "Outwork",
@@ -3614,8 +4059,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Alchemist only (aggregators).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3670,6 +4115,26 @@
      "investors": [],
      "source_url": "https://www.sec.gov/Archives/edgar/data/1885037/000188503724000001/primary_doc.xml",
      "date_basis": "snippet"
+    },
+    {
+     "stage": "Strategic",
+     "amount": null,
+     "currency": "USD",
+     "date": "2024-03-11",
+     "investors": [
+      "D.R. Horton"
+     ],
+     "source_url": "https://www.prnewswire.com/news-releases/apis-cor-a-manufacturer-of-construction-3d-printing-robots-announces-strategic-investment-by-dr-horton-302084850.html"
+    },
+    {
+     "stage": "Equity crowdfunding",
+     "amount": 920593,
+     "currency": "USD",
+     "date": "2025-03-08",
+     "investors": [
+      "StartEngine investors"
+     ],
+     "source_url": "https://www.sec.gov/Archives/edgar/data/1885037/000166516025000391/0001665160-25-000391.txt"
     }
    ],
    "grants": [],
@@ -3677,18 +4142,25 @@
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdk1pd0I4UkxIZXBZRGJTQlhYSDlOdXM0Z2ZUSXJnTjh6bHhDNkxwWHhBSHJUbXcxS1ZrSmsxWEFMVWRpSGN6X3JaelNHTnZ4el9VUVBHRFdrQnF4cXJST2VueExLeEVkNmUxdllEaUdYX0ZHLVEySW1ZYXRET3JDTWJBdnFkcFZHVXRGdlBuS1ZQRlY3cGpBcHZ3SERvV2R3dUlEQjZaZG85V091ZmlKazN3?oc=5",
     "https://www.sec.gov/Archives/edgar/data/1885037/000188503721000004/primary_doc.xml",
     "https://www.sec.gov/Archives/edgar/data/1885037/000188503721000003/primary_doc.xml",
-    "https://www.sec.gov/Archives/edgar/data/1885037/000188503724000001/primary_doc.xml"
+    "https://www.sec.gov/Archives/edgar/data/1885037/000188503724000001/primary_doc.xml",
+    "https://www.prnewswire.com/news-releases/3d-printed-housing-company-launches-equity-crowdfunding-via-startengine-raises-200-000-in-7-days-301647698.html",
+    "https://www.prnewswire.com/news-releases/apis-cor-a-manufacturer-of-construction-3d-printing-robots-announces-strategic-investment-by-dr-horton-302084850.html",
+    "https://www.sec.gov/Archives/edgar/data/1885037/000166516025000391/0001665160-25-000391.txt"
    ],
-   "funding_status": "unclear-round-type",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by location-city); news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+   "funding_status": "unclear round type",
+   "funding_notes": "Apis Cor: D.R. Horton strategic investment (Mar 11, 2024); StartEngine Reg CF rounds (2022, 2023 ~$2.25M, 2025 $920,593). Form D filings also exist.",
    "funding_checked": "2026-10-22",
-   "last_round_type": "Form D offering (round type not stated)",
-   "last_round_amount": 480000.0,
+   "last_round_type": "Equity crowdfunding",
+   "last_round_amount": 920593,
    "last_round_currency": "USD",
-   "last_round_date": "2023-12-15",
-   "total_raised": 2279800,
+   "last_round_date": "2025-03-08",
+   "total_raised": 3200393,
    "total_raised_currency": "USD",
-   "total_raised_basis": "sum_of_sourced_rounds"
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "D.R. Horton",
+    "StartEngine investors"
+   ]
   },
   {
    "name": "Blitzz",
@@ -3708,18 +4180,39 @@
    "location": "San Jose, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 700000,
+     "currency": "USD",
+     "date": "2018-01",
+     "investors": [
+      "Sure Ventures",
+      "Ulu Ventures",
+      "Alchemist Accelerator"
+     ],
+     "source_url": "https://seedtable.com/companies/blitzz/funding-rounds/seed-2018-01"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://seedtable.com/companies/blitzz/funding-rounds/seed-2018-01"
+   ],
+   "funding_status": "seed or later",
+   "funding_notes": "Blitzz $500K (Dec 2017) and $700K seed (Jan 2018) per Seedtable.",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 700000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 700000,
+   "last_round_currency": "USD",
+   "last_round_date": "2018-01",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Sure Ventures",
+    "Ulu Ventures",
+    "Alchemist Accelerator"
+   ]
   },
   {
    "name": "BosonQ Psi (BQP)",
@@ -3739,22 +4232,47 @@
    "location": "New York, NY, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Seed",
+     "amount": 3000000,
+     "currency": "USD",
+     "date": "2024-12-17",
+     "investors": [
+      "Monta Vista Capital (lead)"
+     ],
+     "source_url": "https://thequantuminsider.com/2024/12/17/bosonq-psi-raises-3m-in-seed-funding-to-advance-quantum-inspired-simulation-technology/"
+    },
+    {
+     "stage": "Seed",
+     "amount": 5000000,
+     "currency": "USD",
+     "date": "2025-07-17",
+     "investors": [],
+     "source_url": "https://www.prnewswire.com/news-releases/bqp-raises-5m-oversubscribed-seed-round-following-pilot-agreement-with-air-force-research-lab-for-quantum-accelerated-digital-twin-platform-302507885.html"
+    }
+   ],
    "grants": [],
    "funding_source_urls": [
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbTcyekhWaDNJR3htb2JDSEdLTExnYUZFTS0yQTZlN2wxRkRtNHZSSVBLS3NjS1JoWjlpWVJyTl82bGE4amtTcERZRnVVRXpyN3B6QmkxVWtZN1paeUhFcVpzbHRVTlVVLXQzUVNUNVBBRVFhQTB1M1JTZjhkMVVQSG42RDI3cS1HRXEtald3Sm5uYUotQm5YcFNMaFZzMEJGdHN6ZG1hckxFeno0RGfSAbMBQVVfeXFMUDZycWE3M09EZ2hRbkQ4c09pMWRWTmVIZzVWQktIZUItTktuZjRwN3IyTEN3QTB6dURjRlo5eG9MeW53dGlXdDF1c0NqMTFQZGowTWtvTEZUcEZGZlhCVDNoVnJ1TVIzeEx2UGoxVmNmbzRDX29pdnJrOUxEVWd1SDN4c2lLaTJ2c1V6TGpIdzZxLXRWZWZoM290WjFEbzFiX1gyYW1kY3poaU1kTThfX09mSzg?oc=5",
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYU9SbVZlTWhlVjVSVjFrWWd1VnRXck5LdDM5SmtzVEFMYlFJZnNRcWptdzlWellvREJLN3lrVTlIWThzNmxGYkZualMwLTIwTk84U25fS0ZjSllWeVdFSGxidTc0WnNzQUVnYTVQTW1CUmRqS19xM0h0SUJLRkdtNWVNNEo0YlJ2LVNWdDZuQjVBd9IBkgFBVV95cUxPYU9SbVZlTWhlVjVSVjFrWWd1VnRXck5LdDM5SmtzVEFMYlFJZnNRcWptdzlWellvREJLN3lrVTlIWThzNmxGYkZualMwLTIwTk84U25fS0ZjSllWeVdFSGxidTc0WnNzQUVnYTVQTW1CUmRqS19xM0h0SUJLRkdtNWVNNEo0YlJ2LVNWdDZuQjVBdw?oc=5",
-    "https://www.businessworld.in/article/quantum-computing-startup-bosonq-psi-raises-525k-in-pre-seed-round-436716"
+    "https://www.businessworld.in/article/quantum-computing-startup-bosonq-psi-raises-525k-in-pre-seed-round-436716",
+    "https://thequantuminsider.com/2024/12/17/bosonq-psi-raises-3m-in-seed-funding-to-advance-quantum-inspired-simulation-technology/",
+    "https://www.prnewswire.com/news-releases/bqp-raises-5m-oversubscribed-seed-round-following-pilot-agreement-with-air-force-research-lab-for-quantum-accelerated-digital-twin-platform-302507885.html"
    ],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "seed or later",
+   "funding_notes": "BQP $3M seed-I (Dec 2024) and $5M oversubscribed seed (Jul 2025).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 8000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Seed",
+   "last_round_amount": 5000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2025-07-17",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "Monta Vista Capital (lead)"
+   ]
   },
   {
    "name": "Clouber, Inc.",
@@ -3775,8 +4293,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "Alchemist only; acquired by Autonicx 2019 (aggregators).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3804,8 +4322,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "No public funding found.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3835,8 +4353,8 @@
    "funding_rounds": [],
    "grants": [],
    "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_status": "no public funding",
+   "funding_notes": "No disclosed round.",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
@@ -3861,15 +4379,26 @@
    "location": "Istanbul, Turkey",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Pre-Seed",
+     "amount": null,
+     "currency": "USD",
+     "date": "",
+     "investors": [],
+     "source_url": "https://epnext.com/huudle-silikon-vadisi-yolunda/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://epnext.com/huudle-silikon-vadisi-yolunda/"
+   ],
+   "funding_status": "pre-seed or angel only",
+   "funding_notes": "Huudle completed a pre-seed (undisclosed), raising interim round Feb 2024 (Enterprise Next).",
    "funding_checked": "2026-10-22",
    "total_raised": null,
    "total_raised_currency": null,
-   "last_round_type": null,
+   "last_round_type": "Pre-Seed",
    "last_round_amount": null,
    "last_round_currency": null,
    "last_round_date": null
@@ -3890,18 +4419,37 @@
    "location": "Palo Alto, CA, USA",
    "status": "Active",
    "linkedin_url": "",
-   "funding_rounds": [],
+   "funding_rounds": [
+    {
+     "stage": "Venture (unspecified)",
+     "amount": 1000000,
+     "currency": "USD",
+     "date": "2024-12-06",
+     "investors": [
+      "General Catalyst",
+      "Cherry Ventures"
+     ],
+     "source_url": "https://elev-x.com/news-insights/elev-x-graduate-metabob-among-top-20-in-prestigious-slush-100-pitch-competition/"
+    }
+   ],
    "grants": [],
-   "funding_source_urls": [],
-   "funding_status": "no public funding found (fast pass)",
-   "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+   "funding_source_urls": [
+    "https://elev-x.com/news-insights/elev-x-graduate-metabob-among-top-20-in-prestigious-slush-100-pitch-competition/"
+   ],
+   "funding_status": "unclear round type",
+   "funding_notes": "Metabob $1M investment via Slush 100 top-20 (Dec 2024).",
    "funding_checked": "2026-10-22",
-   "total_raised": null,
-   "total_raised_currency": null,
-   "last_round_type": null,
-   "last_round_amount": null,
-   "last_round_currency": null,
-   "last_round_date": null
+   "total_raised": 1000000,
+   "total_raised_currency": "USD",
+   "last_round_type": "Venture (unspecified)",
+   "last_round_amount": 1000000,
+   "last_round_currency": "USD",
+   "last_round_date": "2024-12-06",
+   "total_raised_basis": "sum_of_sourced_rounds",
+   "notable_investors": [
+    "General Catalyst",
+    "Cherry Ventures"
+   ]
   },
   {
    "name": "47Line",
