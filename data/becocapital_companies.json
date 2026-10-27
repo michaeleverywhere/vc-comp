@@ -160,7 +160,24 @@
     "everywhere_tags": [],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.careem.com:443/",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQazliN2Y1Tm1yV284UmVERDA5b0MyMkhWX0FQaE9wdDFudXJkTnZnaTRQQUVUTmVaUzkyZy1CMllFWmRNRWlmeXRhYXdOVVJPZW4yN1d5WVlkN1NzSGxEZFpkUWRKOGp1VTN0Mlg4WUpYUW5WZU1ZX1NtSGhmSmRhVkxkM0RPaEU4Z2lSLWNqS1I4MWhKUmx3ampsLTQ1RWQ5QWJOMTVIbnhfbUFOTDhSLVFZRHRPR3JqS3VEeThjY0ZPdXU1TzdRcEhfcl9yalhNNlNCb0R0WW56REdSeVBCRl9DNFdmZFk?oc=5",
+      "https://finance.yahoo.com/news/ride-hailing-app-careem-says-060108917.html",
+      "https://www.yahoo.com/news/ride-hailing-app-careem-says-070725402.html"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Chatfood",
@@ -325,7 +342,39 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Growth",
+        "amount": 80000000.0,
+        "currency": "USD",
+        "date": "2026-05-25",
+        "investors": [],
+        "source_url": "https://www.vestbee.com/insights/articles/fresha-raises-80-m",
+        "date_basis": "text"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://techfundingnews.com/beauty-techs-quiet-giant-just-became-a-unicorn-fresha-raises-80m-from-kkr-at-1b-valuation/",
+      "https://www.uktechnews.info/2021/12/13/fresha-com-sv-t-a-fresha-secures-39-75-million-series-c-follow-on-investment-led-by-michael-lahyani-and-beco-capital/",
+      "https://multiples.vc/private-comps/fresha",
+      "https://startupsavant.com/news/fresha-partners",
+      "https://www.prnewswire.com/news-releases/general-atlantic-leads-100-million-investment-in-fresha-leading-global-beauty-and-wellness-platform-to-fuel-continued-growth-301310822.html",
+      "https://www.uktechnews.info/2021/06/11/fresha-com-sv-t-a-fresha-secures-70-6-million-series-c-investment-led-by-general-atlantic/",
+      "https://www.fresha.com/blog/general-atlantic-lead-100m-in-freshas-future",
+      "https://www.vestbee.com/insights/articles/fresha-raises-80-m"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source search (Brave web results, press/news pages verified against the company domain, SEC EDGAR Form D); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Growth",
+    "last_round_amount": 80000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-05-25",
+    "total_raised": 80000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Keyper",
@@ -366,7 +415,57 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series B",
+        "amount": 60000000.0,
+        "currency": "USD",
+        "date": "2022-03-01",
+        "investors": [],
+        "source_url": "https://www.kitopi.com/post/kitopi-raises-60-million-in-series-b-funding",
+        "date_basis": null,
+        "date_source_url": "https://www.kitopi.com/post/kitopi-raises-60-million-in-series-b-funding",
+        "date_filled": "2026-10-26",
+        "extra100_hist_fill": "2026-10-26"
+      },
+      {
+        "stage": "Series C",
+        "amount": 415000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.kitopi.com/post/kitopi-announces-415-million-series-c-funding-round",
+        "date_basis": null
+      },
+      {
+        "stage": "Series C",
+        "amount": 300000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.kitopi.com/news/%24300-million-series-c-round-funding"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.kitopi.com/",
+      "https://www.kitopi.com/newsroom",
+      "https://www.kitopi.com/news",
+      "https://www.kitopi.com/news/%24300-million-series-c-round-funding",
+      "https://www.kitopi.com/post/kitopi-announces-415-million-series-c-funding-round",
+      "https://www.kitopi.com/post/kitopi-raises-60-million-in-series-b-funding"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Series B",
+    "last_round_amount": 60000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-03-01",
+    "total_raised": 775000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Mango Sciences",
@@ -408,7 +507,21 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://marti.tech/en"
+    ],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "MaxAB",
@@ -430,7 +543,48 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 40000000.0,
+        "currency": "USD",
+        "date": "2022-10-19",
+        "investors": [],
+        "source_url": "https://ca.finance.yahoo.com/news/maxab-egyptian-b2b-e-commerce-090727286.html",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Seed",
+        "amount": 6200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fS2lpOGxuM3pLY3hmMThxNllUM3FBY3NfZ1BVdXFtdWZBMGtxWUJLSzZrN0J5NV9FR0JieTlubHM5ckltVGhnRk9RMGhiUdIBU0FVX3lxTE5MYmt0QzFLMTVLZUJNYUhhbzdzVGw2dUg1cEVPZU9ISzI4NW8yNGZNS0J0RERBdXp6V3pCaE4xb3locnFVMmE2V09INUJHMkUwMGJn?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.maxab.io/",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTTd1aG93RWxDUnVrVUFzVjU4UlRVR3lRQ2Zaa0lRS3VUTGJYUTlOMUZTOTJuWEJxSTlPbks2QnoyMDRqN3o3LVFSaTVFWUJtXzR1d05rYXEzWGhqZlZKV3h0QjlzUkVSUEtQMTNnbWVhUjVrRktfOFFpWER0ZjZSckxlY1FWWHRIdHcw0gGLAUFVX3lxTE5NN3Vob3dFbENSdWtVQXNWNThSVFVHeVFDZlprSVFLdVRMYlhROU4xRlM5Mm5YQnFJOU9uSzZCejIwNGo3ejctUVJpNUVZQm1fNHV3TmthcTNYaGpmVkpXeHRCOXNSRVJQS1AxM2dtZWFSNWtGS184UWlYRHRmNlJyTGVjUVZYdEh0dzA?oc=5",
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fS2lpOGxuM3pLY3hmMThxNllUM3FBY3NfZ1BVdXFtdWZBMGtxWUJLSzZrN0J5NV9FR0JieTlubHM5ckltVGhnRk9RMGhiUdIBU0FVX3lxTE5MYmt0QzFLMTVLZUJNYUhhbzdzVGw2dUg1cEVPZU9ISzI4NW8yNGZNS0J0RERBdXp6V3pCaE4xb3locnFVMmE2V09INUJHMkUwMGJn?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHJ4ekNKRjhSRVlxV0hfWnBTOUg2ZkdiWFg1TEhiNVVRZE8yLTVzeWhwVXhGMjEyTkswdms4ZFlJYTBwc0NlczZSSWptQUdOQnNYaDNIM0JUZXZ4bEFqeE9DWjFTcHE4emp0bFduLWlfdVBxT0wwencyOFh0VVRSWE5Fb2dyMGVUUDhCLWs2UWpKZUZJWlJmRFVIV1g4ZkJGbVQ4TnJLa0VnUkZIZU1Qby04YnJzUzVINXlwdkpqOGdCYUlLbTFKNWNB?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdlQwYVJRQ3JScUdHWGJtS1lLZW1GUTJLWGc0MHNSQlp3OXpybXhIVU1TUHMwSzVqRXJtb1JjMFMtX2dMeUltOEpIWjNtLXFLRElZa0dGOUhfVUNqNTg0Wlc2N2tBbWwyZ2lXT2VEakJmYnd0X21YaEoyaUNnQmZ2YjNB?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeE9jcWU0c0RicWZBcURnRTV3YVFsS1ZrQW9QdDBwVWhLS2VHazZGTDRMSUpKaTBTUFNEcHkzdmpSMGF1VU5yZW01V0poN0pjOTFZQmZYU1JzNlJsTi1MYjZnNGpJeWdjdFItOUtiQjlhRGZpNk9XdktYT2dlVmNPT2RuZmZZT1NhM3RDWjZ6RUw3cm9hS1MwakE5RE5CYTRsaXc?oc=5",
+      "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tQ2MtMm9scEI1VWhaSUd6bzBMRFg3Vk1pZlBmSzAwMlZrdmw5clltX2U5eXZjYTVGOW52WVhaLXQxZ21QbVlFc2ZOQjAyYnZhLTNWNUxLekdXT1RxWkhtSkk0SWVudE8yX04yZE5Nc2NmaDJJQkxv?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb0EwVnNJa0VEWF9XOGtjZll5LU5uVWdNell1Q1JkQnRnSjJiVjZPWFNDOHkyVEh5OG83OUdZMTZ3Y0xLekRpNkJfMXVJeHZhZTZOeERqcXBrMUFVOGZQVmswNzlERW10b1pRdG0xYTZqWEhKRF9feUhqVVlZZ2NJdUNhWUstdw?oc=5",
+      "https://ca.finance.yahoo.com/news/maxab-egyptian-b2b-e-commerce-090727286.html"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Series A",
+    "last_round_amount": 40000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2022-10-19",
+    "total_raised": 46200000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Merkle Science",
@@ -532,7 +686,38 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 525000000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNeWQyc1Z4Y1NSQnQzTjJDLTNYYXFxaV9LaHJManVERzhmbTJEd1lDOW1VUUhnNUx4ZjduX2xRbGlxSFIyRldiLWxaajcyUzJwbDVTUV9TTktMZVRxdU16QzIzRmdaUXI5d3U1OXR0Ym9CbHFIZ3YxTFdCa2NTWnY0bFp5Z2E4bDRkdnU4andSWGJ5SmhwLU1CclhtUDdoUW9sUVNPRmhiMXlaRFViOURZS0d3QkQ4em9fOTZIS2s4dGF6bzJzcHFFbU9TZ1FFemFZSmFUYlNFQzBDZkVfWklXZzZPY0J1RmYtWE04UHdRTlZ5ZTl5TlVfSmpiUkYyVlRNeHlIeENkMmNIbmxmdGd4dVg2akxGcC03LXpRR3luQlNZdENyZWtpY2tFS0RjY0luNDNBMHdXbEJDNXotQm1ENG44ZzBHaGpkaHd0VU11NkRxbmk3RVE?oc=5"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.propertyfinder.ae/",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxONERuekFqVU9nQVpfZVZPQ21nb2JxbzRMeUVlUFJOOFNBWm91ZUI3cnVKSkxsMkxOZ3pkSkMxRFFXZ2h0WUNPWklCb1c1MExiek5fbU1oWmNfczJHMW44VEZrTTRaSHcxdjg1OGxIM2VCTG9oMmQzVjMyX1dtOHl0OTdyekZQTWU2djgtVHZSSF81VG5XYXc?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNeWQyc1Z4Y1NSQnQzTjJDLTNYYXFxaV9LaHJManVERzhmbTJEd1lDOW1VUUhnNUx4ZjduX2xRbGlxSFIyRldiLWxaajcyUzJwbDVTUV9TTktMZVRxdU16QzIzRmdaUXI5d3U1OXR0Ym9CbHFIZ3YxTFdCa2NTWnY0bFp5Z2E4bDRkdnU4andSWGJ5SmhwLU1CclhtUDdoUW9sUVNPRmhiMXlaRFViOURZS0d3QkQ4em9fOTZIS2s4dGF6bzJzcHFFbU9TZ1FFemFZSmFUYlNFQzBDZkVfWklXZzZPY0J1RmYtWE04UHdRTlZ5ZTl5TlVfSmpiUkYyVlRNeHlIeENkMmNIbmxmdGd4dVg2akxGcC03LXpRR3luQlNZdENyZWtpY2tFS0RjY0luNDNBMHdXbEJDNXotQm1ENG44ZzBHaGpkaHd0VU11NkRxbmk3RVE?oc=5",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUwtc2FNbndlaXpKYkNpOWxRZUNld0NBdEJVM3RJb1JhR2RERUt5T19oYXhIQlpsYkdpN2w2NS16OFZtb2p6SDd6ekIwcWU2dEt1NzJrMXdFTXl3WVh1Y05tS2dPMG1vY05qMEFSSktndnk1ZTBTbkJ2bXRxY2lqQmtJbmtEdHc5SzVjckxZbm1DXzRrc2NDNXNJbjFKYW5BMTExMg?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGNFZlllX08yc1VDWnpFdldxTnFoSzhvZG1DUDloWnpiSzBQUDZiai1JUEp0cVh4ZTJ4a1VHbmR4WDNpTjQ1a2xxdmY2WGxBYXBzM2lSZlJEMGQtSTJ2MVdNQno4ZmZZeFJRMDRTMXk4U0N5bVZLaXoxajExcGlvT1BGQVBWZw?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYkNSd1VZLVZMRmhkRWtCZEVma0RERFltZmVyUmdPYlV4Zml3X2c1VXVULW42em14LWlmN2h6OFF2dTVzWm16ZFNjem9qbVQxVFo2bVJZYklITlNZV3ZlNTRDMkFQMVl4RC15Y1R4eXhISTJkQWNJaFNNZVJDQmtRSkpBckdrd3YySUZRSXNHQmxIXzYtbzQ5eG9uYUJPZHg0M1dfX3F5bWYxOWZWSnNlTWlGYjkzNDN2dXVwOERaZmd6U0dGakI1V09RRjI?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeTlLMUJfbi1UVVpFOVlHWlVIT1hsdHZwVG1qc2EzYmJ5UmV1ZWpwNzZzLU1RempXZGJoamVCQ0ctQW9qU1pxM2l5aUZkdlRVdHNiaE9XdktIUWl3Y0JGNlduaGFqVUFQZXU4U2V1cEZtdXk3Vm9XTGlKakt2UG5ybE1XUGtZd3Y3aUN5RDNHejVaWnc2N3gxU084SW9MT3VKM2FjT3hzalhnODFQWVE?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQldvYmtybDFIbVNwRVltZ21XYVFKZU1faWU2YUluYUNFVk5GMDVYVEp4SXAydjdmVy1xMkxKclZmeEN5YzBFU3hfaDhTdGk1S1N6RVloQ0tZS25pblo5OVVZNzZMY3RXQTZpVWNhWllVQXM0c0JYcEUtMTc1V0JPOA?oc=5"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 525000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": null,
+    "total_raised": 525000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "RemotePass",
@@ -745,7 +930,62 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Undisclosed round type",
+        "amount": 35500000.0,
+        "currency": "USD",
+        "date": "2021-08-26",
+        "investors": [],
+        "source_url": "https://www.swvl.com/article/swvl-completes-pre-funding-of-35-5-million-of-pipe-to-accelerate-growth-strategy",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 2600000.0,
+        "currency": "USD",
+        "date": "2024-09-17",
+        "investors": [],
+        "source_url": "https://www.swvl.com/article/swvl-secures-2-6-million-in-new-annual-contracts-in-saudi-arabia-during-the-third-quarter-of-2024",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 5500000.0,
+        "currency": "USD",
+        "date": "2026-02-02",
+        "investors": [],
+        "source_url": "https://www.swvl.com/article/swvl-secures-a-new-five-year-contract-of-up-to-5-5-million-in-the-uae-its-fastest-growing-market-following-5x-growth-in-2025",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Undisclosed round type",
+        "amount": 1500000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.swvl.com/news"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.swvl.com/",
+      "https://www.swvl.com/news",
+      "https://www.swvl.com/article/swvl-completes-pre-funding-of-35-5-million-of-pipe-to-accelerate-growth-strategy",
+      "https://www.swvl.com/article/swvl-secures-2-6-million-in-new-annual-contracts-in-saudi-arabia-during-the-third-quarter-of-2024",
+      "https://www.swvl.com/article/swvl-secures-a-new-five-year-contract-of-up-to-5-5-million-in-the-uae-its-fastest-growing-market-following-5x-growth-in-2025"
+    ],
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Undisclosed round type",
+    "last_round_amount": 5500000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-02-02",
+    "total_raised": 45100000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Syarah",
@@ -866,7 +1106,33 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 5800000.0,
+        "currency": "USD",
+        "date": "2019-06-17",
+        "investors": [],
+        "source_url": "https://tenderd.com/news/tenderd-launches-with-menas-largest-seed-round/",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://tenderd.com/",
+      "https://tenderd.com/news/tenderd-launches-with-menas-largest-seed-round/"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Seed",
+    "last_round_amount": 5800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2019-06-17",
+    "total_raised": 5800000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Thndr",
@@ -967,7 +1233,19 @@
     ],
     "primary_investor": "BECO Capital",
     "source_url": "https://www.becocapital.com/portfolio/",
-    "scraped_at": "2026-10-25T13:48:35.231179+00:00"
+    "scraped_at": "2026-10-25T13:48:35.231179+00:00",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Wahed",
