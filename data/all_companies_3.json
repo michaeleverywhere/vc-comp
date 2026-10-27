@@ -279549,7 +279549,24 @@
     "location": null,
     "stage": null,
     "first_invested": null,
-    "status": null
+    "status": null,
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "funding_rounds": [],
+    "grants": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_source_urls": [
+      "https://railway.com/",
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbUk0Y0JrNzhRSzFjNWphRlM3WVZGZVlwWmlNTGhRVEZlU1RQZkRVWUtHb1ZhSHZSX05HMmE4NjM0RHdadnQ3aGxJOA?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWlczRWliQXpnSHJxeGZVWHI2SmVtdXJWRmQzRmVWTDVIUUxtZUs4LWNvRDlVb24teEs3UjRCbHhGZVlod0lqNDc1eXZHcFkxdzYzSHJZQnBaejNxLUc1YkxsR0kwWVJvM0JoVTlVWEplNS1RMHN2eGpHT3ZWdWNBZFpybXRTQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdEoxVkxYblBfdVEwTW05SzdOV0Q5OFh1UXJPWFpkQnNpdW1qWGpHSXgxeDlBMXE4RFlrQWhpTE9WbnM0X1lOUjdscWNwcGNUSHVaanozUV9UeV9ra1hwN3ZyeC0wLUlYamI3ajcwWFRqdXYyMWZVb0VtYWFBek9mRUFLamdxMy1LSzhQTmJGUWRwN1dzMVJZVkE5TXZmMTAzdm5tTjhTdkk5TVU?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26"
   },
   {
     "firm": "FPV Ventures",
@@ -279625,7 +279642,39 @@
     "location": null,
     "stage": null,
     "first_invested": null,
-    "status": null
+    "status": null,
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-30",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2024-10-30",
+        "investors": [],
+        "source_url": "https://www.speakeasy.com/blog/fundraising-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://speakeasy.com/",
+      "https://www.speakeasy.com/blog",
+      "https://www.speakeasy.com/blog/fundraising-series-a",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1VGekh4ZG8wOEJyZGh2R1BsbjBjekVPX2hMN0VXZlNPUDNsQVZzcGI1N1h6ZmFwVGVmNS0xc0d4SmtFS0Y5cGx3cnczR1VoWXFhNnB3V2ZLd0ZIU2lBQlZRei1aQzFMUEk0X3ZTRmczLWlVN0FFN1lnWkY2NGdIYUVKY3RpOVV0SmNaa2x0OEtPMkNMaUNITWFjWWE?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVW9YZ2ZoOEVjZ3VwVjMwNmdobUdLcW9mYnV4Zk15ZUhkTDd5SVo0RVVqdElzZ2pFMVJZM0szQ0MyMVQ5bmN0NVFxeFdxWTVKSG9UdUdHZkk4VkQ1T0Q5dklMVnhOR2s3SEVtM2lsQlV4Z2ZaUERwamkxZ1dsenh1NVFIcS1IY1lVQUJDSVRWZXRVbmU0ZUluNzVncFNGdk4tT2ZSZmRSMTVkVk1DalVPRW41V3VHQ0ZQUWxMbzZMVWpzZUJDR0E?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNWRiaTg1OFhDX08xaF9renoyS1AtclNWV2R3QVE3QTdWdTF5d2VybU5nRnJEcF9CdHptRF84VFJKT25melIwWmJabTdlMUlhNDcyMkRSWHNVY1lESVVuU0lyMTkxcWR0UHpaMFhTLXNzaGhoQkg5MjBwcW5PbERrTE5FRzR0ZTJHdGdQMjlZYnY2ZVF4X1Q5bi1iYjBlMDdMSm9uWXR1VlVPdlE1NVAtS3lTWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzdvMlBjTjFsTDRuSHpvZGN4Ykw4NXIzZjlxdGRlWExvVkFTNGFiaXY4WHBwbDBuUXo3LVdZaWtBc194NXhZaThqWEoya0I0djR5elN1NHRLQk84WlBJUmptZTlLdDdzcW9YcDhXT2dHRFFmT1c2NGExSE5EeEJvZU1zTjNTbkhmbnBSSE1zYlgyY3hJRUhfT3lZbGYwb184V2xDT2RYYTVPcVVqUDlVNtIBtgFBVV95cUxQdTBUVHFFWUl3RlV3QTJBNnFpRFJrV3gySlN1RUtERlE2d1hnek9Rc2ZUbkRoMmlhaXNuMGRRSURuVjRNZGozaWN1YWRiN05hRDlocWdMRUxraG5tNk45QWRJRTRrYkRCMTZZQTZPblhENTEyc2ZWTkk3ZGpQcV9SMG5DUXhBOTh2RHkxRjJNQTM2R0twYm5ldldIX1RkclVtcl9lYi1RQVJGNWZHOWh5dWw3WHpyZw?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcWRwZnNEQkx5V2tnblM0NWJ6dHpJcGM4ai15aGxFTFNEOUxMWU5RelF4TloxRFliYzNZREY4dk9kdm1scU13VkFNSDlsbDc0VlFUTTJkQkZZQzZJWWZPYW5ZQjh1OF9HYlVWNTZDeEVvOEtxYjBHazdGVkhDak1zcWx4OG93RFItYkE?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26"
   },
   {
     "firm": "FPV Ventures",
@@ -279658,7 +279707,21 @@
     "location": null,
     "stage": null,
     "first_invested": null,
-    "status": null
+    "status": null,
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "funding_rounds": [],
+    "grants": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_source_urls": [
+      "https://www.mending.com/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26"
   },
   {
     "firm": "FPV Ventures",
@@ -279674,7 +279737,21 @@
     "location": null,
     "stage": null,
     "first_invested": null,
-    "status": null
+    "status": null,
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null,
+    "funding_rounds": [],
+    "grants": [],
+    "funding_status": "no public funding found (fast pass)",
+    "funding_source_urls": [
+      "https://robinhood.com/creditcard/"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26"
   },
   {
     "firm": "FPV Ventures",
@@ -597310,7 +597387,39 @@
     "location": null,
     "stage": null,
     "first_invested": null,
-    "status": null
+    "status": null,
+    "total_raised": 15000000,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2024-10-30",
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2024-10-30",
+        "investors": [],
+        "source_url": "https://www.speakeasy.com/blog/fundraising-series-a",
+        "date_basis": "snippet"
+      }
+    ],
+    "grants": [],
+    "funding_status": "seed+",
+    "funding_source_urls": [
+      "https://speakeasy.com/",
+      "https://www.speakeasy.com/blog",
+      "https://www.speakeasy.com/blog/fundraising-series-a",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1VGekh4ZG8wOEJyZGh2R1BsbjBjekVPX2hMN0VXZlNPUDNsQVZzcGI1N1h6ZmFwVGVmNS0xc0d4SmtFS0Y5cGx3cnczR1VoWXFhNnB3V2ZLd0ZIU2lBQlZRei1aQzFMUEk0X3ZTRmczLWlVN0FFN1lnWkY2NGdIYUVKY3RpOVV0SmNaa2x0OEtPMkNMaUNITWFjWWE?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVW9YZ2ZoOEVjZ3VwVjMwNmdobUdLcW9mYnV4Zk15ZUhkTDd5SVo0RVVqdElzZ2pFMVJZM0szQ0MyMVQ5bmN0NVFxeFdxWTVKSG9UdUdHZkk4VkQ1T0Q5dklMVnhOR2s3SEVtM2lsQlV4Z2ZaUERwamkxZ1dsenh1NVFIcS1IY1lVQUJDSVRWZXRVbmU0ZUluNzVncFNGdk4tT2ZSZmRSMTVkVk1DalVPRW41V3VHQ0ZQUWxMbzZMVWpzZUJDR0E?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNWRiaTg1OFhDX08xaF9renoyS1AtclNWV2R3QVE3QTdWdTF5d2VybU5nRnJEcF9CdHptRF84VFJKT25melIwWmJabTdlMUlhNDcyMkRSWHNVY1lESVVuU0lyMTkxcWR0UHpaMFhTLXNzaGhoQkg5MjBwcW5PbERrTE5FRzR0ZTJHdGdQMjlZYnY2ZVF4X1Q5bi1iYjBlMDdMSm9uWXR1VlVPdlE1NVAtS3lTWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzdvMlBjTjFsTDRuSHpvZGN4Ykw4NXIzZjlxdGRlWExvVkFTNGFiaXY4WHBwbDBuUXo3LVdZaWtBc194NXhZaThqWEoya0I0djR5elN1NHRLQk84WlBJUmptZTlLdDdzcW9YcDhXT2dHRFFmT1c2NGExSE5EeEJvZU1zTjNTbkhmbnBSSE1zYlgyY3hJRUhfT3lZbGYwb184V2xDT2RYYTVPcVVqUDlVNtIBtgFBVV95cUxQdTBUVHFFWUl3RlV3QTJBNnFpRFJrV3gySlN1RUtERlE2d1hnek9Rc2ZUbkRoMmlhaXNuMGRRSURuVjRNZGozaWN1YWRiN05hRDlocWdMRUxraG5tNk45QWRJRTRrYkRCMTZZQTZPblhENTEyc2ZWTkk3ZGpQcV9SMG5DUXhBOTh2RHkxRjJNQTM2R0twYm5ldldIX1RkclVtcl9lYi1RQVJGNWZHOWh5dWw3WHpyZw?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcWRwZnNEQkx5V2tnblM0NWJ6dHpJcGM4ai15aGxFTFNEOUxMWU5RelF4TloxRFliYzNZREY4dk9kdm1scU13VkFNSDlsbDc0VlFUTTJkQkZZQzZJWWZPYW5ZQjh1OF9HYlVWNTZDeEVvOEtxYjBHazdGVkhDak1zcWx4OG93RFItYkE?oc=5"
+    ],
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26"
   },
   {
     "firm": "Gold House Ventures",
