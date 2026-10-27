@@ -673,20 +673,33 @@
     "primary_investor": "Character",
     "source_url": "https://www.character.vc/",
     "scraped_at": "2026-10-16T13:30:35.318653+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 4200000.0,
+        "currency": "USD",
+        "date": null,
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/news-releases/gifting-platform-zest-secures-4-2m-in-funding-led-by-gv-to-modernize-e-commerce-for-growing-brands-301678595.html",
+        "history_new": true,
+        "rotation_new": "2026-10-26"
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://www.zest.co/"
+      "https://www.zest.co/",
+      "https://www.prnewswire.com/news-releases/gifting-platform-zest-secures-4-2m-in-funding-led-by-gv-to-modernize-e-commerce-for-growing-brands-301678595.html"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist",
-    "funding_checked": "2026-10-24",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; rounds not found publicly may exist; monthly rotation recheck 2026-10-26: own site, SEC Form D and news search (Google News RSS + Bing News, verified on the company site or an article carrying the company domain)",
+    "funding_checked": "2026-10-26",
+    "total_raised": 4200000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 4200000.0,
+    "last_round_currency": "USD",
     "last_round_date": null,
-    "funding_first_checked": "2026-10-21"
+    "funding_first_checked": "2026-10-21",
+    "total_raised_basis": "sum_of_sourced_rounds"
   }
 ]
