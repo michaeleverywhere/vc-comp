@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 197945,
+  "total_source_rows": 197959,
   "vc_source_rows": 158068,
-  "accelerator_source_rows": 39877,
+  "accelerator_source_rows": 39891,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 113233,
-  "companies_with_2plus_backers": 37025,
-  "companies_with_vc_and_accelerator": 10950,
-  "companies_keyed_by_domain": 78691,
-  "companies_keyed_by_name": 34542,
-  "name_rows_joined_to_domain_company": 24887,
-  "companies_with_possible_matches": 15167,
+  "unique_companies": 113244,
+  "companies_with_2plus_backers": 37027,
+  "companies_with_vc_and_accelerator": 10952,
+  "companies_keyed_by_domain": 78701,
+  "companies_keyed_by_name": 34543,
+  "name_rows_joined_to_domain_company": 24886,
+  "companies_with_possible_matches": 15170,
   "shared_hosts_treated_as_junk": 233,
-  "companies_with_funding_rounds": 22082,
-  "companies_funding_checked": 107927,
-  "funding_rounds_total": 39082,
+  "companies_with_funding_rounds": 22084,
+  "companies_funding_checked": 107928,
+  "funding_rounds_total": 39088,
   "research_records_available": 123228,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17191,
-      "bytes": 39999463,
+      "companies": 17184,
+      "bytes": 39998342,
       "first_company": "!K7",
-      "last_company": "Careteam"
+      "last_company": "CARESWIFT"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17171,
-      "bytes": 39999166,
-      "first_company": "Careteam Technologies",
-      "last_company": "Ferry (formerly ThirdRails)"
+      "companies": 17167,
+      "bytes": 39999919,
+      "first_company": "Careswitch",
+      "last_company": "Ferric Semiconductor, Inc."
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17468,
-      "bytes": 39999598,
-      "first_company": "Ferry Health",
-      "last_company": "Klarent"
+      "companies": 17469,
+      "bytes": 39997135,
+      "first_company": "Ferris",
+      "last_company": "KK Inc."
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17434,
-      "bytes": 39999213,
-      "first_company": "Klarify",
-      "last_company": "OpenProse"
+      "companies": 17428,
+      "bytes": 39998411,
+      "first_company": "KKday",
+      "last_company": "Openlytics"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17195,
-      "bytes": 39999639,
-      "first_company": "OpenQ",
-      "last_company": "Sertifier"
+      "companies": 17178,
+      "bytes": 39999204,
+      "first_company": "OpenMarkets",
+      "last_company": "Seres Therapeutics"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17444,
-      "bytes": 39996367,
-      "first_company": "Sertis",
-      "last_company": "Vergent Bioscience"
+      "companies": 17449,
+      "bytes": 39998119,
+      "first_company": "SERG Technologies",
+      "last_company": "Verdant Metrics"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 9330,
-      "bytes": 19136678,
-      "first_company": "VergeSense",
+      "companies": 9369,
+      "bytes": 19237130,
+      "first_company": "Verdant Robotics",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
