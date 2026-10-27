@@ -708,18 +708,38 @@
     "primary_investor": "DIMENSION",
     "source_url": "https://www.dimensionfund.co.jp/portfolio/",
     "scraped_at": "2026-10-18T16:59:28.328156+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series E",
+        "amount": 50000000.0,
+        "currency": "USD",
+        "date": "2025-07-23",
+        "investors": [],
+        "source_url": "https://www.businesswire.com/news/home/20250724805031/en/LegalOn-Closes-%2450-Million-Series-E-Led-by-Goldman-Sachs",
+        "date_basis": "url",
+        "history_new": true
+      }
+    ],
     "grants": [],
-    "funding_source_urls": [],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_source_urls": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2dFdDhiVVJUMVlmVURSMW04UlRnX3N2SVNER3NuVVFGelNjUERBM1VJR0t4WGRpOHo3aXAxangxc1JnaU41Q2hVMlZqeFFiMnZiSEwzcTc4Tmd1bFhBNTJ1aEtJYTllTlBNbU9JTEZvVEdOWnQtTVpETmMzaWdXeEZvUGVOeTFFQ2J1STBEVzZadjFFY0dBRllCOTFlX3JJY2wwSlI1X2V4VFM5ZndiVTZwNkF0UQ?oc=5",
+      "https://www.law.com/legaltechnews/2025/07/24/legalon-announces-50-million-series-e-funding-round-led-by-goldman-sachs/",
+      "https://finance.yahoo.com/news/legalon-secures-50m-expand-ai-095039881.html",
+      "https://siliconangle.com/2025/07/24/legalon-raises-50m-expand-legal-ai-product-development-global-reach/",
+      "https://www.law360.com/pulse/articles/2367464/legalon-secures-50m-series-e-expands-openai-partnership",
+      "https://www.businesswire.com/news/home/20250724805031/en/LegalOn-Closes-%2450-Million-Series-E-Led-by-Goldman-Sachs",
+      "https://www.nasdaq.com/press-release/legalon-closes-50-million-series-e-led-goldman-sachs-2025-07-24"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Extra 100 complete history 2026-10-26: own site, SEC Form D and news search (verified)",
     "funding_checked": "2026-10-22",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 50000000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series E",
+    "last_round_amount": 50000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2025-07-23",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Let",

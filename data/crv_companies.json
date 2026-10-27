@@ -1922,7 +1922,21 @@
     "source_url": "https://www.crv.com/companies",
     "scraped_at": "2026-10-07T21:06:31.706764+00:00",
     "primary_investor": "CRV",
-    "site_status": "Active"
+    "site_status": "Active",
+    "funding_rounds": [],
+    "grants": [],
+    "funding_source_urls": [
+      "https://color.com/"
+    ],
+    "funding_status": "no public funding",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_checked": "2026-10-26",
+    "total_raised": null,
+    "total_raised_currency": null,
+    "last_round_type": null,
+    "last_round_amount": null,
+    "last_round_currency": null,
+    "last_round_date": null
   },
   {
     "company_name": "Concourse",
@@ -3079,6 +3093,16 @@
     "site_status": "Active",
     "funding_rounds": [
       {
+        "stage": "Series A",
+        "amount": 13000000.0,
+        "currency": "GBP",
+        "date": "2020-04-28",
+        "investors": [],
+        "source_url": "https://www.prnewswire.com/de/pressemitteilungen/factorial-raises-ps13-million-in-a-series-a-funding-round-led-by-crv-861996592.html",
+        "date_basis": "text",
+        "history_new": true
+      },
+      {
         "stage": "Series D",
         "amount": 150000000.0,
         "currency": "USD",
@@ -3098,10 +3122,13 @@
       "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRFhHcllrVWhFRzU0aDh6RDJfVllFem9WVW8ydDlZbElOeF8wczFQaG4teUVqQWZkc29YNUFacXN6TlBlRy1KcEtrWjhvTWxyRlRRbFlqMXh1ZjhBWTVVM2gwdkRHanotUDQ0WGFiclVvSFhNU2hva0hZcUl2WnE0cWpscjlTRUZUTGJkN3RWRjFSZ1AzVUg3NG1EZWw2MkJCOWJtMmtOQUdoZmRkdkRUajFXU0pWYkd2b0xlbVgtTnFkWEQyNy05dVJXTUtPbWJ3MUZFcUFhSFdQZTUybzN6NVBJSm1sT3pKQ1hzVTVn?oc=5",
       "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVk5MdzVUVzd4MXR0ckt5S0t3eUFoNnhvRXozRDc2eFdPUHNzZWRPbTlMbXpxcVViZ0pYWG1oeENyaXFDR2hxRW9GbW5WQXRtazA0YWR1RmNLMThmREluRy1Wa0wtYkpVUElPLV83YkhkcW9IQTJETE1ETzZGRERDcW9BbEk?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUtLcmRPSExHMWQ5Q18wTGdRUEQ0akRTY1lMLUs1OWp4VHpTWXk4SWl3Z0E3dG9FbktkaVBDRmVPS1NmdzRBN2xoM00yRFU4Q2g4LVR3Qlh1NUlrM3UyOHNTN1ZKdHJnVFZiSVp5RlBXd1VObUVkN2dxX1Flbnp5TkZvUkpMVVhOdHZaUHFCVG9lTjZWNmZ5d2QwSDJEbmk3?oc=5",
-      "https://finance.yahoo.com/markets/stocks/articles/factorial-raises-150m-series-d-053000084.html"
+      "https://finance.yahoo.com/markets/stocks/articles/factorial-raises-150m-series-d-053000084.html",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcHBrUE9JOERVWU1zcUVVZ2JlQUhnUDR0QjBaX3hmQzkyTE9WUGtnbFhWMnd2ZG9ublp1M182WGxyQ0JCTFdNSzdIUnNONG1BWkNrX0pLeVRXdGlPdEIxeWNXWGlrRkV6R1Z2OU15dno1MjNEUDJ3YW96UVZzdVRQS2hWYTVfMDBxeDlTOVUyN1V4SEplN05VSlhGZFRsVkROM3FLNU9BVTVlcTNFRzNRVVlRRUpZWEw3aTVIYWthb3J2WFU?oc=5",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzQ0aE5DX25VWFlQaFRpeHJ6cGpLNVRDZ21aSi1yQlFOcGgyaXFsVXRFVlFKUGtDcHIzM2E0OTBjRExseXZqQ3BtYUx2aElURUtpbjlxaldSRXc4QzF3NGR3MkRNMktQaFRkcXB3cFM2bmFVanhEdWF3MlJZZDg3ZVhhM2s1RHZwb2ROR09ZY1JXRTBRVGhvc0RuWUhuR1Z1ckRSd09TbzlLdDRvNktwWQ?oc=5",
+      "https://www.prnewswire.com/de/pressemitteilungen/factorial-raises-ps13-million-in-a-series-a-funding-round-led-by-crv-861996592.html"
     ],
     "funding_status": "seed+",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; web search fallback (Brave/Bing/DuckDuckGo results, news pages verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; second pass news + web search (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Extra 100 complete history 2026-10-26: own site, SEC Form D and news search (verified)",
     "funding_checked": "2026-10-21",
     "total_raised": 150000000,
     "total_raised_currency": "USD",

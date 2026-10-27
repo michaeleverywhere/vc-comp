@@ -814,7 +814,18 @@
     "primary_investor": "Sondo Capital",
     "source_url": "https://sondo.com/",
     "scraped_at": "2026-10-18T15:32:04.638642+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Series A",
+        "amount": 10800000.0,
+        "currency": "USD",
+        "date": "2023-09-06",
+        "investors": [],
+        "source_url": "https://www.businessinsider.com/strise-anti-money-laundering-ai-startup-raises-108-million-2023-9",
+        "date_basis": "snippet",
+        "history_new": true
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
       "https://strise.ai/",
@@ -823,17 +834,19 @@
       "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HWHJPazFjdmVoWUFXRF9SOUFZYUZkeUFWYTFmSG9QOTFEaTJtdmVUSHJYck1SQVJMMUs0RUk1WlZlOUhiUGY1aG84dU5sOTRnc2dsVmM1UnpXSzFDaW5DZXdYLTNkWHE0ZkdtMHJoSl9UbHJac0V4Ym41SmJjUQ?oc=5",
       "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNSk8wVGl0cjdaZHlFckZxZEVCZVRtSE9EUlo5Ymg0bVNlWndqRUg1NG1NQlFWWUV6S0I3WnFNbnlWbXJWVDM1Q1daTGZKTFhlTWRRWUpxT1h6cFE?oc=5",
       "https://www.businessinsider.com/strise-anti-money-laundering-ai-startup-raises-108-million-2023-9",
-      "https://www.crowdfundinsider.com/2023/09/212541-aml-firm-strise-raises-10-8-million-led-by-atomico/"
+      "https://www.crowdfundinsider.com/2023/09/212541-aml-firm-strise-raises-10-8-million-led-by-atomico/",
+      "https://strise.ai/blog"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_status": "unclear-round-type",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Extra 100 complete history 2026-10-26: own site, SEC Form D and news search (verified)",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 10800000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Series A",
+    "last_round_amount": 10800000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2023-09-06",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Tana",

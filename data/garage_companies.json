@@ -1356,20 +1356,41 @@
     "primary_investor": "Garage Capital",
     "source_url": "https://www.garage.vc/",
     "scraped_at": "2026-10-16T16:50:19.308214+00:00",
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "stage": "Seed",
+        "amount": 1100000.0,
+        "currency": "USD",
+        "date": "2013-05-16",
+        "lead_investors": [
+          "Lerer Ventures"
+        ],
+        "investors": [
+          "Lerer Ventures"
+        ],
+        "source_url": "https://www.reuters.com/article/business/healthcare-pharmaceuticals/travel-media-firm-skift-raises-11-million-in-seed-funding-led-by-lerer-venture-idUSDEE94F08I/",
+        "date_basis": "rss",
+        "history_new": true
+      }
+    ],
     "grants": [],
     "funding_source_urls": [
-      "https://skift.com/"
+      "https://skift.com/",
+      "https://www.reuters.com/article/business/healthcare-pharmaceuticals/travel-media-firm-skift-raises-11-million-in-seed-funding-led-by-lerer-venture-idUSDEE94F08I/"
     ],
-    "funding_status": "no public funding found (fast pass)",
-    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist",
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist | Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk index; news + web search fallback (Google News RSS headlines for distinctive names, Bing News articles and Bing web results verified against the company); rounds not found publicly may exist; Extra 100 complete history 2026-10-26: own site, SEC Form D and news search (verified)",
     "funding_checked": "2026-10-21",
-    "total_raised": null,
-    "total_raised_currency": null,
-    "last_round_type": null,
-    "last_round_amount": null,
-    "last_round_currency": null,
-    "last_round_date": null
+    "total_raised": 1100000,
+    "total_raised_currency": "USD",
+    "last_round_type": "Seed",
+    "last_round_amount": 1100000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2013-05-16",
+    "total_raised_basis": "sum_of_sourced_rounds",
+    "notable_investors": [
+      "Lerer Ventures"
+    ]
   },
   {
     "company_name": "DarwinAI",
