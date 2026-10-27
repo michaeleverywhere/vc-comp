@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Wamda Capital portfolio scraper -> wamdacapital_companies.json
-Source: https://wamdacapital.com/portfolio — portfolio page via chrome-dom; company name + website where published."""
+Source: https://wamdacapital.com/ — portfolio page via chrome-dom; company name + website where published."""
 import os, re, sys, json
 from datetime import datetime, timezone
 from urllib.parse import urljoin
