@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 197959,
-  "vc_source_rows": 158068,
-  "accelerator_source_rows": 39891,
+  "total_source_rows": 204558,
+  "vc_source_rows": 158939,
+  "accelerator_source_rows": 45619,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 113244,
-  "companies_with_2plus_backers": 37027,
-  "companies_with_vc_and_accelerator": 10952,
-  "companies_keyed_by_domain": 78701,
-  "companies_keyed_by_name": 34543,
-  "name_rows_joined_to_domain_company": 24886,
-  "companies_with_possible_matches": 15170,
-  "shared_hosts_treated_as_junk": 233,
-  "companies_with_funding_rounds": 22084,
-  "companies_funding_checked": 107928,
-  "funding_rounds_total": 39088,
-  "research_records_available": 123228,
+  "unique_companies": 116760,
+  "companies_with_2plus_backers": 38249,
+  "companies_with_vc_and_accelerator": 12315,
+  "companies_keyed_by_domain": 79576,
+  "companies_keyed_by_name": 37184,
+  "name_rows_joined_to_domain_company": 26622,
+  "companies_with_possible_matches": 15423,
+  "shared_hosts_treated_as_junk": 239,
+  "companies_with_funding_rounds": 22123,
+  "companies_funding_checked": 108082,
+  "funding_rounds_total": 39154,
+  "research_records_available": 123355,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17184,
-      "bytes": 39998342,
+      "companies": 17411,
+      "bytes": 39999953,
       "first_company": "!K7",
-      "last_company": "CARESWIFT"
+      "last_company": "Carbon Equity"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17167,
-      "bytes": 39999919,
-      "first_company": "Careswitch",
-      "last_company": "Ferric Semiconductor, Inc."
+      "companies": 17388,
+      "bytes": 39999515,
+      "first_company": "Carbon Ethics",
+      "last_company": "FalconHQ"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17469,
-      "bytes": 39997135,
-      "first_company": "Ferris",
-      "last_company": "KK Inc."
+      "companies": 17681,
+      "bytes": 39994331,
+      "first_company": "FalconX",
+      "last_company": "Kathy's Fresh"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17428,
-      "bytes": 39998411,
-      "first_company": "KKday",
-      "last_company": "Openlytics"
+      "companies": 17705,
+      "bytes": 39999640,
+      "first_company": "Katkin",
+      "last_company": "Ohm"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17178,
-      "bytes": 39999204,
-      "first_company": "OpenMarkets",
-      "last_company": "Seres Therapeutics"
+      "companies": 17371,
+      "bytes": 39998256,
+      "first_company": "Ohm Analytics",
+      "last_company": "Scale3"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17449,
-      "bytes": 39998119,
-      "first_company": "SERG Technologies",
-      "last_company": "Verdant Metrics"
+      "companies": 17737,
+      "bytes": 39999566,
+      "first_company": "ScaleArc (IgniteTech)",
+      "last_company": "Unison"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 9369,
-      "bytes": 19237130,
-      "first_company": "Verdant Robotics",
+      "companies": 11467,
+      "bytes": 23986974,
+      "first_company": "Unison",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
