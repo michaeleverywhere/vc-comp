@@ -1,70 +1,70 @@
 {
   "_comment": "One row per unique company across every Private Comps firm file and accelerator file (core identity + every backing firm/accelerator + all funding rounds). Split into parts of <= ~40 MB; concatenate every part in order. Built by automation/unique_builder.py; the per-firm master (all_companies*.json) and every firm/accelerator file are unchanged.",
   "part_limit_bytes": 40000000,
-  "total_source_rows": 204558,
-  "vc_source_rows": 158939,
+  "total_source_rows": 206495,
+  "vc_source_rows": 160876,
   "accelerator_source_rows": 45619,
   "unnamed_source_rows_skipped": 0,
-  "unique_companies": 116760,
-  "companies_with_2plus_backers": 38249,
-  "companies_with_vc_and_accelerator": 12315,
-  "companies_keyed_by_domain": 79576,
-  "companies_keyed_by_name": 37184,
-  "name_rows_joined_to_domain_company": 26622,
-  "companies_with_possible_matches": 15423,
-  "shared_hosts_treated_as_junk": 239,
-  "companies_with_funding_rounds": 22123,
-  "companies_funding_checked": 108082,
-  "funding_rounds_total": 39154,
-  "research_records_available": 123355,
+  "unique_companies": 117323,
+  "companies_with_2plus_backers": 38570,
+  "companies_with_vc_and_accelerator": 12377,
+  "companies_keyed_by_domain": 79808,
+  "companies_keyed_by_name": 37515,
+  "name_rows_joined_to_domain_company": 27299,
+  "companies_with_possible_matches": 15493,
+  "shared_hosts_treated_as_junk": 240,
+  "companies_with_funding_rounds": 22501,
+  "companies_funding_checked": 109096,
+  "funding_rounds_total": 39868,
+  "research_records_available": 124539,
   "parts": [
     {
       "file": "companies_unique.json",
-      "companies": 17411,
-      "bytes": 39999953,
+      "companies": 17321,
+      "bytes": 39996989,
       "first_company": "!K7",
-      "last_company": "Carbon Equity"
+      "last_company": "Capsilon"
     },
     {
       "file": "companies_unique_2.json",
-      "companies": 17388,
-      "bytes": 39999515,
-      "first_company": "Carbon Ethics",
-      "last_company": "FalconHQ"
+      "companies": 17321,
+      "bytes": 39998689,
+      "first_company": "CAPSL (Capsl Entertainment Limited)",
+      "last_company": "EZE Wholesale"
     },
     {
       "file": "companies_unique_3.json",
-      "companies": 17681,
-      "bytes": 39994331,
-      "first_company": "FalconX",
-      "last_company": "Kathy's Fresh"
+      "companies": 17625,
+      "bytes": 39999777,
+      "first_company": "EZee Assist",
+      "last_company": "Kaiber"
     },
     {
       "file": "companies_unique_4.json",
-      "companies": 17705,
-      "bytes": 39999640,
-      "first_company": "Katkin",
-      "last_company": "Ohm"
+      "companies": 17611,
+      "bytes": 39998999,
+      "first_company": "KAICO",
+      "last_company": "Nxtqube"
     },
     {
       "file": "companies_unique_5.json",
-      "companies": 17371,
-      "bytes": 39998256,
-      "first_company": "Ohm Analytics",
-      "last_company": "Scale3"
+      "companies": 17324,
+      "bytes": 39999353,
+      "first_company": "Nxyz",
+      "last_company": "Sahas Labs"
     },
     {
       "file": "companies_unique_6.json",
-      "companies": 17737,
-      "bytes": 39999566,
-      "first_company": "ScaleArc (IgniteTech)",
-      "last_company": "Unison"
+      "companies": 17637,
+      "bytes": 39996623,
+      "first_company": "Sahayak",
+      "last_company": "TurtleTree Labs"
     },
     {
       "file": "companies_unique_7.json",
-      "companies": 11467,
-      "bytes": 23986974,
-      "first_company": "Unison",
+      "companies": 12484,
+      "bytes": 26440001,
+      "first_company": "Turvo",
       "last_company": "ＷＨＩＬＬ株式会社"
     }
   ]
