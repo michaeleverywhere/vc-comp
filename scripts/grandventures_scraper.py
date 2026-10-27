@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Grand Ventures portfolio scraper — static HTML."""
+"""grandventures portfolio scraper.
+
+Source: https://grandvcp.com/portfolio/ — Midwest early-stage VC portfolio (Grand Ventures).
+"""
 from __future__ import annotations
 import json
 from pathlib import Path

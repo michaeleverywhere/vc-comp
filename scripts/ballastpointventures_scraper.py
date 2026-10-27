@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Ballast Point Ventures portfolio scraper — static HTML."""
+"""ballastpointventures portfolio scraper.
+
+Source: https://ballastpointpartners.com/our-companies/ — Southeast growth/venture portfolio (Ballast Point Ventures).
+"""
 from __future__ import annotations
 import json
 from pathlib import Path
