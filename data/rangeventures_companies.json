@@ -244,7 +244,65 @@
     "everywhere_tags": [],
     "primary_investor": "Range Ventures",
     "source_url": "https://www.range.vc/portfolio",
-    "scraped_at": "2026-10-27T00:24:29.161705+00:00"
+    "scraped_at": "2026-10-27T00:24:29.161705+00:00",
+    "funding_rounds": [
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 1700000.0,
+        "currency": "USD",
+        "date": "2023-08-11",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991204/000199120423000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Form D offering (round type not stated)",
+        "amount": 17866348.0,
+        "currency": "USD",
+        "date": "2024-04-23",
+        "investors": [],
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1991204/000199120424000001/primary_doc.xml",
+        "date_basis": "snippet"
+      },
+      {
+        "stage": "Series B",
+        "amount": 45000000.0,
+        "currency": "USD",
+        "date": "2025-01-16",
+        "investors": [],
+        "source_url": "https://www.magicschool.ai/blog-posts/announcing-magicschools-15m-series-a-raise"
+      },
+      {
+        "stage": "Series A",
+        "amount": 15000000.0,
+        "currency": "USD",
+        "date": "2026-04-27",
+        "investors": [],
+        "source_url": "https://www.magicschool.ai/blog-posts/series-b-fundraise-for-teacher-ai",
+        "date_source_url": "https://www.magicschool.ai/blog-posts/series-b-fundraise-for-teacher-ai",
+        "date_filled": "2026-10-26",
+        "extra100_hist_fill": "2026-10-26"
+      }
+    ],
+    "grants": [],
+    "funding_source_urls": [
+      "https://www.magicschool.ai/",
+      "https://www.magicschool.ai/blog-posts/announcing-magicschools-15m-series-a-raise",
+      "https://www.magicschool.ai/blog-posts/magicschool-raises-2-4m-to-fight-teacher-burnout-using-artificial-intelligence",
+      "https://www.magicschool.ai/blog-posts/series-b-fundraise-for-teacher-ai",
+      "https://www.sec.gov/Archives/edgar/data/1991204/000199120423000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1991204/000199120424000001/primary_doc.xml"
+    ],
+    "funding_status": "seed+",
+    "funding_notes": "Automated public-source fast pass: company website (homepage/press/news/about/sitemap); SEC EDGAR Form D bulk match (identity verified by homepage-legal-name); rounds not found publicly may exist; Form D amounts are total sold per SEC filing; round type not stated in filing",
+    "funding_checked": "2026-10-26",
+    "last_round_type": "Series A",
+    "last_round_amount": 15000000.0,
+    "last_round_currency": "USD",
+    "last_round_date": "2026-04-27",
+    "total_raised": 79566348,
+    "total_raised_currency": "USD",
+    "total_raised_basis": "sum_of_sourced_rounds"
   },
   {
     "company_name": "Nomad",
